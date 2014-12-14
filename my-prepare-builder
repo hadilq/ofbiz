@@ -4,5 +4,7 @@
 # sudo update-alternatives --config javac
 # sudo update-alternatives --config java
 
+# ant load-demo start
+
 sh ant build
 sh ant start

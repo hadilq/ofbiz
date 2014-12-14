@@ -36,19 +36,8 @@ public final class JsLanguageFilesMapping {
         private static String defaultDateJs = "/images/jquery/plugins/datejs/date-en-US.js";
 
         static {
-            localeFiles.put("ar", "/images/jquery/plugins/datejs/date-en-US.js");
-            localeFiles.put("zh", "/images/jquery/plugins/datejs/date-en-US.js");
-            localeFiles.put("nl", "/images/jquery/plugins/datejs/date-nl-NL.js");
             localeFiles.put("en", "/images/jquery/plugins/datejs/date-en-US.js");
-            localeFiles.put("fr", "/images/jquery/plugins/datejs/date-fr-FR.js");
-            localeFiles.put("de", "/images/jquery/plugins/datejs/date-de-DE.js");
-            localeFiles.put("hi", "/images/jquery/plugins/datejs/date-en-US.js");
-            localeFiles.put("it", "/images/jquery/plugins/datejs/date-it-IT.js");
-            localeFiles.put("pt", "/images/jquery/plugins/datejs/date-pt-PT.js");
-            localeFiles.put("ro", "/images/jquery/plugins/datejs/date-ro-RO.js");
-            localeFiles.put("ru", "/images/jquery/plugins/datejs/date-ru-RU.js");
-            localeFiles.put("es", "/images/jquery/plugins/datejs/date-es-ES.js");
-            localeFiles.put("th", "/images/jquery/plugins/datejs/date-th-TH.js");
+            localeFiles.put("fa_IR_IR", "/images/jquery/plugins/datejs/date-fa-IR.js");
         }
 
         public static String getFilePath(String locale) {
@@ -65,19 +54,8 @@ public final class JsLanguageFilesMapping {
         private static String defaultDateJs = "/images/jquery/ui/i18n/jquery.ui.datepicker-en.js";
 
         static {
-            localeFiles.put("ar", "/images/jquery/ui/i18n/jquery.ui.datepicker-ar.js");
-            localeFiles.put("zh", "/images/jquery/ui/i18n/jquery.ui.datepicker-en.js");
-            localeFiles.put("nl", "/images/jquery/ui/i18n/jquery.ui.datepicker-nl.js");
             localeFiles.put("en", "/images/jquery/ui/i18n/jquery.ui.datepicker-en.js");
-            localeFiles.put("fr", "/images/jquery/ui/i18n/jquery.ui.datepicker-fr.js");
-            localeFiles.put("de", "/images/jquery/ui/i18n/jquery.ui.datepicker-de.js");
-            localeFiles.put("hi", "/images/jquery/ui/i18n/jquery.ui.datepicker-hi.js");
-            localeFiles.put("it", "/images/jquery/ui/i18n/jquery.ui.datepicker-it.js");
-            localeFiles.put("pt", "/images/jquery/ui/i18n/jquery.ui.datepicker-pt.js");
-            localeFiles.put("ro", "/images/jquery/ui/i18n/jquery.ui.datepicker-ro.js");
-            localeFiles.put("ru", "/images/jquery/ui/i18n/jquery.ui.datepicker-ru.js");
-            localeFiles.put("es", "/images/jquery/ui/i18n/jquery.ui.datepicker-es.js");
-            localeFiles.put("th", "/images/jquery/ui/i18n/jquery.ui.datepicker-th.js");
+            localeFiles.put("fa_IR_IR", "/images/jquery/ui/i18n/jquery.ui.datepicker-fa.js");
         }
 
         public static String getFilePath(String locale) {
@@ -94,19 +72,8 @@ public final class JsLanguageFilesMapping {
         private static String defaultValidation = "/images/webapp/images/jquery/plugins/validate/localization/messages_en.js";
 
         static {
-            localeFiles.put("ar", "/images/jquery/plugins/validate/localization/messages_ar.js");
-            localeFiles.put("zh", "/images/jquery/plugins/validate/localization/messages_zh.js");
-            localeFiles.put("nl", "/images/jquery/plugins/validate/localization/messages_nl.js");
             localeFiles.put("en", "/images/jquery/plugins/validate/localization/messages_en.js");
-            localeFiles.put("fr", "/images/jquery/plugins/validate/localization/messages_fr.js");
-            localeFiles.put("de", "/images/jquery/plugins/validate/localization/messages_de.js");
-            localeFiles.put("hi", "/images/jquery/plugins/validate/localization/messages_en.js");
-            localeFiles.put("it", "/images/jquery/plugins/validate/localization/messages_it.js");
-            localeFiles.put("pt", "/images/jquery/plugins/validate/localization/messages_en.js");
-            localeFiles.put("ro", "/images/jquery/plugins/validate/localization/messages_ro.js");
-            localeFiles.put("ru", "/images/jquery/plugins/validate/localization/messages_ru.js");
-            localeFiles.put("es", "/images/jquery/plugins/validate/localization/messages_es.js");
-            localeFiles.put("th", "/images/jquery/plugins/validate/localization/messages_th.js");
+            localeFiles.put("fa_IR_IR", "/images/jquery/plugins/validate/localization/messages_fa.js");
         }
 
         public static String getFilePath(String locale) {
@@ -122,19 +89,8 @@ public final class JsLanguageFilesMapping {
         private static String defaultDateTime = "/images/webapp/images/jquery/ui/i18n/jquery.ui.datepicker-en.js";
 
         static {
-            localeFiles.put("ar", "/images/jquery/plugins/datetimepicker/localization/jquery-ui-timepicker-en.js");
-            localeFiles.put("zh", "/images/jquery/plugins/datetimepicker/localization/jquery-ui-timepicker-en.js");
-            localeFiles.put("nl", "/images/jquery/plugins/datetimepicker/localization/jquery-ui-timepicker-nl.js");
             localeFiles.put("en", "/images/jquery/plugins/datetimepicker/localization/jquery-ui-timepicker-en.js");
-            localeFiles.put("fr", "/images/jquery/plugins/datetimepicker/localization/jquery-ui-timepicker-fr.js");
-            localeFiles.put("de", "/images/jquery/plugins/datetimepicker/localization/jquery-ui-timepicker-de.js");
-            localeFiles.put("hi", "/images/jquery/plugins/datetimepicker/localization/jquery-ui-timepicker-en.js");
-            localeFiles.put("it", "/images/jquery/plugins/datetimepicker/localization/jquery-ui-timepicker-it.js");
-            localeFiles.put("pt", "/images/jquery/plugins/datetimepicker/localization/jquery-ui-timepicker-pt.js");
-            localeFiles.put("ro", "/images/jquery/plugins/datetimepicker/localization/jquery-ui-timepicker-ro.js");
-            localeFiles.put("ru", "/images/jquery/plugins/datetimepicker/localization/jquery-ui-timepicker-ru.js");
-            localeFiles.put("es", "/images/jquery/plugins/datetimepicker/localization/jquery-ui-timepicker-es.js");
-            localeFiles.put("th", "/images/jquery/plugins/datetimepicker/localization/jquery-ui-timepicker-th.js");
+            localeFiles.put("fa_IR_IR", "/images/jquery/plugins/datetimepicker/localization/jquery-ui-timepicker-fa.js");
         }
 
         public static String getFilePath(String locale) {
