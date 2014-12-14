@@ -1,0 +1,8 @@
+#!/bin/sh
+
+
+# sudo update-alternatives --config javac
+# sudo update-alternatives --config java
+
+sh ant build
+sh ant start
