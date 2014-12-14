@@ -16,6 +16,14 @@ KIND, either express or implied.  See the License for the
 specific language governing permissions and limitations
 under the License.
 -->
+<<<<<<< HEAD
+=======
+<#assign RightToLeftLocales = Static["org.ofbiz.base.util.UtilMisc"].RightToLeftLocales()/>
+<#assign langDir = "ltr">
+<#if RightToLeftLocales?contains(langAttr?substring(0, 2))>
+    <#assign langDir = "rtl">
+</#if>
+>>>>>>> df11098... ofbiz-commit
 <script language="JavaScript" type="text/javascript">
     function updateAndSaveLabel() {
         document.UpdateLabelForm.action="<@ofbizUrl>SaveLabelsToXmlFile</@ofbizUrl>";
@@ -94,10 +102,13 @@ under the License.
                         <#assign locale = Static["org.ofbiz.base.util.UtilMisc"].parseLocale(localeFound)?if_exists/>
                         <#if locale?exists && locale?has_content>
                             <#assign langAttr = localeFound.toString()?replace("_", "-")>
+<<<<<<< HEAD
                             <#assign langDir = "ltr">
                             <#if "ar.iw"?contains(langAttr?substring(0, 2))>
                                 <#assign langDir = "rtl">
                             </#if>
+=======
+>>>>>>> df11098... ofbiz-commit
                             <td lang="${langAttr}" dir="${langDir}" class="label">
                                 ${locale.getDisplayName(locale)}
                             </td>

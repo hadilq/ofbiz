@@ -94,7 +94,10 @@ function getUploadProgressStatus(event){
             var timerId = timerId;
             jQuery.ajax({
                 url: 'getFileUploadProgressStatus',
+<<<<<<< HEAD
                 dataType: 'json',
+=======
+>>>>>>> df11098... ofbiz-commit
                 success: function(data) {
                     if (data._ERROR_MESSAGE_LIST_ != undefined) {
                         jQuery('#content-messages').html(data._ERROR_MESSAGE_LIST_);

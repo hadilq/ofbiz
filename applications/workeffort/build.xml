@@ -43,6 +43,10 @@ under the License.
         <fileset dir="../../framework/webapp/lib" includes="*.jar"/>
         <fileset dir="../../framework/webapp/build/lib" includes="*.jar"/>
         <fileset dir="../../framework/common/build/lib" includes="*.jar"/>
+<<<<<<< HEAD
+=======
+        <fileset dir="../../framework/widget/build/lib" includes="*.jar"/>
+>>>>>>> df11098... ofbiz-commit
         <fileset dir="../content/build/lib" includes="*.jar"/>
         <fileset dir="../party/build/lib" includes="*.jar"/>
     </path>

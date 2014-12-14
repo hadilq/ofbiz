@@ -3073,7 +3073,11 @@ public class MacroFormRenderer implements FormStringRenderer {
             parameters.append(parameter.getName());
             parameters.append("'");
             parameters.append(",'value':'");
+<<<<<<< HEAD
             parameters.append(StringUtil.htmlEncoder.encode(parameter.getValue(context)));
+=======
+            parameters.append(parameter.getValue(context));
+>>>>>>> df11098... ofbiz-commit
             parameters.append("'}");
         }
         parameters.append("]");

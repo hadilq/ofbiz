@@ -218,19 +218,31 @@ public class ModelFormField {
     }
 
     protected void addOnChangeUpdateArea(UpdateArea updateArea) {
+<<<<<<< HEAD
         if (onChangeUpdateAreas == null) onChangeUpdateAreas = FastList.newInstance();        
+=======
+        if (onChangeUpdateAreas == null) onChangeUpdateAreas = FastList.newInstance();
+>>>>>>> df11098... ofbiz-commit
         onChangeUpdateAreas.add(updateArea);
         Debug.logInfo(this.modelForm.getName() + ":" + this.name + " onChangeUpdateAreas size = " + onChangeUpdateAreas.size(), module);
     }
 
     protected void addOnClickUpdateArea(UpdateArea updateArea) {
+<<<<<<< HEAD
         if (onClickUpdateAreas == null) onClickUpdateAreas = FastList.newInstance();        
+=======
+        if (onClickUpdateAreas == null) onClickUpdateAreas = FastList.newInstance();
+>>>>>>> df11098... ofbiz-commit
         onClickUpdateAreas.add(updateArea);
     }
 
     public void mergeOverrideModelFormField(ModelFormField overrideFormField) {
         if (overrideFormField == null) return;
+<<<<<<< HEAD
         
+=======
+
+>>>>>>> df11098... ofbiz-commit
         // incorporate updates for values that are not empty in the overrideFormField
         if (UtilValidate.isNotEmpty(overrideFormField.name)) this.name = overrideFormField.name;
         if (UtilValidate.isNotEmpty(overrideFormField.mapAcsr)) this.mapAcsr = overrideFormField.mapAcsr; //Debug.logInfo("overriding mapAcsr, old=" + (this.mapAcsr==null?"null":this.mapAcsr.getOriginalName()) + ", new=" + overrideFormField.mapAcsr.getOriginalName(), module);
@@ -360,7 +372,11 @@ public class ModelFormField {
 
     public boolean induceFieldInfoFromEntityField(String defaultFieldType) {
         if (UtilValidate.isEmpty(this.getEntityName()) || UtilValidate.isEmpty(this.getFieldName())) return false;
+<<<<<<< HEAD
         
+=======
+
+>>>>>>> df11098... ofbiz-commit
         ModelReader entityModelReader = this.getModelForm().entityModelReader;
         try {
             ModelEntity modelEntity = entityModelReader.getModelEntity(this.getEntityName());
@@ -560,7 +576,11 @@ public class ModelFormField {
      * with this field. This can be used to get additional information about the field.
      * Use the getServiceName() method to get the Entity name that the field is in.
      *
+<<<<<<< HEAD
      * @return returns the name of the Service Attribute 
+=======
+     * @return returns the name of the Service Attribute
+>>>>>>> df11098... ofbiz-commit
      */
     public String getAttributeName() {
         if (UtilValidate.isNotEmpty(this.attributeName)) return this.attributeName;
@@ -586,6 +606,63 @@ public class ModelFormField {
      * @param context the context
      * @return returns the entry from the context that corresponds to this field
      */
+<<<<<<< HEAD
+=======
+    public Object getObjectEntry(Map<String, ? extends Object> context ) {
+        Boolean useRequestParameters = (Boolean) context.get("useRequestParameters");
+
+        Locale locale = (Locale) context.get("locale");
+        if (locale == null) locale = Locale.getDefault();
+
+        //Debug.logInfo("Getting entry, isError false so getting from Map in context for field " + this.getName() + " of form " + this.modelForm.getName(), module);
+        Map<String, ? extends Object> dataMap = this.getMap(context);
+        boolean dataMapIsContext = false;
+        if (dataMap == null) {
+            //Debug.logInfo("Getting entry, no Map found with name " + this.getMapName() + ", using context for field " + this.getName() + " of form " + this.modelForm.getName(), module);
+            dataMap = context;
+            dataMapIsContext = true;
+        }
+        Object retVal = null;
+        if (UtilValidate.isNotEmpty(this.entryAcsr)) {
+            //Debug.logInfo("Getting entry, using entryAcsr for field " + this.getName() + " of form " + this.modelForm.getName(), module);
+            if (dataMap instanceof GenericEntity) {
+                GenericEntity genEnt = (GenericEntity) dataMap;
+                if (genEnt.getModelEntity().isField(this.entryAcsr.getOriginalName())) {
+                    retVal = genEnt.get(this.entryAcsr.getOriginalName(), locale);
+                } else {
+                    //TODO: this may never come up, but if necessary use the FlexibleStringExander to eval the name first: String evaled = this.entryAcsr
+                }
+            } else {
+                retVal = this.entryAcsr.get(dataMap, locale);
+            }
+        } else {
+            //Debug.logInfo("Getting entry, no entryAcsr so using field name " + this.name + " for field " + this.getName() + " of form " + this.modelForm.getName(), module);
+            // if no entry name was specified, use the field's name
+            retVal = dataMap.get(this.name);;
+        }
+
+        // this is a special case to fill in fields during a create by default from parameters passed in
+        if (dataMapIsContext && retVal == null && !Boolean.FALSE.equals(useRequestParameters)) {
+            Map<String, ? extends Object> parameters = UtilGenerics.checkMap(context.get("parameters"));
+            if (parameters != null) {
+                if (UtilValidate.isNotEmpty(this.entryAcsr))  retVal = this.entryAcsr.get(parameters);
+                else retVal = parameters.get(this.name);
+            }
+        }
+
+        return retVal;
+    }
+
+    /**
+     * Gets the entry from the context that corresponds to this field; if this
+     * form is being rendered in an error condition (ie isError in the context
+     * is true) then the value will be retreived from the parameters Map in
+     * the context.
+     *
+     * @param context the context
+     * @return returns the entry from the context that corresponds to this field
+     */
+>>>>>>> df11098... ofbiz-commit
     public String getEntry(Map<String, ? extends Object> context) {
         return this.getEntry(context, "");
     }
@@ -620,6 +697,7 @@ public class ModelFormField {
                 returnValue = defaultValue;
             }
         } else {
+<<<<<<< HEAD
             //Debug.logInfo("Getting entry, isError false so getting from Map in context for field " + this.getName() + " of form " + this.modelForm.getName(), module);
             Map<String, ? extends Object> dataMap = this.getMap(context);
             boolean dataMapIsContext = false;
@@ -655,6 +733,9 @@ public class ModelFormField {
                     else retVal = parameters.get(this.name);
                 }
             }
+=======
+            Object retVal = getObjectEntry(context);
+>>>>>>> df11098... ofbiz-commit
 
             if (retVal != null) {
                 // format string based on the user's locale and time zone
@@ -691,7 +772,11 @@ public class ModelFormField {
 
     public Map<String, ? extends Object> getMap(Map<String, ? extends Object> context) {
         if (UtilValidate.isEmpty(this.mapAcsr)) return this.modelForm.getDefaultMap(context); //Debug.logInfo("Getting Map from default of the form because of no mapAcsr for field " + this.getName(), module);
+<<<<<<< HEAD
             
+=======
+
+>>>>>>> df11098... ofbiz-commit
         // Debug.logInfo("Getting Map from mapAcsr for field " + this.getName() + ", map-name=" + mapAcsr.getOriginalName() + ", context type=" + context.getClass().toString(), module);
         Map<String, ? extends Object> result = null;
         try {
@@ -891,7 +976,11 @@ public class ModelFormField {
 
     public String getTitle(Map<String, Object> context) {
         if (UtilValidate.isNotEmpty(this.title)) return title.expandString(context);
+<<<<<<< HEAD
         
+=======
+
+>>>>>>> df11098... ofbiz-commit
         // create a title from the name of this field; expecting a Java method/field style name, ie productName or productCategoryId
         if (UtilValidate.isEmpty(this.name)) return ""; // this should never happen, ie name is required
 
@@ -958,6 +1047,7 @@ public class ModelFormField {
     public String getTooltip(Map<String, Object> context) {
         String tooltipString = "";
         if (UtilValidate.isNotEmpty(tooltip)) tooltipString = tooltip.expandString(context);
+<<<<<<< HEAD
         if (this.getEncodeOutput()) {            
             StringUtil.SimpleEncoder simpleEncoder = (StringUtil.SimpleEncoder) context.get("simpleEncoder");
             if (simpleEncoder != null) tooltipString = simpleEncoder.encode(tooltipString);
@@ -965,6 +1055,15 @@ public class ModelFormField {
         return tooltipString;        
     }
     
+=======
+        if (this.getEncodeOutput()) {
+            StringUtil.SimpleEncoder simpleEncoder = (StringUtil.SimpleEncoder) context.get("simpleEncoder");
+            if (simpleEncoder != null) tooltipString = simpleEncoder.encode(tooltipString);
+        }
+        return tooltipString;
+    }
+
+>>>>>>> df11098... ofbiz-commit
     public String getUseWhen(Map<String, Object> context) {
         if (UtilValidate.isNotEmpty(this.useWhen)) return this.useWhen.expandString(context);
         return "";
@@ -1022,7 +1121,11 @@ public class ModelFormField {
     public boolean shouldUse(Map<String, Object> context) {
         String useWhenStr = this.getUseWhen(context);
         if (UtilValidate.isEmpty(useWhenStr)) return true;
+<<<<<<< HEAD
         
+=======
+
+>>>>>>> df11098... ofbiz-commit
         try {
             Interpreter bsh = this.modelForm.getBshInterpreter(context);
             Object retVal = bsh.eval(StringUtil.convertOperatorSubstitutions(useWhenStr));
@@ -1240,7 +1343,11 @@ public class ModelFormField {
     }
 
     /**
+<<<<<<< HEAD
      * @param required the field is required 
+=======
+     * @param required the field is required
+>>>>>>> df11098... ofbiz-commit
      */
     public void setRequiredField(boolean required) {
         this.requiredField = required;
@@ -1981,6 +2088,7 @@ public class ModelFormField {
 
         public String getDescription(Map<String, Object> context) {
             String retVal = null;
+<<<<<<< HEAD
             if (UtilValidate.isNotEmpty(this.description)) retVal = this.description.expandString(context);
             else retVal = this.modelFormField.getEntry(context);
 
@@ -1988,11 +2096,21 @@ public class ModelFormField {
                 retVal = this.getDefaultValue(context);
             } else if ("currency".equals(type)) {
                 retVal = retVal.replaceAll("&nbsp;", " "); // FIXME : encoding currency is a problem for some locale, we should not have any &nbsp; in retVal other case may arise in future...
+=======
+            Object ObjRetVal = null;
+            if (UtilValidate.isNotEmpty(this.description)) ObjRetVal = this.description.expandString(context);
+            else ObjRetVal = this.modelFormField.getObjectEntry(context);
+
+            if (ObjRetVal instanceof String && UtilValidate.isEmpty(ObjRetVal)) {
+                retVal = this.getDefaultValue(context);
+            } else if ("currency".equals(type)) {
+>>>>>>> df11098... ofbiz-commit
                 Locale locale = (Locale) context.get("locale");
                 if (locale == null) locale = Locale.getDefault();
                 String isoCode = null;
                 if (UtilValidate.isNotEmpty(this.currency)) isoCode = this.currency.expandString(context);
 
+<<<<<<< HEAD
                 try {
                     BigDecimal parsedRetVal = (BigDecimal) ObjectType.simpleTypeConvert(retVal, "BigDecimal", null, null, locale, true);
                     retVal = UtilFormatOut.formatCurrency(parsedRetVal, isoCode, locale, 10); // we set the max to 10 digits as an hack to not round numbers in the ui
@@ -2048,11 +2166,81 @@ public class ModelFormField {
                     // create default date/time value from timestamp string
                     retVal = retVal.substring(0,16);
                 }
+=======
+                if (ObjRetVal instanceof BigDecimal)
+                    retVal = UtilFormatOut.formatCurrency((BigDecimal) ObjRetVal, isoCode, locale, 10); // we set the max to 10 digits as an hack to not round numbers in the ui
+                else if (ObjRetVal instanceof Double)
+                    retVal = UtilFormatOut.formatCurrency((Double) ObjRetVal, isoCode, locale, 10); // we set the max to 10 digits as an hack to not round numbers in the ui
+                else {
+                    try { // FIXME: There shouldn't be any string currency here! but they are!
+                        BigDecimal parsedRetVal = (BigDecimal) ObjectType.simpleTypeConvert(ObjRetVal, "BigDecimal", null, null, locale, true);
+                        retVal = UtilFormatOut.formatCurrency(parsedRetVal, isoCode, locale, 10); // we set the max to 10 digits as an hack to not round numbers in the ui
+                    } catch (GeneralException e) {
+                        String errMsg = "Error formatting currency value [" + retVal + "]: " + e.toString();
+                        Debug.logError(e, errMsg, module);
+                        throw new IllegalArgumentException(errMsg);
+                    }
+                }
+            } else if ("date".equals(this.type)) {
+                Locale locale = (Locale) context.get("locale");
+                if (locale == null) locale = Locale.getDefault();
+
+                Date date = null;
+
+                if (ObjRetVal instanceof Timestamp)
+                    date = new Date(((Timestamp) ObjRetVal).getTime());
+                else {
+                    StringToTimestamp stringToTimestamp = new DateTimeConverters.StringToTimestamp();
+
+                    try { // FIXME: There shouldn't be any string date here! but they are!
+                        Timestamp timestamp = null;
+                        timestamp = stringToTimestamp.convert((String) ObjRetVal);
+                        date = new Date(timestamp.getTime());
+                    }
+                    catch (ConversionException e) {
+                        String errMsg = "Error formatting date using default instead [" + retVal + "]: " + e.toString();
+                        Debug.logError(e, errMsg, module);
+                        // create default date value from timestamp string
+                        retVal = retVal.substring(0,10);
+                    }
+                }
+                DateFormat dateFormatter = DateFormat.getDateInstance(DateFormat.SHORT, locale);
+                retVal = dateFormatter.format(date);
+
+            } else if ("date-time".equals(this.type)) {
+                Locale locale = (Locale) context.get("locale");
+                TimeZone timeZone = (TimeZone) context.get("timeZone");
+                if (locale == null) locale = Locale.getDefault();
+                if (timeZone == null) timeZone = TimeZone.getDefault();
+
+                Date date = null;
+
+                if (ObjRetVal instanceof Timestamp)
+                    date = new Date(((Timestamp) ObjRetVal).getTime());
+                else {
+                    StringToTimestamp stringToTimestamp = new DateTimeConverters.StringToTimestamp();
+                    Timestamp timestamp = null;
+                    try {
+                        timestamp = stringToTimestamp.convert((String) ObjRetVal);
+                        date = new Date(timestamp.getTime());
+                    }
+                    catch (ConversionException e) {
+                        String errMsg = "Error formatting date/time using default instead [" + retVal + "]: " + e.toString();
+                        Debug.logError(e, errMsg, module);
+                        // create default date/time value from timestamp string
+                        retVal = retVal.substring(0,16);
+                    }
+                }
+                DateFormat dateFormatter = UtilDateTime.toDateTimeFormat(null, timeZone, locale);
+                retVal = dateFormatter.format(date);
+
+>>>>>>> df11098... ofbiz-commit
             } else if ("accounting-number".equals(this.type)) {
                 Locale locale = (Locale) context.get("locale");
                 if (locale == null) {
                     locale = Locale.getDefault();
                 }
+<<<<<<< HEAD
                 try {
                     Double parsedRetVal = (Double) ObjectType.simpleTypeConvert(retVal, "Double", null, locale, false);
                     String template = UtilProperties.getPropertyValue("arithmetic", "accounting-number.format", "#,##0.00;(#,##0.00)");
@@ -2064,6 +2252,27 @@ public class ModelFormField {
                 }
             }
             if (UtilValidate.isNotEmpty(this.description) && retVal != null && this.getModelFormField().getEncodeOutput()) {
+=======
+
+                String template = UtilProperties.getPropertyValue("arithmetic", "accounting-number.format", "#,##0.00;(#,##0.00)");
+                if (ObjRetVal instanceof Double)
+                    retVal = UtilFormatOut.formatDecimalNumber(((Double) ObjRetVal).doubleValue(), template, locale);
+                else {
+                    try {
+                        Double parsedRetVal = (Double) ObjectType.simpleTypeConvert(ObjRetVal, "Double", null, locale, false);
+                        retVal = UtilFormatOut.formatDecimalNumber(parsedRetVal.doubleValue(), template, locale);
+                    } catch (GeneralException e) {
+                        String errMsg = "Error formatting number [" + retVal + "]: " + e.toString();
+                        Debug.logError(e, errMsg, module);
+                        throw new IllegalArgumentException(errMsg);
+                    }
+                }
+            } else {
+                if (ObjRetVal == null) retVal = this.getDefaultValue(context); else retVal = ObjRetVal.toString();
+            }
+
+            if (retVal != null && this.getModelFormField().getEncodeOutput()) {
+>>>>>>> df11098... ofbiz-commit
                 StringUtil.SimpleEncoder simpleEncoder = (StringUtil.SimpleEncoder) context.get("simpleEncoder");
                 if (simpleEncoder != null) {
                     retVal = simpleEncoder.encode(retVal);
@@ -2174,7 +2383,11 @@ public class ModelFormField {
             GenericValue value = null;
             String fieldKey = this.keyFieldName;
             if (UtilValidate.isEmpty(fieldKey))  fieldKey = this.modelFormField.fieldName;
+<<<<<<< HEAD
             
+=======
+
+>>>>>>> df11098... ofbiz-commit
             Delegator delegator = WidgetWorker.getDelegator(context);
             String fieldValue = modelFormField.getEntry(context);
             try {
@@ -2278,8 +2491,13 @@ public class ModelFormField {
 
         public String getConfirmation(Map<String, Object> context) {
             String message = getConfirmationMsg(context);
+<<<<<<< HEAD
             if (UtilValidate.isNotEmpty(message)) return message;            
             
+=======
+            if (UtilValidate.isNotEmpty(message)) return message;
+
+>>>>>>> df11098... ofbiz-commit
             if (getRequestConfirmation()) {
                 String defaultMessage = UtilProperties.getPropertyValue("general", "default.confirmation.message", "${uiLabelMap.CommonConfirm}");
                 setConfirmationMsg(defaultMessage);
@@ -2313,7 +2531,11 @@ public class ModelFormField {
         public String getAlternate(Map<String, Object> context) {
             return this.alternate.expandString(context);
         }
+<<<<<<< HEAD
         
+=======
+
+>>>>>>> df11098... ofbiz-commit
         public String getImageLocation(Map<String, Object> context) {
             return this.imageLocation.expandString(context);
         }
@@ -2328,16 +2550,28 @@ public class ModelFormField {
 
         public Map<String, String> getParameterMap(Map<String, Object> context) {
             Map<String, String> fullParameterMap = FastMap.newInstance();
+<<<<<<< HEAD
             
+=======
+
+>>>>>>> df11098... ofbiz-commit
             Map<String, String> addlParamMap = this.parametersMapAcsr.get(context);
             if (addlParamMap != null) {
                 fullParameterMap.putAll(addlParamMap);
             }
+<<<<<<< HEAD
             
             for (WidgetWorker.Parameter parameter: this.parameterList) {
                 fullParameterMap.put(parameter.getName(), parameter.getValue(context));
             }
             
+=======
+
+            for (WidgetWorker.Parameter parameter: this.parameterList) {
+                fullParameterMap.put(parameter.getName(), parameter.getValue(context));
+            }
+
+>>>>>>> df11098... ofbiz-commit
             return fullParameterMap;
         }
 
@@ -2376,7 +2610,11 @@ public class ModelFormField {
         public void setImageLocation(String string) {
             this.imageLocation = FlexibleStringExpander.getInstance(string);
         }
+<<<<<<< HEAD
         
+=======
+
+>>>>>>> df11098... ofbiz-commit
         /**
          * @param string
          */
@@ -2481,11 +2719,19 @@ public class ModelFormField {
                 fullParameterMap.putAll(addlParamMap);
             }
             */
+<<<<<<< HEAD
             
             for (WidgetWorker.Parameter parameter: this.parameterList) {
                 fullParameterMap.put(parameter.getName(), parameter.getValue(context));
             }
             
+=======
+
+            for (WidgetWorker.Parameter parameter: this.parameterList) {
+                fullParameterMap.put(parameter.getName(), parameter.getValue(context));
+            }
+
+>>>>>>> df11098... ofbiz-commit
             return fullParameterMap;
         }
 
@@ -2508,7 +2754,11 @@ public class ModelFormField {
         public String getConfirmation(Map<String, Object> context) {
             String message = getConfirmationMsg(context);
             if (UtilValidate.isNotEmpty(message)) return message;
+<<<<<<< HEAD
             
+=======
+
+>>>>>>> df11098... ofbiz-commit
             if (getRequestConfirmation()) {
                 String defaultMessage = UtilProperties.getPropertyValue("general", "default.confirmation.message", "${uiLabelMap.CommonConfirm}");
                 setConfirmationMsg(defaultMessage);
@@ -3544,7 +3794,11 @@ public class ModelFormField {
             this.lookupHeight = element.getAttribute("height");
             this.lookupWidth = element.getAttribute("width");
             this.lookupPosition = element.getAttribute("position");
+<<<<<<< HEAD
             this.fadeBackground = element.getAttribute("fade-background");            
+=======
+            this.fadeBackground = element.getAttribute("fade-background");
+>>>>>>> df11098... ofbiz-commit
             this.initiallyCollapsed = element.getAttribute("initially-collapsed");
             this.showDescription = element.getAttribute("show-description");
 

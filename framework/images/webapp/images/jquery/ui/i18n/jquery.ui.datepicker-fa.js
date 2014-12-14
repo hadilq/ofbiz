@@ -21,7 +21,11 @@ jQuery(function($) {
 			'بهمن',
 			'اسفند'
 		],
+<<<<<<< HEAD
 		monthNamesShort: ['1','2','3','4','5','6','7','8','9','10','11','12'],
+=======
+		monthNamesShort: ['۱','۲','۳','۴','۵','۶','۷','۸','۹','۱۰','۱۱','۱۲'],
+>>>>>>> df11098... ofbiz-commit
 		dayNames: [
 			'يکشنبه',
 			'دوشنبه',
@@ -50,7 +54,11 @@ jQuery(function($) {
 			'ش'
 		],
 		weekHeader: 'هف',
+<<<<<<< HEAD
 		dateFormat: 'yy/mm/dd',
+=======
+		dateFormat: 'yyyy/mm/dd',
+>>>>>>> df11098... ofbiz-commit
 		firstDay: 6,
 		isRTL: true,
 		showMonthAfterYear: false,

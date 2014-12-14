@@ -28,10 +28,18 @@ under the License.
     <form method="post" name="chooseLanguage" action="<@ofbizUrl>setSessionLocale</@ofbizUrl>">
       <select name="newLocale" class="selectBox" style="width:95%" onchange="submit()">
         <#assign availableLocales = Static["org.ofbiz.base.util.UtilMisc"].availableLocales()/>
+<<<<<<< HEAD
         <#list availableLocales as availableLocale>
           <#assign langAttr = availableLocale.toString()?replace("_", "-")>
           <#assign langDir = "ltr">
           <#if "ar.iw"?contains(langAttr?substring(0, 2))>
+=======
+        <#assign RightToLeftLocales = Static["org.ofbiz.base.util.UtilMisc"].RightToLeftLocales()/>
+        <#list availableLocales as availableLocale>
+          <#assign langAttr = availableLocale.toString()?replace("_", "-")>
+          <#assign langDir = "ltr">
+          <#if RightToLeftLocales?contains(langAttr?substring(0, 2))>
+>>>>>>> df11098... ofbiz-commit
             <#assign langDir = "rtl">
           </#if>
           <option lang="${langAttr}" dir="${langDir}" value="${availableLocale.toString()}"<#if locale.toString() = availableLocale.toString()> selected="selected"</#if>>${availableLocale.getDisplayName(availableLocale)}</option>
@@ -39,4 +47,8 @@ under the License.
       </select>
     </form>
   </div>
+<<<<<<< HEAD
 </div>
+=======
+</div>
+>>>>>>> df11098... ofbiz-commit

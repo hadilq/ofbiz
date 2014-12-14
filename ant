@@ -18,6 +18,14 @@
 # under the License.
 #####################################################################
 
+<<<<<<< HEAD
+=======
+JAVA_HOME="/home/apps/openjdk8u/build/linux-x86-normal-server-release/images/j2sdk-image"
+
+#JAVA_HOME="/home/apps/openjdk7u/build/linux-i586/j2sdk-server-image"
+
+
+>>>>>>> df11098... ofbiz-commit
 # location of java executable
 if [ -f "$JAVA_HOME/bin/java" ]; then
   JAVA="$JAVA_HOME/bin/java"
@@ -37,3 +45,8 @@ find_jar() {
 }
 "$JAVA" -jar "$(find_jar)" -lib "$top/framework/base/lib/ant" "$@"
 
+<<<<<<< HEAD
+=======
+
+#"$JAVA" -jar "$top/framework/base/lib/ant-1.9.0-ant-launcher.jar" -lib "$top/framework/base/lib/ant" #"$@"
+>>>>>>> df11098... ofbiz-commit

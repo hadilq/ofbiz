@@ -69,7 +69,11 @@ public class JsLanguageFileMappingCreator {
         String defaultLocaleJquery = "en"; // Beware to keep the OFBiz specific jquery.ui.datepicker-en.js file when upgrading...
 
         for (Locale locale : localeList) {
+<<<<<<< HEAD
             String displayCountry = locale.toString();
+=======
+            String displayCountry = UtilMisc.normalizeLocaleString(locale.toString());
+>>>>>>> df11098... ofbiz-commit
             String modifiedDisplayCountry = null;
             String modifiedDisplayCountryForValidation = null;
             if (displayCountry.contains("_")) {

@@ -117,7 +117,11 @@ under the License.
         <exclude name="**/JPublishWrapper.java"/>
         <exclude name="**/FopPdfViewHandler.java"/>
         <exclude name="**/FreeMarkerViewRenderer.java"/>
+<<<<<<< HEAD
         <exclude name="**/JpCacheIncludeTransform.java"/>             
+=======
+        <exclude name="**/JpCacheIncludeTransform.java"/>
+>>>>>>> df11098... ofbiz-commit
       </fileset>
       <link href="https://docs.oracle.com/javase/7/docs/api/" offline="true" packagelistLoc="${ofbiz.home.dir}/tools/api-java17"/>
     </javadoc>
@@ -215,8 +219,13 @@ under the License.
        <javacc target="@{prefix}src/@{dir}/@{file}.jj"
           javacchome="${ofbiz.home.dir}/lib/build/javacc"
           outputdirectory="@{prefix}build/gen-src/javacc/@{dir}"/>
+<<<<<<< HEAD
        <replace token="public class" 
            value='@SuppressWarnings("all") public class' 
+=======
+       <replace token="public class"
+           value='@SuppressWarnings("all") public class'
+>>>>>>> df11098... ofbiz-commit
            dir="@{prefix}build/gen-src/javacc/@{dir}"
            includes="*.java" />
        <delete dir="@{prefix}build/classes/@{dir}"/>

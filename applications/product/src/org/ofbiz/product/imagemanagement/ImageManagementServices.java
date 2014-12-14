@@ -175,7 +175,11 @@ public class ImageManagementServices {
             file = checkExistsImage(file);
             if (UtilValidate.isNotEmpty(file)) {
                 imageName = file.getPath();
+<<<<<<< HEAD
                 imageName = imageName.substring(imageName.lastIndexOf(File.separator) + 1);
+=======
+                imageName = imageName.substring(imageName.lastIndexOf("/") + 1);
+>>>>>>> df11098... ofbiz-commit
             }
             
             if (UtilValidate.isEmpty(imageResize)) {

@@ -17,8 +17,14 @@ specific language governing permissions and limitations
 under the License.
 -->
 <#assign docLangAttr = locale.toString()?replace("_", "-")>
+<<<<<<< HEAD
 <#assign langDir = "ltr">
 <#if "ar.iw"?contains(docLangAttr?substring(0, 2))>
+=======
+<#assign RightToLeftLocales = Static["org.ofbiz.base.util.UtilMisc"].RightToLeftLocales()/>
+<#assign langDir = "ltr">
+<#if RightToLeftLocales?contains(docLangAttr?substring(0, 2))>
+>>>>>>> df11098... ofbiz-commit
     <#assign langDir = "rtl">
 </#if>
 <#assign forstatic = false/>

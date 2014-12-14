@@ -7,7 +7,11 @@
  *   http://www.opensource.org/licenses/mit-license.php
  *   http://www.gnu.org/licenses/gpl.html
  *
+<<<<<<< HEAD
  * Revision: $Id$
+=======
+ * Revision: $Id: jquery.metadata.js 1044503 2010-12-10 20:40:08Z jleroux $
+>>>>>>> df11098... ofbiz-commit
  *
  */
 

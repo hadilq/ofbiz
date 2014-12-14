@@ -19,7 +19,11 @@ under the License.
 <div class="screenlet-body">
   <form action="<@ofbizUrl>SearchLabels</@ofbizUrl>" method="post">
     <table class="basic-table">
+<<<<<<< HEAD
       <tr><td colspan="4">${uiLabelMap.WebtoolsLabelManagerTemporarySearchTitle}</td></tr>    
+=======
+      <tr><td colspan="4">${uiLabelMap.WebtoolsLabelManagerTemporarySearchTitle}</td></tr>
+>>>>>>> df11098... ofbiz-commit
       <tr>
         <td class="label">
           ${uiLabelMap.WebtoolsLabelManagerKey}
@@ -60,10 +64,18 @@ under the License.
             <option value="">${uiLabelMap.WebtoolsLabelManagerAllLocales}</option>
             <#list localesFound as localeFound>
               <#assign locale = Static["org.ofbiz.base.util.UtilMisc"].parseLocale(localeFound)?if_exists/>
+<<<<<<< HEAD
               <#assign langAttr = localeFound.toString()?replace("_", "-")>
               <#assign langDir = "ltr">
               <#if 1 < langAttr?length>
                 <#if "ar.iw"?contains(langAttr?substring(0, 2))>
+=======
+              <#assign RightToLeftLocales = Static["org.ofbiz.base.util.UtilMisc"].RightToLeftLocales()/>
+              <#assign langAttr = localeFound.toString()?replace("_", "-")>
+              <#assign langDir = "ltr">
+              <#if 1 < langAttr?length>
+                <#if RightToLeftLocales?contains(langAttr?substring(0, 2))>
+>>>>>>> df11098... ofbiz-commit
                   <#assign langDir = "rtl">
                 </#if>
               </#if>

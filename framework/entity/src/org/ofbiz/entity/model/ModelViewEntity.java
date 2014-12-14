@@ -1051,8 +1051,13 @@ public class ModelViewEntity extends ModelEntity {
          * Make the alias as follows: function(coalesce(entityAlias.field, defaultValue))
          */
         public void makeAliasColName(StringBuilder colNameBuffer, StringBuilder fieldTypeBuffer, ModelViewEntity modelViewEntity, ModelReader modelReader) {
+<<<<<<< HEAD
             if(UtilValidate.isEmpty(entityAlias) 
                     && UtilValidate.isEmpty(field) 
+=======
+            if(UtilValidate.isEmpty(entityAlias)
+                    && UtilValidate.isEmpty(field)
+>>>>>>> df11098... ofbiz-commit
                     && UtilValidate.isNotEmpty(value)){
                 colNameBuffer.append(value);
             }
@@ -1060,11 +1065,19 @@ public class ModelViewEntity extends ModelEntity {
                 ModelEntity modelEntity = modelViewEntity.getAliasedEntity(entityAlias, modelReader);
                 ModelField modelField = modelViewEntity.getAliasedField(modelEntity, field, modelReader);
                 String colName = entityAlias + "." + modelField.getColName();
+<<<<<<< HEAD
     
                 if (UtilValidate.isNotEmpty(defaultValue)) {
                     colName = "COALESCE(" + colName + "," + defaultValue + ")";
                 }
     
+=======
+
+                if (UtilValidate.isNotEmpty(defaultValue)) {
+                    colName = "COALESCE(" + colName + "," + defaultValue + ")";
+                }
+
+>>>>>>> df11098... ofbiz-commit
                 if (UtilValidate.isNotEmpty(function)) {
                     String prefix = functionPrefixMap.get(function);
                     if (prefix == null) {
@@ -1073,7 +1086,11 @@ public class ModelViewEntity extends ModelEntity {
                         colName = prefix + colName + ")";
                     }
                 }
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> df11098... ofbiz-commit
                 colNameBuffer.append(colName);
                 //set fieldTypeBuffer if not already set
                 if (fieldTypeBuffer.length() == 0) {
@@ -1328,7 +1345,11 @@ public class ModelViewEntity extends ModelEntity {
             try {
                 this.operator = EntityOperator.lookupComparison(operator);
             } catch (IllegalArgumentException e) {
+<<<<<<< HEAD
                 throw new IllegalArgumentException("[" + this.viewEntityCondition.modelViewEntity.getEntityName() + "]: Could not find an entity operator for the name: " + this.operator);
+=======
+                throw new IllegalArgumentException("[" + this.viewEntityCondition.modelViewEntity.getEntityName() + "]: Could not find an entity operator for the name: " + operator);
+>>>>>>> df11098... ofbiz-commit
             }
             String relEntityAlias = conditionExprElement.getAttribute("rel-entity-alias");
             String relFieldNameStr = conditionExprElement.getAttribute("rel-field-name");

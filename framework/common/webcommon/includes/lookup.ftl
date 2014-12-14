@@ -19,8 +19,14 @@ under the License.
 
 <#assign docLangAttr = locale.toString()?replace("_", "-")>
 <#assign initialLocale = locale.toString()>
+<<<<<<< HEAD
 <#assign langDir = "ltr">
 <#if "ar.iw"?contains(docLangAttr?substring(0, 2))>
+=======
+<#assign RightToLeftLocales = Static["org.ofbiz.base.util.UtilMisc"].RightToLeftLocales()/>
+<#assign langDir = "ltr">
+<#if RightToLeftLocales?contains(docLangAttr?substring(0, 2))>
+>>>>>>> df11098... ofbiz-commit
     <#assign langDir = "rtl">
 </#if>
 <html lang="${docLangAttr}" dir="${langDir}" xmlns="http://www.w3.org/1999/xhtml">

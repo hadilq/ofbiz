@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Licensed to the Apache Software Foundation (ASF) under one
+or more contributor license agreements.  See the NOTICE file
+distributed with this work for additional information
+regarding copyright ownership.  The ASF licenses this file
+to you under the Apache License, Version 2.0 (the
+"License"); you may not use this file except in compliance
+with the License.  You may obtain a copy of the License at
+
+http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+
+<entity-engine-xml>
+    <!--
+        Based on: http://en.wikipedia.org/wiki/ISO_3166-2:IR
+        See also: http://en.wikipedia.org/wiki/Province_of_Iran
+        http://fa.wikipedia.org/wiki/%D8%A7%D8%B3%D8%AA%D8%A7%D9%86%E2%80%8C%D9%87%D8%A7%DB%8C_%D8%A7%DB%8C%D8%B1%D8%A7%D9%86
+    -->
+    <Geo abbreviation="آ-ش" geoCode="01" geoId="IR-01" geoName="آذربایجان شرقی" geoTypeId="PROVINCE" wellKnownText="Azarbaijane, East"/>
+    <Geo abbreviation="آ-ق" geoCode="02" geoId="IR-02" geoName="آذربایجان غربی" geoTypeId="PROVINCE" wellKnownText="Azarbaijane, West"/>
+    <Geo abbreviation="ارد" geoCode="03" geoId="IR-03" geoName="اردبیل" geoTypeId="PROVINCE" wellKnownText="Ardabil"/>
+    <Geo abbreviation="اصف" geoCode="04" geoId="IR-04" geoName="اصفهان" geoTypeId="PROVINCE" wellKnownText="Esfehan"/>
+    <Geo abbreviation="ایل" geoCode="05" geoId="IR-05" geoName="ایلام" geoTypeId="PROVINCE" wellKnownText="Ilam"/>
+    <Geo abbreviation="بوش" geoCode="06" geoId="IR-06" geoName="بوشهر" geoTypeId="PROVINCE" wellKnownText="Bushehr"/>
+    <Geo abbreviation="تهر" geoCode="07" geoId="IR-07" geoName="تهران" geoTypeId="PROVINCE" wellKnownText="Tehran"/>
+    <Geo abbreviation="چها" geoCode="08" geoId="IR-08" geoName="چهارمحال و بختیاری" geoTypeId="PROVINCE" wellKnownText="Chahar Mahaal and Bakhtiari"/>
+    <Geo abbreviation="خوز" geoCode="10" geoId="IR-10" geoName="خوزستان" geoTypeId="PROVINCE" wellKnownText="Khuzestan"/>
+    <Geo abbreviation="زنج" geoCode="11" geoId="IR-11" geoName="زنجان" geoTypeId="PROVINCE" wellKnownText="Zanjan"/>
+    <Geo abbreviation="سمن" geoCode="12" geoId="IR-12" geoName="سمنان" geoTypeId="PROVINCE" wellKnownText="Semnan"/>
+    <Geo abbreviation="سیس" geoCode="13" geoId="IR-13" geoName="سیستان و بلوچستان" geoTypeId="PROVINCE" wellKnownText="Sistan and Baluchestan"/>
+    <Geo abbreviation="فار" geoCode="14" geoId="IR-14" geoName="فارس" geoTypeId="PROVINCE" wellKnownText="Fars"/>
+    <Geo abbreviation="کرم" geoCode="15" geoId="IR-15" geoName="کرمان" geoTypeId="PROVINCE" wellKnownText="Kerman"/>
+    <Geo abbreviation="کرد" geoCode="16" geoId="IR-16" geoName="کردستان" geoTypeId="PROVINCE" wellKnownText="Kordestan"/>
+    <Geo abbreviation="کرش" geoCode="17" geoId="IR-17" geoName="کرمانشاه" geoTypeId="PROVINCE" wellKnownText="Kermanshah"/>
+    <Geo abbreviation="کوه" geoCode="18" geoId="IR-18" geoName="کهگیلویه و بویراحمد" geoTypeId="PROVINCE" wellKnownText="Kohgiluyeh and Boyer-Ahmad"/>
+    <Geo abbreviation="گیل" geoCode="19" geoId="IR-19" geoName="گیلان" geoTypeId="PROVINCE" wellKnownText="Gilan"/>
+    <Geo abbreviation="لرس" geoCode="20" geoId="IR-20" geoName="لرستان" geoTypeId="PROVINCE" wellKnownText="Lorestan"/>
+    <Geo abbreviation="ماز" geoCode="21" geoId="IR-21" geoName="مازندران" geoTypeId="PROVINCE" wellKnownText="Mazandaran"/>
+    <Geo abbreviation="مرک" geoCode="22" geoId="IR-22" geoName="مرکزی" geoTypeId="PROVINCE" wellKnownText="Markazi"/>
+    <Geo abbreviation="هرم" geoCode="23" geoId="IR-23" geoName="هرمزگان" geoTypeId="PROVINCE" wellKnownText="Hormozgan"/>
+    <Geo abbreviation="همد" geoCode="24" geoId="IR-24" geoName="همدان" geoTypeId="PROVINCE" wellKnownText="Hamedan"/>
+    <Geo abbreviation="یزد" geoCode="25" geoId="IR-25" geoName="یزد" geoTypeId="PROVINCE" wellKnownText="Yazd"/>
+    <Geo abbreviation="قم" geoCode="26" geoId="IR-26" geoName="قم" geoTypeId="PROVINCE" wellKnownText="Qom"/>
+    <Geo abbreviation="گلس" geoCode="27" geoId="IR-27" geoName="گلستان" geoTypeId="PROVINCE" wellKnownText="Golestan"/>
+    <Geo abbreviation="قزو" geoCode="28" geoId="IR-28" geoName="قزوین" geoTypeId="PROVINCE" wellKnownText="Qazvin"/>
+    <Geo abbreviation="خرج" geoCode="29" geoId="IR-29" geoName="خراسان جنوبی" geoTypeId="PROVINCE" wellKnownText="Khorasan, South"/>
+    <Geo abbreviation="خرر" geoCode="30" geoId="IR-30" geoName="خراسان رضوی" geoTypeId="PROVINCE" wellKnownText="Khorasan, Razavi"/>
+    <Geo abbreviation="خرش" geoCode="31" geoId="IR-31" geoName="خراسان شمالی" geoTypeId="PROVINCE" wellKnownText="Khorasan, North"/>
+
+    <GeoAssoc geoId="IRN" geoIdTo="IR-01" geoAssocTypeId="REGIONS"/>
+    <GeoAssoc geoId="IRN" geoIdTo="IR-02" geoAssocTypeId="REGIONS"/>
+    <GeoAssoc geoId="IRN" geoIdTo="IR-03" geoAssocTypeId="REGIONS"/>
+    <GeoAssoc geoId="IRN" geoIdTo="IR-04" geoAssocTypeId="REGIONS"/>
+    <GeoAssoc geoId="IRN" geoIdTo="IR-05" geoAssocTypeId="REGIONS"/>
+    <GeoAssoc geoId="IRN" geoIdTo="IR-06" geoAssocTypeId="REGIONS"/>
+    <GeoAssoc geoId="IRN" geoIdTo="IR-07" geoAssocTypeId="REGIONS"/>
+    <GeoAssoc geoId="IRN" geoIdTo="IR-08" geoAssocTypeId="REGIONS"/>
+    <GeoAssoc geoId="IRN" geoIdTo="IR-10" geoAssocTypeId="REGIONS"/>
+    <GeoAssoc geoId="IRN" geoIdTo="IR-11" geoAssocTypeId="REGIONS"/>
+    <GeoAssoc geoId="IRN" geoIdTo="IR-12" geoAssocTypeId="REGIONS"/>
+    <GeoAssoc geoId="IRN" geoIdTo="IR-13" geoAssocTypeId="REGIONS"/>
+    <GeoAssoc geoId="IRN" geoIdTo="IR-14" geoAssocTypeId="REGIONS"/>
+    <GeoAssoc geoId="IRN" geoIdTo="IR-15" geoAssocTypeId="REGIONS"/>
+    <GeoAssoc geoId="IRN" geoIdTo="IR-16" geoAssocTypeId="REGIONS"/>
+    <GeoAssoc geoId="IRN" geoIdTo="IR-17" geoAssocTypeId="REGIONS"/>
+    <GeoAssoc geoId="IRN" geoIdTo="IR-18" geoAssocTypeId="REGIONS"/>
+    <GeoAssoc geoId="IRN" geoIdTo="IR-19" geoAssocTypeId="REGIONS"/>
+    <GeoAssoc geoId="IRN" geoIdTo="IR-20" geoAssocTypeId="REGIONS"/>
+    <GeoAssoc geoId="IRN" geoIdTo="IR-21" geoAssocTypeId="REGIONS"/>
+    <GeoAssoc geoId="IRN" geoIdTo="IR-22" geoAssocTypeId="REGIONS"/>
+    <GeoAssoc geoId="IRN" geoIdTo="IR-23" geoAssocTypeId="REGIONS"/>
+    <GeoAssoc geoId="IRN" geoIdTo="IR-24" geoAssocTypeId="REGIONS"/>
+    <GeoAssoc geoId="IRN" geoIdTo="IR-25" geoAssocTypeId="REGIONS"/>
+    <GeoAssoc geoId="IRN" geoIdTo="IR-26" geoAssocTypeId="REGIONS"/>
+    <GeoAssoc geoId="IRN" geoIdTo="IR-27" geoAssocTypeId="REGIONS"/>
+    <GeoAssoc geoId="IRN" geoIdTo="IR-28" geoAssocTypeId="REGIONS"/>
+    <GeoAssoc geoId="IRN" geoIdTo="IR-29" geoAssocTypeId="REGIONS"/>
+    <GeoAssoc geoId="IRN" geoIdTo="IR-30" geoAssocTypeId="REGIONS"/>
+    <GeoAssoc geoId="IRN" geoIdTo="IR-31" geoAssocTypeId="REGIONS"/>
+
+</entity-engine-xml>

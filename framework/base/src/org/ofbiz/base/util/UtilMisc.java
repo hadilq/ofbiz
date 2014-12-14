@@ -394,7 +394,11 @@ public class UtilMisc {
         theSet.add(obj6);
         return theSet;
     }
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> df11098... ofbiz-commit
     public static <T> Set<T> toSet(T obj1, T obj2, T obj3, T obj4, T obj5, T obj6, T obj7, T obj8) {
         Set<T> theSet = new LinkedHashSet<T>();
         theSet.add(obj1);
@@ -510,7 +514,11 @@ public class UtilMisc {
         list.add(obj6);
         return list;
     }
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> df11098... ofbiz-commit
     public static <T> List<T> toList(T obj1, T obj2, T obj3, T obj4, T obj5, T obj6, T obj7, T obj8, T obj9) {
         List<T> list = new LinkedList<T>();
 
@@ -687,6 +695,26 @@ public class UtilMisc {
     }
 
     /**
+<<<<<<< HEAD
+=======
+     * Remove underline in the end of some locales like ja_JP_JP_
+     * and remove '#' in the end of some locales like ja_JP_JP_#u-ca-japanese
+     * @param localeString The locale string (en_US)
+     * @return localeString without extra details
+     */
+    public static String normalizeLocaleString(String localeString) {
+        int pos = localeString.indexOf('#');
+        if (pos != -1){
+            localeString = localeString.substring(0, pos);
+        }
+        if(localeString.charAt(localeString.length() - 1) == '_') {
+            localeString = localeString.substring(0, localeString.length() - 1);
+        }
+        return localeString;
+    }
+
+    /**
+>>>>>>> df11098... ofbiz-commit
      * Parse a locale string Locale object
      * @param localeString The locale string (en_US)
      * @return Locale The new Locale object or null if no valid locale can be interpreted
@@ -695,6 +723,10 @@ public class UtilMisc {
         if (UtilValidate.isEmpty(localeString)) {
             return null;
         }
+<<<<<<< HEAD
+=======
+        localeString = normalizeLocaleString(localeString);
+>>>>>>> df11098... ofbiz-commit
 
         Locale locale = null;
         if (localeString.length() == 2) {
@@ -764,6 +796,35 @@ public class UtilMisc {
         return availableLocaleList;
     }
 
+<<<<<<< HEAD
+=======
+    public static List<Locale> RightToLeftLocaleList = null;
+    /** Returns a List of RightToLeft locales sorted by display name */
+    public static List<Locale> RightToLeftLocales() {
+        if (RightToLeftLocaleList == null) {
+            synchronized(UtilMisc.class) {
+                if (RightToLeftLocaleList == null) {
+                    TreeMap<String, Locale> localeMap = new TreeMap<String, Locale>();
+                    String localesString = UtilProperties.getPropertyValue("general", "locales.rightToLeft");
+                    int end = -1;
+                    int start = 0;
+                    for (int i=0; start < localesString.length(); i++) {
+                        end = localesString.indexOf(",", start);
+                        if (end == -1) {
+                            end = localesString.length();
+                        }
+                        Locale curLocale = UtilMisc.ensureLocale(localesString.substring(start, end));
+                        localeMap.put(curLocale.getDisplayName(), curLocale);
+                        start = end + 1;
+                    }
+                    RightToLeftLocaleList = new LinkedList<Locale>(localeMap.values());
+                }
+            }
+        }
+        return RightToLeftLocaleList;
+    }
+
+>>>>>>> df11098... ofbiz-commit
     /** @deprecated use Thread.sleep() */
     @Deprecated
     public static void staticWait(long timeout) throws InterruptedException {
@@ -792,5 +853,9 @@ public class UtilMisc {
     public static int getViewLastIndex(int listSize, int viewSize) {
         return (int)Math.ceil(listSize / (float) viewSize) - 1;
     }
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> df11098... ofbiz-commit
 }

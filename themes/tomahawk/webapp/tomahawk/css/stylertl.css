@@ -24,6 +24,10 @@
 
 body, caption, th {
 text-align: right;
+<<<<<<< HEAD
+=======
+direction: rtl;
+>>>>>>> df11098... ofbiz-commit
 }
 
 /* ===== Legacy Styles ===== */
@@ -178,7 +182,11 @@ text-align: left;
 }
 
 /* ==================================== */
+<<<<<<< HEAD
 /* ===== Masthead (Header) Styles ===== */
+=======
+/* ===== Masthead (Header & Footer) Styles ===== */
+>>>>>>> df11098... ofbiz-commit
 /* ==================================== */
 
 #masthead ul li {
@@ -186,6 +194,7 @@ float: right;
 }
 
 #masthead ul .opposed,
+<<<<<<< HEAD
 #masthead ul .control-area {
 float: left;
 text-align: left;
@@ -245,6 +254,57 @@ float: right;
 border-right: 0.1em solid #69a9d9;
 border-left: none;
 float: left;
+=======
+#control-area,
+#control-area li,
+#footer {
+text-align: left;
+}
+
+#masthead ul li.last-system-msg{
+float: right;
+text-align: right;
+}
+
+#footer li.opposed{
+float: right;
+direction: ltr;
+}
+
+/* ================================================== */
+/* ===== Main Navigation (App Menu) Styles ========== */
+/* ================================================== */
+
+#main-navigation,
+.menu_selected #main-navigation{
+background: url("../images/appbar-rtl.png") no-repeat scroll left -30px rgba(0, 0, 0, 0);
+}
+
+#main-navigation ul li ul li ul.secondary{
+right: 204px;
+}
+
+/* ========================================================= */
+/* ===== Component and APP Navigation (App Header) Styles ========== */
+/* ========================================================= */
+
+#app-navigation,
+.menu_selected #app-navigation{
+background: url("../images/appbar-rtl.png") no-repeat scroll left -60px rgba(0, 0, 0, 0);
+}
+
+#main-navigation, #app-navigation, #app-nav-selected-item{
+float: right;
+}
+
+#main-navigation h2, #app-navigation h2{
+padding: 8px 10px 5px 45px;
+}
+
+#app-nav-selected-item,
+.menu_selected #app-nav-selected-item{
+background: url("../images/appbar-rtl.png") no-repeat scroll left -90px rgba(0, 0, 0, 0)
+>>>>>>> df11098... ofbiz-commit
 }
 
 /* ================================================= */
@@ -260,9 +320,15 @@ float: left;
 .screenlet-title-bar ul h1,
 .screenlet-title-bar ul h2,
 .screenlet-title-bar ul h3,
+<<<<<<< HEAD
 .screenlet-title-bar ul .head1,
 .screenlet-title-bar ul .head2,
 .screenlet-title-bar ul .head3 {
+=======
+.screenlet-title-bar ul .h1,
+.screenlet-title-bar ul .h2,
+.screenlet-title-bar ul .h3 {
+>>>>>>> df11098... ofbiz-commit
 /* h1 - h3 deprecated, fails validation */
 border-right: none;
 float: right;
@@ -402,3 +468,7 @@ float: right;
 * html .ui-autocomplete {
     height: 250px;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> df11098... ofbiz-commit

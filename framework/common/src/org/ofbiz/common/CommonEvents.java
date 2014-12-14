@@ -201,7 +201,11 @@ public class CommonEvents {
     /** Simple event to set the users per-session locale setting. The user's locale
      * setting should be passed as a "newLocale" request parameter. */
     public static String setSessionLocale(HttpServletRequest request, HttpServletResponse response) {
+<<<<<<< HEAD
         String localeString = request.getParameter("newLocale");
+=======
+        String localeString = UtilMisc.normalizeLocaleString(request.getParameter("newLocale"));
+>>>>>>> df11098... ofbiz-commit
         if (UtilValidate.isNotEmpty(localeString)) {
             UtilHttp.setLocale(request, localeString);
 

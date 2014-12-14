@@ -32,8 +32,14 @@ under the License.
           <#assign locale = Static["org.ofbiz.base.util.UtilMisc"].parseLocale(localeFound)?if_exists/>
           <#if locale?exists && locale?has_content>
             <#assign langAttr = localeFound.toString()?replace("_", "-")>
+<<<<<<< HEAD
             <#assign langDir = "ltr">
             <#if "ar.iw"?contains(langAttr?substring(0, 2))>
+=======
+            <#assign RightToLeftLocales = Static["org.ofbiz.base.util.UtilMisc"].RightToLeftLocales()/>
+            <#assign langDir = "ltr">
+            <#if RightToLeftLocales?contains(langAttr?substring(0, 2))>
+>>>>>>> df11098... ofbiz-commit
               <#assign langDir = "rtl">
             </#if>
             <td lang="${langAttr}" dir="${langDir}">
@@ -64,7 +70,11 @@ under the License.
           </#if>
         </#if>
         <#assign showLabel = true>
+<<<<<<< HEAD
         <#if parameters.onlyMissingTranslations?exists && parameters.onlyMissingTranslations == "Y" 
+=======
+        <#if parameters.onlyMissingTranslations?exists && parameters.onlyMissingTranslations == "Y"
+>>>>>>> df11098... ofbiz-commit
             && parameters.labelLocaleName?exists && parameters.labelLocaleName != "">
           <#assign labelValue = label.getLabelValue(parameters.labelLocaleName)?if_exists>
           <#if labelValue?exists && labelValue?has_content>

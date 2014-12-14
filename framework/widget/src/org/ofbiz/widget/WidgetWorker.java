@@ -20,6 +20,10 @@ package org.ofbiz.widget;
 
 import java.io.IOException;
 import java.io.StringWriter;
+<<<<<<< HEAD
+=======
+import java.io.UnsupportedEncodingException;
+>>>>>>> df11098... ofbiz-commit
 import java.math.BigDecimal;
 import java.net.URLEncoder;
 import java.nio.charset.Charset;
@@ -133,8 +137,13 @@ public class WidgetWorker {
                 externalWriter.append(parameter.getKey());
                 externalWriter.append('=');
                 StringUtil.SimpleEncoder simpleEncoder = (StringUtil.SimpleEncoder) context.get("simpleEncoder");
+<<<<<<< HEAD
                 if (simpleEncoder != null && parameterValue != null) {
                     externalWriter.append(simpleEncoder.encode(URLEncoder.encode(parameterValue, Charset.forName("UTF-8").displayName())));
+=======
+                if (simpleEncoder != null) {
+                    externalWriter.append(simpleEncoder.encode(parameterValue));
+>>>>>>> df11098... ofbiz-commit
                 } else {
                     externalWriter.append(parameterValue);
                 }
@@ -286,10 +295,22 @@ public class WidgetWorker {
 
         for (Map.Entry<String, String> parameter: parameterMap.entrySet()) {
             if (parameter.getValue() != null) {
+<<<<<<< HEAD
                 writer.append("<input name=\"");
                 writer.append(parameter.getKey());
                 writer.append("\" value=\"");
                 writer.append(StringUtil.htmlEncoder.encode(parameter.getValue()));
+=======
+                String key = parameter.getKey();
+
+                writer.append("<input name=\"");
+                writer.append(key);
+                writer.append("\" value=\"");
+
+                String valueFromContext = context.containsKey(key) && context.get(key)!= null ?
+                        context.get(key).toString() : parameter.getValue();
+                writer.append(valueFromContext);
+>>>>>>> df11098... ofbiz-commit
                 writer.append("\" type=\"hidden\"/>");
             }
         }
@@ -345,7 +366,16 @@ public class WidgetWorker {
 
         public String getValue(Map<String, Object> context) {
             if (this.value != null) {
+<<<<<<< HEAD
                 return this.value.expandString(context);
+=======
+                try {
+                    return URLEncoder.encode(this.value.expandString(context), Charset.forName("UTF-8").displayName());
+                } catch (UnsupportedEncodingException e) {
+                    Debug.logError(e, module);
+                    return this.value.expandString(context);
+                }
+>>>>>>> df11098... ofbiz-commit
             }
 
             Object retVal = null;
@@ -376,7 +406,15 @@ public class WidgetWorker {
                     DateFormat df = UtilDateTime.toDateTimeFormat("EEE MMM dd hh:mm:ss z yyyy", timeZone, null);
                     returnValue = df.format((java.util.Date) retVal);
                 } else {
+<<<<<<< HEAD
                     returnValue = retVal.toString();
+=======
+                    try {
+                        returnValue = URLEncoder.encode(retVal.toString(), Charset.forName("UTF-8").displayName());
+                    } catch (UnsupportedEncodingException e) {
+                        Debug.logError(e, module);
+                    }
+>>>>>>> df11098... ofbiz-commit
                 }
                 return returnValue;
             } else {

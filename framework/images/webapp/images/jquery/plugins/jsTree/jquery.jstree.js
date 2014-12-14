@@ -8,8 +8,13 @@
  *   http://www.opensource.org/licenses/mit-license.php
  *   http://www.gnu.org/licenses/gpl.html
  *
+<<<<<<< HEAD
  * $Date$
  * $Revision$
+=======
+ * $Date: 2011-11-08 16:05:33 +0330 (Tue, 08 Nov 2011) $
+ * $Revision: 1199218 $
+>>>>>>> df11098... ofbiz-commit
  */
 
 /*jslint browser: true, onevar: true, undef: true, bitwise: true, strict: true */

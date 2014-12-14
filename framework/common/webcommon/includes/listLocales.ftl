@@ -27,15 +27,27 @@ under the License.
   <table cellspacing="0" class="basic-table hover-bar">
     <#assign altRow = true>
     <#assign availableLocales = Static["org.ofbiz.base.util.UtilMisc"].availableLocales()/>
+<<<<<<< HEAD
+=======
+    <#assign RightToLeftLocales = Static["org.ofbiz.base.util.UtilMisc"].RightToLeftLocales()/>
+>>>>>>> df11098... ofbiz-commit
     <#list availableLocales as availableLocale>
         <#assign altRow = !altRow>
         <#assign langAttr = availableLocale.toString()?replace("_", "-")>
         <#assign langDir = "ltr">
+<<<<<<< HEAD
         <#if "ar.iw"?contains(langAttr?substring(0, 2))>
             <#assign langDir = "rtl">
         </#if>
         <tr <#if altRow>class="alternate-row"</#if>>
             <td lang="${langAttr}" dir="${langDir}">
+=======
+        <#if RightToLeftLocales?contains(langAttr?substring(0, 2))>
+            <#assign langDir = "rtl">
+        </#if>
+        <tr <#if altRow>class="alternate-row"</#if>>
+            <td lang="${langAttr?substring(0, 2)}" dir="${langDir}">
+>>>>>>> df11098... ofbiz-commit
                 <a href="<@ofbizUrl>setSessionLocale</@ofbizUrl>?newLocale=${availableLocale.toString()}">${availableLocale.getDisplayName(availableLocale)} &nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp; [${availableLocale.toString()}]</a>
             </td>
         </tr>
