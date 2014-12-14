@@ -24,6 +24,7 @@
 
 body, caption, th {
 text-align: right;
+direction: rtl;
 }
 
 /* ===== Legacy Styles ===== */
@@ -178,7 +179,7 @@ text-align: left;
 }
 
 /* ==================================== */
-/* ===== Masthead (Header) Styles ===== */
+/* ===== Masthead (Header & Footer) Styles ===== */
 /* ==================================== */
 
 #masthead ul li {
@@ -186,65 +187,55 @@ float: right;
 }
 
 #masthead ul .opposed,
-#masthead ul .control-area {
-float: left;
+#control-area,
+#control-area li,
+#footer {
 text-align: left;
+}
+
+#masthead ul li.last-system-msg{
+float: right;
+text-align: right;
+}
+
+#footer li.opposed{
+float: right;
+direction: ltr;
 }
 
 /* ================================================== */
 /* ===== Main Navigation (App Menu) Styles ========== */
 /* ================================================== */
 
-#main-navigation ul {
-direction: rtl;
+#main-navigation,
+.menu_selected #main-navigation{
+background: url("../images/appbar-rtl.png") no-repeat scroll left -30px rgba(0, 0, 0, 0);
 }
 
-#main-navigation ul li {
-background-image: url(/images/rtl/main_uns_right.gif);
-background-position: top right;
-float: right;
-}
-
-#main-navigation ul a {
-background-image: url(/images/rtl/main_uns_left.gif);
-background-position: top left;
-}
-
-#main-navigation ul .selected,
-#main-navigation ul li:hover {
-background-image: url(/images/rtl/main_sel_right.gif);
-background-position: top right;
-float: right;
-}
-
-#main-navigation ul a:hover,
-#main-navigation ul .selected a,
-#main-navigation ui .selected a:hover {
-background-image: url(/images/rtl/main_sel_left.gif);
-background-position: top left;
+#main-navigation ul li ul li ul.secondary{
+right: 204px;
 }
 
 /* ========================================================= */
-/* ===== Component Navigation (App Header) Styles ========== */
+/* ===== Component and APP Navigation (App Header) Styles ========== */
 /* ========================================================= */
 
-#app-navigation {
-background-image: url(/images/rtl/gradient_main.gif);
-background-position: top right;
+#app-navigation,
+.menu_selected #app-navigation{
+background: url("../images/appbar-rtl.png") no-repeat scroll left -60px rgba(0, 0, 0, 0);
 }
 
-#app-navigation ul li {
-border-right: none;
-border-left: 0.1em solid #69a9d9;
+#main-navigation, #app-navigation, #app-nav-selected-item{
 float: right;
 }
 
-#app-navigation .opposed li,
-#app-navigation ul .opposed,
-#app-navigation ul .col-right {
-border-right: 0.1em solid #69a9d9;
-border-left: none;
-float: left;
+#main-navigation h2, #app-navigation h2{
+padding: 8px 10px 5px 45px;
+}
+
+#app-nav-selected-item,
+.menu_selected #app-nav-selected-item{
+background: url("../images/appbar-rtl.png") no-repeat scroll left -90px rgba(0, 0, 0, 0)
 }
 
 /* ================================================= */
@@ -260,9 +251,9 @@ float: left;
 .screenlet-title-bar ul h1,
 .screenlet-title-bar ul h2,
 .screenlet-title-bar ul h3,
-.screenlet-title-bar ul .head1,
-.screenlet-title-bar ul .head2,
-.screenlet-title-bar ul .head3 {
+.screenlet-title-bar ul .h1,
+.screenlet-title-bar ul .h2,
+.screenlet-title-bar ul .h3 {
 /* h1 - h3 deprecated, fails validation */
 border-right: none;
 float: right;
@@ -402,3 +393,4 @@ float: right;
 * html .ui-autocomplete {
     height: 250px;
 }
+
