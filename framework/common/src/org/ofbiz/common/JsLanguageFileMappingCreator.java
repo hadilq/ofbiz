@@ -82,6 +82,9 @@ public class JsLanguageFileMappingCreator {
             } else {
                 modifiedDisplayCountry = displayCountry;
             }
+            if (modifiedDisplayCountry.length() > 5) { // To remove extra characters of locale strings, such as ja_JP_JP
+                modifiedDisplayCountry = modifiedDisplayCountry.substring(0, 5);
+            }
 
             String strippedLocale = locale.getLanguage();
 

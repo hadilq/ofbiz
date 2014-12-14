@@ -37,6 +37,7 @@ public final class JsLanguageFilesMapping {
 
         static {
 <<<<<<< HEAD
+<<<<<<< HEAD
             localeFiles.put("sq", "/images/jquery/plugins/datejs/date-en-US.js");
             localeFiles.put("sq_AL", "/images/jquery/plugins/datejs/date-sq-AL.js");
             localeFiles.put("ar", "/images/jquery/plugins/datejs/date-en-US.js");
@@ -204,6 +205,10 @@ public final class JsLanguageFilesMapping {
             localeFiles.put("es", "/images/jquery/plugins/datejs/date-es-ES.js");
             localeFiles.put("th", "/images/jquery/plugins/datejs/date-th-TH.js");
 >>>>>>> df11098... ofbiz-commit
+=======
+            localeFiles.put("en", "/images/jquery/plugins/datejs/date-en-US.js");
+            localeFiles.put("fa_IR_IR", "/images/jquery/plugins/datejs/date-fa-IR.js");
+>>>>>>> 90b937e... not commit folder
         }
 
         public static String getFilePath(String locale) {
@@ -220,6 +225,7 @@ public final class JsLanguageFilesMapping {
         private static String defaultDateJs = "/images/jquery/ui/i18n/jquery.ui.datepicker-en.js";
 
         static {
+<<<<<<< HEAD
 <<<<<<< HEAD
             localeFiles.put("sq", "/images/jquery/ui/i18n/jquery.ui.datepicker-sq.js");
             localeFiles.put("sq_AL", "/images/jquery/ui/i18n/jquery.ui.datepicker-sq.js");
@@ -388,6 +394,10 @@ public final class JsLanguageFilesMapping {
             localeFiles.put("es", "/images/jquery/ui/i18n/jquery.ui.datepicker-es.js");
             localeFiles.put("th", "/images/jquery/ui/i18n/jquery.ui.datepicker-th.js");
 >>>>>>> df11098... ofbiz-commit
+=======
+            localeFiles.put("en", "/images/jquery/ui/i18n/jquery.ui.datepicker-en.js");
+            localeFiles.put("fa_IR_IR", "/images/jquery/ui/i18n/jquery.ui.datepicker-fa.js");
+>>>>>>> 90b937e... not commit folder
         }
 
         public static String getFilePath(String locale) {
@@ -404,6 +414,7 @@ public final class JsLanguageFilesMapping {
         private static String defaultValidation = "/images/webapp/images/jquery/plugins/validate/localization/messages_en.js";
 
         static {
+<<<<<<< HEAD
 <<<<<<< HEAD
             localeFiles.put("sq", "/images/jquery/plugins/validate/localization/messages_en.js");
             localeFiles.put("sq_AL", "/images/jquery/plugins/validate/localization/messages_en.js");
@@ -572,6 +583,10 @@ public final class JsLanguageFilesMapping {
             localeFiles.put("es", "/images/jquery/plugins/validate/localization/messages_es.js");
             localeFiles.put("th", "/images/jquery/plugins/validate/localization/messages_th.js");
 >>>>>>> df11098... ofbiz-commit
+=======
+            localeFiles.put("en", "/images/jquery/plugins/validate/localization/messages_en.js");
+            localeFiles.put("fa_IR_IR", "/images/jquery/plugins/validate/localization/messages_fa.js");
+>>>>>>> 90b937e... not commit folder
         }
 
         public static String getFilePath(String locale) {
@@ -587,6 +602,7 @@ public final class JsLanguageFilesMapping {
         private static String defaultDateTime = "/images/webapp/images/jquery/ui/i18n/jquery.ui.datepicker-en.js";
 
         static {
+<<<<<<< HEAD
 <<<<<<< HEAD
             localeFiles.put("sq", "/images/jquery/plugins/datetimepicker/localization/jquery-ui-timepicker-en.js");
             localeFiles.put("sq_AL", "/images/jquery/plugins/datetimepicker/localization/jquery-ui-timepicker-en.js");
@@ -755,6 +771,10 @@ public final class JsLanguageFilesMapping {
             localeFiles.put("es", "/images/jquery/plugins/datetimepicker/localization/jquery-ui-timepicker-es.js");
             localeFiles.put("th", "/images/jquery/plugins/datetimepicker/localization/jquery-ui-timepicker-th.js");
 >>>>>>> df11098... ofbiz-commit
+=======
+            localeFiles.put("en", "/images/jquery/plugins/datetimepicker/localization/jquery-ui-timepicker-en.js");
+            localeFiles.put("fa_IR_IR", "/images/jquery/plugins/datetimepicker/localization/jquery-ui-timepicker-fa.js");
+>>>>>>> 90b937e... not commit folder
         }
 
         public static String getFilePath(String locale) {
