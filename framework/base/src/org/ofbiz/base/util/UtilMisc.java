@@ -687,8 +687,8 @@ public class UtilMisc {
     }
 
     /**
-     * Remove underline in the end of some locales like ja_JP_JP_
-     * and remove '#' in the end of some locales like ja_JP_JP_#u-ca-japanese
+     * Remove underline in the end of some locales like fa_IR_IR_
+     * and remove '#' in the end of some locales like fa_IR_IR_#u-ca-jalali-nu-persian
      * @param localeString The locale string (en_US)
      * @return localeString without extra details
      */

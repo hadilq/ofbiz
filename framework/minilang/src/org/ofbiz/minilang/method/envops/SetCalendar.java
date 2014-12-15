@@ -42,7 +42,7 @@ import com.ibm.icu.util.Calendar;
 
 /**
  * Implements the &lt;set-calendar&gt; element.
- * 
+ *
  * @see <a href="https://cwiki.apache.org/OFBADMIN/mini-language-reference.html#Mini-languageReference-{{%3Csetcalendar%3E}}">Mini-language Reference</a>
  */
 public final class SetCalendar extends MethodOperation {
@@ -197,7 +197,7 @@ public final class SetCalendar extends MethodOperation {
             if (timeZone == null) {
                 timeZone = TimeZone.getDefault();
             }
-            fromStamp = (Timestamp) MiniLangUtil.convertType(newValue, java.sql.Timestamp.class, locale, timeZone, UtilDateTime.DATE_TIME_FORMAT);
+            fromStamp = (Timestamp) MiniLangUtil.convertType(newValue, java.sql.Timestamp.class, locale, timeZone, null);
             if (!this.yearsFse.isEmpty()) {
                 years= parseInt(this.yearsFse.expandString(methodContext.getEnvMap()));
             }

@@ -185,7 +185,6 @@ under the License.
           buttonImage: '',
           buttonText: '',
           buttonImageOnly: false,
-          dateFormat: 'yy-mm-dd'
         })
         <#if mask?has_content>.mask("${mask}")</#if>
         ;
@@ -269,7 +268,7 @@ under the License.
     <span <@renderClass className alert />><#rt/>
       <input type="checkbox"<#if (item_index == 0)> id="${id}"</#if><#rt/>
         <#if allChecked?has_content && allChecked> checked="checked" <#elseif allChecked?has_content && !allChecked>
-          <#elseif currentValue?has_content && currentValue==item.value> checked="checked"</#if> 
+          <#elseif currentValue?has_content && currentValue==item.value> checked="checked"</#if>
           name="${name?default("")?html}" value="${item.value?default("")?html}"<#if event?has_content> ${event}="${action}"</#if>/><#rt/>
         ${item.description?default("")}
     </span>
@@ -280,7 +279,7 @@ under the License.
   <#list items as item>
     <span <@renderClass className alert />><#rt/>
       <input type="radio"<#if currentValue?has_content><#if currentValue==item.key> checked="checked"</#if>
-        <#elseif noCurrentSelectedKey?has_content && noCurrentSelectedKey == item.key> checked="checked"</#if> 
+        <#elseif noCurrentSelectedKey?has_content && noCurrentSelectedKey == item.key> checked="checked"</#if>
         name="${name?default("")?html}" value="${item.key?default("")?html}"<#if event?has_content> ${event}="${action}"</#if>/><#rt/>
       ${item.description}
     </span>
@@ -499,7 +498,6 @@ under the License.
             buttonImage: '',
             buttonText: '',
             buttonImageOnly: false,
-            dateFormat: 'yy-mm-dd'
           });
       </script>
       <#rt/>
@@ -535,7 +533,6 @@ under the License.
             buttonImage: '',
             buttonText: '',
             buttonImageOnly: false,
-            dateFormat: 'yy-mm-dd'
           });
       </script>
       <#rt/>
@@ -717,10 +714,10 @@ Parameter: lastViewName, String, optional - If the ajaxEnabled parameter is true
       </script>
     </#if>
     <#if readonly?has_content && readonly>
-      <a id="${id}_clear" 
-        style="background:none;margin-left:5px;margin-right:15px;" 
-        class="clearField" 
-        href="javascript:void(0);" 
+      <a id="${id}_clear"
+        style="background:none;margin-left:5px;margin-right:15px;"
+        class="clearField"
+        href="javascript:void(0);"
         onclick="javascript:document.${formName}.${name}.value='';
           jQuery('#' + jQuery('#${id}_clear').next().attr('id').replace('_button','') + '_${id}_lookupDescription').html('');
           <#if descriptionFieldName?has_content>document.${formName}.${descriptionFieldName}.value='';</#if>">
@@ -738,7 +735,7 @@ Parameter: lastViewName, String, optional - If the ajaxEnabled parameter is true
 
 <#macro renderNextPrev paginateStyle paginateFirstStyle viewIndex highIndex listSize viewSize ajaxEnabled javaScriptEnabled ajaxFirstUrl firstUrl paginateFirstLabel paginatePreviousStyle ajaxPreviousUrl previousUrl paginatePreviousLabel pageLabel ajaxSelectUrl selectUrl ajaxSelectSizeUrl selectSizeUrl commonDisplaying paginateNextStyle ajaxNextUrl nextUrl paginateNextLabel paginateLastStyle ajaxLastUrl lastUrl paginateLastLabel paginateViewSizeLabel>
   <#if listSize gt viewSize>
-    <div class="${paginateStyle}">&nbsp; 
+    <div class="${paginateStyle}">&nbsp;
       <ul>
         <li class="${paginateFirstStyle}<#if viewIndex gt 0>"><a href="<#if ajaxEnabled>javascript:ajaxUpdateAreas('${ajaxFirstUrl}')<#else>${firstUrl}</#if>">${paginateFirstLabel}</a><#else>-disabled"><span>${paginateFirstLabel}</span></#if></li>
         <li class="${paginatePreviousStyle}<#if viewIndex gt 0>"><a href="<#if ajaxEnabled>javascript:ajaxUpdateAreas('${ajaxPreviousUrl}')<#else>${previousUrl}</#if>">${paginatePreviousLabel}</a><#else>-disabled"><span>${paginatePreviousLabel}</span></#if></li>
@@ -844,7 +841,7 @@ Parameter: lastViewName, String, optional - If the ajaxEnabled parameter is true
       <#if imgSrc?has_content><img src="${imgSrc}" alt=""/></#if>${description}</a>
 </#macro>
 <#macro makeHyperlinkString linkStyle hiddenFormName event action imgSrc title alternate linkUrl targetWindow description confirmation>
-    <a <#if linkStyle?has_content>class="${linkStyle}"</#if> 
+    <a <#if linkStyle?has_content>class="${linkStyle}"</#if>
       href="${linkUrl}"<#if targetWindow?has_content> target="${targetWindow}"</#if>
       <#if action?has_content && event?has_content> ${event}="${action}"</#if>
       <#if confirmation?has_content> onclick="return confirm('${confirmation?js_string}')"</#if>

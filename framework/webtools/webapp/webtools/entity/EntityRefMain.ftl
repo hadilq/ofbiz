@@ -26,7 +26,7 @@ under the License.
 <#if (parameters.forstatic)?default("false") == "true">
   <#assign forstatic = true/>
 </#if>
-<html lang="${docLangAttr}" dir="${langDir}" xmlns="http://www.w3.org/1999/xhtml">
+<html lang="${docLangAttr?substring(0, 2)}" xmlns="http://www.w3.org/1999/xhtml">
     <head>
         <title>${uiLabelMap.WebtoolsEntityReference}</title>
         <style type="text/css">
