@@ -68,7 +68,7 @@ public class DateTimeConverters implements ConverterLoader {
         public String convert(Calendar obj) throws ConversionException {
             Locale locale = obj.getLocale(com.ibm.icu.util.ULocale.VALID_LOCALE).toLocale();
             TimeZone timeZone = UtilDateTime.toTimeZone(obj.getTimeZone().getID());
-            DateFormat df = UtilDateTime.toDateTimeFormat(UtilDateTime.DATE_TIME_FORMAT, timeZone, locale);
+            DateFormat df = UtilDateTime.toDateTimeFormat(timeZone, locale);
             return df.format(obj);
         }
     }
@@ -151,7 +151,7 @@ public class DateTimeConverters implements ConverterLoader {
         public String convert(java.util.Date obj, Locale locale, TimeZone timeZone, String formatString) throws ConversionException {
             DateFormat df = null;
             if (UtilValidate.isEmpty(formatString)) {
-                df = UtilDateTime.toDateTimeFormat(UtilDateTime.DATE_TIME_FORMAT, timeZone, locale);
+                df = UtilDateTime.toDateTimeFormat(timeZone, locale);
             } else {
                 df = UtilDateTime.toDateTimeFormat(formatString, timeZone, locale);
             }
@@ -378,7 +378,7 @@ public class DateTimeConverters implements ConverterLoader {
         public String convert(java.sql.Date obj, Locale locale, TimeZone timeZone, String formatString) throws ConversionException {
             DateFormat df = null;
             if (UtilValidate.isEmpty(formatString)) {
-                df = UtilDateTime.toDateFormat(UtilDateTime.DATE_FORMAT, timeZone, locale);
+                df = UtilDateTime.toDateFormat(timeZone, locale);
             } else {
                 df = UtilDateTime.toDateFormat(formatString, timeZone, locale);
             }
@@ -479,7 +479,7 @@ public class DateTimeConverters implements ConverterLoader {
             }
             DateFormat df = null;
             if (UtilValidate.isEmpty(formatString)) {
-                df = UtilDateTime.toDateTimeFormat(UtilDateTime.DATE_TIME_FORMAT, timeZone, locale);
+                df = UtilDateTime.toDateTimeFormat(timeZone, locale);
             } else {
                 df = UtilDateTime.toDateTimeFormat(formatString, timeZone, locale);
             }
@@ -504,7 +504,7 @@ public class DateTimeConverters implements ConverterLoader {
             }
             DateFormat df = null;
             if (UtilValidate.isEmpty(formatString)) {
-                df = UtilDateTime.toDateTimeFormat(UtilDateTime.DATE_TIME_FORMAT, timeZone, locale);
+                df = UtilDateTime.toDateTimeFormat(timeZone, locale);
             } else {
                 df = UtilDateTime.toDateTimeFormat(formatString, timeZone, locale);
             }
@@ -562,7 +562,7 @@ public class DateTimeConverters implements ConverterLoader {
             }
             DateFormat df = null;
             if (UtilValidate.isEmpty(formatString)) {
-                df = UtilDateTime.toDateFormat(UtilDateTime.DATE_FORMAT, timeZone, locale);
+                df = UtilDateTime.toDateFormat(timeZone, locale);
             } else {
                 df = UtilDateTime.toDateFormat(formatString, timeZone, locale);
             }
@@ -627,8 +627,11 @@ public class DateTimeConverters implements ConverterLoader {
                 // These hacks are a bad idea, but they are included
                 // for backward compatibility.
                 if (str.length() > 0 && !str.contains(":")) {
-                    str = str + " 00:00:00.00";
+                    df = UtilDateTime.toDateFormat(timeZone, locale);
+                } else {
+                    df = UtilDateTime.toDateTimeFormat(timeZone, locale);
                 }
+                /*
                 // hack to mimic Timestamp.valueOf() method
                 if (str.length() > 0 && !str.contains(".")) {
                     str = str + ".0";
@@ -640,8 +643,7 @@ public class DateTimeConverters implements ConverterLoader {
                     if (timeSplit.length > 1 && timeSplit[1].length() < 3) {
                         str = str + "000".substring(timeSplit[1].length());
                     }
-                }
-                df = UtilDateTime.toDateTimeFormat(UtilDateTime.DATE_TIME_FORMAT, timeZone, locale);
+                }*/
             } else {
                 df = UtilDateTime.toDateTimeFormat(formatString, timeZone, locale);
             }
@@ -747,7 +749,7 @@ public class DateTimeConverters implements ConverterLoader {
         public String convert(java.sql.Timestamp obj, Locale locale, TimeZone timeZone, String formatString) throws ConversionException {
             DateFormat df = null;
             if (UtilValidate.isEmpty(formatString)) {
-                df = UtilDateTime.toDateTimeFormat(UtilDateTime.DATE_TIME_FORMAT, timeZone, locale);
+                df = UtilDateTime.toDateTimeFormat(timeZone, locale);
             } else {
                 df = UtilDateTime.toDateTimeFormat(formatString, timeZone, locale);
             }

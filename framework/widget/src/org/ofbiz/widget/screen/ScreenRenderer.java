@@ -167,6 +167,7 @@ public class ScreenRenderer {
         context.put("locale", locale);
         context.put("userLogin", userLogin);
         context.put("nowTimestamp", UtilDateTime.nowTimestamp());
+        Debug.logError("UtilDateTime.nowTimestamp(): "+UtilDateTime.nowTimestamp(),"MyModue") ;
         try {
             Map<String, Object> result = dispatcher.runSync("getUserPreferenceGroup", UtilMisc.toMap("userLogin", userLogin, "userPrefGroupTypeId", "GLOBAL_PREFERENCES"));
             context.put("userPreferences", result.get("userPrefMap"));
@@ -242,7 +243,7 @@ public class ScreenRenderer {
         TaglibFactory JspTaglibs = new TaglibFactory(servletContext);
         context.put("JspTaglibs", JspTaglibs);
         context.put("requestParameters",  UtilHttp.getParameterMap(request));
-        
+
         ServletContextHashModel ftlServletContext = (ServletContextHashModel) request.getAttribute("ftlServletContext");
         context.put("Application", ftlServletContext);
         context.put("Request", context.get("requestAttributes"));

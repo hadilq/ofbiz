@@ -34,6 +34,8 @@ import java.util.TimeZone;
 
 import com.ibm.icu.util.Calendar;
 
+//import org.ofbiz.base.util.Debug;
+
 /**
  * Utility class for handling java.util.Date, the java.sql data/time classes and related
  */
@@ -62,10 +64,26 @@ public class UtilDateTime {
      * JDBC escape format for java.sql.Date conversions.
      */
     public static final String DATE_FORMAT = "yyyy-MM-dd";
+    public static String getDateFormat(Locale locale) {
+        if (locale != null && "fa-IR-u-ca-jalali-nu-persian-x-lvariant-IR".equals(locale.toLanguageTag())) {
+            return "yyyy/MM/dd";
+        } else {
+            return "yyyy-MM-dd";
+        }
+
+    }
     /**
      * JDBC escape format for java.sql.Timestamp conversions.
      */
     public static final String DATE_TIME_FORMAT = "yyyy-MM-dd HH:mm:ss.SSS";
+    public static String getDateTimeFormat(Locale locale) {
+        if (locale != null && "fa-IR-u-ca-jalali-nu-persian-x-lvariant-IR".equals(locale.toLanguageTag())) {
+            return "yyyy/MM/dd HH:mm:ss";
+        } else {
+            return "yyyy-MM-dd HH:mm:ss";
+        }
+
+    }
     /**
      * JDBC escape format for java.sql.Time conversions.
      */
@@ -972,8 +990,14 @@ public class UtilDateTime {
         if (UtilValidate.isEmpty(dateFormat)) {
             df = DateFormat.getDateInstance(DateFormat.SHORT, locale);
         } else {
-            df = new SimpleDateFormat(dateFormat);
+            df = new SimpleDateFormat(dateFormat, locale);
         }
+        df.setTimeZone(tz);
+        return df;
+    }
+
+    public static DateFormat toDateFormat(TimeZone tz, Locale locale) {
+        DateFormat df = new SimpleDateFormat(getDateFormat(locale), locale);
         df.setTimeZone(tz);
         return df;
     }
@@ -990,8 +1014,14 @@ public class UtilDateTime {
         if (UtilValidate.isEmpty(dateTimeFormat)) {
             df = DateFormat.getDateTimeInstance(DateFormat.SHORT, DateFormat.MEDIUM, locale);
         } else {
-            df = new SimpleDateFormat(dateTimeFormat);
+            df = new SimpleDateFormat(dateTimeFormat, locale);
         }
+        df.setTimeZone(tz);
+        return df;
+    }
+
+    public static DateFormat toDateTimeFormat(TimeZone tz, Locale locale) {
+        DateFormat df = new SimpleDateFormat(getDateTimeFormat(locale), locale);
         df.setTimeZone(tz);
         return df;
     }
@@ -1010,6 +1040,12 @@ public class UtilDateTime {
         } else {
             df = new SimpleDateFormat(timeFormat);
         }
+        df.setTimeZone(tz);
+        return df;
+    }
+
+    public static DateFormat toTimeFormat(TimeZone tz, Locale locale) {
+        DateFormat df = new SimpleDateFormat(TIME_FORMAT);
         df.setTimeZone(tz);
         return df;
     }
