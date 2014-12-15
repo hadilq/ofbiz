@@ -27,7 +27,7 @@ under the License.
 >>>>>>> df11098... ofbiz-commit
     <#assign langDir = "rtl">
 </#if>
-<html lang="${docLangAttr}" dir="${langDir}" xmlns="http://www.w3.org/1999/xhtml">
+<html lang="${docLangAttr?substring(0, 2)}" xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
   </head>

@@ -696,9 +696,14 @@ public class UtilMisc {
 
     /**
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
      * Remove underline in the end of some locales like ja_JP_JP_
      * and remove '#' in the end of some locales like ja_JP_JP_#u-ca-japanese
+=======
+     * Remove underline in the end of some locales like fa_IR_IR_
+     * and remove '#' in the end of some locales like fa_IR_IR_#u-ca-jalali-nu-persian
+>>>>>>> 8a78fd0... Modify DateTimeConverters.java UtilDateTime.java UtilMisc.java to support locales and lookup.ftl and other ftl to support right to left languages.
      * @param localeString The locale string (en_US)
      * @return localeString without extra details
      */
