@@ -12,7 +12,7 @@
 		timezoneText: 'منطقه‌زمانی',
 		currentText: 'هم‌اکنون',
 		closeText: 'بستن',
-		timeFormat: 'HH:mm',
+		timeFormat: 'HH:mm:ss tt',
 		amNames: ['ق.ظ', 'ق'],
 		pmNames: ['ب.ظ', 'ب'],
 		isRTL: true
