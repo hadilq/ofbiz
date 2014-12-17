@@ -996,10 +996,34 @@ public class UtilDateTime {
         return df;
     }
 
+    /**
+     * Returns an initialized DateFormat object by using default date format.
+     *
+     *            optional format string
+     * @param tz
+     * @param locale
+     *            can be null if dateFormat is not null
+     * @return DateFormat object
+     */
     public static DateFormat toDateFormat(TimeZone tz, Locale locale) {
         DateFormat df = new SimpleDateFormat(getDateFormat(locale), locale);
         df.setTimeZone(tz);
         return df;
+    }
+
+    /**
+     * Returns an initialized DateFormat object by using context.
+     *
+     * @param  context the context
+     * @return DateFormat object
+     */
+    public static DateFormat toDateFormat(Map<String, ? extends Object> context) {
+        Locale locale = (Locale) context.get("locale");
+        TimeZone timeZone = (TimeZone) context.get("timeZone");
+        if (locale == null) locale = Locale.getDefault();
+        if (timeZone == null) timeZone = TimeZone.getDefault();
+
+        return toDateFormat(timeZone, locale);
     }
 
     /**
@@ -1020,10 +1044,45 @@ public class UtilDateTime {
         return df;
     }
 
+    /**
+     * Returns an initialized DateFormat object by using default date time format.
+     * @param tz
+     * @param locale can be null if dateTimeFormat is not null
+     * @return DateFormat object
+     */
     public static DateFormat toDateTimeFormat(TimeZone tz, Locale locale) {
         DateFormat df = new SimpleDateFormat(getDateTimeFormat(locale), locale);
         df.setTimeZone(tz);
         return df;
+    }
+
+    /**
+     * Returns an initialized DateFormat object by using context.
+     * @param  context the context
+     * @return DateFormat object
+     */
+    public static DateFormat toDateTimeFormat(Map<String, ? extends Object> context ) {
+        Locale locale = (Locale) context.get("locale");
+        TimeZone timeZone = (TimeZone) context.get("timeZone");
+        if (locale == null) locale = Locale.getDefault();
+        if (timeZone == null) timeZone = TimeZone.getDefault();
+
+        return toDateTimeFormat(timeZone, locale);
+    }
+
+    /**
+     * Returns an initialized DateFormat object by using context.
+     * @param  dateTimeFormat optional format string
+     * @param  context the context
+     * @return DateFormat object
+     */
+    public static DateFormat toDateTimeFormat(String dateTimeFormat, Map<String, ? extends Object> context ) {
+        Locale locale = (Locale) context.get("locale");
+        TimeZone timeZone = (TimeZone) context.get("timeZone");
+        if (locale == null) locale = Locale.getDefault();
+        if (timeZone == null) timeZone = TimeZone.getDefault();
+
+        return toDateTimeFormat(dateTimeFormat, timeZone, locale);
     }
 
     /**
@@ -1044,10 +1103,30 @@ public class UtilDateTime {
         return df;
     }
 
+    /**
+     * Returns an initialized DateFormat object by using default time format.
+     * @param tz
+     * @param locale can be null if timeFormat is not null
+     * @return DateFormat object
+     */
     public static DateFormat toTimeFormat(TimeZone tz, Locale locale) {
         DateFormat df = new SimpleDateFormat(TIME_FORMAT);
         df.setTimeZone(tz);
         return df;
+    }
+
+    /**
+     * Returns an initialized DateFormat object by context.
+     * @param  context the context
+     * @return DateFormat object
+     */
+    public static DateFormat toTimeFormat(Map<String, ? extends Object> context) {
+        Locale locale = (Locale) context.get("locale");
+        TimeZone timeZone = (TimeZone) context.get("timeZone");
+        if (locale == null) locale = Locale.getDefault();
+        if (timeZone == null) timeZone = TimeZone.getDefault();
+
+        return toTimeFormat(timeZone, locale);
     }
 
     /**

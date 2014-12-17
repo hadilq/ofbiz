@@ -29,6 +29,7 @@ import java.net.URLEncoder;
 import java.nio.charset.Charset;
 import java.text.DateFormat;
 import java.util.Map;
+import java.util.Locale;
 import java.util.TimeZone;
 
 import javax.servlet.ServletContext;
@@ -386,24 +387,21 @@ public class WidgetWorker {
             }
 
             if (retVal != null) {
-                TimeZone timeZone = (TimeZone) context.get("timeZone");
-                if (timeZone == null) timeZone = TimeZone.getDefault();
-
                 String returnValue = null;
                 // format string based on the user's time zone (not locale because these are parameters)
                 if (retVal instanceof Double || retVal instanceof Float || retVal instanceof BigDecimal) {
                     returnValue = retVal.toString();
                 } else if (retVal instanceof java.sql.Date) {
-                    DateFormat df = UtilDateTime.toDateFormat(timeZone, null);
+                    DateFormat df = UtilDateTime.toDateFormat(context);
                     returnValue = df.format((java.util.Date) retVal);
                 } else if (retVal instanceof java.sql.Time) {
-                    DateFormat df = UtilDateTime.toTimeFormat(timeZone, null);
+                    DateFormat df = UtilDateTime.toTimeFormat(context);
                     returnValue = df.format((java.util.Date) retVal);
                 } else if (retVal instanceof java.sql.Timestamp) {
-                    DateFormat df = UtilDateTime.toDateTimeFormat(timeZone, null);
+                    DateFormat df = UtilDateTime.toDateTimeFormat(context);
                     returnValue = df.format((java.util.Date) retVal);
                 } else if (retVal instanceof java.util.Date) {
-                    DateFormat df = UtilDateTime.toDateTimeFormat("EEE MMM dd hh:mm:ss z yyyy", timeZone, null);
+                    DateFormat df = UtilDateTime.toDateTimeFormat("EEE MMM dd hh:mm:ss z yyyy", context);
                     returnValue = df.format((java.util.Date) retVal);
                 } else {
 <<<<<<< HEAD

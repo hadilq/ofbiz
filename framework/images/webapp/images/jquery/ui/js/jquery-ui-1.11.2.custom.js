@@ -8670,7 +8670,7 @@ $.extend(Datepicker.prototype, {
 			inst = $.datepicker._getInst(event.target);
 
 		if ($.datepicker._get(inst, "constrainInput")) {
-			chars = $.datepicker._possibleChars($.datepicker._get(inst, "dateFormat"), $.datepicker._get(inst, "numbersChracters").join(''));
+			chars = $.datepicker._possibleChars($.datepicker._get(inst, "dateFormat"), $.datepicker._get(inst, "numbersCharacters").join(''));
 			chr = String.fromCharCode(event.charCode == null ? event.keyCode : event.charCode);
 			return event.ctrlKey || event.metaKey || (chr < " " || !chars || chars.indexOf(chr) > -1);
 		}

@@ -18,7 +18,7 @@ specific language governing permissions and limitations
 under the License.
 -->
 
-<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://ofbiz.apache.org/dtds/widget-form.xsd">
     <!-- Invoice forms -->
     <form name="FindInvoices" type="single" target="findInvoices" title="Find and list invoices"
@@ -130,10 +130,19 @@ under the License.
         </field>
         <field position="1" name="roleTypeId"><display/></field>
         <field position="2" name="billingAccountId"><display/></field>
-        <field position="1" name="invoiceDate"><display description="${bsh:if(invoice.get(&quot;invoiceDate&quot;)!=null)return(invoice.getString(&quot;invoiceDate&quot;).substring(0,10));}"/></field>
-        <field position="2" name="dueDate"><display description="${bsh:if(invoice.get(&quot;dueDate&quot;)!=null)return(invoice.getString(&quot;dueDate&quot;).substring(0,10));}"/></field>
+        <field position="1" name="invoiceDate"><display description="${bsh:
+            if(invoice.get(&quot;invoiceDate&quot;)!=null)
+                return(org.ofbiz.base.util.UtilDateTime.toDateFormat(context).format(invoice.get(&quot;invoiceDate&quot;)));}"/>
+        </field>
+        <field position="2" name="dueDate"><display description="${bsh:
+            if(invoice.get(&quot;dueDate&quot;)!=null)
+                return(org.ofbiz.base.util.UtilDateTime.toDateFormat(context).format(invoice.get(&quot;dueDate&quot;)));}"/>
+        </field>
         <field position="1" name="total"><display description="${total}" type="currency" currency="${invoice.currencyUomId}"/></field>
-        <field position="2" name="paidDate"><display description="${bsh:if(invoice.get(&quot;paidDate&quot;)!=null)return(invoice.getString(&quot;paidDate&quot;).substring(0,10));}"/></field>
+        <field position="2" name="paidDate"><display description="${bsh:
+            if(invoice.get(&quot;paidDate&quot;)!=null)
+                return(org.ofbiz.base.util.UtilDateTime.toDateFormat(context).format(invoice.getString(&quot;paidDate&quot;)));}"/>
+        </field>
         <field position="1" name="referenceNumber" title="${uiLabelMap.FormFieldTitle_referenceNum}"><display/></field>
         <field name="currencyUomId"><hidden/></field>
     </form>
@@ -438,7 +447,9 @@ under the License.
     <form name="ListInvoiceStatus" list-name="invoiceStatus" target="" title="" type="list" paginate-target="ListInvoiceStatus"
         odd-row-style="alternate-row" default-table-style="basic-table hover-bar">
         <field name="invoiceId"><hidden/></field>
-        <field name="statusDate"><display description="${bsh:statusDate.toString().substring(0,10)}"/></field>
+        <field name="statusDate"><display description="${bsh:
+            org.ofbiz.base.util.UtilDateTime.toDateFormat(context).format(statusDate)}"/>
+        </field>
         <field name="statusId" title="${uiLabelMap.CommonStatus}"><display-entity entity-name="StatusItem"/></field>
     </form>
 
@@ -660,7 +671,7 @@ under the License.
         <field name="partyIdFrom"><ignored/></field>
         <field name="partyIdTo"><ignored/></field>
     </form>
-    
+
     <form name="ListSupplierInvoices" extends="ListInvoices" list-name="invoiceslistexternal"
         odd-row-style="alternate-row" default-table-style="basic-table hover-bar">
         <field name="partyIdFrom"><ignored/></field>
