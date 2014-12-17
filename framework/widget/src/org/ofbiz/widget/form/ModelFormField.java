@@ -648,11 +648,6 @@ public class ModelFormField {
         Boolean isError = (Boolean) context.get("isError");
         Boolean useRequestParameters = (Boolean) context.get("useRequestParameters");
 
-        Locale locale = (Locale) context.get("locale");
-        if (locale == null) locale = Locale.getDefault();
-        TimeZone timeZone = (TimeZone) context.get("timeZone");
-        if (timeZone == null) timeZone = TimeZone.getDefault();
-
         String returnValue;
 
         // if useRequestParameters is TRUE then parameters will always be used, if FALSE then parameters will never be used
@@ -679,20 +674,22 @@ public class ModelFormField {
             if (retVal != null) {
                 // format string based on the user's locale and time zone
                 if (retVal instanceof Double || retVal instanceof Float || retVal instanceof BigDecimal) {
+                    Locale locale = (Locale) context.get("locale");
+                    if (locale == null) locale = Locale.getDefault();
                     NumberFormat nf = NumberFormat.getInstance(locale);
                     nf.setMaximumFractionDigits(10);
                     return nf.format(retVal);
                 } else if (retVal instanceof java.sql.Date) {
-                    DateFormat df = UtilDateTime.toDateFormat(timeZone, locale);
+                    DateFormat df = UtilDateTime.toDateFormat(context);
                     return df.format((java.util.Date) retVal);
                 } else if (retVal instanceof java.sql.Time) {
-                    DateFormat df = UtilDateTime.toTimeFormat(timeZone, locale);
+                    DateFormat df = UtilDateTime.toTimeFormat(context);
                     return df.format((java.util.Date) retVal);
                 } else if (retVal instanceof java.sql.Timestamp) {
-                    DateFormat df = UtilDateTime.toDateTimeFormat(timeZone, locale);
+                    DateFormat df = UtilDateTime.toDateTimeFormat(context);
                     return df.format((java.util.Date) retVal);
                 } else if (retVal instanceof java.util.Date) {
-                    DateFormat df = UtilDateTime.toDateTimeFormat("EEE MMM dd hh:mm:ss z yyyy", timeZone, locale);
+                    DateFormat df = UtilDateTime.toDateTimeFormat("EEE MMM dd hh:mm:ss z yyyy", context);
                     return df.format((java.util.Date) retVal);
                 } else {
                     returnValue = retVal.toString();
@@ -2028,11 +2025,6 @@ public class ModelFormField {
                     }
                 }
             } else if ("date".equals(this.type)) {
-                Locale locale = (Locale) context.get("locale");
-                TimeZone timeZone = (TimeZone) context.get("timeZone");
-                if (locale == null) locale = Locale.getDefault();
-                if (timeZone == null) timeZone = TimeZone.getDefault();;
-
                 Date date = null;
 
                 if (ObjRetVal instanceof Timestamp)
@@ -2052,16 +2044,11 @@ public class ModelFormField {
                         retVal = retVal.substring(0,10);
                     }
                 }
-                DateFormat dateFormatter = UtilDateTime.toDateFormat(timeZone, locale);
+                DateFormat dateFormatter = UtilDateTime.toDateFormat(context);
                 //DateFormat dateFormatter = DateFormat.getDateInstance(DateFormat.SHORT, locale);
                 retVal = dateFormatter.format(date);
 
             } else if ("date-time".equals(this.type)) {
-                Locale locale = (Locale) context.get("locale");
-                TimeZone timeZone = (TimeZone) context.get("timeZone");
-                if (locale == null) locale = Locale.getDefault();
-                if (timeZone == null) timeZone = TimeZone.getDefault();
-
                 Date date = null;
 
                 if (ObjRetVal instanceof Timestamp)
@@ -2080,7 +2067,7 @@ public class ModelFormField {
                         retVal = retVal.substring(0,16);
                     }
                 }
-                DateFormat dateFormatter = UtilDateTime.toDateTimeFormat(timeZone, locale);
+                DateFormat dateFormatter = UtilDateTime.toDateTimeFormat(context);
                 retVal = dateFormatter.format(date);
 
             } else if ("accounting-number".equals(this.type)) {

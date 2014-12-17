@@ -167,7 +167,6 @@ public class ScreenRenderer {
         context.put("locale", locale);
         context.put("userLogin", userLogin);
         context.put("nowTimestamp", UtilDateTime.nowTimestamp());
-        Debug.logError("UtilDateTime.nowTimestamp(): "+UtilDateTime.nowTimestamp(),"MyModue") ;
         try {
             Map<String, Object> result = dispatcher.runSync("getUserPreferenceGroup", UtilMisc.toMap("userLogin", userLogin, "userPrefGroupTypeId", "GLOBAL_PREFERENCES"));
             context.put("userPreferences", result.get("userPrefMap"));
