@@ -169,6 +169,27 @@ public class UtilDateTime {
     }
 
     /**
+     * Return a String of timestamp for right now
+     *
+     * @return String for right now
+     */
+    public static String nowTimestampInString() {
+        DateFormat df = new SimpleDateFormat(DATE_TIME_FORMAT, Locale.getDefault());
+        df.setTimeZone(TimeZone.getDefault());
+        return df.format(getTimestamp(System.currentTimeMillis()));
+    }
+
+    /**
+     * Return a String of timestamp for right now in locale format
+     *
+     * @return String for right now
+     */
+    public static String nowTimestampInString(Map<String, ? extends Object> context) {
+        DateFormat df = toDateTimeFormat(context);
+        return df.format(getTimestamp(System.currentTimeMillis()));
+    }
+
+    /**
      * Return a Timestamp for right now
      *
      * @return Timestamp for right now
