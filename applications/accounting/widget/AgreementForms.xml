@@ -372,8 +372,8 @@ under the License.
         <field name="partyIdTo">
             <display-entity entity-name="PartyGroup" key-field-name="partyId" description="${partyId} - ${groupName}"/>
         </field>
-        <field name="fromDate"><display/></field>
-        <field name="thruDate" title="${uiLabelMap.AccountingThruDate}"><display/></field>
+        <field name="fromDate"><display type="date"/></field>
+        <field name="thruDate" title="${uiLabelMap.AccountingThruDate}"><display type="date"/></field>
         <field name="description"><display/></field>
     </form>
     <form name="ViewAgreementItemInfoForReport" type="single" title="" default-map-name="agreementItem"
@@ -519,7 +519,7 @@ under the License.
             </drop-down>
         </field>
 
-        <field use-when="agreementPromoAppl!=null" name="fromDate"><display/></field>
+        <field use-when="agreementPromoAppl!=null" name="fromDate"><display type="date"/></field>
         <field use-when="agreementPromoAppl==null" name="fromDate"><date-time/></field>
         <field name="submitButton" title="${uiLabelMap.CommonSubmit}" widget-style="smallSubmit">
             <submit button-type="button"/>

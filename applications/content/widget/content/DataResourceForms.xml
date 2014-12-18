@@ -277,8 +277,8 @@ under the License.
                 <entity-options description="${description}" entity-name="CharacterSet" key-field-name="characterSetId"/>
             </drop-down>
         </field>
-        <field name="createdDate"><display/></field>
-        <field name="lastModifiedDate"><display/></field>
+        <field name="createdDate"><display type="date"/></field>
+        <field name="lastModifiedDate"><display type="date"/></field>
         <field name="createdByUserLogin"><display/></field>
         <field name="lastModifiedByUserLogin"><display/></field>
     </form>

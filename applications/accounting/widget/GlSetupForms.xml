@@ -101,8 +101,8 @@ under the License.
         <field name="organizationPartyId"><hidden value="${organizationPartyId}"/></field>
         <field name="invoiceId" title="invoiceId"><display/></field>
         <field name="invoiceTypeId" title="invoiceTypeId"><display/></field>
-        <field name="invoiceDate" title="invoiceDate"><display/></field>
-        <field name="dueDate" title="dueDate"><display/></field>
+        <field name="invoiceDate" title="invoiceDate"><display type="date"/></field>
+        <field name="dueDate" title="dueDate"><display type="date"/></field>
         <field name="partyIdFrom" title="partyIdFrom"><display/></field>
         <field name="partyIdFromTrans" title="partyIdFromTrans"><display/></field>
         <field name="partyId" title="partyId"><display/></field>
@@ -379,8 +379,8 @@ under the License.
         <field name="uomIdTo" title="${uiLabelMap.CommonTo} ${uiLabelMap.CommonCurrency}"><display/></field>
         <field name="purposeEnumId" title="${uiLabelMap.CommonPurpose}"><display-entity entity-name="Enumeration" key-field-name="enumId"/></field>
         <field name="conversionFactor"><display/></field>
-        <field name="fromDate" title="${uiLabelMap.CommonFrom}"><display/></field>
-        <field name="thruDate" title="${uiLabelMap.CommonThru}"><display/></field>
+        <field name="fromDate" title="${uiLabelMap.CommonFrom}"><display type="date"/></field>
+        <field name="thruDate" title="${uiLabelMap.CommonThru}"><display type="date"/></field>
     </form>
 
     <form name="updateFXConversion" type="single" target="updateFXConversion" default-service-name="updateFXConversion"
@@ -1154,7 +1154,7 @@ under the License.
         <auto-fields-entity entity-name="GlAccountCategoryMember" default-field-type="edit"/>
         <field name="glAccountId"><display-entity entity-name="GlAccount" key-field-name="glAccountId" description="${glAccountId}-${accountName}"/></field>
         <field name="glAccountCategoryId"><display-entity entity-name="GlAccountCategory"/></field>
-        <field name="fromDate"><display/></field>
+        <field name="fromDate"><display type="date"/></field>
         <field name="thruDate"><date-time/></field>
         <field name="deleteLink" title="" widget-style="buttontext">
             <hyperlink target="deleteGlAccountCategoryMember" description="${uiLabelMap.CommonDelete}" also-hidden="false">

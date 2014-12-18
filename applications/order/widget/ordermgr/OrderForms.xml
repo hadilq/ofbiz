@@ -152,7 +152,7 @@ under the License.
     <form name="OrderShipmentMethodHistory" type="list" list-name="orderShipmentHistories"
             odd-row-style="alternate-row" header-row-style="header-row-2" default-table-style="basic-table hover-bar">
         <field name="shipmentMethod" title="${uiLabelMap.ProductShipmentMethod}"><display/></field>
-        <field name="changedDate" title="${uiLabelMap.CommonDate}"><display/></field>
+        <field name="changedDate" title="${uiLabelMap.CommonDate}"><display type="date"/></field>
         <field name="changedByUser" title="${uiLabelMap.OrderChangedByUser}"><display/></field>
     </form>
 
@@ -161,7 +161,7 @@ under the License.
         <field name="productId"><display/></field>
         <field name="oldValue"><display type="currency"/></field>
         <field name="newValue"><display type="currency"/></field>
-        <field name="changedDate" title="${uiLabelMap.CommonDate}"><display/></field>
+        <field name="changedDate" title="${uiLabelMap.CommonDate}"><display type="date"/></field>
         <field name="changedByUser" title="${uiLabelMap.OrderChangedByUser}"><display/></field>
     </form>
 
@@ -170,7 +170,7 @@ under the License.
         <field name="productId"><display/></field>
         <field name="oldValue"><display/></field>
         <field name="newValue"><display/></field>
-        <field name="changedDate" title="${uiLabelMap.CommonDate}"><display/></field>
+        <field name="changedDate" title="${uiLabelMap.CommonDate}"><display type="date"/></field>
         <field name="changedByUser" title="${uiLabelMap.OrderChangedByUser}"><display/></field>
     </form>
     
@@ -213,7 +213,7 @@ under the License.
         <field name="remainingSubTotal" title="${uiLabelMap.FormFieldTitle_remainingSubTotal}"><display/></field>
         <field name="grandTotal" title="${uiLabelMap.OrderGrandTotal}"><display/></field>
         <field name="statusId"><display/></field>
-        <field name="orderDate" title="${uiLabelMap.OrderOrderDate}"><display/></field>
+        <field name="orderDate" title="${uiLabelMap.OrderOrderDate}"><display type="date"/></field>
         <field name="partyId" title="${uiLabelMap.PartyPartyId}"><display/></field>
         <field name="roleTypeId" title="${uiLabelMap.FormFieldTitle_roleTypeId}"><display/></field>
     </form>
@@ -238,7 +238,7 @@ under the License.
         <field name="remainingSubTotal" title="${uiLabelMap.FormFieldTitle_remainingSubTotal}"><display/></field>
         <field name="grandTotal" title="${uiLabelMap.OrderGrandTotal}"><display/></field>
         <field name="statusId"><display-entity entity-name="StatusItem" key-field-name="statusId" description="${description}"/></field>
-        <field name="orderDate" title="${uiLabelMap.OrderOrderDate}"><display/></field>
+        <field name="orderDate" title="${uiLabelMap.OrderOrderDate}"><display type="date"/></field>
         <field name="partyId" title="${uiLabelMap.PartyPartyId}">
             <display-entity entity-name="PartyNameView" description="${groupName}"/>
         </field>

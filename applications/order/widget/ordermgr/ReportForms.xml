@@ -130,7 +130,7 @@ under the License.
     <!-- list open order items -->
     <form name="OpenOrderItemsList" type="list" list-name="orderItemList"
         odd-row-style="alternate-row" default-table-style="basic-table hover-bar" paginate-target="OpenOrderItemsReport">
-        <field name="orderDate" title="${uiLabelMap.OrderDate}"><display/></field>
+        <field name="orderDate" title="${uiLabelMap.OrderDate}"><display type="date"/></field>
         <field name="orderId" title="${uiLabelMap.OrderOrderId}" widget-style="buttontext">
             <hyperlink target="orderview" description="${orderId}">
                 <parameter param-name="orderId"/>
@@ -141,8 +141,8 @@ under the License.
         <field name="quantityOrdered" title="${uiLabelMap.ProductQuantity}"><display/></field>
         <field name="quantityIssued" title="${uiLabelMap.OrderQtyShipped}"><display/></field>
         <field name="quantityOpen" title="${uiLabelMap.ProductOpenQuantity}"><display/></field>
-        <field name="shipAfterDate" title="${uiLabelMap.OrderShipAfterDate}"><display/></field>
-        <field name="shipBeforeDate" title="${uiLabelMap.OrderShipBeforeDate}"><display/></field>
+        <field name="shipAfterDate" title="${uiLabelMap.OrderShipAfterDate}"><display type="date"/></field>
+        <field name="shipBeforeDate" title="${uiLabelMap.OrderShipBeforeDate}"><display type="date"/></field>
         <field name="comments" title="${uiLabelMap.CommonComments}"><display/></field>
         <field name="costPrice" title="${uiLabelMap.ProductCostPrice}"><display/></field>
         <field name="listPrice" title="${uiLabelMap.ProductListPrice}"><display/></field>

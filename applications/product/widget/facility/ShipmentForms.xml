@@ -18,7 +18,7 @@ specific language governing permissions and limitations
 under the License.
 -->
 
-<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:noNamespaceSchemaLocation="http://ofbiz.apache.org/dtds/widget-form.xsd">
     <form name="EditShipment" type="single" target="updateShipment" title="" default-map-name="shipment"
         header-row-style="header-row" default-table-style="basic-table">
@@ -117,13 +117,13 @@ under the License.
                 tooltip="${destinationTelecomNumber.countryCode}  ${destinationTelecomNumber.areaCode} ${destinationTelecomNumber.contactNumber}">
         </field>
         <field name="partyIdTo" title="${uiLabelMap.ProductToParty}"><lookup target-form-name="LookupPartyName"/></field>
-        <field name="partyIdFrom" title="${uiLabelMap.ProductFromParty}"><lookup target-form-name="LookupPartyName"/></field> 
+        <field name="partyIdFrom" title="${uiLabelMap.ProductFromParty}"><lookup target-form-name="LookupPartyName"/></field>
 
         <field name="additionalShippingCharge" title="${uiLabelMap.ProductAdditionalShippingCharge}"><text/></field>
 
-        <field use-when="shipment!=null" name="createdDate" title="${uiLabelMap.ProductCreatedDate}"><display also-hidden="false" description="${shipment.createdDate}"/></field>
+        <field use-when="shipment!=null" name="createdDate" title="${uiLabelMap.ProductCreatedDate}"><display also-hidden="false" type="date"/></field>
         <field use-when="shipment!=null" name="createdByUserLogin" title="${uiLabelMap.ProductCreatedByUserLogin}"><display also-hidden="false" description="${shipment.createdByUserLogin}"/></field>
-        <field use-when="shipment!=null" name="lastModifiedDate" title="${uiLabelMap.ProductLastModifiedDate}"><display also-hidden="false" description="${shipment.lastModifiedDate}"/></field>
+        <field use-when="shipment!=null" name="lastModifiedDate" title="${uiLabelMap.ProductLastModifiedDate}"><display also-hidden="false" type="date"/></field>
         <field use-when="shipment!=null" name="lastModifiedByUserLogin" title="${uiLabelMap.ProductLastModifiedByUserLogin}"><display also-hidden="false" description="${shipment.lastModifiedByUserLogin}"/></field>
 
         <field name="submitButton" title="${uiLabelMap.CommonUpdate}"><submit button-type="button"/></field>

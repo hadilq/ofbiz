@@ -84,7 +84,7 @@ under the License.
                 </sub-hyperlink>
             </display-entity>
         </field>
-        <field name="effectiveDate"><display/></field>
+        <field name="effectiveDate"><display type="date"/></field>
         <field name="currencyUomId"><hidden/></field>
         <field name="amount"><display also-hidden="false" type="currency" currency="${currencyUomId}"/></field>
         <field name="amountToApply"><display also-hidden="false" type="currency" currency="${currencyUomId}"/></field>
@@ -334,7 +334,7 @@ under the License.
                 <parameter param-name="paymentId" from-field="toPaymentId"/>
             </hyperlink>
         </field>
-        <field name="effectiveDate"><display/></field>
+        <field name="effectiveDate"><display type="date"/></field>
         <field name="amount"><display  type="currency" currency="${currencyUomId}"/></field>
         <field name="amountApplied" parameter-name="dummy"><display  type="currency" currency="${currencyUomId}"/></field>
         <field name="amountToApply" parameter-name="amountApplied"><text size="10"/></field>
@@ -461,7 +461,7 @@ under the License.
           <display-entity description="${firstName} ${middleName} ${lastName} ${groupName}" entity-name="PartyNameView" key-field-name="partyId"/>
         </field>
         <field name="amount" widget-area-style="align-text"><display type="currency" currency="${currencyUomId}"/></field>
-        <field name="effectiveDate"><display/></field>
+        <field name="effectiveDate"><display type="date"/></field>
         <field name="_rowSubmit" title="${uiLabelMap.CommonSelect}"><check/></field>
         <field name="submitButton" title="${uiLabelMap.CommonPrint}" widget-style="smallSubmit">
             <submit/>
@@ -479,7 +479,7 @@ under the License.
           <display-entity description="${firstName} ${middleName} ${lastName} ${groupName}" entity-name="PartyNameView" key-field-name="partyId"/>
         </field>
         <field name="amount" widget-area-style="align-text"><display type="currency" currency="${currencyUomId}"/></field>
-        <field name="effectiveDate"><display/></field>
+        <field name="effectiveDate"><display type="date"/></field>
         <field name="paymentRefNum"><text/></field>
         <field name="_rowSubmit" title="${uiLabelMap.CommonSelect}"><check/></field>
         <field name="submitButton" title="${uiLabelMap.CommonSend}" widget-style="smallSubmit"><submit/></field>
@@ -529,7 +529,7 @@ under the License.
         <field name="termTypeId">
             <display-entity entity-name="TermType" description="${description}"/>
         </field>
-        <field name="dueDate"><display/></field>
+        <field name="dueDate"><display type="date"/></field>
         <field name="amount"><display/></field>
         <field name="paidAmount"><display/></field>
         <field name="outstandingAmount"><display/></field>
@@ -544,7 +544,7 @@ under the License.
                 <parameter param-name="finAccountId" from-field="finAccountTrans.finAccountId"/>
             </hyperlink>
         </field>
-        <field name="transactionDate" position="1"><display/></field>
+        <field name="transactionDate" position="1"><display type="date"/></field>
         <field name="statusId"  position="2" title="${uiLabelMap.CommonStatus}"><display-entity entity-name="StatusItem" description="${description}" key-field-name="statusId"/></field>
     </form>
 </forms>

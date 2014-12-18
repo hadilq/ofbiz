@@ -18,7 +18,7 @@ specific language governing permissions and limitations
 under the License.
 -->
 
-<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:noNamespaceSchemaLocation="http://ofbiz.apache.org/dtds/widget-form.xsd">
 
     <form name="ListBillingAccounts" type="list" list-name="listIt" paginate-target="FindBillingAccount" default-entity-name="BillingAccount"
@@ -41,8 +41,8 @@ under the License.
             <display type="currency" currency="${billingAccount.accountCurrencyUomId}"/>
         </field>
         <field name="description"><display/></field>
-        <field name="fromDate"><display/></field>
-        <field name="thruDate"><display/></field>
+        <field name="fromDate"><display type="date"/></field>
+        <field name="thruDate"><display type="date"/></field>
     </form>
 
     <form name="ListBillingAccountsByParty" type="list" list-name="billingAccounts" paginate-target="FindBillingAccount"
@@ -57,8 +57,8 @@ under the License.
         </field>
         <field name="accountBalance"><display type="currency"/></field>
         <field name="description"><display/></field>
-        <field name="fromDate"><display/></field>
-        <field name="thruDate"><display/></field>
+        <field name="fromDate"><display type="date"/></field>
+        <field name="thruDate"><display type="date"/></field>
         <field name="partyId" title="${uiLabelMap.PartyPartyId}"><display description="${parameters.partyId}"/></field>
         <field name="roleTypeId" title="${uiLabelMap.AccountingRoleType}"><display-entity entity-name="RoleType"/></field>
     </form>
@@ -99,12 +99,12 @@ under the License.
             </hyperlink>
         </field>
         <field name="invoiceTypeId"><display-entity entity-name="InvoiceType"/></field>
-        <field name="invoiceDate"><display/></field>
+        <field name="invoiceDate"><display type="date"/></field>
         <field name="statusId" title="${uiLabelMap.CommonStatus}"><display-entity entity-name="StatusItem"/></field>
         <field name="description"><display/></field>
         <field name="partyIdFrom"><display description="${partyNameResultFrom.fullName} [${partyIdFrom}]"/></field>
         <field name="partyIdTo" parameter-name="partyId"><display description="${partyNameResultTo.fullName} [${partyId}]"/></field>
-        <field name="invoiceDate"><display description="${bsh:invoiceDate.toString().substring(0,10)}"/></field>
+        <field name="invoiceDate"><display type="date"/></field>
         <field name="total" widget-area-style="align-text"><display type="currency" currency="${currencyUomId}"/></field>
         <field name="amountToApply" widget-area-style="align-text"><display type="currency" currency="${currencyUomId}"/></field>
         <field name="capture" use-when="${bsh:!paidInvoice}" widget-style="buttontext">
@@ -184,7 +184,7 @@ under the License.
         <field name="roleTypeId" title="${uiLabelMap.PartyRoleTypeId}">
             <display-entity entity-name="RoleType" description="${description}"/>
         </field>
-        <field name="fromDate" title="${uiLabelMap.CommonFromDate}"><display/></field>
+        <field name="fromDate" title="${uiLabelMap.CommonFromDate}"><display type="date"/></field>
 
         <field name="submitButton" title="${uiLabelMap.CommonUpdate}" widget-style="smallSubmit"><submit button-type="button"/></field>
         <field name="deleteLink" title=" " widget-style="buttontext">
@@ -279,7 +279,7 @@ under the License.
         </field>
         <field name="invoiceId"><display/></field>
         <field name="invoiceItemSeqId"><display/></field>
-        <field name="effectiveDate"><display/></field>
+        <field name="effectiveDate"><display type="date"/></field>
         <field name="amountApplied">
             <display type="currency" currency="${currencyUomId}"/>
         </field>
@@ -331,7 +331,7 @@ under the License.
                 <parameter param-name="orderId"/>
             </hyperlink>
         </field>
-        <field name="orderDate"><display/></field>
+        <field name="orderDate"><display type="date"/></field>
         <field name="paymentMethodTypeId">
             <display-entity entity-name="PaymentMethodType" key-field-name="paymentMethodTypeId"/>
         </field>

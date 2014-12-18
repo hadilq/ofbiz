@@ -36,7 +36,7 @@ under the License.
         <field name="quoteName"><display/></field>
         <field name="description"><display/></field>
         <field name="statusItemDescription"><display/></field>
-        <field name="issueDate"><display/></field>
+        <field name="issueDate"><display type="date"/></field>
         <field name="deleteLink" title=" " widget-style="linktext">
             <hyperlink also-hidden="false" description="${uiLabelMap.CommonDelete}" target="deleteWorkEffortQuote">
                 <parameter param-name="workEffortId"/>
@@ -74,7 +74,7 @@ under the License.
         <field name="productId"><display/></field>
         <field name="custRequestId"><display/></field>
         <field name="custRequestItemSeqId"><display/></field>
-        <field name="estimatedDeliveryDate"><display/></field>
+        <field name="estimatedDeliveryDate"><display type="date"/></field>
         <field name="comments"><display/></field>
         <field name="deleteLink" title=" " widget-style="linktext">
            <hyperlink also-hidden="false" description="${uiLabelMap.CommonDelete}" target="deleteWorkEffortQuoteItem">

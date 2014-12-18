@@ -151,7 +151,7 @@ under the License.
         <field name="dataSourceId" title="${uiLabelMap.SfaLeadSource}">
             <display-entity entity-name="DataSource"/>
         </field>
-        <field name="fromDate"><display/></field>
+        <field name="fromDate"><display type="date"/></field>
         
     </form>
     

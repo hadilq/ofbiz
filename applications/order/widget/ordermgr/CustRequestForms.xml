@@ -92,7 +92,7 @@ under the License.
         </field>
         <field name="custRequestName" sort-field="true"><display/></field>
         <field name="priority" sort-field="true"><display/></field>
-        <field name="responseRequiredDate" sort-field="true"><display/></field>
+        <field name="responseRequiredDate" sort-field="true"><display type="date"/></field>
         <field name="fromPartyId" sort-field="true">
             <display-entity entity-name="PartyNameView" key-field-name="partyId" description="${firstName} ${middleName} ${lastName} ${groupName}">
                 <sub-hyperlink description="[${fromPartyId}]" target="/partymgr/control/viewprofile" target-type="inter-app">
@@ -103,7 +103,7 @@ under the License.
         <field name="statusId" sort-field="true">
             <display-entity also-hidden="false" entity-name="StatusItem"/>
         </field>
-        <field name="lastModifiedDate" sort-field="true"><display/></field>
+        <field name="lastModifiedDate" sort-field="true"><display type="date"/></field>
         <!--field name="statusId"><hidden value="CRQ_REJECTED"/></field-->
         <field name="rejectButton">
             <hyperlink target="setCustRequestStatus" description="${uiLabelMap.FormFieldTitle_rejectButton}">
@@ -545,9 +545,9 @@ under the License.
         <field name="productStoreId" title="${uiLabelMap.ProductProductStore}"><display-entity entity-name="ProductStore" description="${storeName}"/></field>
         <field name="internalComment" title="${uiLabelMap.CommonInternalComment}"><display/></field>
         <field name="reason" title="${uiLabelMap.CommonReason}"><display/></field>
-        <field name="custRequestDate" title="${uiLabelMap.OrderRequestDate}"><display/></field>
-        <field name="createdDate" title="${uiLabelMap.OrderRequestCreatedDate}"><display/></field>
-        <field name="lastModifiedDate" title="${uiLabelMap.OrderRequestLastModifiedDate}"><display/></field>
+        <field name="custRequestDate" title="${uiLabelMap.OrderRequestDate}"><display type="date"/></field>
+        <field name="createdDate" title="${uiLabelMap.OrderRequestCreatedDate}"><display type="date"/></field>
+        <field name="lastModifiedDate" title="${uiLabelMap.OrderRequestLastModifiedDate}"><display type="date"/></field>
     </form>
 
     <!--Customer Request Content-->
@@ -623,7 +623,7 @@ under the License.
             </display-entity>
         </field>
         <field name="mimeTypeId"><display/></field>
-        <field name="fromDate"><display/></field>
+        <field name="fromDate"><display type="date"/></field>
         <field name="deleteLink" title=" " widget-style="buttontext" use-when="tabButtonItem!=void&amp;&amp;tabButtonItem.equals(&quot;custRequestContent&quot;)">
            <hyperlink also-hidden="false" description="${uiLabelMap.CommonDelete}" target="deleteCustRequestContent">
                 <parameter param-name="custRequestId"/>
@@ -741,7 +741,7 @@ under the License.
             </entity-and>
         </actions>
         <field name="returnId" title="${uiLabelMap.OrderReturnId}"><display/></field>
-        <field name="entryDate" title="${uiLabelMap.OrderEntryDate}"><display/></field>
+        <field name="entryDate" title="${uiLabelMap.OrderEntryDate}"><display type="date"/></field>
         <field name="destinationFacilityId" title="${uiLabelMap.OrderReturnDestinationFacility}"><display/></field>
         <field name="statusId"><display/></field>
     </form>

@@ -145,7 +145,7 @@ under the License.
         </field>
         <field name="partyIdFrom"><display-entity entity-name="PartyNameView" key-field-name="partyId" description="${groupName}${lastName}[${partyId}]"/></field>
         <field name="partyIdTo"><display-entity entity-name="PartyNameView" key-field-name="partyId" description="${groupName}${lastName}[${partyId}]"/></field>
-        <field name="effectiveDate"><display/></field>
+        <field name="effectiveDate"><display type="date"/></field>
         <field name="amount"><display/></field>
         <field name="currencyUomId"><display/></field>
     </form>
@@ -220,7 +220,7 @@ under the License.
         <field name="productId"><display/></field>
         <field name="partyIdFrom"><display/></field>
         <field name="partyIdTo"><display/></field>
-        <field name="agreementDate" title="${uiLabelMap.CommonFromDate}"><display/></field>
+        <field name="agreementDate" title="${uiLabelMap.CommonFromDate}"><display type="date"/></field>
         <field name="agreementTypeId"><display/></field>
         <field name="description"><display/></field>
     </form>
