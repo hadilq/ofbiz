@@ -17,15 +17,16 @@ specific language governing permissions and limitations
 under the License.
 -->
 
-<#assign nowTimestamp = Static["org.ofbiz.base.util.UtilDateTime"].nowTimestamp()>
+<#assign nowTimestamp = Static["org.ofbiz.base.util.UtilDateTime"].nowTimestampInString()>
+<#assign localeNowTimestamp = Static["org.ofbiz.base.util.UtilDateTime"].nowTimestampInString(context)>
 
 <div id="footer">
   <ul>
     <li>
-      ${uiLabelMap.CommonCopyright} (c) 2001-${nowTimestamp?string("yyyy")} The Apache Software Foundation - <a href="http://www.apache.org" target="_blank">www.apache.org</a><br/>
+      ${uiLabelMap.CommonCopyright} (c) 2001-${nowTimestamp?substring(0,4)} The Apache Software Foundation - <a href="http://www.apache.org" target="_blank">www.apache.org</a><br/>
       ${uiLabelMap.CommonPoweredBy} <a href="http://ofbiz.apache.org" target="_blank">Apache OFBiz</a> <#include "ofbizhome://runtime/svninfo.ftl" />
     </li>
-    <li class="opposed">${nowTimestamp?datetime?string.short} -
+    <li class="opposed">${localeNowTimestamp} -
   <a href="<@ofbizUrl>ListTimezones</@ofbizUrl>">${timeZone.getDisplayName(timeZone.useDaylightTime(), Static["java.util.TimeZone"].LONG, locale)}</a>
     </li>
   </ul>
