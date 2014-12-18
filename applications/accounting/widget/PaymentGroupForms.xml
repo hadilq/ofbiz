@@ -146,7 +146,7 @@ under the License.
             <display-entity entity-name="PaymentMethodType" description="${description}"/>
         </field>
         <field name="amount"><display currency="${payment.currencyUomId}" type="currency"/></field>
-        <field name="fromDate"><display/></field>
+        <field name="fromDate"><display type="date"/></field>
         <field name="thruDate"><date-time/></field>
         <field name="deleteLink" title="" widget-style="buttontext">
             <hyperlink target="expirePaymentGroupMember" description="${uiLabelMap.CommonCancel}" also-hidden="false">
@@ -197,7 +197,7 @@ under the License.
         <field name="paymentTypeId" title="${uiLabelMap.OrderPaymentType}"><display-entity entity-name="PaymentType" description="${description}"/></field>
         <field name="statusId" title="${uiLabelMap.AccountingPaymentStatus}"><display-entity entity-name="StatusItem"/></field>
         <field name="amount"><display also-hidden="false" type="currency" currency="${payment.currencyUomId}"/></field>
-        <field name="fromDate"><display/></field>
-        <field name="thruDate"><display/></field>
+        <field name="fromDate"><display type="date"/></field>
+        <field name="thruDate"><display type="date"/></field>
     </form>
 </forms>

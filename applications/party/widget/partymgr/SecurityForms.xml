@@ -99,7 +99,7 @@ under the License.
         </actions>
         <field name="groupId"><hidden/></field>
         <field name="userLoginId" title="${uiLabelMap.CommonUserLoginId}"><display/></field>
-        <field name="fromDate" title="${uiLabelMap.CommonFromDate}"><display/></field>
+        <field name="fromDate" title="${uiLabelMap.CommonFromDate}"><display type="date"/></field>
         <field name="thruDate" title="${uiLabelMap.CommonThruDate}"><date-time/></field>
         <field name="partyId" title="${uiLabelMap.PartyParty}">
             <display-entity entity-name="PartyNameView" also-hidden="false" description="${firstName} ${middleName} ${lastName} ${groupName}">
@@ -145,7 +145,7 @@ under the License.
             </display-entity>
         </field>
         <field name="userLoginId"><hidden/></field>
-        <field name="fromDate" title="${uiLabelMap.CommonFromDate}"><display/></field>
+        <field name="fromDate" title="${uiLabelMap.CommonFromDate}"><display type="date"/></field>
         <field name="thruDate" title="${uiLabelMap.CommonThruDate}"><date-time/></field>
         <field name="submitButton" title="${uiLabelMap.CommonUpdate}"><submit button-type="button"/></field>
         <field name="deleteLink" title=" " widget-style="buttontext">

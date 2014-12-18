@@ -487,8 +487,8 @@ under the License.
         <field name="contactMechTypeId"><display-entity description="${description}" entity-name="ContactMechType" key-field-name="contactMechTypeId"/></field>
         <field name="roleTypeIdFrom"><display-entity description="${description}" entity-name="RoleType" key-field-name="roleTypeId"/></field>
         <field name="roleTypeIdTo"><display-entity description="${description}" entity-name="RoleType" key-field-name="roleTypeId"/></field>
-        <field name="datetimeStarted" title="${uiLabelMap.CommonStartDate}"><display/></field>
-        <field name="datetimeEnded" title="${uiLabelMap.CommonFinishDate}"><display/></field>
+        <field name="datetimeStarted" title="${uiLabelMap.CommonStartDate}"><display type="date-time"/></field>
+        <field name="datetimeEnded" title="${uiLabelMap.CommonFinishDate}"><display type="date-time"/></field>
         <field name="deleteLink" title="${uiLabelMap.CommonDelete}" widget-style="buttontext">
             <hyperlink target="removeSubscriptionCommEvent" description="${uiLabelMap.CommonDelete}" also-hidden="false">
                 <parameter param-name="subscriptionId"/>

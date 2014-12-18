@@ -46,8 +46,8 @@ under the License.
         </field>
         <field name="tempExprTypeId" title="${uiLabelMap.TemporalExpressionType}" sort-field="true"><display/></field>
         <field name="description" sort-field="true"><display/></field>
-        <field name="date1" sort-field="true"><display/></field>
-        <field name="date2" sort-field="true"><display/></field>
+        <field name="date1" sort-field="true"><display type="date"/></field>
+        <field name="date2" sort-field="true"><display type="date"/></field>
         <field name="integer1" sort-field="true"><display/></field>
         <field name="integer2" sort-field="true"><display/></field>
         <field name="string1" sort-field="true"><display/></field>

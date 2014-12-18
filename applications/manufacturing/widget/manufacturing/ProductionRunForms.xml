@@ -92,7 +92,7 @@ under the License.
             <display-entity entity-name="StatusItem" key-field-name="statusId"/>
         </field>
 
-        <field name="estimatedStartDate" title="${uiLabelMap.ManufacturingStartDate}"><display/></field>
+        <field name="estimatedStartDate" title="${uiLabelMap.ManufacturingStartDate}"><display type="date"/></field>
         <field name="description" title="${uiLabelMap.CommonDescription}"><display/></field>
         <field name="facilityId" title="${uiLabelMap.ProductFacilityId}"><display/></field>
     </form>
@@ -115,7 +115,7 @@ under the License.
         </field>
         <field name="quantity"  title="${uiLabelMap.ManufacturingQuantity}"><text size="10"/></field>
         <field name="estimatedStartDate"  title="${uiLabelMap.ManufacturingStartDate}"><date-time/></field>
-        <field name="estimatedCompletionDate" title="${uiLabelMap.ManufacturingEstimatedCompletionDate}"><display/></field>
+        <field name="estimatedCompletionDate" title="${uiLabelMap.ManufacturingEstimatedCompletionDate}"><display type="date"/></field>
         <field name="workEffortName"  title="${uiLabelMap.ManufacturingProductionRunName}"><text/></field>
         <field name="description"><text/></field>
         <field name="submitButton" title="${uiLabelMap.CommonUpdate}"><submit button-type="button"/></field>
@@ -132,10 +132,10 @@ under the License.
         <field name="orderItemGroupSeqId"><display/></field>
         <field name="quantity"><display/></field>
         <field name="cancelQuantity"><display/></field>
-        <field name="shipAfterDate"><display/></field>
-        <field name="shipBeforeDate"><display/></field>
-        <field name="estimatedShipDate"><display/></field>
-        <field name="estimatedDeliveryDate"><display/></field>
+        <field name="shipAfterDate"><display type="date"/></field>
+        <field name="shipBeforeDate"><display type="date"/></field>
+        <field name="estimatedShipDate"><display type="date"/></field>
+        <field name="estimatedDeliveryDate"><display type="date"/></field>
         -->
     </form>
     <form name="ListProductionRunInventoryItems" type="list" title="" list-name="inventoryItems"
@@ -157,7 +157,7 @@ under the License.
         <field name="statusId" map-name="inventoryItem"><display-entity entity-name="StatusItem" key-field-name="statusId" description="${description}"/></field>
         <field name="unitCost" map-name="inventoryItem"><display/></field>
         <field name="quantity" entry-name="quantityOnHandDiff"><display/></field>
-        <field name="datetimeReceived" map-name="inventoryItem"><display/></field>
+        <field name="datetimeReceived" map-name="inventoryItem"><display type="date-time"/></field>
     </form>
 
      <form name="ViewListProductionRunRoutingTasks" type="list" title="" list-name="productionRunRoutingTasks"
@@ -169,8 +169,8 @@ under the License.
         <field name="workEffortId"  title="${uiLabelMap.ManufacturingTaskName}"><display description="${workEffortName} [${workEffortId}]"/></field>
         <field name="fixedAssetId"  title="${uiLabelMap.ManufacturingMachine}"><display/></field>
         <field name="reservPersons"><display/></field>
-        <field name="estimatedStartDate"  title="${uiLabelMap.ManufacturingStartDate}"><display/></field>
-        <field name="estimatedCompletionDate" title="${uiLabelMap.ManufacturingEstimatedCompletionDate}"><display/></field>
+        <field name="estimatedStartDate"  title="${uiLabelMap.ManufacturingStartDate}"><display type="date"/></field>
+        <field name="estimatedCompletionDate" title="${uiLabelMap.ManufacturingEstimatedCompletionDate}"><display type="date"/></field>
         <field name="estimatedSetupMillis" title="${uiLabelMap.ManufacturingTaskEstimatedSetupMillis}" ><display/></field>
         <!--<field name="estimatedMilliSeconds" title="${uiLabelMap.ManufacturingTaskEstimatedMilliSeconds}" ><display/></field>-->
         <field name="estimatedTotalMilliSeconds" title="${uiLabelMap.ManufacturingTaskEstimatedTotalMilliSeconds}" ><display/></field>
@@ -184,8 +184,8 @@ under the License.
         <field name="workEffortId"  title="${uiLabelMap.ManufacturingTaskName}"><display description="${workEffortName} [${workEffortId}]"/></field>
         <field name="fixedAssetId"  title="${uiLabelMap.ManufacturingMachine}"><display/></field>
         <field name="reservPersons"><display/></field>
-        <field name="estimatedStartDate"  title="${uiLabelMap.ManufacturingStartDate}"><display/></field>
-        <field name="estimatedCompletionDate" title="${uiLabelMap.ManufacturingEstimatedCompletionDate}"><display/></field>
+        <field name="estimatedStartDate"  title="${uiLabelMap.ManufacturingStartDate}"><display type="date"/></field>
+        <field name="estimatedCompletionDate" title="${uiLabelMap.ManufacturingEstimatedCompletionDate}"><display type="date"/></field>
         <field name="estimatedSetupMillis" title="${uiLabelMap.ManufacturingTaskEstimatedSetupMillis}" ><display/></field>
         <!--<field name="estimatedMilliSeconds" title="${uiLabelMap.ManufacturingTaskEstimatedMilliSeconds}" ><display/></field>-->
         <field name="estimatedTotalMilliSeconds" title="${uiLabelMap.ManufacturingTaskEstimatedTotalMilliSeconds}" ><display/></field>
@@ -275,10 +275,10 @@ under the License.
         <field name="quantityToProduce" title="${uiLabelMap.ManufacturingQuantityToProduce}">
             <display/>
         </field>
-        <field name="estimatedStartDate" title="${uiLabelMap.ManufacturingEstimatedStartDate}"><display/></field>
-        <field name="actualStartDate" title="${uiLabelMap.CommonActualStartDate}"><display/></field>
-        <field name="estimatedCompletionDate" title="${uiLabelMap.ManufacturingEstimatedCompletionDate}"><display/></field>
-        <field name="actualCompletionDate" title="${uiLabelMap.ManufacturingActualCompletionDate}"><display/></field>
+        <field name="estimatedStartDate" title="${uiLabelMap.ManufacturingEstimatedStartDate}"><display type="date"/></field>
+        <field name="actualStartDate" title="${uiLabelMap.CommonActualStartDate}"><display type="date"/></field>
+        <field name="estimatedCompletionDate" title="${uiLabelMap.ManufacturingEstimatedCompletionDate}"><display type="date"/></field>
+        <field name="actualCompletionDate" title="${uiLabelMap.ManufacturingActualCompletionDate}"><display type="date"/></field>
         <field name="productionRunName"  title="${uiLabelMap.ManufacturingProductionRunName}"><display/></field>
         <field name="description" title="${uiLabelMap.CommonDescription}"><display/></field>
         <field name="quantityProduced" title="${uiLabelMap.ManufacturingQuantityProduced}"><display/></field>
@@ -360,7 +360,7 @@ under the License.
         </field>
         <field name="fixedAssetId"  title="${uiLabelMap.ManufacturingMachine}"><display/></field>
         <field name="reservPersons"><display/></field>
-        <field name="estimatedCompletionDate" title="${uiLabelMap.ManufacturingEstimatedCompletionDate}"><display/></field>
+        <field name="estimatedCompletionDate" title="${uiLabelMap.ManufacturingEstimatedCompletionDate}"><display type="date"/></field>
         <field name="actualSetupMillis" title="${uiLabelMap.ManufacturingTaskActualSetupMillis}" ><display/></field>
         <field name="actualMilliSeconds" title="${uiLabelMap.ManufacturingTaskActualMilliSeconds}" ><display/></field>
         <field name="quantityProduced" title="${uiLabelMap.ManufacturingQuantityProduced}" ><display/></field>
@@ -646,7 +646,7 @@ under the License.
         <field name="productionRunId"><hidden/></field>
         <field name="workEffortId"><hidden/></field>
         <field name="statusId"><hidden/></field>
-        <field name="fromDate"><display/></field>
+        <field name="fromDate"><display type="date"/></field>
         <field name="fixedAssetId">
             <display-entity entity-name="FixedAsset" description="${fixedAssetName} [${fixedAssetId}]"/>
         </field>
@@ -794,7 +794,7 @@ under the License.
             </hyperlink>
         </field>
         <field name="productionRunStatusId"><display-entity entity-name="StatusItem" key-field-name="statusId"/></field>
-        <field name="productionRunEstimatedCompletionDate"><display/></field>
+        <field name="productionRunEstimatedCompletionDate"><display type="date"/></field>
         <field name="productionRunQuantityProduced"><display/></field>
     </form>
 
@@ -808,7 +808,7 @@ under the License.
         <field name="statusId">
             <display-entity entity-name="StatusItem" key-field-name="statusId" description="${description}"/>
         </field>
-        <field name="estimatedShipDate" sort-field="true"><display/></field>
+        <field name="estimatedShipDate" sort-field="true"><display type="date"/></field>
         <field name="viewShipmentPlanLink" title=" " widget-style="buttontext">
             <hyperlink target="WorkWithShipmentPlans" description="${uiLabelMap.CommonView}" also-hidden="false">
                 <parameter param-name="shipmentId"/>

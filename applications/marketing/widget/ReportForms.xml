@@ -168,7 +168,7 @@ under the License.
             <display-entity entity-name="StatusItem" key-field-name="statusId" description="${description}"/>
         </field>
         <field name="partyIdFrom" title="${uiLabelMap.FormFieldTitle_fromPartyId}"><display/></field>
-        <field name="entryDate" title="${uiLabelMap.PartyEnteredDate}"><display/></field>
+        <field name="entryDate" title="${uiLabelMap.PartyEnteredDate}"><display type="date"/></field>
         <field name="subject" title="${uiLabelMap.PartySubject}"><display/></field>
     </form>
 
@@ -179,8 +179,8 @@ under the License.
             </row-actions>
         <field name="contactListId" title="${uiLabelMap.MarketingContactList}"><display/></field>
         <field name="partyId" title="${uiLabelMap.PartyPartyId}"><display/></field>
-        <field name="fromDate" title="${uiLabelMap.CommonFromDate}"><display/></field>
-        <field name="statusDate" title="${uiLabelMap.CommonStatus} ${uiLabelMap.CommonDate}"><display/></field>
+        <field name="fromDate" title="${uiLabelMap.CommonFromDate}"><display type="date"/></field>
+        <field name="statusDate" title="${uiLabelMap.CommonStatus} ${uiLabelMap.CommonDate}"><display type="date"/></field>
         <field name="statusId" title="${uiLabelMap.CommonStatus}"><display description="${statusItem.description}"/></field>
     </form>
 </forms>

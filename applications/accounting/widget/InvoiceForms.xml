@@ -130,19 +130,10 @@ under the License.
         </field>
         <field position="1" name="roleTypeId"><display/></field>
         <field position="2" name="billingAccountId"><display/></field>
-        <field position="1" name="invoiceDate"><display description="${bsh:
-            if(invoice.get(&quot;invoiceDate&quot;)!=null)
-                return(org.ofbiz.base.util.UtilDateTime.toDateFormat(context).format(invoice.get(&quot;invoiceDate&quot;)));}"/>
-        </field>
-        <field position="2" name="dueDate"><display description="${bsh:
-            if(invoice.get(&quot;dueDate&quot;)!=null)
-                return(org.ofbiz.base.util.UtilDateTime.toDateFormat(context).format(invoice.get(&quot;dueDate&quot;)));}"/>
-        </field>
+        <field position="1" name="invoiceDate"><display type="date"/></field>
+        <field position="2" name="dueDate"><display type="date"/></field>
         <field position="1" name="total"><display description="${total}" type="currency" currency="${invoice.currencyUomId}"/></field>
-        <field position="2" name="paidDate"><display description="${bsh:
-            if(invoice.get(&quot;paidDate&quot;)!=null)
-                return(org.ofbiz.base.util.UtilDateTime.toDateFormat(context).format(invoice.getString(&quot;paidDate&quot;)));}"/>
-        </field>
+        <field position="2" name="paidDate"><display type="date"/></field>
         <field position="1" name="referenceNumber" title="${uiLabelMap.FormFieldTitle_referenceNum}"><display/></field>
         <field name="currencyUomId"><hidden/></field>
     </form>
@@ -196,7 +187,7 @@ under the License.
             <display-entity also-hidden="false" entity-name="RoleType"/>
         </field>
         <field name="percentage"><display/></field>
-        <field name="datetimePerformed"><display/></field>
+        <field name="datetimePerformed"><display type="date-time"/></field>
     </form>
 
     <form name="ListInvoiceApplications" type="list"  list-name="invoiceApplications" default-entity-name="InvoiceItem" use-row-submit="true"
@@ -447,9 +438,7 @@ under the License.
     <form name="ListInvoiceStatus" list-name="invoiceStatus" target="" title="" type="list" paginate-target="ListInvoiceStatus"
         odd-row-style="alternate-row" default-table-style="basic-table hover-bar">
         <field name="invoiceId"><hidden/></field>
-        <field name="statusDate"><display description="${bsh:
-            org.ofbiz.base.util.UtilDateTime.toDateFormat(context).format(statusDate)}"/>
-        </field>
+        <field name="statusDate"><display type="date"/></field>
         <field name="statusId" title="${uiLabelMap.CommonStatus}"><display-entity entity-name="StatusItem"/></field>
     </form>
 
@@ -532,7 +521,7 @@ under the License.
             <display-entity also-hidden="false" entity-name="RoleType"/>
         </field>
         <field name="percentage"><display/></field>
-        <field name="datetimePerformed"><display/></field>
+        <field name="datetimePerformed"><display type="date-time"/></field>
         <field name="removeButton" widget-style="buttontext">
            <hyperlink description="${uiLabelMap.CommonRemove}" target="removeInvoiceRole">
                 <parameter param-name="invoiceId"/>
@@ -660,7 +649,7 @@ under the License.
         <field name="termTypeId">
             <display-entity entity-name="TermType" description="${description}"/>
         </field>
-        <field name="dueDate"><display/></field>
+        <field name="dueDate"><display type="date-time"/></field>
         <field name="amount"><display type="currency" currency="${invoice.currencyUomId}"/></field>
         <field name="paidAmount"><display type="currency" currency="${invoice.currencyUomId}"/></field>
         <field name="outstandingAmount"><display type="currency" currency="${invoice.currencyUomId}"/></field>

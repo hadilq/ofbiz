@@ -380,8 +380,8 @@ under the License.
         <field name="roleTypeIdFrom" title="${uiLabelMap.PartyRoleTypeIdFrom}"><display-entity description="${description}" entity-name="RoleType" key-field-name="roleTypeId"/></field>
         <field name="roleTypeIdTo" title="${uiLabelMap.PartyRoleTypeIdTo}"><display-entity description="${description}" entity-name="RoleType" key-field-name="roleTypeId"/></field>
         <field name="custRequestId" position="1" title="${uiLabelMap.PartyServicemgntCustRequestId}"><display/></field>
-        <field name="datetimeStarted" title="${uiLabelMap.CommonStartDate}"><display/></field>
-        <field name="datetimeEnded" title="${uiLabelMap.CommonFinishDate}"><display/></field>
+        <field name="datetimeStarted" title="${uiLabelMap.CommonStartDate}"><display type="date-time"/></field>
+        <field name="datetimeEnded" title="${uiLabelMap.CommonFinishDate}"><display type="date-time"/></field>
     </form>
 
     <form name="lookupContactMech" target="LookupContactMech" type="single"

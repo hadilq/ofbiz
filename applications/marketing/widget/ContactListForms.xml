@@ -18,7 +18,7 @@ specific language governing permissions and limitations
 under the License.
 -->
 
-<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:noNamespaceSchemaLocation="http://ofbiz.apache.org/dtds/widget-form.xsd">
     <form name="EditContactList" type="single" target="updateContactList" title="" default-map-name="contactList"
         header-row-style="header-row" default-table-style="basic-table">
@@ -75,7 +75,7 @@ under the License.
             </drop-down>
         </field>
         <field name="optOutScreen"><text size="60"/></field>
-        
+
         <field name="submitButton" title="${uiLabelMap.CommonSave}" widget-style="buttontext"><submit button-type="text-link"/></field>
         <!-- <field name="DONE_PAGE"><hidden value="${donePage}"/></field> -->
         <!-- <field name="cancelLink" title=" " widget-style="buttontext"><hyperlink target="${donePage}" also-hidden="false" description="${uiLabelMap.CommonCancelDone}" target-type="inter-app"/></field> -->
@@ -151,7 +151,7 @@ under the License.
         <field name="fromDate" title="${uiLabelMap.CommonFromDate}"><date-time default-value="${groovy: org.ofbiz.base.util.UtilDateTime.nowTimestamp()}"/></field>
         <field name="thruDate" title="${uiLabelMap.CommonThruDate}"><date-time/></field>
         <field use-when="partyId!=null" name="partyId" tooltip="${uiLabelMap.CommonNotModifRecreat}"><display/></field>
-        <field use-when="fromDate!=null" name="fromDate" tooltip="${uiLabelMap.CommonNotModifRecreat}"><display/></field>
+        <field use-when="fromDate!=null" name="fromDate" tooltip="${uiLabelMap.CommonNotModifRecreat}"><display type="date"/></field>
 
         <field name="statusId" title="${uiLabelMap.CommonStatus}">
             <drop-down no-current-selected-key="CLPT_ACCEPTED">
@@ -171,7 +171,7 @@ under the License.
         <field use-when="partyId!=null" name="submitButton" title="${uiLabelMap.CommonUpdate}" widget-style="buttontext"><submit button-type="text-link"/></field>
         <field name="cancelLink" title=" " widget-style="buttontext"><hyperlink target="${donePage}" also-hidden="false" description="${uiLabelMap.CommonCancelDone}"/></field>
      </form>
-    
+
 
     <form name="FindContactListParties" type="single" target="FindContactListParties" title=""
         header-row-style="header-row" default-table-style="basic-table">
@@ -196,15 +196,15 @@ under the License.
     </form>
     <form name="ListContactListParties" type="list"  title="" list-name="listIt" paginate-target="ListContactListParties"
         odd-row-style="alternate-row" default-table-style="basic-table hover-bar">
-        <actions>                   
+        <actions>
             <service service-name="performFind" result-map="result" result-map-list="listIt">
                 <field-map field-name="inputFields" from-field="parameters"/>
                 <field-map field-name="filterByDate" from-field="parameters.hideExpired"/>
                 <field-map field-name="orderBy" value="partyId"/>
                 <field-map field-name="entityName" value="ContactListParty"/>
                 <field-map field-name="viewIndex" from-field="viewIndex"/>
-                <field-map field-name="viewSize" from-field="viewSize"/>           
-            </service>            
+                <field-map field-name="viewSize" from-field="viewSize"/>
+            </service>
         </actions>
         <row-actions>
             <set field="thruDate" from-field="thruDate" type="Timestamp"/>
@@ -219,8 +219,8 @@ under the License.
                 </sub-hyperlink>
             </display-entity>
         </field>
-        <field name="fromDate" title="${uiLabelMap.CommonFromDate}"><display/></field>
-        <field name="thruDate" title="${uiLabelMap.CommonThruDate}"><display/></field>
+        <field name="fromDate" title="${uiLabelMap.CommonFromDate}"><display type="date"/></field>
+        <field name="thruDate" title="${uiLabelMap.CommonThruDate}"><display type="date"/></field>
         <field name="statusId" title="${uiLabelMap.CommonStatus}"><display-entity  entity-name="StatusItem"/></field>
         <field name="preferredContactMechId" title="${uiLabelMap.MarketingContactListPreferredContactMech}">
             <display-entity entity-name="ContactMechDetail" key-field-name="contactMechId" description="[${contactMechId}]: [${infoString}] [${tnCountryCode}-${tnAreaCode}-${tnContactNumber}] [${paAddress1}, ${paAddress1}, ${paCity}, ${paStateProvinceGeoId}, ${paPostalCode}, ${paPostalCodeExt} ${paCountryGeoId}]"/>
@@ -232,18 +232,18 @@ under the License.
                 <parameter param-name="fromDate"/>
             </hyperlink>
         </field>
-        <field name="expireLink" use-when="${groovy:thruDate == null || isDateAfterNow == true}" widget-style="buttontext"> 
-            <hyperlink target="expireContactListParty" description="${uiLabelMap.CommonExpire}"  link-type="hidden-form" also-hidden="false">                
-                <parameter param-name="contactListId"/>                
+        <field name="expireLink" use-when="${groovy:thruDate == null || isDateAfterNow == true}" widget-style="buttontext">
+            <hyperlink target="expireContactListParty" description="${uiLabelMap.CommonExpire}"  link-type="hidden-form" also-hidden="false">
+                <parameter param-name="contactListId"/>
                 <parameter param-name="partyId"/>
                 <parameter param-name="fromDate"/>
-                <parameter param-name="donePage"/>                
+                <parameter param-name="donePage"/>
                 <parameter param-name="thruDate" value="${nowTimestamp}"/>
                 <parameter param-name="hideExpired" value="Y"/>
             </hyperlink>
         </field>
     </form>
-    
+
     <form name="FindImportContactListParties" type="single" target="FindImportContactListParties" title="" focus-field-name="contactMechTypeId"
         header-row-style="header-row" default-table-style="basic-table">
         <field name="contactListId"><hidden/></field>
@@ -348,7 +348,7 @@ under the License.
                     <entity-constraint name="statusId" value="${communicationEvent.statusId}"/>
                     <entity-order-by field-name="sequenceId"/>
                 </entity-options>
-            </drop-down>            
+            </drop-down>
         </field>
 
         <field name="contactMechTypeId" title="${uiLabelMap.MarketingContactListContactMechTypeId}" use-when="commEventContactMechType!=null&amp;&amp;parentCommEventContactMechType==null">
@@ -478,8 +478,8 @@ under the License.
         <field name="roleTypeIdFrom" title="${uiLabelMap.PartyRoleTypeIdFrom}"><display-entity description="${description}" entity-name="RoleType" key-field-name="roleTypeId"/></field>
         <field name="roleTypeIdTo" title="${uiLabelMap.PartyRoleTypeIdTo}"><display-entity description="${description}" entity-name="RoleType" key-field-name="roleTypeId"/></field>
         <field name="custReqestId" position="1"><display/></field>
-        <field name="datetimeStarted" title="${uiLabelMap.CommonStartDate}"><display/></field>
-        <field name="datetimeEnded" title="${uiLabelMap.CommonFinishDate}"><display/></field>
+        <field name="datetimeStarted" title="${uiLabelMap.CommonStartDate}"><display type="date-time"/></field>
+        <field name="datetimeEnded" title="${uiLabelMap.CommonFinishDate}"><display type="date-time"/></field>
         <field map-name="subjectMap" name="subject" title="${uiLabelMap.PartyCommEventSubject}"><display/></field>
     </form>
 
@@ -582,8 +582,8 @@ under the License.
         <field name="roleTypeIdFrom" title="${uiLabelMap.PartyRoleTypeIdFrom}"><display-entity description="${description}" entity-name="RoleType" key-field-name="roleTypeId"/></field>
         <field name="roleTypeIdTo" title="${uiLabelMap.PartyRoleTypeIdTo}"><display-entity description="${description}" entity-name="RoleType" key-field-name="roleTypeId"/></field>
         <field name="custReqestId" position="1"><text size="20"/></field>
-        <field name="datetimeStarted" title="${uiLabelMap.CommonStartDate}"><display/></field>
-        <field name="datetimeEnded" title="${uiLabelMap.CommonFinishDate}"><display/></field>
+        <field name="datetimeStarted" title="${uiLabelMap.CommonStartDate}"><display type="date-time"/></field>
+        <field name="datetimeEnded" title="${uiLabelMap.CommonFinishDate}"><display type="date-time"/></field>
     </form>
     <form name="ListPreferredContactMech" target="" title="" type="list"
         odd-row-style="alternate-row" default-table-style="basic-table hover-bar">
@@ -619,8 +619,8 @@ under the License.
         <field name="contactMechId" title="${uiLabelMap.CommonEmailTo}"><display-entity entity-name="ContactMech" description="${infoString}"/></field>
         <field name="lastUpdatedStamp" title="${uiLabelMap.FormFieldTitle_lastModifiedDate}"><display/></field>
         <field name="statusId"><display-entity entity-name="StatusItem" description="${description}"/></field>
-    </form>    
-    <form name="CreateWebSiteContactList" type="single" target="createWebSiteContactList" 
+    </form>
+    <form name="CreateWebSiteContactList" type="single" target="createWebSiteContactList"
             default-map-name="contactList" title="" header-row-style="header-row" default-table-style="basic-table">
         <actions>
             <set field="fromDate" value="${groovy: import org.ofbiz.base.util.UtilDateTime; return UtilDateTime.nowTimestamp();}" type="Timestamp"/>
@@ -635,7 +635,7 @@ under the License.
         </field>
         <field name="submitButton" title="${uiLabelMap.CommonCreate}"><submit/></field>
     </form>
-    <form name="ViewWebSiteContactList" type="list" target="updateWebSiteContactList" list-name="webSiteContactLists" title="" 
+    <form name="ViewWebSiteContactList" type="list" target="updateWebSiteContactList" list-name="webSiteContactLists" title=""
             header-row-style="header-row" default-table-style="basic-table">
         <actions>
             <entity-one entity-name="WebSite" value-field="webSite"/>

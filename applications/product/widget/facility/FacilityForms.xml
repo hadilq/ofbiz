@@ -115,8 +115,8 @@ under the License.
             <display-entity entity-name="InventoryItemType"/>
         </field>
         <field name="statusId"><display-entity entity-name="StatusItem"/></field>
-        <field name="datetimeReceived"><display/></field>
-        <field name="expireDate" title="${uiLabelMap.ProductExpireDate}"><display/></field>
+        <field name="datetimeReceived"><display type="date-time"/></field>
+        <field name="expireDate" title="${uiLabelMap.ProductExpireDate}"><display type="date"/></field>
         <field name="productId">
             <hyperlink target="/catalog/control/EditProduct" target-type="inter-app" description="${productId}">
                 <parameter param-name="productId"/>
@@ -158,8 +158,8 @@ under the License.
             <display-entity entity-name="InventoryItemType"/>
         </field>
         <field name="statusId"><display/></field>
-        <field name="datetimeReceived"><display/></field>
-        <field name="expireDate" title="${uiLabelMap.ProductExpireDate}"><display/></field>
+        <field name="datetimeReceived"><display type="date-time"/></field>
+        <field name="expireDate" title="${uiLabelMap.ProductExpireDate}"><display type="date"/></field>
         <field name="productId">
             <hyperlink target="/catalog/control/EditProduct" target-type="inter-app" description="${productId}">
                 <parameter param-name="productId"/>
@@ -253,7 +253,7 @@ under the License.
         <field name="softIdentifier" position="1" use-when="showPosition1"><display/></field>
 
         <field name="inventoryItemDetailSeqId" position="2"><display/></field>
-        <field name="effectiveDate" position="2"><display/></field>
+        <field name="effectiveDate" position="2"><display type="date"/></field>
         <field name="quantityOnHandDiff" position="2"><display/></field>
         <field name="availableToPromiseDiff" position="2"><display/></field>
 
@@ -302,7 +302,7 @@ under the License.
             </hyperlink>
         </field>
 
-        <field name="effectiveDate" position="2"><display/></field>
+        <field name="effectiveDate" position="2"><display type="date"/></field>
         <field name="inventoryItemId" widget-style="buttontext" position="2">
             <hyperlink target="EditInventoryItem" description="${inventoryItemId}">
                 <parameter param-name="inventoryItemId"/>
@@ -349,7 +349,7 @@ under the License.
             </service>
         </actions>
 
-        <field name="effectiveDate"><display/></field>
+        <field name="effectiveDate"><display type="date"/></field>
         <field name="productId" widget-style="buttontext">
             <hyperlink target="/catalog/control/EditProduct" target-type="inter-app" description="${productId}">
                 <parameter param-name="productId"/>
@@ -472,7 +472,7 @@ under the License.
         <field name="defaultPrice" title="${uiLabelMap.ProductDefaultPrice}"><display/></field>
         <field name="listPrice" title="${uiLabelMap.ProductListPrice}"><display/></field>
         <field name="wholeSalePrice" title="${uiLabelMap.ProductWholeSalePrice}"><display/></field>
-        <field name="fromDateSellThrough" entry-name="parameters.fromDateSellThrough"><display/></field>
+        <field name="fromDateSellThrough" entry-name="parameters.fromDateSellThrough"><display type="date"/></field>
         <field name="sellThroughInitialInventory"><display/></field>
         <field name="sellThroughInventorySold"><display/></field>
         <field name="sellThroughPercentage"><display/></field>
@@ -608,7 +608,7 @@ under the License.
                 </sub-hyperlink>
             </display-entity>
         </field>
-        <field name="fromDate"><display/></field>
+        <field name="fromDate"><display type="date"/></field>
         <field name="submitButton" title="${uiLabelMap.CommonUpdate}"><submit button-type="button"/></field>
         <field name="deleteLink" title=" " widget-style="buttontext">
             <hyperlink target="removeGroupFromFacility" description="${uiLabelMap.CommonDelete}" also-hidden="false">
@@ -756,8 +756,8 @@ under the License.
         <field name="serialNumber" entry-name="inventoryItem.serialNumber"><display/></field>
         <field name="atpQoh" title="${uiLabelMap.ProductAtpQoh}"><display description="${inventoryItem.availableToPromiseTotal}/${inventoryItem.quantityOnHandTotal}"/></field>
         <field name="locationSeqIdTo"><display/></field>
-        <field name="sendDate"><display/></field>
-        <field name="receiveDate"><display/></field>
+        <field name="sendDate"><display type="date"/></field>
+        <field name="receiveDate"><display type="date"/></field>
         <field name="statusId">
             <display-entity entity-name="StatusItem"/>
         </field>
@@ -800,8 +800,8 @@ under the License.
         <field name="serialNumber" entry-name="inventoryItem.serialNumber"><display/></field>
         <field name="atpQoh" title="${uiLabelMap.ProductAtpQoh}"><display description="${inventoryItem.availableToPromiseTotal}/${inventoryItem.quantityOnHandTotal}"/></field>
         <field name="locationSeqId"><display/></field>
-        <field name="sendDate"><display/></field>
-        <field name="receiveDate"><display/></field>
+        <field name="sendDate"><display type="date"/></field>
+        <field name="receiveDate"><display type="date"/></field>
         <field name="statusId">
             <display-entity entity-name="StatusItem"/>
         </field>
@@ -845,8 +845,8 @@ under the License.
         <field name="serialNumber" entry-name="inventoryItem.serialNumber"><display also-hidden="false"/></field>
         <field name="atpQoh" title="${uiLabelMap.ProductAtpQoh}"><display description="${inventoryItem.availableToPromiseTotal}/${inventoryItem.quantityOnHandTotal}" also-hidden="false"/></field>
         <field name="locationSeqId"><display also-hidden="false"/></field>
-        <field name="sendDate"><display also-hidden="false"/></field>
-        <field name="receiveDate"><display also-hidden="false"/></field>
+        <field name="sendDate"><display type="date" also-hidden="false"/></field>
+        <field name="receiveDate"><display type="date" also-hidden="false"/></field>
         <field name="statusId"><hidden value="IXF_COMPLETE"/></field>
         <field name="_rowSubmit" title="${uiLabelMap.CommonSelect}"><check/></field>
         <field name="submitButton" title="${uiLabelMap.CommonSubmit}">
@@ -892,7 +892,7 @@ under the License.
         <field name="contentName"><display/></field>
         <field name="mimeTypeId"><display/></field>
         <field name="contentTypeId" title="${uiLabelMap.FormFieldTitle_contentTypeId}"><display-entity entity-name="ContentType" also-hidden="false"/></field>
-        <field name="fromDate"><display/></field>
+        <field name="fromDate"><display type="date"/></field>
         <field name="deleteLink" title=" " widget-style="buttontext">
            <hyperlink also-hidden="false" description="${uiLabelMap.CommonDelete}" target="deleteFacilityContent">
                 <parameter param-name="facilityId"/>
@@ -940,7 +940,7 @@ under the License.
         </field>
         <field name="agreementText"><display/></field>
         <field name="description"><display/></field>
-        <field name="fromDate"><display/></field>
-        <field name="thruDate"><display/></field>
+        <field name="fromDate"><display type="date"/></field>
+        <field name="thruDate"><display type="date"/></field>
     </form>
 </forms>

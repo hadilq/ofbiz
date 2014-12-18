@@ -354,7 +354,7 @@ under the License.
             <display-entity entity-name="WorkEffortAssocType"/>
         </field>
         <field name="sequenceNum"  field-name="sequenceNum" map-name="workEffortAssoc"><text/></field>
-        <field name="fromDate"  field-name="fromDate" map-name="workEffortAssoc"><display/></field>
+        <field name="fromDate"  field-name="fromDate" map-name="workEffortAssoc"><display type="date"/></field>
         <field name="thruDate"  field-name="thruDate" map-name="workEffortAssoc"><date-time/></field>
         <field name="submitButton" title="${uiLabelMap.CommonSave}" widget-style="smallSubmit"><submit/></field>
         <field name="cancelLink" title=" " widget-style="buttontext"><hyperlink target="${donePage}" also-hidden="false" description="${uiLabelMap.CommonCancelDone}"/></field>
@@ -382,7 +382,7 @@ under the License.
             <display-entity entity-name="WorkEffortAssocType"/>
         </field>
         <field name="sequenceNum"  field-name="sequenceNum" map-name="workEffortAssoc"><text/></field>
-        <field name="fromDate"  field-name="fromDate" map-name="workEffortAssoc"><display/></field>
+        <field name="fromDate"  field-name="fromDate" map-name="workEffortAssoc"><display type="date"/></field>
         <field name="thruDate"  field-name="thruDate" map-name="workEffortAssoc"><date-time/></field>
         <sort-order>
             <sort-field name="workEffortIdFrom"/>
@@ -519,8 +519,8 @@ under the License.
         </actions>
         <field name="workEffortId"><display/></field>
         <field name="partyId"><display-entity description="${firstName} ${lastName} ${groupName} [${partyId}]" entity-name="PartyNameView"/></field>
-        <field name="fromDate"><display/></field>
-        <field name="thruDate"><display/></field>
+        <field name="fromDate"><display type="date"/></field>
+        <field name="thruDate"><display type="date"/></field>
         <field name="statusId"><display-entity entity-name="StatusItem"/></field>
         <field name="preferredContactMechId"><display/></field>
         <field name="editLink" title=" " widget-style="buttontext">
@@ -541,8 +541,8 @@ under the License.
             </display-entity>
         </field>
         <field name="roleTypeId" title="${uiLabelMap.AccountingRoleType}"><display-entity entity-name="RoleType"/></field>
-        <field name="fromDate"><display/></field>
-        <field name="thruDate"><display/></field>
+        <field name="fromDate"><display type="date"/></field>
+        <field name="thruDate"><display type="date"/></field>
         <field name="assignmentStatusId" title="${uiLabelMap.CommonStatus}"><display-entity entity-name="StatusItem" key-field-name="statusId"/></field>
         <field name="expectationEnumId" title="${uiLabelMap.WorkEffortExpectation}"><display-entity entity-name="Enumeration" key-field-name="enumId"/></field>
     </form>
@@ -680,8 +680,8 @@ under the License.
             <display-entity description="${description}" entity-name="RoleType" key-field-name="roleTypeId"/>
         </field>
         <field name="custReqestId" position="1"><text size="20"/></field>
-        <field name="datetimeStarted" title="${uiLabelMap.CommonStartDate}"><display/></field>
-        <field name="datetimeEnded" title="${uiLabelMap.CommonFinishDate}"><display/></field>
+        <field name="datetimeStarted" title="${uiLabelMap.CommonStartDate}"><display type="date-time"/></field>
+        <field name="datetimeEnded" title="${uiLabelMap.CommonFinishDate}"><display type="date-time"/></field>
         <field map-name="subjectMap" name="subject"><text size="30"/></field>
     </form>
 
@@ -762,8 +762,8 @@ under the License.
         </field>
         <field name="custReqestId" position="1"><text size="20"/>
         </field>
-        <field name="datetimeStarted" title="${uiLabelMap.CommonStartDate}"><display/></field>
-        <field name="datetimeEnded" title="${uiLabelMap.CommonFinishDate}"><display/></field>
+        <field name="datetimeStarted" title="${uiLabelMap.CommonStartDate}"><display type="date-time"/></field>
+        <field name="datetimeEnded" title="${uiLabelMap.CommonFinishDate}"><display type="date-time"/></field>
     </form>
 
     <!-- WorkEffortRate -->
@@ -994,7 +994,7 @@ under the License.
             </display-entity>
         </field>
         <field name="workEffortContentTypeId"><display-entity entity-name="WorkEffortContentType" description="${description}"/></field>
-        <field name="fromDate"><display/></field>
+        <field name="fromDate"><display type="date"/></field>
         <field name="submitButton" title="${uiLabelMap.CommonUpdate}" widget-style="smallSubmit"><submit button-type="button"/></field>
         <field name="deleteLink" title=" " widget-style="buttontext">
             <hyperlink also-hidden="false" description="${uiLabelMap.CommonDelete}" target="deleteWorkEffortContent">
@@ -1048,7 +1048,7 @@ under the License.
                 </sub-hyperlink>
             </display-entity>
         </field>
-        <field name="fromDate"><display/></field>
+        <field name="fromDate"><display type="date"/></field>
         <field name="statusId" title="${uiLabelMap.CommonStatus}">
             <drop-down allow-empty="true">
                 <entity-options entity-name="StatusItem" key-field-name="statusId" description="${description}">
@@ -1104,7 +1104,7 @@ under the License.
                 </sub-hyperlink>
             </display-entity>
         </field>
-        <field name="reviewDate"><display/></field>
+        <field name="reviewDate"><display type="date"/></field>
         <field name="statusId" title="${uiLabelMap.CommonStatus}*">
             <drop-down>
                 <entity-options entity-name="StatusItem" key-field-name="statusId" description="${description}">
@@ -1235,7 +1235,7 @@ under the License.
                 </sub-hyperlink>
             </display-entity>
         </field>
-        <field name="fromDate"><display/></field>
+        <field name="fromDate"><display type="date"/></field>
         <field name="thruDate"><date-time/></field>
         <field name="statusId">
             <drop-down allow-empty="true">
@@ -1274,8 +1274,8 @@ under the License.
                 </sub-hyperlink>
             </display-entity>
         </field>
-        <field name="fromDate"><display/></field>
-        <field name="thruDate"><display/></field>
+        <field name="fromDate"><display type="date"/></field>
+        <field name="thruDate"><display type="date"/></field>
         <field name="statusId"><display-entity entity-name="StatusItem"/></field>
         <field name="availabilityStatusId"><display-entity entity-name="StatusItem" key-field-name="statusId"/></field>
         <field name="allocatedCost"><display/></field>

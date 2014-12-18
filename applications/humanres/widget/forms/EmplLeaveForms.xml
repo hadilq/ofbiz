@@ -170,8 +170,8 @@
         <field name="approverPartyId"><display/></field>
         <field name="leaveTypeId"><display/></field>
         <field name="emplLeaveReasonTypeId"><display/></field>
-        <field name="fromDate"><display/></field>
-        <field name="thruDate"><display/></field>
+        <field name="fromDate"><display type="date"/></field>
+        <field name="thruDate"><display type="date"/></field>
         <field name="description"><display/></field>
         <field name="leaveStatus" title="${uiLabelMap.HumanResLeaveStatus}">
             <drop-down allow-empty="false">

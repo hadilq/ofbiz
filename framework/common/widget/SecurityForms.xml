@@ -195,7 +195,7 @@ under the License.
                 <parameter param-name="userLoginId"/>
             </hyperlink>
         </field>
-        <field name="fromDate" title="${uiLabelMap.CommonFromDate}" sort-field="true"><display/></field>
+        <field name="fromDate" title="${uiLabelMap.CommonFromDate}" sort-field="true"><display type="date"/></field>
         <field name="thruDate" title="${uiLabelMap.CommonThruDate}" sort-field="true"><date-time/></field>
         <field name="submitButton" title="${uiLabelMap.CommonUpdate}"><submit button-type="button"/></field>
         <field name="deleteLink" title=" " widget-style="buttontext">
@@ -223,7 +223,7 @@ under the License.
         </field>
         <field name="enabled" sort-field="true"><display/></field>
         <field name="hasLoggedOut" sort-field="true"><display/></field>
-        <field name="disabledDateTime" sort-field="true"><display/></field>
+        <field name="disabledDateTime" sort-field="true"><display type="date-time"/></field>
     </form>
 
     <form name="ListUserLoginSecurityGroups" type="list"
@@ -245,7 +245,7 @@ under the License.
             <display-entity entity-name="SecurityGroup"/>
         </field>
         <field name="userLoginId"><hidden/></field>
-        <field name="fromDate" title="${uiLabelMap.CommonFromDate}"><display/></field>
+        <field name="fromDate" title="${uiLabelMap.CommonFromDate}"><display type="date"/></field>
         <field name="thruDate" title="${uiLabelMap.CommonThruDate}" red-when="before-now"><date-time/></field>
         <field name="submitButton" title="${uiLabelMap.CommonUpdate}"><submit button-type="button"/></field>
         <field name="deleteLink" title=" " widget-style="buttontext">
@@ -281,7 +281,7 @@ under the License.
         </field>
         <field name="enabled"><display/></field>
         <field name="hasLoggedOut"><display/></field>
-        <field name="disabledDateTime"><display/></field>
+        <field name="disabledDateTime"><display type="date-time"/></field>
     </form>
 
     <form name="updatePassword" type="single" target="${updatePasswordURI}"

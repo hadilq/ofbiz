@@ -32,7 +32,7 @@ under the License.
         <field name="partyClassificationGroupId" title="${uiLabelMap.PartyClassificationGroupId}">
             <display-entity entity-name="PartyClassificationGroup" key-field-name="partyClassificationGroupId" description="${description}&amp;nbsp;[${partyClassificationGroupId}]"/>
         </field>
-        <field name="fromDate" title="${uiLabelMap.CommonFromDate}"><display/></field>
+        <field name="fromDate" title="${uiLabelMap.CommonFromDate}"><display type="date"/></field>
         <field name="thruDate" title="${uiLabelMap.CommonThruDate}"><date-time/></field>
         <field name="submitButton" title="${uiLabelMap.CommonSave}" widget-style="smallSubmit"><submit button-type="text-link"/></field>
         <field name="deleteLink" title=" " widget-style="smallSubmit">
@@ -137,7 +137,7 @@ under the License.
             </sub-hyperlink>
            </display-entity>
         </field>
-        <field name="fromDate" title="${uiLabelMap.CommonFromDate}"><display/></field>
+        <field name="fromDate" title="${uiLabelMap.CommonFromDate}"><display type="date"/></field>
         <field name="thruDate" title="${uiLabelMap.CommonThruDate}"><date-time/></field>
         <field name="submitButton" title="${uiLabelMap.CommonSave}" widget-style="smallSubmit"><submit button-type="text-link"/></field>
         <field name="deleteLink" title=" " widget-style="smallSubmit">

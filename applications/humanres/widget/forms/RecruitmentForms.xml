@@ -447,7 +447,7 @@ under the License.
             </hyperlink>
         </field>
         <field name="internalOrganisation"><display/></field>
-        <field name="reportingDate"><display/></field>
+        <field name="reportingDate"><display type="date"/></field>
         <field name="location">
             <display description="${bsh:
                 import org.ofbiz.entity.GenericValue;
