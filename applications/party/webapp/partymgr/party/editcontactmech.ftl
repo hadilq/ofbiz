@@ -81,7 +81,7 @@ under the License.
                          <input type="hidden" name="partyId" value="${partyId}" />
                          <input type="hidden" name="contactMechId" value="${contactMechId}" />
                          <input type="hidden" name="contactMechPurposeTypeId" value="${partyContactMechPurpose.contactMechPurposeTypeId}" />
-                         <input type="hidden" name="fromDate" value="${partyContactMechPurpose.fromDate.toString()}" />
+                         <input type="hidden" name="fromDate" value="${Static["org.ofbiz.base.util.UtilDateTime"].toDateTimeFormat(context).format(partyContactMechPurpose.fromDate)}" />
                          <input type="hidden" name="DONE_PAGE" value="${donePage?replace("=","%3d")}" />
                          <input type="hidden" name="useValues" value="true" />
                          <a href="javascript:document.deletePartyContactMechPurpose_${partyContactMechPurpose.contactMechPurposeTypeId}.submit()" class="buttontext">${uiLabelMap.CommonDelete}</a>

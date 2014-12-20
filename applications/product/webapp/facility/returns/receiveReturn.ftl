@@ -61,7 +61,7 @@ under the License.
             <input type="hidden" name="facilityId" value="${requestParameters.facilityId?if_exists}" />
             <input type="hidden" name="returnId" value="${requestParameters.returnId?if_exists}" />
             <input type="hidden" name="_useRowSubmit" value="Y" />
-            <#assign now = Static["org.ofbiz.base.util.UtilDateTime"].nowTimestamp().toString()>
+            <#assign now = Static["org.ofbiz.base.util.UtilDateTime"].toDateTimeFormat(context).format(Static["org.ofbiz.base.util.UtilDateTime"].nowTimestamp())>
             <#assign rowCount = 0>
             <table cellspacing="0" class="basic-table">
               <#if !returnItems?exists || returnItems?size == 0>

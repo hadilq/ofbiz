@@ -60,7 +60,7 @@ under the License.
           <#if preContactMechTypeId?has_content><input type='hidden' name='preContactMechTypeId' value='${preContactMechTypeId}' /></#if>
           <#if paymentMethodId?has_content><input type='hidden' name='paymentMethodId' value='${paymentMethodId}' /></#if>
     <#else>
-      <h2>${uiLabelMap.PartyEditContactInfo}</h2>      
+      <h2>${uiLabelMap.PartyEditContactInfo}</h2>
       <a href="<@ofbizUrl>${donePage}</@ofbizUrl>" class="button">${uiLabelMap.CommonGoBack}</a>
       <a href="javascript:document.editcontactmechform.submit()" class="button">${uiLabelMap.CommonSave}</a>
       <table width="90%" border="0" cellpadding="2" cellspacing="0">
@@ -78,7 +78,7 @@ under the License.
                     <#else>
                       ${uiLabelMap.PartyPurposeTypeNotFound}: "${partyContactMechPurpose.contactMechPurposeTypeId}"
                     </#if>
-                     (${uiLabelMap.CommonSince}:${partyContactMechPurpose.fromDate.toString()})
+                     (${uiLabelMap.CommonSince}:${Static["org.ofbiz.base.util.UtilDateTime"].toDateTimeFormat(context).format(partyContactMechPurpose.fromDate)})
                     <#if partyContactMechPurpose.thruDate?exists>(${uiLabelMap.CommonExpires}:${partyContactMechPurpose.thruDate.toString()})</#if>
                   </td>
                   <td>
@@ -90,7 +90,7 @@ under the License.
                           <input type="hidden" name="useValues" value="true"/>
                           <a href='javascript:document.deletePartyContactMechPurpose_${partyContactMechPurpose.contactMechPurposeTypeId}.submit()' class='button'>&nbsp;${uiLabelMap.CommonDelete}&nbsp;</a>
                         </div>
-                      </form> 
+                      </form>
                   </td>
                 </tr>
               </#list>
@@ -161,11 +161,11 @@ under the License.
       <tr>
         <td align="right" valign="top"> ${uiLabelMap.PartyState}
         <td>&nbsp;</td>
-        <td>       
+        <td>
           <select name="stateProvinceGeoId" id="editcontactmechform_stateProvinceGeoId">
           </select>
         </td>
-      </tr>      
+      </tr>
       <tr>
         <td align="right" valign="top">${uiLabelMap.PartyZipCode}</td>
         <td >&nbsp;</td>
@@ -173,12 +173,12 @@ under the License.
           <input type="text" class='inputBox' size="12" maxlength="10" name="postalCode" value="${postalAddressData.postalCode?if_exists}" />
         *</td>
       </tr>
-      <tr>   
+      <tr>
         <td align="right" valign="top">${uiLabelMap.CommonCountry}</td>
         <td>&nbsp;</td>
         <td>
           <select name="countryGeoId" id="editcontactmechform_countryGeoId">
-          ${screens.render("component://common/widget/CommonScreens.xml#countries")}        
+          ${screens.render("component://common/widget/CommonScreens.xml#countries")}
           <#if (postalAddress?exists) && (postalAddress.countryGeoId?exists)>
             <#assign defaultCountryGeoId = postalAddress.countryGeoId>
           <#else>
@@ -243,7 +243,7 @@ under the License.
 
   <a href="<@ofbizUrl>${donePage}</@ofbizUrl>" class="button">${uiLabelMap.CommonGoBack}</a>
   <a href="javascript:document.editcontactmechform.submit()" class="button">${uiLabelMap.CommonSave}</a>
-  <#else>    
+  <#else>
     <a href="<@ofbizUrl>${donePage}</@ofbizUrl>" class="button">${uiLabelMap.CommonGoBack}</a>
   </#if>
 </#if>

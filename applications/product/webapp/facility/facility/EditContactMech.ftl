@@ -101,7 +101,7 @@ under the License.
                         <b>${uiLabelMap.PartyMechPurposeTypeNotFound}: "${facilityContactMechPurpose.contactMechPurposeTypeId}"</b>
                       </#if>
                       (${uiLabelMap.CommonSince}: ${facilityContactMechPurpose.fromDate})
-                      <#if facilityContactMechPurpose.thruDate?has_content>(${uiLabelMap.CommonExpires}: ${facilityContactMechPurpose.thruDate.toString()}</#if>
+                      <#if facilityContactMechPurpose.thruDate?has_content>(${uiLabelMap.CommonExpires}: ${Static["org.ofbiz.base.util.UtilDateTime"].toDateTimeFormat(context).format(facilityContactMechPurpose.thruDate)}</#if>
                       <a href="javascript:document.getElementById('deleteFacilityContactMechPurpose_${facilityContactMechPurpose_index}').submit();" class="buttontext">${uiLabelMap.CommonDelete}</a>
                   </td>
                 </tr>
@@ -186,11 +186,11 @@ under the License.
         <input type="text" class="required" size="12" maxlength="10" name="postalCode" value="${(mechMap.postalAddress.postalCode)?default(request.getParameter('postalCode')?if_exists)}" />
       *</td>
     </tr>
-    <tr>   
-      <td class="label">${uiLabelMap.CommonCountry}</td>      
-      <td>     
+    <tr>
+      <td class="label">${uiLabelMap.CommonCountry}</td>
+      <td>
         <select name="countryGeoId" id="editcontactmechform_countryGeoId">
-          ${screens.render("component://common/widget/CommonScreens.xml#countries")}        
+          ${screens.render("component://common/widget/CommonScreens.xml#countries")}
           <#if (mechMap.postalAddress?exists) && (mechMap.postalAddress.countryGeoId?exists)>
             <#assign defaultCountryGeoId = mechMap.postalAddress.countryGeoId>
           <#else>

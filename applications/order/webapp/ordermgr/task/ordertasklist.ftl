@@ -134,7 +134,7 @@ under the License.
                           <#list partyTasks as task>
                             <tr valign="middle"<#if alt_row> class="alternate-row"</#if>>
                               <td>
-                                <#assign orderStr = "orderId=" + task.orderId + "&amp;partyId=" + userLogin.partyId + "&amp;roleTypeId=" + task.roleTypeId + "&amp;workEffortId=" + task.workEffortId + "&amp;fromDate=" + task.get("fromDate").toString()>
+                                <#assign orderStr = "orderId=" + task.orderId + "&amp;partyId=" + userLogin.partyId + "&amp;roleTypeId=" + task.roleTypeId + "&amp;workEffortId=" + task.workEffortId + "&amp;fromDate=" + Static["org.ofbiz.base.util.UtilDateTime"].toDateTimeFormat(context).format(task.get("fromDate"))>
                                 <a href="<@ofbizUrl>orderview?${orderStr}</@ofbizUrl>" class="buttontext">
                                   ${task.orderId}
                                 </a>
@@ -150,14 +150,14 @@ under the License.
                               </td>
                               <td>
                                 <div>
-                                  ${task.get("orderDate").toString()}
+                                  ${Static["org.ofbiz.base.util.UtilDateTime"].toDateTimeFormat(context).format(task.get("orderDate"))}
                                 </div>
                               </td>
                               <td width="1" align="right"><@ofbizCurrency amount=task.grandTotal isoCode=orderCurrencyMap.get(task.orderId)/></td>
                               <td width="1">&nbsp;&nbsp;</td>
                               <td>
                                 <#if task.actualStartDate?exists>
-                                  <#assign actualStartDate = task.get("actualStartDate").toString()>
+                                  <#assign actualStartDate = Static["org.ofbiz.base.util.UtilDateTime"].toDateTimeFormat(context).format(task.get("actualStartDate"))>
                                 <#else>
                                   <#assign actualStartDate = "N/A">
                                 </#if>
@@ -208,14 +208,14 @@ under the License.
                               <#if task.statusId?exists && task.statusId == "CAL_SENT">
                                 <input type="hidden" name="partyId" value="${userLogin.partyId}" />
                                 <input type="hidden" name="roleTypeId" value="${task.roleTypeId}" />
-                                <input type="hidden" name="fromDate" value="${task.get("fromDate").toString()}" />
+                                <input type="hidden" name="fromDate" value="${Static["org.ofbiz.base.util.UtilDateTime"].toDateTimeFormat(context).format(task.get("fromDate"))}" />
                               <#else>
                                 <input type="hidden" name="partyId" value="${userLogin.partyId}" />
                                 <input type="hidden" name="roleTypeId" value="${task.roleTypeId}" />
-                                <input type="hidden" name="fromDate" value="${task.get("fromDate").toString()}" />
+                                <input type="hidden" name="fromDate" value="${Static["org.ofbiz.base.util.UtilDateTime"].toDateTimeFormat(context).format(task.get("fromDate"))}" />
                                 <input type="hidden" name="fromPartyId" value="${task.wepaPartyId}" />
                                 <input type="hidden" name="fromRoleTypeId" value="${task.roleTypeId}" />
-                                <input type="hidden" name="fromFromDate" value="${task.get("fromDate").toString()}" />
+                                <input type="hidden" name="fromFromDate" value="${Static["org.ofbiz.base.util.UtilDateTime"].toDateTimeFormat(context).format(task.get("fromDate"))}" />
                                 <input type="hidden" name="toPartyId" value="${userLogin.partyId}" />
                                 <input type="hidden" name="toRoleTypeId" value="${task.roleTypeId}" />
                                 <input type="hidden" name="toFromDate" value="${now}" />
@@ -236,14 +236,14 @@ under the License.
                                 </td>
                                 <td>
                                   <div>
-                                    ${task.get("orderDate").toString()}
+                                    ${Static["org.ofbiz.base.util.UtilDateTime"].toDateTimeFormat(context).format(task.get("orderDate"))}
                                   </div>
                                 </td>
                                 <td width="1" align="right"><@ofbizCurrency amount=task.grandTotal isoCode=orderCurrencyMap.get(task.orderId)/></td>
                                 <td width="1">&nbsp;&nbsp;</td>
                                 <td>
                                   <#if task.actualStartDate?exists>
-                                    <#assign actualStartDate = task.get("actualStartDate").toString()>
+                                    <#assign actualStartDate = Static["org.ofbiz.base.util.UtilDateTime"].toDateTimeFormat(context).format(task.get("actualStartDate"))>
                                   <#else>
                                     <#assign actualStartDate = "N/A">
                                   </#if>

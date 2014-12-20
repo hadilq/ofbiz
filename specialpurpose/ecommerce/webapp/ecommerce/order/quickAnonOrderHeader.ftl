@@ -79,7 +79,7 @@ under the License.
                     </td>
                     <td width="5">&nbsp;</td>
                     <td valign="top" width="80%">
-                      <div>${orderHeader.orderDate.toString()}</div>
+                      <div>${Static["org.ofbiz.base.util.UtilDateTime"].toDateTimeFormat(context).format(orderHeader.orderDate)}</div>
                     </td>
                   </tr>
                 </#if>

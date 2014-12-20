@@ -120,7 +120,7 @@ under the License.
                                   <#assign orderItemStatuses = orderReadHelper.getOrderItemStatuses(orderItem)>
                                   <#list orderItemStatuses as orderItemStatus>
                                   <#assign loopStatusItem = orderItemStatus.getRelatedOne("StatusItem", false)>
-                                  <#if orderItemStatus.statusDatetime?has_content>${orderItemStatus.statusDatetime.toString()}</#if>
+                                  <#if orderItemStatus.statusDatetime?has_content>${Static["org.ofbiz.base.util.UtilDateTime"].toDateTimeFormat(context).format(orderItemStatus.statusDatetime)}</#if>
                                   &nbsp;${loopStatusItem.get("description",locale)?default(orderItemStatus.statusId)}<br />
                                   </#list>
                                   <#assign returns = orderItem.getRelated("ReturnItem", null, null, false)?if_exists>

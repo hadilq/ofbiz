@@ -47,8 +47,8 @@ under the License.
                 <td>${visitObj.userCreated?if_exists}</td>
                 <td>${visitObj.webappName?if_exists}</td>
                 <td>${visitObj.clientIpAddress?if_exists}</td>
-                <td>${(visitObj.fromDate.toString())?if_exists}</td>
-                <td>${(visitObj.thruDate.toString())?if_exists}</td>
+                <td>${(Static["org.ofbiz.base.util.UtilDateTime"].toDateTimeFormat(context).format(visitObj.fromDate))?if_exists}</td>
+                <td>${(Static["org.ofbiz.base.util.UtilDateTime"].toDateTimeFormat(context).format(visitObj.thruDate))?if_exists}</td>
               </tr>
           </#list>
         </table>

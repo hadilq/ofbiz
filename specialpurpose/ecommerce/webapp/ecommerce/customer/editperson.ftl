@@ -18,7 +18,7 @@ under the License.
 -->
 <#if person?exists>
   <h2>${uiLabelMap.PartyEditPersonalInformation}</h2>
-    &nbsp;<form id="editpersonform1" method="post" action="<@ofbizUrl>updatePerson</@ofbizUrl>" name="editpersonform">    
+    &nbsp;<form id="editpersonform1" method="post" action="<@ofbizUrl>updatePerson</@ofbizUrl>" name="editpersonform">
 <#else>
   <h2>${uiLabelMap.PartyAddNewPersonalInformation}</h2>
     &nbsp;<form id="editpersonform2" method="post" action="<@ofbizUrl>createPerson/${donePage}</@ofbizUrl>" name="editpersonform">
@@ -26,7 +26,7 @@ under the License.
 <div>
   &nbsp;<a href='<@ofbizUrl>${donePage}</@ofbizUrl>' class="button">${uiLabelMap.CommonGoBack}</a>
   &nbsp;<a href="javascript:document.editpersonform.submit()" class="button">${uiLabelMap.CommonSave}</a>
-  <p/>    
+  <p/>
   <input type="hidden" name="partyId" value="${person.partyId?if_exists}" />
   <table width="90%" border="0" cellpadding="2" cellspacing="0">
   <tr>
@@ -97,7 +97,7 @@ under the License.
     <tr>
       <td align="right">${uiLabelMap.PartyBirthDate}</td>
       <td>
-        <input type="text" class='inputBox' size="11" maxlength="20" name="birthDate" value="${(personData.birthDate.toString())?if_exists}"/>
+        <input type="text" class='inputBox' size="11" maxlength="20" name="birthDate" value="${(Static["org.ofbiz.base.util.UtilDateTime"].toDateTimeFormat(context).format(personData.birthDate))?if_exists}"/>
         <div>${uiLabelMap.CommonFormatDate}</div>
       </td>
     </tr>
