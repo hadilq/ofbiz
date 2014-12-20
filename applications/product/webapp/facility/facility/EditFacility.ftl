@@ -24,7 +24,7 @@ under the License.
   <tr>
     <td class="label">${uiLabelMap.ProductFacilityId}</td>
     <td>
-      ${facilityId?if_exists} <span class="tooltip">${uiLabelMap.ProductNotModificationRecrationFacility}</span>
+      <span class="field">${facilityId?if_exists}</span>&nbsp; <span class="tooltip">${uiLabelMap.ProductNotModificationRecrationFacility}</span>
     </td>
   </tr>
 <#else>
@@ -113,7 +113,7 @@ under the License.
           </#list>
       </select>
     </td>
-  </tr>  
+  </tr>
   <tr>
     <td class="label">${uiLabelMap.ProductProductDescription}</td>
     <td ><input type="text" name="description" value="${facility.description?if_exists}" size="60" maxlength="250" /></td>
