@@ -54,15 +54,15 @@ under the License.
             <td width="20%" align="right" class="label">${uiLabelMap.ProductEstimatedDates}</td>
             <td width="80%">
               <span>
-                <span>${uiLabelMap.CommonReady}:&nbsp;</span>${(shipment.estimatedReadyDate.toString())?if_exists}
-                <span>${uiLabelMap.ProductEstimatedShipDate}:&nbsp;</span>${(shipment.estimatedShipDate.toString())?if_exists}
-                <span>${uiLabelMap.ProductArrival}:&nbsp;</span>${(shipment.estimatedArrivalDate.toString())?if_exists}
+                <span>${uiLabelMap.CommonReady}:&nbsp;</span>${(Static["org.ofbiz.base.util.UtilDateTime"].toDateTimeFormat(context).format(shipment.estimatedReadyDate))?if_exists}
+                <span>${uiLabelMap.ProductEstimatedShipDate}:&nbsp;</span>${(Static["org.ofbiz.base.util.UtilDateTime"].toDateTimeFormat(context).format(shipment.estimatedShipDate))?if_exists}
+                <span>${uiLabelMap.ProductArrival}:&nbsp;</span>${(Static["org.ofbiz.base.util.UtilDateTime"].toDateTimeFormat(context).format(shipment.estimatedArrivalDate))?if_exists}
               </span>
             </td>
           </tr>
           <tr>
             <td width="20%" align="right" class="label">${uiLabelMap.ProductLatestCancelDate}</td>
-            <td width="80%">${(shipment.latestCancelDate.toString())?if_exists}</td>
+            <td width="80%">${(Static["org.ofbiz.base.util.UtilDateTime"].toDateTimeFormat(context).format(shipment.latestCancelDate))?if_exists}</td>
           </tr>
           <tr>
             <td width="20%" align="right" class="label">${uiLabelMap.ProductEstimatedShipCost}</td>
@@ -113,13 +113,13 @@ under the License.
           <tr>
             <td width="20%" align="right" class="label">${uiLabelMap.CommonCreated}</td>
             <td width="80%">
-              <div>${uiLabelMap.CommonBy} [${shipment.createdByUserLogin?if_exists}] ${uiLabelMap.CommonOn} ${(shipment.createdDate.toString())?if_exists}</div>
+              <div>${uiLabelMap.CommonBy} [${shipment.createdByUserLogin?if_exists}] ${uiLabelMap.CommonOn} ${(Static["org.ofbiz.base.util.UtilDateTime"].toDateTimeFormat(context).format(shipment.createdDate))?if_exists}</div>
             </td>
           </tr>
           <tr>
             <td width="20%" align="right" class="label">${uiLabelMap.CommonLastUpdated}</td>
             <td width="80%">
-              <div>${uiLabelMap.CommonBy} [${shipment.lastModifiedByUserLogin?if_exists}] ${uiLabelMap.CommonOn} ${(shipment.lastModifiedDate.toString())?if_exists}</div>
+              <div>${uiLabelMap.CommonBy} [${shipment.lastModifiedByUserLogin?if_exists}] ${uiLabelMap.CommonOn} ${(Static["org.ofbiz.base.util.UtilDateTime"].toDateTimeFormat(context).format(shipment.lastModifiedDate))?if_exists}</div>
             </td>
           </tr>
         </table>

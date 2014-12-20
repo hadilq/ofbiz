@@ -116,7 +116,7 @@ under the License.
                     <td>
                         <#if itemIssuances?has_content>
                             <#list itemIssuances as itemIssuance>
-                                <div><b>[${itemIssuance.quantity?if_exists}]</b>${itemIssuance.shipmentId?if_exists}:${itemIssuance.shipmentItemSeqId?if_exists} ${uiLabelMap.CommonOn} [${(itemIssuance.issuedDateTime.toString())?if_exists}] ${uiLabelMap.CommonBy} [${(itemIssuance.issuedByUserLoginId)?if_exists}]</div>
+                                <div><b>[${itemIssuance.quantity?if_exists}]</b>${itemIssuance.shipmentId?if_exists}:${itemIssuance.shipmentItemSeqId?if_exists} ${uiLabelMap.CommonOn} [${(Static["org.ofbiz.base.util.UtilDateTime"].toDateTimeFormat(context).format(itemIssuance.issuedDateTime))?if_exists}] ${uiLabelMap.CommonBy} [${(itemIssuance.issuedByUserLoginId)?if_exists}]</div>
                             </#list>
                         <#else>
                             <div>&nbsp;</div>

@@ -46,7 +46,7 @@ under the License.
             <input type="hidden" name="shipmentPackageSeqId" value="${shipmentPackage.shipmentPackageSeqId}"/>
             <tr valign="middle"<#if alt_row> class="alternate-row"</#if>>
                 <td>${shipmentPackage.shipmentPackageSeqId}</td>
-                <td>${(shipmentPackage.dateCreated.toString())?if_exists}</td>
+                <td>${(Static["org.ofbiz.base.util.UtilDateTime"].toDateTimeFormat(context).format(shipmentPackage.dateCreated))?if_exists}</td>
                 <td>
                     <span class="label">${uiLabelMap.ProductWeight}</span>
                     <input type="text" size="5" name="weight" value="${shipmentPackage.weight?if_exists}"/>

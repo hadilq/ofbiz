@@ -30,9 +30,9 @@ under the License.
       <form method="post" action="<@ofbizUrl>updateCreditCard?DONE_PAGE=${donePage}</@ofbizUrl>" name="editcreditcardform">
         <div>
         <input type="hidden" name="paymentMethodId" value="${paymentMethodId}" />
-    </#if>      
+    </#if>
       &nbsp;<a href="<@ofbizUrl>${donePage}</@ofbizUrl>" class="button">${uiLabelMap.CommonGoBack}</a>
-      &nbsp;<a href="javascript:document.editcreditcardform.submit()" class="button">${uiLabelMap.CommonSave}</a>  
+      &nbsp;<a href="javascript:document.editcreditcardform.submit()" class="button">${uiLabelMap.CommonSave}</a>
       <p/>
       <table width="90%" border="0" cellpadding="2" cellspacing="0">
          ${screens.render("component://accounting/widget/CommonScreens.xml#creditCardFields")}
@@ -59,7 +59,7 @@ under the License.
                      <div>
                        ${curContactMechPurposeType.get("description",locale)?if_exists}
                        <#if curPartyContactMechPurpose.thruDate?exists>
-                         ((${uiLabelMap.CommonExpire}:${curPartyContactMechPurpose.thruDate.toString()})
+                         ((${uiLabelMap.CommonExpire}:${Static["org.ofbiz.base.util.UtilDateTime"].toDateTimeFormat(context).format(curPartyContactMechPurpose.thruDate)})
                        </#if>
                      </div>
                    </#list>
@@ -70,8 +70,8 @@ under the License.
                    <#if curPostalAddress.address2?exists>${curPostalAddress.address2}<br /></#if>
                      ${curPostalAddress.city}<#if curPostalAddress.stateProvinceGeoId?has_content>,&nbsp;${curPostalAddress.stateProvinceGeoId}</#if>&nbsp;${curPostalAddress.postalCode}
                    <#if curPostalAddress.countryGeoId?exists><br />${curPostalAddress.countryGeoId}</#if>
-                   <div>(${uiLabelMap.CommonUpdated}:&nbsp;${(curPartyContactMech.fromDate.toString())?if_exists})</div>
-                   <#if curPartyContactMech.thruDate?exists><div>${uiLabelMap.CommonDelete}:&nbsp;${curPartyContactMech.thruDate.toString()}</#if>
+                   <div>(${uiLabelMap.CommonUpdated}:&nbsp;${(Static["org.ofbiz.base.util.UtilDateTime"].toDateTimeFormat(context).format(curPartyContactMech.fromDate))?if_exists})</div>
+                   <#if curPartyContactMech.thruDate?exists><div>${uiLabelMap.CommonDelete}:&nbsp;${Static["org.ofbiz.base.util.UtilDateTime"].toDateTimeFormat(context).format(curPartyContactMech.thruDate)}</#if>
                    </div>
                  </td>
                </tr>
@@ -114,8 +114,8 @@ under the License.
                      ${postalAddress.city}<#if postalAddress.stateProvinceGeoId?has_content>,&nbsp;${postalAddress.stateProvinceGeoId}</#if>&nbsp;${postalAddress.postalCode}
                      <#if postalAddress.countryGeoId?exists><br />${postalAddress.countryGeoId}</#if>
                    </div>
-                   <div>(${uiLabelMap.CommonUpdated}:&nbsp;${(partyContactMech.fromDate.toString())?if_exists})</div>
-                   <#if partyContactMech.thruDate?exists><div>${uiLabelMap.CommonDelete}:&nbsp;${partyContactMech.thruDate.toString()}</div></#if>
+                   <div>(${uiLabelMap.CommonUpdated}:&nbsp;${(Static["org.ofbiz.base.util.UtilDateTime"].toDateTimeFormat(context).format(partyContactMech.fromDate))?if_exists})</div>
+                   <#if partyContactMech.thruDate?exists><div>${uiLabelMap.CommonDelete}:&nbsp;${Static["org.ofbiz.base.util.UtilDateTime"].toDateTimeFormat(context).format(partyContactMech.thruDate)}</div></#if>
                  </td>
                </tr>
                </#list>
@@ -135,8 +135,8 @@ under the License.
          </tr>
        </table>
        </div>
-     </form>  
+     </form>
   &nbsp;<a href="<@ofbizUrl>${donePage}</@ofbizUrl>" class="button">${uiLabelMap.CommonGoBack}</a>
-  &nbsp;<a href="javascript:document.editcreditcardform.submit()" class="button">${uiLabelMap.CommonSave}</a>  
+  &nbsp;<a href="javascript:document.editcreditcardform.submit()" class="button">${uiLabelMap.CommonSave}</a>
 </#if>
 

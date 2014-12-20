@@ -158,7 +158,7 @@ function lookupBom() {
         <td width="26%" align="right">${uiLabelMap.CommonThruDate}</td>
         <td>&nbsp;</td>
         <td width="74%">
-            <#if useValues> 
+            <#if useValues>
               <#assign value= productAssoc.thruDate?if_exists>
             <#else>
               <#assign value= request.getParameter("thruDate")?if_exists>
@@ -315,7 +315,7 @@ function lookupBom() {
             <td>${(assocToProduct.getTimestamp("thruDate"))?if_exists}&nbsp;</td>
             <td>${(assocToProduct.quantity)?if_exists}&nbsp;</td>
             <td>
-                <a href="<@ofbizUrl>UpdateProductBom?UPDATE_MODE=DELETE&amp;productId=${(assocToProduct.productId)?if_exists}&amp;productIdTo=${(assocToProduct.productIdTo)?if_exists}&amp;productAssocTypeId=${(assocToProduct.productAssocTypeId)?if_exists}&amp;fromDate=${Static["org.ofbiz.base.util.UtilFormatOut"].encodeQueryValue(assocToProduct.getTimestamp("fromDate").toString())}&amp;useValues=true</@ofbizUrl>" class="buttontext">
+                <a href="<@ofbizUrl>UpdateProductBom?UPDATE_MODE=DELETE&amp;productId=${(assocToProduct.productId)?if_exists}&amp;productIdTo=${(assocToProduct.productIdTo)?if_exists}&amp;productAssocTypeId=${(assocToProduct.productAssocTypeId)?if_exists}&amp;fromDate=${Static["org.ofbiz.base.util.UtilFormatOut"].encodeQueryValue(Static["org.ofbiz.base.util.UtilDateTime"].toDateTimeFormat(context).format(assocToProduct.getTimestamp("fromDate")))}&amp;useValues=true</@ofbizUrl>" class="buttontext">
                 ${uiLabelMap.CommonDelete}</a>
             </td>
         </tr>

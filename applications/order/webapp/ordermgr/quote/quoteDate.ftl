@@ -28,7 +28,7 @@ under the License.
                 </td>
                 <td width="5%">&nbsp;</td>
                 <td valign="top" width="80%">
-                    ${(quote.issueDate.toString())?if_exists}
+                    ${(Static["org.ofbiz.base.util.UtilDateTime"].toDateTimeFormat(context).format(quote.issueDate))?if_exists}
                 </td>
             </tr>
             <tr><td colspan="3"><hr /></td></tr>
@@ -38,7 +38,7 @@ under the License.
                 </td>
                 <td width="5%">&nbsp;</td>
                 <td valign="top" width="80%">
-                    ${(quote.validFromDate.toString())?if_exists}
+                    ${(Static["org.ofbiz.base.util.UtilDateTime"].toDateTimeFormat(context).format(quote.validFromDate))?if_exists}
                 </td>
             </tr>
             <tr><td colspan="3"><hr /></td></tr>
@@ -48,7 +48,7 @@ under the License.
                 </td>
                 <td width="5%">&nbsp;</td>
                 <td valign="top" width="80%">
-                    ${(quote.validThruDate.toString())?if_exists}
+                    ${(Static["org.ofbiz.base.util.UtilDateTime"].toDateTimeFormat(context).format(quote.validThruDate))?if_exists}
                 </td>
             </tr>
         </table>

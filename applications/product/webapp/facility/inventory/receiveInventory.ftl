@@ -185,8 +185,8 @@ under the License.
                   <#-- <a href="#" onclick="setNow("datetimeReceived")" class="buttontext">[Now]</a> -->
                 </td>
               </tr>
-              
-              
+
+
               <tr>
                 <td width="14%">&nbsp;</td>
                 <td width="6%" align="right" nowrap="nowrap" class="label">${uiLabelMap.lotId}</td>
@@ -301,7 +301,7 @@ under the License.
                         <td>${statusItem.get("description",locale)?default(statusItem.statusId?default("N/A"))}</td>
                         <td>${(originFacility.facilityName)?if_exists} [${shipment.originFacilityId?if_exists}]</td>
                         <td>${(destinationFacility.facilityName)?if_exists} [${shipment.destinationFacilityId?if_exists}]</td>
-                        <td style="white-space: nowrap;">${(shipment.estimatedArrivalDate.toString())?if_exists}</td>
+                        <td style="white-space: nowrap;">${(Static["org.ofbiz.base.util.UtilDateTime"].toDateTimeFormat(context).format(shipment.estimatedArrivalDate))?if_exists}</td>
                       </tr>
                     </table>
                   </td>

@@ -34,7 +34,7 @@ under the License.
           <#assign weightUom = shipmentPackageData.weightUom?if_exists>
           <tr valign="middle"<#if alt_row> class="alternate-row"</#if>>
             <td>${shipmentPackage.shipmentPackageSeqId}</td>
-            <td>${(shipmentPackage.dateCreated.toString())?if_exists}</td>
+            <td>${(Static["org.ofbiz.base.util.UtilDateTime"].toDateTimeFormat(context).format(shipmentPackage.dateCreated))?if_exists}</td>
             <td><span class="label">${uiLabelMap.ProductWeight}</span> ${shipmentPackage.weight?if_exists}</td>
             <td><span class="label">${uiLabelMap.ProductWeightUnit}</span> <#if weightUom?has_content>${weightUom.get("description",locale)}<#else>${shipmentPackage.weightUomId?if_exists}</#if></td>
           </tr>

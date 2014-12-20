@@ -195,7 +195,7 @@ function lookupShipments() {
               <td>${(statusItem.get("description",locale))?default(statusItem.statusId?default("N/A"))}</td>
               <td>${(originFacility.facilityName)?if_exists} [${shipment.originFacilityId?if_exists}]</td>
               <td>${(destinationFacility.facilityName)?if_exists} [${shipment.destinationFacilityId?if_exists}]</td>
-              <td><span style="white-space: nowrap;">${(shipment.estimatedShipDate.toString())?if_exists}</span></td>
+              <td><span style="white-space: nowrap;">${(Static["org.ofbiz.base.util.UtilDateTime"].toDateTimeFormat(context).format(shipment.estimatedShipDate))?if_exists}</span></td>
               <td align="right">
                 <a href="<@ofbizUrl>ViewShipment?shipmentId=${shipment.shipmentId}</@ofbizUrl>" class="buttontext">${uiLabelMap.CommonView}</a>
               </td>
