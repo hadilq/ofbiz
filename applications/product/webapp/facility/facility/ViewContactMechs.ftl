@@ -37,7 +37,7 @@ under the License.
                         <b>${uiLabelMap.ProductPurposeTypeNotFoundWithId}: "${facilityContactMechPurpose.contactMechPurposeTypeId}"</b>
                       </#if>
                       <#if facilityContactMechPurpose.thruDate?has_content>
-                      (${uiLabelMap.CommonExpire}: ${facilityContactMechPurpose.thruDate.toString()})
+                      (${uiLabelMap.CommonExpire}: ${Static["org.ofbiz.base.util.UtilDateTime"].toDateTimeFormat(context).format(facilityContactMechPurpose.thruDate)})
                       </#if>
                       <br />
               </#list>
@@ -85,8 +85,8 @@ under the License.
               <#else>
                     ${contactMech.infoString?if_exists}
               </#if>
-              <br />(${uiLabelMap.CommonUpdated}: ${facilityContactMech.fromDate.toString()})
-              <#if facilityContactMech.thruDate?has_content><br /><b>${uiLabelMap.CommonUpdatedEffectiveThru}:&nbsp;${facilityContactMech.thruDate.toString()}</b></#if>
+              <br />(${uiLabelMap.CommonUpdated}: ${Static["org.ofbiz.base.util.UtilDateTime"].toDateTimeFormat(context).format(facilityContactMech.fromDate)})
+              <#if facilityContactMech.thruDate?has_content><br /><b>${uiLabelMap.CommonUpdatedEffectiveThru}:&nbsp;${Static["org.ofbiz.base.util.UtilDateTime"].toDateTimeFormat(context).format(facilityContactMech.thruDate)}</b></#if>
             </td>
             <td class="button-col">
               &nbsp;
@@ -94,7 +94,7 @@ under the License.
                 <a href='<@ofbizUrl>EditContactMech?facilityId=${facilityId}&amp;contactMechId=${contactMech.contactMechId}</@ofbizUrl>'>${uiLabelMap.CommonUpdate}</a>
               </#if>
               <#if security.hasEntityPermission("FACILITY", "_DELETE", session)>
-                <form action="<@ofbizUrl>deleteContactMech/ViewContactMechs</@ofbizUrl>" name="deleteContactForm_${contactMechMap_index}" method="post">
+                <form class="hidden" action="<@ofbizUrl>deleteContactMech/ViewContactMechs</@ofbizUrl>" name="deleteContactForm_${contactMechMap_index}" method="post">
                   <input type="hidden" name="facilityId" value="${facilityId?if_exists}"/>
                   <input type="hidden" name="contactMechId" value="${contactMech.contactMechId?if_exists}"/>
                 </form>

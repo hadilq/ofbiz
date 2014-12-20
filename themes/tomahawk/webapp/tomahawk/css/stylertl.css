@@ -186,6 +186,11 @@ text-align: left;
 float: right;
 }
 
+#control-area,
+#preferences-menu li{
+float: left;
+}
+
 #masthead ul .opposed,
 #control-area,
 #control-area li,
@@ -272,6 +277,10 @@ padding-right: 1em;
 /* ===== Button Bar Navigation Styles ===== */
 /* ======================================== */
 
+.button-bar {
+direction: ltr;
+}
+
 .button-bar ul li,
 .tabContainer ul li {
 float: right;
@@ -348,6 +357,7 @@ padding-left: 1em;
 /* ======================== */
 /* ===== Form Styles ===== */
 /* ======================== */
+.field{float: right;}
 
 .basic-form table tr .label,
 .basic-form table tr .group-label {

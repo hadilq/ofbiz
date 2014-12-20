@@ -200,6 +200,8 @@ font-weight: bold;
 /* ===== Legacy Styles ===== */
 /* The "smallSubmit" class can be used to decorate
 links (A elements) and make them similar to form's buttons. */
+.field{float: left;}
+
 .smallSubmit,.smallSubmit:visited {
 background-color: #ffffff;
 border: #999999 solid 0.1em;
