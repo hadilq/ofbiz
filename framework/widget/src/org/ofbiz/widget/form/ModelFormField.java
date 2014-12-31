@@ -834,6 +834,17 @@ public class ModelFormField {
         }
     }
 
+    public String getParameterNameWithSuffix(Map<String, ? extends Object> context, String namePlusSuffix) {
+        if (UtilValidate.isNotEmpty(context.get("parameters"))) {
+            Map<String, ? extends Object> parameters = UtilGenerics.checkMap(context.get("parameters"));
+            if (parameters != null && UtilValidate.isNotEmpty(parameters.get(namePlusSuffix))) {
+                return (String) parameters.get(namePlusSuffix);
+            } else
+                return "";
+        } else
+            return "";
+    }
+
     public int getPosition() {
         if (this.position == null) return 1;
         return position.intValue();
