@@ -1676,7 +1676,6 @@ public class MacroFormRenderer implements FormStringRenderer {
 
     public void renderTextFindField(Appendable writer, Map<String, Object> context, TextFindField textFindField) throws IOException {
         ModelFormField modelFormField = textFindField.getModelFormField();
-        String defaultOption = textFindField.getDefaultOption();
         String className = "";
         String alert = "false";
         String opEquals = "";
@@ -1688,6 +1687,10 @@ public class MacroFormRenderer implements FormStringRenderer {
         String size = Integer.toString(textFindField.getSize());
         String maxlength = "";
         String autocomplete = "";
+        String defaultOption = modelFormField.getParameterNameWithSuffix(context, name + "_op");
+        if (UtilValidate.isEmpty(defaultOption)) {
+            defaultOption = textFindField.getDefaultOption();
+        }
         if (UtilValidate.isNotEmpty(modelFormField.getWidgetStyle())) {
             className = modelFormField.getWidgetStyle();
             if (modelFormField.shouldBeRed(context)) {
@@ -1717,7 +1720,17 @@ public class MacroFormRenderer implements FormStringRenderer {
             titleStyle = modelFormField.getTitleStyle();
         }
         String ignoreCase = UtilProperties.getMessage("conditional", "ignore_case", locale);
-        boolean ignCase = textFindField.getIgnoreCase();
+        boolean ignCase = true;
+        String ignCaseString = modelFormField.getParameterNameWithSuffix(context, name + "_ic");
+        if (UtilValidate.isEmpty(ignCaseString)) {
+            if (UtilValidate.isEmpty(value))
+                ignCase = textFindField.getIgnoreCase();
+            else
+                ignCase = false;
+        } else {
+            if ("Y".equals(ignCaseString) || "true".equals(ignCaseString) )
+                ignCase = true;
+        }
         boolean hideIgnoreCase = textFindField.getHideIgnoreCase();
         StringWriter sr = new StringWriter();
         sr.append("<@renderTextFindField ");
