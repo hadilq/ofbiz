@@ -81,6 +81,25 @@ under the License.
 </#list>
 </ul>
 </td>
+<td>
+<ul>
+<#assign invoicePatternKeys = ["patternName", "invoiceTypeId", "partyIdFrom", "partyId", "statusId", "billingAccountId", "referenceNumber", "description", "descriptionOperator", "descriptionIgnoreCase", "referenceNumberOperator", "referenceNumberIgnoreCase"]>
+<#assign keysInForm = {"descriptionOperator":"description_op", "descriptionIgnoreCase":"description_ic", "referenceNumberOperator":"referenceNumber_op", "referenceNumberIgnoreCase":"referenceNumber_ic"}>
+<#list invoicePatterns as invoicePattern>
+<#assign param = "">
+<#list invoicePatternKeys as key>
+<#if invoicePattern[key]?has_content >
+<#if keysInForm[key]?has_content>
+<#assign param = param + "&amp;" + "${keysInForm[key]}" + "=" + "${invoicePattern[key]}">
+<#else>
+<#assign param = param + "&amp;" + "${key}" + "=" + "${invoicePattern[key]}">
+</#if>
+</#if>
+</#list>
+<li><div class="remove-button ui-corner-all" title="${uiLabelMap.CommonRemove}"><a class="ui-icon ui-icon-closethick" href="<@ofbizUrl>main?isRemoveInvoicePattern=Y&amp;invoicePatternSeqId=${invoicePattern.invoicePatternSeqId}</@ofbizUrl>">-</a></div><a class="remove-pair" href="<@ofbizUrl>findInvoices?noConditionFind=Y&amp;${param}</@ofbizUrl>">${invoicePattern.patternName}</a></li>
+</#list>
+</ul>
+</td>
 </tr>
 
   <tr>

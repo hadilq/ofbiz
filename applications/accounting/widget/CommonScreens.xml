@@ -46,7 +46,7 @@ under the License.
             </widgets>
         </section>
     </screen>
-    
+
     <screen name="CommonPaymentDecorator">
         <section>
             <actions>
@@ -228,12 +228,19 @@ under the License.
     <screen name="main">
         <section>
             <actions>
+                <service service-name="removeInvoicePattern">
+                    <field-map field-name="isRemoveInvoicePattern" from-field="parameters.isRemoveInvoicePattern"/>
+                    <field-map field-name="invoicePatternSeqId" from-field="parameters.invoicePatternSeqId"/>
+                </service>
                 <set field="headerItem" value="main"/>
                 <entity-condition entity-name="PaymentType" list="paymentTypes">
                     <order-by field-name="paymentTypeId"/>
                 </entity-condition>
                 <entity-condition entity-name="InvoiceType" list="invoiceTypes">
                     <order-by field-name="invoiceTypeId"/>
+                </entity-condition>
+                <entity-condition entity-name="InvoicePattern" list="invoicePatterns">
+                    <order-by field-name="patternName"/>
                 </entity-condition>
                 <entity-condition entity-name="PaymentMethodType" list="paymentMethodTypes">
                     <order-by field-name="paymentMethodTypeId"/>
