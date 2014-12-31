@@ -656,6 +656,42 @@ under the License.
         </section>
     </screen>
 
+    <screen name="FindPatternScreenDecorator">
+        <section>
+            <widgets>
+                <section>
+                    <condition>
+                        <if-empty field="titleProperty"/>
+                    </condition>
+                    <widgets>
+                        <container style="page-title"><label text="${title}"></label></container>
+                    </widgets>
+                    <fail-widgets>
+                        <container style="page-title"><label text="${uiLabelMap[titleProperty]}"></label></container>
+                    </fail-widgets>
+                </section>
+                <decorator-section-include name="menu-bar"/>
+                <container style="clear"/>
+                <screenlet id="pattrnOptions" name="patternScreenlet" collapsible="true" initially-collapsed="true" title="${uiLabelMap.CommonPatternOptions}">
+                    <container id="pattern-options">
+                        <decorator-section-include name="pattern-options" />
+                    </container>
+                </screenlet>
+                <screenlet id="searchOptions" name="findScreenlet" collapsible="true" title="${uiLabelMap.CommonSearchOptions}">
+                    <container id="search-options">
+                        <decorator-section-include name="search-options" />
+                    </container>
+                </screenlet>
+                <screenlet padded="false">
+                    <label style="h3" text="${uiLabelMap.CommonSearchResults}"/>
+                    <container id="search-results">
+                        <decorator-section-include name="search-results"/>
+                    </container>
+                </screenlet>
+            </widgets>
+        </section>
+    </screen>
+
     <screen name="help">
         <section>
             <actions>

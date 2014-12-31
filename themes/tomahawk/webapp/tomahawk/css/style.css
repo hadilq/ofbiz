@@ -1385,6 +1385,18 @@ border: none;
 font-size:12px;
 }
 
+.remove-button {
+position: relative;
+display:inline;
+float:left;
+height:15px;
+background: url("../images/ui-bg_highlight-soft_35_222222_1x100.png") repeat-x scroll 50% 50% #222222
+}
+
+.remove-pair {
+padding-left: 5px;
+}
+
 /***********************************************
 ajax auto complete
 ***********************************************/

@@ -339,6 +339,14 @@ border-right: none;
 float: right;
 }
 
+.remove-button {
+float:right;
+}
+
+.remove-pair {
+padding-right: 5px;
+}
+
 /* ======================================================= */
 /* ===== Basic Navigation (Vertical Menu) Style ========== */
 /* ======================================================= */

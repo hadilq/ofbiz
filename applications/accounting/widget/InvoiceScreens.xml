@@ -69,7 +69,7 @@ under the License.
             </widgets>
         </section>
     </screen>
-    
+
     <screen name="FindInvoices">
         <section>
             <actions>
@@ -82,10 +82,13 @@ under the License.
                     <decorator-section name="body">
                         <section>
                             <widgets>
-                                <decorator-screen name="FindScreenDecorator" location="component://common/widget/CommonScreens.xml">
+                                <decorator-screen name="FindPatternScreenDecorator" location="component://common/widget/CommonScreens.xml">
                                     <decorator-section name="menu-bar">
                                         <include-menu name="InvoiceSubTabBar" location="component://accounting/widget/AccountingMenus.xml"/>
                                         <container style="clear"/>
+                                    </decorator-section>
+                                    <decorator-section name="pattern-options">
+                                        <include-form name="InvoicesPattern" location="component://accounting/widget/InvoiceForms.xml"/>
                                     </decorator-section>
                                     <decorator-section name="search-options">
                                         <include-form name="FindInvoices" location="component://accounting/widget/InvoiceForms.xml"/>
