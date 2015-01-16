@@ -186,9 +186,14 @@ public abstract class ModelWidgetAction implements Serializable {
                     try {
                         newValue = ObjectType.simpleTypeConvert(newValue, this.type, null, (TimeZone) context.get("timeZone"), (Locale) context.get("locale"), true);
                     } catch (GeneralException e) {
-                        String errMsg = "Could not convert field value for the field: [" + this.field.getOriginalName() + "] to the [" + this.type + "] type for the value [" + newValue + "]: " + e.toString();
-                        Debug.logError(e, errMsg, module);
-                        throw new IllegalArgumentException(errMsg);
+                        try {
+                            newValue = ObjectType.simpleTypeConvert(newValue, this.type, null, TimeZone.getDefault(), Locale.getDefault(), true);
+                        } catch (GeneralException ee) {
+                            String errMsg = "Could not convert field value for the field: [" + this.field.getOriginalName() + "] to the [" + this.type + "] type for the value [" + newValue + "]: " + e.toString() + "; " + ee.toString();
+                            Debug.logError(e, errMsg, module);
+                            throw new IllegalArgumentException(errMsg);
+
+                        }
                     }
                 }
             }
