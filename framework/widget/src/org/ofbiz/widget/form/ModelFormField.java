@@ -634,19 +634,24 @@ public class ModelFormField {
                 }
             } else {
                 retVal = this.entryAcsr.get(dataMap, locale);
+
             }
         } else {
             //Debug.logInfo("Getting entry, no entryAcsr so using field name " + this.name + " for field " + this.getName() + " of form " + this.modelForm.getName(), module);
             // if no entry name was specified, use the field's name
             retVal = dataMap.get(this.name);;
+
         }
 
         // this is a special case to fill in fields during a create by default from parameters passed in
         if (dataMapIsContext && retVal == null && !Boolean.FALSE.equals(useRequestParameters)) {
             Map<String, ? extends Object> parameters = UtilGenerics.checkMap(context.get("parameters"));
             if (parameters != null) {
-                if (UtilValidate.isNotEmpty(this.entryAcsr))  retVal = this.entryAcsr.get(parameters);
-                else retVal = parameters.get(this.name);
+                if (UtilValidate.isNotEmpty(this.entryAcsr)) {
+                    retVal = this.entryAcsr.get(parameters);
+                } else {
+                    retVal = parameters.get(this.name);
+                }
             }
         }
 
@@ -762,7 +767,7 @@ public class ModelFormField {
 
         if (this.getEncodeOutput() && returnValue != null) {
             StringUtil.SimpleEncoder simpleEncoder = (StringUtil.SimpleEncoder) context.get("simpleEncoder");
-            if (simpleEncoder != null)  returnValue = simpleEncoder.encode(returnValue);
+            if (simpleEncoder != null) returnValue = simpleEncoder.encode(returnValue);
         }
         return returnValue;
     }
@@ -2109,7 +2114,7 @@ public class ModelFormField {
             if (UtilValidate.isNotEmpty(this.description)) ObjRetVal = this.description.expandString(context);
             else ObjRetVal = this.modelFormField.getObjectEntry(context);
 
-            if (ObjRetVal instanceof String && UtilValidate.isEmpty(ObjRetVal)) {
+            if (UtilValidate.isEmpty(ObjRetVal)) {
                 retVal = this.getDefaultValue(context);
             } else if ("currency".equals(type)) {
 >>>>>>> df11098... ofbiz-commit
@@ -2199,14 +2204,14 @@ public class ModelFormField {
 
                     try { // FIXME: There shouldn't be any string date here! but they are!
                         Timestamp timestamp = null;
-                        timestamp = stringToTimestamp.convert((String) ObjRetVal);
+                        timestamp = stringToTimestamp.convert((String) ObjRetVal, context);
                         date = new Date(timestamp.getTime());
                     }
                     catch (ConversionException e) {
                         String errMsg = "Error formatting date using default instead [" + retVal + "]: " + e.toString();
                         Debug.logError(e, errMsg, module);
                         // create default date value from timestamp string
-                        retVal = retVal.substring(0,10);
+                        retVal = ((String) ObjRetVal).substring(0,10);
                     }
                 }
                 DateFormat dateFormatter = UtilDateTime.toDateFormat(context);
@@ -2222,14 +2227,14 @@ public class ModelFormField {
                     StringToTimestamp stringToTimestamp = new DateTimeConverters.StringToTimestamp();
                     Timestamp timestamp = null;
                     try {
-                        timestamp = stringToTimestamp.convert((String) ObjRetVal);
+                        timestamp = stringToTimestamp.convert((String) ObjRetVal, context);
                         date = new Date(timestamp.getTime());
                     }
                     catch (ConversionException e) {
                         String errMsg = "Error formatting date/time using default instead [" + retVal + "]: " + e.toString();
                         Debug.logError(e, errMsg, module);
                         // create default date/time value from timestamp string
-                        retVal = retVal.substring(0,16);
+                        retVal = ((String) ObjRetVal).substring(0,16);
                     }
                 }
                 DateFormat dateFormatter = UtilDateTime.toDateTimeFormat(context);
@@ -2269,7 +2274,7 @@ public class ModelFormField {
                     }
                 }
             } else {
-                if (ObjRetVal == null) retVal = this.getDefaultValue(context); else retVal = ObjRetVal.toString();
+                retVal = ObjRetVal.toString();
             }
 
             if (retVal != null && this.getModelFormField().getEncodeOutput()) {
