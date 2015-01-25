@@ -25,6 +25,7 @@ import java.text.ParseException;
 import java.util.Date;
 import java.util.Locale;
 import java.util.TimeZone;
+import java.util.Map;
 
 import org.ofbiz.base.util.ObjectType;
 import org.ofbiz.base.util.TimeDuration;
@@ -247,6 +248,15 @@ public class DateTimeConverters implements ConverterLoader {
 
         public T convert(S obj, Locale locale, TimeZone timeZone) throws ConversionException {
             return convert(obj, locale, timeZone, null);
+        }
+
+        public T convert(S obj, Map<String, ? extends Object> context) throws ConversionException {
+            Locale locale = (Locale) context.get("locale");
+            TimeZone timeZone = (TimeZone) context.get("timeZone");
+            if (locale == null) locale = Locale.getDefault();
+            if (timeZone == null) timeZone = TimeZone.getDefault();
+
+            return convert(obj, locale, timeZone, UtilDateTime.getDateTimeFormat(locale));
         }
     }
 

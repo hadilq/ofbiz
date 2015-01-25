@@ -24,14 +24,17 @@ import java.io.StringReader;
 import java.io.StringWriter;
 import java.rmi.server.UID;
 import java.sql.Timestamp;
+import java.text.DateFormat;
 import java.util.HashSet;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Locale;
+import java.util.TimeZone;
 import java.util.Map;
 import java.util.Set;
 import java.util.WeakHashMap;
 import java.util.Map.Entry;
+import java.util.Date;
 
 import javax.servlet.ServletContext;
 import javax.servlet.http.HttpServletRequest;
@@ -39,6 +42,9 @@ import javax.servlet.http.HttpServletResponse;
 
 import javolution.util.FastList;
 
+import org.ofbiz.base.conversion.ConversionException;
+import org.ofbiz.base.conversion.DateTimeConverters;
+import org.ofbiz.base.conversion.DateTimeConverters.StringToTimestamp;
 import org.ofbiz.base.util.Debug;
 import org.ofbiz.base.util.StringUtil;
 import org.ofbiz.base.util.UtilFormatOut;
@@ -49,6 +55,7 @@ import org.ofbiz.base.util.UtilProperties;
 import org.ofbiz.base.util.UtilValidate;
 import org.ofbiz.base.util.string.FlexibleStringExpander;
 import org.ofbiz.base.util.template.FreeMarkerWorker;
+import org.ofbiz.base.util.UtilDateTime;
 import org.ofbiz.entity.Delegator;
 import org.ofbiz.webapp.control.RequestHandler;
 import org.ofbiz.webapp.taglib.ContentUrlTag;
@@ -538,23 +545,39 @@ public class MacroFormRenderer implements FormStringRenderer {
                 localizedInputTitle = uiLabelMap.get("CommonFormatDateTime");
             }
         }
-        String contextValue = null;
-        // If time-dropdown deactivate encodingOutput for found hour and minutes
-        boolean memEncodeOutput = modelFormField.getEncodeOutput();
-        if (useTimeDropDown)
-            // FIXME: This is not thread-safe! Never modify a model's state!
-            modelFormField.setEncodeOutput(false);
-        // FIXME: modelFormField.getEntry ignores shortDateInput when converting Date objects to Strings.
-        // Object type conversion should be done by the renderer, not by the model.
-        contextValue = modelFormField.getEntry(context, dateTimeField.getDefaultValue(context));
-        if (useTimeDropDown)
-            modelFormField.setEncodeOutput(memEncodeOutput);
-        String value = contextValue;
+
+        Object objVal = modelFormField.getObjectEntry(context);
+        Date date = null;
+        Timestamp defaultTimestamp = null;
+        String value = "";
+
+        if ( UtilValidate.isEmpty(objVal) )
+            objVal = dateTimeField.getDefaultValue(context);
+        if ( UtilValidate.isNotEmpty(objVal) ) {
+            if (objVal instanceof Timestamp) {
+                defaultTimestamp = (Timestamp) objVal;
+                date = new Date(defaultTimestamp.getTime());
+            } else {
+                StringToTimestamp stringToTimestamp = new DateTimeConverters.StringToTimestamp();
+                try {
+                    defaultTimestamp = stringToTimestamp.convert((String) objVal, context);
+                    date = new Date(defaultTimestamp.getTime());
+                }
+                catch (ConversionException e) {
+                    String errMsg = "Error formatting date/time using default instead [" + ((String) objVal) + "]: " + e.toString();
+                    Debug.logError(e, errMsg, module);
+                }
+            }
+            DateFormat dateFormatter = UtilDateTime.toDateTimeFormat(context);
+            value = dateFormatter.format(date);
+        }
+
         if (UtilValidate.isNotEmpty(value)) {
             if (value.length() > maxlength) {
                 value = value.substring(0, maxlength);
             }
         }
+
         String id = modelFormField.getCurrentContainerId(context);
         String formName = modelFormField.getModelForm().getCurrentFormName(context);
         String timeDropdown = dateTimeField.getInputMethod();
@@ -588,9 +611,14 @@ public class MacroFormRenderer implements FormStringRenderer {
             isTwelveHour = "12".equals(dateTimeField.getClock());
             // set the Calendar to the default time of the form or now()
             Calendar cal = null;
+            Locale locale = (Locale) context.get("locale");
+            TimeZone timeZone = (TimeZone) context.get("timeZone");
+            if (locale == null) locale = Locale.getDefault();
+            if (timeZone == null) timeZone = TimeZone.getDefault();
+
             try {
-                Timestamp defaultTimestamp = Timestamp.valueOf(contextValue);
-                cal = Calendar.getInstance();
+                //cal = Calendar.getInstance(timeZone, locale);
+                cal = Calendar.getInstance(locale);
                 cal.setTime(defaultTimestamp);
             } catch (IllegalArgumentException e) {
                 Debug.logWarning("Form widget field [" + paramName + "] with input-method=\"time-dropdown\" was not able to understand the default time [" + defaultDateTimeString + "]. The parsing error was: " + e.getMessage(), module);
