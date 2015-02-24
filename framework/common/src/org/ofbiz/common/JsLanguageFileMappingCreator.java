@@ -69,17 +69,19 @@ public class JsLanguageFileMappingCreator {
         String defaultLocaleJquery = "en"; // Beware to keep the OFBiz specific jquery.ui.datepicker-en.js file when upgrading...
 
         for (Locale locale : localeList) {
-            String displayCountry = UtilMisc.normalizeLocaleString(locale.toString());
+            String displayCountry = locale.toLanguageTag();
             String modifiedDisplayCountry = null;
             String modifiedDisplayCountryForValidation = null;
-            if (displayCountry.contains("_")) {
-                modifiedDisplayCountry = displayCountry.replace("_", "-");
-                modifiedDisplayCountryForValidation = displayCountry; // messages*.js use "_" not "-" as others
+            if (displayCountry.contains("-")) {
+                modifiedDisplayCountry = displayCountry;
+                modifiedDisplayCountryForValidation = displayCountry.replace("-", "_"); // messages*.js use "_" not "-" as others
             } else {
                 modifiedDisplayCountry = displayCountry;
+                modifiedDisplayCountryForValidation = displayCountry;
             }
-            if (modifiedDisplayCountry.length() > 5) { // To remove extra characters of locale strings, such as ja_JP_JP
+            if (modifiedDisplayCountry.length() > 5) { // To remove extra characters of locale strings, such as fa-IR--u-nu-persian
                 modifiedDisplayCountry = modifiedDisplayCountry.substring(0, 5);
+                modifiedDisplayCountryForValidation = modifiedDisplayCountryForValidation.substring(0, 5);
             }
 
             String strippedLocale = locale.getLanguage();
@@ -142,20 +144,28 @@ public class JsLanguageFileMappingCreator {
             /*
              * Try to open the jquery timepicker language file
              */
-            fileName = componentRoot + jqueryUiLocaleRelPath + jqueryUiLocalePrefix + strippedLocale + jsFilePostFix;
+            fileName = componentRoot + jqueryUiLocaleRelPath + jqueryUiLocalePrefix + displayCountry + jsFilePostFix;
             file = FileUtil.getFile(fileName);
 
             if (file.exists()) {
-                fileUrl = jqueryUiLocaleRelPath + jqueryUiLocalePrefix + strippedLocale + jsFilePostFix;
+                fileUrl =  jqueryUiLocaleRelPath + jqueryUiLocalePrefix + displayCountry + jsFilePostFix;
             } else {
-                // Try to guess a language
-                fileName = componentRoot + jqueryUiLocaleRelPath + jqueryUiLocalePrefix + modifiedDisplayCountry + jsFilePostFix;
+                // Try to use strippedLocale
+                fileName = componentRoot + jqueryUiLocaleRelPath + jqueryUiLocalePrefix + strippedLocale + jsFilePostFix;
                 file = FileUtil.getFile(fileName);
+
                 if (file.exists()) {
-                    fileUrl = jqueryUiLocaleRelPath + jqueryUiLocalePrefix + modifiedDisplayCountry + jsFilePostFix;
+                    fileUrl = jqueryUiLocaleRelPath + jqueryUiLocalePrefix + strippedLocale + jsFilePostFix;
                 } else {
-                    // use default language en as fallback
-                    fileUrl = jqueryUiLocaleRelPath + jqueryUiLocalePrefix + defaultLocaleJquery + jsFilePostFix;
+                    // Try to guess a language
+                    fileName = componentRoot + jqueryUiLocaleRelPath + jqueryUiLocalePrefix + modifiedDisplayCountry + jsFilePostFix;
+                    file = FileUtil.getFile(fileName);
+                    if (file.exists()) {
+                        fileUrl = jqueryUiLocaleRelPath + jqueryUiLocalePrefix + modifiedDisplayCountry + jsFilePostFix;
+                    } else {
+                        // use default language en as fallback
+                        fileUrl = jqueryUiLocaleRelPath + jqueryUiLocalePrefix + defaultLocaleJquery + jsFilePostFix;
+                    }
                 }
             }
             jQueryLocaleFile.put(displayCountry, fileUrl);

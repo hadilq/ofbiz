@@ -150,12 +150,12 @@ public class FlexibleStringExpanderTests extends TestCase {
                     assertNotSame(label, expand, fse.expand(context, null, null));
                 }
                 Map<String, Object> autoUserLogin = new HashMap<String, Object>();
-                autoUserLogin.put("lastLocale", locale.toString());
+                autoUserLogin.put("lastLocale", locale.toLanguageTag());
                 autoUserLogin.put("lastTimeZone", timeZone == null ? null : timeZone.getID());
                 context.put("autoUserLogin", autoUserLogin);
                 assertEquals(label, compare, fse.expandString(context, null, null));
                 assertEquals(label, expand, fse.expand(context, null, null));
-                autoUserLogin.put("lastLocale", badLocale.toString());
+                autoUserLogin.put("lastLocale", badLocale.toLanguageTag());
                 autoUserLogin.put("lastTimeZone", badTimeZone.getID());
                 assertNotSame(label, compare, fse.expandString(context, null, null));
                 if (input != null) {

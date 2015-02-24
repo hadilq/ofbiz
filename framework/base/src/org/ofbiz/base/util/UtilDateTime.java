@@ -65,7 +65,9 @@ public class UtilDateTime {
      */
     public static final String DATE_FORMAT = "yyyy-MM-dd";
     public static String getDateFormat(Locale locale) {
-        if (locale != null && "fa-IR-u-ca-jalali-nu-persian-x-lvariant-IR".equals(locale.toLanguageTag())) {
+        if (locale != null && ("fa-IR".equals(locale.toLanguageTag())
+            || "fa-IR-u-ca-jalali".equals(locale.toLanguageTag())
+            || "fa-IR-u-ca-jalali-nu-persian".equals(locale.toLanguageTag())) ) {
             return "yyyy/MM/dd";
         } else {
             return "yyyy-MM-dd";
@@ -77,7 +79,9 @@ public class UtilDateTime {
      */
     public static final String DATE_TIME_FORMAT = "yyyy-MM-dd HH:mm:ss.SSS";
     public static String getDateTimeFormat(Locale locale) {
-        if (locale != null && "fa-IR-u-ca-jalali-nu-persian-x-lvariant-IR".equals(locale.toLanguageTag())) {
+        if (locale != null && ("fa-IR".equals(locale.toLanguageTag())
+            || "fa-IR-u-ca-jalali".equals(locale.toLanguageTag())
+            || "fa-IR-u-ca-jalali-nu-persian".equals(locale.toLanguageTag())) ) {
             return "yyyy/MM/dd HH:mm:ss";
         } else {
             return "yyyy-MM-dd HH:mm:ss";

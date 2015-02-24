@@ -98,7 +98,7 @@ under the License.
                     <tr>
                         <#assign locale = Static["org.ofbiz.base.util.UtilMisc"].parseLocale(localeFound)?if_exists/>
                         <#if locale?exists && locale?has_content>
-                            <#assign langAttr = localeFound.toString()?replace("_", "-")>
+                            <#assign langAttr = localeFound.toLanguageTag()>
                             <td lang="${langAttr}" dir="${langDir}" class="label">
                                 ${locale.getDisplayName(locale)}
                             </td>

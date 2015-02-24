@@ -37,7 +37,9 @@ public final class JsLanguageFilesMapping {
 
         static {
             localeFiles.put("en", "/images/jquery/plugins/datejs/date-en-US.js");
-            localeFiles.put("fa_IR_IR", "/images/jquery/plugins/datejs/date-fa-IR.js");
+            localeFiles.put("fa-IR", "/images/jquery/plugins/datejs/date-fa-IR.js");
+            localeFiles.put("fa-IR-u-ca-jalali", "/images/jquery/plugins/datejs/date-fa-IR.js");
+            localeFiles.put("fa-IR-u-ca-jalali-nu-persian", "/images/jquery/plugins/datejs/date-fa-IR.js");
         }
 
         public static String getFilePath(String locale) {
@@ -55,7 +57,9 @@ public final class JsLanguageFilesMapping {
 
         static {
             localeFiles.put("en", "/images/jquery/ui/i18n/jquery.ui.datepicker-en.js");
-            localeFiles.put("fa_IR_IR", "/images/jquery/ui/i18n/jquery.ui.datepicker-fa.js");
+            localeFiles.put("fa-IR", "/images/jquery/ui/i18n/jquery.ui.datepicker-fa-IR.js");
+            localeFiles.put("fa-IR-u-ca-jalali", "/images/jquery/ui/i18n/jquery.ui.datepicker-fa-IR-u-ca-jalali.js");
+            localeFiles.put("fa-IR-u-ca-jalali-nu-persian", "/images/jquery/ui/i18n/jquery.ui.datepicker-fa-IR-u-ca-jalali-nu-persian.js");
         }
 
         public static String getFilePath(String locale) {
@@ -73,7 +77,9 @@ public final class JsLanguageFilesMapping {
 
         static {
             localeFiles.put("en", "/images/jquery/plugins/validate/localization/messages_en.js");
-            localeFiles.put("fa_IR_IR", "/images/jquery/plugins/validate/localization/messages_fa.js");
+            localeFiles.put("fa-IR", "/images/jquery/plugins/validate/localization/messages_fa.js");
+            localeFiles.put("fa-IR-u-ca-jalali", "/images/jquery/plugins/validate/localization/messages_fa.js");
+            localeFiles.put("fa-IR-u-ca-jalali-nu-persian", "/images/jquery/plugins/validate/localization/messages_fa.js");
         }
 
         public static String getFilePath(String locale) {
@@ -90,7 +96,9 @@ public final class JsLanguageFilesMapping {
 
         static {
             localeFiles.put("en", "/images/jquery/plugins/datetimepicker/localization/jquery-ui-timepicker-en.js");
-            localeFiles.put("fa_IR_IR", "/images/jquery/plugins/datetimepicker/localization/jquery-ui-timepicker-fa.js");
+            localeFiles.put("fa-IR", "/images/jquery/plugins/datetimepicker/localization/jquery-ui-timepicker-fa.js");
+            localeFiles.put("fa-IR-u-ca-jalali", "/images/jquery/plugins/datetimepicker/localization/jquery-ui-timepicker-fa.js");
+            localeFiles.put("fa-IR-u-ca-jalali-nu-persian", "/images/jquery/plugins/datetimepicker/localization/jquery-ui-timepicker-fa.js");
         }
 
         public static String getFilePath(String locale) {

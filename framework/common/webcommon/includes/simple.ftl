@@ -17,7 +17,7 @@ specific language governing permissions and limitations
 under the License.
 -->
 
-<#assign docLangAttr = locale.toString()?replace("_", "-")>
+<#assign docLangAttr = locale.toLanguageTag()>
 <#assign RightToLeftLocales = Static["org.ofbiz.base.util.UtilMisc"].RightToLeftLocales()/>
 <#assign langDir = "ltr">
 <#if RightToLeftLocales?contains(docLangAttr?substring(0, 2))>

@@ -31,7 +31,7 @@ if (availableLocales) {
     availableLocales.each { availableLocale ->
         locale = [:];
         locale.localeName = availableLocale.getDisplayName(availableLocale);
-        locale.localeString = availableLocale.toString();
+        locale.localeString = availableLocale.toLanguageTag();
         if (UtilValidate.isNotEmpty(parameters.localeString)) {
             if (locale.localeString.toUpperCase().contains(parameters.localeString.toUpperCase())) {
                 locales.add(locale);
