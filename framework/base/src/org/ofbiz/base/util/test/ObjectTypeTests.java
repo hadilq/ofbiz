@@ -379,7 +379,7 @@ public class ObjectTypeTests extends GenericTestCaseBase {
 
     public void testLocale() throws GeneralException {
         simpleTypeConvertTestSingleMulti("Locale->Locale", localeData.goodLocale, new String[] {"Locale", "java.util.Locale"}, localeData.goodLocale);
-        simpleTypeConvertTestSingleMulti("Locale->String", localeData.goodLocale, new String[] {"String", "java.lang.String"}, localeData.goodLocale.toString());
+        simpleTypeConvertTestSingleMulti("Locale->String", localeData.goodLocale, new String[] {"String", "java.lang.String"}, localeData.goodLocale.toLanguageTag());
         simpleTypeConvertTestError("Locale->error", localeData.goodLocale, new String[] {});
     }
 

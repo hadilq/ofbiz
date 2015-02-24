@@ -17,11 +17,15 @@ specific language governing permissions and limitations
 under the License.
 -->
 
+<<<<<<< HEAD
 <#assign docLangAttr = locale.toString()?replace("_", "-")>
 <<<<<<< HEAD
 <#assign langDir = "ltr">
 <#if "ar.iw"?contains(docLangAttr?substring(0, 2))>
 =======
+=======
+<#assign docLangAttr = locale.toLanguageTag()>
+>>>>>>> 55bc110... modifying avalableLocales and listLocales to use Locale.forLanguageTag instead of toString
 <#assign RightToLeftLocales = Static["org.ofbiz.base.util.UtilMisc"].RightToLeftLocales()/>
 <#assign langDir = "ltr">
 <#if RightToLeftLocales?contains(docLangAttr?substring(0, 2))>

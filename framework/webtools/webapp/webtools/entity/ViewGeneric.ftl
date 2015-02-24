@@ -23,7 +23,7 @@ var numTabs=${(entity.getRelationsSize()+1)};
 function ShowTab(lname) {
   for(inc=1; inc <= numTabs; inc++) {
     // document.getElementById('area' + inc).className = (lname == 'tab' + inc) ? 'screenlet' : 'topcontainerhidden';
-    // style of topcontainerhidden 
+    // style of topcontainerhidden
     // .topcontainerhidden { POSITION: absolute; VISIBILITY: hidden; }
     var elem = document.getElementById('area' + inc);
     if (lname == 'tab' + inc){

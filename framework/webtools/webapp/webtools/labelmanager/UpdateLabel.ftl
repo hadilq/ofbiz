@@ -101,6 +101,7 @@ under the License.
                     <tr>
                         <#assign locale = Static["org.ofbiz.base.util.UtilMisc"].parseLocale(localeFound)?if_exists/>
                         <#if locale?exists && locale?has_content>
+<<<<<<< HEAD
                             <#assign langAttr = localeFound.toString()?replace("_", "-")>
 <<<<<<< HEAD
                             <#assign langDir = "ltr">
@@ -109,6 +110,9 @@ under the License.
                             </#if>
 =======
 >>>>>>> df11098... ofbiz-commit
+=======
+                            <#assign langAttr = localeFound.toLanguageTag()>
+>>>>>>> 55bc110... modifying avalableLocales and listLocales to use Locale.forLanguageTag instead of toString
                             <td lang="${langAttr}" dir="${langDir}" class="label">
                                 ${locale.getDisplayName(locale)}
                             </td>

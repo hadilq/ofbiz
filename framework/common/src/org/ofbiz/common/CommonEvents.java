@@ -202,10 +202,14 @@ public class CommonEvents {
      * setting should be passed as a "newLocale" request parameter. */
     public static String setSessionLocale(HttpServletRequest request, HttpServletResponse response) {
 <<<<<<< HEAD
+<<<<<<< HEAD
         String localeString = request.getParameter("newLocale");
 =======
         String localeString = UtilMisc.normalizeLocaleString(request.getParameter("newLocale"));
 >>>>>>> df11098... ofbiz-commit
+=======
+        String localeString = request.getParameter("newLocale");
+>>>>>>> 55bc110... modifying avalableLocales and listLocales to use Locale.forLanguageTag instead of toString
         if (UtilValidate.isNotEmpty(localeString)) {
             UtilHttp.setLocale(request, localeString);
 

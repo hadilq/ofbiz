@@ -31,11 +31,15 @@ under the License.
         <#if showLocale == true>
           <#assign locale = Static["org.ofbiz.base.util.UtilMisc"].parseLocale(localeFound)?if_exists/>
           <#if locale?exists && locale?has_content>
+<<<<<<< HEAD
             <#assign langAttr = localeFound.toString()?replace("_", "-")>
 <<<<<<< HEAD
             <#assign langDir = "ltr">
             <#if "ar.iw"?contains(langAttr?substring(0, 2))>
 =======
+=======
+            <#assign langAttr = localeFound.toLanguageTag()>
+>>>>>>> 55bc110... modifying avalableLocales and listLocales to use Locale.forLanguageTag instead of toString
             <#assign RightToLeftLocales = Static["org.ofbiz.base.util.UtilMisc"].RightToLeftLocales()/>
             <#assign langDir = "ltr">
             <#if RightToLeftLocales?contains(langAttr?substring(0, 2))>

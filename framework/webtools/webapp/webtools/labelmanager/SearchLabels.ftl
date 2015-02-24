@@ -71,7 +71,7 @@ under the License.
                 <#if "ar.iw"?contains(langAttr?substring(0, 2))>
 =======
               <#assign RightToLeftLocales = Static["org.ofbiz.base.util.UtilMisc"].RightToLeftLocales()/>
-              <#assign langAttr = localeFound.toString()?replace("_", "-")>
+              <#assign langAttr = localeFound.toLanguageTag()>
               <#assign langDir = "ltr">
               <#if 1 < langAttr?length>
                 <#if RightToLeftLocales?contains(langAttr?substring(0, 2))>

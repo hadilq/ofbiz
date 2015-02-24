@@ -698,6 +698,7 @@ public class UtilMisc {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
      * Remove underline in the end of some locales like ja_JP_JP_
      * and remove '#' in the end of some locales like ja_JP_JP_#u-ca-japanese
@@ -725,6 +726,8 @@ public class UtilMisc {
 
     /**
 >>>>>>> df11098... ofbiz-commit
+=======
+>>>>>>> 55bc110... modifying avalableLocales and listLocales to use Locale.forLanguageTag instead of toString
      * Parse a locale string Locale object
      * @param localeString The locale string (en_US)
      * @return Locale The new Locale object or null if no valid locale can be interpreted
@@ -733,6 +736,7 @@ public class UtilMisc {
         if (UtilValidate.isEmpty(localeString)) {
             return null;
         }
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
         localeString = normalizeLocaleString(localeString);
@@ -757,6 +761,9 @@ public class UtilMisc {
             Debug.logWarning("Do not know what to do with the localeString [" + localeString + "], should be length 2, 5, or greater than 6, returning null", module);
         }
 
+=======
+        Locale locale = Locale.forLanguageTag(localeString.replace('_', '-'));
+>>>>>>> 55bc110... modifying avalableLocales and listLocales to use Locale.forLanguageTag instead of toString
         return locale;
     }
 
@@ -790,13 +797,13 @@ public class UtilMisc {
                                 end = localesString.length();
                             }
                             Locale curLocale = UtilMisc.ensureLocale(localesString.substring(start, end));
-                            localeMap.put(curLocale.getDisplayName(), curLocale);
+                            localeMap.put(curLocale.toLanguageTag(), curLocale);
                             start = end + 1;
                         }
                     } else {
                         Locale[] locales = Locale.getAvailableLocales();
                         for (int i = 0; i < locales.length && locales[i] != null; i++) {
-                            localeMap.put(locales[i].getDisplayName(), locales[i]);
+                            localeMap.put(locales[i].toLanguageTag(), locales[i]);
                         }
                     }
                     availableLocaleList = new LinkedList<Locale>(localeMap.values());
@@ -824,7 +831,7 @@ public class UtilMisc {
                             end = localesString.length();
                         }
                         Locale curLocale = UtilMisc.ensureLocale(localesString.substring(start, end));
-                        localeMap.put(curLocale.getDisplayName(), curLocale);
+                        localeMap.put(curLocale.toLanguageTag(), curLocale);
                         start = end + 1;
                     }
                     RightToLeftLocaleList = new LinkedList<Locale>(localeMap.values());

@@ -215,7 +215,7 @@ public class UtilNumber {
     public static String formatRuleBasedAmount(double amount, String rule, Locale locale) {
         String ruleSet = rbnfRuleSets.get(locale);
         if (ruleSet == null) {
-            Debug.logWarning("Cannot format rule based amount for locale " + locale.toString() + " because rule set for that locale does not exist", module);
+            Debug.logWarning("Cannot format rule based amount for locale " + locale.toLanguageTag() + " because rule set for that locale does not exist", module);
             return "";
         }
         RuleBasedNumberFormat formatter = new RuleBasedNumberFormat(ruleSet, locale);

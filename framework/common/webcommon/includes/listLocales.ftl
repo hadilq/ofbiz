@@ -33,7 +33,7 @@ under the License.
 >>>>>>> df11098... ofbiz-commit
     <#list availableLocales as availableLocale>
         <#assign altRow = !altRow>
-        <#assign langAttr = availableLocale.toString()?replace("_", "-")>
+        <#assign langAttr = availableLocale.toLanguageTag()>
         <#assign langDir = "ltr">
 <<<<<<< HEAD
         <#if "ar.iw"?contains(langAttr?substring(0, 2))>
@@ -47,8 +47,12 @@ under the License.
         </#if>
         <tr <#if altRow>class="alternate-row"</#if>>
             <td lang="${langAttr?substring(0, 2)}" dir="${langDir}">
+<<<<<<< HEAD
 >>>>>>> df11098... ofbiz-commit
                 <a href="<@ofbizUrl>setSessionLocale</@ofbizUrl>?newLocale=${availableLocale.toString()}">${availableLocale.getDisplayName(availableLocale)} &nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp; [${availableLocale.toString()}]</a>
+=======
+                <a href="<@ofbizUrl>setSessionLocale</@ofbizUrl>?newLocale=${langAttr}">${availableLocale.getDisplayName(availableLocale)} &nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp; [${langAttr}]</a>
+>>>>>>> 55bc110... modifying avalableLocales and listLocales to use Locale.forLanguageTag instead of toString
             </td>
         </tr>
     </#list>
