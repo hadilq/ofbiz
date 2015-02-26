@@ -1694,7 +1694,7 @@ public class HtmlFormRenderer extends HtmlWidgetRenderer implements FormStringRe
         String ignoreCase = UtilProperties.getMessage("conditional", "ignore_case", locale);
         boolean ignCase = textFindField.getIgnoreCase();
 
-        if (!textFindField.getHideIgnoreCase()) {
+        if (!textFindField.getHideIgnoreCase(context)) {
             writer.append(" <input type=\"checkbox\" name=\"");
             writer.append(modelFormField.getParameterName(context));
             writer.append("_ic\" value=\"Y\"").append((ignCase ? " checked=\"checked\"" : "")).append("/>");
@@ -2549,7 +2549,7 @@ public class HtmlFormRenderer extends HtmlWidgetRenderer implements FormStringRe
             appendContentUrl(writer, value);
             writer.append('"');
         }
-        
+
         value = modelFormField.getEntry(context, imageField.getStyle(context));
         if (UtilValidate.isNotEmpty(value)) {
             writer.append(" class=\"");

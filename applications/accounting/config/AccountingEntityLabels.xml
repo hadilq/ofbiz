@@ -8,7 +8,6 @@
     to you under the Apache License, Version 2.0 (the
     "License"); you may not use this file except in compliance
     with the License.  You may obtain a copy of the License at
-
     http://www.apache.org/licenses/LICENSE-2.0
 
     Unless required by applicable law or agreed to in writing,
@@ -22,6 +21,7 @@
     <property key="AcctgTransType.description.AMORTIZATION">
         <value xml:lang="de">Amortisation</value>
         <value xml:lang="en">Amortization</value>
+        <value xml:lang="fa">انقضاءدارایی‌ها</value>
         <value xml:lang="fr">Amortissements</value>
         <value xml:lang="hi_IN">परिशोधन</value>
         <value xml:lang="it">Ammortamento</value>
@@ -38,6 +38,7 @@
     <property key="AcctgTransType.description.CAPITALIZATION">
         <value xml:lang="de">Aktivierung</value>
         <value xml:lang="en">Capitalization</value>
+        <value xml:lang="fa">سرمایه‌ای‌کردن</value>
         <value xml:lang="fr">Capitalisations</value>
         <value xml:lang="hi_IN">कुल पूंजी</value>
         <value xml:lang="it">Capitalizzazioni</value>
@@ -54,6 +55,7 @@
     <property key="AcctgTransType.description.CREDIT_LINE">
         <value xml:lang="de">Kreditlimit</value>
         <value xml:lang="en">Credit Line</value>
+        <value xml:lang="fa">خط اعتباری</value>
         <value xml:lang="fr">Ligne de crédit</value>
         <value xml:lang="hi_IN">क्रेडिट सीमा</value>
         <value xml:lang="it">Riga Nota Credito</value>
@@ -70,6 +72,7 @@
     <property key="AcctgTransType.description.CREDIT_MEMO">
         <value xml:lang="de">Gutschrift</value>
         <value xml:lang="en">Credit Memo</value>
+        <value xml:lang="fa">حافظه اعتباری</value>
         <value xml:lang="fr">Note de crédit</value>
         <value xml:lang="hi_IN">क्रेडिट मेमो</value>
         <value xml:lang="it">Nota Credito</value>
@@ -86,6 +89,7 @@
     <property key="AcctgTransType.description.DEPRECIATION">
         <value xml:lang="de">Abschreibung</value>
         <value xml:lang="en">Depreciation</value>
+        <value xml:lang="fa">استهلاک</value>
         <value xml:lang="fr">Dépréciation</value>
         <value xml:lang="hi_IN">मूल्यह्रास</value>
         <value xml:lang="it">Deprecato</value>
@@ -102,6 +106,7 @@
     <property key="AcctgTransType.description.DISBURSEMENT">
         <value xml:lang="de">Auszahlung</value>
         <value xml:lang="en">Disbursement</value>
+        <value xml:lang="fa">پرداخت‌نقدی</value>
         <value xml:lang="fr">Débours</value>
         <value xml:lang="hi_IN">अदायगी</value>
         <value xml:lang="it">Esborso</value>
@@ -118,6 +123,7 @@
     <property key="AcctgTransType.description.EXTERNAL_ACCTG_TRANS">
         <value xml:lang="de">Extern</value>
         <value xml:lang="en">External</value>
+        <value xml:lang="fa">برونی</value>
         <value xml:lang="fr">Externe</value>
         <value xml:lang="hi_IN">बाहरी</value>
         <value xml:lang="it">Esterno</value>
@@ -134,6 +140,7 @@
     <property key="AcctgTransType.description.INCOMING_PAYMENT">
         <value xml:lang="de">Zahlungseingang</value>
         <value xml:lang="en">Incoming Payment</value>
+        <value xml:lang="fa">پرداخت درآمدی</value>
         <value xml:lang="fr">Paiement à recevoir</value>
         <value xml:lang="hi_IN">आवक भुगतान</value>
         <value xml:lang="it">Pagamento in entrata</value>
@@ -147,6 +154,7 @@
     <property key="AcctgTransType.description.INTERNAL_ACCTG_TRANS">
         <value xml:lang="de">Intern</value>
         <value xml:lang="en">Internal</value>
+        <value xml:lang="fa">درونی</value>
         <value xml:lang="fr">Interne</value>
         <value xml:lang="hi_IN">आंतरिक</value>
         <value xml:lang="it">Interno</value>
@@ -163,6 +171,7 @@
     <property key="AcctgTransType.description.INVENTORY">
         <value xml:lang="de">Bestand</value>
         <value xml:lang="en">Inventory</value>
+        <value xml:lang="fa">موجودی‌کالا</value>
         <value xml:lang="fr">Stock</value>
         <value xml:lang="hi_IN">वस्तुसूची(Inventory)</value>
         <value xml:lang="it">Inventario</value>
@@ -176,6 +185,7 @@
     <property key="AcctgTransType.description.INVENTORY_RETURN">
         <value xml:lang="de">Retoureneingang</value>
         <value xml:lang="en">Inventory from Return</value>
+        <value xml:lang="fa">موجودی‌کالاهای برگشتی</value>
         <value xml:lang="fr">Inventaire des retours</value>
         <value xml:lang="hi_IN">वस्तुसूची(Inventory) में वापसी से</value>
         <value xml:lang="it">Inventario dal Reso</value>
@@ -192,6 +202,7 @@
     <property key="AcctgTransType.description.ITEM_VARIANCE">
         <value xml:lang="de">Bestandsabweichung</value>
         <value xml:lang="en">Item Variance</value>
+        <value xml:lang="fa">اختلاف قلم</value>
         <value xml:lang="fr">Différence d'inventaire</value>
         <value xml:lang="hi_IN">मद विचरण</value>
         <value xml:lang="it">Riga Varianza</value>
@@ -208,6 +219,7 @@
     <property key="AcctgTransType.description.MANUFACTURING">
         <value xml:lang="de">Produktion</value>
         <value xml:lang="en">Manufacturing</value>
+        <value xml:lang="fa">ساخت</value>
         <value xml:lang="fr">Production</value>
         <value xml:lang="hi_IN">विनिर्माण</value>
         <value xml:lang="it">Produzione</value>
@@ -221,6 +233,7 @@
     <property key="AcctgTransType.description.NOTE">
         <value xml:lang="de">Notiz</value>
         <value xml:lang="en">Note</value>
+        <value xml:lang="fa">یادداشت</value>
         <value xml:lang="fr">Note</value>
         <value xml:lang="hi_IN">टिप्पणी</value>
         <value xml:lang="it">Nota</value>
@@ -237,6 +250,7 @@
     <property key="AcctgTransType.description.OBLIGATION_ACCTG_TRA">
         <value xml:lang="de">Verbindlichkeit</value>
         <value xml:lang="en">Obligation</value>
+        <value xml:lang="fa">التزام</value>
         <value xml:lang="fr">Obligation</value>
         <value xml:lang="hi_IN">दायित्व</value>
         <value xml:lang="it">Obbligazione</value>
@@ -253,6 +267,7 @@
     <property key="AcctgTransType.description.OTHER_INTERNAL">
         <value xml:lang="de">Sonstige Interne</value>
         <value xml:lang="en">Other Internal</value>
+        <value xml:lang="fa">ورودی‌های دیگر</value>
         <value xml:lang="fr">Autre interne</value>
         <value xml:lang="hi_IN">अन्य आंतरिक</value>
         <value xml:lang="it">Altri Interni</value>
@@ -269,6 +284,7 @@
     <property key="AcctgTransType.description.OTHER_OBLIGATION">
         <value xml:lang="de">Sonstige Verbindlichkeiten</value>
         <value xml:lang="en">Other Obligation</value>
+        <value xml:lang="fa">التزامات دیگر</value>
         <value xml:lang="fr">Autre obligation</value>
         <value xml:lang="hi_IN">अन्य दायित्व</value>
         <value xml:lang="it">Altra Obbligazione</value>
@@ -285,6 +301,7 @@
     <property key="AcctgTransType.description.OUTGOING_PAYMENT">
         <value xml:lang="de">Zahlungsausgang</value>
         <value xml:lang="en">Outgoing Payment</value>
+        <value xml:lang="fa">پرداخت خروجی</value>
         <value xml:lang="fr">Paiement sortant</value>
         <value xml:lang="hi_IN">निर्गामी भुगतान</value>
         <value xml:lang="it">Pagamento in uscita</value>
@@ -298,6 +315,7 @@
     <property key="AcctgTransType.description.PAYMENT_ACCTG_TRANS">
         <value xml:lang="de">Zahlung</value>
         <value xml:lang="en">Payment</value>
+        <value xml:lang="fa">پرداخت</value>
         <value xml:lang="fr">Paiement</value>
         <value xml:lang="hi_IN">भुगतान</value>
         <value xml:lang="it">Pagamento</value>
@@ -314,6 +332,7 @@
     <property key="AcctgTransType.description.PAYMENT_APPL">
         <value xml:lang="de">Ausstehende Zahlung</value>
         <value xml:lang="en">Payment Applied</value>
+        <value xml:lang="fa">پرداخت کاربردی</value>
         <value xml:lang="fr">Paiment effectué</value>
         <value xml:lang="hi_IN">भुगतान लागू</value>
         <value xml:lang="it">Pagamento applicato</value>
@@ -327,6 +346,7 @@
     <property key="AcctgTransType.description.PERIOD_CLOSING">
         <value xml:lang="de">Abschluss Zeitraum</value>
         <value xml:lang="en">Period Closing</value>
+        <value xml:lang="fa">بستن دوره‌زمانی</value>
         <value xml:lang="fr">Clôture de période</value>
         <value xml:lang="hi_IN">अवधि समापन</value>
         <value xml:lang="it">Chiusura di Periodo Fiscale</value>
@@ -343,6 +363,7 @@
     <property key="AcctgTransType.description.PURCHASE_INVOICE">
         <value xml:lang="de">Eingangsrechnung</value>
         <value xml:lang="en">Purchase Invoice</value>
+        <value xml:lang="fa">فاکتور خرید</value>
         <value xml:lang="fr">Facture d'achat</value>
         <value xml:lang="hi_IN">खरीद चालान</value>
         <value xml:lang="it">Fattura di acquisto</value>
@@ -356,6 +377,7 @@
     <property key="AcctgTransType.description.RECEIPT">
         <value xml:lang="de">Beleg</value>
         <value xml:lang="en">Receipt</value>
+        <value xml:lang="fa">رسید</value>
         <value xml:lang="fr">Reçu</value>
         <value xml:lang="hi_IN">रसीद</value>
         <value xml:lang="it">Ricevute</value>
@@ -372,6 +394,7 @@
     <property key="AcctgTransType.description.SALES">
         <value xml:lang="de">Verkauf</value>
         <value xml:lang="en">Sales</value>
+        <value xml:lang="fa">فروش</value>
         <value xml:lang="fr">Ventes</value>
         <value xml:lang="hi_IN">बिक्री</value>
         <value xml:lang="it">Vendite</value>
@@ -388,6 +411,7 @@
     <property key="AcctgTransType.description.SALES_INVOICE">
         <value xml:lang="de">Rechnung</value>
         <value xml:lang="en">Sales Invoice</value>
+        <value xml:lang="fa">فاکتور فروش</value>
         <value xml:lang="fr">Facture de vente</value>
         <value xml:lang="hi_IN">बिक्री चालान</value>
         <value xml:lang="it">Fattura di vendita</value>
@@ -401,6 +425,7 @@
     <property key="AcctgTransType.description.SALES_SHIPMENT">
         <value xml:lang="de">Warenausgang</value>
         <value xml:lang="en">Sales Shipment</value>
+        <value xml:lang="fa">حمل‌ونقل فروش</value>
         <value xml:lang="fr">Facture d'expédition</value>
         <value xml:lang="hi_IN">बिक्री शिपमेंट</value>
         <value xml:lang="it">Spedizione di vendita</value>
@@ -414,6 +439,7 @@
     <property key="AcctgTransType.description.SHIPMENT_RECEIPT">
         <value xml:lang="de">Wareneingang</value>
         <value xml:lang="en">Shipment Receipt</value>
+        <value xml:lang="fa">رسید حمل‌ونقل</value>
         <value xml:lang="fr">Reçu d'expédition</value>
         <value xml:lang="hi_IN">शिपमेंट रसीद</value>
         <value xml:lang="it">Ricevuta di spedizione</value>
@@ -427,6 +453,7 @@
     <property key="AcctgTransType.description.TAX_DUE">
         <value xml:lang="de">Steuerschuld</value>
         <value xml:lang="en">Tax Due</value>
+        <value xml:lang="fa">قابل‌پرداخت مالیاتی</value>
         <value xml:lang="fr">Impôts dûs</value>
         <value xml:lang="hi_IN">देय कर</value>
         <value xml:lang="it">Tasse Dovute</value>
@@ -443,6 +470,7 @@
     <property key="FinAccountTransType.description.ADJUSTMENT">
         <value xml:lang="de">Anpassung</value>
         <value xml:lang="en">Adjustment</value>
+        <value xml:lang="fa">تعدیل</value>
         <value xml:lang="fr">Ajustement</value>
         <value xml:lang="hi_IN">समायोजन</value>
         <value xml:lang="it">Aggiustamento</value>
@@ -458,6 +486,7 @@
     <property key="FinAccountTransType.description.DEPOSIT">
         <value xml:lang="de">Einlage</value>
         <value xml:lang="en">Deposit</value>
+        <value xml:lang="fa">سپرده</value>
         <value xml:lang="fr">Dépôt</value>
         <value xml:lang="hi_IN">जमा</value>
         <value xml:lang="it">Deposito</value>
@@ -473,6 +502,7 @@
     <property key="FinAccountTransType.description.WITHDRAWAL">
         <value xml:lang="de">Auszahlung</value>
         <value xml:lang="en">Withdraw</value>
+        <value xml:lang="fa">پس‌گیری</value>
         <value xml:lang="fr">Retrait</value>
         <value xml:lang="hi_IN">निकालना</value>
         <value xml:lang="it">Prelievo</value>
@@ -488,6 +518,7 @@
     <property key="FinAccountType.description.BANK_ACCOUNT">
         <value xml:lang="de">Bankkonto</value>
         <value xml:lang="en">Bank Account</value>
+        <value xml:lang="fa">حساب بانکی</value>
         <value xml:lang="fr">Compte bancaire</value>
         <value xml:lang="hi_IN">बैंक खाता</value>
         <value xml:lang="it">Conto Bancario</value>
@@ -503,6 +534,7 @@
     <property key="FinAccountType.description.DEPOSIT_ACCOUNT">
         <value xml:lang="de">Anlagekonto</value>
         <value xml:lang="en">Deposit Account</value>
+        <value xml:lang="fa">حساب سپرده</value>
         <value xml:lang="fr">Dépôt sur compte</value>
         <value xml:lang="hi_IN">जमा खाता</value>
         <value xml:lang="it">Conto Deposito</value>
@@ -518,6 +550,7 @@
     <property key="FinAccountType.description.GIFTCERT_ACCOUNT">
         <value xml:lang="de">Gutschrift</value>
         <value xml:lang="en">Gift Certificate</value>
+        <value xml:lang="fa">تضمین هدیه</value>
         <value xml:lang="fr">Chèque cadeau</value>
         <value xml:lang="hi_IN">उपहार प्रमाण पत्र(GiftCertificate)</value>
         <value xml:lang="it">Certificato Omaggio</value>
@@ -533,6 +566,7 @@
     <property key="FinAccountType.description.INVESTMENT_ACCOUNT">
         <value xml:lang="de">Finanzkonto</value>
         <value xml:lang="en">Investment Account</value>
+        <value xml:lang="fa">حساب سرمایه‌گذاری</value>
         <value xml:lang="fr">Compte d'investissement</value>
         <value xml:lang="hi_IN">निवेश खाता</value>
         <value xml:lang="it">Conto Investimento</value>
@@ -548,6 +582,7 @@
     <property key="FinAccountType.description.REPLENISH_ACCOUNT">
         <value xml:lang="de">Konto auffüllen</value>
         <value xml:lang="en">Replenish Account</value>
+        <value xml:lang="fa">حساب تنخواه‌گردان</value>
         <value xml:lang="fr">Renflouer le compte</value>
         <value xml:lang="hi_IN">रेप्लेनिश(Replenish) खाता</value>
         <value xml:lang="it">Conto Rifornimento</value>
@@ -563,6 +598,7 @@
     <property key="FinAccountType.description.SVCCRED_ACCOUNT">
         <value xml:lang="de">Guthabenkonto</value>
         <value xml:lang="en">Service Credit Account</value>
+        <value xml:lang="fa">حساب اعتبار خدمت</value>
         <value xml:lang="fr">Compte de service crédit</value>
         <value xml:lang="hi_IN">सेवा जमा खाता</value>
         <value xml:lang="it">Conto Servizio Credito</value>
@@ -577,6 +613,7 @@
     </property>
     <property key="FixedAssetIdentType.description.GAS_CARD1">
         <value xml:lang="en">Gas Card Number 1</value>
+        <value xml:lang="fa">کارت گاز شماره ۱</value>
         <value xml:lang="fr">Carte d'essence 1</value>
         <value xml:lang="hi_IN">गैस कार्ड नंबर 1</value>
         <value xml:lang="it">Numero Carta Carburante 1</value>
@@ -592,6 +629,7 @@
     </property>
     <property key="FixedAssetIdentType.description.GAS_CARD2">
         <value xml:lang="en">Gas Card Number 2</value>
+        <value xml:lang="fa">کارت گاز شماره ۲</value>
         <value xml:lang="fr">Carte d'essence 2</value>
         <value xml:lang="hi_IN">गैस कार्ड नंबर 2</value>
         <value xml:lang="it">Numero Carta Carburante 2</value>
@@ -607,6 +645,7 @@
     </property>
     <property key="FixedAssetIdentType.description.GAS_CARD3">
         <value xml:lang="en">Gas Card Number 3</value>
+        <value xml:lang="fa">کارت گاز شماره ۳</value>
         <value xml:lang="fr">Carte d'essence 3</value>
         <value xml:lang="hi_IN">गैस कार्ड नंबर 3</value>
         <value xml:lang="it">Numero Carta Carburante 3</value>
@@ -623,6 +662,7 @@
     <property key="FixedAssetIdentType.description.MFG_SERIAL">
         <value xml:lang="de">Seriennummer</value>
         <value xml:lang="en">Mfg Serial Number</value>
+        <value xml:lang="fa">شماره سریال ساخت</value>
         <value xml:lang="fr">No de série (fabrication)</value>
         <value xml:lang="hi_IN">Mfg क्रम संख्या</value>
         <value xml:lang="it">Numero Seriale Mfg</value>
@@ -639,6 +679,7 @@
     <property key="FixedAssetIdentType.description.TRACKING_LABEL">
         <value xml:lang="de">Verfolgungsetikett</value>
         <value xml:lang="en">Internal Tracking Label Number</value>
+        <value xml:lang="fa">شماره برچسب پیگیری داخلی</value>
         <value xml:lang="fr">Numéro de traçage interne</value>
         <value xml:lang="hi_IN">आंतरिक ट्रैकिंग लेबल संख्या</value>
         <value xml:lang="it">Numero Interno Tracciatura Etichetta</value>
@@ -655,6 +696,7 @@
     <property key="FixedAssetIdentType.description.TRACKING_VENDOR">
         <value xml:lang="de">Referneznummer des Herstellers</value>
         <value xml:lang="en">Vendor Tracking/Inventory Number</value>
+        <value xml:lang="fa">شماره پیگیری/موجودی‌کالا دست‌فروش</value>
         <value xml:lang="fr">Traçage fournisseur/Numéro d'inventaire</value>
         <value xml:lang="hi_IN">विक्रेता ट्रैकिंग/सूची संख्या</value>
         <value xml:lang="it">Numero Tracciatura/Inventario Fornitore</value>
@@ -671,6 +713,7 @@
     <property key="FixedAssetIdentType.description.VIN">
         <value xml:lang="de">Fahrzeug-Identifizierungsnummer (FIN)</value>
         <value xml:lang="en">Vehicle Identification Number (VIN)</value>
+        <value xml:lang="fa">شماره شناسایی وسیله‌نقلیه(VIN)</value>
         <value xml:lang="fr">Numéro d'Identification de Véhicule</value>
         <value xml:lang="hi_IN">वाहन पहचान संख्या (VIN)</value>
         <value xml:lang="it">Numero Identificazione Veicolo (VIN)</value>
@@ -687,6 +730,7 @@
     <property key="FixedAssetProductType.description.FAPT_SALE">
         <value xml:lang="de">Anlagenverkauf</value>
         <value xml:lang="en">Sale of Asset</value>
+        <value xml:lang="fa">فروش دارایی</value>
         <value xml:lang="fr">Vente d'actif</value>
         <value xml:lang="hi_IN">परिसंपत्ति की बिक्री</value>
         <value xml:lang="it">Vendita Cespite</value>
@@ -703,6 +747,7 @@
     <property key="FixedAssetProductType.description.FAPT_USE">
         <value xml:lang="de">Anlagennutzung</value>
         <value xml:lang="en">Use of Asset</value>
+        <value xml:lang="fa">استفاده از دارایی</value>
         <value xml:lang="fr">Utilisation d'actif</value>
         <value xml:lang="hi_IN">परिसंपत्ति का उपयोग</value>
         <value xml:lang="it">Uso Cespite</value>
@@ -719,6 +764,7 @@
     <property key="FixedAssetStdCostType.description.SETUP_COST">
         <value xml:lang="de">Einrichtungskosten</value>
         <value xml:lang="en">Standard Setup Cost</value>
+        <value xml:lang="fa">هزینه نصب استاندارد</value>
         <value xml:lang="fr">Coût standard d'installation</value>
         <value xml:lang="hi_IN">मानक स्थापना लागत</value>
         <value xml:lang="it">Costo Standard Iniziale</value>
@@ -735,6 +781,7 @@
     <property key="FixedAssetStdCostType.description.USAGE_COST">
         <value xml:lang="de">Nutzungskosten</value>
         <value xml:lang="en">Standard Usage Cost</value>
+        <value xml:lang="fa">هزینه استفاده استاندارد</value>
         <value xml:lang="fr">Coût standard d'utilisation</value>
         <value xml:lang="hi_IN">मानक उपयोग की लागत</value>
         <value xml:lang="it">Costo Standard Uso</value>
@@ -751,6 +798,7 @@
     <property key="FixedAssetType.description.COMPUTER_HARDWARE">
         <value xml:lang="de">Computer Hardware</value>
         <value xml:lang="en">Computer Hardware</value>
+        <value xml:lang="fa">سخت‌افزار رایانه</value>
         <value xml:lang="fr">Matériel informatique</value>
         <value xml:lang="hi_IN">कंप्यूटर हार्डवेयर</value>
         <value xml:lang="it">Hardware per computer</value>
@@ -764,6 +812,7 @@
     <property key="FixedAssetType.description.COMPUTER_SOFTWARE">
         <value xml:lang="de">Computer Software</value>
         <value xml:lang="en">Computer Software</value>
+        <value xml:lang="fa">نرم‌افزار رایانه</value>
         <value xml:lang="fr">Logiciel informatique</value>
         <value xml:lang="hi_IN">कंप्यूटर सॉफ्टवेयर</value>
         <value xml:lang="it">Software per computer</value>
@@ -777,6 +826,7 @@
     <property key="FixedAssetType.description.EQUIPMENT">
         <value xml:lang="de">Austattung</value>
         <value xml:lang="en">Equipment</value>
+        <value xml:lang="fa">تجهیزات</value>
         <value xml:lang="fr">Equipement</value>
         <value xml:lang="hi_IN">उपकरण</value>
         <value xml:lang="it">Attrezzature</value>
@@ -793,6 +843,7 @@
     <property key="FixedAssetType.description.GROUP_EQUIPMENT">
         <value xml:lang="de">Maschinengruppe zur Erstellung von Ablaufs- und Arbeitsplänen</value>
         <value xml:lang="en">Group of machines, used for task and routing definition</value>
+        <value xml:lang="fa">گروهی از ماشین‌ها که برای انجام‌وظیفه و مسیریابی استفاده شده‌اند</value>
         <value xml:lang="fr">Groupe de machines, utilisé pour la définition de tâches et de gamme de fabrication</value>
         <value xml:lang="hi_IN">मशीनों का समूह कार्य और परिभाषा अनुमार्गण के लिए प्रयोग किया जाता है</value>
         <value xml:lang="it">Gruppo di macchine, usato nelle operazioni e cicli di produzione</value>
@@ -809,6 +860,7 @@
     <property key="FixedAssetType.description.OTHER_FIXED_ASSET">
         <value xml:lang="de">Sonstige Anlagen</value>
         <value xml:lang="en">Other Fixed Asset</value>
+        <value xml:lang="fa">دارایی‌های ثابت دیگر</value>
         <value xml:lang="fr">Autre actif immobilisé</value>
         <value xml:lang="hi_IN">अन्य अचल संपत्ति</value>
         <value xml:lang="it">Altri Cespiti</value>
@@ -825,6 +877,7 @@
     <property key="FixedAssetType.description.PRODUCTION_EQUIPMENT">
         <value xml:lang="de">Anlage, die zur Arbeitsplanung genutzt wird</value>
         <value xml:lang="en">The fixed asset used in the operation-routing definition</value>
+        <value xml:lang="fa">دارایی‌های ثابتی که برای عملیات مسیریابی استفاده شده‌اند</value>
         <value xml:lang="fr">Actif immobilisé utilisé dans la définition de gammes et tâches</value>
         <value xml:lang="hi_IN">आपरेशन-परिभाषा अनुमार्गण में अचल संपत्ति का उपयोग</value>
         <value xml:lang="it">Attrezzature usate nelle operazioni e cicli di produzione</value>
@@ -841,6 +894,7 @@
     <property key="FixedAssetType.description.PROPERTY">
         <value xml:lang="de">Anlagevermögen</value>
         <value xml:lang="en">Property</value>
+        <value xml:lang="fa">اموال</value>
         <value xml:lang="fr">Propriété</value>
         <value xml:lang="hi_IN">संपत्ति</value>
         <value xml:lang="it">Proprietà</value>
@@ -857,6 +911,7 @@
     <property key="FixedAssetType.description.REAL_ESTATE">
         <value xml:lang="de">Immobilien</value>
         <value xml:lang="en">Real Estate</value>
+        <value xml:lang="fa">املاک</value>
         <value xml:lang="fr">Bien immobilier</value>
         <value xml:lang="hi_IN">रियल एस्टेट</value>
         <value xml:lang="it">Immobiliare</value>
@@ -873,6 +928,7 @@
     <property key="FixedAssetType.description.VEHICLE">
         <value xml:lang="de">Fahrzeug</value>
         <value xml:lang="en">Vehicle</value>
+        <value xml:lang="fa">وسیله‌نقلیه</value>
         <value xml:lang="fr">Véhicule</value>
         <value xml:lang="hi_IN">वाहन</value>
         <value xml:lang="it">Veicolo</value>
@@ -889,6 +945,7 @@
     <property key="GlAccountClass.description.ACCUM_AMORTIZATION">
         <value xml:lang="de">Akkumulierte Amortisierung</value>
         <value xml:lang="en">Accumulated Amortization</value>
+        <value xml:lang="fa">انقضاءدارایی‌های انباشته</value>
         <value xml:lang="fr">Amortissement cumulé</value>
         <value xml:lang="hi_IN">संचित परिशोधन</value>
         <value xml:lang="it">Fondo Ammortamento Beni Intangibili</value>
@@ -905,6 +962,7 @@
     <property key="GlAccountClass.description.ACCUM_DEPRECIATION">
         <value xml:lang="de">Akkumulierte Abschreibung</value>
         <value xml:lang="en">Accumulated Depreciation</value>
+        <value xml:lang="fa">استهلاک انباشته</value>
         <value xml:lang="fr">Dépréciation cumulée</value>
         <value xml:lang="hi_IN">संचित मूल्यह्रास</value>
         <value xml:lang="it">Fondo Ammortamento Beni Tangibili</value>
@@ -921,6 +979,7 @@
     <property key="GlAccountClass.description.AMORTIZATION">
         <value xml:lang="de">Amortisierung</value>
         <value xml:lang="en">Amortization</value>
+        <value xml:lang="fa">انقضاءدارایی‌ها</value>
         <value xml:lang="fr">Amortissement</value>
         <value xml:lang="hi_IN">ऋण परिशोधन</value>
         <value xml:lang="it">Ammortamento Beni Intangibili</value>
@@ -936,6 +995,7 @@
     <property key="GlAccountClass.description.ASSET">
         <value xml:lang="de">Aktiva</value>
         <value xml:lang="en">Asset</value>
+        <value xml:lang="fa">دارایی</value>
         <value xml:lang="fr">Actif</value>
         <value xml:lang="hi_IN">परिसंपत्ति</value>
         <value xml:lang="it">Attivo</value>
@@ -952,6 +1012,7 @@
     <property key="GlAccountClass.description.CASH_EQUIVALENT">
         <value xml:lang="de">Flüssige und gleichwertige Mittel</value>
         <value xml:lang="en">Cash and Equivalent</value>
+        <value xml:lang="fa">نقدی و معادل</value>
         <value xml:lang="fr">Caisse et équivalent</value>
         <value xml:lang="hi_IN">नकद और समतुल्य</value>
         <value xml:lang="it">Cassa e Banca</value>
@@ -968,6 +1029,7 @@
     <property key="GlAccountClass.description.CASH_EXPENSE">
         <value xml:lang="de">Aufwendung</value>
         <value xml:lang="en">Cash Expense</value>
+        <value xml:lang="fa">مخارج نقدی</value>
         <value xml:lang="fr">Décaissement</value>
         <value xml:lang="hi_IN">नकद व्यय</value>
         <value xml:lang="it">Spese Di Cassa</value>
@@ -984,6 +1046,7 @@
     <property key="GlAccountClass.description.CASH_INCOME">
         <value xml:lang="de">Ertrag</value>
         <value xml:lang="en">Cash Income</value>
+        <value xml:lang="fa">درآمد نقدی</value>
         <value xml:lang="fr">Encaissement</value>
         <value xml:lang="hi_IN">नकद आय</value>
         <value xml:lang="it">Ricavi di Cassa</value>
@@ -1000,6 +1063,7 @@
     <property key="GlAccountClass.description.COGS_EXPENSE">
         <value xml:lang="de">Wareneinsatz</value>
         <value xml:lang="en">Cost of Goods Sold Expense</value>
+        <value xml:lang="fa">هزینه مخارج کالاها فروخته‌شده</value>
         <value xml:lang="fr">Coût direct des marchandises vendues</value>
         <value xml:lang="hi_IN">बेचे हुए माल के व्यय की लागत</value>
         <value xml:lang="it">Costo dela Merce Venduta</value>
@@ -1016,6 +1080,7 @@
     <property key="GlAccountClass.description.CREDIT">
         <value xml:lang="de">Haben</value>
         <value xml:lang="en">Credit</value>
+        <value xml:lang="fa">اعتبار</value>
         <value xml:lang="fr">Crédit</value>
         <value xml:lang="hi_IN">जमा</value>
         <value xml:lang="it">Avere</value>
@@ -1032,6 +1097,7 @@
     <property key="GlAccountClass.description.CURRENT_ASSET">
         <value xml:lang="de">Kurzfristiger Vermögenswert</value>
         <value xml:lang="en">Current Asset</value>
+        <value xml:lang="fa">دارایی‌های کنونی</value>
         <value xml:lang="fr">Actif à court terme</value>
         <value xml:lang="hi_IN">वर्तमान परिसंपत्ति</value>
         <value xml:lang="it">Attivo Circolante</value>
@@ -1048,6 +1114,7 @@
     <property key="GlAccountClass.description.CURRENT_LIABILITY">
         <value xml:lang="de">Kurzfristige Verbindlichkeiten</value>
         <value xml:lang="en">Current Liability</value>
+        <value xml:lang="fa">مسئولیت‌دهی کنونی</value>
         <value xml:lang="fr">Dette à court terme</value>
         <value xml:lang="hi_IN">चालू दायित्व</value>
         <value xml:lang="it">Debiti a Breve Termine</value>
@@ -1064,6 +1131,7 @@
     <property key="GlAccountClass.description.DEBIT">
         <value xml:lang="de">Soll</value>
         <value xml:lang="en">Debit</value>
+        <value xml:lang="fa">بدهی</value>
         <value xml:lang="fr">Débit</value>
         <value xml:lang="hi_IN">नामे</value>
         <value xml:lang="it">Dare</value>
@@ -1080,6 +1148,7 @@
     <property key="GlAccountClass.description.DEPRECIATION">
         <value xml:lang="de">Abschreibung</value>
         <value xml:lang="en">Depreciation</value>
+        <value xml:lang="fa">استهلاک</value>
         <value xml:lang="fr">Dépréciation</value>
         <value xml:lang="hi_IN">मूल्यह्रास</value>
         <value xml:lang="it">Ammortamento Beni Tangibili</value>
@@ -1096,6 +1165,7 @@
     <property key="GlAccountClass.description.DISTRIBUTION">
         <value xml:lang="de">Ausschüttung</value>
         <value xml:lang="en">Equity Distribution</value>
+        <value xml:lang="fa">توزیع سهم</value>
         <value xml:lang="fr">Capitaux propres distribués</value>
         <value xml:lang="hi_IN">इक्विटी वितरण</value>
         <value xml:lang="it">Distribuzione Azioni</value>
@@ -1112,6 +1182,7 @@
     <property key="GlAccountClass.description.DIVIDEND">
         <value xml:lang="de">Dividenden</value>
         <value xml:lang="en">Dividends</value>
+        <value xml:lang="fa">سودسهام</value>
         <value xml:lang="fr">Dividendes</value>
         <value xml:lang="hi_IN">लाभांश</value>
         <value xml:lang="it">Dividendi</value>
@@ -1128,6 +1199,7 @@
     <property key="GlAccountClass.description.EQUITY">
         <value xml:lang="de">Eigenkapital</value>
         <value xml:lang="en">Equity</value>
+        <value xml:lang="fa">سهم</value>
         <value xml:lang="fr">Capitaux propres</value>
         <value xml:lang="hi_IN">इक्विटी</value>
         <value xml:lang="it">Patrimonio Netto</value>
@@ -1144,6 +1216,7 @@
     <property key="GlAccountClass.description.EXPENSE">
         <value xml:lang="de">Aufwand</value>
         <value xml:lang="en">Expense</value>
+        <value xml:lang="fa">مخارج</value>
         <value xml:lang="fr">Charges</value>
         <value xml:lang="hi_IN">व्यय</value>
         <value xml:lang="it">Costi</value>
@@ -1160,6 +1233,7 @@
     <property key="GlAccountClass.description.INCOME">
         <value xml:lang="de">Ertrag</value>
         <value xml:lang="en">Income</value>
+        <value xml:lang="fa">درآمد</value>
         <value xml:lang="fr">Revenus</value>
         <value xml:lang="hi_IN">आय</value>
         <value xml:lang="it">Ricavi</value>
@@ -1176,6 +1250,7 @@
     <property key="GlAccountClass.description.INTEREST_EXPENSE">
         <value xml:lang="de">Zinsaufwand</value>
         <value xml:lang="en">Interest Expense</value>
+        <value xml:lang="fa">مخارج بهره</value>
         <value xml:lang="fr">Charges financières</value>
         <value xml:lang="hi_IN">ब्याज व्यय</value>
         <value xml:lang="it">Costi per Interessi</value>
@@ -1192,6 +1267,7 @@
     <property key="GlAccountClass.description.INVENTORY_ADJUST">
         <value xml:lang="de">Inventurdifferenz</value>
         <value xml:lang="en">Inventory Adjustment</value>
+        <value xml:lang="fa">تعدیل موجودی‌کالا</value>
         <value xml:lang="fr">Ajustement d'inventaire</value>
         <value xml:lang="hi_IN">सूची समायोजन</value>
         <value xml:lang="it">Modifiche di Inventario</value>
@@ -1208,6 +1284,7 @@
     <property key="GlAccountClass.description.INVENTORY_ASSET">
         <value xml:lang="de">Vorräte</value>
         <value xml:lang="en">Inventory Asset</value>
+        <value xml:lang="fa">دارایی‌های موجودی‌کالا</value>
         <value xml:lang="fr">Actif en stock</value>
         <value xml:lang="hi_IN">सूची परिसंपत्ति</value>
         <value xml:lang="it">Inventario cespite</value>
@@ -1221,6 +1298,7 @@
     <property key="GlAccountClass.description.LIABILITY">
         <value xml:lang="de">Verbindlichkeiten</value>
         <value xml:lang="en">Liability</value>
+        <value xml:lang="fa">مسئولیت‌بدهی</value>
         <value xml:lang="fr">Dette</value>
         <value xml:lang="hi_IN">दायित्व</value>
         <value xml:lang="it">Passività</value>
@@ -1237,6 +1315,7 @@
     <property key="GlAccountClass.description.LONGTERM_ASSET">
         <value xml:lang="de">Anlagevermögen</value>
         <value xml:lang="en">Long Term Asset</value>
+        <value xml:lang="fa">دارایی‌های طولانی‌مدت</value>
         <value xml:lang="fr">Actif à long terme</value>
         <value xml:lang="hi_IN">दीर्घकालिक परिसंपत्ति</value>
         <value xml:lang="it">Cespiti</value>
@@ -1253,6 +1332,7 @@
     <property key="GlAccountClass.description.LONGTERM_LIABILITY">
         <value xml:lang="de">Langfristige Verbindlichkeiten</value>
         <value xml:lang="en">Long Term Liability</value>
+        <value xml:lang="fa">مسئولیت‌بدهی طولانی‌مدت</value>
         <value xml:lang="fr">Dette à long terme</value>
         <value xml:lang="hi_IN">दीर्घकालिक दायित्व</value>
         <value xml:lang="it">Finanziamenti e Altri Debiti a Lungo Termine</value>
@@ -1269,6 +1349,7 @@
     <property key="GlAccountClass.description.NON_CASH_EXPENSE">
         <value xml:lang="de">Zahlungsunwirksame Aufwendungen</value>
         <value xml:lang="en">Non-Cash Expense</value>
+        <value xml:lang="fa">مخارج غیر نقدی</value>
         <value xml:lang="fr">Charge non décaissée</value>
         <value xml:lang="hi_IN">गैर नकद व्यय</value>
         <value xml:lang="it">Spesa Non-Cassa</value>
@@ -1284,6 +1365,7 @@
     <property key="GlAccountClass.description.NON_CASH_INCOME">
         <value xml:lang="de">Zahlungsunwirksame Erträge</value>
         <value xml:lang="en">Non-Cash Income</value>
+        <value xml:lang="fa">درآمد غیر نقدی</value>
         <value xml:lang="fr">Revenu non décaissé</value>
         <value xml:lang="hi_IN">गैर नकद आय</value>
         <value xml:lang="it">Reddito Non-Cassa</value>
@@ -1299,6 +1381,7 @@
     <property key="GlAccountClass.description.NON_POSTING">
         <value xml:lang="de">Nicht gebucht</value>
         <value xml:lang="en">Non-Posting</value>
+        <value xml:lang="fa">پست نشده</value>
         <value xml:lang="fr">Non posté</value>
         <value xml:lang="hi_IN">नॉन पोस्टिंग</value>
         <value xml:lang="it">Non-Contabilizzata</value>
@@ -1314,6 +1397,7 @@
     <property key="GlAccountClass.description.OWNERS_EQUITY">
         <value xml:lang="de">Eigentümer Eigenkapital</value>
         <value xml:lang="en">Owners Equity</value>
+        <value xml:lang="fa">صاحبان سهم</value>
         <value xml:lang="fr">Capitaux propres</value>
         <value xml:lang="hi_IN">स्वामी की इक्विटी</value>
         <value xml:lang="it">Capitale Sociale</value>
@@ -1330,6 +1414,7 @@
     <property key="GlAccountClass.description.RESOURCE">
         <value xml:lang="de">Ressource</value>
         <value xml:lang="en">Resource</value>
+        <value xml:lang="fa">منبع</value>
         <value xml:lang="fr">Ressource</value>
         <value xml:lang="hi_IN">संसाधन</value>
         <value xml:lang="it">Risorsa</value>
@@ -1345,6 +1430,7 @@
     <property key="GlAccountClass.description.RETAINED_EARNINGS">
         <value xml:lang="de">Einbehaltene Gewinne</value>
         <value xml:lang="en">Retained Earnings</value>
+        <value xml:lang="fa">سود انباشته</value>
         <value xml:lang="fr">Report à nouveau</value>
         <value xml:lang="hi_IN">प्रतिधारित कमाई</value>
         <value xml:lang="it">Utili a Nuovo</value>
@@ -1360,6 +1446,7 @@
     <property key="GlAccountClass.description.RETURN_OF_CAPITAL">
         <value xml:lang="de">Kapitalrückzahlung</value>
         <value xml:lang="en">Return of Capital</value>
+        <value xml:lang="fa">بازگشت سرمایه</value>
         <value xml:lang="fr">Revenu du capital</value>
         <value xml:lang="hi_IN">वापसी पूंजी</value>
         <value xml:lang="it">Ritorno di Capitale</value>
@@ -1375,6 +1462,7 @@
     <property key="GlAccountClass.description.REVENUE">
         <value xml:lang="de">Ertrag</value>
         <value xml:lang="en">Revenue</value>
+        <value xml:lang="fa">درآمد</value>
         <value xml:lang="fr">Revenu</value>
         <value xml:lang="hi_IN">राजस्व</value>
         <value xml:lang="it">Ricavi</value>
@@ -1390,6 +1478,7 @@
     <property key="GlAccountClass.description.SGA_EXPENSE">
         <value xml:lang="de">Vertriebsgemeinkosten</value>
         <value xml:lang="en">Selling, General, and Administrative Expense</value>
+        <value xml:lang="fa">فروش، عمومی و مخارج اداری</value>
         <value xml:lang="fr">Frais généraux</value>
         <value xml:lang="hi_IN">बिक्री, जनरल, और प्रशासनिक व्यय</value>
         <value xml:lang="it">Spese Commerciali, Generali, e Amministrative</value>
@@ -1405,6 +1494,7 @@
     <property key="GlAccountType.description.ACCOUNTS_PAYABLE">
         <value xml:lang="de">Verbindlichkeiten</value>
         <value xml:lang="en">Accounts Payable</value>
+        <value xml:lang="fa">حساب‌های پرداختی</value>
         <value xml:lang="fr">Comptes fournisseurs</value>
         <value xml:lang="hi_IN">देय लेखा</value>
         <value xml:lang="it">Conto debiti</value>
@@ -1420,6 +1510,7 @@
     <property key="GlAccountType.description.ACCOUNTS_RECEIVABLE">
         <value xml:lang="de">Forderungen</value>
         <value xml:lang="en">Accounts Receivable</value>
+        <value xml:lang="fa">حساب‌های دریافتی</value>
         <value xml:lang="fr">Comptes clients</value>
         <value xml:lang="hi_IN">प्राप्य लेखा</value>
         <value xml:lang="it">Conto crediti</value>
@@ -1435,6 +1526,7 @@
     <property key="GlAccountType.description.ACCTPAY_WRITEOFF">
         <value xml:lang="de">Abschreibung von Verbindlichkeiten</value>
         <value xml:lang="en">Accounts Payables Write Off</value>
+        <value xml:lang="fa">کسر حساب‌های پرداختی</value>
         <value xml:lang="hi_IN">देय लेखा राइट ऑफ</value>
         <value xml:lang="it">Conti debiti ammortizzati</value>
         <value xml:lang="ja">買掛金償却</value>
@@ -1446,6 +1538,7 @@
     <property key="GlAccountType.description.ACCTRECV_WRITEOFF">
         <value xml:lang="de">Abschreibung von Forderungen</value>
         <value xml:lang="en">Accounts Receivables Write Off</value>
+        <value xml:lang="fa">کسر حساب‌های دریافتی</value>
         <value xml:lang="hi_IN">प्राप्य लेखा राइट ऑफ</value>
         <value xml:lang="it">Conto crediti ammortizzati</value>
         <value xml:lang="ja">売掛金償却</value>
@@ -1457,6 +1550,7 @@
     <property key="GlAccountType.description.BALANCE_ACCOUNT">
         <value xml:lang="de">Saldo</value>
         <value xml:lang="en">Balance</value>
+        <value xml:lang="fa">تراز</value>
         <value xml:lang="fr">Solde du compte</value>
         <value xml:lang="hi_IN">शेष</value>
         <value xml:lang="it">Bilancio</value>
@@ -1472,6 +1566,7 @@
     <property key="GlAccountType.description.BANK_STLMNT_ACCOUNT">
         <value xml:lang="de">Bankenausgleich</value>
         <value xml:lang="en">Bank Settlement</value>
+        <value xml:lang="fa">تصفیه بانکی</value>
         <value xml:lang="fr">Réglement bancaire</value>
         <value xml:lang="hi_IN">बैंक समाधान</value>
         <value xml:lang="it">Estratto Conto Bancario</value>
@@ -1487,6 +1582,7 @@
     <property key="GlAccountType.description.COGS_ACCOUNT">
         <value xml:lang="de">Wareneinsatz</value>
         <value xml:lang="en">Cost of Goods Sold</value>
+        <value xml:lang="fa">هزینه کالاها فروخته‌شده</value>
         <value xml:lang="fr">Coût des marchandises vendues</value>
         <value xml:lang="hi_IN">बेचे हुए माल का मूल्य</value>
         <value xml:lang="it">Costo delle Merci Vendute </value>
@@ -1502,6 +1598,7 @@
     <property key="GlAccountType.description.COGS_ADJ_AVG_COST">
         <value xml:lang="de">COGS - Durchschnittliche Regulieringskosten</value>
         <value xml:lang="en">COGS - Average Cost Adjustment</value>
+        <value xml:lang="fa">COGS - تعدیل هزینه متوسط</value>
         <value xml:lang="fr">Variation des stocks - Ajustement au coût moyen</value>
         <value xml:lang="hi_IN">COGS - औसत मूल्य समायोजन(Adjustment)</value>
         <value xml:lang="it">COGS - Costo Medio Aggiustamento</value>
@@ -1517,6 +1614,7 @@
     <property key="GlAccountType.description.COMMISSIONS_PAYABLE">
         <value xml:lang="de">Kommissionsgebühren</value>
         <value xml:lang="en">Commissions Payables</value>
+        <value xml:lang="fa">پراخت‌های حق‌کارمزد</value>
         <value xml:lang="fr">Commissions payables</value>
         <value xml:lang="hi_IN">देय दलाली</value>
         <value xml:lang="it">Provvigioni a debito</value>
@@ -1529,6 +1627,7 @@
     <property key="GlAccountType.description.COMMISSIONS_WRITEOFF">
         <value xml:lang="de">Abschreibung von Kommissionierungskosten</value>
         <value xml:lang="en">Commissions Payables Write Off</value>
+        <value xml:lang="fa">کسر پرداخت‌های حق‌کارمزد</value>
         <value xml:lang="hi_IN">देय दलाली राइट ऑफ</value>
         <value xml:lang="it">Provvigioni a credito</value>
         <value xml:lang="ja">委託費用償却</value>
@@ -1540,6 +1639,7 @@
     <property key="GlAccountType.description.COMMISSION_EXPENSE">
         <value xml:lang="de">Kommisionsausgaben</value>
         <value xml:lang="en">Commission Expense</value>
+        <value xml:lang="fa">مخارج حق‌کارمزد</value>
         <value xml:lang="fr">Frais de commission</value>
         <value xml:lang="hi_IN">दलाली व्यय</value>
         <value xml:lang="it">Provvigioni sulle spese</value>
@@ -1552,6 +1652,7 @@
     <property key="GlAccountType.description.CREDIT_CARD">
         <value xml:lang="de">Kreditkarte</value>
         <value xml:lang="en">Credit Card</value>
+        <value xml:lang="fa">کارت اعتباری</value>
         <value xml:lang="fr">Carte de crédit</value>
         <value xml:lang="hi_IN">क्रेडिट कार्ड</value>
         <value xml:lang="it">Carta di Credito</value>
@@ -1567,6 +1668,7 @@
     <property key="GlAccountType.description.CURRENT_ASSET">
         <value xml:lang="de">Umlaufvermögen</value>
         <value xml:lang="en">Current Asset</value>
+        <value xml:lang="fa">دارایی کنونی</value>
         <value xml:lang="fr">Actif courant</value>
         <value xml:lang="hi_IN">वर्तमान परिसंपत्ति</value>
         <value xml:lang="it">Bene Attuale</value>
@@ -1582,6 +1684,7 @@
     <property key="GlAccountType.description.CURRENT_LIABILITY">
         <value xml:lang="de">Kurzfristige Verbindlichkeiten</value>
         <value xml:lang="en">Current Liability</value>
+        <value xml:lang="fa">مسئولیت‌بدهی کنونی</value>
         <value xml:lang="fr">Dette courante</value>
         <value xml:lang="hi_IN">चालू दायित्व</value>
         <value xml:lang="it">Responsabilità Attuale</value>
@@ -1597,6 +1700,7 @@
     <property key="GlAccountType.description.CUSTOMER_ACCOUNT">
         <value xml:lang="de">Kunde</value>
         <value xml:lang="en">Customer</value>
+        <value xml:lang="fa">مشتری</value>
         <value xml:lang="fr">Client</value>
         <value xml:lang="hi_IN">ग्राहक</value>
         <value xml:lang="it">Cliente</value>
@@ -1612,6 +1716,7 @@
     <property key="GlAccountType.description.CUSTOMER_CREDIT">
         <value xml:lang="de">Kundengutschrift</value>
         <value xml:lang="en">Customer Credits</value>
+        <value xml:lang="fa">اعتبارات مشتری</value>
         <value xml:lang="fr">Crédits clients</value>
         <value xml:lang="hi_IN">ग्राहक क्रेडिट्स</value>
         <value xml:lang="it">Crediti Cliente</value>
@@ -1627,6 +1732,7 @@
     <property key="GlAccountType.description.CUSTOMER_DEPOSIT">
         <value xml:lang="de">Kundeneinlagen</value>
         <value xml:lang="en">Customer Deposits</value>
+        <value xml:lang="fa">سپرده‌های مشتری</value>
         <value xml:lang="fr">Acomptes clients</value>
         <value xml:lang="hi_IN">ग्राहक के जमा</value>
         <value xml:lang="it">Depositi Cliente</value>
@@ -1642,6 +1748,7 @@
     <property key="GlAccountType.description.CUSTOMER_GC_DEPOSIT">
         <value xml:lang="de">Geschenkgutscheinsaldo</value>
         <value xml:lang="en">Customer Gift Certificate Balances</value>
+        <value xml:lang="fa">ترازهای تضمین هدیه مشتری</value>
         <value xml:lang="fr">Soldes de chèque cadeau du client</value>
         <value xml:lang="hi_IN">ग्राहक उपहार प्रमाणपत्र(Gift Certificate) शेष</value>
         <value xml:lang="it">Bilanci Certificato Omaggio Cliente</value>
@@ -1657,6 +1764,7 @@
     <property key="GlAccountType.description.DISCOUNTS_ACCOUNT">
         <value xml:lang="de">Skonti</value>
         <value xml:lang="en">Discounts</value>
+        <value xml:lang="fa">تخفیف‌ها</value>
         <value xml:lang="fr">Remises</value>
         <value xml:lang="hi_IN">छूट</value>
         <value xml:lang="it">Sconti</value>
@@ -1672,6 +1780,7 @@
     <property key="GlAccountType.description.EXPENSE">
         <value xml:lang="de">Aufwand</value>
         <value xml:lang="en">Expense</value>
+        <value xml:lang="fa">مخارج</value>
         <value xml:lang="fr">Frais</value>
         <value xml:lang="hi_IN">व्यय</value>
         <value xml:lang="it">Spese</value>
@@ -1684,6 +1793,7 @@
     <property key="GlAccountType.description.FIXED_ASSET">
         <value xml:lang="de">Anlage</value>
         <value xml:lang="en">Fixed Asset</value>
+        <value xml:lang="fa">دارایی‌های ثابت</value>
         <value xml:lang="fr">Actifs immobilisés</value>
         <value xml:lang="hi_IN">अचल संपत्ति</value>
         <value xml:lang="it">Cespite</value>
@@ -1699,6 +1809,7 @@
     <property key="GlAccountType.description.FIXED_ASSET_MAINT">
         <value xml:lang="de">Instandhaltung</value>
         <value xml:lang="en">Fixed Asset Maintenance</value>
+        <value xml:lang="fa">تعمیرونگهداری دارایی‌های ثابت</value>
         <value xml:lang="fr">Maintenance des immobilisations</value>
         <value xml:lang="hi_IN">अचल संपत्ति रखरखाव</value>
         <value xml:lang="it">Manutenzione cespiti</value>
@@ -1711,6 +1822,7 @@
     <property key="GlAccountType.description.FX_GAIN_ACCOUNT">
         <value xml:lang="de">Währungsgewinne</value>
         <value xml:lang="en">Foreign Exchange Gain</value>
+        <value xml:lang="fa">سود مبادله ارز خارچی</value>
         <value xml:lang="hi_IN">विदेशी मुद्रा लाभ</value>
         <value xml:lang="it">Profitti da cambio di valuta</value>
         <value xml:lang="ja">為替差益</value>
@@ -1722,6 +1834,7 @@
     <property key="GlAccountType.description.FX_GAIN_LOSS_ACCT">
         <value xml:lang="de">Währungs-gewinne/verluste</value>
         <value xml:lang="en">Foreign Exchange Gain/Loss</value>
+        <value xml:lang="fa">سود/ضرر مبادله ارز خارجی</value>
         <value xml:lang="hi_IN">विदेशी मुद्रा लाभ/घाटाः</value>
         <value xml:lang="it">Profitti/perdite da cambio di valuta</value>
         <value xml:lang="ja">為替差益/差損</value>
@@ -1733,6 +1846,7 @@
     <property key="GlAccountType.description.FX_LOSS_ACCOUNT">
         <value xml:lang="de">Währungsverluste</value>
         <value xml:lang="en">Foreign Exchange Loss</value>
+        <value xml:lang="fa">ضرر مبادله ارز خارجی</value>
         <value xml:lang="hi_IN">विदेशी मुद्रा घाटाः</value>
         <value xml:lang="it">Perdite da cambio di valuta</value>
         <value xml:lang="ja">為替差損</value>
@@ -1744,6 +1858,7 @@
     <property key="GlAccountType.description.INCOME">
         <value xml:lang="de">Ertrag</value>
         <value xml:lang="en">Income</value>
+        <value xml:lang="fa">درآمد</value>
         <value xml:lang="fr">Revenu</value>
         <value xml:lang="hi_IN">आय</value>
         <value xml:lang="it">Reddito</value>
@@ -1756,6 +1871,7 @@
     <property key="GlAccountType.description.INTEREST_INCOME">
         <value xml:lang="de">Zinsertrag</value>
         <value xml:lang="en">Interest Income</value>
+        <value xml:lang="fa">بهره درآمد</value>
         <value xml:lang="hi_IN">ब्याज आय</value>
         <value xml:lang="it">Reddito da interessi</value>
         <value xml:lang="ja">受取利息</value>
@@ -1767,6 +1883,7 @@
     <property key="GlAccountType.description.INTRSTINC_RECEIVABLE">
         <value xml:lang="de">Zinsertragsforderungen</value>
         <value xml:lang="en">Interest Income Receivables</value>
+        <value xml:lang="fa">دریافتی‌های بهره درآمد</value>
         <value xml:lang="hi_IN">ब्याज आय प्राप्तियों</value>
         <value xml:lang="it">Reddito da interessi a credito</value>
         <value xml:lang="ja">未収利息</value>
@@ -1778,6 +1895,7 @@
     <property key="GlAccountType.description.INTRSTINC_WRITEOFF">
         <value xml:lang="de">Zinsertragsabschreibungen</value>
         <value xml:lang="en">Interest Income Write Off</value>
+        <value xml:lang="fa">کسر بهره درآمد</value>
         <value xml:lang="hi_IN">ब्याज आय राइट ऑफ</value>
         <value xml:lang="it">Reddito da interessi a debito</value>
         <value xml:lang="ja">受取利息償却</value>
@@ -1790,6 +1908,7 @@
     <property key="GlAccountType.description.INVENTORY_ACCOUNT">
         <value xml:lang="de">Lager</value>
         <value xml:lang="en">Inventory</value>
+        <value xml:lang="fa">موجودی‌کالا</value>
         <value xml:lang="fr">Stock</value>
         <value xml:lang="hi_IN">वस्तुसूची(Inventory)</value>
         <value xml:lang="it">Inventario</value>
@@ -1805,6 +1924,7 @@
     <property key="GlAccountType.description.INVENTORY_XFER_IN">
         <value xml:lang="de">Verbindlichkeiten aus Umlagerungenseingängen</value>
         <value xml:lang="en">Payable from Inventory Transferred In</value>
+        <value xml:lang="fa">پرداختیه انتقال به موجودی‌کالا</value>
         <value xml:lang="fr">Production stockée</value>
         <value xml:lang="hi_IN">वस्तुसूची स्थानांतरित से देय</value>
         <value xml:lang="it">Pagabile dai Trasferimento di Inventario In</value>
@@ -1820,6 +1940,7 @@
     <property key="GlAccountType.description.INVENTORY_XFER_OUT">
         <value xml:lang="de">Forderungen aus Umlagerungensausgängen</value>
         <value xml:lang="en">Receivable from Inventory Transferred Out</value>
+        <value xml:lang="fa">دریافتیه انتقال از موجودی‌کالا</value>
         <value xml:lang="fr">Production déstockée</value>
         <value xml:lang="hi_IN">वस्तुसूची स्थानांतरित से प्राप्य</value>
         <value xml:lang="it">Ricevibile dai Trasferimento di Inventario Out</value>
@@ -1835,6 +1956,7 @@
     <property key="GlAccountType.description.INV_ADJ_AVG_COST">
         <value xml:lang="de">Abschreibungen durch Anpassung der Lagerdurchschnittskosten</value>
         <value xml:lang="en">Inventory Adjustment from Average Cost</value>
+        <value xml:lang="fa">تعدیل موجودی‌کالا از هزینه متوسط</value>
         <value xml:lang="fr">Provision pour dépréciation des stocks au coût moyen</value>
         <value xml:lang="hi_IN">औसत मूल्य से समायोजन वस्तुसूची</value>
         <value xml:lang="it">Inventario Aggiustamenti dai Costi Medi</value>
@@ -1850,6 +1972,7 @@
     <property key="GlAccountType.description.INV_ADJ_VAL">
         <value xml:lang="de">Anpassung des Lagerartikelwerts</value>
         <value xml:lang="en">Inventory Item Value Adjustment</value>
+        <value xml:lang="fa">تعدیل ارزش قلم موجودی‌کالا</value>
         <value xml:lang="hi_IN">वस्तुसूची मद मूल्य समायोजन</value>
         <value xml:lang="it">Aggiustamento valore riga inventario</value>
         <value xml:lang="ja">在庫金額調整</value>
@@ -1861,6 +1984,7 @@
     <property key="GlAccountType.description.INV_CHANGE_ACCOUNT">
         <value xml:lang="de">Bestandsänderung</value>
         <value xml:lang="en">Inventory Change</value>
+        <value xml:lang="fa">تغییر موجودی‌کالا</value>
         <value xml:lang="fr">Provision pour dépréciation des stocks</value>
         <value xml:lang="hi_IN">वस्तुसूची बदलें</value>
         <value xml:lang="it">Cambio Inventario</value>
@@ -1876,6 +2000,7 @@
     <property key="GlAccountType.description.LONG_TERM_LIABILITY">
         <value xml:lang="de">Langfristige Verbindlichkeiten</value>
         <value xml:lang="en">Long Term Liability</value>
+        <value xml:lang="fa">مسئولیت‌بدهی طولانی‌مدت</value>
         <value xml:lang="fr">Dettes à long terme</value>
         <value xml:lang="hi_IN">दीर्घकालिक दायित्व</value>
         <value xml:lang="it">Responsabilità  Lungo Termine</value>
@@ -1891,6 +2016,7 @@
     <property key="GlAccountType.description.MRCH_STLMNT_ACCOUNT">
         <value xml:lang="de">Ausgleich des Handelskonto</value>
         <value xml:lang="en">Merchant Account Settlement</value>
+        <value xml:lang="fa">تصفیه حساب بازرگان</value>
         <value xml:lang="fr">Compte de régularisation fournisseur</value>
         <value xml:lang="hi_IN">व्यापारी खाता समाधान</value>
         <value xml:lang="it">Estratto Conto Commerciante</value>
@@ -1906,6 +2032,7 @@
     <property key="GlAccountType.description.OPERATING_EXPENSE">
         <value xml:lang="de">Betriebsaufwand</value>
         <value xml:lang="en">Operating Expense</value>
+        <value xml:lang="fa">مخارج عملیاتی</value>
         <value xml:lang="fr">Charges d'exploitation</value>
         <value xml:lang="hi_IN">संचालन व्यय</value>
         <value xml:lang="it">Spese Operative</value>
@@ -1921,6 +2048,7 @@
     <property key="GlAccountType.description.OTHER_ASSET">
         <value xml:lang="de">Sonstiges Vermögensgut</value>
         <value xml:lang="en">Other Asset</value>
+        <value xml:lang="fa">دارایی‌های دیگر</value>
         <value xml:lang="fr">Autres actifs</value>
         <value xml:lang="hi_IN">अन्य परिसंपत्ति</value>
         <value xml:lang="it">Altro Cespite</value>
@@ -1936,6 +2064,7 @@
     <property key="GlAccountType.description.OTHER_EXPENSE">
         <value xml:lang="de">Sonstige Aufwände</value>
         <value xml:lang="en">Other Expense</value>
+        <value xml:lang="fa">مخارج دیگر</value>
         <value xml:lang="fr">Autres charges</value>
         <value xml:lang="hi_IN">अन्य व्यय</value>
         <value xml:lang="it">Altre Spese</value>
@@ -1951,6 +2080,7 @@
     <property key="GlAccountType.description.OTHER_INCOME">
         <value xml:lang="de">Sonstiges Einkommen</value>
         <value xml:lang="en">Other Income</value>
+        <value xml:lang="fa">درآمدهای دیگر</value>
         <value xml:lang="fr">Autres revenus</value>
         <value xml:lang="hi_IN">अन्य आय</value>
         <value xml:lang="it">Altri redditi</value>
@@ -1963,6 +2093,7 @@
     <property key="GlAccountType.description.OWNERS_EQUITY">
         <value xml:lang="de">Eigentümer Eigenkapital</value>
         <value xml:lang="en">Owner's Equity</value>
+        <value xml:lang="fa">صاحبان سهم</value>
         <value xml:lang="fr">Capital et réserves</value>
         <value xml:lang="hi_IN">स्वामी की इक्विटी</value>
         <value xml:lang="it">Azioni Proprietarie</value>
@@ -1978,6 +2109,7 @@
     <property key="GlAccountType.description.PREPAID_EXPENSES">
         <value xml:lang="de">Rechnungsabgrenzungsposten</value>
         <value xml:lang="en">Prepaid Expenses</value>
+        <value xml:lang="fa">پیش‌پرداخت مخارج</value>
         <value xml:lang="fr">Acomptes sur charges</value>
         <value xml:lang="hi_IN">प्रीपेड खर्च</value>
         <value xml:lang="it">Spese Prepagate</value>
@@ -1993,6 +2125,7 @@
     <property key="GlAccountType.description.PRODUCT_ACCOUNT">
         <value xml:lang="de">Produkt</value>
         <value xml:lang="en">Product</value>
+        <value xml:lang="fa">محصول</value>
         <value xml:lang="fr">Produits</value>
         <value xml:lang="hi_IN">उत्पाद</value>
         <value xml:lang="it">Prodotto</value>
@@ -2008,6 +2141,7 @@
     <property key="GlAccountType.description.PROFIT_LOSS_ACCOUNT">
         <value xml:lang="de">Gewinn und Verlust</value>
         <value xml:lang="en">Profit Loss</value>
+        <value xml:lang="fa">سود و زیان</value>
         <value xml:lang="fr">Compte de résultat</value>
         <value xml:lang="hi_IN">लाभ घाटाः</value>
         <value xml:lang="it">Perdita Profitto</value>
@@ -2023,6 +2157,7 @@
     <property key="GlAccountType.description.PURCHASE_ACCOUNT">
         <value xml:lang="de">Einkauf</value>
         <value xml:lang="en">Purchase</value>
+        <value xml:lang="fa">خرید</value>
         <value xml:lang="fr">Achats</value>
         <value xml:lang="hi_IN">क्रय</value>
         <value xml:lang="it">Acquisto</value>
@@ -2038,6 +2173,7 @@
     <property key="GlAccountType.description.PURCHASE_PRICE_VAR">
         <value xml:lang="de">Einkaufspreis-Differenz</value>
         <value xml:lang="en">Purchase Price Variance</value>
+        <value xml:lang="fa">واریانس قیمت خرید</value>
         <value xml:lang="fr">Rabais obtenus sur achats</value>
         <value xml:lang="hi_IN">खरीद मूल्य विचरण</value>
         <value xml:lang="it">Varianza Prezzo Acquisto</value>
@@ -2053,6 +2189,7 @@
     <property key="GlAccountType.description.RAWMAT_INVENTORY">
         <value xml:lang="de">Rohstoffbestände</value>
         <value xml:lang="en">Raw Materials Inventory</value>
+        <value xml:lang="fa">موجودی‌کالاهای مواد اولیه</value>
         <value xml:lang="fr">Stock de matières premières</value>
         <value xml:lang="hi_IN">कच्चे माल की वस्तुसूची(Inventory)</value>
         <value xml:lang="it">Inventario Materie Prime</value>
@@ -2068,6 +2205,7 @@
     <property key="GlAccountType.description.RETAINED_EARNINGS">
         <value xml:lang="de">Gewinnrücklagen</value>
         <value xml:lang="en">Retained Earnings</value>
+        <value xml:lang="fa">سود انباشته</value>
         <value xml:lang="fr">Report à nouveau</value>
         <value xml:lang="hi_IN">प्रतिधारित कमाई</value>
         <value xml:lang="it">Guadagni Mantenuti</value>
@@ -2083,6 +2221,7 @@
     <property key="GlAccountType.description.SALES_ACCOUNT">
         <value xml:lang="de">Absatz</value>
         <value xml:lang="en">Sales</value>
+        <value xml:lang="fa">فروش</value>
         <value xml:lang="fr">Ventes</value>
         <value xml:lang="hi_IN">बिक्री</value>
         <value xml:lang="it">Vendita</value>
@@ -2098,6 +2237,7 @@
     <property key="GlAccountType.description.SALES_RETURNS">
         <value xml:lang="de">Retouren</value>
         <value xml:lang="en">Customer Returns</value>
+        <value xml:lang="fa">بازگشت مشتری</value>
         <value xml:lang="fr">Retours de ventes</value>
         <value xml:lang="hi_IN">ग्राहक रिटर्न</value>
         <value xml:lang="it">Resi Cliente</value>
@@ -2113,6 +2253,7 @@
     <property key="GlAccountType.description.SUPPLIER_ACCOUNT">
         <value xml:lang="de">Zulieferer</value>
         <value xml:lang="en">Supplier</value>
+        <value xml:lang="fa">عرضه‌کننده</value>
         <value xml:lang="fr">Fournisseurs</value>
         <value xml:lang="hi_IN">प्रदायक</value>
         <value xml:lang="it">Fornitore</value>
@@ -2128,6 +2269,7 @@
     <property key="GlAccountType.description.TAX_ACCOUNT">
         <value xml:lang="de">Steuer</value>
         <value xml:lang="en">Tax</value>
+        <value xml:lang="fa">مالیات</value>
         <value xml:lang="fr">Impôts</value>
         <value xml:lang="hi_IN">टैक्स</value>
         <value xml:lang="it">Tassa</value>
@@ -2143,6 +2285,7 @@
     <property key="GlAccountType.description.UNDEPOSITED_RECEIPTS">
         <value xml:lang="de">Nicht eingereichte Belege</value>
         <value xml:lang="en">Undeposited Receipts</value>
+        <value xml:lang="fa">رسیدهای سپرده‌نشده</value>
         <value xml:lang="hi_IN">गैर जमा रसीदे</value>
         <value xml:lang="it">Ricevute non depositate</value>
         <value xml:lang="ja">手元領収書</value>
@@ -2154,6 +2297,7 @@
     <property key="GlAccountType.description.UNINVOICED_SHIP_RCPT">
         <value xml:lang="de">Nicht in Rechnung gestellte Versandbelege</value>
         <value xml:lang="en">Uninvoiced Shipment Receipts</value>
+        <value xml:lang="fa">رسیدهای حمل‌ونقل فاکتورنشده</value>
         <value xml:lang="fr">Stock non réceptionné</value>
         <value xml:lang="hi_IN">गैरचालान शिपमेंट रसीदे</value>
         <value xml:lang="it">Spedizioni Ricevute Non Fatturate</value>
@@ -2169,6 +2313,7 @@
     <property key="GlAccountType.description.WIP_INVENTORY">
         <value xml:lang="de">Angefangene Arbeiten / Vorräte</value>
         <value xml:lang="en">Work In Progress Inventory</value>
+        <value xml:lang="fa">موجودی‌کالای کار درحال پیشرفت</value>
         <value xml:lang="fr">En-cours de production</value>
         <value xml:lang="hi_IN">वस्तुसूची(Inventory) में कार्य प्रगति पर</value>
         <value xml:lang="it">Inventario WIP</value>
@@ -2184,6 +2329,7 @@
     <property key="GlAccountType.description.WRITEOFF">
         <value xml:lang="de">Abschreibung</value>
         <value xml:lang="en">Write Off</value>
+        <value xml:lang="fa">کسر</value>
         <value xml:lang="hi_IN">राइट ऑफ</value>
         <value xml:lang="it">Perdite</value>
         <value xml:lang="ja">償却</value>
@@ -2195,6 +2341,7 @@
     <property key="GlFiscalType.description.ACTUAL">
         <value xml:lang="de">Ist</value>
         <value xml:lang="en">Actual</value>
+        <value xml:lang="fa">واقعی</value>
         <value xml:lang="fr">Réel</value>
         <value xml:lang="hi_IN">वास्तविक</value>
         <value xml:lang="it">Attuale</value>
@@ -2210,6 +2357,7 @@
     <property key="GlFiscalType.description.BUDGET">
         <value xml:lang="de">Budget</value>
         <value xml:lang="en">Budget</value>
+        <value xml:lang="fa">بودجه</value>
         <value xml:lang="fr">Budgétaire</value>
         <value xml:lang="hi_IN">बजट</value>
         <value xml:lang="it">Bilancio Preventivo</value>
@@ -2225,6 +2373,7 @@
     <property key="GlFiscalType.description.FORECAST">
         <value xml:lang="de">Prognose</value>
         <value xml:lang="en">Forecast</value>
+        <value xml:lang="fa">پیش‌بینی</value>
         <value xml:lang="fr">Prévisionnel</value>
         <value xml:lang="hi_IN">पूर्वानुमान</value>
         <value xml:lang="it">Previsione</value>
@@ -2240,6 +2389,7 @@
     <property key="GlFiscalType.description.PLAN">
         <value xml:lang="de">Plan</value>
         <value xml:lang="en">Plan</value>
+        <value xml:lang="fa">برنامه</value>
         <value xml:lang="fr">Planifié</value>
         <value xml:lang="hi_IN">योजना</value>
         <value xml:lang="it">Piano</value>
@@ -2255,6 +2405,7 @@
     <property key="GlFiscalType.description.SCENARIO">
         <value xml:lang="de">Szenario</value>
         <value xml:lang="en">Scenario</value>
+        <value xml:lang="fa">سناریو</value>
         <value xml:lang="fr">Scénario</value>
         <value xml:lang="hi_IN">परिदृश्य</value>
         <value xml:lang="it">Scenario</value>
@@ -2270,6 +2421,7 @@
     <property key="GlResourceType.description.DELIVERED_GOODS">
         <value xml:lang="de">Ausgelieferte Ware</value>
         <value xml:lang="en">Delivered Goods</value>
+        <value xml:lang="fa">کالاهای تحویل‌شده</value>
         <value xml:lang="fr">Produits livrés</value>
         <value xml:lang="hi_IN">वितरित सामग्री</value>
         <value xml:lang="it">Beni Consegnabili</value>
@@ -2286,6 +2438,7 @@
     <property key="GlResourceType.description.FINISHED_GOODS">
         <value xml:lang="de">Fertigerzeugnisse</value>
         <value xml:lang="en">Finished Goods</value>
+        <value xml:lang="fa">کالاهای تمام‌شده</value>
         <value xml:lang="fr">Produits finis</value>
         <value xml:lang="hi_IN">संपूर्ण माल</value>
         <value xml:lang="it">Beni Finiti</value>
@@ -2302,6 +2455,7 @@
     <property key="GlResourceType.description.LABOR">
         <value xml:lang="de">Arbeit</value>
         <value xml:lang="en">Labor</value>
+        <value xml:lang="fa">کارگر</value>
         <value xml:lang="fr">Personnel</value>
         <value xml:lang="hi_IN">परिश्रम</value>
         <value xml:lang="it">Manodopera</value>
@@ -2318,6 +2472,7 @@
     <property key="GlResourceType.description.MONEY">
         <value xml:lang="de">Geld</value>
         <value xml:lang="en">Money</value>
+        <value xml:lang="fa">مالی</value>
         <value xml:lang="fr">Finance</value>
         <value xml:lang="hi_IN">धन</value>
         <value xml:lang="it">Soldi</value>
@@ -2334,6 +2489,7 @@
     <property key="GlResourceType.description.RAW_MATERIALS">
         <value xml:lang="de">Rohstoffe</value>
         <value xml:lang="en">Raw Materials</value>
+        <value xml:lang="fa">مواد اولیه</value>
         <value xml:lang="fr">Matières premières</value>
         <value xml:lang="hi_IN">कच्चे माल</value>
         <value xml:lang="it">Materie Prime</value>
@@ -2350,6 +2506,7 @@
     <property key="GlResourceType.description.SERVICES">
         <value xml:lang="de">Dienstleistungen</value>
         <value xml:lang="en">Services</value>
+        <value xml:lang="fa">خدمات</value>
         <value xml:lang="fr">Services</value>
         <value xml:lang="hi_IN">सेवाएँ</value>
         <value xml:lang="it">Servizi</value>
@@ -2366,6 +2523,7 @@
     <property key="InvoiceItemType.description.COMM_INV_ADJ">
         <value xml:lang="de">Provisionsanpassung</value>
         <value xml:lang="en">Commission Invoice Adjustment</value>
+        <value xml:lang="fa">تعدیل فاکتور حق‌کارمزد</value>
         <value xml:lang="fr">Ajustement sur commission</value>
         <value xml:lang="hi_IN">दलाली चालान समायोजन</value>
         <value xml:lang="it">Aggiustamenti fattura provvigioni</value>
@@ -2378,6 +2536,7 @@
     <property key="InvoiceItemType.description.COMM_INV_ITEM">
         <value xml:lang="de">Provisions-Rechnungsposten</value>
         <value xml:lang="en">Commission Invoice Line Item</value>
+        <value xml:lang="fa">قلم صف فاکتور حق‌کارمزد</value>
         <value xml:lang="fr">Ajustement sur ligne de commission</value>
         <value xml:lang="hi_IN">दलाली चालान लाइन आइटम</value>
         <value xml:lang="it">Riga fattura provvigioni</value>
@@ -2390,6 +2549,7 @@
     <property key="InvoiceItemType.description.CRT_ADD_FEATURE_ADJ">
         <value xml:lang="de">Retoure zusätzlicher Bestandteile</value>
         <value xml:lang="en">Return Additional Feature</value>
+        <value xml:lang="fa">بازده قابلیت اضافی</value>
         <value xml:lang="fr">Retour d'option supplémentaire</value>
         <value xml:lang="hi_IN">रिटर्न अडिशनल फ़ीचर</value>
         <value xml:lang="it">Reso Caratteristica Addizionale</value>
@@ -2405,6 +2565,7 @@
     <property key="InvoiceItemType.description.CRT_DISCOUNT_ADJ">
         <value xml:lang="de">Retourennachlass</value>
         <value xml:lang="en">Return Discount</value>
+        <value xml:lang="fa">بازده تخفیف</value>
         <value xml:lang="fr">Remise sur retour</value>
         <value xml:lang="hi_IN">रिटर्न डिस्काउंट</value>
         <value xml:lang="it">Reso Sconto</value>
@@ -2419,6 +2580,7 @@
     <property key="InvoiceItemType.description.CRT_DPROD_ITEM">
         <value xml:lang="de">Retoure Digitales Produkt</value>
         <value xml:lang="en">Return Digital Good Item</value>
+        <value xml:lang="fa">بازده قلم کالا دیجیتال</value>
         <value xml:lang="fr">Retour de produit digital</value>
         <value xml:lang="hi_IN">रिटर्न डिजिटल सामग्री मद </value>
         <value xml:lang="it">Reso Riga Bene Digitale</value>
@@ -2434,6 +2596,7 @@
     <property key="InvoiceItemType.description.CRT_FDPROD_ITEM">
         <value xml:lang="de">Retoure Fertigprodukt/Digitales Produkt</value>
         <value xml:lang="en">Return Finished/Digital Good Item</value>
+        <value xml:lang="fa">بازده قلم کالا تمام‌شده/دیجیتال</value>
         <value xml:lang="fr">Retour de produit fini/ digital</value>
         <value xml:lang="hi_IN">रिटर्न संपूर्ण/डिजिटल सामग्री मद </value>
         <value xml:lang="it">Reso Riga Bene Finito/Digitale</value>
@@ -2449,6 +2612,7 @@
     <property key="InvoiceItemType.description.CRT_FEE_ADJ">
         <value xml:lang="de">Retourengebühr</value>
         <value xml:lang="en">Return Fee</value>
+        <value xml:lang="fa">بازده قیمت</value>
         <value xml:lang="fr">Frais de retour</value>
         <value xml:lang="hi_IN">रिटर्न शुल्क</value>
         <value xml:lang="it">Reso Onorario</value>
@@ -2464,6 +2628,7 @@
     <property key="InvoiceItemType.description.CRT_FPROD_ITEM">
         <value xml:lang="de">Retoure Fertigprodukt</value>
         <value xml:lang="en">Return Finished Good Item</value>
+        <value xml:lang="fa">بازده قلم کالا تمام‌شده</value>
         <value xml:lang="fr">Retour de produit fini</value>
         <value xml:lang="hi_IN">रिटर्न संपूर्ण माल मद</value>
         <value xml:lang="it">Reso Riga Bene Finito</value>
@@ -2479,6 +2644,7 @@
     <property key="InvoiceItemType.description.CRT_MAN_ADJ">
         <value xml:lang="de">Retoure manueller Anpassung</value>
         <value xml:lang="en">Return Manual Adjustment</value>
+        <value xml:lang="fa">بازده تعدیل دستی</value>
         <value xml:lang="fr">Ajustement manuel sur retour</value>
         <value xml:lang="hi_IN">रिटर्न मैनुअल समायोजन</value>
         <value xml:lang="it">Reso Aggiustamento Manuale</value>
@@ -2494,6 +2660,7 @@
     <property key="InvoiceItemType.description.CRT_MISC_ADJ">
         <value xml:lang="de">Retoure sonstige Gebühren</value>
         <value xml:lang="en">Return Miscellaneous Charges</value>
+        <value xml:lang="fa">بازده هزینه‌های متفرقه</value>
         <value xml:lang="fr">Frais divers sur retour</value>
         <value xml:lang="hi_IN">रिटर्न विविध प्रभार</value>
         <value xml:lang="it">Reso Commissioni Varie</value>
@@ -2509,6 +2676,7 @@
     <property key="InvoiceItemType.description.CRT_MKTG_PKG_ADJ">
         <value xml:lang="de">Retoure Marketingpaket Anpassung</value>
         <value xml:lang="en">Return Marketing Package Adjustment</value>
+        <value xml:lang="fa">بازده تعدیل بسته بازاریابی</value>
         <value xml:lang="fr">Ajustement sur retour de package</value>
         <value xml:lang="hi_IN">रिटर्न विपणन पैकेज समायोजन</value>
         <value xml:lang="it">Reso Aggiustamento Pacco Vendita</value>
@@ -2524,6 +2692,7 @@
     <property key="InvoiceItemType.description.CRT_PROD_FEATR_ITEM">
         <value xml:lang="de">Retoure Produkterweiterung</value>
         <value xml:lang="en">Return Product-Feature Item</value>
+        <value xml:lang="fa">بازده قلم محصول-قابلیت</value>
         <value xml:lang="fr">Retour d'option de produit</value>
         <value xml:lang="hi_IN">रिटर्न उत्पाद फ़ीचर मद</value>
         <value xml:lang="it">Reso Riga Prodotto-Caratteristica</value>
@@ -2539,6 +2708,7 @@
     <property key="InvoiceItemType.description.CRT_PROD_ITEM">
         <value xml:lang="de">Retoure Produktartikel</value>
         <value xml:lang="en">Return Product Item</value>
+        <value xml:lang="fa">بازده قلم محصول</value>
         <value xml:lang="fr">Retour de produit</value>
         <value xml:lang="hi_IN">रिटर्न उत्पाद मद</value>
         <value xml:lang="it">Reso Riga Prodotto</value>
@@ -2554,6 +2724,7 @@
     <property key="InvoiceItemType.description.CRT_PROMOTION_ADJ">
         <value xml:lang="de">Retoure Werbeartikel</value>
         <value xml:lang="en">Return Promotion</value>
+        <value xml:lang="fa">بازده تبلیغ</value>
         <value xml:lang="fr">Retour de promotion</value>
         <value xml:lang="hi_IN">रिटर्न संवर्धन</value>
         <value xml:lang="it">Reso Promozione</value>
@@ -2569,6 +2740,7 @@
     <property key="InvoiceItemType.description.CRT_REPLACE_ADJ">
         <value xml:lang="de">Retoure Ersatz</value>
         <value xml:lang="en">Return Replacement</value>
+        <value xml:lang="fa">بازده جایگزین</value>
         <value xml:lang="fr">Retour de produit de remplacement</value>
         <value xml:lang="hi_IN">रिटर्न प्रतिस्थापन</value>
         <value xml:lang="it">Reso Sostituzione</value>
@@ -2584,6 +2756,7 @@
     <property key="InvoiceItemType.description.CRT_SALES_TAX_ADJ">
         <value xml:lang="de">Retoure MwSt.</value>
         <value xml:lang="en">Return Sales Tax</value>
+        <value xml:lang="fa">بازده مالیات فروش</value>
         <value xml:lang="fr">Remboursement de TVA</value>
         <value xml:lang="hi_IN">रिटर्न बिक्री टैक्स</value>
         <value xml:lang="it">Reso Tasse Vendita</value>
@@ -2599,6 +2772,7 @@
     <property key="InvoiceItemType.description.CRT_SHIPPING_ADJ">
         <value xml:lang="de">Retoure Versandkosten</value>
         <value xml:lang="en">Return Shipping and Handling</value>
+        <value xml:lang="fa">بازده حمل‌ونقل و اداره‌کردن</value>
         <value xml:lang="fr">Retour de frais d'expédition</value>
         <value xml:lang="hi_IN">रिटर्न शिपिंग और हैंडलिंग</value>
         <value xml:lang="it">Reso Spese di Spedizione e Imballaggio</value>
@@ -2614,6 +2788,7 @@
     <property key="InvoiceItemType.description.CRT_SPROD_ITEM">
         <value xml:lang="de">Retoure Service-Produkt</value>
         <value xml:lang="en">Return Service Product Item</value>
+        <value xml:lang="fa">بازده قلم خدمات محصول</value>
         <value xml:lang="fr">Retour de service</value>
         <value xml:lang="hi_IN">रिटर्न सेवा उत्पाद मद</value>
         <value xml:lang="it">Reso Riga Prodotto Servizio</value>
@@ -2629,6 +2804,7 @@
     <property key="InvoiceItemType.description.CRT_SURCHARGE_ADJ">
         <value xml:lang="de">Retoure Zuschlag</value>
         <value xml:lang="en">Return Surcharge</value>
+        <value xml:lang="fa">بازده اضافه‌بار</value>
         <value xml:lang="fr">Retour de surcoût exceptionnel</value>
         <value xml:lang="hi_IN">रिटर्न अधिभार</value>
         <value xml:lang="it">Reso Supplementare</value>
@@ -2644,6 +2820,7 @@
     <property key="InvoiceItemType.description.CRT_TE_ITEM">
         <value xml:lang="de">Retoure Zeiteintrag</value>
         <value xml:lang="en">Return Time-Entry Item</value>
+        <value xml:lang="fa">بازده قلم زمان ورود</value>
         <value xml:lang="fr">Retour de prestation horaire</value>
         <value xml:lang="hi_IN">रिटर्न समय-प्रवेश मद</value>
         <value xml:lang="it">Reso Riga Voce-Tempo</value>
@@ -2659,6 +2836,7 @@
     <property key="InvoiceItemType.description.CRT_WARRANTY_ADJ">
         <value xml:lang="de">Retoure Garantie</value>
         <value xml:lang="en">Return Warranty</value>
+        <value xml:lang="fa">بازده تضمین‌محصول</value>
         <value xml:lang="fr">Retour de garantie</value>
         <value xml:lang="hi_IN">रिटर्न वारंटी</value>
         <value xml:lang="it">Reso Garanzia</value>
@@ -2674,6 +2852,7 @@
     <property key="InvoiceItemType.description.CRT_WE_ITEM">
         <value xml:lang="de">Retoure Arbeitseinsatz</value>
         <value xml:lang="en">Return Work-Effort Item</value>
+        <value xml:lang="fa">بازده قلم تلاش کاری</value>
         <value xml:lang="fr">Retour de prestation</value>
         <value xml:lang="hi_IN">रिटर्न कार्य-प्रयास मद</value>
         <value xml:lang="it">Reso Riga Impegno di Lavoro</value>
@@ -2689,6 +2868,7 @@
     <property key="InvoiceItemType.description.FEE">
         <value xml:lang="de">Gebühr</value>
         <value xml:lang="en">Invoice Fee (Sales)</value>
+        <value xml:lang="fa">فاکتور قیمت (فروش)</value>
         <value xml:lang="fr">Frais de facturation (ventes)</value>
         <value xml:lang="hi_IN">चालान शुल्क</value>
         <value xml:lang="it">Fattura Onorario</value>
@@ -2704,6 +2884,7 @@
     <property key="InvoiceItemType.description.INVOICE_ADJ">
         <value xml:lang="de">Rechnungsanpassung</value>
         <value xml:lang="en">Invoice Adjustment</value>
+        <value xml:lang="fa">تعدیل فاکتور</value>
         <value xml:lang="fr">Régularisation de facture</value>
         <value xml:lang="hi_IN">चालान समायोजन</value>
         <value xml:lang="it">Fattura </value>
@@ -2719,6 +2900,7 @@
     <property key="InvoiceItemType.description.INVOICE_ITM_ADJ">
         <value xml:lang="de">Positionsanpassung</value>
         <value xml:lang="en">Invoice Item Adjustment</value>
+        <value xml:lang="fa">تعدیل قلم فاکتور</value>
         <value xml:lang="fr">Régularisation de ligne de facturation</value>
         <value xml:lang="hi_IN">चालान मद समायोजन</value>
         <value xml:lang="it">Fattura Riga Aggiustamento</value>
@@ -2734,6 +2916,7 @@
     <property key="InvoiceItemType.description.INV_ADD_FEATURE">
         <value xml:lang="de">Sonderanpassung</value>
         <value xml:lang="en">Invoice Additional Feature (Sales)</value>
+        <value xml:lang="fa">فاکتور قابلیت اضافی (فروش)</value>
         <value xml:lang="fr">Facturation d'option supplémentaire (ventes)</value>
         <value xml:lang="hi_IN">चालान अतिरिक्त सुविधा</value>
         <value xml:lang="it">Fattura Caratteristica Addizionale</value>
@@ -2749,6 +2932,7 @@
     <property key="InvoiceItemType.description.INV_DISCOUNT_ADJ">
         <value xml:lang="de">Rechnungsrabatt</value>
         <value xml:lang="en">Invoice Discount (Sales)</value>
+        <value xml:lang="fa">فاکتور تخفیف (فروش)</value>
         <value xml:lang="fr">Remise sur facture (ventes)</value>
         <value xml:lang="hi_IN">चालान डिस्काउंट</value>
         <value xml:lang="it">Fattura Sconto</value>
@@ -2764,6 +2948,7 @@
     <property key="InvoiceItemType.description.INV_DPROD_ITEM">
         <value xml:lang="de">Digitales Produkt</value>
         <value xml:lang="en">Invoice Digital Good Item (Sales)</value>
+        <value xml:lang="fa">فاکتور قلم کالا دیجیتال (فروش)</value>
         <value xml:lang="fr">Facturation de service digital (ventes)</value>
         <value xml:lang="hi_IN">चालान डिजिटल सामग्री मद</value>
         <value xml:lang="it">Fattura Riga Bene Digitale</value>
@@ -2779,6 +2964,7 @@
     <property key="InvoiceItemType.description.INV_FDPROD_ITEM">
         <value xml:lang="de">Artikel/Digitales Produkt</value>
         <value xml:lang="en">Invoice Finished/Digital Good Item (Sales)</value>
+        <value xml:lang="fa">فاکتور قلم کالا تمام‌شده/دیجیتال (فروش)</value>
         <value xml:lang="fr">Facturation produit fini/ digital (ventes)</value>
         <value xml:lang="hi_IN">चालान तैयार/डिजिटल सामग्री मद</value>
         <value xml:lang="it">Fattura Riga Bene Finito/Digitale</value>
@@ -2794,6 +2980,7 @@
     <property key="InvoiceItemType.description.INV_FPROD_ITEM">
         <value xml:lang="de">Artikel</value>
         <value xml:lang="en">Invoice Finished Good Item (Sales)</value>
+        <value xml:lang="fa">فاکتور قلم کالا تمام‌شده (فروش)</value>
         <value xml:lang="fr">Facturation produit fini (ventes)</value>
         <value xml:lang="hi_IN">चालान संपूर्ण सामग्री मद</value>
         <value xml:lang="it">Fattura Riga Bene Finito</value>
@@ -2809,6 +2996,7 @@
     <property key="InvoiceItemType.description.INV_INTRST_CHRG">
         <value xml:lang="de">Zinsgebühren</value>
         <value xml:lang="en">Invoice Interest Charge</value>
+        <value xml:lang="fa">فاکتور هزینه بهره</value>
         <value xml:lang="hi_IN">चालान ब्याज मूल्य</value>
         <value xml:lang="it">Interesse ricaricato fattura</value>
         <value xml:lang="ja">請求 利息手数料</value>
@@ -2820,6 +3008,7 @@
     <property key="InvoiceItemType.description.INV_MISC_CHARGE">
         <value xml:lang="de">Sonstige Gebühren</value>
         <value xml:lang="en">Invoice Miscellaneous Charges (Sales)</value>
+        <value xml:lang="fa">فاکتور هزینه‌های متفرقه (فروش)</value>
         <value xml:lang="fr">Facturation charges diverses (ventes)</value>
         <value xml:lang="hi_IN">चालान विविध प्रभार</value>
         <value xml:lang="it">Fattura Commissioni Varie</value>
@@ -2835,6 +3024,7 @@
     <property key="InvoiceItemType.description.INV_PROD_FEATR_ITEM">
         <value xml:lang="de">Produkterweiterung</value>
         <value xml:lang="en">Invoice Product-Feature Item (Sales)</value>
+        <value xml:lang="fa">فاکتور قلم محصول-قابلیت (فروش)</value>
         <value xml:lang="fr">Facturation d'option de produit (ventes)</value>
         <value xml:lang="hi_IN">चालान उत्पाद फ़ीचर मद</value>
         <value xml:lang="it">Fattura Riga Prodotto-Caratteristica</value>
@@ -2850,6 +3040,7 @@
     <property key="InvoiceItemType.description.INV_PROD_ITEM">
         <value xml:lang="de">Artikel</value>
         <value xml:lang="en">Invoice Product Item (Sales)</value>
+        <value xml:lang="fa">فروش قلم محصول (فروش)</value>
         <value xml:lang="fr">Facturation de produit (ventes)</value>
         <value xml:lang="hi_IN">चालान उत्पाद मद</value>
         <value xml:lang="it">Fattura Riga Prodotto</value>
@@ -2865,6 +3056,7 @@
     <property key="InvoiceItemType.description.INV_PROMOTION_ADJ">
         <value xml:lang="de">Promotion</value>
         <value xml:lang="en">Invoice Promotion (Sales)</value>
+        <value xml:lang="fa">فاکتور تبلیغ (فروش)</value>
         <value xml:lang="fr">Remise promotionnelle sur facture (ventes)</value>
         <value xml:lang="hi_IN">चालान संवर्धन</value>
         <value xml:lang="it">Fattura Promozione</value>
@@ -2880,6 +3072,7 @@
     <property key="InvoiceItemType.description.INV_SALES_TAX">
         <value xml:lang="de">MwSt.</value>
         <value xml:lang="en">Invoice Sales Tax (Sales)</value>
+        <value xml:lang="fa">فاکتور مالیات فروش (فروش)</value>
         <value xml:lang="fr">Taxes sur vente facturées (ventes)</value>
         <value xml:lang="hi_IN">चालान बिक्री टैक्स</value>
         <value xml:lang="it">Fattura Tasse Vendita</value>
@@ -2895,6 +3088,7 @@
     <property key="InvoiceItemType.description.INV_SHIPPING_CHARGES">
         <value xml:lang="de">Versandkosten</value>
         <value xml:lang="en">Invoice Shipping and Handling (Sales)</value>
+        <value xml:lang="fa">فاکتور حمل‌ونقل و اداره‌کردن</value>
         <value xml:lang="fr">Frais d'expédition facturés (ventes)</value>
         <value xml:lang="hi_IN">चालान शिपिंग और हैंडलिंग</value>
         <value xml:lang="it">Fattura Spese di Spedizione e Imballaggio</value>
@@ -2910,6 +3104,7 @@
     <property key="InvoiceItemType.description.INV_SPROD_ITEM">
         <value xml:lang="de">Dienstleistung</value>
         <value xml:lang="en">Invoice Service Product Item (Sales)</value>
+        <value xml:lang="fa">فاکتور قلم خدمات محصول (فروش)</value>
         <value xml:lang="fr">Facturation de service/ produit (ventes)</value>
         <value xml:lang="hi_IN">चालान सेवा उत्पाद मद</value>
         <value xml:lang="it">Fattura Riga Prodotto Servizio</value>
@@ -2925,6 +3120,7 @@
     <property key="InvoiceItemType.description.INV_SURCHARGE_ADJ">
         <value xml:lang="de">Zuschlag</value>
         <value xml:lang="en">Invoice Surcharge (Sales)</value>
+        <value xml:lang="fa">فاکتور اضافه‌بار (فروش)</value>
         <value xml:lang="fr">Facturation de surcoût (ventes)</value>
         <value xml:lang="hi_IN">चालान अधिभार</value>
         <value xml:lang="it">Fattura Supplementare</value>
@@ -2940,6 +3136,7 @@
     <property key="InvoiceItemType.description.INV_TE_ITEM">
         <value xml:lang="de">Zeiteintrag</value>
         <value xml:lang="en">Invoice Time-Entry Item (Sales)</value>
+        <value xml:lang="fa">فاکتور قلم زمان ورود</value>
         <value xml:lang="fr">Facturation de prestation horaire (ventes)</value>
         <value xml:lang="hi_IN">चालान समय-प्रवेश मद</value>
         <value xml:lang="it">Fattura Riga Voce-Tempo</value>
@@ -2955,6 +3152,7 @@
     <property key="InvoiceItemType.description.INV_WARRANTY_ADJ">
         <value xml:lang="de">Garantie</value>
         <value xml:lang="en">Invoice Warranty (Sales)</value>
+        <value xml:lang="fa">فاکتور تضمین‌محصول (فروش)</value>
         <value xml:lang="fr">Facturation de garantie (ventes)</value>
         <value xml:lang="hi_IN">चालान वारंटी</value>
         <value xml:lang="it">Fattura Garanzia</value>
@@ -2970,6 +3168,7 @@
     <property key="InvoiceItemType.description.INV_WE_ITEM">
         <value xml:lang="de">Arbeitseinsatz</value>
         <value xml:lang="en">Invoice Work-Effort Item (Sales)</value>
+        <value xml:lang="fa">فاکتور قلم تلاش کاری (فروش)</value>
         <value xml:lang="fr">Facturation de prestation (ventes)</value>
         <value xml:lang="hi_IN">चालान कार्य-प्रयास मद</value>
         <value xml:lang="it">Fattura Riga Impegno di Lavoro</value>
@@ -2985,6 +3184,7 @@
     <property key="InvoiceItemType.description.ITM_ADD_FEATURE">
         <value xml:lang="de">Sonderanpassung</value>
         <value xml:lang="en">Invoice Item Additional Feature (Sales)</value>
+        <value xml:lang="fa">فاکتور قلم قابلیت اضافی (فروش)</value>
         <value xml:lang="fr">Facturation d'options additionnelles (ventes)</value>
         <value xml:lang="hi_IN">चालान मद अतिरिक्त फ़ीचर</value>
         <value xml:lang="it">Invoice Riga Caratteristica Addizionale</value>
@@ -3000,6 +3200,7 @@
     <property key="InvoiceItemType.description.ITM_DISCOUNT_ADJ">
         <value xml:lang="de">Positionsrabatt</value>
         <value xml:lang="en">Invoice Item Discount (Sales)</value>
+        <value xml:lang="fa">فاکتور تخفیف قلم (فروش)</value>
         <value xml:lang="fr">Remise sur ligne de facturation (ventes)</value>
         <value xml:lang="hi_IN">चालान मद डिस्काउंट</value>
         <value xml:lang="it">Fattura Riga Sconto</value>
@@ -3015,6 +3216,7 @@
     <property key="InvoiceItemType.description.ITM_FEE">
         <value xml:lang="de">Rechnungsposten Gebühr</value>
         <value xml:lang="en">Invoice Item Fee (Sales)</value>
+        <value xml:lang="fa">فاکتور قیمت قلم (فروش)</value>
         <value xml:lang="fr">Frais sur ligne de facturation (ventes)</value>
         <value xml:lang="hi_IN">चालान मद शुल्क</value>
         <value xml:lang="it">Fattura Riga Onorario</value>
@@ -3030,6 +3232,7 @@
     <property key="InvoiceItemType.description.ITM_MISC_CHARGE">
         <value xml:lang="de">Rechnungsposten zusätzliche Gebühren</value>
         <value xml:lang="en">Invoice Item Miscellaneous Charges (Sales)</value>
+        <value xml:lang="fa">فاکتور هزینه متفرقه قلم(فروش)</value>
         <value xml:lang="fr">Frais divers sur ligne de facturation (ventes)</value>
         <value xml:lang="hi_IN">चालान मद विविध व्यय</value>
         <value xml:lang="it">Fattura Riga Commissioni Varie</value>
@@ -3045,6 +3248,7 @@
     <property key="InvoiceItemType.description.ITM_PROMOTION_ADJ">
         <value xml:lang="de">Rechnungsposten Aktion</value>
         <value xml:lang="en">Invoice Item Promotion (Sales)</value>
+        <value xml:lang="fa">فاکتور تبلیغ قلم (فروش)</value>
         <value xml:lang="fr">Promotion sur ligne de facturation (ventes)</value>
         <value xml:lang="hi_IN">चालान मद संवर्धन</value>
         <value xml:lang="it">Fattura Riga Promozione</value>
@@ -3060,6 +3264,7 @@
     <property key="InvoiceItemType.description.ITM_REPLACE_ADJ">
         <value xml:lang="de">Rechnungsposten Ersatzartikel</value>
         <value xml:lang="en">Invoice Item Replacement (Sales)</value>
+        <value xml:lang="fa">فاکتور جایگزین قلم (فروش)</value>
         <value xml:lang="fr">Echange sur ligne de facturation (ventes)</value>
         <value xml:lang="hi_IN">चालान मद प्रतिस्थापन</value>
         <value xml:lang="it">Fattura Riga Sostituzione</value>
@@ -3075,6 +3280,7 @@
     <property key="InvoiceItemType.description.ITM_SALES_TAX">
         <value xml:lang="de">Rechnungsposten MwSt.</value>
         <value xml:lang="en">Invoice Item Sales Tax (Sales)</value>
+        <value xml:lang="fa">فاکتور مالیات فروش قلم (فروش)</value>
         <value xml:lang="fr">Ligne de TVA (ventes)</value>
         <value xml:lang="hi_IN">चालान मद बिक्री टैक्स</value>
         <value xml:lang="it">Fattura Riga Tasse Vendita</value>
@@ -3090,6 +3296,7 @@
     <property key="InvoiceItemType.description.ITM_SHIPPING_CHARGES">
         <value xml:lang="de">Rechnungsposten Versandkosten</value>
         <value xml:lang="en">Invoice Item Shipping and Handling (Sales)</value>
+        <value xml:lang="fa">فاکتور حمل‌ونقل و اداره‌کردن قلم (فروش)</value>
         <value xml:lang="fr">Frais d'expédition sur ligne de facturation (ventes)</value>
         <value xml:lang="hi_IN">चालान मद शिपिंग और हैंडलिंग</value>
         <value xml:lang="it">Fattura Riga Spese di Spedizione e Imballaggio</value>
@@ -3105,6 +3312,7 @@
     <property key="InvoiceItemType.description.ITM_SURCHARGE_ADJ">
         <value xml:lang="de">Rechnungsposten Zuschlag</value>
         <value xml:lang="en">Invoice Item Surcharge (Sales)</value>
+        <value xml:lang="fa">فاکتور قلم اضافه‌بار (فروش)</value>
         <value xml:lang="fr">Surcoût sur ligne de facturation (ventes)</value>
         <value xml:lang="hi_IN">चालान मद अधिभार</value>
         <value xml:lang="it">Fattura Riga Supplementare</value>
@@ -3120,6 +3328,7 @@
     <property key="InvoiceItemType.description.ITM_WARRANTY_ADJ">
         <value xml:lang="de">Rechnungsposten Garantie</value>
         <value xml:lang="en">Invoice Item Warranty (Sales)</value>
+        <value xml:lang="fa">فاکتور قلم تضمین‌محصول (فروش)</value>
         <value xml:lang="fr">Garantie sur ligne de facturation (ventes)</value>
         <value xml:lang="hi_IN">चालान मद वारंटी</value>
         <value xml:lang="it">Fattura Riga Garanzia</value>
@@ -3135,6 +3344,7 @@
     <property key="InvoiceItemType.description.PAYROL">
         <value xml:lang="de">Gehalt</value>
         <value xml:lang="en">Payrol</value>
+        <value xml:lang="fa">دستمزد</value>
         <value xml:lang="hi_IN">वेतन</value>
         <value xml:lang="it">Paghe</value>
         <value xml:lang="ja">ペイロール</value>
@@ -3146,6 +3356,7 @@
     <property key="InvoiceItemType.description.PAYROL_ADV_PAY">
         <value xml:lang="de">Vorauszahlung</value>
         <value xml:lang="en">Advance Pay</value>
+        <value xml:lang="fa">پیش پرداخت</value>
         <value xml:lang="hi_IN">अग्रिम वेतन</value>
         <value xml:lang="it">Paghe avanzate</value>
         <value xml:lang="ja">前払金</value>
@@ -3157,6 +3368,7 @@
     <property key="InvoiceItemType.description.PAYROL_BONUS">
         <value xml:lang="de">Bonus</value>
         <value xml:lang="en">Bonus</value>
+        <value xml:lang="fa">جایزه</value>
         <value xml:lang="hi_IN">बोनस</value>
         <value xml:lang="it">Premio</value>
         <value xml:lang="ja">ボーナス</value>
@@ -3168,6 +3380,7 @@
     <property key="InvoiceItemType.description.PAYROL_COMMISSION">
         <value xml:lang="de">Provision</value>
         <value xml:lang="en">Commission</value>
+        <value xml:lang="fa">حق‌کارمزد</value>
         <value xml:lang="hi_IN">दलाली</value>
         <value xml:lang="it">Provvigione</value>
         <value xml:lang="ja">委託手数料</value>
@@ -3208,6 +3421,7 @@
     <property key="InvoiceItemType.description.PAYROL_DD_CHAR_DONAT">
         <value xml:lang="de">Gemeinnützige Spende</value>
         <value xml:lang="en">Charity Donation</value>
+        <value xml:lang="fa">اهداء خیرات</value>
         <value xml:lang="hi_IN">धर्मार्थ दान</value>
         <value xml:lang="it">Donazione carità</value>
         <value xml:lang="ja">慈善寄付金</value>
@@ -3230,6 +3444,7 @@
     <property key="InvoiceItemType.description.PAYROL_DD_FROM_GROSS">
         <value xml:lang="de">Abzüge vom Bruttobetrag</value>
         <value xml:lang="en">Deductions from Gross</value>
+        <value xml:lang="fa">قیاس‌ها از ناخالص</value>
         <value xml:lang="hi_IN">सकल से कटौती</value>
         <value xml:lang="it">Deduzione dal lordo</value>
         <value xml:lang="ja">総額控除</value>
@@ -3241,6 +3456,7 @@
     <property key="InvoiceItemType.description.PAYROL_DD_MISC">
         <value xml:lang="de">Sonstige Abzüge</value>
         <value xml:lang="en">Miscellaneous Deduction</value>
+        <value xml:lang="fa">قیاس‌ متفرقه</value>
         <value xml:lang="hi_IN">विविध कटौती</value>
         <value xml:lang="it">Deduzione varie</value>
         <value xml:lang="ja">その他控除</value>
@@ -3252,6 +3468,7 @@
     <property key="InvoiceItemType.description.PAYROL_DD_REPAY">
         <value xml:lang="de">Vorauszahlung</value>
         <value xml:lang="en">Advance Repayment</value>
+        <value xml:lang="fa">باز پیش پرداخت</value>
         <value xml:lang="hi_IN">अग्रिम चुकौती</value>
         <value xml:lang="it">Anticipo rimborso</value>
         <value xml:lang="ja">前払給与</value>
@@ -3272,6 +3489,7 @@
     <property key="InvoiceItemType.description.PAYROL_DD_SAL_TIMOFF">
         <value xml:lang="de">Unbezahlte Abwesenheit</value>
         <value xml:lang="en">Unpaid Salary Time off.</value>
+        <value xml:lang="fa">زمان پرداخت حقوق معوقه</value>
         <value xml:lang="hi_IN">बकाया वेतन समय से</value>
         <value xml:lang="it">Salario da pagare tempo libero.</value>
         <value xml:lang="ja">未払給与休職</value>
@@ -3290,6 +3508,7 @@
     <property key="InvoiceItemType.description.PAYROL_DD_UNION">
         <value xml:lang="de">Gewerkschaftsbeitrag</value>
         <value xml:lang="en">Union Dues</value>
+        <value xml:lang="fa">مجموعه قابل‌پرداخت‌ها</value>
         <value xml:lang="hi_IN">संघ देय</value>
         <value xml:lang="it">Diritti sindacali dovuti</value>
         <value xml:lang="ja">組合費</value>
@@ -3301,6 +3520,7 @@
     <property key="InvoiceItemType.description.PAYROL_DD_WAG_GARN">
         <value xml:lang="de">Lohnpfändung</value>
         <value xml:lang="en">Wage Garnishment</value>
+        <value xml:lang="fa">دستمزد تزئینات</value>
         <value xml:lang="hi_IN">मजदूरी गर्निश्मेंट</value>
         <value xml:lang="it">Salario</value>
         <value xml:lang="ja">賃金差押</value>
@@ -3312,6 +3532,7 @@
     <property key="InvoiceItemType.description.PAYROL_EARN_HOURS">
         <value xml:lang="de">Einkommen und Stunden</value>
         <value xml:lang="en">Earnings and Hours</value>
+        <value xml:lang="fa">درآمدها و ساعت‌ها</value>
         <value xml:lang="hi_IN">आय और घंटे</value>
         <value xml:lang="it">Guadagni e ore</value>
         <value xml:lang="ja">収入および時間</value>
@@ -3323,6 +3544,7 @@
     <property key="InvoiceItemType.description.PAYROL_HRLY_RATE">
         <value xml:lang="de">Stundensatz</value>
         <value xml:lang="en">Hourly Rate</value>
+        <value xml:lang="fa">نرخ ساعتی</value>
         <value xml:lang="hi_IN">घंटा दर</value>
         <value xml:lang="it">Percentuale oraria</value>
         <value xml:lang="ja">時間単価</value>
@@ -3334,6 +3556,7 @@
     <property key="InvoiceItemType.description.PAYROL_HRLY_RATE_SIC">
         <value xml:lang="de">Lohnfortzahlung im Krankheitsfall</value>
         <value xml:lang="en">Sick Hourly Rate</value>
+        <value xml:lang="fa">نرخ ساعتی بیماری</value>
         <value xml:lang="it">Percentuale oraria per la malattia</value>
         <value xml:lang="ja">疾病時間単価</value>
         <value xml:lang="pt">Taxa por hora de doença</value>
@@ -3344,6 +3567,7 @@
     <property key="InvoiceItemType.description.PAYROL_MIL_REIMB">
         <value xml:lang="de">Reisekostenausgleich</value>
         <value xml:lang="en">Mileage Reimbursement</value>
+        <value xml:lang="fa">سنجش بازپرداخت</value>
         <value xml:lang="hi_IN">लाभ प्रतिपूर्ति</value>
         <value xml:lang="it">Rimborso chilometrico</value>
         <value xml:lang="ja">交通費補助</value>
@@ -3355,6 +3579,7 @@
     <property key="InvoiceItemType.description.PAYROL_OFF_EXP_REIMB">
         <value xml:lang="de">Büroauslagen</value>
         <value xml:lang="en">Office Exp. reimbursement</value>
+        <value xml:lang="fa">بازپرداخت مخارج اداری</value>
         <value xml:lang="hi_IN">दफ्तर खर्च प्रतिपूर्ति</value>
         <value xml:lang="it">Rimborso spese ufficio</value>
         <value xml:lang="ja">勤務補助</value>
@@ -3366,6 +3591,7 @@
     <property key="InvoiceItemType.description.PAYROL_PAYPER_OVRPAY">
         <value xml:lang="de">Überstundenzuschlag</value>
         <value xml:lang="en">Pay Period adj(over pay)</value>
+        <value xml:lang="fa">تعدیل بازه زمانی پرداخت(بیش پرداخت)</value>
         <value xml:lang="hi_IN">भुगतान अवधि समायोजन(वेतन पर)</value>
         <value xml:lang="it">Pagamento periodo avanzato</value>
         <value xml:lang="ja">支払期間調整(過支払)</value>
@@ -3377,6 +3603,7 @@
     <property key="InvoiceItemType.description.PAYROL_PAYPER_PAY">
         <value xml:lang="de">Überstundenzuschlag</value>
         <value xml:lang="en">Pay Period adj pay</value>
+        <value xml:lang="fa">تعدیل بازه زمانی پرداخت(پرداخت)</value>
         <value xml:lang="hi_IN">भुगतान अवधि समायोजन वेतन</value>
         <value xml:lang="it">Pagamento periodo avanzato pagato</value>
         <value xml:lang="ja">支払期間調整支払</value>
@@ -3388,6 +3615,7 @@
     <property key="InvoiceItemType.description.PAYROL_SALARY">
         <value xml:lang="de">Gehalt</value>
         <value xml:lang="en">Salary</value>
+        <value xml:lang="fa">حقوق</value>
         <value xml:lang="fr">Salaire</value>
         <value xml:lang="hi_IN">वेतन</value>
         <value xml:lang="it">Salario</value>
@@ -3400,6 +3628,7 @@
     <property key="InvoiceItemType.description.PAYROL_SALARY_SICK">
         <value xml:lang="de">Krankengeld</value>
         <value xml:lang="en">Sick Salary</value>
+        <value xml:lang="fa">حقوق بیماری</value>
         <value xml:lang="fr">Salaire en cas de maladie</value>
         <value xml:lang="hi_IN">बीमारी वेतन</value>
         <value xml:lang="it">Salario per la malattia</value>
@@ -3412,6 +3641,7 @@
     <property key="InvoiceItemType.description.PAYROL_SALARY_VAC">
         <value xml:lang="de">Urlaubsgeld</value>
         <value xml:lang="en">Vacation Salary</value>
+        <value xml:lang="fa">حقوق مرخصی</value>
         <value xml:lang="fr">Salaire vacataire</value>
         <value xml:lang="hi_IN">अवकाश वेतन</value>
         <value xml:lang="it">Salario per le ferie</value>
@@ -3424,6 +3654,7 @@
     <property key="InvoiceItemType.description.PAYROL_SOC_SEC_EMPL">
         <value xml:lang="de">Sozialversicherungsbeitrag</value>
         <value xml:lang="en">Social Security Employee</value>
+        <value xml:lang="fa">کارمندان امنیت اجتماعی</value>
         <value xml:lang="fr">Sécurité Social salarié</value>
         <value xml:lang="it">Previdenza sociale impiegato</value>
         <value xml:lang="ja">社会保障被雇用者</value>
@@ -3435,6 +3666,7 @@
     <property key="InvoiceItemType.description.PAYROL_TAXES">
         <value xml:lang="de">Steuern</value>
         <value xml:lang="en">Taxes</value>
+        <value xml:lang="fa">مالیات</value>
         <value xml:lang="fr">Taxes</value>
         <value xml:lang="hi_IN">करों</value>
         <value xml:lang="it">Tasse sulle paghe</value>
@@ -3447,6 +3679,7 @@
     <property key="InvoiceItemType.description.PAYROL_TAX_FEDERAL">
         <value xml:lang="de">Einbehaltene Steuern</value>
         <value xml:lang="en">Federal Withholding</value>
+        <value xml:lang="fa">منع فدرال</value>
         <value xml:lang="fr">Taxe SS sur salaire</value>
         <value xml:lang="hi_IN">संघीय टैक्स withholding</value>
         <value xml:lang="it">Tasse federali trattenute</value>
@@ -3468,6 +3701,7 @@
     <property key="InvoiceItemType.description.PAYROL_TAX_MED_EMPL">
         <value xml:lang="de">Renten- und Pflegeversicherung</value>
         <value xml:lang="en">Medicare Employee</value>
+        <value xml:lang="fa">کارمند مدیکر</value>
         <value xml:lang="hi_IN">चिकित्सा कर्मचारी</value>
         <value xml:lang="it">Trattenute per la salute impiegato</value>
         <value xml:lang="ja">老人医療制度被雇用者</value>
@@ -3479,6 +3713,7 @@
     <property key="InvoiceItemType.description.PINVOICE_ADJ">
         <value xml:lang="de">Rechnungskorrektur</value>
         <value xml:lang="en">Invoice Adjustment</value>
+        <value xml:lang="fa">تعدیل فاکتور</value>
         <value xml:lang="fr">Régularisation de facture</value>
         <value xml:lang="hi_IN">चालान समायोजन</value>
         <value xml:lang="it">Fattura Aggiustamento</value>
@@ -3494,6 +3729,7 @@
     <property key="InvoiceItemType.description.PINVOICE_ITM_ADJ">
         <value xml:lang="de">Korrekturbuchung</value>
         <value xml:lang="en">Invoice Item Adjustment</value>
+        <value xml:lang="fa">فاکتور تعدیل قلم</value>
         <value xml:lang="fr">Régularisation de ligne de facturation</value>
         <value xml:lang="hi_IN">चालान मद समायोजन</value>
         <value xml:lang="it">Fattura Riga Aggiustamento</value>
@@ -3509,6 +3745,7 @@
     <property key="InvoiceItemType.description.PINV_ADD_FEATURE">
         <value xml:lang="de">Zusätzliches Merkmal</value>
         <value xml:lang="en">Invoice Additional Feature (Purchase)</value>
+        <value xml:lang="fa">فاکتور قابلیت اضافی (خرید)</value>
         <value xml:lang="fr">Facturation d'option supplémentaire (achat)</value>
         <value xml:lang="hi_IN">चालान अतिरिक्त फ़ीचर</value>
         <value xml:lang="it">Fattura Caratteristica Addizionale</value>
@@ -3524,6 +3761,7 @@
     <property key="InvoiceItemType.description.PINV_DISCOUNT_ADJ">
         <value xml:lang="de">Rechnungsrabatt</value>
         <value xml:lang="en">Invoice Discount (Purchase)</value>
+        <value xml:lang="fa">فاکتور تخفیف (خرید)</value>
         <value xml:lang="fr">Remise sur facture (achat)</value>
         <value xml:lang="hi_IN">चालान डिस्काउंट</value>
         <value xml:lang="it">Fattura Sconto</value>
@@ -3539,6 +3777,7 @@
     <property key="InvoiceItemType.description.PINV_DPROD_ITEM">
         <value xml:lang="de">Digitales Produkt</value>
         <value xml:lang="en">Invoice Digital Good Item (Purchase)</value>
+        <value xml:lang="fa">فاکتور قلم کالا دیجیتال (خرید)</value>
         <value xml:lang="fr">Facturation de service digital (achat)</value>
         <value xml:lang="hi_IN">चालान डिजिटल सामग्री मद</value>
         <value xml:lang="it">Fattura Riga Bene Digitale</value>
@@ -3554,6 +3793,7 @@
     <property key="InvoiceItemType.description.PINV_FDPROD_ITEM">
         <value xml:lang="de">Fertigprodukt/Digitales Produkt</value>
         <value xml:lang="en">Invoice Finished/Digital Good Item (Purchase)</value>
+        <value xml:lang="fa">فاکتور قلم کالا تمام‌شده/دیجیتال (خرید)</value>
         <value xml:lang="fr">Facturation de service digital (achat)</value>
         <value xml:lang="hi_IN">चालान तैयार/डिजिटल सामग्री मद</value>
         <value xml:lang="it">Fattura Riga Bene Finito/Digitale</value>
@@ -3569,6 +3809,7 @@
     <property key="InvoiceItemType.description.PINV_FPROD_ITEM">
         <value xml:lang="de">Rechnung Fertigprodukt</value>
         <value xml:lang="en">Invoice Finished Good Item (Purchase)</value>
+        <value xml:lang="fa">فاکتور قلم کالا تمام‌شده (خرید)</value>
         <value xml:lang="fr">Facturation produit fini (achat)</value>
         <value xml:lang="hi_IN">चालान संपूर्ण सामग्री मद</value>
         <value xml:lang="it">Fattura Riga Bene Finito</value>
@@ -3584,6 +3825,7 @@
     <property key="InvoiceItemType.description.PINV_FXASTPRD_ITEM">
         <value xml:lang="de">Anlagegut</value>
         <value xml:lang="en">Invoice Fixed Asset Product Item</value>
+        <value xml:lang="fa">فاکتور قلم محصول دارایی ثابت</value>
         <value xml:lang="fr">Facturation d'immobilisation</value>
         <value xml:lang="hi_IN">चालान अचल संपत्ति उत्पाद मद</value>
         <value xml:lang="it">Fattura Riga Cespite Prodotto</value>
@@ -3599,6 +3841,7 @@
     <property key="InvoiceItemType.description.PINV_INVPRD_ITEM">
         <value xml:lang="de">Ware</value>
         <value xml:lang="en">Invoice Inventory Product Item</value>
+        <value xml:lang="fa">فاکتور قلم محصول موجودی‌کالا</value>
         <value xml:lang="fr">Facturation de produit d'inventaire</value>
         <value xml:lang="hi_IN">चालान वस्तुसूची उत्पाद मद</value>
         <value xml:lang="it">Fattura Riga Inventario Prodotto</value>
@@ -3614,6 +3857,7 @@
     <property key="InvoiceItemType.description.PINV_MISC_CHARGE">
         <value xml:lang="de">Sonstige Gebühren</value>
         <value xml:lang="en">Invoice Miscellaneous Charges (Purchase)</value>
+        <value xml:lang="fa">فاکتور هزینه متفرقه (خرید)</value>
         <value xml:lang="fr">Facturation de charges diverses (achat)</value>
         <value xml:lang="hi_IN">चालान विविध प्रभार</value>
         <value xml:lang="it">Fattura Commissioni Varie</value>
@@ -3629,6 +3873,7 @@
     <property key="InvoiceItemType.description.PINV_PROD_FEATR_ITEM">
         <value xml:lang="de">Produktmerkmal</value>
         <value xml:lang="en">Invoice Product-Feature Item (Purchase)</value>
+        <value xml:lang="fa">فاکتور قلم محصول-قابلیت (خرید)</value>
         <value xml:lang="fr">Facturation d'option de produit (achat)</value>
         <value xml:lang="hi_IN">चालान उत्पाद फ़ीचर मद</value>
         <value xml:lang="it">Fattura Riga Prodotto-Caratteristica</value>
@@ -3644,6 +3889,7 @@
     <property key="InvoiceItemType.description.PINV_PROD_ITEM">
         <value xml:lang="de">Produkt</value>
         <value xml:lang="en">Invoice Product Item (Purchase)</value>
+        <value xml:lang="fa">فاکتور قلم محصول (خرید)</value>
         <value xml:lang="fr">Facturation de produit (achat)</value>
         <value xml:lang="hi_IN">चालान उत्पाद मद</value>
         <value xml:lang="it">Fattura Riga Prodotto</value>
@@ -3659,6 +3905,7 @@
     <property key="InvoiceItemType.description.PINV_PROMOTION_ADJ">
         <value xml:lang="de">Promotion</value>
         <value xml:lang="en">Invoice Promotion (Purchase)</value>
+        <value xml:lang="fa">فاکتور تبلیغ (خرید)</value>
         <value xml:lang="fr">Promotion sur ligne de facturation (achat)</value>
         <value xml:lang="hi_IN">चालान संवर्धन</value>
         <value xml:lang="it">Fattura Promozione</value>
@@ -3674,6 +3921,7 @@
     <property key="InvoiceItemType.description.PINV_SALES_TAX">
         <value xml:lang="de">MwSt.</value>
         <value xml:lang="en">Invoice Sales Tax (Purchase)</value>
+        <value xml:lang="fa">فاکتور مالیات فروش (خرید)</value>
         <value xml:lang="fr">Taxes sur vente facturées (achat)</value>
         <value xml:lang="hi_IN">चालान बिक्री टैक्स</value>
         <value xml:lang="it">Fattura Tasse Vendita</value>
@@ -3689,6 +3937,7 @@
     <property key="InvoiceItemType.description.PINV_SHIP_CHARGES">
         <value xml:lang="de">Versandkosten</value>
         <value xml:lang="en">Invoice Shipping and Handling (Purchase)</value>
+        <value xml:lang="fa">فاکتور حمل‌ونقل و اداره‌کردن (خرید)</value>
         <value xml:lang="fr">Frais d'expédition facturés (achat)</value>
         <value xml:lang="hi_IN">चालान शिपिंग और हैंडलिंग</value>
         <value xml:lang="it">Fattura Spese di Spedizione e Imballaggio</value>
@@ -3704,6 +3953,7 @@
     <property key="InvoiceItemType.description.PINV_SPROD_ITEM">
         <value xml:lang="de">Dienstleistung</value>
         <value xml:lang="en">Invoice Service Product Item (Purchase)</value>
+        <value xml:lang="fa">فاکتور قلم خدمات محصول (خرید)</value>
         <value xml:lang="fr">Facturation de service/ produit (achat)</value>
         <value xml:lang="hi_IN">चालान सेवा उत्पाद मद</value>
         <value xml:lang="it">Fattura Riga Prodotto Servizio</value>
@@ -3719,6 +3969,7 @@
     <property key="InvoiceItemType.description.PINV_SUPLPRD_ITEM">
         <value xml:lang="de">Hilfs- und Betriebsstoffe</value>
         <value xml:lang="en">Invoice Supplies (to Expense) Product Item</value>
+        <value xml:lang="fa">فاکتور قلم محصول عرضه‌شده‌ها (در مخارج)</value>
         <value xml:lang="fr">Facturation de fournitures associés au produit</value>
         <value xml:lang="hi_IN">चालान आपूर्ति (खर्च करने के लिए) उत्पाद मद</value>
         <value xml:lang="it">Fattura Riga Fornitori (di Spesa) Prodotto</value>
@@ -3734,6 +3985,7 @@
     <property key="InvoiceItemType.description.PINV_SURCHARGE_ADJ">
         <value xml:lang="de">Zuschlag</value>
         <value xml:lang="en">Invoice Surcharge (Purchase)</value>
+        <value xml:lang="fa">فاکتور اضافه‌بار (خرید)</value>
         <value xml:lang="fr">Facturation de surcoût (achat)</value>
         <value xml:lang="hi_IN">चालान अधिभार</value>
         <value xml:lang="it">Fattura Supplementare</value>
@@ -3749,6 +4001,7 @@
     <property key="InvoiceItemType.description.PINV_TE_ITEM">
         <value xml:lang="de">Geleistete Stunden</value>
         <value xml:lang="en">Invoice Time-Entry Item (Purchase)</value>
+        <value xml:lang="fa">فاکتور قلم زمان ورود (خرید)</value>
         <value xml:lang="fr">Facturation de prestation horaire (achat)</value>
         <value xml:lang="hi_IN">चालान समय-प्रवेश मद</value>
         <value xml:lang="it">Fattura Riga Voce-Tempo</value>
@@ -3764,6 +4017,7 @@
     <property key="InvoiceItemType.description.PINV_WARRANTY_ADJ">
         <value xml:lang="de">Garantie</value>
         <value xml:lang="en">Invoice Warranty (Purchase)</value>
+        <value xml:lang="fa">فاکتور تضمین‌محصول (خرید)</value>
         <value xml:lang="fr">Facturation de garantie (achat)</value>
         <value xml:lang="hi_IN">चालान वारंटी</value>
         <value xml:lang="it">Fattura Garanzia</value>
@@ -3779,6 +4033,7 @@
     <property key="InvoiceItemType.description.PINV_WE_ITEM">
         <value xml:lang="de">Arbeitseinsatz</value>
         <value xml:lang="en">Invoice Work-Effort Item (Purchase)</value>
+        <value xml:lang="fa">فاکتور قلم تلاش کاری (خرید)</value>
         <value xml:lang="fr">Facturation de prestation (achat)</value>
         <value xml:lang="hi_IN">चालान कार्य-प्रयास मद</value>
         <value xml:lang="it">Fattura Riga Impegno di Lavoro</value>
@@ -3794,6 +4049,7 @@
     <property key="InvoiceItemType.description.PITM_ADD_FEATURE">
         <value xml:lang="de">Sonderanpassung</value>
         <value xml:lang="en">Invoice Item Additional Feature (Purchase)</value>
+        <value xml:lang="fa">فاکتور قابلیت اضافی قلم (خرید)</value>
         <value xml:lang="fr">Facturation d'options additionnelles (achat)</value>
         <value xml:lang="hi_IN">चालान मद अतिरिक्त फ़ीचर</value>
         <value xml:lang="it">Fattura Riga Caratteristica Addizionale</value>
@@ -3809,6 +4065,7 @@
     <property key="InvoiceItemType.description.PITM_DISCOUNT_ADJ">
         <value xml:lang="de">Rabatt</value>
         <value xml:lang="en">Invoice Item Discount (Purchase)</value>
+        <value xml:lang="fa">فاکتور تخفیف قلم (خرید)</value>
         <value xml:lang="fr">Remise sur ligne de facturation (achat)</value>
         <value xml:lang="hi_IN">चालान मद डिस्काउंट</value>
         <value xml:lang="it">Fattura Riga Sconto</value>
@@ -3824,6 +4081,7 @@
     <property key="InvoiceItemType.description.PITM_FEE">
         <value xml:lang="de">Rechnungsposten Gebühr</value>
         <value xml:lang="en">Invoice Item Fee (Purchase)</value>
+        <value xml:lang="fa">فاکتور قیمت قلم (خرید)</value>
         <value xml:lang="fr">Frais sur ligne de facturation (achat)</value>
         <value xml:lang="hi_IN">चालान मद शुल्क</value>
         <value xml:lang="it">Fattura Riga Onorario</value>
@@ -3839,6 +4097,7 @@
     <property key="InvoiceItemType.description.PITM_MISC_CHARGE">
         <value xml:lang="de">Rechnungsposten zusätzliche Gebühren</value>
         <value xml:lang="en">Invoice Item Miscellaneous Charges (Purchase)</value>
+        <value xml:lang="fa">فاکتور هزینه متفرقه قلم (خرید)</value>
         <value xml:lang="fr">Frais divers sur ligne de facturation (achat)</value>
         <value xml:lang="hi_IN">चालान मद विविध व्यय</value>
         <value xml:lang="it">Fattura Riga Commissioni Varie</value>
@@ -3854,6 +4113,7 @@
     <property key="InvoiceItemType.description.PITM_PROMOTION_ADJ">
         <value xml:lang="de">Rechnungsposten Promotion</value>
         <value xml:lang="en">Invoice Item Promotion (Purchase)</value>
+        <value xml:lang="fa">فاکتور تبلیغ قلم (خرید)</value>
         <value xml:lang="fr">Remise promotionnelle sur facture (achat)</value>
         <value xml:lang="hi_IN">चालान मद संवर्धन</value>
         <value xml:lang="it">Fattura Riga Promozione</value>
@@ -3869,6 +4129,7 @@
     <property key="InvoiceItemType.description.PITM_REPLACE_ADJ">
         <value xml:lang="de">Rechnungsposten Ersatzartikel</value>
         <value xml:lang="en">Invoice Item Replacement (Purchase)</value>
+        <value xml:lang="fa">فاکتور جایگزین قلم (خرید)</value>
         <value xml:lang="fr">Echange sur ligne de facturation (achat)</value>
         <value xml:lang="hi_IN">चालान मद प्रतिस्थापन</value>
         <value xml:lang="it">Fattura Riga Sostituzione</value>
@@ -3884,6 +4145,7 @@
     <property key="InvoiceItemType.description.PITM_SALES_TAX">
         <value xml:lang="de">Rechnungsposten MwSt.</value>
         <value xml:lang="en">Invoice Item Sales Tax (Purchase)</value>
+        <value xml:lang="fa">فاکتور مالیات فروش قلم (خرید)</value>
         <value xml:lang="fr">ligne de TVA (achat)</value>
         <value xml:lang="hi_IN">चालान मद बिक्री टैक्स</value>
         <value xml:lang="it">Fattura Riga Tasse Vendita</value>
@@ -3899,6 +4161,7 @@
     <property key="InvoiceItemType.description.PITM_SHIP_CHARGES">
         <value xml:lang="de">Rechnungsposten Versandkosten</value>
         <value xml:lang="en">Invoice Item Shipping and Handling (Purchase)</value>
+        <value xml:lang="fa">فاکتور حمل‌ونقل و اداره‌کردن قلم (خرید)</value>
         <value xml:lang="fr">Frais d'expédition facturés (achat)</value>
         <value xml:lang="hi_IN">चालान मद शिपिंग और हैंडलिंग</value>
         <value xml:lang="it">Fattura Riga Spese di Spedizione e Imballaggio</value>
@@ -3914,6 +4177,7 @@
     <property key="InvoiceItemType.description.PITM_SURCHARGE_ADJ">
         <value xml:lang="de">Rechnungsposten Zuschlag</value>
         <value xml:lang="en">Invoice Item Surcharge (Purchase)</value>
+        <value xml:lang="fa">فاکتور اضافه‌بار قلم (خرید)</value>
         <value xml:lang="fr">Surcoût sur ligne de facturation (achat)</value>
         <value xml:lang="hi_IN">चालान मद अधिभार</value>
         <value xml:lang="it">Fattura Riga Supplementare</value>
@@ -3929,6 +4193,7 @@
     <property key="InvoiceItemType.description.PITM_WARRANTY_ADJ">
         <value xml:lang="de">Rechnungsposten Garantie</value>
         <value xml:lang="en">Invoice Item Warranty (Purchase)</value>
+        <value xml:lang="fa">فاکتور تضمین‌محصول قلم (خرید)</value>
         <value xml:lang="fr">Garantie sur ligne de facturation (achat)</value>
         <value xml:lang="hi_IN">चालान मद वारंटी</value>
         <value xml:lang="it">Fattura Riga Garanzia</value>
@@ -3944,6 +4209,7 @@
     <property key="InvoiceItemType.description.P_FEE">
         <value xml:lang="de">Gebühr</value>
         <value xml:lang="en">Invoice Fee (Purchase)</value>
+        <value xml:lang="fa">فاکتور قیمت (خرید)</value>
         <value xml:lang="fr">Frais sur facturation (achat)</value>
         <value xml:lang="hi_IN">चालान शुल्क</value>
         <value xml:lang="it">Fattura Onorario</value>
@@ -3959,6 +4225,7 @@
     <property key="InvoiceItemType.description.SRT_ADD_FEATURE_ADJ">
         <value xml:lang="de">Retoure Sonderanpassung</value>
         <value xml:lang="en">Return Additional Feature</value>
+        <value xml:lang="fa">بازده قابلیت اضافی</value>
         <value xml:lang="fr">Retour Option supplémentaire</value>
         <value xml:lang="hi_IN">रिटर्न अडिशनल फ़ीचर</value>
         <value xml:lang="it">Reso caratteristica aggiuntiva</value>
@@ -3971,6 +4238,7 @@
     <property key="InvoiceItemType.description.SRT_DISCOUNT_ADJ">
         <value xml:lang="de">Retourennachlass</value>
         <value xml:lang="en">Return Discount</value>
+        <value xml:lang="fa">بازده تخفیف</value>
         <value xml:lang="fr">Retour Remise</value>
         <value xml:lang="hi_IN">रिटर्न डिस्काउंट</value>
         <value xml:lang="it">Sconto reso</value>
@@ -3983,6 +4251,7 @@
     <property key="InvoiceItemType.description.SRT_DPROD_ITEM">
         <value xml:lang="de">Retoure Digitales Produkt</value>
         <value xml:lang="en">Return Digital Good Item</value>
+        <value xml:lang="fa">بازده قلم کالا دیجیتال</value>
         <value xml:lang="fr">Retour Produit numérique</value>
         <value xml:lang="hi_IN">रिटर्न डिजिटल सामग्री मद</value>
         <value xml:lang="it">Riga reso bene digitale</value>
@@ -3995,6 +4264,7 @@
     <property key="InvoiceItemType.description.SRT_FDPROD_ITEM">
         <value xml:lang="de">Retoure Fertigprodukt/Digitales Produkt</value>
         <value xml:lang="en">Return Finished/Digital Good Item</value>
+        <value xml:lang="fa">بازده قلم کالا تمام‌شده/دیجیتال</value>
         <value xml:lang="fr">Retour Produit/Marchandise numérique</value>
         <value xml:lang="hi_IN">रिटर्न तैयार/डिजिटल सामग्री मद</value>
         <value xml:lang="it">Riga reso bene finito/digitale</value>
@@ -4007,6 +4277,7 @@
     <property key="InvoiceItemType.description.SRT_FEE_ADJ">
         <value xml:lang="de">Retourengebühr</value>
         <value xml:lang="en">Return Fee</value>
+        <value xml:lang="fa">بازده قیمت</value>
         <value xml:lang="fr">Retour Frais</value>
         <value xml:lang="hi_IN">लौटें शुल्क</value>
         <value xml:lang="it">Commissioni reso</value>
@@ -4019,6 +4290,7 @@
     <property key="InvoiceItemType.description.SRT_FPROD_ITEM">
         <value xml:lang="de">Retoure Fertigprodukt</value>
         <value xml:lang="en">Return Finished Good Item</value>
+        <value xml:lang="fa">بازده قلم کالا تمام‌شده</value>
         <value xml:lang="fr">Retour Produit</value>
         <value xml:lang="hi_IN">रिटर्न संपूर्ण सामग्री मद</value>
         <value xml:lang="it">Riga reso bene finito</value>
@@ -4031,6 +4303,7 @@
     <property key="InvoiceItemType.description.SRT_MAN_ADJ">
         <value xml:lang="de">Retoure manuelle Anpassung</value>
         <value xml:lang="en">Return Manual Adjustment</value>
+        <value xml:lang="fa">بازده تعدیل دستی</value>
         <value xml:lang="fr">Retour Ajustement manuel</value>
         <value xml:lang="hi_IN">रिटर्न मैनुअल समायोजन</value>
         <value xml:lang="it">Reso aggiustamento manuale</value>
@@ -4043,6 +4316,7 @@
     <property key="InvoiceItemType.description.SRT_MISC_ADJ">
         <value xml:lang="de">Retoure sonstige Gebühren</value>
         <value xml:lang="en">Return Miscellaneous Charges</value>
+        <value xml:lang="fa">بازده هزینه‌های متفرقه</value>
         <value xml:lang="fr">Retour Charges diverses</value>
         <value xml:lang="hi_IN">रिटर्न विविध व्यय</value>
         <value xml:lang="it">Reso ricarichi vari</value>
@@ -4055,6 +4329,7 @@
     <property key="InvoiceItemType.description.SRT_MKTG_PKG_ADJ">
         <value xml:lang="de">Retoure Marketingpaket Anpassung</value>
         <value xml:lang="en">Return Marketing Package Adjustment</value>
+        <value xml:lang="fa">بازده تعدیل بسته بازاریابی</value>
         <value xml:lang="fr">Retour Ajustement paquet marketing</value>
         <value xml:lang="hi_IN">रिटर्न विपणन पैकेज समायोजन</value>
         <value xml:lang="it">Reso aggiustamento pacco di vendita</value>
@@ -4067,6 +4342,7 @@
     <property key="InvoiceItemType.description.SRT_PROD_FEATR_ITEM">
         <value xml:lang="de">Retoure Produktmerkmal</value>
         <value xml:lang="en">Return Product-Feature Item</value>
+        <value xml:lang="fa">بازده قلم محصول-قابلیت</value>
         <value xml:lang="fr">Retour Caractéristique produit</value>
         <value xml:lang="hi_IN">रिटर्न उत्पाद फ़ीचर मद</value>
         <value xml:lang="it">Riga reso prodotto-caratteristica</value>
@@ -4079,6 +4355,7 @@
     <property key="InvoiceItemType.description.SRT_PROD_ITEM">
         <value xml:lang="de">Produkt-Retoure</value>
         <value xml:lang="en">Return Product Item</value>
+        <value xml:lang="fa">بازده قلم محصول</value>
         <value xml:lang="fr">Retour Produit</value>
         <value xml:lang="hi_IN">रिटर्न उत्पाद मद</value>
         <value xml:lang="it">Riga reso prodotto</value>
@@ -4091,6 +4368,7 @@
     <property key="InvoiceItemType.description.SRT_PROMOTION_ADJ">
         <value xml:lang="de">Retoure Aktion</value>
         <value xml:lang="en">Return Promotion</value>
+        <value xml:lang="fa">بازده تبلیغ</value>
         <value xml:lang="fr">Retour Promotion</value>
         <value xml:lang="hi_IN">रिटर्न संवर्धन</value>
         <value xml:lang="it">Promozione reso</value>
@@ -4103,6 +4381,7 @@
     <property key="InvoiceItemType.description.SRT_REPLACE_ADJ">
         <value xml:lang="de">Retoure Ersatz</value>
         <value xml:lang="en">Return Replacement</value>
+        <value xml:lang="fa">بازده جایگزین</value>
         <value xml:lang="fr">Retour Remplacement</value>
         <value xml:lang="hi_IN">रिटर्न प्रतिस्थापन</value>
         <value xml:lang="it">Reso per sostituzione</value>
@@ -4115,6 +4394,7 @@
     <property key="InvoiceItemType.description.SRT_SALES_TAX_ADJ">
         <value xml:lang="de">Retoure MwSt.</value>
         <value xml:lang="en">Return Sales Tax</value>
+        <value xml:lang="fa">بازده مالیات فروش</value>
         <value xml:lang="fr">Retour TVA</value>
         <value xml:lang="hi_IN">रिटर्न बिक्री टैक्स</value>
         <value xml:lang="it">Reso tasse di vendita</value>
@@ -4127,6 +4407,7 @@
     <property key="InvoiceItemType.description.SRT_SHIPPING_ADJ">
         <value xml:lang="de">Retoure Versandkosten</value>
         <value xml:lang="en">Return Shipping and Handling</value>
+        <value xml:lang="fa">بازده حمل‌ونقل و اداره‌کردن</value>
         <value xml:lang="fr">Retour Emballage et expédition</value>
         <value xml:lang="hi_IN">रिटर्न शिपिंग और हैंडलिंग</value>
         <value xml:lang="it">Reso spese di spedizione e gestione</value>
@@ -4139,6 +4420,7 @@
     <property key="InvoiceItemType.description.SRT_SPROD_ITEM">
         <value xml:lang="de">Korrekturbuchung Diensleistung</value>
         <value xml:lang="en">Return Service Product Item</value>
+        <value xml:lang="fa">بازده قلم خدمات محصول</value>
         <value xml:lang="fr">Retour Service</value>
         <value xml:lang="hi_IN">रिटर्न सेवा उत्पाद मद</value>
         <value xml:lang="it">Riga reso prodotto servizio</value>
@@ -4151,6 +4433,7 @@
     <property key="InvoiceItemType.description.SRT_SURCHARGE_ADJ">
         <value xml:lang="de">Retoure Zuschlag</value>
         <value xml:lang="en">Return Surcharge</value>
+        <value xml:lang="fa">بازده اضافه‌بار</value>
         <value xml:lang="fr">Retour Supplément</value>
         <value xml:lang="hi_IN">रिटर्न अधिभार</value>
         <value xml:lang="it">Soprattassa reso</value>
@@ -4163,6 +4446,7 @@
     <property key="InvoiceItemType.description.SRT_TE_ITEM">
         <value xml:lang="de">Korrekturbuchung Geleisteter Stunden</value>
         <value xml:lang="en">Return Time-Entry Item</value>
+        <value xml:lang="fa">بازده قلم زمان ورود</value>
         <value xml:lang="fr">Retour Honoraire</value>
         <value xml:lang="hi_IN">रिटर्न समय-प्रवेश मद</value>
         <value xml:lang="it">Riga reso timbratura</value>
@@ -4175,6 +4459,7 @@
     <property key="InvoiceItemType.description.SRT_WARRANTY_ADJ">
         <value xml:lang="de">Retoure Garantie</value>
         <value xml:lang="en">Return Warranty</value>
+        <value xml:lang="fa">بازده تضمین‌محصول</value>
         <value xml:lang="fr">Retour garantie</value>
         <value xml:lang="hi_IN">रिटर्न वारंटी</value>
         <value xml:lang="it">Garanzia reso</value>
@@ -4187,6 +4472,7 @@
     <property key="InvoiceItemType.description.SRT_WE_ITEM">
         <value xml:lang="de">Korrekturbuchung Arbeitseinsatz</value>
         <value xml:lang="en">Return Work-Effort Item</value>
+        <value xml:lang="fa">بازده قلم تلاش کاری</value>
         <value xml:lang="fr">Retour de tâche</value>
         <value xml:lang="hi_IN">रिटर्न कार्य-प्रयास मद</value>
         <value xml:lang="it">Riga reso impegno di lavoro</value>
@@ -4199,6 +4485,7 @@
     <property key="InvoiceType.description.COMMISSION_INVOICE">
         <value xml:lang="de">Kommission</value>
         <value xml:lang="en">Commission</value>
+        <value xml:lang="fa">کارمزد</value>
         <value xml:lang="fr">Commission</value>
         <value xml:lang="hi_IN">दलाली</value>
         <value xml:lang="it">Provvigioni</value>
@@ -4214,6 +4501,7 @@
     <property key="InvoiceType.description.CUST_RTN_INVOICE">
         <value xml:lang="de">Kundenrücksendung</value>
         <value xml:lang="en">Customer Return</value>
+        <value xml:lang="fa">بازگشت مشتری</value>
         <value xml:lang="fr">Articles retournés</value>
         <value xml:lang="hi_IN">ग्राहक रिटर्न</value>
         <value xml:lang="it">Resi Cliente</value>
@@ -4230,6 +4518,7 @@
     <property key="InvoiceType.description.INTEREST_INVOICE">
         <value xml:lang="de">Zinsen</value>
         <value xml:lang="en">Interest</value>
+        <value xml:lang="fa">سود</value>
         <value xml:lang="fr">Intérêt</value>
         <value xml:lang="hi_IN">ब्याज</value>
         <value xml:lang="it">Interessi</value>
@@ -4244,6 +4533,7 @@
     <property key="InvoiceType.description.PAYROL_INVOICE">
         <value xml:lang="de">Gehalt</value>
         <value xml:lang="en">Payrol</value>
+        <value xml:lang="fa">دستمزد</value>
         <value xml:lang="fr">Salaire</value>
         <value xml:lang="hi_IN">वेतन</value>
         <value xml:lang="it">Paghe</value>
@@ -4256,6 +4546,7 @@
     <property key="InvoiceType.description.PURCHASE_INVOICE">
         <value xml:lang="de">Einkaufsrechnung</value>
         <value xml:lang="en">Purchase Invoice</value>
+        <value xml:lang="fa">فاکتور خرید</value>
         <value xml:lang="fr">Facture d'achat</value>
         <value xml:lang="hi_IN">खरीद चालान</value>
         <value xml:lang="it">Fattura di Acquisto</value>
@@ -4272,6 +4563,7 @@
     <property key="InvoiceType.description.PURC_RTN_INVOICE">
         <value xml:lang="de">Einkaufs-Retoure</value>
         <value xml:lang="en">Purchase Return</value>
+        <value xml:lang="fa">بازگشت خرید</value>
         <value xml:lang="fr">Avoir fournisseur</value>
         <value xml:lang="it">Reso acquisto</value>
         <value xml:lang="ja">購入返品</value>
@@ -4283,6 +4575,7 @@
     <property key="InvoiceType.description.PUR_INV_TEMPLATE">
         <value xml:lang="de">Vorlage Einkaufsrechnung</value>
         <value xml:lang="en">Purchase Invoice Template</value>
+        <value xml:lang="fa">تم فاکتور خرید</value>
         <value xml:lang="fr">Modèle de facture d'achat</value>
         <value xml:lang="hi_IN">खरीद चालान खाका</value>
         <value xml:lang="it">Reso template fattura d'acquisto</value>
@@ -4295,6 +4588,7 @@
     <property key="InvoiceType.description.SALES_INVOICE">
         <value xml:lang="de">Verkaufsrechnung</value>
         <value xml:lang="en">Sales Invoice</value>
+        <value xml:lang="fa">فاکتور فروش</value>
         <value xml:lang="fr">Facture de vente</value>
         <value xml:lang="hi_IN">बिक्री चालान</value>
         <value xml:lang="it">Fattura di Vendita</value>
@@ -4311,6 +4605,7 @@
     <property key="InvoiceType.description.SALES_INV_TEMPLATE">
         <value xml:lang="de">Vorlage Verkaufsrechnung</value>
         <value xml:lang="en">Sales Invoice Template</value>
+        <value xml:lang="fa">تم فاکتور خرید</value>
         <value xml:lang="fr">Modèle de facture de vente</value>
         <value xml:lang="hi_IN">बिक्री चालान खाका</value>
         <value xml:lang="it">Template fattura di vendita</value>
@@ -4323,6 +4618,7 @@
     <property key="InvoiceType.description.TEMPLATE">
         <value xml:lang="de">Rechnungsvorlage</value>
         <value xml:lang="en">Invoice Template</value>
+        <value xml:lang="fa">تم فاکتور</value>
         <value xml:lang="fr">Modèle de facture</value>
         <value xml:lang="hi_IN">चालान खाका</value>
         <value xml:lang="it">Template fattura</value>
@@ -4335,6 +4631,7 @@
     <property key="PaymentMethodType.description.CASH">
         <value xml:lang="de">Bargeld</value>
         <value xml:lang="en">Cash</value>
+        <value xml:lang="fa">پول‌نقد</value>
         <value xml:lang="fr">Espèces</value>
         <value xml:lang="hi_IN">नकद</value>
         <value xml:lang="it">Contanti</value>
@@ -4350,6 +4647,7 @@
     <property key="PaymentMethodType.description.CERTIFIED_CHECK">
         <value xml:lang="de">Geprüfter Scheck</value>
         <value xml:lang="en">Certified Check</value>
+        <value xml:lang="fa">چک تضمین‌شده</value>
         <value xml:lang="fr">Chèque certifié</value>
         <value xml:lang="hi_IN">प्रमाणित चेक</value>
         <value xml:lang="it">Assegno Certificato</value>
@@ -4366,6 +4664,7 @@
     <property key="PaymentMethodType.description.COMPANY_ACCOUNT">
         <value xml:lang="de">Firmenkonto</value>
         <value xml:lang="en">Company Account</value>
+        <value xml:lang="fa">حساب شرکت</value>
         <value xml:lang="fr">Compte de société</value>
         <value xml:lang="hi_IN">कंपनी खाता</value>
         <value xml:lang="it">Conto Aziendale</value>
@@ -4382,6 +4681,7 @@
     <property key="PaymentMethodType.description.COMPANY_CHECK">
         <value xml:lang="de">Firmenscheck</value>
         <value xml:lang="en">Company Check</value>
+        <value xml:lang="fa">چک شرکت</value>
         <value xml:lang="fr">Chèque de société</value>
         <value xml:lang="hi_IN">कंपनी चेक</value>
         <value xml:lang="it">Assegno Aziendale</value>
@@ -4398,6 +4698,7 @@
     <property key="PaymentMethodType.description.CREDIT_CARD">
         <value xml:lang="de">Kreditkarte</value>
         <value xml:lang="en">Credit Card</value>
+        <value xml:lang="fa">کارت اعتباری</value>
         <value xml:lang="fr">Carte de crédit</value>
         <value xml:lang="hi_IN">क्रेडिट कार्ड</value>
         <value xml:lang="it">Carta Credito</value>
@@ -4414,6 +4715,7 @@
     <property key="PaymentMethodType.description.EFT_ACCOUNT">
         <value xml:lang="de">Elektronische Bezahlung</value>
         <value xml:lang="en">Electronic Funds Transfer</value>
+        <value xml:lang="fa">جابجایی وجوه الکترونیک</value>
         <value xml:lang="fr">Transfert de fonds électronique</value>
         <value xml:lang="hi_IN">इलेक्ट्रॉनिक निधि अंतरण(EFT)</value>
         <value xml:lang="it">Bonifico (EFT)</value>
@@ -4430,6 +4732,7 @@
     <property key="PaymentMethodType.description.EXT_BILLACT">
         <value xml:lang="de">Rechnungskonto</value>
         <value xml:lang="en">Billing Account</value>
+        <value xml:lang="fa">حساب قبوض</value>
         <value xml:lang="fr">Compte de facturation</value>
         <value xml:lang="hi_IN">देयकांकन(बिलिंग) खाता</value>
         <value xml:lang="it">Conto Fatturazione</value>
@@ -4446,6 +4749,7 @@
     <property key="PaymentMethodType.description.EXT_COD">
         <value xml:lang="de">Per Nachnahme</value>
         <value xml:lang="en">Cash On Delivery</value>
+        <value xml:lang="fa">تحویل پول‌نقد</value>
         <value xml:lang="fr">Paiement à la livraison</value>
         <value xml:lang="hi_IN">सुपुर्दगी पर नकद</value>
         <value xml:lang="it">Contrassegno</value>
@@ -4474,6 +4778,7 @@
     <property key="PaymentMethodType.description.EXT_OFFLINE">
         <value xml:lang="de">Offline Zahlung</value>
         <value xml:lang="en">Offline Payment</value>
+        <value xml:lang="fa">پرداخت آفلاین</value>
         <value xml:lang="fr">Paiement différé</value>
         <value xml:lang="hi_IN">ऑफ़लाइन भुगतान</value>
         <value xml:lang="it">Pagamento Offline</value>
@@ -4520,6 +4825,7 @@
     <property key="PaymentMethodType.description.FIN_ACCOUNT">
         <value xml:lang="de">Finanzkonto</value>
         <value xml:lang="en">Financial Account</value>
+        <value xml:lang="fa">حساب مالی</value>
         <value xml:lang="fr">Compte financier</value>
         <value xml:lang="hi_IN">वित्तीय खाता</value>
         <value xml:lang="it">Conto finanziario</value>
@@ -4533,6 +4839,7 @@
     <property key="PaymentMethodType.description.GIFT_CARD">
         <value xml:lang="de">Gutschein</value>
         <value xml:lang="en">Gift Card</value>
+        <value xml:lang="fa">کارت هدیه</value>
         <value xml:lang="fr">Carte de fidélité</value>
         <value xml:lang="hi_IN">उपहार(gift) कार्ड</value>
         <value xml:lang="it">Carta Omaggio</value>
@@ -4549,6 +4856,7 @@
     <property key="PaymentMethodType.description.GIFT_CERTIFICATE">
         <value xml:lang="de">Gutschein</value>
         <value xml:lang="en">Gift Certificate</value>
+        <value xml:lang="fa">تضمین هدیه</value>
         <value xml:lang="fr">Bon d'achat</value>
         <value xml:lang="hi_IN">उपहार प्रमाण पत्र(GiftCertificate)</value>
         <value xml:lang="it">Certificato Omaggio</value>
@@ -4565,6 +4873,7 @@
     <property key="PaymentMethodType.description.MONEY_ORDER">
         <value xml:lang="de">Zahlungsanweisung</value>
         <value xml:lang="en">Money Order</value>
+        <value xml:lang="fa">سفارش پول</value>
         <value xml:lang="fr">Mandat</value>
         <value xml:lang="hi_IN">मनी ऑर्डर</value>
         <value xml:lang="it">Ordine Soldi</value>
@@ -4581,6 +4890,7 @@
     <property key="PaymentMethodType.description.PERSONAL_CHECK">
         <value xml:lang="de">Persönlicher Scheck</value>
         <value xml:lang="en">Personal Check</value>
+        <value xml:lang="fa">چک شخصی</value>
         <value xml:lang="fr">Chèque</value>
         <value xml:lang="hi_IN">व्यक्तिगत चेक</value>
         <value xml:lang="it">Assegno Personale</value>
@@ -4597,6 +4907,7 @@
     <property key="PaymentType.description.COMMISSION_PAYMENT">
         <value xml:lang="de">Kommissionszahlung</value>
         <value xml:lang="en">Commission Payment</value>
+        <value xml:lang="fa">پرداخت حق‌کارمزد</value>
         <value xml:lang="fr">Paiement de commission</value>
         <value xml:lang="hi_IN">दलाली भुगतान</value>
         <value xml:lang="it">Pagamento Provvigioni</value>
@@ -4612,6 +4923,7 @@
     <property key="PaymentType.description.CUSTOMER_DEPOSIT">
         <value xml:lang="de">Vorkasse</value>
         <value xml:lang="en">Customer Deposit</value>
+        <value xml:lang="fa">سپرده مشتری</value>
         <value xml:lang="fr">Dépôt de garantie client</value>
         <value xml:lang="hi_IN">ग्राहक जमा</value>
         <value xml:lang="it">Deposito Cliente</value>
@@ -4628,6 +4940,7 @@
     <property key="PaymentType.description.CUSTOMER_PAYMENT">
         <value xml:lang="de">Kunden-Zahlung</value>
         <value xml:lang="en">Customer Payment</value>
+        <value xml:lang="fa">پرداخت مشتری</value>
         <value xml:lang="fr">Paiement client</value>
         <value xml:lang="hi_IN">ग्राहक भुगतान</value>
         <value xml:lang="it">Pagamento Cliente</value>
@@ -4644,6 +4957,7 @@
     <property key="PaymentType.description.CUSTOMER_REFUND">
         <value xml:lang="de">Kunden-Rückerstattung</value>
         <value xml:lang="en">Customer Refund</value>
+        <value xml:lang="fa">بازپرداخت مشتری</value>
         <value xml:lang="fr">Remboursement client</value>
         <value xml:lang="hi_IN">ग्राहक को लौटाया</value>
         <value xml:lang="it">Rimborso Cliente</value>
@@ -4660,6 +4974,7 @@
     <property key="PaymentType.description.DISBURSEMENT">
         <value xml:lang="de">Auszahlung</value>
         <value xml:lang="en">Disbursement</value>
+        <value xml:lang="fa">پرداخت‌نقدی</value>
         <value xml:lang="fr">Débours</value>
         <value xml:lang="hi_IN">अदायगी</value>
         <value xml:lang="it">Rimborsati</value>
@@ -4676,6 +4991,7 @@
     <property key="PaymentType.description.GC_DEPOSIT">
         <value xml:lang="de">Hinterlegte Gutschrift</value>
         <value xml:lang="en">Gift Certificate Deposit</value>
+        <value xml:lang="fa">سپرده تضمین هدیه</value>
         <value xml:lang="fr">Crédit de bons d'achat</value>
         <value xml:lang="hi_IN">उपहार प्रमाणपत्र(GiftCertificate) जमा</value>
         <value xml:lang="it">Deposito Certificato Omaggio</value>
@@ -4692,6 +5008,7 @@
     <property key="PaymentType.description.GC_WITHDRAWAL">
         <value xml:lang="de">Gutschriftsabzug</value>
         <value xml:lang="en">Gift Certificate Withdrawal</value>
+        <value xml:lang="fa">پس‌گرفتن تضمین هدیه</value>
         <value xml:lang="fr">Débit de bon d'achat</value>
         <value xml:lang="hi_IN">उपहार प्रमाणपत्र(GiftCertificate) निकाला</value>
         <value xml:lang="it">Prelievo Certificato Omaggio</value>
@@ -4707,6 +5024,7 @@
     <property key="PaymentType.description.INCOME_TAX_PAYMENT">
         <value xml:lang="de">Einkommenssteuer-Abführung</value>
         <value xml:lang="en">Income Tax Payment</value>
+        <value xml:lang="fa">پرداخت مالیات درآمد</value>
         <value xml:lang="fr">Paiement de l'impôt sur les sociétés</value>
         <value xml:lang="hi_IN">आयकर भुगतान</value>
         <value xml:lang="it">Pagamento Tassa sul Redditi</value>
@@ -4722,6 +5040,7 @@
     <property key="PaymentType.description.INTEREST_RECEIPT">
         <value xml:lang="de">Zinsenbeleg</value>
         <value xml:lang="en">Interest Receipt</value>
+        <value xml:lang="fa">رسید بهره</value>
         <value xml:lang="fr">Reçu d'intérêt</value>
         <value xml:lang="hi_IN">ब्याज रसीद</value>
         <value xml:lang="it">Ricevuta Interessi</value>
@@ -4736,6 +5055,7 @@
     <property key="PaymentType.description.PAYROLL_TAX_PAYMENT">
         <value xml:lang="de">Lohnsummensteuerentrichtung</value>
         <value xml:lang="en">Payroll Tax Payment</value>
+        <value xml:lang="fa">پرداخت مالیات دستمزد</value>
         <value xml:lang="fr">Paiement des charges sociales</value>
         <value xml:lang="hi_IN">वेतन भुगतान कर</value>
         <value xml:lang="it">Tassa sulle Paghe</value>
@@ -4751,6 +5071,7 @@
     <property key="PaymentType.description.PAYROL_PAYMENT">
         <value xml:lang="de">Lohnzahlung</value>
         <value xml:lang="en">Payrol Payment</value>
+        <value xml:lang="fa">پرداخت دستمزد</value>
         <value xml:lang="hi_IN">वेतन भुगतान</value>
         <value xml:lang="it">Pagamento paghe</value>
         <value xml:lang="ja">給与支払</value>
@@ -4762,6 +5083,7 @@
     <property key="PaymentType.description.PAY_CHECK">
         <value xml:lang="de">Lohnzahlung</value>
         <value xml:lang="en">Pay Check</value>
+        <value xml:lang="fa">چک پرداخت</value>
         <value xml:lang="fr">Paiement des salaires</value>
         <value xml:lang="hi_IN">चेक भुगतान</value>
         <value xml:lang="it">Assegni Pagati</value>
@@ -4778,6 +5100,7 @@
     <property key="PaymentType.description.POS_PAID_IN">
         <value xml:lang="de">Kasseneinzahlung</value>
         <value xml:lang="en">POS Paid In</value>
+        <value xml:lang="fa">پرداخت به مرکز خدمات</value>
         <value xml:lang="fr">Reçu en caisse</value>
         <value xml:lang="hi_IN">Pos भुगतान किया</value>
         <value xml:lang="it">Pagamento POS Ingresso</value>
@@ -4792,6 +5115,7 @@
     <property key="PaymentType.description.POS_PAID_OUT">
         <value xml:lang="de">Kassenauszahlung</value>
         <value xml:lang="en">POS Paid Out</value>
+        <value xml:lang="fa">پرداخت از مرکز خدمات</value>
         <value xml:lang="fr">Sortie de caisse</value>
         <value xml:lang="hi_IN">Pos बाहर को शुल्कित</value>
         <value xml:lang="it">Pagamento POS Uscita</value>
@@ -4806,6 +5130,7 @@
     <property key="PaymentType.description.RECEIPT">
         <value xml:lang="de">Quittung</value>
         <value xml:lang="en">Receipt</value>
+        <value xml:lang="fa">رسید</value>
         <value xml:lang="fr">Encaissement</value>
         <value xml:lang="hi_IN">रसीद</value>
         <value xml:lang="it">Ricevute</value>
@@ -4822,6 +5147,7 @@
     <property key="PaymentType.description.SALES_TAX_PAYMENT">
         <value xml:lang="de">Umsatzsteuerzahlung</value>
         <value xml:lang="en">Sales Tax Payment</value>
+        <value xml:lang="fa">پرداخت مالیات فروش</value>
         <value xml:lang="fr">Paiement des taxes sur ventes</value>
         <value xml:lang="hi_IN">बिक्री-कर भुगतान</value>
         <value xml:lang="it">Tassa di Vendita</value>
@@ -4838,6 +5164,7 @@
     <property key="PaymentType.description.TAX_PAYMENT">
         <value xml:lang="de">Steuerzahlung</value>
         <value xml:lang="en">Tax Payment</value>
+        <value xml:lang="fa">پرداخت مالیات</value>
         <value xml:lang="fr">Paiement d'impôt</value>
         <value xml:lang="hi_IN">टैक्स भुगतान</value>
         <value xml:lang="it">Tassa</value>
@@ -4854,6 +5181,7 @@
     <property key="PaymentType.description.VENDOR_PAYMENT">
         <value xml:lang="de">Kreditorenzahlung</value>
         <value xml:lang="en">Vendor Payment</value>
+        <value xml:lang="fa">پرداخت دست‌فروش</value>
         <value xml:lang="fr">Paiement de fournisseur</value>
         <value xml:lang="hi_IN">विक्रेता भुगतान</value>
         <value xml:lang="it">Fornitore</value>
@@ -4870,6 +5198,7 @@
     <property key="PaymentType.description.VENDOR_PREPAY">
         <value xml:lang="de">Kreditorenvorauszahlung</value>
         <value xml:lang="en">Vendor Prepayment</value>
+        <value xml:lang="fa">پیش‌پرداخت دست‌فروش</value>
         <value xml:lang="fr">Paiement d'acompte fournisseur</value>
         <value xml:lang="hi_IN">विक्रेता को पूर्वभुगतान</value>
         <value xml:lang="it">Prepagati Fornitore</value>
@@ -4886,6 +5215,7 @@
     <property key="RateType.description.AVERAGE_PAY_RATE">
         <value xml:lang="de">Normaler Satz</value>
         <value xml:lang="en">Average Pay Rate</value>
+        <value xml:lang="fa">نرخ پرداخت متوسط</value>
         <value xml:lang="fr">Prix moyen</value>
         <value xml:lang="ja">平均支払レート</value>
         <value xml:lang="vi">Tỷ lệ thanh toán trung bình</value>
@@ -4894,6 +5224,7 @@
     <property key="RateType.description.DISCOUNTED">
         <value xml:lang="de">Ermäßigter Satz</value>
         <value xml:lang="en">Discounted Rate</value>
+        <value xml:lang="fa">نرخ تخفیف</value>
         <value xml:lang="fr">Réduit</value>
         <value xml:lang="ja">割引レート</value>
         <value xml:lang="vi">Tỷ lệ giảm giá</value>
@@ -4902,6 +5233,7 @@
     <property key="RateType.description.HIGH_PAY_RATE">
         <value xml:lang="de">Höchster Satz</value>
         <value xml:lang="en">Highest Pay Rate</value>
+        <value xml:lang="fa">نرخ بالاترین پرداخت</value>
         <value xml:lang="fr">Prix haut</value>
         <value xml:lang="ja">最高支払レート</value>
         <value xml:lang="vi">Tỷ lệ thanh toán cao nhất</value>
@@ -4910,6 +5242,7 @@
     <property key="RateType.description.LOW_PAY_RATE">
         <value xml:lang="de">Günstigster Satz</value>
         <value xml:lang="en">Lowest Pay Rate</value>
+        <value xml:lang="fa">نرخ پایینترین پرداخت</value>
         <value xml:lang="fr">Prix bas</value>
         <value xml:lang="ja">最低支払レート</value>
         <value xml:lang="vi">Tỷ lệ thanh toán thấp nhất</value>
@@ -4918,6 +5251,7 @@
     <property key="RateType.description.OVERTIME">
         <value xml:lang="de">Satz für Überstunden</value>
         <value xml:lang="en">Overtime Rate</value>
+        <value xml:lang="fa">نرخ اضافه‌کار</value>
         <value xml:lang="fr">Majoré</value>
         <value xml:lang="ja">残業レート</value>
         <value xml:lang="vi">Tỷ lệ làm ngoài giờ</value>
@@ -4926,6 +5260,7 @@
     <property key="RateType.description.STANDARD">
         <value xml:lang="de">Standard-Satz</value>
         <value xml:lang="en">Standard Rate</value>
+        <value xml:lang="fa">نرخ استاندارد</value>
         <value xml:lang="fr">Standard</value>
         <value xml:lang="ja">標準レート</value>
         <value xml:lang="vi">Tỷ lệ chuẩn</value>
@@ -4934,6 +5269,7 @@
     <property key="TaxAuthorityAssocType.description.COLLECT_AGENT">
         <value xml:lang="de">Inkassobevollmächtigter</value>
         <value xml:lang="en">Collection Agent</value>
+        <value xml:lang="fa">مجموع نمایندگی</value>
         <value xml:lang="fr">Agent percepteur</value>
         <value xml:lang="hi_IN">वसूली एजेंट</value>
         <value xml:lang="it">Collezione Agente</value>
@@ -4949,6 +5285,7 @@
     <property key="TaxAuthorityAssocType.description.EXEMPT_INHER">
         <value xml:lang="de">Übernommene Steuerbefreiung</value>
         <value xml:lang="en">Exemption Inheritance</value>
+        <value xml:lang="fa">معافیت موروثی</value>
         <value xml:lang="fr">Exemption transférée</value>
         <value xml:lang="it">Esenzione Ereditaria</value>
         <value xml:lang="ja">免税相続税</value>
@@ -4963,6 +5300,7 @@
     <property key="TaxAuthorityRateType.description.EXPORT_TAX">
         <value xml:lang="de">Ausfuhrsteuer</value>
         <value xml:lang="en">Export Tax</value>
+        <value xml:lang="fa">مالیات صادرات</value>
         <value xml:lang="fr">Taxes à l'exportation</value>
         <value xml:lang="hi_IN">निर्यात कर</value>
         <value xml:lang="it">Tasse Esportazione</value>
@@ -4978,6 +5316,7 @@
     <property key="TaxAuthorityRateType.description.IMPORT_TAX">
         <value xml:lang="de">Einfuhrzoll</value>
         <value xml:lang="en">Import Tax</value>
+        <value xml:lang="fa">مالیات واردات</value>
         <value xml:lang="fr">Taxes à l'importation</value>
         <value xml:lang="hi_IN">आयात कर</value>
         <value xml:lang="it">Tasse Importazione</value>
@@ -4993,6 +5332,7 @@
     <property key="TaxAuthorityRateType.description.INCOME_TAX">
         <value xml:lang="de">Einkommenssteuer</value>
         <value xml:lang="en">Income Tax</value>
+        <value xml:lang="fa">مالیات درآمد</value>
         <value xml:lang="fr">Impôt sur le revenu</value>
         <value xml:lang="hi_IN">आयकर</value>
         <value xml:lang="it">Tassa sul Reddito</value>
@@ -5009,6 +5349,7 @@
         <value xml:lang="de">MwSt.</value>
         <value xml:lang="en">Sales Tax</value>
         <value xml:lang="es">Impuesto de ventas</value>
+        <value xml:lang="fa">مالیات فروش</value>
         <value xml:lang="fr">TVA</value>
         <value xml:lang="hi_IN">बिक्री कर</value>
         <value xml:lang="it">Tasse vendita</value>
@@ -5025,6 +5366,7 @@
         <value xml:lang="de">Gebrauchssteuer</value>
         <value xml:lang="en">Use Tax</value>
         <value xml:lang="es">Impuesto de uso</value>
+        <value xml:lang="fa">مالیات استفاده</value>
         <value xml:lang="fr">Taxe d'utilisation (pas en France)</value>
         <value xml:lang="hi_IN">उपभोग कर</value>
         <value xml:lang="it">Tassa sull'utilizzo</value>

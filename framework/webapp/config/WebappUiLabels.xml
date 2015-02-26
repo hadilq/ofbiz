@@ -8,7 +8,6 @@
     to you under the Apache License, Version 2.0 (the
     "License"); you may not use this file except in compliance
     with the License.  You may obtain a copy of the License at
-
     http://www.apache.org/licenses/LICENSE-2.0
 
     Unless required by applicable law or agreed to in writing,
@@ -23,6 +22,7 @@
         <value xml:lang="de">Benötigter Parameter 'delegator' fehlt.</value>
         <value xml:lang="en">Required parameter 'delegator' not passed.</value>
         <value xml:lang="es">No se proporciono el parametro 'delegator'</value>
+        <value xml:lang="fa">پارامتر «نماینده» لازم است ولی داده‌نشده‌است.</value>
         <value xml:lang="fr">Le paramètre obligatoire 'delegator' n'a pas fonctionné.</value>
         <value xml:lang="it">Parametro 'delegator' richiesto non passato.</value>
         <value xml:lang="ja">必要なパラメータ 'デリゲータ' が渡されませんでした。</value>
@@ -37,6 +37,7 @@
         <value xml:lang="de">Dispatch Kontext ist leer</value>
         <value xml:lang="en">Dispatch context is null</value>
         <value xml:lang="es">Nombre del Context es nulo</value>
+        <value xml:lang="fa">محتوا گسیل خالی است</value>
         <value xml:lang="fr">Le contexte du dispatch est irrecevable</value>
         <value xml:lang="it">Contesto Dispatch è nullo</value>
         <value xml:lang="ja">ディスパッチ内容がnullです</value>
@@ -51,6 +52,7 @@
         <value xml:lang="de">Dispatcher Name ist leer</value>
         <value xml:lang="en">Dispatcher name is null</value>
         <value xml:lang="es">Nombre del Dispatcher es nulo</value>
+        <value xml:lang="fa">نام گسیل‌کننده خالی است</value>
         <value xml:lang="fr">Le nom du dispatcher est irrecevable</value>
         <value xml:lang="it">Nome Dispatcher è nullo</value>
         <value xml:lang="ja">ディスパッチ名称がnullです</value>
@@ -64,6 +66,7 @@
         <value xml:lang="de">Benötigter Parameter 'dispatcher' fehlt</value>
         <value xml:lang="en">Required parameter 'dispatcher' not passed</value>
         <value xml:lang="es">El parametro 'dispatcher' no se transmitio</value>
+        <value xml:lang="fa">پارامتر «گسیل‌کننده» لازم است ولی داده‌نشده‌است</value>
         <value xml:lang="fr">le paramètre obligatoire 'dispatcher' n'a pas fonctionné</value>
         <value xml:lang="it">Parameter 'dispatcher' richiesto non passato</value>
         <value xml:lang="ja">必要なパラメータ 'ディスパッチャ' が渡されませんでした。</value>
@@ -77,6 +80,7 @@
         <value xml:lang="de">Fehler beim Zugriff auf ModelService für serviceName</value>
         <value xml:lang="en">Error looking up ModelService for serviceName</value>
         <value xml:lang="es">Error al buscar el 'ModelService' del servicio</value>
+        <value xml:lang="fa">خطا در پیداکردن «سرویس مدل» برای «نام سرویس»</value>
         <value xml:lang="fr">Error looking up ModelService for serviceName </value>
         <value xml:lang="it">Errore nella ricerca di ModelService per serviceName</value>
         <value xml:lang="ja">エラー: サービス名に対するモデルサービスが見つかりませんでした</value>
@@ -91,6 +95,7 @@
         <value xml:lang="de">Falsches Format für SERVICE_COUNT</value>
         <value xml:lang="en">Invalid format for SERVICE_COUNT</value>
         <value xml:lang="es">Formato invalido de cantidad de sevicio</value>
+        <value xml:lang="fa">فرمت نامعتبر برای «شمارنده سرویس»</value>
         <value xml:lang="fr">Format irrecevable pour SERVICE_COUNT</value>
         <value xml:lang="it">Formato invalido per SERVICE_COUNT</value>
         <value xml:lang="ja">SERVICE_COUNTの書式が正しくありません</value>
@@ -104,6 +109,7 @@
         <value xml:lang="de">Falsches Format für SERVICE_FREQUENCY</value>
         <value xml:lang="en">Invalid format for SERVICE_FREQUENCY</value>
         <value xml:lang="es">Formato invalido de frecuencia de sevicio</value>
+        <value xml:lang="fa">فرمت نامعتبر برای «بسامد سرویس»</value>
         <value xml:lang="fr">Format irrecevable pour SERIVCE_FREQUENCY</value>
         <value xml:lang="it">Formato invalido per SERIVCE_FREQUENCY</value>
         <value xml:lang="ja">SERVICE_FREQUENCYの書式が正しくありません</value>
@@ -117,6 +123,7 @@
         <value xml:lang="de">Falsches Format für SERVICE_INTERVAL</value>
         <value xml:lang="en">Invalid format for SERVICE_INTERVAL</value>
         <value xml:lang="es">Formato invalido de intervalo de sevicio</value>
+        <value xml:lang="fa">فرمت نامعتبر برای «بازه سرویس»</value>
         <value xml:lang="fr">Format irrecevable pour SERVICE_INTERVAL</value>
         <value xml:lang="it">Formato invalido per SERVICE_INTERVAL</value>
         <value xml:lang="ja">SERVICE_INTERVALの書式が正しくありません</value>
@@ -130,6 +137,7 @@
         <value xml:lang="de">Falsches Format für SERVICE_TIME</value>
         <value xml:lang="en">Invalid format for SERVICE_TIME</value>
         <value xml:lang="es">Formato invalido de tiempo de sevicio</value>
+        <value xml:lang="fa">فرمت نامعتبر برای «زمان سرویس»</value>
         <value xml:lang="fr">Format irrecevable pour SERVICE_TIME</value>
         <value xml:lang="it">Formato invalido per SERVICE_TIME</value>
         <value xml:lang="ja">SERVICE_TIMEの書式が正しくありません</value>
@@ -143,6 +151,7 @@
         <value xml:lang="de">Sie müssen einen Servicenamen 'SERVICE_NAME' angeben (zusätzliche Parameter sind: SERVICE_TIME, SERVICE_FREQUENCY, SERVICE_INTERVAL, SERVICE_COUNT)</value>
         <value xml:lang="en">You must specify a 'SERVICE_NAME' (other parameters include: SERVICE_TIME, SERVICE_FREQUENCY, SERVICE_INTERVAL, SERVICE_COUNT)</value>
         <value xml:lang="es">Debe especificar nombre de servicio(además de: tiempo, frecuencia, intervalos y cantidad de servicios)</value>
+        <value xml:lang="fa">شما باید «نام سرویس» (و دیگر پارامترها شامل: «زمان سرویس»، «بسامد سرویس»، «بازه سرویس» و «شمارنده سرویس») را مشخص‌نمایید </value>
         <value xml:lang="fr">Vous devez spécifier un 'SERVICE_NAME'. Les autres paramètres incluent : SERVICE_TIME, SERVICE_FREQUENCY, SERVICE_INTERVAL, SERVICE_COUNT</value>
         <value xml:lang="it">Tu devi specificare un 'SERVICE_NAME' (altri parametri inclusi: SERVICE_TIME, SERVICE_FREQUENCY, SERVICE_INTERVAL, SERVICE_COUNT)</value>
         <value xml:lang="ja">'SERVICE_NAME'を指定してください (その他のパラメータも含みます: SERVICE_TIME, SERVICE_FREQUENCY, SERVICE_INTERVAL, SERVICE_COUNT)</value>
@@ -156,6 +165,7 @@
         <value xml:lang="de">Sie müssen einen Servicenamen 'SERVICE_NAME' und optional einen Modus angeben (sync oder async, standardmässig auf sync)</value>
         <value xml:lang="en">You must specify a 'serviceName', and optionally a 'mode' (sync or async, defaults to sync)</value>
         <value xml:lang="es">Debe especificar un nombre de servicio y opcionalmente el modo (síncrono o asíncrono, Síncrono por defecto)</value>
+        <value xml:lang="fa">شما باید «نام سرویس»، و به‌صورت‌اختیاری «مود» (همزمان یا ناهمزمان، که پیش‌فرض همزمان است) را مشخص‌نمایید </value>
         <value xml:lang="fr">Vous devez spécifier un 'service Name', et optionnellement un mode (sync ou async, standard: sync)</value>
         <value xml:lang="it">Tu devi specificare un 'serviceName', e opzionalmente un 'mode' (sincrono o asincrono, defaults è sincrono)</value>
         <value xml:lang="ja">'サービス名'を指定してください、オプションで'モード' (同期/非同期、デフォルトは同期)も指定できます</value>
@@ -169,6 +179,7 @@
         <value xml:lang="de">Kein Delegator definiert mit diesem Namen</value>
         <value xml:lang="en">No delegator defined by that name</value>
         <value xml:lang="es">No se ha definido un delegator con ese nombre</value>
+        <value xml:lang="fa">هیچ نماینده‌ای با این نام تعریف‌نشده‌است</value>
         <value xml:lang="fr">Aucun delegator défini par ce nom</value>
         <value xml:lang="it">Nessun delegator definito da questo nome</value>
         <value xml:lang="ja">'サービス名'を指定してください、オプションで'モード' (同期/非同期、デフォルトは同期)も指定できます</value>
@@ -183,6 +194,7 @@
         <value xml:lang="de">Kein Dispatcher mit dem angegebenen Names ist im System registriert</value>
         <value xml:lang="en">No dispatcher with that name has been registered</value>
         <value xml:lang="es">No se ha registrado un dispachador con ese nombre</value>
+        <value xml:lang="fa">هیچ گسیل‌کننده‌ای با این نام ثبت‌نشده‌است</value>
         <value xml:lang="fr">Aucun dispatcher défini par ce nom</value>
         <value xml:lang="it">Nessun dispatcher con questo nome è stato registrato</value>
         <value xml:lang="ja">指定した名称のディスパッチャが登録されていません</value>
@@ -196,6 +208,7 @@
     <property key="coreEvents.no_fields_in_session">
         <value xml:lang="de">Keine 'previous fields' auf der Session gefunden</value>
         <value xml:lang="en">No previous fields found in session</value>
+        <value xml:lang="fa">هیچ بخشی از قبل برای این نشست پیدا‌نشده‌است</value>
         <value xml:lang="fr">Aucun champ précédent appartenant à la session</value>
         <value xml:lang="it">Nessun campo precedentemente trovato in questa sessione</value>
         <value xml:lang="ja">セッションに前の項目が見つかりません</value>
@@ -209,6 +222,7 @@
         <value xml:lang="de">Sie sind nicht berechtigt, diesen 'non-exported' Service aufzurufen. Sie müssen sich am System anmelden und die Sicherheitsberechtigung SERVICE_INVOKE_ANY besitzen.</value>
         <value xml:lang="en">You are not authorized to call this non-exported service, you must be logged in and have the SERVICE_INVOKE_ANY permission</value>
         <value xml:lang="es">Usten no está autorizada a invocar a este servicio, para lo cual debe contar con el permiso: SERVICE_INVOKE_ANY</value>
+        <value xml:lang="fa">شما برای فراخوانی این سرویس غیرخارچی مجوز ندارید، شما باید وارد سایت شوید و مجوز «فراخوانی هر سرویس» را داشته‌باشید</value>
         <value xml:lang="fr">Vous n'êtes pas autorisé à appeler ce sercie non exporté, vous devez  être connecté et avoir l'autorisation du SERVICE_INVOKE_ANY.</value>
         <value xml:lang="it">Tu non sei autorizzato ad eseguire questo servizio non-esportato, tu devi essere autenticato e avere il permesso SERVICE_INVOKE_ANY</value>
         <value xml:lang="ja">このサービスを呼び出す権限がありません。ログインして SERVICE_INVOKE_ANY 権限が必要です</value>
@@ -223,6 +237,7 @@
         <value xml:lang="de">Sie sind nicht berechtigt, diese Funktion zu verwenden</value>
         <value xml:lang="en">You are not authorized to use this function</value>
         <value xml:lang="es">Usted no está autorizada a usar esta función</value>
+        <value xml:lang="fa">شما مجوز استفاده از این تابع را ندارید</value>
         <value xml:lang="fr">Vous n'êtes pas autorisé à utiliser cette fonction</value>
         <value xml:lang="it">Tu non sei autorizzato ad usare questa funzione</value>
         <value xml:lang="ja">この機能を使用する権限がありません</value>
@@ -236,6 +251,7 @@
         <value xml:lang="de">Der Service Dispatcher hat eine Exception geworfen</value>
         <value xml:lang="en">Service dispatcher threw an exception: </value>
         <value xml:lang="es">Service dispatcher lanzo una excepción</value>
+        <value xml:lang="fa">گسیل‌کننده سرویس استثناءی را گزارش‌کرده‌است:</value>
         <value xml:lang="fr">Le service dispatcher a envoyer une exception</value>
         <value xml:lang="it">Dispatcher servizio ha lanciato una eccezione</value>
         <value xml:lang="ja">サービスディスパッチャが例外を投げました</value>
@@ -249,6 +265,7 @@
         <value xml:lang="de">Der ServiceEventHandler hat eine Exception geworfen</value>
         <value xml:lang="en">ServiceEventHandler threw an exception</value>
         <value xml:lang="es">ServiceEventHandler lanzo una excepción</value>
+        <value xml:lang="fa">«مدیریت رخداد سرویس» استثناءی را گزارش‌کرده‌است</value>
         <value xml:lang="fr">Le ServiceEventHandler a envoyer une exception</value>
         <value xml:lang="it">ServiceEventHandler ha lanciato una eccezione</value>
         <value xml:lang="ja">サービスイベントハンドラが例外を投げました</value>
@@ -262,6 +279,7 @@
         <value xml:lang="de">Ein Service mit diesem Namen wurde nicht gefunden</value>
         <value xml:lang="en">Could not find a service with the serviceName</value>
         <value xml:lang="es">No se pudo encontrar un servicio con ese nombre</value>
+        <value xml:lang="fa">سرویسی را این «نام سرویس» پیدانشد</value>
         <value xml:lang="fr">Un service ne peut être trouvé par ce nom de service</value>
         <value xml:lang="it">Non è possibile trovare un servizio con serviceName</value>
         <value xml:lang="ja">サービスが見つかりません、サービス名:</value>
@@ -275,6 +293,7 @@
         <value xml:lang="de">Service wurde eingeplant</value>
         <value xml:lang="en">Service has been scheduled</value>
         <value xml:lang="es">El servicio a sido programado</value>
+        <value xml:lang="fa">سرویس برنامه‌ریزی‌شده‌است</value>
         <value xml:lang="fr">Le service a été planifié</value>
         <value xml:lang="it">Servizio è stato schedulato</value>
         <value xml:lang="ja">サービスがスケジュールされました</value>
@@ -288,6 +307,7 @@
         <value xml:lang="de">SERVICE_TIME ist bereits vorbei</value>
         <value xml:lang="en">SERVICE_TIME has already passed</value>
         <value xml:lang="es">El tiempo de servicio a concluido</value>
+        <value xml:lang="fa">«زمان سرویس» از قبل داده‌شده‌است</value>
         <value xml:lang="fr">SERVICE_TIME a déjà réussi </value>
         <value xml:lang="it">SERVICE_TIME è già stato passato</value>
         <value xml:lang="ja">SERVICE_TIMEはすでに渡されています</value>
@@ -299,6 +319,7 @@
     </property>
     <property key="protectedviewevents.blocked_message">
         <value xml:lang="en">This is the blocked message (to be adapted).</value>
+        <value xml:lang="fa">این یک پیام مسدودشده‌ است (برای سازگاری).</value>
         <value xml:lang="fr">Ceci est le message de bloquage (à adapter).</value>
         <value xml:lang="it">Questo è il messaggio bloccante (che deve essere adattato).</value>
         <value xml:lang="ja">これはブロックされたメッセージです(適用してください)。</value>
@@ -307,6 +328,7 @@
     </property>
     <property key="protectedviewevents.tarpitted_message">
         <value xml:lang="en">This is the tarpitted message (to be adapted).</value>
+        <value xml:lang="fa">این یک پیام به‌دام‌افتاده است (برای سازگاری)</value>
         <value xml:lang="fr">Ceci est le message d'engluage (à adapter).</value>
         <value xml:lang="it">Questo è il messaggio (che deve essere adattato).</value>
         <value xml:lang="ja">これは応答遅延メッセージです(適用してください)。</value>
@@ -317,6 +339,7 @@
         <value xml:lang="de">Fehler beim Aufruf eines Events</value>
         <value xml:lang="en">Error calling event</value>
         <value xml:lang="es">Error en la llamada el evento</value>
+        <value xml:lang="fa">خطا در فراخوانی رویداد</value>
         <value xml:lang="fr">Erreur lors de l'appel de l'événement</value>
         <value xml:lang="it">Errore esecuzione evento</value>
         <value xml:lang="ja">エラー: イベント呼び出し</value>
@@ -329,6 +352,7 @@
     <property key="requestHandler.InsecureFormPostToSecureRequest">
         <value xml:lang="en">Not accepting insecure form data posted to a secure request</value>
         <value xml:lang="es">No permite enviarle un forma inseguro a un pedido seguro</value>
+        <value xml:lang="fa">هیچ داده فرم ناامنی پست‌شده به درخواست امن پذیرفته‌نمی‌شود</value>
         <value xml:lang="ja">セキュアなリクエストに対して送信された、インセキュアなフォームデータを受け付けることはできません</value>
         <value xml:lang="zh">不接受把不安全的表单数据提交到安全的请求</value>
         <value xml:lang="zh_TW">不接受把不安全的表單資料提交到安全的請求</value>
@@ -337,6 +361,7 @@
         <value xml:lang="de">Event konnte nicht abgeschlossen werden</value>
         <value xml:lang="en">Could not complete event</value>
         <value xml:lang="es">No se pudo completar el evento</value>
+        <value xml:lang="fa">نمی‌توان رویداد را کامل‌کرد</value>
         <value xml:lang="fr">L'événement n'a pas pu être terminé</value>
         <value xml:lang="it">Non è possibile completare questo evento</value>
         <value xml:lang="ja">イベントを完了できません</value>

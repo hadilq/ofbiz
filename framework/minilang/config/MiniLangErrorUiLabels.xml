@@ -8,7 +8,6 @@
     to you under the Apache License, Version 2.0 (the
     "License"); you may not use this file except in compliance
     with the License.  You may obtain a copy of the License at
-
     http://www.apache.org/licenses/LICENSE-2.0
 
     Unless required by applicable law or agreed to in writing,
@@ -23,6 +22,7 @@
         <value xml:lang="de">Fehler beim Starten der Transaktion, Methode konnte nicht verarbeitet werden</value>
         <value xml:lang="en">Error trying to begin transaction, could not process method</value>
         <value xml:lang="es">Error trying to begin transaction, could not process method</value>
+        <value xml:lang="fa">خطا در زمان شروع جابجایی، نمی‌توان این روش را پردازش کرد</value>
         <value xml:lang="fr">La transaction ne peut débuter, une erreur est survenue</value>
         <value xml:lang="it">Errore provando a iniziare una transazione, non è possibile eseguire il metodo</value>
         <value xml:lang="ja">トランザクションの開始時にエラー、メソッドを処理できません</value>
@@ -36,6 +36,7 @@
         <value xml:lang="de">Fehler beim Ausführen der simple-method</value>
         <value xml:lang="en">Error running the simple-method</value>
         <value xml:lang="es">Error running the simple-method</value>
+        <value xml:lang="fa">خطا در اجراء روش‌ساده</value>
         <value xml:lang="fr">Erreur pendant la simple-method</value>
         <value xml:lang="it">Errore nell'esecuzione del metodo-semplice</value>
         <value xml:lang="ja">シンプルメソッド実行時エラー</value>
@@ -47,6 +48,7 @@
     </property>
     <property key="simpleMethod.error_show_service_name">
         <value xml:lang="en">calling service ${serviceName} in ${methodName}</value>
+        <value xml:lang="fa">اجراء سرویس ${serviceName} در ${methodName}</value>
         <value xml:lang="it">eseguendo il servizio ${serviceName} in ${methodName}</value>
         <value xml:lang="ja">サービス ${serviceName} を ${methodName} で呼び出し</value>
         <value xml:lang="zh">在${methodName}中调用服务${serviceName} </value>
@@ -55,6 +57,7 @@
         <value xml:lang="de">Sie müssen am System angemeldet sein um [${shortDescription}] auszuführen</value>
         <value xml:lang="en">You must be logged in to complete the [${shortDescription}] process</value>
         <value xml:lang="es">You must be logged in to complete the [${shortDescription}] process</value>
+        <value xml:lang="fa">شما باید وارد شوید تا پردازش [${shortDescription}] کامل شود</value>
         <value xml:lang="fr">Vous devez être connecté pour pouvoir achever le process ${shortDescription}</value>
         <value xml:lang="it">Tu devi essere autenticato per completare il processo ${shortDescription}</value>
         <value xml:lang="ja">[${shortDescription}] プロセスの完了にはログインが必要です</value>

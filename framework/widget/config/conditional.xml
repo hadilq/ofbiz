@@ -24,6 +24,7 @@
         <value xml:lang="de">Beginnt mit</value>
         <value xml:lang="en">Begins With</value>
         <value xml:lang="es">Inicia con</value>
+        <value xml:lang="fa">شروع‌شود با</value>
         <value xml:lang="fr">débute</value>
         <value xml:lang="it">Inizia con</value>
         <value xml:lang="ja">先頭が一致</value>
@@ -40,6 +41,7 @@
         <value xml:lang="de">Enthält</value>
         <value xml:lang="en">Contains</value>
         <value xml:lang="es">Contiene</value>
+        <value xml:lang="fa">شامل</value>
         <value xml:lang="fr">contient</value>
         <value xml:lang="it">Contiene</value>
         <value xml:lang="ja">含む</value>
@@ -56,6 +58,7 @@
         <value xml:lang="de">Gleich</value>
         <value xml:lang="en">Equals</value>
         <value xml:lang="es">Igual</value>
+        <value xml:lang="fa">مساوی</value>
         <value xml:lang="fr">égal</value>
         <value xml:lang="it">Uguale</value>
         <value xml:lang="ja">等しい</value>
@@ -72,6 +75,7 @@
         <value xml:lang="de">Größer als</value>
         <value xml:lang="en">Greater Than</value>
         <value xml:lang="es">Mayor que</value>
+        <value xml:lang="fa">بزرگتر از</value>
         <value xml:lang="fr">plus grand</value>
         <value xml:lang="it">Maggiore di</value>
         <value xml:lang="ja">より大きい</value>
@@ -88,6 +92,7 @@
         <value xml:lang="de">Größer gleich</value>
         <value xml:lang="en">Greater Than Equals</value>
         <value xml:lang="es">Mayor igual que</value>
+        <value xml:lang="fa">بزرگترمساوی</value>
         <value xml:lang="fr">plus grand ou égal</value>
         <value xml:lang="it">Maggiore uguale</value>
         <value xml:lang="ja">以上</value>
@@ -104,6 +109,7 @@
         <value xml:lang="de">nach Tagesbeginn</value>
         <value xml:lang="en">Greater Than From Day Start</value>
         <value xml:lang="es">Mayor que el día</value>
+        <value xml:lang="fa">بزرگتراز شروع روز</value>
         <value xml:lang="fr">plus grand que le jour</value>
         <value xml:lang="it">Maggiore del giorno di inizio</value>
         <value xml:lang="ja">以降</value>
@@ -120,6 +126,7 @@
         <value xml:lang="de">Groß-Kleinschreibung ignorieren</value>
         <value xml:lang="en">Ignore Case</value>
         <value xml:lang="es">Ignorar mayusculas</value>
+        <value xml:lang="fa">بدون‌توجه به حروف‌بزرگ</value>
         <value xml:lang="fr">(Maj/min)</value>
         <value xml:lang="it">Ignora maiuscole/minuscole</value>
         <value xml:lang="ja">大文字/小文字を区別しない</value>
@@ -136,6 +143,7 @@
         <value xml:lang="de">Ist leer</value>
         <value xml:lang="en">Is Empty</value>
         <value xml:lang="es">Vacio</value>
+        <value xml:lang="fa">خالی</value>
         <value xml:lang="fr">est vide</value>
         <value xml:lang="it">E' vuoto</value>
         <value xml:lang="ja">空</value>
@@ -152,6 +160,7 @@
         <value xml:lang="de">Kleiner als</value>
         <value xml:lang="en">Less Than</value>
         <value xml:lang="es">Menor que</value>
+        <value xml:lang="fa">کمتر از</value>
         <value xml:lang="fr">plus petit</value>
         <value xml:lang="it">Minore di</value>
         <value xml:lang="ja">より小さい</value>
@@ -168,6 +177,7 @@
         <value xml:lang="de">Kleiner gleich</value>
         <value xml:lang="en">Less Than Equals</value>
         <value xml:lang="es">Menor que</value>
+        <value xml:lang="fa">کوچکتر مساوی</value>
         <value xml:lang="fr">plus petit ou égal</value>
         <value xml:lang="it">Minore uguale</value>
         <value xml:lang="ja">以下</value>
@@ -182,6 +192,7 @@
         <value xml:lang="de">ungleich</value>
         <value xml:lang="cs">Není rovno</value>
         <value xml:lang="en">Not Equal</value>
+        <value xml:lang="fa">نامساوی</value>
         <value xml:lang="fr">Diff.</value>
         <value xml:lang="it">Diverso da</value>
         <value xml:lang="ja">異なる</value>
@@ -195,6 +206,7 @@
         <value xml:lang="de">Gleicher Tag</value>
         <value xml:lang="en">Same Day</value>
         <value xml:lang="es">Igual</value>
+        <value xml:lang="fa">روز یکسان</value>
         <value xml:lang="fr">même jour</value>
         <value xml:lang="it">Stesso giorno</value>
         <value xml:lang="ja">同じ日</value>
@@ -211,6 +223,7 @@
         <value xml:lang="de">bis Tagesende</value>
         <value xml:lang="en">Up Through Day</value>
         <value xml:lang="es">Hasta el día</value>
+        <value xml:lang="fa">تا از روز</value>
         <value xml:lang="fr">Inclus ce jour</value>
         <value xml:lang="it">Fino al giorno</value>
         <value xml:lang="ja">以前</value>
@@ -227,6 +240,7 @@
         <value xml:lang="de">bis Tagesbeginn</value>
         <value xml:lang="en">Up To Day</value>
         <value xml:lang="es">Hasta</value>
+        <value xml:lang="fa">تا روز</value>
         <value xml:lang="fr">Jusqu'au jour</value>
         <value xml:lang="it">Fino ad oggi</value>
         <value xml:lang="ja">今日まで</value>

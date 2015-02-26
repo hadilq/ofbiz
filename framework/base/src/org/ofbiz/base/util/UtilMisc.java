@@ -771,6 +771,19 @@ public class UtilMisc {
         return RightToLeftLocaleList;
     }
 
+    public static String hideIgnoreCaseLocaleString = null;
+    /** Returns a List of hideIgnoreCase locales sorted by display name */
+    public static String hideIgnoreCaseLocales() {
+        if (hideIgnoreCaseLocaleString == null) {
+            synchronized(UtilMisc.class) {
+                if (hideIgnoreCaseLocaleString == null) {
+                    hideIgnoreCaseLocaleString = UtilProperties.getPropertyValue("general", "locales.hideIgnoreCase");
+                }
+            }
+        }
+        return hideIgnoreCaseLocaleString;
+    }
+
     /** @deprecated use Thread.sleep() */
     @Deprecated
     public static void staticWait(long timeout) throws InterruptedException {
