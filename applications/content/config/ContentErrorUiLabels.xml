@@ -8,7 +8,6 @@
     to you under the Apache License, Version 2.0 (the
     "License"); you may not use this file except in compliance
     with the License.  You may obtain a copy of the License at
-
     http://www.apache.org/licenses/LICENSE-2.0
 
     Unless required by applicable law or agreed to in writing,
@@ -21,18 +20,21 @@
 <resource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <property key="contentevents.error_getting_content_list">
         <value xml:lang="en">Error getting the content list to index: ${gee}.</value>
+        <value xml:lang="fa">خطا در دریافت لیست محتوا به شاخص: ${gee}.</value>
         <value xml:lang="ja">コンテンツリストの取得時にエラー。索引: ${gee}.</value>
         <value xml:lang="pt">Erro ao obter a lista de conteúdo ao índice: ${gee}.</value>
         <value xml:lang="zh">获取内容列表来进行索引时出错：${gee}。</value>
     </property>
     <property key="contentevents.keyword_creation_complete_for_contents">
         <value xml:lang="en">Keyword creation complete for ${numConts} contents.</value>
+        <value xml:lang="fa">ساختن کلمه‌کلیدی برای محتوای ${numConts} کامل شد.</value>
         <value xml:lang="ja">${numConts} コンテンツのキーワード作成が完了しました。</value>
         <value xml:lang="pt">Criação de palavras-chave completa para conteúdo de ${numConts}.</value>
         <value xml:lang="zh">完成 ${numConts} 个内容的关键字创建。</value>
     </property>
     <property key="contentevents.keyword_creation_complete_for_contents_with_errors">
         <value xml:lang="en">Keyword creation complete for ${numConts} contents, with errors in ${errConts} contents (see the log for more details).</value>
+        <value xml:lang="fa">ساختن کلمه‌کلیدی برای محتوای ${numConts} کامل شد، همراه خطا در محتواهای ${errConts} (به لاگ نگاهی بیاندازید برای جزئیات).</value>
         <value xml:lang="ja">${numConts} コンテンツのキーワード作成が完了しました。${errConts} コンテンツでエラーがあります (詳細はログを参照してください)。</value>
         <value xml:lang="pt">Criação de palavras-chave concluída para o conteúdo de ${numConts}, com erros no conteúdo de ${errConts} (veja o log para mais detalhes).</value>
         <value xml:lang="zh">完成 ${numConts} 个内容的关键字创建，${errConts} 个内容的关键字出错（详见日志）。</value>
@@ -41,6 +43,7 @@
         <value xml:lang="de">Sie haben nicht genügend Berechtigungen um ${updateMode} CONTENTMGR (CONTENTMGR_${updateMode} oder CONTENTMGR_ADMIN benötigt).</value>
         <value xml:lang="en">You do not have sufficient permissions to ${updateMode} CONTENTMGR (CONTENTMGR_${updateMode} or CONTENTMGR_ADMIN needed).</value>
         <value xml:lang="es">No tiene suficientes permisos para ${updateMode} se necesitan permisos de CONTENTMGR (CONTENTMGR_${updateMode} o CONTENTMGR_ADMIN).</value>
+        <value xml:lang="fa">شما مجوز لازم برای ${updateMode} CONTENTMGR ندارید (CONTENTMGR_${updateMode} یا CONTENTMGR_ADMIN الزامی هستند).</value>
         <value xml:lang="fr">Vous n'avez pas les autorisations suffisantes pour ${updatemode} le CONTENTMGR (CONTENTMGR_${updateMode} ou CONTENTMGR_ADMIN requis).</value>
         <value xml:lang="it">Non hai permessi sufficienti per ${updateMode} CONTENTMGR (permesso CONTENTMGR_${updateMode} o CONTENTMGR_ADMIN necessario).</value>
         <value xml:lang="ja">${updateMode} CONTENTMGR に必要な権限がありません (CONTENTMGR_${updateMode} または CONTENTMGR_ADMIN が必要です)。</value>
@@ -56,6 +59,7 @@
         <value xml:lang="de">Fehler beim Aufruf createDataResource Service</value>
         <value xml:lang="en">Error calling the createDataResource service</value>
         <value xml:lang="es">Error al llamar al servicio 'createDataResource'</value>
+        <value xml:lang="fa">خطا در فراخوانی سرویس createDataResource</value>
         <value xml:lang="fr">Erreur pendant l'appel du service createDataResource</value>
         <value xml:lang="it">Errore esecuzione servizio createDataResource</value>
         <value xml:lang="ja">データリソース作成サービス呼び出し時エラー</value>
@@ -70,6 +74,7 @@
         <value xml:lang="de">Fehler beim Aufruf updateDataResource Service</value>
         <value xml:lang="en">Error calling the updateDataResource service</value>
         <value xml:lang="es">Error al llamar al servicio 'updateDataResource'</value>
+        <value xml:lang="fa">خطا در فراخوانی سرویس updateDataResource</value>
         <value xml:lang="fr">Erreur pendant l'appel du service update data resource</value>
         <value xml:lang="it">Errore esecuzione servizio updateDataResource</value>
         <value xml:lang="ja">データリソース更新サービス呼び出し時エラー</value>
@@ -84,6 +89,7 @@
         <value xml:lang="de">Fehler beim Holen des Bild Datensatzes von acquireImage</value>
         <value xml:lang="en">Error getting image record from acquireImage</value>
         <value xml:lang="es">Error al obtener la imagen a partir de la captura de imagenes</value>
+        <value xml:lang="fa">خطا در گرفتن عکس از عکس موجود</value>
         <value xml:lang="fr">Erreur d'obtention de compte-rendu d'image depuis acquireImage</value>
         <value xml:lang="it">Errore lettura record immagine da aquireImage</value>
         <value xml:lang="ja">取込画像の画像レコード取得時エラー</value>
@@ -98,6 +104,7 @@
         <value xml:lang="de">Fehler beim Schreiben des Bildes in den Outputstream</value>
         <value xml:lang="en">Error writing image to OutputStream</value>
         <value xml:lang="es">Error al imprimir la imagen en la salida</value>
+        <value xml:lang="fa">خطا در نوشتن عکس در OutputStream</value>
         <value xml:lang="fr">Erreur pendant "l'écriture" de l'image vers OutputStream</value>
         <value xml:lang="it">Errore scrittura immagine su OutputStream</value>
         <value xml:lang="ja">画像の出力ストリーム書き出し時エラー</value>
@@ -112,6 +119,7 @@
         <value xml:lang="de">image({b}) oder Typ(${imageType}) ist null oder leer</value>
         <value xml:lang="en">image({b}) or type(${imageType}) is null or empty</value>
         <value xml:lang="es">imagen({b}) o tipo(${imageType}) son nulos o están vacios</value>
+        <value xml:lang="fa">عکس ({b}) یا type(${imageType}) خالی یا null است</value>
         <value xml:lang="fr">image ({b}) ou type (${imageType}) irrecevable ou vide</value>
         <value xml:lang="it">immagine({b}) o tipo (${imageType}) è nullo o vuoto</value>
         <value xml:lang="ja">画像({b}) または 種類(${imageType}) がヌルまたは空です</value>
@@ -126,6 +134,7 @@
         <value xml:lang="de">imageFi(${imageFi}) oder idFieldValue(${idFieldValue}) ist null</value>
         <value xml:lang="en">imageFi(${imageFi}) or idFieldValue(${idFieldValue}) is null</value>
         <value xml:lang="es">Imagen(${imageFi}) or Campo(${idFieldValue}) son nulos</value>
+        <value xml:lang="fa">imageFi(${imageFi}) یا idFieldValue(${idFieldValue}) null هستند</value>
         <value xml:lang="fr">imageFi (${imageFi}) ou idFieldValue (${idFieldValue}) est irrecevable</value>
         <value xml:lang="it">imageFi(${imageFi}) o idFieldValue(${idFieldValue}) è nullo</value>
         <value xml:lang="ja">画像ファイル(${imageFi}) または、ID項目値(${idFieldValue}) が空です</value>
@@ -140,6 +149,7 @@
         <value xml:lang="de">Keine Dateien hochgeladen</value>
         <value xml:lang="en">No files uploaded</value>
         <value xml:lang="es">No se cargaron los archivos</value>
+        <value xml:lang="fa">هیچ فایلی آپلود نشده است</value>
         <value xml:lang="fr">Aucun fichier téléversé</value>
         <value xml:lang="it">Nessun file caricato</value>
         <value xml:lang="ja">アップロードされたファイルはありません</value>
@@ -154,6 +164,7 @@
         <value xml:lang="de">Inhalt ist leer</value>
         <value xml:lang="en">content is empty</value>
         <value xml:lang="es">El contenido está vacio</value>
+        <value xml:lang="fa">محتوا خالی است</value>
         <value xml:lang="fr">Le contenu est vide</value>
         <value xml:lang="it">content è vuoto</value>
         <value xml:lang="ja">コンテンツはありません</value>
@@ -168,6 +179,7 @@
         <value xml:lang="de">Inhalt ID ist leer</value>
         <value xml:lang="en">contentId is empty</value>
         <value xml:lang="es">El id del contenido está vacío</value>
+        <value xml:lang="fa">آی‌دی محتوا خالی است</value>
         <value xml:lang="fr">contentId est vide</value>
         <value xml:lang="it">contentId è vuoto</value>
         <value xml:lang="ja">コンテンツIDがありません</value>
@@ -182,6 +194,7 @@
         <value xml:lang="de">Inhalt ID zu ist leer</value>
         <value xml:lang="en">contentIdTo is null</value>
         <value xml:lang="es">El id del contenido es nulo</value>
+        <value xml:lang="fa">«آی‌دی محتوا به» خالی است</value>
         <value xml:lang="fr">contentIdTo est irrecevable</value>
         <value xml:lang="it">contentIdTo è nullo</value>
         <value xml:lang="ja">コンテンツID(先)が空です</value>
@@ -196,6 +209,7 @@
         <value xml:lang="de">Datenressource ID ist null</value>
         <value xml:lang="en">DataRessourceId is null</value>
         <value xml:lang="es">El id del recurso de datos está vacío</value>
+        <value xml:lang="fa">«آی‌دی منبع داده» خالی است</value>
         <value xml:lang="fr">DataRessourceId est irrecevable</value>
         <value xml:lang="it">DataRessourceId è nullo</value>
         <value xml:lang="ja">データリソースIDが空です</value>
@@ -210,6 +224,7 @@
         <value xml:lang="de">ist leer</value>
         <value xml:lang="en">is empty</value>
         <value xml:lang="es">Vacío</value>
+        <value xml:lang="fa">خالی است</value>
         <value xml:lang="fr">est vide</value>
         <value xml:lang="it">è vuoto</value>
         <value xml:lang="ja">は空です</value>
@@ -224,6 +239,7 @@
         <value xml:lang="de">'Entitätenname' ist leer</value>
         <value xml:lang="en">'entityName' is empty</value>
         <value xml:lang="es">'entityName' está vacío</value>
+        <value xml:lang="fa">«نام نهاد» خالی است</value>
         <value xml:lang="fr">'entityName' est vide</value>
         <value xml:lang="it">'entityName' è vuoto</value>
         <value xml:lang="ja">'エンティティ名'は空です</value>
@@ -238,6 +254,7 @@
         <value xml:lang="de">Bilddaten sind leer</value>
         <value xml:lang="en">Image data is null</value>
         <value xml:lang="es">Imagen es nula</value>
+        <value xml:lang="fa">داده عکس خالی است</value>
         <value xml:lang="fr">Image data est vide</value>
         <value xml:lang="it">Image data è nullo</value>
         <value xml:lang="ja">画像データは空です</value>
@@ -252,6 +269,7 @@
         <value xml:lang="de">Keinen untergeordneten Inhalt gefunden</value>
         <value xml:lang="en">No subcontent found</value>
         <value xml:lang="es">No se encontro subcontenido</value>
+        <value xml:lang="fa">هیچ زیر محتوایی یافت نشد</value>
         <value xml:lang="fr">Aucun 'subcontent' trouvé</value>
         <value xml:lang="it">Nessun sotto-contenuto trovato</value>
         <value xml:lang="ja">サブコンテンツはありません</value>
@@ -266,6 +284,7 @@
         <value xml:lang="de">ImageFi(${imageFi}) ist null</value>
         <value xml:lang="en">imageFi(${imageFi}) is null</value>
         <value xml:lang="es">Imagen(${imageFi}) eestá vacía</value>
+        <value xml:lang="fa">imageFi(${imageFi}) خالی است</value>
         <value xml:lang="fr">imageFi(${imageFi}) est irrecevable</value>
         <value xml:lang="it">imageFi(${imageFi}) è nullo</value>
         <value xml:lang="ja">画像ファイル(${imageFi}) は空です</value>
@@ -280,6 +299,7 @@
         <value xml:lang="de">Keine Dateien hochgeladen</value>
         <value xml:lang="en">No files uploaded</value>
         <value xml:lang="es">No se cargaron archivos</value>
+        <value xml:lang="fa">هیچ فایلی آپلود نشده است</value>
         <value xml:lang="fr">Aucun fichier téléversé</value>
         <value xml:lang="it">Nessun file caricato</value>
         <value xml:lang="ja">アップロードされたファイルはありません</value>
@@ -294,6 +314,7 @@
         <value xml:lang="de">Keine Dateien hochgeladen</value>
         <value xml:lang="en">No files uploaded</value>
         <value xml:lang="es">No se cargaron archivos</value>
+        <value xml:lang="fa">هیچ فایلی آپلود نشده است</value>
         <value xml:lang="fr">Aucun fichier téléversé</value>
         <value xml:lang="it">Nessun file caricato</value>
         <value xml:lang="ja">アップロードされたファイルはありません</value>

@@ -8,7 +8,6 @@
     to you under the Apache License, Version 2.0 (the
     "License"); you may not use this file except in compliance
     with the License.  You may obtain a copy of the License at
-
     http://www.apache.org/licenses/LICENSE-2.0
 
     Unless required by applicable law or agreed to in writing,
@@ -22,6 +21,7 @@
     <property key="AddNewProductFeatureToProduct">
         <value xml:lang="de">Neues Merkmal für dieses Produkt erstellen</value>
         <value xml:lang="en">Add new Product Feature to current product</value>
+        <value xml:lang="fa">افزونه محصول جدید را به محصول حاضر اضافه‌کنید</value>
         <value xml:lang="ja">現在の製品に新規製品機能を追加</value>
         <value xml:lang="vi">Thêm Đặc tính SP gia tăng này</value>
         <value xml:lang="zh">为当前产品添加新的产品特征</value>
@@ -29,6 +29,7 @@
     <property key="AddProductComponent">
         <value xml:lang="en">Add Product Component</value>
         <value xml:lang="es">Añadir componente</value>
+        <value xml:lang="fa">اجزاء محصول را واردکنید</value>
         <value xml:lang="fr">Ajouter un composant</value>
         <value xml:lang="it">Aggiungi componente</value>
         <value xml:lang="pt_BR">Adicionar componente de produto</value>
@@ -37,6 +38,7 @@
     <property key="CatalogWebAnalytics">
         <value xml:lang="de">Web Analytik</value>
         <value xml:lang="en">Web Analytics</value>
+        <value xml:lang="fa">وب‌سایت آنالیز</value>
         <value xml:lang="it">Analisi Web</value>
         <value xml:lang="ja">Web分析</value>
         <value xml:lang="vi">Trang web phân tích (ví dụ: Google Analytic)</value>
@@ -46,6 +48,7 @@
     <property key="CatalogWebAnalyticsConfigs">
         <value xml:lang="de">Web Analytik Konfiguration</value>
         <value xml:lang="en">Web Analytics Configuration</value>
+        <value xml:lang="fa">پیکربندی وب‌سایت آنالیز</value>
         <value xml:lang="it">Configurazione analisi Web</value>
         <value xml:lang="ja">Web分析設定</value>
         <value xml:lang="vi">Cấu hình trang web phân tích</value>
@@ -55,6 +58,7 @@
     <property key="CatalogWebAnalyticsTypes">
         <value xml:lang="de">Web Analytik Typen</value>
         <value xml:lang="en">Web Analytics Types</value>
+        <value xml:lang="fa">انواع وب‌سایت آنالیز</value>
         <value xml:lang="it">Tipi di analisi Web</value>
         <value xml:lang="ja">Web分析種類</value>
         <value xml:lang="vi">Kiểu trang web phân tích</value>
@@ -64,12 +68,14 @@
     <property key="CreateNewProductFeatureType">
         <value xml:lang="de">Neuen Merkmaltyp erstellen</value>
         <value xml:lang="en">Create New Product Feature Type</value>
+        <value xml:lang="fa">ساختن نوع افزونه محصول جدید</value>
         <value xml:lang="ja">新規製品機能種類を作成</value>
         <value xml:lang="vi">Tạo mới kiểu Đặc tính SP gia tăng</value>
         <value xml:lang="zh">新建产品特征类型</value>
     </property>
     <property key="FacilityActualShippingCharges">
         <value xml:lang="en">Actual shipping charges</value>
+        <value xml:lang="fa">هزینه‌های واقعی حمل</value>
         <value xml:lang="it">Ricarico di spedizione attuale</value>
         <value xml:lang="ja">実績配送料</value>
         <value xml:lang="vi">Chi phí vận chuyển thực tế</value>
@@ -79,6 +85,7 @@
         <value xml:lang="de">Rechnungsadresse und Lieferadresse stimmen überein</value>
         <value xml:lang="en">Billing address is the same as the shipping address</value>
         <value xml:lang="es">La dirección de facturación es la misma que la dirección de envío</value>
+        <value xml:lang="fa">آدرس قبض با آدرس حمل یکسان هستند</value>
         <value xml:lang="fr">L'adresse de facturation est la même que celle de livraison</value>
         <value xml:lang="it">Indirizzo Fatturazione è lo stesso di quello di Spedizione</value>
         <value xml:lang="ja">請求先住所は配送先住所と同じ</value>
@@ -118,6 +125,7 @@
     </property>
     <property key="FacilityEstimatedShippingCharges">
         <value xml:lang="en">Estimated shipping charges</value>
+        <value xml:lang="fa">هزینه‌های حمل انتظاری</value>
         <value xml:lang="fr">Frais d'expédition estimés</value>
         <value xml:lang="it">Ricarico di spedizione stimato</value>
         <value xml:lang="ja">予定配送料</value>
@@ -129,6 +137,7 @@
         <value xml:lang="de">Lager</value>
         <value xml:lang="en">Facility</value>
         <value xml:lang="es">Almacén</value>
+        <value xml:lang="fa">تسهیلات</value>
         <value xml:lang="fr">Lieu de stockage</value>
         <value xml:lang="it">Stabilimento </value>
         <value xml:lang="ja">拠点</value>
@@ -143,6 +152,7 @@
     </property>
     <property key="FacilityGroupByNoOfOrderItems">
         <value xml:lang="en">Group by number of order items</value>
+        <value xml:lang="fa">گروه‌کردن با تعداد اقلام سفارش</value>
         <value xml:lang="it">Raggruppa per numero di righe ordine</value>
         <value xml:lang="ja">注文アイテム数別グループ</value>
         <value xml:lang="vi">Nhóm theo số lượng của hàng hóa trên đơn đặt hàng</value>
@@ -150,6 +160,7 @@
     </property>
     <property key="FacilityGroupByShippingMethod">
         <value xml:lang="en">Group by shipping method</value>
+        <value xml:lang="fa">گروه‌کردن با روش حمل</value>
         <value xml:lang="it">Raggruppa per metodo di spedizione</value>
         <value xml:lang="ja">配送方法別グループ</value>
         <value xml:lang="vi">Nhóm theo phương thức giao hàng</value>
@@ -158,6 +169,7 @@
     </property>
     <property key="FacilityGroupByWarehouseArea">
         <value xml:lang="en">Group by warehouse area</value>
+        <value xml:lang="fa">گروه‌کردن با محیط انبارکالا</value>
         <value xml:lang="it">Raggruppa per area di magazzino</value>
         <value xml:lang="ja">拠点地域別グループ</value>
         <value xml:lang="vi">Nhóm theo khu vực kho hàng</value>
@@ -169,6 +181,7 @@
     </property>
     <property key="FacilityGroupName">
         <value xml:lang="en">Group Name</value>
+        <value xml:lang="fa">نام گروه</value>
         <value xml:lang="it">Nome gruppo</value>
         <value xml:lang="ja">グループ名称</value>
         <value xml:lang="vi">Tên nhóm</value>
@@ -177,6 +190,7 @@
     </property>
     <property key="FacilityReturnHeaderTypeNotSupported">
         <value xml:lang="en">${returnHeader.returnHeaderTypeId} is not supported</value>
+        <value xml:lang="fa">${returnHeader.returnHeaderTypeId} پشتیبانی نمی‌شود</value>
         <value xml:lang="it">${returnHeader.returnHeaderTypeId} non è supportata</value>
         <value xml:lang="ja">${returnHeader.returnHeaderTypeId} はサポートされていません</value>
         <value xml:lang="vi">${returnHeader.returnHeaderTypeId} không được hỗ trợ</value>
@@ -185,6 +199,7 @@
     </property>
     <property key="FacilityHoldShipment">
         <value xml:lang="en">Hold Shipment</value>
+        <value xml:lang="fa">تعلیق حمل</value>
         <value xml:lang="it">Congela spedizione</value>
         <value xml:lang="ja">発送を保留</value>
         <value xml:lang="vi">Giao hàng bị giữ lại</value>
@@ -192,6 +207,7 @@
     </property>
     <property key="FacilityInventoryItemsMissingCurrencyId">
         <value xml:lang="en">Error: you cannot create inventory items with no currencyUomId; you can set a default currency in the PartyAcctgPreference for the party ${inventoryItem.ownerPartyId}, or in the general.properties file under the key currency.uom.id.default.</value>
+        <value xml:lang="fa">خطا: شما نمی‌توانید اقلام موجودی‌کالا را بدون آی‌دی واحدسنجش ارز بسازید؛ شما می‌توانید ارز پیش‌فرض در «ترجیحات حساب هم‌مشرب» را برای هم‌مشرب ثبت‌نمایید</value>
         <value xml:lang="it">Errore: tu non puoi creare una riga di inventario senza indicare la valuta; puoi imposta la valuta di default attraverso le preferenze del soggetto proprietario ${inventoryItem.ownerPartyId}, o nel file general.properties alla chiave currency.uom.id.default.</value>
         <value xml:lang="ja">エラー: 通貨単位IDを指定しないと在庫アイテムの作成ができません。取引先 ${inventoryItem.ownerPartyId} の取引先会計設定、または、general.properties ファイルのキー currency.uom.id.default でデフォルトの通貨を設定することができます。</value>
         <value xml:lang="vi">Báo lỗi: Bạn không thể tạo hàng hóa trong kho chứa thiếu mã tiền tệ; bạn có thể đặt mã tiền tệ mặc địc trong phần ${inventoryItem.ownerPartyId}, hoặc trong tệp tin general.properties với từ khóa là currency.uom.id.default.</value>
@@ -199,6 +215,7 @@
     </property>
     <property key="FacilityInventoryItemsMissingFacilityId">
         <value xml:lang="en">Error: you cannot create inventory items with no facility id.</value>
+        <value xml:lang="fa">خطا: شما نمی‌توانید اقلام موجودی‌کالا را بدون آی‌دی تسهیلات بسازید.</value>
         <value xml:lang="it">Errore: tu non puoi creare una riga di inventario senza il codice stabilimento.</value>
         <value xml:lang="ja">エラー: 拠点IDを指定しないと在庫アイテムの作成ができません。</value>
         <value xml:lang="vi">Báo lỗi: Bạn không thể tạo hàng hóa trong kho chứa thiếu mã Chi nhánh / Cơ sở</value>
@@ -206,6 +223,7 @@
     </property>
     <property key="FacilityInventoryItemsMissingOwnerPartyId">
         <value xml:lang="en">Error: you cannot create inventory items with no ownerPartyId.</value>
+        <value xml:lang="fa">خطا: شما نمی‌توانید اقلام موجودی‌کالا را بدون «آی‌دی هم‌مشرب صاحب» بسازید.</value>
         <value xml:lang="it">Errore: tu non puoi creare una riga di inventario senza il soggetto proprietario.</value>
         <value xml:lang="ja">エラー: 所有者取引先IDを指定しないと在庫アイテムの作成ができません。</value>
         <value xml:lang="vi">Báo lỗi: Bạn không thể tạo hàng hóa trong kho chứa thiếu mã Chủ sở hữu</value>
@@ -213,6 +231,7 @@
     </property>
     <property key="FacilityInventoryItemsMissingUnitCost">
         <value xml:lang="en">Error: you cannot create inventory items with no unitCost.</value>
+        <value xml:lang="fa">خطا: شما نمی‌توانید اقلام موجودی‌کالا را بدون «هزینه واحد» بسازید.</value>
         <value xml:lang="it">Errore: tu non puoi creare una riga di inventario senza nessun costo unitario.</value>
         <value xml:lang="ja">エラー: 単位原価を指定しないと在庫アイテムの作成ができません。</value>
         <value xml:lang="vi">Báo lỗi: Bạn không thể tạo hàng hóa trong kho chứa thiếu mã Đơn vị tính</value>
@@ -220,6 +239,7 @@
     </property>
     <property key="FacilityInventoryItemsNegativeUnitCost">
         <value xml:lang="en">Error: you cannot create inventory items with a negative unitCost.</value>
+        <value xml:lang="fa">خطا: شا نمی‌توانید اقلام موجودی‌کالا را با «هزینه واحد» منفی بسازید.</value>
         <value xml:lang="it">Errore: tu non puoi creare una riga di inventario con un costo unitario negativo.</value>
         <value xml:lang="ja">エラー: マイナスの単位原価では在庫アイテムの作成ができません。</value>
         <value xml:lang="vi">Báo lỗi: Bạn không thể tạo hàng hóa trong kho chứa với mã đơn vị tính bị cấm</value>
@@ -227,6 +247,7 @@
     </property>
     <property key="FacilityInventoryItemsUnitCostCannotBeNegative">
         <value xml:lang="en">Unit cost for inventory item ${lookupPKMap.inventoryItemId} cannot be negative.</value>
+        <value xml:lang="fa">هزینه واحد برای قلم موجودی‌کالا ${lookupPKMap.inventoryItemId} نمی‌تواند منفی باشد.</value>
         <value xml:lang="it">Costo unitario per la riga di inventario ${lookupPKMap.inventoryItemId} non può essere negativo.</value>
         <value xml:lang="ja">在庫アイテム ${lookupPKMap.inventoryItemId} の単位原価はマイナスにできません。</value>
         <value xml:lang="vi">Đơn vị tính của sản phẩm trong kho chứa ${lookupPKMap.inventoryItemId} không thể bị cấm.</value>
@@ -234,6 +255,7 @@
     </property>
     <property key="FacilityInventoryHistoryReport">
         <value xml:lang="en">Inventory History Report</value>
+        <value xml:lang="fa">گزارش تاریخچه موجودی‌کالا</value>
         <value xml:lang="it">Report storia inventario</value>
         <value xml:lang="ja">在庫履歴レポート</value>
         <value xml:lang="vi">Báo cáo lịch sử kho (Inventory)</value>
@@ -241,6 +263,7 @@
     </property>
     <property key="FacilityMultipleLocations">
         <value xml:lang="en">Multiple Locations</value>
+        <value xml:lang="fa">اماکن مختلف</value>
         <value xml:lang="it">Posizioni multiple</value>
         <value xml:lang="ja">複数地域</value>
         <value xml:lang="vi">Đa địa điểm</value>
@@ -250,6 +273,7 @@
         <value xml:lang="de">Kein Lager</value>
         <value xml:lang="en">No Facility</value>
         <value xml:lang="es">Ningún almacén</value>
+        <value xml:lang="fa">بدون تسهیلات</value>
         <value xml:lang="fr">Aucun lieu de stockage</value>
         <value xml:lang="it">Nessun stabilimento</value>
         <value xml:lang="ja">拠点はありません</value>
@@ -264,6 +288,7 @@
     </property>
     <property key="FacilityNoItemsAvailableToShip">
         <value xml:lang="en">No items available to ship</value>
+        <value xml:lang="fa">هیچ قلمی برای حمل موجود نیست</value>
         <value xml:lang="it">Nessun prodotto disponibile da spedire</value>
         <value xml:lang="ja">発送できるアイテムはありません</value>
         <value xml:lang="vi">Không hàng hóa nào có sẵn để chuyển đi</value>
@@ -271,6 +296,7 @@
     </property>
     <property key="FacilityNoAssociatedWithProcuctStore">
         <value xml:lang="en">Facility with id ${parameters.facilityId} is not associated to ProductStore with id ${parameters.productStoreId}, not reserving inventory.</value>
+        <value xml:lang="fa">تسهیلات با آی‌دی ${parameters.facilityId} با «انبار محصول» با آی‌دی ${parameters.productStoreId} مطابقت ندارد، بدون دریافت موجودی‌‌کالا.</value>
         <value xml:lang="it">Stabilimento con id ${parameters.facilityId} non è associato al negozio con id ${parameters.productStoreId}, nessun inventario verrà riservato.</value>
         <value xml:lang="ja">拠点ID ${parameters.facilityId} は製品店舗ID ${parameters.productStoreId} に関連付けられていません。在庫予約できません。</value>
         <value xml:lang="vi">Chi nhánh / Cơ sở ${parameters.facilityId} được liên kết với kho hàng  ${parameters.productStoreId}, không phải là kho chứa hàng dự trữ</value>
@@ -278,6 +304,7 @@
     </property>
     <property key="FacilityNoGrouping">
         <value xml:lang="en">No Grouping</value>
+        <value xml:lang="fa">بدون گروه‌کردن</value>
         <value xml:lang="it">Nessun raggruppamento</value>
         <value xml:lang="ja">グループはありません</value>
         <value xml:lang="vi">Không phân nhóm</value>
@@ -285,6 +312,7 @@
     </property>
     <property key="FacilityNoOrdersReadyToPick">
         <value xml:lang="en">No orders ready to pick, not creating picklist.</value>
+        <value xml:lang="fa">هیچ سفارشی برای انتخاب آماده‌نمی‌باشد، «لیست انتخاب» ساخته‌نشده‌است.</value>
         <value xml:lang="it">Nessun ordine pronto da prelevare.</value>
         <value xml:lang="ja">ピッキングできる注文はありません。ピッキング一覧は作成できません。</value>
         <value xml:lang="vi">Không đặt hàng nào sẵn sàng được bốc xếp, không tạo danh sách bốc xếp</value>
@@ -294,6 +322,7 @@
         <value xml:lang="de">Benutze Voreinstellung: Keine anderen Liefermethoden verfügbar</value>
         <value xml:lang="en">Use Default: No other shipping methods available.</value>
         <value xml:lang="es">Por defecto: Ningún otro medio de envío disponible</value>
+        <value xml:lang="fa">پیش‌فرض را انتخاب نمایید: هیچ روش حمل سفارشی موجود نمی‌باشد.</value>
         <value xml:lang="fr">Par défaut : Aucun autre moyen d'expédition possible</value>
         <value xml:lang="it">Usare Default: Nessun altro metodo di spedizione disponibile.</value>
         <value xml:lang="ja">デフォルトを使用: 他の有効な配送方法はありません</value>
@@ -308,6 +337,7 @@
     </property>
     <property key="FacilityNumberOfItemsLessThanThree">
         <value xml:lang="en">Items less than 3</value>
+        <value xml:lang="fa">اقلام کمتر از ۳ مورد</value>
         <value xml:lang="it">Meno di 3 righe</value>
         <value xml:lang="ja">アイテムは3未満</value>
         <value xml:lang="vi">Phân loại Quản lý ít hơn 3</value>
@@ -316,6 +346,7 @@
     </property>
     <property key="FacilityNumberOfItemsThreeOrMore">
         <value xml:lang="en">Items 3 or more</value>
+        <value xml:lang="fa">اقلام ۳ مورد یا بیشتر</value>
         <value xml:lang="it">3 righe o più</value>
         <value xml:lang="ja">アイテムは3以上</value>
         <value xml:lang="vi">Phân loại Quản lý 3 sản phẩm hoặc nhiều hơn</value>
@@ -324,6 +355,7 @@
     </property>
     <property key="FacilityNoQuickShip">
         <value xml:lang="en">No ProductStore associated with order; cannot use Quick Ship</value>
+        <value xml:lang="fa">هیچ «انبار محصول» با سفارش مطابقت ندارد؛ نمی‌توان از حمل سریع استفاده‌نمود</value>
         <value xml:lang="it">Nessun negozio associato con l'ordine; non puoi usare spedizione veloce</value>
         <value xml:lang="ja">注文と関連付けられた製品店舗がありません。クイック発送は使用できません</value>
         <value xml:lang="vi">Không kho hàng nào liên kết với đặt hàng, không thể sử dụng tính năng Vận chuyển nhanh</value>
@@ -331,6 +363,7 @@
     </property>
     <property key="FacilityNoQuickShipForNotInventoryFacility">
         <value xml:lang="en">No inventory facility associated with ProductStore ${productStore.productStoreId}; cannot use Quick Ship</value>
+        <value xml:lang="fa">هیچ تسهیلات موجودی‌کالای با «انبار محصول» مطابقت ندارد</value>
         <value xml:lang="it">Nessun inventario magazzino associato con il negozio ${productStore.productStoreId}; non puoi usare spedizione veloce</value>
         <value xml:lang="ja">製品店舗 ${productStore.productStoreId} と関連付けられた在庫拠点がありません。クイック発送は使用できません</value>
         <value xml:lang="vi">Không Chi nhánh / Cơ sở nào liên kết với kho hàng ${productStore.productStoreId}; không thể sử dụng tính năng Vận chuyển nhanh</value>
@@ -338,6 +371,7 @@
     </property>
     <property key="FacilityNoQuickShipForNotReserveInventory">
         <value xml:lang="en">ProductStore ${productStore.productStoreId} does not reserve inventory; cannot use Quick Ship</value>
+        <value xml:lang="fa">«انبار محصول» ${productStore.productStoreId} موجودی‌کالا را دریافت‌نکرده‌است؛ نمی‌توان از حمل سریع استفاده‌نمود</value>
         <value xml:lang="it">Negozio ${productStore.productStoreId} non è possibile riservare inventario; non puoi usare spedizione veloce</value>
         <value xml:lang="ja">製品店舗 ${productStore.productStoreId} は在庫を予約していません。クイック発送は使用できません</value>
         <value xml:lang="vi">Kho hàng ${productStore.productStoreId} không phải là kho chứa hàng dự trữ; không thể sử dụng tính năng Vận chuyển nhanh</value>
@@ -345,6 +379,7 @@
     </property>
     <property key="FacilityNoQuickShipForMultipleFacilities">
         <value xml:lang="en">ProductStore ${productStore.productStoreId} allows multiple facilities; cannot use Quick Ship</value>
+        <value xml:lang="fa">«انبار محصول» ${productStore.productStoreId} به تسهیلات مختلف اجازه‌داده است؛ نمی‌توان از حمل سریع استفاده‌نمود</value>
         <value xml:lang="it">Negozio ${productStore.productStoreId} permette stabilimenti multipli; non puoi usare spedizione veloce</value>
         <value xml:lang="ja">製品店舗 ${productStore.productStoreId} は複数拠点を許可しています。クイック発送は使用できません</value>
         <value xml:lang="vi">Kho hàng ${productStore.productStoreId} phân phối tại nhiều Chi nhánh / Cơ sở nên không thể sử dụng tính năng Vận chuyển nhanh</value>
@@ -352,6 +387,7 @@
     </property>
     <property key="FacilityReceiveInventoryProduct">
         <value xml:lang="en">Tried to receive a serialized inventory item with serialNumber ${parameters.serialNumber} or inventoryItemId ${parameters.currentInventoryItemId} passed in and quantityAccepted ${parameters.quantityAccepted} was greater than 1; we don't know what to do with that!</value>
+        <value xml:lang="fa">برای دریافت قلم موجودی‌کالا مرتب‌شده با شماره‌ترتیبی تلاش‌شده‌است</value>
         <value xml:lang="it">Tentativo di ricevere una riga di inventario serializzata con un numero seriale ${parameters.serialNumber} o riga inventario ${parameters.currentInventoryItemId} passata e quantità accettata ${parameters.quantityAccepted} è maggiore di 1; non sappiamo come trattarlo!</value>
         <value xml:lang="ja">シリアル番号 ${parameters.serialNumber} または在庫アイテムID ${parameters.currentInventoryItemId} 受付数量 ${parameters.quantityAccepted} で複数個口在庫アイテムを受け取ろうとしましたが、何を行うか不明です!</value>
         <value xml:lang="vi">Đã thử nhận sê-ri kho chứa với mã serial ${parameters.serialNumber} hoặc mã kho chứa ${parameters.currentInventoryItemId} đạt tiêu chuẩn ${parameters.quantityAccepted} đã có nhiều hơn 1; chúng tôi không biết phải làm gì với nó</value>
@@ -359,6 +395,7 @@
     </property>
     <property key="FacilitySelectOptionsToGroupBy">
         <value xml:lang="en">Select Options To Group</value>
+        <value xml:lang="fa">انتخاب گزینه‌ها برای گروه‌کردن</value>
         <value xml:lang="it">Selezione opzioni da raggruppare</value>
         <value xml:lang="ja">グループにオプションを選択</value>
         <value xml:lang="vi">Lựa chọn thêm cho nhóm</value>
@@ -367,6 +404,7 @@
     </property>
     <property key="FacilitySelection">
         <value xml:lang="en">Facility Selection</value>
+        <value xml:lang="fa">انتخاب تسهیلات</value>
         <value xml:lang="fr">Choix du lieu de stockage</value>
         <value xml:lang="it">Seleziona stabilimento</value>
         <value xml:lang="ja">拠点選択</value>
@@ -376,6 +414,7 @@
     </property>
     <property key="FacilityShip">
         <value xml:lang="en">Ship</value>
+        <value xml:lang="fa">حمل</value>
         <value xml:lang="it">Spedisci</value>
         <value xml:lang="ja">発送</value>
         <value xml:lang="vi">Vận chuyển</value>
@@ -386,6 +425,7 @@
         <value xml:lang="de">Bitte liefern Sie meine bestellten Artikel sobald sie verfügbar sind (Sie dürfen zusätzliche Lieferungskosten  erheben).</value>
         <value xml:lang="en">Please ship items I ordered as they become available (you may incur additional shipping charges).</value>
         <value xml:lang="es">Por favor, envíe los artículos que he pedido en cuanto se encuentren disponibles (puede causar gastos de envío adicionales)</value>
+        <value xml:lang="fa">لطفا اقلامی که من سفارش‌داده‌ام را به محض موجودبودن برایم حمل‌کنید (شما باید هزینه حمل اضافی پرداخت‌نمایید).</value>
         <value xml:lang="fr">Livrer les articles dès qu'ils sont disponibles (peut occasionner des frais additionnels d'expédition)</value>
         <value xml:lang="it">Prego spedire gli articoli ordinati appena diventano disponibili (potresti incorrere in spese di spedizione aggiuntive).</value>
         <value xml:lang="ja">準備ができしだい品物を発送してください(追加の配送料がかかることがあります)</value>
@@ -402,6 +442,7 @@
         <value xml:lang="de">Alles zusammen liefern oder 'sobald etwas verfügbar'?</value>
         <value xml:lang="en">Ship all at once, or 'as available'?</value>
         <value xml:lang="es">¿Enviar todo de una vez o en cuanto se encuentre disponibles?</value>
+        <value xml:lang="fa">حمل همه با هم، یا در زمانی که موجود بودند؟</value>
         <value xml:lang="fr">Expédition complète ou partielle ?</value>
         <value xml:lang="it">Spedisci tutto in una volta, o 'appena disponibili'?</value>
         <value xml:lang="ja">すべての品物を一度に発送しますか、あるいは'準備ができしだい'?</value>
@@ -416,6 +457,7 @@
     </property>
     <property key="FacilityShipmentConfigProps">
         <value xml:lang="en">Config Properties (deprecated use)</value>
+        <value xml:lang="fa">پیکربندی صفات (استفاده بدون رضایت)</value>
         <value xml:lang="it">Property per configurazione spedizioniere (uso deprecato)</value>
         <value xml:lang="ja">プロパティ設定(非推奨)</value>
         <value xml:lang="vi">Cấu hình thuộc tính</value>
@@ -423,6 +465,7 @@
     </property>
     <property key="FacilityShipmentCreatedAndMarkedAsPacked">
         <value xml:lang="en">Shipment #${shipmentId} created and marked as packed</value>
+        <value xml:lang="fa">حمل شماره ${shipmentId} ساخته‌شده‌است و بسته‌بندی‌شده به حساب می‌آید</value>
         <value xml:lang="it">Spedizione #${shipmentId} creata e marcata come imballata</value>
         <value xml:lang="ja">発送 #${shipmentId} が作成および梱包済にマークされました</value>
         <value xml:lang="vi">Vận chuyển cho mã #${shipmentId} đã được tạo và đánh dấu là đã đóng gói</value>
@@ -430,6 +473,7 @@
     </property>
     <property key="FacilityShipmentCustomMethod">
         <value xml:lang="en">Shipment Custom Method</value>
+        <value xml:lang="fa">روش سفارشی حمل‌ونقل </value>
         <value xml:lang="it">Metodo personalizzato spedizione</value>
         <value xml:lang="ja">指定方法での発送</value>
         <value xml:lang="vi">Phương thức vận chuyển tùy chọn</value>
@@ -437,6 +481,7 @@
     </property>
     <property key="FacilityShipmentDefaultDimensionUomIdNotFound">
         <value xml:lang="en">Default dimensioneUomId not found</value>
+        <value xml:lang="fa">«آی‌دی واحدسنجش بعد» پیش‌فرض پیدانشده‌است</value>
         <value xml:lang="it">Unità di misura dimensione di default non trovata</value>
         <value xml:lang="ja">デフォルトの寸法単位IDが見つかりません</value>
         <value xml:lang="vi">Mã dimnsioneUomId mặc định không có</value>
@@ -444,6 +489,7 @@
     </property>
     <property key="FacilityShipmentDefaultDimensionUomIdNotValid">
         <value xml:lang="en">DimensionUomId must be LEN_in or LEN_cm.</value>
+        <value xml:lang="fa">«آی‌دی واحدسنجش پیش‌فرض» باید LEN_in یا LEN_cm باشد.</value>
         <value xml:lang="it">Unità di misura dimensione deve essere LEN_in o LEN_cm.</value>
         <value xml:lang="ja">寸法単位IDは LEN_in または LEN_cm の必要があります。</value>
         <value xml:lang="vi">Mã dimensionUomId cần phải là LEN_in hoặc LEN_cm.</value>
@@ -451,6 +497,7 @@
     </property>
     <property key="FacilityShipmentDefaultWeightUomIdNotFound">
         <value xml:lang="en">Default weightUomId not found</value>
+        <value xml:lang="fa">آی‌دی واحدسنجش‌وزن پیش‌فرض پیدانشد</value>
         <value xml:lang="it">Unità di misura del peso di default non trovato</value>
         <value xml:lang="ja">デフォルトの重量単位IDが見つかりません</value>
         <value xml:lang="vi">Mã weightUomId mặc định không có</value>
@@ -458,6 +505,7 @@
     </property>
     <property key="FacilityShipmentDefaultWeightUomIdNotValid">
         <value xml:lang="en">WeightUomId must be WT_lb or WT_kg.</value>
+        <value xml:lang="fa">آی‌دی واحدسنجش‌وزن باید WT_lb یا WT_kg باشد.</value>
         <value xml:lang="it">Unità di misura del peso deve essere WT_lb o WT_kg.</value>
         <value xml:lang="ja">デフォルトの重量単位IDは WT_lb または WT_kg の必要があります。</value>
         <value xml:lang="vi">Mã weightUomId cần phải là WT_lb hoặc WT_kg</value>
@@ -465,6 +513,7 @@
     </property>
     <property key="FacilityShipmentDhlAccessAccountNbr">
         <value xml:lang="en">Your DHL ShipIT Account Number</value>
+        <value xml:lang="fa">شماره حساب DHL ShipIT شما</value>
         <value xml:lang="it">Il tuo numero conto DHL ShipIT</value>
         <value xml:lang="ja">DHL ShipITアカウント番号</value>
         <value xml:lang="vi">Tài khoản gửi hàng qua DHL</value>
@@ -472,6 +521,7 @@
     </property>
     <property key="FacilityShipmentDhlAccessAccountNbrMandotoryForRegisterAccount">
         <value xml:lang="en">AccountNbr not found for Register Account.</value>
+        <value xml:lang="fa">شماره حساب برای ثبت‌نام حساب پیدانشد.</value>
         <value xml:lang="it">AccountNbr non trovato per la registrazione Account.</value>
         <value xml:lang="ja">登録アカウントのアカウント番号が見つかりません。</value>
         <value xml:lang="vi">Số tài khoản không tìm thấy trong phần Đăng ký tài khoản</value>
@@ -479,6 +529,7 @@
     </property>
     <property key="FacilityShipmentDhlAccessPassword">
         <value xml:lang="en">Your DHL ShipIT Access Password</value>
+        <value xml:lang="fa">گذرواژه دسترسی DHL ShipIT شما</value>
         <value xml:lang="it">La tua password DHL ShipIT</value>
         <value xml:lang="ja">DHL ShipITパスワード</value>
         <value xml:lang="vi">Mật khẩu truy cập gửi hàng qua DHL</value>
@@ -486,6 +537,7 @@
     </property>
     <property key="FacilityShipmentDhlAccessShippingKey">
         <value xml:lang="en">Your DHL ShipIT Shipping Key</value>
+        <value xml:lang="fa">کلید حمل DHL ShipIT شما</value>
         <value xml:lang="it">La tua chiave spedizione DHL ShipIT</value>
         <value xml:lang="ja">DHL ShipIT配送キー</value>
         <value xml:lang="vi">Khóa gửi hàng qua HDL</value>
@@ -493,6 +545,7 @@
     </property>
     <property key="FacilityShipmentDhlAccessUserId">
         <value xml:lang="en">Your DHL ShipIT User Id</value>
+        <value xml:lang="fa">آی‌دی کاربری DHL ShipIT شما</value>
         <value xml:lang="it">Il tuo id utente DHL ShipIT</value>
         <value xml:lang="ja">DHL ShipIT ユーザID</value>
         <value xml:lang="vi">Mã người dùng gửi hàng qua DHL</value>
@@ -500,6 +553,7 @@
     </property>
     <property key="FacilityShipmentDhlConnectTimeout">
         <value xml:lang="en">Conntect Timeout</value>
+        <value xml:lang="fa">انقضاء ارتباط</value>
         <value xml:lang="it">Timeout connessione a DHL</value>
         <value xml:lang="ja">接続タイムアウト</value>
         <value xml:lang="vi">Kết nối ngưng do thời gian trễ</value>
@@ -507,6 +561,7 @@
     </property>
     <property key="FacilityShipmentDhlConnectUrl">
         <value xml:lang="en">Conntect URL</value>
+        <value xml:lang="fa">URL ارتباط</value>
         <value xml:lang="it">URL Connessione a DHL</value>
         <value xml:lang="ja">接続URL</value>
         <value xml:lang="vi">Đường liên kết mạng</value>
@@ -514,6 +569,7 @@
     </property>
     <property key="FacilityShipmentDhlConnectUrlIncomplete">
         <value xml:lang="en">Incomplete connection URL; check your DHL configuration</value>
+        <value xml:lang="fa">URL تماس ناکامل؛ تنظیمات DHL خود را چک کنید</value>
         <value xml:lang="it">URL connessione incompleto; verifica la tua configurazione DHL</value>
         <value xml:lang="ja">接続URLが正しくありません。DHL設定を確認してください。</value>
         <value xml:lang="vi">Đường liên kết mạng chưa hoàn thành; kiểm tra lại cấu hình tài khoản DHL của bạn</value>
@@ -521,6 +577,7 @@
     </property>
     <property key="FacilityShipmentDhlConnectUrlProblem">
         <value xml:lang="en">Problem connecting with DHL server ${errorString}</value>
+        <value xml:lang="fa">مشکل در برقراری تماس با سرور DHL: ${errorString}</value>
         <value xml:lang="it">Problema di connessione URL a DHL ${errorString}</value>
         <value xml:lang="ja">DHLサーバとの接続でエラー ${errorString}</value>
         <value xml:lang="vi">Lỗi liên kết với máy chủ DHL ${errorString}</value>
@@ -528,6 +585,7 @@
     </property>
     <property key="FacilityShipmentDhlDefaultShippableWeightNotConfigured">
         <value xml:lang="en">Cannot get DHL Estimate: Default shippable weight not configured (shipment.default.weight.value)</value>
+        <value xml:lang="fa">نمی‌توان تخمین DHL را دریافت‌کرد: وزن قابل‌حمل پیش‌فرض پیکربندی‌نشده‌است (shipment.default.weight.value)</value>
         <value xml:lang="it">Non è possibile ottenere la stima spedizione DHL: Il peso di default per la spedizione non è configurato (shipment.default.weight.value)</value>
         <value xml:lang="ja">DHLの見積が取得できません。デフォルトの発送可能重量が設定されていません (shipment.default.weight.value)</value>
         <value xml:lang="vi">Không thể lấy được dự kiến vận chuyển qua DHL: trọng lượng gửi hàng mặc định không được cấu hình (shipment.default.weight.value)</value>
@@ -535,6 +593,7 @@
     </property>
     <property key="FacilityShipmentDhlErrorAccessRequestXmlToString">
         <value xml:lang="en">Error writing the AccessRequest XML Document to a String: ${errorString}</value>
+        <value xml:lang="fa">خطا در نوشتن «درخواست دسترسی» سند XML به رشته: ${errorString}</value>
         <value xml:lang="it">Errore scrivendo il documento XML AccessRequest in stringa: ${errorString}</value>
         <value xml:lang="ja">アクセスリクエストXML文書の書き出し中にエラー: ${errorString}</value>
         <value xml:lang="vi">Có lỗi trong ghi lại yêu cầu truy cập tài liệu XML ở chuỗi giá trị: ${errorString}</value>
@@ -542,6 +601,7 @@
     </property>
     <property key="FacilityShipmentDhlErrorMessage">
         <value xml:lang="en">An error occurred code: ${errorCode} Description: ${errorDescription}.</value>
+        <value xml:lang="fa">خطای کد رخ‌داده‌است: ${errorCode} توضیحات: ${errorDescription}.</value>
         <value xml:lang="it">E' accaduto il seguente errore: ${errorCode} Descrizione: ${errorDescription}.</value>
         <value xml:lang="ja">エラーが発生しました。コード: ${errorCode} 詳細: ${errorDescription}。</value>
         <value xml:lang="vi">Có lỗi xuất hiện với mã: ${errorCode} Miêu tả: ${errorDescription}.</value>
@@ -549,6 +609,7 @@
     </property>
     <property key="FacilityShipmentDhlErrorMessageElement">
         <value xml:lang="en">The error was at Element ${errorSource}</value>
+        <value xml:lang="fa">خطا عنصری از ${errorSource} بود</value>
         <value xml:lang="it">L'errore era nell'elemento ${errorSource}</value>
         <value xml:lang="ja">要素 ${errorSource} でエラー</value>
         <value xml:lang="vi">Lỗi xuất hiện ở yếu tố ${errorSource}</value>
@@ -556,6 +617,7 @@
     </property>
     <property key="FacilityShipmentDhlErrorParsingRegisterAccountResponse">
         <value xml:lang="en">Error parsing the RegisterAccountServiceSelectionResponse: ${errorString}</value>
+        <value xml:lang="fa">خطا در محاسبه RegisterAccountServiceSelectionResponse: ${errorString}</value>
         <value xml:lang="it">Errore di parsing di RegisterAccountServiceSelectionResponse: ${errorString}</value>
         <value xml:lang="ja">登録アカウントサービス選択レスポンスの解析中にエラー ${errorString}</value>
         <value xml:lang="vi">Lỗi phân tích RegisterAccountServiceSelectionResponse: ${errorString}</value>
@@ -563,6 +625,7 @@
     </property>
     <property key="FacilityShipmentDhlErrorSendingRequestRegisterAccount">
         <value xml:lang="en">Error sending DHL request for DHL Register Account: ${errorString}</value>
+        <value xml:lang="fa">خطا در فرستادن درخواست DHL برای حساب ثبت‌نام DHL: ${errorString}</value>
         <value xml:lang="it">Errore di invio della richiesta a DHL per la registrazione Account: ${errorString}</value>
         <value xml:lang="ja">DHL登録アカウントにDHLリクエストを送信中にエラー: ${errorString}</value>
         <value xml:lang="vi">Lỗi gửi yêu cầu đến DHL cho việc đăng ký tài khoản: ${errorString}</value>
@@ -570,6 +633,7 @@
     </property>
     <property key="FacilityShipmentDhlHeadAction">
         <value xml:lang="en">Head action attribute</value>
+        <value xml:lang="fa">متغیر کنش سرفصل</value>
         <value xml:lang="it">Attributo azione</value>
         <value xml:lang="ja">ヘッダアクション属性</value>
         <value xml:lang="vi">Thuộc tính hành động đầu não</value>
@@ -577,6 +641,7 @@
     </property>
     <property key="FacilityShipmentDhlHeadActionRequest">
         <value xml:lang="en">Request</value>
+        <value xml:lang="fa">درخواست</value>
         <value xml:lang="it">Richiesta</value>
         <value xml:lang="ja">リクエスト</value>
         <value xml:lang="vi">Yêu cầu</value>
@@ -584,6 +649,7 @@
     </property>
     <property key="FacilityShipmentDhlHeadVersion">
         <value xml:lang="en">Head version attribute</value>
+        <value xml:lang="fa">متغیر نسخه سرفصل</value>
         <value xml:lang="it">Attributo versione</value>
         <value xml:lang="ja">ヘッダバージョン属性</value>
         <value xml:lang="vi">Thuộc tính phiên bản đầu não</value>
@@ -591,6 +657,7 @@
     </property>
     <property key="FacilityShipmentDhlLabelImageFormat">
         <value xml:lang="en">Label Image Format</value>
+        <value xml:lang="fa">فرمت عکس برچسب</value>
         <value xml:lang="it">Formato immagine etichetta</value>
         <value xml:lang="ja">ラベル画像フォーマット</value>
         <value xml:lang="vi">Định dạng nhãn hình ảnh</value>
@@ -598,6 +665,7 @@
     </property>
     <property key="FacilityShipmentDhlLabelImageFormatPng">
         <value xml:lang="en">PNG</value>
+        <value xml:lang="fa">PNG</value>
         <value xml:lang="it">PNG</value>
         <value xml:lang="ja">PNG</value>
         <value xml:lang="vi">PNG</value>
@@ -605,6 +673,7 @@
     </property>
     <property key="FacilityShipmentDhlMultiplePackagesNotSupported">
         <value xml:lang="en">Cannot confirm shipment: DHL ShipIT does not currently support more than one package per shipment.</value>
+        <value xml:lang="fa">نمی‌توان حمل‌ونقل را تاییدکرد: DHL ShipIT درحال‌حاضر نمی‌تواند بیش از یک بسته در هر حمل‌ونقل را پشتیبانی‌کند.</value>
         <value xml:lang="it">Non è possibile confermare la spedizione: DHL ShipIt non supporta più pacchi in una spedizione.</value>
         <value xml:lang="ja">発送を確認できません。DHL発送ITは現在発送毎に複数の梱包をサポートしていません。</value>
         <value xml:lang="vi">Không thể xác nhận vận chuyển: Dịch vụ chuyển phát DHL hiện không hỗ trợ vận chuyển quá một gói một lần</value>
@@ -612,6 +681,7 @@
     </property>
     <property key="FacilityShipmentDhlNoCarrierShipmentMethod">
         <value xml:lang="en">No CarrierShipmentMethod entry for carrier ${carrierPartyId}, shipmentMethodTypeId ${shipmentMethodTypeId}</value>
+        <value xml:lang="fa">هیچ ورودی «روش حمل‌ونقل جابجاکننده»ای برای جابجاکننده ${carrierPartyId}، «آی‌دی نوع روش حمل‌ونقل» ${shipmentMethodTypeId}</value>
         <value xml:lang="it">Nessun metodo di spedizione per il corriere ${carrierPartyId}, tipo spedizione ${shipmentMethodTypeId}</value>
         <value xml:lang="ja">運送業者 ${carrierPartyId} 発送方法種類ID ${shipmentMethodTypeId} の運送業者発送方法がありません</value>
         <value xml:lang="vi">Không có ghi chú phương thức nhà vận chuyển cho nhà vận chuyển ${carrierPartyId}, loại phương thức vận chuyển ${shipmentMethodTypeId}</value>
@@ -619,6 +689,7 @@
     </property>
     <property key="FacilityShipmentDhlNotRouteSegmentCarrier">
         <value xml:lang="en">ERROR: The Carrier for ShipmentRouteSegment ${shipmentRouteSegmentId} of Shipment ${shipmentId}, is not DHL.</value>
+        <value xml:lang="fa">خطا: جابجاکننده برای «بخش راه حمل‌ونقل» ${shipmentRouteSegmentId} از حمل‌ونقل ${shipmentId} DHL نیست.</value>
         <value xml:lang="it">ERRORE: il corriere sul percorso spedizione ${shipmentRouteSegmentId} della spedizione ${shipmentId}, non è DHL.</value>
         <value xml:lang="ja">エラー: 発送 ${shipmentId} の発送経路セグメント ${shipmentRouteSegmentId} に対する運送業者がDHLではありません。</value>
         <value xml:lang="vi">Báo lỗi:</value>
@@ -626,6 +697,7 @@
     </property>
     <property key="FacilityShipmentDhlRateEstimate">
         <value xml:lang="en">Rate Estimate API schema</value>
+        <value xml:lang="fa">نرخ انتظاری الگو API</value>
         <value xml:lang="it">API schema per stima spedizione</value>
         <value xml:lang="ja">レート見積APIスキーマ</value>
         <value xml:lang="vi">Miêu tả (schema) API ước lượng tỷ lệ</value>
@@ -633,6 +705,7 @@
     </property>
     <property key="FacilityShipmentDhlRateEstimateTemplateNotConfigured">
         <value xml:lang="en">Cannot get DHL Estimate: DHL Rate template not configured</value>
+        <value xml:lang="fa">نمی‌توان تخمین DHL را دریافت‌کرد: نرخ DHL پیکربندی‌نشده‌است</value>
         <value xml:lang="it">Non è possibile ottente una stima spedizione da DHL: il template di stima spedizione DHL non è configurato</value>
         <value xml:lang="ja">DHL見積を取得できません。DHLレートテンプレートが設定されていません</value>
         <value xml:lang="vi">Không thể lấy thông tin ước lượng từ DHL: Biểu mẫu tỷ lệ DHL chưa được cấu hình</value>
@@ -640,6 +713,7 @@
     </property>
     <property key="FacilityShipmentFedexRateTemplateReadingError">
         <value xml:lang="en">Error reading or writing Shipment data for DHL Shipment Confirm: ${errorString}</value>
+        <value xml:lang="fa">خطا در خواندن یا نوشتن داده حمل‌ونقل برای تایید حمل‌ونقل DHL: ${errorString}</value>
         <value xml:lang="it">Errore leggendo o scrivendo i dati per la conferma spedizione DHL: ${errorString}</value>
         <value xml:lang="ja">DHL発送確認に対する発送データの読み書き中にエラー: ${errorString}</value>
         <value xml:lang="vi">Lỗi xảy ra khi đọc hoặc ghi dữ liệu Chuyển vận tới Xác nhận chuyển vận từ DHL: ${errorString}</value>
@@ -647,6 +721,7 @@
     </property>
     <property key="FacilityShipmentFedexShipmentConfirmResponse">
         <value xml:lang="en">A ShipmentConfirmRespose was received: ${shipmentConfirmResponseString}</value>
+        <value xml:lang="fa">جواب تایید حمل‌ونقل دریافت‌شد: ${shipmentConfirmResponseString}</value>
         <value xml:lang="it">A ShipmentConfirmRespose was received: ${shipmentConfirmResponseString}</value>
         <value xml:lang="ja">発送確認レスポンスを受け取りました: ${shipmentConfirmResponseString}</value>
         <value xml:lang="vi">Phản hồi xác nhận chuyển vận đã nhận được: ${shipmentConfirmResponseString}</value>
@@ -654,6 +729,7 @@
     </property>
     <property key="FacilityShipmentFedexRateTemplateRenderingError">
         <value xml:lang="en">Cannot confirm DHL shipment: Failed to render DHL XML Request.</value>
+        <value xml:lang="fa">نمی‌توان حمل‌ونقل DHL را تاییدمرد: شکست در ارائه درخواست XML DHL.</value>
         <value xml:lang="it">Non è possibile confermare la spedizione DHL: fallimento duranta la creazione della richiesta XML.</value>
         <value xml:lang="ja">DHL発送を確認できません。DHL XMLリクエストを生成できません。</value>
         <value xml:lang="vi">Không thể xác nhận chuyển vận từ DHL : Lỗi xảy ra khi gửi yêu cầu định dạng XML đến DHL</value>
@@ -661,6 +737,7 @@
     </property>
     <property key="FacilityShipmentFedexRateTemplateSendingError">
         <value xml:lang="en">Error sending DHL request for DHL Service Rate: ${errorString}</value>
+        <value xml:lang="fa">خطا در فرستادن درخواست DHL برای نرخ سرویس DHL: ${errorString}</value>
         <value xml:lang="it">Errore durante l'invio della richiesta a DHL per il servizio di stima spedizione: ${errorString}</value>
         <value xml:lang="ja">DHLサービスレートに対するDHLリクエストを送信中にエラー: ${errorString}</value>
         <value xml:lang="vi">Lỗi khi gửi yêu cầu DHL đến Dịch vụ tỷ lệ DHL: ${errorString}</value>
@@ -668,6 +745,7 @@
     </property>
     <property key="FacilityShipmentDhlReceivedNullResponse">
         <value xml:lang="en">Received a null response from DHL</value>
+        <value xml:lang="fa">پاسخ خالی از DHL رسیده‌است</value>
         <value xml:lang="it">Ricevuta una risposta vuota da DHL</value>
         <value xml:lang="ja">DHLから受け取ったレスポンスが空です</value>
         <value xml:lang="vi">Nhận được phản hồi rỗng từ DHL</value>
@@ -675,6 +753,7 @@
     </property>
     <property key="FacilityShipmentDhlRouteSegmentStatusNotStarted">
         <value xml:lang="en">ERROR: The Carrier Service Status for ShipmentRouteSegment ${shipmentRouteSegmentId} of Shipment ${shipmentId}, is ${shipmentRouteSegmentStatus}, but must be not-set or [SHRSCS_NOT_STARTED] to perform the DHL Shipment Confirm operation.</value>
+        <value xml:lang="fa">خطا: در وضعیت سرویس جابجاکننده برای «بخش راه حمل‌ونقل»</value>
         <value xml:lang="it">ERRORE: lo stato corriere per percorso spedizione ${shipmentRouteSegmentId} della spedizione ${shipmentId}, è ${shipmentRouteSegmentStatus}, ma deve non essere impostato o [SHRSCS_NOT_STARTED] per eseguire l'operazione di Conferma Spedizione DHL.</value>
         <value xml:lang="ja">エラー: 発送 ${shipmentId} の発送経路セグメント ${shipmentRouteSegmentId} に対する運送業者サービスステータスは ${shipmentRouteSegmentStatus} ですが、DHL発送確認操作を行うには、設定しないか [SHRSCS_NOT_STARTED] にする必要があります。</value>
         <value xml:lang="vi">Lỗi xảy ra: Trạng thái dịch vụ từ Nhà chuyển vận ShipmentRouteSegment ${shipmentRouteSegmentId} của Chuyển vận ${shipmentId}, là ${shipmentRouteSegmentStatus}, nhưng chưa được thiết lập cho [SHRSCS_NOT_STARTED] để thực hiện thao tác xác nhận chuyển vận từ DHL.</value>
@@ -682,6 +761,7 @@
     </property>
     <property key="FacilityShipmentDhlShipmentConfirmed">
         <value xml:lang="en">DHL Shipment Confirmed.</value>
+        <value xml:lang="fa">تاییدیه حمل‌ونقل DHL</value>
         <value xml:lang="it">Spedizione confermata da DHL.</value>
         <value xml:lang="ja">DHL発送が確認されました。</value>
         <value xml:lang="vi">Chuyển vận từ DHL đã xác nhận.</value>
@@ -689,6 +769,7 @@
     </property>
     <property key="FacilityShipmentDhlShipmentLabelError">
         <value xml:lang="en">Cannot get response DHL shipment label for shipment package route segment ${shipmentPackageRouteSeg}.  DHL response is: ${rateResponseString}</value>
+        <value xml:lang="fa">نمی‌توان پاسخ برچسب حمل‌ونقل DHL را دریافت‌کرد برای بخش راه حمل‌ونقل ${shipmentPackageRouteSeg}. پاسخ DHL ${rateResponseString} است</value>
         <value xml:lang="it">Non è possibile ottene la risposta da DHL per l'etichetta spedizione per il percorso spedizione ${shipmentPackageRouteSeg}. Risposta da DHL è: ${rateResponseString}</value>
         <value xml:lang="ja">発送梱包経路セグメント ${shipmentPackageRouteSeg} に対するレスポンスDHL発送ラベルが取得できません。DHLレスポンス: ${rateResponseString}</value>
         <value xml:lang="vi">Không thể nhận phản hồi nhãn chuyển vận DHL cho gói hàng chuyển theo phân đoạn ${shipmentPackageRouteSeg}.  Phản hồi DHL là: ${rateResponseString}</value>
@@ -696,6 +777,7 @@
     </property>
     <property key="FacilityShipmentDhlShipmentTemplateError">
         <value xml:lang="en">Cannot get DHL Estimate: Failed to render DHL XML Request.</value>
+        <value xml:lang="fa">نمی‌توان تخمین DHL را دریافت کرد: شکست در ارائه درخواست XML DHL.</value>
         <value xml:lang="it">Non è possibile ottenere la stime spedizione da DHL: Fallimento nella creazione del documento XML a DHL</value>
         <value xml:lang="ja">DHL見積が取得できません。DHL XMLリクエストの生成に失敗しました。</value>
         <value xml:lang="vi">Không nhận được ước lượng từ DHL: Không thành công khi phân tích yêu cầu định dạng XML từ DHL</value>
@@ -703,6 +785,7 @@
     </property>
     <property key="FacilityShipmentDhlShipmentTemplateLocationNotFound">
         <value xml:lang="en">Cannot get DHL Estimate: DHL Rate template not configured</value>
+        <value xml:lang="fa">نمی‌توان تخمین DHL را دریافت‌کرد: الگو نرخ DHL پیکربندی‌نشده‌است</value>
         <value xml:lang="it">Non è possibile ottenere la stima spedizione da DHL: il template per la stima non è configurato</value>
         <value xml:lang="ja">DHL見積が取得できません。DHLレートテンプレートが設定されていません。</value>
         <value xml:lang="vi">Không nhận được ước lượng từ DHL: Biểu mẫu tỷ lệ DHL chưa được cấu hình</value>
@@ -710,6 +793,7 @@
     </property>
     <property key="FacilityShipmentFedexShipmentTemplateParsingError">
         <value xml:lang="en">Error parsing the RatingServiceResponse: ${errorString}</value>
+        <value xml:lang="fa">خطا در محاسبه «پاسخ سرویس نرخ‌گذاری»: ${errorString}</value>
         <value xml:lang="it">Errore di parsing della risposta RatingServiceResponse: ${errorString}</value>
         <value xml:lang="ja">レーティングサービスのレスポンス解析中にエラー: ${errorString}</value>
         <value xml:lang="vi">Lỗi khi phân tích phản hồi từ Dịch vụ Tỷ lệ: ${errorString}</value>
@@ -717,6 +801,7 @@
     </property>
     <property key="FacilityShipmentDhlShipmentTemplateSendingError">
         <value xml:lang="en">Error sending DHL request for DHL Service Rate: ${errorString}</value>
+        <value xml:lang="fa">خطا در فرستادن درخواست DHL برای نرخ سرویس DHL: ${errorString}</value>
         <value xml:lang="it">Errore durante l'invio della richiesta a DHL per la stima spedizione: ${errorString}</value>
         <value xml:lang="ja">DHLサービスレートに対するDHLリクエスト送信中にエラー: ${errorString}</value>
         <value xml:lang="vi">Lỗi gửi Yêu cầu DHL tới Dịch vụ tỷ lệ DHL: ${errorString}</value>
@@ -724,6 +809,7 @@
     </property>
     <property key="FacilityShipmentDhlShippableWeightExceed">
         <value xml:lang="en">Cannot get DHL Estimate: Shippable weight cannot be greater than 999 lbs for ground or 150 lbs for all other services.</value>
+        <value xml:lang="fa">نمی‌توان تخمین DHL را دریافت‌کرد: وزن قابل‌حمل نمی‌تواند بیشتر از 999 lbs برای حمل زمینی یا 150 lbs برای دیگر سرویس‌ها باشد.</value>
         <value xml:lang="it">Non è possibile ottenere la stima spedizione DHL: il peso della spedizione non può esser maggiore di 999 lbs per servizio ground o 150 lbs per tutti gli altri servizi.</value>
         <value xml:lang="ja">DHL見積が取得できません。発送可能な重量は陸上で 999 lbs以下、その他のサービスで 150 lbs以下の必要があります。</value>
         <value xml:lang="vi">Không nhận được ước lượng từ DHL: Cân nặng gói hàng không thể lớn hơn 999 lbs với gói gốc (ground) hoặc 150 lbs cho các dịch vụ khác.</value>
@@ -731,6 +817,7 @@
     </property>
     <property key="FacilityShipmentDhlUnknownLabelImageFormat">
         <value xml:lang="en">Unknown DHL Label Image Format: ${labelImagePreference}</value>
+        <value xml:lang="fa">فرمت عکس برچسب DHL نامشخص: ${labelImagePreference}</value>
         <value xml:lang="it">Formato immagine etichetta DHL sconosciuto: ${labelImagePreference}</value>
         <value xml:lang="ja">DHLラベル画像書式が不明です: ${labelImagePreference}</value>
         <value xml:lang="vi">Định dạng nhãn ảnh từ DHL không xác định: ${labelImagePreference}</value>
@@ -738,6 +825,7 @@
     </property>
     <property key="FacilityShipmentDhlGatewayNotAvailable">
         <value xml:lang="en">DHL Shipment Gateway Configuration is not available</value>
+        <value xml:lang="fa">پیکربندی دروازه حمل‌ونقل DHL موجود نمی‌باشد</value>
         <value xml:lang="it">Configurazione gateway spedizioni DHL non è disponibile</value>
         <value xml:lang="ja">DHL発送ゲートウェイ設定が正しくありません。</value>
         <value xml:lang="vi">Chưa có cấu hình cổng chuyển vận DHL</value>
@@ -745,6 +833,7 @@
     </property>
     <property key="FacilityShipmentDhlXmlCannotBeNull">
         <value xml:lang="en">XML message cannot be null</value>
+        <value xml:lang="fa">پیام XML نمی‌تواند خالی باشد</value>
         <value xml:lang="it">Messaggio XML non può essere vuoto</value>
         <value xml:lang="ja">XMLメッセージは空にできません</value>
         <value xml:lang="vi">Bản tin XML không được rỗng</value>
@@ -752,6 +841,7 @@
     </property>
     <property key="FacilityShipmentFedexAccessAccountNumber">
         <value xml:lang="en">Access Account Number</value>
+        <value xml:lang="fa">شماره حساب دسترسی</value>
         <value xml:lang="it">Numero conto di accesso</value>
         <value xml:lang="ja">アクセスアカウント番号</value>
         <value xml:lang="vi">Số tài khoản truy nhập</value>
@@ -759,6 +849,7 @@
     </property>
     <property key="FacilityShipmentFedexAccessMeterNumber">
         <value xml:lang="en">Access Meter Number</value>
+        <value xml:lang="fa">شماره سنجش دسترسی</value>
         <value xml:lang="it">Contatore di accesso</value>
         <value xml:lang="ja">アクセスメータ番号</value>
         <value xml:lang="vi">Số bộ đếm truy nhập</value>
@@ -766,6 +857,7 @@
     </property>
     <property key="FacilityShipmentFedexAccessUserKey">
         <value xml:lang="en">Access User Key</value>
+        <value xml:lang="fa">کلید کاربری دسترسی</value>
         <value xml:lang="it">Chiave utente di accesso</value>
         <value xml:lang="ja">アクセスユーザキー</value>
         <value xml:lang="vi">Khóa người dùng truy nhập</value>
@@ -773,6 +865,7 @@
     </property>
     <property key="FacilityShipmentFedexAccessUserPwd">
         <value xml:lang="en">Access User Password</value>
+        <value xml:lang="fa">گذرواژه کاربری دسترسی</value>
         <value xml:lang="it">Password utente di accesso</value>
         <value xml:lang="ja">アクセスユーザパスワード</value>
         <value xml:lang="vi">Mật khẩu truy nhập</value>
@@ -780,6 +873,7 @@
     </property>
     <property key="FacilityShipmentFedexAccountNumberNotFound">
         <value xml:lang="en">accountNbr not found for this request.</value>
+        <value xml:lang="fa">شماره حساب برای این درخواست پیدانشد.</value>
         <value xml:lang="it">accountNbr non trovato nella richiesta.</value>
         <value xml:lang="ja">このリクエストに対するアカウント番号が見つかりません。</value>
         <value xml:lang="vi">Số tài khoản không tìm thấy với yêu cầu này.</value>
@@ -787,6 +881,7 @@
     </property>
     <property key="FacilityShipmentFedexCompanyPartyDoesNotExists">
         <value xml:lang="en">Party with partyId ${companyPartyId} does not exist</value>
+        <value xml:lang="fa">هم‌مشرب با آی‌دی هم‌مشرب ${companyPartyId} وجود ندارد</value>
         <value xml:lang="it">Il soggetto con Id ${companyPartyId} non esiste</value>
         <value xml:lang="ja">取引先ID ${companyPartyId} の取引先が存在しません</value>
         <value xml:lang="vi">Người dùng với định danh ${companyPartyId} không tồn tại</value>
@@ -794,6 +889,7 @@
     </property>
     <property key="FacilityShipmentFedexCompanyPartyHasNoName">
         <value xml:lang="en">Party with partyId ${companyPartyId} has no name</value>
+        <value xml:lang="fa">هم‌مشرب با آی‌دی هم‌مشرب ${companyPartyId} نامی ندارد</value>
         <value xml:lang="it">Il soggetto con Id ${companyPartyId} non ha un nome</value>
         <value xml:lang="ja">取引先ID ${companyPartyId} の取引先は名称が設定されていません</value>
         <value xml:lang="vi">Người dùng với định danh ${companyPartyId} không có thông tin Tên</value>
@@ -801,6 +897,7 @@
     </property>
     <property key="FacilityShipmentFedexCompanyPartyHasNotPostalAddress">
         <value xml:lang="en">Party with partyId ${companyPartyId} does not have a current, fully populated postal address</value>
+        <value xml:lang="fa">هم‌مشرب با آی‌دی هم‌مشرب ${companyPartyId} در حال حاضر آدرس پستی عمومی کاملی ندارد</value>
         <value xml:lang="it">Il soggetto con Id ${companyPartyId} non ha attualmente, un'indirizzo postale popolato</value>
         <value xml:lang="ja">取引先ID ${companyPartyId} の取引先は現住所がありません。</value>
         <value xml:lang="vi">Người dùng với định danh ${companyPartyId} chưa có thông tin Địa chỉ bưu chính nơi cư trú</value>
@@ -808,6 +905,7 @@
     </property>
     <property key="FacilityShipmentFedexCompanyPartyHasNotPrimaryPhoneNumber">
         <value xml:lang="en">Party with partyId ${companyPartyId} does not have a current, fully populated primary phone number</value>
+        <value xml:lang="fa">هم‌مشرب با آی‌دی هم‌مشرب ${companyPartyId} در حال حاضر شماره تلفن اصلی عمومی کاملی ندارد</value>
         <value xml:lang="it">Il soggetto con Id ${companyPartyId} non ha attualmente, un numero di telefono primario completamente popolato</value>
         <value xml:lang="ja">取引先ID ${companyPartyId} の取引先は現住所の電話番号がありません。</value>
         <value xml:lang="vi">Người dùng với định danh ${companyPartyId} chưa có thông tin Số điện thoại</value>
@@ -815,6 +913,7 @@
     </property>
     <property key="FacilityShipmentFedexConnectSoapUrl">
         <value xml:lang="en">Conntect Soap URL</value>
+        <value xml:lang="fa">URL صابون تماس</value>
         <value xml:lang="it">URL Soap Connessione a FedEx</value>
         <value xml:lang="ja">接続SOAP URL</value>
         <value xml:lang="vi">Liên kết kết nối qua SOAP</value>
@@ -822,6 +921,7 @@
     </property>
     <property key="FacilityShipmentFedexConnectTimeout">
         <value xml:lang="en">Conntect Timeout</value>
+        <value xml:lang="fa">انقضاء ارتباط</value>
         <value xml:lang="it">Timeout connessione a FedEx</value>
         <value xml:lang="ja">接続タイムアウト</value>
         <value xml:lang="vi">Thời gian kết nối quá lâu</value>
@@ -829,6 +929,7 @@
     </property>
     <property key="FacilityShipmentFedexConnectUrl">
         <value xml:lang="en">Conntect URL</value>
+        <value xml:lang="fa">URL ارتباط</value>
         <value xml:lang="it">URL Connessione a FedEx</value>
         <value xml:lang="ja">接続URL</value>
         <value xml:lang="vi">Liên kết kết nối</value>
@@ -836,6 +937,7 @@
     </property>
     <property key="FacilityShipmentFedexConnectUrlIncomplete">
         <value xml:lang="en">Incomplete connection URL; check your Fedex configuration</value>
+        <value xml:lang="fa">URL ارتباط ناکامل؛ پیکربنید Fedex خود را چک نمایید</value>
         <value xml:lang="it">URL connessione incompleto; verifica la tua configurazione Fedex</value>
         <value xml:lang="ja">接続URLが正しくありません。Fedex設定を確認してください</value>
         <value xml:lang="vi">Liên kết kết nối không thành công: bạn hãy kiểm tra lại cấu hình tới Fedex</value>
@@ -843,6 +945,7 @@
     </property>
     <property key="FacilityShipmentFedexConnectUrlProblem">
         <value xml:lang="en">URL Connection problem ${errorString}</value>
+        <value xml:lang="fa">مشکل ارتباط URL ${errorString}</value>
         <value xml:lang="it">Problema di connessione URL ${errorString}</value>
         <value xml:lang="ja">URL接続エラー ${errorString}</value>
         <value xml:lang="vi">Lỗi liên kết kết nối ${errorString}</value>
@@ -850,6 +953,7 @@
     </property>
     <property key="FacilityShipmentFedexContactNameCannotBeEmpty">
         <value xml:lang="en">Contact name can't be empty.</value>
+        <value xml:lang="fa">نام تماس نمی‌تواند خالی باشد</value>
         <value xml:lang="it">Nome contatto non può essere vuoto.</value>
         <value xml:lang="ja">連絡名称は空にできません。</value>
         <value xml:lang="vi">Tên liên hệ không thể rỗng.</value>
@@ -857,6 +961,7 @@
     </property>
     <property key="FacilityShipmentFedexDropoffType">
         <value xml:lang="en">Dropoff Type</value>
+        <value xml:lang="fa">نوع رهاشده</value>
         <value xml:lang="it">Tipo di prelievo</value>
         <value xml:lang="ja">ドロップオフ種類</value>
         <value xml:lang="vi">Kiểu dừng trực tiếp</value>
@@ -864,6 +969,7 @@
     </property>
     <property key="FacilityShipmentFedexDropoffTypeBusinessService">
         <value xml:lang="en">Business Service Center</value>
+        <value xml:lang="fa">مرکز سرویس تجارت</value>
         <value xml:lang="it">Centro servizi business</value>
         <value xml:lang="ja">ビジネスサービスセンタ</value>
         <value xml:lang="vi">Trung tâm dịch vụ kinh doanh</value>
@@ -871,6 +977,7 @@
     </property>
     <property key="FacilityShipmentFedexDropoffTypeDropBox">
         <value xml:lang="en">Drop-Box</value>
+        <value xml:lang="fa">Drop-Box</value>
         <value xml:lang="it">Drop-Box</value>
         <value xml:lang="ja">ドロップボックス</value>
         <value xml:lang="vi">Địa chỉ giao hàng</value>
@@ -878,6 +985,7 @@
     </property>
     <property key="FacilityShipmentFedexDropoffTypeNotFound">
         <value xml:lang="en">Default dropoff type not found</value>
+        <value xml:lang="fa">نوع رهاشده پیش‌فرض پیدا نشد</value>
         <value xml:lang="it">Default dropoff type non trovato</value>
         <value xml:lang="ja">デフォルトのドロップオフ種類が見つかりません</value>
         <value xml:lang="vi">Kiểu dừng trực tiếp mặc định không tìm thấy</value>
@@ -885,6 +993,7 @@
     </property>
     <property key="FacilityShipmentFedexDropoffTypeRegularPickup">
         <value xml:lang="en">Regular Pickup</value>
+        <value xml:lang="fa">انتخاب منظم</value>
         <value xml:lang="it">Prelievo normale</value>
         <value xml:lang="ja">通常集荷</value>
         <value xml:lang="vi">Chọn hàng thường gặp</value>
@@ -892,6 +1001,7 @@
     </property>
     <property key="FacilityShipmentFedexDropoffTypeRequestCourier">
         <value xml:lang="en">Request Courier</value>
+        <value xml:lang="fa">پیک درخواست</value>
         <value xml:lang="it">Richiesta Corriere</value>
         <value xml:lang="ja">急送リクエスト</value>
         <value xml:lang="vi">Nhà chuyển vận yêu cầu</value>
@@ -899,6 +1009,7 @@
     </property>
     <property key="FacilityShipmentFedexDropoffTypeStation">
         <value xml:lang="en">Station</value>
+        <value xml:lang="fa">ایستگاه</value>
         <value xml:lang="it">Stazione</value>
         <value xml:lang="ja">駅</value>
         <value xml:lang="vi">Nhà ga</value>
@@ -906,6 +1017,7 @@
     </property>
     <property key="FacilityShipmentFedexErrorMessage">
         <value xml:lang="en">An error occurred [code:${errorCode}] Description: ${errorMessage}</value>
+        <value xml:lang="fa">خطای رخ‌داده‌است [کد:${errorCode}] توضیحات: ${errorMessage}</value>
         <value xml:lang="it">Un errore è successo [codice:${errorCode}] Descrizione: ${errorMessage}</value>
         <value xml:lang="ja">エラーが発生しました [code:${errorCode}] 詳細: ${errorMessage}</value>
         <value xml:lang="vi">Lỗi xảy ra[code:${errorCode}] Chi tiết: ${errorMessage}</value>
@@ -913,6 +1025,7 @@
     </property>
     <property key="FacilityShipmentFedexGatewayNotAvailable">
         <value xml:lang="en">Fedex Shipment Gateway Configuration is not available</value>
+        <value xml:lang="fa">پیکربندی دروازه حمل‌ونقل Fedex موجود نمی‌باشد</value>
         <value xml:lang="it">Configurazione gateway spedizioni Fedex non è disponibile</value>
         <value xml:lang="ja">Fedex発送ゲートウェイ設定が正しくありません</value>
         <value xml:lang="vi">Cổng giao hàng Fedex chưa được thiết lập</value>
@@ -920,6 +1033,7 @@
     </property>
     <property key="FacilityShipmentFedexHomeDeliveryDateBeforeCurrentDate">
         <value xml:lang="en">Home Delivery Date is before the current time for ShipmentRouteSegment with shipmentId ${shipmentId} and shipmentRouteSegmentId ${shipmentRouteSegmentId}</value>
+        <value xml:lang="fa">تاریخ تحویل خانه قبل از زمان موجود است برای ShipmentRouteSegment با «آی‌دی حمل‌ونقل» ${shipmentId} و «آی‌دی بخش راه حمل‌ونقل» ${shipmentRouteSegmentId}</value>
         <value xml:lang="it">Home Delivery Date è antecedente la data odierna per la spedizione ${shipmentId} e percorso spedizione ${shipmentRouteSegmentId}</value>
         <value xml:lang="ja">自宅配達日が現在より前です。発送経路セグメント 発送ID ${shipmentId} 発送経路セグメントID ${shipmentRouteSegmentId}</value>
         <value xml:lang="vi">'Ngày nhận hàng tại nhà' phải trước thời gian hiện tại cho Chặng chuyển vận với Chuyển vận ${shipmentId} và Chặng chuyển vận ${shipmentRouteSegmentId}</value>
@@ -927,6 +1041,7 @@
     </property>
     <property key="FacilityShipmentFedexHomeDeliveryDateRequired">
         <value xml:lang="en">Home Delivery Date required for home delivery Type shipments - ShipmentRouteSegment with shipmentId ${shipmentId} and shipmentRouteSegmentId ${shipmentRouteSegmentId}</value>
+        <value xml:lang="fa">تاریخ دریافت خانه لازم است برای حمل‌ونقل‌های نوع تحویل خانه ShipmentRouteSegment با «آی‌دی حمل‌ونقل» ${shipmentId} و «آی‌دی بخش راه حمل‌ونقل» ${shipmentRouteSegmentId}</value>
         <value xml:lang="it">Home Delivery Date richiesta per le spedizioni home delivery Type - per la spedizione ${shipmentId} e il percorso spedizione ${shipmentRouteSegmentId}</value>
         <value xml:lang="ja">自宅配達種類の発送は自宅配達日が必要です。発送経路セグメント - 発送ID ${shipmentId} 発送経路セグメントID ${shipmentRouteSegmentId}</value>
         <value xml:lang="vi">'Ngày nhận hàng tại nhà' yêu cầu thông tin 'Loại nhận hàng tại nhà' với Chuyển vận ${shipmentId} và Chặng chuyển vận ${shipmentRouteSegmentId}</value>
@@ -934,6 +1049,7 @@
     </property>
     <property key="FacilityShipmentFedexHomeDeliveryTypeInvalid">
         <value xml:lang="en">Invalid homeDeliveryType for ShipmentRouteSegment with shipmentId ${shipmentId} and shipmentRouteSegmentId ${shipmentRouteSegmentId}</value>
+        <value xml:lang="fa">نوع تحویل خانه نامعتبر برای ShipmentRouteSegment با «آی‌دی حمل‌ونقل» ${shipmentId} و «آی‌دی بخش راه حمل‌ونقل» ${shipmentRouteSegmentId}</value>
         <value xml:lang="it">Home Delivery Type non valido per la spedizione ${shipmentId} e il percorso spedizione ${shipmentRouteSegmentId}</value>
         <value xml:lang="ja">発送経路セグメントの自宅配達種類が正しくありません。発送ID ${shipmentId} 発送経路セグメントID ${shipmentRouteSegmentId}</value>
         <value xml:lang="vi">'Loại nhận hàng tại nhà' không hợp lệ cho Chặng chuyển vận với Chuyển vận ${shipmentId} và Chặng chuyển vận ${shipmentRouteSegmentId}</value>
@@ -941,6 +1057,7 @@
     </property>
     <property key="FacilityShipmentFedexLabelImageType">
         <value xml:lang="en">Label Image Type</value>
+        <value xml:lang="fa">نوع عکس برچسب</value>
         <value xml:lang="it">Tipo immagine etichetta</value>
         <value xml:lang="ja">ラベル画像種類</value>
         <value xml:lang="vi">Định dạng ảnh (nhãn)</value>
@@ -948,6 +1065,7 @@
     </property>
     <property key="FacilityShipmentFedexLabelImageTypeNotFound">
         <value xml:lang="en">Label Image Type not found</value>
+        <value xml:lang="fa">نوع عکس برچسب پیدا نشد</value>
         <value xml:lang="it">Tipo immagine etichetta non trovata</value>
         <value xml:lang="ja">ラベル画像種類が見つかりません</value>
         <value xml:lang="vi">Định dạng ảnh (nhãn) không hợp lệ</value>
@@ -955,6 +1073,7 @@
     </property>
     <property key="FacilityShipmentFedexLabelImageTypeNotValid">
         <value xml:lang="en">Label Image Type must be PDF or PNG</value>
+        <value xml:lang="fa">نوع عکس برچسب باید PDF یا PNG باشد</value>
         <value xml:lang="it">Tipo immagine etichetta deve essere PDF o PNG</value>
         <value xml:lang="ja">ラベル画像種類はPDFまたはPNGの必要があります</value>
         <value xml:lang="vi">Định dạng ảnh phải là PDF hoặc PNG</value>
@@ -962,6 +1081,7 @@
     </property>
     <property key="FacilityShipmentFedexLabelImageTypePdf">
         <value xml:lang="en">PDF</value>
+        <value xml:lang="fa">PDF</value>
         <value xml:lang="it">PDF</value>
         <value xml:lang="ja">PDF</value>
         <value xml:lang="vi">PDF</value>
@@ -969,6 +1089,7 @@
     </property>
     <property key="FacilityShipmentFedexLabelImageTypePng">
         <value xml:lang="en">PNG</value>
+        <value xml:lang="fa">PNG</value>
         <value xml:lang="it">PNG</value>
         <value xml:lang="ja">PNG</value>
         <value xml:lang="vi">PNG</value>
@@ -976,6 +1097,7 @@
     </property>
     <property key="FacilityShipmentFedexMeterNumberAlreadyExists">
         <value xml:lang="en">MeterNumber already exists: ${meterNumber}</value>
+        <value xml:lang="fa">شماره سنجش از قبل موجود است: ${meterNumber}</value>
         <value xml:lang="it">Meter Number esiste già: ${meterNumber}</value>
         <value xml:lang="ja">メータ番号はすでに存在します: ${meterNumber}</value>
         <value xml:lang="vi">Số bộ đếm đã tồn tại: ${meterNumber}</value>
@@ -983,6 +1105,7 @@
     </property>
     <property key="FacilityShipmentFedexMeterNumberNotFound">
         <value xml:lang="en">Meter number not found: ${meterNumber}</value>
+        <value xml:lang="fa">شماره سنجش پیدا نشد: ${meterNumber}</value>
         <value xml:lang="it">Meter number non trovato: ${meterNumber}</value>
         <value xml:lang="ja">メータ番号が存在しません: ${meterNumber}</value>
         <value xml:lang="vi">Số bộ đếm không tìm thấy: ${meterNumber}</value>
@@ -990,6 +1113,7 @@
     </property>
     <property key="FacilityShipmentFedexMultiplePackagesNotSupported">
         <value xml:lang="en">Cannot confirm shipment: fedexShipRequest service does not currently support more than one package per shipment.</value>
+        <value xml:lang="fa">نمی‌توان حمل‌‌ونقل را تایید کرد: سرویس «درخواست حمل Fedex» در حال حاضر بیشتر از یک بسته در هر حمل‌ونقل را پشتیبانی نمی‌کند.</value>
         <value xml:lang="it">Non è possibile confermare la spedizione: il servizio fedexShipRequest non supporta più pacchi in una spedizione.</value>
         <value xml:lang="ja">発送が確認できません。fedex発送リクエストサービスは現在発送毎に複数の梱包をサポートしていません。</value>
         <value xml:lang="vi">Không thể xác nhận chuyển vận: dịch vụ fedexShipRequest hiện tại không hỗ trợ chuyển nhiều hơn một gói hàng với mỗi lần chuyển vận.</value>
@@ -997,6 +1121,7 @@
     </property>
     <property key="FacilityShipmentFedexNoCarrieServiceCode">
         <value xml:lang="en">No Carrier service code for carrier Fedex shipmentMethodTypeId ${shipmentMethodTypeId}</value>
+        <value xml:lang="fa">هیچ کد سرویس جابجاکننده برای «آی‌دی نوع روش حمل‌ونقل» ${shipmentMethodTypeId} Fedex جابجاکننده </value>
         <value xml:lang="it">No Carrier service code for carrier Fedex shipmentMethodTypeId ${shipmentMethodTypeId}</value>
         <value xml:lang="ja">運送業者Fedex 発送方法種類ID ${shipmentMethodTypeId} の運送業者サービスコードがありません</value>
         <value xml:lang="vi">Không có Mã dịch vụ nhà chuyển vận cho nhà chuyện vận Fedex shipmentMethodTypeId ${shipmentMethodTypeId}</value>
@@ -1004,6 +1129,7 @@
     </property>
     <property key="FacilityShipmentFedexNotRouteSegmentCarrier">
         <value xml:lang="en">ERROR: The Carrier for ShipmentRouteSegment ${shipmentRouteSegmentId} of Shipment ${shipmentId}, is not Fedex.</value>
+        <value xml:lang="fa">خطا: جابجاکننده برای «بخش راه حمل‌ونقل» ${shipmentRouteSegmentId} از حمل‌ونقل ${shipmentId} Fedex نیست.</value>
         <value xml:lang="it">ERRORE: il corriere sul percorso spedizione ${shipmentRouteSegmentId} della spedizione ${shipmentId}, non è Fedex.</value>
         <value xml:lang="ja">エラー: 発送 ${shipmentId} の発送経路セグメント ${shipmentRouteSegmentId} に対する運送業者はFedexではありません。</value>
         <value xml:lang="vi">Lỗi xảy ra: Nhà chuyển vận cho Chặng chuyển vận ${shipmentRouteSegmentId} của Chuyển vận ${shipmentId} không phải là Fedex</value>
@@ -1011,6 +1137,7 @@
     </property>
     <property key="FacilityShipmentFedexOriginFacilityRequired">
         <value xml:lang="en">Shipment.originFacilityId is required for Fedex shipments: shipmentId ${shipmentId}, shipmentRouteSegmentId ${shipmentRouteSegmentId}</value>
+        <value xml:lang="fa">«آی‌دی تسهیلات اولیه حمل‌ونقل برای حمل‌ونقل‌های Fedex لازم است: «آی‌دی حمل‌ونقل» ${shipmentId} و «آی‌دی بخش راه حمل‌ونقل» ${shipmentRouteSegmentId}</value>
         <value xml:lang="it">Stabilimento d'origini sulla spedizione è richiesto per le spedizioni con Fedex: spedizione ${shipmentId}, percorso spedizione ${shipmentRouteSegmentId}</value>
         <value xml:lang="ja">Fedex発送には発送元拠点IDが必要です。発送ID ${shipmentId} 発送経路セグメントID ${shipmentRouteSegmentId}</value>
         <value xml:lang="vi">Cần phải có thông tin Chi nhánh / Cơ sở nguồn cho Chuyển vận ${shipmentId}, Chặng chuyển vận ${shipmentRouteSegmentId}</value>
@@ -1018,6 +1145,7 @@
     </property>
     <property key="FacilityShipmentFedexOwnerPartyRequired">
         <value xml:lang="en">Facility.ownerPartyId is required for Fedex shipments: shipmentId ${shipmentId}, shipmentRouteSegmentId ${shipmentRouteSegmentId}, facilityId ${facilityId}</value>
+        <value xml:lang="fa">«آی‌دی هم‌مشرب صاحب تسهیلات» برای حمل‌ونقل‌های Fedex لازم است: «آی‌دی حمل‌ونقل» ${shipmentId}، «آی‌دی بخش راه حمل‌ونقل» ${shipmentRouteSegmentId} و «آی‌دی تسهیلات» ${facilityId}</value>
         <value xml:lang="it">Propertario stabilimento è richiestp per le spedizioni con Fedex: spedizione ${shipmentId}, percorso spedizione ${shipmentRouteSegmentId}, stabilimento ${facilityId}</value>
         <value xml:lang="ja">Fedex発送には拠点所有者取引先IDが必要です。発送ID ${shipmentId} 発送経路セグメントID ${shipmentRouteSegmentId}</value>
         <value xml:lang="vi">Cần phải có thông tin Chủ thể cho chuyển vận Fedex: chuyển vận ${shipmentId}, chặng chuyển vận ${shipmentRouteSegmentId}, Chi nhánh / Cơ sở ${facilityId}</value>
@@ -1025,6 +1153,7 @@
     </property>
     <property key="FacilityShipmentFedexPackingBox10Kg">
         <value xml:lang="en">10KG Box</value>
+        <value xml:lang="fa">جعبه 10KG</value>
         <value xml:lang="it">Scatola 10Kg</value>
         <value xml:lang="ja">10kg ボックス</value>
         <value xml:lang="vi">Hộp 10 ki lô gam</value>
@@ -1032,6 +1161,7 @@
     </property>
     <property key="FacilityShipmentFedexPackingBox25Kg">
         <value xml:lang="en">25KG Box</value>
+        <value xml:lang="fa">جعبه 25KG</value>
         <value xml:lang="it">Scatola 25Kg</value>
         <value xml:lang="ja">25kg ボックス</value>
         <value xml:lang="vi">Hộp 25 ki lô gam</value>
@@ -1039,6 +1169,7 @@
     </property>
     <property key="FacilityShipmentFedexPackingBoxLarge">
         <value xml:lang="en">Box Large</value>
+        <value xml:lang="fa">جعبه بزرگ</value>
         <value xml:lang="it">Scatola grande</value>
         <value xml:lang="ja">ボックス大</value>
         <value xml:lang="vi">Hộp lớn</value>
@@ -1046,6 +1177,7 @@
     </property>
     <property key="FacilityShipmentFedexPackingBoxMedium">
         <value xml:lang="en">Box Medium</value>
+        <value xml:lang="fa">جعبه متوسط</value>
         <value xml:lang="it">Scatola media</value>
         <value xml:lang="ja">ボックス中</value>
         <value xml:lang="vi">Hộp trung bình</value>
@@ -1053,6 +1185,7 @@
     </property>
     <property key="FacilityShipmentFedexPackingBoxSmall">
         <value xml:lang="en">Box Small</value>
+        <value xml:lang="fa">جعبه کوچک</value>
         <value xml:lang="it">Scatola piccola</value>
         <value xml:lang="ja">ボックス小</value>
         <value xml:lang="vi">Hộp nhỏ</value>
@@ -1060,6 +1193,7 @@
     </property>
     <property key="FacilityShipmentFedexPackingEnveloper">
         <value xml:lang="en">Enveloper</value>
+        <value xml:lang="fa">پاکت</value>
         <value xml:lang="it">Busta</value>
         <value xml:lang="ja">エンベロープ</value>
         <value xml:lang="vi">Niêm phong</value>
@@ -1067,6 +1201,7 @@
     </property>
     <property key="FacilityShipmentFedexPackingEnveloperLegal">
         <value xml:lang="en">Enveloper Legal</value>
+        <value xml:lang="fa">قانون پاکت</value>
         <value xml:lang="it">Busta legale</value>
         <value xml:lang="ja">規定エンベロープ</value>
         <value xml:lang="vi">Luật niêm phong</value>
@@ -1074,6 +1209,7 @@
     </property>
     <property key="FacilityShipmentFedexPackingPakLarge">
         <value xml:lang="en">Pak Large</value>
+        <value xml:lang="fa">بسته بزرگ</value>
         <value xml:lang="it">Pacco grande</value>
         <value xml:lang="ja">パック大</value>
         <value xml:lang="vi">Đóng gói Lớn</value>
@@ -1081,6 +1217,7 @@
     </property>
     <property key="FacilityShipmentFedexPackingPakSmall">
         <value xml:lang="en">Pak Small</value>
+        <value xml:lang="fa">بسته کوچک</value>
         <value xml:lang="it">Pacco piccolo</value>
         <value xml:lang="ja">パック小</value>
         <value xml:lang="vi">Đóng gói Nhỏ</value>
@@ -1088,6 +1225,7 @@
     </property>
     <property key="FacilityShipmentFedexPackingTube">
         <value xml:lang="en">Tube</value>
+        <value xml:lang="fa">لوله</value>
         <value xml:lang="it">Tubo</value>
         <value xml:lang="ja">チューブ</value>
         <value xml:lang="vi">Thùng chứa</value>
@@ -1095,6 +1233,7 @@
     </property>
     <property key="FacilityShipmentFedexPackingTypeInvalid">
         <value xml:lang="en">Cannot confirm shipment: Package ${shipmentPackageSeqId} of shipment ${shipmentId} has an invalid packaging type for Fedex.</value>
+        <value xml:lang="fa">نمی‌توان حمل‌ونقل را تایید کرد: بسته ${shipmentPackageSeqId} از حمل‌ونقل ${shipmentId} نوع بسته‌بندی نامعتبری برای Fedex دارد.</value>
         <value xml:lang="it">Non è possibile confermare la spedizione: Pacco ${shipmentPackageSeqId} della spedizione ${shipmentId} ha un tipo pacco non valido per Fedex.</value>
         <value xml:lang="ja">発送を確認できません: 発送 ${shipmentId} の梱包 ${shipmentPackageSeqId} は正しいFedexの梱包種類ではありません。</value>
         <value xml:lang="vi">Không thể xác nhận chuyển vận : Gói hàng ${shipmentPackageSeqId} hoặc chuyển vận ${shipmentId} có thông tin kiểu gói hàng không hợp lệ cho Fedex.</value>
@@ -1102,6 +1241,7 @@
     </property>
     <property key="FacilityShipmentFedexPackingTypeMissing">
         <value xml:lang="en">Cannot confirm shipment: Package type for package ${shipmentPackageSeqId} of shipment ${shipmentId} is missing packagingTypeCode.</value>
+        <value xml:lang="fa">نمی‌توان حمل‌ونقل را تایید کرد: نوع بسته برای بسته ${shipmentPackageSeqId} از حمل‌ونقل ${shipmentId} «کد نوع بسته‌بندی» را فراموش کرده‌است.</value>
         <value xml:lang="it">Non è possibile confermare la spedizione: Tipo pacco per il pacco ${shipmentPackageSeqId} della spedizione ${shipmentId} ha il codice tipo pacco mancante.</value>
         <value xml:lang="ja">発送を確認できません: 発送 ${shipmentId} の梱包 ${shipmentPackageSeqId} に対する梱包種類コードが正しくありません。</value>
         <value xml:lang="vi">Không thể xác nhận chuyển vận : Gói hàng ${shipmentPackageSeqId} hoặc chuyển vận ${shipmentId} thiếu thông Mã kiểu đóng gói</value>
@@ -1109,6 +1249,7 @@
     </property>
     <property key="FacilityShipmentFedexPackingTypeNotConfigured">
         <value xml:lang="en">Cannot confirm shipment: Package ${shipmentPackageSeqId} of shipment ${shipmentId} has no packaging type set, and packagingType is not configured</value>
+        <value xml:lang="fa">نمی‌توان حمل‌ونقل را تایید کرد: بسته ${shipmentPackageSeqId} از حمل‌ونقل ${shipmentId} مجموعه نوع بسته‌بندی  ندارد، و «نوع بسته‌بندی» پیکربندی نشده‌است</value>
         <value xml:lang="it">Non è possibile confermare la spedizione: Pacco ${shipmentPackageSeqId} della spedizione ${shipmentId} non il tipo di impacchettamento impostato, e il packagingType non è configurato</value>
         <value xml:lang="ja">発送を確認できません: 発送 ${shipmentId} の梱包 ${shipmentPackageSeqId} の梱包種類がないか、正しく設定されていません。</value>
         <value xml:lang="vi">Không thể xác nhận chuyển vận : Gói hàng ${shipmentPackageSeqId} hoặc chuyển vận ${shipmentId} chưa có thông tin Kiểu đóng gói</value>
@@ -1116,6 +1257,7 @@
     </property>
     <property key="FacilityShipmentFedexPackingType">
         <value xml:lang="en">Packing Type</value>
+        <value xml:lang="fa">نوع بسته‌بندی</value>
         <value xml:lang="it">Tipo pacco</value>
         <value xml:lang="ja">梱包種類</value>
         <value xml:lang="vi">Kiểu đóng gói</value>
@@ -1123,6 +1265,7 @@
     </property>
     <property key="FacilityShipmentFedexPackingYour">
         <value xml:lang="en">Your Packaging</value>
+        <value xml:lang="fa">بسته‌بندی شما</value>
         <value xml:lang="it">Pacco personalizzato</value>
         <value xml:lang="ja">あなたの包装</value>
         <value xml:lang="vi">Gói hàng của bạn</value>
@@ -1130,6 +1273,7 @@
     </property>
     <property key="FacilityShipmentFedexPartyFromHasNoName">
         <value xml:lang="en">PartyIdFrom for shipmentId ${shipmentId}, shipmentRouteSegmentId ${shipmentRouteSegmentId} has no name (required for Fedex shipments)</value>
+        <value xml:lang="fa">«از آی‌دی هم‌مشرب» برای «آی‌دی حمل‌ونقل» ${shipmentId}، «آی‌دی بخش راه حمل‌ونقل» ${shipmentRouteSegmentId} نامی ندارد (برای حمل‌ونقل‌های Fedex لازم است)</value>
         <value xml:lang="it">Soggetto origine per la spedizione ${shipmentId}, percorso spedizione ${shipmentRouteSegmentId} non ha un nome (richiesto per le spedizioni con Fedex)</value>
         <value xml:lang="ja">発送ID ${shipmentId}, 発送経路セグメントID ${shipmentRouteSegmentId} の取引先ID(元)の名称がありません (Fedex発送では必要です)</value>
         <value xml:lang="vi">Thông tin 'Người gửi Từ' cho chuyển vận ${shipmentId}, chặng chuyển vận ${shipmentRouteSegmentId} không có Tên ( chuyển vận Fedex cần có thông tin này)</value>
@@ -1137,6 +1281,7 @@
     </property>
     <property key="FacilityShipmentFedexPartyToHasNoName">
         <value xml:lang="en">partyTo for shipmentId ${shipmentId}, shipmentRouteSegmentId ${shipmentRouteSegmentId} has no name (required for Fedex shipments)</value>
+        <value xml:lang="fa">«به هم‌مشرب» برای «آی‌دی حمل‌ونقل» ${shipmentId}، «آی‌دی بخش راه حمل‌ونقل» ${shipmentRouteSegmentId} نامی ندارد (برای حمل‌ونقل‌های Fedex لازم است)</value>
         <value xml:lang="it">Soggetto destinazione per la spedizione ${shipmentId}, percorso spedizione ${shipmentRouteSegmentId} non ha un nome (richiesto per le spedizioni con Fedex)</value>
         <value xml:lang="ja">発送ID ${shipmentId}, 発送経路セグメントID ${shipmentRouteSegmentId} の取引先ID(先)の名称がありません (Fedex発送では必要です)</value>
         <value xml:lang="vi">Thông tin 'Người gửi Đến' cho chuyển vận ${shipmentId}, chặng chuyển vận ${shipmentRouteSegmentId} không có Tên ( chuyển vận Fedex cần có thông tin này)</value>
@@ -1144,6 +1289,7 @@
     </property>
     <property key="FacilityShipmentFedexPartyToRequired">
         <value xml:lang="en">Shipment.partyIdTo is required for Fedex shipments: shipmentId ${shipmentId}, shipmentRouteSegmentId ${shipmentRouteSegmentId}</value>
+        <value xml:lang="fa">«به آی‌دی هم‌مشرب حمل‌ونقل» برای حمل‌ونقل‌های Fedex لازم است: «آی‌دی حمل‌ونقل» ${shipmentId}، «آی‌دی بخش راه حمل‌ونقل» ${shipmentRouteSegmentId}</value>
         <value xml:lang="it">Soggetto destinazione è richiesto per le spedizioni Fedex: spedizione ${shipmentId}, percorso spedizione ${shipmentRouteSegmentId}</value>
         <value xml:lang="ja">Fedex発送では取引先ID(先)が必要です: 発送ID ${shipmentId}, 発送経路セグメントID ${shipmentRouteSegmentId}</value>
         <value xml:lang="vi">Thông tin 'Người gửi Đến' bắt buộc phải có khi sử dụng chuyển vận Fedex: chuyển vận ${shipmentId}, chặng chuyển vận ${shipmentRouteSegmentId}</value>
@@ -1151,6 +1297,7 @@
     </property>
     <property key="FacilityShipmentFedexRateEstimateTemplateLocation">
         <value xml:lang="en">Rate Estimate Template Location</value>
+        <value xml:lang="fa">نرخ مکان الگو تخمینی</value>
         <value xml:lang="it">Posizione template stima spedizione</value>
         <value xml:lang="ja">レート見積テンプレート位置</value>
         <value xml:lang="vi">Đường dẫn của Biểu mẫu ước lượng tỷ lệ</value>
@@ -1158,6 +1305,7 @@
     </property>
     <property key="FacilityShipmentFedexReceivedNullResponse">
         <value xml:lang="en">Received a null response from Fedex</value>
+        <value xml:lang="fa">پاسخ خالی از Fedex دریافت‌شده</value>
         <value xml:lang="it">Ricevuta una risposta vuota da Fedex</value>
         <value xml:lang="ja">Fedexから空のレスポンスを受け取りました</value>
         <value xml:lang="vi">Nhận phản hồi rỗng từ Fedex</value>
@@ -1165,6 +1313,7 @@
     </property>
     <property key="FacilityShipmentFedexRouteSegmentStatusNotStarted">
         <value xml:lang="en">ERROR: The Carrier Service Status for ShipmentRouteSegment ${shipmentRouteSegmentId} of Shipment ${shipmentId}, is ${shipmentRouteSegmentStatus}, but must be not-set or [SHRSCS_NOT_STARTED] to perform the Fedex Shipment Confirm operation.</value>
+        <value xml:lang="fa">خطا: وضعیت سرویس جابجایی برای «بخش راه حمل‌ونقل» ${shipmentRouteSegmentId} از حمل‌ونقل ${shipmentId}، ${shipmentRouteSegmentStatus} است، ولی باید not-set یا [SHRSCS_NOT_STARTED] باشد تا عملکرد حمل‌ونقل Fedex بهتر شود.</value>
         <value xml:lang="it">ERRORE: lo stato corriere per percorso spedizione ${shipmentRouteSegmentId} della spedizione ${shipmentId}, è ${shipmentRouteSegmentStatus}, ma deve non essere impostato o [SHRSCS_NOT_STARTED] per eseguire l'operazione di Conferma Spedizione Fedex.</value>
         <value xml:lang="ja">エラー: 発送 ${shipmentId} の発送経路セグメント ${shipmentRouteSegmentId} の運送業者サービスステータスは ${shipmentRouteSegmentStatus} ですが、Fedex発送確認操作を実行するには、設定しないか、[SHRSCS_NOT_STARTED] の必要があります。</value>
         <value xml:lang="vi">Lỗi xảy ra: Trạng thái dịch vụ nhà chuyển vận cho Chặng chuyển vận ${shipmentRouteSegmentId} của Chuyển vận ${shipmentId} là ${shipmentRouteSegmentStatus}, nhưng không được thiết lập hoặc [SHRSCS_NOT_STARTED] để thực hiện thao tác Xác nhận chuyển vận từ Fedex.</value>
@@ -1172,6 +1321,7 @@
     </property>
     <property key="FacilityShipmentFedexRouteSegmentCarrierShipmentMethodNotFound">
         <value xml:lang="en">CarrierShipmentMethod not found for ShipmentRouteSegment with shipmentId ${shipmentId} and shipmentRouteSegmentId ${shipmentRouteSegmentId}; partyId is ${carrierPartyId} and shipmentMethodTypeId is ${shipmentMethodTypeId};</value>
+        <value xml:lang="fa">«روش حمل‌ونقل جابجاکننده» برای «بخش راه حمل‌ونقل» با «آی‌دی  حمل‌ونقل» ${shipmentId} و «آی‌دی بخش راه حمل‌ونقل» ${shipmentRouteSegmentId} پیدا نشد؛ «آی‌دی هم‌مشرب» ${carrierPartyId} و «آی‌دی نوع روش حمل‌ونقل» ${shipmentMethodTypeId} هستند؛</value>
         <value xml:lang="it">Metodo di spedizione corriere non trovato per la spedizione ${shipmentId} e percorso spedizione ${shipmentRouteSegmentId}; il soggetto è ${carrierPartyId} e il metodo di spedizione è ${shipmentMethodTypeId};</value>
         <value xml:lang="ja">発送ID ${shipmentId} 発送経路セグメントID ${shipmentRouteSegmentId} の運送業者発送方法が見つかりません。取引先ID ${carrierPartyId} および発送方法種類ID ${shipmentMethodTypeId}</value>
         <value xml:lang="vi">CarrierShipmentMethod not found for ShipmentRouteSegment with shipmentId ${shipmentId} and shipmentRouteSegmentId ${shipmentRouteSegmentId}; partyId is ${carrierPartyId} and shipmentMethodTypeId is ${shipmentMethodTypeId};</value>
@@ -1179,6 +1329,7 @@
     </property>
     <property key="FacilityShipmentFedexShipmentConfirmed">
         <value xml:lang="en">FedEx Shipment Confirmed.</value>
+        <value xml:lang="fa">حمل‌ونقل Fedex تاییدشد.</value>
         <value xml:lang="it">Spedizione confermata da FedEx.</value>
         <value xml:lang="ja">Fedex発送を確認しました。</value>
         <value xml:lang="vi">Chuyển vận FedEx đã xác nhận.</value>
@@ -1186,6 +1337,7 @@
     </property>
     <property key="FacilityShipmentFedexShipmentTemplateError">
         <value xml:lang="en">Cannot confirm Fedex shipment: Failed to render Fedex XML Ship Request Template ${templateLocation}: ${errorString}</value>
+        <value xml:lang="fa">نمی‌توان حمل‌ونقل Fedex را تاییدکرد: شکست در تحویل الگو درخواست حمل XML Fedex ${templateLocation}: ${errorString}</value>
         <value xml:lang="it">Non è possibile confermare la spedizione a Fedex: Fallimento nella creazione del documento XML a Fedex dal Template ${templateLocation} di conferma spedizione: ${errorString}</value>
         <value xml:lang="ja">Fedex発送を確認できません: Fedex XML発送リクエストテンプレート ${templateLocation} の生成に失敗しました: ${errorString}</value>
         <value xml:lang="vi">Không thể xác nhận từ chuyển vận Fedex: không thành công phân tích Biểu mẫu yêu cầu định danh XML tới Fedex ${templateLocation}: ${errorString}</value>
@@ -1193,6 +1345,7 @@
     </property>
     <property key="FacilityShipmentFedexShipmentTemplateLabelNotFound">
         <value xml:lang="en">Cannot get FDXShipReply label for shipment package route segment ${shipmentPackageRouteSeg}. FedEx response is: ${fDXShipReplyString}</value>
+        <value xml:lang="fa">نمی‌توان برچسب «پاسخ حمل Fedex برای بخش راه بسته حمل‌ونقل ${shipmentPackageRouteSeg} را دریافت‌کرد. پاسخ Fedex ${fDXShipReplyString} است.</value>
         <value xml:lang="it">Errore di parsing della risposta FDXShipReply</value>
         <value xml:lang="ja">発送梱包経路セグメント ${shipmentPackageRouteSeg} のFDXShipRplyを取得できません。FedExレスポンス: ${fDXShipReplyString}</value>
         <value xml:lang="vi">Không thể nhận nhãn Phản hồi chuyển vận từ Fedex cho chặng trung chuyển gói hàng ${shipmentPackageRouteSeg}. Phản hồi từ FedEx là: ${fDXShipReplyString}</value>
@@ -1200,6 +1353,7 @@
     </property>
     <property key="FacilityShipmentFedexShipmentTemplateLocation">
         <value xml:lang="en">Shipment Template Location</value>
+        <value xml:lang="fa">مکان الگو حمل‌ونقل</value>
         <value xml:lang="it">Posizione template spedizione</value>
         <value xml:lang="ja">発送テンプレート位置</value>
         <value xml:lang="vi">Đường dẫn biểu mẫu chuyển vận</value>
@@ -1207,6 +1361,7 @@
     </property>
     <property key="FacilityShipmentFedexShipmentTemplateLocationNotFound">
         <value xml:lang="en">Can't find location for FDXShipRequest template - should be in ${templateLocation}</value>
+        <value xml:lang="fa">نمی‌توان مکان را برای الگو «درخواست حمل Fedex پیدا کرد - باید در ${templateLocation} باشد</value>
         <value xml:lang="it">Non è possibile trovare il template per FDXShipRequest - dovrebbe essere in ${templateLocation}</value>
         <value xml:lang="ja">FDXShipRequestテンプレートの位置が見つかりません - ${templateLocation} に必要です</value>
         <value xml:lang="vi">Không tìm thấy đường dẫn cho biểu mẫu Yêu cầu chuyển hàng Fedex (FDXShipRequest) - đáng nhẽ phải có tại ${templateLocation}</value>
@@ -1214,6 +1369,7 @@
     </property>
     <property key="FacilityShipmentFedexShipmentTemplateSendingError">
         <value xml:lang="en">Error sending Fedex request for FDXShipRequest: ${errorString}</value>
+        <value xml:lang="fa">خطا در فرستادن درخواست Fedex برای «درخواست حمل Fedex: ${errorString}</value>
         <value xml:lang="it">Errore durante l'invio della richiesta FDXShipRequest a Fedex: ${errorString}</value>
         <value xml:lang="ja">FDXShipRequestのFedexリクエスト送信中にエラー: ${errorString}</value>
         <value xml:lang="vi">Lỗi khi gửi yêu cầu Fedex cho FDXShipRequest: ${errorString}</value>
@@ -1221,6 +1377,7 @@
     </property>
     <property key="FacilityShipmentFedexShipmentTemplateServiceError">
         <value xml:lang="en">Error in fedexShipRequest service: ${errorString}</value>
+        <value xml:lang="fa">خطا در سرویس «درخواست حمل Fedex»: ${errorString}</value>
         <value xml:lang="it">Errore nel servizio fedexShipRequest: ${errorString}</value>
         <value xml:lang="ja">fedexShipRequestサービスでエラー: ${errorString}</value>
         <value xml:lang="vi">Lỗi tại dịch vụ fedexShipRequest: ${errorString}</value>
@@ -1228,6 +1385,7 @@
     </property>
     <property key="FacilityShipmentFedexSubscriptionTemplateError">
         <value xml:lang="en">Cannot send Fedex subscription request: Failed to render Fedex XML Subscription Request Template ${templateLocation}: ${errorString}</value>
+        <value xml:lang="fa">نمی‌توان درخواست اشتراک Fedex را فرستاد: شکست در تحویل الگو درخواست اشتراک XML Fedex ${templateLocation}: ${errorString}</value>
         <value xml:lang="it">Cannot send Fedex subscription request: Failed to render Fedex XML Subscription Request Template ${templateLocation}: ${errorString}</value>
         <value xml:lang="ja">Fedex申込リクエストを送信できません: Fedex XML申込リクエストテンプレート ${templateLocation} の生成に失敗しました: ${errorString}</value>
         <value xml:lang="vi">Không thể gửi yêu cầu đăng ký tới Fedex: lỗi khi phân tích Biểu mẫu yêu cầu đăng ký Fedex định dạng XML ${templateLocation}: ${errorString}</value>
@@ -1235,6 +1393,7 @@
     </property>
     <property key="FacilityShipmentFedexSubscriptionTemplateParsingError">
         <value xml:lang="en">Error parsing the FDXSubscriptionRequest response: ${errorString}</value>
+        <value xml:lang="fa">خطا در پاسخ «درخواست اشتراک Fedex»: ${errorString}</value>
         <value xml:lang="it">Errore di parsing della risposta FDXSubscriptionRequest: ${errorString}</value>
         <value xml:lang="ja">FDXSubscriptionRequestレスポンスの解析中にエラー: ${errorString}</value>
         <value xml:lang="vi">Lỗi khi phân tích phản hồi FDXSubscriptionRequest : ${errorString}</value>
@@ -1242,6 +1401,7 @@
     </property>
     <property key="FacilityShipmentFedexSubscriptionTemplateSendingError">
         <value xml:lang="en">Error sending Fedex request for FDXSubscriptionRequest: ${errorString}</value>
+        <value xml:lang="fa">خطا در فرستادن درخواست Fedex برای «درخواست اشتراک Fedex»: ${errorString}</value>
         <value xml:lang="it">Errore di invio della richiesta a Fedex per FDXSubscriptionRequest: ${errorString}</value>
         <value xml:lang="ja">FDXSubscriptionRequestのFedexリクエストの送信中にエラー: ${errorString}</value>
         <value xml:lang="vi">Lỗi khi gửi yêu cầu Fedex cho FDXSubscriptionRequest: ${errorString}</value>
@@ -1249,6 +1409,7 @@
     </property>
     <property key="FacilityShipmentFedexSubscriptionTemplateLocationNotFound">
         <value xml:lang="en">Can't find location for FDXSubscriptionRequest template - should be in ${templateLocation}</value>
+        <value xml:lang="fa">نمی‌توان مکان را برای الگو «درخواست اشتراک Fedex» پیداکرد - باید در ${templateLocation} باشد</value>
         <value xml:lang="it">Non è possibile trovare il template per FDXSubscriptionRequest - dovrebbe essere in ${templateLocation}</value>
         <value xml:lang="ja">FDXSubscriptionRequestテンプレートの位置が見つかりません - ${templateLocation} に必要です</value>
         <value xml:lang="vi">Không tìm thấy đường dẫn cho biểu mẫu FDXSubscriptionRequest - đáng nhẽ phải có tại ${templateLocation}</value>
@@ -1256,6 +1417,7 @@
     </property>
     <property key="FacilityShipmentFedexSubscriptionTemplateLocation">
         <value xml:lang="en">Subscription Template Location</value>
+        <value xml:lang="fa">مکان الگو اشتراک</value>
         <value xml:lang="it">Posizione template sottoscrizione</value>
         <value xml:lang="ja">申込テンプレート位置</value>
         <value xml:lang="vi">Đường dẫn biểu mẫu đăng ký</value>
@@ -1263,6 +1425,7 @@
     </property>
     <property key="FacilityShipmentFedexWeightOfPackageNotAvailable">
         <value xml:lang="en">Unable to determine weight for package ${shipmentPackageSeqId} of shipmentRouteSegment ${shipmentRouteSegmentId} of shipment ${shipmentId}</value>
+        <value xml:lang="fa">ناتوانی در مشخص‌کردن وزن برای بسته ${shipmentPackageSeqId} با «بخش راه حمل‌ونقل» ${shipmentRouteSegmentId} از حمل‌ونقل ${shipmentId}</value>
         <value xml:lang="it">Non è possibile determinare il peso del pacco ${shipmentPackageSeqId} del percorso spedizione ${shipmentRouteSegmentId} della spedizione ${shipmentId}</value>
         <value xml:lang="ja">発送 ${shipmentId} の発送経路セグメント ${shipmentRouteSegmentId} の梱包 ${shipmentPackageSeqId} に対する重量を決定できません</value>
         <value xml:lang="vi">Không xác định được cân nặng của gói hàng ${shipmentPackageSeqId} của Chặng chuyển vận ${shipmentRouteSegmentId} của Chuyển vận ${shipmentId}</value>
@@ -1270,6 +1433,7 @@
     </property>
     <property key="FacilityShipmentFedexWeightOfPackageCannotBeConverted">
         <value xml:lang="en">Unable to convert weight for package ${shipmentPackageSeqId} of shipmentRouteSegment ${shipmentRouteSegmentId} of shipment ${shipmentId}</value>
+        <value xml:lang="fa">ناتوانی در تبدیل وزن برای بسته ${shipmentPackageSeqId} با «بخش راه حمل‌ونقل» ${shipmentRouteSegmentId} از حمل‌ونقل ${shipmentId} </value>
         <value xml:lang="it">Non è possibile convertire il peso del pacco ${shipmentPackageSeqId} del percorso spedizione ${shipmentRouteSegmentId} della spedizione ${shipmentId}</value>
         <value xml:lang="ja">発送 ${shipmentId} の発送経路セグメント ${shipmentRouteSegmentId} の梱包 ${shipmentPackageSeqId} に対する重量を変換できません</value>
         <value xml:lang="vi">Không thể chuyển đổi trọng lượng cho gói hàng ${shipmentPackageSeqId} của Chặng chuyển vận ${shipmentRouteSegmentId} của chuyển vận ${shipmentId}</value>
@@ -1277,6 +1441,7 @@
     </property>
     <property key="FacilityShipmentFedexXmlHeaderMalformed">
         <value xml:lang="en">XML header is malformed</value>
+        <value xml:lang="fa">سرفصر XML ناقص است</value>
         <value xml:lang="it">Intestazione XML è malformata</value>
         <value xml:lang="ja">XMLヘッダが正しくありません</value>
         <value xml:lang="vi">Phần đầu (header) bản tin XML đã bị thay đổi</value>
@@ -1284,6 +1449,7 @@
     </property>
     <property key="FacilityShipmentGatewayConfig">
         <value xml:lang="en">Shipment Gateway Config</value>
+        <value xml:lang="fa">پیکربندی دروازه حمل‌ونقل</value>
         <value xml:lang="it">Configurazione gateway spedizione</value>
         <value xml:lang="ja">発送ゲートウェイ設定</value>
         <value xml:lang="vi">Cổng giao hàng</value>
@@ -1291,6 +1457,7 @@
     </property>
     <property key="FacilityShipmentGatewayConfigDescription">
         <value xml:lang="en">Shipment Gateway Config Description</value>
+        <value xml:lang="fa">توضیحات پیکربندی دروازه حمل‌‌ونقل</value>
         <value xml:lang="it">Descrizione configurazione gateway spedizione</value>
         <value xml:lang="ja">発送ゲートウェイ設定詳細</value>
         <value xml:lang="vi">Miêu tả cấu hình cổng chuyển vận</value>
@@ -1298,6 +1465,7 @@
     </property>
     <property key="FacilityShipmentGatewayConfigFromShipmentError">
         <value xml:lang="en">Error in getShipmentGatewayConfigFromShipment: ${errorString}</value>
+        <value xml:lang="fa">خطا در «دریافت پیکربندی دروازه حمل‌ونقل از حمل‌ونقل»: ${errorString}</value>
         <value xml:lang="it">Errore nel metodo getShipmentGatewayConfigFromShipment: ${errorString}</value>
         <value xml:lang="ja">getShipmentGatewayConfigFromShipmentでエラー: ${errorString}</value>
         <value xml:lang="vi">Lỗi tại getShipmentGatewayConfigFromShipment: ${errorString}</value>
@@ -1305,6 +1473,7 @@
     </property>
     <property key="FacilityShipmentGatewayConfigId">
         <value xml:lang="en">Shipment Gateway Config Id</value>
+        <value xml:lang="fa">آی‌دی پیکربندی دروازه حمل‌ونقل</value>
         <value xml:lang="it">Codice configurazione gateway spedizione</value>
         <value xml:lang="ja">発送ゲートウェイ設定ID</value>
         <value xml:lang="vi">Id cấu hình cổng chuyển vận</value>
@@ -1312,6 +1481,7 @@
     </property>
     <property key="FacilityShipmentGatewayConfigTypeDescription">
         <value xml:lang="en">Shipment Gateway Config Type Description</value>
+        <value xml:lang="fa">توضیحات نوع پیکربندی دروازه حمل‌ونقل</value>
         <value xml:lang="it">Descrizione tipo configurazione gateway spedizione</value>
         <value xml:lang="ja">発送ゲートウェイ設定種類詳細</value>
         <value xml:lang="vi">Miêu tả</value>
@@ -1319,6 +1489,7 @@
     </property>
     <property key="FacilityShipmentGatewayConfigTypeId">
         <value xml:lang="en">Shipment Gateway Config Type Id</value>
+        <value xml:lang="fa">آی‌دی نوع پیکربندی دروازه حمل‌ونقل</value>
         <value xml:lang="it">Tipo configurazione gateway spedizione</value>
         <value xml:lang="ja">発送ゲートウェイ設定種類ID</value>
         <value xml:lang="vi">Id loại</value>
@@ -1326,6 +1497,7 @@
     </property>
     <property key="FacilityShipmentGatewayConfigTypes">
         <value xml:lang="en">Shipment Gateway Config Types</value>
+        <value xml:lang="fa">انواع پیکربندی دروازه حمل‌‌ونقل</value>
         <value xml:lang="it">Tipi configurazione gateway spedizione</value>
         <value xml:lang="ja">発送ゲートウェイ設定種類</value>
         <value xml:lang="vi">Loại</value>
@@ -1333,6 +1505,7 @@
     </property>
     <property key="FacilityShipmentIdCreated">
         <value xml:lang="en">Created shipment with ID {0} for ship group ID {1} for facility ID {2}</value>
+        <value xml:lang="fa">ساختن حمل‌ونقل با آی‌دی {0} برای آی‌دی گروه حمل {1} برای آی‌دی تسهیلات {2}</value>
         <value xml:lang="it">Creata spedizione numero {0} per il gruppo spedizione {1} per lo stabilimento {2}</value>
         <value xml:lang="ja">ID {0} の発送が、発送グループID {1}、拠点ID {2} に対して作成されました</value>
         <value xml:lang="vi">Đã tạo chuyển vận với định danh {0} cho nhóm chuyển vận ID {1} cho Chi nhánh / Cơ sở {2}</value>
@@ -1340,6 +1513,7 @@
     </property>
     <property key="FacilityShipmentMissingProductStore">
         <value xml:lang="en">No ProductStore associated with order; cannot use Quick Ship</value>
+        <value xml:lang="fa">هیچ انبار محصولی با سفارش مطابقت ندارد؛ نمی‌توان از حمل سریع استفاده کرد</value>
         <value xml:lang="it">Nessun negozio associato all'ordine; non √® possibile effetuare la spedizione veloce</value>
         <value xml:lang="ja">注文に関連付けされた製品店舗はありません; クイック発送は使用できません</value>
         <value xml:lang="vi">Không có Cửa hàng nào kết hợp với Đặt hàng này nên không thể sử dụng Chuyển hàng nhanh</value>
@@ -1347,6 +1521,7 @@
     </property>
     <property key="FacilityShipmentNotCreated">
         <value xml:lang="en">Warning: no shipments created; could not find anything ready and needing to be shipped.</value>
+        <value xml:lang="fa">انتظار: هیچ حمل‌ونقلی ساخته‌نشده؛ نمی‌توان چیز آماده‌ای پیداکرد و نیاز به حمل وجوددارد.</value>
         <value xml:lang="it">Attenzione: nessuna spedizione creata; non √® possibile trovare niente di pronto da spedire.</value>
         <value xml:lang="ja">警告: 発送は作成されていません; 準備完了および必要な発送が見つかりません</value>
         <value xml:lang="vi">Cảnh báo: không chuyển vận nào được tạo ra, hệ thống không tìm thấy bất kỳ hàng hóa nào sẵn sàng và cần chuyển đi.</value>
@@ -1354,6 +1529,7 @@
     </property>
     <property key="FacilityShipmentNotCreatedForNotReserveInventory">
         <value xml:lang="en">ProductStore ${productStore.productStoreId} does not reserve inventory; cannot use Quick Ship for Multiple Facilities</value>
+        <value xml:lang="fa">انبار محصول ${productStore.productStoreId} موجودی‌کالا را رزرو نکرده‌است؛ نمی‌توان برای تسهیلات مختلف از حمل سریع استفاده نمود</value>
         <value xml:lang="it">Negozio ${productStore.productStoreId} non riserva inventario; non è possibile utilizzare la spedizione veloce per stabilimenti multipli</value>
         <value xml:lang="ja">製品店舗 {0} は在庫予約していません; 複数の拠点にクイック発送は使用できません</value>
         <value xml:lang="vi">Cửa hàng ${productStore.productStoreId} không có kho hàng dự trữ, nên không thể sử dụng Chuyển hàng nhanh cho Nhiều Chi nhánh / Cơ sở</value>
@@ -1361,6 +1537,7 @@
     </property>
     <property key="FacilityShipmentNotCreatedForExplodesOrderItems">
         <value xml:lang="en">ProductStore ${productStore.productStoreId} explodes order items; cannot use Quick Ship for Multiple Facilities</value>
+        <value xml:lang="fa">انبار محصول ${productStore.productStoreId} پر است از اقلام سفارشات؛ نمی‌توان برای تسهیلات مختلف از حمل سریع استفاده نمود</value>
         <value xml:lang="it">Negozio ${productStore.productStoreId} esplosione righe ordine; non è possibile utilizzare la spedizione veloce per stabilimenti multipli</value>
         <value xml:lang="ja">製品店舗 {0} は注文アイテムが分散されています; 複数の拠点にクイック発送は使用できません</value>
         <value xml:lang="vi">Cửa hàng ${productStore.productStoreId} không có hàng hóa đặt hàng nên không thể sử dụng Chuyển hàng nhanh cho Nhiều Chi nhánh / Cơ sở</value>
@@ -1368,6 +1545,7 @@
     </property>
     <property key="FacilityShipmentNoItemsAvailableToShip">
         <value xml:lang="en">No items available to ship at this time for ship group ID {0}</value>
+        <value xml:lang="fa">هیچ قلمی برای حمل در این زمان برای آی‌دی گروه {0} موجود نمی‌باشد</value>
         <value xml:lang="it">Nessuna riga disponibile da spedire in questo momento per il gruppo spedizione {0}</value>
         <value xml:lang="ja">現在発送グループID {0} に対して発送可能なアイテムはありません</value>
         <value xml:lang="vi">Không hạng mục nào sẵn sàng để chuyển tại thời điểm này cho nhóm chuyển ID {0}</value>
@@ -1375,6 +1553,7 @@
     </property>
     <property key="FacilityShipmentPackageRouteSegsNotFound">
         <value xml:lang="en">No ShipmentPackageRouteSegs (ie No Packages) found for ShipmentRouteSegment with shipmentId ${shipmentId} and shipmentRouteSegmentId ${shipmentRouteSegmentId}</value>
+        <value xml:lang="fa">هیچ «بخش راه بسته حمل‌ونقل» (هیچ بسته‌ای) برای «بخش راه حمل‌ونقل» با آی‌دی حمل‌ونقل ${shipmentId} و «آی‌دی بخش راه حمل‌ونقل» ${shipmentRouteSegmentId} پیدانشد</value>
         <value xml:lang="it">Nessun pacco trovato per la spedizione ${shipmentId} e il percorso spedizione ${shipmentRouteSegmentId}</value>
         <value xml:lang="ja">発送ID ${shipmentId} 発送経路セグメントID ${shipmentRouteSegmentId} の発送経路セグメントに対する発送梱包経路セグメントが見つかりません (梱包がない等)</value>
         <value xml:lang="vi">Không có Gói hàng theo chặng chuyển vận nào được tìm thấy cho chặng chuyển vận với Chuyển vận ${shipmentId} và Chặng chuyển vận ${shipmentRouteSegmentId}</value>
@@ -1382,6 +1561,7 @@
     </property>
     <property key="FacilityShipmentRateNotAvailable">
         <value xml:lang="en">No rates available at this time</value>
+        <value xml:lang="fa">هیچ نرخی در این زمان موجود نیست</value>
         <value xml:lang="it">Nessuna stima spedizione disponibile in questo momento</value>
         <value xml:lang="ja">現在有効なレートがありません</value>
         <value xml:lang="vi">Không tỷ lệ nào có sẵn tại thời điểm này</value>
@@ -1389,6 +1569,7 @@
     </property>
     <property key="FacilityShipmentRouteSegmentOriginPostalAddressNotFound">
         <value xml:lang="en">OriginPostalAddress not found for ShipmentRouteSegment with shipmentId ${shipmentId} and shipmentRouteSegmentId ${shipmentRouteSegmentId}</value>
+        <value xml:lang="fa">«آدرس پستی اولیه» برای «بخش راه حمل‌ونقل» با «آی‌دی حمل‌ونقل» ${shipmentId} و «آی‌دی بخش راه حمل‌ونقل» ${shipmentRouteSegmentId} پیدانشد</value>
         <value xml:lang="it">Indirizzo d'origine non trovato per la spedizione ${shipmentId} e percorso spedizione ${shipmentRouteSegmentId}</value>
         <value xml:lang="ja">発送ID ${shipmentId} 発送経路セグメントID ${shipmentRouteSegmentId} の発送経路セグメントに対する発送元住所が見つかりません</value>
         <value xml:lang="vi">Địa chỉ bưu chính Nguồn không tìm thấy cho Chặng chuyển vận với Chuyển vận ${shipmentId} và Chặng chuyển vận ${shipmentRouteSegmentId}</value>
@@ -1396,6 +1577,7 @@
     </property>
     <property key="FacilityShipmentRouteSegmentOriginPostalAddressNotComplete">
         <value xml:lang="en">OriginPostalAddress not complete for ShipmentRouteSegment with shipmentId ${shipmentId} and shipmentRouteSegmentId ${shipmentRouteSegmentId}</value>
+        <value xml:lang="fa">«آدرس پستی اولیه» برای «بخش راه حمل‌ونقل» با «آی‌دی حمل‌ونقل» ${shipmentId} و «آی‌دی بخش راه حمل‌ونقل» ${shipmentRouteSegmentId} کامل نیست</value>
         <value xml:lang="it">Indirizzo d'origine non completo per la spedizione ${shipmentId} e percorso spedizione ${shipmentRouteSegmentId}</value>
         <value xml:lang="ja">発送ID ${shipmentId} 発送経路セグメントID ${shipmentRouteSegmentId} の発送経路セグメントに対する発送元住所が正しくありません</value>
         <value xml:lang="vi">Địa chỉ bưu chính Nguồn chưa đầy đủ cho Chặng chuyển vận với Chuyển vận ${shipmentId} và Chặng chuyển vận ${shipmentRouteSegmentId}</value>
@@ -1403,6 +1585,7 @@
     </property>
     <property key="FacilityShipmentRouteSegmentOriginStateProvinceGeoIdRequired">
         <value xml:lang="en">OriginStateProvinceGeoId required in contactMechId ${contactMechId} for ShipmentRouteSegment with shipmentId ${shipmentId} and shipmentRouteSegmentId ${shipmentRouteSegmentId}</value>
+        <value xml:lang="fa">«آی‌دی جغرافیایی استان/ایالت اولیه» لازم‌است در «آی‌دی تماس تاجر» ${contactMechId} برای «بخش راه حمل‌ونقل» با «آی‌دی حمل‌ونقل» ${shipmentId} و «آی‌دی بخش راه حمل‌ونقل»  ${shipmentRouteSegmentId}</value>
         <value xml:lang="it">OriginStateProvinceGeoId richiesto per il contatto ${contactMechId} per la spedizione ${shipmentId} e il perscorso spedizione ${shipmentRouteSegmentId}</value>
         <value xml:lang="ja">発送ID ${shipmentId} 発送経路セグメントID ${shipmentRouteSegmentId} に対する連絡方法ID ${contactMechId} に発送元都道府県/州/地方IDが必要です</value>
         <value xml:lang="vi">Mã địa lý Tỉnh/Thành Nguồn là thông tin bắt buộc phải có tại Thông tin liên hệ chi tiết ${contactMechId} cho Chặng chuyển vận với Chuyển vận ${shipmentId} và Chặng chuyển vận ${shipmentRouteSegmentId}</value>
@@ -1410,6 +1593,7 @@
     </property>
     <property key="FacilityShipmentRouteSegmentOriginCountryGeoNotFound">
         <value xml:lang="en">OriginCountryGeo not found for ShipmentRouteSegment with shipmentId ${shipmentId} and shipmentRouteSegmentId ${shipmentRouteSegmentId}</value>
+        <value xml:lang="fa">«جغرافیای کشور اولیه» برای «بخش راه حمل‌ونقل» با «آی‌دی حمل‌ونقل» ${shipmentId} و «آی‌دی بخش راه حمل‌ونقل»  ${shipmentRouteSegmentId} پیدانشد</value>
         <value xml:lang="it">Paese d'origine non trovato per la spedizione ${shipmentId} e percorso spedizione ${shipmentRouteSegmentId}</value>
         <value xml:lang="ja">発送ID ${shipmentId} 発送経路セグメントID ${shipmentRouteSegmentId} の発送経路セグメントに対する発送元国が見つかりません</value>
         <value xml:lang="vi">Mã địa lý quốc gia Nguồn không có thông tin với Chặng chuyển vận với Chuyển vận ${shipmentId} và Chặng chuyển vận ${shipmentRouteSegmentId}</value>
@@ -1417,6 +1601,7 @@
     </property>
     <property key="FacilityShipmentRouteSegmentOriginTelecomNumberNotFound">
         <value xml:lang="en">OriginTelecomNumber not found for ShipmentRouteSegment with shipmentId ${shipmentId} and shipmentRouteSegmentId ${shipmentRouteSegmentId}</value>
+        <value xml:lang="fa">«شماره تماس اولیه» برای «بخش راه حمل‌ونقل» با «آی‌دی حمل‌ونقل» ${shipmentId} و «آی‌دی بخش راه حمل‌ونقل»  ${shipmentRouteSegmentId} پیدانشد</value>
         <value xml:lang="it">Numero telefono d'origine non trovato per la spedizione ${shipmentId} e percorso spedizione ${shipmentRouteSegmentId}</value>
         <value xml:lang="ja">発送ID ${shipmentId} 発送経路セグメントID ${shipmentRouteSegmentId} の発送経路セグメントに対する発送元電話番号が見つかりません</value>
         <value xml:lang="vi">Số điện thoại Nguồn không có thông tin với Chặng chuyển vận với Chuyển vận ${shipmentId} và Chặng chuyển vận ${shipmentRouteSegmentId}</value>
@@ -1424,6 +1609,7 @@
     </property>
     <property key="FacilityShipmentRouteSegmentDestCountryGeoNotFound">
         <value xml:lang="en">DestCountryGeo not found for ShipmentRouteSegment with shipmentId ${shipmentId} and shipmentRouteSegmentId ${shipmentRouteSegmentId}</value>
+        <value xml:lang="fa">«جغرافیای کشور مقصد» برای «بخش راه حمل‌ونقل» با «آی‌دی حمل‌ونقل» ${shipmentId} و «آی‌دی بخش راه حمل‌ونقل»  ${shipmentRouteSegmentId} پیدانشد</value>
         <value xml:lang="it">Paese di destinazione non trovata per la spedizione ${shipmentId} e percorso spedizione ${shipmentRouteSegmentId}</value>
         <value xml:lang="ja">発送ID ${shipmentId} 発送経路セグメントID ${shipmentRouteSegmentId} の発送経路セグメントに対する発送先国が見つかりません</value>
         <value xml:lang="vi">Mã địa lý quốc gia Đích không có thông tin với Chặng chuyển vận với Chuyển vận ${shipmentId} và Chặng chuyển vận ${shipmentRouteSegmentId}</value>
@@ -1431,6 +1617,7 @@
     </property>
     <property key="FacilityShipmentRouteSegmentDestPostalAddressIncomplete">
         <value xml:lang="en">DestPostalAddress incomplete for ShipmentRouteSegment with shipmentId ${shipmentId} and shipmentRouteSegmentId ${shipmentRouteSegmentId}</value>
+        <value xml:lang="fa">«آدرس پستی مقصد» برای برای «بخش راه حمل‌ونقل» با «آی‌دی حمل‌ونقل» ${shipmentId} و «آی‌دی بخش راه حمل‌ونقل»  ${shipmentRouteSegmentId} کامل نیست</value>
         <value xml:lang="it">Indirizzo di destinazione non completo per la spedizione ${shipmentId} e percorso spedizione ${shipmentRouteSegmentId}</value>
         <value xml:lang="ja">発送ID ${shipmentId} 発送経路セグメントID ${shipmentRouteSegmentId} の発送経路セグメントに対する発送先住所が正しくありません</value>
         <value xml:lang="vi">Mã bưu chính Đích không có thông tin với Chặng chuyển vận với Chuyển vận ${shipmentId} và Chặng chuyển vận ${shipmentRouteSegmentId}</value>
@@ -1438,6 +1625,7 @@
     </property>
     <property key="FacilityShipmentRouteSegmentDestPostalAddressNotFound">
         <value xml:lang="en">DestPostalAddress not found for ShipmentRouteSegment with shipmentId ${shipmentId} and shipmentRouteSegmentId ${shipmentRouteSegmentId}</value>
+        <value xml:lang="fa">«آدرس پست مقصد» برای «بخش راه حمل‌ونقل» با «آی‌دی حمل‌ونقل» ${shipmentId} و «آی‌دی بخش راه حمل‌ونقل»  ${shipmentRouteSegmentId} پیدانشد</value>
         <value xml:lang="it">Indirizzo di destinazione non trovato per la spedizione ${shipmentId} e percorso spedizione ${shipmentRouteSegmentId}</value>
         <value xml:lang="ja">発送ID ${shipmentId} 発送経路セグメントID ${shipmentRouteSegmentId} の発送経路セグメントに対する発送先住所が見つかりません</value>
         <value xml:lang="vi">Địa chỉ bưu chính Đích không có thông tin với Chặng chuyển vận với Chuyển vận ${shipmentId} và Chặng chuyển vận ${shipmentRouteSegmentId}</value>
@@ -1445,6 +1633,7 @@
     </property>
     <property key="FacilityShipmentRouteSegmentDestStateProvinceGeoIdNotFound">
         <value xml:lang="en">DestinationStateProvinceGeoId required in contactMechId ${contactMechId} for ShipmentRouteSegment with shipmentId ${shipmentId} and shipmentRouteSegmentId ${shipmentRouteSegmentId}</value>
+        <value xml:lang="fa">«آی‌دی جغرافیایی استان/ایالت مقصد» در «آی‌دی تماس تاجر» ${contactMechId} برای «بخش راه حمل‌ونقل» با «آی‌دی حمل‌ونقل» ${shipmentId} و «آی‌دی بخش راه حمل‌ونقل»  ${shipmentRouteSegmentId} لازم است</value>
         <value xml:lang="it">Stato o provincia di destinazione richiesta per il contatto ${contactMechId} per la spedizione ${shipmentId} e percorso spedizione ${shipmentRouteSegmentId}</value>
         <value xml:lang="ja">発送ID ${shipmentId} 発送経路セグメントID ${shipmentRouteSegmentId} に対する連絡方法ID ${contactMechId} に発送先都道府県/州/地方IDが必要です</value>
         <value xml:lang="vi">Mã địa lý Tỉnh/Thành Đích là thông tin bắt buộc phải có tại Thông tin liên hệ chi tiết ${contactMechId} cho Chặng chuyển vận với Chuyển vận ${shipmentId} và Chặng chuyển vận ${shipmentRouteSegmentId}</value>
@@ -1452,6 +1641,7 @@
     </property>
     <property key="FacilityShipmentRouteSegmentDestTelecomNumberNotFound">
         <value xml:lang="en">DestTelecomNumber not found for ShipmentRouteSegment with shipmentId ${shipmentId} and shipmentRouteSegmentId ${shipmentRouteSegmentId}</value>
+        <value xml:lang="fa">«شماره تماس مقصد» رای «بخش راه حمل‌ونقل» با «آی‌دی حمل‌ونقل» ${shipmentId} و «آی‌دی بخش راه حمل‌ونقل»  ${shipmentRouteSegmentId} پیدانشد</value>
         <value xml:lang="it">Numero telefono di destinazione non trovato per la spedizione ${shipmentId} e percorso spedizione ${shipmentRouteSegmentId}</value>
         <value xml:lang="ja">発送ID ${shipmentId} 発送経路セグメントID ${shipmentRouteSegmentId} の発送経路セグメントに対する発送先電話番号が見つかりません</value>
         <value xml:lang="vi">Số điện thoại Đích không có thông tin với Chặng chuyển vận với Chuyển vận ${shipmentId} và Chặng chuyển vận ${shipmentRouteSegmentId}</value>
@@ -1459,6 +1649,7 @@
     </property>
     <property key="FacilityShipmentServiceName">
         <value xml:lang="en">Shipment Service Name (deprecated use)</value>
+        <value xml:lang="fa">نام سرویس حمل‌ونقل (استفاده بدون رضایت)</value>
         <value xml:lang="it">Nome servizio spedizione (uso deprecato)</value>
         <value xml:lang="ja">発送サービス名称 (使用非推奨)</value>
         <value xml:lang="vi">Tên dịch vụ chuyển vận (sử dụng thay thế)</value>
@@ -1466,6 +1657,7 @@
     </property>
     <property key="FacilityShipmentUpsAccessLicenseNumber">
         <value xml:lang="en">Access License Number</value>
+        <value xml:lang="fa">شماره گواهی دسترسی</value>
         <value xml:lang="it">Numero licenza d'accesso</value>
         <value xml:lang="ja">アクセスライセンス番号</value>
         <value xml:lang="vi">Số bản quyền truy nhập</value>
@@ -1473,6 +1665,7 @@
     </property>
     <property key="FacilityShipmentUpsAccessPassword">
         <value xml:lang="en">Access Password</value>
+        <value xml:lang="fa">گذرواژه دسترسی</value>
         <value xml:lang="it">Password d'accesso</value>
         <value xml:lang="ja">アクセスパスワード</value>
         <value xml:lang="vi">Mật khẩu</value>
@@ -1480,6 +1673,7 @@
     </property>
     <property key="FacilityShipmentUpsAccessUserId">
         <value xml:lang="en">Access User Id</value>
+        <value xml:lang="fa">آی‌دی استفاده دسترسی</value>
         <value xml:lang="it">Id utente d'accesso</value>
         <value xml:lang="ja">アクセスユーザID</value>
         <value xml:lang="vi">Id người dùng</value>
@@ -1487,6 +1681,7 @@
     </property>
     <property key="FacilityShipmentUpsAllowCod">
         <value xml:lang="en">Allow Cash On Delivery</value>
+        <value xml:lang="fa">اجازه‌دادن وجه‌نقد در تحویل</value>
         <value xml:lang="it">Permetti pagamento in contanti alla consegna</value>
         <value xml:lang="ja">代金引換配送を許可</value>
         <value xml:lang="vi">Cho phép thu tiền mặt khi nhận hàng</value>
@@ -1494,6 +1689,7 @@
     </property>
     <property key="FacilityShipmentUpsApplyToPackagesIsNotConfigured">
         <value xml:lang="en">Apply to packages is not configured</value>
+        <value xml:lang="fa">کاربرد دسته‌بندی‌ها پیکربندی نشده‌است</value>
         <value xml:lang="it">Applica ai pacchi non è configurato</value>
         <value xml:lang="ja">適用する梱包が設定されていません</value>
         <value xml:lang="vi">Thanh toán của Gói hàng chưa được cấu hình</value>
@@ -1501,6 +1697,7 @@
     </property>
     <property key="FacilityShipmentUpsBillShipperAccountNumber">
         <value xml:lang="en">Bill Shipper Account Number</value>
+        <value xml:lang="fa">شماره حساب حمل‌کننده قبض</value>
         <value xml:lang="it">Numero conto fatturazione/spedizione</value>
         <value xml:lang="ja">請求先発送元アカウント番号</value>
         <value xml:lang="vi">Số tài khoản công ty chuyển vận</value>
@@ -1508,6 +1705,7 @@
     </property>
     <property key="FacilityShipmentUpsConnectTimeout">
         <value xml:lang="en">Connect Timeout</value>
+        <value xml:lang="fa">انقضاء ارتباط</value>
         <value xml:lang="it">Timeout connessione a UPS</value>
         <value xml:lang="ja">接続タイムアウト</value>
         <value xml:lang="vi">Kết nối quá thời gian</value>
@@ -1515,6 +1713,7 @@
     </property>
     <property key="FacilityShipmentUpsConnectUrl">
         <value xml:lang="en">Conntect URL</value>
+        <value xml:lang="fa">URL ارتباط</value>
         <value xml:lang="it">URL connessione a UPS</value>
         <value xml:lang="ja">接続URL</value>
         <value xml:lang="vi">Liên kết kết nối</value>
@@ -1522,6 +1721,7 @@
     </property>
     <property key="FacilityShipmentUpsCodFundsCodeIsNotConfigured">
         <value xml:lang="en">CodFundsCode is not configured</value>
+        <value xml:lang="fa">«کد پرداخت» پیکربندی نشده‌است</value>
         <value xml:lang="it">CodFundsCode non è configurato</value>
         <value xml:lang="ja">CodFundsCodeが設定されていません</value>
         <value xml:lang="vi">CodFundsCode chưa được cấu hình</value>
@@ -1529,6 +1729,7 @@
     </property>
     <property key="FacilityShipmentUpsCurrencyDoesNotMatch">
         <value xml:lang="en">The Currency Unit of Measure returned ${currency1} is not the same as the original ${currency2}, setting to the new one.</value>
+        <value xml:lang="fa">واحد سنجش ارز بازگشتی ${currency1} با اولیه ${currency2} یکسان نیست، تنظیم با واحد جدید.</value>
         <value xml:lang="it">La valuta restituita ${currency1} non è la stessa dell'originale ${currency2}, impostarne un'altra.</value>
         <value xml:lang="ja">戻された通貨単位 ${currency1} が元の ${currency2} と同じではありません。新規設定を使用します。</value>
         <value xml:lang="vi">Đơn vị tiền tệ hoàn trả ${currency1} không giống như đơn vị tiền tệ nguồn ${currency2}, bạn hãy thiết lập giá trị khác.</value>
@@ -1536,6 +1737,7 @@
     </property>
     <property key="FacilityShipmentUpsCustomerClassification">
         <value xml:lang="en">Customer Classification</value>
+        <value xml:lang="fa">دسته‌بندی مشتری</value>
         <value xml:lang="it">Classificazione cliente</value>
         <value xml:lang="ja">顧客分類</value>
         <value xml:lang="vi">Độ hài lòng của khách hàng</value>
@@ -1543,6 +1745,7 @@
     </property>
     <property key="FacilityShipmentUpsCustomerClassificationOccasional">
         <value xml:lang="en">Occasional</value>
+        <value xml:lang="fa">گاه‌وبی‌گاه</value>
         <value xml:lang="it">Occasionale</value>
         <value xml:lang="ja">臨時</value>
         <value xml:lang="vi">Thỉnh thoảng</value>
@@ -1550,6 +1753,7 @@
     </property>
     <property key="FacilityShipmentUpsCustomerClassificationRetail">
         <value xml:lang="en">Retail</value>
+        <value xml:lang="fa">خرده‌فروش</value>
         <value xml:lang="it">Dettaglio</value>
         <value xml:lang="ja">小売</value>
         <value xml:lang="vi">Bán lẻ</value>
@@ -1557,6 +1761,7 @@
     </property>
     <property key="FacilityShipmentUpsCustomerClassificationWholesale">
         <value xml:lang="en">Wholesale</value>
+        <value xml:lang="fa">کلی‌فروش</value>
         <value xml:lang="it">Ingrosso</value>
         <value xml:lang="ja">卸売</value>
         <value xml:lang="vi">Bán buôn</value>
@@ -1564,6 +1769,7 @@
     </property>
     <property key="FacilityShipmentUpsDefaultReturnLabelMemo">
         <value xml:lang="en">Default Return Label Memo</value>
+        <value xml:lang="fa">حافظه برچسب بازگشت پیش‌فرض</value>
         <value xml:lang="it">Email e memo di default sull'etichetta del reso</value>
         <value xml:lang="ja">デフォルト返送ラベルメモ</value>
         <value xml:lang="vi">Nội dung ghi nhớ</value>
@@ -1571,6 +1777,7 @@
     </property>
     <property key="FacilityShipmentUpsDefaultReturnLabelSubject">
         <value xml:lang="en">Default Return Label Subject</value>
+        <value xml:lang="fa">موضوع برچسب بازگشت پیش‌فرض</value>
         <value xml:lang="it">Soggetto di default sull'etichetta del reso</value>
         <value xml:lang="ja">デフォルト返送ラベル件名</value>
         <value xml:lang="vi">Chủ đề</value>
@@ -1578,6 +1785,7 @@
     </property>
     <property key="FacilityShipmentUpsErrorStatusCode">
         <value xml:lang="en">Error status code: ${responseStatusCode}</value>
+        <value xml:lang="fa">خطا در کد وضعیت: ${responseStatusCode}</value>
         <value xml:lang="it">Errore codice di stato: ${responseStatusCode}</value>
         <value xml:lang="ja">エラーステータスコード: ${responseStatusCode}</value>
         <value xml:lang="vi">Mã trả về: ${responseStatusCode}</value>
@@ -1585,6 +1793,7 @@
     </property>
     <property key="FacilityShipmentUpsErrorWasAtElement">
         <value xml:lang="en">The error was at Element ${errorLocationElementName}</value>
+        <value xml:lang="fa">خطا در عنصر ${errorLocationElementName}</value>
         <value xml:lang="it">L'errore era nell'elemento ${errorLocationElementName}</value>
         <value xml:lang="ja">要素 ${errorLocationElementName} でエラー</value>
         <value xml:lang="vi">Lỗi xảy ra tại phần tử ${errorLocationElementName}</value>
@@ -1592,6 +1801,7 @@
     </property>
     <property key="FacilityShipmentUpsErrorWasAtElementAttribute">
         <value xml:lang="en"> in the attribute ${errorLocationAttributeName}</value>
+        <value xml:lang="fa">در متغییر ${errorLocationAttributeName}</value>
         <value xml:lang="it"> nell'attributo ${errorLocationAttributeName}</value>
         <value xml:lang="ja"> 属性 ${errorLocationAttributeName} で</value>
         <value xml:lang="vi"> trong thuộc tính ${errorLocationAttributeName}</value>
@@ -1599,6 +1809,7 @@
     </property>
     <property key="FacilityShipmentUpsErrorWasAtElementFullText">
         <value xml:lang="en"> full text: ${fullText}</value>
+        <value xml:lang="fa">متن کامل: ${fullText}</value>
         <value xml:lang="it"> testo completo: ${fullText}</value>
         <value xml:lang="ja"> 完全テキスト: ${fullText}</value>
         <value xml:lang="vi"> văn bản đầy đủ: ${fullText}</value>
@@ -1606,6 +1817,7 @@
     </property>
     <property key="FacilityShipmentUpsErrorMessage">
         <value xml:lang="en">An error occurred [code:${errorCode}] with severity ${errorSeverity}: ${errorDescription}</value>
+        <value xml:lang="fa">خطا [code:${errorCode}] با سختی ${errorSeverity} رخ‌داده‌است: ${errorDescription}</value>
         <value xml:lang="it">Un errore è successo [codice:${errorCode}] con severità ${errorSeverity}: ${errorDescription}</value>
         <value xml:lang="ja">評価 ${errorSeverity} でエラーが発生しました [code:${errorCode}] : ${errorDescription}</value>
         <value xml:lang="vi">Lỗi xảy ra [code:${errorCode}] với mức độ nghiêm trọng ${errorSeverity}: ${errorDescription}</value>
@@ -1613,6 +1825,7 @@
     </property>
     <property key="FacilityShipmentUpsErrorMessageMinimumRetrySeconds">
         <value xml:lang="en">; you should wait ${minimumRetrySeconds} seconds before retrying. </value>
+        <value xml:lang="fa">شما باید قبل از تکرار ${minimumRetrySeconds} ثانیه صبرکنید.</value>
         <value xml:lang="it">; devi aspettare ${minimumRetrySeconds} secondi prima di riprovare. </value>
         <value xml:lang="ja">; 再実行まで ${minimumRetrySeconds} 秒お待ちください。</value>
         <value xml:lang="vi">; bạn phải đợi  ${minimumRetrySeconds} giây trước khi thử lại.</value>
@@ -1620,6 +1833,7 @@
     </property>
     <property key="FacilityShipmentUpsFundsCode">
         <value xml:lang="en">Funds for Cash on Delivery</value>
+        <value xml:lang="fa">پرداخت برای وجه‌نقد در تحویل</value>
         <value xml:lang="it">Fondi per il pagamento in contanti alla consegna</value>
         <value xml:lang="ja">代金引換配送用資金</value>
         <value xml:lang="vi">Quỹ tiền mặt khi Nhận hàng</value>
@@ -1627,6 +1841,7 @@
     </property>
     <property key="FacilityShipmentUpsIncompleteConnectionURL">
         <value xml:lang="en">Incomplete connection URL; check your UPS configuration</value>
+        <value xml:lang="fa">URL ارتباط ناکامل؛ پیکربندی UPS خود را چک کنید</value>
         <value xml:lang="it">URL connessione incompleto; verificare la tua configurazione UPS</value>
         <value xml:lang="ja">接続URLが正しくありません。UPS設定を確認してください</value>
         <value xml:lang="vi">Liên kết kết nối không đầy đủ, bạn hãy kiểm tra lại cấu hình với UPS</value>
@@ -1634,6 +1849,7 @@
     </property>
     <property key="FacilityShipmentUpsServiceNameCannotBeNull">
         <value xml:lang="en">UPS service name cannot be null</value>
+        <value xml:lang="fa">نام سرویس UPS نمی‌تواند خالی باشد</value>
         <value xml:lang="it">Nome servizio UPS non può essere vuoto</value>
         <value xml:lang="ja">UPSサービス名は空にできません</value>
         <value xml:lang="vi">Tên dịch vụ UPS khôn được để trống</value>
@@ -1641,6 +1857,7 @@
     </property>
     <property key="FacilityShipmentUpsXmlMessageCannotBeNull">
         <value xml:lang="en">XML message cannot be null</value>
+        <value xml:lang="fa">پیام XML نمی‌تواند خالی باشد</value>
         <value xml:lang="it">Messaggio XML non può essere vuoto</value>
         <value xml:lang="ja">XMLメッセージは空にできません</value>
         <value xml:lang="vi">Bản tin định dạng XML không được để trống</value>
@@ -1648,6 +1865,7 @@
     </property>
      <property key="FacilityShipmentUpsCannotRateEstimatePostalCodeMissing">
         <value xml:lang="en">Cannot estimate UPS Rate because postal code is missing</value>
+        <value xml:lang="fa">نمی‌توان نرخ UPS را تخمین‌زد زیرا کد پستی فراموش‌شده‌است</value>
         <value xml:lang="it">Non è possibile stimare la spedizione con UPS perchè il CAP è mancante</value>
         <value xml:lang="ja">UPSレートを見積できません。郵便番号が正しくありません</value>
         <value xml:lang="vi">Không thể ước lượng tỷ lệ UPS vì mã bưu chính bị thiếu</value>
@@ -1655,6 +1873,7 @@
     </property>
     <property key="FacilityShipmentUpsURLConnectionProblem">
         <value xml:lang="en">URL Connection problem: ${exception}</value>
+        <value xml:lang="fa">مشکل ارتباط URL: ${exception}</value>
         <value xml:lang="it">Problema connessione URL: ${exception}</value>
         <value xml:lang="ja">URL接続でエラー: ${exception}</value>
         <value xml:lang="vi">Lỗi liên kết kết nối: ${exception}</value>
@@ -1662,6 +1881,7 @@
     </property>
     <property key="FacilityShipmentUpsReceivedNullResponse">
         <value xml:lang="en">Received a null response</value>
+        <value xml:lang="fa">پاسخی خالی دریافت‌شده‌است</value>
         <value xml:lang="it">Ricevuta una risposta nulla</value>
         <value xml:lang="ja">空のレスポンスを受け取りました</value>
         <value xml:lang="vi">Nhận được phản hồi rỗng</value>
@@ -1669,6 +1889,7 @@
     </property>
     <property key="FacilityShipmentUpsShipmentConfirmResposeWasReceived">
         <value xml:lang="en">A ShipmentConfirmRespose was received: ${shipmentConfirmResponseString}</value>
+        <value xml:lang="fa">«پاسخ پیکربندی حمل‌ونقل» دریافت‌شده‌است: ${shipmentConfirmResponseString}</value>
         <value xml:lang="it">Una risposta ShipmentConfirmRespose è stata ricevuta: ${shipmentConfirmResponseString}</value>
         <value xml:lang="ja">発送確認レスポンスを受け取りました: ${shipmentConfirmResponseString}</value>
         <value xml:lang="vi">'Phản hồi xác nhận chuyển vận' đã nhận được: ${shipmentConfirmResponseString}</value>
@@ -1676,6 +1897,7 @@
     </property>
     <property key="FacilityShipmentUpsErrorDataShipmentAlternateRate">
         <value xml:lang="en">Error reading or writing Shipment data for UPS Shipment Alternate Rates Inquiry: ${errorString}</value>
+        <value xml:lang="fa">خطا در خواندن یا نوشتن داده حمل‌ونقل برای استعلام نرخ جایگزین حمل‌ونقل UPS: ${errorString}</value>
         <value xml:lang="it">Errore leggendo o scrivendo i dati della spedizione stima spedizione alternativa UPS: ${errorString}</value>
         <value xml:lang="ja">UPS発送代替レート照会に対する発送データの読み書き中にエラー: ${errorString}</value>
         <value xml:lang="vi">Lỗi đọc hoặc ghi dữ liệu chuyển vận cho Yêu cầu tỷ lệ thay thế UPS: ${errorString}</value>
@@ -1683,6 +1905,7 @@
     </property>
     <property key="FacilityShipmentUpsErrorDataShipmentAccept">
         <value xml:lang="en">Error reading or writing Shipment data for UPS Shipment Accept: ${errorString}</value>
+        <value xml:lang="fa">خطا در خواندن یا نوشتن داده حمل‌ونقل برای پذیرش حمل‌ونقل UPS: ${errorString}</value>
         <value xml:lang="it">Errore leggendo o scrivendo i dati della spedizione all'accettazione spedizione UPS: ${errorString}</value>
         <value xml:lang="ja">UPS発送受付に対する発送データの読み書き中にエラー: ${errorString}</value>
         <value xml:lang="vi">Lỗi đọc hoặc ghi dữ liệu chuyển vận cho Đồng ý chuyển vận UPS: ${errorString}</value>
@@ -1690,6 +1913,7 @@
     </property>
     <property key="FacilityShipmentUpsErrorDataShipmentConfirm">
         <value xml:lang="en">Error reading or writing Shipment data for UPS Shipment Confirm: ${errorString}</value>
+        <value xml:lang="fa">خطا در خواندن یا نوشتن داده حمل‌ونقل برای تایید حمل‌ونقل UPS: ${errorString}</value>
         <value xml:lang="it">Errore leggendo o scrivendo i dati della spedizione alla conferma spedizione UPS: ${errorString}</value>
         <value xml:lang="ja">UPS発送確認に対する発送データの読み書き中にエラー: ${errorString}</value>
         <value xml:lang="vi">Lỗi đọc hoặc ghi dữ liệu chuyển vận cho Xác nhận chuyển vận UPS: ${errorString}</value>
@@ -1697,6 +1921,7 @@
     </property>
     <property key="FacilityShipmentUpsErrorDataShipmentTrack">
         <value xml:lang="en">Error reading or writing Shipment data for UPS Track Shipment: ${errorString}</value>
+        <value xml:lang="fa">خطا خواندن یا نوشتن داده حمل‌ونقل برای حمل‌ونقل پیگیری UPS: ${errorString}</value>
         <value xml:lang="it">Errore leggendo o scrivendo i dati della spedizione della Tracciatura Spedizione UPS: ${errorString}</value>
         <value xml:lang="ja">UPS追跡発送に対する発送データの読み書き中にエラー: ${errorString}</value>
         <value xml:lang="vi">Lỗi đọc hoặc ghi dữ liệu chuyển vận cho Theo dõi chuyển vận UPS: ${errorString}</value>
@@ -1704,6 +1929,7 @@
     </property>
     <property key="FacilityShipmentUpsErrorDataShipmentVoid">
         <value xml:lang="en">Error reading or writing Shipment data for UPS Void Shipment: ${errorString}</value>
+        <value xml:lang="fa">خطا خواندن یا نوشتن داده حمل‌ونقل برای حمل‌ونقل بی‌اعتبار UPS: ${errorString}</value>
         <value xml:lang="it">Errore leggendo o scrivendo i dati della spedizione alla Cancellazione Spedizione UPS: ${errorString}</value>
         <value xml:lang="ja">UPS無効発送に対する発送データの読み書き中にエラー: ${errorString}</value>
         <value xml:lang="vi">Lỗi đọc hoặc ghi dữ liệu chuyển vận cho Thủ tục chuyển vận UPS: ${errorString}</value>
@@ -1711,6 +1937,7 @@
     </property>
     <property key="FacilityShipmentUpsErrorMorePackageOnThisShipment">
         <value xml:lang="en">Error: There are more Packages on this Shipment than there were PackageResults returned from UPS</value>
+        <value xml:lang="fa">خطا: در این حمل‌ونقل بیشتر از «نتایج بسته» بسته موجود است</value>
         <value xml:lang="it">Errore: Ci sono più pacchi in questa spedizione di quelli che ci sono come PackageResults restituiti da UPS</value>
         <value xml:lang="ja">エラー: UPSから戻された梱包結果の他にもこの発送に梱包があります</value>
         <value xml:lang="vi">Lỗi xảy ra: Số Kiện hàng trong Chuyển vận này nhiều hơn kết quả kiện hàng trả về từ UPS</value>
@@ -1718,6 +1945,7 @@
     </property>
     <property key="FacilityShipmentUpsErrorMorePackageResultsWereReturned">
         <value xml:lang="en">Error: More PackageResults were returned than there are Packages on this Shipment; the TrackingNumber is ${trackingNumber}, the ServiceOptionsCharges were ${ServiceOptionsCharges}</value>
+        <value xml:lang="fa">خطا: بیشتر از بسته‌های این حمل‌ونقل در «نتایج بسته» بازگشته‌است: «شماره پیگیری» ${trackingNumber} است، «هزینه‌های گزینه سرویس» ${ServiceOptionsCharges} بود</value>
         <value xml:lang="it">Errore: Molti PackageResults sono stati restituiti più di quelli che ci sono nel pacco della spedizione; il TrackingNumber è ${trackingNumber}, il ServiceOptionsCharges era ${ServiceOptionsCharges}</value>
         <value xml:lang="ja">エラー: この発送の梱包の他に梱包結果が戻されました。追跡番号 ${trackingNumber}、サービスオプション手数料 ${ServiceOptionsCharges}</value>
         <value xml:lang="vi">Lỗi xảy ra: Số Kiện hàng kết quả được trả về nhiều hơn số kiện hàng trong Chuyển vận: Mã số theo dõi ${trackingNumber}, Chi phí dịch vụ ${ServiceOptionsCharges}</value>
@@ -1725,6 +1953,7 @@
     </property>
     <property key="FacilityShipmentUpsErrorNoPackageResultsWereReturned">
         <value xml:lang="en">Error: No PackageResults were returned  for the Package ${shipmentPackageSeqId}</value>
+        <value xml:lang="fa">خطا: هیچ «نتایج بسته‌»ای برای بسته ${shipmentPackageSeqId} باز نگشته‌است</value>
         <value xml:lang="it">Error: No PackageResults were returned  for the Package ${shipmentPackageSeqId}</value>
         <value xml:lang="ja">エラー: 梱包 ${shipmentPackageSeqId} に対して梱包結果が戻されませんでした</value>
         <value xml:lang="vi">Lỗi xảy ra: không có Kiện hàng được trả về kết quả với Kiện hàng ${shipmentPackageSeqId}</value>
@@ -1732,6 +1961,7 @@
     </property>
     <property key="FacilityShipmentUpsErrorParsingBillingWeight">
         <value xml:lang="en">Error parsing the billingWeight ${billingWeight}:  ${errorString}</value>
+        <value xml:lang="fa">خطا در تجزیه «وزن قبض» ${billingWeight}:  ${errorString}</value>
         <value xml:lang="it">Errore di parsing di billingWeight ${billingWeight}: ${errorString}</value>
         <value xml:lang="ja">請求重量 ${billingWeight} の解析中にエラー:  ${errorString}</value>
         <value xml:lang="vi">Lỗi khi phân tích trọng lượng ${billingWeight}: ${errorString}</value>
@@ -1739,6 +1969,7 @@
     </property>
     <property key="FacilityShipmentUpsErrorParsingAddressVerificationResponse">
         <value xml:lang="en">Error parsing the AddressVerificationResponse: ${errorString}</value>
+        <value xml:lang="fa">خطا در تجزیه «پاسخ تایید آدرس»: ${errorString}</value>
         <value xml:lang="it">Errore di parsing di AddressVerificationResponse: ${errorString}</value>
         <value xml:lang="ja">住所確認レスポンスの解析中にエラー:  ${errorString}</value>
         <value xml:lang="vi">Lỗi khi phân tích Phản hồi định dạng địa chỉ: ${errorString}</value>
@@ -1746,6 +1977,7 @@
     </property>
     <property key="FacilityShipmentUpsErrorParsingRatingServiceSelectionResponse">
         <value xml:lang="en">Error parsing the RatingServiceSelectionResponse: ${errorString}</value>
+        <value xml:lang="fa">خطا در تجزیه «پاسخ انتخاب سرویس نرخ‌گذاری»: ${errorString}</value>
         <value xml:lang="it">Errore di parsing di RatingServiceSelectionResponse: ${errorString}</value>
         <value xml:lang="ja">レーティングサービス選択レスポンスの解析中にエラー: ${errorString}</value>
         <value xml:lang="vi">Lỗi khi phân tích Phản hồi chọn tỷ lệ: ${errorString}</value>
@@ -1753,6 +1985,7 @@
     </property>
     <property key="FacilityShipmentUpsErrorParsingServiceOptionsMonetaryValue">
         <value xml:lang="en">Error parsing the serviceOptionsMonetaryValue ${serviceOptionsMonetaryValue}:  ${errorString}</value>
+        <value xml:lang="fa">خطا در تجزیه «مقدار پولی گزینه سرویس» ${serviceOptionsMonetaryValue}:  ${errorString}</value>
         <value xml:lang="it">Errore di parsing di serviceOptionsMonetaryValue ${serviceOptionsMonetaryValue}: ${errorString}</value>
         <value xml:lang="ja">サービスオプション金額 ${serviceOptionsMonetaryValue} の解析中にエラー:  ${errorString}</value>
         <value xml:lang="vi">Lỗi khi phân tích Giá trị tiền tệ tùy chọn dịch vụ (serviceOptionsMonetaryValue) ${serviceOptionsMonetaryValue}:  ${errorString}</value>
@@ -1760,6 +1993,7 @@
     </property>
     <property key="FacilityShipmentUpsErrorParsingShipmentAcceptResponse">
         <value xml:lang="en">Error parsing the ShipmentAcceptResponse: ${errorString}</value>
+        <value xml:lang="fa">خطا در تجزیه «پاسخ پذیرش حمل‌ونقل»: ${errorString}</value>
         <value xml:lang="it">Errore di parsing di ShipmentAcceptResponse: ${errorString}</value>
         <value xml:lang="ja">発送受付レスポンスの解析中にエラー: ${errorString}</value>
         <value xml:lang="vi">Lỗi khi phân tích ShipmentAcceptResponse: ${errorString}</value>
@@ -1767,6 +2001,7 @@
     </property>
     <property key="FacilityShipmentUpsErrorParsingShipmentConfirm">
         <value xml:lang="en">Error parsing the ShipmentConfirmResponse: ${errorString}</value>
+        <value xml:lang="fa">خطا در تجزیه «پاسخ تایید حمل‌ونقل»: ${errorString}</value>
         <value xml:lang="it">Errore di parsing di ShipmentConfirmResponse: ${errorString}</value>
         <value xml:lang="ja">発送確認レスポンスの解析中にエラー: ${errorString}</value>
         <value xml:lang="vi">Lỗi khi phân tích ShipmentConfirmResponse: ${errorString}</value>
@@ -1774,6 +2009,7 @@
     </property>
     <property key="FacilityShipmentUpsErrorParsingTrackResponse">
         <value xml:lang="en">Error parsing the TrackResponse: ${errorString}</value>
+        <value xml:lang="fa">خطا در تجزیه «پاسخ پیگیری»: ${errorString}</value>
         <value xml:lang="it">Errore di parsing di TrackResponse: ${errorString}</value>
         <value xml:lang="ja">追跡レスポンスの解析中にエラー: ${errorString}</value>
         <value xml:lang="vi">Lỗi khi phân tích TrackResponse: ${errorString}</value>
@@ -1781,6 +2017,7 @@
     </property>
     <property key="FacilityShipmentUpsErrorParsingTotalMonetaryValue">
         <value xml:lang="en">Error parsing the totalMonetaryValue ${totalMonetaryValue}:  ${errorString}</value>
+        <value xml:lang="fa">خطا در تجزیه «مقدار پولی محموع» ${totalMonetaryValue}:  ${errorString}</value>
         <value xml:lang="it">Errore di parsing di totalMonetaryValue ${totalMonetaryValue}: ${errorString}</value>
         <value xml:lang="ja">合計金額 ${totalMonetaryValue} の解析中にエラー: ${errorString}</value>
         <value xml:lang="vi">Lỗi khi phân tích totalMonetaryValue ${totalMonetaryValue}: ${errorString}</value>
@@ -1788,6 +2025,7 @@
     </property>
     <property key="FacilityShipmentUpsErrorParsingTransportationMonetaryValue">
         <value xml:lang="en">Error parsing the transportationMonetaryValue ${transportationMonetaryValue}:  ${errorString}</value>
+        <value xml:lang="fa">خطا در تجزیه «مقدار پولی جابجایی» ${transportationMonetaryValue}:  ${errorString}</value>
         <value xml:lang="it">Errore di parsing di transportationMonetaryValue ${transportationMonetaryValue}: ${errorString}</value>
         <value xml:lang="ja">配送料 ${transportationMonetaryValue} の解析中にエラー: ${errorString}</value>
         <value xml:lang="vi">Lỗi khi phân tích transportationMonetaryValue ${transportationMonetaryValue}:  ${errorString}</value>
@@ -1795,6 +2033,7 @@
     </property>
     <property key="FacilityShipmentUpsErrorParsingVoidShipmentResponse">
         <value xml:lang="en">Error parsing the VoidShipmentResponse: ${errorString}</value>
+        <value xml:lang="fa">خطا در تحویل «پاسخ حمل‌ونقل بی‌اعتبار»: ${errorString}</value>
         <value xml:lang="it">Errore di parsing di VoidShipmentResponse: ${errorString}</value>
         <value xml:lang="ja">無効発送レスポンスの解析中にエラー: ${errorString}</value>
         <value xml:lang="vi">Lỗi khi phân tích VoidShipmentResponse: ${errorString}</value>
@@ -1802,6 +2041,7 @@
     </property>
     <property key="FacilityShipmentUpsErrorSendingAddressVerification">
         <value xml:lang="en">Error sending UPS request Address Verification: ${errorString}</value>
+        <value xml:lang="fa">خطا در فرستادن رسیدگی آدرس درخواست UPS: ${errorString}</value>
         <value xml:lang="it">Errore durante l'invio a UPS di UPS Address Verification: ${errorString}</value>
         <value xml:lang="ja">UPSリクエスト住所確認の送信中にエラー: ${errorString}</value>
         <value xml:lang="vi">Lỗi khi phân tích ShipmentAcceptResponse:  ${errorString}</value>
@@ -1809,6 +2049,7 @@
     </property>
     <property key="FacilityShipmentUpsErrorSendingRate">
         <value xml:lang="en">Error sending UPS request for UPS Service Rate: ${errorString}</value>
+        <value xml:lang="fa">خطا در فرستادن درخواست UPS برای نرخ سرویس UPS: ${errorString}</value>
         <value xml:lang="it">Errore durante l'invio a UPS di UPS Service Rate: ${errorString}</value>
         <value xml:lang="ja">UPSサービスレートに対するUPSリクエストの送信中にエラー: ${errorString}</value>
         <value xml:lang="vi">Lỗi khi phân tích ShipmentAcceptResponse:  ${errorString}</value>
@@ -1816,6 +2057,7 @@
     </property>
     <property key="FacilityShipmentUpsErrorSendingShipAccept">
         <value xml:lang="en">Error sending UPS request for UPS Service ShipAccept: ${errorString}</value>
+        <value xml:lang="fa">خطا در فرستادن درخواست UPS برای «پذیرش حمل» سرویس UPS: ${errorString}</value>
         <value xml:lang="it">Errore durante l'invio a UPS di UPS Service ShipAccept: ${errorString}</value>
         <value xml:lang="ja">UPSサービス発送受付に対するUPSリクエストの送信中にエラー: ${errorString}</value>
         <value xml:lang="vi">Lỗi khi gửi yêu cầu UPS cho dịch vụ ShipAccept: ${errorString}</value>
@@ -1823,6 +2065,7 @@
     </property>
     <property key="FacilityShipmentUpsErrorSendingShipConfirm">
         <value xml:lang="en">Error sending UPS request for UPS Service ShipConfirm: ${errorString}</value>
+        <value xml:lang="fa">خطا در فرستادن درخواست UPS برای «تایید حمل» سرویس UPS: ${errorString}</value>
         <value xml:lang="it">Errore durante l'invio a UPS di UPS Service ShipConfirm: ${errorString}</value>
         <value xml:lang="ja">UPSサービス発送確認に対するUPSリクエストの送信中にエラー: ${errorString}</value>
         <value xml:lang="vi">Lỗi khi gửi yêu cầu UPS cho dịch vụ ShipConfirm: ${errorString}</value>
@@ -1830,6 +2073,7 @@
     </property>
     <property key="FacilityShipmentUpsErrorSendingTrack">
         <value xml:lang="en">Error sending UPS request for UPS Service Track: ${errorString}</value>
+        <value xml:lang="fa">خطا در فرستادن درخواست UPS برای پیگیری سرویس UPS: ${errorString}</value>
         <value xml:lang="it">Errore durante l'invio a UPS di UPS Service Track: ${errorString}</value>
         <value xml:lang="ja">UPSサービス追跡に対するUPSリクエストの送信中にエラー: ${errorString}</value>
         <value xml:lang="vi">Lỗi khi gửi yêu cầu UPS cho dịch vụ Track: ${errorString}</value>
@@ -1837,6 +2081,7 @@
     </property>
     <property key="FacilityShipmentUpsErrorSendingVoid">
         <value xml:lang="en">Error sending UPS request for UPS Service Void: ${errorString}</value>
+        <value xml:lang="fa">خطا در فرستادن درخواست UPS برای بی‌اعتباری سرویس UPS: ${errorString}</value>
         <value xml:lang="it">Errore durante l'invio a UPS di UPS Service Void: ${errorString}</value>
         <value xml:lang="ja">UPSサービス無効に対するUPSリクエストの送信中にエラー: ${errorString}</value>
         <value xml:lang="vi">Lỗi khi gửi yêu cầu UPS cho dịch vụ Void: ${errorString}</value>
@@ -1844,6 +2089,7 @@
     </property>
     <property key="FacilityShipmentUpsErrorAddressValidationRequestXmlToString">
         <value xml:lang="en">Error writing the AddressValidationRequest XML Document to a String: ${errorString}</value>
+        <value xml:lang="fa">خطا در نوشتن «درخواست اعتبار آدرس» سند XML به رشته: ${errorString}</value>
         <value xml:lang="it">Errore scrivendo il documento XML AddressValidationRequest in stringa: ${errorString}</value>
         <value xml:lang="ja">住所確認リクエストXML文書の文字列書き込み中にエラー: ${errorString}</value>
         <value xml:lang="vi">Lỗi khi ghi Tài liệu AddressValidationRequest XML thành dạng Xâu: ${errorString}</value>
@@ -1851,6 +2097,7 @@
     </property>
     <property key="FacilityShipmentUpsErrorRatingServiceSelectionRequestXmlToString">
         <value xml:lang="en">Error writing the RatingServiceSelectionRequest XML Document to a String: ${errorString}</value>
+        <value xml:lang="fa">خطا در نوشتن «درخواست انتخاب سرویس نرخ‌گذاری» سند XML به رشته: ${errorString}</value>
         <value xml:lang="it">Errore scrivendo il documento XML RatingServiceSelectionRequest in stringa: ${errorString}</value>
         <value xml:lang="ja">レートサービス選択リクエストXML文書の文字列書き込み中にエラー: ${errorString}</value>
         <value xml:lang="vi">Lỗi khi ghi Tài liệu RatingServiceSelectionRequest XML thành dạng Xâu: ${errorString}</value>
@@ -1858,6 +2105,7 @@
     </property>
     <property key="FacilityShipmentUpsErrorShipmentAcceptRequestXmlToString">
         <value xml:lang="en">Error writing the ShipmentAcceptRequest XML Document to a String: ${errorString}</value>
+        <value xml:lang="fa">خطا در نوشتن «درخواست پذیرش حمل‌ونقل» سند XML به رشته: ${errorString}</value>
         <value xml:lang="it">Errore scrivendo il documento XML ShipmentAcceptRequest in stringa: ${errorString}</value>
         <value xml:lang="ja">発送受付リクエストXML文書の文字列書き込み中にエラー: ${errorString}</value>
         <value xml:lang="vi">Lỗi khi ghi Tài liệu ShipmentAcceptRequest XML thành dạng Xâu: ${errorString}</value>
@@ -1865,6 +2113,7 @@
     </property>
     <property key="FacilityShipmentUpsErrorShipmentConfirmRequestXmlToString">
         <value xml:lang="en">Error writing the ShipmentConfirmRequest XML Document to a String: ${errorString}</value>
+        <value xml:lang="fa">خطا در نوشتن «درخواست تایید حمل‌ونقل» سند XML به رشته: ${errorString}</value>
         <value xml:lang="it">Errore scrivendo il documento XML ShipmentConfirmRequest in stringa: ${errorString}</value>
         <value xml:lang="ja">発送確認リクエストXML文書の文字列書き込み中にエラー: ${errorString}</value>
         <value xml:lang="vi">Lỗi khi ghi Tài liệu ShipmentConfirmRequest XML thành dạng Xâu: ${errorString}</value>
@@ -1872,6 +2121,7 @@
     </property>
     <property key="FacilityShipmentUpsErrorTrackRequestXmlToString">
         <value xml:lang="en">Error writing the TrackRequest XML Document to a String: ${errorString}</value>
+        <value xml:lang="fa">خطا در نوشتن «درخواست پیگری» سند XML به رشته: ${errorString}</value>
         <value xml:lang="it">Errore scrivendo il documento XML TrackRequest in stringa: ${errorString}</value>
         <value xml:lang="ja">追跡リクエストXML文書の文字列書き込み中にエラー: ${errorString}</value>
         <value xml:lang="vi">Lỗi khi ghi Tài liệu TrackRequest XML thành dạng Xâu: ${errorString}</value>
@@ -1879,6 +2129,7 @@
     </property>
     <property key="FacilityShipmentUpsErrorAccessRequestXmlToString">
         <value xml:lang="en">Error writing the AccessRequest XML Document to a String: ${errorString}</value>
+        <value xml:lang="fa">خطا در نوشتن «درخواست دسترسی» سند XML به رشته: ${errorString}</value>
         <value xml:lang="it">Errore scrivendo il documento XML AccessRequest in stringa: ${errorString}</value>
         <value xml:lang="ja">アクセスリクエストXML文書の文字列書き込み中にエラー: ${errorString}</value>
         <value xml:lang="vi">Lỗi khi ghi Tài liệu AccessRequest XML thành dạng Xâu: ${errorString}</value>
@@ -1886,6 +2137,7 @@
     </property>
     <property key="FacilityShipmentUpsErrorVoidShipmentRequestXmlToString">
         <value xml:lang="en">Error writing the VoidShipmentRequest XML Document to a String: ${errorString}</value>
+        <value xml:lang="fa">خطا در نوشتن «درخواست حمل‌ونقل بی‌اعتبار» سند XML به رشته: ${errorString}</value>
         <value xml:lang="it">Errore scrivendo il documento XML VoidShipmentRequest in stringa: ${errorString}</value>
         <value xml:lang="ja">無効発送リクエストXML文書の文字列書き込み中にエラー: ${errorString}</value>
         <value xml:lang="vi">Lỗi khi ghi Tài liệu VoidShipmentRequest XML thành dạng Xâu: ${errorString}</value>
@@ -1893,6 +2145,7 @@
     </property>
     <property key="FacilityShipmentUpsAddressValidationRequireCityOrPostalCode">
         <value xml:lang="en">Address Validation requires either a city or postalCode</value>
+        <value xml:lang="fa">تاییداعتبار آدرس لازم است چه برای شهر چه برای کدپستی</value>
         <value xml:lang="it">Validazione dell'indirizzo richiede entrambi città o CAP</value>
         <value xml:lang="ja">住所確認には市区町村または郵便番号が必要です</value>
         <value xml:lang="vi">Kiểm tra định dạng địa chỉ áp dụng cho hoặc Thành phố hoặc Mã bưu chính</value>
@@ -1900,6 +2153,7 @@
     </property>
     <property key="FacilityShipmentUpsGatewayNotAvailable">
         <value xml:lang="en">UPS Shipment Gateway Configuration is not available</value>
+        <value xml:lang="fa">پیکربندی دروازه حمل‌ونقل UPS موجود نیست</value>
         <value xml:lang="it">Configurazione gateway spedizioni UPS non è disponibile</value>
         <value xml:lang="ja">UPS発送ゲートウェイ設定が正しくありません</value>
         <value xml:lang="vi">Cổng giao hàng UPS không sẵn sàng</value>
@@ -1907,6 +2161,7 @@
     </property>
     <property key="FacilityShipmentUpsMaxEstimateWeight">
         <value xml:lang="en">Max weight per package</value>
+        <value xml:lang="fa">بیشترین وزن برای هر بسته</value>
         <value xml:lang="it">Peso massimo per pacco</value>
         <value xml:lang="ja">梱包あたり最大重量</value>
         <value xml:lang="vi">Trọng lượng tối đa với mỗi Kiện hàng</value>
@@ -1914,6 +2169,7 @@
     </property>
     <property key="FacilityShipmentUpsMinEstimateWeight">
         <value xml:lang="en">Minimum weight for a package</value>
+        <value xml:lang="fa">کمترین وزن برای هر بسته</value>
         <value xml:lang="it">Peso minimo per un pacco</value>
         <value xml:lang="ja">梱包あたり最低重量</value>
         <value xml:lang="vi">Trọng lượng tối thiểu với mỗi Kiện hàng</value>
@@ -1921,6 +2177,7 @@
     </property>
     <property key="FacilityShipmentUpsNotRouteSegmentCarrier">
         <value xml:lang="en">ERROR: The Carrier for ShipmentRouteSegment ${shipmentRouteSegmentId} of Shipment ${shipmentId}, is not UPS.</value>
+        <value xml:lang="fa">خطا: جابجاکننده برای «بخش راه حمل‌ونقل» ${shipmentRouteSegmentId} از حمل‌ونقل ${shipmentId}، UPS نیست.</value>
         <value xml:lang="it">ERRORE: il corriere sul percorso spedizione ${shipmentRouteSegmentId} della spedizione ${shipmentId}, non è UPS.</value>
         <value xml:lang="ja">エラー: 発送 ${shipmentId} の発送経路セグメント ${shipmentRouteSegmentId} に対する運送業者はUPSではありません。</value>
         <value xml:lang="vi">Lỗi xảy ra: Hãng chuyển vận cho Chặng chuyển vận ${shipmentRouteSegmentId} của Chuyển vận ${shipmentId}, không phải là UPS.</value>
@@ -1928,6 +2185,7 @@
     </property>
     <property key="FacilityShipmentUpsPickupAirServiceCenter">
         <value xml:lang="en">Air Service Center</value>
+        <value xml:lang="fa">مرکز سرویس هوایی</value>
         <value xml:lang="it">Prelievo per centro servizio aereo</value>
         <value xml:lang="ja">航空サービスセンタ</value>
         <value xml:lang="vi">Trung tâm dịch vụ Hàng không</value>
@@ -1935,6 +2193,7 @@
     </property>
     <property key="FacilityShipmentUpsPickupCustomerCounter">
         <value xml:lang="en">Customer Counter</value>
+        <value xml:lang="fa">شمارشگر مشتری</value>
         <value xml:lang="it">Bancone del cliente</value>
         <value xml:lang="ja">顧客カウンタ</value>
         <value xml:lang="vi">Thống kê khách hàng</value>
@@ -1942,6 +2201,7 @@
     </property>
     <property key="FacilityShipmentUpsPickupDaily">
         <value xml:lang="en">Daily Pickup</value>
+        <value xml:lang="fa">انتخاب روزانه</value>
         <value xml:lang="it">Prelievo giornaliero</value>
         <value xml:lang="ja">日次集荷</value>
         <value xml:lang="vi">Xử lý đặt hàng (Pick) theo ngày</value>
@@ -1949,6 +2209,7 @@
     </property>
     <property key="FacilityShipmentUpsPickupLetterCenter">
         <value xml:lang="en">Letter Center</value>
+        <value xml:lang="fa">مرکز نامه</value>
         <value xml:lang="it">Centro di prelievo</value>
         <value xml:lang="ja">レターセンタ</value>
         <value xml:lang="vi">Trung tâm thư tín</value>
@@ -1956,6 +2217,7 @@
     </property>
     <property key="FacilityShipmentUpsPickupOnCallAir">
         <value xml:lang="en">On Call Air Pickup</value>
+        <value xml:lang="fa">در زمان فراخوانی انتخاب هوایی</value>
         <value xml:lang="it">Prelievo aereo a chiamata</value>
         <value xml:lang="ja">連絡時航空集荷</value>
         <value xml:lang="vi">Xử lý đặt hàng (Pick) nhanh bằng gọi trực tiếp</value>
@@ -1963,6 +2225,7 @@
     </property>
     <property key="FacilityShipmentUpsPickupOneTime">
         <value xml:lang="en">One Time Pickup</value>
+        <value xml:lang="fa">در زمان انتخاب</value>
         <value xml:lang="it">Prelievo in una volta</value>
         <value xml:lang="ja">一時集荷</value>
         <value xml:lang="vi">Xử lý đặt hàng (Pick) một lần</value>
@@ -1970,6 +2233,7 @@
     </property>
     <property key="FacilityShipmentUpsPickupSuggestedRetailRates">
         <value xml:lang="en">Suggested Retail Rates</value>
+        <value xml:lang="fa">نرخ جزئی فروش پیشنهادی</value>
         <value xml:lang="it">Costo suggerito al dettaglio</value>
         <value xml:lang="ja">提案小売レート</value>
         <value xml:lang="vi">Tỷ lệ bán lẻ gợi ý</value>
@@ -1977,6 +2241,7 @@
     </property>
     <property key="FacilityShipmentUpsShipmentAlternateRatesInquiryResponse">
         <value xml:lang="en">A ShipmentAlternateRatesInquiryResponse was received: ${rateResponseString}</value>
+        <value xml:lang="fa">«پاسخ استعلام نرخ جایگزین حمل‌ونقل» دریافت‌شده‌است: ${rateResponseString}</value>
         <value xml:lang="it">Una ShipmentAlternateRatesInquiryResponse è stata ricevuta: ${rateResponseString}</value>
         <value xml:lang="ja">発送代替レート照会レスポンスを受け取りました: ${rateResponseString}</value>
         <value xml:lang="vi">ShipmentAlternateRatesInquiryResponse đã nhận: ${rateResponseString}</value>
@@ -1984,6 +2249,7 @@
     </property>
     <property key="FacilityShipmentUpsRouteSegmentStatusNotConfirmed">
         <value xml:lang="en">ERROR: The Carrier Service Status for ShipmentRouteSegment ${shipmentRouteSegmentId} of Shipment ${shipmentId}, is ${shipmentRouteSegmentStatus}, but must be not-set or [SHRSCS_CONFIRMED] to perform the UPS Shipment Accept operation.</value>
+        <value xml:lang="fa">خطا: وضعیت سرویس جابجاکننده برای «بخش راه حمل‌ونقل» ${shipmentRouteSegmentId} از حمل‌ونقل ${shipmentId}، ${shipmentRouteSegmentStatus} است، ولی باید یا not-set و یا  [SHRSCS_CONFIRMED] باشد تا نشان‌دهنده عملیات پذیریش حمل‌ونقل UPS باشد.</value>
         <value xml:lang="it">ERRORE: lo stato corriere per percorso spedizione ${shipmentRouteSegmentId} della spedizione ${shipmentId}, è ${shipmentRouteSegmentStatus}, ma deve non essere impostato o [SHRSCS_CONFIRMED] per eseguire l'operazione di Accettazione Spedizione UPS.</value>
         <value xml:lang="ja">エラー: 発送 ${shipmentId} の発送経路セグメント ${shipmentRouteSegmentId} に対する運送業者サービスステータスは ${shipmentRouteSegmentStatus} ですが、UPS発送受付操作を実行するには設定しないか [SHRSCS_CONFIRMED] にする必要があます。</value>
         <value xml:lang="vi">Lỗi xảy ra: Trạng thái dịch vụ nhà chuyển vận cho Chặng chuyển ${shipmentRouteSegmentId} của Chuyển vận ${shipmentId} nhưng chưa được thiết lập hoặc [SHRSCS_CONFIRMED] để thực hiện thủ tục Chấp nhận chuyển vận UPS</value>
@@ -1991,30 +2257,35 @@
     </property>
     <property key="FacilityShipmentUpsRouteSegmentStatusMustBeConfirmedOrAccepted">
         <value xml:lang="en">ERROR: The Carrier Service Status for ShipmentRouteSegment ${shipmentRouteSegmentId} of Shipment ${shipmentId}, is ${shipmentRouteSegmentStatus}, but must be [SHRSCS_CONFIRMED] or [SHRSCS_ACCEPTED] to perform the UPS Void Shipment operation.</value>
+        <value xml:lang="fa">خطا: وضعیت سرویس جابجاکننده برای «بخش راه حمل‌ونقل» ${shipmentRouteSegmentId} از حمل‌ونقل ${shipmentId}، ${shipmentRouteSegmentStatus} است، ولی باید یا [SHRSCS_ACCEPTED] و یا  [SHRSCS_CONFIRMED] باشد تا نشان‌دهنده عملیات حمل‌ونقل بی‌اعتبار UPS باشد.</value>
         <value xml:lang="it">ERRORE: lo stato corriere per percorso spedizione ${shipmentRouteSegmentId} della spedizione ${shipmentId}, è ${shipmentRouteSegmentStatus}, ma deve essere impostato [SHRSCS_CONFIRMED] or [SHRSCS_ACCEPTED] per eseguire l'operazione di Cancellazione Spedizione UPS.</value>
         <value xml:lang="ja">エラー: 発送 ${shipmentId} の発送経路セグメント ${shipmentRouteSegmentId} に対する運送業者サービスステータスは ${shipmentRouteSegmentStatus} ですが、UPS無効発送操作を実行するには [SHRSCS_CONFIRMED] または [SHRSCS_ACCEPTED] にする必要があます。</value>
         <value xml:lang="zh">错误：承运人服务状态是 ${shipmentRouteSegmentStatus}，要执行联合包裹取消送货操作，状态必须是 [SHRSCS_CONFIRMED] 或 [SHRSCS_ACCEPTED]，其中，送货路径分区 ${shipmentRouteSegmentId}、送货 ${shipmentId}。</value>
     </property>
     <property key="FacilityShipmentUpsRouteSegmentStatusNotAccepted">
         <value xml:lang="en">ERROR: The Carrier Service Status for ShipmentRouteSegment ${shipmentRouteSegmentId} of Shipment ${shipmentId}, is ${shipmentRouteSegmentStatus}, but must be not-set or [SHRSCS_ACCEPTED] to perform the UPS Shipment Confirm operation.</value>
+        <value xml:lang="fa">خطا: وضعیت سرویس جابجاکننده برای «بخش راه حمل‌ونقل» ${shipmentRouteSegmentId} از حمل‌ونقل ${shipmentId}، ${shipmentRouteSegmentStatus} است، ولی باید یا not-set و یا  [SHRSCS_ACCEPTED] باشد تا نشان‌دهنده عملیات تایید حمل‌ونقل UPS باشد.</value>
         <value xml:lang="it">ERRORE: lo stato corriere per percorso spedizione ${shipmentRouteSegmentId} della spedizione ${shipmentId}, è ${shipmentRouteSegmentStatus}, ma deve non essere impostato o [SHRSCS_ACCEPTED] per eseguire l'operazione di Conferma Spedizione UPS.</value>
         <value xml:lang="ja">エラー: 発送 ${shipmentId} の発送経路セグメント ${shipmentRouteSegmentId} に対する運送業者サービスステータスは ${shipmentRouteSegmentStatus} ですが、UPS発送確認操作を実行するには設定しないか [SHRSCS_ACCEPTED] にする必要があます。</value>
         <value xml:lang="zh">错误：承运人服务状态是 ${shipmentRouteSegmentStatus}，要执行联合包裹送货确认操作，必须是不设置状态或者状态是[SHRSCS_ACCEPTED]，其中，送货路径分区 ${shipmentRouteSegmentId}、送货 ${shipmentId}。</value>
     </property>
     <property key="FacilityShipmentUpsRouteSegmentStatusNotStarted">
         <value xml:lang="en">ERROR: The Carrier Service Status for ShipmentRouteSegment ${shipmentRouteSegmentId} of Shipment ${shipmentId}, is ${shipmentRouteSegmentStatus}, but must be not-set or [SHRSCS_NOT_STARTED] to perform the UPS Shipment Confirm operation.</value>
+        <value xml:lang="fa">خطا: وضعیت سرویس جابجاکننده برای «بخش راه حمل‌ونقل» ${shipmentRouteSegmentId} از حمل‌ونقل ${shipmentId}، ${shipmentRouteSegmentStatus} است، ولی باید یا not-set و یا  [SHRSCS_NOT_STARTED] باشد تا نشان‌دهنده عملیات تایید حمل‌ونقل UPS باشد.</value>
         <value xml:lang="it">ERRORE: lo stato corriere per percorso spedizione ${shipmentRouteSegmentId} della spedizione ${shipmentId}, è ${shipmentRouteSegmentStatus}, ma deve non essere impostato o [SHRSCS_NOT_STARTED] per eseguire l'operazione di Conferma Spedizione UPS.</value>
         <value xml:lang="ja">エラー: 発送 ${shipmentId} の発送経路セグメント ${shipmentRouteSegmentId} に対する運送業者サービスステータスは ${shipmentRouteSegmentStatus} ですが、UPS発送確認操作を実行するには設定しないか [SHRSCS_NOT_STARTED] にする必要があます。</value>
         <value xml:lang="zh">错误：承运人服务状态是 ${shipmentRouteSegmentStatus}，要执行联合包裹送货确认操作，必须是不设置状态或者状态是[SHRSCS_NOT_STARTED]，其中，送货路径分区 ${shipmentRouteSegmentId}、送货 ${shipmentId}。</value>
     </property>
     <property key="FacilityShipmentUpsRouteSegmentCarrierShipmentMethodNotFound">
         <value xml:lang="en">CarrierShipmentMethod not found for ShipmentRouteSegment with shipmentId ${shipmentId} and shipmentRouteSegmentId ${shipmentRouteSegmentId}; partyId is ${carrierPartyId} and shipmentMethodTypeId is ${shipmentMethodTypeId};</value>
+        <value xml:lang="fa">«روش حمل‌ونقل جابجاکننده» برای «بخش راه حمل‌ونقل» با «آی‌دی حمل‌ونقل» ${shipmentId}  و «آی‌دی بخش راه حمل‌ونقل» ${shipmentRouteSegmentId} پیدانشد؛ «آی‌دی هم‌مشرب» ${carrierPartyId} و «آی‌دی نوع روش حمل‌ونقل» ${shipmentMethodTypeId} است؛</value>
         <value xml:lang="it">Metodo di spedizione corriere non trovato per la spedizione ${shipmentId} e percorso spedizione ${shipmentRouteSegmentId}; il soggetto è ${carrierPartyId} e il metodo di spedizione è ${shipmentMethodTypeId};</value>
         <value xml:lang="ja">発送ID ${shipmentId} 発送経路セグメントID ${shipmentRouteSegmentId} の発送経路セグメントに対する運送業者発送方法が見つかりません。取引先ID ${carrierPartyId} および発送方法種類ID ${shipmentMethodTypeId}</value>
         <value xml:lang="zh">没有为送货路径分区找到承运人送货方法，其中送货标识 ${shipmentId}、送货路径分区标识 ${shipmentRouteSegmentId}、会员标识 ${carrierPartyId}、送货方法类型标识 ${shipmentMethodTypeId}；</value>
     </property>
     <property key="FacilityShipmentUpsRouteSegmentThirdPartyCountryNotFound">
         <value xml:lang="en">Third-party country not found for ShipmentRouteSegment with shipmentId ${shipmentId} and shipmentRouteSegmentId ${shipmentRouteSegmentId}</value>
+        <value xml:lang="fa">کشور شخص‌ثالث برای «بخش راه حمل‌ونقل» با «آی‌دی حمل‌ونقل» ${shipmentId} و «آی‌دی بخش راه حمل‌ونقل» ${shipmentRouteSegmentId} پیدانشد</value>
         <value xml:lang="it">Paese soggetto terzo non trovato per la spedizione ${shipmentId} e percorso spedizione ${shipmentRouteSegmentId}</value>
         <value xml:lang="ja">発送ID ${shipmentId} 発送経路セグメントID ${shipmentRouteSegmentId} の発送経路セグメントに対するサードパーティ国が見つかりません。</value>
         <value xml:lang="vi">Quốc gia thứ ba không tìm thấy cho Chặng chuyển với Chuyển vận ${shipmentId} và Chặng chuyển vận ${shipmentRouteSegmentId}</value>
@@ -2022,6 +2293,7 @@
     </property>
     <property key="FacilityShipmentUpsRouteSegmentThirdPartyPostalCodeNotFound">
         <value xml:lang="en">Third-party postal code not found for ShipmentRouteSegment with shipmentId ${shipmentId} and shipmentRouteSegmentId ${shipmentRouteSegmentId}</value>
+        <value xml:lang="fa">کد پستی برای «بخش راه حمل‌ونقل» با «آی‌دی حمل‌ونقل» ${shipmentId} و «آی‌دی بخش راه حمل‌ونقل» ${shipmentRouteSegmentId} پیدانشد</value>
         <value xml:lang="it">CAP soggetto terzo non trovato per la spedizione ${shipmentId} e percorso spedizione ${shipmentRouteSegmentId}</value>
         <value xml:lang="ja">発送ID ${shipmentId} 発送経路セグメントID ${shipmentRouteSegmentId} の発送経路セグメントに対するサードパーティ郵便番号が見つかりません。</value>
         <value xml:lang="vi">Mã bưu chính bên thứ ba không tìm thấy cho Chặng chuyển với Chuyển vận ${shipmentId} và Chặng chuyển vận ${shipmentRouteSegmentId}</value>
@@ -2029,6 +2301,7 @@
     </property>
     <property key="FacilityShipmentUpsSaveCertInfo">
         <value xml:lang="en">Save Cert Info</value>
+        <value xml:lang="fa">اطلاعات گواهی ذخیره‌شد</value>
         <value xml:lang="it">Salva informazioni certificato</value>
         <value xml:lang="ja">保存証明書情報</value>
         <value xml:lang="vi">Lưu thông tin chứng nhận (certificate)</value>
@@ -2036,6 +2309,7 @@
     </property>
     <property key="FacilityShipmentUpsSaveCertPath">
         <value xml:lang="en">Save Cert Path</value>
+        <value xml:lang="fa">مسیر گواهی ذخیره‌شد</value>
         <value xml:lang="it">Path certificato</value>
         <value xml:lang="ja">保存証明書パス</value>
         <value xml:lang="vi">Đường dẫn lưu thông tin chứng nhận</value>
@@ -2043,6 +2317,7 @@
     </property>
     <property key="FacilityShipmentUpsSecuredFundsOnly">
         <value xml:lang="en">Secured Funds Only</value>
+        <value xml:lang="fa">فقط پرداخت امن‌شده</value>
         <value xml:lang="it">Solo fondi sicuri</value>
         <value xml:lang="ja">安全な資金のみ</value>
         <value xml:lang="vi">Chỉ bảo mật thông tin Quỹ</value>
@@ -2050,6 +2325,7 @@
     </property>
     <property key="FacilityShipmentUpsShipmentAcceptError">
         <value xml:lang="en">, but the following occurred: </value>
+        <value xml:lang="fa">، ولی پیشرو رخ‌داده‌است:</value>
         <value xml:lang="it">, ma i seguenti errori sono accaduti: </value>
         <value xml:lang="ja">、が次が発生しました: </value>
         <value xml:lang="vi">, nhưng đã có lỗi sau xảy ra: </value>
@@ -2057,6 +2333,7 @@
     </property>
     <property key="FacilityShipmentUpsShipmentAcceptFailed">
         <value xml:lang="en">The UPS ShipmentAccept failed</value>
+        <value xml:lang="fa">شکست در «پذیرش حمل‌ونقل» UPS</value>
         <value xml:lang="it">La richiesta ad UPS ShipmentAccept è fallita</value>
         <value xml:lang="ja">UPS発送受付が失敗しました</value>
         <value xml:lang="vi">ShipmentAccept từ UPS không thành công</value>
@@ -2064,6 +2341,7 @@
     </property>
     <property key="FacilityShipmentUpsShipmentAcceptSucceeded">
         <value xml:lang="en">The UPS ShipmentAccept succeeded</value>
+        <value xml:lang="fa">موفقیت «پذیرش حمل‌ونقل» UPS</value>
         <value xml:lang="it">La richiesta ad UPS ShipmentAccept ha avuto successo</value>
         <value xml:lang="ja">UPS発送受付が成功しました</value>
         <value xml:lang="vi">UPS ShipmentAccept thành công</value>
@@ -2071,6 +2349,7 @@
     </property>
     <property key="FacilityShipmentUpsShipmentConfirmError">
         <value xml:lang="en">, but the following occurred: </value>
+        <value xml:lang="fa">، ولی پیشرو رخ‌داده‌است:</value>
         <value xml:lang="it">, ma i seguenti errori sono accaduti: </value>
         <value xml:lang="ja">が、次が発生しました: </value>
         <value xml:lang="vi">, nhưng đã có lỗi sau xảy ra: </value>
@@ -2078,6 +2357,7 @@
     </property>
     <property key="FacilityShipmentUpsShipmentConfirmFailedForReturnShippingLabel">
         <value xml:lang="en">The UPS ShipmentConfirm failed so not sending email for return shipping label</value>
+        <value xml:lang="fa">شکست «تایید حمل‌ونقل» بنابراین برای بازگشت برچسب حمل ایمیلی فرستاده‌نشد</value>
         <value xml:lang="it">La richiesta ShipmentConfirm UPS è fallita così non inviare e-mail per l'etichetta reso spedizione</value>
         <value xml:lang="ja">UPS配送確認が失敗しました。返品配送ラベルのEメールを送信しません</value>
         <value xml:lang="vi">UPS ShipmentConfirm không thành công nên hệ thống không gửi thư điện tử thông báo thông tin Nhãn vận chuyển</value>
@@ -2085,54 +2365,63 @@
     </property>
     <property key="FacilityShipmentUpsShipmentConfirmFailed">
         <value xml:lang="en">The UPS ShipmentConfirm failed</value>
+        <value xml:lang="fa">شکست «تایید حمل‌ونقل» UPS</value>
         <value xml:lang="it">La richiesta ad UPS ShipmentConfirm è fallita</value>
         <value xml:lang="ja">UPS発送確認が失敗しました</value>
         <value xml:lang="zh">联合包裹（UPS）送货确认失败</value>
     </property>
     <property key="FacilityShipmentUpsShipmentConfirmSucceeded">
         <value xml:lang="en">The UPS ShipmentConfirm succeeded</value>
+        <value xml:lang="fa">موفقیت «تایید حمل‌ونقل» UPS</value>
         <value xml:lang="it">La richiesta ad UPS ShipmentConfirm ha avuto successo</value>
         <value xml:lang="ja">UPS発送確認が成功しました</value>
         <value xml:lang="zh">联合包裹（UPS）送货确认成功</value>
     </property>
     <property key="FacilityShipmentUpsShipmentTrackError">
         <value xml:lang="en">, but the following occurred: </value>
+        <value xml:lang="fa">، ولی پیشرو اتفاق افتاده‌است:</value>
         <value xml:lang="it">, ma i seguenti errori sono accaduti: </value>
         <value xml:lang="ja">が、次が発生しました: </value>
         <value xml:lang="zh">，但是发生了下列情况：</value>
     </property>
     <property key="FacilityShipmentUpsShipmentTrackFailed">
         <value xml:lang="en">The UPS TrackShipment failed</value>
+        <value xml:lang="fa">شکست «حمل‌ونقل پیگیری» UPS</value>
         <value xml:lang="it">La tracciatura spedizione UPS è fallita</value>
         <value xml:lang="ja">UPS発送追跡が失敗しました</value>
         <value xml:lang="zh">联合包裹（UPS）跟踪送货失败</value>
     </property>
     <property key="FacilityShipmentUpsShipmentTrackSucceeded">
         <value xml:lang="en">The UPS TrackShipment succeeded</value>
+        <value xml:lang="fa">موفقیت «حمل‌ونقل پیگیری» UPS</value>
         <value xml:lang="it">La tracciatura spedizione UPS ha avuto successo</value>
         <value xml:lang="ja">UPS発送追跡が成功しました</value>
         <value xml:lang="zh">联合包裹（UPS）跟踪送货成功</value>
     </property>
     <property key="FacilityShipmentUpsShipmentVoidError">
         <value xml:lang="en">, but the following occurred: </value>
+        <value xml:lang="fa">، ولی پیشرو اتفاق افتاده‌است:</value>
         <value xml:lang="it">, ma i seguenti errori sono accaduti: </value>
         <value xml:lang="ja">が、次が発生しました: </value>
         <value xml:lang="zh">，但是发生了下列情况：</value>
     </property>
     <property key="FacilityShipmentUpsShipmentVoidFailed">
         <value xml:lang="en">The UPS ShipmentConfirm failed; the StatusType is: ${statusTypeCode} : ${statusTypeDescription}, the StatusCode is: ${statusCodeCode} ${statusCodeDescription}</value>
+        <value xml:lang="fa">شکست «تایید حمل‌ونقل» UPS؛ نوع وضعیت ${statusTypeCode} : ${statusTypeDescription} است، کد وضعیت ${statusCodeCode} ${statusCodeDescription} است</value>
         <value xml:lang="it">La cancellazione spedizione UPS è fallita; lo stato è: ${statusTypeCode} : ${statusTypeDescription}, il codice stato è: ${statusCodeCode} ${statusCodeDescription}</value>
         <value xml:lang="ja">UPS発送確認が失敗しました。ステータス種類: ${statusTypeCode} : ${statusTypeDescription}, ステータスコード: ${statusCodeCode} ${statusCodeDescription}</value>
         <value xml:lang="zh">联合包裹（UPS）送货确认失败；状态类型是：${statusTypeCode} ：${statusTypeDescription}，状态代码是 ${statusCodeCode} ${statusCodeDescription}</value>
     </property>
     <property key="FacilityShipmentUpsShipmentVoidSucceeded">
         <value xml:lang="en">The UPS VoidShipment succeeded; the StatusType is: ${statusTypeCode} : ${statusTypeDescription}, the StatusCode is: ${statusCodeCode} ${statusCodeDescription}</value>
+        <value xml:lang="fa">موفقیت «حمل‌ونقل بی‌اعتبار» UPS، نوع وضعیت ${statusTypeCode} : ${statusTypeDescription} است، کد وضعیت ${statusCodeCode} ${statusCodeDescription} است</value>
         <value xml:lang="it">La cancellazione spedizione UPS ha avuto successo; lo stato è: ${statusTypeCode} : ${statusTypeDescription}, il codice stato è: ${statusCodeCode} ${statusCodeDescription}</value>
         <value xml:lang="ja">UPS発送確認が成功しました。ステータス種類: ${statusTypeCode} : ${statusTypeDescription}, ステータスコード: ${statusCodeCode} ${statusCodeDescription}</value>
         <value xml:lang="zh">联合包裹（UPS）取消送货成功；状态类型是：${statusTypeCode} : ${statusTypeDescription}，状态代码是：${statusCodeCode} ${statusCodeDescription}</value>
     </property>
     <property key="FacilityShipmentUpsShipperNumber">
         <value xml:lang="en">Shipper Number</value>
+        <value xml:lang="fa">شماره حمل‌کننده</value>
         <value xml:lang="it">Numero spedizioniere</value>
         <value xml:lang="ja">発送者番号</value>
         <value xml:lang="vi">Mã số từ Nhà chuyển vận</value>
@@ -2140,150 +2429,175 @@
     </property>
     <property key="FacilityShipmentUpsShipperPickupType">
         <value xml:lang="en">Shipper Pickup Type</value>
+        <value xml:lang="fa">نوع انتخاب حمل‌کننده</value>
         <value xml:lang="it">Tipo prelievo spedizioniere</value>
         <value xml:lang="ja">発送者集荷種類</value>
         <value xml:lang="zh">发货人取件类型</value>
     </property>
     <property key="FacilityShipmentUpsUnableToLocateShippingMethodRequested">
         <value xml:lang="en">Unable to locate the shipping method requested</value>
+        <value xml:lang="fa">نمی‌توان درخواست روش حمل را مشخص نمود</value>
         <value xml:lang="it">Non è possibile localizzare il metodo di spedizione richiesto</value>
         <value xml:lang="ja">要求した配送方法が設定できません</value>
         <value xml:lang="zh">无法定位请求的送货方法</value>
     </property>
     <property key="FacilityShipmentUpsSurchargeAll">
         <value xml:lang="en">Surcharge amount will be applied to each shipment package</value>
+        <value xml:lang="fa">مقدار هزینه‌اضافه برای هر بسته محاسبه‌خواهدشد</value>
         <value xml:lang="it">Importo supplementare sarà applicato ad ogni pacco di spedizione</value>
         <value xml:lang="ja">各発送梱包ごとに追加料金が適用されます</value>
         <value xml:lang="zh">附加费金额会应用到每个要运送的包裹</value>
     </property>
     <property key="FacilityShipmentUpsSurchargeAmountIsNotConfigurated">
         <value xml:lang="en">Surcharge amount is not configured</value>
+        <value xml:lang="fa">مقدار هزینه‌اضافه پیکربندی نشده‌است</value>
         <value xml:lang="it">Importo supplementare non è configurato</value>
         <value xml:lang="ja">追加料金が設定されていません</value>
         <value xml:lang="zh">没有配置附加费金额</value>
     </property>
     <property key="FacilityShipmentUpsSurchargeCurrencyIsNotConfigurated">
         <value xml:lang="en">Surcharge currency is not configured</value>
+        <value xml:lang="fa">ارز هزینه‌اضافه پیکربندی نشده‌است</value>
         <value xml:lang="it">Valuta importo supplementare non è configurato</value>
         <value xml:lang="ja">追加料金の通貨が設定されていません</value>
         <value xml:lang="zh">没有配置附加费币种</value>
     </property>
     <property key="FacilityShipmentUpsSurchargeIsNotConfigurated">
         <value xml:lang="en">Surcharge amount is not configured</value>
+        <value xml:lang="fa">مقدار هزینه‌اضافه پیکربندی نشده‌است</value>
         <value xml:lang="it">Importo supplementare non è configurato</value>
         <value xml:lang="ja">追加料金が設定されていません</value>
         <value xml:lang="zh">没有配置附加费金额</value>
     </property>
     <property key="FacilityShipmentUpsSurchargeAmount">
         <value xml:lang="en">Surcharge Amount for Cash On Delivery</value>
+        <value xml:lang="fa">مقدار هزینه‌اضافه برای وجه‌نقد در تحویل</value>
         <value xml:lang="it">Importo supplementare per pagamento in contanti alla consegna</value>
         <value xml:lang="ja">代金引換配送追加料金</value>
         <value xml:lang="zh">货到付款附加费金额</value>
     </property>
     <property key="FacilityShipmentUpsSurchargeApplyToPackage">
         <value xml:lang="en">Surcharge Apply to Package</value>
+        <value xml:lang="fa">هزینه‌اضافه به بسته اضافه‌شد</value>
         <value xml:lang="it">Applica importo supplementare al pacco</value>
         <value xml:lang="ja">梱包に適用する追加料金</value>
         <value xml:lang="zh">附加费应用到包裹</value>
     </property>
     <property key="FacilityShipmentUpsSurchargeCurrencyUomId">
         <value xml:lang="en">Surcharge Currency</value>
+        <value xml:lang="fa">ارز هزینه‌اضافه</value>
         <value xml:lang="it">Valuta importo supplementare</value>
         <value xml:lang="ja">追加料金の通貨</value>
         <value xml:lang="zh">附加费币种</value>
     </property>
     <property key="FacilityShipmentUpsSurchargeFirst">
         <value xml:lang="en">Surcharge amount will be applied to the first package in the shipment</value>
+        <value xml:lang="fa">مقدار هزینه‌اضافه به اولین بسته حمل‌ونقل اضافه‌خواهدشد</value>
         <value xml:lang="it">Importo supplementare sarà applicato al primo pacco di spedizione</value>
         <value xml:lang="ja">追加料金は発送の最初の梱包に適用されます</value>
         <value xml:lang="zh">附加费金额将会被应用到送货的第一个包裹上</value>
     </property>
     <property key="FacilityShipmentUpsSurchargeNone">
         <value xml:lang="en">Surcharge will not be applied to any packages </value>
+        <value xml:lang="fa">هزینه‌اضافه به هر بسته اضافه‌خواهدشد</value>
         <value xml:lang="it">Importo supplementare non sarà applicato a nessun pacco della spedizione</value>
         <value xml:lang="ja">追加料金はどの梱包にも適用されません</value>
         <value xml:lang="zh">附加费不会被应用到任何包裹</value>
     </property>
     <property key="FacilityShipmentUpsSurchargeSplit">
         <value xml:lang="en">Surcharge amount will be split between shipment packages</value>
+        <value xml:lang="fa">مقدار هزینه‌اضافه بین بسته‌های محموله تقسیم خواهدشد</value>
         <value xml:lang="it">Importo supplementare sarà suddiviso fra i pacchi della spedizione</value>
         <value xml:lang="ja">追加料金は各発送の梱包に分割して適用されます</value>
         <value xml:lang="zh">附加费金额会被分解到包裹上</value>
     </property>
     <property key="FacilityShipmentUpsTrackingDigestWasNotSet">
         <value xml:lang="en">ERROR: The trackingDigest was not set for this Route Segment, meaning that a UPS shipment confirm has not been done.</value>
+        <value xml:lang="fa">خطا: «ارقام پیگیری» برای این بخش راه ثبت‌نشده‌است، به این معنی که تایید محموله UPS انجام نشده‌است.</value>
         <value xml:lang="it">ERRORE: L'elemento trackingDigest non è impostato per questo percorso di spedizione, significa che una conferma spedizione a UPS non è stata fatta.</value>
         <value xml:lang="ja">エラー: 追跡概要がこの経路セグメントに対して設定されていません。UPS発送確認は完了していないことを指しています。</value>
         <value xml:lang="zh">错误：没有为这个路径分区设置跟踪数字，这意味着还没有确认联合包裹送货。</value>
     </property>
     <property key="FacilityShipmentUpsTrackingIdNumberWasNotSet">
         <value xml:lang="en">ERROR: The trackingIdNumber was not set for this Route Segment, meaning that a UPS shipment confirm has not been done.</value>
+        <value xml:lang="fa">خطا «شماره پیگیری» برای بخش راه ثبت‌نشده‌است، به این معنی که تایید محموله انجام نشده‌است.</value>
         <value xml:lang="it">ERRORE: Il trackingIdNumber non è impostato in questo percorso spedizione, significa che una conferma spedizione UPS non è stata fatta.</value>
         <value xml:lang="ja">エラー: 追跡ID番号がこの経路セグメントに対して設定されていません。UPS発送確認は完了していないことを指しています。</value>
         <value xml:lang="zh">错误：没有为这个路径分区设置跟踪标识编号，这意味着还没有确认联合包裹送货。</value>
     </property>
     <property key="FacilityShipmentUpsUnsecuredFundsAllowed">
         <value xml:lang="en">Unsecured Funds Allowed</value>
+        <value xml:lang="fa">پرداخت ناامن اجازه‌داده‌شده‌است</value>
         <value xml:lang="it">Consentiti fondi non sicuri</value>
         <value xml:lang="ja">無保証の資金を許可</value>
         <value xml:lang="zh">允许未担保资金</value>
     </property>
     <property key="FacilityShipmentUpsRateEstimateError">
         <value xml:lang="en">Error on UPS Rate Estimate: ${errorString}</value>
+        <value xml:lang="fa">خطا در پیش‌بینی نرخ UPS: ${errorString}</value>
         <value xml:lang="it">Errore su stima spedizione UPS: ${errorString}</value>
         <value xml:lang="ja">UPSレート見積でエラー: ${errorString}</value>
         <value xml:lang="zh">联合包裹费率预估错误：${errorString}</value>
     </property>
     <property key="FacilityShipmentUpsShipToAddresssNoDestionationCountry">
         <value xml:lang="en">Destination CountryGeo not found for ship-to address</value>
+        <value xml:lang="fa">جغرافیای کشور مقصد برای آدرس حمل-به پیدانشد</value>
         <value xml:lang="it">Paese di destinazione non trovato dall'indirizzo di spedizione</value>
         <value xml:lang="ja">配送先住所に対して国が見つかりません</value>
         <value xml:lang="zh">没有找到用于交货地的地址的目的地国家地理</value>
     </property>
     <property key="FacilityShipmentUnableFoundShipToAddresss">
         <value xml:lang="en">Unable to determine ship-to address</value>
+        <value xml:lang="fa">نمی‌توان آدرس حمل-به را مشخص نمود</value>
         <value xml:lang="it">Non è possibile determinare l'indirizzo di spedizione</value>
         <value xml:lang="ja">配送先住所を決定できません</value>
         <value xml:lang="zh">无法确定交货地的地址</value>
     </property>
     <property key="FacilityShipmentUpsUnableFoundShipToAddresssForDropShipping">
         <value xml:lang="en">Unable to determine ship-from address for drop shipping</value>
+        <value xml:lang="fa">نمی‌توان آدرس حمل-از را برای حمل قطره‌ای مشخص نمود</value>
         <value xml:lang="it">Non è possibile determinare l'indirizzo di spedizione per la spedizione conto terzi</value>
         <value xml:lang="ja">直送で配送元住所を決定できません</value>
         <value xml:lang="zh">对于直接送货，无法确定发货地的地址</value>
     </property>
     <property key="FacilityShipmentUpsWeightValueNotFound">
         <value xml:lang="en">Weight value not found for ShipmentRouteSegment with shipmentId ${shipmentId}, shipmentRouteSegmentId ${shipmentRouteSegmentId}, and shipmentPackageSeqId ${shipmentPackageSeqId}</value>
+        <value xml:lang="fa">مقدار وزن برای «بخش راه محموله» با «آی‌دی محموله» ${shipmentId}, «آی‌دی بخش راه محموله» ${shipmentRouteSegmentId} و «آی‌دی ترتیبی بسته محموله» ${shipmentPackageSeqId}</value>
         <value xml:lang="it">Il peso non trovato per la spedizione ${shipmentId}, percorso spedizione ${shipmentRouteSegmentId}, e pacco ${shipmentPackageSeqId}</value>
         <value xml:lang="ja">発送ID ${shipmentId} 発送経路セグメントID ${shipmentRouteSegmentId} 発送梱包連番ID ${shipmentPackageSeqId} の発送経路セグメントに対して重量が見つかりません</value>
         <value xml:lang="zh">没有找到用于送货路径分区的重量值，其中，送货标识 ${shipmentId}，送货路径分区标识 ${shipmentRouteSegmentId}，送货包裹序号标识 ${shipmentPackageSeqId}</value>
     </property>
     <property key="FacilityShipmentUspsAccessPassword">
         <value xml:lang="en">Access Password</value>
+        <value xml:lang="fa">گذرواژه دسترسی</value>
         <value xml:lang="it">Password d'accesso</value>
         <value xml:lang="ja">アクセスパスワード</value>
         <value xml:lang="zh">访问密码</value>
     </property>
     <property key="FacilityShipmentUspsAccessUserId">
         <value xml:lang="en">Access User Id</value>
+        <value xml:lang="fa">آی‌دی کاربری دسترسی</value>
         <value xml:lang="it">Id utente d'accesso</value>
         <value xml:lang="ja">アクセスユーザID</value>
         <value xml:lang="zh">访问用户标识</value>
     </property>
     <property key="FacilityShipmentUspsAddressValidationIncompleteResponse">
         <value xml:lang="en">Incomplete response from USPS Address Validation service: no Address element found</value>
+        <value xml:lang="fa">پاسخ ناکامل از سرویس تاییداعتبار آدرس USPS: هیچ عنصر آدرسی یافت نشد</value>
         <value xml:lang="it">Risposta incompleta da USPS per il servizio di validazione indirizzo: nessun elemento Address trovato</value>
         <value xml:lang="ja">USPS住所確認サービスから不完全なレスポンス: 住所要素がありません</value>
         <value xml:lang="zh">来自美国邮政地址验证服务的响应不完整：没有找到地址（Address）元素</value>
     </property>
     <property key="FacilityShipmentUspsAddressValidationResponseError">
         <value xml:lang="en">The following error was returned by the USPS Address Validation service: ${errorString}</value>
+        <value xml:lang="fa">خطای پیشرو برگشته‌است بوسیله سرویس تاییداعتبار آدرس USPS: ${errorString}</value>
         <value xml:lang="it">Il seguente errore è stato restituito da USPS servizio di validazione indirizzo: ${errorString}</value>
         <value xml:lang="ja">USPS住所確認サービスで次のエラーが戻されました: ${errorString}</value>
         <value xml:lang="zh">美国邮政地址验证服务返回了下列错误：${errorString}</value>
     </property>
     <property key="FacilityShipmentUspsAddressValidationSendingError">
         <value xml:lang="en">Error sending request for USPS Address Validation service: ${errorString}</value>
+        <value xml:lang="fa">خطا در فرستادن درخواست برای سرویس تاییداعتبار آدرس USPS: ${errorString}</value>
         <value xml:lang="it">Errore durante l'invio della richiesta a USPS per il servizio di validazione indirizzo: ${errorString}</value>
         <value xml:lang="ja">USPS住所確認サービスにリクエスト送信中にエラー: ${errorString}</value>
         <value xml:lang="zh">为美国邮政地址验证服务而发送请求时出错：${errorString}</value>
@@ -2291,6 +2605,7 @@
     <property key="FacilityShipmentUspsAddressValidationStateAndCityOrZipRqd">
         <value xml:lang="de">USPS Adressverifikation benötigt Postleitzahl oder Ort/Staat</value>
         <value xml:lang="en">USPS address validation requires either zip5 or city and state</value>
+        <value xml:lang="fa">تاییداعتبار آدرس USPS یا zip5 یا شهر و ایالت را لازم دارد</value>
         <value xml:lang="fr">La validation de l'adresse USPS demande l'un ou l'autre : zip5 ou ville et état</value>
         <value xml:lang="it">USPS richiedere validazione indirizzo entrambi zip5 o città e stato</value>
         <value xml:lang="ja">USPS住所確認は郵便番号、または市区町村および都道府県/州/地方が必要です</value>
@@ -2300,18 +2615,21 @@
     </property>
     <property key="FacilityShipmentUspsConnectionProblem">
         <value xml:lang="en">Problem connecting with USPS server: ${errorString}</value>
+        <value xml:lang="fa">مشکل در برقراری ارتباط با سرویس USPS: ${errorString}</value>
         <value xml:lang="it">Errore durante la connession con il server di USPS: ${errorString}</value>
         <value xml:lang="ja">USPSサーバに接続中にエラー: ${errorString}</value>
         <value xml:lang="zh">连接美国邮政服务器时出错：${errorString}</value>
     </property>
     <property key="FacilityShipmentUspsConnectTimeout">
         <value xml:lang="en">Conntect Timeout</value>
+        <value xml:lang="fa">انقضاء ارتباط</value>
         <value xml:lang="it">Timeout connessione a USPS</value>
         <value xml:lang="ja">接続タイムアウト</value>
         <value xml:lang="zh">连接超时</value>
     </property>
     <property key="FacilityShipmentUspsConnectUrl">
         <value xml:lang="en">Conntect URL</value>
+        <value xml:lang="fa">URL ارتباط</value>
         <value xml:lang="it">URL Connessione a USPS</value>
         <value xml:lang="ja">接続URL</value>
         <value xml:lang="zh">连接网址</value>
@@ -5324,7 +5642,7 @@
         <value xml:lang="it">Percentual Prezzo Ordine</value>
         <value xml:lang="ja">注文価格割合(%)</value>
         <value xml:lang="ru">Процент цены заказа</value>
-        <value xml:lang="th">เปอร์เซ็นราคารายการสั่งซ&#139;ื้อ</value>
+        <value xml:lang="th">เปอร์เซ็นราคารายการสั่งซื้อ</value>
         <value xml:lang="vi">Phần trăm giá đặt hàng</value>
         <value xml:lang="zh">订单价格百分比</value>
         <value xml:lang="zh_TW">訂單價格百分比</value>
@@ -5449,6 +5767,7 @@
         <value xml:lang="de">Zahlung an Akteur ID</value>
         <value xml:lang="en">Pay To Party Id</value>
         <value xml:lang="es">Pagar a Código Participante</value>
+        <value xml:lang="fa">به آی‌دی هم‌مشرب</value>
         <value xml:lang="fr">Réf. de paiement à un acteur</value>
         <value xml:lang="it">Pagare al Soggetto</value>
         <value xml:lang="ja">支払先取引先ID</value>
@@ -6329,6 +6648,7 @@
         <value xml:lang="de">Wiederholung Info ID</value>
         <value xml:lang="en">Recurrence Info Id</value>
         <value xml:lang="es">Código Información de repetición</value>
+        <value xml:lang="fa">آی‌دی اطلاعات بازرخداد</value>
         <value xml:lang="fr">Réf. d'information récurrente</value>
         <value xml:lang="it">Informazioni ricorrenti</value>
         <value xml:lang="ja">繰り返し情報ID</value>
@@ -21796,7 +22116,7 @@
         <value xml:lang="es">NOTA: El flag "Requerir E-mail" está configurado como N (No). Cualquier dirección de e-mail o participantes listados aquí serán ignorados. Para usar alguna de estas direcciones, debe configurar el flag a Y(Si)</value>
         <value xml:lang="fr">NOTE: Pour rendre obligatoire et prendre en compte le champ acteur ou courriel, cocher (O), sinon mettre (N)</value>
         <value xml:lang="it">NOTA: L'email richiesta o se il flag soggetto è impostato a N (No), così qualsiasi indirizzo email o soggetti listati qui saranno ignorati. Per richiedere un'indirizzo email o il soggetto da queste liste, imposta il flag a Y (Si).</value>
-        <value xml:lang="ja"></value>
+        <value xml:lang="ja"/>
         <value xml:lang="ro">NOTA: Email-ul cerut O daca flag Subiect este setat N (Nu), asa ca orice adresa email sau Subiectii listati aici vor fi ignorati. Pentru a cere o adresa email sau Subiectul din aceste liste, seteaza flag Y (Da).</value>
         <value xml:lang="ru">ПРИМЕЧАНИЕ: Флаги Требуется Email или Участник установлены в Н (Нет), поэтому все перечисленные адреса и участники будут проигнорированы. Если требуются адреса эл.почты или участники из этих списков, установите флаг в Д (Да).</value>
         <value xml:lang="vi">Ghi chú: Hệ thống yêu cầu phải có thông tin địa chỉ thư điện tử của người dùng</value>

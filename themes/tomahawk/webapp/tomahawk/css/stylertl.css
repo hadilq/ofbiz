@@ -364,6 +364,10 @@ padding-right: 1em;
 direction: ltr;
 }
 
+.button-bar ul {
+direction: rtl;
+}
+
 .button-bar ul li,
 .tabContainer ul li {
 float: right;
@@ -408,8 +412,18 @@ padding: 2em 0 0 1.5em;
 }
 
 .basic-table tr th,
-.basic-table .header-row {
+.basic-table .header-row,
+.basic-table .header-row-2 th,
+.basic-table .header-row-2 td,
+.basic-table .header-row-2 th a,
+.basic-table .header-row-2 td a {
 text-align: right;
+}
+
+.basic-table .header-row-2 th .sort-order,
+.basic-table .header-row-2 td .sort-order {
+padding-left: 20px;
+padding-right: 0px;
 }
 
 .basic-table tr .button-col a {

@@ -8,7 +8,6 @@
     to you under the Apache License, Version 2.0 (the
     "License"); you may not use this file except in compliance
     with the License.  You may obtain a copy of the License at
-
     http://www.apache.org/licenses/LICENSE-2.0
 
     Unless required by applicable law or agreed to in writing,
@@ -23,6 +22,7 @@
         <value xml:lang="de">Fehler beim Zugriff auf Passwort: ${errorMessage}.</value>
         <value xml:lang="en">Error accessing password: ${errorMessage}.</value>
         <value xml:lang="es">Error accediendo a la clave: ${errorMessage}.</value>
+        <value xml:lang="fa">خطا در درسترسی به گذرواژه: ${errorMessage}.</value>
         <value xml:lang="fr">Erreur concernant le mot de passe: ${errorMessage}.</value>
         <value xml:lang="it">Errore accesso password:: ${errorMessage}.</value>
         <value xml:lang="ja">パスワードアクセスエラー: ${errorMessage}</value>
@@ -38,6 +38,7 @@
         <value xml:lang="de">Fehler beim Zugriff auf das Passwort-Änderungsprotokoll: ${errorMessage}.</value>
         <value xml:lang="en">Error accessing password change history: ${errorMessage}.</value>
         <value xml:lang="es">Error accediendo al histórico de cambios de la clave: ${errorMessage}.</value>
+        <value xml:lang="fa">خطا در دسترسی به تاریخچه تغییر گذرواژه: ${errorMessage}.</value>
         <value xml:lang="fr">Erreur lors de l'accès à l'historique des mots de passe : ${errorMessage}.</value>
         <value xml:lang="it">Errore di accesso alla storia dei cambi password: ${errorMessage}.</value>
         <value xml:lang="ja">パスワード履歴アクセスエラー: ${errorMessage}</value>
@@ -52,6 +53,7 @@
         <value xml:lang="de">Fehler beim Speichern des neuen Passworts, die E-Mail, die sie erhalten wird nicht das korrekte Passwort enthalten, das alte Passwort ist weiterhin gültig: ${errorMessage}.</value>
         <value xml:lang="en">Error saving new password, the email that you receive will not have the correct password in it, your old password is still being used: ${errorMessage}.</value>
         <value xml:lang="es">Error al grabar la nueva clave: el email que recibirá no tendrá la clave correcta; se seguirá usando la clave anterior</value>
+        <value xml:lang="fa">خطا در ذخیره‌کردن گذرواژه، ایمیلی که دریافت خواهید کرد حاوی گذرواژه صحیح نمی‌باشد، گذرواژه قدیمی همچنان مورد استفاده است: ${errorMessage}.</value>
         <value xml:lang="fr">Erreur survenue pendant l'enregistrement du nouveau mot de passe, le courriel que vous allez recevoir ne comportera pas le mot de passe correct, votre ancien mot de passe est toujours valide: ${errorMessage}.</value>
         <value xml:lang="it">Errore nel salvataggio della nuova password, l'email che riceverai non ha una password corretta, la tua vecchia password è ancora valida: ${errorMessage}.</value>
         <value xml:lang="ja">パスワードの保存時にエラーが発生しました。あなたが受けとったEメールに記載されたパスワードは正しくありません。前回のパスワードが有効です: ${errorMessage}</value>
@@ -66,6 +68,7 @@
         <value xml:lang="de">Fehler: Passwort konnte nicht per E-Mail verschickt werden. Versuchen Sie es später noch einmal oder wenden Sie sich an den Kundenservice.</value>
         <value xml:lang="en">Error occurred: unable to email password.  Please try again later or contact customer service.</value>
         <value xml:lang="es">Error: no se pudo enviar la clave por correo. Intente nuevamente o contacte el servicio de soporte</value>
+        <value xml:lang="fa">خطا روی داده است: ناتوانی در ایمیل کردن گذرواژه. لطفا بعدا دوباره امتحان کنید یا با خدمات مشتریان تماس بگیرید.</value>
         <value xml:lang="fr">Erreur : impossible d'envoyer le mot de passe par courriel. Merci de réessayer ultérieurement ou de contacter votre service commercial.</value>
         <value xml:lang="it">Errore: non è possibile mandare la password per e-mail. Riprovare più tardi o contattare il servizio clienti.</value>
         <value xml:lang="ja">エラーが発生しました: パスワードをEメールで送信することができません。後で再度実行するかカスタマサービスに連絡してください。</value>
@@ -81,6 +84,7 @@
         <value xml:lang="de">Fehler: Passwort konnte nicht per E-Mail verschickt werden. Versuchen Sie es später noch einmal oder wenden Sie sich an den Kundenservice. (Fehler war: ${errorMessage}).</value>
         <value xml:lang="en">Error occurred: unable to email password.  Please try again later or contact customer service. (error was: ${errorMessage}).</value>
         <value xml:lang="es">Error: no se pudo enviar la clave por correo. Intente nuevamente o contacte el servicio de soporte. (el error fue: ${errorMessage}).</value>
+        <value xml:lang="fa">خطا روی داده است: ناتوانی در ایمیل کردن گذرواژه. لطفا بعدا دوباره امتحان کنید یا با خدمات مشتریان تماس بگیرید. (خطا: ${errorMessage}).</value>
         <value xml:lang="fr">Erreur : impossible d'envoyer le mot de passe par courriel. Merci de réessayer ultérieurement ou de contacter votre service commercial. (erreur: ${errorMessage}).</value>
         <value xml:lang="it">Errore: non è possibile mandare la password per e-mail. Riprovare più tardi o contattare il servizio clienti. (errore: ${errorMessage})</value>
         <value xml:lang="ja">エラーが発生しました: パスワードをEメールで送信することができません。後で再度実行するかカスタマサービスに連絡してください。(エラー: ${errorMessage})</value>
@@ -96,6 +100,7 @@
         <value xml:lang="de">${errorMessage}</value>
         <value xml:lang="en">following error occurred during login: ${errorMessage}</value>
         <value xml:lang="es">Error al conectar: ${errorMessage}</value>
+        <value xml:lang="fa">خطای پیشرو در هنگام ورود روی داده است: ${errorMessage}</value>
         <value xml:lang="fr">${errorMessage}</value>
         <value xml:lang="it">${errorMessage}</value>
         <value xml:lang="ja">ログイン時にエラーが発生しました: ${errorMessage}</value>
@@ -111,6 +116,7 @@
         <value xml:lang="de">Ein neues Passwort wurde erzeugt und Ihnen per E-Mail zugeschickt. Überprüfen Sie bitte Ihren E-Mail-Eingang.</value>
         <value xml:lang="en">A new password has been created and sent to you. Please check your Email.</value>
         <value xml:lang="es">Una nuevoa clave ha sido creada y enviada. Por favor revise su correo.</value>
+        <value xml:lang="fa">گذرواژه جدید ساخته شده و برایتان فرستاده شده است. لطفا ایمیل خود را چک نمایید.</value>
         <value xml:lang="fr">Un nouveau mot de passe a été crée et envoyé. Merci de vérifier votre courriel.</value>
         <value xml:lang="it">Una nuova password è stata creata ed inviata. Controlla le email.</value>
         <value xml:lang="ja">新しいパスワードを送信しました。Eメールを確認してください。</value>
@@ -126,6 +132,7 @@
         <value xml:lang="de">Ihr Passwort wurde Ihnen per E-Mail zugeschickt. Überprüfen sie Ihren E-Mail-Eingang.</value>
         <value xml:lang="en">Your password has been sent to you. Please check your Email.</value>
         <value xml:lang="es">Su clave ha sido enviada. Revise su correo.</value>
+        <value xml:lang="fa">گذرواژه شما برایتان فرستاده شده است. لطفا ایمیل خود را چک نمایید.</value>
         <value xml:lang="fr">Votre nouveau mot de passe vous a été envoyé. Merci de vérifier votre courriel.</value>
         <value xml:lang="it">La tua password ti è stata inviata. Controlla le email.</value>
         <value xml:lang="ja">パスワードを送信しました。Eメールを確認してください。</value>
@@ -141,6 +148,7 @@
         <value xml:lang="de">Es wurde kein Passwort-Hinweis angegeben, versuchen Sie sich das Passwort zumailen zu lassen.</value>
         <value xml:lang="en">No password hint was specified, try having the password emailed instead.</value>
         <value xml:lang="es">No se especificó una pista para la clave.</value>
+        <value xml:lang="fa">هیچ اشاره گذرواژه‌ای مشخص نشده است، لطفا ایمیل کردن گذرواژه را امتحان کنید.</value>
         <value xml:lang="fr">Aucune spécification de mot de passé n'a été spécifiée, essayez de le recevoir par courriel.</value>
         <value xml:lang="it">Nessun suggerimento password è stato specificato, provare a richiedere l'invio della password per e-mail.</value>
         <value xml:lang="ja">パスワードのヒントが登録されていません。かわりにEメールで送信されるパスワードを試してください。</value>
@@ -156,6 +164,7 @@
         <value xml:lang="de">Es wurde keine primäre E-Mailadresse vergeben, bitte wenden Sie sich an den Kundenservice.</value>
         <value xml:lang="en">No Primary Email Address has been set, please contact customer service.</value>
         <value xml:lang="es">No se ha actualizado la dirección de correo.</value>
+        <value xml:lang="fa">هیچ ایمیل اولیه‌ای ثبت نشده است، لطفا با خدمات مشتریان تماس بگیرید.</value>
         <value xml:lang="fr">Pas d'adresse courriel créée, merci de contacter votre service commercial.</value>
         <value xml:lang="it">Indirizzo email primario non impostato, prego contattare il servizio clienti.</value>
         <value xml:lang="ja">Eメールアドレスが設定されていません。カスタマサービスに連絡してください。</value>
@@ -187,6 +196,7 @@
         <value xml:lang="de">Der Passwort-Hinweis ist: ${passwordHint}.</value>
         <value xml:lang="en">The Password Hint is: ${passwordHint}.</value>
         <value xml:lang="es">Su pista para la clave es:</value>
+        <value xml:lang="fa">اشاره گذرواژه ${passwordHint} است.</value>
         <value xml:lang="fr">La description du mot de passe est: ${passwordHint}.</value>
         <value xml:lang="it">Il suggerimento password è: ${passwordHint}.</value>
         <value xml:lang="ja">パスワードヒント: ${passwordHint}</value>
@@ -202,6 +212,7 @@
         <value xml:lang="de">Ihr Passwort wurde erfolgreich geändert</value>
         <value xml:lang="en">Your password has been changed successfully</value>
         <value xml:lang="es">Su clave se ha cambiado correctamente</value>
+        <value xml:lang="fa">گذرواژه شما با موفقیت تغییر کرد</value>
         <value xml:lang="fr">Votre mot de passe a été changé avec succès</value>
         <value xml:lang="it">La password è stata cambiata con successo</value>
         <value xml:lang="ja">パスワードが変更されました。</value>
@@ -215,6 +226,7 @@
         <value xml:lang="de">Es wurde kein Passwort eingegeben.</value>
         <value xml:lang="en">password was empty reenter</value>
         <value xml:lang="es">La clave no puede ser vacía</value>
+        <value xml:lang="fa">گذرواژه‌ای که دوباره وارد کردید خالی است</value>
         <value xml:lang="fr">Le mot de passe était vide, SVP recommencez.</value>
         <value xml:lang="it">La password è vuota, prego inserirla di nuovo.</value>
         <value xml:lang="ja">パスワードが入力されていません、入力してください。</value>
@@ -230,6 +242,7 @@
         <value xml:lang="de">Fehler bei der Konfiguration; bitte wenden Sie sich an den Kundenservice.</value>
         <value xml:lang="en">Problems with configuration; please contact customer service.</value>
         <value xml:lang="es">Problemas con configuración. Contacte con el servicio de soporte.</value>
+        <value xml:lang="fa">مشکل در پیکربندی؛ لطفا با خدمات مشتریان تماس بگیرید.</value>
         <value xml:lang="fr">Problèmes avec la connexion, merci de contacter votre service commercial.</value>
         <value xml:lang="it">Problemi con la configurazione; per favore contattare il servizio clienti.</value>
         <value xml:lang="ja">設定時にエラーが発生しました。カスタマサービスに連絡してください。</value>
@@ -255,6 +268,7 @@
         <value xml:lang="de">Anmeldung bei der Anwendung nicht erfolgreich</value>
         <value xml:lang="en">You cannot login to this application</value>
         <value xml:lang="es">No puede conectarse a esta aplicación (faltan permisos)</value>
+        <value xml:lang="fa">شما نمی‌توانید وارد شوید</value>
         <value xml:lang="fr">Impossible de se connecter à cette application.</value>
         <value xml:lang="it">L'autenticazione per questa applicazione non è stata completata (permessi non sufficienti).</value>
         <value xml:lang="ja">このアプリケーションは使用できません。</value>
@@ -270,6 +284,7 @@
         <value xml:lang="de">Dieser User ist bereits eingeloggt.</value>
         <value xml:lang="en">This user is already logged in.</value>
         <value xml:lang="es">El usuario ya se encuentra conectado</value>
+        <value xml:lang="fa">این کاربر هم‌اکنون واردشده است.</value>
         <value xml:lang="fr">L'utilisateur est déjà connecté.</value>
         <value xml:lang="it">L'utente è già autenticato.</value>
         <value xml:lang="ja">このユーザはすでにログインしています。</value>
@@ -285,6 +300,7 @@
         <value xml:lang="de">Benutzername konnte nicht gefunden werden. Bitte erneut eingeben.</value>
         <value xml:lang="en">The Username was not found, please re-enter.</value>
         <value xml:lang="es">El usuario "${userLoginId}" no fue encontrado, por favor intente de nuevo.</value>
+        <value xml:lang="fa">نام‌ کاربری پیدا نشد، لطفا دوباره وارد کنید.</value>
         <value xml:lang="fr">Le nom d'utilisateur est inconnu, entrez le de nouveau, SVP.</value>
         <value xml:lang="it">L'utente non è stato trovato, prego inserirlo di nuovo.</value>
         <value xml:lang="ja">ユーザ名は見つかりません、再度入力してください。</value>
@@ -300,6 +316,7 @@
         <value xml:lang="de">Es wurde kein Benutzername eingegeben.</value>
         <value xml:lang="en">username was empty reenter</value>
         <value xml:lang="es">El usuario no puede ser vacío, por favor intente de nuevo.</value>
+        <value xml:lang="fa">نام کاربر دوباره وارد شده خالی است</value>
         <value xml:lang="fr">Le nom d'utilisateur est vide, taper le de nouveau SVP.</value>
         <value xml:lang="it">L'utente è vuoto, prego inserirlo di nuovo.</value>
         <value xml:lang="ja">ユーザ名が入力されていません、再度入力してください。</value>
@@ -315,6 +332,7 @@
         <value xml:lang="de">Das neue Passwort fehlt.</value>
         <value xml:lang="en">New Password is missing.</value>
         <value xml:lang="es">Falta nueva clave.</value>
+        <value xml:lang="fa">گذرواژه جدید جا افتاده است.</value>
         <value xml:lang="fr">Le nouveau mot de passe manque</value>
         <value xml:lang="it">La nuova password è mancante.</value>
         <value xml:lang="ja">新しいパスワードが正しくありません。</value>
@@ -330,6 +348,7 @@
         <value xml:lang="de">Das Bestätigungspasswort fehlt.</value>
         <value xml:lang="en">New Password Verify is missing</value>
         <value xml:lang="es">Falta verificación de nueva clave</value>
+        <value xml:lang="fa">تایید گذوراژه جدید جا افتاده است.</value>
         <value xml:lang="fr">La vérification du nouveau mot de passe manque</value>
         <value xml:lang="it">La verifica della nuova password è mancante</value>
         <value xml:lang="ja">新しいパスワード(確認)が正しくありません。</value>
@@ -345,6 +364,7 @@
         <value xml:lang="de">Das (alte) Passwort fehlt.</value>
         <value xml:lang="en">The (old) Password is missing.</value>
         <value xml:lang="es">Falta clave antigua.</value>
+        <value xml:lang="fa">گذرواژه (قدیمی) جا افتاده است.</value>
         <value xml:lang="fr">L'ancien mot de passe manque</value>
         <value xml:lang="it">La vecchia password è mancante.</value>
         <value xml:lang="ja">現在のパスワードが正しくありません。</value>
@@ -360,6 +380,7 @@
         <value xml:lang="de">Das neue Passwort ist nicht identisch mit dem Bestätigungspasswort</value>
         <value xml:lang="en">New Password does not equal Verify Password</value>
         <value xml:lang="es">Las claves no coinciden</value>
+        <value xml:lang="fa">گذرواژه جدید و تایید گذرواژه یکی نیستند</value>
         <value xml:lang="fr">Le nouveau mot de passe ne correspond pas à la vérification de ce nouveau mot de passe</value>
         <value xml:lang="it">La nuova password non è ugugale alla password di verifica</value>
         <value xml:lang="ja">新しいパスワードがパスワード(確認)と異なります。</value>
@@ -375,6 +396,7 @@
         <value xml:lang="de">Ihr Passwort wurde erfolgreich geändert.</value>
         <value xml:lang="en">Password successfully updated.</value>
         <value xml:lang="es">Clave actualizada.</value>
+        <value xml:lang="fa">گذرواژه با موفقیت بروز شده.</value>
         <value xml:lang="fr">Mot de passe mis à jour.</value>
         <value xml:lang="it">Password aggiornta con successo.</value>
         <value xml:lang="ja">パスワードが更新されました。</value>
@@ -390,6 +412,7 @@
         <value xml:lang="de">Das Konto mit dem Benutzernamen "${username}" wurde gesperrt</value>
         <value xml:lang="en">The account for user login id "${username}" has been disabled.</value>
         <value xml:lang="es">La cuenta "${username}" ha sido deshabilitada.</value>
+        <value xml:lang="fa">حساب متعلق به نام کاربری «${username}» غیرفعال شده است..</value>
         <value xml:lang="fr">Le compte de l'utilisateur "${username}" a été neutralisé.</value>
         <value xml:lang="it">L'utente "${username}" è stato disabilitato</value>
         <value xml:lang="ja">ユーザ名 "${username}" が無効になりました。</value>
@@ -405,6 +428,7 @@
         <value xml:lang="de">Das Passwort konnte nicht geändert werden (Lesefehler): ${errorMessage}.</value>
         <value xml:lang="en">Could not change password (read failure): ${errorMessage}.</value>
         <value xml:lang="es">No se pudo cambiar la clave. Error de lectura ${errorMessage}.</value>
+        <value xml:lang="fa">نمی‌توان گذرواژه را تغییر داد (مشکل در خواندن): ${errorMessage}.</value>
         <value xml:lang="fr">Impossible de changer le mot de passe (erreur de lecture) : ${errormessage}.</value>
         <value xml:lang="it">Non è possibile cambiare la password (lettura fallita): ${errorMessage}.</value>
         <value xml:lang="ja">パスワードが変更できません (読取エラー): ${errorMessage}</value>
@@ -420,6 +444,7 @@
         <value xml:lang="de">Passwort konnte nicht geändert werden, Benutzername mit der ID "${userLoginId}" existiert nicht.</value>
         <value xml:lang="en">Could not change password, UserLogin with ID "${userLoginId}" does not exist.</value>
         <value xml:lang="es">No se pudo cambiar la clave. El usuario con Id "${userLoginId}" no existe.</value>
+        <value xml:lang="fa">نمی‌توان گذرواژه را تغییر داد، نام کاربری «${userLoginId}» وجود ندارد.</value>
         <value xml:lang="fr">Impossible de changer le mot de passe, l'identifiant de connexion "${userLoginId}" n'existe pas.</value>
         <value xml:lang="it">Non è possibile cambiare la password, l'utente "${userLoginId}" non esiste.</value>
         <value xml:lang="ja">パスワードが変更できません、ユーザ名 "${userLoginId}" は存在しません。</value>
@@ -435,6 +460,7 @@
         <value xml:lang="de">Das Passwort konnte nicht geändert werden (Schreibfehler): ${errorMessage}.</value>
         <value xml:lang="en">Could not change password (write failure): ${errorMessage}.</value>
         <value xml:lang="es">No se puede cambiar la clave: ${errorMessage}.</value>
+        <value xml:lang="fa">نمی‌توان گذرواژه را تغییر داد (اشکال در نوشتن): ${errorMessage}.</value>
         <value xml:lang="fr">Impossible de changer le mot de passe (erreur d'écriture) : ${errormessage}.\r\n</value>
         <value xml:lang="it">Non è possibile cambiare la password (scrittura fallita): ${errorMessage}.</value>
         <value xml:lang="ja">パスワードが変更できません (書込エラー): ${errorMessage}</value>
@@ -450,6 +476,7 @@
         <value xml:lang="de">Konnte user-login nicht erstellen (Lesefehler): ${errorMessage}.</value>
         <value xml:lang="en">Could not create login user (read failure): ${errorMessage}.</value>
         <value xml:lang="es">No se pudo crear el usuario: ${errorMessage}.</value>
+        <value xml:lang="fa">نمی‌توان حساب کاربری را درست کرد (مشکل در خواندن): ${errorMessage}.</value>
         <value xml:lang="fr">Impossible de créer l'utilisateur (erreur de lecture) : ${errormessage}.</value>
         <value xml:lang="it">Non è possibile creare l'utente (lettura fallita): ${errorMessage}.</value>
         <value xml:lang="ja">ユーザが作成できません (読取エラー): ${errorMessage}</value>
@@ -465,6 +492,7 @@
         <value xml:lang="de">Benutzername "${userLoginId}" existiert bereits</value>
         <value xml:lang="en">Could not create login user: user with ID "${userLoginId}" already exists.</value>
         <value xml:lang="es">El usuario "${userLoginId}" ya existe</value>
+        <value xml:lang="fa">نمی‌توان حساب کاربری را درست کرد: کابری با آی‌دی «${userLoginId}» از قبل وجود دارد.</value>
         <value xml:lang="fr">Impossible de créer l'utilisateur "${userLoginId}", il existe déjà.</value>
         <value xml:lang="it">Non è possibile creare l'utente "${userLoginId}", già esistente.</value>
         <value xml:lang="ja">ユーザが作成できません: ユーザ名 "${userLoginId}" はすでに存在します。</value>
@@ -480,6 +508,7 @@
         <value xml:lang="de">Konnte user-login nicht erstellen (Schreibfehler): ${errorMessage}.</value>
         <value xml:lang="en">Couldn't create login user (write failure): ${errorMessage}.</value>
         <value xml:lang="es">No se pudo crear usuario. Error de escritura: ${errorMessage}.</value>
+        <value xml:lang="fa">نمی‌توان حساب کاربری را درست کرد (خطا در نوشتن): ${errorMessage}.</value>
         <value xml:lang="fr">Impossible de créer l'utilisateur (erreur d'écriture) : ${errormessage}.</value>
         <value xml:lang="it">Non è possibile creare l'utente (scrittura fallita): ${errorMessage}.</value>
         <value xml:lang="ja">ユーザが作成できません (書込エラー): ${errorMessage}</value>
@@ -495,6 +524,7 @@
         <value xml:lang="de">Vorheriger Benutzername konnte nicht gesperrt werden (Schreibfehler): ${errorMessage}.</value>
         <value xml:lang="en">Couldn't disable old login user (write failure): ${errorMessage}.</value>
         <value xml:lang="es">No se pudo deshabilitar el usuario ${errorMessage}.</value>
+        <value xml:lang="fa">نمی‌توان حساب کاربری قدیمی را غیرفعال کرد (خطا در نوشتن): ${errorMessage}.</value>
         <value xml:lang="fr">Impossible d'annuler l'ancien compte utilisateur (erreur d'écriture) : ${errorMessage}.</value>
         <value xml:lang="it">Non è possibile disabilitare l'utente (scrittura fallita): ${errorMessage}.</value>
         <value xml:lang="ja">ユーザを無効にできません (書込エラー): ${errorMessage}</value>
@@ -510,6 +540,7 @@
         <value xml:lang="de">LDAP Anmeldung nicht möglich</value>
         <value xml:lang="en">LDAP authentication failed.</value>
         <value xml:lang="es">Autentificación LDAP fallida.</value>
+        <value xml:lang="fa">احراز هویت LDAP مشکل دارد.</value>
         <value xml:lang="fr">L'authentification LDAP a échouée.</value>
         <value xml:lang="it">Autenticazione LDAP fallita.</value>
         <value xml:lang="ja">LDAP認証に失敗しました。</value>
@@ -523,6 +554,7 @@
         <value xml:lang="de">Sie müssen mit den erforderlichen Berechtigungen angemeldet sein um ein user-login mit einer Party ID anzulegen, für eine Party die bereits existiert.</value>
         <value xml:lang="en">You must be logged in and have permission to create a user login with a party ID for a party that already exists.</value>
         <value xml:lang="es">Debe estar conectado y contar con permisos para crear un usuario a un participante existente</value>
+        <value xml:lang="fa">شما باید وارد شوید و همچنین اجازه کافی را برای ساختن حساب کاربری با آی‌دی هم‌مشرب، که باید وجود داشته باشد، داشته باشید.</value>
         <value xml:lang="fr">Vous devez être connecté et avoir l'autorisation de créer un compte utilisateur avec une réf. d'acteur d'un acteur qui existe déjà.</value>
         <value xml:lang="it">Devi autenticarti ed avere i permessi per creare un'utente con un codice soggetto già esistente.</value>
         <value xml:lang="ja">既存の取引先にユーザを追加する場合は権限のあるユーザでログインが必要です。</value>
@@ -538,6 +570,7 @@
         <value xml:lang="de">Sie müssen angemeldet sein und die über erforderlichen Berechtigungen verfügen um ein user-login mit einer party-id anzulegen, für eine party die bereits existiert.</value>
         <value xml:lang="en">You must be logged in and have permission to create a user login with a party ID for a party that already exists.</value>
         <value xml:lang="es">Debe estar conectado y contar con permisos para crear un usuario a un participante existente</value>
+        <value xml:lang="fa">شما باید وارد شوید و همچنین اجازه کافی را برای ساختن حساب کاربری با آی‌دی هم‌مشرب، که باید وجود داشته باشد، داشته باشید.</value>
         <value xml:lang="fr">Vous devez être connecté et avoir l'autorisation de créer un compte utilisateur avec une réf. d'acteur d'un acteur qui existe déjà.</value>
         <value xml:lang="it">Devi autenticarti ed avere i permessi per creare un'utente con un codice soggetto già esistente.</value>
         <value xml:lang="ja">既存の取引先にユーザを追加する場合は権限のあるユーザでログインが必要です。</value>
@@ -553,6 +586,7 @@
         <value xml:lang="de">Das neue Passwort darf nicht identisch mit dem alten Passwort sein.</value>
         <value xml:lang="en">The new password must be different from the old one.</value>
         <value xml:lang="es">La nueva clave debe ser diferente a la anterior.</value>
+        <value xml:lang="fa">گذرواژه جدید باید با قبلی متفاوت باشد.</value>
         <value xml:lang="fr">Le nouveau mot de passe doit être différent de l'ancien.</value>
         <value xml:lang="it">La nuova password deve essere diversa dalla vecchia.</value>
         <value xml:lang="ja">新しいパスワードは現在のパスワードと異なるものを入力してください。</value>
@@ -567,6 +601,7 @@
         <value xml:lang="de">Sie verfügen nicht über die erforderliche Berechtigungen um das Passwort für diesen Benutzernamen zu ändern.</value>
         <value xml:lang="en">You do not have permission to update the password for this user login.</value>
         <value xml:lang="es">No tiene permisos para modificar la clave para este usuario.</value>
+        <value xml:lang="fa">شما اجازه ندارید گذرواژه این حساب کاربری را بروز نمایید.</value>
         <value xml:lang="fr">Vous n'avez pas l'autorisation de mettre à jour le mot de passe pour ce compte utilisateur.</value>
         <value xml:lang="it">Non sei autorizzato ad aggiornare la password per questo utente.</value>
         <value xml:lang="ja">パスワードを更新する権限がありません。</value>
@@ -582,6 +617,7 @@
         <value xml:lang="de">Sie verfügen nicht über die erforderlichen Berechtigungen die Sicherheitsinformationen für diese Benutzeranmeldung zu ändern.</value>
         <value xml:lang="en">You do not have permission to update the security info for this user login.</value>
         <value xml:lang="es">No tiene permisos para actualizar la información de este usuario.</value>
+        <value xml:lang="fa">شما اجازه ندارید اطلاعات امنیتی این حساب کاربری را تغییر دهید.</value>
         <value xml:lang="fr">Vous n'avez pas l'autorisation de mettre à jour l'information de sécurité pour ce compte utilisateur.</value>
         <value xml:lang="it">Tu non sei autorizzato ad aggiornare le informazioni sulla sicurezza per questo utente.</value>
         <value xml:lang="ja">セキュリティ情報を更新する権限がありません。</value>
@@ -597,6 +633,7 @@
         <value xml:lang="de">Eine erneute Freigabe ist nicht geplant.</value>
         <value xml:lang="en">It is not scheduled to be re-enabled.</value>
         <value xml:lang="es">No se ha programado para ser reactivado</value>
+        <value xml:lang="fa">برنامه‌ریزی نشده است تا دوباره فعال شود.</value>
         <value xml:lang="fr">Le renouvellement n'est pas envisagé.</value>
         <value xml:lang="it">La riabilitazione non è stata programmata.</value>
         <value xml:lang="ja">有効になるスケジュールはありません。</value>
@@ -612,6 +649,7 @@
         <value xml:lang="de">Das alte Passwort ist falsch, bitte erneut eingeben.</value>
         <value xml:lang="en">Old Password was not correct, please re-enter.</value>
         <value xml:lang="es">La clave antigua no es correcta, por favor introdúzcala nuevamente</value>
+        <value xml:lang="fa">گذرواژه قدیمی صحیح نبود، لطفا دوباره وارد کنید.</value>
         <value xml:lang="fr">L'ancien mot de passe n'est pas correct, réessayez SVP.</value>
         <value xml:lang="it">La vecchia password non è corretta, riprovare prego.</value>
         <value xml:lang="ja">現在のパスワードが正しくありません。再度入力してください。</value>
@@ -627,6 +665,7 @@
         <value xml:lang="de">Eine Party mit der angegebenen Party-ID existiert bereits und sie verfügen nicht über die erforderlichen Berechtigungen ein user-login mit dieser Party-ID zu erstellen.</value>
         <value xml:lang="en">Party with specified party ID exists and you do not have permission to create a user login with this party ID.</value>
         <value xml:lang="es">El participante existe y usted no tiene permisos para crear usuarios a este participante</value>
+        <value xml:lang="fa">هم‌مشربی با آی‌دی هم‌مشرب مورد نظر وجود دارد ولی شما اجازه ندارید با آن حساب کاربری بسازید.</value>
         <value xml:lang="fr">L'acteur avec la réf. spécifiée existe et vous n'avez pas l'autorisation de créer un compte utilisateur avec cette réf. d'acteur.</value>
         <value xml:lang="it">Il soggetto con il codice specificato esiste già e non hai i permessi per creare un'utente con questo codice soggetto.</value>
         <value xml:lang="ja">既存の取引先にユーザを追加する権限がありません。</value>
@@ -642,6 +681,7 @@
         <value xml:lang="de">Party mit angegebener Party ID existiert bereits und sie verfügen nicht über die erforderliche Berechtigung ein user-login mit dieser Party ID anzulegen.</value>
         <value xml:lang="en">Party with specified party ID exists and you do not have permission to create a user login with this party ID.</value>
         <value xml:lang="es">Usted no tiene permiso para crear usuarios para este participante</value>
+        <value xml:lang="fa">هم‌مشربی با آی‌دی هم‌مشرب مورد نظر وجود دارد ولی شما اجازه ندارید با آن حساب کاربری بسازید.</value>
         <value xml:lang="fr">L'acteur avec la réf. spécifiée existe et vous n'avez pas l'autorisation de créer un compte utilisateur avec cette réf. d'acteur.</value>
         <value xml:lang="it">Il soggetto con il codice specificato esiste già e non hai i permessi per creare un'utente con questo codice soggetto.</value>
         <value xml:lang="ja">既存の取引先にユーザを追加する権限がありません。</value>
@@ -657,6 +697,7 @@
         <value xml:lang="de">Das Passwort stimmt nicht mit der zweiten Eingabe des Passwortes überein.</value>
         <value xml:lang="en">Password did not match verify password.</value>
         <value xml:lang="es">Las claves no coinciden, verificar.</value>
+        <value xml:lang="fa">گذرواژه با گذرواژه تایید شده یکسان نیستند.</value>
         <value xml:lang="fr">Le nouveau mot de passe ne correspond pas à sa vérification.</value>
         <value xml:lang="it">La password non corrisponde alla password di verifica.</value>
         <value xml:lang="ja">パスワードがパスワード(確認)と異なります。</value>
@@ -672,6 +713,7 @@
         <value xml:lang="de">Der Passwort-Hinweis darf nicht das Passwort enthalten.</value>
         <value xml:lang="en">Password hint may not contain the password.</value>
         <value xml:lang="es">Su pista no puede contener la clave.</value>
+        <value xml:lang="fa">اشاره گذرواژه نمی‌تواند شامل خود گذرواژه باشد.</value>
         <value xml:lang="fr">L'indication d'aide au mot de passe ne peut pas contenir le mot de passe.</value>
         <value xml:lang="it">Il suggerimento password non può contenere la password.</value>
         <value xml:lang="ja">パスワードヒントにパスワードが含まれないようにしてください。</value>
@@ -687,6 +729,7 @@
         <value xml:lang="de">Das Passwort ist falsch</value>
         <value xml:lang="en">Password incorrect.</value>
         <value xml:lang="es">Clave incorrecta.</value>
+        <value xml:lang="fa">گذرواژه اشتباه است.</value>
         <value xml:lang="fr">Mot de passe incorrect.</value>
         <value xml:lang="it">Password non corretta.</value>
         <value xml:lang="ja">パスワードが正しくありません。</value>
@@ -702,6 +745,7 @@
         <value xml:lang="de">Das Passwort darf nicht mit dem Benutzernamen übereinstimmen.</value>
         <value xml:lang="en">Password may not equal the Username.</value>
         <value xml:lang="es">La clave no puede ser igual al nombre de usuario</value>
+        <value xml:lang="fa">گذرواژه و نام کاربری نمی‌توانند یکسان باشند.</value>
         <value xml:lang="fr">Le mot de passe ne peut pas être identique au nom d'utilisateur.0</value>
         <value xml:lang="it">La password non può essere uguale al Nome Utente.</value>
         <value xml:lang="ja">パスワードはユーザ名と異なるものにしてください。</value>
@@ -717,6 +761,7 @@
         <value xml:lang="de">Passwort fehlt.</value>
         <value xml:lang="en">Password missing.</value>
         <value xml:lang="es">Falta clave.</value>
+        <value xml:lang="fa">گذرواژه جا افتاده است.</value>
         <value xml:lang="fr">Le mot de passe manque</value>
         <value xml:lang="it">Password mancante.</value>
         <value xml:lang="ja">パスワードが間違っています。</value>
@@ -732,6 +777,7 @@
         <value xml:lang="de">Das Passwort darf nicht eines Ihrer letzen ${passwordChangeHistoryLimit} Passwörter sein.</value>
         <value xml:lang="en">Password cannot be one of your last ${passwordChangeHistoryLimit} passwords.</value>
         <value xml:lang="es">La clave no puede ser igual a las últimas ${passwordChangeHistoryLimit} claves.</value>
+        <value xml:lang="fa">گذرواژه نمی ‌تواند یکی از آخرین گذرواژه‌های ${passwordChangeHistoryLimit} باشد.</value>
         <value xml:lang="fr">Le mot de passe ne peut être un de vos derniers ${passwordChangeHistoryLimit} mots de passe.</value>
         <value xml:lang="it">La password non può essere una delle tue ultime ${passwordChangeHistoryLimit} password.</value>
         <value xml:lang="ja">過去 ${passwordChangeHistoryLimit} 回以内に使われていないパスワードにしてください。</value>
@@ -746,6 +792,7 @@
         <value xml:lang="de">Das Passwort muß aus mindestens ${minPasswordLength} Zeichen bestehen.</value>
         <value xml:lang="en">Password must be at least ${minPasswordLength} characters long.</value>
         <value xml:lang="es">La clave debe tener al menos ${minPasswordLength} caracteres.</value>
+        <value xml:lang="fa">گذرواژه باید حداقل شامل ${minPasswordLength} حرف باشد.</value>
         <value xml:lang="fr">Le mot de passe doit être d'au moins ${minPasswordLength} caractères.</value>
         <value xml:lang="it">La password deve essere lunga almeno ${minPasswordLength} caratteri.</value>
         <value xml:lang="ja">パスワードは少なくとも ${minPasswordLength} 文字で入力してください。</value>
@@ -761,6 +808,7 @@
         <value xml:lang="de">Das Passwort oder zweite Eingabe des Passwortes fehlt.</value>
         <value xml:lang="en">Password or verify password missing.</value>
         <value xml:lang="es">Falta clave o verificación de clave.</value>
+        <value xml:lang="fa">گذرواژه و تایید گذرواژه جا افتاده‌اند.</value>
         <value xml:lang="fr">Le mot de passe ou la vérification de mot de passe manque</value>
         <value xml:lang="it">La password o verifica password è mancante.</value>
         <value xml:lang="ja">パスワードまたはパスワード(確認)が間違っています。</value>
@@ -774,6 +822,7 @@
     </property>
     <property key="loginservices.password_reminder_subject">
         <value xml:lang="en">Password Reminder (${userLoginId})".</value>
+        <value xml:lang="fa">یادآوری گذرواژه (${userLoginId})</value>
         <value xml:lang="fr">Rappel du mot de passe (${userLoginId})".</value>
         <value xml:lang="ru">Напоминатель о пароле (${userLoginId})".</value>
         <value xml:lang="zh">密码提示(${userLoginId})。</value>
@@ -791,6 +840,7 @@
         <value xml:lang="de">(seit ${disabledDateTime})</value>
         <value xml:lang="en">since ${disabledDateTime}.</value>
         <value xml:lang="es">A partir de la fecha ${disabledDateTime}.</value>
+        <value xml:lang="fa">از زمان ${disabledDateTime}.</value>
         <value xml:lang="fr">depuis ${disabledDateTime}.</value>
         <value xml:lang="it">dal ${disabledDateTime}.</value>
         <value xml:lang="ja">${disabledDateTime} から</value>
@@ -806,6 +856,7 @@
         <value xml:lang="de">Benutzer konnte nicht gefunden werden</value>
         <value xml:lang="en">User not found.</value>
         <value xml:lang="es">Usuario no encontrado.</value>
+        <value xml:lang="fa">نام‌کاربری پیدا نشد.</value>
         <value xml:lang="fr">Utilisateur non trouvé.</value>
         <value xml:lang="it">Utente non trovato.</value>
         <value xml:lang="ja">ユーザ名が間違っています。</value>
@@ -821,6 +872,7 @@
         <value xml:lang="de">Benutzername fehlt.</value>
         <value xml:lang="en">Username missing.</value>
         <value xml:lang="es">Falta usuario.</value>
+        <value xml:lang="fa">نام‌کاربری جا افتاده است.</value>
         <value xml:lang="fr">Le nom d'utilisateur manque.</value>
         <value xml:lang="it">Nome Utente mancante.</value>
         <value xml:lang="ja">ユーザ名が間違っています。</value>
@@ -836,6 +888,7 @@
         <value xml:lang="de">Es wird am/um ${reEnableTime} wieder freigegeben.</value>
         <value xml:lang="en">It will be re-enabled ${reEnableTime}.</value>
         <value xml:lang="es">Será reactivado en ${reEnableTime}.</value>
+        <value xml:lang="fa">${reEnableTime} دوباره فعال خواهد شد.</value>
         <value xml:lang="fr">Il sera renouvellé : ${reEnableTime}.</value>
         <value xml:lang="it">Sarà riabilitato il ${reEnableTime}.</value>
         <value xml:lang="ja">${reEnableTime} に再度有効になります。</value>

@@ -8,7 +8,6 @@
     to you under the Apache License, Version 2.0 (the
     "License"); you may not use this file except in compliance
     with the License.  You may obtain a copy of the License at
-
     http://www.apache.org/licenses/LICENSE-2.0
 
     Unless required by applicable law or agreed to in writing,
@@ -32,6 +31,7 @@
         <value xml:lang="da">Der opstår en fejl under læsning</value>
         <value xml:lang="en">An error occurs during reading</value>
         <value xml:lang="es">Ocurrió un error durante la lectura</value>
+        <value xml:lang="fa">خطایی در زمان خواندن رخ داده است</value>
         <value xml:lang="fr">Une erreur est survenue lors de la lecture</value>
         <value xml:lang="hi_IN">पढ़ने के दौरान एक त्रुटि हो रही है</value>
         <value xml:lang="it">E' successo un'errore durante la lettura</value>
@@ -47,6 +47,7 @@
         <value xml:lang="da">Fejl forhinder dokumentet i at blive fuldt ud oversat</value>
         <value xml:lang="en">Error prevents the document from being fully parsed</value>
         <value xml:lang="es">Un error evita que el documento sea completamente analizado</value>
+        <value xml:lang="fa">خطا سند را از تکمیل شدن باز داشته است</value>
         <value xml:lang="fr">Une erreur empêche que le document soit entièrement analysé</value>
         <value xml:lang="hi_IN">त्रुटि दस्तावेज़ को पूरी तरह पार्स करने से रोक रही है</value>
         <value xml:lang="it">Errore previene il documento da essere completamente parsato</value>
@@ -62,6 +63,7 @@
         <value xml:lang="da">Der opstod fejl under oversættelse</value>
         <value xml:lang="en">Errors occured during parsing</value>
         <value xml:lang="es">Se produjeron errores durante el análisis</value>
+        <value xml:lang="fa">در طول تکمیل شدن خطایی روی داده است</value>
         <value xml:lang="fr">Des erreurs sont survenues lors de l'analyse</value>
         <value xml:lang="hi_IN">पार्सिंग के दौरान त्रुटियाँ हुई</value>
         <value xml:lang="it">Errore accaduti durante il parsing</value>
@@ -77,6 +79,7 @@
         <value xml:lang="da">Endelig skala faktor er null</value>
         <value xml:lang="en">Final scale factor is null</value>
         <value xml:lang="es">El factor de escala final es nulo</value>
+        <value xml:lang="fa">ضریب مقیاس نهایی خالی است</value>
         <value xml:lang="fr">Le facteur final de redimensionnement est nul</value>
         <value xml:lang="hi_IN">अंतिम पैमाने पहलू null है</value>
         <value xml:lang="it">Fattore di scala finale è nullo</value>
@@ -92,6 +95,7 @@
         <value xml:lang="da">Høj skala faktor er null</value>
         <value xml:lang="en">Height scale factor is null</value>
         <value xml:lang="es">El factor de escala de altura es nulo</value>
+        <value xml:lang="fa">ضریب مقیاس طولی خالی است</value>
         <value xml:lang="fr">Le ratio 'hauteur' de redimensionnement est nul</value>
         <value xml:lang="hi_IN">ऊँचाई पैमाने पहलू null है</value>
         <value xml:lang="it">Fattore di scala altezza è nullo</value>
@@ -107,6 +111,7 @@
         <value xml:lang="da">Input er null</value>
         <value xml:lang="en">Input is null</value>
         <value xml:lang="es">La entrada es nula</value>
+        <value xml:lang="fa">ورودی خالی است</value>
         <value xml:lang="fr">La valeur saisie est nulle</value>
         <value xml:lang="hi_IN">इनपुट null है</value>
         <value xml:lang="it">Input è nullo</value>
@@ -122,6 +127,7 @@
         <value xml:lang="da">En standard dimension er null</value>
         <value xml:lang="en">One default dimension is null</value>
         <value xml:lang="es">Una dimensión por defecto es nula</value>
+        <value xml:lang="fa">یک بعد پیش‌فرض خالی است</value>
         <value xml:lang="fr">Une des dimensions par défaut est nulle</value>
         <value xml:lang="hi_IN">एक डिफ़ॉल्ट आयाम null है</value>
         <value xml:lang="it">Dimensione uno di default è nullo</value>
@@ -137,6 +143,7 @@
         <value xml:lang="da">Rod element er ikke sat</value>
         <value xml:lang="en">Root element has not been set</value>
         <value xml:lang="es">No se ha establecido el elemento raíz</value>
+        <value xml:lang="fa">ریشه اجزا مشخص نشده است</value>
         <value xml:lang="fr">L'élement racine n'a pas pu être chargé</value>
         <value xml:lang="hi_IN">रूट तत्व निर्धारित नहीं किया गया है</value>
         <value xml:lang="it">Elemento root non è stato impostato</value>
@@ -152,6 +159,7 @@
         <value xml:lang="da">Ukendt buffered billedtype</value>
         <value xml:lang="en">Unknown buffered image type</value>
         <value xml:lang="es">Tipo de imagen en buffer desconocido</value>
+        <value xml:lang="fa">نوع تصویری که لود شده نامشخص است</value>
         <value xml:lang="fr">Le type d'image bufferisée est inconnu</value>
         <value xml:lang="hi_IN">buffered छवि का अज्ञात प्रकार</value>
         <value xml:lang="it">Tipo di immagine sconosciuta bufferizzata</value>
@@ -167,6 +175,7 @@
         <value xml:lang="da">Bredde skala faktor er null</value>
         <value xml:lang="en">Width scale factor is null</value>
         <value xml:lang="es">El factor de escala de anchura es nulo</value>
+        <value xml:lang="fa">ضریب مقیاس عرضی خالی است</value>
         <value xml:lang="fr">Le ratio 'largeur' de redimensionnement est nul</value>
         <value xml:lang="hi_IN">चौड़ाई पैमाने कारक(Width scale factor) null है</value>
         <value xml:lang="it">Fattore di scala altezza è nullo</value>

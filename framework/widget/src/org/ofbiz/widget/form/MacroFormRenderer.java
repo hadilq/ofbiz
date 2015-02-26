@@ -1759,7 +1759,7 @@ public class MacroFormRenderer implements FormStringRenderer {
             if ("Y".equals(ignCaseString) || "true".equals(ignCaseString) )
                 ignCase = true;
         }
-        boolean hideIgnoreCase = textFindField.getHideIgnoreCase();
+        boolean hideIgnoreCase = textFindField.getHideIgnoreCase(context);
         StringWriter sr = new StringWriter();
         sr.append("<@renderTextFindField ");
         sr.append(" name=\"");

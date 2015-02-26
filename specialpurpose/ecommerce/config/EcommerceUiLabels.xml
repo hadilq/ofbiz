@@ -8,7 +8,6 @@
     to you under the Apache License, Version 2.0 (the
     "License"); you may not use this file except in compliance
     with the License.  You may obtain a copy of the License at
-
     http://www.apache.org/licenses/LICENSE-2.0
 
     Unless required by applicable law or agreed to in writing,
@@ -21,6 +20,7 @@
 <resource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <property key="EcommerceAboutUs">
         <value xml:lang="en">About Us</value>
+        <value xml:lang="fa">درباره ما</value>
         <value xml:lang="fr">A propos</value>
         <value xml:lang="ja">会社案内</value>
         <value xml:lang="nl">Over ons</value>       
@@ -33,6 +33,7 @@
         <value xml:lang="da">en ny</value>
         <value xml:lang="de">Ein neues</value>
         <value xml:lang="en">a new</value>
+        <value xml:lang="fa">جدید</value>
         <value xml:lang="fr">un nouvel</value>
         <value xml:lang="it">una nuova</value>
         <value xml:lang="ja">お知らせ</value>
@@ -46,6 +47,7 @@
     <property key="EcommerceAccountInformation">
         <value xml:lang="da">Konto information</value>
         <value xml:lang="en">Account Information</value>
+        <value xml:lang="fa">اطلاعات حساب</value>
         <value xml:lang="fr">Information sur le compte</value>
         <value xml:lang="it">Informazioni utente</value>
         <value xml:lang="ja">アカウント情報</value>
@@ -813,6 +815,7 @@
         <value xml:lang="de">Datenressource ID</value>
         <value xml:lang="en">Data Resource Id</value>
         <value xml:lang="es">Código de Data Resource</value>
+        <value xml:lang="fa">آی‌دی منبع داده</value>
         <value xml:lang="fr">Ref. de ressource de données</value>
         <value xml:lang="hi_IN">आंकड़े सहारा नम्बर</value>
         <value xml:lang="it">Codice risorsa dati</value>
@@ -4339,6 +4342,7 @@
         <value xml:lang="de">Antwort hinzufügen</value>
         <value xml:lang="en">Add Response</value>
         <value xml:lang="es">Añadir Respuesta</value>
+        <value xml:lang="fa">اضافه کردن پاسخ</value>
         <value xml:lang="fr">Ajouter une réponse</value>
         <value xml:lang="hi_IN">उत्तर जोड़ें</value>
         <value xml:lang="it">Aggiungi risposta</value>
@@ -4357,6 +4361,7 @@
         <value xml:lang="de">Zusätzliche Informationen</value>
         <value xml:lang="en">Additional Info</value>
         <value xml:lang="es">Información Adicional</value>
+        <value xml:lang="fa">اطلاعات اضافه</value>
         <value xml:lang="fr">Information additionnelle</value>
         <value xml:lang="hi_IN">अतिरिक्त सूचना</value>
         <value xml:lang="it">Informazioni aggiuntive</value>
@@ -4375,6 +4380,7 @@
         <value xml:lang="de">Rechnungstellung Informationen</value>
         <value xml:lang="en">Billing Information</value>
         <value xml:lang="es">Información de Facturación</value>
+        <value xml:lang="fa">اطلاعات قبض</value>
         <value xml:lang="fr">Information de facturation</value>
         <value xml:lang="hi_IN">बिल की जानकारी</value>
         <value xml:lang="it">Informazioni di fatturazione</value>
@@ -4394,6 +4400,7 @@
         <value xml:lang="de">Passwort ändern</value>
         <value xml:lang="en">Change Password</value>
         <value xml:lang="es">Cambiar Contraseña</value>
+        <value xml:lang="fa">تغییر گذرواژه</value>
         <value xml:lang="fr">Changement de mot de passe</value>
         <value xml:lang="hi_IN">पासवर्ड बदलिये</value>
         <value xml:lang="it">Cambio password</value>
@@ -4414,6 +4421,7 @@
         <value xml:lang="de">Bestellüberprüfung</value>
         <value xml:lang="en">Checkout Review</value>
         <value xml:lang="es">Revisión De la Comprobación</value>
+        <value xml:lang="fa">بازبینی</value>
         <value xml:lang="fr">Vérification du paiement</value>
         <value xml:lang="it">Verifica del pagamento</value>
         <value xml:lang="ja">チェックアウト確認</value>
@@ -4432,6 +4440,7 @@
         <value xml:lang="de">Inhalt Seite</value>
         <value xml:lang="en">Content Page</value>
         <value xml:lang="es">Página de contenido</value>
+        <value xml:lang="fa">صفحه محتوا</value>
         <value xml:lang="fr">Page de contenu</value>
         <value xml:lang="it">Contenuto pagina</value>
         <value xml:lang="ja">コンテンツページ</value>
@@ -4449,6 +4458,7 @@
         <value xml:lang="de">Mein digitales Produkt bearbeiten</value>
         <value xml:lang="en">Edit My Digital Product</value>
         <value xml:lang="es">Modificar mis productos digitales</value>
+        <value xml:lang="fa">ویرایش محصولات دیجیتال من</value>
         <value xml:lang="fr">Modifier mon article numérique</value>
         <value xml:lang="hi_IN">डिजीटल सामान सुधारें</value>
         <value xml:lang="it">Aggiorna mio prodotto digitale</value>
@@ -4467,6 +4477,7 @@
         <value xml:lang="de">Liste Meiner digitalen Produkte</value>
         <value xml:lang="en">List My Digital Products</value>
         <value xml:lang="es">Mi lista de productos digitales</value>
+        <value xml:lang="fa">لیست محصولات دیجیتال من</value>
         <value xml:lang="fr">Voir mes articles numériques</value>
         <value xml:lang="hi_IN">मेरी डिजीटल जानकारी बताइये</value>
         <value xml:lang="it">Lista miei prodotti digitali</value>
@@ -4485,6 +4496,7 @@
         <value xml:lang="de">Bearbeiten/Hinzufügen Inhalt</value>
         <value xml:lang="en">Edit/Add Content</value>
         <value xml:lang="es">Añadir/Editar contenido</value>
+        <value xml:lang="fa">ویرایش/اضافه‌کردن محتوا</value>
         <value xml:lang="fr">Éditer/Ajouter le contenu</value>
         <value xml:lang="it">Aggiorna/Aggiungi contenuto</value>
         <value xml:lang="ja">コンテンツの編集/追加</value>
@@ -4502,6 +4514,7 @@
         <value xml:lang="de">Bearbeiten/Hinzufügen Bild</value>
         <value xml:lang="en">Edit/Add Image</value>
         <value xml:lang="es">Añadir/Editar Imágen</value>
+        <value xml:lang="fa">ویرایش/اضافه‌کردن عکس</value>
         <value xml:lang="fr">Éditer/Ajouter une image</value>
         <value xml:lang="hi_IN">चित्र बदलिये/जोडिये</value>
         <value xml:lang="it">Aggiorna/Aggiungi immagine</value>
@@ -4521,6 +4534,7 @@
         <value xml:lang="de">Kontaktmechanismus bearbeiten</value>
         <value xml:lang="en">Edit Contact Mechanism</value>
         <value xml:lang="es">Modificar Mecanismo de Contacto</value>
+        <value xml:lang="fa">ویرایش مکانیسم تماس</value>
         <value xml:lang="fr">Modification des coordonnées</value>
         <value xml:lang="it">Aggiorna contatto</value>
         <value xml:lang="ja">連絡方法を編集</value>
@@ -4539,6 +4553,7 @@
         <value xml:lang="de">Bankverbindung bearbeiten</value>
         <value xml:lang="en">Edit EFT Account</value>
         <value xml:lang="es">Modificar Cuenta de EFT</value>
+        <value xml:lang="fa">ویرایش حساب EFT</value>
         <value xml:lang="fr">Modification des comptes de virement électronique</value>
         <value xml:lang="hi_IN">EFT ख़ाता बदलिये</value>
         <value xml:lang="it">Aggiorna conto EFT </value>
@@ -4558,6 +4573,7 @@
         <value xml:lang="de">Forum Inhalt Informationen bearbeiten</value>
         <value xml:lang="en">Edit Forum Content Info</value>
         <value xml:lang="es">Modificar información de contenido del fóro</value>
+        <value xml:lang="fa">ویرایش فرم اطلاعات تماس</value>
         <value xml:lang="fr">Modifier l'information contenue dans le forum</value>
         <value xml:lang="it">Aggiorna informazioni contenuto forum</value>
         <value xml:lang="ja">フォーラムコンテンツ情報を編集</value>
@@ -4576,6 +4592,7 @@
         <value xml:lang="de">Person bearbeiten</value>
         <value xml:lang="en">Edit Person</value>
         <value xml:lang="es">Modificar la Persona</value>
+        <value xml:lang="fa">ویرایش شخص</value>
         <value xml:lang="fr">Modification des données personnelles</value>
         <value xml:lang="hi_IN">व्यक्ति बदलिये</value>
         <value xml:lang="it">Aggiorna persona</value>
@@ -4595,6 +4612,7 @@
         <value xml:lang="de">Forum Artikel</value>
         <value xml:lang="en">Forum Article</value>
         <value xml:lang="es">Artículo de Foro</value>
+        <value xml:lang="fa">بازار مقاله</value>
         <value xml:lang="fr">Article du forum</value>
         <value xml:lang="it">Articoli forum</value>
         <value xml:lang="ja">フォーラム記事</value>
@@ -4612,6 +4630,7 @@
         <value xml:lang="de">Forum Antwort</value>
         <value xml:lang="en">Forum Response</value>
         <value xml:lang="es">Respuesta de foro</value>
+        <value xml:lang="fa">بازار پاسخگویی</value>
         <value xml:lang="fr">Réponse du forum</value>
         <value xml:lang="it">Risposte forum</value>
         <value xml:lang="ja">フォーラム回答</value>
@@ -4629,6 +4648,7 @@
         <value xml:lang="de">Forum Zusammenfassung</value>
         <value xml:lang="en">Forum Summary</value>
         <value xml:lang="es">Resumen de fóro</value>
+        <value xml:lang="fa">بازار خلاصه</value>
         <value xml:lang="fr">Sommaire du forum</value>
         <value xml:lang="it">Sommario forum</value>
         <value xml:lang="ja">フォーラムサマリ</value>
@@ -4646,6 +4666,7 @@
         <value xml:lang="de">Gutschein Kontostand</value>
         <value xml:lang="en">Gift Card Balance</value>
         <value xml:lang="es">Balance de Tarjeta de Regalo</value>
+        <value xml:lang="fa">تراز کارت هدیه</value>
         <value xml:lang="fr">Solde de la carte cadeau</value>
         <value xml:lang="hi_IN">उपहार कार्ड बचा मुल्य</value>
         <value xml:lang="it">Saldo carta omaggio</value>
@@ -4664,6 +4685,7 @@
         <value xml:lang="de">Gutschein Link</value>
         <value xml:lang="en">Gift Card Link</value>
         <value xml:lang="es">Enlace aTarjeta de Regalo</value>
+        <value xml:lang="fa">لینک کارت هدیه</value>
         <value xml:lang="fr">Lien vers la carte cadeau</value>
         <value xml:lang="hi_IN">उपहार कार्ड लिंक</value>
         <value xml:lang="it">Link carta omaggio</value>
@@ -4683,6 +4705,7 @@
         <value xml:lang="de">Kürzlich betrachtete Produkte</value>
         <value xml:lang="en">Last View Products</value>
         <value xml:lang="es">Última vista de artículo</value>
+        <value xml:lang="fa">آخرین بازبینی محصولات</value>
         <value xml:lang="fr">Derniers articles visités</value>
         <value xml:lang="hi_IN">अन्त माल देख़िये</value>
         <value xml:lang="it">Ultimi prodotti visti</value>
@@ -4701,6 +4724,7 @@
         <value xml:lang="da">Vis tilbud</value>
         <value xml:lang="de">Liste Angebote</value>
         <value xml:lang="en">List Quotes</value>
+        <value xml:lang="fa">لیست مظنه‌ها</value>
         <value xml:lang="fr">Liste des devis</value>
         <value xml:lang="it">Lista preventivi</value>
         <value xml:lang="ja">見積一覧</value>
@@ -4715,6 +4739,7 @@
         <value xml:lang="da">Vis forespørgsler</value>
         <value xml:lang="de">Liste Anfragen</value>
         <value xml:lang="en">List Requests</value>
+        <value xml:lang="fa">لیست درخواست‌ها</value>
         <value xml:lang="fr">Liste des demandes</value>
         <value xml:lang="it">Lista richieste</value>
         <value xml:lang="ja">リクエスト一覧</value>
@@ -4730,6 +4755,7 @@
         <value xml:lang="de">Meldung Detail</value>
         <value xml:lang="en">Message Detail</value>
         <value xml:lang="es">Detalle de mensajes</value>
+        <value xml:lang="fa">جزئیات پیام</value>
         <value xml:lang="fr">Détail du message</value>
         <value xml:lang="hi_IN">सूचना विवरण</value>
         <value xml:lang="it">Dettagli messaggio</value>
@@ -4748,6 +4774,7 @@
         <value xml:lang="de">Liste Meldungen</value>
         <value xml:lang="en">Message List</value>
         <value xml:lang="es">Lista de mensajes</value>
+        <value xml:lang="fa">لیست پیام</value>
         <value xml:lang="fr">Liste des messages</value>
         <value xml:lang="hi_IN">सूचना सूची</value>
         <value xml:lang="it">Lista messaggi</value>
@@ -4767,6 +4794,7 @@
         <value xml:lang="de">Neuer Kunde</value>
         <value xml:lang="en">New Customer</value>
         <value xml:lang="es">Cliente Nuevo</value>
+        <value xml:lang="fa">مشتری جدید</value>
         <value xml:lang="fr">Nouveau client</value>
         <value xml:lang="hi_IN">नया ग्राहक</value>
         <value xml:lang="it">Nuovo soggetto</value>
@@ -4786,6 +4814,7 @@
         <value xml:lang="de">Neue Meldung</value>
         <value xml:lang="en">New Message</value>
         <value xml:lang="es">Nuevo mensaje</value>
+        <value xml:lang="fa">پیام جدید</value>
         <value xml:lang="fr">Nouveau message</value>
         <value xml:lang="hi_IN">नयी सूचना</value>
         <value xml:lang="it">Nuovo messaggio</value>
@@ -4803,6 +4832,7 @@
         <value xml:lang="da">Bestil returordre notits</value>
         <value xml:lang="de">Auftragsrückstand Bekanntmachung</value>
         <value xml:lang="en">Order Backorder Notice</value>
+        <value xml:lang="fa">اعلان پیش‌خرید سفارش</value>
         <value xml:lang="fr">Confirmation du retour de commande</value>
         <value xml:lang="it">Conferma restituzione ordine</value>
         <value xml:lang="ja">注文取り寄せ通知</value>
@@ -4817,6 +4847,7 @@
         <value xml:lang="da">Ordreændring notits</value>
         <value xml:lang="de">Auftragsänderung Bekanntmachung</value>
         <value xml:lang="en">Order Change Notice</value>
+        <value xml:lang="fa">اعلان تغییر سفارش</value>
         <value xml:lang="fr">Confirmation du changement de votre commande</value>
         <value xml:lang="it">Conferma modifica ordine</value>
         <value xml:lang="ja">注文変更通知</value>
@@ -4831,6 +4862,7 @@
         <value xml:lang="da">Ordreafslutnings notits</value>
         <value xml:lang="de">Auftragsabschluss Bekanntmachung</value>
         <value xml:lang="en">Order Complete Notice</value>
+        <value xml:lang="fa">اعلان تکمیل سفارش</value>
         <value xml:lang="fr">Confirmation de fin de commande</value>
         <value xml:lang="hi_IN">आर्डर खत्म होने पर नोटिस</value>
         <value xml:lang="it">Notifica ordine completato</value>
@@ -4849,6 +4881,7 @@
         <value xml:lang="de">Auftragsbestätigung</value>
         <value xml:lang="en">Order Confirmation</value>
         <value xml:lang="es">Confirmación de Orden</value>
+        <value xml:lang="fa">تایید سفارش</value>
         <value xml:lang="fr">Confirmation de commande</value>
         <value xml:lang="it">Conferma ordine</value>
         <value xml:lang="ja">注文の確認</value>
@@ -4865,6 +4898,7 @@
         <value xml:lang="da">Ordrebekræftelse notits</value>
         <value xml:lang="de">Auftragsbestätigung Bekanntmachung</value>
         <value xml:lang="en">Order Confirmation Notice</value>
+        <value xml:lang="fa">اعلان تایید سفارش</value>
         <value xml:lang="fr">Avis de confirmation de commande</value>
         <value xml:lang="it">Avviso di conferma ordine</value>
         <value xml:lang="ja">注文確認通知</value>
@@ -4880,6 +4914,7 @@
         <value xml:lang="de">Bestellhistorie</value>
         <value xml:lang="en">Order History</value>
         <value xml:lang="es">Historial de Compra</value>
+        <value xml:lang="fa">تاریخ سفارش</value>
         <value xml:lang="fr">Historique des commandes</value>
         <value xml:lang="hi_IN">आर्डर इतिहास</value>
         <value xml:lang="it">Storia ordini</value>
@@ -4898,6 +4933,7 @@
         <value xml:lang="da">Betaling notits ved gentagne forsøg</value>
         <value xml:lang="de">Bezahlung erneuter Versuch Bekanntmachung</value>
         <value xml:lang="en">Payment Retry Notice</value>
+        <value xml:lang="fa">اعلان تکرار پرداخت</value>
         <value xml:lang="fr">Nouvel essai de paiement</value>
         <value xml:lang="it">Nuovo tentativo di pagamento</value>
         <value xml:lang="ja">支払再試行通知</value>
@@ -4914,6 +4950,7 @@
         <value xml:lang="de">Bestellstatus</value>
         <value xml:lang="en">Order Status</value>
         <value xml:lang="es">Estado de la Compra</value>
+        <value xml:lang="fa">وضعیت سفارش</value>
         <value xml:lang="fr">Statut de la commande</value>
         <value xml:lang="hi_IN">आर्डर सूचना</value>
         <value xml:lang="it">Stato ordine</value>
@@ -4934,6 +4971,7 @@
         <value xml:lang="de">Bestellzusammenfassung - Vielen Dank für Ihre Bestellung!</value>
         <value xml:lang="en">Order Summary - Thank you for your order!</value>
         <value xml:lang="es">Resumen de la Compra - Grácias por su compra!</value>
+        <value xml:lang="fa">خلاصه سفارش - با تشکر فرآوان از شما!</value>
         <value xml:lang="fr">Résumé de la commande - Merci pour votre commande !</value>
         <value xml:lang="hi_IN">आर्डर विवरण - आर्डर के लिए धन्यवाद !</value>
         <value xml:lang="it">Sommario ordine - Grazie per il tuo ordine!</value>
@@ -4954,6 +4992,7 @@
         <value xml:lang="de">Produktbewertung</value>
         <value xml:lang="en">Product Review</value>
         <value xml:lang="es">Revisión de Productos</value>
+        <value xml:lang="fa">بازبینی محصول</value>
         <value xml:lang="fr">Revue d'article</value>
         <value xml:lang="it">Recensione del prodotto</value>
         <value xml:lang="ja">製品レビュー</value>
@@ -4973,6 +5012,7 @@
         <value xml:lang="de">Profil Befragung</value>
         <value xml:lang="en">Profile Survey</value>
         <value xml:lang="es">Encuesta de Perfíl</value>
+        <value xml:lang="fa">پروفایل نظرسنجی</value>
         <value xml:lang="fr">Profil : sondage</value>
         <value xml:lang="it">Quadro Generale</value>
         <value xml:lang="ja">プロファイル評価</value>
@@ -4992,6 +5032,7 @@
         <value xml:lang="de">Anfrageantwort</value>
         <value xml:lang="en">Request Return</value>
         <value xml:lang="es">Solicitud de devolución</value>
+        <value xml:lang="fa">درخواست بازده</value>
         <value xml:lang="fr">Demande de retour</value>
         <value xml:lang="it">Richiesta di reso</value>
         <value xml:lang="ja">返品リクエスト</value>
@@ -5010,6 +5051,7 @@
         <value xml:lang="de">Seiten suchen</value>
         <value xml:lang="en">Search Sites</value>
         <value xml:lang="es">Buscar Sitios</value>
+        <value xml:lang="fa">جستجوی سایت</value>
         <value xml:lang="fr">Sites de recherche</value>
         <value xml:lang="hi_IN">साइट देखिये</value>
         <value xml:lang="it">Siti di ricerca</value>
@@ -5028,6 +5070,7 @@
         <value xml:lang="de">Gesendete Meldungen</value>
         <value xml:lang="en">Sent Messages</value>
         <value xml:lang="es">Mensajes enviados</value>
+        <value xml:lang="fa">پیام‌های فرستاده‌شده</value>
         <value xml:lang="fr">Messages envoyés</value>
         <value xml:lang="hi_IN">भेजा हुआ सन्देश</value>
         <value xml:lang="it">Messaggi inviati</value>
@@ -5045,6 +5088,7 @@
         <value xml:lang="da">Forsendelse afsluttet notits</value>
         <value xml:lang="de">Lieferung abgeschlossen Bekanntmachung</value>
         <value xml:lang="en">Shipment Complete Notice</value>
+        <value xml:lang="fa">اعلان تکمیل حمل‌ونقل</value>
         <value xml:lang="fr">Avis de Livraison</value>
         <value xml:lang="it">Notifica di spedizione completata</value>
         <value xml:lang="ja">発送完了通知</value>
@@ -5060,6 +5104,7 @@
         <value xml:lang="de">Versandinformationen</value>
         <value xml:lang="en">Shipping Information</value>
         <value xml:lang="es">Información de envñio</value>
+        <value xml:lang="fa">اطلاعات حمل‌ونقل</value>
         <value xml:lang="fr">Information d'expédition</value>
         <value xml:lang="hi_IN">भेजने का विवरण</value>
         <value xml:lang="it">Spedizione</value>
@@ -5078,6 +5123,7 @@
         <value xml:lang="de">Versand Einstellungen</value>
         <value xml:lang="en">Shipping Options</value>
         <value xml:lang="es">Opciones de envío</value>
+        <value xml:lang="fa">گزینه‌های حمل‌ونقل</value>
         <value xml:lang="fr">Options d'expédition</value>
         <value xml:lang="hi_IN">भेजने के उपाय</value>
         <value xml:lang="it">Opzioni di spedizione</value>
@@ -5098,6 +5144,7 @@
         <value xml:lang="en">Shopping Cart</value>
         <value xml:lang="en_GB">Shopping basket</value>
         <value xml:lang="es">Carro de la Compra</value>
+        <value xml:lang="fa">کارت خرید</value>
         <value xml:lang="fr">Panier</value>
         <value xml:lang="hi_IN">खरीदारी टोकरी</value>
         <value xml:lang="it">Carrello</value>
@@ -5117,6 +5164,7 @@
         <value xml:lang="de">Positionen aufteilen für Versand</value>
         <value xml:lang="en">Split Items For Shipping</value>
         <value xml:lang="es">Dividir Artículos para envío</value>
+        <value xml:lang="fa">جداسازی اقلام برای حمل‌ونقل</value>
         <value xml:lang="fr">Dissocier les articles lors de l'expédition</value>
         <value xml:lang="it">Dividi gli articoli per spedizioni</value>
         <value xml:lang="ja">発送時にアイテムを分割</value>
@@ -5132,6 +5180,7 @@
     <property key="PageTitleTagResults">
         <value xml:lang="de">Tag Suchergebnis</value>
         <value xml:lang="en">Tag results</value>
+        <value xml:lang="fa">نتایح برچسب‌ها</value>
         <value xml:lang="fr">Résultats de la recherche par étiquette</value>
         <value xml:lang="ja">タグ結果</value>
         <value xml:lang="vi">Đánh dấu (Tag) kết quả</value>
@@ -5142,6 +5191,7 @@
         <value xml:lang="de">Blog anzeigen</value>
         <value xml:lang="en">View Blog</value>
         <value xml:lang="es">Ver blog</value>
+        <value xml:lang="fa">نمای بلاگ</value>
         <value xml:lang="fr">Voir le blog</value>
         <value xml:lang="it">Mostra blog</value>
         <value xml:lang="ja">ブログの表示</value>
@@ -5159,6 +5209,7 @@
         <value xml:lang="de">Inhalt anzeigen</value>
         <value xml:lang="en">View Content</value>
         <value xml:lang="es">Ver Contenido</value>
+        <value xml:lang="fa">نمای محتوا</value>
         <value xml:lang="fr">Voir le contenu</value>
         <value xml:lang="it">Mostra contenuto</value>
         <value xml:lang="ja">コンテンツの表示</value>
@@ -5177,6 +5228,7 @@
         <value xml:lang="de">Profil ansehen</value>
         <value xml:lang="en">View Profile</value>
         <value xml:lang="es">Ver perfil</value>
+        <value xml:lang="fa">نمای پروفایل</value>
         <value xml:lang="fr">Visualisation du profil</value>
         <value xml:lang="it">Mostra profilo</value>
         <value xml:lang="ja">プロファイルの表示</value>
@@ -5193,6 +5245,7 @@
     <property key="PageTitleViewQuote">
         <value xml:lang="da">Vis tilbud</value>
         <value xml:lang="en">View Quote</value>
+        <value xml:lang="fa">نمای مظنه</value>
         <value xml:lang="fr">Voir les devis</value>
         <value xml:lang="it">Mostra preventivo</value>
         <value xml:lang="ja">見積の表示</value>

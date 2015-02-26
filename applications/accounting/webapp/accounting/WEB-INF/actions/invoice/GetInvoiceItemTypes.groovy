@@ -24,6 +24,7 @@ import org.ofbiz.entity.condition.EntityConditionBuilder;
 import org.ofbiz.entity.condition.EntityConditionList;
 import org.ofbiz.entity.condition.EntityExpr;
 import org.ofbiz.entity.condition.EntityOperator;
+import org.ofbiz.entity.GenericValue;
 
 import javolution.util.FastList;
 
@@ -74,8 +75,9 @@ if ("SALES_INVOICE".equals(invoice.invoiceTypeId)) {
     invoiceItemTypes = delegator.findList("InvoiceItemType", itemTypesCond, null, ["parentTypeId", "invoiceItemTypeId"], null, false);
     glAccountOrganizationAndClassList = delegator.findByAnd("GlAccountOrganizationAndClass", [organizationPartyId : invoice.partyId], null, false);
 } else {
-    map = delegator.findByAnd("InvoiceItemTypeMap", [invoiceTypeId : invoice.invoiceTypeId], null, true);
-    invoiceItemTypes = EntityUtil.getRelated("InvoiceItemType", map, null, false);
+    list = delegator.findByAnd("InvoiceItemTypeMap", [invoiceTypeId : invoice.invoiceTypeId], null, true);
+    invoiceItemTypes = EntityUtil.getRelated("InvoiceItemType", null, list, false);
+    glAccountOrganizationAndClassList = delegator.findByAnd("GlAccountOrganizationAndClass", [organizationPartyId : invoice.partyId], null, false);
 }
 context.invoiceItemTypes = invoiceItemTypes;
 

@@ -841,7 +841,23 @@ public class UtilMisc {
         return RightToLeftLocaleList;
     }
 
+<<<<<<< HEAD
 >>>>>>> df11098... ofbiz-commit
+=======
+    public static String hideIgnoreCaseLocaleString = null;
+    /** Returns a List of hideIgnoreCase locales sorted by display name */
+    public static String hideIgnoreCaseLocales() {
+        if (hideIgnoreCaseLocaleString == null) {
+            synchronized(UtilMisc.class) {
+                if (hideIgnoreCaseLocaleString == null) {
+                    hideIgnoreCaseLocaleString = UtilProperties.getPropertyValue("general", "locales.hideIgnoreCase");
+                }
+            }
+        }
+        return hideIgnoreCaseLocaleString;
+    }
+
+>>>>>>> 33de98a... before finding out that updateInvoiceApplication service is missinggit status
     /** @deprecated use Thread.sleep() */
     @Deprecated
     public static void staticWait(long timeout) throws InterruptedException {

@@ -3709,8 +3709,11 @@ public class ModelFormField {
             return this.defaultOption;
         }
 
-        public boolean getHideIgnoreCase() {
-            return this.hideIgnoreCase;
+        public boolean getHideIgnoreCase(Map<String, Object> context) {
+            Locale locale = (Locale) context.get("locale");
+            if (locale == null) return this.hideIgnoreCase;
+            return this.hideIgnoreCase ||
+                UtilMisc.hideIgnoreCaseLocales().contains(locale.getLanguage()) ? true : false;
         }
 
         public boolean getHideOptions() {

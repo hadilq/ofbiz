@@ -8,7 +8,6 @@
     to you under the Apache License, Version 2.0 (the
     "License"); you may not use this file except in compliance
     with the License.  You may obtain a copy of the License at
-
     http://www.apache.org/licenses/LICENSE-2.0
 
     Unless required by applicable law or agreed to in writing,
@@ -348,6 +347,7 @@
         <value xml:lang="de">Ausgeschaltet Zeitpunkt</value>
         <value xml:lang="en">Disabled Date Time</value>
         <value xml:lang="es">Fecha/hora deshabilitado</value>
+        <value xml:lang="fa">تاریخ زمان غیرفعال‌شده</value>
         <value xml:lang="fr">Désactivé depuis</value>
         <value xml:lang="hi_IN">निष्क्रिय दिनांक समय</value>
         <value xml:lang="it">Data Ora Disabilitazione</value>
@@ -413,6 +413,7 @@
         <value xml:lang="de">Eingeschaltet</value>
         <value xml:lang="en">Enabled</value>
         <value xml:lang="es">Habilitado</value>
+        <value xml:lang="fa">فعال‌شده</value>
         <value xml:lang="fr">Valide</value>
         <value xml:lang="hi_IN">सक्रिय</value>
         <value xml:lang="it">Abilitato</value>
@@ -480,6 +481,7 @@
         <value xml:lang="de">Von Akteur ID</value>
         <value xml:lang="en">From Party Id</value>
         <value xml:lang="es">Código Participante origen</value>
+        <value xml:lang="fa">از آی‌دی هم‌مشرب</value>
         <value xml:lang="fr">Expéditeur</value>
         <value xml:lang="hi_IN">पार्टी क्रमांक से</value>
         <value xml:lang="it">Dal Soggetto</value>
@@ -1163,6 +1165,7 @@
         <value xml:lang="de">Akteur ID von</value>
         <value xml:lang="en">From Party ID</value>
         <value xml:lang="es">Id Grupo Origen</value>
+        <value xml:lang="fa">از آی‌دی هم‌مشرب</value>
         <value xml:lang="fr">De l'acteur</value>
         <value xml:lang="hi_IN">पार्टी क्रमांक से</value>
         <value xml:lang="it">Soggetto Da</value>
@@ -1180,6 +1183,7 @@
         <value xml:lang="de">Akteur ID zu</value>
         <value xml:lang="en">To Party ID</value>
         <value xml:lang="es">Id Grupo Destino</value>
+        <value xml:lang="fa">به آی‌دی هم‌مشرب</value>
         <value xml:lang="fr">Vers l'acteur</value>
         <value xml:lang="hi_IN">पार्टी क्रमांक को</value>
         <value xml:lang="it">Soggetto a</value>
@@ -1284,6 +1288,7 @@
     <property key="FormFieldTitle_partyTypeId">
         <value xml:lang="de">Gruppen Typ ID</value>
         <value xml:lang="en">Party Type Id</value>
+        <value xml:lang="fa">آی‌دی نوع هم‌مشرب</value>
         <value xml:lang="hi_IN">पार्टी के प्रकार का क्रमांक</value>
         <value xml:lang="it">Tipo soggetto</value>
         <value xml:lang="ja">取引先種類ID</value>
@@ -1330,6 +1335,7 @@
         <value xml:lang="de">Passworthinweis</value>
         <value xml:lang="en">Password Hint</value>
         <value xml:lang="es">Sugerencia para clave</value>
+        <value xml:lang="fa">اشاره گذرواژه</value>
         <value xml:lang="fr">Astuce du mot de passe</value>
         <value xml:lang="hi_IN">पासवर्ड सुझाव</value>
         <value xml:lang="it">Suggerimento password</value>
@@ -1479,6 +1485,7 @@
         <value xml:lang="de">Rolle Typ ID</value>
         <value xml:lang="en">Role Type Id</value>
         <value xml:lang="es">Codigo Tipo de rol</value>
+        <value xml:lang="fa">آی‌دی نوع وظیفه</value>
         <value xml:lang="fr">Rôle</value>
         <value xml:lang="hi_IN">भूमिका प्रकार क्रमांक</value>
         <value xml:lang="it">Tipo Ruolo</value>
@@ -1496,6 +1503,7 @@
         <value xml:lang="de">Rolle Typ ID von</value>
         <value xml:lang="en">Role Type Id From</value>
         <value xml:lang="es">Código Tipo de rol desde</value>
+        <value xml:lang="fa">آی‌دی نوع وظیفه از</value>
         <value xml:lang="fr">Rôle d'origine</value>
         <value xml:lang="hi_IN">भूमिका प्रकार क्रमांक से</value>
         <value xml:lang="it">Tipo ruolo da</value>
@@ -1513,6 +1521,7 @@
         <value xml:lang="de">Rolle Typ ID nach</value>
         <value xml:lang="en">Role Type Id To</value>
         <value xml:lang="es">Código Tipo de rol hacia</value>
+        <value xml:lang="fa">آی‌دی نوع وظیفه به</value>
         <value xml:lang="fr">Rôle de destination</value>
         <value xml:lang="hi_IN">भूमिका प्रकार क्रमांक को</value>
         <value xml:lang="it">Tipo ruolo a</value>
@@ -1626,6 +1635,7 @@
         <value xml:lang="de">Anzahl nacheinanderfolgende fehlerhafte Anmeldeversuche</value>
         <value xml:lang="en">Successive Failed Logins</value>
         <value xml:lang="es">Conexiones consecutivas falladas</value>
+        <value xml:lang="fa">ورودهای شکست خورده موفق</value>
         <value xml:lang="fr">Nombre d'échec de connexion</value>
         <value xml:lang="hi_IN">लगातार असफल लॉगिन</value>
         <value xml:lang="it">Login Successivi Falliti</value>
@@ -1704,6 +1714,7 @@
     <property key="FormFieldTitle_toPartyId">
         <value xml:lang="de">Empfänger ID</value>
         <value xml:lang="en">To Party Id</value>
+        <value xml:lang="fa">به آی‌دی هم‌مشرب</value>
         <value xml:lang="fr">Acteur destinataire</value>
         <value xml:lang="hi_IN">पार्टी क्रमांक को</value>
         <value xml:lang="it">Al soggetto</value>
@@ -3326,7 +3337,7 @@
         <value xml:lang="zh_TW">匹配</value>
     </property>
     <property key="PartyAdjustInAccountingComponent">
-        <value xml:lang="de"></value>
+        <value xml:lang="de"/>
         <value xml:lang="en">Adjust in accounting component</value>
         <value xml:lang="fr">Ajuster en comptabilité</value>
         <value xml:lang="hi_IN">लेखांकन घटक(accounting component) में समायोजित करें</value>
@@ -12237,6 +12248,7 @@
         <value xml:lang="de">Akteur Typ ID</value>
         <value xml:lang="en">Party Type Id</value>
         <value xml:lang="es">Código Tipo de participante</value>
+        <value xml:lang="fa">آی‌دی نوع هم‌مشرب</value>
         <value xml:lang="fr">Type identifiant</value>
         <value xml:lang="hi_IN">पार्टी के प्रकार का क्रमांक</value>
         <value xml:lang="it">Tipo Soggetto</value>
