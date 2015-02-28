@@ -28,7 +28,7 @@
             <MeterNumber>${MeterNumber?xml}</MeterNumber>
             <CarrierCode>${CarrierCode?xml}</CarrierCode>
         </RequestHeader>
-        <ShipDate>${ShipDate?string("yyyy-MM-dd")}</ShipDate>
+        <ShipDate>${Static["org.ofbiz.base.util.UtilDateTime"].toDateString(ShipDate, context)}</ShipDate>
         <ShipTime>${ShipTime?string("hh:mm:ss")}</ShipTime>
         <DropoffType>${DropoffType?xml}</DropoffType>
         <Service>${Service?xml}</Service>
@@ -104,7 +104,7 @@
             <HomeDelivery>
                 <Type>${HomeDeliveryType?xml}</Type>
                 <#if HomeDeliveryDate?exists>
-                    <Date>${HomeDeliveryDate?string("yyyy-MM-dd")}</Date>
+                    <Date>${Static["org.ofbiz.base.util.UtilDateTime"].toDateString(HomeDeliveryDate, context)}</Date>
                 </#if>
                 <PhoneNumber>${DestinationContactPhoneNumber?xml}</PhoneNumber>
             </HomeDelivery>

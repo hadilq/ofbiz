@@ -62,13 +62,13 @@
     <td>${uiLabelMap.CommonDelete}</td>
   </tr>
 </#if>
-<#if contentAssoc?has_content>  
+<#if contentAssoc?has_content>
        <#assign alt_row = false/>
        <#assign listcount=0>
       <#list contentAssoc as contentData>
       <#if tabButtonItem=="ListContentTree">
         <#--Form ListContentTree-->
-          <tr <#if alt_row> class="alternate-row"</#if>> 
+          <tr <#if alt_row> class="alternate-row"</#if>>
               <td><a class="plain" href="javascript:set_value('${contentData.contentId?if_exists}')">${contentData.contentId?if_exists}</a></td>
               <td>${contentData.contentName?if_exists}</td>
               <td>${contentData.mimeTypeId?if_exists}</td>
@@ -82,8 +82,8 @@
               <td>${contentData.mimeTypeId?if_exists}</td>
               <td>${contentData.statusId?if_exists}</td>
               <#if contentData.caFromDate?has_content>
-             <#assign caFromDate = Static["org.ofbiz.base.util.UtilDateTime"].toDateString(contentData.caFromDate, "dd/MM/yyyy")/>
-            </#if> 
+             <#assign caFromDate = Static["org.ofbiz.base.util.UtilDateTime"].toDateString(contentData.caFromDate, context)/>
+            </#if>
               <td>${caFromDate?if_exists}</td>
               <td><a href="javascript:document.listDocumentForm_${listcount}.submit()" >${uiLabelMap.CommonDelete}</a></td>
           </tr>

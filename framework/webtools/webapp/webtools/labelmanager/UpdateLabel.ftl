@@ -19,6 +19,7 @@ under the License.
 <<<<<<< HEAD
 =======
 <#assign RightToLeftLocales = Static["org.ofbiz.base.util.UtilMisc"].RightToLeftLocales()/>
+<#assign langAttr = locale.toLanguageTag()>
 <#assign langDir = "ltr">
 <#if RightToLeftLocales?contains(langAttr?substring(0, 2))>
     <#assign langDir = "rtl">
@@ -102,6 +103,7 @@ under the License.
                         <#assign locale = Static["org.ofbiz.base.util.UtilMisc"].parseLocale(localeFound)?if_exists/>
                         <#if locale?exists && locale?has_content>
 <<<<<<< HEAD
+<<<<<<< HEAD
                             <#assign langAttr = localeFound.toString()?replace("_", "-")>
 <<<<<<< HEAD
                             <#assign langDir = "ltr">
@@ -113,6 +115,9 @@ under the License.
 =======
                             <#assign langAttr = localeFound.toLanguageTag()>
 >>>>>>> 55bc110... modifying avalableLocales and listLocales to use Locale.forLanguageTag instead of toString
+=======
+                            <#assign langAttr = locale.toLanguageTag()>
+>>>>>>> dd92556... adding toDateString and toDateTimeString
                             <td lang="${langAttr}" dir="${langDir}" class="label">
                                 ${locale.getDisplayName(locale)}
                             </td>

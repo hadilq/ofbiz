@@ -137,7 +137,7 @@ under the License.
     <service name="createInvoiceRole" engine="simple" default-entity-name="InvoiceRole"
         location="component://accounting/script/org/ofbiz/accounting/invoice/InvoiceServices.xml" invoke="createInvoiceRole">
         <description>Create a new Invoice Role Record</description>
-        <permission-service service-name="acctgInvoicePermissionCheck" main-action="CREATE"/>
+        <permission-service service-name="acctgInvoicePermissionCheck" main-action="UPDATE"/>
         <auto-attributes mode="IN" include="pk" optional="false"/>
         <auto-attributes mode="IN" include="nonpk" optional="true"/>
     </service>

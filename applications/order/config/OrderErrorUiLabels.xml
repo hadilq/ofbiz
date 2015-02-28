@@ -1655,7 +1655,7 @@
         <value xml:lang="de">Fehler bei Erstellung des Rechnungskontos: </value>
         <value xml:lang="en">Error with createBillingAccount : </value>
         <value xml:lang="es">Error en la creación de la cuenta de facturación:</value>
-        <value xml:lang="fa">خطا با ساختن حساب قبض :</value>
+        <value xml:lang="fa">خطا با ساختن صورت‌حساب :</value>
         <value xml:lang="fr">Erreur avec la création du compte de facturation : </value>
         <value xml:lang="it">Errore con createBillingAccount : </value>
         <value xml:lang="ja">請求アカウントの作成でエラー: </value>
@@ -1671,7 +1671,7 @@
         <value xml:lang="de">Fehler bei Erstellung der Rechnungskonto-Rolle: </value>
         <value xml:lang="en">Error with createBillingAccountRole : </value>
         <value xml:lang="es">Error en la creación del rol de cuenta de facturación:</value>
-        <value xml:lang="fa">خطا با ساختن وظیفه حساب قبض</value>
+        <value xml:lang="fa">خطا با ساختن وظیفه صورت‌حساب</value>
         <value xml:lang="fr">Erreur avec la création du rôle de compte de facturation : </value>
         <value xml:lang="it">Errore con createBillingAccountRole : </value>
         <value xml:lang="ja">請求アカウントロールの作成でエラー: </value>
@@ -1831,7 +1831,7 @@
         <value xml:lang="de">Ungültiger Betrag für Rechnungskonto ${billingAccountId}</value>
         <value xml:lang="en">Invalid amount set for Billing Account # ${billingAccountId}</value>
         <value xml:lang="es">Monto inválido para cuenta de facturación # ${billingAccountId}</value>
-        <value xml:lang="fa">مقدار نامعتبر برای حساب قبض شماره ${billingAccountId} ثبت‌شده‌است</value>
+        <value xml:lang="fa">مقدار نامعتبر برای صورت‌حساب شماره ${billingAccountId} ثبت‌شده‌است</value>
         <value xml:lang="fr">Montant irrecevable pour facturer le compte ${billingAccountId}</value>
         <value xml:lang="it">Importo Invalido impostato per # Conto Fatturazione ${billingAccountId}</value>
         <value xml:lang="ja">請求アカウントNo ${billingAccountId} の金額セットが正しくありません</value>
@@ -1959,7 +1959,7 @@
         <value xml:lang="de">Kein Rechnungskonto verfügbar</value>
         <value xml:lang="en">No available billing account</value>
         <value xml:lang="es">Ninguna cuenta de facturación disponible</value>
-        <value xml:lang="fa">هیچ حساب قبض موجود نیست</value>
+        <value xml:lang="fa">هیچ صورت‌حساب موجود نیست</value>
         <value xml:lang="fr">Aucun compte de facturation disponible</value>
         <value xml:lang="it">Nessun conto fatturazione disponibile</value>
         <value xml:lang="ja">有効な請求アカウントがありません</value>
@@ -2776,7 +2776,7 @@
         <value xml:lang="de">Problem bei der Erstellung des Rechnungskontos</value>
         <value xml:lang="en">Problems creating billing account</value>
         <value xml:lang="es">Problemas creando cuenta de facturación</value>
-        <value xml:lang="fa">مشکلات در ساختن حساب قبض</value>
+        <value xml:lang="fa">مشکلات در ساختن صورت‌حساب</value>
         <value xml:lang="fr">Problèmes en créant le compte de facturation</value>
         <value xml:lang="it">Problemi creazione conto fatturazione</value>
         <value xml:lang="ja">請求アカウント作成中にエラー</value>
@@ -5415,7 +5415,7 @@
         <value xml:lang="de">Ungültiger Betrag für Rechnungskonto #${billingAccountId} eingesetzt .</value>
         <value xml:lang="en">Invalid amount set for Billing Account #${billingAccountId}.</value>
         <value xml:lang="es">El importe indicado no es válido para la cuenta de facturación #${billingAccountId}.</value>
-        <value xml:lang="fa">مقدار نامعتبر برای حساب قبض شماره ${billingAccountId} ثبت‌شده‌است.</value>
+        <value xml:lang="fa">مقدار نامعتبر برای صورت‌حساب شماره ${billingAccountId} ثبت‌شده‌است.</value>
         <value xml:lang="fr">Montant retenu non valide pour facturer le compte n°${billingAccountId}.</value>
         <value xml:lang="it">Importo Invalido impostato per # Billing Account ${billingAccountId}.</value>
         <value xml:lang="ja">請求アカウントNo ${billingAccountId} の金額設定が正しくありません。</value>

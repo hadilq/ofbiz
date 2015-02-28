@@ -38,7 +38,7 @@ under the License.
                 </td>
                 <td width="5%">&nbsp;</td>
                 <td valign="top" width="70%">
-                    ${(Static["org.ofbiz.base.util.UtilDateTime"].toDateTimeFormat(context).format(custRequest.createdDate))?if_exists}
+                    ${(Static["org.ofbiz.base.util.UtilDateTime"].toDateTimeString(custRequest.createdDate, context))?if_exists}
                 </td>
             </tr>
             <tr><td colspan="7"><hr /></td></tr>
@@ -48,7 +48,7 @@ under the License.
                 </td>
                 <td width="5%">&nbsp;</td>
                 <td valign="top" width="70%">
-                    ${(Static["org.ofbiz.base.util.UtilDateTime"].toDateTimeFormat(context).format(custRequest.lastModifiedDate))?if_exists}
+                    ${(Static["org.ofbiz.base.util.UtilDateTime"].toDateTimeString(custRequest.lastModifiedDate, context))?if_exists}
                 </td>
             </tr>
         </table>

@@ -1614,7 +1614,7 @@
     <property key="GlAccountType.description.COMMISSIONS_PAYABLE">
         <value xml:lang="de">Kommissionsgebühren</value>
         <value xml:lang="en">Commissions Payables</value>
-        <value xml:lang="fa">پراخت‌های حق‌کارمزد</value>
+        <value xml:lang="fa">پراخت‌های کارمزد</value>
         <value xml:lang="fr">Commissions payables</value>
         <value xml:lang="hi_IN">देय दलाली</value>
         <value xml:lang="it">Provvigioni a debito</value>
@@ -1627,7 +1627,7 @@
     <property key="GlAccountType.description.COMMISSIONS_WRITEOFF">
         <value xml:lang="de">Abschreibung von Kommissionierungskosten</value>
         <value xml:lang="en">Commissions Payables Write Off</value>
-        <value xml:lang="fa">کسر پرداخت‌های حق‌کارمزد</value>
+        <value xml:lang="fa">کسر پرداخت‌های کارمزد</value>
         <value xml:lang="hi_IN">देय दलाली राइट ऑफ</value>
         <value xml:lang="it">Provvigioni a credito</value>
         <value xml:lang="ja">委託費用償却</value>
@@ -1639,7 +1639,7 @@
     <property key="GlAccountType.description.COMMISSION_EXPENSE">
         <value xml:lang="de">Kommisionsausgaben</value>
         <value xml:lang="en">Commission Expense</value>
-        <value xml:lang="fa">مخارج حق‌کارمزد</value>
+        <value xml:lang="fa">مخارج کارمزد</value>
         <value xml:lang="fr">Frais de commission</value>
         <value xml:lang="hi_IN">दलाली व्यय</value>
         <value xml:lang="it">Provvigioni sulle spese</value>
@@ -2523,7 +2523,7 @@
     <property key="InvoiceItemType.description.COMM_INV_ADJ">
         <value xml:lang="de">Provisionsanpassung</value>
         <value xml:lang="en">Commission Invoice Adjustment</value>
-        <value xml:lang="fa">تعدیل فاکتور حق‌کارمزد</value>
+        <value xml:lang="fa">تعدیل فاکتور کارمزد</value>
         <value xml:lang="fr">Ajustement sur commission</value>
         <value xml:lang="hi_IN">दलाली चालान समायोजन</value>
         <value xml:lang="it">Aggiustamenti fattura provvigioni</value>
@@ -2536,7 +2536,7 @@
     <property key="InvoiceItemType.description.COMM_INV_ITEM">
         <value xml:lang="de">Provisions-Rechnungsposten</value>
         <value xml:lang="en">Commission Invoice Line Item</value>
-        <value xml:lang="fa">قلم صف فاکتور حق‌کارمزد</value>
+        <value xml:lang="fa">قلم صف فاکتور کارمزد</value>
         <value xml:lang="fr">Ajustement sur ligne de commission</value>
         <value xml:lang="hi_IN">दलाली चालान लाइन आइटम</value>
         <value xml:lang="it">Riga fattura provvigioni</value>
@@ -3380,7 +3380,7 @@
     <property key="InvoiceItemType.description.PAYROL_COMMISSION">
         <value xml:lang="de">Provision</value>
         <value xml:lang="en">Commission</value>
-        <value xml:lang="fa">حق‌کارمزد</value>
+        <value xml:lang="fa">کارمزد</value>
         <value xml:lang="hi_IN">दलाली</value>
         <value xml:lang="it">Provvigione</value>
         <value xml:lang="ja">委託手数料</value>
@@ -4907,7 +4907,7 @@
     <property key="PaymentType.description.COMMISSION_PAYMENT">
         <value xml:lang="de">Kommissionszahlung</value>
         <value xml:lang="en">Commission Payment</value>
-        <value xml:lang="fa">پرداخت حق‌کارمزد</value>
+        <value xml:lang="fa">پرداخت کارمزد</value>
         <value xml:lang="fr">Paiement de commission</value>
         <value xml:lang="hi_IN">दलाली भुगतान</value>
         <value xml:lang="it">Pagamento Provvigioni</value>
@@ -5366,7 +5366,7 @@
         <value xml:lang="de">Gebrauchssteuer</value>
         <value xml:lang="en">Use Tax</value>
         <value xml:lang="es">Impuesto de uso</value>
-        <value xml:lang="fa">مالیات استفاده</value>
+        <value xml:lang="fa">استفاده‌کردن از مالیات</value>
         <value xml:lang="fr">Taxe d'utilisation (pas en France)</value>
         <value xml:lang="hi_IN">उपभोग कर</value>
         <value xml:lang="it">Tassa sull'utilizzo</value>

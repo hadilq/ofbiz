@@ -22,7 +22,7 @@
         <value xml:lang="de">Benötigter Parameter 'delegator' fehlt.</value>
         <value xml:lang="en">Required parameter 'delegator' not passed.</value>
         <value xml:lang="es">No se proporciono el parametro 'delegator'</value>
-        <value xml:lang="fa">پارامتر «نماینده» لازم است ولی داده‌نشده‌است.</value>
+        <value xml:lang="fa">پارامتر «نماینده» الزامی است ولی داده‌نشده‌است.</value>
         <value xml:lang="fr">Le paramètre obligatoire 'delegator' n'a pas fonctionné.</value>
         <value xml:lang="it">Parametro 'delegator' richiesto non passato.</value>
         <value xml:lang="ja">必要なパラメータ 'デリゲータ' が渡されませんでした。</value>
@@ -66,7 +66,7 @@
         <value xml:lang="de">Benötigter Parameter 'dispatcher' fehlt</value>
         <value xml:lang="en">Required parameter 'dispatcher' not passed</value>
         <value xml:lang="es">El parametro 'dispatcher' no se transmitio</value>
-        <value xml:lang="fa">پارامتر «گسیل‌کننده» لازم است ولی داده‌نشده‌است</value>
+        <value xml:lang="fa">پارامتر «گسیل‌کننده» الزامی است ولی داده‌نشده‌است</value>
         <value xml:lang="fr">le paramètre obligatoire 'dispatcher' n'a pas fonctionné</value>
         <value xml:lang="it">Parameter 'dispatcher' richiesto non passato</value>
         <value xml:lang="ja">必要なパラメータ 'ディスパッチャ' が渡されませんでした。</value>
@@ -165,7 +165,7 @@
         <value xml:lang="de">Sie müssen einen Servicenamen 'SERVICE_NAME' und optional einen Modus angeben (sync oder async, standardmässig auf sync)</value>
         <value xml:lang="en">You must specify a 'serviceName', and optionally a 'mode' (sync or async, defaults to sync)</value>
         <value xml:lang="es">Debe especificar un nombre de servicio y opcionalmente el modo (síncrono o asíncrono, Síncrono por defecto)</value>
-        <value xml:lang="fa">شما باید «نام سرویس»، و به‌صورت‌اختیاری «مود» (همزمان یا ناهمزمان، که پیش‌فرض همزمان است) را مشخص‌نمایید </value>
+        <value xml:lang="fa">شما باید «نام سرویس»، و به‌صورت‌اختیاری «حالت» (همزمان یا ناهمزمان، که پیش‌فرض همزمان است) را مشخص‌نمایید </value>
         <value xml:lang="fr">Vous devez spécifier un 'service Name', et optionnellement un mode (sync ou async, standard: sync)</value>
         <value xml:lang="it">Tu devi specificare un 'serviceName', e opzionalmente un 'mode' (sincrono o asincrono, defaults è sincrono)</value>
         <value xml:lang="ja">'サービス名'を指定してください、オプションで'モード' (同期/非同期、デフォルトは同期)も指定できます</value>

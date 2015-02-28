@@ -60,10 +60,18 @@ public class UtilDateTime {
     };
 
     public static final DecimalFormat df = new DecimalFormat("0.00;-0.00");
+
     /**
-     * JDBC escape format for java.sql.Date conversions.
+     * JDBC escape format for java.sql.Timestamp conversions.
      */
     public static final String DATE_FORMAT = "yyyy-MM-dd";
+
+    /**
+     * Return Date format of defined locales
+     *
+     * @param a locale
+     * @return format string of that locale
+     */
     public static String getDateFormat(Locale locale) {
         if (locale != null && ("fa-IR".equals(locale.toLanguageTag())
             || "fa-IR-u-ca-jalali".equals(locale.toLanguageTag())
@@ -74,10 +82,31 @@ public class UtilDateTime {
         }
 
     }
+
+    /**
+     * Return Date format of defined locales
+     *
+     * @param context to find the locale
+     * @return format string of that locale
+     */
+    public static String getDateFormat(Map<String, ? extends Object> context) {
+        Locale locale = (Locale) context.get("locale");
+        if (locale == null) locale = Locale.getDefault();
+
+        return getDateFormat(locale);
+    }
+
     /**
      * JDBC escape format for java.sql.Timestamp conversions.
      */
     public static final String DATE_TIME_FORMAT = "yyyy-MM-dd HH:mm:ss.SSS";
+
+    /**
+     * Return DateTime format of defined locales
+     *
+     * @param a locale
+     * @return format string of that locale
+     */
     public static String getDateTimeFormat(Locale locale) {
         if (locale != null && ("fa-IR".equals(locale.toLanguageTag())
             || "fa-IR-u-ca-jalali".equals(locale.toLanguageTag())
@@ -87,6 +116,19 @@ public class UtilDateTime {
             return "yyyy-MM-dd HH:mm:ss";
         }
 
+    }
+
+    /**
+     * Return Date format of defined locales
+     *
+     * @param context to find the locale
+     * @return format string of that locale
+     */
+    public static String getDateTimeFormatFromContext(Map<String, ? extends Object> context) {
+        Locale locale = (Locale) context.get("locale");
+        if (locale == null) locale = Locale.getDefault();
+
+        return getDateTimeFormat(locale);
     }
     /**
      * JDBC escape format for java.sql.Time conversions.
@@ -225,6 +267,25 @@ public class UtilDateTime {
     public static String nowDateString(String format) {
         SimpleDateFormat df = new SimpleDateFormat(format);
         return df.format(new Date());
+    }
+
+    /**
+     * Return a string formatted as format which is given by getDateFormat(locale)
+     *
+     * @param context which is included the locale
+     * @return String formatted for right now
+     */
+    public static String nowDateString(Map<String, ? extends Object> context) {
+        return toDateFormat(context).format(new Date());
+    }
+
+    /**
+     * Return a string formatted as format which is given by getDateFormat(locale)
+     *
+     * @return String formatted for right now
+     */
+    public static String nowDateTimeString(Map<String, ? extends Object> context) {
+        return toDateTimeFormat(context).format(new Date());
     }
 
     /**
@@ -651,6 +712,30 @@ public class UtilDateTime {
      */
     public static String toDateString(java.util.Date date) {
         return toDateString(date, "MM/dd/yyyy");
+    }
+
+    /**
+     * Makes a date String in the format of getDateFormat(locale) from a Date
+     *
+     * @param date The Date
+     * @param context which is included the locale
+     * @return A date String in the format that determined by of getDateFormat(locale)
+     */
+    public static String toDateString(java.util.Date date, Map<String, ? extends Object> context) {
+        if (date == null) return null;
+        return toDateFormat(context).format(date);
+    }
+
+    /**
+     * Makes a datetime String in the format of getDateTimeFormat(locale) from a Date
+     *
+     * @param date The Date
+     * @param context which is included the locale
+     * @return A date String in the format that determined by of getDateTimeFormat(locale)
+     */
+    public static String toDateTimeString(java.util.Date date, Map<String, ? extends Object> context) {
+        if (date == null) return null;
+        return toDateTimeFormat(context).format(date);
     }
 
     /**

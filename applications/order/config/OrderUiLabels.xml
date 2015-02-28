@@ -12114,7 +12114,7 @@
     <property key="OrderReturnLabelEmailSuccessful">
         <value xml:lang="de">Retouren Aufkleber in E-Mail erfolgreich versandt</value>
         <value xml:lang="en">Return shipping label email successfully sent</value>
-        <value xml:lang="fa">ایمیل برچسب حمل بازگشتی با موفقیت فرستاده‌شده</value>
+        <value xml:lang="fa">ایمیل برچسب حمل بازگشتی باموفقیت فرستاده‌شده</value>
         <value xml:lang="fr">Envoi de l'email de confirmation de réception du retour effectué</value>
         <value xml:lang="it">Email etichetta reso spedizione inviata con successo</value>
         <value xml:lang="ja">返品発送ラベルのEメールを送信しました</value>
@@ -14633,7 +14633,7 @@
     <property key="OrderUpdateReturnAdjustment">
         <value xml:lang="de">Retourenanpassung mit Id:${returnAdjustmentId} zu Betrag ${amount} erfolgreich geändert.</value>
         <value xml:lang="en">Update ReturnAdjustment with Id:${returnAdjustmentId} to amount ${amount} successfully.</value>
-        <value xml:lang="fa">بروزرسانی تعدیل بازگشتی با آی‌دی :${returnAdjustmentId} به مقدار ${amount} با موفقیت.</value>
+        <value xml:lang="fa">بروزرسانی تعدیل بازگشتی با آی‌دی :${returnAdjustmentId} به مقدار ${amount} باموفقیت.</value>
         <value xml:lang="fr">La mise à jour de ligne d'ajustement de référence ${returnAdjustmentId} a été effectuée avec le montant ${amount}.</value>
         <value xml:lang="it">Aggiornato aggiustamento reso:${returnAdjustmentId} per l'importo ${amount} con successo.</value>
         <value xml:lang="ja">返品調整 ID:${returnAdjustmentId} の金額が、${amount} に変更されました。</value>

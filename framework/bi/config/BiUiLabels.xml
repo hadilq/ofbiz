@@ -99,14 +99,14 @@
     </property>
     <property key="BusinessIntelligenceNaturalKeyWithourDimension">
         <value xml:lang="en">The natural key: ${naturalKeyFields} is empty in value: ${dimensionValue}</value>
-        <value xml:lang="fa">کلید طبیعی ${naturalKeyFields} خالی می‌باشد: ${dimensionValue}</value>
+        <value xml:lang="fa">کلید طبیعی ${naturalKeyFields} مقدار خالی می‌باشد: ${dimensionValue}</value>
         <value xml:lang="it">La chiave naturale: ${naturalKeyFields} è vuota nel valore: ${dimensionValue}</value>
         <value xml:lang="ja">自然キー: ${naturalKeyFields} が値: ${dimensionValue} で空です</value>
         <value xml:lang="zh">值：${dimensionValue} 中的自然键：${naturalKeyFields} 是空的</value>
     </property>
     <property key="BusinessIntelligenceNote10">
         <value xml:lang="en">The best practices for datawarehouses are mainly taken from the great book "The Data Warehouse Toolkit - Second Edition" by Ralph Kimball.</value>
-        <value xml:lang="fa">بهترین تمرین‌های datawarehouse از کتاب آقای Ralph Kimball به نام «The Data Warehouse Toolkit - Second Edition» هستند.</value>
+        <value xml:lang="fa">بهترین تمرین‌های «انبارکالا داده» از کتاب آقای Ralph Kimball به نام «The Data Warehouse Toolkit - Second Edition» هستند.</value>
         <value xml:lang="fr">Les bonnes pratiques pour datawarehouses sont principalement tirées du fameux livre "The Data Warehouse Toolkit - Second Edition" by Ralph Kimball.</value>
         <value xml:lang="it">Sono state ricavate le migliori pratiche per i datawarehouses dal grande libro "The Data Warehouse Toolkit - Second Edition" di Ralph Kimball.</value>
         <value xml:lang="ja">データウェアハウスのベストプラックティスは偉大な書籍 "The Data Warehouse Toolkit - Second Edition" by Ralph Kimball の中で詳しく述べられています。</value>
@@ -132,7 +132,7 @@
     </property>
     <property key="BusinessIntelligenceNote13">
         <value xml:lang="en">The main low level services to post data to the datawarehouse,</value>
-        <value xml:lang="fa">datawarehouse لایه اصلی پایینی خدمات برای ارسال اطلاعات به</value>
+        <value xml:lang="fa">لایه اصلی پایینی خدمات برای ارسال داده به «انبارکالا داده»</value>
         <value xml:lang="fr">Les principaux services de bas niveau pour envoyer des données au datawarehouse,</value>
         <value xml:lang="it">I servizi principali a basso livello per ricavare i dati del datawarehouse,</value>
         <value xml:lang="ja">主に下位(子)のサービスでデータウェアハウスにデータが送信されます、</value>
@@ -141,7 +141,7 @@
     </property>
     <property key="BusinessIntelligenceNote14">
         <value xml:lang="en">to map the operational keys with the datawarehouse ones, and to manage</value>
-        <value xml:lang="fa">برای نگاشتن کلید‌‌های موثر به datawarehouse و برای مدیرت آن‌ها</value>
+        <value xml:lang="fa">برای نگاشتن کلید‌‌های موثر به «انبارکالا داده» و برای مدیرت آن‌ها</value>
         <value xml:lang="fr">pour aligner les clefs opérationnelles avec celles du datawarehouse, et contrôler</value>
         <value xml:lang="it">la mappa di chiavi operazionali con il datawarehouse, e la gestione</value>
         <value xml:lang="ja">操作キーとデータウェアハウスをマップし、</value>
@@ -150,7 +150,7 @@
     </property>
     <property key="BusinessIntelligenceNote15">
         <value xml:lang="en">history of data changes are already implemented; they will be improved as the datawarehouse will grow (e.g. performance enhancements).</value>
-        <value xml:lang="fa">تاریخچه تغییرات اطلاعات اعمال شده است. با گسترش datawarehouse این تغییرات بهبود خواهد یافت. (e.g. performance enhancements)</value>
+        <value xml:lang="fa">تاریخچه تغییرات اطلاعات اعمال شده است. با گسترش «انبارکالا داده» این تغییرات بهبود خواهد یافت. (e.g. performance enhancements)</value>
         <value xml:lang="fr">l'historique des changements de données sont déjà implémentés. Ils seront améliorés quand le datawarehouse se développera (par exemple des perfectionnements en performance).</value>
         <value xml:lang="it">storia di cambio di dati che sono già implementati; sarà aumentato di caratteristiche non appena crescerà il datawarehouse (e.g. aumento prestazioni).</value>
         <value xml:lang="ja">履歴データの変更の管理を行うことがすでに実装されています: データウェアハウスの成長に合わせてそれらも見直されます (たとえばパフォーマンスの改善)</value>
@@ -159,7 +159,7 @@
     </property>
     <property key="BusinessIntelligenceNote16">
         <value xml:lang="en">The following dimensions (and data services) are defined: CurrencyDimension, DateDimension, ProductDimension;</value>
-        <value xml:lang="fa">ابعاد پیشرو (و اطلاعات خدمات) تغریف شدند: بعد‌پولی، بعد‌اطلاعات، بعد‌تولید:</value>
+        <value xml:lang="fa">ابعاد پیشرو (و داده خدمات) تغریف شدند: «بعد ‌پولی»، «بعد‌ داده»، «بعد‌ تولید»:</value>
         <value xml:lang="fr">Les dimensions suivantes (et les services de données) sont définis : dimension de devise, dimension de date, dimension d'article</value>
         <value xml:lang="it">Le seguenti dimensioni (e servizi dei dati) sono definiti: CurrencyDimension, DateDimension, ProductDimension;</value>
         <value xml:lang="ja">次のディメンジョン (およびデータサービス) が定義されています: 通貨ディメンジョン、日付ディメンジョン、製品ディメンジョン、</value>
@@ -168,7 +168,7 @@
     </property>
     <property key="BusinessIntelligenceNote17">
         <value xml:lang="en">we will have to complete them and design the other ones (the total number of dimension will be probably around 20).</value>
-        <value xml:lang="fa">ما باید آن‌ها را کامل کنیم و بقیه را طراحی کنیم (تعداد کل ابعاد چیزی در حدود ۲۰ مورد می‌باشد)</value>
+        <value xml:lang="fa">ما باید آن‌ها را کامل کنیم و دیگران را طراحی کنیم (تعداد مجموع ابعاد چیزی در حدود ۲۰ مورد می‌باشد)</value>
         <value xml:lang="fr">Nous devrons les compléter et en concevoir d'autres (le nombre total de dimension sera probablement autour 20).</value>
         <value xml:lang="it">verranno usati per completare questi e disegnare gli altri (il numero totale di dimensioni saranno probabilmente circa 20).</value>
         <value xml:lang="ja">私たちはそれを完了させ、別のものを設計する必要があります (ディメンジョンの合計は約20になります)。</value>
@@ -177,7 +177,7 @@
     </property>
     <property key="BusinessIntelligenceNote18">
         <value xml:lang="en">Just one fact and one star schema are defined: SalesInvoiceItemFact and SalesInvoiceItemStarSchema.</value>
-        <value xml:lang="fa">فقط یک واقعیت و یک برنامه ستاره‌دار تغریف شده است: صورت‌حساب‌فروش و برنامه‌صورت‌حساب‌فروش</value>
+        <value xml:lang="fa">فقط یک واقعیت و یک برنامه ستاره‌دار تغریف شده است: «واقعیت قلم فاکتور فروش» و «برنامه ستاره‌دار قلم فاکتور فروش»</value>
         <value xml:lang="fr">Seul un fait et un schéma d'étoile sont définis : SalesInvoiceItemFact et SalesInvoiceItemStarSchema.</value>
         <value xml:lang="it">Solo un fatto e uno star schema sono definiti: SalesInvoiceItemFact e SalesInvoiceItemStarSchema.</value>
         <value xml:lang="ja">ファクトが1つとスタースキーマが1つ定義されています: 販売請求書明細ファクト および 販売請求書明細スタースキーマ。</value>
@@ -186,7 +186,7 @@
     </property>
     <property key="BusinessIntelligenceNote19">
         <value xml:lang="en">You can quickly initialize the datawarehouse by clicking on the link below:</value>
-        <value xml:lang="fa">شما با کلیک روی لینک زیر می‌توانید به سرعت datawarehouse را پیاده‌سازی نمایید</value>
+        <value xml:lang="fa">شما با کلیک روی لینک زیر می‌توانید به سرعت «انبارکالا داده» را پیاده‌سازی نمایید</value>
         <value xml:lang="fr">Vous pouvez rapidement initialiser le datawarehouse en cliquant sur le lien ci-dessous :</value>
         <value xml:lang="it">Tu puoi velocemente inizializzare il datawarehouse facendo click sul link qui sotto:</value>
         <value xml:lang="ja">次のリンクをクリックすると、データウェアハウスを簡単に初期化することができます:</value>
@@ -221,7 +221,7 @@
     </property>
     <property key="BusinessIntelligenceNote22">
         <value xml:lang="en">The report builder is a very simple tool that allows you to run</value>
-        <value xml:lang="fa">تهیه‌گزارش ابزار بسیار ساده‌ایی است برای اجرا کردن</value>
+        <value xml:lang="fa">تهیه‌گزارش ابزار بسیار ساده‌ایی است برای اجراء کردن</value>
         <value xml:lang="fr">Le générateur de rapport est un outil très simple qui vous permet d'exécuter</value>
         <value xml:lang="it">La costruzione report è uno strumento molto semplice che ti permette di eseguire</value>
         <value xml:lang="ja">レポートビルダは、分析を実行するための、非常にシンプルなツールです。</value>
@@ -275,7 +275,7 @@
     </property>
     <property key="BusinessIntelligenceNote28">
         <value xml:lang="en">all the descriptions you see in the report screens are pulled from the entity definitions.</value>
-        <value xml:lang="fa">تمام توضیحاتی که در صفخه گزارش می‌بینید با توجه به تعاریف بدست‌آمده‌اند</value>
+        <value xml:lang="fa">همه توضیحاتی که در صفخه گزارش می‌بینید با توجه به تعاریف نهاد بدست‌آمده‌اند</value>
         <value xml:lang="fr">Toutes les descriptions que vous voyez dans les écrans de rapport sont tirées des définitions d'entités.</value>
         <value xml:lang="it">tutte le descrizioni che tu vedrai nelle scrermate del report sono prelevare dalla definizioni delle entità.</value>
         <value xml:lang="ja">レポート画面のすべての定義がエンティティの定義から抽出されます。</value>
@@ -284,7 +284,7 @@
     </property>
     <property key="BusinessIntelligenceNote29">
         <value xml:lang="en">The initialization is needed only once, because the product data and sales invoice data</value>
-        <value xml:lang="fa">به مقدمات فقط یک بار نیاز است، به خاطر اطلاعات تولید و اطلاعات صورت حساب فروش</value>
+        <value xml:lang="fa">به مقدمات فقط یک بار نیاز است، به خاطر داده محصول و داده فاکتور فروش</value>
         <value xml:lang="fr">L'initialisation n'est nécessaire qu'une fois, parce que les données d'articles et de factures de vente sont</value>
         <value xml:lang="it">L'inizializzazione è necessaria solo una volta, perchè i dati dei prodotti e delle fatture di vendita</value>
         <value xml:lang="ja">製品データおよび販売請求データのために、初期化は1回だけ必要です。</value>
@@ -293,7 +293,7 @@
     </property>
     <property key="BusinessIntelligenceNote2">
         <value xml:lang="en">The idea is to define a set entities for business intelligence analysis in a separate (olap) database,</value>
-        <value xml:lang="fa">ایده این است که مشخصات تحلیل تجارت هوشمند را در بانک‌های اطاعاتی جدا(olap) تعریف کنیم.</value>
+        <value xml:lang="fa">ایده این است که برای تحلیل تجارت هوشمند در بانک‌های داده جدا(olap) یک مجموعه از نهادها را تعریف کنیم.</value>
         <value xml:lang="fr">L'idée est de définir un ensemble d'entités pour l'analyse de l'Informatique décisionnelle dans une base de données séparée (OLAP),</value>
         <value xml:lang="it">L'idea è di definire un'insieme di entità per le analisi di business intelligence in un database (OLAP) separato,</value>
         <value xml:lang="ja">ビジネスインテリジェンス分析のために別の(OLAP)データベースにエンティティ一式を定義するという考えは、</value>
@@ -302,7 +302,7 @@
     </property>
     <property key="BusinessIntelligenceNote30">
         <value xml:lang="en">are kept updated by ecas: if you create/update a product or create a new invoice,</value>
-        <value xml:lang="fa">بروز نگهداری می‌شوند: اگر شما یک تولید جدید یا یک صورت حساب حدید را بسازید/بروز کنید</value>
+        <value xml:lang="fa">بروز نگهداری می‌شوند: اگر شما یک محصول جدید یا یک فاکتور جدید را بسازید/بروز کنید</value>
         <value xml:lang="fr">sont maintenues à jour par ECAS (Evènements/Conditions/Actions). Si vous créez/mettez à jour un article ou créez une nouvelle facture,</value>
         <value xml:lang="it">sono mantenuti aggiornati dagli ecas: ogni volta che crei/aggiorni un prodotto o crei una nuova fattura,</value>
         <value xml:lang="ja">製品の作成/更新または新規請求の作成時のECAS更新で保たれます。</value>
@@ -311,7 +311,7 @@
     </property>
     <property key="BusinessIntelligenceNote31">
         <value xml:lang="en">the new information will be immediately included in the datawarehouse analysis.</value>
-        <value xml:lang="fa">اطاعات جدید در یک لحظه در تحلیل datawarehouse وارد خواهند شد</value>
+        <value xml:lang="fa">اطلاعات جدید در یک لحظه در تحلیل «انبارکالا داده» وارد خواهند شد</value>
         <value xml:lang="fr">la nouvelle information sera immédiatement incluse dans l'analyse du datawarehouse.</value>
         <value xml:lang="it">la nuova informazione sarà immediatamente inclusa nelle analisi del datawarehouse.</value>
         <value xml:lang="ja">新しい情報はデータウェアハウス分析の中に直接取り込まれます。</value>
@@ -320,7 +320,7 @@
     </property>
     <property key="BusinessIntelligenceNote3">
         <value xml:lang="en">accessible, in the same way as the main one (OLTP), via the delegator.</value>
-        <value xml:lang="fa">قابل دسترسی، به همان روش (OLTP) اصلی، بوسیله نشانگر</value>
+        <value xml:lang="fa">قابل دسترسی، به همان روش (OLTP) اصلی، بوسیله نماینده.</value>
         <value xml:lang="fr">accessibles, de la même manière que pour la base de données principale (OLTP), par l'intermédiaire du délégateur.</value>
         <value xml:lang="it">accessibile, nello stesso modo di quello principale (OLTP), attraverso un delegator.</value>
         <value xml:lang="ja">理解しやすく、主流(OLAP)と同じ方法で、デリゲータによって実現します。</value>
@@ -329,7 +329,7 @@
     </property>
     <property key="BusinessIntelligenceNote4">
         <value xml:lang="en">The new olap database, will contain all the entities necessary to datawarehouse analysis:</value>
-        <value xml:lang="fa">بانک اطلاعاتی olap جدید تمام مشخصات لازم برای تحلیل datawarehouse را خواهد داشت</value>
+        <value xml:lang="fa">بانک اطلاعاتی olap جدید همه مشخصات لازم برای تحلیل «انبارکالا داده» را خواهد داشت</value>
         <value xml:lang="fr">La nouvelle base de données OLAP, contiendra toutes les entités nécessaires à l'analyse du datawarehouse :</value>
         <value xml:lang="it">Il nuovo database olap, conterrà tutte le entità necessarie alle analisi di datawarehouse: </value>
         <value xml:lang="ja">新しいOLAPデータベースはデータウェアハウス分析に必要なエンティティを全て含んでいます。</value>
@@ -346,7 +346,7 @@
     </property>
     <property key="BusinessIntelligenceNote6">
         <value xml:lang="en">The dimensions, facts and star schemas are defined according to best practices for datawarehouses</value>
-        <value xml:lang="fa">ابعاد، واقعیت‌ها و برنامه‌های ستاره‌دار با توجه به بهترین حالت برای datawarehouses تعریف می‌شوند</value>
+        <value xml:lang="fa">ابعاد، واقعیت‌ها و برنامه‌های ستاره‌دار با توجه به بهترین حالت برای «انبارکالا داده» تعریف می‌شوند</value>
         <value xml:lang="fr">Les dimensions, les faits et les schémas en étoile sont définis selon les bonnes pratiques pour les datawarehouses </value>
         <value xml:lang="it">Le dimensioni, fatti e star schemas sono definiti in accordo alle migliori pratiche per i datawarehouses</value>
         <value xml:lang="ja">ディメンジョン、ファクト、そしてスタースキーマはデータウェアハウスのベストプラックティス、</value>
@@ -372,7 +372,7 @@
     </property>
     <property key="BusinessIntelligenceNote9">
         <value xml:lang="en">by meta data descriptions (in the entity def).</value>
-        <value xml:lang="fa">بوسیله اطلاعات جانبی توضیحات (در تعریف مشخصات)</value>
+        <value xml:lang="fa">بوسیله داده جانبی توضیحات (در تعریف نهاد)</value>
         <value xml:lang="fr">par des méta descriptions de données (dans les définitions d'entités)</value>
         <value xml:lang="it">mediante le descrizioni dei meta dati (nella definizione entità).</value>
         <value xml:lang="ja">メタデータ定義が使用されます (エンティティ定義の中で)。</value>
@@ -390,7 +390,7 @@
     </property>
     <property key="BusinessIntelligenceQuickStartGuide">
         <value xml:lang="en">Quick Start Guide</value>
-        <value xml:lang="fa">راهنمای شرع سریع</value>
+        <value xml:lang="fa">راهنمای شروع سریع</value>
         <value xml:lang="fr">Guide de démarrage rapide</value>
         <value xml:lang="it">Guida Rapida</value>
         <value xml:lang="ja">クイックスタートガイド</value>

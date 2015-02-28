@@ -77,7 +77,7 @@ under the License.
               <#if returnInfo.entryDate?exists>
                 <#assign entryDate = Static["org.ofbiz.base.util.UtilDateTime"].toDateTimeFormat(context).format(returnInfo.get("entryDate"))>
               </#if>
-              <@htmlTemplate.renderDateTimeField name="entryDate" event="" action="" value="${entryDate?if_exists}" className="" alert="" title="Format: yyyy-MM-dd HH:mm:ss.SSS" size="25" maxlength="30" id="entryDate1" dateType="date" shortDateInput=false timeDropdownParamName="" defaultDateTimeString="" localizedIconTitle="" timeDropdown="" timeHourName="" classString="" hour1="" hour2="" timeMinutesName="" minutes="" isTwelveHour="" ampmName="" amSelected="" pmSelected="" compositeType="" formName=""/>
+              <@htmlTemplate.renderDateTimeField name="entryDate" event="" action="" value="${entryDate?if_exists}" className="" alert="" title="Format: ${Static["org.ofbiz.base.util.UtilDateTime"].getDateTimeFormat(context)}.SSS" size="25" maxlength="30" id="entryDate1" dateType="date" shortDateInput=false timeDropdownParamName="" defaultDateTimeString="" localizedIconTitle="" timeDropdown="" timeHourName="" classString="" hour1="" hour2="" timeMinutesName="" minutes="" isTwelveHour="" ampmName="" amSelected="" pmSelected="" compositeType="" formName=""/>
             </td>
           </tr>
           <tr>

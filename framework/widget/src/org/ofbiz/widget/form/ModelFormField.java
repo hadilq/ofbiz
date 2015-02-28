@@ -2197,15 +2197,21 @@ public class ModelFormField {
             } else if ("date".equals(this.type)) {
                 Date date = null;
 
-                if (ObjRetVal instanceof Timestamp)
+                if (ObjRetVal instanceof Timestamp){
                     date = new Date(((Timestamp) ObjRetVal).getTime());
-                else {
+                    DateFormat dateFormatter = UtilDateTime.toDateFormat(context);
+                    //DateFormat dateFormatter = DateFormat.getDateInstance(DateFormat.SHORT, locale);
+                    retVal = dateFormatter.format(date);
+                } else {
                     StringToTimestamp stringToTimestamp = new DateTimeConverters.StringToTimestamp();
 
                     try { // FIXME: There shouldn't be any string date here! but they are!
                         Timestamp timestamp = null;
                         timestamp = stringToTimestamp.convert((String) ObjRetVal, context);
                         date = new Date(timestamp.getTime());
+
+                        DateFormat dateFormatter = UtilDateTime.toDateFormat(context);
+                        retVal = dateFormatter.format(date);
                     }
                     catch (ConversionException e) {
                         String errMsg = "Error formatting date using default instead [" + retVal + "]: " + e.toString();
@@ -2214,21 +2220,24 @@ public class ModelFormField {
                         retVal = ((String) ObjRetVal).substring(0,10);
                     }
                 }
-                DateFormat dateFormatter = UtilDateTime.toDateFormat(context);
-                //DateFormat dateFormatter = DateFormat.getDateInstance(DateFormat.SHORT, locale);
-                retVal = dateFormatter.format(date);
 
             } else if ("date-time".equals(this.type)) {
                 Date date = null;
 
-                if (ObjRetVal instanceof Timestamp)
+                if (ObjRetVal instanceof Timestamp){
                     date = new Date(((Timestamp) ObjRetVal).getTime());
-                else {
+
+                    DateFormat dateFormatter = UtilDateTime.toDateTimeFormat(context);
+                    retVal = dateFormatter.format(date);
+                } else {
                     StringToTimestamp stringToTimestamp = new DateTimeConverters.StringToTimestamp();
                     Timestamp timestamp = null;
                     try {
                         timestamp = stringToTimestamp.convert((String) ObjRetVal, context);
                         date = new Date(timestamp.getTime());
+
+                        DateFormat dateFormatter = UtilDateTime.toDateTimeFormat(context);
+                        retVal = dateFormatter.format(date);
                     }
                     catch (ConversionException e) {
                         String errMsg = "Error formatting date/time using default instead [" + retVal + "]: " + e.toString();
@@ -2237,8 +2246,6 @@ public class ModelFormField {
                         retVal = ((String) ObjRetVal).substring(0,16);
                     }
                 }
-                DateFormat dateFormatter = UtilDateTime.toDateTimeFormat(context);
-                retVal = dateFormatter.format(date);
 
 >>>>>>> df11098... ofbiz-commit
             } else if ("accounting-number".equals(this.type)) {

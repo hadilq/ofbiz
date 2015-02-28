@@ -39,7 +39,7 @@
         <value xml:lang="de">Beispiel Formel für Stückliste (qty * k)</value>
         <value xml:lang="en">Example bom formula (qty * k)</value>
         <value xml:lang="es">Ejemplo de fórmula (cant * k)</value>
-        <value xml:lang="fa">مثاث برای فرمول صورت‌حساب‌اقلام (qty * k)</value>
+        <value xml:lang="fa">مثال برای فرمول صورت‌حساب‌اقلام (کمیت * k)</value>
         <value xml:lang="fr">Exemple de formule de nomenclature (qté * k)</value>
         <value xml:lang="it">Esempio formula distinta base (qnt * k)</value>
         <value xml:lang="ja">部品表公式例 (数量 * k)</value>
@@ -124,7 +124,7 @@
     <property key="DataSource.description.LEAD_COLDCALL">
         <value xml:lang="en">LEAD_COLDCALL</value>
         <value xml:lang="es">Telemárketing</value>
-        <value xml:lang="fa">تماس برای فروش</value>
+        <value xml:lang="fa">تماس برای فروش سرمشق</value>
         <value xml:lang="fr">Télémarketing</value>
         <value xml:lang="it">Telefonata leader</value>
         <value xml:lang="ja">電話</value>
@@ -138,7 +138,7 @@
     <property key="DataSource.description.LEAD_CONFERENCE">
         <value xml:lang="en">LEAD_CONFERENCE</value>
         <value xml:lang="es">Conferencia</value>
-        <value xml:lang="fa">کنفرانس</value>
+        <value xml:lang="fa">کنفرانس سرمشق</value>
         <value xml:lang="fr">Conférence</value>
         <value xml:lang="it">Conferenza leader</value>
         <value xml:lang="ja">カンファレンス</value>
@@ -152,7 +152,7 @@
     <property key="DataSource.description.LEAD_DIRECTMAIL">
         <value xml:lang="en">LEAD_DIRECTMAIL</value>
         <value xml:lang="es">Correo directo</value>
-        <value xml:lang="fa">پست مستقیم</value>
+        <value xml:lang="fa">پست مستقیم سرمشق</value>
         <value xml:lang="fr">Courriel</value>
         <value xml:lang="it">Email diretta al leader</value>
         <value xml:lang="ja">ダイレクトメール</value>
@@ -166,7 +166,7 @@
     <property key="DataSource.description.LEAD_EMPLOYEE">
         <value xml:lang="en">LEAD_EMPLOYEE</value>
         <value xml:lang="es">Empleado</value>
-        <value xml:lang="fa">کارمندان</value>
+        <value xml:lang="fa">کارمندان سرمشق</value>
         <value xml:lang="fr">Employé</value>
         <value xml:lang="it">Impiegato del leader</value>
         <value xml:lang="ja">従業員</value>
@@ -180,7 +180,7 @@
     <property key="DataSource.description.LEAD_EXISTCUST">
         <value xml:lang="en">LEAD_EXISTCUST</value>
         <value xml:lang="es">Cliente existente</value>
-        <value xml:lang="fa">هزینه خروج</value>
+        <value xml:lang="fa">هزینه خروج سرمشق</value>
         <value xml:lang="fr">Client existant</value>
         <value xml:lang="it">Leader cliente esistente</value>
         <value xml:lang="ja">既存顧客</value>
@@ -194,7 +194,7 @@
     <property key="DataSource.description.LEAD_OTHER">
         <value xml:lang="en">LEAD_OTHER</value>
         <value xml:lang="es">Otro</value>
-        <value xml:lang="fa">ادامه</value>
+        <value xml:lang="fa">دیگر سرمشق</value>
         <value xml:lang="fr">Autre</value>
         <value xml:lang="it">Altro leader</value>
         <value xml:lang="ja">その他</value>
@@ -208,7 +208,7 @@
     <property key="DataSource.description.LEAD_PARTNER">
         <value xml:lang="en">LEAD_PARTNER</value>
         <value xml:lang="es">Partner</value>
-        <value xml:lang="fa">شریک</value>
+        <value xml:lang="fa">شریک سرمشق</value>
         <value xml:lang="fr">Partenaire</value>
         <value xml:lang="it">Leader del socio</value>
         <value xml:lang="ja">取引先</value>
@@ -222,7 +222,7 @@
     <property key="DataSource.description.LEAD_PR">
         <value xml:lang="en">LEAD_PR</value>
         <value xml:lang="es">Relaciones públicas</value>
-        <value xml:lang="fa">روابط عمومی</value>
+        <value xml:lang="fa">روابط عمومی سرمشق</value>
         <value xml:lang="fr">Relations publiques</value>
         <value xml:lang="it">Pubbliche relazioni leader</value>
         <value xml:lang="ja">広告</value>
@@ -236,7 +236,7 @@
     <property key="DataSource.description.LEAD_SELFGEN">
         <value xml:lang="en">LEAD_SELFGEN</value>
         <value xml:lang="es">Interno</value>
-        <value xml:lang="fa">تولید داخلی</value>
+        <value xml:lang="fa">تولید داخلی سرمشق</value>
         <value xml:lang="fr">Généré en interne</value>
         <value xml:lang="it">Generato internamente</value>
         <value xml:lang="ja">自己開拓</value>
@@ -250,7 +250,7 @@
     <property key="DataSource.description.LEAD_TRADESHOW">
         <value xml:lang="en">LEAD_TRADESHOW</value>
         <value xml:lang="es">Demostración</value>
-        <value xml:lang="fa">نسخه نمایشی تجاری</value>
+        <value xml:lang="fa">نسخه آزمایشی سرمشق</value>
         <value xml:lang="fr">Démo commerciale</value>
         <value xml:lang="it">Dimostrazione commerciale</value>
         <value xml:lang="ja">展示会</value>
@@ -264,7 +264,7 @@
     <property key="DataSource.description.LEAD_WEBSITE">
         <value xml:lang="en">LEAD_WEBSITE</value>
         <value xml:lang="es">Página web</value>
-        <value xml:lang="fa">وب‌سایت</value>
+        <value xml:lang="fa">وب‌سایت سرمشق</value>
         <value xml:lang="fr">Site Web</value>
         <value xml:lang="it">Sito web leader</value>
         <value xml:lang="ja">Webサイト</value>
@@ -278,7 +278,7 @@
     <property key="DataSource.description.LEAD_WORDOFMOUTH">
         <value xml:lang="en">LEAD_WORDOFMOUTH</value>
         <value xml:lang="es">Boca a oreja</value>
-        <value xml:lang="fa">کلمات شفاهی</value>
+        <value xml:lang="fa">کلمات شفاهی سرمشق</value>
         <value xml:lang="fr">Bouche à oreille</value>
         <value xml:lang="it">Parola del mese leader</value>
         <value xml:lang="ja">口コミ</value>
@@ -292,7 +292,7 @@
         <value xml:lang="de">Verkaufskanal: Mitglieder</value>
         <value xml:lang="en">Affiliate Channel</value>
         <value xml:lang="es">Canal de afiliados</value>
-        <value xml:lang="fa">کانال واحد وابسته</value>
+        <value xml:lang="fa">کانال واحدوابسته</value>
         <value xml:lang="fr">Canal de vente : affilié</value>
         <value xml:lang="it">Canale affiliato</value>
         <value xml:lang="ja">アフィリエイト</value>
@@ -334,7 +334,7 @@
     <property key="Enumeration.description.CASH_IN_REASON">
         <value xml:lang="en">Petty Cash Paid into Till</value>
         <value xml:lang="es">Cobro por caja</value>
-        <value xml:lang="fa">تنخواه گردان پرداخت شده به دخل</value>
+        <value xml:lang="fa">وجه‌نقد تنخواه‌گردان پرداخت شده به دخل</value>
         <value xml:lang="fr">Entrée d'espèces dans la caisse</value>
         <value xml:lang="it">Contanti messi in cassa</value>
         <value xml:lang="ja">小口現金引出</value>
@@ -347,7 +347,7 @@
     <property key="Enumeration.description.CASH_OUT_REASON">
         <value xml:lang="en">Petty Cash out</value>
         <value xml:lang="es">Pago por caja</value>
-        <value xml:lang="fa">تنخواه خارج شده</value>
+        <value xml:lang="fa">وجه‌نقد تنخواه‌گردان خارج شده</value>
         <value xml:lang="fr">Sortie d'espèces de la caisse</value>
         <value xml:lang="it">Contanti usciti dalla cassa</value>
         <value xml:lang="ja">小口現金支払</value>
@@ -701,7 +701,7 @@
     <property key="Enumeration.description.FAC_SERVICE_BODY">
         <value xml:lang="en">Service Body</value>
         <value xml:lang="es">Cuerpo de servicio</value>
-        <value xml:lang="fa">سازمان خدمات</value>
+        <value xml:lang="fa">بدنه سرویس</value>
         <value xml:lang="fr">Organisme de services</value>
         <value xml:lang="it">Servizio corpo</value>
         <value xml:lang="ja">サービスボディ</value>
@@ -769,7 +769,7 @@
         <value xml:lang="de">Verkaufskanal: Fax</value>
         <value xml:lang="en">Fax Channel</value>
         <value xml:lang="es">Fax</value>
-        <value xml:lang="fa">کانال فکس</value>
+        <value xml:lang="fa">کانال دورنگار</value>
         <value xml:lang="fr">Canal de vente : fax</value>
         <value xml:lang="it">Canale fax</value>
         <value xml:lang="ja">FAXチャネル</value>
@@ -1060,7 +1060,7 @@
         <value xml:lang="de">FIFO erhalten</value>
         <value xml:lang="en">FIFO Received</value>
         <value xml:lang="es">Recepción FIFO</value>
-        <value xml:lang="fa">دریافت FIFO</value>
+        <value xml:lang="fa">FIFO‌ دریافت‌شده</value>
         <value xml:lang="fr">FIFO reçu</value>
         <value xml:lang="it">FIFO ricevuto</value>
         <value xml:lang="ja">先入先出法入庫</value>
@@ -1076,7 +1076,7 @@
         <value xml:lang="de">Grössere Einheit Kosten</value>
         <value xml:lang="en">Greater Unit Cost</value>
         <value xml:lang="es">Precio de coste máximo</value>
-        <value xml:lang="fa">واحد هزینه بزرگتر</value>
+        <value xml:lang="fa">هزینه واحد بزرگتر</value>
         <value xml:lang="fr">Coût supérieur</value>
         <value xml:lang="it">Maggiore del costo unitario</value>
         <value xml:lang="ja">大単位原価</value>
@@ -1109,7 +1109,7 @@
         <value xml:lang="de">LIFO erhalten</value>
         <value xml:lang="en">LIFO Received</value>
         <value xml:lang="es">Recepción LIFO</value>
-        <value xml:lang="fa">دریافت LIFO</value>
+        <value xml:lang="fa">LIFO دریافت‌شده</value>
         <value xml:lang="fr">LIFO reçu</value>
         <value xml:lang="it">LIFO ricevuto</value>
         <value xml:lang="ja">後入先出法入庫</value>
@@ -1125,7 +1125,7 @@
         <value xml:lang="de">Kleinere Einheit Kosten</value>
         <value xml:lang="en">Less Unit Cost</value>
         <value xml:lang="es">Precio de coste mínimo</value>
-        <value xml:lang="fa">واحد هزینه کوچکتر</value>
+        <value xml:lang="fa">هزینه واحد کوچکتر</value>
         <value xml:lang="fr">Coût inférieur</value>
         <value xml:lang="it">Minore del costo unitario</value>
         <value xml:lang="ja">小単位原価</value>
@@ -1142,7 +1142,7 @@
         <value xml:lang="de">Fortlaufende Folgenummer (keine Lücken, pro Organisation)</value>
         <value xml:lang="en">Enforced Sequence (no gaps, per organization)</value>
         <value xml:lang="es">Secuencial (sin huecos, por organización)</value>
-        <value xml:lang="fa">دستور متوالی (بدون پرش، سازمانی)</value>
+        <value xml:lang="fa">دستور مرتب (بدون پرش، سازمانی)</value>
         <value xml:lang="fr">Ordre imposé (aucun saut, par organisation)</value>
         <value xml:lang="it">Sequenza forzata (nessuna pausa, per organizzazione)</value>
         <value xml:lang="ja">拡張連番(欠番なし、組織単位)</value>
@@ -1159,7 +1159,7 @@
         <value xml:lang="de">Neubeginn mit Finanzjahr (keine Lücken, pro Organisation, wird jedes Finanzjahr auf 1. zurückgesetzt)</value>
         <value xml:lang="en">Restart on Fiscal Year (no gaps, per org, reset to 1 each year)</value>
         <value xml:lang="es">Por ejercicio (sin huecos, por organiz., resetear a 1 cada año)</value>
-        <value xml:lang="fa">آغاز مجدد سال مالی (بدون پرش، برای هر سازمان، تنظیمات دوباره برای ۱ سال)</value>
+        <value xml:lang="fa">آغازمجدد سال مالی (بدون پرش، برای هر سازمان، تنظیمات دوباره برای ۱ سال)</value>
         <value xml:lang="fr">Reprendre sur l'année fiscale(aucun saut, par organisation, remise à 1 chaque année)</value>
         <value xml:lang="it">Riavvio ad anno fiscale (nessuna pausa, per organizzazione, azzeramento ad ogni anno)</value>
         <value xml:lang="ja">会計年度毎(欠番なし、組織単位、毎年リセット)</value>
@@ -1258,7 +1258,7 @@
         <value xml:lang="de">Breiter gefasster Begriff</value>
         <value xml:lang="en">Broader Term</value>
         <value xml:lang="es">Término más amplio</value>
-        <value xml:lang="fa">اصطلاح گسترده‌تر</value>
+        <value xml:lang="fa">دوره گسترده‌تر</value>
         <value xml:lang="fr">Terme le plus large</value>
         <value xml:lang="it">Termine più vasto</value>
         <value xml:lang="ja">広義語</value>
@@ -1346,7 +1346,7 @@
         <value xml:lang="de">Begriff für Mikro-Thesaurus</value>
         <value xml:lang="en">Micro-thesaurus Term</value>
         <value xml:lang="es">Término de la micro-enciclopedia</value>
-        <value xml:lang="fa">اصطلاح میکرو-خزینه</value>
+        <value xml:lang="fa">دوره میکرو-خزینه</value>
         <value xml:lang="fr">Terme du micro-thésaurus</value>
         <value xml:lang="it">Termine micro-lessico</value>
         <value xml:lang="ja">件名標目語</value>
@@ -1364,7 +1364,7 @@
         <value xml:lang="de">Enger gefasster Begriff</value>
         <value xml:lang="en">Narrower Term</value>
         <value xml:lang="es">Término más específico</value>
-        <value xml:lang="fa">نزدیکترین واژه</value>
+        <value xml:lang="fa">نزدیکترین دوره</value>
         <value xml:lang="fr">Terme le plus proche</value>
         <value xml:lang="it">Termine più stretto</value>
         <value xml:lang="ja">狭義語</value>
@@ -1381,7 +1381,7 @@
         <value xml:lang="de">Ähnlicher Begriff</value>
         <value xml:lang="en">Related Term</value>
         <value xml:lang="es">Término relacionado</value>
-        <value xml:lang="fa">واژه مرتبط</value>
+        <value xml:lang="fa">دوره مرتبط</value>
         <value xml:lang="fr">Terme apparenté</value>
         <value xml:lang="it">Termine relativo</value>
         <value xml:lang="ja">関連語</value>
@@ -1515,7 +1515,7 @@
         <value xml:lang="de">Abbuchen (Capture)</value>
         <value xml:lang="en">Capture</value>
         <value xml:lang="es">Capturar</value>
-        <value xml:lang="fa">گرفتن</value>
+        <value xml:lang="fa">دریافت</value>
         <value xml:lang="fr">Prélèvement</value>
         <value xml:lang="it">Cattura</value>
         <value xml:lang="ja">キャプチャ</value>
@@ -1548,7 +1548,7 @@
         <value xml:lang="de">Rückerstattung</value>
         <value xml:lang="en">Refund</value>
         <value xml:lang="es">Devolución</value>
-        <value xml:lang="fa">تامین مالی</value>
+        <value xml:lang="fa">بازپرداخت</value>
         <value xml:lang="fr">Remboursement</value>
         <value xml:lang="it">Rimborso</value>
         <value xml:lang="ja">返済</value>
@@ -1565,7 +1565,7 @@
         <value xml:lang="de">Freigabe</value>
         <value xml:lang="en">Release</value>
         <value xml:lang="es">Pago</value>
-        <value xml:lang="fa">انتشار</value>
+        <value xml:lang="fa">ترخیص</value>
         <value xml:lang="fr">Abandon</value>
         <value xml:lang="it">Rilascia</value>
         <value xml:lang="ja">解除</value>
@@ -1684,7 +1684,7 @@
         <value xml:lang="de">frei Grenze</value>
         <value xml:lang="en">Delivered At Frontier</value>
         <value xml:lang="es">Entregadas en frontera (DAF)</value>
-        <value xml:lang="fa">تحویل کالا در مرز</value>
+        <value xml:lang="fa">تحویل‌شده در مرز</value>
         <value xml:lang="fr">Livré à la frontière</value>
         <value xml:lang="it">Consegnato alla frontiera</value>
         <value xml:lang="ja">国境渡し</value>
@@ -1701,7 +1701,7 @@
         <value xml:lang="de">verzollt</value>
         <value xml:lang="en">Delivered Duty Paid</value>
         <value xml:lang="es">Entregadas derechos pagados (DDP)</value>
-        <value xml:lang="fa">تحویل کالا در مقصد با پرداخت همه هزینه‌ها</value>
+        <value xml:lang="fa">تحویل‌شده با پرداخت هزینه‌ها</value>
         <value xml:lang="fr">Livré dédouané</value>
         <value xml:lang="it">Consegnato dazio pagato</value>
         <value xml:lang="ja">仕向地持込渡し(関税込)</value>
@@ -1718,7 +1718,7 @@
         <value xml:lang="de">frei unverzollt</value>
         <value xml:lang="en">Delivered Duty Unpaid</value>
         <value xml:lang="es">Entregadas derechos no pagados (DDU)</value>
-        <value xml:lang="fa">تحویل کالا در مقصد بدون پرداخت همه هزینه‌ها</value>
+        <value xml:lang="fa">تحویل‌شده بدون پرداخت هزینه‌ها</value>
         <value xml:lang="fr">Livré droit de douane impayé</value>
         <value xml:lang="it">Consegnato dazio non pagato</value>
         <value xml:lang="ja">仕向地持込渡し(関税抜)</value>
@@ -1735,7 +1735,7 @@
         <value xml:lang="de">frei ab Kai</value>
         <value xml:lang="en">Delivered Ex Quay</value>
         <value xml:lang="es">Entregadas en muelle (DEQ)</value>
-        <value xml:lang="fa">تحويل كالا روي اسلكه در بندر مقصد</value>
+        <value xml:lang="fa">تحویل‌شده روي اسلكه در بندر مقصد</value>
         <value xml:lang="fr">Livré à quai</value>
         <value xml:lang="it">Consegnato in banchina</value>
         <value xml:lang="ja">埠頭持込渡し</value>
@@ -1752,7 +1752,7 @@
         <value xml:lang="de">frei ab Schiff</value>
         <value xml:lang="en">Delivered Ex Ship</value>
         <value xml:lang="es">Entregadas sobre buque (DES)</value>
-        <value xml:lang="fa">تحويل كالا روي عرشه كشتي در بندر مقصد</value>
+        <value xml:lang="fa">تحویل‌شده روي عرشه كشتي در بندر مقصد</value>
         <value xml:lang="fr">Livré à bord</value>
         <value xml:lang="it">Consegnato per nave</value>
         <value xml:lang="ja">本船持込渡し</value>
@@ -1978,7 +1978,7 @@
         <value xml:lang="de">Konto Tage seit Erstellung</value>
         <value xml:lang="en">Account Days Since Created</value>
         <value xml:lang="es">Días desde la creación de la cuenta</value>
-        <value xml:lang="fa">(روز)طول عمر حساب‌ از زمان درست شدن</value>
+        <value xml:lang="fa">طول عمر حساب‌ از زمان ساخته‌شدن(روز)</value>
         <value xml:lang="fr">Jours comptabilisés depuis la création</value>
         <value xml:lang="it">Giorni dalla creazione conto</value>
         <value xml:lang="ja">作成後受渡日数</value>
@@ -1995,7 +1995,7 @@
         <value xml:lang="de">Warenkorb Zwischentotal</value>
         <value xml:lang="en">Cart Sub-total</value>
         <value xml:lang="es">Subtotal del pedido</value>
-        <value xml:lang="fa">سبدخرید زیرمجموعه</value>
+        <value xml:lang="fa">زیر-مجموع سبد</value>
         <value xml:lang="fr">Sous-total du panier</value>
         <value xml:lang="it">Sub-totale carrello</value>
         <value xml:lang="ja">買い物かご小計</value>
@@ -2040,7 +2040,7 @@
     <property key="Enumeration.description.PPIP_ORST_YEAR">
         <value xml:lang="en">Order sub-total X since beginning of current year</value>
         <value xml:lang="es">Subtotal X de los pedidos desde inicio de año</value>
-        <value xml:lang="fa">سفارش زیرمجموعه تا اول سال جاری</value>
+        <value xml:lang="fa">زیر-مجموع سفارش X ‌تا اول سال جاری</value>
         <value xml:lang="fr">Sous-total X commandé depuis le début de l'année</value>
         <value xml:lang="it">Sub-totale ordine X dall'inizio dell'anno corrente</value>
         <value xml:lang="ja">今年の注文小計 X</value>
@@ -2121,7 +2121,7 @@
         <value xml:lang="de">X Menge vom Produkt</value>
         <value xml:lang="en">X Quantity of Product</value>
         <value xml:lang="es">Cantidad X del producto</value>
-        <value xml:lang="fa">X تا از محصول</value>
+        <value xml:lang="fa">کمیت X از محصول</value>
         <value xml:lang="fr">Quantité X d'article(s)</value>
         <value xml:lang="it">X quantità del prodotto</value>
         <value xml:lang="ja">製品数量 X</value>
@@ -2138,7 +2138,7 @@
         <value xml:lang="de">Total Betrag vom Produkt</value>
         <value xml:lang="en">Total Amount of Product</value>
         <value xml:lang="es">Cantidad total de producto</value>
-        <value xml:lang="fa">مقدار کل محصول</value>
+        <value xml:lang="fa">مقدار مجموع محصول</value>
         <value xml:lang="fr">Quantité totale d'article(s)</value>
         <value xml:lang="it">Totale importo prodotto</value>
         <value xml:lang="ja">製品総数</value>
@@ -2319,7 +2319,7 @@
         <value xml:lang="de">Bewertung übersteuern</value>
         <value xml:lang="en">Rating Override</value>
         <value xml:lang="es">Sobreescribir clasificación</value>
-        <value xml:lang="fa">نرح لغو شده</value>
+        <value xml:lang="fa">‌بازنویسی نرح</value>
         <value xml:lang="fr">Remplacement du classement</value>
         <value xml:lang="it">Classificazione sostituita</value>
         <value xml:lang="ja">評価を上書き</value>
@@ -2370,7 +2370,7 @@
         <value xml:lang="de">Registrierung</value>
         <value xml:lang="en">Registration</value>
         <value xml:lang="es">Registro</value>
-        <value xml:lang="fa">ثبت نام</value>
+        <value xml:lang="fa">ثبت‌نام</value>
         <value xml:lang="fr">Enregistrement</value>
         <value xml:lang="it">Registrazione</value>
         <value xml:lang="ja">登録</value>
@@ -2503,7 +2503,7 @@
     <property key="Enumeration.description.PRDS_ODR_SHIP_COMPLT">
         <value xml:lang="en">Shipment Complete</value>
         <value xml:lang="es">Envío completo</value>
-        <value xml:lang="fa">پایان حمل</value>
+        <value xml:lang="fa">تکمیل محموله</value>
         <value xml:lang="fr">Expédition terminée</value>
         <value xml:lang="it">Spedizione completata</value>
         <value xml:lang="ja">配送完了</value>
@@ -2516,7 +2516,7 @@
         <value xml:lang="de">Zahlung Autorisierungs Dienst</value>
         <value xml:lang="en">Payment Authorization Service</value>
         <value xml:lang="es">Servicio de autorización de pagos</value>
-        <value xml:lang="fa">خدمات مجوز پرداخت</value>
+        <value xml:lang="fa">سرویس مجوز پرداخت</value>
         <value xml:lang="fr">Autorisation du paiement</value>
         <value xml:lang="it">Pagamento servizio autorizzazione</value>
         <value xml:lang="ja">支払認証サービス</value>
@@ -2532,7 +2532,7 @@
         <value xml:lang="de">Zahlung Autorisierung Überprüfungs Dienst</value>
         <value xml:lang="en">Payment Auth Verification Service</value>
         <value xml:lang="es">Servicio de verificación de pagos</value>
-        <value xml:lang="fa">تایید مجوز خدمات پرداخت</value>
+        <value xml:lang="fa">سرویس تایید مجوز پرداخت</value>
         <value xml:lang="fr">Vérification de l'authenticité du paiement</value>
         <value xml:lang="it">Pagamento servizio verifica autorizzazione</value>
         <value xml:lang="ja">支払認証検証サービス</value>
@@ -2548,7 +2548,7 @@
         <value xml:lang="de">Zahlung Abbuchung Dienst</value>
         <value xml:lang="en">Payment Capture Service</value>
         <value xml:lang="es">Servicio de recepción de pagos</value>
-        <value xml:lang="fa">خدمات پیگیری پرداخت</value>
+        <value xml:lang="fa">سرویس دریافت پرداخت</value>
         <value xml:lang="fr">Saisie du paiement</value>
         <value xml:lang="it">Pagamento servizio di cattura</value>
         <value xml:lang="ja">支払キャプチャサービス</value>
@@ -2565,7 +2565,7 @@
         <value xml:lang="de">Zahlung Guthaben Dienst</value>
         <value xml:lang="en">Payment Credit Service</value>
         <value xml:lang="es">Servicio de pagos a crédito</value>
-        <value xml:lang="fa">خدمات اعتبار پرداخت</value>
+        <value xml:lang="fa">سرویس اعتبار پرداخت</value>
         <value xml:lang="fr">Paiement par crédit</value>
         <value xml:lang="it">Pagamento servizio credito</value>
         <value xml:lang="ja">支払信用サービス</value>
@@ -2581,7 +2581,7 @@
         <value xml:lang="de">Zahlung extern (Kein Dienst)</value>
         <value xml:lang="en">External Payment (No Service)</value>
         <value xml:lang="es">Pago externo (ningún servicio)</value>
-        <value xml:lang="fa">پرداخت خارجی(بدون خدمات)</value>
+        <value xml:lang="fa">پرداخت مستقل(بدون سرویس)</value>
         <value xml:lang="fr">Paiment externe (aucun service)</value>
         <value xml:lang="it">Pagamento esterno (Nessun servizio)</value>
         <value xml:lang="ja">外部支払(サービスなし)</value>
@@ -2598,7 +2598,7 @@
         <value xml:lang="de">Zahlung Re-Autorisierungs Dienst</value>
         <value xml:lang="en">Payment Re-Authorization Service</value>
         <value xml:lang="es">Servicio de reautorización de pagos</value>
-        <value xml:lang="fa">خدمات باز‌-مجوز پرداخت</value>
+        <value xml:lang="fa">سرویس باز‌-مجوز پرداخت</value>
         <value xml:lang="fr">Ré-autorisation du paiement</value>
         <value xml:lang="it">Pagamento servizio ri-autorizzazione</value>
         <value xml:lang="ja">支払再認証サービス</value>
@@ -2615,7 +2615,7 @@
         <value xml:lang="de">Zahlung Rückerstattung Dienst</value>
         <value xml:lang="en">Payment Refund Service</value>
         <value xml:lang="es">Servicio de devolución de pagos</value>
-        <value xml:lang="fa">خدمات مالی پرداخت</value>
+        <value xml:lang="fa">خدمات بازپرداخت پرداخت</value>
         <value xml:lang="fr">Remboursement</value>
         <value xml:lang="it">Pagamento servizio rimborso</value>
         <value xml:lang="ja">支払返金サービス</value>
@@ -2631,7 +2631,7 @@
         <value xml:lang="de">Zahlung Freigabe Autorisierung Dienst</value>
         <value xml:lang="en">Payment Release Authorization Service</value>
         <value xml:lang="es">Servicio de autorización y liberación de pagos</value>
-        <value xml:lang="fa">خدمات ترخیص مجوز پرداخت</value>
+        <value xml:lang="fa">سرویس مجوز ترخیص پرداخت</value>
         <value xml:lang="fr">Déclencher l'autorisation de paiement</value>
         <value xml:lang="it">Pagamento servizio rilascio autorizzazione</value>
         <value xml:lang="ja">支払解除認証サービス</value>
@@ -2682,7 +2682,7 @@
     <property key="Enumeration.description.PRDS_QUO_CREATED">
         <value xml:lang="en">Quote Created</value>
         <value xml:lang="es">Presupuesto creado</value>
-        <value xml:lang="fa">ساختن مظنه</value>
+        <value xml:lang="fa">مظنه ساخته‌شده</value>
         <value xml:lang="fr">Devis créé</value>
         <value xml:lang="it">Creazione preventivo</value>
         <value xml:lang="ja">見積作成</value>
@@ -2712,7 +2712,7 @@
         <value xml:lang="de">Retoure annulliert</value>
         <value xml:lang="en">Return Cancelled</value>
         <value xml:lang="es">Devolución cancelada</value>
-        <value xml:lang="fa">انصراف از بازگشت</value>
+        <value xml:lang="fa">بازگشت لغوشده</value>
         <value xml:lang="fr">Retour annulé</value>
         <value xml:lang="it">Reso cancellato</value>
         <value xml:lang="ja">返品取消</value>
@@ -2728,7 +2728,7 @@
         <value xml:lang="de">Retoure abgeschlossen</value>
         <value xml:lang="en">Return Completed</value>
         <value xml:lang="es">Devolución completada</value>
-        <value xml:lang="fa">بازگشت کامل شد</value>
+        <value xml:lang="fa">بازگشت کامل‌شده</value>
         <value xml:lang="fr">Retour Accompli</value>
         <value xml:lang="it">Reso completato</value>
         <value xml:lang="ja">返品完了</value>
@@ -2876,7 +2876,7 @@
         <value xml:lang="de">Produktkatalog</value>
         <value xml:lang="en">Product Catalog</value>
         <value xml:lang="es">Catálogo de productos</value>
-        <value xml:lang="fa">کاتالوگ محصولات</value>
+        <value xml:lang="fa">رده‌بندی محصولات</value>
         <value xml:lang="fr">Catalogue d'articles</value>
         <value xml:lang="it">Catalogo prodotto</value>
         <value xml:lang="ja">製品カタログ</value>
@@ -2892,7 +2892,7 @@
         <value xml:lang="de">Lagergruppe</value>
         <value xml:lang="en">Product Store Group</value>
         <value xml:lang="es">Grupo de productos de la tienda</value>
-        <value xml:lang="fa">گروه فروشگاه‌های محصولات</value>
+        <value xml:lang="fa">گروه انبار محصول</value>
         <value xml:lang="fr">Groupe de centres de profit</value>
         <value xml:lang="it">Gruppo negozio prodotto</value>
         <value xml:lang="ja">製品店舗</value>
@@ -2956,7 +2956,7 @@
     <property key="Enumeration.description.PRODRQM_ATP">
         <value xml:lang="en">Requirement for order when ATP Reaches Minimum Stock for Product-Facility</value>
         <value xml:lang="es">Solicitud de pedido cuando la cantidad disponible (ATP) alcanza el mínimo del producto por almacén</value>
-        <value xml:lang="fa">نیازمندی برای سفارش زمانی که ATP به کمینه سهام برای تسهیلات تولیدی برسد</value>
+        <value xml:lang="fa">ملزومات برای سفارش زمانی که ATP به کمینه موجودی برای تسهیلات-محصول برسد</value>
         <value xml:lang="fr">Besoin créé quand la quantité disponible (ATP) atteint le stock minimum fixé</value>
         <value xml:lang="it">Fabbisogno per un'ordine quando ATP raggiunge la giacenza minima per il prodotto-stabilimento</value>
         <value xml:lang="ja">製品在庫(納期)が下限到達の場合注文要求</value>
@@ -3013,7 +3013,7 @@
         <value xml:lang="de">Kein Bedarf erstellt</value>
         <value xml:lang="en">No Requirement Created</value>
         <value xml:lang="es">No genera solicitud</value>
-        <value xml:lang="fa">هیچکدام از الزامات کامل نشده‌اند</value>
+        <value xml:lang="fa">هیچکدام از ملزومات ساخته‌نشده‌اند</value>
         <value xml:lang="fr">Aucun besoin créé</value>
         <value xml:lang="it">Nessun fabbisogno creato</value>
         <value xml:lang="ja">要求なし</value>
@@ -3030,7 +3030,7 @@
         <value xml:lang="de">Wenn QOH (Quantity on Hand) den Minimum Lagerbestand für den Produkt-Standort (Facility) erreicht</value>
         <value xml:lang="en">When QOH Reaches Minimum Stock for Product-Facility</value>
         <value xml:lang="es">Cuando la cantidad disponible (QOH) alcanza el mínimo del producto por almacén</value>
-        <value xml:lang="fa">هنگامی که مقدار موجود(QOH:مقدار موجودی) به حداقل مجموعه سهام تسهیلات تولیدی رسد</value>
+        <value xml:lang="fa">هنگامی که مقدار موجود(QOH:مقدار موجودی) به حداقل موجودی تسهیلات-محصول رسد</value>
         <value xml:lang="fr">Quand la quantité existante (QOH) atteint le stock minimum fixé</value>
         <value xml:lang="it">Quando la QOH raggiunge la giacenza minima per il prodotto-stabilimento</value>
         <value xml:lang="ja">手持在庫が下限到達の場合</value>
@@ -3047,7 +3047,7 @@
         <value xml:lang="de">Wenn ATP (available to promise) den minimum Lagerbestand für den Produkt-Standort (Facility) erreicht</value>
         <value xml:lang="en">When ATP Reaches Minimum Stock for Product-Facility</value>
         <value xml:lang="es">Cuando la cantidad disponible (ATP) alcanza el mínimo del producto por almacén</value>
-        <value xml:lang="fa">هنگامی که مقدار موجود(ATP: مقدار پیشبینی شده) به حداقل مجموعه سهام تسهیلات تولیدی رسد</value>
+        <value xml:lang="fa">هنگامی که مقدار موجود(ATP: مقدار پیشبینی شده) به حداقل ممجودی تسهیلات-محصول رسد</value>
         <value xml:lang="fr">Quand la quantité disponible (ATP) atteint le stock minimum fixé</value>
         <value xml:lang="it">Quando la ATP raggiunge la giacenza minima per il prodotto-stabilimento</value>
         <value xml:lang="ja">製品在庫(納期)が下限到達の場合</value>
@@ -3098,7 +3098,7 @@
         <value xml:lang="de">Auftrag Betrag Netto</value>
         <value xml:lang="en">Order Amount Flat</value>
         <value xml:lang="es">Importe en pedido</value>
-        <value xml:lang="fa">مبلغ سفارش</value>
+        <value xml:lang="fa">مقدار سفارش</value>
         <value xml:lang="fr">Montant de commande</value>
         <value xml:lang="it">Importo fisso ordine</value>
         <value xml:lang="ja">注文金額端数切捨て</value>
@@ -3466,7 +3466,7 @@
     <property key="Enumeration.description.WDT_DATETIME">
         <value xml:lang="en">DATETIME</value>
         <value xml:lang="es">Fecha-hora</value>
-        <value xml:lang="fa">تاریخ‌زمان</value>
+        <value xml:lang="fa">زمان‌وتاریخ‌</value>
         <value xml:lang="fr">Date-Heure - type de base</value>
         <value xml:lang="it">Data ora</value>
         <value xml:lang="ja">日付時間型</value>
@@ -3651,7 +3651,7 @@
         <value xml:lang="de">Zu Ihrer Information</value>
         <value xml:lang="en">For Your Information</value>
         <value xml:lang="es">Para su información</value>
-        <value xml:lang="fa">برای اطلاع شما</value>
+        <value xml:lang="fa">برای اطلاعات شما</value>
         <value xml:lang="fr">Pour votre information</value>
         <value xml:lang="it">Per tua informazione</value>
         <value xml:lang="ja">参考情報</value>
@@ -3668,7 +3668,7 @@
         <value xml:lang="de">Sofortige Antwort verlangt</value>
         <value xml:lang="en">Immediate Response Requested</value>
         <value xml:lang="es">Respuesta inmediata solicitada</value>
-        <value xml:lang="fa">درخواست بازخورد فوری</value>
+        <value xml:lang="fa">درخواست پاسخ فوری</value>
         <value xml:lang="fr">Réponse immédiate demandée</value>
         <value xml:lang="it">Risposta immediata richiesta</value>
         <value xml:lang="ja">即対応リクエスト</value>
@@ -3702,7 +3702,7 @@
         <value xml:lang="de">Beteiligung benötigt</value>
         <value xml:lang="en">Involvement Required</value>
         <value xml:lang="es">Requiere actuación</value>
-        <value xml:lang="fa">نیاز به همکاری</value>
+        <value xml:lang="fa">همکاری الزامی</value>
         <value xml:lang="fr">Participation requise</value>
         <value xml:lang="it">Domanda impegno</value>
         <value xml:lang="ja">要関与</value>
@@ -4176,7 +4176,7 @@
         <value xml:lang="de">Rechnung Folgenummer Modus</value>
         <value xml:lang="en">Invoice Sequence Mode</value>
         <value xml:lang="es">Modo de secuencia de factura</value>
-        <value xml:lang="fa">حالت صورت‌حساب متوالی</value>
+        <value xml:lang="fa">حالت فاکتور متوالی</value>
         <value xml:lang="fr">Mode de numérotation des factures</value>
         <value xml:lang="it">Modo sequenza fattura</value>
         <value xml:lang="ja">請求書番号採番方法</value>
@@ -4193,7 +4193,7 @@
         <value xml:lang="de">Lagerreservation Auftrag</value>
         <value xml:lang="en">Inventory Reservation Order</value>
         <value xml:lang="es">Orden de reserva de inventario</value>
-        <value xml:lang="fa">رزرو سقارش در دفتر کالاها</value>
+        <value xml:lang="fa">رزرو سفارش در موجودی‌کالاها</value>
         <value xml:lang="fr">Inventaire des ordres de réservation</value>
         <value xml:lang="it">Inventario ordini riservati</value>
         <value xml:lang="ja">在庫予約注文</value>
@@ -4279,7 +4279,7 @@
         <value xml:lang="de">Zahlungs-Gateway Transaktions Code</value>
         <value xml:lang="en">Payment Gateway Transaction Code</value>
         <value xml:lang="es">Código de transacción de la pasarela de pago</value>
-        <value xml:lang="fa">کد درگاه پرداخت</value>
+        <value xml:lang="fa">کد تراکنش دروازه پرداخت</value>
         <value xml:lang="fr">Code de transaction de la plateforme de paiement</value>
         <value xml:lang="it">Codice transazione pagamento gateway</value>
         <value xml:lang="ja">支払ゲートウェイ処理コード</value>
@@ -4296,7 +4296,7 @@
         <value xml:lang="de">Lager E-Mail Notifikation</value>
         <value xml:lang="en">Product Store Email Notification</value>
         <value xml:lang="es">Correo electrónico de notificación</value>
-        <value xml:lang="fa">آگاه‌سازی فروشگاه محصولات با ایمیل</value>
+        <value xml:lang="fa">آگاه‌سازی انبار محصول با ایمیل</value>
         <value xml:lang="fr">Email des magasins</value>
         <value xml:lang="it">Notifica email negozio</value>
         <value xml:lang="ja">製品店舗Eメール通知</value>
@@ -4313,7 +4313,7 @@
         <value xml:lang="de">Lager Zahlungsdienst Typ</value>
         <value xml:lang="en">Product Store Payment Service Type</value>
         <value xml:lang="es">Tipo de servicio de pago</value>
-        <value xml:lang="fa">نوع خدمات پرداخت فروشگاه محصولات</value>
+        <value xml:lang="fa">نوع سرویس پرداخت انبار محصولات</value>
         <value xml:lang="fr">Type de paiement</value>
         <value xml:lang="it">Tipo servizio pagamento negozio</value>
         <value xml:lang="ja">製品店舗支払サービス種類</value>
@@ -4344,7 +4344,7 @@
         <value xml:lang="de">Produktaktion Bedingung</value>
         <value xml:lang="en">Product Promotion Condition</value>
         <value xml:lang="es">Condición de promoción de producto</value>
-        <value xml:lang="fa">شرایط ارتقاء محصولات</value>
+        <value xml:lang="fa">شرایط تبلیغ محصولات</value>
         <value xml:lang="fr">Condition de prix</value>
         <value xml:lang="it">Condizioni promozioni prodotto</value>
         <value xml:lang="ja">製品プロモーション条件</value>
@@ -4378,7 +4378,7 @@
         <value xml:lang="de">Produktaktion Aktion</value>
         <value xml:lang="en">Product Promotion Action</value>
         <value xml:lang="es">Acción de promoción de producto</value>
-        <value xml:lang="fa">فعالیت ارتقاء محصولات</value>
+        <value xml:lang="fa">فعالیت تبلیغ محصولات</value>
         <value xml:lang="fr">Action de promotion</value>
         <value xml:lang="it">Azione promozione prodotto</value>
         <value xml:lang="ja">製品プロモーション活動</value>
@@ -4395,7 +4395,7 @@
         <value xml:lang="de">Produktaktion Bedingung</value>
         <value xml:lang="en">Product Promotion Condition</value>
         <value xml:lang="es">Condición de promoción</value>
-        <value xml:lang="fa">شرایط ارتقاء محصولات</value>
+        <value xml:lang="fa">شرایط تبلیغ محصولات</value>
         <value xml:lang="fr">Condition de promotion</value>
         <value xml:lang="it">Condizione promozione prodotto</value>
         <value xml:lang="ja">製品プロモーション条件</value>
@@ -4412,7 +4412,7 @@
         <value xml:lang="de">Produktaktion Eingabe Parameter</value>
         <value xml:lang="en">Product Promotion Input Parameter</value>
         <value xml:lang="es">Parámetro de entrada de promoción</value>
-        <value xml:lang="fa">پارامتر ورودی ارتقاء محصولات</value>
+        <value xml:lang="fa">پارامتر ورودی تبلیغ محصولات</value>
         <value xml:lang="fr">Paramètre d'entrée de promotion</value>
         <value xml:lang="it">Parametri input promozioni prodotto</value>
         <value xml:lang="ja">製品プロモーション入力パラメータ</value>
@@ -4429,7 +4429,7 @@
         <value xml:lang="de">Produktaktion Produkt/Kategorie Anwendungs Typ</value>
         <value xml:lang="en">Product Promotion Product/Category Application Type</value>
         <value xml:lang="es">Tipo de aplicación</value>
-        <value xml:lang="fa">نوع برنامه محصولات/دسته‌بندی ارتقا&gt; محصولات</value>
+        <value xml:lang="fa">نوع برداشت محصولات/دسته‌بندی تبلیغ محصول</value>
         <value xml:lang="fr">Promotion d'article/Type d'application de catégorie</value>
         <value xml:lang="it">Promozione prodotto tipo applicazione prodotto/categoria</value>
         <value xml:lang="ja">プロモーション製品/カテゴリ業務種類</value>
@@ -4446,7 +4446,7 @@
         <value xml:lang="de">Produkt Bewertungsfeld Typ</value>
         <value xml:lang="en">Product Rating Field Type</value>
         <value xml:lang="es">Tipo del campo de evaluación de producto</value>
-        <value xml:lang="fa">نوع میدان نرخ محصولات</value>
+        <value xml:lang="fa">نوع بخش نرخ محصول</value>
         <value xml:lang="fr">Type de champ d'estimation</value>
         <value xml:lang="it">Tipo classificazione prodotto</value>
         <value xml:lang="ja">製品評価項目種類</value>
@@ -4479,7 +4479,7 @@
     <property key="EnumerationType.description.PTSOFTTFR">
         <value xml:lang="en">Points of Title Transfer</value>
         <value xml:lang="es">Puntos de transferencia de título</value>
-        <value xml:lang="fa">انتقال عنوان نقطه‌ها</value>
+        <value xml:lang="fa">امتیاز انتقال عنوان </value>
         <value xml:lang="fr">Points de transfert de titre</value>
         <value xml:lang="it">Punti del titolo trasferito</value>
         <value xml:lang="ja">所有権移転観点</value>
@@ -4513,7 +4513,7 @@
     <property key="EnumerationType.description.TRACKINGCODE_SRC">
         <value xml:lang="en">Tracking Code Source</value>
         <value xml:lang="es">Código de seguimiento fuente</value>
-        <value xml:lang="fa">دنبال کردن متن کد</value>
+        <value xml:lang="fa">پیگیری متن کد</value>
         <value xml:lang="fr">Traçage de la source de code</value>
         <value xml:lang="it">Origine codice tracciatura</value>
         <value xml:lang="ja">追跡コード元</value>
@@ -4547,7 +4547,7 @@
         <value xml:lang="de">Arbeitseinsatz Bereich Klassifizierung</value>
         <value xml:lang="en">Work Effort Scope Classifications</value>
         <value xml:lang="es">Esfuerzo de trabajo - Ámbito</value>
-        <value xml:lang="fa">کلاس‌بندی تلاش کاری کوچک</value>
+        <value xml:lang="fa">دسته‌بندی‌های تلاش کاری کوچک</value>
         <value xml:lang="fr">Classification de portée de tâche</value>
         <value xml:lang="it">Capacità classificazioni impegno di lavoro</value>
         <value xml:lang="ja">作業成果範囲分類</value>
@@ -8876,7 +8876,7 @@
         <value xml:lang="de">Dienstleistungsgebiet</value>
         <value xml:lang="en">Service Territory</value>
         <value xml:lang="es">Territorio de servicio</value>
-        <value xml:lang="fa">منطقه خدمات</value>
+        <value xml:lang="fa">منطقه سرویس</value>
         <value xml:lang="fr">Territoire de service</value>
         <value xml:lang="it">Territorio servizio</value>
         <value xml:lang="ja">サービス区域</value>
@@ -8996,7 +8996,7 @@
     <property key="StatusItem.description.BLOG_REJECTED">
         <value xml:lang="en">BLOG_REJECTED</value>
         <value xml:lang="es">Desechado</value>
-        <value xml:lang="fa">رد شده</value>
+        <value xml:lang="fa">ردشده</value>
         <value xml:lang="fr">Rejeté</value>
         <value xml:lang="it">Rifiutato dal blog</value>
         <value xml:lang="ja">否認</value>
@@ -9651,7 +9651,7 @@
     <property key="StatusItem.description.CTNT_AVAILABLE">
         <value xml:lang="en">Available</value>
         <value xml:lang="es">Disponible</value>
-        <value xml:lang="fa">در دسترس</value>
+        <value xml:lang="fa">موجود</value>
         <value xml:lang="fr">Disponible</value>
         <value xml:lang="it">Disponibile</value>
         <value xml:lang="ja">有効</value>
@@ -9699,7 +9699,7 @@
         <value xml:lang="de">Erster Entwurf</value>
         <value xml:lang="en">Initial Draft</value>
         <value xml:lang="es">Esbozo inicial</value>
-        <value xml:lang="fa">پیش‌نویس اولیه</value>
+        <value xml:lang="fa">پیش‌نویس نخست</value>
         <value xml:lang="fr">Ebauche initiale</value>
         <value xml:lang="it">Bozza iniziale</value>
         <value xml:lang="ja">初期原稿</value>
@@ -9818,7 +9818,7 @@
     <property key="StatusItem.description.ESR_DATA_ERROR">
         <value xml:lang="en">ESR_DATA_ERROR</value>
         <value xml:lang="es">Error de datos</value>
-        <value xml:lang="fa">خطای اطلاعات</value>
+        <value xml:lang="fa">خطای داده ESR</value>
         <value xml:lang="fr">Erreur de données</value>
         <value xml:lang="it">Errore nei dati</value>
         <value xml:lang="ja">データエラー</value>
@@ -9874,7 +9874,7 @@
     <property key="StatusItem.description.ESR_RUNNING">
         <value xml:lang="en">ESR_RUNNING</value>
         <value xml:lang="es">En ejecución</value>
-        <value xml:lang="fa">در حال اجرا</value>
+        <value xml:lang="fa">در حال اجراء</value>
         <value xml:lang="fr">En fonction</value>
         <value xml:lang="it">In esecuzione</value>
         <value xml:lang="ja">実行中</value>
@@ -9888,7 +9888,7 @@
     <property key="StatusItem.description.ESR_SERVICE_ERROR">
         <value xml:lang="en">ESR_SERVICE_ERROR</value>
         <value xml:lang="es">Error de llamada a servicio</value>
-        <value xml:lang="fa">خطای خدمات</value>
+        <value xml:lang="fa">خطای سرویس</value>
         <value xml:lang="fr">Erreur d'appel au service</value>
         <value xml:lang="it">Errore servizio</value>
         <value xml:lang="ja">サービスエラー</value>
@@ -9915,7 +9915,7 @@
     <property key="StatusItem.description.EXST_CANCELLED">
         <value xml:lang="en">Cancelled</value>
         <value xml:lang="es">Cancelado</value>
-        <value xml:lang="fa">لغو‌شده</value>
+        <value xml:lang="fa">لغوشده</value>
         <value xml:lang="fr">Annulé</value>
         <value xml:lang="it">Cancellato</value>
         <value xml:lang="ja">取消</value>
@@ -9993,7 +9993,7 @@
         <value xml:lang="de">Annulliert</value>
         <value xml:lang="en">Cancelled</value>
         <value xml:lang="es">Cancelado</value>
-        <value xml:lang="fa">لغو‌شده</value>
+        <value xml:lang="fa">لغوشده</value>
         <value xml:lang="fr">Annulée</value>
         <value xml:lang="it">Cancellato</value>
         <value xml:lang="ja">取消</value>
@@ -10402,7 +10402,7 @@
         <value xml:lang="de">Verfügbar</value>
         <value xml:lang="en">Available</value>
         <value xml:lang="es">Disponible</value>
-        <value xml:lang="fa">قابل‌دسترس</value>
+        <value xml:lang="fa">موجود</value>
         <value xml:lang="fr">Disponible</value>
         <value xml:lang="it">Disponibili</value>
         <value xml:lang="ja">有効</value>
@@ -10481,7 +10481,7 @@
         <value xml:lang="de">Ausgeliefert</value>
         <value xml:lang="en">Delivered</value>
         <value xml:lang="es">Entregado</value>
-        <value xml:lang="fa">دریافت‌شده</value>
+        <value xml:lang="fa">تحویل‌شده</value>
         <value xml:lang="fr">Livré</value>
         <value xml:lang="it">Consegnata</value>
         <value xml:lang="ja">配送済</value>
@@ -10991,7 +10991,7 @@
     <property key="StatusItem.description.OAGMP_RECEIVED">
         <value xml:lang="en">In Message Received</value>
         <value xml:lang="es">Mensaje de entrada recibido</value>
-        <value xml:lang="fa">در حال دریافت پیام</value>
+        <value xml:lang="fa">در پیام دریافت‌شده</value>
         <value xml:lang="fr">Message reçu</value>
         <value xml:lang="it">Ricevuto messaggo in entrata</value>
         <value xml:lang="ja">メッセージ受取済</value>
@@ -11004,7 +11004,7 @@
     <property key="StatusItem.description.OAGMP_REC_ERR_CON">
         <value xml:lang="en">Received Error Confirm</value>
         <value xml:lang="es">Recibida confirmación de error</value>
-        <value xml:lang="fa">تایید خطا رسیده‌است</value>
+        <value xml:lang="fa">تایید خطا دریافت‌شده</value>
         <value xml:lang="fr">Confirmation d'erreur reçue</value>
         <value xml:lang="it">Conferma errore ricevuto</value>
         <value xml:lang="ja">エラー確認受取</value>
@@ -11017,7 +11017,7 @@
     <property key="StatusItem.description.OAGMP_REC_SUC_CON">
         <value xml:lang="en">Received Success Confirm</value>
         <value xml:lang="es">Recibida confirmación de completada</value>
-        <value xml:lang="fa">تایید موفقیت رسیده‌است</value>
+        <value xml:lang="fa">تایید موفقیت دریافت‌شده</value>
         <value xml:lang="fr">Confirmation de succès reçue</value>
         <value xml:lang="it">Conferma successo ricevuto</value>
         <value xml:lang="ja">成功確認受取</value>
@@ -11133,7 +11133,7 @@
         <value xml:lang="de">Lieferung annulliert</value>
         <value xml:lang="en">Delivery Cancelled</value>
         <value xml:lang="es">Entrega anulada</value>
-        <value xml:lang="fa">تحویل لغوشد</value>
+        <value xml:lang="fa">تحویل لغوشده</value>
         <value xml:lang="fr">Livraison annulée</value>
         <value xml:lang="it">Consegna cancellata</value>
         <value xml:lang="ja">配送取消</value>
@@ -11149,7 +11149,7 @@
         <value xml:lang="de">Vom Lieferanten eingereicht</value>
         <value xml:lang="en">Supplier Submitted</value>
         <value xml:lang="es">Enviado por el proveedor</value>
-        <value xml:lang="fa">توزیع‌کننده فرستاده‌است</value>
+        <value xml:lang="fa">عرضه‌گر فرستاده‌است</value>
         <value xml:lang="fr">Transmis au fournisseur</value>
         <value xml:lang="it">Sottoposta al fornitore</value>
         <value xml:lang="ja">サプライヤー実行済</value>
@@ -11320,7 +11320,7 @@
     <property key="StatusItem.description.PARTYINV_CANCELLED">
         <value xml:lang="en">Invitation Cancelled</value>
         <value xml:lang="es">Invitación cancelada</value>
-        <value xml:lang="fa">دعوت‌ لغوشد</value>
+        <value xml:lang="fa">دعوت‌ لغوشده</value>
         <value xml:lang="fr">Invitation annulée</value>
         <value xml:lang="it">Invito cancellato</value>
         <value xml:lang="ja">招待状取消</value>
@@ -11372,7 +11372,7 @@
     <property key="StatusItem.description.PARTY_DISABLED">
         <value xml:lang="en">Disabled</value>
         <value xml:lang="es">Desactivado</value>
-        <value xml:lang="fa">غیرفعال‌شد</value>
+        <value xml:lang="fa">غیرفعال‌شده</value>
         <value xml:lang="fr">Désactivé</value>
         <value xml:lang="it">Disabilitato</value>
         <value xml:lang="ja">無効</value>
@@ -12093,7 +12093,7 @@
         <value xml:lang="de">Läuft zurzeit</value>
         <value xml:lang="en">Running</value>
         <value xml:lang="es">En ejecución</value>
-        <value xml:lang="fa">در حال اجرا</value>
+        <value xml:lang="fa">در‌حال‌اجراء</value>
         <value xml:lang="fr">En cours</value>
         <value xml:lang="it">In esecuzione</value>
         <value xml:lang="ja">実行中</value>
@@ -12432,7 +12432,7 @@
         <value xml:lang="de">Annulliert</value>
         <value xml:lang="en">Cancelled</value>
         <value xml:lang="es">Cancelado</value>
-        <value xml:lang="fa">ردشده</value>
+        <value xml:lang="fa">لغوشده</value>
         <value xml:lang="fr">Annulé</value>
         <value xml:lang="it">Cancellato</value>
         <value xml:lang="ja">取消</value>
@@ -12464,7 +12464,7 @@
     <property key="StatusItem.description.RETURN_MAN_REFUND">
         <value xml:lang="en">Manual Refund Required</value>
         <value xml:lang="es">Requerida devolución manual</value>
-        <value xml:lang="fa">نیزمند بازپرداخت دستی است</value>
+        <value xml:lang="fa">بازپرداخت دستی الزامی است</value>
         <value xml:lang="fr">Remboursement manuel nécessaire</value>
         <value xml:lang="it">Reso manual richiesto</value>
         <value xml:lang="ja">要返金手続</value>
@@ -12567,7 +12567,7 @@
     <property key="StatusItem.description.SERVICE_FAILED">
         <value xml:lang="en">Failed</value>
         <value xml:lang="es">Fallado</value>
-        <value xml:lang="fa">شکست‌خورد</value>
+        <value xml:lang="fa">شکست‌خورده</value>
         <value xml:lang="fr">Échoué</value>
         <value xml:lang="it">Fallito</value>
         <value xml:lang="ja">失敗</value>
@@ -12622,7 +12622,7 @@
     <property key="StatusItem.description.SERVICE_RUNNING">
         <value xml:lang="en">Running</value>
         <value xml:lang="es">Ejecutando</value>
-        <value xml:lang="fa">در حال اجرا</value>
+        <value xml:lang="fa">درحال‌اجراء</value>
         <value xml:lang="fr">En cours d'éxécution</value>
         <value xml:lang="it">In esecuzione</value>
         <value xml:lang="ja">実行中</value>
@@ -12636,7 +12636,7 @@
         <value xml:lang="de">Annulliert</value>
         <value xml:lang="en">Cancelled</value>
         <value xml:lang="es">Anulado</value>
-        <value xml:lang="fa">لغوشد</value>
+        <value xml:lang="fa">لغوشده</value>
         <value xml:lang="fr">Annulée</value>
         <value xml:lang="it">Cancellata</value>
         <value xml:lang="ja">取消</value>
@@ -12652,7 +12652,7 @@
         <value xml:lang="de">Ausgeliefert</value>
         <value xml:lang="en">Delivered</value>
         <value xml:lang="es">Entregado</value>
-        <value xml:lang="fa">دریافت‌شد</value>
+        <value xml:lang="fa">تحویل‌شده</value>
         <value xml:lang="fr">Livrée</value>
         <value xml:lang="it">Consegnata</value>
         <value xml:lang="ja">配送済</value>
@@ -12986,7 +12986,7 @@
     <property key="StatusItem.description.WEFA_AVAILABLE">
         <value xml:lang="en">Available</value>
         <value xml:lang="es">Disponible</value>
-        <value xml:lang="fa">دردسترس</value>
+        <value xml:lang="fa">موجود</value>
         <value xml:lang="fr">Disponible</value>
         <value xml:lang="it">Disponibile</value>
         <value xml:lang="ja">有効</value>
@@ -13050,7 +13050,7 @@
     <property key="StatusItem.description.WEPA_AV_AVAILABLE">
         <value xml:lang="en">Available</value>
         <value xml:lang="es">Disponible</value>
-        <value xml:lang="fa">دردسترس</value>
+        <value xml:lang="fa">موجود</value>
         <value xml:lang="fr">Disponible</value>
         <value xml:lang="it">Disponibile</value>
         <value xml:lang="ja">有効</value>
@@ -13244,7 +13244,7 @@
         <value xml:lang="de">In Ausführung</value>
         <value xml:lang="en">Running</value>
         <value xml:lang="es">En ejecución</value>
-        <value xml:lang="fa">در حال اجرا</value>
+        <value xml:lang="fa">درحال‌اجراء</value>
         <value xml:lang="fr">En cours</value>
         <value xml:lang="it">In esecuzione</value>
         <value xml:lang="ja">実行中</value>
@@ -13529,7 +13529,7 @@
         <value xml:lang="de">Kundenanfrage Status</value>
         <value xml:lang="en">Custom Request Status</value>
         <value xml:lang="es">Estado de petición</value>
-        <value xml:lang="fa">حالت درخواست سفارشی</value>
+        <value xml:lang="fa">وضعیت درخواست سفارشی</value>
         <value xml:lang="fr">Statut de requête de client</value>
         <value xml:lang="it">Stato richiesta cliente</value>
         <value xml:lang="ja">顧客リクエストステータス</value>
@@ -13562,7 +13562,7 @@
         <value xml:lang="de">Anlage Wartung</value>
         <value xml:lang="en">Fixed Asset Maintenance</value>
         <value xml:lang="es">Mantenimiento Activo Fijo</value>
-        <value xml:lang="fa">نگهداری و تعمیرات داریی‌های ثابت</value>
+        <value xml:lang="fa">تعمیرونگهداری داریی‌های ثابت</value>
         <value xml:lang="fr">Maintenance d'immobilisation</value>
         <value xml:lang="it">Manutenzione cespiti</value>
         <value xml:lang="ja">固定資産メンテナンス</value>
@@ -13579,7 +13579,7 @@
         <value xml:lang="de">Lagerbestand Element</value>
         <value xml:lang="en">Inventory Item</value>
         <value xml:lang="es">Producto inventario</value>
-        <value xml:lang="fa">موارد دفتر کالاها</value>
+        <value xml:lang="fa">قلم موجودی‌کالاها</value>
         <value xml:lang="fr">Ligne de stock</value>
         <value xml:lang="it">Riga inventario</value>
         <value xml:lang="ja">在庫アイテム</value>
@@ -13595,7 +13595,7 @@
         <value xml:lang="de">Lagerbestand Transfer</value>
         <value xml:lang="en">Inventory Transfer</value>
         <value xml:lang="es">Transferencia de inventario</value>
-        <value xml:lang="fa">انتقال در دفتر کالاها</value>
+        <value xml:lang="fa">انتقال در موجودی‌کالاها</value>
         <value xml:lang="fr">Transfert de stock</value>
         <value xml:lang="it">Inventario per trasferimenti</value>
         <value xml:lang="ja">在庫転送</value>
@@ -13611,7 +13611,7 @@
         <value xml:lang="de">Rechnungsstatus</value>
         <value xml:lang="en">Invoice Status</value>
         <value xml:lang="es">Estado de factura</value>
-        <value xml:lang="fa">وضعیت صورت‌حساب</value>
+        <value xml:lang="fa">وضعیت فاکتور</value>
         <value xml:lang="fr">Statut de facture</value>
         <value xml:lang="it">Stato fattura</value>
         <value xml:lang="ja">在庫ステータス</value>
@@ -13628,7 +13628,7 @@
     <property key="StatusType.description.INV_NON_SER_STTS">
         <value xml:lang="en">Non-Serialized Inventory Item</value>
         <value xml:lang="es">Producto sin número de serie</value>
-        <value xml:lang="fa">موارد بدون سریال دفتر کالاها</value>
+        <value xml:lang="fa">قلم بدون سریال موجودی‌کالاها</value>
         <value xml:lang="fr">Ligne de stock sans n° de série</value>
         <value xml:lang="it">Riga inventario non serializzata</value>
         <value xml:lang="ja">一括配送在庫アイテム</value>
@@ -13644,7 +13644,7 @@
     <property key="StatusType.description.INV_SERIALIZED_STTS">
         <value xml:lang="en">Serialized Inventory Item</value>
         <value xml:lang="es">Producto con número de serie</value>
-        <value xml:lang="fa">موارد سریال‌دار دفتر کالاها</value>
+        <value xml:lang="fa">قلم سریال‌دار موجودی‌کالاها</value>
         <value xml:lang="fr">Ligne de stock avec n° de série</value>
         <value xml:lang="it">Riga inventario serializzata</value>
         <value xml:lang="ja">複数配送在庫ステータス</value>
@@ -13677,7 +13677,7 @@
         <value xml:lang="de">Auftragsauslieferungsplan</value>
         <value xml:lang="en">Order Delivery Schedule</value>
         <value xml:lang="es">Planificación de entrega</value>
-        <value xml:lang="fa">برنامه دریافت سفارشات</value>
+        <value xml:lang="fa">برنامه تحویل سفارشات</value>
         <value xml:lang="fr">planification d'expédition</value>
         <value xml:lang="it">Schedulazione consegne ordini</value>
         <value xml:lang="ja">注文配送スケジュール</value>
@@ -13695,7 +13695,7 @@
         <value xml:lang="de">Auftragselement</value>
         <value xml:lang="en">Order Item</value>
         <value xml:lang="es">Producto pedido</value>
-        <value xml:lang="fa">موارد سفارشی</value>
+        <value xml:lang="fa">قلم سفارشی</value>
         <value xml:lang="fr">Ligne de commande</value>
         <value xml:lang="it">Riga ordine</value>
         <value xml:lang="ja">注文アイテム</value>
@@ -13748,7 +13748,7 @@
         <value xml:lang="de">Zahlung Einstellungen</value>
         <value xml:lang="en">Payment Preference</value>
         <value xml:lang="es">Preferencias de pago</value>
-        <value xml:lang="fa">اولویت‌های پرداخت</value>
+        <value xml:lang="fa">ترجیحات پرداخت</value>
         <value xml:lang="fr">Préférence de paiement</value>
         <value xml:lang="it">Preferenze pagamento</value>
         <value xml:lang="ja">支払設定</value>
@@ -13799,7 +13799,7 @@
         <value xml:lang="de">Produktionslauf Status</value>
         <value xml:lang="en">Production Run Status</value>
         <value xml:lang="es">Estado de tirada</value>
-        <value xml:lang="fa">وضعیت اجرای تولید</value>
+        <value xml:lang="fa">وضعیت اجراء تولید</value>
         <value xml:lang="fr">Statut d'ordre de fabrication</value>
         <value xml:lang="it">Stato ciclo di produzione</value>
         <value xml:lang="ja">製品実行ステータス</value>
@@ -13832,7 +13832,7 @@
         <value xml:lang="de">Einkauf Lieferung</value>
         <value xml:lang="en">Purchase Shipment</value>
         <value xml:lang="es">Envío de compra</value>
-        <value xml:lang="fa">حمل‌ونقل خرید</value>
+        <value xml:lang="fa">محموله خرید</value>
         <value xml:lang="fr">Expédition d'achat</value>
         <value xml:lang="it">Spedizione di acquisto</value>
         <value xml:lang="ja">購入配送</value>
@@ -13884,7 +13884,7 @@
         <value xml:lang="de">Versand</value>
         <value xml:lang="en">Shipment</value>
         <value xml:lang="es">Envío</value>
-        <value xml:lang="fa">حمل‌ونقل</value>
+        <value xml:lang="fa">محموله</value>
         <value xml:lang="fr">Expédition</value>
         <value xml:lang="it">Spedizione</value>
         <value xml:lang="ja">配送ステータス</value>
@@ -13918,7 +13918,7 @@
         <value xml:lang="de">Aufgabe</value>
         <value xml:lang="en">Task</value>
         <value xml:lang="es">Tarea</value>
-        <value xml:lang="fa">وظیفه</value>
+        <value xml:lang="fa">تکلیف</value>
         <value xml:lang="fr">Tâche</value>
         <value xml:lang="it">Compito</value>
         <value xml:lang="ja">タスク</value>
@@ -14719,7 +14719,7 @@
         <value xml:lang="de">Erster Entwurf publiziert</value>
         <value xml:lang="en">Initial draft Publised</value>
         <value xml:lang="es">Esbozo inicial publicado</value>
-        <value xml:lang="fa">پیش‌نویس اولیه منتشرشد</value>
+        <value xml:lang="fa">پیش‌نویس نخست منتشرشده</value>
         <value xml:lang="fr">Brouillon initial publié</value>
         <value xml:lang="it">Bozza iniziale pubblicata</value>
         <value xml:lang="ja">初期原稿公開</value>
@@ -14985,7 +14985,7 @@
         <value xml:lang="de">Beispiel abschliessen</value>
         <value xml:lang="en">Example Completed</value>
         <value xml:lang="es">Ejemplo finalizado</value>
-        <value xml:lang="fa">مثال کامل‌شد</value>
+        <value xml:lang="fa">مثال کامل‌شده</value>
         <value xml:lang="fr">Exemple terminé</value>
         <value xml:lang="it">Esempio completato</value>
         <value xml:lang="ja">用例完了</value>
@@ -15123,7 +15123,7 @@
         <value xml:lang="de">Bezahlt</value>
         <value xml:lang="en">Pay</value>
         <value xml:lang="es">Pagado</value>
-        <value xml:lang="fa">پرداخت</value>
+        <value xml:lang="fa">پرداختن</value>
         <value xml:lang="fr">Payer</value>
         <value xml:lang="it">Pagata</value>
         <value xml:lang="ja">支払</value>
@@ -15192,7 +15192,7 @@
         <value xml:lang="de">Rechnung Einkauf aktualisieren ermöglichen</value>
         <value xml:lang="en">Enable purch.invoice update</value>
         <value xml:lang="es">Habilitar actualización de factura de compra</value>
-        <value xml:lang="fa">اجازه بروزرسانی صورت‌حساب خرید</value>
+        <value xml:lang="fa">اجازه بروزرسانی فاکتور خرید</value>
         <value xml:lang="fr">Permettre la mise à jour de la facture d'achat</value>
         <value xml:lang="it">Abilita aggiornamento fattura di acquisto</value>
         <value xml:lang="ja">購入請求書更新可能</value>
@@ -15245,7 +15245,7 @@
         <value xml:lang="de">Rechnung Verkauf aktualisieren ermöglichen</value>
         <value xml:lang="en">Enable sales invoice update</value>
         <value xml:lang="es">Habilitar actualización de factura de venta</value>
-        <value xml:lang="fa">اجازه بروزرسانی صورت‌حساب فروش</value>
+        <value xml:lang="fa">اجازه بروزرسانی فاکتور فروش</value>
         <value xml:lang="fr">Permettre la mise à jour de la facture de vente</value>
         <value xml:lang="it">Abilita aggiornamento fattura di vendita</value>
         <value xml:lang="ja">販売請求書更新可能</value>
@@ -15387,7 +15387,7 @@
         <value xml:lang="de">Retoure verfügbar</value>
         <value xml:lang="en">Return Available</value>
         <value xml:lang="es">Devolución disponible</value>
-        <value xml:lang="fa">قابل بازگشت</value>
+        <value xml:lang="fa">بازگشت موجوداست</value>
         <value xml:lang="fr">Retour disponible</value>
         <value xml:lang="it">Reso disponibile</value>
         <value xml:lang="ja">返品可能</value>
@@ -15509,7 +15509,7 @@
         <value xml:lang="de">Rücklieferung ist verfügbar</value>
         <value xml:lang="en">Make Return Available</value>
         <value xml:lang="es">Hacer devolución disponible</value>
-        <value xml:lang="fa">به عنوان قابل بازگشت مشخص شود</value>
+        <value xml:lang="fa">بازگشت موجودباشد</value>
         <value xml:lang="fr">Rendre le retour disponible</value>
         <value xml:lang="it">Marcato reso disponibile</value>
         <value xml:lang="ja">返品可能</value>
@@ -15544,7 +15544,7 @@
         <value xml:lang="de">Element annullieren</value>
         <value xml:lang="en">Cancel Item</value>
         <value xml:lang="es">Cancelar producto</value>
-        <value xml:lang="fa">مورد لغو شده</value>
+        <value xml:lang="fa">لغو قلم</value>
         <value xml:lang="fr">Annuler l'article</value>
         <value xml:lang="it">Cancella riga</value>
         <value xml:lang="ja">アイテム取消</value>
@@ -15561,7 +15561,7 @@
         <value xml:lang="de">Element abschliessen</value>
         <value xml:lang="en">Complete Item</value>
         <value xml:lang="es">Completar producto</value>
-        <value xml:lang="fa">مورد کامل شده</value>
+        <value xml:lang="fa">کامل‌شدن قلم</value>
         <value xml:lang="fr">Compléter l'article</value>
         <value xml:lang="it">Completa riga</value>
         <value xml:lang="ja">アイテム完了</value>
@@ -15579,7 +15579,7 @@
         <value xml:lang="de">Element genehmigen</value>
         <value xml:lang="en">Approve Item</value>
         <value xml:lang="es">Aprobar producto</value>
-        <value xml:lang="fa">مورد تصویب شده</value>
+        <value xml:lang="fa">تصویب‌شدن قلم</value>
         <value xml:lang="fr">Approuver l'article</value>
         <value xml:lang="it">Approva riga</value>
         <value xml:lang="ja">アイテム承認</value>
@@ -15596,7 +15596,7 @@
         <value xml:lang="de">Element annullieren</value>
         <value xml:lang="en">Cancel Item</value>
         <value xml:lang="es">Cancelar producto</value>
-        <value xml:lang="fa">مورد لغو شده</value>
+        <value xml:lang="fa">لغوشدن قلم</value>
         <value xml:lang="fr">Annuler l'article</value>
         <value xml:lang="it">Cancella riga</value>
         <value xml:lang="ja">アイテム取消</value>
@@ -15613,7 +15613,7 @@
         <value xml:lang="de">Element ablehnen</value>
         <value xml:lang="en">Reject Item</value>
         <value xml:lang="es">Rechazar producto</value>
-        <value xml:lang="fa">مورد رد شده</value>
+        <value xml:lang="fa">ردشدن قلم</value>
         <value xml:lang="fr">Rejeter l'article</value>
         <value xml:lang="it">Rifiuta riga</value>
         <value xml:lang="ja">アイテム否認</value>
@@ -15646,7 +15646,7 @@
     <property key="StatusValidChange.transitionName.IXF_REQUESTED.IXF_CANCELLED">
         <value xml:lang="en">Inventory Request Cancelled</value>
         <value xml:lang="es">Petición de inventario cancelada</value>
-        <value xml:lang="fa">درخواست دفتر کالاها لغوشد</value>
+        <value xml:lang="fa">درخواست موجودی‌کالاها لغوشده</value>
         <value xml:lang="fr">Demande d'inventaire annulée</value>
         <value xml:lang="it">Richiesta inventario cancellata</value>
         <value xml:lang="ja">在庫リクエスト取消</value>
@@ -15661,7 +15661,7 @@
     <property key="StatusValidChange.transitionName.IXF_REQUESTED.IXF_COMPLETE">
         <value xml:lang="en">Inventory Request Completed</value>
         <value xml:lang="es">Petición de inventario cerrada</value>
-        <value xml:lang="fa">درخواست دفتر کالاها تایید‌شد</value>
+        <value xml:lang="fa">درخواست موجودی‌کالاها کامل‌شده</value>
         <value xml:lang="fr">Femande d'inventaire terminée</value>
         <value xml:lang="it">Richiesta inventario completata</value>
         <value xml:lang="ja">在庫リクエスト完了</value>
@@ -15677,7 +15677,7 @@
     <property key="StatusValidChange.transitionName.IXF_REQUESTED.IXF_EN_ROUTE">
         <value xml:lang="en">Inventory Request In Route</value>
         <value xml:lang="es">Petición de inventario en camino</value>
-        <value xml:lang="fa">درخواست دفتر کالاها در جاده است</value>
+        <value xml:lang="fa">درخواست موجودی‌کالاها در جاده است</value>
         <value xml:lang="fr">La demande d'inventaire est en route</value>
         <value xml:lang="it">Richiesta inventario nel percorso</value>
         <value xml:lang="ja">配送中在庫リクエスト</value>
@@ -15693,7 +15693,7 @@
     <property key="StatusValidChange.transitionName.IXF_REQUESTED.IXF_SCHEDULED">
         <value xml:lang="en">Inventory Request Scheduled</value>
         <value xml:lang="es">Petición de inventario planificada</value>
-        <value xml:lang="fa">درخواست دفتر کالاها برنامه‌ریزی شد</value>
+        <value xml:lang="fa">درخواست موجودی‌کالاها برنامه‌ریزی شد</value>
         <value xml:lang="fr">La demande d'inventaire est programmée</value>
         <value xml:lang="it">Richiesta inventario schedulata</value>
         <value xml:lang="ja">在庫リクエストスケジュール済</value>
@@ -15709,7 +15709,7 @@
     <property key="StatusValidChange.transitionName.IXF_SCHEDULED.IXF_CANCELLED">
         <value xml:lang="en">Scheduled Inventory Cancelled</value>
         <value xml:lang="es">Inventario planificado cancelado</value>
-        <value xml:lang="fa">برنامه‌ریزی برای دفتر کالاها لغو شد</value>
+        <value xml:lang="fa">برنامه‌ریزی برای موجودی‌کالاها لغوشده</value>
         <value xml:lang="fr">L'inventaire programmée est annulé</value>
         <value xml:lang="it">Richiesta inventario cancellata</value>
         <value xml:lang="ja">スケジュール済在庫取消</value>
@@ -15725,7 +15725,7 @@
     <property key="StatusValidChange.transitionName.IXF_SCHEDULED.IXF_COMPLETE">
         <value xml:lang="en">Scheduled Inventory Completed</value>
         <value xml:lang="es">Inventario planificado finalizado</value>
-        <value xml:lang="fa">برنامه‌ریزی برای دفتر کالاها کامل شد</value>
+        <value xml:lang="fa">برنامه‌ریزی برای موجودی‌کالاها کامل‌شده</value>
         <value xml:lang="fr">L'inventaire programmé est terminé</value>
         <value xml:lang="it">Richiesta inventario completata</value>
         <value xml:lang="ja">スケジュール済在庫完了</value>
@@ -15741,7 +15741,7 @@
     <property key="StatusValidChange.transitionName.IXF_SCHEDULED.IXF_EN_ROUTE">
         <value xml:lang="en">Scheduled Inventory In Route</value>
         <value xml:lang="es">Inventario planificado en camino</value>
-        <value xml:lang="fa">برنامه‌ریزی برای دفتر کالاها در راه است</value>
+        <value xml:lang="fa">برنامه‌ریزی برای موجودی‌کالاها در راه است</value>
         <value xml:lang="fr">L'inventaire programmée est en route</value>
         <value xml:lang="it">Richiesta inventario nel percorso</value>
         <value xml:lang="ja">スケジュール済在庫配送中</value>
@@ -16219,7 +16219,7 @@
         <value xml:lang="de">Auftrag ablehnen</value>
         <value xml:lang="en">Order Cancelled</value>
         <value xml:lang="es">Pedido cancelado</value>
-        <value xml:lang="fa">سفارش لغو شده</value>
+        <value xml:lang="fa">سفارش لغوشده</value>
         <value xml:lang="fr">Commande annulée</value>
         <value xml:lang="it">Ordine cancellato</value>
         <value xml:lang="ja">注文取消</value>
@@ -16237,7 +16237,7 @@
         <value xml:lang="de">Auftrag abgeschlossen</value>
         <value xml:lang="en">Order Completed</value>
         <value xml:lang="es">Pedido finalizado</value>
-        <value xml:lang="fa">سفارش تکمیل شده</value>
+        <value xml:lang="fa">سفارش کامل‌شده</value>
         <value xml:lang="fr">Commande terminée</value>
         <value xml:lang="it">Ordine completato</value>
         <value xml:lang="ja">注文完了</value>
@@ -16255,7 +16255,7 @@
         <value xml:lang="de">Deaktiviert</value>
         <value xml:lang="en">Disable</value>
         <value xml:lang="es">Deshabilitado</value>
-        <value xml:lang="fa">غیر فعال</value>
+        <value xml:lang="fa">غیرفعال</value>
         <value xml:lang="fr">Desactivé</value>
         <value xml:lang="it">Disabilita</value>
         <value xml:lang="ja">無効</value>
@@ -16273,7 +16273,7 @@
         <value xml:lang="de">Zahlung annullieren</value>
         <value xml:lang="en">Payment Cancelled</value>
         <value xml:lang="es">Pago cancelado</value>
-        <value xml:lang="fa">پرداخت لغو شده</value>
+        <value xml:lang="fa">پرداخت لغوشده</value>
         <value xml:lang="fr">Paiement annulé</value>
         <value xml:lang="it">Pagamento cancellato</value>
         <value xml:lang="ja">支払取消</value>
@@ -16325,7 +16325,7 @@
         <value xml:lang="de">Zahlung annullieren</value>
         <value xml:lang="en">Payment Cancelled</value>
         <value xml:lang="es">Pago cancelado</value>
-        <value xml:lang="fa">پرداخت لغو شده</value>
+        <value xml:lang="fa">پرداخت لغوشده</value>
         <value xml:lang="fr">Paiement annulé</value>
         <value xml:lang="it">Pagamento cancellato</value>
         <value xml:lang="ja">支払取消</value>
@@ -16342,7 +16342,7 @@
         <value xml:lang="de">Zahlung annullieren</value>
         <value xml:lang="en">Payment Cancelled</value>
         <value xml:lang="es">Pago cancelado</value>
-        <value xml:lang="fa">پرداخت لغو شده</value>
+        <value xml:lang="fa">پرداخت لغوشده</value>
         <value xml:lang="fr">Paiement annulé</value>
         <value xml:lang="it">Pagamento cancellato</value>
         <value xml:lang="ja">支払取消</value>
@@ -16359,7 +16359,7 @@
         <value xml:lang="de">Zahlung erhalten</value>
         <value xml:lang="en">Payment Received</value>
         <value xml:lang="es">Pago recibido</value>
-        <value xml:lang="fa">پرداخت دریافت شده</value>
+        <value xml:lang="fa">پرداخت دریافت‌شده</value>
         <value xml:lang="fr">Paiement reçu</value>
         <value xml:lang="it">Pagamento ricevuto</value>
         <value xml:lang="ja">支払受取</value>
@@ -16419,7 +16419,7 @@
         <value xml:lang="de">Zuweisen</value>
         <value xml:lang="en">Assign</value>
         <value xml:lang="es">Asignar</value>
-        <value xml:lang="fa">مقرر</value>
+        <value xml:lang="fa">منتسب</value>
         <value xml:lang="fr">Attribuer</value>
         <value xml:lang="it">Assegna</value>
         <value xml:lang="ja">割当</value>
@@ -16502,7 +16502,7 @@
         <value xml:lang="de">Zahlung annullieren</value>
         <value xml:lang="en">Payment Cancelled</value>
         <value xml:lang="es">Pago cancelado</value>
-        <value xml:lang="fa">پرداخت لغو شده</value>
+        <value xml:lang="fa">پرداخت لغوشده</value>
         <value xml:lang="fr">Paiement annulé</value>
         <value xml:lang="it">Pagamento cancellato</value>
         <value xml:lang="ja">支払取消</value>
@@ -16519,7 +16519,7 @@
         <value xml:lang="de">Zahlung erhalten</value>
         <value xml:lang="en">Payment Received</value>
         <value xml:lang="es">Pago recibido</value>
-        <value xml:lang="fa">پرداخت دریافت شده</value>
+        <value xml:lang="fa">پرداخت دریافت‌شده</value>
         <value xml:lang="fr">Paiement reçu</value>
         <value xml:lang="it">Pagamento ricevuto</value>
         <value xml:lang="ja">支払受取</value>
@@ -16536,7 +16536,7 @@
         <value xml:lang="de">Zahlung übermitteln</value>
         <value xml:lang="en">Payment Send</value>
         <value xml:lang="es">Enviar pago</value>
-        <value xml:lang="fa">ارسال پرداخت</value>
+        <value xml:lang="fa">فرستادن پرداخت</value>
         <value xml:lang="fr">Paiement envoyé</value>
         <value xml:lang="it">Pagamento inviato</value>
         <value xml:lang="ja">支払送付</value>
@@ -16587,7 +16587,7 @@
         <value xml:lang="de">Überprüfung löschen</value>
         <value xml:lang="en">Review Deleted</value>
         <value xml:lang="es">Revisión borrada</value>
-        <value xml:lang="fa">بازنگری حذف‌شده</value>
+        <value xml:lang="fa">بازبینی حذف‌شده</value>
         <value xml:lang="fr">Révision enlevée</value>
         <value xml:lang="it">Recensione cancellata</value>
         <value xml:lang="ja">レビュー削除</value>
@@ -16604,7 +16604,7 @@
         <value xml:lang="de">Überprüfung genehmigen</value>
         <value xml:lang="en">Review Approved</value>
         <value xml:lang="es">Revisión aprobada</value>
-        <value xml:lang="fa">بازنگری تصویب‌شده</value>
+        <value xml:lang="fa">بازبینی تصویب‌شده</value>
         <value xml:lang="fr">Révision approuvée</value>
         <value xml:lang="it">Recensione approvata</value>
         <value xml:lang="ja">レビュー承認</value>
@@ -16620,7 +16620,7 @@
         <value xml:lang="de">Überprüfung löschen</value>
         <value xml:lang="en">Review Deleted</value>
         <value xml:lang="es">Revisión borrada</value>
-        <value xml:lang="fa">بازنگری حذف‌شده</value>
+        <value xml:lang="fa">بازبینی حذف‌شده</value>
         <value xml:lang="fr">Révision enlevée</value>
         <value xml:lang="it">Recensione cancellata</value>
         <value xml:lang="ja">レビュー削除</value>
@@ -16861,7 +16861,7 @@
         <value xml:lang="de">Erhaltene Rücklieferung annullieren</value>
         <value xml:lang="en">Received Return Cancelled</value>
         <value xml:lang="es">Devolución recibida cancelada</value>
-        <value xml:lang="fa">دریافت بازگشت لغوشده</value>
+        <value xml:lang="fa">بازگشت دریافت‌شده لغوشده</value>
         <value xml:lang="fr">Retour reçu et annulé</value>
         <value xml:lang="it">Ricevuto reso cancellato</value>
         <value xml:lang="ja">返却受取取消</value>
@@ -16879,7 +16879,7 @@
         <value xml:lang="de">Erhaltene Rücklieferung abschliessen</value>
         <value xml:lang="en">Received Return Completed</value>
         <value xml:lang="es">Devolución recibida finalizada</value>
-        <value xml:lang="fa">دریافت بازگشت تاییدشده</value>
+        <value xml:lang="fa">بازگشت دریافت‌شده کامل‌شده</value>
         <value xml:lang="fr">Retour reçu et terminé</value>
         <value xml:lang="it">Ricevuto reso completato</value>
         <value xml:lang="ja">返却受取完了</value>
@@ -18123,7 +18123,7 @@
         <value xml:lang="de">Gigabit pro Sekunde Daten</value>
         <value xml:lang="en">Gigabit-per-second of Data</value>
         <value xml:lang="es">Gigabits por segundo</value>
-        <value xml:lang="fa">گیگا بیت بر ثانیه</value>
+        <value xml:lang="fa">گیگابیت بر ثانیه داده</value>
         <value xml:lang="fr">Gigabit de données par seconde</value>
         <value xml:lang="it">Gigabit-per-secondo di Dati</value>
         <value xml:lang="ja">ギガビット毎秒</value>
@@ -18141,7 +18141,7 @@
         <value xml:lang="de">Kilobit pro Sekunde Daten</value>
         <value xml:lang="en">Kilobit-per-second of Data</value>
         <value xml:lang="es">Kilbits por segundo</value>
-        <value xml:lang="fa">کیلو بیت بر ثانیه</value>
+        <value xml:lang="fa">کیلوبیت بر ثانیه داده</value>
         <value xml:lang="fr">Kilobit de données par seconde</value>
         <value xml:lang="it">Kilobit-per-secondo di Dati</value>
         <value xml:lang="ja">キロビット毎秒</value>
@@ -18159,7 +18159,7 @@
         <value xml:lang="de">Megabit pro Sekunde Daten</value>
         <value xml:lang="en">Megabit-per-second of Data</value>
         <value xml:lang="es">Megabits por segundo</value>
-        <value xml:lang="fa">مگا بیت بر ثانیه</value>
+        <value xml:lang="fa">مگابیت بر ثانیه داده</value>
         <value xml:lang="fr">Mégabit de données par seconde</value>
         <value xml:lang="it">Megabit-per-secondo di Dati</value>
         <value xml:lang="ja">メガビット毎秒</value>
@@ -18177,7 +18177,7 @@
         <value xml:lang="de">Terabit pro Sekunde Daten</value>
         <value xml:lang="en">Terabit-per-second of Data</value>
         <value xml:lang="es">Terabits por segundo</value>
-        <value xml:lang="fa">ترا بیت بر ثانیه</value>
+        <value xml:lang="fa">ترابیت بر ثانیه داده</value>
         <value xml:lang="fr">Térabit de données par seconde</value>
         <value xml:lang="it">Terabit-per-secondo di Dati</value>
         <value xml:lang="ja">テラビット毎秒</value>
@@ -18195,7 +18195,7 @@
         <value xml:lang="de">Bit pro Sekunde Daten</value>
         <value xml:lang="en">Bit-per-second of Data</value>
         <value xml:lang="es">Bits por segundo</value>
-        <value xml:lang="fa">بیت بر ثانیه</value>
+        <value xml:lang="fa">بیت بر ثانیه داده</value>
         <value xml:lang="fr">Bit de données par seconde</value>
         <value xml:lang="it">Bit-per-secondo di Dati</value>
         <value xml:lang="ja">ビット毎秒</value>
@@ -18213,7 +18213,7 @@
         <value xml:lang="de">Byte Daten</value>
         <value xml:lang="en">Byte of Data</value>
         <value xml:lang="es">Byte de datos</value>
-        <value xml:lang="fa">بایت</value>
+        <value xml:lang="fa">بایت داده</value>
         <value xml:lang="fr">Octet de données</value>
         <value xml:lang="it">Byte di Dati</value>
         <value xml:lang="ja">バイト</value>
@@ -18231,7 +18231,7 @@
         <value xml:lang="de">Gigabyte Daten</value>
         <value xml:lang="en">Gigabyte of Data</value>
         <value xml:lang="es">Gigabyte de datos</value>
-        <value xml:lang="fa">گیگا بایت</value>
+        <value xml:lang="fa">گیگا بایت داده</value>
         <value xml:lang="fr">Gigaoctet de données</value>
         <value xml:lang="it">Gigabyte di Dati</value>
         <value xml:lang="ja">ギガバイト</value>
@@ -18248,7 +18248,7 @@
         <value xml:lang="de">Gigabit Daten</value>
         <value xml:lang="en">Gigabit of Data</value>
         <value xml:lang="es">Gigabit de datos</value>
-        <value xml:lang="fa">گیگا بیت</value>
+        <value xml:lang="fa">گیگا بیت داده</value>
         <value xml:lang="fr">Gigabit de données</value>
         <value xml:lang="it">Gigabit di Dati</value>
         <value xml:lang="ja">ギガビット</value>
@@ -18265,7 +18265,7 @@
         <value xml:lang="de">Kilobyte Daten</value>
         <value xml:lang="en">Kilobyte of Data</value>
         <value xml:lang="es">Kilobyte de datos</value>
-        <value xml:lang="fa">کیلو بایت</value>
+        <value xml:lang="fa">کیلو بایت داده</value>
         <value xml:lang="fr">Kilobit de données</value>
         <value xml:lang="it">Kilobyte di Dati</value>
         <value xml:lang="ja">キロバイト</value>
@@ -18282,7 +18282,7 @@
         <value xml:lang="de">Kilobit Daten</value>
         <value xml:lang="en">Kilobit of Data</value>
         <value xml:lang="es">Kilobit de datos</value>
-        <value xml:lang="fa">کیلو بیت</value>
+        <value xml:lang="fa">کیلو بیت داده</value>
         <value xml:lang="fr">Kilobit de données</value>
         <value xml:lang="it">Kilobit di Dati</value>
         <value xml:lang="ja">キロビット</value>
@@ -18299,7 +18299,7 @@
         <value xml:lang="de">Megabyte Daten</value>
         <value xml:lang="en">Megabyte of Data</value>
         <value xml:lang="es">Megabyte de datos</value>
-        <value xml:lang="fa">مگا بایت</value>
+        <value xml:lang="fa">مگا بایت داده</value>
         <value xml:lang="fr">Mégaoctet de données</value>
         <value xml:lang="it">Megabyte di Dati</value>
         <value xml:lang="ja">メガバイト</value>
@@ -18316,7 +18316,7 @@
         <value xml:lang="de">Megabit Daten</value>
         <value xml:lang="en">Megabit of Data</value>
         <value xml:lang="es">Megabit de datos</value>
-        <value xml:lang="fa">مگا بیت</value>
+        <value xml:lang="fa">مگا بیت داده</value>
         <value xml:lang="fr">Mégabit de données</value>
         <value xml:lang="it">Megabit di Dati</value>
         <value xml:lang="ja">メガビット</value>
@@ -18333,7 +18333,7 @@
         <value xml:lang="de">Petabyte Daten</value>
         <value xml:lang="en">Petabyte of Data</value>
         <value xml:lang="es">Petabyte de datos</value>
-        <value xml:lang="fa">پتا بایت</value>
+        <value xml:lang="fa">پتا بایت داده</value>
         <value xml:lang="fr">Pétaoctet de données</value>
         <value xml:lang="it">Petabyte di Dati</value>
         <value xml:lang="ja">ペタバイト</value>
@@ -18350,7 +18350,7 @@
         <value xml:lang="de">Terabyte Daten</value>
         <value xml:lang="en">Terabyte of Data</value>
         <value xml:lang="es">Terabyte de datos</value>
-        <value xml:lang="fa">ترا بایت</value>
+        <value xml:lang="fa">ترا بایت داده</value>
         <value xml:lang="fr">Téraoctet de données</value>
         <value xml:lang="it">Terabyte di Dati</value>
         <value xml:lang="ja">テラバイト</value>
@@ -18367,7 +18367,7 @@
         <value xml:lang="de">Terabit Daten</value>
         <value xml:lang="en">Terabit of Data</value>
         <value xml:lang="es">Terabit de datos</value>
-        <value xml:lang="fa">ترا بیت</value>
+        <value xml:lang="fa">ترا بیت داده</value>
         <value xml:lang="fr">Térabit de données</value>
         <value xml:lang="it">Terabit di Dati</value>
         <value xml:lang="ja">テラビット</value>
@@ -18385,7 +18385,7 @@
         <value xml:lang="de">Bit Daten</value>
         <value xml:lang="en">Bit of Data</value>
         <value xml:lang="es">Bit de datos</value>
-        <value xml:lang="fa">بیت</value>
+        <value xml:lang="fa">بیت داده</value>
         <value xml:lang="fr">Bit de données</value>
         <value xml:lang="it">Bit di Dati</value>
         <value xml:lang="ja">ビット</value>
@@ -18505,7 +18505,7 @@
     <property key="Uom.description.ECU">
         <value xml:lang="de">ECU European Currency Unit</value>
         <value xml:lang="en">European Currency Unit</value>
-        <value xml:lang="fa">واحد پول اروپا</value>
+        <value xml:lang="fa">واحد ارز اروپا</value>
         <value xml:lang="fr">Unité monétaire européenne</value>
         <value xml:lang="it">ECU</value>
         <value xml:lang="ja">ヨーロッパ通貨単位</value>
@@ -22051,7 +22051,7 @@
         <value xml:lang="de">Daten Geschwindigkeit</value>
         <value xml:lang="en">Data Speed</value>
         <value xml:lang="es">Velocidad de datos</value>
-        <value xml:lang="fa">سرعت اطلاعات</value>
+        <value xml:lang="fa">سرعت داده</value>
         <value xml:lang="fr">Débit (informatique)</value>
         <value xml:lang="it">Velocità Dati</value>
         <value xml:lang="ja">データ速度</value>
@@ -22069,7 +22069,7 @@
         <value xml:lang="de">Daten Grösse</value>
         <value xml:lang="en">Data Size</value>
         <value xml:lang="es">Tamaño de datos</value>
-        <value xml:lang="fa">حجم اطلاعات</value>
+        <value xml:lang="fa">حجم داده</value>
         <value xml:lang="fr">Taille de données</value>
         <value xml:lang="it">Ampiezza Dati</value>
         <value xml:lang="ja">データ量</value>
@@ -22256,7 +22256,7 @@
     <property key="VisualTheme.description.FLAT_GREY">
         <value xml:lang="en">Flat Grey - Floating Layout, Sight-Impaired Accessible, Bidirectional</value>
         <value xml:lang="es">Flat Grey - Diseño flotante, accesible para personas con discapacidad visual, bidireccional</value>
-        <value xml:lang="fa">Flat Grey - دسترسی برای افرادی با اختلال بینایی، دو جهته</value>
+        <value xml:lang="fa">Flat Grey - طرح‌بندی مواج، دسترسی برای افرادی با اختلال بینایی، دو جهته</value>
         <value xml:lang="fr">Flat Grey : mise en page dynamique, accessibilité, support de texte bidirectionnel</value>
         <value xml:lang="ja">フラットグレー: 以前のOFBiz標準フローティングレイアウト</value>
         <value xml:lang="pt_BR">Apartamento Grey - Layout padrão antigo OFBiz flutuante</value>
