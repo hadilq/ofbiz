@@ -130,14 +130,14 @@ under the License.
               initDate = initDate.substring(0, initDate.indexOf('.'));
             }
             jQuery("#${id}").val(initDate);
-            var ofbizTime = "<#if shortDateInput?? && shortDateInput>yyyy-MM-dd<#else>yyyy-MM-dd HH:mm:ss</#if>";
+            var ofbizTime = "<#if shortDateInput?? && shortDateInput>${Static["org.ofbiz.base.util.UtilDateTime"].getDateFormat(context)}<#else>${Static["org.ofbiz.base.util.UtilDateTime"].getDateTimeFormat(context)}</#if>";
             var dateObj = Date.parseExact(initDate, ofbizTime);
             var formatedObj = dateObj.toString(dateFormat);
             jQuery("#${id}_i18n").val(formatedObj);
           }
 
           jQuery("#${id}").change(function() {
-            var ofbizTime = "<#if shortDateInput?exists && shortDateInput>yyyy-MM-dd<#else>yyyy-MM-dd HH:mm:ss</#if>";
+            var ofbizTime = "<#if shortDateInput?exists && shortDateInput>${Static["org.ofbiz.base.util.UtilDateTime"].getDateFormat(context)}<#else>${Static["org.ofbiz.base.util.UtilDateTime"].getDateTimeFormat(context)}</#if>";
             var newValue = ""
             if (this.value != "") {
               var dateObj = Date.parseExact(this.value, ofbizTime);
@@ -152,7 +152,7 @@ under the License.
             dateObj = Date.parseExact(this.value, dateFormat),
             ofbizTime;
             if (this.value != "" && dateObj !== null) {
-              ofbizTime = "<#if shortDateInput?exists && shortDateInput>yyyy-MM-dd<#else>yyyy-MM-dd HH:mm:ss</#if>";
+              ofbizTime = "<#if shortDateInput?exists && shortDateInput>${Static["org.ofbiz.base.util.UtilDateTime"].getDateFormat(context)}<#else>${Static["org.ofbiz.base.util.UtilDateTime"].getDateTimeFormat(context)}</#if>";
               newValue = dateObj.toString(ofbizTime);
             }
             else { // invalid input

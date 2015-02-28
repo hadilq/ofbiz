@@ -1355,7 +1355,7 @@
         <value xml:lang="de">Produktvariante erfolgreich erstellt mit der ID: ${variantProductId} (enthält Verbindungen und Standart-Merkmale für die Variante).</value>
         <value xml:lang="en">Successfully created variant product with id: ${variantProductId} (includes association, and standard features for the variant).</value>
         <value xml:lang="es">Se creó exitosamente el producto variante con código: ${variantProductId} (incluye asociación, y características estándard para la variante).</value>
-        <value xml:lang="fa">با موفقیت محصول متغیر با آی‌دی ${variantProductId} ساخته‌شده‌است (شامل همکار و افزونه‌های استاندارد برای متغیر).</value>
+        <value xml:lang="fa">باموفقیت محصول متغیر با آی‌دی ${variantProductId} ساخته‌شده‌است (شامل همکار و افزونه‌های استاندارد برای متغیر).</value>
         <value xml:lang="fr">Création résussie de la variante d'article : réf. ${variantProductId} (inclut l'association, et les caractéristiques standards pour la variante).</value>
         <value xml:lang="it">Variante prodotto con Codice: ${variantProductId} creato con successo (incluse associazioni, e caratteristiche standard per la variante).</value>
         <value xml:lang="ja">id: ${variantProductId} の別型製品が正しく作成されました(別型の関連付け、および標準機能を含め)。</value>

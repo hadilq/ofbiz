@@ -566,6 +566,8 @@ public class MacroFormRenderer implements FormStringRenderer {
                 catch (ConversionException e) {
                     String errMsg = "Error formatting date/time using default instead [" + ((String) objVal) + "]: " + e.toString();
                     Debug.logError(e, errMsg, module);
+                    // create default date value from timestamp string
+                    value = ((String) objVal).substring(0,16);
                 }
             }
             DateFormat dateFormatter = UtilDateTime.toDateTimeFormat(context);

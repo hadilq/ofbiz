@@ -22,6 +22,7 @@
         <value xml:lang="de">Verrechnete Kosten</value>
         <value xml:lang="en">Allocated Cost</value>
         <value xml:lang="es">Coste asignado</value>
+        <value xml:lang="fa">هزینه اختصاصی</value>
         <value xml:lang="fr">Coût alloué</value>
         <value xml:lang="it">Costo allocato</value>
         <value xml:lang="ja">割当原価</value>
@@ -34,6 +35,7 @@
     <property key="FormFieldTitle_authUserLoginId">
         <value xml:lang="en">Auth User Login Id</value>
         <value xml:lang="es">Usuario</value>
+        <value xml:lang="fa">آی‌دی کاربر مجوزدار</value>
         <value xml:lang="fr">Authentification d'identifiant de connexion</value>
         <value xml:lang="it">Utente</value>
         <value xml:lang="ja">認証ログインユーザID</value>
@@ -47,6 +49,7 @@
         <value xml:lang="de">Kalenderwoche</value>
         <value xml:lang="en">Calendar Week Id</value>
         <value xml:lang="es">Código de semana</value>
+        <value xml:lang="fa">آی‌دی هفته تقویم</value>
         <value xml:lang="fr">Réf. du calendrier par semaine</value>
         <value xml:lang="it">Calendario settmanale</value>
         <value xml:lang="ja">カレンダ週ID</value>
@@ -60,6 +63,7 @@
         <value xml:lang="de">Zeitpunkt des Abbruchs</value>
         <value xml:lang="en">Cancel Date Time</value>
         <value xml:lang="es">Fecha y hora de cancelación</value>
+        <value xml:lang="fa">زمان تاریخ لغو</value>
         <value xml:lang="fr">Date et heure d'annulation</value>
         <value xml:lang="it">Data/ora di annullamento</value>
         <value xml:lang="ja">取消日時</value>
@@ -73,6 +77,7 @@
         <value xml:lang="de">individuelle Kostenmethode</value>
         <value xml:lang="en">Cost Custom Method Id</value>
         <value xml:lang="es">Código del método de cálculo </value>
+        <value xml:lang="fa">آی‌دی روش سفارشی هزینه</value>
         <value xml:lang="fr">Réf. de méthode de coût personnalisée</value>
         <value xml:lang="it">Metodo costo personalizzato</value>
         <value xml:lang="ja">原価カスタム方法ID</value>
@@ -87,6 +92,7 @@
         <value xml:lang="de">Kontenart für Kosten</value>
         <value xml:lang="en">Cost Gl Account Type Id</value>
         <value xml:lang="es">Código de asiento</value>
+        <value xml:lang="fa">آی‌دی نوع حساب معین هزینه</value>
         <value xml:lang="fr">Réf. de type de compte de coût (GL)</value>
         <value xml:lang="it">Tipo conto contabilità generale</value>
         <value xml:lang="ja">原価勘定科目種類ID</value>
@@ -99,6 +105,7 @@
     </property>
     <property key="FormFieldTitle_creationDate">
         <value xml:lang="en">Creation Date</value>
+        <value xml:lang="fa">تاریخ ساخت</value>
         <value xml:lang="it">Data creazione</value>
         <value xml:lang="ja">作成日</value>
         <value xml:lang="pt_BR">Data de criação</value>
@@ -110,6 +117,7 @@
         <value xml:lang="de">Kontenart für Kosten</value>
         <value xml:lang="en">Default Years Offset</value>
         <value xml:lang="es">Desfase anual por defecto</value>
+        <value xml:lang="fa">تهاتر سال‌ها پیش‌فرش</value>
         <value xml:lang="fr">Décalage d'années par défaut</value>
         <value xml:lang="it">Scostamento anni di default</value>
         <value xml:lang="ja">デフォルト年相殺</value>
@@ -123,6 +131,7 @@
         <value xml:lang="de">Geschätzte Dauer</value>
         <value xml:lang="en">Estimated Duration</value>
         <value xml:lang="es">Duración estimada</value>
+        <value xml:lang="fa">مدت انتظاری</value>
         <value xml:lang="fr">Durée estimée</value>
         <value xml:lang="it">Durata Stimata</value>
         <value xml:lang="ja">見積期間</value>
@@ -136,6 +145,7 @@
         <value xml:lang="de">Abbruch falls Komponenten nicht vorhanden</value>
         <value xml:lang="en">Fail If Items Are Not Available</value>
         <value xml:lang="es">Fallar si no todos los items están disponibles</value>
+        <value xml:lang="fa">شکست اگر اقلام موجودنباشند</value>
         <value xml:lang="fr">Echec si les articles ne sont pas disponibles</value>
         <value xml:lang="it">Fallisce se i prodotti non sono disponibili</value>
         <value xml:lang="ja">アイテムが有効でない場合は失敗</value>
@@ -149,6 +159,7 @@
         <value xml:lang="de">Fixkosten</value>
         <value xml:lang="en">Fixed Cost</value>
         <value xml:lang="es">Coste fijo</value>
+        <value xml:lang="fa">هزینه ثابت</value>
         <value xml:lang="fr">Coût fixe</value>
         <value xml:lang="it">Costo fisso</value>
         <value xml:lang="ja">固定原価</value>
@@ -163,6 +174,7 @@
         <value xml:lang="de">Freitagskapazität</value>
         <value xml:lang="en">Friday Capacity</value>
         <value xml:lang="es">Capacidad para viernes</value>
+        <value xml:lang="fa">ظرفیت جمعه</value>
         <value xml:lang="fr">Capacité du vendredi</value>
         <value xml:lang="it">Venerdì  Capacità</value>
         <value xml:lang="ja">金曜日能力</value>
@@ -176,6 +188,7 @@
         <value xml:lang="de">Freitagsstartzeit</value>
         <value xml:lang="en">Friday Start Time</value>
         <value xml:lang="es">Hora de comienzo para viernes</value>
+        <value xml:lang="fa">زمان شروع جمعه</value>
         <value xml:lang="fr">Heure de début du vendredi</value>
         <value xml:lang="it">Venerdì Tempo Inizio</value>
         <value xml:lang="ja">金曜日開始時間</value>
@@ -189,6 +202,7 @@
         <value xml:lang="de">Ausgegebene Menge</value>
         <value xml:lang="en">Issued Quantity</value>
         <value xml:lang="es">Cantidad emitida</value>
+        <value xml:lang="fa">کمیت صادرشده</value>
         <value xml:lang="fr">Quantité prélevée</value>
         <value xml:lang="it">Quantità prelevata</value>
         <value xml:lang="ja">発行数量</value>
@@ -203,6 +217,7 @@
         <value xml:lang="de">Job-Nr.</value>
         <value xml:lang="en">Job Id</value>
         <value xml:lang="es">Código del trabajo</value>
+        <value xml:lang="fa">آی‌دی کار</value>
         <value xml:lang="fr">Réf. du job</value>
         <value xml:lang="it">Numero lavoro</value>
         <value xml:lang="ja">ジョブID</value>
@@ -216,6 +231,7 @@
         <value xml:lang="de">Jobname</value>
         <value xml:lang="en">Job Name</value>
         <value xml:lang="es">Nombre del trabajo</value>
+        <value xml:lang="fa">نام کار</value>
         <value xml:lang="fr">Nom du job</value>
         <value xml:lang="it">Nome lavoro</value>
         <value xml:lang="ja">ジョブ名称</value>
@@ -227,6 +243,7 @@
     </property>
     <property key="FormFieldTitle_lotId">
         <value xml:lang="en">Lot Id</value>
+        <value xml:lang="fa">آی‌دی جنس</value>
         <value xml:lang="fr">Réf. de lot</value>
         <value xml:lang="it">Numero lotto</value>
         <value xml:lang="ja">ロットID</value>
@@ -239,6 +256,7 @@
         <value xml:lang="de">Arbeitsgang</value>
         <value xml:lang="en">Manufacturing Task</value>
         <value xml:lang="es">Tarea de fabricación</value>
+        <value xml:lang="fa">تکلیف ساخت</value>
         <value xml:lang="fr">Opération de fabrication</value>
         <value xml:lang="it">Operazione</value>
         <value xml:lang="ja">生産タスク</value>
@@ -252,6 +270,7 @@
         <value xml:lang="de">Anzahl Wiederholungsversuche</value>
         <value xml:lang="en">Max Retry</value>
         <value xml:lang="es">Número máximo de intentos</value>
+        <value xml:lang="fa">بیشینه تکرار</value>
         <value xml:lang="fr">Nb de tentatives max</value>
         <value xml:lang="it">Tentativi massimi</value>
         <value xml:lang="ja">最大再試行</value>
@@ -265,6 +284,7 @@
         <value xml:lang="de">Montagskapazität</value>
         <value xml:lang="en">Monday Capacity</value>
         <value xml:lang="es">Capacidad para lunes</value>
+        <value xml:lang="fa">ظرفیت دوشنبه</value>
         <value xml:lang="fr">Capacité du lundi</value>
         <value xml:lang="it">Lunedì Capacità</value>
         <value xml:lang="ja">月曜日能力</value>
@@ -278,6 +298,7 @@
         <value xml:lang="de">Montagsstartzeit</value>
         <value xml:lang="en">Monday Start Time</value>
         <value xml:lang="es">Hora de comienzo para lunes</value>
+        <value xml:lang="fa">زمان شروع دوشنبه</value>
         <value xml:lang="fr">Heure de début du lundi</value>
         <value xml:lang="it">Lunedì Tempo Inizio</value>
         <value xml:lang="ja">月曜日開始時間</value>
@@ -291,6 +312,7 @@
         <value xml:lang="de">Verechnungskontenart</value>
         <value xml:lang="en">Offsetting Gl Account Type Id</value>
         <value xml:lang="es">Código del asiento de desfase</value>
+        <value xml:lang="fa">آی‌دی نوع حساب معین تهاتر</value>
         <value xml:lang="fr">Réf. de décalage du type de compte (GL)</value>
         <value xml:lang="it">Tipo Intervallo Conto Contabilità Generale</value>
         <value xml:lang="ja">相殺勘定科目種類ID</value>
@@ -305,6 +327,7 @@
         <value xml:lang="de">Pro Millisekunde</value>
         <value xml:lang="en">Per Milli Second</value>
         <value xml:lang="es">por milisegundo</value>
+        <value xml:lang="fa">بر میلی‌ثانیه</value>
         <value xml:lang="fr">Par millisecondes</value>
         <value xml:lang="it">Per millisecondi</value>
         <value xml:lang="ja">ミリ秒毎</value>
@@ -319,6 +342,7 @@
         <value xml:lang="de">Produkt-Merkmal</value>
         <value xml:lang="en">Product Feature</value>
         <value xml:lang="es">Characterística de producto</value>
+        <value xml:lang="fa">افزونه محصول</value>
         <value xml:lang="fr">Caractéristique de l'article</value>
         <value xml:lang="it">Caratteristica prodotto</value>
         <value xml:lang="ja">製品機能</value>
@@ -333,6 +357,7 @@
         <value xml:lang="de">Produkt-Nr. für</value>
         <value xml:lang="en">Product Id For</value>
         <value xml:lang="es">Código de producto</value>
+        <value xml:lang="fa">آی‌دی محصول برای</value>
         <value xml:lang="fr">Réf. de l'article pour</value>
         <value xml:lang="it">Codice prodotto da</value>
         <value xml:lang="ja">製品ID</value>
@@ -347,6 +372,7 @@
         <value xml:lang="de">Produkt-Nr. in</value>
         <value xml:lang="en">Product Id In</value>
         <value xml:lang="es">Código de producto en</value>
+        <value xml:lang="fa">آی‌دی محصول در</value>
         <value xml:lang="fr">Réf. de l'article dans</value>
         <value xml:lang="it">Codice prodotto in</value>
         <value xml:lang="ja">製品ID</value>
@@ -360,6 +386,7 @@
     <property key="FormFieldTitle_productIdInSubst">
         <value xml:lang="en">Product Id In Subst</value>
         <value xml:lang="es">Código de producto en sustitución</value>
+        <value xml:lang="fa">آی‌دی محصول در انبار</value>
         <value xml:lang="fr">Réf. de l'article dans subst.</value>
         <value xml:lang="it">Codice prodotto in sostituzione</value>
         <value xml:lang="ja">代用製品ID</value>
@@ -374,6 +401,7 @@
         <value xml:lang="de">Produktionsauftrag</value>
         <value xml:lang="en">production Runs</value>
         <value xml:lang="es">Código de producto en sustitución</value>
+        <value xml:lang="fa">اجراء تولید</value>
         <value xml:lang="fr">Cadences de production</value>
         <value xml:lang="it">Ordini di produzione</value>
         <value xml:lang="ja">生産実行</value>
@@ -388,6 +416,7 @@
         <value xml:lang="de">Arbeitsplan-Nr.</value>
         <value xml:lang="en">routingId</value>
         <value xml:lang="es">Fecha de comienzo del requisito</value>
+        <value xml:lang="fa">آی‌دی مسیریابی</value>
         <value xml:lang="fr">Gamme</value>
         <value xml:lang="it">Id ciclo</value>
         <value xml:lang="ja">経路制御ID</value>
@@ -402,6 +431,7 @@
         <value xml:lang="de">Regel-Nr.</value>
         <value xml:lang="en">Rule Id</value>
         <value xml:lang="es">Código de regla</value>
+        <value xml:lang="fa">آی‌دی دستور</value>
         <value xml:lang="fr">Réf. de règle</value>
         <value xml:lang="it">Codice regola</value>
         <value xml:lang="ja">ルールID</value>
@@ -416,6 +446,7 @@
         <value xml:lang="de">Regel-Operator</value>
         <value xml:lang="en">Rule Operator</value>
         <value xml:lang="es">Operador de regla</value>
+        <value xml:lang="fa">عملگر دستور</value>
         <value xml:lang="fr">Opérateur de règle</value>
         <value xml:lang="it">Operatore della regola</value>
         <value xml:lang="ja">ルール操作</value>
@@ -430,6 +461,7 @@
         <value xml:lang="de">Regel-Folgenummer</value>
         <value xml:lang="en">Rule Seq Id</value>
         <value xml:lang="es">Número de secuencia de regla</value>
+        <value xml:lang="fa">آی‌دی ترتیبی دستور</value>
         <value xml:lang="fr">Réf. séq. de règle </value>
         <value xml:lang="it">Numero seq. regola</value>
         <value xml:lang="ja">ルール連番ID</value>
@@ -444,6 +476,7 @@
         <value xml:lang="de">Laufzeit</value>
         <value xml:lang="en">Run Time</value>
         <value xml:lang="es">Tiempo de ejeución</value>
+        <value xml:lang="fa">زمان اجراء</value>
         <value xml:lang="fr">Moment d'exécution</value>
         <value xml:lang="it">Orario di esecuzione</value>
         <value xml:lang="ja">実行時間</value>
@@ -457,6 +490,7 @@
         <value xml:lang="de">Samstagskapazität</value>
         <value xml:lang="en">Saturday Capacity</value>
         <value xml:lang="es">Capacidad para sábado</value>
+        <value xml:lang="fa">ظرفیت شنبه</value>
         <value xml:lang="fr">Capacité du samedi</value>
         <value xml:lang="it">Sabato Capacità</value>
         <value xml:lang="ja">土曜日能力</value>
@@ -470,6 +504,7 @@
         <value xml:lang="de">Samstagstartzeit</value>
         <value xml:lang="en">Saturday Start Time</value>
         <value xml:lang="es">Hora de comienzo para sábado</value>
+        <value xml:lang="fa">زمان شروع شنبه</value>
         <value xml:lang="fr">Heure de début du samedi</value>
         <value xml:lang="it">Sabato Tempo Inizio</value>
         <value xml:lang="ja">土曜日開始時間</value>
@@ -483,6 +518,7 @@
         <value xml:lang="de">Zusätzlicher Lagerort</value>
         <value xml:lang="en">Secondary Location Seq Id</value>
         <value xml:lang="es">Número de secuencia de la ubicación secundaria</value>
+        <value xml:lang="fa">آی‌دی ترتیب مکان فرعی</value>
         <value xml:lang="fr">Ref. séq. d'emplacement secondaire</value>
         <value xml:lang="it">Locazione secondaria</value>
         <value xml:lang="ja">補助位置連番ID</value>
@@ -496,6 +532,7 @@
         <value xml:lang="de">Startzeit</value>
         <value xml:lang="en">Start Date Time</value>
         <value xml:lang="es">Fecha y hora de comienzo</value>
+        <value xml:lang="fa">زمان تاریخ شروع</value>
         <value xml:lang="fr">Heure de date de début</value>
         <value xml:lang="it">Data/Ora di inizio</value>
         <value xml:lang="ja">開始日時</value>
@@ -509,6 +546,7 @@
         <value xml:lang="de">Sonntagskapazität</value>
         <value xml:lang="en">Sunday Capacity</value>
         <value xml:lang="es">Capacidad para domingo</value>
+        <value xml:lang="fa">ظرفیت یک‌شنبه</value>
         <value xml:lang="fr">Capacité du dimanche</value>
         <value xml:lang="it">Domenica Capacità</value>
         <value xml:lang="ja">日曜日能力</value>
@@ -522,6 +560,7 @@
         <value xml:lang="de">Sonntagsstartzeit</value>
         <value xml:lang="en">Sunday Start Time</value>
         <value xml:lang="es">Hora de comienzo para domingo</value>
+        <value xml:lang="fa">زمان شروع یک‌شنبه</value>
         <value xml:lang="fr">Heure de début du dimanche</value>
         <value xml:lang="it">Domenica Tempo Inizio</value>
         <value xml:lang="ja">日曜日開始時間</value>
@@ -535,6 +574,7 @@
         <value xml:lang="de">Donnerstagskapazität</value>
         <value xml:lang="en">Thursday Capacity</value>
         <value xml:lang="es">Capacidad para jueves</value>
+        <value xml:lang="fa">ظرفیت سه‌شنبه</value>
         <value xml:lang="fr">Capacité du jeudi</value>
         <value xml:lang="it">Giovedì Capacità</value>
         <value xml:lang="ja">木曜日能力</value>
@@ -548,6 +588,7 @@
         <value xml:lang="de">Donnerstagsstartzeit</value>
         <value xml:lang="en">Thursday Start Time</value>
         <value xml:lang="es">Capacidad para jueves</value>
+        <value xml:lang="fa">زمان شروع سه‌شنبه</value>
         <value xml:lang="fr">Heure de début du jeudi</value>
         <value xml:lang="it">Giovedì Tempo Inizio</value>
         <value xml:lang="ja">木曜日開始時間</value>
@@ -561,6 +602,7 @@
         <value xml:lang="de">Ausgegebene Menge gesamt</value>
         <value xml:lang="en">Tot Issued Quantity</value>
         <value xml:lang="es">Cantidad total emitida</value>
+        <value xml:lang="fa">کمیت صادرشده مجموع</value>
         <value xml:lang="fr">Quantité totale prélevée</value>
         <value xml:lang="it">Totale quantità prelevata</value>
         <value xml:lang="ja">発行数量合計</value>
@@ -575,6 +617,7 @@
         <value xml:lang="de">Bestellmenge gesamt</value>
         <value xml:lang="en">Tot Ordered Quantity</value>
         <value xml:lang="es">Cantidad total pedida</value>
+        <value xml:lang="fa">کمیت سفارش‌داده‌شده مجموع</value>
         <value xml:lang="fr">Quantité totale commandée</value>
         <value xml:lang="it">Totale quantità ordinata</value>
         <value xml:lang="ja">注文数量合計</value>
@@ -589,6 +632,7 @@
         <value xml:lang="de">Geplante Menge gesamt</value>
         <value xml:lang="en">Tot Planned Quantity</value>
         <value xml:lang="es">Cantidad total planificada</value>
+        <value xml:lang="fa">کمیت برنامه‌ریزی‌شده مجموع</value>
         <value xml:lang="fr">Quantité totale planifiée</value>
         <value xml:lang="it">Totale quantità pianificata</value>
         <value xml:lang="ja">計画数量合計</value>
@@ -603,6 +647,7 @@
         <value xml:lang="de">Dienstagskapazität</value>
         <value xml:lang="en">Tuesday Capacity</value>
         <value xml:lang="es">Cantidad total planificada</value>
+        <value xml:lang="fa">ظرفیت پنج‌شنبه</value>
         <value xml:lang="fr">Capacité du mardi</value>
         <value xml:lang="it">Martedì Capacità</value>
         <value xml:lang="ja">火曜日能力</value>
@@ -616,6 +661,7 @@
         <value xml:lang="de">Dienstagssstartzeit</value>
         <value xml:lang="en">Tuesday Start Time</value>
         <value xml:lang="es">Hora de comienzo para martes</value>
+        <value xml:lang="fa">زمان شروع پنج‌شنبه</value>
         <value xml:lang="fr">Heure de début du mardi</value>
         <value xml:lang="it">Martedì Tempo Inizio</value>
         <value xml:lang="ja">火曜日開始時間</value>
@@ -629,6 +675,7 @@
         <value xml:lang="de">Art</value>
         <value xml:lang="en">Type</value>
         <value xml:lang="es">Tipo</value>
+        <value xml:lang="fa">نوع</value>
         <value xml:lang="fr">Type</value>
         <value xml:lang="it">Tipo</value>
         <value xml:lang="ja">種類</value>
@@ -643,6 +690,7 @@
         <value xml:lang="de">Variable Kosten</value>
         <value xml:lang="en">Variable Cost</value>
         <value xml:lang="es">Coste variable</value>
+        <value xml:lang="fa">هزینه متغیر</value>
         <value xml:lang="fr">Coût variable</value>
         <value xml:lang="it">Costo variabile</value>
         <value xml:lang="ja">変動原価</value>
@@ -657,6 +705,7 @@
         <value xml:lang="de">Mittwochskapazität</value>
         <value xml:lang="en">Wednesday Capacity</value>
         <value xml:lang="es">Capacidad pra miércoles</value>
+        <value xml:lang="fa">ظرفیت چهاشنبه</value>
         <value xml:lang="fr">Capacité du mercredi</value>
         <value xml:lang="it">Mercoledì Capacità</value>
         <value xml:lang="ja">水曜日能力</value>
@@ -670,6 +719,7 @@
         <value xml:lang="de">Mittwochsstartzeit</value>
         <value xml:lang="en">Wednesday Start Time</value>
         <value xml:lang="es">Hora de comienzo para miércoles</value>
+        <value xml:lang="fa">زمان شروع چهارشنبه</value>
         <value xml:lang="fr">Heure de début du mercredi</value>
         <value xml:lang="it">Mercoledì Tempo Inizio</value>
         <value xml:lang="ja">水曜日開始時間</value>
@@ -683,6 +733,7 @@
         <value xml:lang="de">ATP-Datum</value>
         <value xml:lang="en">ATP Date</value>
         <value xml:lang="es">Fecha ATP</value>
+        <value xml:lang="fa">تاریخ ATP</value>
         <value xml:lang="fr">Date ATP</value>
         <value xml:lang="it">Data ATP</value>
         <value xml:lang="ja">納品日(ATP)</value>
@@ -697,6 +748,7 @@
         <value xml:lang="de">Ist-Fertigstellungs-Datum</value>
         <value xml:lang="en">Completion Date</value>
         <value xml:lang="es">Fecha de fin real</value>
+        <value xml:lang="fa">تاریخ تکمیل</value>
         <value xml:lang="fr">Date d'achèvement</value>
         <value xml:lang="it">Data completamento</value>
         <value xml:lang="ja">完了日</value>
@@ -711,6 +763,7 @@
         <value xml:lang="de">Ist-Kosten</value>
         <value xml:lang="en">Actual Costs</value>
         <value xml:lang="es">Costos Reales</value>
+        <value xml:lang="fa">هزینه واقعی</value>
         <value xml:lang="fr">Coûts actuels</value>
         <value xml:lang="it">Costi attuali</value>
         <value xml:lang="ja">実績原価</value>
@@ -725,6 +778,7 @@
         <value xml:lang="de">Ist-Fertigstellungs-Datum/Zeit</value>
         <value xml:lang="en">Actual End Date/Time</value>
         <value xml:lang="es">Fecha/Hora de Fin Real</value>
+        <value xml:lang="fa">زمان/تاریخ پایان واقعی</value>
         <value xml:lang="fr">Date/heure de fin actuelle</value>
         <value xml:lang="it">Data/Ora fine attuale</value>
         <value xml:lang="ja">実績終了日時</value>
@@ -739,6 +793,7 @@
         <value xml:lang="de">Ist-Materialien</value>
         <value xml:lang="en">Actual Materials</value>
         <value xml:lang="es">Materiales reales</value>
+        <value xml:lang="fa">مواد واقعی</value>
         <value xml:lang="fr">Matériels rééls</value>
         <value xml:lang="it">Materiali attuali</value>
         <value xml:lang="ja">実績部品</value>
@@ -752,6 +807,7 @@
         <value xml:lang="de">Ist-Start-Zeit</value>
         <value xml:lang="en">Actual Start Date/Time</value>
         <value xml:lang="es">Fecha/Hora de Inicio Real</value>
+        <value xml:lang="fa">زمان/تاریخ شروع واقعی</value>
         <value xml:lang="fr">Date/heure de début réelle</value>
         <value xml:lang="it">Data/Ora inizio attuale</value>
         <value xml:lang="ja">実績開始日時</value>
@@ -766,6 +822,7 @@
         <value xml:lang="de">Einen bestehenden Arbeitsgang hinzufügen</value>
         <value xml:lang="en">Add a existing RoutingTask</value>
         <value xml:lang="es">Añadir una tarea existente</value>
+        <value xml:lang="fa">اضافه‌کردن یک «تکلیف ارسال» موجود</value>
         <value xml:lang="fr">Ajouter une opération existante</value>
         <value xml:lang="it">Aggiungi una operazione esistente</value>
         <value xml:lang="ja">既存経路制御タスクを追加</value>
@@ -780,6 +837,7 @@
         <value xml:lang="de">Anlage zuweisen</value>
         <value xml:lang="en">Assign Fixed Asset</value>
         <value xml:lang="es">Asignar activo fijo</value>
+        <value xml:lang="fa">انتساب دارایی ثابت</value>
         <value xml:lang="fr">Affecter la machine</value>
         <value xml:lang="it">Assegna cespite</value>
         <value xml:lang="ja">固定資産を割当</value>
@@ -794,6 +852,7 @@
         <value xml:lang="de">Komponente zu Produktionsauftrag hinzufügen</value>
         <value xml:lang="en">Add ProductComponent to ProductionRun</value>
         <value xml:lang="es">Añadir componente</value>
+        <value xml:lang="fa">اضافه‌کردن «مولفه محصول» به «اجراء محصول»</value>
         <value xml:lang="fr">Ajouter un composant à l'O.F.</value>
         <value xml:lang="it">Aggiungi componente ad un ordine di produzione</value>
         <value xml:lang="ja">生産実行に製品コンポーネントを追加</value>
@@ -806,6 +865,7 @@
     </property>
     <property key="ManufacturingAddProductionRunRoutingTaskNotCreated">
         <value xml:lang="en">Add Production Run Routing Task Not Created</value>
+        <value xml:lang="fa">اضافه‌کردن تکلیف ارسال اجراء تولید، ساخته‌نشده‌است</value>
         <value xml:lang="it">Aggiunta componente ad un compito non creato</value>
         <value xml:lang="ja">生産実行経路制御追加タスクは作成されません</value>
         <value xml:lang="pt_BR">Adicionar tarefa de execução de produção de roteamento não foi criada</value>
@@ -817,6 +877,7 @@
         <value xml:lang="de">Produzierte Menge hinzufügen</value>
         <value xml:lang="en">Add Qty Produced</value>
         <value xml:lang="es">Añadir Cant. Producida</value>
+        <value xml:lang="fa">اضافه‌کردن کمیت تولیدشده</value>
         <value xml:lang="fr">Ajouter la quantité produite</value>
         <value xml:lang="it">Aggiungi quantità prodotta</value>
         <value xml:lang="ja">生産済数量を追加</value>
@@ -831,6 +892,7 @@
         <value xml:lang="de">Ausschuss-Menge hinzufügen</value>
         <value xml:lang="en">Add Qty Rejected</value>
         <value xml:lang="es">Añadir Cantidad rechazada</value>
+        <value xml:lang="fa">اضافه‌کردن کمیت ردشده</value>
         <value xml:lang="fr">Ajouter la quantité rejetée</value>
         <value xml:lang="it">Aggiungi quantità scartata</value>
         <value xml:lang="ja">否認数量を追加</value>
@@ -845,6 +907,7 @@
         <value xml:lang="de">Arbeitsgang hinzufügen</value>
         <value xml:lang="en">Add a RoutingTask</value>
         <value xml:lang="es">Añadir una ruta</value>
+        <value xml:lang="fa">اضافه‌کردن «تکلیف ارسال»</value>
         <value xml:lang="fr">Ajouter une opération</value>
         <value xml:lang="it">Aggiungi una operazione</value>
         <value xml:lang="ja">経路制御タスクを追加</value>
@@ -859,6 +922,7 @@
         <value xml:lang="de">Rüstzeit hinzufügen</value>
         <value xml:lang="en">Add Actual Setup Time</value>
         <value xml:lang="es">Añadir Tiempo de configuración</value>
+        <value xml:lang="fa">اضافه‌کردن زمان نصب واقعی</value>
         <value xml:lang="fr">Ajouter le temps d'installation réel</value>
         <value xml:lang="it">Aggiungi tempo installazione attuale</value>
         <value xml:lang="ja">実績設定時間を追加</value>
@@ -873,6 +937,7 @@
         <value xml:lang="de">Arbeitsgangzeit hinzufügen</value>
         <value xml:lang="en">Add Actual Task Time</value>
         <value xml:lang="es">Añadir Tiempo de Tarea</value>
+        <value xml:lang="fa">اضافه‌کردن زمان تکلیف واقعی</value>
         <value xml:lang="fr">Ajouter le temps d'opération réel</value>
         <value xml:lang="it">Aggiungi tempo attuale operazione</value>
         <value xml:lang="ja">実績タスク時間を追加</value>
@@ -887,6 +952,7 @@
         <value xml:lang="de">Beliebige Maschinengruppe</value>
         <value xml:lang="en">Any Fixed Asset Group</value>
         <value xml:lang="es">Cualquier grupo de máquinas</value>
+        <value xml:lang="fa">اضافه‌کردن گروه دارایی ثابت</value>
         <value xml:lang="fr">Tous les groupes de machine</value>
         <value xml:lang="it">Qualsiasi gruppo macchina</value>
         <value xml:lang="ja">任意の固定資産グループ</value>
@@ -901,6 +967,7 @@
         <value xml:lang="de">Bedarfe bestätigen</value>
         <value xml:lang="en">Approve Requirements</value>
         <value xml:lang="es">Aprobar requisitos</value>
+        <value xml:lang="fa">تصویب ملزومات</value>
         <value xml:lang="fr">Approuver les besoins</value>
         <value xml:lang="it">Approva fabbisogni</value>
         <value xml:lang="ja">要求を承認</value>
@@ -914,6 +981,7 @@
         <value xml:lang="de">Zugehörige Produktionsaufträge</value>
         <value xml:lang="en">Associated Production Runs</value>
         <value xml:lang="es">Tiradas asociadas</value>
+        <value xml:lang="fa">اجراءهای تولید مرتبط</value>
         <value xml:lang="fr">Exécution de production associées</value>
         <value xml:lang="it">Ordini di produzione associati</value>
         <value xml:lang="ja">関連付け済製品実行</value>
@@ -927,6 +995,7 @@
         <value xml:lang="de">Stückliste</value>
         <value xml:lang="en">Bill Of Materials</value>
         <value xml:lang="es">Lista de materiales</value>
+        <value xml:lang="fa">صورت‌حساب مواد</value>
         <value xml:lang="fr">Nomenclature</value>
         <value xml:lang="it">Distinta base</value>
         <value xml:lang="ja">部品表(BOM)</value>
@@ -939,6 +1008,7 @@
     </property>
     <property key="ManufacturingBomErrorCreatingBillOfMaterialsTree">
         <value xml:lang="en">Error creating bill of materials tree: ${errorString}</value>
+        <value xml:lang="fa">خطا در ساختن درخت صورت‌حساب مواد: ${errorString}</value>
         <value xml:lang="it">Errore durante la creazione dell'albero dei materiali: ${errorString}</value>
         <value xml:lang="ja">部品表ツリー作成中にエラー: ${errorString}</value>
         <value xml:lang="vi">Lỗi xảy ra khi tạo cây chào giá vật liệu: ${errorString}</value>
@@ -946,6 +1016,7 @@
     </property>
     <property key="ManufacturingBomErrorLoadingShipmentItems">
         <value xml:lang="en">Error loading the ShipmentItems</value>
+        <value xml:lang="fa">خطا در بارگذاری «اقلام محموله»</value>
         <value xml:lang="it">Errore durante il caricamento di ShipmentItems</value>
         <value xml:lang="ja">発送アイテムのロード中にエラー</value>
         <value xml:lang="vi">Lỗi xảy ra khi tải thông tin Hàng hóa chuyển vận</value>
@@ -953,6 +1024,7 @@
     </property>
     <property key="ManufacturingBomErrorLoadingShipmentPackages">
         <value xml:lang="en">Error loading the ShipmentPackages</value>
+        <value xml:lang="fa">خطا در بارگذاری «بسته‌های محموله»</value>
         <value xml:lang="it">Errore durante il caricamento di ShipmentPackages</value>
         <value xml:lang="ja">発送パッケージのロード中にエラー</value>
         <value xml:lang="vi">Lỗi xảy ra khi tải thông tin Đóng gói chuyển vận</value>
@@ -960,6 +1032,7 @@
     </property>
     <property key="ManufacturingBomErrorRunningDuplicatedAncestorSearch">
         <value xml:lang="en">Error running duplicated ancestor search: ${errorString}</value>
+        <value xml:lang="fa">خطا در اجراء جستجوی قدیمی تکراری: ${errorString}</value>
         <value xml:lang="it">Errore durante l'esecuzione della ricerca duplicati antenato: ${errorString}</value>
         <value xml:lang="ja">重複した原型の検索実行中にエラー: ${errorString}</value>
         <value xml:lang="vi">Lỗi xảy ra khi thực thi toán tử tìm kiếm Trùng: ${errorString}</value>
@@ -967,6 +1040,7 @@
     </property>
     <property key="ManufacturingBomErrorRunningInitLowLevelCode">
         <value xml:lang="en">Error running initLowLevelCode: ${errorString}</value>
+        <value xml:lang="fa">خطا در اجراء «کد سطح زیرین نخستین»: ${errorString}</value>
         <value xml:lang="it">Errore durante l'esecuzione di initLowLevelCode: ${errorString}</value>
         <value xml:lang="ja">低レベルコードの初期化実行中にエラー: ${errorString}</value>
         <value xml:lang="vi">Lỗi xảy ra khi thực thi initLowLevelCode: ${errorString}</value>
@@ -974,6 +1048,7 @@
     </property>
     <property key="ManufacturingBomErrorRunningMaxDethAlgorithm">
         <value xml:lang="en">Error running max depth algorithm: ${errorString}</value>
+        <value xml:lang="fa">خطا در اجراء الگوریتم بیشترین عمق: ${errorString}</value>
         <value xml:lang="it">Errore durante l'esecuzione dell'algoritmo massima profondità: ${errorString}</value>
         <value xml:lang="ja">最大深度アルゴリズム実行中にエラー: ${errorString}</value>
         <value xml:lang="vi">Lỗi xảy ra khi thực thi thuật toán tìm kiếm độ sâu tối đa: ${errorString}</value>
@@ -981,6 +1056,7 @@
     </property>
     <property key="ManufacturingBomErrorRunningUpdateLowLevelCode">
         <value xml:lang="en">Error running updateLowLevelCode: ${errorString}</value>
+        <value xml:lang="fa">خطا در اجراء «کد سطح زیرین بروزرسانی»: ${errorString}</value>
         <value xml:lang="it">Errore durante l'esecuzione di updateLowLevelCode: ${errorString}</value>
         <value xml:lang="ja">低レベルコード更新実行中にエラー: ${errorString}</value>
         <value xml:lang="vi">Lỗi xảy ra khi thực thi updateLowLevelCode: ${errorString}</value>
@@ -988,6 +1064,7 @@
     </property>
     <property key="ManufacturingBomPackageAlreadyFound">
         <value xml:lang="en">Packages already found.</value>
+        <value xml:lang="fa">بسته‌ها از قبل پیداشده‌اند.</value>
         <value xml:lang="it">Pacchi già trovati.</value>
         <value xml:lang="ja">パッケージが見つかりました。</value>
         <value xml:lang="vi">Đóng gói đã được tìm thấy.</value>
@@ -997,6 +1074,7 @@
         <value xml:lang="de">Stücklistensimulation</value>
         <value xml:lang="en">Bom Simulation</value>
         <value xml:lang="es">Simulación de materiales</value>
+        <value xml:lang="fa">شبیه‌سازی BOM</value>
         <value xml:lang="fr">Simulation de nomenclature</value>
         <value xml:lang="it">Simulazione distinta base</value>
         <value xml:lang="ja">部品表(BOM)シミュレーション</value>
@@ -1011,6 +1089,7 @@
         <value xml:lang="de">Stücklistenart</value>
         <value xml:lang="en">Bom Type</value>
         <value xml:lang="es">Tipo de lista de materiales</value>
+        <value xml:lang="fa">نوع BOM</value>
         <value xml:lang="fr">Type de nomenclature</value>
         <value xml:lang="it">Tipo distinta base</value>
         <value xml:lang="ja">部品表(BOM)種類</value>
@@ -1025,6 +1104,7 @@
         <value xml:lang="de">Kalender</value>
         <value xml:lang="en">Calendar</value>
         <value xml:lang="es">Calendario</value>
+        <value xml:lang="fa">تقویم</value>
         <value xml:lang="fr">Calendrier</value>
         <value xml:lang="it">Calendario</value>
         <value xml:lang="ja">カレンダ</value>
@@ -1039,6 +1119,7 @@
         <value xml:lang="de">Fertigung-Kalender-Kapazität</value>
         <value xml:lang="en">Manufacturing Calendar Capacity</value>
         <value xml:lang="es">Capacidad del calendario</value>
+        <value xml:lang="fa">ظرفیت تقویم ساخت</value>
         <value xml:lang="fr">Capacité du calendrier de fabrication</value>
         <value xml:lang="it">Capacità calendario produzione</value>
         <value xml:lang="ja">生産カレンダ能力</value>
@@ -1053,6 +1134,7 @@
         <value xml:lang="de">Ausnahme-Datum</value>
         <value xml:lang="en">Exception Day</value>
         <value xml:lang="es">Fecha de excepción</value>
+        <value xml:lang="fa">روز استثناء</value>
         <value xml:lang="fr">Jour exclu</value>
         <value xml:lang="it">Giorno speciale</value>
         <value xml:lang="ja">除外日</value>
@@ -1067,6 +1149,7 @@
         <value xml:lang="de">Ausnahme-Tag existiert schon</value>
         <value xml:lang="en">Manufacturing Calendar Exception  Day Id Already Exist</value>
         <value xml:lang="es">El código de excepción ya existe</value>
+        <value xml:lang="fa">آی‌دی روز استثناء تقویم ساخت ازقبل وجود دارد</value>
         <value xml:lang="fr">Cette réf. de jour exclu existe déjà</value>
         <value xml:lang="it">Codice capacità calendario produzione già esistente</value>
         <value xml:lang="ja">生産カレンダ除外日IDはすでに存在します</value>
@@ -1081,6 +1164,7 @@
         <value xml:lang="de">Es gibt noch einen Ausnahme-Tag für diesen Kalender</value>
         <value xml:lang="en">There is still an exception day for this calendar</value>
         <value xml:lang="es">Aún hay una excepción para este calendario</value>
+        <value xml:lang="fa">هنوز روز استثناء برای این تقویم وجود دارد</value>
         <value xml:lang="fr">Il existe encore une exception jour pour ce calendrier</value>
         <value xml:lang="it">C'è un giorno speciale per questo calendario</value>
         <value xml:lang="ja">このカレンダにはまだ除外日があります</value>
@@ -1095,6 +1179,7 @@
         <value xml:lang="de">Ausnahme-Woche</value>
         <value xml:lang="en">Exception Week</value>
         <value xml:lang="es">Semana de excepción</value>
+        <value xml:lang="fa">هفته استثناء</value>
         <value xml:lang="fr">Semaine exclue</value>
         <value xml:lang="it">Settimana speciale</value>
         <value xml:lang="ja">除外週</value>
@@ -1109,6 +1194,7 @@
         <value xml:lang="de">Es gibt schon eine Ausnahme-Woche für diesen Kalender</value>
         <value xml:lang="en">Manufacturing Calendar Exception Week Id Already Exist</value>
         <value xml:lang="es">El código de excepción de semana ya existe</value>
+        <value xml:lang="fa">آی‌دی هفته استثناء تقویم ساخت ازقبل وجود دارد</value>
         <value xml:lang="fr">Cette réf. de semaine exclue existe déjà</value>
         <value xml:lang="it">Codice calendario settimanale produzione speciale già esistente</value>
         <value xml:lang="ja">生産カレンダ除外週IDはすでに存在します</value>
@@ -1123,6 +1209,7 @@
         <value xml:lang="de">Es gibt noch eine Ausnahme-Woche für diesen Kalender</value>
         <value xml:lang="en">There is still an exception week for this calendar</value>
         <value xml:lang="es">Aún hay una semana excepción para este calendario</value>
+        <value xml:lang="fa">هنوز هفته استثناء برای این تقویم وجود دارد</value>
         <value xml:lang="fr">Il existe encore une semaine exclue pour ce calendrier</value>
         <value xml:lang="it">Non c'è una settimanale speciale per questo calendario</value>
         <value xml:lang="ja">このカレンダにはまだ除外週があります</value>
@@ -1137,6 +1224,7 @@
         <value xml:lang="de">Kalender-Nr.</value>
         <value xml:lang="en">Calendar ID</value>
         <value xml:lang="es">Calendario</value>
+        <value xml:lang="fa">آی‌دی تقویم</value>
         <value xml:lang="fr">Calendrier</value>
         <value xml:lang="it">Codice Calendario</value>
         <value xml:lang="ja">カレンダID</value>
@@ -1151,6 +1239,7 @@
         <value xml:lang="de">Kalender-Nr. schon vorhanden</value>
         <value xml:lang="en">Calendar Id already exist</value>
         <value xml:lang="es">El código de calendario ya existe</value>
+        <value xml:lang="fa">آی‌دی تقویم ازقبل وجود دارد</value>
         <value xml:lang="fr">Cette réf. de calendrier existe déja</value>
         <value xml:lang="it">Codice calendario già esistente</value>
         <value xml:lang="ja">カレンダIDはすでに存在します</value>
@@ -1165,6 +1254,7 @@
         <value xml:lang="de">Sie haben keine Berechtigung diese Seite anzuschauen ("MANUFACTURING_VIEW" oder "MANUFACTURING_ADMIN" wird benötigt)</value>
         <value xml:lang="en">You do not have permission to view this page. ("MANUFACTURING_VIEW" or "MANUFACTURING_ADMIN" needed)</value>
         <value xml:lang="es">Usted no tiene permiso para ver esta página. Necesita los permisos "MANUFACTURING_VIEW" o "MANUFACTURING_ADMIN"</value>
+        <value xml:lang="fa">شمار مجوز لازم برای دیدن این صفحه را ندارید. (مجوز "MANUFACTURING_VIEW" یا "MANUFACTURING_ADMIN" لازم‌است)</value>
         <value xml:lang="fr">Erreur sécurité : pour effectuer une opération sur un calendrier, il faut avoir l'autorisation MANUFACTURING_CREATE ou MANUFACTURING_ADMIN.</value>
         <value xml:lang="it">Non sei autorizzato a vedere questa pagina. (permesso "MANUFACTURING_VIEW" o "MANUFACTURING_ADMIN" necessario)</value>
         <value xml:lang="ja">このページを表示する権限がありません。"MANUFACTURING_VIEW" または "MANUFACTURING_ADMIN" 権限が必要です。</value>
@@ -1179,6 +1269,7 @@
         <value xml:lang="de">Es gibt noch einen Kalender der diese Woche nutzt</value>
         <value xml:lang="en">There is still an calendar which use this week</value>
         <value xml:lang="es">Hay un calendario que usa esta semana</value>
+        <value xml:lang="fa">هنوز تقویمی که این از این هفته استفاده‌کند وجوددارد</value>
         <value xml:lang="fr">Il existe un calendrier qui utilise encore cette semaine</value>
         <value xml:lang="it">C'è ancora un calendario che usa questa settimana</value>
         <value xml:lang="ja">この週を使用しているカレンダがあります</value>
@@ -1193,6 +1284,7 @@
         <value xml:lang="de">Woche</value>
         <value xml:lang="en">Week</value>
         <value xml:lang="es">Semana</value>
+        <value xml:lang="fa">هفته</value>
         <value xml:lang="fr">Semaine</value>
         <value xml:lang="it">Calendario settimanale</value>
         <value xml:lang="ja">週</value>
@@ -1207,6 +1299,7 @@
         <value xml:lang="de">Es gibt noch eine Ausnehme die diese Woche nutzt</value>
         <value xml:lang="en">There is still an exception week which use this week</value>
         <value xml:lang="es">Hay una semana de excepción que usa esta semana</value>
+        <value xml:lang="fa">هنوز هفته استثناء که از این هفته استفاده‌کند وجوددارد</value>
         <value xml:lang="fr">Il existe encore une semaine exclue qui utilise cette semaine</value>
         <value xml:lang="it">C'è ancora una settimana speciale che usa questa settimana</value>
         <value xml:lang="ja">この週を使用している除外週があります</value>
@@ -1221,6 +1314,7 @@
         <value xml:lang="de">Kalenderwochen-Nr.</value>
         <value xml:lang="en">Calendar Week ID</value>
         <value xml:lang="es">Semana asociada</value>
+        <value xml:lang="fa">آی‌دی هفته تقویم</value>
         <value xml:lang="fr">Semaine</value>
         <value xml:lang="it">Settimana</value>
         <value xml:lang="ja">カレンダ週ID</value>
@@ -1235,6 +1329,7 @@
         <value xml:lang="de">Kalenderwochen-Nr. schon vorhanden</value>
         <value xml:lang="en">CalendarWeekId already exist</value>
         <value xml:lang="es">El código ya existe</value>
+        <value xml:lang="fa">«آی‌دی هفته تقویم» ازقبل وجوددارد</value>
         <value xml:lang="fr">Cette réf. de semaine existe déja</value>
         <value xml:lang="it">Codice calendario settimanale già esistente</value>
         <value xml:lang="ja">カレンダ週IDはすでに存在します</value>
@@ -1249,6 +1344,7 @@
         <value xml:lang="de">Kalenderwochen-Nr. nicht vorhanden</value>
         <value xml:lang="en">Calendar Week ID does'nt exist</value>
         <value xml:lang="es">El código de calendario no existe</value>
+        <value xml:lang="fa">آی‌دی هفته تقویم وجود‌ندارد</value>
         <value xml:lang="fr">Réf. de semaine de calendrier n'existe pas</value>
         <value xml:lang="it">Codice calendario settimanale non esistente</value>
         <value xml:lang="ja">カレンダ週IDは存在しません</value>
@@ -1263,6 +1359,7 @@
         <value xml:lang="de">Wochen</value>
         <value xml:lang="en">Weeks</value>
         <value xml:lang="es">Semanas</value>
+        <value xml:lang="fa">هفته‌ها</value>
         <value xml:lang="fr">Semaines</value>
         <value xml:lang="it">Calendari settimanali</value>
         <value xml:lang="ja">週</value>
@@ -1276,6 +1373,7 @@
         <value xml:lang="de">Kalender</value>
         <value xml:lang="en">Calendars</value>
         <value xml:lang="es">Calendarios</value>
+        <value xml:lang="fa">تقویم‌ها</value>
         <value xml:lang="fr">Calendriers</value>
         <value xml:lang="it">Calendari</value>
         <value xml:lang="ja">カレンダ</value>
@@ -1289,6 +1387,7 @@
         <value xml:lang="de">Annulliert</value>
         <value xml:lang="en">Cancel</value>
         <value xml:lang="es">Cancelar</value>
+        <value xml:lang="fa">لغو</value>
         <value xml:lang="fr">Annulation</value>
         <value xml:lang="it">Annulla</value>
         <value xml:lang="ja">取消</value>
@@ -1303,6 +1402,7 @@
         <value xml:lang="de">Anmerkungen</value>
         <value xml:lang="en">Comments</value>
         <value xml:lang="es">Comentarios</value>
+        <value xml:lang="fa">نظرات</value>
         <value xml:lang="fr">Commentaires</value>
         <value xml:lang="it">Commenti</value>
         <value xml:lang="ja">コメント</value>
@@ -1317,6 +1417,7 @@
         <value xml:lang="de">OFBiz: Produktionsverwaltung</value>
         <value xml:lang="en">OFBiz: Manufacturing Manager</value>
         <value xml:lang="es">OFBiz: Gestor de producción</value>
+        <value xml:lang="fa">OFBiz: مدیریت ساخت</value>
         <value xml:lang="fr">OFBiz: Gestion de production</value>
         <value xml:lang="it">OFBiz: Gestione della produzione</value>
         <value xml:lang="ja">OFBiz: 生産管理</value>
@@ -1332,7 +1433,7 @@
         <value xml:lang="ar">جزء من عائلة أوفبيز للتطبيقات الحرة للتسيير</value>
         <value xml:lang="de">Teil der Open For Business Familie von Open Source Software</value>
         <value xml:lang="en">Part of the Open For Business Family of Open Source Software</value>
-        <!--value xml:lang="es">Parte de la familia "Open for Bussiness" de Software Libre</value-->
+        <value xml:lang="fa">Part of the Open For Business Family of Open Source Software</value><!--value xml:lang="es">Parte de la familia "Open for Bussiness" de Software Libre</value-->
         <value xml:lang="es">Parte de la familia de software Open For Business de código abierto</value>
         <value xml:lang="fr">Un module de la famille Open For Business, logiciel libre de gestion d'entreprise.</value>
         <value xml:lang="it">Un modulo della famiglia di software open source Open For Business</value>
@@ -1358,6 +1459,7 @@
         <value xml:lang="de">Abgeschlosen</value>
         <value xml:lang="en">Complete</value>
         <value xml:lang="es">Completo</value>
+        <value xml:lang="fa">کامل</value>
         <value xml:lang="fr">Complet</value>
         <value xml:lang="it">Completa</value>
         <value xml:lang="ja">完了</value>
@@ -1370,6 +1472,7 @@
     </property>
     <property key="ManufacturingConfigurationNotAvailable">
         <value xml:lang="en">Configuration Not Available</value>
+        <value xml:lang="fa">پیکربندی موجودنیست</value>
         <value xml:lang="it">Configurazione non disponibile</value>
         <value xml:lang="ja">設定は有効ではありません</value>
         <value xml:lang="pt_BR">Configuração não disponível</value>
@@ -1381,6 +1484,7 @@
         <value xml:lang="de">Bestätigen</value>
         <value xml:lang="en">Confirm</value>
         <value xml:lang="es">Confirmar</value>
+        <value xml:lang="fa">تایید</value>
         <value xml:lang="fr">Confirmer</value>
         <value xml:lang="it">Conferma</value>
         <value xml:lang="ja">確認</value>
@@ -1395,6 +1499,7 @@
         <value xml:lang="de">Kopieren eines Arbeitsganges</value>
         <value xml:lang="en">Copy a routingTask and Add it</value>
         <value xml:lang="es">Copiar una tarea y añadirla</value>
+        <value xml:lang="fa">رونوشت از «تکلیف ارسال» و اضافه‌کردن آن</value>
         <value xml:lang="fr">Copier une opération puis l'ajouter</value>
         <value xml:lang="it">Copia e aggiungi una operazione</value>
         <value xml:lang="ja">経路制御タスクをコピーおよび追加</value>
@@ -1409,6 +1514,7 @@
         <value xml:lang="de">Stückliste kopieren</value>
         <value xml:lang="en">Copy BOM</value>
         <value xml:lang="es">Copiar Lista de materiales</value>
+        <value xml:lang="fa">رونوشت از BOM</value>
         <value xml:lang="fr">Copie de la nomenclature</value>
         <value xml:lang="it">Copia distinte base</value>
         <value xml:lang="ja">部品表(BOM)をコピー</value>
@@ -1423,6 +1529,7 @@
         <value xml:lang="de">An Produkt-Nr.</value>
         <value xml:lang="en">To Product Id</value>
         <value xml:lang="es">Código del producto destino</value>
+        <value xml:lang="fa">به آی‌دی محصول</value>
         <value xml:lang="fr">Réf. à l'article</value>
         <value xml:lang="it">Al codice prodotto</value>
         <value xml:lang="ja">製品ID(先)</value>
@@ -1437,6 +1544,7 @@
         <value xml:lang="de">Kosten</value>
         <value xml:lang="en">Costs</value>
         <value xml:lang="es">Costos</value>
+        <value xml:lang="fa">هزینه‌ها</value>
         <value xml:lang="fr">Coûts</value>
         <value xml:lang="it">Costi</value>
         <value xml:lang="ja">原価</value>
@@ -1449,6 +1557,7 @@
     </property>
     <property key="ManufacturingCreateBom">
         <value xml:lang="en">Create Bom</value>
+        <value xml:lang="fa">ساختن BOM</value>
         <value xml:lang="fr">Créer une nomenclature</value>
         <value xml:lang="it">Creare distinta base</value>
         <value xml:lang="ja">部品表(BOM)を作成</value>
@@ -1462,6 +1571,7 @@
         <value xml:lang="de">Kalender erstellen</value>
         <value xml:lang="en">Create calendar</value>
         <value xml:lang="es">Crear calendario</value>
+        <value xml:lang="fa">ساختن تقویم</value>
         <value xml:lang="fr">Créer un calendrier</value>
         <value xml:lang="it">Creare calendario</value>
         <value xml:lang="ja">カレンダを作成</value>
@@ -1476,6 +1586,7 @@
         <value xml:lang="de">Kalenderwoche erstellen</value>
         <value xml:lang="en">Create Calendar Week</value>
         <value xml:lang="es">Crear semana</value>
+        <value xml:lang="fa">ساختن هفته تقویم</value>
         <value xml:lang="fr">Créer un calendier de semaine</value>
         <value xml:lang="it">Creare calendario settimanale</value>
         <value xml:lang="ja">カレンダ週を作成</value>
@@ -1488,6 +1599,7 @@
     </property>
     <property key="ManufacturingCreateDependentProductionRuns">
         <value xml:lang="en">Create Dependent Production Runs</value>
+        <value xml:lang="fa">ساختن اجراءهای تولید وابسته</value>
         <value xml:lang="it">Crea ordini di produzione dipendenti</value>
         <value xml:lang="ja">従属生産実行の作成</value>
         <value xml:lang="vi">Thêm các 'Chế tác lô hàng' phụ thuộc</value>
@@ -1497,6 +1609,7 @@
         <value xml:lang="de">Anlagengruppe erstellen</value>
         <value xml:lang="en">Create a Fixed Asset group</value>
         <value xml:lang="es">Crear grupo de máquinas</value>
+        <value xml:lang="fa">ساختن گروه دارایی ثابت</value>
         <value xml:lang="fr">Créer un groupe de machine</value>
         <value xml:lang="it">Creare un gruppo Macchine</value>
         <value xml:lang="ja">固定資産グループを作成</value>
@@ -1511,6 +1624,7 @@
         <value xml:lang="de">Sicherheits-Fehler: Um diesen Vorgang auszuführen müssen Sie über die Berechtigung MANUFACTURING_CREATE oder MANUFACTURING_ADMIN verfügen</value>
         <value xml:lang="en">Security Error: to run this operation you must have the MANUFACTURING_CREATE or MANUFACTURING_ADMIN permission</value>
         <value xml:lang="es">Error de seguridad: para ejecutar esta operación se requiere tener los permisos MANUFACTURING_CREATE o MANUFACTURING_ADMIN</value>
+        <value xml:lang="fa">خطا امنیتی: برای اجراء این عملیات شما باید مجوز MANUFACTURING_CREATE یا MANUFACTURING_ADMIN را داشته‌باشید</value>
         <value xml:lang="fr">Erreur de sécurité : Pour exécuter cette opération vous devez avoir l'autorisation MANUFACTURING_CREATE or MANUFACTURING_ADMIN</value>
         <value xml:lang="it">Errore Sicurezza: per eseguire questa operazione tu devi avere i permessi MANUFACTURING_CREATE o MANUFACTURING_ADMIN</value>
         <value xml:lang="ja">セキュリティエラー: この操作の実行には MANUFACTURING_CREATE または MANUFACTURING_ADMIN 権限が必要です</value>
@@ -1523,6 +1637,7 @@
     </property>
     <property key="ManufacturingCreateProductBom">
         <value xml:lang="en">Create Bill Of Material</value>
+        <value xml:lang="fa">ساختن صورت‌حساب مواد</value>
         <value xml:lang="fr">Créer une nomenclature</value>
         <value xml:lang="it">Creazione distinta base</value>
         <value xml:lang="ja">部品表(BOM)を作成</value>
@@ -1536,6 +1651,7 @@
         <value xml:lang="de">Produktionsauftrag erstellen</value>
         <value xml:lang="en">Create a Production Run</value>
         <value xml:lang="es">Crear orden de producción</value>
+        <value xml:lang="fa">ساختن اجراء تولید</value>
         <value xml:lang="fr">Création O.F.</value>
         <value xml:lang="it">Nuovo ordine di produzione</value>
         <value xml:lang="ja">生産実行を作成</value>
@@ -1550,6 +1666,7 @@
         <value xml:lang="de">Schneideliste</value>
         <value xml:lang="en">Cutting List</value>
         <value xml:lang="es">Listado de montaje</value>
+        <value xml:lang="fa">لیست برش</value>
         <value xml:lang="fr">Liste de découpage</value>
         <value xml:lang="it">Lista di Montaggio</value>
         <value xml:lang="ja">加工一覧</value>
@@ -1564,6 +1681,7 @@
         <value xml:lang="de">Schneidelistebericht</value>
         <value xml:lang="en">Cutting List Report</value>
         <value xml:lang="es">Informe de listado de montaje</value>
+        <value xml:lang="fa">گزارش لیست برش</value>
         <value xml:lang="fr">Rappport de liste de découpage</value>
         <value xml:lang="it">Stampa Lista di Montaggio</value>
         <value xml:lang="ja">加工一覧レポート</value>
@@ -1578,6 +1696,7 @@
         <value xml:lang="de">Rückmelden</value>
         <value xml:lang="en">Declare</value>
         <value xml:lang="es">Declarar</value>
+        <value xml:lang="fa">اعلام</value>
         <value xml:lang="fr">Déclarer</value>
         <value xml:lang="it">Dichiarazione</value>
         <value xml:lang="ja">定義</value>
@@ -1592,6 +1711,7 @@
         <value xml:lang="de">Sicherheits-Fehler: Um diesen Vorgang auszuführen müssen Sie über die Berechtigung MANUFACTURING_DELETE oder MANUFACTURING_ADMIN verfügen</value>
         <value xml:lang="en">Security Error: to run this operation you must have the MANUFACTURING_DELETE or MANUFACTURING_ADMIN permission</value>
         <value xml:lang="es">Error de seguridad: para ejecutar esta operación se requiere tener los permisos MANUFACTURING_DELETE o MANUFACTURING_ADMIN</value>
+        <value xml:lang="fa">خطا امنیتی: برای اجراء این عملیات شما باید مجوز MANUFACTURING_DELETE یا MANUFACTURING_ADMIN را داشته‌باشید</value>
         <value xml:lang="fr">Erreur de sécurité: Pour exécuter cette opération vous devez avoir l'autorisation MANUFACTURING_DELETE or MANUFACTURING_ADMIN</value>
         <value xml:lang="it">Errore Sicurezza: per eseguire questa operazione tu devi avere i permessi MANUFACTURING_CREATE o MANUFACTURING_ADMIN</value>
         <value xml:lang="ja">セキュリティエラー: この操作の実行には MANUFACTURING_DELETE または MANUFACTURING_ADMIN 権限が必要です</value>
@@ -1606,6 +1726,7 @@
         <value xml:lang="de">Lieferdatum</value>
         <value xml:lang="en">Delivery date</value>
         <value xml:lang="es">Fecha de envío</value>
+        <value xml:lang="fa">تاریخ تحویل</value>
         <value xml:lang="fr">Date d'expédition</value>
         <value xml:lang="it">Data Consegna</value>
         <value xml:lang="ja">配送日</value>
@@ -1620,6 +1741,7 @@
         <value xml:lang="de">Abhängige Produktionsaufträge</value>
         <value xml:lang="en">Succeeding Production Run(s)</value>
         <value xml:lang="es">Esfuerzos de trabajo dependientes</value>
+        <value xml:lang="fa">اجراء تولید(ها) باموفقیت</value>
         <value xml:lang="fr">Exécution de production dépendantes</value>
         <value xml:lang="it">Ordini di produzione successivi</value>
         <value xml:lang="ja">依存する生産実行</value>

@@ -28,12 +28,12 @@ jQuery(document).ready(function() {
       serverTimeZone = getServiceResult("getServerTimeZone")['serverTimeZone'];;
       initTimeZone();
       date = new timezoneJS.Date(serverTimestamp, serverTimeZone);
-      waitSpinnerHide();      
+      waitSpinnerHide();
     } else {
       date.setSeconds(date.getSeconds() + 1);
     }
     // dateFormat does not respect the timezone :/ Fortunately toString is what we want :)
-    //jQuery("#${clockField}").text("${uiLabelMap.CommonServerHour}: "  + dateFormat(date, "yyyy-mm-dd HH:MM:ss"));
+    //jQuery("#${clockField}").text("${uiLabelMap.CommonServerHour}: "  + dateFormat(date, "${Static["org.ofbiz.base.util.UtilDateTime"].getDateTimeFormat(context)}"));
     jQuery("#${clockField}").text("${uiLabelMap.CommonServerHour}: "  + date.toString());
   }
 })

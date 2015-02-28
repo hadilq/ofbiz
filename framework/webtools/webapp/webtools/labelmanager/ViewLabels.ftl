@@ -31,7 +31,7 @@ under the License.
         <#if showLocale == true>
           <#assign locale = Static["org.ofbiz.base.util.UtilMisc"].parseLocale(localeFound)?if_exists/>
           <#if locale?exists && locale?has_content>
-            <#assign langAttr = localeFound.toLanguageTag()>
+            <#assign langAttr = locale.toLanguageTag()>
             <#assign RightToLeftLocales = Static["org.ofbiz.base.util.UtilMisc"].RightToLeftLocales()/>
             <#assign langDir = "ltr">
             <#if RightToLeftLocales?contains(langAttr?substring(0, 2))>

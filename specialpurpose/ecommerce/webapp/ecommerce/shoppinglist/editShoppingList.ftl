@@ -249,12 +249,12 @@ under the License.
                 <td>&nbsp;</td>
                 <td><div class="tableheadtext">${uiLabelMap.CommonStartDate}</div></td>
                 <td>
-                  <@htmlTemplate.renderDateTimeField name="startDateTime" className="" event="" action="" alert="" title="Format: yyyy-MM-dd HH:mm:ss.SSS" value="${(recurrenceInfo.startDateTime)?if_exists}" size="25" maxlength="30" id="startDateTime1" dateType="date" shortDateInput=false timeDropdownParamName="" defaultDateTimeString="" localizedIconTitle="" timeDropdown="" timeHourName="" classString="" hour1="" hour2="" timeMinutesName="" minutes="" isTwelveHour="" ampmName="" amSelected="" pmSelected="" compositeType="" formName=""/>
+                  <@htmlTemplate.renderDateTimeField name="startDateTime" className="" event="" action="" alert="" title="Format: ${Static["org.ofbiz.base.util.UtilDateTime"].getDateTimeFormat(context)}.SSS" value="${(recurrenceInfo.startDateTime)?if_exists}" size="25" maxlength="30" id="startDateTime1" dateType="date" shortDateInput=false timeDropdownParamName="" defaultDateTimeString="" localizedIconTitle="" timeDropdown="" timeHourName="" classString="" hour1="" hour2="" timeMinutesName="" minutes="" isTwelveHour="" ampmName="" amSelected="" pmSelected="" compositeType="" formName=""/>
                 </td>
                 <td>&nbsp;</td>
                 <td><div class="tableheadtext">${uiLabelMap.CommonEndDate}</div></td>
                 <td>
-                  <@htmlTemplate.renderDateTimeField name="endDateTime" className="textBox" event="" action="" alert="" title="Format: yyyy-MM-dd HH:mm:ss.SSS" value="${(recurrenceRule.untilDateTime)?if_exists}" size="25" maxlength="30" id="endDateTime1" dateType="date" shortDateInput=false timeDropdownParamName="" defaultDateTimeString="" localizedIconTitle="" timeDropdown="" timeHourName="" classString="" hour1="" hour2="" timeMinutesName="" minutes="" isTwelveHour="" ampmName="" amSelected="" pmSelected="" compositeType="" formName=""/>
+                  <@htmlTemplate.renderDateTimeField name="endDateTime" className="textBox" event="" action="" alert="" title="Format: ${Static["org.ofbiz.base.util.UtilDateTime"].getDateTimeFormat(context)}.SSS" value="${(recurrenceRule.untilDateTime)?if_exists}" size="25" maxlength="30" id="endDateTime1" dateType="date" shortDateInput=false timeDropdownParamName="" defaultDateTimeString="" localizedIconTitle="" timeDropdown="" timeHourName="" classString="" hour1="" hour2="" timeMinutesName="" minutes="" isTwelveHour="" ampmName="" amSelected="" pmSelected="" compositeType="" formName=""/>
                 </td>
                 <td>&nbsp;</td>
               </tr>
@@ -460,7 +460,7 @@ under the License.
                            <table border="0" width="100%">
                                 <tr>
                                     <td width="1%">&nbsp;</td>
-                                    <td><@htmlTemplate.renderDateTimeField event="" action="" name="reservStartStr" className="inputBox" alert="" title="Format: yyyy-MM-dd HH:mm:ss.SSS" value="${shoppingListItem.reservStart?if_exists}" size="15" maxlength="30" id="reservStartStr_${shoppingListItem.shoppingListItemSeqId}" dateType="date" shortDateInput=true timeDropdownParamName="" defaultDateTimeString="" localizedIconTitle="" timeDropdown="" timeHourName="" classString="" hour1="" hour2="" timeMinutesName="" minutes="" isTwelveHour="" ampmName="" amSelected="" pmSelected="" compositeType="" formName=""/></td>
+                                    <td><@htmlTemplate.renderDateTimeField event="" action="" name="reservStartStr" className="inputBox" alert="" title="Format: ${Static["org.ofbiz.base.util.UtilDateTime"].getDateTimeFormat(context)}.SSS" value="${shoppingListItem.reservStart?if_exists}" size="15" maxlength="30" id="reservStartStr_${shoppingListItem.shoppingListItemSeqId}" dateType="date" shortDateInput=true timeDropdownParamName="" defaultDateTimeString="" localizedIconTitle="" timeDropdown="" timeHourName="" classString="" hour1="" hour2="" timeMinutesName="" minutes="" isTwelveHour="" ampmName="" amSelected="" pmSelected="" compositeType="" formName=""/></td>
                                     <td><input type="text" class="inputBox" size="2" name="reservLength" value="${shoppingListItem.reservLength?if_exists}"/></td>
                                 </tr>
                                 <tr>

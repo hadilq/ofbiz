@@ -240,7 +240,7 @@ under the License.
       <#-- show info from workeffort if it was a rental item -->
       <#if orderItem.orderItemTypeId == "RENTAL_ORDER_ITEM">
         <#if workEffortSave?exists>
-          <tr><td></td><td colspan="${numColumns}">${uiLabelMap.CommonFrom}: ${workEffortSave.estimatedStartDate?string("yyyy-MM-dd")} ${uiLabelMap.CommonUntil} ${workEffortSave.estimatedCompletionDate?string("yyyy-MM-dd")} ${uiLabelMap.CommonFor} ${workEffortSave.reservPersons} ${uiLabelMap.CommonPerson}(s)</td></tr>
+          <tr><td></td><td colspan="${numColumns}">${uiLabelMap.CommonFrom}: ${workEffortSave.estimatedStartDate?string("${Static["org.ofbiz.base.util.UtilDateTime"].getDateFormat(context)}")} ${uiLabelMap.CommonUntil} ${workEffortSave.estimatedCompletionDate?string("${Static["org.ofbiz.base.util.UtilDateTime"].getDateFormat(context)}")} ${uiLabelMap.CommonFor} ${workEffortSave.reservPersons} ${uiLabelMap.CommonPerson}(s)</td></tr>
         </#if>
       </#if>
       <#-- now show adjustment details per line item -->

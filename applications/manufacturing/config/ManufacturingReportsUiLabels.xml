@@ -21,6 +21,7 @@
     <property key="ManufacturingCompletionDate">
         <value xml:lang="en">Completion Date</value>
         <value xml:lang="es">Fecha de Términación</value>
+        <value xml:lang="fa">تارخ تکمیل</value>
         <value xml:lang="fr">Date d'achèvement</value>
         <value xml:lang="it">Data completamento</value>
         <value xml:lang="ja">完了日</value>
@@ -33,6 +34,7 @@
     <property key="ManufacturingComponentsOfShipmentPlan">
         <value xml:lang="en">Components of Shipment Plan</value>
         <value xml:lang="es">Componentes del Plan de Envío</value>
+        <value xml:lang="fa">مولفه‌های برنامه محموله</value>
         <value xml:lang="fr">Composants du plan d'expédition</value>
         <value xml:lang="it">Componenti del Piano di Spedizione</value>
         <value xml:lang="ja">発送計画コンポーネント</value>
@@ -45,6 +47,7 @@
     <property key="ManufacturingCustomLength">
         <value xml:lang="en">Custom Length</value>
         <value xml:lang="es">Longitud a medida</value>
+        <value xml:lang="fa">طول سفارشی</value>
         <value xml:lang="fr">Longueur sur commande</value>
         <value xml:lang="it">Lungh. su misura</value>
         <value xml:lang="ja">カスタム長</value>
@@ -57,6 +60,7 @@
     <property key="ManufacturingDestination">
         <value xml:lang="en">Destination</value>
         <value xml:lang="es">Destino</value>
+        <value xml:lang="fa">مقصد</value>
         <value xml:lang="fr">Destination</value>
         <value xml:lang="it">Destinazione</value>
         <value xml:lang="ja">対象</value>
@@ -69,6 +73,7 @@
     <property key="ManufacturingEstimatedShipDate">
         <value xml:lang="en">Completion Date</value>
         <value xml:lang="es">Fecha de Términación</value>
+        <value xml:lang="fa">تاریخ تکمیل</value>
         <value xml:lang="fr">Date d'expédition estimée</value>
         <value xml:lang="it">Data Spedizione Stimata</value>
         <value xml:lang="ja">完了日</value>
@@ -81,6 +86,7 @@
     <property key="ManufacturingHardware">
         <value xml:lang="en">Hardware</value>
         <value xml:lang="es">Hardware</value>
+        <value xml:lang="fa">سخت‌افزار</value>
         <value xml:lang="fr">Matériel informatique</value>
         <value xml:lang="it">Hardware</value>
         <value xml:lang="ja">ハードウェア</value>
@@ -93,6 +99,7 @@
     <property key="ManufacturingLabelNumber">
         <value xml:lang="en">Label number</value>
         <value xml:lang="es">Nº de Etiqueta</value>
+        <value xml:lang="fa">شماره برچسب</value>
         <value xml:lang="fr">Numéro d'étiquette</value>
         <value xml:lang="it">Numero etichetta</value>
         <value xml:lang="ja">ラベル番号</value>
@@ -105,6 +112,7 @@
     <property key="ManufacturingModel">
         <value xml:lang="en">Model</value>
         <value xml:lang="es">Modelo</value>
+        <value xml:lang="fa">مدل</value>
         <value xml:lang="fr">Modèle</value>
         <value xml:lang="it">Modello Cucina</value>
         <value xml:lang="ja">モデル</value>
@@ -117,6 +125,7 @@
     <property key="ManufacturingNeedQuantity">
         <value xml:lang="en">Need Quantity</value>
         <value xml:lang="es">Cantidad necesaria</value>
+        <value xml:lang="fa">کمیت نیازدارد</value>
         <value xml:lang="fr">Quantité nécessaire</value>
         <value xml:lang="it">Quantità Necessaria</value>
         <value xml:lang="ja">必要数量</value>
@@ -129,6 +138,7 @@
     <property key="ManufacturingOnHandQuantity">
         <value xml:lang="en">On Hand Quantity</value>
         <value xml:lang="es">Cantidad disponible (QOH)</value>
+        <value xml:lang="fa">کمیت روی دست</value>
         <value xml:lang="fr">Quantité disponible</value>
         <value xml:lang="it">Quantità Disponibile</value>
         <value xml:lang="ja">手持数量</value>
@@ -141,6 +151,7 @@
     <property key="ManufacturingOperationCodeAndDescription">
         <value xml:lang="en">Operation Code And Description</value>
         <value xml:lang="es">Código de operación y descripción</value>
+        <value xml:lang="fa">کد عملیات و شرح</value>
         <value xml:lang="fr">Code et description d'opération</value>
         <value xml:lang="it">Codice Operazione e Descrizione</value>
         <value xml:lang="ja">操作コードおよび詳細</value>
@@ -153,6 +164,7 @@
     <property key="ManufacturingOperationRunForShipment">
         <value xml:lang="en">Operation Run For Shipment</value>
         <value xml:lang="es">Operación de Producción para el Envío</value>
+        <value xml:lang="fa">اجراء عملیات برای محموله</value>
         <value xml:lang="fr">Cadence d'opération pour expédition</value>
         <value xml:lang="it">Operazioni di Produzione per la Spedizione</value>
         <value xml:lang="ja">発送の操作実行</value>
@@ -165,6 +177,7 @@
     <property key="ManufacturingPackage">
         <value xml:lang="en">Package</value>
         <value xml:lang="es">Paquete</value>
+        <value xml:lang="fa">بسته</value>
         <value xml:lang="fr">Paquet</value>
         <value xml:lang="it">Pacco</value>
         <value xml:lang="ja">梱包</value>
@@ -177,6 +190,7 @@
     <property key="ManufacturingPanelNumber">
         <value xml:lang="en">Panel number</value>
         <value xml:lang="es">Número de panneau</value>
+        <value xml:lang="fa">شماره قاب</value>
         <value xml:lang="fr">Nombre d'invité</value>
         <value xml:lang="it">Numero pannelli</value>
         <value xml:lang="ja">パネル番号</value>
@@ -189,6 +203,7 @@
     <property key="ManufacturingPickingDate">
         <value xml:lang="en">Picking date</value>
         <value xml:lang="es">Fecha de Recogida</value>
+        <value xml:lang="fa">تاریخ انتخاب</value>
         <value xml:lang="fr">Date de prélèvement</value>
         <value xml:lang="it">Data di Prelievo</value>
         <value xml:lang="ja">ピッキング日</value>
@@ -201,6 +216,7 @@
     <property key="ManufacturingPickingListFx">
         <value xml:lang="en">Picking for release</value>
         <value xml:lang="es">Recogida para liberación</value>
+        <value xml:lang="fa">انتخاب برای ترخیص</value>
         <value xml:lang="fr">Prélèvement pour approbation</value>
         <value xml:lang="it">Richiesta per Rilascio</value>
         <value xml:lang="ja">リリースのピッキング</value>
@@ -213,6 +229,7 @@
     <property key="ManufacturingPickingPeriod">
         <value xml:lang="en">Picking period</value>
         <value xml:lang="es">Periodo de recogida</value>
+        <value xml:lang="fa">دوره انتخاب</value>
         <value xml:lang="fr">Période de prélèvement</value>
         <value xml:lang="it">Periodo prelievo</value>
         <value xml:lang="ja">ピッキング期間</value>
@@ -225,6 +242,7 @@
     <property key="ManufacturingPlan">
         <value xml:lang="en">Manufacturing Plan</value>
         <value xml:lang="es">Plan de producción</value>
+        <value xml:lang="fa">برنامه ساخت</value>
         <value xml:lang="fr">Plan de fabrication</value>
         <value xml:lang="it">Piano di produzione</value>
         <value xml:lang="ja">生産計画</value>
@@ -237,6 +255,7 @@
     <property key="ManufacturingPrintoutDate">
         <value xml:lang="en">Printout Date</value>
         <value xml:lang="es">Fecha de Impresión</value>
+        <value xml:lang="fa">تاریخ نتیجه‌چاپ</value>
         <value xml:lang="fr">Date de sortie sur imprimante</value>
         <value xml:lang="it">Data Emissione</value>
         <value xml:lang="ja">印刷日</value>
@@ -249,6 +268,7 @@
     <property key="ManufacturingProductBrandName">
         <value xml:lang="en">Draw no</value>
         <value xml:lang="es">Marca</value>
+        <value xml:lang="fa">شماره رسم</value>
         <value xml:lang="fr">N° de dessin</value>
         <value xml:lang="it">n. disegno</value>
         <value xml:lang="ja">設計番号</value>
@@ -260,6 +280,7 @@
     </property>
     <property key="ManufacturingProductionRunComponentsByFeature">
         <value xml:lang="en">Production Runs Componentes By Feature</value>
+        <value xml:lang="fa">مولفه‌های اجراء تولید بوسیله افزونه</value>
         <value xml:lang="it">Componenti ordini di produzione per caratteristica</value>
         <value xml:lang="ja">機能別生産実行コンポーネント</value>
         <value xml:lang="pt_BR">Ritmo de produção por características de produtos</value>
@@ -268,6 +289,7 @@
     </property>
     <property key="ManufacturingProductionRunInfoAndOrder">
         <value xml:lang="en">Production Runs Info And Order</value>
+        <value xml:lang="fa">اطلاعات اجراء تولید و سفارش</value>
         <value xml:lang="it">Ordini di produzione ifnroper caratteristica</value>
         <value xml:lang="ja">生産実行情報および注文</value>
         <value xml:lang="pt_BR">Detalhes de Ritmo de produção e pedidos</value>
@@ -277,6 +299,7 @@
     <property key="ManufacturingProductionRuns">
         <value xml:lang="en">Production Runs</value>
         <value xml:lang="es">Orden de Producción</value>
+        <value xml:lang="fa">اجراء تولید</value>
         <value xml:lang="fr">Cadences de production</value>
         <value xml:lang="it">Ordini di Produzione</value>
         <value xml:lang="ja">生産実行</value>
@@ -289,6 +312,7 @@
     <property key="ManufacturingProductsComponents">
         <value xml:lang="en">Products Components</value>
         <value xml:lang="es">Componentes de productos</value>
+        <value xml:lang="fa">مولفه‌های محصولات</value>
         <value xml:lang="fr">Composants de production</value>
         <value xml:lang="it">Prodotto Componente</value>
         <value xml:lang="ja">製品コンポーネント</value>
@@ -300,6 +324,7 @@
     </property>
     <property key="ManufacturingProductsStacks">
         <value xml:lang="en">Products Stacks</value>
+        <value xml:lang="fa">انباش‌های محصولات</value>
         <value xml:lang="it">Pila prodotti</value>
         <value xml:lang="ja">製品スタック</value>
         <value xml:lang="pt_BR">Pilha de produtos</value>
@@ -309,6 +334,7 @@
     <property key="ManufacturingQtyM2">
         <value xml:lang="en">Square meters</value>
         <value xml:lang="es">Metros cuadrados</value>
+        <value xml:lang="fa">متر مربع</value>
         <value xml:lang="fr">Mètres carrés</value>
         <value xml:lang="it">M.Q.</value>
         <value xml:lang="ja">平方メートル</value>
@@ -321,6 +347,7 @@
     <property key="ManufacturingReference">
         <value xml:lang="en">Reference</value>
         <value xml:lang="es">Referencia</value>
+        <value xml:lang="fa">مرجع</value>
         <value xml:lang="fr">Référence</value>
         <value xml:lang="it">Riferimento</value>
         <value xml:lang="ja">参照</value>
@@ -333,6 +360,7 @@
     <property key="ManufacturingReleased">
         <value xml:lang="en">Released</value>
         <value xml:lang="es">Publicado</value>
+        <value xml:lang="fa">ترخیص‌شده</value>
         <value xml:lang="fr">Approbation</value>
         <value xml:lang="it">Rilasciato</value>
         <value xml:lang="ja">リリース済</value>
@@ -345,6 +373,7 @@
     <property key="ManufacturingReleasedNote">
         <value xml:lang="en">Released/Note</value>
         <value xml:lang="es">Publicado/Nota</value>
+        <value xml:lang="fa">ترخیص‌شده/یادداشت</value>
         <value xml:lang="fr">Note d'approbation</value>
         <value xml:lang="it">Rilasciato/Note</value>
         <value xml:lang="ja">リリース済/注釈</value>
@@ -357,6 +386,7 @@
     <property key="ManufacturingRequester">
         <value xml:lang="en">Requester</value>
         <value xml:lang="es">Solicitante</value>
+        <value xml:lang="fa">درخواست‌گر</value>
         <value xml:lang="fr">Demandeur</value>
         <value xml:lang="it">Richiedente</value>
         <value xml:lang="ja">リクエスト者</value>
@@ -369,6 +399,7 @@
     <property key="ManufacturingShipTo">
         <value xml:lang="en">Ship To</value>
         <value xml:lang="es">Enviar a</value>
+        <value xml:lang="fa">حمل به</value>
         <value xml:lang="fr">Expédié à</value>
         <value xml:lang="it">Spedire A</value>
         <value xml:lang="ja">発送先</value>
@@ -381,6 +412,7 @@
     <property key="ManufacturingShipmentId">
         <value xml:lang="en">Shipment Id</value>
         <value xml:lang="es">Código de Envío</value>
+        <value xml:lang="fa">آی‌دی محموله</value>
         <value xml:lang="fr">Réf. d'expédition</value>
         <value xml:lang="it">Numero Spedizione</value>
         <value xml:lang="ja">発送ID</value>
@@ -393,6 +425,7 @@
     <property key="ManufacturingShopOrder">
         <value xml:lang="en">Shop Order</value>
         <value xml:lang="es">Orden de trabajo</value>
+        <value xml:lang="fa">سفارش فروشگاه</value>
         <value xml:lang="fr">Ordre de magasin</value>
         <value xml:lang="it">Ordine di Lavoro</value>
         <value xml:lang="ja">発送注文</value>
@@ -405,6 +438,7 @@
     <property key="ManufacturingTaskRunTime">
         <value xml:lang="en">Task Run Time</value>
         <value xml:lang="es">Tiempo de ejecución</value>
+        <value xml:lang="fa">زمان اجراء تکلیف</value>
         <value xml:lang="fr">Temps d'exécution de tâche</value>
         <value xml:lang="it">Tempo di Esecuzione Compito</value>
         <value xml:lang="ja">タスク実行時間</value>
@@ -417,6 +451,7 @@
     <property key="ManufacturingTaskSetupTime">
         <value xml:lang="en">Task Setup Time</value>
         <value xml:lang="es">Tiempo de preparación</value>
+        <value xml:lang="fa">زمان نصب تکلیف</value>
         <value xml:lang="fr">Temps d'installation de tâche</value>
         <value xml:lang="it">Tempo Configurazione Compito</value>
         <value xml:lang="ja">タスク設定時間</value>
@@ -429,6 +464,7 @@
     <property key="ManufacturingWorkCenter">
         <value xml:lang="en">Work Center</value>
         <value xml:lang="es">Centro de trabajo</value>
+        <value xml:lang="fa">مرکز کار</value>
         <value xml:lang="fr">Centre de travail</value>
         <value xml:lang="it">Centro di Lavoro</value>
         <value xml:lang="ja">ワークセンター</value>

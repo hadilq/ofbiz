@@ -17,6 +17,7 @@ specific language governing permissions and limitations
 under the License.
 -->
 <#assign RightToLeftLocales = Static["org.ofbiz.base.util.UtilMisc"].RightToLeftLocales()/>
+<#assign langAttr = locale.toLanguageTag()>
 <#assign langDir = "ltr">
 <#if RightToLeftLocales?contains(langAttr?substring(0, 2))>
     <#assign langDir = "rtl">
@@ -98,7 +99,7 @@ under the License.
                     <tr>
                         <#assign locale = Static["org.ofbiz.base.util.UtilMisc"].parseLocale(localeFound)?if_exists/>
                         <#if locale?exists && locale?has_content>
-                            <#assign langAttr = localeFound.toLanguageTag()>
+                            <#assign langAttr = locale.toLanguageTag()>
                             <td lang="${langAttr}" dir="${langDir}" class="label">
                                 ${locale.getDisplayName(locale)}
                             </td>

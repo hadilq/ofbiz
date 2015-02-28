@@ -458,7 +458,7 @@ under the License.
 
         <make-value value-field="newEntityPartyRole" entity-name="PartyRole"/>
         <set-pk-fields map="parameters" value-field="newEntityPartyRole"/>
-        <create-value value-field="newEntityPartyRole"/>
+        <create-value or-store="true" value-field="newEntityPartyRole"/>
 
         <make-value value-field="newEntityInvoiceRole" entity-name="InvoiceRole"/>
         <set-nonpk-fields map="parameters" value-field="newEntityInvoiceRole"/>

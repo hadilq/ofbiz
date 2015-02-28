@@ -139,7 +139,7 @@
     </property>
     <property key="EntityImportSucceededNumberFile">
         <value xml:lang="en">Succeeded: ${succeeded} of ${total}</value>
-        <value xml:lang="fa">با موفقیت: ${succeeded} از ${total}</value>
+        <value xml:lang="fa">با‌موفقیت: ${succeeded} از ${total}</value>
         <value xml:lang="it">Successo: ${succeeded} di ${total}</value>
         <value xml:lang="ja">成功: ${succeeded} / ${total}</value>
         <value xml:lang="vi">Thành công: ${succeeded} trên tổng số ${total}</value>
@@ -266,7 +266,7 @@
     <property key="FormFieldTitle_keepRemoveInfoHours">
         <value xml:lang="de">Info-Stunden beibehalten/entfernen</value>
         <value xml:lang="en">Keep Remove Info Hours</value>
-        <value xml:lang="fa">ساعت‌های اطلاعات را تا آخر پاک‌کن</value>
+        <value xml:lang="fa">ساعت‌های اطلاعات را تا آخر حذف‌کن</value>
         <value xml:lang="fr">Maintenir le retrait des heures d'information</value>
         <value xml:lang="it">Mantieni gli orari delle informazioni eliminate</value>
         <value xml:lang="ja">保持削除情報時間</value>
@@ -307,7 +307,7 @@
     <property key="FormFieldTitle_maxRunningNoUpdateMillis">
         <value xml:lang="de">Maximale Zeit ohne Update</value>
         <value xml:lang="en">Max Running No Update Millis</value>
-        <value xml:lang="fa">بیشترین اجرا بدون بروزرسانی به میلی‌ثانیه</value>
+        <value xml:lang="fa">بیشترین اجراء بدون بروزرسانی به میلی‌ثانیه</value>
         <value xml:lang="fr">Fonctionnement maximum sans mise à jour millis.</value>
         <value xml:lang="it">Massima esecuzione senza aggiornamento millis</value>
         <value xml:lang="ja">最大実行番号更新ミリ秒</value>

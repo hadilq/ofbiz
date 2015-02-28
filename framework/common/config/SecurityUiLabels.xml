@@ -307,7 +307,7 @@
         <value xml:lang="de">Überprüfung des aktuellen Passworts</value>
         <value xml:lang="en">Current Password Verify</value>
         <value xml:lang="es">Verificar clave actual</value>
-        <value xml:lang="fa">تایید گذرواژه کنونی</value>
+        <value xml:lang="fa">تصدیق گذرواژه کنونی</value>
         <value xml:lang="fr">Vérification du mot de passe actuel</value>
         <value xml:lang="hi_IN">वर्तमान पासवर्ड सत्यापित करें</value>
         <value xml:lang="it">Verifica password attuale</value>
@@ -423,7 +423,7 @@
         <value xml:lang="de">Überprüfung neues Passwort</value>
         <value xml:lang="en">Verify New Password</value>
         <value xml:lang="es">Validar nueva clave</value>
-        <value xml:lang="fa">تایید گذرواژه جدید</value>
+        <value xml:lang="fa">تصدیق گذرواژه جدید</value>
         <value xml:lang="fr">Vérification du nouveau mot de passe</value>
         <value xml:lang="hi_IN">नया पासवर्ड सत्यापित करें</value>
         <value xml:lang="it">Verifica nuova password</value>

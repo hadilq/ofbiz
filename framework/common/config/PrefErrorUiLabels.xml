@@ -22,7 +22,7 @@
         <value xml:lang="de">Benutzereinstellungen konnten nicht kopiert werden: ungültige Argumente</value>
         <value xml:lang="en">Could not copy user preferences: Invalid argument(s)</value>
         <value xml:lang="es">No se pueden copiar las preferencias del usuario: Argumento(s) no válido(s)</value>
-        <value xml:lang="fa">نمی‌تواند ترجیحات کاربر را کپی کند: آرگیومنت(های) اشتباه</value>
+        <value xml:lang="fa">نمی‌توان ترجیحات کاربر را رونوشت‌کند: آرگیومنت(های) نامعتبر</value>
         <value xml:lang="fr">Impossible de copier les préférences de l'utilisateur : argument(s) non valides</value>
         <value xml:lang="it">Non è possibile copiare le preferenze utente: argomento(i) invalidi</value>
         <value xml:lang="ja">ユーザ設定がコピーできません: 引数が無効です</value>
@@ -36,7 +36,7 @@
         <value xml:lang="de">Benutzereinstellungen konnten nicht kopiert werden: Lese/Schreibfehler</value>
         <value xml:lang="en">Could not copy user preferences (read/write failure): {0}</value>
         <value xml:lang="es">No se pueden copiar las preferencias del usuario (error de lectura/escritura): {0}</value>
-        <value xml:lang="fa">نمی‌تواند ترجیحات کاربر را کپی کند (مشکل در خواندن/نوشتن)</value>
+        <value xml:lang="fa">نمی‌توان ترجیحات کاربر را رونوشت‌کند (مشکل در خواندن/نوشتن)</value>
         <value xml:lang="fr">Impossible de copier les préférences de l'utilisateur (erreur d'écriture ou de lecture) : {0}</value>
         <value xml:lang="it">Non è possibile copiare le preferenze utente (lettura/scrittura fallita): {0}</value>
         <value xml:lang="ja">ユーザ設定がコピーできません (読取/書込エラー): [0]</value>
@@ -50,7 +50,7 @@
         <value xml:lang="de">Benutzereinstellungen konnten nicht geholt werden: ungültige Argumente</value>
         <value xml:lang="en">Could not get user preferences: Invalid argument(s)</value>
         <value xml:lang="es">No se pueden obtener las preferencias del usuario: Argumento(s) no válido(s)</value>
-        <value xml:lang="fa">ترجیحات کاربر را دریافت نمی‌کند: آرگیومنت(های) اشتباه</value>
+        <value xml:lang="fa">ترجیحات کاربر را دریافت نمی‌کند: آرگیومنت(های) نامعتبر</value>
         <value xml:lang="fr">Impossible d'obtenir les préférences de l'utilisateur : argument(s) non valides</value>
         <value xml:lang="it">Non è possibile ottenerele preferenze utente: argomento(i) invalidi)</value>
         <value xml:lang="ja">ユーザ設定が取得できません: 引数が無効です</value>
@@ -90,7 +90,7 @@
         <value xml:lang="de">Benutzereinstellungen konnten nicht gespeichert werden: ungültige Argumente</value>
         <value xml:lang="en">Could not set user preferences: Invalid argument(s)</value>
         <value xml:lang="es">No se pueden establecer las preferencias del usuario: Argumento(s) no válido(s)</value>
-        <value xml:lang="fa">نمی‌توان ترجیحات کاربر را ثبت‌کرد: آرگیومنت(های) اشتباه</value>
+        <value xml:lang="fa">نمی‌توان ترجیحات کاربر را ثبت‌کرد: آرگیومنت(های) نامعتبر</value>
         <value xml:lang="fr">Impossible de définir les préférences de l'utilisateur : argument(s) non valides</value>
         <value xml:lang="it">Non è possibile ottenere le preferenze utente: argomento(i) invalidi</value>
         <value xml:lang="ja">ユーザ設定を設定できません: 引数が無効です</value>

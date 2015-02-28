@@ -78,7 +78,7 @@
         <value xml:lang="de">Job kann nicht abgebrochen werden</value>
         <value xml:lang="en">Unable to cancel job</value>
         <value xml:lang="es">No se puede cancelar la terea</value>
-        <value xml:lang="fa">نمی‌توان کار را متوقف کرد</value>
+        <value xml:lang="fa">نمی‌توان کار را لغو کرد</value>
         <value xml:lang="fr">Impossible d'annuler ce job</value>
         <value xml:lang="it">Impossibile annullare il lavoro</value>
         <value xml:lang="ja">ジョブをキャンセルすることができません</value>
@@ -92,7 +92,7 @@
         <value xml:lang="de">Job Wiederholungen können nicht abgebrochen werden</value>
         <value xml:lang="en">Unable to cancel job retries</value>
         <value xml:lang="es">No se puede cancelar los reintentos de la terea</value>
-        <value xml:lang="fa">کنش‌های این کار را نمی‌توان متوقف کرد</value>
+        <value xml:lang="fa">کنش‌های این کار را نمی‌توان لغو کرد</value>
         <value xml:lang="fr">Impossible d'annuler les nouvelles tentatives de traitement par lot</value>
         <value xml:lang="it">Impossibile annullare il nuovo tentativo di lavoro</value>
         <value xml:lang="ja">ジョブ再実行をキャンセルすることができません</value>
@@ -118,7 +118,7 @@
     </property>
     <property key="ServiceTestDeadLockError">
         <value xml:lang="en">Error running deadlock test services: ${errorString}</value>
-        <value xml:lang="fa">خطا در اجرا سرویس‌های تست قفل‌بسته: ${errorString}</value>
+        <value xml:lang="fa">خطا در اجراء سرویس‌های تست قفل‌بسته: ${errorString}</value>
         <value xml:lang="it">Errore durante il test del servizio deadlock: ${errorString}</value>
         <value xml:lang="ja">デッドロックテストサービス実行中にエラー: ${errorString}</value>
         <value xml:lang="zh">运行死锁测试服务时出错：${errorString}</value>
@@ -244,14 +244,14 @@
     </property>
     <property key="ServiceTestRollback">
         <value xml:lang="en">Intentional rollback to test global-rollback</value>
-        <value xml:lang="fa">عقب‌گرد بین‌المللی برای تست عقب‌گرد-جهانی</value>
+        <value xml:lang="fa">عقب‌گرد بین‌المللی برای تست عقب‌گرد-سراسری</value>
         <value xml:lang="it">Rollback intenzionale per testare il global-rollback</value>
         <value xml:lang="ja">グローバル・ロールバックのテストのため意図的なロールバック</value>
         <value xml:lang="zh">故意回滚以测试全局回滚</value>
     </property>
     <property key="ServiceTestSubServiceError">
         <value xml:lang="en">Error calling sub-service, it should return an error but not throw an exception, so something went wrong: ${errorString}</value>
-        <value xml:lang="fa">خطا در فراخوانی زیر-سرویس، این باید خطایی را بازگرداند ولی استثناءی رخ نداد، بنابراین چیزی اشتباه است: ${errorString}</value>
+        <value xml:lang="fa">خطا در فراخوانی زیر-سرویس، باید خطایی را بازگرداند ولی استثناءی رخ نداد، بنابراین چیزی اشتباه است: ${errorString}</value>
         <value xml:lang="it">Errore durante l'esecuzione del sotto-servizio, dovrebbe restituire un'errore ma non generare un'eccezione, così qualcosa è andato male: ${errorString}</value>
         <value xml:lang="ja">サブサービス呼び出し中にエラー。エラーを戻しましたが例外がスローされませんでした。なにか誤りがあります: ${errorString}</value>
         <value xml:lang="zh">调用子服务时出错，它应该返回一个错误，而不是抛出一个意外，因此发生了错误：${errorString}</value>

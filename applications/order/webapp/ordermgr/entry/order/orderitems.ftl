@@ -80,7 +80,7 @@ under the License.
                 <#if WorkOrderItemFulfillments?has_content>
                     <#list WorkOrderItemFulfillments as WorkOrderItemFulfillment>
                         <#assign workEffort = WorkOrderItemFulfillment.getRelatedOne("WorkEffort", true)?if_exists>
-                          <tr><td>&nbsp;</td><td>&nbsp;</td><td colspan="8"><div>${uiLabelMap.CommonFrom}: ${workEffort.estimatedStartDate?string("yyyy-MM-dd")} ${uiLabelMap.CommonTo}: ${workEffort.estimatedCompletionDate?string("yyyy-MM-dd")} ${uiLabelMap.OrderNbrPersons}: ${workEffort.reservPersons}</div></td></tr>
+                          <tr><td>&nbsp;</td><td>&nbsp;</td><td colspan="8"><div>${uiLabelMap.CommonFrom}: ${Static["org.ofbiz.base.util.UtilDateTime"].toDateString(workEffort.estimatedStartDate, context)} ${uiLabelMap.CommonTo}: ${Static["org.ofbiz.base.util.UtilDateTime"].toDateString(workEffort.estimatedCompletionDate, context)} ${uiLabelMap.OrderNbrPersons}: ${workEffort.reservPersons}</div></td></tr>
                         <#break><#-- need only the first one -->
                     </#list>
                 </#if>
