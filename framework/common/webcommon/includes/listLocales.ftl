@@ -27,12 +27,12 @@ under the License.
   <table cellspacing="0" class="basic-table hover-bar">
     <#assign altRow = true>
     <#assign availableLocales = Static["org.ofbiz.base.util.UtilMisc"].availableLocales()/>
-    <#assign RightToLeftLocales = Static["org.ofbiz.base.util.UtilMisc"].RightToLeftLocales()/>
+    <#assign rightToLeftLocales = Static["org.ofbiz.base.util.UtilMisc"].rightToLeftLocales()/>
     <#list availableLocales as availableLocale>
         <#assign altRow = !altRow>
         <#assign langAttr = availableLocale.toLanguageTag()>
         <#assign langDir = "ltr">
-        <#if RightToLeftLocales?contains(langAttr?substring(0, 2))>
+        <#if rightToLeftLocales?contains(langAttr?substring(0, 2))>
             <#assign langDir = "rtl">
         </#if>
         <tr <#if altRow>class="alternate-row"</#if>>

@@ -33,7 +33,7 @@ jQuery(document).ready(function() {
       date.setSeconds(date.getSeconds() + 1);
     }
     // dateFormat does not respect the timezone :/ Fortunately toString is what we want :)
-    //jQuery("#${clockField}").text("${uiLabelMap.CommonServerHour}: "  + dateFormat(date, "${Static["org.ofbiz.base.util.UtilDateTime"].getDateTimeFormat(context)}"));
+    //jQuery("#${clockField}").text("${uiLabelMap.CommonServerHour}: "  + dateFormat(date, "${Static["org.ofbiz.base.util.UtilDateTime"].getDateTimeFormatByContext(context)}"));
     jQuery("#${clockField}").text("${uiLabelMap.CommonServerHour}: "  + date.toString());
   }
 })

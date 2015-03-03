@@ -685,16 +685,16 @@ public class ModelFormField {
                     nf.setMaximumFractionDigits(10);
                     return nf.format(retVal);
                 } else if (retVal instanceof java.sql.Date) {
-                    DateFormat df = UtilDateTime.toDateFormat(context);
+                    DateFormat df = UtilDateTime.toDateFormatByContext(context);
                     return df.format((java.util.Date) retVal);
                 } else if (retVal instanceof java.sql.Time) {
-                    DateFormat df = UtilDateTime.toTimeFormat(context);
+                    DateFormat df = UtilDateTime.toTimeFormatByContext(context);
                     return df.format((java.util.Date) retVal);
                 } else if (retVal instanceof java.sql.Timestamp) {
-                    DateFormat df = UtilDateTime.toDateTimeFormat(context);
+                    DateFormat df = UtilDateTime.toDateTimeFormatByContext(context);
                     return df.format((java.util.Date) retVal);
                 } else if (retVal instanceof java.util.Date) {
-                    DateFormat df = UtilDateTime.toDateTimeFormat("EEE MMM dd hh:mm:ss z yyyy", context);
+                    DateFormat df = UtilDateTime.toDateTimeFormatByContext("EEE MMM dd hh:mm:ss z yyyy", context);
                     return df.format((java.util.Date) retVal);
                 } else {
                     returnValue = retVal.toString();
@@ -2045,9 +2045,7 @@ public class ModelFormField {
 
                 if (ObjRetVal instanceof Timestamp){
                     date = new Date(((Timestamp) ObjRetVal).getTime());
-                    DateFormat dateFormatter = UtilDateTime.toDateFormat(context);
-                    //DateFormat dateFormatter = DateFormat.getDateInstance(DateFormat.SHORT, locale);
-                    retVal = dateFormatter.format(date);
+                    retVal = UtilDateTime.toDateStringByContext(date, context);
                 } else {
                     StringToTimestamp stringToTimestamp = new DateTimeConverters.StringToTimestamp();
 
@@ -2056,8 +2054,7 @@ public class ModelFormField {
                         timestamp = stringToTimestamp.convert((String) ObjRetVal, context);
                         date = new Date(timestamp.getTime());
 
-                        DateFormat dateFormatter = UtilDateTime.toDateFormat(context);
-                        retVal = dateFormatter.format(date);
+                        retVal = UtilDateTime.toDateStringByContext(date, context);
                     }
                     catch (ConversionException e) {
                         String errMsg = "Error formatting date using default instead [" + retVal + "]: " + e.toString();
@@ -2073,8 +2070,7 @@ public class ModelFormField {
                 if (ObjRetVal instanceof Timestamp){
                     date = new Date(((Timestamp) ObjRetVal).getTime());
 
-                    DateFormat dateFormatter = UtilDateTime.toDateTimeFormat(context);
-                    retVal = dateFormatter.format(date);
+                    retVal = UtilDateTime.toDateTimeStringByContext(date, context);
                 } else {
                     StringToTimestamp stringToTimestamp = new DateTimeConverters.StringToTimestamp();
                     Timestamp timestamp = null;
@@ -2082,8 +2078,7 @@ public class ModelFormField {
                         timestamp = stringToTimestamp.convert((String) ObjRetVal, context);
                         date = new Date(timestamp.getTime());
 
-                        DateFormat dateFormatter = UtilDateTime.toDateTimeFormat(context);
-                        retVal = dateFormatter.format(date);
+                        retVal  = UtilDateTime.toDateTimeStringByContext(date, context);
                     }
                     catch (ConversionException e) {
                         String errMsg = "Error formatting date/time using default instead [" + retVal + "]: " + e.toString();

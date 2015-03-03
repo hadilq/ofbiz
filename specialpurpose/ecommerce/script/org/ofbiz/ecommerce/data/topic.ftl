@@ -34,7 +34,7 @@ under the License.
     <#assign firstPart=internalNameParts[0] />
     <#assign nowStamp=Static["org.ofbiz.base.util.UtilDateTime"].nowTimestamp()/>
     <#if firstPart == "WIDGETS">
-        <ContentAssoc contentId="CNTWIDGETS" contentIdTo="${contentId}" contentAssocTypeId="SUB_CONTENT" fromDate="${nowStamp?string("${Static["org.ofbiz.base.util.UtilDateTime"].getDateTimeFormat(context)}")}"/>
+        <ContentAssoc contentId="CNTWIDGETS" contentIdTo="${contentId}" contentAssocTypeId="SUB_CONTENT" fromDate="${nowStamp?string("${Static["org.ofbiz.base.util.UtilDateTime"].getDateTimeFormatByContext(context)}")}"/>
     </#if>
 </#macro>
 

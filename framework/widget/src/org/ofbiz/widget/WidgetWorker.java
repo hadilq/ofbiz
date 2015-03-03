@@ -373,16 +373,16 @@ public class WidgetWorker {
                 if (retVal instanceof Double || retVal instanceof Float || retVal instanceof BigDecimal) {
                     returnValue = retVal.toString();
                 } else if (retVal instanceof java.sql.Date) {
-                    DateFormat df = UtilDateTime.toDateFormat(context);
+                    DateFormat df = UtilDateTime.toDateFormatByContext(context);
                     returnValue = df.format((java.util.Date) retVal);
                 } else if (retVal instanceof java.sql.Time) {
-                    DateFormat df = UtilDateTime.toTimeFormat(context);
+                    DateFormat df = UtilDateTime.toTimeFormatByContext(context);
                     returnValue = df.format((java.util.Date) retVal);
                 } else if (retVal instanceof java.sql.Timestamp) {
-                    DateFormat df = UtilDateTime.toDateTimeFormat(context);
+                    DateFormat df = UtilDateTime.toDateTimeFormatByContext(context);
                     returnValue = df.format((java.util.Date) retVal);
                 } else if (retVal instanceof java.util.Date) {
-                    DateFormat df = UtilDateTime.toDateTimeFormat("EEE MMM dd hh:mm:ss z yyyy", context);
+                    DateFormat df = UtilDateTime.toDateTimeFormatByContext("EEE MMM dd hh:mm:ss z yyyy", context);
                     returnValue = df.format((java.util.Date) retVal);
                 } else {
                     try {

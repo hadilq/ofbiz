@@ -20,12 +20,12 @@ under the License.
 <div id="findOrdersList" class="screenlet">
   <div class="screenlet-title-bar">
     <ul>
-      <li class="h3">${uiLabelMap.OrderOrderReceivedOn} ${Static["org.ofbiz.base.util.UtilDateTime"].toDateString(filterDate)}</li>
+      <li class="h3">${uiLabelMap.OrderOrderReceivedOn} ${Static["org.ofbiz.base.util.UtilDateTime"].toDateStringByContext(filterDate, context)}</li>
       <#assign listSize = state.getSize()>
       <#if (listSize > 10)>
         <li><a href="/ordermgr/control/orderlist?viewIndex=${state.getViewIndex() + 1}&amp;viewSize=${state.getViewSize()}&amp;filterDate=${filterDate?if_exists}">${uiLabelMap.CommonMore}</a></li>
       </#if>
-      <#if orderHeaderList?has_content> 
+      <#if orderHeaderList?has_content>
         <li>1-${orderHeaderList.size()} ${uiLabelMap.CommonOf} ${state.getSize()}</li>
       </#if>
     </ul>

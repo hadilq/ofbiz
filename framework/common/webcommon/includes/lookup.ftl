@@ -18,9 +18,9 @@ under the License.
 -->
 
 <#assign docLangAttr = locale.toLanguageTag()>
-<#assign RightToLeftLocales = Static["org.ofbiz.base.util.UtilMisc"].RightToLeftLocales()/>
+<#assign rightToLeftLocales = Static["org.ofbiz.base.util.UtilMisc"].rightToLeftLocales()/>
 <#assign langDir = "ltr">
-<#if RightToLeftLocales?contains(docLangAttr?substring(0, 2))>
+<#if rightToLeftLocales?contains(docLangAttr?substring(0, 2))>
     <#assign langDir = "rtl">
 </#if>
 <html lang="${docLangAttr?substring(0, 2)}" xmlns="http://www.w3.org/1999/xhtml">

@@ -99,7 +99,7 @@ under the License.
                 ${(shipGroup.getRelatedOne("ShipmentMethodType", false).get("description", locale))?default(shipGroup.shipmentMethodTypeId)}
             </#if>
             <#if (shipGroup.shipAfterDate)?exists || (shipGroup.shipByDate)?exists>
-                <#if (shipGroup.shipAfterDate)?exists> - ${uiLabelMap.OrderShipAfterDate}: ${Static["org.ofbiz.base.util.UtilDateTime"].toDateString(shipGroup.shipAfterDate, context)}</#if><#if (shipGroup.shipByDate)?exists> - ${uiLabelMap.OrderShipBeforeDate}: ${Static["org.ofbiz.base.util.UtilDateTime"].toDateString(shipGroup.shipByDate, context)}</#if>
+                <#if (shipGroup.shipAfterDate)?exists> - ${uiLabelMap.OrderShipAfterDate}: ${Static["org.ofbiz.base.util.UtilDateTime"].toDateStringByContext(shipGroup.shipAfterDate, context)}</#if><#if (shipGroup.shipByDate)?exists> - ${uiLabelMap.OrderShipBeforeDate}: ${Static["org.ofbiz.base.util.UtilDateTime"].toDateStringByContext(shipGroup.shipByDate, context)}</#if>
             </#if>
         </fo:block>
     </#list>

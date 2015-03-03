@@ -16,10 +16,10 @@ KIND, either express or implied.  See the License for the
 specific language governing permissions and limitations
 under the License.
 -->
-<#assign RightToLeftLocales = Static["org.ofbiz.base.util.UtilMisc"].RightToLeftLocales()/>
+<#assign rightToLeftLocales = Static["org.ofbiz.base.util.UtilMisc"].rightToLeftLocales()/>
 <#assign langAttr = locale.toLanguageTag()>
 <#assign langDir = "ltr">
-<#if RightToLeftLocales?contains(langAttr?substring(0, 2))>
+<#if rightToLeftLocales?contains(langAttr?substring(0, 2))>
     <#assign langDir = "rtl">
 </#if>
 <script language="JavaScript" type="text/javascript">

@@ -37,7 +37,7 @@ under the License.
   <tr<#if currentPeriod> class="current-period"<#else><#if (period.calendarEntries?size > 0)> class="active-period"</#if></#if>>
     <td class="label">
       ${period.start?time?string.short}<br />
-      <a href="<@ofbizUrl>${newCalEventUrl}?period=day&amp;form=edit&amp;parentTypeId=${parentTypeId?if_exists}&amp;start=${parameters.start?if_exists}&amp;currentStatusId=CAL_TENTATIVE&amp;estimatedStartDate=${Static["org.ofbiz.base.util.UtilDateTime"].toDateTimeString(period.start, context)}&amp;estimatedCompletionDate=${Static["org.ofbiz.base.util.UtilDateTime"].toDateTimeString(period.end, context)}${urlParam?if_exists}${addlParam?if_exists}</@ofbizUrl>">${uiLabelMap.CommonAddNew}</a>
+      <a href="<@ofbizUrl>${newCalEventUrl}?period=day&amp;form=edit&amp;parentTypeId=${parentTypeId?if_exists}&amp;start=${parameters.start?if_exists}&amp;currentStatusId=CAL_TENTATIVE&amp;estimatedStartDate=${Static["org.ofbiz.base.util.UtilDateTime"].toDateTimeStringByContext(period.start, context)}&amp;estimatedCompletionDate=${Static["org.ofbiz.base.util.UtilDateTime"].toDateTimeStringByContext(period.end, context)}${urlParam?if_exists}${addlParam?if_exists}</@ofbizUrl>">${uiLabelMap.CommonAddNew}</a>
     </td>
       <#list period.calendarEntries as calEntry>
         <#if calEntry.workEffort.actualStartDate?exists>

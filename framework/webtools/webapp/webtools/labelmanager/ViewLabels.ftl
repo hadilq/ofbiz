@@ -32,9 +32,9 @@ under the License.
           <#assign locale = Static["org.ofbiz.base.util.UtilMisc"].parseLocale(localeFound)?if_exists/>
           <#if locale?exists && locale?has_content>
             <#assign langAttr = locale.toLanguageTag()>
-            <#assign RightToLeftLocales = Static["org.ofbiz.base.util.UtilMisc"].RightToLeftLocales()/>
+            <#assign rightToLeftLocales = Static["org.ofbiz.base.util.UtilMisc"].rightToLeftLocales()/>
             <#assign langDir = "ltr">
-            <#if RightToLeftLocales?contains(langAttr?substring(0, 2))>
+            <#if rightToLeftLocales?contains(langAttr?substring(0, 2))>
               <#assign langDir = "rtl">
             </#if>
             <td lang="${langAttr}" dir="${langDir}">

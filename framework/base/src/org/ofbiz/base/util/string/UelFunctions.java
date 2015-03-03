@@ -293,7 +293,9 @@ public class UelFunctions {
         return dateFormat.format(stamp);
     }
 
+    @Deprecated
     public static String localizedDateTimeString(Timestamp stamp, TimeZone timeZone, Locale locale) {
+        Debug.logErrorLastCalls("UelFunction.java: localizedDateTimeString is depricated");
         DateFormat dateFormat = UtilDateTime.toDateTimeFormat(null, timeZone, locale);
         dateFormat.setTimeZone(timeZone);
         return dateFormat.format(stamp);
