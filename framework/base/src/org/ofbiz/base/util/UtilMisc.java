@@ -814,31 +814,22 @@ public class UtilMisc {
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     public static List<Locale> RightToLeftLocaleList = null;
+=======
+    public static String rightToLeftLocaleList = null;
+>>>>>>> 8429f5f... after solving error of UtilHttp of time-dropdown
     /** Returns a List of RightToLeft locales sorted by display name */
-    public static List<Locale> RightToLeftLocales() {
-        if (RightToLeftLocaleList == null) {
+    public static String rightToLeftLocales() {
+        if (rightToLeftLocaleList == null) {
             synchronized(UtilMisc.class) {
-                if (RightToLeftLocaleList == null) {
-                    TreeMap<String, Locale> localeMap = new TreeMap<String, Locale>();
-                    String localesString = UtilProperties.getPropertyValue("general", "locales.rightToLeft");
-                    int end = -1;
-                    int start = 0;
-                    for (int i=0; start < localesString.length(); i++) {
-                        end = localesString.indexOf(",", start);
-                        if (end == -1) {
-                            end = localesString.length();
-                        }
-                        Locale curLocale = UtilMisc.ensureLocale(localesString.substring(start, end));
-                        localeMap.put(curLocale.toLanguageTag(), curLocale);
-                        start = end + 1;
-                    }
-                    RightToLeftLocaleList = new LinkedList<Locale>(localeMap.values());
+                if (rightToLeftLocaleList == null) {
+                    rightToLeftLocaleList = UtilProperties.getPropertyValue("general", "locales.rightToLeft");
                 }
             }
         }
-        return RightToLeftLocaleList;
+        return rightToLeftLocaleList;
     }
 
 <<<<<<< HEAD

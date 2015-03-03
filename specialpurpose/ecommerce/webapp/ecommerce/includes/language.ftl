@@ -29,6 +29,7 @@ under the License.
       <select name="newLocale" class="selectBox" style="width:95%" onchange="submit()">
         <#assign availableLocales = Static["org.ofbiz.base.util.UtilMisc"].availableLocales()/>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <#list availableLocales as availableLocale>
           <#assign langAttr = availableLocale.toString()?replace("_", "-")>
           <#assign langDir = "ltr">
@@ -40,6 +41,13 @@ under the License.
           <#assign langDir = "ltr">
           <#if RightToLeftLocales?contains(langAttr?substring(0, 2))>
 >>>>>>> df11098... ofbiz-commit
+=======
+        <#assign rightToLeftLocales = Static["org.ofbiz.base.util.UtilMisc"].rightToLeftLocales()/>
+        <#list availableLocales as availableLocale>
+          <#assign langAttr = availableLocale.toString()?replace("_", "-")>
+          <#assign langDir = "ltr">
+          <#if rightToLeftLocales?contains(langAttr?substring(0, 2))>
+>>>>>>> 8429f5f... after solving error of UtilHttp of time-dropdown
             <#assign langDir = "rtl">
           </#if>
           <option lang="${langAttr}" dir="${langDir}" value="${availableLocale.toString()}"<#if locale.toString() = availableLocale.toString()> selected="selected"</#if>>${availableLocale.getDisplayName(availableLocale)}</option>

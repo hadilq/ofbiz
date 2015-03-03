@@ -3718,6 +3718,10 @@ width:22px;
 height:22px;
 }
 
+.alwaysLeftToRight{
+direction:ltr;
+}
+
 /* css for timepicker */
 .ui-timepicker-div .ui-widget-header { margin-bottom: 8px; }
 .ui-timepicker-div dl { text-align: left; }

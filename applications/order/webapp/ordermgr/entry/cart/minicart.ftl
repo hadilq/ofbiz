@@ -70,7 +70,7 @@ under the License.
                 <td><@ofbizCurrency amount=cartLine.getDisplayItemSubTotal() isoCode=shoppingCart.getCurrency()/></td>
               </tr>
               <#if cartLine.getReservStart()?exists>
-                <tr><td>&nbsp;</td><td colspan="2">(${Static["org.ofbiz.base.util.UtilDateTime"].toDateString(cartLine.getReservStart(), context)}, ${cartLine.getReservLength()} <#if cartLine.getReservLength() == 1>${uiLabelMap.CommonDay}<#else>${uiLabelMap.CommonDays}</#if>)</td></tr>
+                <tr><td>&nbsp;</td><td colspan="2">(${Static["org.ofbiz.base.util.UtilDateTime"].toDateStringByContext(cartLine.getReservStart(), context)}, ${cartLine.getReservLength()} <#if cartLine.getReservLength() == 1>${uiLabelMap.CommonDay}<#else>${uiLabelMap.CommonDays}</#if>)</td></tr>
               </#if>
             </#list>
             </tbody>

@@ -17,11 +17,15 @@ specific language governing permissions and limitations
 under the License.
 -->
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <#assign RightToLeftLocales = Static["org.ofbiz.base.util.UtilMisc"].RightToLeftLocales()/>
+=======
+<#assign rightToLeftLocales = Static["org.ofbiz.base.util.UtilMisc"].rightToLeftLocales()/>
+>>>>>>> 8429f5f... after solving error of UtilHttp of time-dropdown
 <#assign langAttr = locale.toLanguageTag()>
 <#assign langDir = "ltr">
-<#if RightToLeftLocales?contains(langAttr?substring(0, 2))>
+<#if rightToLeftLocales?contains(langAttr?substring(0, 2))>
     <#assign langDir = "rtl">
 </#if>
 >>>>>>> df11098... ofbiz-commit

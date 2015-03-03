@@ -82,7 +82,7 @@
               <td>${contentData.mimeTypeId?if_exists}</td>
               <td>${contentData.statusId?if_exists}</td>
               <#if contentData.caFromDate?has_content>
-             <#assign caFromDate = Static["org.ofbiz.base.util.UtilDateTime"].toDateString(contentData.caFromDate, context)/>
+             <#assign caFromDate = Static["org.ofbiz.base.util.UtilDateTime"].toDateStringByContext(contentData.caFromDate, context)/>
             </#if>
               <td>${caFromDate?if_exists}</td>
               <td><a href="javascript:document.listDocumentForm_${listcount}.submit()" >${uiLabelMap.CommonDelete}</a></td>

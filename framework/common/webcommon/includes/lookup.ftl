@@ -26,11 +26,17 @@ under the License.
 =======
 =======
 <#assign docLangAttr = locale.toLanguageTag()>
+<<<<<<< HEAD
 >>>>>>> 55bc110... modifying avalableLocales and listLocales to use Locale.forLanguageTag instead of toString
 <#assign RightToLeftLocales = Static["org.ofbiz.base.util.UtilMisc"].RightToLeftLocales()/>
 <#assign langDir = "ltr">
 <#if RightToLeftLocales?contains(docLangAttr?substring(0, 2))>
 >>>>>>> df11098... ofbiz-commit
+=======
+<#assign rightToLeftLocales = Static["org.ofbiz.base.util.UtilMisc"].rightToLeftLocales()/>
+<#assign langDir = "ltr">
+<#if rightToLeftLocales?contains(docLangAttr?substring(0, 2))>
+>>>>>>> 8429f5f... after solving error of UtilHttp of time-dropdown
     <#assign langDir = "rtl">
 </#if>
 <html lang="${docLangAttr?substring(0, 2)}" xmlns="http://www.w3.org/1999/xhtml">

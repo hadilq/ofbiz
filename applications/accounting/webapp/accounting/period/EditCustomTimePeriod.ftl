@@ -112,7 +112,7 @@ under the License.
               <#if compareDate?has_content>
                 <#if nowTimestamp.before(compareDate)><#assign hasntStarted = true></#if>
               </#if>
-              <input type="text" size='13' name="fromDate" value="${Static["org.ofbiz.base.util.UtilDateTime"].toDateString(currentCustomTimePeriod.fromDate, context)}"<#if hasntStarted> class="alert"</#if> />
+              <input type="text" size='13' name="fromDate" value="${Static["org.ofbiz.base.util.UtilDateTime"].toDateStringByContext(currentCustomTimePeriod.fromDate, context)}"<#if hasntStarted> class="alert"</#if> />
             </td>
             <td>
               <#assign hasExpired = false>
@@ -120,7 +120,7 @@ under the License.
               <#if compareDate?has_content>
                 <#if nowTimestamp.after(compareDate)><#assign hasExpired = true></#if>
               </#if>
-              <input type="text" size='13' name="thruDate" value="${Static["org.ofbiz.base.util.UtilDateTime"].toDateString(currentCustomTimePeriod.thruDate, context)}"<#if hasntStarted> class="alert"</#if> />
+              <input type="text" size='13' name="thruDate" value="${Static["org.ofbiz.base.util.UtilDateTime"].toDateStringByContext(currentCustomTimePeriod.thruDate, context)}"<#if hasntStarted> class="alert"</#if> />
             </td>
             <td class="button-col">
               <input type="submit" value='${uiLabelMap.CommonUpdate}'/>
@@ -204,7 +204,7 @@ under the License.
               <#if compareDate?has_content>
                 <#if nowTimestamp.before(compareDate)><#assign hasntStarted = true></#if>
               </#if>
-              <input type="text" size='13' name="fromDate" value="${Static["org.ofbiz.base.util.UtilDateTime"].toDateString(customTimePeriod.fromDate, context)}"<#if hasntStarted> class="alert"</#if> />
+              <input type="text" size='13' name="fromDate" value="${Static["org.ofbiz.base.util.UtilDateTime"].toDateStringByContext(customTimePeriod.fromDate, context)}"<#if hasntStarted> class="alert"</#if> />
             </td>
             <td>
               <#assign hasExpired = false>
@@ -212,7 +212,7 @@ under the License.
               <#if compareDate?has_content>
                 <#if nowTimestamp.after(compareDate)><#assign hasExpired = true></#if>
               </#if>
-              <input type="text" size='13' name="thruDate" value="${Static["org.ofbiz.base.util.UtilDateTime"].toDateString(customTimePeriod.thruDate, context)}"<#if hasExpired> class="alert"</#if> />
+              <input type="text" size='13' name="thruDate" value="${Static["org.ofbiz.base.util.UtilDateTime"].toDateStringByContext(customTimePeriod.thruDate, context)}"<#if hasExpired> class="alert"</#if> />
              </td>
              <td class="button-col">
               <input type="submit" value='${uiLabelMap.CommonUpdate}'/>

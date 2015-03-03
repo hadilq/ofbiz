@@ -33,8 +33,9 @@ import java.util.Map;
 import java.util.TimeZone;
 
 import com.ibm.icu.util.Calendar;
+import com.ibm.icu.util.ULocale;
 
-//import org.ofbiz.base.util.Debug;
+import org.ofbiz.base.util.Debug;
 
 /**
  * Utility class for handling java.util.Date, the java.sql data/time classes and related
@@ -61,10 +62,19 @@ public class UtilDateTime {
 
     public static final DecimalFormat df = new DecimalFormat("0.00;-0.00");
 
+    public static final String FA_TAG = "fa-IR";
+    public static final String FA_JALALI_TAG = "fa-IR-u-ca-jalali";
+    public static final String FA_JALALI_PERSIAN_TAG = "fa-IR-u-ca-jalali-nu-persian";
+
+
     /**
      * JDBC escape format for java.sql.Timestamp conversions.
      */
     public static final String DATE_FORMAT = "yyyy-MM-dd";
+    public static final String DATE_MASK = "9999-99-99";
+
+    public static final String PERSIAN_DATE_FORMAT = "yyyy/MM/dd";
+    public static final String PERSIAN_DATE_MASK = "9999/99/99";
 
     /**
      * Return Date format of defined locales
@@ -73,14 +83,13 @@ public class UtilDateTime {
      * @return format string of that locale
      */
     public static String getDateFormat(Locale locale) {
-        if (locale != null && ("fa-IR".equals(locale.toLanguageTag())
-            || "fa-IR-u-ca-jalali".equals(locale.toLanguageTag())
-            || "fa-IR-u-ca-jalali-nu-persian".equals(locale.toLanguageTag())) ) {
-            return "yyyy/MM/dd";
+        if (locale != null && (FA_TAG.equals(locale.toLanguageTag())
+            || FA_JALALI_TAG.equals(locale.toLanguageTag())
+            || FA_JALALI_PERSIAN_TAG.equals(locale.toLanguageTag())) ) {
+            return PERSIAN_DATE_FORMAT;
         } else {
-            return "yyyy-MM-dd";
+            return DATE_FORMAT;
         }
-
     }
 
     /**
@@ -89,7 +98,8 @@ public class UtilDateTime {
      * @param context to find the locale
      * @return format string of that locale
      */
-    public static String getDateFormat(Map<String, ? extends Object> context) {
+    public static String getDateFormatByContext(Map<String, ? extends Object> context) {
+        if (context == null) return DATE_FORMAT;
         Locale locale = (Locale) context.get("locale");
         if (locale == null) locale = Locale.getDefault();
 
@@ -99,7 +109,11 @@ public class UtilDateTime {
     /**
      * JDBC escape format for java.sql.Timestamp conversions.
      */
-    public static final String DATE_TIME_FORMAT = "yyyy-MM-dd HH:mm:ss.SSS";
+    public static final String DATE_TIME_FORMAT = "yyyy-MM-dd HH:mm:ss";
+    public static final String DATE_TIME_MASK = "9999-99-99 99:99:99";
+
+    public static final String PERSIAN_DATE_TIME_FORMAT = "yyyy/MM/dd HH:mm:ss";
+    public static final String PERSIAN_DATE_TIME_MASK = "9999/99/99 99:99:99";
 
     /**
      * Return DateTime format of defined locales
@@ -108,12 +122,12 @@ public class UtilDateTime {
      * @return format string of that locale
      */
     public static String getDateTimeFormat(Locale locale) {
-        if (locale != null && ("fa-IR".equals(locale.toLanguageTag())
-            || "fa-IR-u-ca-jalali".equals(locale.toLanguageTag())
-            || "fa-IR-u-ca-jalali-nu-persian".equals(locale.toLanguageTag())) ) {
-            return "yyyy/MM/dd HH:mm:ss";
+        if (locale != null && (FA_TAG.equals(locale.toLanguageTag())
+            || FA_JALALI_TAG.equals(locale.toLanguageTag())
+            || FA_JALALI_PERSIAN_TAG.equals(locale.toLanguageTag())) ) {
+            return PERSIAN_DATE_TIME_FORMAT;
         } else {
-            return "yyyy-MM-dd HH:mm:ss";
+            return DATE_TIME_FORMAT;
         }
 
     }
@@ -124,7 +138,8 @@ public class UtilDateTime {
      * @param context to find the locale
      * @return format string of that locale
      */
-    public static String getDateTimeFormatFromContext(Map<String, ? extends Object> context) {
+    public static String getDateTimeFormatByContext(Map<String, ? extends Object> context) {
+        if (context == null) return DATE_TIME_FORMAT;
         Locale locale = (Locale) context.get("locale");
         if (locale == null) locale = Locale.getDefault();
 
@@ -134,6 +149,7 @@ public class UtilDateTime {
      * JDBC escape format for java.sql.Time conversions.
      */
     public static final String TIME_FORMAT = "HH:mm:ss";
+    public static final String TIME_MASK = "99:99:99";
 
     public static double getInterval(Date from, Date thru) {
         return thru != null ? thru.getTime() - from.getTime() : 0;
@@ -275,8 +291,9 @@ public class UtilDateTime {
      * @param context which is included the locale
      * @return String formatted for right now
      */
-    public static String nowDateString(Map<String, ? extends Object> context) {
-        return toDateFormat(context).format(new Date());
+    public static String nowDateStringByContext(Map<String, ? extends Object> context) {
+        if (context == null) return nowDateString();
+        return toDateFormatByContext(context).format(new Date());
     }
 
     /**
@@ -284,8 +301,9 @@ public class UtilDateTime {
      *
      * @return String formatted for right now
      */
-    public static String nowDateTimeString(Map<String, ? extends Object> context) {
-        return toDateTimeFormat(context).format(new Date());
+    public static String nowDateTimeStringByContext(Map<String, ? extends Object> context) {
+        if (context == null) return nowDateString();
+        return toDateTimeFormatByContext(context).format(new Date());
     }
 
     /**
@@ -721,9 +739,10 @@ public class UtilDateTime {
      * @param context which is included the locale
      * @return A date String in the format that determined by of getDateFormat(locale)
      */
-    public static String toDateString(java.util.Date date, Map<String, ? extends Object> context) {
+    public static String toDateStringByContext(java.util.Date date, Map<String, ? extends Object> context) {
         if (date == null) return null;
-        return toDateFormat(context).format(date);
+        if (context == null) return toDateString(date);
+        return toDateFormatByContext(context).format(date);
     }
 
     /**
@@ -733,9 +752,10 @@ public class UtilDateTime {
      * @param context which is included the locale
      * @return A date String in the format that determined by of getDateTimeFormat(locale)
      */
-    public static String toDateTimeString(java.util.Date date, Map<String, ? extends Object> context) {
+    public static String toDateTimeStringByContext(java.util.Date date, Map<String, ? extends Object> context) {
         if (date == null) return null;
-        return toDateTimeFormat(context).format(date);
+        if (context == null) return toDateTimeString(date);
+        return toDateTimeFormatByContext(context).format(date);
     }
 
     /**
@@ -1106,7 +1126,10 @@ public class UtilDateTime {
      * @param  context the context
      * @return DateFormat object
      */
-    public static DateFormat toDateFormat(Map<String, ? extends Object> context) {
+    public static DateFormat toDateFormatByContext(Map<String, ? extends Object> context) {
+        if (context == null) {
+            return toDateFormat(TimeZone.getDefault(), Locale.getDefault());
+        }
         Locale locale = (Locale) context.get("locale");
         TimeZone timeZone = (TimeZone) context.get("timeZone");
         if (locale == null) locale = Locale.getDefault();
@@ -1136,7 +1159,7 @@ public class UtilDateTime {
     /**
      * Returns an initialized DateFormat object by using default date time format.
      * @param tz
-     * @param locale can be null if dateTimeFormat is not null
+     * @param locale
      * @return DateFormat object
      */
     public static DateFormat toDateTimeFormat(TimeZone tz, Locale locale) {
@@ -1150,7 +1173,10 @@ public class UtilDateTime {
      * @param  context the context
      * @return DateFormat object
      */
-    public static DateFormat toDateTimeFormat(Map<String, ? extends Object> context ) {
+    public static DateFormat toDateTimeFormatByContext(Map<String, ? extends Object> context ) {
+        if (context == null) {
+            return toDateTimeFormat(TimeZone.getDefault(), Locale.getDefault());
+        }
         Locale locale = (Locale) context.get("locale");
         TimeZone timeZone = (TimeZone) context.get("timeZone");
         if (locale == null) locale = Locale.getDefault();
@@ -1165,7 +1191,10 @@ public class UtilDateTime {
      * @param  context the context
      * @return DateFormat object
      */
-    public static DateFormat toDateTimeFormat(String dateTimeFormat, Map<String, ? extends Object> context ) {
+    public static DateFormat toDateTimeFormatByContext(String dateTimeFormat, Map<String, ? extends Object> context ) {
+        if (context == null) {
+            return toDateTimeFormat(dateTimeFormat, TimeZone.getDefault(), Locale.getDefault());
+        }
         Locale locale = (Locale) context.get("locale");
         TimeZone timeZone = (TimeZone) context.get("timeZone");
         if (locale == null) locale = Locale.getDefault();
@@ -1209,7 +1238,10 @@ public class UtilDateTime {
      * @param  context the context
      * @return DateFormat object
      */
-    public static DateFormat toTimeFormat(Map<String, ? extends Object> context) {
+    public static DateFormat toTimeFormatByContext(Map<String, ? extends Object> context) {
+        if (context == null) {
+            return toTimeFormat(TimeZone.getDefault(), Locale.getDefault());
+        }
         Locale locale = (Locale) context.get("locale");
         TimeZone timeZone = (TimeZone) context.get("timeZone");
         if (locale == null) locale = Locale.getDefault();
@@ -1366,5 +1398,57 @@ public class UtilDateTime {
         cal.set(Calendar.SECOND, 59);
         cal.set(Calendar.MILLISECOND, 999);
         return cal.getTime();
+    }
+
+    /**
+     * Makes a time String in the format HH:MM:SS from a Date. If the seconds are 0, then the output is in HH:MM.
+     *
+     * @param date The Date
+     * @return A time String in the format HH:MM:SS or HH:MM
+     */
+    public static Calendar getICUCalendar(TimeZone timeZone, Locale locale) {
+        String localeTag = locale.toLanguageTag();
+        ULocale ulocale = null;
+        if (localeTag.equals(FA_JALALI_PERSIAN_TAG)
+            || localeTag.equals(FA_JALALI_TAG)) {
+            ulocale = new ULocale("fa_IR@calendar=persian");
+        } else {
+            ulocale = new ULocale(localeTag);
+        }
+        com.ibm.icu.util.TimeZone tz = null;
+        if (timeZone == null) {
+            tz = com.ibm.icu.util.TimeZone.getDefault();
+        } else {
+            tz = com.ibm.icu.util.TimeZone.getTimeZone(timeZone.getDisplayName());
+        }
+
+
+        Calendar calendar = Calendar.getInstance(tz, locale);
+        return calendar;
+
+    }
+
+    public static String getDateMask(Locale locale) {
+        if (locale != null && (FA_TAG.equals(locale.toLanguageTag())
+            || FA_JALALI_TAG.equals(locale.toLanguageTag())
+            || FA_JALALI_PERSIAN_TAG.equals(locale.toLanguageTag())) ) {
+            return PERSIAN_DATE_MASK;
+        } else {
+            return DATE_MASK;
+        }
+    }
+
+    public static String getDateTimeMask(Locale locale) {
+        if (locale != null && (FA_TAG.equals(locale.toLanguageTag())
+            || FA_JALALI_TAG.equals(locale.toLanguageTag())
+            || FA_JALALI_PERSIAN_TAG.equals(locale.toLanguageTag())) ) {
+            return PERSIAN_DATE_TIME_MASK;
+        } else {
+            return DATE_TIME_MASK;
+        }
+    }
+
+    public static String getTimeMask(Locale locale) {
+        return TIME_MASK;
     }
 }

@@ -28,13 +28,18 @@ under the License.
     <#assign altRow = true>
     <#assign availableLocales = Static["org.ofbiz.base.util.UtilMisc"].availableLocales()/>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     <#assign RightToLeftLocales = Static["org.ofbiz.base.util.UtilMisc"].RightToLeftLocales()/>
 >>>>>>> df11098... ofbiz-commit
+=======
+    <#assign rightToLeftLocales = Static["org.ofbiz.base.util.UtilMisc"].rightToLeftLocales()/>
+>>>>>>> 8429f5f... after solving error of UtilHttp of time-dropdown
     <#list availableLocales as availableLocale>
         <#assign altRow = !altRow>
         <#assign langAttr = availableLocale.toLanguageTag()>
         <#assign langDir = "ltr">
+<<<<<<< HEAD
 <<<<<<< HEAD
         <#if "ar.iw"?contains(langAttr?substring(0, 2))>
             <#assign langDir = "rtl">
@@ -43,6 +48,9 @@ under the License.
             <td lang="${langAttr}" dir="${langDir}">
 =======
         <#if RightToLeftLocales?contains(langAttr?substring(0, 2))>
+=======
+        <#if rightToLeftLocales?contains(langAttr?substring(0, 2))>
+>>>>>>> 8429f5f... after solving error of UtilHttp of time-dropdown
             <#assign langDir = "rtl">
         </#if>
         <tr <#if altRow>class="alternate-row"</#if>>

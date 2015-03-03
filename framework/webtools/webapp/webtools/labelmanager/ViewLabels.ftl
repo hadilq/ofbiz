@@ -43,11 +43,17 @@ under the License.
 >>>>>>> 55bc110... modifying avalableLocales and listLocales to use Locale.forLanguageTag instead of toString
 =======
             <#assign langAttr = locale.toLanguageTag()>
+<<<<<<< HEAD
 >>>>>>> dd92556... adding toDateString and toDateTimeString
             <#assign RightToLeftLocales = Static["org.ofbiz.base.util.UtilMisc"].RightToLeftLocales()/>
             <#assign langDir = "ltr">
             <#if RightToLeftLocales?contains(langAttr?substring(0, 2))>
 >>>>>>> df11098... ofbiz-commit
+=======
+            <#assign rightToLeftLocales = Static["org.ofbiz.base.util.UtilMisc"].rightToLeftLocales()/>
+            <#assign langDir = "ltr">
+            <#if rightToLeftLocales?contains(langAttr?substring(0, 2))>
+>>>>>>> 8429f5f... after solving error of UtilHttp of time-dropdown
               <#assign langDir = "rtl">
             </#if>
             <td lang="${langAttr}" dir="${langDir}">

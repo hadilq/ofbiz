@@ -177,7 +177,7 @@ ${virtualVariantJavaScript?if_exists}
 
             // using the selected index locate the sku
             var sku = document.forms["addform"].elements[name].options[indexSelected].value;
-            
+
             // display alternative packaging dropdown
             ajaxUpdateArea("product_uom", "<@ofbizUrl>ProductUomDropDownOnly</@ofbizUrl>", "productId=" + sku);
 
@@ -273,7 +273,7 @@ ${virtualVariantJavaScript?if_exists}
             block2.style.display = "none";
         }
     </#if>
-    
+
     function displayProductVirtualVariantId(variantId) {
         if(variantId){
             document.addform.product_id.value = variantId;
@@ -281,7 +281,7 @@ ${virtualVariantJavaScript?if_exists}
             document.addform.product_id.value = '';
             variantId = '';
         }
-        
+
         var elem = document.getElementById('product_id_display');
         var txt = document.createTextNode(variantId);
         if(elem.hasChildNodes()) {
@@ -289,7 +289,7 @@ ${virtualVariantJavaScript?if_exists}
         } else {
             elem.appendChild(txt);
         }
-        
+
         var priceElem = document.getElementById('variant_price_display');
         var price = getVariantPrice(variantId);
         var priceTxt = null;
@@ -339,7 +339,7 @@ $(function(){
     <#assign productAdditionalImage2 = productContentWrapper.get("ADDITIONAL_IMAGE_2")?if_exists />
     <#assign productAdditionalImage3 = productContentWrapper.get("ADDITIONAL_IMAGE_3")?if_exists />
     <#assign productAdditionalImage4 = productContentWrapper.get("ADDITIONAL_IMAGE_4")?if_exists />
-    
+
       <#-- Category next/previous -->
       <#if category?exists>
           <div id="paginationBox">
@@ -352,7 +352,7 @@ $(function(){
             </#if>
           </div>
       </#if>
-    
+
     <hr />
     <div id="productImageBox">
         <#if productImageList?has_content>
@@ -420,7 +420,7 @@ $(function(){
                 </#if>
             </div>
         </#if>
-        
+
         <div id="productDetailBox">
           <h2>${productContentWrapper.get("PRODUCT_NAME")?if_exists}</h2>
           <div>${productContentWrapper.get("DESCRIPTION")?if_exists}</div>
@@ -438,7 +438,7 @@ $(function(){
               </#list>
             </div>
           </#if>
-    
+
           <#-- for prices:
                   - if price < competitivePrice, show competitive or "Compare At" price
                   - if price < listPrice, show list price
@@ -486,7 +486,7 @@ $(function(){
                   </#list>
               </#if>
           </#if>
-    
+
           <#-- Included quantities/pieces -->
           <#if product.piecesIncluded?exists && product.piecesIncluded?long != 0>
             <div>
@@ -499,7 +499,7 @@ $(function(){
               ${uiLabelMap.CommonQuantity}: ${product.quantityIncluded?if_exists} ${((quantityUom.abbreviation)?default(product.quantityUomId))?if_exists}
             </div>
           </#if>
-    
+
           <#if (product.weight?exists && product.weight != 0) || product.weightUomId?has_content>
             <#assign weightUom = product.getRelatedOne("WeightUom", true)?if_exists />
             <div>
@@ -524,17 +524,17 @@ $(function(){
               ${uiLabelMap.CommonDepth}: ${product.productDepth?if_exists} ${((depthUom.abbreviation)?default(product.depthUomId))?if_exists}
             </div>
           </#if>
-    
+
           <#if daysToShip?exists>
             <div><strong>${uiLabelMap.ProductUsuallyShipsIn} ${daysToShip} ${uiLabelMap.CommonDays}!</strong></div>
           </#if>
-    
+
           <#-- show tell a friend details only in ecommerce application -->
           <div>&nbsp;</div>
           <div>
               <a href="javascript:popUpSmall('<@ofbizUrl>tellafriend?productId=${product.productId}<#if categoryId?exists>&categoryId=${categoryId}/</#if></@ofbizUrl>','tellafriend');" class="buttontext">${uiLabelMap.CommonTellAFriend}</a>
           </div>
-    
+
           <#if disFeatureList?exists && 0 &lt; disFeatureList.size()>
           <p>&nbsp;</p>
             <#list disFeatureList as currentFeature>
@@ -546,7 +546,7 @@ $(function(){
                 <div>&nbsp;</div>
           </#if>
         </div>
-    
+
         <div id="addItemForm">
           <form method="post" action="<@ofbizUrl>additem</@ofbizUrl>" name="addform"  style="margin: 0;">
           <fieldset>
@@ -646,7 +646,7 @@ $(function(){
                 </div>
                 <#if product.productTypeId?if_exists == "ASSET_USAGE" || product.productTypeId?if_exists == "ASSET_USAGE_OUT_IN">
                   <div>
-                    <label>Start Date(yyyy-mm-dd)</label><@htmlTemplate.renderDateTimeField event="" action="" name="reservStart" className="" alert="" title="Format: ${Static["org.ofbiz.base.util.UtilDateTime"].getDateTimeFormat(context)}.SSS" value="${startDate}" size="25" maxlength="30" id="reservStart1" dateType="date" shortDateInput=true timeDropdownParamName="" defaultDateTimeString="" localizedIconTitle="" timeDropdown="" timeHourName="" classString="" hour1="" hour2="" timeMinutesName="" minutes="" isTwelveHour="" ampmName="" amSelected="" pmSelected="" compositeType="" formName=""/>
+                    <label>Start Date(yyyy-mm-dd)</label><@htmlTemplate.renderDateTimeField event="" action="" name="reservStart" className="" alert="" title="Format: ${Static["org.ofbiz.base.util.UtilDateTime"].getDateTimeFormatByContext(context)}" value="${startDate}" size="25" maxlength="30" id="reservStart1" dateType="date" shortDateInput=true timeDropdownParamName="" defaultDateTimeString="" localizedIconTitle="" timeDropdown="" timeHourName="" classString="" hour1="" hour2="" timeMinutesName="" minutes="" isTwelveHour="" ampmName="" amSelected="" pmSelected="" compositeType="" formName=""/>
                   </div>
                   <div>
                     <#--td nowrap="nowrap" align="right">Number<br />of days</td><td><input type="textt" size="4" name="reservLength"/></td></tr><tr><td>&nbsp;</td><td align="right" nowrap="nowrap">&nbsp;</td-->
@@ -705,11 +705,11 @@ $(function(){
                 <option value="">${uiLabelMap.OrderNewShoppingList}</option>
               </select>
               &nbsp;&nbsp;
-              <#--assign nowDate = Static["org.ofbiz.base.util.UtilDateTime"].nowDateString("${Static["org.ofbiz.base.util.UtilDateTime"].getDateFormat(context)}")-->
+              <#--assign nowDate = Static["org.ofbiz.base.util.UtilDateTime"].nowDateStringByContext(context)-->
               <#if product.productTypeId?if_exists == "ASSET_USAGE">
-                  &nbsp;${uiLabelMap.CommonStartDate} (yyyy-mm-dd)<@htmlTemplate.renderDateTimeField name="reservStartStr" event="" action="" value="${startDate}" className="" alert="" title="Format: ${Static["org.ofbiz.base.util.UtilDateTime"].getDateTimeFormat(context)}.SSS" size="15" maxlength="30" id="reservStartStr" dateType="date" shortDateInput=false timeDropdownParamName="" defaultDateTimeString="" localizedIconTitle="" timeDropdown="" timeHourName="" classString="" hour1="" hour2="" timeMinutesName="" minutes="" isTwelveHour="" ampmName="" amSelected="" pmSelected="" compositeType="" formName=""/>&nbsp;Number of&nbsp;days&nbsp;&nbsp;<input type="text" size="4" name="reservLength" />&nbsp;<br/>Number of&nbsp;persons&nbsp;&nbsp;<input type="text" size="4" name="reservPersons" value="1" />&nbsp;&nbsp;Qty&nbsp;&nbsp;<input type="text" size="5" name="quantity" value="1" />
+                  &nbsp;${uiLabelMap.CommonStartDate} (yyyy-mm-dd)<@htmlTemplate.renderDateTimeField name="reservStartStr" event="" action="" value="${startDate}" className="" alert="" title="Format: ${Static["org.ofbiz.base.util.UtilDateTime"].getDateTimeFormatByContext(context)}" size="15" maxlength="30" id="reservStartStr" dateType="date" shortDateInput=false timeDropdownParamName="" defaultDateTimeString="" localizedIconTitle="" timeDropdown="" timeHourName="" classString="" hour1="" hour2="" timeMinutesName="" minutes="" isTwelveHour="" ampmName="" amSelected="" pmSelected="" compositeType="" formName=""/>&nbsp;Number of&nbsp;days&nbsp;&nbsp;<input type="text" size="4" name="reservLength" />&nbsp;<br/>Number of&nbsp;persons&nbsp;&nbsp;<input type="text" size="4" name="reservPersons" value="1" />&nbsp;&nbsp;Qty&nbsp;&nbsp;<input type="text" size="5" name="quantity" value="1" />
               <#elseif product.productTypeId?if_exists == "ASSET_USAGE_OUT_IN">
-                &nbsp;${uiLabelMap.CommonStartDate} (yyyy-mm-dd)&nbsp;&nbsp;&nbsp;<@htmlTemplate.renderDateTimeField name="reservStartStr" event="" action="" value="${startDate}" className="" alert="" title="Format: ${Static["org.ofbiz.base.util.UtilDateTime"].getDateTimeFormat(context)}.SSS" size="15" maxlength="30" id="reservStartStr" dateType="date" shortDateInput=false timeDropdownParamName="" defaultDateTimeString="" localizedIconTitle="" timeDropdown="" timeHourName="" classString="" hour1="" hour2="" timeMinutesName="" minutes="" isTwelveHour="" ampmName="" amSelected="" pmSelected="" compositeType="" formName=""/>&nbsp;&nbsp;Number of&nbsp;days&nbsp;&nbsp;<input type="text" size="4" name="reservLength" /><input type="hidden" size="4" name="reservPersons" value="1" /><br/>
+                &nbsp;${uiLabelMap.CommonStartDate} (yyyy-mm-dd)&nbsp;&nbsp;&nbsp;<@htmlTemplate.renderDateTimeField name="reservStartStr" event="" action="" value="${startDate}" className="" alert="" title="Format: ${Static["org.ofbiz.base.util.UtilDateTime"].getDateTimeFormatByContext(context)}" size="15" maxlength="30" id="reservStartStr" dateType="date" shortDateInput=false timeDropdownParamName="" defaultDateTimeString="" localizedIconTitle="" timeDropdown="" timeHourName="" classString="" hour1="" hour2="" timeMinutesName="" minutes="" isTwelveHour="" ampmName="" amSelected="" pmSelected="" compositeType="" formName=""/>&nbsp;&nbsp;Number of&nbsp;days&nbsp;&nbsp;<input type="text" size="4" name="reservLength" /><input type="hidden" size="4" name="reservPersons" value="1" /><br/>
                 Qty&nbsp;<input type="text" size="5" name="quantity" value="1" />
               <#else>
                   <input type="text" size="5" name="quantity" value="1" />
@@ -727,7 +727,7 @@ $(function(){
           <#if variantTree?exists && 0 &lt; variantTree.size()>
             <script type="text/javascript">eval("list" + "${featureOrderFirst}" + "()");</script>
           </#if>
-    
+
           <#-- Swatches (virtual products only) -->
           <#if variantSample?exists && 0 &lt; variantSample.size()>
             <#assign imageKeys = variantSample.keySet() />
@@ -755,7 +755,7 @@ $(function(){
                   <div><strong>${uiLabelMap.ProductMoreOptions}</strong></div>
                 </#if>
           </#if>
-    
+
       <#-- Digital Download Files Associated with this Product -->
       <#if downloadProductContentAndInfoList?has_content>
         <div id="download-files">
@@ -765,15 +765,15 @@ $(function(){
           </#list>
         </div>
       </#if>
-    
+
       <#-- Long description of product -->
       <div id="long-description">
           <div>${productContentWrapper.get("LONG_DESCRIPTION")?if_exists}</div>
           <div>${productContentWrapper.get("WARNINGS")?if_exists}</div>
       </div>
-    
+
       <#-- Any attributes/etc may go here -->
-    
+
       <#-- Product Reviews -->
         <div id="reviews">
           <div>${uiLabelMap.OrderCustomerReviews}:</div>
@@ -811,7 +811,7 @@ $(function(){
       </#if>
       <#if assocProducts?has_content>
         <h2>${beforeName?if_exists}<#if showName == "Y">${productContentWrapper.get("PRODUCT_NAME")?if_exists}</#if>${afterName?if_exists}</h2>
-    
+
         <div class="productsummary-container">
         <#list assocProducts as productAssoc>
             <#if productAssoc.productId == product.productId>
@@ -838,13 +838,13 @@ $(function(){
           <#local listIndex = listIndex + 1 />
         </#list>
         </div>
-    
+
         ${setRequestAttribute("optProductId", "")}
         ${setRequestAttribute("formNamePrefix", "")}
         ${setRequestAttribute("targetRequestName", "")}
       </#if>
     </#macro>
-    
+
     <#assign productValue = product />
     <#assign listIndex = 1 />
     ${setRequestAttribute("productValue", productValue)}
@@ -860,11 +860,11 @@ $(function(){
         <#-- obsolescence -->
         <@associated assocProducts=obsolenscenseProducts beforeName="" showName="Y" afterName=" ${uiLabelMap.ProductObsolescense}" formNamePrefix="obce" targetRequestName="" />
     </div>
-    
+
     <#-- special cross/up-sell area using commonFeatureResultIds (from common feature product search) -->
     <#if comsmonFeatureResultIds?has_content>
         <h2>${uiLabelMap.ProductSimilarProducts}</h2>
-    
+
         <div class="productsummary-container">
             <#list commonFeatureResultIds as commonFeatureResultId>
                 ${setRequestAttribute("optProductId", commonFeatureResultId)}
@@ -894,7 +894,7 @@ $(function(){
                 </ul>
             </p>
         </#if>
-        
+
         <p class="titleAddTags"><strong>${uiLabelMap.EcommerceAddYourTags}:</strong></p>
         <p>
             <form method="post" action="<@ofbizUrl>addProductTags</@ofbizUrl>" name="addProductTags">

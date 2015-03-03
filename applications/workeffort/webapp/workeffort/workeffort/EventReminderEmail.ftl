@@ -18,6 +18,7 @@ under the License.
 -->
 <#assign docLangAttr = locale.toString()?replace("_", "-")>
 <<<<<<< HEAD
+<<<<<<< HEAD
 <#assign langDir = "ltr">
 <#if "ar.iw"?contains(docLangAttr?substring(0, 2))>
 =======
@@ -25,6 +26,11 @@ under the License.
 <#assign langDir = "ltr">
 <#if RightToLeftLocales?contains(docLangAttr?substring(0, 2))>
 >>>>>>> df11098... ofbiz-commit
+=======
+<#assign rightToLeftLocales = Static["org.ofbiz.base.util.UtilMisc"].rightToLeftLocales()/>
+<#assign langDir = "ltr">
+<#if rightToLeftLocales?contains(docLangAttr?substring(0, 2))>
+>>>>>>> 8429f5f... after solving error of UtilHttp of time-dropdown
     <#assign langDir = "rtl">
 </#if>
 <html lang="${docLangAttr}" dir="${langDir}" xmlns="http://www.w3.org/1999/xhtml">

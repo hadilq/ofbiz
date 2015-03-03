@@ -22,6 +22,7 @@ under the License.
 <#if (requestAttributes.partyGroup)?exists><#assign partyGroup = requestAttributes.partyGroup></#if>
 <#assign docLangAttr = locale.toString()?replace("_", "-")>
 <<<<<<< HEAD
+<<<<<<< HEAD
 <#assign langDir = "ltr">
 <#if "ar.iw"?contains(docLangAttr?substring(0, 2))>
     <#assign langDir = "rtl">
@@ -29,8 +30,11 @@ under the License.
 <html lang="${docLangAttr}" dir="${langDir}" xmlns="http://www.w3.org/1999/xhtml">
 =======
 <#assign RightToLeftLocales = Static["org.ofbiz.base.util.UtilMisc"].RightToLeftLocales()/>
+=======
+<#assign rightToLeftLocales = Static["org.ofbiz.base.util.UtilMisc"].rightToLeftLocales()/>
+>>>>>>> 8429f5f... after solving error of UtilHttp of time-dropdown
 <#assign langDir = "ltr">
-<#if RightToLeftLocales?contains(docLangAttr?substring(0, 2))>
+<#if rightToLeftLocales?contains(docLangAttr?substring(0, 2))>
     <#assign langDir = "rtl">
 </#if>
 <html lang="${docLangAttr?substring(0, 2)}" xmlns="http://www.w3.org/1999/xhtml">

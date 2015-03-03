@@ -39,7 +39,7 @@ under the License.
         <#assign assocType="PUBLISH_LINK"/>
     </#if>
     <#assign nowStamp=Static["org.ofbiz.base.util.UtilDateTime"].nowTimestamp()/>
-    <ContentAssoc contentIdTo="${contentIdTo}" contentId="${contentId}" contentAssocTypeId="${assocType}" fromDate="${nowStamp?string("${Static["org.ofbiz.base.util.UtilDateTime"].getDateTimeFormat(context)}")}"/>
+    <ContentAssoc contentIdTo="${contentIdTo}" contentId="${contentId}" contentAssocTypeId="${assocType}" fromDate="${nowStamp?string("${Static["org.ofbiz.base.util.UtilDateTime"].getDateTimeFormatByContext(context)}")}"/>
 </#macro>
 
 <#macro @element>

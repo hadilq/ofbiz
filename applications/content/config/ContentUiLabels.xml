@@ -234,7 +234,7 @@
     </property>
     <property key="ContentAutoCreateKeywords">
         <value xml:lang="en">Auto Create Keywords</value>
-        <value xml:lang="fa">ساختن خودکار کلمه‌کلیدی</value>
+        <value xml:lang="fa">ساختن خودکار کلیدواژه</value>
         <value xml:lang="fr">Création automatique des mots clés</value>
         <value xml:lang="ja">キーワード自動作成</value>
         <value xml:lang="pt">Auto criar palavras-chave</value>
@@ -2015,7 +2015,7 @@
     <property key="ContentKeyword">
         <value xml:lang="de">Schlüsselwörter</value>
         <value xml:lang="en">Keyword</value>
-        <value xml:lang="fa">کلمه‌کلیدی</value>
+        <value xml:lang="fa">کلیدواژه</value>
         <value xml:lang="fr">Mot-clé</value>
         <value xml:lang="it">Chiave</value>
         <value xml:lang="ja">キーワード</value>
@@ -2046,7 +2046,7 @@
         <value xml:lang="de">Stichwortrelevanz</value>
         <value xml:lang="en">Keyword Relevancy</value>
         <value xml:lang="es">Relevancia de palabra clave</value>
-        <value xml:lang="fa">کلمه‌کلیدی مربوط</value>
+        <value xml:lang="fa">کلیدواژه مربوط</value>
         <value xml:lang="fr">Pertinence du mot-clé</value>
         <value xml:lang="it">Rilevanza chiave</value>
         <value xml:lang="ja">キーワード関連性</value>
@@ -2080,7 +2080,7 @@
         <value xml:lang="de">Stichwörter</value>
         <value xml:lang="en">Keywords</value>
         <value xml:lang="es">Palabras clave</value>
-        <value xml:lang="fa">کلمه‌کلیدی‌ها</value>
+        <value xml:lang="fa">کلیدواژه‌ها</value>
         <value xml:lang="fr">Mots-clés</value>
         <value xml:lang="hi_IN">मुख्य शब्द</value>
         <value xml:lang="it">Chiavi</value>
@@ -6473,7 +6473,7 @@
     </property>
     <property key="PageTitleAddContentKeyword">
         <value xml:lang="en">Add Content Keyword</value>
-        <value xml:lang="fa">اضافه‌کردن کلمه‌کلیدی محتوا</value>
+        <value xml:lang="fa">اضافه‌کردن کلیدواژه محتوا</value>
         <value xml:lang="fr">Ajout de mot clé document</value>
         <value xml:lang="ja">コンテンツキーワードを追加</value>
         <value xml:lang="pt">Adicionar palavra-chave de conteúdo</value>
@@ -6917,7 +6917,7 @@
     </property>
     <property key="PageTitleEditContentKeywords">
         <value xml:lang="en">Edit Content Keywords</value>
-        <value xml:lang="fa">ویرایش کلمه‌کلیدی محتوا</value>
+        <value xml:lang="fa">ویرایش کلیدواژه محتوا</value>
         <value xml:lang="fr">Édition des mots-clés document</value>
         <value xml:lang="ja">コンテンツキーワードを編集</value>
         <value xml:lang="pt">Editar conteúdo palavras-chave</value>

@@ -62,8 +62,10 @@ under the License.
         <td>
           <select name="labelLocaleName">
             <option value="">${uiLabelMap.WebtoolsLabelManagerAllLocales}</option>
+            <#assign rightToLeftLocales = Static["org.ofbiz.base.util.UtilMisc"].rightToLeftLocales()/>
             <#list localesFound as localeFound>
               <#assign locale = Static["org.ofbiz.base.util.UtilMisc"].parseLocale(localeFound)?if_exists/>
+<<<<<<< HEAD
 <<<<<<< HEAD
               <#assign langAttr = localeFound.toString()?replace("_", "-")>
               <#assign langDir = "ltr">
@@ -76,6 +78,12 @@ under the License.
               <#if 1 < langAttr?length>
                 <#if RightToLeftLocales?contains(langAttr?substring(0, 2))>
 >>>>>>> df11098... ofbiz-commit
+=======
+              <#assign langAttr = locale.toLanguageTag()>
+              <#assign langDir = "ltr">
+              <#if 1 < langAttr?length>
+                <#if rightToLeftLocales?contains(langAttr?substring(0, 2))>
+>>>>>>> 8429f5f... after solving error of UtilHttp of time-dropdown
                   <#assign langDir = "rtl">
                 </#if>
               </#if>

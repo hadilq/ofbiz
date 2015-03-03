@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*******************************************************************************
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -84,6 +85,86 @@ public class JsLanguageFileMappingCreator {
                 modifiedDisplayCountry = displayCountry;
                 modifiedDisplayCountryForValidation = displayCountry.replace("-", "_"); // messages*.js use "_" not "-" as others
             } else {
+=======
+/*******************************************************************************
+ * Licensed to the Apache Software Foundation (ASF) under one
+ * or more contributor license agreements.  See the NOTICE file
+ * distributed with this work for additional information
+ * regarding copyright ownership.  The ASF licenses this file
+ * to you under the Apache License, Version 2.0 (the
+ * "License"); you may not use this file except in compliance
+ * with the License.  You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing,
+ * software distributed under the License is distributed on an
+ * "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ * KIND, either express or implied.  See the License for the
+ * specific language governing permissions and limitations
+ * under the License.
+ *******************************************************************************/
+
+package org.ofbiz.common;
+
+import java.io.File;
+import java.io.StringWriter;
+import java.io.Writer;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Locale;
+import java.util.Map;
+
+import javolution.util.FastMap;
+
+import org.apache.commons.io.FileUtils;
+import org.ofbiz.base.util.Debug;
+import org.ofbiz.base.util.FileUtil;
+import org.ofbiz.base.util.UtilMisc;
+import org.ofbiz.base.util.template.FreeMarkerWorker;
+import org.ofbiz.service.DispatchContext;
+import org.ofbiz.service.ServiceUtil;
+
+// Use the createJsLanguageFileMapping service to create or update the JsLanguageFilesMapping.java. You will still need to compile thereafter
+
+public class JsLanguageFileMappingCreator {
+
+    private static final String module = JsLanguageFileMappingCreator.class.getName();
+
+    public static Map<String, Object> createJsLanguageFileMapping(DispatchContext ctx, Map<String, ?> context) {
+        Map<String, Object> result = ServiceUtil.returnSuccess();
+        String encoding = (String) context.get("encoding"); // default value: UTF-8
+
+        List<Locale> localeList = UtilMisc.availableLocales();
+        Map<String, Object> jQueryLocaleFile = FastMap.newInstance();
+        Map<String, String> dateJsLocaleFile = FastMap.newInstance();
+        Map<String, String> validationLocaleFile = FastMap.newInstance();
+        Map<String, String> dateTimePickerLocaleFile = FastMap.newInstance();
+
+        // setup some variables to locate the js files
+        String componentRoot = "component://images/webapp";
+        String jqueryUiLocaleRelPath = "/images/jquery/ui/i18n/";
+        String dateJsLocaleRelPath = "/images/jquery/plugins/datejs/";
+        String validateRelPath = "/images/jquery/plugins/validate/localization/";
+        String dateTimePickerJsLocaleRelPath = "/images/jquery/plugins/datetimepicker/localization/";
+        String jsFilePostFix = ".js";
+        String dateJsLocalePrefix = "date-";
+        String validateLocalePrefix = "messages_";
+        //String validateMethLocalePrefix = "methods__";
+        String jqueryUiLocalePrefix = "jquery.ui.datepicker-";
+        String dateTimePickerPrefix = "jquery-ui-timepicker-";
+        String defaultLocaleDateJs = "en-US";
+        String defaultLocaleJquery = "en"; // Beware to keep the OFBiz specific jquery.ui.datepicker-en.js file when upgrading...
+
+        for (Locale locale : localeList) {
+            String displayCountry = locale.toLanguageTag();
+            String modifiedDisplayCountry = null;
+            String modifiedDisplayCountryForValidation = null;
+            if (displayCountry.contains("-")) {
+                modifiedDisplayCountry = displayCountry;
+                modifiedDisplayCountryForValidation = displayCountry.replace("-", "_"); // messages*.js use "_" not "-" as others
+            } else {
+>>>>>>> 8429f5f... after solving error of UtilHttp of time-dropdown
                 modifiedDisplayCountry = displayCountry;
                 modifiedDisplayCountryForValidation = displayCountry;
             }

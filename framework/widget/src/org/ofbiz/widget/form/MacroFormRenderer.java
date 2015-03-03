@@ -551,17 +551,22 @@ public class MacroFormRenderer implements FormStringRenderer {
         Timestamp defaultTimestamp = null;
         String value = "";
 
-        if ( UtilValidate.isEmpty(objVal) )
+        if ( UtilValidate.isEmpty(objVal) ) {
             objVal = dateTimeField.getDefaultValue(context);
+        }
         if ( UtilValidate.isNotEmpty(objVal) ) {
             if (objVal instanceof Timestamp) {
                 defaultTimestamp = (Timestamp) objVal;
                 date = new Date(defaultTimestamp.getTime());
+
+                value = UtilDateTime.toDateTimeStringByContext(date, context);
             } else {
                 StringToTimestamp stringToTimestamp = new DateTimeConverters.StringToTimestamp();
                 try {
                     defaultTimestamp = stringToTimestamp.convert((String) objVal, context);
                     date = new Date(defaultTimestamp.getTime());
+
+                    value = UtilDateTime.toDateTimeStringByContext(date, context);
                 }
                 catch (ConversionException e) {
                     String errMsg = "Error formatting date/time using default instead [" + ((String) objVal) + "]: " + e.toString();
@@ -570,8 +575,6 @@ public class MacroFormRenderer implements FormStringRenderer {
                     value = ((String) objVal).substring(0,16);
                 }
             }
-            DateFormat dateFormatter = UtilDateTime.toDateTimeFormat(context);
-            value = dateFormatter.format(date);
         }
 
         if (UtilValidate.isNotEmpty(value)) {
@@ -607,20 +610,24 @@ public class MacroFormRenderer implements FormStringRenderer {
         }
         // if we have an input method of time-dropdown, then render two
         // dropdowns
+        boolean righToLeft = false;
         if (useTimeDropDown) {
             className = modelFormField.getWidgetStyle();
             classString = (className != null ? className : "");
             isTwelveHour = "12".equals(dateTimeField.getClock());
             // set the Calendar to the default time of the form or now()
             Calendar cal = null;
+
             Locale locale = (Locale) context.get("locale");
             TimeZone timeZone = (TimeZone) context.get("timeZone");
             if (locale == null) locale = Locale.getDefault();
             if (timeZone == null) timeZone = TimeZone.getDefault();
 
             try {
-                //cal = Calendar.getInstance(timeZone, locale);
-                cal = Calendar.getInstance(locale);
+                cal = UtilDateTime.getICUCalendar(timeZone, locale);
+                if (defaultTimestamp == null){
+                    defaultTimestamp = new Timestamp((new Date()).getTime());
+                }
                 cal.setTime(defaultTimestamp);
             } catch (IllegalArgumentException e) {
                 Debug.logWarning("Form widget field [" + paramName + "] with input-method=\"time-dropdown\" was not able to understand the default time [" + defaultDateTimeString + "]. The parsing error was: " + e.getMessage(), module);
@@ -646,6 +653,10 @@ public class MacroFormRenderer implements FormStringRenderer {
                 pmSelected = ((cal != null && cal.get(Calendar.AM_PM) == Calendar.PM) ? "selected" : "");
                 ampmName = UtilHttp.makeCompositeParam(paramName, "ampm");
             }
+
+            if (UtilMisc.rightToLeftLocales().contains(locale.toLanguageTag().substring(0, 2))) {
+                righToLeft = true;
+            }
         }
         //check for required field style on single forms
         if ("single".equals(modelFormField.getModelForm().getType()) && modelFormField.getRequiredField()) {
@@ -659,12 +670,15 @@ public class MacroFormRenderer implements FormStringRenderer {
         }
         String mask = dateTimeField.getMask();
         if ("Y".equals(mask)) {
+            Locale locale = (Locale) context.get("locale");
+            if (locale == null) locale = Locale.getDefault();
+
             if ("date".equals(dateTimeField.getType())) {
-                formattedMask = "9999-99-99";
+                formattedMask = UtilDateTime.getDateMask(locale); // "9999-99-99"
             } else if ("time".equals(dateTimeField.getType())) {
-                formattedMask = "99:99:99";
+                formattedMask = UtilDateTime.getTimeMask(locale); // "99:99:99"
             } else if ("timestamp".equals(dateTimeField.getType())) {
-                formattedMask = "9999-99-99 99:99:99";
+                formattedMask = UtilDateTime.getDateTimeMask(locale); // "9999-99-99 99:99:99"
             }
         }
         StringWriter sr = new StringWriter();
@@ -731,7 +745,9 @@ public class MacroFormRenderer implements FormStringRenderer {
         sr.append(formName);
         sr.append("\" mask=\"");
         sr.append(formattedMask);
-        sr.append("\" />");
+        sr.append("\" righToLeft=");
+        sr.append(Boolean.toString(righToLeft));
+        sr.append(" />");
         executeMacro(writer, sr.toString());
         this.addAsterisks(writer, context, modelFormField);
         this.appendTooltip(writer, context, modelFormField);

@@ -266,7 +266,7 @@ ${virtualJavaScript?if_exists}
             block2.style.display = "none";
         }
     </#if>
-    
+
     function displayProductVirtualVariantId(variantId) {
         document.addform.product_id.value = variantId;
         var elem = document.getElementById('product_id_display');
@@ -531,8 +531,8 @@ ${virtualJavaScript?if_exists}
             </div>
             <#if product.productTypeId?if_exists == "ASSET_USAGE" || product.productTypeId?if_exists == "ASSET_USAGE_OUT_IN">
                 <table width="100%"><tr>
-                    <@htmlTemplate.renderDateTimeField name="reservStart" event="" action="" value="" className="" alert="" title="Format: ${Static["org.ofbiz.base.util.UtilDateTime"].getDateTimeFormat(context)}.SSS" size="25" maxlength="30" id="startDate1" dateType="date" shortDateInput=false timeDropdownParamName="" defaultDateTimeString="" localizedIconTitle="" timeDropdown="" timeHourName="" classString="" hour1="" hour2="" timeMinutesName="" minutes="" isTwelveHour="" ampmName="" amSelected="" pmSelected="" compositeType="" formName=""/>
-                    <@htmlTemplate.renderDateTimeField name="reservEnd" event="" action="" value="" className="" alert="" title="Format: ${Static["org.ofbiz.base.util.UtilDateTime"].getDateTimeFormat(context)}.SSS" size="25" maxlength="30" id="endDate1" dateType="date" shortDateInput=false timeDropdownParamName="" defaultDateTimeString="" localizedIconTitle="" timeDropdown="" timeHourName="" classString="" hour1="" hour2="" timeMinutesName="" minutes="" isTwelveHour="" ampmName="" amSelected="" pmSelected="" compositeType="" formName=""/>
+                    <@htmlTemplate.renderDateTimeField name="reservStart" event="" action="" value="" className="" alert="" title="Format: ${Static["org.ofbiz.base.util.UtilDateTime"].getDateTimeFormatByContext(context)}" size="25" maxlength="30" id="startDate1" dateType="date" shortDateInput=false timeDropdownParamName="" defaultDateTimeString="" localizedIconTitle="" timeDropdown="" timeHourName="" classString="" hour1="" hour2="" timeMinutesName="" minutes="" isTwelveHour="" ampmName="" amSelected="" pmSelected="" compositeType="" formName=""/>
+                    <@htmlTemplate.renderDateTimeField name="reservEnd" event="" action="" value="" className="" alert="" title="Format: ${Static["org.ofbiz.base.util.UtilDateTime"].getDateTimeFormatByContext(context)}" size="25" maxlength="30" id="endDate1" dateType="date" shortDateInput=false timeDropdownParamName="" defaultDateTimeString="" localizedIconTitle="" timeDropdown="" timeHourName="" classString="" hour1="" hour2="" timeMinutesName="" minutes="" isTwelveHour="" ampmName="" amSelected="" pmSelected="" compositeType="" formName=""/>
                 <tr>
                 <#--td nowrap="nowrap" align="right">Number<br />of days</td><td><input type="textt" size="4" name="reservLength"/></td></tr><tr><td>&nbsp;</td><td align="right" nowrap>&nbsp;</td-->
                 <td nowrap="nowrap" align="right">Number of persons</td><td><input type="text" size="4" name="reservPersons" value="2"/></td>
