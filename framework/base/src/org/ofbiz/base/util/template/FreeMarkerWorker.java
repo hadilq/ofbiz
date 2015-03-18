@@ -53,6 +53,7 @@ import org.ofbiz.base.util.UtilMisc;
 import org.ofbiz.base.util.UtilProperties;
 import org.ofbiz.base.util.UtilValidate;
 import org.ofbiz.base.util.cache.UtilCache;
+import org.ofbiz.base.util.UtilDateTime;
 
 import freemarker.cache.TemplateLoader;
 import freemarker.core.Environment;
@@ -98,7 +99,7 @@ public class FreeMarkerWorker {
         newConfig.setAutoImports(UtilProperties.getProperties("freemarkerImports"));
         newConfig.setTemplateExceptionHandler(new FreeMarkerWorker.OFBizTemplateExceptionHandler());
         try {
-            newConfig.setSetting("datetime_format", "yyyy-MM-dd HH:mm:ss.SSS");
+            newConfig.setSetting("datetime_format", UtilDateTime.DATE_TIME_FORMAT);
             newConfig.setSetting("number_format", "0.##########");
         } catch (TemplateException e) {
             Debug.logError("Unable to set date/time and number formats in FreeMarker: " + e, module);

@@ -4342,7 +4342,7 @@
         <value xml:lang="de">Antwort hinzufügen</value>
         <value xml:lang="en">Add Response</value>
         <value xml:lang="es">Añadir Respuesta</value>
-        <value xml:lang="fa">اضافه کردن پاسخ</value>
+        <value xml:lang="fa">اضافه‌کردن پاسخ</value>
         <value xml:lang="fr">Ajouter une réponse</value>
         <value xml:lang="hi_IN">उत्तर जोड़ें</value>
         <value xml:lang="it">Aggiungi risposta</value>
@@ -4380,7 +4380,7 @@
         <value xml:lang="de">Rechnungstellung Informationen</value>
         <value xml:lang="en">Billing Information</value>
         <value xml:lang="es">Información de Facturación</value>
-        <value xml:lang="fa">اطلاعات قبض</value>
+        <value xml:lang="fa">اطلاعات صورت‌حساب</value>
         <value xml:lang="fr">Information de facturation</value>
         <value xml:lang="hi_IN">बिल की जानकारी</value>
         <value xml:lang="it">Informazioni di fatturazione</value>
@@ -4685,7 +4685,7 @@
         <value xml:lang="de">Gutschein Link</value>
         <value xml:lang="en">Gift Card Link</value>
         <value xml:lang="es">Enlace aTarjeta de Regalo</value>
-        <value xml:lang="fa">لینک کارت هدیه</value>
+        <value xml:lang="fa">پیوند کارت هدیه</value>
         <value xml:lang="fr">Lien vers la carte cadeau</value>
         <value xml:lang="hi_IN">उपहार कार्ड लिंक</value>
         <value xml:lang="it">Link carta omaggio</value>
@@ -4933,7 +4933,7 @@
         <value xml:lang="da">Betaling notits ved gentagne forsøg</value>
         <value xml:lang="de">Bezahlung erneuter Versuch Bekanntmachung</value>
         <value xml:lang="en">Payment Retry Notice</value>
-        <value xml:lang="fa">اعلان تکرار پرداخت</value>
+        <value xml:lang="fa">اعلان مجوزهای پرداخت</value>
         <value xml:lang="fr">Nouvel essai de paiement</value>
         <value xml:lang="it">Nuovo tentativo di pagamento</value>
         <value xml:lang="ja">支払再試行通知</value>
@@ -5164,7 +5164,7 @@
         <value xml:lang="de">Positionen aufteilen für Versand</value>
         <value xml:lang="en">Split Items For Shipping</value>
         <value xml:lang="es">Dividir Artículos para envío</value>
-        <value xml:lang="fa">جداسازی اقلام برای حمل‌ونقل</value>
+        <value xml:lang="fa">تقسیم‌کردن اقلام برای حمل‌‌کردن</value>
         <value xml:lang="fr">Dissocier les articles lors de l'expédition</value>
         <value xml:lang="it">Dividi gli articoli per spedizioni</value>
         <value xml:lang="ja">発送時にアイテムを分割</value>

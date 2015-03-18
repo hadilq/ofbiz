@@ -36,7 +36,7 @@
         <value xml:lang="de">Sie haben keine Berechtigung, diese Aktion für diesen Akteur auszuführen</value>
         <value xml:lang="en">You do not have permission to perform this operation for this party</value>
         <value xml:lang="es">Usted no cuenta con permisos para realizar la acción</value>
-        <value xml:lang="fa">شما مجوز لازم برای انجام این عملیات برای این هم‌مشرب را ندارید</value>
+        <value xml:lang="fa">شما مجوز لازم برای اجراء این عملیات برای این هویت را ندارید</value>
         <value xml:lang="fr">Vous n'avez pas l'autorisation pour effectuer cette opération</value>
         <value xml:lang="it">Non hai il permesso per eseguire questa operazione per questo soggetto</value>
         <value xml:lang="ja">この取引先に対してこの操作を実行する権限がありません</value>
@@ -64,7 +64,7 @@
         <value xml:lang="de">Akteur ID fehlt</value>
         <value xml:lang="en">Party ID missing</value>
         <value xml:lang="es">No existe el código de Participante</value>
-        <value xml:lang="fa">آی‌دی هم‌مشرب فراموش‌شده‌است</value>
+        <value xml:lang="fa">آی‌دی هویت فراموش‌شده‌است</value>
         <value xml:lang="fr">Il manque la Party ID</value>
         <value xml:lang="it">Party ID mancante</value>
         <value xml:lang="ja">取引先IDが正しくありません</value>
@@ -92,7 +92,7 @@
         <value xml:lang="de">Job Wiederholungen können nicht abgebrochen werden</value>
         <value xml:lang="en">Unable to cancel job retries</value>
         <value xml:lang="es">No se puede cancelar los reintentos de la terea</value>
-        <value xml:lang="fa">کنش‌های این کار را نمی‌توان لغو کرد</value>
+        <value xml:lang="fa">تلاش‌مجدد‌های کار را نمی‌توان لغو کرد</value>
         <value xml:lang="fr">Impossible d'annuler les nouvelles tentatives de traitement par lot</value>
         <value xml:lang="it">Impossibile annullare il nuovo tentativo di lavoro</value>
         <value xml:lang="ja">ジョブ再実行をキャンセルすることができません</value>
@@ -125,21 +125,21 @@
     </property>
     <property key="ServiceTestDeadLockRetry">
         <value xml:lang="en">Error(s) running sub-services in testServiceDeadLockRetry</value>
-        <value xml:lang="fa">خطا در اجراء زیر-سرویس‌ها در «کنش قفل بسته سرویس تست»</value>
+        <value xml:lang="fa">خطا در اجراء زیر-سرویس‌ها در «تلاش‌مجدد قفل بسته سرویس تست»</value>
         <value xml:lang="it">Errore(i) durante l'esecuzione dei sotto-servizi in testServiceDeadLockRetry</value>
         <value xml:lang="ja">testServiceDeadLockRetryの中のサブサービス実行中にエラー</value>
         <value xml:lang="zh">运行测试服务死锁重试（testServiceDeadLockRetry）中的子服务时出错</value>
     </property>
     <property key="ServiceTestDeadLockThreadA">
         <value xml:lang="en">Error running testServiceDeadLockRetryThreadA: ${errorString}</value>
-        <value xml:lang="fa">خطا در اجراء «اولین رشته کنش قفل بسته سرویس تست»: ${errorString}</value>
+        <value xml:lang="fa">خطا در اجراء «اولین رشته تلاش‌مجدد قفل بسته سرویس تست»: ${errorString}</value>
         <value xml:lang="it">Errore durante l'esecuzione di testServiceDeadLockRetryThreadA: ${errorString}</value>
         <value xml:lang="ja">testServiceDeadLockRetryThreadAの実行中にエラー: ${errorString}</value>
         <value xml:lang="zh">运行测试服务死锁重试线程A（testServiceDeadLockRetryThreadA）时出错：${errorString}</value>
     </property>
     <property key="ServiceTestDeadLockThreadB">
         <value xml:lang="en">Error running testServiceDeadLockRetryThreadB: ${errorString}</value>
-        <value xml:lang="fa">خطا در اجراء «دومین رشته کنش قفل بسته سرویس تست»: ${errorString}</value>
+        <value xml:lang="fa">خطا در اجراء «دومین رشته تلاش‌مجدد قفل بسته سرویس تست»: ${errorString}</value>
         <value xml:lang="it">Errore durante l'esecuzione di testServiceDeadLockRetryThreadB: ${errorString}</value>
         <value xml:lang="ja">testServiceDeadLockRetryThreadBの実行中にエラー: ${errorString}</value>
         <value xml:lang="zh">运行测试服务死锁重试线程B（testServiceDeadLockRetryThreadB）时出错：${errorString}</value>
@@ -153,35 +153,35 @@
     </property>
     <property key="ServiceTestEntityEngineExceptionThreadA">
         <value xml:lang="en">Entity Engine Exception running dead lock test thread A: ${errorString}</value>
-        <value xml:lang="fa">استثناء موتو نهاد اولین رشته تست قفل بسته را اجراء می‌کند: ${errorString}</value>
+        <value xml:lang="fa">استثناء موتور نهاد درهنگام اجراء اولین رشته تست قفل بسته: ${errorString}</value>
         <value xml:lang="it">Eccezione Entity Engine durante l'esecuzione del test dead lock thread A: ${errorString}</value>
         <value xml:lang="ja">デッドロックテストスレッドA実行中にエンティティエンジン例外: ${errorString}</value>
         <value xml:lang="zh">运行死锁测试线程A时发生实体引擎异常：${errorString}</value>
     </property>
     <property key="ServiceTestEntityEngineExceptionThreadB">
         <value xml:lang="en">Entity Engine Exception running dead lock test thread B: ${errorString}</value>
-        <value xml:lang="fa">استثناء موتو نهاد دومین رشته تست قفل بسته را اجراء می‌کند: ${errorString}</value>
+        <value xml:lang="fa">استثناء موتور نهاد درهنگام اجراء دومین رشته تست قفل بسته: ${errorString}</value>
         <value xml:lang="it">Eccezione Entity Engine durante l'esecuzione del test dead lock thread B: ${errorString}</value>
         <value xml:lang="ja">デッドロックテストスレッドB実行中にエンティティエンジン例外: ${errorString}</value>
         <value xml:lang="zh">运行死锁测试线程B时发生实体引擎异常：${errorString}</value>
     </property>
     <property key="ServiceTestEntityEngineWaitInterruptedExceptionThreadA">
         <value xml:lang="en">Entity Engine Exception running dead lock test thread A: ${errorString}</value>
-        <value xml:lang="fa">استثناء موتو نهاد اولین رشته تست قفل بسته را اجراء می‌کند: ${errorString}</value>
+        <value xml:lang="fa">استثناء موتور نهاد اولین رشته تست قفل بسته را اجراء می‌کند: ${errorString}</value>
         <value xml:lang="it">Eccezione Entity Engine durante l'esecuzione del test dead lock thread A: ${errorString}</value>
         <value xml:lang="ja">デッドロックテストスレッドA実行中にエンティティエンジン例外: ${errorString}</value>
         <value xml:lang="zh">运行死锁测试线程A时发生实体引擎异常：${errorString}</value>
     </property>
     <property key="ServiceTestEntityEngineWaitInterruptedExceptionThreadB">
         <value xml:lang="en">Entity Engine Exception running dead lock test thread B: ${errorString}</value>
-        <value xml:lang="fa">استثناء موتو نهاد دومین رشته تست قفل بسته را اجراء می‌کند: ${errorString}</value>
+        <value xml:lang="fa">استثناء موتور نهاد دومین رشته تست قفل بسته را اجراء می‌کند: ${errorString}</value>
         <value xml:lang="it">Eccezione Entity Engine durante l'esecuzione del test dead lock thread B: ${errorString}</value>
         <value xml:lang="ja">デッドロックテストスレッドB実行中にエンティティエンジン例外: ${errorString}</value>
         <value xml:lang="zh">运行死锁测试线程B时发生实体引擎异常：${errorString}</value>
     </property>
     <property key="ServiceTestLockWaitTimeoutRetry">
         <value xml:lang="en">Error(s) running sub-services in testServiceLockWaitTimeoutRetry</value>
-        <value xml:lang="fa">خطا در اجراء زیر-سرویس «کنش انقضاء انتظار قفل سرویس تست»</value>
+        <value xml:lang="fa">خطا در اجراء زیر-سرویس تلاش‌مجدد انقضاء انتظار قفل سرویس تست»</value>
         <value xml:lang="it">Errore(i) durante l'esecuzione dei sotto-servizi in testServiceLockWaitTimeoutRetry</value>
         <value xml:lang="ja">testServiceLockWaitTimeoutRetryの中のサブサービス実行中にエラー</value>
         <value xml:lang="zh">运行测试服务锁等待超时重试（testServiceLockWaitTimeoutRetry）服务时出错</value>
@@ -216,7 +216,7 @@
     </property>
     <property key="ServiceTestLockWaitTimeoutRetryCantRecoverWaiter">
         <value xml:lang="en">Error running testServiceLockWaitTimeoutRetryCantRecoverWaiter</value>
-        <value xml:lang="fa">خطا در اجراء «منتظر بازیابی  بیان کنش انقضاء انتظار قفل سرویس تست»</value>
+        <value xml:lang="fa">خطا در اجراء «منتظر بازیابی  بیان تلاش‌مجدد انقضاء انتظار قفل سرویس تست»</value>
         <value xml:lang="it">Errore durante l'esecuzione di testServiceLockWaitTimeoutRetryCantRecoverWaiter</value>
         <value xml:lang="ja">testServiceLockWaitTimeoutRetryCantRecoverWaiter実行中にエラー</value>
         <value xml:lang="zh">运行测试服务锁等待程序超时重试不能恢复等待（testServiceLockWaitTimeoutRetryCantRecoverWaiter）时出错</value>
@@ -230,14 +230,14 @@
     </property>
     <property key="ServiceTestOwnTxSubServiceAfterSetRollbackOnlyInParentErrorCatchWrapper">
         <value xml:lang="en">Error running ServiceTestOwnTxSubServiceAfterSetRollbackOnlyInParentErrorCatchWrapper</value>
-        <value xml:lang="fa">خطا در اجراء «زیر سرویس own Tx تست سرویس بعد از فقط عقب‌گرد ثبت در جاروکننده گیرنده خطا مادر»</value>
+        <value xml:lang="fa">خطا در اجراء «زیر سرویس own Tx تست سرویس بعد از فقط عقب‌گرد ثبت در جاروکننده گیرنده خطا والد»</value>
         <value xml:lang="it">Errore durante l'esecuzione di ServiceTestOwnTxSubServiceAfterSetRollbackOnlyInParentErrorCatchWrapper</value>
         <value xml:lang="ja">ServiceTestOwnTxSubServiceAfterSetRollbackOnlyInParentErrorCatchWrapper実行中にエラー</value>
         <value xml:lang="zh">运行在上级错误捕获程序中在设置了仅回滚后的带有事务处理子服务的服务测试（ServiceTestOwnTxSubServiceAfterSetRollbackOnlyInParentErrorCatchWrapper）时出错</value>
     </property>
     <property key="ServiceTestOwnTxSubServiceAfterSetRollbackOnlyInParent">
         <value xml:lang="en">Error running sub-service in testServiceOwnTxSubServiceAfterSetRollbackOnlyInParent</value>
-        <value xml:lang="fa">خطا در زیر-سرویس «زیر سرویس own tx سرویس تست بعد از فقط عقب‌گرد در مادر»</value>
+        <value xml:lang="fa">خطا در زیر-سرویس «زیر سرویس own tx سرویس تست بعد از فقط عقب‌گرد در والد»</value>
         <value xml:lang="it">Errore durante l'esecuzione di testServiceOwnTxSubServiceAfterSetRollbackOnlyInParent</value>
         <value xml:lang="ja">testServiceOwnTxSubServiceAfterSetRollbackOnlyInParentの中のサブサービス実行中にエラー</value>
         <value xml:lang="zh">运行在上级服务中设置了仅回滚后的带有事务处理子服务的测试服务（testServiceOwnTxSubServiceAfterSetRollbackOnlyInParent）中的子服务时出错</value>
@@ -279,7 +279,7 @@
     </property>
     <property key="ServiceValueNotFound">
         <value xml:lang="en">Value not found, cannot update</value>
-        <value xml:lang="fa">مقدار پیدا نشد، نمی‌توان بروزکرد</value>
+        <value xml:lang="fa">مقدار پیدانشده، نمی‌توان بروزکرد</value>
         <value xml:lang="it">Valore non troavato, non è possibile aggiornare</value>
         <value xml:lang="ja">値が見つかりません。更新できません</value>
         <value xml:lang="zh">没有找到值，无法更新</value>

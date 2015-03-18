@@ -137,7 +137,7 @@
     <property key="TrackingCodeType.description.PARTNER_MGD">
         <value xml:lang="en">Partner Managed</value>
         <value xml:lang="es">Partner</value>
-        <value xml:lang="fa">هم‌مشرب مدیریت‌شده</value>
+        <value xml:lang="fa">هویت مدیر‌شده</value>
         <value xml:lang="fr">Géré par un tiers</value>
         <value xml:lang="it">Gestito da un Partner</value>
         <value xml:lang="ja">パートナー</value>

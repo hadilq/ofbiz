@@ -437,7 +437,7 @@ A.listtext:hover {color:red;}
     <%ModelEntity relEntity = reader.getModelEntity(relation.getRelEntityName());%>
     <tr bgcolor='#CCCCFF'>
       <FORM method="post" action='<ofbiz:url>/view/EditEntity?entityName=<%=entityName%>&event=updateRelation&relNum=<%=r%></ofbiz:url>'>
-        <td align="left"><%=relation.getTitle()%><A class='listtext' href='<ofbiz:url>/view/EditEntity?entityName=<%=relation.getRelEntityName()%></ofbiz:url>'><%=relation.getRelEntityName()%></A></td>
+        <td class="alignClass"><%=relation.getTitle()%><A class='listtext' href='<ofbiz:url>/view/EditEntity?entityName=<%=relation.getRelEntityName()%></ofbiz:url>'><%=relation.getRelEntityName()%></A></td>
         <td>
           <INPUT type=TEXT class='inputBox' name='title' value='<%=relation.getTitle()%>'>
           <INPUT type=TEXT class='inputBox' name='fkName' value='<%=relation.getFkName()%>' size='18' maxlength='18'>

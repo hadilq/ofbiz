@@ -275,7 +275,7 @@
     <property key="ProductReturnRequestedOK">
         <value xml:lang="de">Die Retoure wurde verlangt.</value>
         <value xml:lang="en">The return is requested.</value>
-        <value xml:lang="fa">بازگشت لازم است.</value>
+        <value xml:lang="fa">بازگشت لازم‌است.</value>
         <value xml:lang="fr">Le retour est demandé.</value>
         <value xml:lang="it">Il reso è richiesto.</value>
         <value xml:lang="ja">返品がリクエストされました。</value>
@@ -409,7 +409,7 @@
         <value xml:lang="de">Produktverknüpfung konnte nicht erstellt werden (existiert bereits).</value>
         <value xml:lang="en">Could not create product association (already exists).</value>
         <value xml:lang="es">No se pudo crear asociación (ya existe).</value>
-        <value xml:lang="fa">نمی‌توان وابستگی محصول را ساخت (از قبل موجود است).</value>
+        <value xml:lang="fa">نمی‌توان وابستگی محصول را ساخت (ازقبل موجود است).</value>
         <value xml:lang="fr">Impossible de créer l'association à l'article (existe déjà).</value>
         <value xml:lang="it">Non è possibile creare l'associazione prodotto (già esistente).</value>
         <value xml:lang="ja">製品関連付けが作成できません(すでに存在します)。</value>
@@ -437,7 +437,7 @@
         <value xml:lang="de">Produkt Schlüsselwort Eintrag konnte nicht erstellt werden (existiert bereits).</value>
         <value xml:lang="en">Could not create product-keyword entry (already exists).</value>
         <value xml:lang="es">No se pudo crear entrada de palabra clave-producto (ya existe).</value>
-        <value xml:lang="fa">نمی‌توان ورود کلیدواژه محصول را ساخت (از قبل موجود است).</value>
+        <value xml:lang="fa">نمی‌توان ورود کلیدواژه محصول را ساخت (ازقبل موجود است).</value>
         <value xml:lang="fr">Impossible de créer le mot-clé de l'article (existe déjà).</value>
         <value xml:lang="it">Non è possibile creare voce chiave-prodotto (già esistenti).</value>
         <value xml:lang="ja">製品キーワードが作成できません(すでに存在します)。</value>
@@ -814,7 +814,7 @@
         <value xml:lang="de">Aktualisierungmodus nicht angegeben, wird benötigt.</value>
         <value xml:lang="en">Update Mode was not specified, but is required.</value>
         <value xml:lang="es">No se especificó el modo de actualización, pero es requerido.</value>
-        <value xml:lang="fa">حالت بروزرسانی مشخص‌نشده‌است، ولی لازم است.</value>
+        <value xml:lang="fa">حالت بروزرسانی مشخص‌نشده‌است، ولی لازم‌است.</value>
         <value xml:lang="fr">Le mode de mise à jour n'a pas été indiqué, mais est exigé.</value>
         <value xml:lang="it">Modo di Aggiornamento non è stato specificato, ma è richiesto.</value>
         <value xml:lang="ja">更新モードが指定されていません、入力してください。</value>
@@ -1263,7 +1263,7 @@
         <value xml:lang="de">Mehr als eine gültige Variante gefunden für Virtuelles Produkt mit der ID [${productId}], kein Merge durchgeführt.</value>
         <value xml:lang="en">Found more than one valid variant for virtual ID [${productId}], not doing merge...</value>
         <value xml:lang="es">Se encontrarón más de una variante válida para el código de producto virtual [${productId}], no se hace la unión...</value>
-        <value xml:lang="fa">بیشتر از یک متغیر معتبر برای آی‌دی مجازی [${productId}] پیداشده‌است، یکی نمی‌کنیم...</value>
+        <value xml:lang="fa">بیشتر از یک متغییر معتبر برای آی‌دی مجازی [${productId}] پیداشده‌است، یکی نمی‌کنیم...</value>
         <value xml:lang="fr">Plusieur variantes valides pour la réf. virtuelle [${productId}], pas de fusion...</value>
         <value xml:lang="it">Trovati più di una variante valida per Codice virtuale [${productId}], non facendo la fusione...</value>
         <value xml:lang="ja">仮想ID [${productId}] に対する別型が複数見つかりました、マージできません...</value>
@@ -1285,7 +1285,7 @@
         <value xml:lang="de">Entitätenfehler beim raschen Hinzufügen Variantendaten: ${errMessage}.</value>
         <value xml:lang="en">Entity error quick add variant data: ${errMessage}.</value>
         <value xml:lang="es">Error de entidad al añadir rápido datos de variantes: ${errMessage}.</value>
-        <value xml:lang="fa">خطای نهاد در اضافه‌کردن سریع داده متغیر: ${errMessage}.</value>
+        <value xml:lang="fa">خطای نهاد در اضافه‌کردن سریع داده متغییر: ${errMessage}.</value>
         <value xml:lang="fr">Erreur de base de données (entité) lors de l'exécution de l'ajout rapide de données variantes : ${errMessage}.</value>
         <value xml:lang="it">Errora Entità aggiunta variante data: ${errMessage}.</value>
         <value xml:lang="ja">別型データのクイック追加でエンティティエラー: ${errMessage}.</value>
@@ -1327,7 +1327,7 @@
         <value xml:lang="de">Produkt ID wird benötigt fehlt aber.</value>
         <value xml:lang="en">productId is required but missing.</value>
         <value xml:lang="es">Se requiere el código de producto pero no fue especificado.</value>
-        <value xml:lang="fa">آی‌دی محصول لازم است ولی فراموش‌شده‌است.</value>
+        <value xml:lang="fa">آی‌دی محصول لازم‌است ولی فراموش‌شده‌است.</value>
         <value xml:lang="fr">La réf. d'article est indispensable mais manque.</value>
         <value xml:lang="it">productId è richiesto ma è mancante.</value>
         <value xml:lang="ja">必要な製品IDが正しくありません。</value>
@@ -1355,7 +1355,7 @@
         <value xml:lang="de">Produktvariante erfolgreich erstellt mit der ID: ${variantProductId} (enthält Verbindungen und Standart-Merkmale für die Variante).</value>
         <value xml:lang="en">Successfully created variant product with id: ${variantProductId} (includes association, and standard features for the variant).</value>
         <value xml:lang="es">Se creó exitosamente el producto variante con código: ${variantProductId} (incluye asociación, y características estándard para la variante).</value>
-        <value xml:lang="fa">باموفقیت محصول متغیر با آی‌دی ${variantProductId} ساخته‌شده‌است (شامل همکار و افزونه‌های استاندارد برای متغیر).</value>
+        <value xml:lang="fa">باموفقیت محصول متغییر با آی‌دی ${variantProductId} ساخته‌شده‌است (شامل همکار و افزونه‌های استاندارد برای متغییر).</value>
         <value xml:lang="fr">Création résussie de la variante d'article : réf. ${variantProductId} (inclut l'association, et les caractéristiques standards pour la variante).</value>
         <value xml:lang="it">Variante prodotto con Codice: ${variantProductId} creato con successo (incluse associazioni, e caratteristiche standard per la variante).</value>
         <value xml:lang="ja">id: ${variantProductId} の別型製品が正しく作成されました(別型の関連付け、および標準機能を含め)。</value>
@@ -1369,7 +1369,7 @@
         <value xml:lang="de">Transaktionsfehler beim raschen Hinzufügen Variantendaten: ${errMessage}</value>
         <value xml:lang="en">Transaction error creating quick add variant data: ${errMessage}.</value>
         <value xml:lang="es">Error de transacción creando data al añadir rápido variantes: ${errMessage}.</value>
-        <value xml:lang="fa">خطای تراکنش در ساختن اضافه‌کردن سریع داده متغیر: ${errMessage}.</value>
+        <value xml:lang="fa">خطای تراکنش در ساختن اضافه‌کردن سریع داده متغییر: ${errMessage}.</value>
         <value xml:lang="fr">Erreur de transaction pendant l'ajout rapide des données de variante : ${errMessage}.</value>
         <value xml:lang="it">Transazione errore creazione aggiunta veloce variante data: ${errMessage}.</value>
         <value xml:lang="ja">別型データのクイック追加時にトランザクションエラー: ${errMessage}.</value>
@@ -1418,7 +1418,7 @@
         <value xml:lang="de">variantProductId wir benötigt fehlt aber, bitte geben Sie eine ID für die neue Produktvariante an.</value>
         <value xml:lang="en">variantProductId is required but missing, please enter an id for the new variant product.</value>
         <value xml:lang="es">Se requiere el código del producto variante, pero no se especificó, por favor ingrese un código para el nuevo producto variante.</value>
-        <value xml:lang="fa">آی‌دی محصول متغیر لازم است ولی فراموش‌شده‌است، لطفا آی‌دی را برای محصول متغیر جدید واردنمایید.</value>
+        <value xml:lang="fa">آی‌دی محصول متغییر لازم‌است ولی فراموش‌شده‌است، لطفا آی‌دی را برای محصول متغییر جدید واردنمایید.</value>
         <value xml:lang="fr">La réf. de variante d'article est indispensable mais manque. S'il vous plaît entrez une réf. pour la nouvelle variante d'article.</value>
         <value xml:lang="it">Il codice della variante prodotto è richiesto ma mancante.</value>
         <value xml:lang="ja">必要な別型製品IDが正しくありません。新規別型製品のIDを入力してください。</value>

@@ -21,6 +21,7 @@
     <property key="CommonExtCreatePublicMessage">
         <value xml:lang="de">Erzeuge öffentliche Nachricht</value>
         <value xml:lang="en">Create Public Message</value>
+        <value xml:lang="fa">ساختن پیام عمومی</value>
         <value xml:lang="fr">Créer un message public</value>
         <value xml:lang="it">Crea messaggio pubblico</value>
         <value xml:lang="ja">公開メッセージを作成</value>
@@ -31,6 +32,7 @@
     <property key="CommonExtDateInfoCreated">
         <value xml:lang="de">Datum Info erzeugt</value>
         <value xml:lang="en">Date info created</value>
+        <value xml:lang="fa">اطلاعات تاریخ ساخته‌شده</value>
         <value xml:lang="fr">Date de création</value>
         <value xml:lang="it">Data di creazione</value>
         <value xml:lang="ja">作成日付情報</value>
@@ -41,6 +43,7 @@
     <property key="CommonExtDateLastChanged">
         <value xml:lang="de">Datum Letzte Änderung</value>    
         <value xml:lang="en">Date Last Changed</value>
+        <value xml:lang="fa">تاریخ آخرین تغییر</value>
         <value xml:lang="fr">Dernière date de changement</value>
         <value xml:lang="it">Data ultimo cambiamento</value>
         <value xml:lang="ja">最終更新日</value>
@@ -51,6 +54,7 @@
     <property key="CommonExtSystemInfoNote">
         <value xml:lang="de">Systemnachricht</value>
         <value xml:lang="en">System Info Note</value>
+        <value xml:lang="fa">یادداشت اطلاعات سیستم</value>
         <value xml:lang="fr">Message d'information système</value>
         <value xml:lang="it">Messaggio di sistema</value>
         <value xml:lang="ja">システム情報連絡</value>
@@ -61,6 +65,7 @@
     <property key="CommonExtSystemInfoNoteForUser">
         <value xml:lang="de">Systemnachricht für Benutzer:</value>    
         <value xml:lang="en">System Info note for user:</value>
+        <value xml:lang="fa">یادداشت اطلاعات سیستم برای کابر:</value>
         <value xml:lang="fr">Message d'information système pour l'utilisateur :</value>
         <value xml:lang="it">Messaggio di sistema per l'utente:</value>
         <value xml:lang="ja">システム情報連絡 ユーザ:</value>
@@ -71,6 +76,7 @@
     <property key="CommonExtSystemInfoStatus">
         <value xml:lang="de">System Information Status</value>    
         <value xml:lang="en">System Info Status</value>
+        <value xml:lang="fa">وضعیت اطلاعات سیستم</value>
         <value xml:lang="fr">Message d'information d'état</value>
         <value xml:lang="it">Stato messaggi di sistema</value>
         <value xml:lang="ja">システム情報ステータス</value>
@@ -81,6 +87,7 @@
     <property key="CommonExtSystemInfoStatusForUser">
         <value xml:lang="de">System Information Status für Benutzer:</value>    
         <value xml:lang="en">System Info status for user:</value>
+        <value xml:lang="fa">وضعیت اطلاعات سیستم برای کاربر:</value>
         <value xml:lang="fr">Message d'information d'état pour l'utilisateur :</value>
         <value xml:lang="it">Stato messaggi di sistema per l'utente:</value>
         <value xml:lang="ja">システム情報ステータス ユーザ:</value>

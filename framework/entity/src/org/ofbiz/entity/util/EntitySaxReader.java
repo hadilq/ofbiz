@@ -43,6 +43,7 @@ import org.ofbiz.base.util.Debug;
 import org.ofbiz.base.util.UtilMisc;
 import org.ofbiz.base.util.UtilValidate;
 import org.ofbiz.base.util.UtilXml;
+import org.ofbiz.base.util.UtilDateTime;
 import org.ofbiz.base.util.template.FreeMarkerWorker;
 import org.ofbiz.entity.Delegator;
 import org.ofbiz.entity.GenericEntityException;
@@ -96,7 +97,7 @@ public class EntitySaxReader implements javolution.xml.sax.ContentHandler, Error
     protected boolean checkDataOnly = false;
     protected boolean doCacheClear = true;
     protected boolean disableEeca = false;
-    protected enum Action {CREATE, CREATE_UPDATE, CREATE_REPLACE, DELETE}; 
+    protected enum Action {CREATE, CREATE_UPDATE, CREATE_REPLACE, DELETE};
     protected List<String> actionTags = UtilMisc.toList("create", "create-update", "create-replace", "delete");
     protected Action currentAction = Action.CREATE_UPDATE;
     protected List<Object> messageList = null;
@@ -311,7 +312,7 @@ public class EntitySaxReader implements javolution.xml.sax.ContentHandler, Error
             throw new SAXException("A transaction error occurred reading data", e);
         }
         Debug.logImportant("Finished " + numberRead + " values from " + docDescription, module);
-        if (Debug.verboseOn()) { 
+        if (Debug.verboseOn()) {
             Debug.logVerbose("  Detail created : " + numberCreated + ", skipped : " + numberSkipped +
                     ", updated : " + numberUpdated + ", replaced : " + numberReplaced +
                     ", deleted : " + numberDeleted, module);
@@ -375,7 +376,7 @@ public class EntitySaxReader implements javolution.xml.sax.ContentHandler, Error
                     StringWriter outWriter = new StringWriter();
                     Configuration config = new Configuration();
                     config.setObjectWrapper(FreeMarkerWorker.getDefaultOfbizWrapper());
-                    config.setSetting("datetime_format", "yyyy-MM-dd HH:mm:ss.SSS");
+                    config.setSetting("datetime_format", UtilDateTime.DATE_TIME_FORMAT);
 
                     Template template = new Template("FMImportFilter", templateReader, config);
                     NodeModel nodeModel = NodeModel.wrap(this.rootNodeForTemplate);

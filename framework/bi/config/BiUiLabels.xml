@@ -40,6 +40,7 @@
         <value xml:lang="de">Teil der Open For Business Familie von Open Source Software</value>
         <value xml:lang="en">Part of the Open For Business Family of Open Source Software</value>
         <value xml:lang="es">Parte de la familia de software Open For Business de código abierto</value>
+        <value xml:lang="fa">بخشی از خانواده آزاد برای تجارت از نرم‌افزارهای متن باز</value>
         <value xml:lang="fr">Un module de la famille Open For Business, logiciel libre de gestion d'entreprise.</value>
         <value xml:lang="it">Un modulo della famiglia di software open source Open For Business</value>
         <value xml:lang="ja">Part of the Open For Business Family of Open Source Software</value>
@@ -63,7 +64,7 @@
     </property>
     <property key="BusinessIntelligenceFieldDescription">
         <value xml:lang="en">Field Description</value>
-        <value xml:lang="fa">بخش توضیحات</value>
+        <value xml:lang="fa">بخش شرح</value>
         <value xml:lang="fr">Description de champ</value>
         <value xml:lang="it">Descrizione Campo</value>
         <value xml:lang="ja">項目詳細</value>
@@ -132,7 +133,7 @@
     </property>
     <property key="BusinessIntelligenceNote13">
         <value xml:lang="en">The main low level services to post data to the datawarehouse,</value>
-        <value xml:lang="fa">لایه اصلی پایینی خدمات برای ارسال داده به «انبارکالا داده»</value>
+        <value xml:lang="fa">لایه اصلی پایینی سرویس برای ارسال داده به «انبارکالا داده»</value>
         <value xml:lang="fr">Les principaux services de bas niveau pour envoyer des données au datawarehouse,</value>
         <value xml:lang="it">I servizi principali a basso livello per ricavare i dati del datawarehouse,</value>
         <value xml:lang="ja">主に下位(子)のサービスでデータウェアハウスにデータが送信されます、</value>
@@ -159,7 +160,7 @@
     </property>
     <property key="BusinessIntelligenceNote16">
         <value xml:lang="en">The following dimensions (and data services) are defined: CurrencyDimension, DateDimension, ProductDimension;</value>
-        <value xml:lang="fa">ابعاد پیشرو (و داده خدمات) تغریف شدند: «بعد ‌پولی»، «بعد‌ داده»، «بعد‌ تولید»:</value>
+        <value xml:lang="fa">ابعاد پیشرو (و داده سرویس) تغریف شدند: «بعد ‌پولی»، «بعد‌ داده»، «بعد‌ تولید»:</value>
         <value xml:lang="fr">Les dimensions suivantes (et les services de données) sont définis : dimension de devise, dimension de date, dimension d'article</value>
         <value xml:lang="it">Le seguenti dimensioni (e servizi dei dati) sono definiti: CurrencyDimension, DateDimension, ProductDimension;</value>
         <value xml:lang="ja">次のディメンジョン (およびデータサービス) が定義されています: 通貨ディメンジョン、日付ディメンジョン、製品ディメンジョン、</value>
@@ -186,7 +187,7 @@
     </property>
     <property key="BusinessIntelligenceNote19">
         <value xml:lang="en">You can quickly initialize the datawarehouse by clicking on the link below:</value>
-        <value xml:lang="fa">شما با کلیک روی لینک زیر می‌توانید به سرعت «انبارکالا داده» را پیاده‌سازی نمایید</value>
+        <value xml:lang="fa">شما با کلیک روی پیوند زیر می‌توانید به سرعت «انبارکالا داده» را پیاده‌سازی نمایید</value>
         <value xml:lang="fr">Vous pouvez rapidement initialiser le datawarehouse en cliquant sur le lien ci-dessous :</value>
         <value xml:lang="it">Tu puoi velocemente inizializzare il datawarehouse facendo click sul link qui sotto:</value>
         <value xml:lang="ja">次のリンクをクリックすると、データウェアハウスを簡単に初期化することができます:</value>
@@ -248,7 +249,7 @@
     </property>
     <property key="BusinessIntelligenceNote25">
         <value xml:lang="en">SalesInvoiceItemStarSchema that is a simple "profit and loss" (P&amp;L) analysis.</value>
-        <value xml:lang="fa">برنامه‌صورت‌حساب‌فروش یک «سود و زیان» ساده است</value>
+        <value xml:lang="fa">برنامه‌صورت‌حساب‌فروش یک «نفع و ضرر» ساده است</value>
         <value xml:lang="fr">SalesInvoiceItemStarSchema qui est une simple analyse "profits et pertes" (P&amp;L).</value>
         <value xml:lang="it">SalesInvoiceItemStarSchema che è una semplice analisi di "profit and loss" (P&amp;L).</value>
         <value xml:lang="ja">販売請求明細スタースキーマ は単純な "損益" (P&amp;L) 分析です。</value>
@@ -266,7 +267,7 @@
     </property>
     <property key="BusinessIntelligenceNote27">
         <value xml:lang="en">and a simple report will be shown: according to the columns selected the data will be aggregated (drill up/down);</value>
-        <value xml:lang="fa">و گزارش ساده‌ای نمایش داده خواهد شد: با توجه به ستون‌های انتخاب شده اطلاعات جمع‌آوری می‌شوند(با تعلیم بالا/پایین)</value>
+        <value xml:lang="fa">و گزارش ساده‌ای نمایش داده خواهد شد: با توجه‌نقد به ستون‌های انتخاب شده اطلاعات جمع‌آوری می‌شوند(با تعلیم بالا/پایین)</value>
         <value xml:lang="fr">et un simple rapport sera généré : selon les colonnes choisies les données seront regroupées (tri haut/bas).</value>
         <value xml:lang="it">e verrà mostrato un semplice report: i dati verranno aggregati (drill up/down) in base alle colonne selezionate;</value>
         <value xml:lang="ja">そして、選択した項目のデータに従って簡単なレポートが集計され表示されます (ドリルアップ/ダウン)</value>
@@ -275,7 +276,7 @@
     </property>
     <property key="BusinessIntelligenceNote28">
         <value xml:lang="en">all the descriptions you see in the report screens are pulled from the entity definitions.</value>
-        <value xml:lang="fa">همه توضیحاتی که در صفخه گزارش می‌بینید با توجه به تعاریف نهاد بدست‌آمده‌اند</value>
+        <value xml:lang="fa">همه شرحی که در صفخه گزارش می‌بینید با توجه‌نقد به تعاریف نهاد بدست‌آمده‌اند</value>
         <value xml:lang="fr">Toutes les descriptions que vous voyez dans les écrans de rapport sont tirées des définitions d'entités.</value>
         <value xml:lang="it">tutte le descrizioni che tu vedrai nelle scrermate del report sono prelevare dalla definizioni delle entità.</value>
         <value xml:lang="ja">レポート画面のすべての定義がエンティティの定義から抽出されます。</value>
@@ -346,7 +347,7 @@
     </property>
     <property key="BusinessIntelligenceNote6">
         <value xml:lang="en">The dimensions, facts and star schemas are defined according to best practices for datawarehouses</value>
-        <value xml:lang="fa">ابعاد، واقعیت‌ها و برنامه‌های ستاره‌دار با توجه به بهترین حالت برای «انبارکالا داده» تعریف می‌شوند</value>
+        <value xml:lang="fa">ابعاد، واقعیت‌ها و برنامه‌های ستاره‌دار با توجه‌نقد به بهترین حالت برای «انبارکالا داده» تعریف می‌شوند</value>
         <value xml:lang="fr">Les dimensions, les faits et les schémas en étoile sont définis selon les bonnes pratiques pour les datawarehouses </value>
         <value xml:lang="it">Le dimensioni, fatti e star schemas sono definiti in accordo alle migliori pratiche per i datawarehouses</value>
         <value xml:lang="ja">ディメンジョン、ファクト、そしてスタースキーマはデータウェアハウスのベストプラックティス、</value>
@@ -372,7 +373,7 @@
     </property>
     <property key="BusinessIntelligenceNote9">
         <value xml:lang="en">by meta data descriptions (in the entity def).</value>
-        <value xml:lang="fa">بوسیله داده جانبی توضیحات (در تعریف نهاد)</value>
+        <value xml:lang="fa">بوسیله داده جانبی شرح (در تعریف نهاد)</value>
         <value xml:lang="fr">par des méta descriptions de données (dans les définitions d'entités)</value>
         <value xml:lang="it">mediante le descrizioni dei meta dati (nella definizione entità).</value>
         <value xml:lang="ja">メタデータ定義が使用されます (エンティティ定義の中で)。</value>
@@ -399,7 +400,7 @@
     </property>
     <property key="BusinessIntelligenceRenderTheReport">
         <value xml:lang="en">Render the Report</value>
-        <value xml:lang="fa">در حال تحویل گزارش</value>
+        <value xml:lang="fa">درحال تحویل گزارش</value>
         <value xml:lang="fr">Générer le rapport</value>
         <value xml:lang="it">Visualizza il Report</value>
         <value xml:lang="ja">レポートを作成</value>
@@ -417,7 +418,7 @@
     </property>
     <property key="BusinessIntelligenceReportBuilderRenderStarSchemaReport">
         <value xml:lang="en">Render Star Schema Report</value>
-        <value xml:lang="fa">در حال تحویل گزارش برنامه ستاره‌دار</value>
+        <value xml:lang="fa">درحال تحویل گزارش برنامه ستاره‌دار</value>
         <value xml:lang="fr">Générateur de rapport de schéma en étoile</value>
         <value xml:lang="it">Visualizza Report Star Schema</value>
         <value xml:lang="ja">スタースキーマレポートを作成</value>

@@ -85,6 +85,25 @@ color: #333366;
 text-decoration: none;
 }
 
+.alignClass{
+text-align:left;
+}
+
+.oppositeAlignClass{
+text-align:right;
+}
+
+.formatFieldRowWidgetCellOpen{
+text-align:"left";
+padding:"2pt";
+padding-left:"5pt"
+}
+
+.formatFieldRowTitleCellOpen{
+text-align:"right";
+padding:"3pt";
+}
+
 body,textarea,input,select {
 font-family:Verdana, Geneva, sans-serif;
 }
@@ -932,6 +951,10 @@ float: right;
 }
 
 .align-text {
+text-align: left;
+}
+
+.opposite-align-text{
 text-align: right;
 }
 
@@ -941,6 +964,17 @@ vertical-align: top;
 
 .centered {
 text-align: center;
+}
+
+.formatFieldRowTitleCellOpen {
+text-align:"right";
+padding:"3pt";
+}
+
+.formatFieldRowWidgetCellOpen {
+text-align:"left";
+padding:"2pt";
+padding-left:"5pt";
 }
 
 /* ==================================== */

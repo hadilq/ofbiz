@@ -313,7 +313,7 @@
         <value xml:lang="de">Attribut</value>
         <value xml:lang="en">Attribute</value>
         <value xml:lang="es">Atributo</value>
-        <value xml:lang="fa">متغیر</value>
+        <value xml:lang="fa">متغییر</value>
         <value xml:lang="fr">Attribut</value>
         <value xml:lang="it">Attributo</value>
         <value xml:lang="ja">属性</value>
@@ -376,7 +376,7 @@
         <value xml:lang="de">Beschreibung</value>
         <value xml:lang="en">Description</value>
         <value xml:lang="es">Descripción</value>
-        <value xml:lang="fa">توضیحات</value>
+        <value xml:lang="fa">شرح</value>
         <value xml:lang="fr">Description</value>
         <value xml:lang="it">Descrizione</value>
         <value xml:lang="ja">詳細</value>
@@ -392,7 +392,7 @@
         <value xml:lang="de">Grafik Link</value>
         <value xml:lang="en">Graph Link</value>
         <value xml:lang="es">Imagen de enlace</value>
-        <value xml:lang="fa">لینک گراف</value>
+        <value xml:lang="fa">پیوند گراف</value>
         <value xml:lang="fr">Lien graphique</value>
         <value xml:lang="it">Grafico Link</value>
         <value xml:lang="ja">図形リンク</value>
@@ -439,7 +439,7 @@
         <value xml:lang="de">Link zur Veröffentlichung</value>
         <value xml:lang="en">Publish link</value>
         <value xml:lang="es">Publicar</value>
-        <value xml:lang="fa">منتشرکردن لینک</value>
+        <value xml:lang="fa">منتشرکردن پیوند</value>
         <value xml:lang="fr">Lien de publication</value>
         <value xml:lang="it">Pubblica link</value>
         <value xml:lang="ja">公開リンク</value>
@@ -742,7 +742,7 @@
         <value xml:lang="de">Inhalt Link</value>
         <value xml:lang="en">Content Link</value>
         <value xml:lang="es">Enlace a contenido</value>
-        <value xml:lang="fa">لینک محتوا</value>
+        <value xml:lang="fa">پیوند محتوا</value>
         <value xml:lang="fr">Lien de contenu</value>
         <value xml:lang="it">Link Contenuto</value>
         <value xml:lang="ja">コンテンツリンク</value>
@@ -757,7 +757,7 @@
         <value xml:lang="da">Indholdslink fra</value>
         <value xml:lang="de">Inhalt Link von</value>
         <value xml:lang="en">Content Link From</value>
-        <value xml:lang="fa">لینک محتوا از</value>
+        <value xml:lang="fa">پیوند محتوا از</value>
         <value xml:lang="fr">Lien de contenu depuis</value>
         <value xml:lang="it">Link Contenuto Da</value>
         <value xml:lang="ja">コンテンツリンク(元)</value>
@@ -772,7 +772,7 @@
         <value xml:lang="da">Indholdslink til</value>
         <value xml:lang="de">Inhalt Link zu</value>
         <value xml:lang="en">Content Link To</value>
-        <value xml:lang="fa">لینک محتوا به</value>
+        <value xml:lang="fa">پیوند محتوا به</value>
         <value xml:lang="fr">Lien de contenu vers</value>
         <value xml:lang="it">Link Contenuto A</value>
         <value xml:lang="ja">コンテンツリンク(先)</value>
@@ -922,7 +922,7 @@
         <value xml:lang="da">Har ejer rolle</value>
         <value xml:lang="de">Hat Rolle Besitzer</value>
         <value xml:lang="en">Has Owner Role</value>
-        <value xml:lang="fa">آیا وظیفه صاحب دارید</value>
+        <value xml:lang="fa">آیا وظیفه مالک دارید</value>
         <value xml:lang="fr">A le rôle de propriétaire</value>
         <value xml:lang="it">Ha Ruolo Utente</value>
         <value xml:lang="ja">所有者ロールを保持</value>
@@ -1045,7 +1045,7 @@
         <value xml:lang="da">Beskrivelse</value>
         <value xml:lang="de">Beschreibung</value>
         <value xml:lang="en">Description</value>
-        <value xml:lang="fa">توضیحات</value>
+        <value xml:lang="fa">شرح</value>
         <value xml:lang="fr">Description</value>
         <value xml:lang="it">Descrizione</value>
         <value xml:lang="ja">詳細</value>
@@ -1135,7 +1135,7 @@
         <value xml:lang="da">Ejer</value>
         <value xml:lang="de">Besitzer</value>
         <value xml:lang="en">Owner</value>
-        <value xml:lang="fa">صاحب</value>
+        <value xml:lang="fa">مالک</value>
         <value xml:lang="fr">Propriétaire</value>
         <value xml:lang="it">Proprietario</value>
         <value xml:lang="ja">所有者</value>
@@ -1990,7 +1990,7 @@
         <value xml:lang="da">Hyperlink</value>
         <value xml:lang="de">Hypertext-Link</value>
         <value xml:lang="en">HyperLink</value>
-        <value xml:lang="fa">لینک</value>
+        <value xml:lang="fa">پیوند</value>
         <value xml:lang="fr">Lien hypertexte</value>
         <value xml:lang="it">Link Ipertestuale</value>
         <value xml:lang="ja">ハイパーリンク</value>
@@ -2299,7 +2299,7 @@
         <value xml:lang="de">Lieferschein</value>
         <value xml:lang="en">PACKAGING_SLIP</value>
         <value xml:lang="es">Embalaje</value>
-        <value xml:lang="fa">یادداشت بسته‌بندی</value>
+        <value xml:lang="fa">لغزش بسته‌بندی</value>
         <value xml:lang="fr">Fiche de conditionnement</value>
         <value xml:lang="it">Lista di imballo</value>
         <value xml:lang="ja">梱包伝票</value>
@@ -2468,7 +2468,7 @@
         <value xml:lang="da">Post script Applikation/Script</value>
         <value xml:lang="de">Anwendung/Postscript</value>
         <value xml:lang="en">Post script Application/Script</value>
-        <value xml:lang="fa">پست‌کردن script Application/Script</value>
+        <value xml:lang="fa">ارسال‌کردن script Application/Script</value>
         <value xml:lang="fr">Application postscript/Script </value>
         <value xml:lang="it">Applicazione/Script Postsctipt</value>
         <value xml:lang="ja">Postscriptアプリケーション/スクリプト</value>
@@ -2792,7 +2792,7 @@
         <value xml:lang="da">RFC 822 Headered besked</value>
         <value xml:lang="de">RFC 822 Headered Message</value>
         <value xml:lang="en">RFC 822 Headered Message</value>
-        <value xml:lang="fa">سرفصل پیام RFC 822</value>
+        <value xml:lang="fa">سربرگ پیام RFC 822</value>
         <value xml:lang="fr">Message en-tête RFC 822</value>
         <value xml:lang="it">RFC 822 Headered Message</value>
         <value xml:lang="ja">RFC 822 ヘッダメッセージ</value>

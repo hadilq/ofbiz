@@ -51,7 +51,7 @@
     </property>
     <property key="PortalPage.portalPageName.MYPORTAL_EMPLOYEE2">
         <value xml:lang="en">Other Party Comms</value>
-        <value xml:lang="fa">ارتباطات هم‌مشرب دیگر</value>
+        <value xml:lang="fa">ارتباطات هویت دیگر</value>
         <value xml:lang="fr">Autres communications</value>
         <value xml:lang="ja">その他取引先の通信</value>
         <value xml:lang="ru">Другие средства связи</value>
@@ -71,7 +71,7 @@
     </property>
     <property key="PortalPage.portalPageName.MYPORTAL_EMPLOYEE5">
         <value xml:lang="en">My Tasks</value>
-        <value xml:lang="fa">وظایف من</value>
+        <value xml:lang="fa">تکلیف‌های من</value>
         <value xml:lang="fr">Mes tâches</value>
         <value xml:lang="ja">私のタスク</value>
         <value xml:lang="ru">Мои задачи</value>
@@ -109,7 +109,7 @@
         <value xml:lang="de">Lager</value>
         <value xml:lang="en">Facility</value>
         <value xml:lang="es">Almacén</value>
-        <value xml:lang="fa">تولیدی</value>
+        <value xml:lang="fa">تسهیلات</value>
         <value xml:lang="fr">Lieu de stockage</value>
         <value xml:lang="it">Stabilimento </value>
         <value xml:lang="ja">拠点</value>
