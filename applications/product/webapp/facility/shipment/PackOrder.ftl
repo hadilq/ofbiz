@@ -73,7 +73,7 @@ under the License.
               <input type="hidden" name="facilityId" value="${facilityId?if_exists}" />
               <table cellspacing="0" class="basic-table">
                 <tr>
-                  <td width="25%" align="right"><span class="label">${uiLabelMap.ProductOrderId}</span></td>
+                  <td width="25%" class="opposite-align-text"><span class="label">${uiLabelMap.ProductOrderId}</span></td>
                   <td width="1">&nbsp;</td>
                   <td width="25%">
                     <input type="text" name="orderId" size="20" maxlength="20" value="${orderId?if_exists}"/>
@@ -100,7 +100,7 @@ under the License.
               <input type="hidden" name="facilityId" value="${facilityId?if_exists}" />
               <table cellspacing="0" class="basic-table">
                 <tr>
-                  <td width="25%" align='right'><span class="label">${uiLabelMap.FormFieldTitle_picklistBinId}</span></td>
+                  <td width="25%" class="opposite-align-text"><span class="label">${uiLabelMap.FormFieldTitle_picklistBinId}</span></td>
                   <td width="1">&nbsp;</td>
                   <td width="25%">
                     <input type="text" name="picklistBinId" size="29" maxlength="60" value="${picklistBinId?if_exists}"/>
@@ -260,14 +260,14 @@ under the License.
                       <td>${uiLabelMap.ProductItem} ${uiLabelMap.CommonNbr}</td>
                       <td>${uiLabelMap.ProductProductId}</td>
                       <td>${uiLabelMap.ProductInternalName}</td>
-                      <td align="right">${uiLabelMap.ProductOrderedQuantity}</td>
-                      <td align="right">${uiLabelMap.ProductQuantityShipped}</td>
-                      <td align="right">${uiLabelMap.ProductPackedQty}</td>
+                      <td class="opposite-align-text">${uiLabelMap.ProductOrderedQuantity}</td>
+                      <td class="opposite-align-text">${uiLabelMap.ProductQuantityShipped}</td>
+                      <td class="opposite-align-text">${uiLabelMap.ProductPackedQty}</td>
                       <td>&nbsp;</td>
                       <td align="center">${uiLabelMap.ProductPackQty}</td>
                       <td align="center">${uiLabelMap.ProductPackedWeight}&nbsp;(${("uiLabelMap.ProductShipmentUomAbbreviation_" + defaultWeightUomId)?eval})</td>
                       <td align="center">${uiLabelMap.ProductPackage}</td>
-                      <td align="right">&nbsp;<b>*</b>&nbsp;${uiLabelMap.ProductPackages}</td>
+                      <td class="opposite-align-text">&nbsp;<b>*</b>&nbsp;${uiLabelMap.ProductPackages}</td>
                     </tr>
 
                     <#if (itemInfos?has_content)>
@@ -302,9 +302,9 @@ under the License.
                                   &nbsp;[<a href="/catalog/control/EditProduct?productId=${product.productId?if_exists}${StringUtil.wrapString(externalKeyParam)}" class="buttontext" target="_blank">${(product.internalName)?if_exists}</a>]
                               </#if>
                           </td>
-                          <td align="right">${orderItemQuantity}</td>
-                          <td align="right">${shippedQuantity?default(0)}</td>
-                          <td align="right">${packingSession.getPackedQuantity(orderId, orderItem.orderItemSeqId, shipGroupSeqId, itemInfo.productId)}</td>
+                          <td class="opposite-align-text">${orderItemQuantity}</td>
+                          <td class="opposite-align-text">${shippedQuantity?default(0)}</td>
+                          <td class="opposite-align-text">${packingSession.getPackedQuantity(orderId, orderItem.orderItemSeqId, shipGroupSeqId, itemInfo.productId)}</td>
                           <td>&nbsp;</td>
                           <td align="center">
                             <input type="text" size="7" name="qty_${rowKey}" value="${inputQty}" />
@@ -329,7 +329,7 @@ under the License.
                               </#if>
                             </select>
                           </td>
-                          <td align="right">
+                          <td class="opposite-align-text">
                             <input type="text" size="7" name="numPackages_${rowKey}" value="1" />
                           </td>
                           <input type="hidden" name="prd_${rowKey}" value="${itemInfo.productId?if_exists}"/>
@@ -340,7 +340,7 @@ under the License.
                     </#if>
                     <tr><td colspan="10">&nbsp;</td></tr>
                     <tr>
-                      <td colspan="12" align="right">
+                      <td colspan="12" class="opposite-align-text">
                         <input type="submit" value="${uiLabelMap.ProductPackItem}" />
                         &nbsp;
                         <input type="button" value="${uiLabelMap.CommonClear} (${uiLabelMap.CommonAll})" onclick="javascript:document.clearPackForm.submit();"/>
@@ -412,7 +412,7 @@ under the License.
                         <br />
                         <textarea name="handlingInstructions" rows="2" cols="30">${packingSession.getHandlingInstructions()?if_exists}</textarea>
                       </td>
-                      <td align="right">
+                      <td class="opposite-align-text">
                         <div>
                           <#assign buttonName = "${uiLabelMap.ProductComplete}">
                           <#if forceComplete?default("false") == "true">
@@ -455,9 +455,9 @@ under the License.
                     <td>${uiLabelMap.ProductProductId}</td>
                     <td>${uiLabelMap.ProductProductDescription}</td>
                     <td>${uiLabelMap.ProductInventoryItem} ${uiLabelMap.CommonNbr}</td>
-                    <td align="right">${uiLabelMap.ProductPackedQty}</td>
-                    <td align="right">${uiLabelMap.ProductPackedWeight}&nbsp;(${("uiLabelMap.ProductShipmentUomAbbreviation_" + defaultWeightUomId)?eval})&nbsp;(${uiLabelMap.ProductPackage})</td>
-                    <td align="right">${uiLabelMap.ProductPackage} ${uiLabelMap.CommonNbr}</td>
+                    <td class="opposite-align-text">${uiLabelMap.ProductPackedQty}</td>
+                    <td class="opposite-align-text">${uiLabelMap.ProductPackedWeight}&nbsp;(${("uiLabelMap.ProductShipmentUomAbbreviation_" + defaultWeightUomId)?eval})&nbsp;(${uiLabelMap.ProductPackage})</td>
+                    <td class="opposite-align-text">${uiLabelMap.ProductPackage} ${uiLabelMap.CommonNbr}</td>
                     <td>&nbsp;</td>
                   </tr>
                   <#list packedLines as line>
@@ -469,10 +469,10 @@ under the License.
                           <a href="/catalog/control/EditProduct?productId=${line.getProductId()?if_exists}${StringUtil.wrapString(externalKeyParam)}" class="buttontext" target="_blank">${product.internalName?if_exists?default("[N/A]")}</a>
                       </td>
                       <td>${line.getInventoryItemId()}</td>
-                      <td align="right">${line.getQuantity()}</td>
-                      <td align="right">${line.getWeight()} (${packingSession.getPackageWeight(line.getPackageSeq()?int)?if_exists})</td>
-                      <td align="right">${line.getPackageSeq()}</td>
-                      <td align="right"><a href="javascript:clearLine('${facilityId}', '${line.getOrderId()}', '${line.getOrderItemSeqId()}', '${line.getProductId()?default("")}', '${line.getShipGroupSeqId()}', '${line.getInventoryItemId()}', '${line.getPackageSeq()}')" class="buttontext">${uiLabelMap.CommonClear}</a></td>
+                      <td class="opposite-align-text">${line.getQuantity()}</td>
+                      <td class="opposite-align-text">${line.getWeight()} (${packingSession.getPackageWeight(line.getPackageSeq()?int)?if_exists})</td>
+                      <td class="opposite-align-text">${line.getPackageSeq()}</td>
+                      <td class="opposite-align-text"><a href="javascript:clearLine('${facilityId}', '${line.getOrderId()}', '${line.getOrderItemSeqId()}', '${line.getProductId()?default("")}', '${line.getShipGroupSeqId()}', '${line.getInventoryItemId()}', '${line.getPackageSeq()}')" class="buttontext">${uiLabelMap.CommonClear}</a></td>
                     </tr>
                   </#list>
                 </table>
@@ -499,9 +499,9 @@ under the License.
                   <td>${uiLabelMap.ProductProductId}</td>
                   <td>${uiLabelMap.ProductProductDescription}</td>
                   <td>${uiLabelMap.ProductInventoryItem} ${uiLabelMap.CommonNbr}</td>
-                  <td align="right">${uiLabelMap.ProductPackedQty}</td>
-                  <td align="right">${uiLabelMap.ProductPackedWeight}&nbsp;(${("uiLabelMap.ProductShipmentUomAbbreviation_" + defaultWeightUomId)?eval})&nbsp;(${uiLabelMap.ProductPackage})</td>
-                  <td align="right">${uiLabelMap.ProductPackage} ${uiLabelMap.CommonNbr}</td>
+                  <td class="opposite-align-text">${uiLabelMap.ProductPackedQty}</td>
+                  <td class="opposite-align-text">${uiLabelMap.ProductPackedWeight}&nbsp;(${("uiLabelMap.ProductShipmentUomAbbreviation_" + defaultWeightUomId)?eval})&nbsp;(${uiLabelMap.ProductPackage})</td>
+                  <td class="opposite-align-text">${uiLabelMap.ProductPackage} ${uiLabelMap.CommonNbr}</td>
                   <td>&nbsp;</td>
               </tr>
               <#list packedLines as line>
@@ -513,10 +513,10 @@ under the License.
                           <a href="/catalog/control/EditProduct?productId=${line.getProductId()?if_exists}${StringUtil.wrapString(externalKeyParam)}" class="buttontext" target="_blank">${product.internalName?if_exists?default("[N/A]")}</a>
                       </td>
                       <td>${line.getInventoryItemId()}</td>
-                      <td align="right">${line.getQuantity()}</td>
-                      <td align="right">${line.getWeight()} (${packingSession.getPackageWeight(line.getPackageSeq()?int)?if_exists})</td>
-                      <td align="right">${line.getPackageSeq()}</td>
-                      <td align="right"><a href="javascript:clearLine('${facilityId}', '${line.getOrderId()}', '${line.getOrderItemSeqId()}', '${line.getProductId()?default("")}', '${line.getShipGroupSeqId()}', '${line.getInventoryItemId()}', '${line.getPackageSeq()}')" class="buttontext">${uiLabelMap.CommonClear}</a></td>
+                      <td class="opposite-align-text">${line.getQuantity()}</td>
+                      <td class="opposite-align-text">${line.getWeight()} (${packingSession.getPackageWeight(line.getPackageSeq()?int)?if_exists})</td>
+                      <td class="opposite-align-text">${line.getPackageSeq()}</td>
+                      <td class="opposite-align-text"><a href="javascript:clearLine('${facilityId}', '${line.getOrderId()}', '${line.getOrderItemSeqId()}', '${line.getProductId()?default("")}', '${line.getShipGroupSeqId()}', '${line.getInventoryItemId()}', '${line.getPackageSeq()}')" class="buttontext">${uiLabelMap.CommonClear}</a></td>
                   </tr>
               </#list>
             </table>

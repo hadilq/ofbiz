@@ -67,11 +67,11 @@ under the License.
                 </fo:table-row>
                 <fo:table-row>
                     <fo:table-cell><fo:block>${uiLabelMap.CommonValidFromDate}:</fo:block></fo:table-cell>
-                    <fo:table-cell><fo:block>${(Static["org.ofbiz.base.util.UtilDateTime"].toDateTimeFormat(context).format(quote.validFromDate))?if_exists}</fo:block></fo:table-cell>
+                    <fo:table-cell><fo:block>${(Static["org.ofbiz.base.util.UtilDateTime"].toDateTimeStringByContext(quote.validFromDate, context))?if_exists}</fo:block></fo:table-cell>
                 </fo:table-row>
                 <fo:table-row>
                     <fo:table-cell><fo:block>${uiLabelMap.CommonValidThruDate}:</fo:block></fo:table-cell>
-                    <fo:table-cell><fo:block>${(Static["org.ofbiz.base.util.UtilDateTime"].toDateTimeFormat(context).format(quote.validThruDate))?if_exists}</fo:block></fo:table-cell>
+                    <fo:table-cell><fo:block>${(Static["org.ofbiz.base.util.UtilDateTime"].toDateTimeStringByContext(quote.validThruDate, context))?if_exists}</fo:block></fo:table-cell>
                 </fo:table-row>
             </fo:table-body>
         </fo:table>

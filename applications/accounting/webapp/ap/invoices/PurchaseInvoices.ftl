@@ -129,7 +129,7 @@ function runAction() {
     <span class="label" id="showInvoiceRunningTotal"></span>
   </div>
   <form name="listPurchaseInvoices" id="listPurchaseInvoices"  method="post" action="javascript:void(0);">
-    <div align="right">
+    <div class="opposite-align-text">
       <!-- May add some more options in future like cancel selected invoices-->
       <select name="serviceName" id="serviceName" onchange="javascript:setServiceName(this);">
         <option value="">${uiLabelMap.AccountingSelectAction}</option>
@@ -152,7 +152,7 @@ function runAction() {
     <input type="hidden" name="thruInvoiceDate" value="${parameters.thruInvoiceDate?if_exists}"/>
     <input type="hidden" name="fromDueDate" value="${parameters.fromDueDate?if_exists}"/>
     <input type="hidden" name="thruDueDate" value="${parameters.thruDueDate?if_exists}"/>
-    <div id="issueChecks" style="display: none;" align="right">
+    <div id="issueChecks" style="display: none;" class="opposite-align-text">
       <span class="label">${uiLabelMap.AccountingVendorPaymentMethod}</span>
       <select name="paymentMethodId">
         <#if paymentMethods?has_content>
@@ -205,7 +205,7 @@ function runAction() {
             <td><@ofbizCurrency amount=invoicePaymentInfo.amount isoCode=defaultOrganizationPartyCurrencyUomId/></td>
             <td><@ofbizCurrency amount=invoicePaymentInfo.paidAmount isoCode=defaultOrganizationPartyCurrencyUomId/></td>
             <td><@ofbizCurrency amount=invoicePaymentInfo.outstandingAmount isoCode=defaultOrganizationPartyCurrencyUomId/></td>
-            <td align="right"><input type="checkbox" id="invoiceId_${invoice_index}" name="invoiceIds" value="${invoice.invoiceId}" onclick="javascript:getInvoiceRunningTotal();"/></td>
+            <td class="opposite-align-text"><input type="checkbox" id="invoiceId_${invoice_index}" name="invoiceIds" value="${invoice.invoiceId}" onclick="javascript:getInvoiceRunningTotal();"/></td>
           </tr>
           <#-- toggle the row color -->
           <#assign alt_row = !alt_row>

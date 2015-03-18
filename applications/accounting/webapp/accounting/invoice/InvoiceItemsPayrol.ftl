@@ -43,7 +43,7 @@ under the License.
         <#list PayrolList as payrolList>
             <#if payrolList.parentTypeId?if_exists == payrolGroup.invoiceItemTypeId?if_exists>
 <tr>
-    <td align="right">
+    <td class="opposite-align-text">
             ${payrolList.description} :
     </td>
     <td ><input type="text" size=10 name="${payrolList.invoiceItemTypeId}_Quantity"/></td>
@@ -64,7 +64,7 @@ under the License.
 <td>&nbsp;</td>
 </tr>
 <tr >
-    <td align="right"><b>Add all values : </b></td>
+    <td class="opposite-align-text"><b>Add all values : </b></td>
     <td align="center" ><input type="submit" value="Add" /></td>
     <td>&nbsp;</td>
     <td>&nbsp;</td>

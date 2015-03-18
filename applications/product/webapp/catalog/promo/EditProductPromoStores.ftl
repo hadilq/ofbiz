@@ -16,6 +16,7 @@ KIND, either express or implied.  See the License for the
 specific language governing permissions and limitations
 under the License.
 -->
+<#assign dateTimeFormat = Static["org.ofbiz.base.util.UtilDateTime"].getDateTimeFormatByContext(context)>
 <#if productPromoId?exists && productPromo?exists>
     <div class="screenlet">
         <div class="screenlet-title-bar">
@@ -47,7 +48,7 @@ under the License.
                             <input type="hidden" name="productPromoId" value="${productStorePromoAppl.productPromoId}" />
                             <input type="hidden" name="fromDate" value="${productStorePromoAppl.fromDate}" />
                             <#if hasExpired><#assign class="alert"></#if>
-                            <@htmlTemplate.renderDateTimeField name="thruDate" event="" action="" className="${class!''}" alert="" title="Format: ${Static["org.ofbiz.base.util.UtilDateTime"].getDateTimeFormatByContext(context)}" value="${(productStorePromoAppl.thruDate)?if_exists}" size="25" maxlength="30" id="thruDate1" dateType="date" shortDateInput=false timeDropdownParamName="" defaultDateTimeString="" localizedIconTitle="" timeDropdown="" timeHourName="" classString="" hour1="" hour2="" timeMinutesName="" minutes="" isTwelveHour="" ampmName="" amSelected="" pmSelected="" compositeType="" formName=""/>
+                            <@htmlTemplate.renderDateTimeField name="thruDate" event="" action="" className="${class!''}" alert="" title="Format: ${dateTimeFormat}" value="${(productStorePromoAppl.thruDate)?if_exists}" size="25" maxlength="30" id="thruDate1" dateType="date" shortDateInput=false timeDropdownParamName="" defaultDateTimeString="" localizedIconTitle="" timeDropdown="" timeHourName="" classString="" hour1="" hour2="" timeMinutesName="" minutes="" isTwelveHour="" ampmName="" amSelected="" pmSelected="" compositeType="" formName=""/>
                             <input type="text" size="5" name="sequenceNum" value="${(productStorePromoAppl.sequenceNum)?if_exists}" />
                             <input type="submit" value="${uiLabelMap.CommonUpdate}" />
                         </form>
@@ -84,7 +85,7 @@ under the License.
                     <option value="${(productStore.productStoreId)?if_exists}">${(productStore.storeName)?if_exists} [${(productStore.productStoreId)?if_exists}]</option>
                 </#list>
                 </select>
-                <@htmlTemplate.renderDateTimeField name="fromDate" event="" action="" className="" alert="" title="Format: ${Static["org.ofbiz.base.util.UtilDateTime"].getDateTimeFormatByContext(context)}" value="" size="25" maxlength="30" id="fromDate1" dateType="date" shortDateInput=false timeDropdownParamName="" defaultDateTimeString="" localizedIconTitle="" timeDropdown="" timeHourName="" classString="" hour1="" hour2="" timeMinutesName="" minutes="" isTwelveHour="" ampmName="" amSelected="" pmSelected="" compositeType="" formName=""/>
+                <@htmlTemplate.renderDateTimeField name="fromDate" event="" action="" className="" alert="" title="Format: ${dateTimeFormat}" value="" size="25" maxlength="30" id="fromDate1" dateType="date" shortDateInput=false timeDropdownParamName="" defaultDateTimeString="" localizedIconTitle="" timeDropdown="" timeHourName="" classString="" hour1="" hour2="" timeMinutesName="" minutes="" isTwelveHour="" ampmName="" amSelected="" pmSelected="" compositeType="" formName=""/>
                 <input type="submit" value="${uiLabelMap.CommonAdd}"/>
             </form>
         </div>

@@ -23,7 +23,7 @@ under the License.
         <#-- order name -->
         <#if (orderName?has_content)>
             <tr>
-                <td align="right" valign="top" width="15%">
+                <td class="opposite-align-text" valign="top" width="15%">
                     <span>&nbsp;<b>${uiLabelMap.OrderOrderName}</b> </span>
                 </td>
                 <td width="5">&nbsp;</td>
@@ -36,7 +36,7 @@ under the License.
         <#-- order for party -->
         <#if (orderForParty?exists)>
             <tr>
-                <td align="right" valign="top" width="15%">
+                <td class="opposite-align-text" valign="top" width="15%">
                     <span>&nbsp;<b>${uiLabelMap.OrderOrderFor}</b> </span>
                 </td>
                 <td width="5">&nbsp;</td>
@@ -48,7 +48,7 @@ under the License.
         </#if>
         <#if (cart.getPoNumber()?has_content)>
             <tr>
-                <td align="right" valign="top" width="15%">
+                <td class="opposite-align-text" valign="top" width="15%">
                     <span>&nbsp;<b>${uiLabelMap.OrderPONumber}</b> </span>
                 </td>
                 <td width="5">&nbsp;</td>
@@ -60,7 +60,7 @@ under the License.
         </#if>
         <#if orderTerms?has_content>
             <tr>
-                <td align="right" valign="top" width="15%">
+                <td class="opposite-align-text" valign="top" width="15%">
                     <div>&nbsp;<b>${uiLabelMap.OrderOrderTerms}</b></div>
                 </td>
                 <td width="5">&nbsp;</td>
@@ -96,7 +96,7 @@ under the License.
         <#-- tracking number -->
         <#if trackingNumber?has_content>
             <tr>
-                <td align="right" valign="top" width="15%">
+                <td class="opposite-align-text" valign="top" width="15%">
                     <div>&nbsp;<b>${uiLabelMap.OrderTrackingNumber}</b></div>
                 </td>
                 <td width="5">&nbsp;</td>
@@ -109,7 +109,7 @@ under the License.
         </#if>
         <#-- splitting preference -->
             <tr>
-                <td align="right" valign="top" width="15%">
+                <td class="opposite-align-text" valign="top" width="15%">
                     <div>&nbsp;<b>${uiLabelMap.OrderSplittingPreference}</b></div>
                 </td>
                 <td width="5">&nbsp;</td>
@@ -124,7 +124,7 @@ under the License.
         <#if shippingInstructions?has_content>
             <tr><td colspan="7"><hr /></td></tr>
             <tr>
-                <td align="right" valign="top" width="15%">
+                <td class="opposite-align-text" valign="top" width="15%">
                     <div>&nbsp;<b>${uiLabelMap.OrderSpecialInstructions}</b></div>
                 </td>
                 <td width="5">&nbsp;</td>
@@ -137,7 +137,7 @@ under the License.
         <#if orderType != "PURCHASE_ORDER" && (productStore.showCheckoutGiftOptions)?if_exists != "N">
         <#-- gift settings -->
             <tr>
-                <td align="right" valign="top" width="15%">
+                <td class="opposite-align-text" valign="top" width="15%">
                     <div>&nbsp;<b>${uiLabelMap.OrderGift}</b></div>
                 </td>
                 <td width="5">&nbsp;</td>
@@ -151,7 +151,7 @@ under the License.
             <tr><td colspan="7"><hr /></td></tr>
             <#if giftMessage?has_content>
             <tr>
-                <td align="right" valign="top" width="15%">
+                <td class="opposite-align-text" valign="top" width="15%">
                     <div>&nbsp;<b>${uiLabelMap.OrderGiftMessage}</b></div>
                 </td>
                 <td width="5">&nbsp;</td>
@@ -164,7 +164,7 @@ under the License.
         </#if>
         <#if shipAfterDate?has_content>
             <tr>
-                <td align="right" valign="top" width="15%">
+                <td class="opposite-align-text" valign="top" width="15%">
                     <div>&nbsp;<b>${uiLabelMap.OrderShipAfterDate}</b></div>
                 </td>
                 <td width="5">&nbsp;</td>
@@ -175,7 +175,7 @@ under the License.
         </#if>
         <#if shipBeforeDate?has_content>
             <tr>
-                <td align="right" valign="top" width="15%">
+                <td class="opposite-align-text" valign="top" width="15%">
                     <div>&nbsp;<b>${uiLabelMap.OrderShipBeforeDate}</b></div>
                 </td>
                 <td width="5">&nbsp;</td>

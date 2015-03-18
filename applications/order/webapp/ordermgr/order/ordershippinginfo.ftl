@@ -16,6 +16,7 @@ KIND, either express or implied.  See the License for the
 specific language governing permissions and limitations
 under the License.
 -->
+<#assign dateTimeFormat = Static["org.ofbiz.base.util.UtilDateTime"].getDateTimeFormatByContext(context)>
 
 <script language="JavaScript" type="text/javascript">
     function editInstruction(shipGroupSeqId) {
@@ -210,7 +211,7 @@ under the License.
         <input type="hidden" name="oldContactMechId" value="${shipGroup.contactMechId?if_exists}"/>
         <table class="basic-table" cellspacing='0'>
                 <tr>
-                    <td align="right" valign="top" width="15%">
+                    <td class="opposite-align-text" valign="top" width="15%">
                         <span class="label">&nbsp;${uiLabelMap.OrderAddress}</span>
                     </td>
                     <td width="5">&nbsp;</td>
@@ -239,7 +240,7 @@ under the License.
                 <#-- the setting of shipping method is only supported for sales orders at this time -->
                 <#if orderHeader.orderTypeId == "SALES_ORDER">
                   <tr>
-                    <td align="right" valign="top" width="15%">
+                    <td class="opposite-align-text" valign="top" width="15%">
                         <span class="label">&nbsp;<b>${uiLabelMap.CommonMethod}</b></span>
                     </td>
                     <td width="5">&nbsp;</td>
@@ -277,7 +278,7 @@ under the License.
                 </#if>
                 <#if orderHeader?has_content && orderHeader.statusId != "ORDER_CANCELLED" && orderHeader.statusId != "ORDER_COMPLETED" && orderHeader.statusId != "ORDER_REJECTED">
                 <tr>
-                    <td align="right" valign="top" width="15%">&nbsp;</td>
+                    <td class="opposite-align-text" valign="top" width="15%">&nbsp;</td>
                     <td width="5">&nbsp;</td>
                     <td valign="top" width="80%">
                         <input type="submit" value="${uiLabelMap.CommonUpdate}" class="smallSubmit"/>
@@ -370,7 +371,7 @@ under the License.
         <#if shipGroup.supplierPartyId?has_content>
           <tr><td colspan="3"><hr /></td></tr>
           <tr>
-            <td align="right" valign="top" width="15%">
+            <td class="opposite-align-text" valign="top" width="15%">
               <span class="label">&nbsp;${uiLabelMap.ProductDropShipment} - ${uiLabelMap.PartySupplier}</span>
             </td>
             <td width="5">&nbsp;</td>
@@ -432,7 +433,7 @@ under the License.
         <#if shipGroup.trackingNumber?has_content || orderShipmentInfoSummaryList?has_content>
           <tr><td colspan="3"><hr /></td></tr>
           <tr>
-            <td align="right" valign="top" width="15%">
+            <td class="opposite-align-text" valign="top" width="15%">
               <span class="label">&nbsp;${uiLabelMap.OrderTrackingNumber}</span>
             </td>
             <td width="5">&nbsp;</td>
@@ -459,7 +460,7 @@ under the License.
         <#if shipGroup.maySplit?has_content && noShipment?default("false") != "true">
           <tr><td colspan="3"><hr /></td></tr>
           <tr>
-            <td align="right" valign="top" width="15%">
+            <td class="opposite-align-text" valign="top" width="15%">
               <span class="label">&nbsp;${uiLabelMap.OrderSplittingPreference}</span>
             </td>
             <td width="5">&nbsp;</td>
@@ -486,11 +487,11 @@ under the License.
 
         <tr><td colspan="7"><hr class="sepbar"/></td></tr>
         <tr>
-          <td align="right" valign="top" width="15%">
+          <td class="opposite-align-text" valign="top" width="15%">
             <span class="label">&nbsp;${uiLabelMap.OrderInstructions}</span>
           </td>
           <td width="5">&nbsp;</td>
-          <td align="left" valign="top" width="80%">
+          <td class="align-text" valign="top" width="80%">
             <#if (!orderHeader.statusId.equals("ORDER_COMPLETED")) && !(orderHeader.statusId.equals("ORDER_REJECTED")) && !(orderHeader.statusId.equals("ORDER_CANCELLED"))>
               <form id="updateShippingInstructionsForm_${shipGroup.shipGroupSeqId}" name="updateShippingInstructionsForm" method="post" action="<@ofbizUrl>setShippingInstructions</@ofbizUrl>">
                 <input type="hidden" name="orderId" value="${orderHeader.orderId}"/>
@@ -525,7 +526,7 @@ under the License.
         <#if shipGroup.isGift?has_content && noShipment?default("false") != "true">
         <tr><td colspan="3"><hr /></td></tr>
         <tr>
-          <td align="right" valign="top" width="15%">
+          <td class="opposite-align-text" valign="top" width="15%">
             <span class="label">&nbsp;${uiLabelMap.OrderGiftMessage}</span>
           </td>
           <td width="5">&nbsp;</td>
@@ -547,7 +548,7 @@ under the License.
         </#if>
          <tr><td colspan="3"><hr /></td></tr>
          <tr>
-            <td align="right" valign="top" width="15%">
+            <td class="opposite-align-text" valign="top" width="15%">
               <span class="label">&nbsp;${uiLabelMap.OrderShipAfterDate}</span><br/>
               <span class="label">&nbsp;${uiLabelMap.OrderShipBeforeDate}</span>
             </td>
@@ -556,9 +557,9 @@ under the License.
               <form name="setShipGroupDates_${shipGroup.shipGroupSeqId}" method="post" action="<@ofbizUrl>updateOrderItemShipGroup</@ofbizUrl>">
                 <input type="hidden" name="orderId" value="${orderHeader.orderId}"/>
                 <input type="hidden" name="shipGroupSeqId" value="${shipGroup.shipGroupSeqId}"/>
-                <@htmlTemplate.renderDateTimeField name="shipAfterDate" event="" action="" value="${shipGroup.shipAfterDate?if_exists}" className="" alert="" title="Format: ${Static["org.ofbiz.base.util.UtilDateTime"].getDateTimeFormatByContext(context)}" size="25" maxlength="30" id="shipAfterDate_${shipGroup.shipGroupSeqId}" dateType="date" shortDateInput=false timeDropdownParamName="" defaultDateTimeString="" localizedIconTitle="" timeDropdown="" timeHourName="" classString="" hour1="" hour2="" timeMinutesName="" minutes="" isTwelveHour="" ampmName="" amSelected="" pmSelected="" compositeType="" formName=""/>
+                <@htmlTemplate.renderDateTimeField name="shipAfterDate" event="" action="" value="${shipGroup.shipAfterDate?if_exists}" className="" alert="" title="Format: ${dateTimeFormat}" size="25" maxlength="30" id="shipAfterDate_${shipGroup.shipGroupSeqId}" dateType="date" shortDateInput=false timeDropdownParamName="" defaultDateTimeString="" localizedIconTitle="" timeDropdown="" timeHourName="" classString="" hour1="" hour2="" timeMinutesName="" minutes="" isTwelveHour="" ampmName="" amSelected="" pmSelected="" compositeType="" formName=""/>
                 <br/>
-                <@htmlTemplate.renderDateTimeField name="shipByDate" event="" action="" value="${shipGroup.shipByDate?if_exists}" className="" alert="" title="Format: ${Static["org.ofbiz.base.util.UtilDateTime"].getDateTimeFormatByContext(context)}" size="25" maxlength="30" id="shipByDate_${shipGroup.shipGroupSeqId}" dateType="date" shortDateInput=false timeDropdownParamName="" defaultDateTimeString="" localizedIconTitle="" timeDropdown="" timeHourName="" classString="" hour1="" hour2="" timeMinutesName="" minutes="" isTwelveHour="" ampmName="" amSelected="" pmSelected="" compositeType="" formName=""/>
+                <@htmlTemplate.renderDateTimeField name="shipByDate" event="" action="" value="${shipGroup.shipByDate?if_exists}" className="" alert="" title="Format: ${dateTimeFormat}" size="25" maxlength="30" id="shipByDate_${shipGroup.shipGroupSeqId}" dateType="date" shortDateInput=false timeDropdownParamName="" defaultDateTimeString="" localizedIconTitle="" timeDropdown="" timeHourName="" classString="" hour1="" hour2="" timeMinutesName="" minutes="" isTwelveHour="" ampmName="" amSelected="" pmSelected="" compositeType="" formName=""/>
                 <input type="submit" value="${uiLabelMap.CommonUpdate}"/>
                 </form>
             </td>
@@ -567,7 +568,7 @@ under the License.
        <#if shipGroupShipments?has_content>
           <tr><td colspan="3"><hr /></td></tr>
           <tr>
-            <td align="right" valign="top" width="15%">
+            <td class="opposite-align-text" valign="top" width="15%">
               <span class="label">&nbsp;${uiLabelMap.FacilityShipments}</span>
             </td>
             <td width="5">&nbsp;</td>

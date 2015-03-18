@@ -16,6 +16,7 @@ KIND, either express or implied.  See the License for the
 specific language governing permissions and limitations
 under the License.
 -->
+<#assign dateTimeFormat = Static["org.ofbiz.base.util.UtilDateTime"].getDateTimeFormatByContext(context)>
 
 <script language="JavaScript" type="text/javascript">
 <!-- //
@@ -44,7 +45,7 @@ function lookupBom() {
 
     <table class="basic-table" cellspacing="0">
         <tr>
-            <td align="right">${uiLabelMap.ManufacturingBomType}</td>
+            <td class="opposite-align-text">${uiLabelMap.ManufacturingBomType}</td>
             <td>&nbsp; <a name="topform"/></td>
             <td>
                 <select name="productAssocTypeId" size="1">
@@ -60,7 +61,7 @@ function lookupBom() {
                 </#list>
                 </select>
             </td>
-            <td align="right">${uiLabelMap.ProductProductId}</td>
+            <td class="opposite-align-text">${uiLabelMap.ProductProductId}</td>
             <td>&nbsp;</td>
             <td>
                 <@htmlTemplate.lookupField value="${productId?if_exists}" formName="searchform" name="productId" id="productId" fieldFormName="LookupProduct"/>
@@ -71,7 +72,7 @@ function lookupBom() {
             <td colspan='3'>
                 &nbsp;
             </td>
-            <td align="right">${uiLabelMap.ManufacturingCopyToProductId}</td>
+            <td class="opposite-align-text">${uiLabelMap.ManufacturingCopyToProductId}</td>
             <td>&nbsp;</td>
             <td>
                 <@htmlTemplate.lookupField formName="searchform" name="copyToProductId" id="copyToProductId" fieldFormName="LookupProduct"/>
@@ -86,7 +87,7 @@ function lookupBom() {
         <input type="hidden" name="UPDATE_MODE" value="CREATE"/>
         <table class="basic-table" cellspacing="0">
           <tr>
-            <td align="right">${uiLabelMap.ManufacturingBomType}</td>
+            <td class="opposite-align-text">${uiLabelMap.ManufacturingBomType}</td>
             <td>&nbsp;</td>
             <td>
                 <select name="productAssocTypeId" size="1">
@@ -104,24 +105,24 @@ function lookupBom() {
             </td>
           </tr>
           <tr>
-            <td align="right">${uiLabelMap.ProductProductId}</td>
+            <td class="opposite-align-text">${uiLabelMap.ProductProductId}</td>
             <td>&nbsp;</td>
             <td>
                 <@htmlTemplate.lookupField value="${productId?if_exists}" formName="editProductAssocForm" name="productId" id="productId2" fieldFormName="LookupProduct"/>
             </td>
           </tr>
           <tr>
-            <td align="right">${uiLabelMap.ManufacturingProductIdTo}</td>
+            <td class="opposite-align-text">${uiLabelMap.ManufacturingProductIdTo}</td>
             <td>&nbsp;</td>
             <td>
                 <@htmlTemplate.lookupField value="${productIdTo?if_exists}" formName="editProductAssocForm" name="productIdTo" id="productIdTo" fieldFormName="LookupProduct"/>
             </td>
           </tr>
           <tr>
-            <td align="right">${uiLabelMap.CommonFromDate}</td>
+            <td class="opposite-align-text">${uiLabelMap.CommonFromDate}</td>
             <td>&nbsp;</td>
             <td>
-                <@htmlTemplate.renderDateTimeField name="fromDate" event="" action="" className="" alert="" title="Format: ${Static["org.ofbiz.base.util.UtilDateTime"].getDateTimeFormatByContext(context)}" value="" size="25" maxlength="50" id="fromDate_1" dateType="date" shortDateInput=false timeDropdownParamName="" defaultDateTimeString="" localizedIconTitle="" timeDropdown="" timeHourName="" classString="" hour1="" hour2="" timeMinutesName="" minutes="" isTwelveHour="" ampmName="" amSelected="" pmSelected="" compositeType="" formName=""/>
+                <@htmlTemplate.renderDateTimeField name="fromDate" event="" action="" className="" alert="" title="Format: ${dateTimeFormat}" value="" size="25" maxlength="50" id="fromDate_1" dateType="date" shortDateInput=false timeDropdownParamName="" defaultDateTimeString="" localizedIconTitle="" timeDropdown="" timeHourName="" classString="" hour1="" hour2="" timeMinutesName="" minutes="" isTwelveHour="" ampmName="" amSelected="" pmSelected="" compositeType="" formName=""/>
                 <span class="tooltip">(${uiLabelMap.ManufacturingWillBeSetToNow})</span>
             </td>
           </tr>
@@ -134,28 +135,28 @@ function lookupBom() {
         <input type="hidden" name="fromDate" value="${fromDate?if_exists}"/>
         <table class="basic-table" cellspacing="0">
           <tr>
-            <td align="right">${uiLabelMap.ProductProductId}</td>
+            <td class="opposite-align-text">${uiLabelMap.ProductProductId}</td>
             <td>&nbsp;</td>
             <td>${productId?if_exists}</td>
           </tr>
           <tr>
-            <td align="right">${uiLabelMap.ManufacturingProductIdTo}</td>
+            <td class="opposite-align-text">${uiLabelMap.ManufacturingProductIdTo}</td>
             <td>&nbsp;</td>
             <td>${productIdTo?if_exists}</td>
           </tr>
           <tr>
-            <td align="right">${uiLabelMap.ManufacturingBomType}</td>
+            <td class="opposite-align-text">${uiLabelMap.ManufacturingBomType}</td>
             <td>&nbsp;</td>
             <td><#if curProductAssocType?exists>${(curProductAssocType.get("description",locale))?if_exists}<#else> ${productAssocTypeId?if_exists}</#if></td>
           </tr>
           <tr>
-            <td align="right">${uiLabelMap.CommonFromDate}</td>
+            <td class="opposite-align-text">${uiLabelMap.CommonFromDate}</td>
             <td>&nbsp;</td>
             <td>${fromDate?if_exists}</td>
           </tr>
     </#if>
     <tr>
-        <td width="26%" align="right">${uiLabelMap.CommonThruDate}</td>
+        <td width="26%" class="opposite-align-text">${uiLabelMap.CommonThruDate}</td>
         <td>&nbsp;</td>
         <td width="74%">
             <#if useValues>
@@ -163,36 +164,36 @@ function lookupBom() {
             <#else>
               <#assign value= request.getParameter("thruDate")?if_exists>
             </#if>
-            <@htmlTemplate.renderDateTimeField value="${value!''}" name="thruDate" className="" event="" action="" alert="" title="Format: ${Static["org.ofbiz.base.util.UtilDateTime"].getDateTimeFormatByContext(context)}" size="30" maxlength="30" id="fromDate_2" dateType="date" shortDateInput=false timeDropdownParamName="" defaultDateTimeString="" localizedIconTitle="" timeDropdown="" timeHourName="" classString="" hour1="" hour2="" timeMinutesName="" minutes="" isTwelveHour="" ampmName="" amSelected="" pmSelected="" compositeType="" formName=""/>
+            <@htmlTemplate.renderDateTimeField value="${value!''}" name="thruDate" className="" event="" action="" alert="" title="Format: ${dateTimeFormat}" size="30" maxlength="30" id="fromDate_2" dateType="date" shortDateInput=false timeDropdownParamName="" defaultDateTimeString="" localizedIconTitle="" timeDropdown="" timeHourName="" classString="" hour1="" hour2="" timeMinutesName="" minutes="" isTwelveHour="" ampmName="" amSelected="" pmSelected="" compositeType="" formName=""/>
         </td>
     </tr>
     <tr>
-        <td width="26%" align="right">${uiLabelMap.CommonSequenceNum}</td>
+        <td width="26%" class="opposite-align-text">${uiLabelMap.CommonSequenceNum}</td>
         <td>&nbsp;</td>
         <td width="74%"><input type="text" name="sequenceNum" <#if useValues>value="${(productAssoc.sequenceNum)?if_exists}"<#else>value="${(request.getParameter("sequenceNum"))?if_exists}"</#if> size="5" maxlength="10"/></td>
     </tr>
     <tr>
-        <td width="26%" align="right">${uiLabelMap.ManufacturingReason}</td>
+        <td width="26%" class="opposite-align-text">${uiLabelMap.ManufacturingReason}</td>
         <td>&nbsp;</td>
         <td width="74%"><input type="text" name="reason" <#if useValues>value="${(productAssoc.reason)?if_exists}"<#else>value="${(request.getParameter("reason"))?if_exists}"</#if> size="60" maxlength="255"/></td>
     </tr>
     <tr>
-        <td width="26%" align="right">${uiLabelMap.ManufacturingInstruction}</td>
+        <td width="26%" class="opposite-align-text">${uiLabelMap.ManufacturingInstruction}</td>
         <td>&nbsp;</td>
         <td width="74%"><input type="text" name="instruction" <#if useValues>value="${(productAssoc.instruction)?if_exists}"<#else>value="${(request.getParameter("instruction"))?if_exists}"</#if> size="60" maxlength="255"/></td>
     </tr>
     <tr>
-        <td width="26%" align="right">${uiLabelMap.ManufacturingQuantity}</td>
+        <td width="26%" class="opposite-align-text">${uiLabelMap.ManufacturingQuantity}</td>
         <td>&nbsp;</td>
         <td width="74%"><input type="text" name="quantity" <#if useValues>value="${(productAssoc.quantity)?if_exists}"<#else>value="${(request.getParameter("quantity"))?if_exists}"</#if> size="10" maxlength="15"/></td>
     </tr>
     <tr>
-        <td width="26%" align="right">${uiLabelMap.ManufacturingScrapFactor}</td>
+        <td width="26%" class="opposite-align-text">${uiLabelMap.ManufacturingScrapFactor}</td>
         <td>&nbsp;</td>
         <td width="74%"><input type="text" name="scrapFactor" <#if useValues>value="${(productAssoc.scrapFactor)?if_exists}"<#else>value="${(request.getParameter("scrapFactor"))?if_exists}"</#if> size="10" maxlength="15"/></td>
     </tr>
     <tr>
-        <td width="26%" align="right">${uiLabelMap.ManufacturingFormula}</td>
+        <td width="26%" class="opposite-align-text">${uiLabelMap.ManufacturingFormula}</td>
         <td>&nbsp;</td>
         <td width="74%">
             <select name="estimateCalcMethod">
@@ -210,7 +211,7 @@ function lookupBom() {
         </td>
     </tr>
     <tr>
-        <td width="26%" align="right">${uiLabelMap.ManufacturingRoutingTask}</td>
+        <td width="26%" class="opposite-align-text">${uiLabelMap.ManufacturingRoutingTask}</td>
         <td>&nbsp;</td>
         <td width="74%">
           <#if useValues>
@@ -315,7 +316,7 @@ function lookupBom() {
             <td>${(assocToProduct.getTimestamp("thruDate"))?if_exists}&nbsp;</td>
             <td>${(assocToProduct.quantity)?if_exists}&nbsp;</td>
             <td>
-                <a href="<@ofbizUrl>UpdateProductBom?UPDATE_MODE=DELETE&amp;productId=${(assocToProduct.productId)?if_exists}&amp;productIdTo=${(assocToProduct.productIdTo)?if_exists}&amp;productAssocTypeId=${(assocToProduct.productAssocTypeId)?if_exists}&amp;fromDate=${Static["org.ofbiz.base.util.UtilFormatOut"].encodeQueryValue(Static["org.ofbiz.base.util.UtilDateTime"].toDateTimeFormat(context).format(assocToProduct.getTimestamp("fromDate")))}&amp;useValues=true</@ofbizUrl>" class="buttontext">
+                <a href="<@ofbizUrl>UpdateProductBom?UPDATE_MODE=DELETE&amp;productId=${(assocToProduct.productId)?if_exists}&amp;productIdTo=${(assocToProduct.productIdTo)?if_exists}&amp;productAssocTypeId=${(assocToProduct.productAssocTypeId)?if_exists}&amp;fromDate=${Static["org.ofbiz.base.util.UtilFormatOut"].encodeQueryValue(Static["org.ofbiz.base.util.UtilDateTime"].toDateTimeStringByContext(assocToProduct.getTimestamp("fromDate"), context))}&amp;useValues=true</@ofbizUrl>" class="buttontext">
                 ${uiLabelMap.CommonDelete}</a>
             </td>
         </tr>

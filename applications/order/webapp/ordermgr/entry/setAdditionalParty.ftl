@@ -34,7 +34,7 @@ under the License.
     <td width="100%">
       <table border="0" cellspacing="0" cellpadding="0" class="boxbottom">
         <tr>
-          <td align="right">
+          <td class="opposite-align-text">
             <input type="radio" id="additionalPartyType_Person" name="additionalPartyType" value="Person" onclick="<#if additionalPartyType?exists>javascript:document.quickAddPartyForm.additionalPartyId.value='';</#if>document.quickAddPartyForm.submit()"<#if (additionalPartyType?exists && additionalPartyType == "Person")> checked="checked"</#if> />
       </td>
           <td>
@@ -42,7 +42,7 @@ under the License.
           </td>
         </tr>
         <tr>
-          <td align="right">
+          <td class="opposite-align-text">
             <input type="radio" id="additionalPartyType_Group" name="additionalPartyType" value="Group" onclick="<#if additionalPartyType?exists>javascript:document.quickAddPartyForm.additionalPartyId.value='';</#if>document.quickAddPartyForm.submit()"<#if additionalPartyType?exists && additionalPartyType == "Group"> checked="checked"</#if> />
           </td>
           <td>
@@ -50,7 +50,7 @@ under the License.
           </td>
         </tr>
         <tr>
-          <td align="right">
+          <td class="opposite-align-text">
             <input type="radio" id="additionalPartyType_None" name="additionalPartyType" value="None" onclick="<#if additionalPartyType?exists>javascript:document.quickAddPartyForm.additionalPartyId.value='';</#if>document.quickAddPartyForm.submit()"<#if !additionalPartyType?exists> checked="checked"</#if> />
           </td>
           <td>

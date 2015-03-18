@@ -36,7 +36,7 @@ under the License.
   </#if>
   <tr>
     <td><a href="<@ofbizUrl>returnMain?returnId=${returnHeader.returnId}</@ofbizUrl>" class="buttontext">${returnHeader.returnId}</a></td>
-    <td><div>${Static["org.ofbiz.base.util.UtilDateTime"].toDateTimeFormat(context).format(returnHeader.entryDate)}</div></td>
+    <td><div>${Static["org.ofbiz.base.util.UtilDateTime"].toDateTimeStringByContext(returnHeader.entryDate, context)}</div></td>
     <td>
       <#if returnHeader.fromPartyId?exists>
         <a href="${customerDetailLink}${returnHeader.fromPartyId}${StringUtil.wrapString(externalKeyParam)}" class='buttontext'>${returnHeader.fromPartyId}</a>

@@ -18,7 +18,7 @@
   -->
 <table cellspacing="0" width="100%">
     <tr>
-      <td align="left">
+      <td class="align-text">
                     <#if (viewIndex > 0)>
                         <#assign url='/views/'+tabButtonItem+'?'+curFindString+'&amp;VIEW_SIZE='+viewSize+'&amp;VIEW_INDEX='+viewIndexFirst>
                         <a href="javascript:nextPrevDocumentList('${url}');" class="nav-next">${uiLabelMap.CommonFirst}</a>|

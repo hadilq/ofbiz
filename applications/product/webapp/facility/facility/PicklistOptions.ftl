@@ -40,7 +40,7 @@ under the License.
     <div align ='right'>
       <span class="label">${uiLabelMap.FacilityGroupFirst}</span>
       <input type="text" size="4" name="maxNumberOfOrders" value="50"/>
-      <input type="submit" value="Submit" class="buttontext" align='right'/>
+      <input type="submit" value="Submit" class="buttontext" class="opposite-align-text"/>
     </div>
   </form>
   <div class="screenlet-title-bar">

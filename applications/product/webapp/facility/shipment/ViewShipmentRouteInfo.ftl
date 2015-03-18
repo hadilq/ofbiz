@@ -88,8 +88,8 @@ under the License.
                 <td>
                     <div>${(carrierServiceStatus.description)?default("&nbsp;")}</div>
                     <div>${shipmentRouteSegment.trackingIdNumber?default("&nbsp;")}</div>
-                    <div>${(Static["org.ofbiz.base.util.UtilDateTime"].toDateTimeFormat(context).format(shipmentRouteSegment.estimatedStartDate))?if_exists} - ${(shipmentRouteSegment.estimatedArrivalDate.toString())?if_exists}</div>
-                    <div>${(Static["org.ofbiz.base.util.UtilDateTime"].toDateTimeFormat(context).format(shipmentRouteSegment.actualStartDate))?if_exists} - ${(shipmentRouteSegment.actualArrivalDate.toString())?if_exists}</div>
+                    <div>${(Static["org.ofbiz.base.util.UtilDateTime"].toDateTimeStringByContext(shipmentRouteSegment.estimatedStartDate, context))?if_exists} - ${(shipmentRouteSegment.estimatedArrivalDate.toString())?if_exists}</div>
+                    <div>${(Static["org.ofbiz.base.util.UtilDateTime"].toDateTimeStringByContext(shipmentRouteSegment.actualStartDate, context))?if_exists} - ${(shipmentRouteSegment.actualArrivalDate.toString())?if_exists}</div>
                 </td>
                 <td>
                     <div>${shipmentRouteSegment.billingWeight?if_exists} ${(billingWeightUom.get("description",locale))?if_exists} [${(billingWeightUom.abbreviation)?if_exists}]</div>

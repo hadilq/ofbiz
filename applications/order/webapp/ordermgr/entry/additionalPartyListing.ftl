@@ -51,7 +51,7 @@ under the License.
                   </#if>
                 </div>
               </td>
-              <td align="right">
+              <td class="opposite-align-text">
                 <a href="<@ofbizUrl>removeAdditionalParty?additionalRoleTypeId=${role}&additionalPartyId=${party}</@ofbizUrl>" class="buttontext">${uiLabelMap.CommonRemove}</a>
               </td>
             </tr>

@@ -23,7 +23,7 @@ under the License.
     <div class="screenlet-body">
         <table cellspacing="0" class="basic-table">
             <tr>
-                <td align="right" valign="top" width="25%" class="label">
+                <td class="opposite-align-text" valign="top" width="25%" class="label">
                     &nbsp;${uiLabelMap.OrderRequestDate}
                 </td>
                 <td width="5%">&nbsp;</td>
@@ -33,7 +33,7 @@ under the License.
             </tr>
             <tr><td colspan="7"><hr /></td></tr>
             <tr>
-                <td align="right" valign="top" width="25%" class="label">
+                <td class="opposite-align-text" valign="top" width="25%" class="label">
                     &nbsp;${uiLabelMap.OrderRequestCreatedDate}
                 </td>
                 <td width="5%">&nbsp;</td>
@@ -43,7 +43,7 @@ under the License.
             </tr>
             <tr><td colspan="7"><hr /></td></tr>
             <tr>
-                <td align="right" valign="top" width="25%" class="label">
+                <td class="opposite-align-text" valign="top" width="25%" class="label">
                     &nbsp;${uiLabelMap.OrderRequestLastModifiedDate}
                 </td>
                 <td width="5%">&nbsp;</td>

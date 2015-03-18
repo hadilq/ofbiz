@@ -115,7 +115,7 @@ under the License.
       <table width="100%" cellspacing="0" cellpadding="0" border="0">
         <tr>
           <td nowrap="nowrap" class="monthdaynumber"><a href='<@ofbizUrl>day?start=${period.start.time?string("#")}<#if eventsParam?has_content>&amp;${eventsParam}</#if>${addlParam?if_exists}</@ofbizUrl>' class="monthdaynumber">${period.start?date?string("d")?cap_first}</a></td>
-          <td align="right"><a href='<@ofbizUrl>EditWorkEffort?workEffortTypeId=EVENT&amp;currentStatusId=CAL_TENTATIVE&amp;estimatedStartDate=${Static["org.ofbiz.base.util.UtilDateTime"].toDateTimeStringByContext(period.start, context)}&amp;estimatedCompletionDate=${Static["org.ofbiz.base.util.UtilDateTime"].toDateTimeStringByContext(period.end, context)}${addlParam?if_exists}</@ofbizUrl>' class="add">${uiLabelMap.CommonAddNew}</a>&nbsp;&nbsp;</td>
+          <td class="opposite-align-text"><a href='<@ofbizUrl>EditWorkEffort?workEffortTypeId=EVENT&amp;currentStatusId=CAL_TENTATIVE&amp;estimatedStartDate=${Static["org.ofbiz.base.util.UtilDateTime"].toDateTimeStringByContext(period.start, context)}&amp;estimatedCompletionDate=${Static["org.ofbiz.base.util.UtilDateTime"].toDateTimeStringByContext(period.end, context)}${addlParam?if_exists}</@ofbizUrl>' class="add">${uiLabelMap.CommonAddNew}</a>&nbsp;&nbsp;</td>
         </tr>
       </table>
       <#list period.calendarEntries as calEntry>

@@ -27,7 +27,7 @@ under the License.
     <#if searchCategory?has_content>
         <input type="hidden" name="SEARCH_CATEGORY_ID" value="${searchCategoryId?if_exists}" />
         <tr>
-          <td align="right" valign="middle">
+          <td class="opposite-align-text" valign="middle">
             <div>${uiLabelMap.ProductCategory}:</div>
           </td>
           <td valign="middle">
@@ -40,7 +40,7 @@ under the License.
         </tr>
     </#if>
     <tr>
-      <td align="right" valign="middle">
+      <td class="opposite-align-text" valign="middle">
         <div>${uiLabelMap.ProductKeywords}:</div>
       </td>
       <td valign="middle">
@@ -56,7 +56,7 @@ under the License.
       <#assign productFeatureType = delegator.findOne("ProductFeatureType", findPftMap, true)>
       <#assign productFeatures = productFeaturesByTypeMap[productFeatureTypeId]>
       <tr>
-        <td align="right" valign="middle">
+        <td class="opposite-align-text" valign="middle">
           <div>${(productFeatureType.get("description",locale))?if_exists}:</div>
         </td>
         <td valign="middle">
@@ -72,7 +72,7 @@ under the License.
       </tr>
     </#list>
     <tr>
-      <td align="right" valign="middle">
+      <td class="opposite-align-text" valign="middle">
         <div>${uiLabelMap.ProductSupplier}:</div>
       </td>
       <td valign="middle">
@@ -87,7 +87,7 @@ under the License.
       </td>
     </tr>
     <tr>
-      <td align="right" valign="middle">
+      <td class="opposite-align-text" valign="middle">
         <div>${uiLabelMap.CommonSortedBy}:</div>
       </td>
       <td valign="middle">
@@ -110,7 +110,7 @@ under the License.
     </tr>
     <#if searchConstraintStrings?has_content>
       <tr>
-        <td align="right" valign="top">
+        <td class="opposite-align-text" valign="top">
           <div>${uiLabelMap.ProductLastSearch}:</div>
         </td>
         <td valign="top">

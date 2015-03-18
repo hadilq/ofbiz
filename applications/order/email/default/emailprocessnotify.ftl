@@ -29,26 +29,26 @@ under the License.
 
 <table width="70%">
   <tr>
-    <td align="right"><b>Order #:</b></td>
+    <td class="opposite-align-text"><b>Order #:</b></td>
     <td>${orderId?if_exists}</td>
   </tr>
   <tr>
-    <td align="right"><b>Order Date:</b></td>
+    <td class="opposite-align-text"><b>Order Date:</b></td>
     <td>${orderDate?if_exists}</td>
   </tr>
   <tr>
     <td colspan="2">&nbsp;</td>
   </tr>
   <tr>
-    <td align="right"><b>Estimated Start Date:</b></td>
+    <td class="opposite-align-text"><b>Estimated Start Date:</b></td>
     <td>${estimatedStartDate?if_exists}</td>
   </tr>
   <tr>
-    <td align="right"><b>Actual Start Date:</b></td>
+    <td class="opposite-align-text"><b>Actual Start Date:</b></td>
     <td>${actualStartDate?if_exists}</td>
   </tr>
   <tr>
-    <td align="right"><b>Current State:<b></td>
+    <td class="opposite-align-text"><b>Current State:<b></td>
     <td>${omgStatusId?if_exists} <#--WfUtil.getOMGStatus(request.getParameter("currentStatusId"))--></td>
   </tr>
   <tr>
@@ -57,15 +57,15 @@ under the License.
 
   <#list assignments as assign>
   <tr>
-    <td align="right"><b>Assigned Party ID:</b></td>
+    <td class="opposite-align-text"><b>Assigned Party ID:</b></td>
     <td>${assign.partyId?if_exists}</td>
   </tr>
   <tr>
-    <td align="right"><b>Assigned Role Type:</b></td>
+    <td class="opposite-align-text"><b>Assigned Role Type:</b></td>
     <td>${assign.roleTypeId?if_exists}</td>
   </tr>
   <tr>
-    <td align="right"><b>Assignment Status:</b></td>
+    <td class="opposite-align-text"><b>Assignment Status:</b></td>
     <td>${assign.statusId?if_exists}</td>
   </tr>
   </#list>

@@ -57,7 +57,7 @@ under the License.
           <#-- credit card info -->
           <#if creditCard?has_content>
             <tr>
-              <td align="right" valign="top" width="15%">
+              <td class="opposite-align-text" valign="top" width="15%">
                 <div>&nbsp;<b>${uiLabelMap.AccountingCreditCard}</b></div>
               </td>
               <td width="5">&nbsp;</td>
@@ -77,7 +77,7 @@ under the License.
           <#-- EFT account info -->
           <#elseif eftAccount?has_content>
             <tr>
-              <td align="right" valign="top" width="15%">
+              <td class="opposite-align-text" valign="top" width="15%">
                 <div>&nbsp;<b>${uiLabelMap.AccountingEFTAccount}</b></div>
               </td>
               <td width="5">&nbsp;</td>
@@ -99,7 +99,7 @@ under the License.
           </#if>
           <#assign outputted = true/>
           <tr>
-            <td align="right" valign="top" width="15%">
+            <td class="opposite-align-text" valign="top" width="15%">
               <div>&nbsp;<b>${uiLabelMap.AccountingBillingAccount}</b></div>
             </td>
             <td width="5">&nbsp;</td>

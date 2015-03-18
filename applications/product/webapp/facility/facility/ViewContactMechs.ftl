@@ -37,7 +37,7 @@ under the License.
                         <b>${uiLabelMap.ProductPurposeTypeNotFoundWithId}: "${facilityContactMechPurpose.contactMechPurposeTypeId}"</b>
                       </#if>
                       <#if facilityContactMechPurpose.thruDate?has_content>
-                      (${uiLabelMap.CommonExpire}: ${Static["org.ofbiz.base.util.UtilDateTime"].toDateTimeFormat(context).format(facilityContactMechPurpose.thruDate)})
+                      (${uiLabelMap.CommonExpire}: ${Static["org.ofbiz.base.util.UtilDateTime"].toDateTimeStringByContext(facilityContactMechPurpose.thruDate, context)})
                       </#if>
                       <br />
               </#list>
@@ -85,8 +85,8 @@ under the License.
               <#else>
                     ${contactMech.infoString?if_exists}
               </#if>
-              <br />(${uiLabelMap.CommonUpdated}: ${Static["org.ofbiz.base.util.UtilDateTime"].toDateTimeFormat(context).format(facilityContactMech.fromDate)})
-              <#if facilityContactMech.thruDate?has_content><br /><b>${uiLabelMap.CommonUpdatedEffectiveThru}:&nbsp;${Static["org.ofbiz.base.util.UtilDateTime"].toDateTimeFormat(context).format(facilityContactMech.thruDate)}</b></#if>
+              <br />(${uiLabelMap.CommonUpdated}: ${Static["org.ofbiz.base.util.UtilDateTime"].toDateTimeStringByContext(facilityContactMech.fromDate, context)})
+              <#if facilityContactMech.thruDate?has_content><br /><b>${uiLabelMap.CommonUpdatedEffectiveThru}:&nbsp;${Static["org.ofbiz.base.util.UtilDateTime"].toDateTimeStringByContext(facilityContactMech.thruDate, context)}</b></#if>
             </td>
             <td class="button-col">
               &nbsp;

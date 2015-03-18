@@ -73,15 +73,15 @@ under the License.
                       <#else>
                         ${uiLabelMap.PartyPurposeTypeNotFound}: "${partyContactMechPurpose.contactMechPurposeTypeId}"
                       </#if>
-                      (${uiLabelMap.CommonSince}:${Static["org.ofbiz.base.util.UtilDateTime"].toDateTimeFormat(context).format(partyContactMechPurpose.fromDate)})
-                      <#if partyContactMechPurpose.thruDate?has_content>(${uiLabelMap.CommonExpire}: ${Static["org.ofbiz.base.util.UtilDateTime"].toDateTimeFormat(context).format(partyContactMechPurpose.thruDate)}</#if>
+                      (${uiLabelMap.CommonSince}:${Static["org.ofbiz.base.util.UtilDateTime"].toDateTimeStringByContext(partyContactMechPurpose.fromDate, context)})
+                      <#if partyContactMechPurpose.thruDate?has_content>(${uiLabelMap.CommonExpire}: ${Static["org.ofbiz.base.util.UtilDateTime"].toDateTimeStringByContext(partyContactMechPurpose.thruDate, context)}</#if>
                     </td>
                     <td class="button-col">
                       <form name="deletePartyContactMechPurpose_${partyContactMechPurpose.contactMechPurposeTypeId}" method="post" action="<@ofbizUrl>deletePartyContactMechPurpose</@ofbizUrl>" >
                          <input type="hidden" name="partyId" value="${partyId}" />
                          <input type="hidden" name="contactMechId" value="${contactMechId}" />
                          <input type="hidden" name="contactMechPurposeTypeId" value="${partyContactMechPurpose.contactMechPurposeTypeId}" />
-                         <input type="hidden" name="fromDate" value="${Static["org.ofbiz.base.util.UtilDateTime"].toDateTimeFormat(context).format(partyContactMechPurpose.fromDate)}" />
+                         <input type="hidden" name="fromDate" value="${Static["org.ofbiz.base.util.UtilDateTime"].toDateTimeStringByContext(partyContactMechPurpose.fromDate, context)}" />
                          <input type="hidden" name="DONE_PAGE" value="${donePage?replace("=","%3d")}" />
                          <input type="hidden" name="useValues" value="true" />
                          <a href="javascript:document.deletePartyContactMechPurpose_${partyContactMechPurpose.contactMechPurposeTypeId}.submit()" class="buttontext">${uiLabelMap.CommonDelete}</a>

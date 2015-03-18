@@ -67,7 +67,7 @@ under the License.
             <input type="hidden" name="facilityId" value="${(facility.facilityId)?if_exists}" />
             <table cellspacing="0" class="basic-table">
               <tr>
-                <td width="25%" align="right"><span class="label">${uiLabelMap.ProductOrderId}</span></td>
+                <td width="25%" class="opposite-align-text"><span class="label">${uiLabelMap.ProductOrderId}</span></td>
                 <td width="1">&nbsp;</td>
                 <td width="25%">
                   <input type="text" name="orderId" size="20" maxlength="20" value="${primaryOrderId?if_exists}"/>
@@ -91,7 +91,7 @@ under the License.
             <input type="hidden" name="facilityId" value="${(facility.facilityId)?if_exists}" />
             <table cellspacing="0" class="basic-table">
               <tr>
-                <td width="25%" align='right'><span class="label">${uiLabelMap.FormFieldTitle_picklistBinId}</span></td>
+                <td width="25%" class="opposite-align-text"><span class="label">${uiLabelMap.FormFieldTitle_picklistBinId}</span></td>
                 <td width="1">&nbsp;</td>
                 <td width="25%">
                   <input type="text" name="picklistBinId" size="29" maxlength="60" value="${picklistBinId?if_exists}"/>
@@ -156,13 +156,13 @@ under the License.
                           </#if>
                         </select>
                       </td>
-                      <td align="right"><a href="javascript:document.updateWeightPackageForm_${packedLine.getWeightPackageSeqId()}.submit()" class="buttontext">${uiLabelMap.CommonUpdate}</a></td>
-                      <td align="right"><a href="javascript:document.updateWeightPackageForm_${packedLine.getWeightPackageSeqId()}.action='<@ofbizUrl>deletePackedLine</@ofbizUrl>';document.updateWeightPackageForm_${packedLine.getWeightPackageSeqId()}.submit();" class="buttontext">${uiLabelMap.CommonDelete}</a></div>
+                      <td class="opposite-align-text"><a href="javascript:document.updateWeightPackageForm_${packedLine.getWeightPackageSeqId()}.submit()" class="buttontext">${uiLabelMap.CommonUpdate}</a></td>
+                      <td class="opposite-align-text"><a href="javascript:document.updateWeightPackageForm_${packedLine.getWeightPackageSeqId()}.action='<@ofbizUrl>deletePackedLine</@ofbizUrl>';document.updateWeightPackageForm_${packedLine.getWeightPackageSeqId()}.submit();" class="buttontext">${uiLabelMap.CommonDelete}</a></div>
                     </tr>
                   </form>
                 </#list>
               </table>
-              <div align="right">
+              <div class="opposite-align-text">
                 <a href="javascript:document.completePackageForm.submit()" class="buttontext">${uiLabelMap.ProductComplete}</a>
               </div>
               <form name="completePackageForm" method ="post" action="<@ofbizUrl>completePackage</@ofbizUrl>">
@@ -214,7 +214,7 @@ under the License.
                       </#if>
                     </select>
                   </td>
-                  <td align="right"><a href="javascript:document.weightPackageForm.submit()" class="buttontext">${uiLabelMap.ProductNextPackage}</a></td>
+                  <td class="opposite-align-text"><a href="javascript:document.weightPackageForm.submit()" class="buttontext">${uiLabelMap.ProductNextPackage}</a></td>
                 </tr>
               </form>
             </table>
@@ -261,7 +261,7 @@ under the License.
                 </#list>
               </form>
             </table>
-            <div align="right">
+            <div class="opposite-align-text">
               <a href="javascript:document.completePackForm.submit()" class="buttontext">${uiLabelMap.ProductComplete}</a>
             </div>
           </#if>

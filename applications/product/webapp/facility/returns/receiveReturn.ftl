@@ -61,7 +61,7 @@ under the License.
             <input type="hidden" name="facilityId" value="${requestParameters.facilityId?if_exists}" />
             <input type="hidden" name="returnId" value="${requestParameters.returnId?if_exists}" />
             <input type="hidden" name="_useRowSubmit" value="Y" />
-            <#assign now = Static["org.ofbiz.base.util.UtilDateTime"].toDateTimeFormat(context).format(Static["org.ofbiz.base.util.UtilDateTime"].nowTimestamp())>
+            <#assign now = Static["org.ofbiz.base.util.UtilDateTime"].toDateTimeStringByContext(Static["org.ofbiz.base.util.UtilDateTime"].nowTimestamp(), context)>
             <#assign rowCount = 0>
             <table cellspacing="0" class="basic-table">
               <#if !returnItems?exists || returnItems?size == 0>
@@ -76,7 +76,7 @@ under the License.
                       <#if parameters.shipmentId?has_content>${uiLabelMap.ProductShipmentId} <a href="<@ofbizUrl>ViewShipment?shipmentId=${parameters.shipmentId}</@ofbizUrl>" class="buttontext">${parameters.shipmentId}</a></#if>
                     </h3>
                   </td>
-                  <td align="right">
+                  <td class="opposite-align-text">
                     ${uiLabelMap.ProductSelectAll}&nbsp;
                     <input type="checkbox" name="selectAll" value="Y" onclick="javascript:toggleAll(this, 'selectAllForm');" />
                   </td>
@@ -133,10 +133,10 @@ under the License.
                           <td>&nbsp;</td>
 
                           <#-- location(s) -->
-                          <td align="right">
+                          <td class="opposite-align-text">
                             <div class="label">${uiLabelMap.ProductLocation}</div>
                           </td>
-                          <td align="right">
+                          <td class="opposite-align-text">
                             <#assign facilityLocations = (product.getRelated("ProductFacilityLocation", Static["org.ofbiz.base.util.UtilMisc"].toMap("facilityId", facilityId), null, false))?if_exists>
                             <#if facilityLocations?has_content>
                               <select name="locationSeqId_o_${rowCount}">
@@ -160,8 +160,8 @@ under the License.
                             </#if>
                           </td>
 
-                          <td align="right" nowrap="nowrap" class="label">${uiLabelMap.ProductQtyReceived}</td>
-                          <td align="right">
+                          <td class="opposite-align-text" nowrap="nowrap" class="label">${uiLabelMap.ProductQtyReceived}</td>
+                          <td class="opposite-align-text">
                             <input type="text" name="quantityAccepted_o_${rowCount}" size="6" value="${defaultQuantity?string.number}" />
                           </td>
                         </tr>
@@ -186,8 +186,8 @@ under the License.
                             </select>
                           </td>
                           <#if serializedInv?has_content>
-                            <td align="right" class="label">${uiLabelMap.ProductExistingInventoryItem}</td>
-                            <td align="right">
+                            <td class="opposite-align-text" class="label">${uiLabelMap.ProductExistingInventoryItem}</td>
+                            <td class="opposite-align-text">
                               <select name="inventoryItemId_o_${rowCount}">
                                 <#list serializedInv as inventoryItem>
                                   <option>${inventoryItem.inventoryItemId}</option>
@@ -197,14 +197,14 @@ under the License.
                           <#else>
                             <td colspan="2">&nbsp;</td>
                           </#if>
-                          <td align="right" nowrap="nowrap" class="label">${uiLabelMap.ProductPerUnitPrice}</td>
-                          <td align="right">
+                          <td class="opposite-align-text" nowrap="nowrap" class="label">${uiLabelMap.ProductPerUnitPrice}</td>
+                          <td class="opposite-align-text">
                             <input type='text' name='unitCost_o_${rowCount}' size='6' value='${unitCost?default(0)?string("##0.00")}' />
                           </td>
                         </tr>
                       </table>
                     </td>
-                    <td align="right">
+                    <td class="opposite-align-text">
                       <input type="checkbox" name="_rowSubmit_o_${rowCount}" value="Y" onclick="javascript:checkToggle(this, 'selectAllForm');" />
                     </td>
                   </tr>
@@ -221,13 +221,13 @@ under the License.
                     <td colspan="2" class="label">${uiLabelMap.ProductNoItemsReturn} #${returnHeader.returnId} ${uiLabelMap.ProductToReceive}.</td>
                   </tr>
                   <tr>
-                    <td colspan="2" align="right">
+                    <td colspan="2" class="opposite-align-text">
                       <a href="<@ofbizUrl>ReceiveReturn?facilityId=${requestParameters.facilityId?if_exists}</@ofbizUrl>" class="buttontext">${uiLabelMap.ProductReturnToReceiving}</a>
                     </td>
                   </tr>
                 <#else>
                   <tr>
-                    <td colspan="2" align="right">
+                    <td colspan="2" class="opposite-align-text">
                       <a href="javascript:document.selectAllForm.submit();" class="buttontext">${uiLabelMap.ProductReceiveSelectedProduct}</a>
                     </td>
                   </tr>
@@ -246,7 +246,7 @@ under the License.
             <table cellspacing="0" class="basic-table">
               <tr><td colspan="4"><h3>${uiLabelMap.ProductReceiveReturn}</h3></td></tr>
               <tr>
-                <td width="15%" align='right' class="label">${uiLabelMap.ProductReturnNumber}</td>
+                <td width="15%" class="opposite-align-text" class="label">${uiLabelMap.ProductReturnNumber}</td>
                 <td>&nbsp;</td>
                 <td width="90%">
                   <input type="text" name="returnId" size="20" maxlength="20" value="${requestParameters.returnId?if_exists}" />

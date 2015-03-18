@@ -30,12 +30,12 @@ under the License.
             <tr valign="bottom" class="header-row">
                 <td width="15%">${uiLabelMap.ProductItem}</td>
                 <td width="20%">${uiLabelMap.ProductProduct}</td>
-                <td width="10%" align="right">${uiLabelMap.ProductQuantity}</td>
-                <td width="10%" align="right">${uiLabelMap.OrderSelAmount}</td>
-                <td width="5%" align="right">&nbsp;</td>
-                <td width="10%" align="right">${uiLabelMap.OrderOrderQuoteUnitPrice}</td>
-                <td width="10%" align="right">${uiLabelMap.OrderAdjustments}</td>
-                <td width="10%" align="right">${uiLabelMap.CommonSubtotal}</td>
+                <td width="10%" class="opposite-align-text">${uiLabelMap.ProductQuantity}</td>
+                <td width="10%" class="opposite-align-text">${uiLabelMap.OrderSelAmount}</td>
+                <td width="5%" class="opposite-align-text">&nbsp;</td>
+                <td width="10%" class="opposite-align-text">${uiLabelMap.OrderOrderQuoteUnitPrice}</td>
+                <td width="10%" class="opposite-align-text">${uiLabelMap.OrderAdjustments}</td>
+                <td width="10%" class="opposite-align-text">${uiLabelMap.CommonSubtotal}</td>
             </tr>
             <tr valign="bottom" class="header-row">
                 <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;${uiLabelMap.OrderOrderTermType}</td>
@@ -45,7 +45,7 @@ under the License.
                 <td></td>
                 <td></td>
                 <td></td>
-                <td align="right">&nbsp;</td>
+                <td class="opposite-align-text">&nbsp;</td>
             </tr>
             <#assign totalQuoteAmount = 0.0>
             <#assign alt_row = false/>
@@ -96,11 +96,11 @@ under the License.
                         </div>
                     </td>
                     <td></td>
-                    <td align="right" valign="top">${quoteItem.quantity?if_exists}</td>
-                    <td align="right" valign="top">${quoteItem.selectedAmount?if_exists}</td>
-                    <td align="right" valign="top"><@ofbizCurrency amount=quoteItem.quoteUnitPrice isoCode=quote.currencyUomId/></td>
-                    <td align="right" valign="top"><@ofbizCurrency amount=totalQuoteItemAdjustmentAmount isoCode=quote.currencyUomId/></td>
-                    <td align="right" valign="top"><@ofbizCurrency amount=totalQuoteItemAmount isoCode=quote.currencyUomId/></td>
+                    <td class="opposite-align-text" valign="top">${quoteItem.quantity?if_exists}</td>
+                    <td class="opposite-align-text" valign="top">${quoteItem.selectedAmount?if_exists}</td>
+                    <td class="opposite-align-text" valign="top"><@ofbizCurrency amount=quoteItem.quoteUnitPrice isoCode=quote.currencyUomId/></td>
+                    <td class="opposite-align-text" valign="top"><@ofbizCurrency amount=totalQuoteItemAdjustmentAmount isoCode=quote.currencyUomId/></td>
+                    <td class="opposite-align-text" valign="top"><@ofbizCurrency amount=totalQuoteItemAmount isoCode=quote.currencyUomId/></td>
                 </tr>
                 <#list quoteTerms as quoteTerm>
                 <#assign termDescription = delegator.findOne("TermType",{"termTypeId":quoteTerm.termTypeId}, false)>
@@ -109,18 +109,18 @@ under the License.
                     <td valign="top">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;${quoteTerm.termValue?if_exists}</td>
                     <td valign="top"><#if quoteTerm.termDays?exists>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;${quoteTerm.termDays?if_exists}</#if></td>
                     <td valign="top"><#if quoteTerm.description?exists>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;${quoteTerm.description}</#if></td>
-                    <td align="right" valign="top"></td>
-                    <td align="right" valign="top"></td>
-                    <td align="right" valign="top"></td>
-                    <td align="right" valign="top"></td>
+                    <td class="opposite-align-text" valign="top"></td>
+                    <td class="opposite-align-text" valign="top"></td>
+                    <td class="opposite-align-text" valign="top"></td>
+                    <td class="opposite-align-text" valign="top"></td>
                 </tr>
                 </#list>
                 <#-- now show adjustment details per line item -->
                 <#list quoteItemAdjustments as quoteItemAdjustment>
                     <#assign adjustmentType = quoteItemAdjustment.getRelatedOne("OrderAdjustmentType", false)>
                     <tr class="alternate-row">
-                        <td align="right" colspan="4"><span class="label">${adjustmentType.get("description",locale)?if_exists}</span></td>
-                        <td align="right"><@ofbizCurrency amount=quoteItemAdjustment.amount isoCode=quote.currencyUomId/></td>
+                        <td class="opposite-align-text" colspan="4"><span class="label">${adjustmentType.get("description",locale)?if_exists}</span></td>
+                        <td class="opposite-align-text"><@ofbizCurrency amount=quoteItemAdjustment.amount isoCode=quote.currencyUomId/></td>
                         <td>&nbsp;</td>
                     </tr>
                 </#list>
@@ -129,8 +129,8 @@ under the License.
             </#list>
             <tr><td colspan="10"><hr /></td></tr>
             <tr>
-                <td align="right" colspan="7" class="label">${uiLabelMap.CommonSubtotal}</td>
-                <td align="right"><@ofbizCurrency amount=totalQuoteAmount isoCode=quote.currencyUomId/></td>
+                <td class="opposite-align-text" colspan="7" class="label">${uiLabelMap.CommonSubtotal}</td>
+                <td class="opposite-align-text"><@ofbizCurrency amount=totalQuoteAmount isoCode=quote.currencyUomId/></td>
             </tr>
             <tr><td colspan="5"></td><td colspan="6"><hr /></td></tr>
             <#assign totalQuoteHeaderAdjustmentAmount = 0.0>
@@ -140,8 +140,8 @@ under the License.
                 <#if !quoteAdjustment.quoteItemSeqId?exists>
                     <#assign totalQuoteHeaderAdjustmentAmount = quoteAdjustment.amount?default(0) + totalQuoteHeaderAdjustmentAmount>
                     <tr>
-                      <td align="right" colspan="6"><span class="label">${adjustmentType.get("description",locale)?if_exists}</span></td>
-                      <td align="right"><@ofbizCurrency amount=quoteAdjustment.amount isoCode=quote.currencyUomId/></td>
+                      <td class="opposite-align-text" colspan="6"><span class="label">${adjustmentType.get("description",locale)?if_exists}</span></td>
+                      <td class="opposite-align-text"><@ofbizCurrency amount=quoteAdjustment.amount isoCode=quote.currencyUomId/></td>
                     </tr>
                 </#if>
                 <#assign findAdjustment = true>
@@ -151,8 +151,8 @@ under the License.
             <tr><td colspan="5"></td><td colspan="6"><hr /></td></tr>
             </#if>
             <tr>
-                <td align="right" colspan="7" class="label">${uiLabelMap.OrderGrandTotal}</td>
-                <td align="right">
+                <td class="opposite-align-text" colspan="7" class="label">${uiLabelMap.OrderGrandTotal}</td>
+                <td class="opposite-align-text">
                     <@ofbizCurrency amount=grandTotalQuoteAmount isoCode=quote.currencyUomId/>
                 </td>
             </tr>

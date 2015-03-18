@@ -26,15 +26,15 @@ under the License.
     </#if>
     <tr>
         <td colspan="2">&nbsp;</td>
-        <td colspan="3" align="right"><span class="label">${returnAdjustment.get("description",locale)?default("N/A")}</span>
+        <td colspan="3" class="opposite-align-text"><span class="label">${returnAdjustment.get("description",locale)?default("N/A")}</span>
             <#if returnAdjustment.comments?has_content>: ${returnAdjustment.comments}</#if>
         </div></td>
         <#if (adjEditable)>
-           <td align="right">
+           <td class="opposite-align-text">
               <input type="text" size="8" name="amount_o_${rowCount}" value="${returnAdjustment.amount?default(0)?string("##0.00")}"/>
            </td>
         <#else>
-           <td align="right"><@ofbizCurrency amount=returnAdjustment.amount?default(0) isoCode=returnHeader.currencyUomId/></td>
+           <td class="opposite-align-text"><@ofbizCurrency amount=returnAdjustment.amount?default(0) isoCode=returnHeader.currencyUomId/></td>
         </#if>
         <td colspan="2">&nbsp;</td>
         <td><div>
@@ -56,7 +56,7 @@ under the License.
           </div>
        </td>
        <#if (adjEditable)>
-         <td align='right'><a href='javascript:document.removeReturnAdjustment_${rowCountForAdjRemove}.submit()' class='buttontext'>${uiLabelMap.CommonRemove}</a></td>
+         <td class="opposite-align-text"><a href='javascript:document.removeReturnAdjustment_${rowCountForAdjRemove}.submit()' class='buttontext'>${uiLabelMap.CommonRemove}</a></td>
        <#else>
        <td>&nbsp;</td>
        </#if>
@@ -179,7 +179,7 @@ under the License.
                     <#if readOnly>
                         ${item.returnQuantity?string.number}
                     <#else>
-                        <input name="returnQuantity_o_${rowCount}" value="${item.returnQuantity}" type="text" size="8" align="right" />
+                        <input name="returnQuantity_o_${rowCount}" value="${item.returnQuantity}" type="text" size="8" class="opposite-align-text" />
                     </#if>
                     <#if item.receivedQuantity?exists>
                     <br />${uiLabelMap.OrderTotalQuantityReceive}: ${item.receivedQuantity}
@@ -192,7 +192,7 @@ under the License.
                     <#if readOnly>
                         <@ofbizCurrency amount=item.returnPrice isoCode=orderHeader.currencyUom/>
                     <#else>
-                        <input name="returnPrice_o_${rowCount}" value="${item.returnPrice}" type="text" size="8" align="right" />
+                        <input name="returnPrice_o_${rowCount}" value="${item.returnPrice}" type="text" size="8" class="opposite-align-text" />
                     </#if>
                     </div></td>
                 <td>
@@ -267,7 +267,7 @@ under the License.
                 </td>
                 </#if>
                 <#if returnHeader.statusId == "RETURN_REQUESTED" || returnHeader.statusId == "SUP_RETURN_REQUESTED">
-                  <td align='right'><a href='javascript:document.removeReturnItem_${item_index}.submit()' class='buttontext'>${uiLabelMap.CommonRemove}</a></td>
+                  <td class="opposite-align-text"><a href='javascript:document.removeReturnItem_${item_index}.submit()' class='buttontext'>${uiLabelMap.CommonRemove}</a></td>
                 <#else>
                   <td>&nbsp;</td>
                 </#if>
@@ -300,11 +300,11 @@ under the License.
             <tr>
               <td colspan="2">&nbsp;</td>
               <td colspan="3" class="label">${uiLabelMap.OrderReturnTotal}</td>
-              <td align="right"><@ofbizCurrency amount=returnTotal isoCode=returnHeader.currencyUomId/></td>
+              <td class="opposite-align-text"><@ofbizCurrency amount=returnTotal isoCode=returnHeader.currencyUomId/></td>
             </tr>
             <#if (!readOnly) && (rowCount > 0)>
                <tr>
-                  <td colspan="6" align="right">
+                  <td colspan="6" class="opposite-align-text">
                   <input name="returnId" value="${returnHeader.returnId}" type="hidden" />
                   <input name="_rowCount" value="${rowCount}" type="hidden" />
                   <input type="submit" class="bottontext" value="${uiLabelMap.CommonUpdate}" /></td>
@@ -340,7 +340,7 @@ under the License.
           <input type="hidden" name="returnId" value="${returnId}" />
           <input type="hidden" name="statusId" value="${statusId}" />
           <input type="hidden" name="needsInventoryReceive" value="${returnHeader.needsInventoryReceive!"N"}" />
-          <div align="right"><input type="submit" value="${uiLabelMap.OrderReturnAccept}" /></div>
+          <div class="opposite-align-text"><input type="submit" value="${uiLabelMap.OrderReturnAccept}" /></div>
         </form>
         </#if>
 
@@ -352,7 +352,7 @@ under the License.
             <tr><td colspan="4"><h3>${uiLabelMap.OrderReturnItems}</h3></td></tr>
             <#if partyOrders?has_content>
               <tr>
-                <td width='25%' align='right' nowrap="nowrap" class="label">${uiLabelMap.OrderOrderId}</td>
+                <td width='25%' class="opposite-align-text" nowrap="nowrap" class="label">${uiLabelMap.OrderOrderId}</td>
                 <td>&nbsp;</td>
                 <td width='25%'>
                   <select name="orderId">
@@ -368,7 +368,7 @@ under the License.
                 <td colspan="4" nowrap="nowrap"><div>${uiLabelMap.OrderNoOrderFoundForParty}: <a href="${customerDetailLink}${partyId?default('_NA_')}" class="buttontext">${partyId?default('[null]')}</a></div></td>
               </tr>
               <tr>
-                <td width='25%' align='right' nowrap="nowrap"><div>${uiLabelMap.OrderOrderId}</div></td>
+                <td width='25%' class="opposite-align-text" nowrap="nowrap"><div>${uiLabelMap.OrderOrderId}</div></td>
                 <td>&nbsp;</td>
                 <td width='25%'>
                   <input type='text' name='orderId' size='20' maxlength='20' />

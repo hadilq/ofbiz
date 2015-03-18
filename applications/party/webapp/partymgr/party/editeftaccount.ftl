@@ -111,7 +111,7 @@ under the License.
                     <#assign curContactMechPurposeType = curPartyContactMechPurpose.getRelatedOne("ContactMechPurposeType", true)>
                     <p><b>${curContactMechPurposeType.get("description",locale)?if_exists}</b></p>
                     <#if curPartyContactMechPurpose.thruDate?exists>
-                      <p>(${uiLabelMap.CommonExpire}:${Static["org.ofbiz.base.util.UtilDateTime"].toDateTimeFormat(context).format(curPartyContactMechPurpose.thruDate)})</p>
+                      <p>(${uiLabelMap.CommonExpire}:${Static["org.ofbiz.base.util.UtilDateTime"].toDateTimeStringByContext(curPartyContactMechPurpose.thruDate, context)})</p>
                     </#if>
                   </#list>
                   <#if curPostalAddress.toName?exists><p><b>${uiLabelMap.CommonTo}:</b> ${curPostalAddress.toName}</p></#if>
@@ -120,8 +120,8 @@ under the License.
                   <#if curPostalAddress.address2?exists><p>${curPostalAddress.address2}</p></#if>
                   <p>${curPostalAddress.city}<#if curPostalAddress.stateProvinceGeoId?has_content>,&nbsp;${curPostalAddress.stateProvinceGeoId}</#if>&nbsp;${curPostalAddress.postalCode}</p>
                   <#if curPostalAddress.countryGeoId?exists><p>${curPostalAddress.countryGeoId}</p></#if>
-                  <p>(${uiLabelMap.CommonUpdated}:&nbsp;${(Static["org.ofbiz.base.util.UtilDateTime"].toDateTimeFormat(context).format(curPartyContactMech.fromDate))?if_exists})</p>
-                  <#if curPartyContactMech.thruDate?exists><p><b>${uiLabelMap.CommonDelete}:&nbsp;${Static["org.ofbiz.base.util.UtilDateTime"].toDateTimeFormat(context).format(curPartyContactMech.thruDate)}</b></p></#if>
+                  <p>(${uiLabelMap.CommonUpdated}:&nbsp;${(Static["org.ofbiz.base.util.UtilDateTime"].toDateTimeStringByContext(curPartyContactMech.fromDate, context))?if_exists})</p>
+                  <#if curPartyContactMech.thruDate?exists><p><b>${uiLabelMap.CommonDelete}:&nbsp;${Static["org.ofbiz.base.util.UtilDateTime"].toDateTimeStringByContext(curPartyContactMech.thruDate, context)}</b></p></#if>
                 </td>
               </tr>
             <#else>
@@ -159,8 +159,8 @@ under the License.
                     <#if postalAddress.address2?exists><p>${postalAddress.address2}</p></#if>
                     <p>${postalAddress.city}<#if postalAddress.stateProvinceGeoId?has_content>,&nbsp;${postalAddress.stateProvinceGeoId}</#if>&nbsp;${postalAddress.postalCode}</p>
                     <#if postalAddress.countryGeoId?exists><p>${postalAddress.countryGeoId}</p></#if>
-                    <p>(${uiLabelMap.CommonUpdated}:&nbsp;${(Static["org.ofbiz.base.util.UtilDateTime"].toDateTimeFormat(context).format(partyContactMech.fromDate))?if_exists})</p>
-                    <#if partyContactMech.thruDate?exists><p><b>${uiLabelMap.CommonDelete}:&nbsp;${Static["org.ofbiz.base.util.UtilDateTime"].toDateTimeFormat(context).format(partyContactMech.thruDate)}</b></p></#if>
+                    <p>(${uiLabelMap.CommonUpdated}:&nbsp;${(Static["org.ofbiz.base.util.UtilDateTime"].toDateTimeStringByContext(partyContactMech.fromDate, context))?if_exists})</p>
+                    <#if partyContactMech.thruDate?exists><p><b>${uiLabelMap.CommonDelete}:&nbsp;${Static["org.ofbiz.base.util.UtilDateTime"].toDateTimeStringByContext(partyContactMech.thruDate, context)}</b></p></#if>
                   </td>
                 </tr>
               </#list>

@@ -42,28 +42,28 @@ under the License.
         <input type="hidden" name="productId" value="${productId?if_exists}"/>
         <table cellspacing="0" class="basic-table">
             <tr>
-                <td width="20%" align="right" valign="top"><b>${uiLabelMap.ProductProductName}</b></td>
+                <td width="20%" class="opposite-align-text" valign="top"><b>${uiLabelMap.ProductProductName}</b></td>
                 <td>&nbsp;</td>
                 <td width="80%" colspan="4" valign="top">
                     <input type="text" name="productName" value="${(product.productName?html)?if_exists}" size="30" maxlength="60"/>
                 </td>
             </tr>
             <tr>
-                <td width="20%" align="right" valign="top"><b>${uiLabelMap.ProductProductDescription}</b></td>
+                <td width="20%" class="opposite-align-text" valign="top"><b>${uiLabelMap.ProductProductDescription}</b></td>
                 <td>&nbsp;</td>
                 <td width="80%" colspan="4" valign="top">
                     <textarea name="description" cols="60" rows="2">${(product.description)?if_exists}</textarea>
                 </td>
             </tr>
             <tr>
-                <td width="20%" align="right" valign="top"><b>${uiLabelMap.ProductLongDescription}</b></td>
+                <td width="20%" class="opposite-align-text" valign="top"><b>${uiLabelMap.ProductLongDescription}</b></td>
                 <td>&nbsp;</td>
                 <td width="80%" colspan="4" valign="top">
                     <textarea class="dojo-ResizableTextArea" name="longDescription" cols="60" rows="7">${(product.longDescription)?if_exists}</textarea>
                 </td>
             </tr>
             <tr>
-                <td width="20%" align="right" valign="top"><b>${uiLabelMap.ProductDetailScreen}</b></td>
+                <td width="20%" class="opposite-align-text" valign="top"><b>${uiLabelMap.ProductDetailScreen}</b></td>
                 <td>&nbsp;</td>
                 <td width="80%" colspan="4" valign="top">
                     <input type="text" name="detailScreen" value="${(product.detailScreen)?if_exists}" size="60" maxlength="250"/>
@@ -71,7 +71,7 @@ under the License.
                 </td>
             </tr>
             <tr>
-                <td width="20%" align="right" valign="top">
+                <td width="20%" class="opposite-align-text" valign="top">
                     <div><b>${uiLabelMap.ProductSmallImage}</b></div>
     <#if (product.smallImageUrl)?exists>
                     <a href="<@ofbizContentUrl>${(product.smallImageUrl)?if_exists}</@ofbizContentUrl>" target="_blank"><img alt="Small Image" src="<@ofbizContentUrl>${(product.smallImageUrl)?if_exists}</@ofbizContentUrl>" class="cssImgSmall"/></a>
@@ -91,7 +91,7 @@ under the License.
                 </td>
             </tr>
             <tr>
-                <td width="20%" align="right" valign="top">
+                <td width="20%" class="opposite-align-text" valign="top">
                     <div><b>${uiLabelMap.ProductMediumImage}</b></div>
     <#if (product.mediumImageUrl)?exists>
                     <a href="<@ofbizContentUrl>${product.mediumImageUrl}</@ofbizContentUrl>" target="_blank"><img alt="Medium Image" src="<@ofbizContentUrl>${product.mediumImageUrl}</@ofbizContentUrl>" class="cssImgSmall"/></a>
@@ -111,7 +111,7 @@ under the License.
                 </td>
             </tr>
             <tr>
-                <td width="20%" align="right" valign="top">
+                <td width="20%" class="opposite-align-text" valign="top">
                     <div><b>${uiLabelMap.ProductLargeImage}</b></div>
     <#if (product.largeImageUrl)?exists>
                     <a href="<@ofbizContentUrl>${product.largeImageUrl}</@ofbizContentUrl>" target="_blank"><img alt="Large Image" src="<@ofbizContentUrl>${product.largeImageUrl}</@ofbizContentUrl>" class="cssImgSmall"/></a>
@@ -131,7 +131,7 @@ under the License.
                 </td>
             </tr>
             <tr>
-                <td width="20%" align="right" valign="top">
+                <td width="20%" class="opposite-align-text" valign="top">
                     <div><b>${uiLabelMap.ProductDetailImage}</b></div>
     <#if (product.detailImageUrl)?exists>
                     <a href="<@ofbizContentUrl>${product.detailImageUrl}</@ofbizContentUrl>" target="_blank"><img alt="Detail Image" src="<@ofbizContentUrl>${product.detailImageUrl}</@ofbizContentUrl>" class="cssImgSmall"/></a>
@@ -151,7 +151,7 @@ under the License.
                 </td>
             </tr>
             <tr>
-                <td width="20%" align="right" valign="top">
+                <td width="20%" class="opposite-align-text" valign="top">
                     <div><b>${uiLabelMap.ProductOriginalImage}</b></div>
     <#if (product.originalImageUrl)?exists>
                     <a href="<@ofbizContentUrl>${product.originalImageUrl}</@ofbizContentUrl>" target="_blank"><img alt="Original Image" src="<@ofbizContentUrl>${product.originalImageUrl}</@ofbizContentUrl>" class="cssImgSmall"/></a>
@@ -187,7 +187,7 @@ under the License.
     <form method="post" enctype="multipart/form-data" action="<@ofbizUrl>UploadProductImage?productId=${productId}&amp;upload_file_type=original</@ofbizUrl>" name="imageUploadForm">
         <table cellspacing="0" class="basic-table">
             <tr>
-                <td width="20%" align="right" valign="top">
+                <td width="20%" class="opposite-align-text" valign="top">
                     <input type="file" size="50" name="fname"/>
                 </td>
                 <td>&nbsp;</td>

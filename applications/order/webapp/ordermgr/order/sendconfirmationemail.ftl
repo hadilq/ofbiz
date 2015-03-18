@@ -38,32 +38,32 @@ under the License.
         <input type="hidden" name="contentType" value="${productStoreEmailSetting.contentType?default("")}" />
         <table class="basic-table" cellspacing='0'>
             <tr>
-                <td width="2%" align="right" class="label">${uiLabelMap.OrderSendConfirmationEmailSubject}&nbsp;</td>
+                <td width="2%" class="opposite-align-text" class="label">${uiLabelMap.OrderSendConfirmationEmailSubject}&nbsp;</td>
                 <td width="54%">
                     <input type="text" size="40" name="subject" value="${productStoreEmailSetting.subject?default(uiLabelMap.OrderOrderConfirmation + " " + uiLabelMap.OrderNbr + orderId)?replace("\\$\\{orderId\\}",orderId,"r")}" />
                 </td>
             </tr>
             </tr>
-                <td width="26%" align="right" class="label">${uiLabelMap.OrderSendConfirmationEmailSendTo}&nbsp;</td>
+                <td width="26%" class="opposite-align-text" class="label">${uiLabelMap.OrderSendConfirmationEmailSendTo}&nbsp;</td>
                 <td width="54%">
                     <input type="text" size="40" name="sendTo" value="${sendTo}"/>
                 </td>
             <tr>
             </tr>
             <tr>
-                <td width="26%" align="right" class="label">${uiLabelMap.OrderSendConfirmationEmailCCTo}&nbsp;</td>
+                <td width="26%" class="opposite-align-text" class="label">${uiLabelMap.OrderSendConfirmationEmailCCTo}&nbsp;</td>
                 <td width="54%">
                     <input type="text" size="40" name="sendCc" value="${productStoreEmailSetting.ccAddress?default("")}" />
                 </td>
             </tr>
             <tr>
-                <td width="26%" align="right" class="label">${uiLabelMap.OrderSendConfirmationEmailBCCTo}&nbsp;</td>
+                <td width="26%" class="opposite-align-text" class="label">${uiLabelMap.OrderSendConfirmationEmailBCCTo}&nbsp;</td>
                 <td width="54%">
                     <input type="text" size="40" name="sendBcc" value="${productStoreEmailSetting.bccAddress?default("")}" />
                 </td>
             </tr>
             <tr>
-                <td width="26%" align="right" class="label">${uiLabelMap.CommonFrom}&nbsp;</td>
+                <td width="26%" class="opposite-align-text" class="label">${uiLabelMap.CommonFrom}&nbsp;</td>
                 <td width="54%">
                     <#if productStoreEmailSetting.fromAddress?exists>
                         <input type="hidden" name="sendFrom" value="${productStoreEmailSetting.fromAddress}" />
@@ -73,11 +73,11 @@ under the License.
                 </td>
             <tr>
             <tr>
-                <td width="26%" align="right" class="label">${uiLabelMap.OrderSendConfirmationEmailContentType}&nbsp;</td>
+                <td width="26%" class="opposite-align-text" class="label">${uiLabelMap.OrderSendConfirmationEmailContentType}&nbsp;</td>
                 <td width="54%">${productStoreEmailSetting.contentType?default("text/html")}</td>
             </tr>
             <tr>
-                <td width="26%" align="right" class="label">${uiLabelMap.OrderSendConfirmationEmailBody}&nbsp;</td>
+                <td width="26%" class="opposite-align-text" class="label">${uiLabelMap.OrderSendConfirmationEmailBody}&nbsp;</td>
                 <td width="54%">
                     <textarea name="body" rows="30" cols="80">${screens.render(productStoreEmailSetting.bodyScreenLocation?default(""))}</textarea>
                 </td>

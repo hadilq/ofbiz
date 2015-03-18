@@ -75,7 +75,7 @@ under the License.
     <div class="screenlet-body">
       <table class="basic-table" cellspacing='0'>
         <tr>
-          <td align="right" valign="top" width="19%"><span class="label">&nbsp;${uiLabelMap.CommonName}</span></td>
+          <td class="opposite-align-text" valign="top" width="19%"><span class="label">&nbsp;${uiLabelMap.CommonName}</span></td>
           <td width="1%">&nbsp;</td>
           <td valign="top" width="80%">
             <div>
@@ -108,7 +108,7 @@ under the License.
           <#assign contactMechPurpose = orderContactMechValueMap.contactMechPurposeType>
           <tr><td colspan="3"><hr /></td></tr>
           <tr>
-            <td align="right" valign="top" width="19%">
+            <td class="opposite-align-text" valign="top" width="19%">
               <span class="label">&nbsp;${contactMechPurpose.get("description",locale)}</span>
             </td>
             <td width="1%">&nbsp;</td>

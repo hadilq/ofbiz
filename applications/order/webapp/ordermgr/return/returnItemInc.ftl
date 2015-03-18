@@ -19,7 +19,7 @@ under the License.
 <table cellspacing="0" class="basic-table">
     <tr>
       <td colspan="7"><h3>${uiLabelMap.OrderReturnFromOrder} ${uiLabelMap.CommonNbr}<a href="<@ofbizUrl>orderview?orderId=${orderId}</@ofbizUrl>" class="buttontext">${orderId}</a></h3></td>
-      <td colspan="2" align="right">
+      <td colspan="2" class="opposite-align-text">
         <span>${uiLabelMap.CommonSelectAll}</span>&nbsp;
         <input type="checkbox" name="selectAll" value="Y" onclick="javascript:toggleAll(this, '${selectAllFormName}');highlightAllRows(this, 'returnItemId_tableRow_', 'selectAllForm');"/>
       </td>
@@ -53,7 +53,7 @@ under the License.
       <td>${uiLabelMap.OrderReturnReason}</td>
       <td>${uiLabelMap.OrderReturnType}</td>
       <td>${uiLabelMap.OrderItemStatus}</td>
-      <td align="right">${uiLabelMap.OrderOrderInclude}?</td>
+      <td class="opposite-align-text">${uiLabelMap.OrderOrderInclude}?</td>
     </tr>
     <#if returnableItems?has_content>
       <#assign rowCount = 0>
@@ -84,7 +84,7 @@ under the License.
                 </select>
               </td>
               <td></td>
-              <td align="right">
+              <td class="opposite-align-text">
                 <input type="checkbox" name="_rowSubmit_o_${rowCount}" value="Y" onclick="javascript:checkToggle(this, '${selectAllFormName}');highlightRow(this,'returnItemId_tableRow_${rowCount}');"/>
               </td>
             </tr>
@@ -118,7 +118,7 @@ under the License.
               <td>
                 <input type="text" size="6" name="returnQuantity_o_${rowCount}" value="${returnableItems.get(orderItem).get("returnableQuantity")}"/>
               </td>
-              <td align='left'>
+              <td class="align-text">
                 <div><@ofbizCurrency amount=orderItem.unitPrice isoCode=orderHeader.currencyUom/></div>
               </td>
               <td>
@@ -154,7 +154,7 @@ under the License.
                   </#list>
                 </select>
               </td>
-              <td align="right">
+              <td class="opposite-align-text">
                 <input type="checkbox" name="_rowSubmit_o_${rowCount}" value="Y" onclick="javascript:checkToggle(this, '${selectAllFormName}');highlightRow(this,'returnItemId_tableRow_${rowCount}');"/>
               </td>
             </tr>
@@ -173,7 +173,7 @@ under the License.
         <td>${uiLabelMap.CommonDescription}</td>
         <td>${uiLabelMap.CommonAmount}</td>
         <td>${uiLabelMap.OrderReturnType}</td>
-        <td align="right">${uiLabelMap.OrderOrderInclude}?</td>
+        <td class="opposite-align-text">${uiLabelMap.OrderOrderInclude}?</td>
       </tr>
       <#list orderHeaderAdjustments as adj>
         <#assign returnAdjustmentType = returnItemTypeMap.get(adj.get("orderAdjustmentTypeId"))/>
@@ -200,7 +200,7 @@ under the License.
               </#list>
             </select>
           </td>
-          <td align="right">
+          <td class="opposite-align-text">
             <input type="checkbox" name="_rowSubmit_o_${rowCount}" value="Y" onclick="javascript:checkToggle(this, '${selectAllFormName}');"/>
           </td>
         </tr>
@@ -237,7 +237,7 @@ under the License.
           </#list>
         </select>
       </td>
-      <td align="right">
+      <td class="opposite-align-text">
         <input type="checkbox" name="_rowSubmit_o_${rowCount}" value="Y" onclick="javascript:checkToggle(this, '${selectAllFormName}');"/>
       </td>
     </tr>
@@ -245,7 +245,7 @@ under the License.
 
     <!-- final row count -->
     <tr>
-      <td colspan="9" align="right">
+      <td colspan="9" class="opposite-align-text">
     <input type="hidden" name="_rowCount" value="${rowCount}"/>
         <a href="javascript:document.${selectAllFormName}.submit()" class="buttontext">${uiLabelMap.OrderReturnSelectedItems}</a>
       </td>

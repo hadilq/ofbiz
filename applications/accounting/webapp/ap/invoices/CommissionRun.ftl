@@ -80,7 +80,7 @@ function enableSubmitButton() {
     <#if salesRepPartyList?has_content>
       ${setRequestAttribute("partyIds", salesRepPartyList)}
     </#if>
-    <div align="right">
+    <div class="opposite-align-text">
       <select name="serviceName" id="serviceName" onchange="javascript:setServiceName(this);">
         <option value="">${uiLabelMap.AccountingSelectAction}</options>
         <option value="processCommissionRun">${uiLabelMap.AccountingCommissionRun}</option>

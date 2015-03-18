@@ -109,9 +109,9 @@ under the License.
             </#if>
           </td>
           <#if webSitePayment?has_content>
-            <td align='right' width='10%'><a href="<@ofbizUrl>paysetup</@ofbizUrl>" class="lightbuttontext">Add New</a></td>
+            <td class="opposite-align-text" width='10%'><a href="<@ofbizUrl>paysetup</@ofbizUrl>" class="lightbuttontext">Add New</a></td>
           <#else>
-            <td align='right' width='10%'></td>
+            <td class="opposite-align-text" width='10%'></td>
           </#if>
         </tr>
       </table>
@@ -129,7 +129,7 @@ under the License.
             </#if>
             <table border='0' cellpadding='2' cellspacing='0'>
               <tr>
-                <td width="26%" align="right"><div>WebSite</div></td>
+                <td width="26%" class="opposite-align-text"><div>WebSite</div></td>
                 <td>&nbsp;</td>
                 <td width="74%">
                   <#if webSitePayment?has_content>
@@ -147,7 +147,7 @@ under the License.
                 </td>
               </tr>
               <tr>
-                <td width="26%" align="right"><div>Payment Method Type</div></td>
+                <td width="26%" class="opposite-align-text"><div>Payment Method Type</div></td>
                 <td>&nbsp;</td>
                 <td width="74%">
                   <#if webSitePayment?has_content>
@@ -166,27 +166,27 @@ under the License.
               </tr>
 
               <tr>
-                <td width="26%" align="right"><div>Processor Auth Service</div></td>
+                <td width="26%" class="opposite-align-text"><div>Processor Auth Service</div></td>
                 <td>&nbsp;</td>
                 <td width="74%"><input type="text" name="paymentAuthService" value="${payInfo.paymentAuthService?if_exists}" size="30" maxlength="60" /></td>
               </tr>
               <tr>
-                <td width="26%" align="right"><div>Processor Re-Auth Service</div></td>
+                <td width="26%" class="opposite-align-text"><div>Processor Re-Auth Service</div></td>
                 <td>&nbsp;</td>
                 <td width="74%"><input type="text" name="paymentReAuthService" value="${payInfo.paymentReAuthService?if_exists}" size="30" maxlength="60" /></td>
               </tr>
               <tr>
-                <td width="26%" align="right"><div>Processor Capture Service</div></td>
+                <td width="26%" class="opposite-align-text"><div>Processor Capture Service</div></td>
                 <td>&nbsp;</td>
                 <td width="74%"><input type="text" name="paymentCaptureService" value="${payInfo.paymentCaptureService?if_exists}" size="30" maxlength="60" /></td>
               </tr>
               <tr>
-                <td width="26%" align="right"><div>Processor Refund Service</div></td>
+                <td width="26%" class="opposite-align-text"><div>Processor Refund Service</div></td>
                 <td>&nbsp;</td>
                 <td width="74%"><input type="text" name="paymentRefundService" value="${payInfo.paymentRefundService?if_exists}" size="30" maxlength="60" /></td>
               </tr>
               <tr>
-                <td width="26%" align="right"><div>Processor Properties URL</div></td>
+                <td width="26%" class="opposite-align-text"><div>Processor Properties URL</div></td>
                 <td>&nbsp;</td>
                 <td width="74%"><input type="text" name="paymentConfiguration" value="${payInfo.paymentConfiguration?if_exists}" size="30" maxlength="60" /></td>
               </tr>

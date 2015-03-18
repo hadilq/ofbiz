@@ -101,7 +101,7 @@ under the License.
                         <b>${uiLabelMap.PartyMechPurposeTypeNotFound}: "${facilityContactMechPurpose.contactMechPurposeTypeId}"</b>
                       </#if>
                       (${uiLabelMap.CommonSince}: ${facilityContactMechPurpose.fromDate})
-                      <#if facilityContactMechPurpose.thruDate?has_content>(${uiLabelMap.CommonExpires}: ${Static["org.ofbiz.base.util.UtilDateTime"].toDateTimeFormat(context).format(facilityContactMechPurpose.thruDate)}</#if>
+                      <#if facilityContactMechPurpose.thruDate?has_content>(${uiLabelMap.CommonExpires}: ${Static["org.ofbiz.base.util.UtilDateTime"].toDateTimeStringByContext(facilityContactMechPurpose.thruDate, context)}</#if>
                       <a href="javascript:document.getElementById('deleteFacilityContactMechPurpose_${facilityContactMechPurpose_index}').submit();" class="buttontext">${uiLabelMap.CommonDelete}</a>
                   </td>
                 </tr>

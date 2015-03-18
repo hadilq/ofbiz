@@ -29,15 +29,15 @@ function win_cancel() {
 <form name="addSubSite" method="post" action="<@ofbizUrl>postNewSubSite?rootForumId=${requestParameters.rootForumId}</@ofbizUrl>">
 <table cellspacing="8">
   <tr>
-    <td align="right">Site Name:</td>
+    <td class="opposite-align-text">Site Name:</td>
     <td><input type="text" size="20" name="contentName"/></td>
   </tr>
   <tr>
-    <td align="right">Site Description:</td>
+    <td class="opposite-align-text">Site Description:</td>
     <td><input type="text" size="40" name="description"/></td>
   </tr>
   <tr>
-    <td align="right">Posted Msg Default Status:</td>
+    <td class="opposite-align-text">Posted Msg Default Status:</td>
     <td>
       <select name="statusId">
         <option value="CTNT_IN_PROGRESS">Draft - not attached to any site</option>
@@ -49,8 +49,8 @@ function win_cancel() {
   <tr>
     <td colspan="2"><input type="submit" name="submitBtn" value="Create"/></td>
     <#--
-    <td align="right"><a href="javascript:submit_add()">Create</a></td>
-    <td align="right"><a href="javascript:win_cancel()">Cancel</a></td>
+    <td class="opposite-align-text"><a href="javascript:submit_add()">Create</a></td>
+    <td class="opposite-align-text"><a href="javascript:win_cancel()">Cancel</a></td>
     -->
   </tr>
 </table>

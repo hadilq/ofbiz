@@ -38,7 +38,7 @@ under the License.
         <#if paymentMethods?has_content>
         <table class="basic-table" cellspacing='0'>
           <tr class="header-row">
-            <td width="30%" align="right">${uiLabelMap.PaymentMethod}</td>
+            <td width="30%" class="opposite-align-text">${uiLabelMap.PaymentMethod}</td>
             <td width="1">&nbsp;&nbsp;&nbsp;</td>
             <td width="1">${uiLabelMap.OrderAmount}</td>
             <td width="1">&nbsp;&nbsp;&nbsp;</td>
@@ -46,7 +46,7 @@ under the License.
           </tr>
           <#list paymentMethods as payMethod>
           <tr>
-            <td width="30%" align="right">${payMethod.get("description",locale)?default(payMethod.paymentMethodId)}</td>
+            <td width="30%" class="opposite-align-text">${payMethod.get("description",locale)?default(payMethod.paymentMethodId)}</td>
             <td width="1">&nbsp;&nbsp;&nbsp;</td>
             <td width="1"><input type="text" size="7" name="${payMethod.paymentMethodId}_amount" /></td>
             <td width="1">&nbsp;&nbsp;&nbsp;</td>
@@ -59,7 +59,7 @@ under the License.
         <#if paymentMethodTypes?has_content>
         <table class="basic-table" cellspacing='0'>
           <tr class="header-row">
-            <td width="30%" align="right">${uiLabelMap.OrderPaymentType}</td>
+            <td width="30%" class="opposite-align-text">${uiLabelMap.OrderPaymentType}</td>
             <td width="1">&nbsp;&nbsp;&nbsp;</td>
             <td width="1">${uiLabelMap.OrderAmount}</td>
             <td width="1">&nbsp;&nbsp;&nbsp;</td>
@@ -67,7 +67,7 @@ under the License.
           </tr>
           <#list paymentMethodTypes as payType>
           <tr>
-            <td width="30%" align="right">${payType.get("description",locale)?default(payType.paymentMethodTypeId)}</td>
+            <td width="30%" class="opposite-align-text">${payType.get("description",locale)?default(payType.paymentMethodTypeId)}</td>
             <td width="1">&nbsp;&nbsp;&nbsp;</td>
             <td width="1"><input type="text" size="7" name="${payType.paymentMethodTypeId}_amount" /></td>
             <td width="1">&nbsp;&nbsp;&nbsp;</td>

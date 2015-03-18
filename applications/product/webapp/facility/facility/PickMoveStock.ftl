@@ -57,7 +57,7 @@ under the License.
                     <td>${uiLabelMap.ProductMinimumStock}</td>
                     <td>${uiLabelMap.ProductMoveQuantity}</td>
                     <td>${uiLabelMap.CommonConfirm}</td>
-                    <td align="right">
+                    <td class="opposite-align-text">
                         ${uiLabelMap.ProductSelectAll}&nbsp;
                         <input type="checkbox" name="selectAll" value="Y" onclick="javascript:toggleAll(this, 'selectAllForm');highlightAllRows(this, 'moveInfoId_tableRow_', 'selectAllForm');" />
                     </td>
@@ -83,14 +83,14 @@ under the License.
                             <td>${moveByOisgirInfo.availableToPromiseTotalTo?if_exists}</td>
                             <td>${targetProductFacilityLocation.minimumStock?if_exists}</td>
                             <td>${targetProductFacilityLocation.moveQuantity?if_exists}</td>
-                            <td align="right">
+                            <td class="opposite-align-text">
                                 <input type="hidden" name="productId_o_${rowCount}" value="${product.productId?if_exists}" />
                                 <input type="hidden" name="facilityId_o_${rowCount}" value="${facilityId?if_exists}" />
                                 <input type="hidden" name="locationSeqId_o_${rowCount}" value="${facilityLocationFrom.locationSeqId?if_exists}" />
                                 <input type="hidden" name="targetLocationSeqId_o_${rowCount}" value="${facilityLocationTo.locationSeqId?if_exists}" />
                                 <input type="text" name="quantityMoved_o_${rowCount}" size="6" value="${totalQuantity?string.number}" />
                             </td>
-                            <td align="right">
+                            <td class="opposite-align-text">
                                 <input type="checkbox" name="_rowSubmit_o_${rowCount}" value="Y" onclick="javascript:checkToggle(this, 'selectAllForm');highlightRow(this,'moveInfoId_tableRow_${rowCount}');" />
                             </td>
                         </tr>
@@ -117,21 +117,21 @@ under the License.
                             <td>${moveByPflInfo.availableToPromiseTotalTo?if_exists}</td>
                             <td>${targetProductFacilityLocation.minimumStock?if_exists}</td>
                             <td>${targetProductFacilityLocation.moveQuantity?if_exists}</td>
-                            <td align="right">
+                            <td class="opposite-align-text">
                                 <input type="hidden" name="productId_o_${rowCount}" value="${product.productId?if_exists}" />
                                 <input type="hidden" name="facilityId_o_${rowCount}" value="${facilityId?if_exists}" />
                                 <input type="hidden" name="locationSeqId_o_${rowCount}" value="${facilityLocationFrom.locationSeqId?if_exists}" />
                                 <input type="hidden" name="targetLocationSeqId_o_${rowCount}" value="${facilityLocationTo.locationSeqId?if_exists}" />
                                 <input type="text" name="quantityMoved_o_${rowCount}" size="6" value="${totalQuantity?string.number}" />
                             </td>
-                            <td align="right">
+                            <td class="opposite-align-text">
                                 <input type="checkbox" name="_rowSubmit_o_${rowCount}" value="Y" onclick="javascript:checkToggle(this, 'selectAllForm');highlightRow(this,'moveInfoId_tableRow_${rowCount}');" />
                             </td>
                         </tr>
                         <#assign rowCount = rowCount + 1>
                     </#list>
                     <tr>
-                        <td colspan="13" align="right">
+                        <td colspan="13" class="opposite-align-text">
                             <a href="javascript:document.selectAllForm.submit();" class="buttontext">${uiLabelMap.ProductConfirmSelectedMoves}</a>
                         </td>
                     </tr>
@@ -180,7 +180,7 @@ under the License.
                   <td><input type="text" name="quantityMoved" size="6" /></td>
                 </tr>
                 <tr>
-                  <td colspan="13" align="right">
+                  <td colspan="13" class="opposite-align-text">
                     <a href="javascript:document.quickStockMove.submit();" class="buttontext">${uiLabelMap.ProductQuickStockMove}</a>
                   </td>
                 </tr>

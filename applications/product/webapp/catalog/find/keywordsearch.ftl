@@ -70,7 +70,7 @@ under the License.
     <table cellspacing="0" class="basic-table">
         <tr>
           <td><input type="checkbox" name="selectAll" value="0" onclick="javascript:toggleAll(this);"/> <b>${uiLabelMap.ProductProduct}</b></td>
-          <td align="right">
+          <td class="opposite-align-text">
             <b>
             <#if 0 < viewIndex?int>
               <#if parameters.ACTIVE_PRODUCT?has_content && parameters.GOOGLE_SYNCED?has_content && parameters.DISCONTINUED_PRODUCT?has_content>
@@ -134,7 +134,7 @@ under the License.
     <table cellspacing="0" class="basic-table">
         <tr><td colspan="2"><hr /></td></tr>
         <tr>
-          <td align="right">
+          <td class="opposite-align-text">
             <b>
             <#if 0 < viewIndex?int>
               <#if parameters.ACTIVE_PRODUCT?has_content && parameters.GOOGLE_SYNCED?has_content && parameters.DISCONTINUED_PRODUCT?has_content>
