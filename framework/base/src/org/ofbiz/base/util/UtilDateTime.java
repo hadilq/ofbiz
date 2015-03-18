@@ -133,7 +133,7 @@ public class UtilDateTime {
     }
 
     /**
-     * Return Date format of defined locales
+     * Return DateTime format of defined locales
      *
      * @param context to find the locale
      * @return format string of that locale
@@ -144,6 +144,43 @@ public class UtilDateTime {
         if (locale == null) locale = Locale.getDefault();
 
         return getDateTimeFormat(locale);
+    }
+
+    public static final String YEAR_MONTH_FORMAT = "yyyy-MM";
+    public static final String YEAR_MONTH_MASK = "9999-99";
+
+    public static final String PERSIAN_YEAR_MONTH_FORMAT = "yyyy/MM";
+    public static final String PERSIAN_YEAR_MONTH_MASK = "9999/99";
+
+    /**
+     * Return YearMonth format of defined locales
+     *
+     * @param a locale
+     * @return format string of that locale
+     */
+    public static String getYearMonthFormat(Locale locale) {
+        if (locale != null && (FA_TAG.equals(locale.toLanguageTag())
+            || FA_JALALI_TAG.equals(locale.toLanguageTag())
+            || FA_JALALI_PERSIAN_TAG.equals(locale.toLanguageTag())) ) {
+            return PERSIAN_YEAR_MONTH_FORMAT;
+        } else {
+            return YEAR_MONTH_FORMAT;
+        }
+
+    }
+
+    /**
+     * Return YearMonth format of defined locales
+     *
+     * @param context to find the locale
+     * @return format string of that locale
+     */
+    public static String getYearMonthFormatByContext(Map<String, ? extends Object> context) {
+        if (context == null) return YEAR_MONTH_FORMAT;
+        Locale locale = (Locale) context.get("locale");
+        if (locale == null) locale = Locale.getDefault();
+
+        return getYearMonthFormat(locale);
     }
     /**
      * JDBC escape format for java.sql.Time conversions.

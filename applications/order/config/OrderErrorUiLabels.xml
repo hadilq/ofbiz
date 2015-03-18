@@ -107,7 +107,7 @@
         <value xml:lang="de">Auftragskopf kann nicht ermittelt werden: </value>
         <value xml:lang="en">Cannot get order header : </value>
         <value xml:lang="es">No se puede obtener encabezado del pedido :</value>
-        <value xml:lang="fa">نمی‌توان سرفصل سفارش را دریافت‌کرد</value>
+        <value xml:lang="fa">نمی‌توان سربرگ سفارش را دریافت‌کرد</value>
         <value xml:lang="fr">Impossible d'obtenir l'en-tête de la commande :</value>
         <value xml:lang="it">Non è possibile leggere testata ordine : </value>
         <value xml:lang="ja">注文ヘッダが取得できません: </value>
@@ -175,7 +175,7 @@
         <value xml:lang="de">Auftragskopf kann nicht geändert werden [ ${orderId} ]</value>
         <value xml:lang="en">Cannot update null order header [ ${orderId} ]</value>
         <value xml:lang="es">No se puede actualizar encabezado del pedido [ ${orderId} ]</value>
-        <value xml:lang="fa">نمی‌توان سرفصل سفارش خالی را بروزرسانی کرد [ ${orderId} ]</value>
+        <value xml:lang="fa">نمی‌توان سربرگ سفارش خالی را بروزرسانی کرد [ ${orderId} ]</value>
         <value xml:lang="fr">Impossible de mettre à jour l'en-tête de commande [ ${orderId} ]</value>
         <value xml:lang="it">Non è possibile modificare a null testata ordine [ ${orderId} ]</value>
         <value xml:lang="ja">注文ヘッダが空のため更新できません [ ${orderId} ]</value>
@@ -226,7 +226,7 @@
         <value xml:lang="de">Warenkorb-Versandgruppe nicht gefunden [ ${groupIndex} ]</value>
         <value xml:lang="en">Cart ship group not found [ ${groupIndex} ]</value>
         <value xml:lang="es">Grupo de envío del carro no encontrado [ ${groupIndex} ]</value>
-        <value xml:lang="fa">گروه خرید سبد پیدا نشد [ ${groupIndex} ]</value>
+        <value xml:lang="fa">گروه خرید سبد پیدانشده [ ${groupIndex} ]</value>
         <value xml:lang="fr">Groupe de chariots non trouvé [ ${groupIndex} ]</value>
         <value xml:lang="it">Gruppo Spedizione Carrello non trovato [ ${groupIndex} ]</value>
         <value xml:lang="ja">買い物かご発送グループが見つかりません [ ${groupIndex} ]</value>
@@ -305,7 +305,7 @@
     <property key="OrderCheckCustRequest">
         <value xml:lang="de">Kundenanfrage kann nur im Status 'in Bearbeitung' geändert werden...ist jetzt: ${custRequest.statusId}</value>
         <value xml:lang="en">Can only update customer request, when status is in-process...is now: ${custRequest.statusId}</value>
-        <value xml:lang="fa">فقط می‌تواند درخواست مشتری را بروزرسانی کند، زمانی که وضعیت در حال پردازش است... هم‌اکنون: ${custRequest.statusId}</value>
+        <value xml:lang="fa">فقط می‌تواند درخواست مشتری را بروزرسانی کند، زمانی که وضعیت درحال پردازش است... هم‌اکنون: ${custRequest.statusId}</value>
         <value xml:lang="fr">Il est possible de mettre à jour une demande seulement au statut "En Cours", actuellement elle est sur ${custRequest.statusId}</value>
         <value xml:lang="ja">ステータスが処理中の顧客リクエストのみ更新できます...現在: ${custRequest.statusId}</value>
         <value xml:lang="nl">Kan alleen een klantvraag aanpassen wanneer de status 'onder handen' is ... status is nu: ${custRequest.statusId}</value>
@@ -327,7 +327,7 @@
         <value xml:lang="de">Auftragskopf für Auftrag [ ${orderId} ] konnte nicht gefunden werden, liefere null zurück</value>
         <value xml:lang="en">Could not find OrderHeader for orderId [ ${orderId} ] in getProductStoreFromOrder, returning null</value>
         <value xml:lang="es">No se pudo obtener encabezado del pedido para el código [ ${orderId} ] en la obtención de la tienda para los productos del pedido, retornando un valor nulo.</value>
-        <value xml:lang="fa">برای آی‌دی سفارش [ ${orderId} ] نمی‌توان سرفصل سفارش را پیدا نموند در getProductStoreFromOrder! خالی را برمی‌گرداند</value>
+        <value xml:lang="fa">برای آی‌دی سفارش [ ${orderId} ] نمی‌توان سربرگ سفارش را پیدا نموند در getProductStoreFromOrder! خالی را برمی‌گرداند</value>
         <value xml:lang="fr">Vous ne pouvez pas trouver l'en-tôte de la commande pour l'identifiant de commande [ ${orderId} ] dans l'obtention du magasin pour les articles de la commande, le retour étant nul</value>
         <value xml:lang="it">Non è possibile trovare OrderHeader per orderId [ ${orderId} ] in getProductStoreFromOrder, restituito null</value>
         <value xml:lang="ja">getProductStoreFromOrderで、注文ID [ ${orderId} ] に対する注文ヘッダが見つかりません。空を戻します</value>
@@ -428,7 +428,7 @@
         <value xml:lang="de">Ausgewählter Akteur konnte nicht gefunden werden. </value>
         <value xml:lang="en">Could not locate the selected party. </value>
         <value xml:lang="es">No se puede localizar al participante seleccionado.</value>
-        <value xml:lang="fa">نمی‌توان هم‌مشرب انتخابی را مشخص نمود</value>
+        <value xml:lang="fa">نمی‌توان هویت انتخابی را مشخص نمود</value>
         <value xml:lang="fr">Impossible de localiser l'acteur sélectionné.</value>
         <value xml:lang="it">Non è possibile localizzare il soggetto selezionato. </value>
         <value xml:lang="ja">選択した取引先が設置できません</value>
@@ -493,7 +493,7 @@
         <value xml:lang="de">Alternative Gratisbeigabe konnte nicht gewählt werden, es wurde keine Warenkorbposition für 'alternateGwpLine' gefunden. </value>
         <value xml:lang="en">Could not select alternate gift, no cart line item found for # ${alternateGwpLine}. </value>
         <value xml:lang="es">No puede seleccionar el regalo suplementario, ninguna línea del carro encontrada para # ${alternateGwpLine}.</value>
-        <value xml:lang="fa">نمی‌توان هدیه جایگزین را انتخاب کرد، هیچ قلم خط سبدی پیدا نشد برای شماره</value>
+        <value xml:lang="fa">نمی‌توان هدیه جایگزین را انتخاب کرد، هیچ قلم خط سبدی پیدانشده برای شماره</value>
         <value xml:lang="fr">Vous ne pouvez pas sélectionner un cadeau alternatif, aucune élément du panier trouvé pour le n°${alternateGwpLine}.</value>
         <value xml:lang="it">Non è possibile selezionare un'omaggio alternativo, nessuna riga prodotto carrello trovata per # ${alternateGwpLine}. </value>
         <value xml:lang="ja">代替のギフトが選択できません。No ${alternateGwpLine} に対する買い物かごのアイテム行が見つかりません。</value>
@@ -643,7 +643,7 @@
         <value xml:lang="de">FEHLER : Position kann nicht storniert werden; Position nicht gefunden : ${itemMsgInfo}</value>
         <value xml:lang="en">ERROR : Cannot cancel item; item not found : ${itemMsgInfo}</value>
         <value xml:lang="es">ERROR: No se puede cancelar el ítem; ítem no encontrado: ${itemMsgInfo}</value>
-        <value xml:lang="fa">خطا : نمی‌توان قلم را لغوکرد؛ قلم پیدا نشد : ${itemMsgInfo}</value>
+        <value xml:lang="fa">خطا : نمی‌توان قلم را لغوکرد؛ قلم پیدانشده : ${itemMsgInfo}</value>
         <value xml:lang="fr">Erreur : Ne peut pas annuler l'article; article non trouvé : ${itemMsgInfo}</value>
         <value xml:lang="it">ERRORE : Non è possibile annullare la riga; riga non trovata : ${itemMsgInfo}</value>
         <value xml:lang="ja">エラー: アイテムを取消できません。アイテムが見つかりません: ${itemMsgInfo}</value>
@@ -660,7 +660,7 @@
         <value xml:lang="de">FEHLER : Status der Position kann nicht geändert werden; Position nicht gefunden</value>
         <value xml:lang="en">ERROR : Cannot change item status; item not found. </value>
         <value xml:lang="es">ERROR: No se pudo cambiar el estado; ítem no encontrado.</value>
-        <value xml:lang="fa">خطا : نمی‌توان وضعیت قلم را تغییر کرد؛ قلم پیدا نشد.</value>
+        <value xml:lang="fa">خطا : نمی‌توان وضعیت قلم را تغییر کرد؛ قلم پیدانشده.</value>
         <value xml:lang="fr">Erreur : Ne peut pas changer le status de l'article; article non trouvé.</value>
         <value xml:lang="it">ERRORE : Non è possibile cambiare stato riga; riga non trovata. </value>
         <value xml:lang="ja">エラー: アイテムのステータスを変更できません。アイテムが見つかりません。</value>
@@ -694,7 +694,7 @@
         <value xml:lang="de">FEHLER : Fulfillment kann nicht geprüft werden; Produkt nicht gefunden</value>
         <value xml:lang="en">ERROR: Cannot check for fulfillment; product not found. </value>
         <value xml:lang="es">ERROR: No se pudo comprobar la realización; producto no encontrado.</value>
-        <value xml:lang="fa">خطا: نمی‌توان تکمیل بودن را چک کرد؛ محصول پیدا نشد.</value>
+        <value xml:lang="fa">خطا: نمی‌توان تکمیل بودن را چک کرد؛ محصول پیدانشده.</value>
         <value xml:lang="fr">Erreur : Ne peut pas vérifier l'exécution; article non trouvé.</value>
         <value xml:lang="it">ERRORE: Non è possibile controllare per soddisfazione; prodotto non trovato. </value>
         <value xml:lang="ja">エラー: 執行の確認ができません。製品が見つかりません。</value>
@@ -728,7 +728,7 @@
         <value xml:lang="de">FEHLER : Auftragskopf kann nicht gelesen werden : </value>
         <value xml:lang="en">ERROR : Cannot get OrderHeader entity : </value>
         <value xml:lang="es">ERROR: No puede obtener la entidad del encabezado del pedido:</value>
-        <value xml:lang="fa">خطا: نمی‌توان نهاد سرفصل سفارش را گرفت :</value>
+        <value xml:lang="fa">خطا: نمی‌توان نهاد سربرگ سفارش را گرفت :</value>
         <value xml:lang="fr">Erreur : Ne peut pas obtenir l'entité de l'en-tête de la commande : </value>
         <value xml:lang="it">ERRORE : Non è possibile ottenere entità OrderHeader : </value>
         <value xml:lang="ja">エラー: 注文ヘッダエンティティが取得できません: </value>
@@ -1129,7 +1129,7 @@
         <value xml:lang="de">Fehler beim Lesen des Auftragskopfes; null</value>
         <value xml:lang="en">Error getting order header information; null</value>
         <value xml:lang="es">Error obteniendo información del encabezado del pedido; nulo</value>
-        <value xml:lang="fa">خطا در گرفتن اطلاعات سرفصل سفارش؛ خالی</value>
+        <value xml:lang="fa">خطا در گرفتن اطلاعات سربرگ سفارش؛ خالی</value>
         <value xml:lang="fr">Erreur en obtenant les informations de l'en-tête de commande; nul</value>
         <value xml:lang="it">Errore leggendo informazioni testata ordine; null</value>
         <value xml:lang="ja">注文ヘッダ情報取得エラー。空です</value>
@@ -1145,7 +1145,7 @@
         <value xml:lang="de">Fehler beim Lesen der Retoure; null</value>
         <value xml:lang="en">Error getting ReturnHeader/Item information</value>
         <value xml:lang="es">Error obteniendo la información del encabezado o los ítems de la devolución</value>
-        <value xml:lang="fa">خطا در گرفتن اطلاعات قلم/سرفصل‌بازگشت</value>
+        <value xml:lang="fa">خطا در گرفتن اطلاعات قلم/سربرگ‌بازگشت</value>
         <value xml:lang="fr">Erreur en obtenant les informations de l'en-tête de retour/article</value>
         <value xml:lang="it">Errore leggendo informazioni Testata Reso/Riga</value>
         <value xml:lang="ja">返品ヘッダ/アイテム情報取得エラー</value>
@@ -1177,7 +1177,7 @@
         <value xml:lang="de">FEHLER : Keine Auftragspositionen vorhanden. </value>
         <value xml:lang="en">ERROR : No order items found. </value>
         <value xml:lang="es">ERROR: No se han encontrado ítems del pedido.</value>
-        <value xml:lang="fa">خطا : هیچ قلم سفارشی پیدا نشد.</value>
+        <value xml:lang="fa">خطا : هیچ قلم سفارشی پیدانشده.</value>
         <value xml:lang="fr">Erreur : Aucun articles de la commande trouvés. </value>
         <value xml:lang="it">ERRORE : Nessuna riga ordine trovata.  </value>
         <value xml:lang="ja">エラー: 注文アイテムが見つかりません。</value>
@@ -1193,7 +1193,7 @@
         <value xml:lang="de">FEHLER : Kein gültiger Auftragskopf für Auftrag : ${orderId}</value>
         <value xml:lang="en">ERROR : No valid order header found for orderId : ${orderId}</value>
         <value xml:lang="es">ERROR: No se encontró encabezado válido para el pedido : ${orderId}</value>
-        <value xml:lang="fa">خطا : هیچ سرفصل سفارش معتبری پیدا نشد برای آی‌دی سفارش : ${orderId}</value>
+        <value xml:lang="fa">خطا : هیچ سربرگ سفارش معتبری پیدانشده برای آی‌دی سفارش : ${orderId}</value>
         <value xml:lang="fr">Erreur : Aucun en-tête de commande trouvé pour l'identifiant de commande : ${orderId}</value>
         <value xml:lang="it">ERRORE : Nessuna testata ordine valida trovata per orderId : ${orderId}</value>
         <value xml:lang="ja">エラー: 注文ID ${orderId} に対する有効な注文ヘッダが見つかりません</value>
@@ -1208,7 +1208,7 @@
     <property key="OrderErrorOrderHasBeenAlreadyVerified">
         <value xml:lang="de">FEHLER: Auftrag ${orderId} wurde schon geprüft, wechseln Sie zum Abwiegen zur weiteren Verarbeitung</value>
         <value xml:lang="en">ERROR: Order #${orderId} has been already verified, go to Weigh Package Only screen for further processing</value>
-        <value xml:lang="fa">خطا: سفارش شماره ${orderId} از قبل تاییدشده است، به اسکرین وزن بسته برای ادامه پردازش مراجعه فرمایید</value>
+        <value xml:lang="fa">خطا: سفارش شماره ${orderId} ازقبل تاییدشده است، به اسکرین وزن بسته برای ادامه پردازش مراجعه فرمایید</value>
         <value xml:lang="fr">ERREUR : La commande ${orderId} a déjà été vérifiée, Allez dans l'écran Pesée pour les prochaines opérations</value>
         <value xml:lang="ja">エラー: 注文No ${orderId} はすでに確認されていますす。次のパッケージの計量処理に移動してください</value>
         <value xml:lang="pt_BR">ERRO: Pedido #${orderId} já foi verificado, acesse a tela Pesar Pacote Apenas para mais processamento</value>
@@ -1218,7 +1218,7 @@
     <property key="OrderErrorOrderIdNotFound">
         <value xml:lang="de">FEHLER: Auftrag mit ID [${orderId}] nicht gefunden</value>
         <value xml:lang="en">ERROR: Order with ID [${orderId}] not found</value>
-        <value xml:lang="fa">خطا: سفارش با آی‌دی [${orderId}] پیدا نشد</value>
+        <value xml:lang="fa">خطا: سفارش با آی‌دی [${orderId}] پیدانشده</value>
         <value xml:lang="fr">Erreur : la commande avec la réf. [${orderId}] n'a pas été trouvé</value>
         <value xml:lang="it">ERRORE: Ordine ${orderId} non trovato</value>
         <value xml:lang="ja">エラー: ID [${orderId}] の注文が見つかりません</value>
@@ -1233,7 +1233,7 @@
         <value xml:lang="de">FEHLER : Auftragsposition und/oder Auftragskopf nicht vorhanden</value>
         <value xml:lang="en">ERROR : OrderItem and/or OrderHeader don't exist</value>
         <value xml:lang="es">ERROR: El artículo o encabezado del pedido no existe</value>
-        <value xml:lang="fa">خطا : قلم سفارش و/یا سرفصل سفارش وجود ندارد</value>
+        <value xml:lang="fa">خطا : قلم سفارش و/یا سربرگ سفارش وجود ندارد</value>
         <value xml:lang="fr">Erreur : en-tête et article de la commande non trouvés</value>
         <value xml:lang="it">ERRORE : OrderItem e/o OrderHeader non esiste</value>
         <value xml:lang="ja">エラー: 注文アイテムおよび/または注文ヘッダが存在しません</value>
@@ -1249,7 +1249,7 @@
         <value xml:lang="de">FEHLER : Auftragsposition kann nicht geändert werden</value>
         <value xml:lang="en">ERROR : OrderItem can't be modified</value>
         <value xml:lang="es">ERROR: El artículo no puede ser modificado</value>
-        <value xml:lang="fa">خطا : قلم سفارش قابل بهبود نیست</value>
+        <value xml:lang="fa">خطا : «قلم سفارش» قابل اصلاح نیست</value>
         <value xml:lang="fr">Erreur : article de la commande ne peut pas être modifié</value>
         <value xml:lang="it">ERRORE : OrderItem non può essere modificata</value>
         <value xml:lang="ja">エラー: 注文アイテムは更新できません</value>
@@ -1394,7 +1394,7 @@
     <property key="OrderErrorUnableToCreateReturnHeader">
         <value xml:lang="de">Fehler beim Erstellen des Retouren-Kopfes</value>
         <value xml:lang="en">Unable to create return header</value>
-        <value xml:lang="fa">نمی‌توان سرفصل بازگشت را ساخت</value>
+        <value xml:lang="fa">نمی‌توان سربرگ بازگشت را ساخت</value>
         <value xml:lang="fr">Impossible de créer un retour</value>
         <value xml:lang="it">Non è possibile creare la testata del reso</value>
         <value xml:lang="ja">返品ヘッダが作成できません</value>
@@ -1431,7 +1431,7 @@
         <value xml:lang="de">FEHLER : Auftragskopf konnte nicht gefunden werden. </value>
         <value xml:lang="en">ERROR : Unable to find order header. </value>
         <value xml:lang="es">ERROR: No se pudo encontrar encabezado del pedido</value>
-        <value xml:lang="fa">خطا : نمی‌توان سرفصل سفارش را پیدا کرد</value>
+        <value xml:lang="fa">خطا : نمی‌توان سربرگ سفارش را پیدا کرد</value>
         <value xml:lang="fr">Erreur : Impossible de trouver l'en-tête de la commande. </value>
         <value xml:lang="it">ERRORE : Non è possibile trovare testata ordine.  </value>
         <value xml:lang="ja">エラー: 注文ヘッダが見つかりません</value>
@@ -1463,7 +1463,7 @@
         <value xml:lang="de">FEHLER : Auftragskopf zu Auftrag ${orderId} konnte nicht gelesen werden</value>
         <value xml:lang="en">ERROR : Unable to get OrderHeader for orderId : ${orderId}</value>
         <value xml:lang="es">ERROR: No se puedo obtener encabezado para el pedido : ${orderId}</value>
-        <value xml:lang="fa">خطا : نمی‌توان سرفصل سفارش را برای آی‌دی سفارش ${orderId} دریافت کرد</value>
+        <value xml:lang="fa">خطا : نمی‌توان سربرگ سفارش را برای آی‌دی سفارش ${orderId} دریافت کرد</value>
         <value xml:lang="fr">Erreur : Impossible d'obtenir l'en-tête de commande pour l'identifiant de la commande : ${orderId}</value>
         <value xml:lang="it">ERRORE : Non è possibile ottenere OrderHeader per Numero Ordine : ${orderId}</value>
         <value xml:lang="ja">エラー: 注文ID ${orderId} の注文ヘッダが取得できません</value>
@@ -1479,7 +1479,7 @@
         <value xml:lang="de">FEHLER : Auftragskopf zu Retourenposition konnte nicht gelesen werden</value>
         <value xml:lang="en">ERROR : Unable to get OrderHeader from ReturnItem</value>
         <value xml:lang="es">ERROR: No se puedo obtener encabezado de pedido para el ítem devuelto</value>
-        <value xml:lang="fa">خطا : نمی‌توان سرفصل سفارش را از قلم بازگشت دریافت کرد</value>
+        <value xml:lang="fa">خطا : نمی‌توان سربرگ سفارش را از قلم بازگشت دریافت کرد</value>
         <value xml:lang="fr">Erreur : Impossible d'obtenir l'en-tête de commande du retour d'article</value>
         <value xml:lang="it">ERRORE : Non è possibile ottenere OrderHeader da ReturnItem</value>
         <value xml:lang="ja">エラー: 返品アイテムから注文ヘッダが取得できません</value>
@@ -1543,7 +1543,7 @@
         <value xml:lang="de">FEHLER : Retouren-Kopf ${returnId} konnte nicht gelesen werden</value>
         <value xml:lang="en">ERROR : Unable to get ReturnHeader for ID : ${returnId}</value>
         <value xml:lang="es">ERROR: No se pudo obtener el encabezado para la devolución: ${returnid}</value>
-        <value xml:lang="fa">خطا : نمی‌توان سرفصل سفارش برای آی‌دی ${returnId} را دریافت کرد</value>
+        <value xml:lang="fa">خطا : نمی‌توان سربرگ سفارش برای آی‌دی ${returnId} را دریافت کرد</value>
         <value xml:lang="fr">Erreur : Impossible d'obtenir le retour d'en-tête pour l'identifiant : ${returnId}</value>
         <value xml:lang="it">ERRORE : Non è possibile ottenere ReturnHeader per Codice : ${returnId}</value>
         <value xml:lang="ja">エラー: ID ${returnId} の返品ヘッダが取得できません</value>
@@ -1559,7 +1559,7 @@
         <value xml:lang="de">FEHLER : Retouren-Kopf zu Position konnte nicht gelesen werden</value>
         <value xml:lang="en">ERROR : Unable to get return header from item</value>
         <value xml:lang="es">ERROR: No se puedo obtener encabezado de devolución para el ítem</value>
-        <value xml:lang="fa">خطا : نمی‌توان سرفصل بازگشت از قلم را دریافت کرد</value>
+        <value xml:lang="fa">خطا : نمی‌توان سربرگ بازگشت از قلم را دریافت کرد</value>
         <value xml:lang="fr">Erreur : Impossible d'obtenir le retour de l'en-tête de l'article</value>
         <value xml:lang="it">ERRORE : Non è possibile ottenere testata ordine dalle righe</value>
         <value xml:lang="ja">エラー: アイテムから返品ヘッダが取得できません</value>
@@ -1591,7 +1591,7 @@
         <value xml:lang="de">FEHLER : Retouren-Positionen zu Retouren-Kopf konnten nicht gelesen werden</value>
         <value xml:lang="en">ERROR : Unable to get ReturnItem records from ReturnHeader</value>
         <value xml:lang="es">ERROR: No se pudo obtener los registros de los ítems a partir del encabezado de la devolución</value>
-        <value xml:lang="fa">خطا : نمی‌توان گزارش قلم بازگشت از سرفصل بازگشت را دریافت کرد</value>
+        <value xml:lang="fa">خطا : نمی‌توان گزارش قلم بازگشت از سربرگ بازگشت را دریافت کرد</value>
         <value xml:lang="fr">Erreur : Impossible d'obtenir les enregistrements des retours d'articles du retour d'en-tête</value>
         <value xml:lang="it">ERRORE : Non è possibile ottenere ReturnItem records da ReturnHeader</value>
         <value xml:lang="ja">エラー: 返品ヘッダから返品アイテムレコードが取得できません</value>
@@ -1644,7 +1644,7 @@
     <property key="OrderErrorUnableToUpdateReturnHeaderStatus">
         <value xml:lang="de">Status des Retourenkopfes konnte nicht geändert werden</value>
         <value xml:lang="en">Unable to update return header status</value>
-        <value xml:lang="fa">نمی‌توان وضعیت سرفصل بازگشت را بروزرسانی کرد</value>
+        <value xml:lang="fa">نمی‌توان وضعیت سربرگ بازگشت را بروزرسانی کرد</value>
         <value xml:lang="fr">Impossible de mettre à jour le statut du retour</value>
         <value xml:lang="it">Non è possibile aggiornare lo stato della testata del reso</value>
         <value xml:lang="ja">エラー: 返品ヘッダステータスを更新できません。</value>
@@ -1756,7 +1756,7 @@
         <value xml:lang="de">Anlage ${fixedAssetId} nicht gefunden</value>
         <value xml:lang="en">fixed_Asset_not_found. Fixed AssetId : ${fixedAssetId}</value>
         <value xml:lang="es">Activo fijo no encontrado. Código: ${fixedAssetId}</value>
-        <value xml:lang="fa">دارایی ثابت پیدا نشد، آی‌دی دارایی ثابت : ${fixedAssetId}</value>
+        <value xml:lang="fa">دارایی ثابت پیدانشده، آی‌دی دارایی ثابت : ${fixedAssetId}</value>
         <value xml:lang="fr">Fixed Asset non trouvé. Identifiant du Fixet Asset : ${fixedAssetId}</value>
         <value xml:lang="it">fixed_Asset_not_found. Fixed AssetId : ${fixedAssetId}</value>
         <value xml:lang="ja">固定資産が見つかりません。固定資産ID: ${fixedAssetId}</value>
@@ -1927,7 +1927,7 @@
         <value xml:lang="de">Mehr als ein Workflow für Auftrag definiert : ${orderId}</value>
         <value xml:lang="en">More then one workflow found for defined order : ${orderId}</value>
         <value xml:lang="es">Más de un flujo de trabajo encontrado para el siguiente pedido : ${orderId}</value>
-        <value xml:lang="fa">بیشتر از یک تلاش‌کاری برای سفارش ${orderId} پیدا شد</value>
+        <value xml:lang="fa">بیشتر از یک برنامه‌کار برای سفارش ${orderId} پیدا شد</value>
         <value xml:lang="fr">Plus d'un workflow trouvé pour la commande suivante : ${orderId}</value>
         <value xml:lang="it">Più di un workflow trovata per l'ordine definito : ${orderId}</value>
         <value xml:lang="ja">定義された注文 ${orderId} に複数のワークフローが見つかりました</value>
@@ -2015,7 +2015,7 @@
         <value xml:lang="de">Keine Positionen zum hinzufügen gefunden. </value>
         <value xml:lang="en">No items found to add. </value>
         <value xml:lang="es">Ningunos ítems encontrados para agregar.</value>
-        <value xml:lang="fa">هیچ قلمی برای اضافه‌کردن پیدا نشد.</value>
+        <value xml:lang="fa">هیچ قلمی برای اضافه‌کردن پیدانشده.</value>
         <value xml:lang="fr">Aucuns articles trouvés à ajouter. </value>
         <value xml:lang="it">Nessuna riga trovata da aggiungere.</value>
         <value xml:lang="ja">追加するアイテムがありません。</value>
@@ -2031,7 +2031,7 @@
         <value xml:lang="de">Kein Auftragskopf, Zahlung kann nicht erstellt werden</value>
         <value xml:lang="en">No order header, cannot create payment</value>
         <value xml:lang="es">Ningún encabezado de pedido, no puede crear el pago</value>
-        <value xml:lang="fa">هیچ سرفصل سفارشی مجود نیست، نمی‌توان پرداخت کرد</value>
+        <value xml:lang="fa">هیچ سربرگ سفارشی مجود نیست، نمی‌توان پرداخت کرد</value>
         <value xml:lang="fr">Aucun en-tôte de commande, ne peut créer le paiement</value>
         <value xml:lang="it">Nessuna testata ordine, non è possibile creare il pagamento</value>
         <value xml:lang="ja">注文ヘッダがありません。支払を作成できません</value>
@@ -2047,7 +2047,7 @@
         <value xml:lang="de">Kein 'Zahlung An'-Akteur bei Laden ${productStoreId} eingestellt</value>
         <value xml:lang="en">No payToPartyId set on ProductStore : ${productStoreId}</value>
         <value xml:lang="es">Ningún pago para el participante en la tienda: ${productStoreId}</value>
-        <value xml:lang="fa">هیچ «آی‌دی هم‌مشرب پرداخت» در «انبار محصول» ${productStoreId} ثبت نشده </value>
+        <value xml:lang="fa">هیچ «آی‌دی هویت پرداخت» در «انبار محصول» ${productStoreId} ثبت نشده </value>
         <value xml:lang="fr">Aucun paie pour l'identifiant d'acteur dans le centre de profit : ${productStoreId}</value>
         <value xml:lang="it">Nessun payToPartyId impostato sul ProductStore : ${productStoreId}</value>
         <value xml:lang="ja">製品店舗 ${productStoreId} に支払先取引先IDのセットがありません。</value>
@@ -2095,7 +2095,7 @@
         <value xml:lang="de">Keine Empfänger-Emailadresse gefunden</value>
         <value xml:lang="en">No sendTo email address found</value>
         <value xml:lang="es">Ninguna dirección email de destino encontrada</value>
-        <value xml:lang="fa">هیچ ایمیلی برای فرستادن پیدا نشد</value>
+        <value xml:lang="fa">هیچ ایمیلی برای فرستادن پیدانشده</value>
         <value xml:lang="fr">Aucune adresse mail de destination trouvée</value>
         <value xml:lang="it">Nessun indirizzo email A trovato</value>
         <value xml:lang="ja">送信先Eメールアドレスがありません</value>
@@ -2143,7 +2143,7 @@
         <value xml:lang="de">Kein Lieferant für dieses Product gefunden</value>
         <value xml:lang="en">No Supplier Found For This Product</value>
         <value xml:lang="es">Ningún proveedor encontrado para este producto</value>
-        <value xml:lang="fa">هیچ فراهم‌کننده‌ای برای این محصول پیدا نشد</value>
+        <value xml:lang="fa">هیچ فراهم‌کننده‌ای برای این محصول پیدانشده</value>
         <value xml:lang="fr">Aucun fournisseur n'a été trouvé pour cet article</value>
         <value xml:lang="it">Nessun fornitore trovato per questo prodotto</value>
         <value xml:lang="ja">この製品のサプライヤが見つかりません</value>
@@ -2157,7 +2157,7 @@
         <value xml:lang="de">Kein Steuersatz für : ${zipCode} / ${city} - ${itemAmount} gefunden</value>
         <value xml:lang="en">No tax entry found for : ${zipCode} / ${city} - ${itemAmount}</value>
         <value xml:lang="es">Ninguna entrada de impuesto encontrada para : ${zipCode} / ${city} - ${itemAmount}</value>
-        <value xml:lang="fa">هیچ ورودی مالیاتی برای ${zipCode} / ${city} - ${itemAmount} پیدا نشد</value>
+        <value xml:lang="fa">هیچ ورودی مالیاتی برای ${zipCode} / ${city} - ${itemAmount} پیدانشده</value>
         <value xml:lang="fr">Aucune entrée de taxe trouvée pour : ${zipCode} / ${city} - ${itemAmount}</value>
         <value xml:lang="it">Nessuna riga tasse trovata per : ${zipCode} / ${city} - ${itemAmount}</value>
         <value xml:lang="ja">税エントリがありません: ${zipCode} / ${city} - ${itemAmount}</value>
@@ -2189,7 +2189,7 @@
         <value xml:lang="de">Kein Workflow für Auftrag ${orderId} gefunden</value>
         <value xml:lang="en">No WF found for order Id : ${orderId}</value>
         <value xml:lang="es">Ningún WF encontrado para el pedido: ${orderId}</value>
-        <value xml:lang="fa">هیچ تلاش‌کاری پیدانشد برای آی‌دی سفارش : ${orderId}</value>
+        <value xml:lang="fa">هیچ برنامه‌کار پیدانشد برای آی‌دی سفارش : ${orderId}</value>
         <value xml:lang="fr">Aucun WF trouvé pour l'identifiant de commande : ${orderId}</value>
         <value xml:lang="it">Nessun Impegno di Lavoro trovato per Numero Ordine : ${orderId}</value>
         <value xml:lang="ja">注文のワークフローがありません。ID: ${orderId}</value>
@@ -2205,7 +2205,7 @@
         <value xml:lang="de">Keine Einstellungen gefunden</value>
         <value xml:lang="en">No  settings  Found</value>
         <value xml:lang="es">Configuraciones no encontradas</value>
-        <value xml:lang="fa">هیچ تنظیمی پیدا نشد</value>
+        <value xml:lang="fa">هیچ تنظیمی پیدانشده</value>
         <value xml:lang="fr">Aucune configuration trouvée</value>
         <value xml:lang="it">Nessuna impostazione trovata</value>
         <value xml:lang="ja">設定がありません</value>
@@ -2393,7 +2393,7 @@
         <value xml:lang="de">Akteur und/oder Rolle nicht definiert. </value>
         <value xml:lang="en">partyId and/or roleTypeId not defined. </value>
         <value xml:lang="es">Código y/o tipo de rol del participante no definidos.</value>
-        <value xml:lang="fa">آی‌دی هم‌مشرب و/یا «آی‌دی نوع وظیفه» تعریف نشده‌است.</value>
+        <value xml:lang="fa">آی‌دی هویت و/یا «آی‌دی نوع وظیفه» تعریف نشده‌است.</value>
         <value xml:lang="fr">Réf. d'acteur et/ou de type de rôle non défini(s).</value>
         <value xml:lang="it">partyId e/o roleTypeId non definito. </value>
         <value xml:lang="ja">取引先IDおよび/またはロール種類IDが定義されていません。</value>
@@ -2866,7 +2866,7 @@
         <value xml:lang="de">Problem beim lesen des Akteurs</value>
         <value xml:lang="en">Problems getting Party record</value>
         <value xml:lang="es">Problemas obteniendo registro de participante</value>
-        <value xml:lang="fa">مشکلات در دریافت سابقه هم‌مشرب</value>
+        <value xml:lang="fa">مشکلات در دریافت سابقه هویت</value>
         <value xml:lang="fr">Problèmes en obtenant l'enregistrement de l'acteur</value>
         <value xml:lang="it">Problemi lettura record Party</value>
         <value xml:lang="ja">取引先レコード取得中にエラー</value>
@@ -2930,7 +2930,7 @@
         <value xml:lang="de"> Problem beim lesen des Auftragskopfes.</value>
         <value xml:lang="en"> Problems reading order header information.</value>
         <value xml:lang="es"> Problemas leyendo la información del encabezado del pedido.</value>
-        <value xml:lang="fa"> مشکلات خواندن اطلاعات سرفصل سفارش.</value>
+        <value xml:lang="fa"> مشکلات خواندن اطلاعات سربرگ سفارش.</value>
         <value xml:lang="fr"> Problèmes en lisant les informations de l'en-tête de commande</value>
         <value xml:lang="it"> Problemi lettura informazioni testata ordine.</value>
         <value xml:lang="ja"> 注文ヘッダ情報読み込み中にエラー。</value>
@@ -2984,7 +2984,7 @@
         <value xml:lang="de">Problem beim lesen der Akteurs-Konteneinstellungen. </value>
         <value xml:lang="en">Problems with getting PartyAcctgPreference. </value>
         <value xml:lang="es">Hay problemas al obtener preferencias de contabilidad de participante.</value>
-        <value xml:lang="fa">مشکلات با دریافت «ترجیحات حساب هم‌مشرب».</value>
+        <value xml:lang="fa">مشکلات با دریافت «ترجیحات حساب هویت».</value>
         <value xml:lang="fr">Problème à l'obtention des préférences comptabilité de l'acteur</value>
         <value xml:lang="it">Problema nell'ottenere PartyAcctgPreference.</value>
         <value xml:lang="ja">取引先アカウント設定の取得中にエラー</value>
@@ -3060,7 +3060,7 @@
         <value xml:lang="de">Produkt nicht gefunden ! </value>
         <value xml:lang="en">Product not found ! </value>
         <value xml:lang="es">Producto no encontrado !</value>
-        <value xml:lang="fa">محصول پیدا نشد !</value>
+        <value xml:lang="fa">محصول پیدانشده !</value>
         <value xml:lang="fr">Article introuvable ! </value>
         <value xml:lang="it">Prodotto non trovato ! </value>
         <value xml:lang="ja">製品が見つかりません</value>
@@ -3149,7 +3149,7 @@
     <property key="OrderQuoteWorkEffortDoesNotExists">
         <value xml:lang="de">FEHLER: Arbeitsaufwand für Angebot ${parameters.quoteId} ${parameters.workEffortId} ist nicht vorhanden.</value>
         <value xml:lang="en">ERROR: QuoteWorkEffort ${parameters.quoteId} ${parameters.workEffortId} does not exist.</value>
-        <value xml:lang="fa">خطا: تلاش کاری مظنه ${parameters.quoteId} ${parameters.workEffortId} موجود نمی‌باشد.</value>
+        <value xml:lang="fa">خطا: برنامه کار مظنه ${parameters.quoteId} ${parameters.workEffortId} موجود نمی‌باشد.</value>
         <value xml:lang="fr">ERREUR : La tâche de devis ${parameters.quoteId} ${parameters.workEffortId} n'existe pas.</value>
         <value xml:lang="it">ERRORE: Impegno di lavoro ${parameters.quoteId} ${parameters.workEffortId} non esiste.</value>
         <value xml:lang="ja">エラー: 見積作業成果 ${parameters.quoteId} ${parameters.workEffortId} は存在しません。</value>
@@ -3200,7 +3200,7 @@
         <value xml:lang="de">Auftrag enthält Miet-Positionen, jedoch keine Arbeitsaufwände mit Start- und End-Datum mit Personen</value>
         <value xml:lang="en">Rental order items in the order, however no workEfforts with start/end date and number of persons</value>
         <value xml:lang="es">Ítems de alquiler en el pedido</value>
-        <value xml:lang="fa">اقلام سفارش اجاره‌ای در سفارش، به‌هرحال هیچ تلاش‌کاری با تاریخ شروع/پایان و تعداد اشخاص موجود نیست</value>
+        <value xml:lang="fa">اقلام سفارش اجاره‌ای در سفارش، به‌هرحال هیچ برنامه‌کار با تاریخ شروع/پایان و تعداد اشخاص موجود نیست</value>
         <value xml:lang="fr">Articles de la commande louée</value>
         <value xml:lang="it">Righe Ordine noleggio nell'ordine, qualsiasi nessun impegno di lavoro con data inizio/fine e numero di persone</value>
         <value xml:lang="ja">注文にレンタル注文アイテムがありますが、作業成果の開始/終了日および人数がありません</value>
@@ -3247,7 +3247,7 @@
     <property key="OrderReturnItemTypeIsNotDefined">
         <value xml:lang="de">Retourenpositionsart ist für diese Position nicht definiert; oder es wurde keine Zuordnung gefunden.</value>
         <value xml:lang="en">Return Item Type is not defined for this item; or no mapping was found.</value>
-        <value xml:lang="fa">نوع قلم بازگشت تعریف نشده برای این قلم؛ یا هیچ نگاشتی پیدا نشد.</value>
+        <value xml:lang="fa">نوع قلم بازگشت تعریف نشده برای این قلم؛ یا هیچ نگاشتی پیدانشده.</value>
         <value xml:lang="fr">Le type de retour n'est pas défini pour cette ligne.</value>
         <value xml:lang="it">Tipo riga reso non è definita per questa riga.</value>
         <value xml:lang="ja">このアイテムに対して返品アイテム種類が定義されていないか、マッピングが見つかりません。</value>
@@ -3330,7 +3330,7 @@
     <property key="OrderReturnRequestPartyRoleInternalOrg">
         <value xml:lang="de">Fehler: eine Retoure muss an einen Akteur in der Rolle 'interne Organisation' gehen</value>
         <value xml:lang="en">Error: a return must be to a party in the role of internal organization</value>
-        <value xml:lang="fa">خطا: یک بازگشت به هم‌مشرب در وظیفه سازمان داخلی باید باشد</value>
+        <value xml:lang="fa">خطا: یک بازگشت به هویت در وظیفه سازمان داخلی باید باشد</value>
         <value xml:lang="fr">Erreur : le retour doit avoir un acteur avec le rôle d'organisation interne</value>
         <value xml:lang="it">Errore: un reso deve avere un soggetto con ruolo organizzazione interna</value>
         <value xml:lang="ja">エラー: 返品は内部組織のロールに含まれる取引先に対して行う必要があります</value>
@@ -3340,7 +3340,7 @@
     <property key="OrderReturnRequestPartyRoleSupplier">
         <value xml:lang="de">Fehler: eine Retoure muss an einen Akteur in der Rolle 'Lieferant' gehen</value>
         <value xml:lang="en">Error: a return must be to a party in the role of supplier</value>
-        <value xml:lang="fa">خطا: یک بازگشت به هم‌مشرب در وظیفه فراهم‌کننده باید باشد</value>
+        <value xml:lang="fa">خطا: یک بازگشت به هویت در وظیفه فراهم‌کننده باید باشد</value>
         <value xml:lang="fr">Erreur : le retour doit avoir un acteur avec le rôle de fournisseur</value>
         <value xml:lang="it">Errore: un reso deve avere un soggetto con ruolo fornitore</value>
         <value xml:lang="ja">エラー: 返品はサプライヤのロールに含まれる取引先に対して行う必要があります</value>
@@ -3839,7 +3839,7 @@
         <value xml:lang="de">Berechtigungsfehler: Um 'createShoppingList' für einen anderen Akteur auszuführen muss man PARTYMGR_CREATE oder PARTYMGR_ADMIN Berechtigungen haben</value>
         <value xml:lang="en">Security Error : to run createShoppingList for another party you must have the PARTYMGR_CREATE or PARTYMGR_ADMIN permission</value>
         <value xml:lang="es">Error de seguridad: Para ejecutar createShoppingList debe contar con los permisos PARTYMGR_CREATE o PARTYMGR_ADMIN</value>
-        <value xml:lang="fa">خطا امنیتی : برای اجراء createShoppingList برای هم‌مشرب دیگر شما باید مجوز PARTYMGR_CREATE یا PARTYMGR_ADMIN را داشته باشید</value>
+        <value xml:lang="fa">خطا امنیتی : برای اجراء createShoppingList برای هویت دیگر شما باید مجوز PARTYMGR_CREATE یا PARTYMGR_ADMIN را داشته باشید</value>
         <value xml:lang="fr">Erreur de sécurité : pour exécuter createShoppingList pour un autre acteur, vous devez avoir l'autorisation d'administrer ou de créer la commande</value>
         <value xml:lang="it">Errore Sicurezza : per eseguire createShoppingList per un'altro soggetto tu devi avere il permesso PARTYMGR_CREATE o PARTYMGR_ADMIN</value>
         <value xml:lang="ja">セキュリティエラー: createShoppingListの実行には PARTYMGR_CREATE または PARTYMGR_ADMIN 権限が必要です</value>
@@ -3901,7 +3901,7 @@
         <value xml:lang="de">Berechtigungsfehler: Um '${parentMethodName}' für einen anderen Akteur auszuführen muss man PARTYMGR_${permissionAction} oder PARTYMGR_ADMIN Berechtigungen haben</value>
         <value xml:lang="en">Security Error : to run ${parentMethodName} for another party you must have the PARTYMGR_${permissionAction} or PARTYMGR_ADMIN permission</value>
         <value xml:lang="es">Error de seguridad: Para ejecutar ${parentMethodName} debe contar con los permisos PARTYMGR_${permissionAction} o PARTYMGR_ADMIN</value>
-        <value xml:lang="fa">خطا امنیتی : برای اجراء ${parentMethodName} برای هم‌مشرب دیگر شما باید مجوز PARTYMGR_${permissionAction} یا PARTYMGR_ADMIN را داشته باشید</value>
+        <value xml:lang="fa">خطا امنیتی : برای اجراء ${parentMethodName} برای هویت دیگر شما باید مجوز PARTYMGR_${permissionAction} یا PARTYMGR_ADMIN را داشته باشید</value>
         <value xml:lang="fr">Erreur de sécurité : pour exécuter ${parentMethodName} pour un autre acteur, vous devez avoir l'autorisation d'administrer ou ${permissionAction} la commande</value>
         <value xml:lang="it">Errore Sicurezza : per eseguire ${parentMethodName} per altri soggetti tu devi avere il permesso PARTYMGR_${permissionAction} o PARTYMGR_ADMIN.</value>
         <value xml:lang="ja">セキュリティエラー: 別の取引先に対する ${parentMethodName} の実行には ORDERMGR_${permissionAction} または ORDERMGR_ADMIN 権限が必要です</value>
@@ -4577,7 +4577,7 @@
         <value xml:lang="de">Fehler beim Lesen von 'OrderHeader'; Versandmenge kann nicht ermittelt werden</value>
         <value xml:lang="en">Unable to find OrderHeader; cannot get shipping amount</value>
         <value xml:lang="es">No se pudo encontrar cabecera del pedido, no se puede obtener el monto del envío</value>
-        <value xml:lang="fa">ناتوانی در پیداکردن سرفصل سفارش؛ نمی‌توان مقدار حمل را گرفت</value>
+        <value xml:lang="fa">ناتوانی در پیداکردن سربرگ سفارش؛ نمی‌توان مقدار حمل را گرفت</value>
         <value xml:lang="fr">Impossible de trouver l'en-tête de commande; ne peut pas obtenir la quantité de chargement</value>
         <value xml:lang="it">Non è possibile trovare OrderHeader; non è possibile leggere l'importo spedizione</value>
         <value xml:lang="ja">注文ヘッダが見つかりません。発送金額を取得できません</value>
@@ -4736,7 +4736,7 @@
         <value xml:lang="de">Fehler beim Setzen der Stornierungsmenge : ${itemMsgInfo}</value>
         <value xml:lang="en">Unable to set cancel quantity : ${itemMsgInfo}</value>
         <value xml:lang="es">No se puede poner la cantidad cancelada : ${itemMsgInfo}</value>
-        <value xml:lang="fa">ناتوانی در ثبت کمیت لغو شده : ${itemMsgInfo}</value>
+        <value xml:lang="fa">ناتوانی در ثبت کمیت لغوشده : ${itemMsgInfo}</value>
         <value xml:lang="fr">Impossible de mettre la quantité annulée : ${itemMsgInfo}</value>
         <value xml:lang="it">Non è possibile impostare la quantità annullata : ${itemMsgInfo}</value>
         <value xml:lang="ja">取消数量を設定できません: ${itemMsgInfo}</value>
@@ -5186,7 +5186,7 @@
     <property key="cart.cart_is_in_read_only_mode">
         <value xml:lang="de">Der Warenkorb ist im 'Nur-Lese-Modus'</value>
         <value xml:lang="en">Cart is in read only mode</value>
-        <value xml:lang="fa">سبد در حالت فقط خواندن می‌باشد</value>
+        <value xml:lang="fa">سبد درحالت فقط خواندن می‌باشد</value>
         <value xml:lang="fr">Le panier est en lecture seule</value>
         <value xml:lang="it">Carrello è in modalità sola lettura</value>
         <value xml:lang="ja">買い物かごは読み取り専用モードです</value>
@@ -5253,7 +5253,7 @@
         <value xml:lang="de">Produkt(e) aus Kategorie ${categorieId} konnten nicht zum Warenkorb hinzugefügt werden {read error}.</value>
         <value xml:lang="en">Could not get products in category ${categorieId} to add to cart {read error}.</value>
         <value xml:lang="es">No se han obtenido productos para añadir al carro de la categoría ${categorieId} {read error}.</value>
-        <value xml:lang="fa">نمی‌توان محصولات در دسته‌بندی ${categorieId} برای اضافه کردن به سبد یافت‌کرد {خطا را بخوانید}.</value>
+        <value xml:lang="fa">نمی‌توان محصولات در دسته‌بندی ${categorieId} برای اضافه‌کردن به سبد یافت‌کرد {خطا را بخوانید}.</value>
         <value xml:lang="fr">Impossible d'obtenir des articles de la catégorie ${categorieId} à ajouter au panier {read error}.</value>
         <value xml:lang="it">Non è possibile leggere i prodotti della categoria ${categorieId} per aggiungere al carrello {read error}.</value>
         <value xml:lang="ja">カテゴリ ${categorieId} の製品を取得できないため、買い物かごに追加できません {読み込みエラー}。</value>
@@ -5750,7 +5750,7 @@
         <value xml:lang="de">Auftragskopf konnte nicht ermittelt werden. Kann nicht externe Gateways prüfen.</value>
         <value xml:lang="en">Problems getting order header. Cannot check external gateways!</value>
         <value xml:lang="es">Problema en la obtención del encabezado del pedido. ¡Gateways externos no se pueden comprobar!</value>
-        <value xml:lang="fa">مشکل در دریافت سرفصل سفارش. نمی‌توان دروازه خروجی را چک کرد!</value>
+        <value xml:lang="fa">مشکل در دریافت سربرگ سفارش. نمی‌توان دروازه خروجی را چک کرد!</value>
         <value xml:lang="fr">Problème lors de l'obtention de l'entête de commande : ne peut vérifier avec aucune passerelle externe !</value>
         <value xml:lang="it">Problema leggendo intestazione ordine. Non è possibile controllare gateways esterni!</value>
         <value xml:lang="ja">注文ヘッダの取得中にエラー。外部ゲートウェイを確認できません!</value>
@@ -5890,7 +5890,7 @@
         <value xml:lang="de">Bitte wählen Sie die bevorzugte Aufteilung.</value>
         <value xml:lang="en">Please Select a Splitting Preference.</value>
         <value xml:lang="es">Por favor, seleccione una preferencia de división.</value>
-        <value xml:lang="fa">لطفا ترجیحات تقسیم را انتخاب نمایید.</value>
+        <value xml:lang="fa">لطفا ترجیحات تقسیم‌بندی را انتخاب نمایید.</value>
         <value xml:lang="fr">S'il vous plaît choisissez une préférence pour le fractionnement de l'expédition.</value>
         <value xml:lang="it">Per favore seleziona una preferenza di suddivisione.</value>
         <value xml:lang="ja">分割設定を選択してください。</value>
@@ -5926,7 +5926,7 @@
         <value xml:lang="de">Bitte geben Sie 'Auslieferung nach Datum' als Datum an.</value>
         <value xml:lang="en">Please specify ship after date as a date.</value>
         <value xml:lang="es">Por favor indique la fecha de envío 'después de' como fecha.</value>
-        <value xml:lang="fa">لطفا «حمل بعد از تاریخ» را به عنوان تاریخ مشخص‌نمایید.</value>
+        <value xml:lang="fa">لطفا «حمل بعد از تاریخ» را به‌عنوان تاریخ مشخص‌نمایید.</value>
         <value xml:lang="fr">SVP, veuillez remplir correctement la date de "livraison après".</value>
         <value xml:lang="it">Per favore inserire una data nel campo "consegna dopo".</value>
         <value xml:lang="ja">指定日以降に発送する場合の日付を指定してください。</value>
@@ -5944,7 +5944,7 @@
         <value xml:lang="de">Bitte geben Sie 'Auslieferung vor Datum' als Datum an.</value>
         <value xml:lang="en">Please specify a ship before date as a date.</value>
         <value xml:lang="es">Por favor indique la fecha de envío 'antes de' como fecha.</value>
-        <value xml:lang="fa">لطفا «حمل قبل از حمل» را به عنوان تاریخ مشخص‌نمایید.</value>
+        <value xml:lang="fa">لطفا «حمل قبل از حمل» را به‌عنوان تاریخ مشخص‌نمایید.</value>
         <value xml:lang="fr">SVP, veuillez remplir correctement la date de "livraison avant".</value>
         <value xml:lang="it">Per favore inserire una data nel campo "consegna prima".</value>
         <value xml:lang="ja">指定日までに発送する場合の日付を指定してください。</value>
@@ -5962,7 +5962,7 @@
         <value xml:lang="de">FEHLER: Verkaufsauftrag Element Lookup fehlgeschlagen.</value>
         <value xml:lang="en">ERROR: Sales Order Lines lookup failed.</value>
         <value xml:lang="es">Error: Ha fallado la consulta de líneas del pedido de venta.</value>
-        <value xml:lang="fa">خطا: پیدا کردن خطوط سفارش فروش شکست‌خورد.</value>
+        <value xml:lang="fa">خطا: پیداکردن خطوط سفارش فروش شکست‌خورد.</value>
         <value xml:lang="fr">ERREUR : la vérification des lignes de commande de ventes a échouée.</value>
         <value xml:lang="it">ERRORE: Righe Ordine Vendita ricerca fallita.</value>
         <value xml:lang="ja">エラー: 販売注文行が検索できませんでした。</value>
@@ -6224,7 +6224,7 @@
         <value xml:lang="de">Das Produkt mit der Nummer ${productId} konnte nicht gefunden werden.</value>
         <value xml:lang="en">Product not found, not adding to cart. [productId: ${productId}]</value>
         <value xml:lang="es">El producto no se ha encontrado, no se añade al carro. [código: ${productId}]</value>
-        <value xml:lang="fa">محصول پیدا نشد، به سبد اضافه نشد. آی‌دی محصول : [${productId}]</value>
+        <value xml:lang="fa">محصول پیدانشده، به سبد اضافه نشد. آی‌دی محصول : [${productId}]</value>
         <value xml:lang="fr">Article non trouvé, pas d'ajout dans le panier. [réf. : ${productId}]</value>
         <value xml:lang="it">Prodotto non trovato, non verrà aggiunto al carrello. [prodotto: ${productId}]</value>
         <value xml:lang="ja">製品が見つかりません。買い物かごに追加できません。[製品ID: ${productId}]</value>
@@ -6352,7 +6352,7 @@
     <property key="productpromoworker.promotion_code_already_been_entered">
         <value xml:lang="de">Der Aktionscode [${productPromoCodeId}] wurde schon verwendet.</value>
         <value xml:lang="en">The promotion code [${productPromoCodeId}] has already been entered.</value>
-        <value xml:lang="fa">کد تبلیغ [${productPromoCodeId}] از قبل واردشده‌است.</value>
+        <value xml:lang="fa">کد تبلیغ [${productPromoCodeId}] ازقبل واردشده‌است.</value>
         <value xml:lang="fr">Le code de promotion [${productPromoCodeId}] a déjà été utilisé.</value>
         <value xml:lang="ja">プロモーションコード [${productPromoCodeId}] はすでに登録されています。</value>
         <value xml:lang="pt_BR">O código da promoção [${productPromoCodeId}] já foi utilizado.</value>

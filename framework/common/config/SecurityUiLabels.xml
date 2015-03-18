@@ -22,7 +22,7 @@
         <value xml:lang="de">Berechtigung (durch Eingabe) zur Sicherheitsgruppe hinzufügen</value>
         <value xml:lang="en">Add Permission (manually) to Security Group</value>
         <value xml:lang="es">Añadir permiso (manualmente) al grupo de seguridad</value>
-        <value xml:lang="fa">اضافه کردن اجازه (دستی) به گروه امنیتی</value>
+        <value xml:lang="fa">اضافه‌کردن مجوز (دستی) به گروه امنیتی</value>
         <value xml:lang="fr">Ajouter une autorisation (manuellement) au groupe de sécurité</value>
         <value xml:lang="hi_IN">सुरक्षा समूह में अनुमति(स्वयं) जोड़ें</value>
         <value xml:lang="it">Aggiungi permesso (manualmente) al gruppo sicurezza</value>
@@ -40,7 +40,7 @@
         <value xml:lang="de">Berechtigung (aus Liste) zur Sicherheitsgruppe hinzufügen</value>
         <value xml:lang="en">Add Permission (from list) to Security Group</value>
         <value xml:lang="es">Añadir permiso (desde lista) a grupo de seguridad</value>
-        <value xml:lang="fa">اضافه کردن اجازه (از لیست) به گروه امنیتی</value>
+        <value xml:lang="fa">اضافه‌کردن اجازه (از لیست) به گروه امنیتی</value>
         <value xml:lang="fr">Ajouter une autorisation (à partir de la liste) au groupe de sécurité</value>
         <value xml:lang="hi_IN">सुरक्षा समूह में अनुमति(सूची से) जोड़ें</value>
         <value xml:lang="it">Aggiungi permesso (dalla lista) al gruppo sicurezza</value>
@@ -58,7 +58,7 @@
         <value xml:lang="de">Geschützte Ansicht zu Sicherheitsgruppe hinzufügen</value>
         <value xml:lang="en">Add a Protected View to SecurityGroup</value>
         <value xml:lang="es">Añadir una vista protegida a grupo de seguridad</value>
-        <value xml:lang="fa">اضافه کردن یک نمای حفاظت‌شده به گروه امنیتی</value>
+        <value xml:lang="fa">اضافه‌کردن یک نمای حفاظت‌شده به «گروه امنیتی»</value>
         <value xml:lang="fr">Ajouter une vue protégée à ce groupe de sécurité</value>
         <value xml:lang="hi_IN">सुरक्षा समूह में सुरक्षित दृष्टिकोण जोड़ें</value>
         <value xml:lang="it">Aggiungi una vista protetta al gruppo sicurezza</value>
@@ -72,7 +72,7 @@
         <value xml:lang="de">Benutzeranmeldung zur Sicherheitsgruppe hinzufügen</value>
         <value xml:lang="en">Add User Login to Security Group</value>
         <value xml:lang="es">Añadir usuario a grupo de seguridad</value>
-        <value xml:lang="fa">اضافه کردن حساب کاربری به گروه امنیتی</value>
+        <value xml:lang="fa">اضافه‌کردن ورود کاربر به گروه امنیتی</value>
         <value xml:lang="fr">Ajouter un identifiant de connexion à ce groupe de sécurité</value>
         <value xml:lang="hi_IN">सुरक्षा समूह में प्रयोक्तालॉगिन जोड़ें</value>
         <value xml:lang="it">Aggiungi utente al gruppo sicurezza</value>
@@ -90,7 +90,7 @@
         <value xml:lang="de">Komponente</value>
         <value xml:lang="en">Component</value>
         <value xml:lang="es">Componente</value>
-        <value xml:lang="fa">اجزاء گواهی</value>
+        <value xml:lang="fa">مولفه</value>
         <value xml:lang="fr">Composant</value>
         <value xml:lang="hi_IN">घटक</value>
         <value xml:lang="it">Componente</value>
@@ -106,7 +106,7 @@
         <value xml:lang="de">Zertifikats-Details</value>
         <value xml:lang="en">Cert Details</value>
         <value xml:lang="es">Detalles del certificado</value>
-        <value xml:lang="fa">جزئیات گواهی</value>
+        <value xml:lang="fa">جزئیات تضمین</value>
         <value xml:lang="fr">Détails du certificat</value>
         <value xml:lang="ja">証明書詳細</value>
         <value xml:lang="pt_BR">Detalhes do certificado</value>
@@ -117,7 +117,7 @@
         <value xml:lang="de">Aussteller importieren</value>
         <value xml:lang="en">Import Issuer</value>
         <value xml:lang="es">Imporar emisor</value>
-        <value xml:lang="fa">وارد کردن گواهی صادرکننده</value>
+        <value xml:lang="fa">واردکردن صادرگر</value>
         <value xml:lang="fr">Émetteur d'importation</value>
         <value xml:lang="hi_IN">जारीकर्ता आयात करे</value>
         <value xml:lang="it">Importa Certificato</value>
@@ -133,7 +133,7 @@
         <value xml:lang="de">Ungültiges Zertifikat</value>
         <value xml:lang="en">Invalid certificate</value>
         <value xml:lang="es">Certificado no válido</value>
-        <value xml:lang="fa">گواهی نامعتبر</value>
+        <value xml:lang="fa">تضمین نامعتبر</value>
         <value xml:lang="fr">Certificat irrecevable</value>
         <value xml:lang="hi_IN">अमान्य प्रमाणपत्र</value>
         <value xml:lang="it">Certificato Invalido</value>
@@ -149,7 +149,7 @@
         <value xml:lang="de">Zertifikatsersteller</value>
         <value xml:lang="en">Cert Issuers</value>
         <value xml:lang="es">Emisores de certificados</value>
-        <value xml:lang="fa">گواهی صادرکنندگان</value>
+        <value xml:lang="fa">تضمین صادرگران</value>
         <value xml:lang="fr">Émetteurs de certificat</value>
         <value xml:lang="hi_IN">प्रमाणपत्र के प्रदाता</value>
         <value xml:lang="it">Fornitori di certificati</value>
@@ -165,7 +165,7 @@
         <value xml:lang="de">Schlüssel Alias</value>
         <value xml:lang="en">Key Alias</value>
         <value xml:lang="es">Alias de clave</value>
-        <value xml:lang="fa">نام مستعار کلیدی گواهی</value>
+        <value xml:lang="fa">نام‌مستعار کلیدی</value>
         <value xml:lang="fr">Clé d'alias</value>
         <value xml:lang="hi_IN">कुंजी के उपनाम</value>
         <value xml:lang="it">Chiave Alias</value>
@@ -181,7 +181,7 @@
         <value xml:lang="de">KeyStore</value>
         <value xml:lang="en">Keystore</value>
         <value xml:lang="es">Almacén de claves</value>
-        <value xml:lang="fa">کلمه کلیدی گواهی</value>
+        <value xml:lang="fa">انبارواژه</value>
         <value xml:lang="fr">Clé de magasin</value>
         <value xml:lang="hi_IN">कुंजीस्टोर</value>
         <value xml:lang="it">Keystore</value>
@@ -197,7 +197,7 @@
         <value xml:lang="de">Zertifikat Name</value>
         <value xml:lang="en">Cert Name</value>
         <value xml:lang="es">Nombre del certificado</value>
-        <value xml:lang="fa">نام گواهی</value>
+        <value xml:lang="fa">نام تضمین</value>
         <value xml:lang="fr">Nom de Certificat</value>
         <value xml:lang="hi_IN">प्रमाणपत्र का नाम</value>
         <value xml:lang="it">Nome Certificato</value>
@@ -213,7 +213,7 @@
         <value xml:lang="de">Im KeyStore speichern</value>
         <value xml:lang="en">Save to Keystore</value>
         <value xml:lang="es">Guardar en el almacén de claves</value>
-        <value xml:lang="fa">ذخیره کردن کلمه کلیدی گواهی</value>
+        <value xml:lang="fa">ذخیره کردن در انبارواژه</value>
         <value xml:lang="fr">Sauver dans le magasin de clés</value>
         <value xml:lang="hi_IN">कुंजीस्टोर में सहेजें</value>
         <value xml:lang="it">Salva sul KeyStore</value>
@@ -229,7 +229,7 @@
         <value xml:lang="de">Zertifikat Seriennummer</value>
         <value xml:lang="en">Cert Serial Number</value>
         <value xml:lang="es">Nº de serie del certificado</value>
-        <value xml:lang="fa">شماره سریال گواهی</value>
+        <value xml:lang="fa">شماره سریال تضمین</value>
         <value xml:lang="fr">N° de série de Certificat</value>
         <value xml:lang="hi_IN">प्रमाणपत्र क्रम संख्या</value>
         <value xml:lang="it">Numero di Serie Certificato</value>
@@ -245,7 +245,7 @@
         <value xml:lang="de">Zertifikat Typ</value>
         <value xml:lang="en">Cert Type</value>
         <value xml:lang="es">Tipo de certificado</value>
-        <value xml:lang="fa">نوع گواهی</value>
+        <value xml:lang="fa">نوع تضمین</value>
         <value xml:lang="fr">Type de Certificat</value>
         <value xml:lang="hi_IN">प्रमाणपत्र का प्रकार</value>
         <value xml:lang="it">Tipo Certificato</value>
@@ -261,7 +261,7 @@
         <value xml:lang="de">Benutzeranmeldung erstellen</value>
         <value xml:lang="en">Create User Login</value>
         <value xml:lang="es">Crear usuario</value>
-        <value xml:lang="fa">ساختن حساب کاربری</value>
+        <value xml:lang="fa">ساختن ورود کاربر</value>
         <value xml:lang="fr">Création d'un identifiant de connexion</value>
         <value xml:lang="hi_IN">प्रयोक्तालॉगिन बनाएँ</value>
         <value xml:lang="it">Creare Utente</value>
@@ -278,7 +278,7 @@
         <value xml:lang="de">Benutzer Login suchen</value>
         <value xml:lang="en">Find User Login</value>
         <value xml:lang="es">Buscar nombre de usuario</value>
-        <value xml:lang="fa">پیدا کردن حساب کاربری</value>
+        <value xml:lang="fa">پیداکردن ورود کاربر</value>
         <value xml:lang="fr">Recherche d'identifiant de connexion</value>
         <value xml:lang="it">Ricerca utenti</value>
         <value xml:lang="ja">ユーザログインを検索</value>
@@ -324,7 +324,7 @@
         <value xml:lang="de">Deaktiviert am</value>
         <value xml:lang="en">Disabled Date Time</value>
         <value xml:lang="es">Deshabilitado el</value>
-        <value xml:lang="fa">تاریخ زمان غیرفعال‌شده</value>
+        <value xml:lang="fa">زمان تاریخ غیرفعال‌شده</value>
         <value xml:lang="fr">Désactiver (à date)</value>
         <value xml:lang="it">Disabilitato dal</value>
         <value xml:lang="ja">無効日時</value>
@@ -355,7 +355,7 @@
         <value xml:lang="de">Externe Authentifizierungs-ID</value>
         <value xml:lang="en">External Auth Id</value>
         <value xml:lang="es">Código de autentificación externa</value>
-        <value xml:lang="fa">مجوز به آی‌دی خارجی</value>
+        <value xml:lang="fa">آی‌دی مجوز مستقل</value>
         <value xml:lang="fr">Ident. Externe</value>
         <value xml:lang="it">Codice autenticazione esterna</value>
         <value xml:lang="ja">外部認証ID</value>
@@ -366,7 +366,7 @@
         <value xml:lang="de">Hat sich abgemeldet</value>
         <value xml:lang="en">Has Logged Out</value>
         <value xml:lang="es">Se ha desconectado</value>
-        <value xml:lang="fa">خارج شده است</value>
+        <value xml:lang="fa">آیا خارج شده‌است</value>
         <value xml:lang="fr">A été déconnecté</value>
         <value xml:lang="it">Uscito dal sistema</value>
         <value xml:lang="ja">ログアウトしました</value>
@@ -377,7 +377,7 @@
         <value xml:lang="de">Maximale Anzahl der Besuche</value>
         <value xml:lang="en">Maximum number of visits</value>
         <value xml:lang="es">Número máximo de visitas</value>
-        <value xml:lang="fa">بیشترین تعداد مراجعات</value>
+        <value xml:lang="fa">بیشترین تعداد بازدیدها</value>
         <value xml:lang="fr">Nombre maximum de visites</value>
         <value xml:lang="hi_IN">यात्राओं(visits) की अधिकतम संख्या</value>
         <value xml:lang="it">Massimo numero di visite</value>
@@ -392,7 +392,7 @@
         <value xml:lang="de">Zeitspanne die für einen Besuch angenommen werden (in Sekunden)</value>
         <value xml:lang="en">Duration during which the visits are considered (in seconds)</value>
         <value xml:lang="es">Período durante el que las visitas son consideradas (en segundos)</value>
-        <value xml:lang="fa">زمان کلی که مراجعات مورد توجه بوده است (به ثانیه)</value>
+        <value xml:lang="fa">زمان کلی که بازدیدها مورد توجه‌نقد بوده‌است (به ثانیه)</value>
         <value xml:lang="fr">Durée pendant laquelle les visites sont considérées (en secondes)</value>
         <value xml:lang="hi_IN">अवधि जिसके दौरान यात्राओं पर विचार कर रहे हैं (सेकंड में)</value>
         <value xml:lang="it">Durata nella quale le visite sono considerate (in secondi)</value>
@@ -439,7 +439,7 @@
         <value xml:lang="de">Passwort Hinweis</value>
         <value xml:lang="en">Password Hint</value>
         <value xml:lang="es">Pista para la clave</value>
-        <value xml:lang="fa">اشاره گذرواژه</value>
+        <value xml:lang="fa">اشاره‌به گذرواژه</value>
         <value xml:lang="fr">Indice pour le mot de passe</value>
         <value xml:lang="it">Suggerimento password</value>
         <value xml:lang="ja">パスワードのヒント</value>
@@ -450,7 +450,7 @@
         <value xml:lang="de">Passwortänderung benötigt</value>
         <value xml:lang="en">Require Password Change</value>
         <value xml:lang="es">Debe cambiar la clave</value>
-        <value xml:lang="fa">نیاز به تغییر گذرواژه</value>
+        <value xml:lang="fa">تغییر گذرواژه لازم‌است</value>
         <value xml:lang="fr">Changement mot de passe obligatoire</value>
         <value xml:lang="hi_IN">पासवर्ड परिवर्तित किया जाना चाहिए</value>
         <value xml:lang="it">Richiesto cambio password</value>
@@ -475,7 +475,7 @@
         <value xml:lang="de">Zeitspanne für die die Ansicht nicht angezeigt wird (in Sekunden)</value>
         <value xml:lang="en">Duration during which the view will not be accessible (in seconds)</value>
         <value xml:lang="es">Período durante el cual la vista no será accesible (en segundos)</value>
-        <value xml:lang="fa">زمان کلی که نما قابل دسترسی نخواهد بود (به ثانیه)</value>
+        <value xml:lang="fa">زمان کلی که نما قابل‌دسترس نخواهدبود (به ثانیه)</value>
         <value xml:lang="fr">Durée pendant laquelle la vue ne sera plus accessible (en secondes)</value>
         <value xml:lang="hi_IN">अवधि जिसके दौरान देखना सुलभ नहीं होगा (सेकंड में)</value>
         <value xml:lang="it">Tempo durante il quale la vista non è accessibile (in secondi)</value>
@@ -489,7 +489,7 @@
         <value xml:lang="de">LDAP Distinguished Name</value>
         <value xml:lang="en">LDAP Distinguished Name</value>
         <value xml:lang="es">Nombre distinguido LDAP</value>
-        <value xml:lang="fa">نام برجسته  LADP</value>
+        <value xml:lang="fa">نام برجسته فهرست‌راهنما(LDAP)</value>
         <value xml:lang="fr">Nom LDAP distinct</value>
         <value xml:lang="hi_IN">एलडीएपी(LDAP) विशिष्ट नाम</value>
         <value xml:lang="it">Nome distinto LDAP</value>
@@ -504,7 +504,7 @@
         <value xml:lang="de">Benutzeranmeldung ID</value>
         <value xml:lang="en">User Login ID</value>
         <value xml:lang="es">Código de usuario para conexión</value>
-        <value xml:lang="fa">آی‌دی حساب کاربری</value>
+        <value xml:lang="fa">آی‌دی ورود کاربر</value>
         <value xml:lang="fr">Identifiant de connexion</value>
         <value xml:lang="hi_IN">प्रयोक्ता लॉगिन क्रमांक</value>
         <value xml:lang="it">Codice utente</value>
@@ -535,7 +535,7 @@
         <value xml:lang="de">Benutzer Anmeldung suchen</value>
         <value xml:lang="en">Lookup User Login</value>
         <value xml:lang="es">Buscar nombre de usuario</value>
-        <value xml:lang="fa">جستجو حساب کاربری</value>
+        <value xml:lang="fa">جستجوی ورود کاربر</value>
         <value xml:lang="fr">Recherche d'identifiant de connexion</value>
         <value xml:lang="ja">ユーザログインを検索</value>
         <value xml:lang="pt_BR">Pesquisar Nome de Usuário</value>
@@ -564,7 +564,7 @@
         <value xml:lang="de">Aussteller Bestimmungen hinzufügen</value>
         <value xml:lang="en">Add Issuer Provisions</value>
         <value xml:lang="es">Añadir condiciones de emisor</value>
-        <value xml:lang="fa">اضافه کردن شرایط صادرکننده</value>
+        <value xml:lang="fa">اضافه‌کردن شرایط صادرگر</value>
         <value xml:lang="fr">Ajoutez les dispositions d'émetteur</value>
         <value xml:lang="hi_IN">जारीकर्ता के प्रावधान जोड़ें</value>
         <value xml:lang="it">Aggiungi fornitore di certificati</value>
@@ -580,7 +580,7 @@
         <value xml:lang="de">Aussteller Bestimmungen bearbeiten</value>
         <value xml:lang="en">Edit Issuer Provisions</value>
         <value xml:lang="es">Editar condiciones de emisor</value>
-        <value xml:lang="fa">ویرایش شرایط صادرکننده</value>
+        <value xml:lang="fa">ویرایش شرایط صادرگر</value>
         <value xml:lang="fr">Modifier les dispositions d'émetteur</value>
         <value xml:lang="hi_IN">निर्गमकर्ता प्रावधानों को संपादित करें</value>
         <value xml:lang="it">Aggiorna Fornitore Certificati</value>
@@ -632,7 +632,7 @@
         <value xml:lang="de">Sicherheitsgruppen zur Benuterzanmeldung bearbeiten</value>
         <value xml:lang="en">Edit User Login Security Groups</value>
         <value xml:lang="es">Editar grupos de seguridad</value>
-        <value xml:lang="fa">ویرایش گروه امنیتی حساب کاربری</value>
+        <value xml:lang="fa">ویرایش گروه امنیتی ورود کاربر</value>
         <value xml:lang="fr">Modifier les groupes de sécurité de l'identifiant de connexion </value>
         <value xml:lang="hi_IN">प्रयोक्तालॉगिन के सुरक्षा समूह को संपादित करें</value>
         <value xml:lang="it">Aggiorna Gruppi Sicurezza Utente</value>
@@ -649,7 +649,7 @@
         <value xml:lang="de">Sicherheitsgruppe suchen</value>
         <value xml:lang="en">Find Security Group</value>
         <value xml:lang="es">Buscar grupo de seguridad</value>
-        <value xml:lang="fa">پیدا کردن گروه امنیتی</value>
+        <value xml:lang="fa">پیداکردن گروه امنیتی</value>
         <value xml:lang="fr">Recherche de groupes de sécurité</value>
         <value xml:lang="hi_IN">सुरक्षा समूह खोजें</value>
         <value xml:lang="it">Ricerca gruppi sicurezza</value>
@@ -666,7 +666,7 @@
         <value xml:lang="de">Zertifikat importieren</value>
         <value xml:lang="en">Import Certificate</value>
         <value xml:lang="es">Importar certificado</value>
-        <value xml:lang="fa">وارد کردن گواهی</value>
+        <value xml:lang="fa">واردکردن تضمین</value>
         <value xml:lang="fr">Importer le certificat</value>
         <value xml:lang="hi_IN">प्रमाणपत्र आयात करे</value>
         <value xml:lang="it">Importa Certificato</value>
@@ -682,7 +682,7 @@
         <value xml:lang="de">Berechtigung ID</value>
         <value xml:lang="en">Permission ID</value>
         <value xml:lang="es">Código de permiso</value>
-        <value xml:lang="fa">آی‌دی مجوز</value>
+        <value xml:lang="fa">آی‌دی اجازه</value>
         <value xml:lang="fr">Autorisation</value>
         <value xml:lang="hi_IN">अनुमति क्रमांक</value>
         <value xml:lang="it">Codice permesso</value>
@@ -700,7 +700,7 @@
         <value xml:lang="de">Berechtigungen</value>
         <value xml:lang="en">Permissions</value>
         <value xml:lang="es">Permisos</value>
-        <value xml:lang="fa">آی‌دی مجوزها</value>
+        <value xml:lang="fa">آی‌دی اجازه‌ها</value>
         <value xml:lang="fr">Autorisations</value>
         <value xml:lang="hi_IN">अनुमतियाँ</value>
         <value xml:lang="it">Permessi</value>
@@ -718,7 +718,7 @@
         <value xml:lang="de">Geschützte Ansichten</value>
         <value xml:lang="en">Protected Views</value>
         <value xml:lang="es">Vistas protegidas</value>
-        <value xml:lang="fa">نمای حفاظت شده</value>
+        <value xml:lang="fa">نمای حفاظت‌شده</value>
         <value xml:lang="fr">Vues protégées</value>
         <value xml:lang="hi_IN">संरक्षित दृश्य</value>
         <value xml:lang="it">Viste protette</value>
@@ -750,7 +750,7 @@
         <value xml:lang="de">Liste der Sicherheitsgruppen</value>
         <value xml:lang="en">SecurityGroups List</value>
         <value xml:lang="es">Lista de grupos de seguridad</value>
-        <value xml:lang="fa">لیست گروه‌های امنیتی</value>
+        <value xml:lang="fa">لیست‌کردن گروه‌های امنیتی</value>
         <value xml:lang="fr">Liste des groupes de sécurité</value>
         <value xml:lang="hi_IN">सुरक्षासमूह की सूची</value>
         <value xml:lang="it">Lista gruppi sicurezza</value>
@@ -768,7 +768,7 @@
         <value xml:lang="de">Sicherheitsfehler: Sie haben nicht die Berechtigung diese Seite anzusehen. ("SECURITY_VIEW" oder "SECURITY_ADMIN" benötigt) </value>
         <value xml:lang="en">SecurityViewPermissionError You do not have permission to view this page. ("SECURITY_VIEW" or "SECURITY_ADMIN" needed)</value>
         <value xml:lang="es">Error de seguridad: para acceder a esta funcionalidad debe contar con los permisos SECURITY_VIEW o SECURITY_ADMIN</value>
-        <value xml:lang="fa">خطا در اجازه دیدن نما، شما اجازه ندارید نمای این صفحه را ببینید. ("SECURITY_VIEW" or "SECURITY_ADMIN" needed)</value>
+        <value xml:lang="fa">«خطا در اجازه دیدن نما»، شما اجازه ندارید نمای این صفحه را ببینید. ("SECURITY_VIEW" or "SECURITY_ADMIN" needed)</value>
         <value xml:lang="fr">Error Vous n'avez pas l'autorisation de voir cette page. ("SECURITY_VIEW" ou "SECURITY_ADMIN" est nécessaire)</value>
         <value xml:lang="hi_IN">PartySecurityViewPermissionError आपको इस पृष्ठ को देखने की अनुमति नहीं है|("SECURITY_VIEW" या "SECURITY_ADMIN" की आवश्यकता)</value>
         <value xml:lang="it">SecurityViewPermissionError Tu non sei autorizzato a vedere questa pagina. (I permessi "SECURITY_VIEW" o "SECURITY_ADMIN" sono necessari)</value>
@@ -786,7 +786,7 @@
         <value xml:lang="de">Benutzeranmeldung</value>
         <value xml:lang="en">User Login</value>
         <value xml:lang="es">Nombre de usuario</value>
-        <value xml:lang="fa">حساب کاربری</value>
+        <value xml:lang="fa">ورود کاربر</value>
         <value xml:lang="fr">Identifiant de connexion</value>
         <value xml:lang="it">Utente</value>
         <value xml:lang="ja">ユーザログイン</value>
@@ -798,7 +798,7 @@
         <value xml:lang="de">Passwort der Benutzeranmeldung ändern</value>
         <value xml:lang="en">Change User Login Password</value>
         <value xml:lang="es">Cambiar clave de conexión</value>
-        <value xml:lang="fa">تغییر گذرواژه حساب کاربری</value>
+        <value xml:lang="fa">تغییر گذرواژه ورود کاربر</value>
         <value xml:lang="fr">Changer le mot de passe de connexion</value>
         <value xml:lang="hi_IN">प्रयोक्तालॉगिन का पासवर्ड बदलें</value>
         <value xml:lang="it">Cambio password utente</value>
@@ -815,7 +815,7 @@
         <value xml:lang="de">Benutzeranmeldung Sicherheitsberechtigungen aktualisieren</value>
         <value xml:lang="en">Update User Login Security Settings</value>
         <value xml:lang="es">Actualizar los parámetros de seguridad de conexión</value>
-        <value xml:lang="fa">بروز رسانی تنظیمات امنیتی حساب کاربری</value>
+        <value xml:lang="fa">بروزرسانی تنظیمات امنیتی ورود کاربر</value>
         <value xml:lang="fr">Mise à jour des paramètres de sécurité pour l'identifiant de connexion</value>
         <value xml:lang="hi_IN">प्रयोक्ता लॉगिन सुरक्षा सेटिंग्स नवीनतम करे</value>
         <value xml:lang="it">Aggiorna impostazioni sicurezza utente</value>
@@ -832,7 +832,7 @@
         <value xml:lang="de">Benutzeranmeldungen</value>
         <value xml:lang="en">User Logins</value>
         <value xml:lang="es">Usuarios</value>
-        <value xml:lang="fa">حساب‌های کاربری</value>
+        <value xml:lang="fa">ورودهای کاربر</value>
         <value xml:lang="fr">Utilisateurs de connexion</value>
         <value xml:lang="hi_IN">प्रयोक्ता लॉगिन</value>
         <value xml:lang="it">Utenti</value>
@@ -850,7 +850,7 @@
         <value xml:lang="de">Zertifikat anzeigen</value>
         <value xml:lang="en">View Cert</value>
         <value xml:lang="es">Ver certificado</value>
-        <value xml:lang="fa">نمای گواهی</value>
+        <value xml:lang="fa">نمای تضمین</value>
         <value xml:lang="fr">Afficher le certificat</value>
         <value xml:lang="hi_IN">प्रमाणपत्र देखें</value>
         <value xml:lang="it">Mostra certificato</value>

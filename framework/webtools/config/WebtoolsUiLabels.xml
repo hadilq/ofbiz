@@ -20,14 +20,14 @@
 <resource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://ofbiz.apache.org/dtds/ofbiz.properties.xsd">
     <property key="ConnectionPoolStatus">
         <value xml:lang="en">Connection Pool Status</value>
-        <value xml:lang="fa">وضعیت استخر ارتباطات</value>
+        <value xml:lang="fa">وضعیت استخر اتصال</value>
         <value xml:lang="ja">接続プールステータス</value>
         <value xml:lang="vi">Trạng thái chia sẻ kết nối cơ sở dữ liệu</value>
         <value xml:lang="zh">连接池状态</value>
     </property>
     <property key="EntityImportDeletFile">
         <value xml:lang="en">Deleting ${fileName}</value>
-        <value xml:lang="fa">حذف ${fileName}</value>
+        <value xml:lang="fa">پاک‌کردن ${fileName}</value>
         <value xml:lang="it">Stò cancellando il file ${fileName}</value>
         <value xml:lang="ja">${fileName} を削除しています</value>
         <value xml:lang="vi">Đang xóa ${fileName}</value>
@@ -35,7 +35,7 @@
     </property>
     <property key="EntityImportErrorRetrievingEntityNames">
         <value xml:lang="en">Error retrieving entity names.</value>
-        <value xml:lang="fa">خطا در بازیابی نام‌های نهادها</value>
+        <value xml:lang="fa">خطا در بازیابی نام‌های نهاد</value>
         <value xml:lang="it">Errore nell'ottenere i nome delle entità.</value>
         <value xml:lang="ja">エンティティ名取得中にエラー</value>
         <value xml:lang="vi">Lỗi khi lấy tên Thực thể.</value>
@@ -43,7 +43,7 @@
     </property>
     <property key="EntityImportFailedFile">
         <value xml:lang="en">Failed ${fileName} adding to retry list for next pass</value>
-        <value xml:lang="fa">شکست در اضافه‌کردن ${fileName} به لیست بازیابی برای دادن دوباره</value>
+        <value xml:lang="fa">شکست در اضافه‌کردن ${fileName} به لیست تلاش‌مجدد برای دادن دوباره</value>
         <value xml:lang="it">Fallita ${fileName} aggiunta alla lista di riprova al successivo passaggio</value>
         <value xml:lang="ja">${fileName} を次のパスのリトライリストに追加中に失敗</value>
         <value xml:lang="vi">Tập tin ${fileName} không thành công đã được thêm vào Danh sách để Xử lý tiếp sau</value>
@@ -91,7 +91,7 @@
     </property>
     <property key="EntityImportNumberOfEntityToBeProcessed">
         <value xml:lang="en">Got ${numberRead} entities from ${fileName}</value>
-        <value xml:lang="fa">نهادهای ${numberRead} از ${fileName} گرفته‌شدند</value>
+        <value xml:lang="fa">نهادهای ${numberRead} از ${fileName} گرفته‌شده‌اند</value>
         <value xml:lang="it">Ottenute ${numberRead} entità da ${fileName}</value>
         <value xml:lang="ja">${fileName} から ${numberRead} エンティティ取得しました</value>
         <value xml:lang="vi">Nhận ${numberRead} Thực thể từ Tập tin ${fileName}</value>
@@ -231,7 +231,7 @@
     <property key="FormFieldTitle_forPushOnly">
         <value xml:lang="de">Nur für Push-Betrieb</value>
         <value xml:lang="en">For Push Only</value>
-        <value xml:lang="fa">فقط برای دادن</value>
+        <value xml:lang="fa">فقط برای هل‌دادن</value>
         <value xml:lang="fr">Pour l'ajout seulement</value>
         <value xml:lang="it">Per Caricamento Solo</value>
         <value xml:lang="ja">入力のみ</value>
@@ -293,7 +293,7 @@
     <property key="FormFieldTitle_lastSuccessfulSynchTime">
         <value xml:lang="de">Letzte erfolgreiche Synchronisierung</value>
         <value xml:lang="en">Last Successful Synch Time</value>
-        <value xml:lang="fa">آخرین زمان همزمان‌کردن موفقیت‌آمیز</value>
+        <value xml:lang="fa">آخرین زمان همزمان‌کردن باموفقیت</value>
         <value xml:lang="fr">Dernière réussite de temps synchro.</value>
         <value xml:lang="it">Ultimo orario sincr. con successo</value>
         <value xml:lang="ja">最終成功同期時間</value>
@@ -307,7 +307,7 @@
     <property key="FormFieldTitle_maxRunningNoUpdateMillis">
         <value xml:lang="de">Maximale Zeit ohne Update</value>
         <value xml:lang="en">Max Running No Update Millis</value>
-        <value xml:lang="fa">بیشترین اجراء بدون بروزرسانی به میلی‌ثانیه</value>
+        <value xml:lang="fa">بیشینه اجراء بدون بروزرسانی به میلی‌ثانیه</value>
         <value xml:lang="fr">Fonctionnement maximum sans mise à jour millis.</value>
         <value xml:lang="it">Massima esecuzione senza aggiornamento millis</value>
         <value xml:lang="ja">最大実行番号更新ミリ秒</value>
@@ -321,7 +321,7 @@
     <property key="FormFieldTitle_offlineSyncSplitMillis">
         <value xml:lang="de">Offline Synchronisationssplit [ms]</value>
         <value xml:lang="en">Offline Sync Split Millis</value>
-        <value xml:lang="fa">جداکننده همزمانی آفلاین به میلی‌ثانیه</value>
+        <value xml:lang="fa">تقسیم‌کردن همزمانی آفلاین به میلی‌ثانیه</value>
         <value xml:lang="fr">Synch. divisée en différé millis.</value>
         <value xml:lang="it">Sincr. offline split millis</value>
         <value xml:lang="ja">オフライン同期分離ミリ秒</value>
@@ -384,6 +384,7 @@
     <property key="FormFieldTitle_syncEndBufferMillis">
         <value xml:lang="de">Synch Endpuffer Millis.</value>
         <value xml:lang="en">Sync End Buffer Millis</value>
+        <value xml:lang="fa">بافر پایان همزمان‌کردن به میلی‌ثانیه</value>
         <value xml:lang="fr">Sync. fin de tampon millis.</value>
         <value xml:lang="it">Fine Sincr. End Buffer Millis</value>
         <value xml:lang="ja">同期終了バッファミリ秒</value>
@@ -396,6 +397,7 @@
     <property key="FormFieldTitle_syncSplitMillis">
         <value xml:lang="de">Synch Split Millis</value>
         <value xml:lang="en">Sync Split Millis</value>
+        <value xml:lang="fa">تقسیم‌کردن همزمان‌کننده به میلی‌ثانیه</value>
         <value xml:lang="fr">Sync. divisé millis.</value>
         <value xml:lang="it">Sincr. Split Millis</value>
         <value xml:lang="ja">同期分離ミリ秒</value>
@@ -408,6 +410,7 @@
     <property key="FormFieldTitle_targetDelegatorName">
         <value xml:lang="de">Name Ziel-Delegator</value>
         <value xml:lang="en">Target Delegator Name</value>
+        <value xml:lang="fa">نام نماینده هدف</value>
         <value xml:lang="fr">Nom du délégateur cible</value>
         <value xml:lang="it">Nome Delegator destinazione</value>
         <value xml:lang="ja">対象デリゲータ名称</value>
@@ -421,6 +424,7 @@
     <property key="FormFieldTitle_targetServiceName">
         <value xml:lang="de">Name Ziel-Service</value>
         <value xml:lang="en">Target Service Name</value>
+        <value xml:lang="fa">نام سرویس هدف</value>
         <value xml:lang="fr">Nom du service cible</value>
         <value xml:lang="it">Nome servizio destinazione</value>
         <value xml:lang="ja">対象サービス名</value>
@@ -434,6 +438,7 @@
     <property key="FormFieldTitle_xmlFileName">
         <value xml:lang="de">XML Dateiname</value>
         <value xml:lang="en">Xml File Name</value>
+        <value xml:lang="fa">نام فایل XML</value>
         <value xml:lang="fr">Nom du dossier XML</value>
         <value xml:lang="it">Nome file XML</value>
         <value xml:lang="ja">XMLファイル名</value>
@@ -448,6 +453,7 @@
         <value xml:lang="de">Web Tools Framework</value>
         <value xml:lang="en">Framework Web Tools</value>
         <value xml:lang="es">Framework Herramientas Web</value>
+        <value xml:lang="fa">ابزار وب چارچوب</value>
         <value xml:lang="fr">Outils web du Framework</value>
         <value xml:lang="it">Strumenti del Framework</value>
         <value xml:lang="ja">Webツール</value>
@@ -461,6 +467,7 @@
     <property key="PageTitleEditUtilCache">
         <value xml:lang="de">Util Cache bearbeiten</value>
         <value xml:lang="en">Edit Util Cache</value>
+        <value xml:lang="fa">ویرایش‌کردن مخزن مطلوبیت</value>
         <value xml:lang="fr">Modifier le cache</value>
         <value xml:lang="it">Aggiorna cache</value>
         <value xml:lang="ja">有効キャッシュを編集</value>
@@ -1156,7 +1163,7 @@
         <value xml:lang="ar">جزء من عائلة أوفبيز للتطبيقات الحرة للتسيير</value>
         <value xml:lang="de">Teil der Open For Business Familie von Open Source Software</value>
         <value xml:lang="en">Part of the Open For Business Family of Open Source Software</value>
-        <!--value xml:lang="es">Parte de la familia "Open for Bussiness" de Software Libre</value-->
+        <value xml:lang="fa">بخشی از خانواده آزاد برای تجارت از نرم‌افزارهای متن باز</value><!--value xml:lang="es">Parte de la familia "Open for Bussiness" de Software Libre</value-->
         <value xml:lang="es">Parte de la familia de software Open For Business de código abierto</value>
         <value xml:lang="fr">Un module de la famille Open For Business, logiciel libre de gestion d'entreprise.</value>
         <value xml:lang="it">Un modulo della famiglia di software open source Open For Business</value>

@@ -24,6 +24,7 @@ import java.util.Date;
 import java.util.Map;
 
 import org.ofbiz.base.util.UtilMisc;
+import org.ofbiz.base.util.UtilDateTime;
 import org.ofbiz.entity.Delegator;
 import org.ofbiz.entity.GenericEntityException;
 import org.ofbiz.entity.GenericValue;
@@ -46,15 +47,15 @@ public class CommonDimensionServices {
      */
     public static Map<String, Object> loadDateDimension(DispatchContext ctx, Map<String, ? extends Object> context) {
         Delegator delegator = ctx.getDelegator();
-        
+
         Date fromDate = (Date) context.get("fromDate");
         Date thruDate = (Date) context.get("thruDate");
 
         SimpleDateFormat monthNameFormat = new SimpleDateFormat("MMMM");
         SimpleDateFormat dayNameFormat = new SimpleDateFormat("EEEE");
         SimpleDateFormat dayDescriptionFormat = new SimpleDateFormat("MMMM d, yyyy");
-        SimpleDateFormat yearMonthDayFormat = new SimpleDateFormat("yyyy-MM-dd");
-        SimpleDateFormat yearMonthFormat = new SimpleDateFormat("yyyy-MM");
+        SimpleDateFormat yearMonthDayFormat = new SimpleDateFormat(UtilDateTime.getDateFormatByContext(context));
+        SimpleDateFormat yearMonthFormat = new SimpleDateFormat(UtilDateTime.getYearMonthFormatByContext(context));
 
         Calendar calendar = Calendar.getInstance();
         calendar.setTime(fromDate);

@@ -27,6 +27,7 @@
     </property>
     <property key="@component-resource-name@CompanySubtitle">
         <value xml:lang="en">Part of the Open For Business Family of Open Source Software</value>
+        <value xml:lang="fa">بخشی از خانواده آزاد برای تجارت از نرم‌افزارهای متن باز</value>
         <value xml:lang="it">Un modulo della famiglia di software open source Open For Business</value>
         <value xml:lang="zh">开源软件OFBiz的组成部分</value>
     </property>

@@ -21,7 +21,7 @@
     <property key="ManufacturingCompletionDate">
         <value xml:lang="en">Completion Date</value>
         <value xml:lang="es">Fecha de Términación</value>
-        <value xml:lang="fa">تارخ تکمیل</value>
+        <value xml:lang="fa">تاریخ تکمیل</value>
         <value xml:lang="fr">Date d'achèvement</value>
         <value xml:lang="it">Data completamento</value>
         <value xml:lang="ja">完了日</value>
@@ -138,7 +138,7 @@
     <property key="ManufacturingOnHandQuantity">
         <value xml:lang="en">On Hand Quantity</value>
         <value xml:lang="es">Cantidad disponible (QOH)</value>
-        <value xml:lang="fa">کمیت روی دست</value>
+        <value xml:lang="fa">کمیت روی دست (QOH)</value>
         <value xml:lang="fr">Quantité disponible</value>
         <value xml:lang="it">Quantità Disponibile</value>
         <value xml:lang="ja">手持数量</value>
@@ -203,7 +203,7 @@
     <property key="ManufacturingPickingDate">
         <value xml:lang="en">Picking date</value>
         <value xml:lang="es">Fecha de Recogida</value>
-        <value xml:lang="fa">تاریخ انتخاب</value>
+        <value xml:lang="fa">تاریخ چیدن</value>
         <value xml:lang="fr">Date de prélèvement</value>
         <value xml:lang="it">Data di Prelievo</value>
         <value xml:lang="ja">ピッキング日</value>
@@ -216,7 +216,7 @@
     <property key="ManufacturingPickingListFx">
         <value xml:lang="en">Picking for release</value>
         <value xml:lang="es">Recogida para liberación</value>
-        <value xml:lang="fa">انتخاب برای ترخیص</value>
+        <value xml:lang="fa">چیدن برای ترخیص</value>
         <value xml:lang="fr">Prélèvement pour approbation</value>
         <value xml:lang="it">Richiesta per Rilascio</value>
         <value xml:lang="ja">リリースのピッキング</value>
@@ -229,7 +229,7 @@
     <property key="ManufacturingPickingPeriod">
         <value xml:lang="en">Picking period</value>
         <value xml:lang="es">Periodo de recogida</value>
-        <value xml:lang="fa">دوره انتخاب</value>
+        <value xml:lang="fa">دوره چیدن</value>
         <value xml:lang="fr">Période de prélèvement</value>
         <value xml:lang="it">Periodo prelievo</value>
         <value xml:lang="ja">ピッキング期間</value>
@@ -255,7 +255,7 @@
     <property key="ManufacturingPrintoutDate">
         <value xml:lang="en">Printout Date</value>
         <value xml:lang="es">Fecha de Impresión</value>
-        <value xml:lang="fa">تاریخ نتیجه‌چاپ</value>
+        <value xml:lang="fa">تاریخ چاپ</value>
         <value xml:lang="fr">Date de sortie sur imprimante</value>
         <value xml:lang="it">Data Emissione</value>
         <value xml:lang="ja">印刷日</value>
@@ -280,7 +280,7 @@
     </property>
     <property key="ManufacturingProductionRunComponentsByFeature">
         <value xml:lang="en">Production Runs Componentes By Feature</value>
-        <value xml:lang="fa">مولفه‌های اجراء تولید بوسیله افزونه</value>
+        <value xml:lang="fa">مولفه‌های خطوط تولید بوسیله افزونه</value>
         <value xml:lang="it">Componenti ordini di produzione per caratteristica</value>
         <value xml:lang="ja">機能別生産実行コンポーネント</value>
         <value xml:lang="pt_BR">Ritmo de produção por características de produtos</value>
@@ -289,7 +289,7 @@
     </property>
     <property key="ManufacturingProductionRunInfoAndOrder">
         <value xml:lang="en">Production Runs Info And Order</value>
-        <value xml:lang="fa">اطلاعات اجراء تولید و سفارش</value>
+        <value xml:lang="fa">اطلاعات خطوط تولید و سفارش</value>
         <value xml:lang="it">Ordini di produzione ifnroper caratteristica</value>
         <value xml:lang="ja">生産実行情報および注文</value>
         <value xml:lang="pt_BR">Detalhes de Ritmo de produção e pedidos</value>
@@ -299,7 +299,7 @@
     <property key="ManufacturingProductionRuns">
         <value xml:lang="en">Production Runs</value>
         <value xml:lang="es">Orden de Producción</value>
-        <value xml:lang="fa">اجراء تولید</value>
+        <value xml:lang="fa">خطوط تولید</value>
         <value xml:lang="fr">Cadences de production</value>
         <value xml:lang="it">Ordini di Produzione</value>
         <value xml:lang="ja">生産実行</value>
@@ -324,7 +324,7 @@
     </property>
     <property key="ManufacturingProductsStacks">
         <value xml:lang="en">Products Stacks</value>
-        <value xml:lang="fa">انباش‌های محصولات</value>
+        <value xml:lang="fa">انباشت‌های محصولات</value>
         <value xml:lang="it">Pila prodotti</value>
         <value xml:lang="ja">製品スタック</value>
         <value xml:lang="pt_BR">Pilha de produtos</value>

@@ -65,7 +65,7 @@
         <value xml:lang="de">Rechnung an Kunde Akteur ID</value>
         <value xml:lang="en">Bill To Customer Party Id</value>
         <value xml:lang="es">Facturar a cliente con código</value>
-        <value xml:lang="fa">قبض به آی‌دی هم‌مشرب مشتری</value>
+        <value xml:lang="fa">صورت‌حساب به آی‌دی هویت مشتری</value>
         <value xml:lang="fr">Réf. de facture client</value>
         <value xml:lang="it">Fattura Al Cliente</value>
         <value xml:lang="ja">請求先顧客取引先ID</value>
@@ -94,7 +94,7 @@
         <value xml:lang="de">Spediteur Rollentyp ID</value>
         <value xml:lang="en">Carrier Role Type Id</value>
         <value xml:lang="es">Código Rol de transportista</value>
-        <value xml:lang="fa">آی‌دی نوع وظیفه حمل‌کننده</value>
+        <value xml:lang="fa">آی‌دی نوع وظیفه حمل‌گر</value>
         <value xml:lang="fr">Réf. de type de transporteur</value>
         <value xml:lang="it">Tipo Ruolo Corriere</value>
         <value xml:lang="ja">輸送ロール種類ID</value>
@@ -295,7 +295,7 @@
         <value xml:lang="de">Link löschen</value>
         <value xml:lang="en">Delete Link</value>
         <value xml:lang="es">Borrar enlace</value>
-        <value xml:lang="fa">لینک حذف</value>
+        <value xml:lang="fa">پیوند حذف</value>
         <value xml:lang="fr">Effacer le lien</value>
         <value xml:lang="it">Cancella Link</value>
         <value xml:lang="ja">リンクを削除</value>
@@ -724,7 +724,7 @@
         <value xml:lang="de">Auftragskopf ID</value>
         <value xml:lang="en">Order Header Id</value>
         <value xml:lang="es">Código Cabecera de pedido</value>
-        <value xml:lang="fa">آی‌دی سرفصل سفارش</value>
+        <value xml:lang="fa">آی‌دی سربرگ سفارش</value>
         <value xml:lang="fr">Réf. d'entête de commande</value>
         <value xml:lang="it">Numero Testata Ordine</value>
         <value xml:lang="ja">注文ヘッダID</value>
@@ -825,7 +825,7 @@
         <value xml:lang="de">Link zu den Bestellungen</value>
         <value xml:lang="en">Orders Link</value>
         <value xml:lang="es">Enlace a pedidos</value>
-        <value xml:lang="fa">لینک سفارش‌ها</value>
+        <value xml:lang="fa">پیوند سفارش‌ها</value>
         <value xml:lang="fr">Lien vers les commandes</value>
         <value xml:lang="it">Link Ordini</value>
         <value xml:lang="ja">注文リンク</value>
@@ -842,7 +842,7 @@
         <value xml:lang="de">Herkunft Lager ID</value>
         <value xml:lang="en">Origin Facility Id</value>
         <value xml:lang="es">Código Almacén de origen</value>
-        <value xml:lang="fa">آی‌دی تسهیلات اصلی</value>
+        <value xml:lang="fa">آی‌دی تسهیلات مبدا</value>
         <value xml:lang="fr">Réf. de lieu de stockage d'origine</value>
         <value xml:lang="it">Stabilimento Origine</value>
         <value xml:lang="ja">拠点ID(元)</value>
@@ -859,7 +859,7 @@
         <value xml:lang="de">Übergeordnete Einkaufsliste ID</value>
         <value xml:lang="en">Parent Shopping List Id</value>
         <value xml:lang="es">Código Lista de compra precursora</value>
-        <value xml:lang="fa">آی‌دی لیست خریدکردن مادر</value>
+        <value xml:lang="fa">آی‌دی لیست خریدکردن والد</value>
         <value xml:lang="fr">Réf. de liste d'achat parente</value>
         <value xml:lang="it">Lista di Acquisto Padre</value>
         <value xml:lang="ja">上位の買い物リストID</value>
@@ -1023,7 +1023,7 @@
         <value xml:lang="de">Link zu Anfragen</value>
         <value xml:lang="en">Requests Link</value>
         <value xml:lang="es">Enlace a peticiones</value>
-        <value xml:lang="fa">لینک درخواست‌ها</value>
+        <value xml:lang="fa">پیوند درخواست‌ها</value>
         <value xml:lang="fr">Lien vers les demandes</value>
         <value xml:lang="it">Link Richieste</value>
         <value xml:lang="ja">リクエストリンク</value>
@@ -1184,7 +1184,7 @@
     <property key="FormFieldTitle_returnHeaderTypeId">
         <value xml:lang="de">Retouren-Art</value>
         <value xml:lang="en">Return HeaderType Id</value>
-        <value xml:lang="fa">بازگشت آی‌دی نوع سرفصل</value>
+        <value xml:lang="fa">بازگشت آی‌دی نوع سربرگ</value>
         <value xml:lang="fr">Réf. de type d'en-tête de retour</value>
         <value xml:lang="it">Tipo testata reso</value>
         <value xml:lang="ja">返品ヘッダ種類</value>
@@ -1798,7 +1798,7 @@
     <property key="OrderAddGiftCertificate">
         <value xml:lang="de">Gutschein hinzufügen</value>
         <value xml:lang="en">Add Gift Certificate</value>
-        <value xml:lang="fa">اضافه‌کردن گواهی هدیه</value>
+        <value xml:lang="fa">اضافه‌کردن تضمین هدیه</value>
         <value xml:lang="fr">Ajouter carte cadeau</value>
         <value xml:lang="ja">商品券を追加</value>
         <value xml:lang="nl">Toevoegen cadeaubon</value>
@@ -2066,7 +2066,7 @@
         <value xml:lang="de">Aufteilung gestatten</value>
         <value xml:lang="en">Allow Split</value>
         <value xml:lang="es">Aceptar pedido parcial</value>
-        <value xml:lang="fa">اجازه جداکردن</value>
+        <value xml:lang="fa">اجازه تقسیم‌کردن</value>
         <value xml:lang="fr">Accepter le fractionnement</value>
         <value xml:lang="it">Permettere la suddivisione</value>
         <value xml:lang="ja">分割を許可</value>
@@ -2487,7 +2487,7 @@
         <value xml:lang="de">Abbuchung bis</value>
         <value xml:lang="en">Bill Up To</value>
         <value xml:lang="es">Facturar hasta</value>
-        <value xml:lang="fa">قبض به</value>
+        <value xml:lang="fa">صورت‌حساب به</value>
         <value xml:lang="fr">Facturé à </value>
         <value xml:lang="hi_IN">यहां तक का मुल्य</value>
         <value xml:lang="it">Fatturare a</value>
@@ -2506,7 +2506,7 @@
         <value xml:lang="de">Rechnungsadresse</value>
         <value xml:lang="en">Billing Address</value>
         <value xml:lang="es">Dirección de facturación</value>
-        <value xml:lang="fa">آدرس قبض</value>
+        <value xml:lang="fa">آدرس صورت‌حساب</value>
         <value xml:lang="fr">Addresse de facturation</value>
         <value xml:lang="it">Indirizzo di fatturazione</value>
         <value xml:lang="ja">請求先住所</value>
@@ -3080,6 +3080,7 @@
         <value xml:lang="de">Teil der Open For Business Familie von Open Source Software</value>
         <value xml:lang="en">Part of the Open For Business Family of Open Source Software</value>
         <value xml:lang="es">Parte de la familia de software Open For Business de código abierto</value>
+        <value xml:lang="fa">بخشی از خانواده آزاد برای تجارت از نرم‌افزارهای متن باز</value>
         <value xml:lang="fr">Un module de la famille Open For Business, logiciel libre de gestion d'entreprise.</value>
         <value xml:lang="it">Un modulo della famiglia di software open source Open For Business</value>
         <value xml:lang="ja">Part of the Open For Business Family of Open Source Software</value>
@@ -3284,7 +3285,7 @@
     <property key="OrderCreateAsNewOrder">
         <value xml:lang="de">Als neuen Auftrag erstellen</value>
         <value xml:lang="en">Create As New Order</value>
-        <value xml:lang="fa">ساختن به عنوان سفارش جدید</value>
+        <value xml:lang="fa">ساختن به‌عنوان سفارش جدید</value>
         <value xml:lang="fr">Dupliquer cette commande</value>
         <value xml:lang="it">Creare Come Nuovo Ordine</value>
         <value xml:lang="ja">新規注文として作成</value>
@@ -3438,7 +3439,7 @@
         <value xml:lang="de_CH">Neues Offertattribut erstellen</value>
         <value xml:lang="en">Create New Quote Attribute</value>
         <value xml:lang="es">Crear nuevo atributo</value>
-        <value xml:lang="fa">ساختن متغیر مظنه جدید</value>
+        <value xml:lang="fa">ساختن متغییر مظنه جدید</value>
         <value xml:lang="fr">Créer une nouvelle donnée</value>
         <value xml:lang="it">Creare Nuovo Attributo Preventivo</value>
         <value xml:lang="ja">新規見積属性を作成</value>
@@ -3528,7 +3529,7 @@
         <value xml:lang="de_CH">Offerte Arbeitseinsatz erstellen</value>
         <value xml:lang="en">Create Quote Work Efforts</value>
         <value xml:lang="es">Crear presupuesto de esfuerzo de trabajo</value>
-        <value xml:lang="fa">ساختن تلاش‌کاری‌های مظنه</value>
+        <value xml:lang="fa">ساختن برنامه‌کار‌های مظنه</value>
         <value xml:lang="fr">Créer un devis liés à une tâche</value>
         <value xml:lang="it">Creare Preventivo Impegno di Lavoro</value>
         <value xml:lang="ja">新規見積作業成果を作成</value>
@@ -3599,7 +3600,7 @@
         <value xml:lang="de_CH">Neuen Offertarbeitseinsatz erstellen</value>
         <value xml:lang="en">Create new Quote Workeffort</value>
         <value xml:lang="es">Crear nuevo esfuerzo de trabajo de presupuesto</value>
-        <value xml:lang="fa">ساختن تلاش‌کاری مظنه جدید</value>
+        <value xml:lang="fa">ساختن برنامه‌کار مظنه جدید</value>
         <value xml:lang="fr">Créer un nouveau devis lié à une tâche</value>
         <value xml:lang="it">Creare nuovo Preventivo Impegno di Lavoro</value>
         <value xml:lang="ja">新規見積作業リクエストを作成</value>
@@ -3645,7 +3646,7 @@
     <property key="OrderCreateReturnAdjustment">
         <value xml:lang="de">Anpassung der Retoure mit Id:${seqId} erfolgreich erstellt.</value>
         <value xml:lang="en">Create ReturnAdjustment with Id:${seqId} successfully.</value>
-        <value xml:lang="fa">ساختن موفقیت‌آمیز تعدیل بازده با آی‌دی: ${seqId}</value>
+        <value xml:lang="fa">ساختن باموفقیت تعدیل بازده با آی‌دی: ${seqId}</value>
         <value xml:lang="fr">La création d'une ligne d'ajustement a été réalisé sous la référence ${seqId}.</value>
         <value xml:lang="it">Creato aggiustamento reso:${seqId} con successo.</value>
         <value xml:lang="ja">ID:${seqId} で返品調整を作成しました。</value>
@@ -3667,7 +3668,7 @@
     <property key="OrderCreateReturnAdjustmentNotFoundOrderAdjustment">
         <value xml:lang="de">Anpassung der Bestellung mit ID ${orderAdjustmentId} nicht gefunden</value>
         <value xml:lang="en">orderAdjustment ${orderAdjustmentId} not found</value>
-        <value xml:lang="fa">تعدیل سفارش ${orderAdjustmentId} پیدا نشد</value>
+        <value xml:lang="fa">تعدیل سفارش ${orderAdjustmentId} پیدانشده</value>
         <value xml:lang="it">Aggiustamento ordine ${orderAdjustmentId} non trovato</value>
         <value xml:lang="ja">注文調整 ${orderAdjustmentId} が見つかりません</value>
         <value xml:lang="pt_BR">Ajuste de Pedido ${orderAdjustmentId} não encontrado</value>
@@ -3797,7 +3798,7 @@
     <property key="OrderCustRequestShouldHaveFromPartyIdIfNotDraft">
         <value xml:lang="de">Kundenanfrage sollte eine 'von' partyId haben, falls nicht im Entwurfsstatus</value>
         <value xml:lang="en">Customer Request should have a 'from' partyId if not in the draft status</value>
-        <value xml:lang="fa">درخواست مشتری باید دارای «از» آی‌دی هم‌مشرب باشد در غیر این صورت در وضعیت پیش‌نویس می‌ماند</value>
+        <value xml:lang="fa">درخواست مشتری باید دارای «از» آی‌دی هویت باشد در غیر این صورت در وضعیت پیش‌نویس می‌ماند</value>
         <value xml:lang="fr">La demande doit avoir un acteur d'origine si elle n'est pas au statut Brouillon</value>
         <value xml:lang="ja">初期のステータスでなければ、顧客リクエストには取引先ID(元)が必要です</value>
         <value xml:lang="pt_BR">Requisição de cliente deveria ter um partyId de origem se não for rascunho</value>
@@ -3942,7 +3943,7 @@
         <value xml:lang="de">ANMERKUNG: Dies ist eine DEMO Version.  Hier getätigte Bestellungen werden NICHT in Rechnung gestellt und NICHT realisiert.</value>
         <value xml:lang="en">NOTE: This is a DEMO store-front.  Orders placed here will NOT be billed, and will NOT be fulfilled</value>
         <value xml:lang="es">NOTA: Esto es una DEMO.  Las compras hechas aquí no serán facturadas, y no serán satisfechas</value>
-        <value xml:lang="fa">توجه: این انبار DEMO است. سفارشات اینجا قبض نخواهند خورد و تکمیل نمی‌شوند</value>
+        <value xml:lang="fa">توجه: این انبار DEMO است. سفارشات اینجا صورت‌حساب نخواهند خورد و تکمیل نمی‌شوند</value>
         <value xml:lang="fr">NOTE : Ceci est une DEMONSTRATION d'un  logiciel de commerce électronique, Les commandes saisies ne seront NI facturées NI expédiées</value>
         <value xml:lang="hi_IN">नोट: यह एअ डेमो साइट है</value>
         <value xml:lang="it">NOTA: Questo è un sito DIMOSTRATIVO. Gli ordini immessi NON saranno fatturati, e NON saranno evasi</value>
@@ -4012,7 +4013,7 @@
         <value xml:lang="de">Großhändler</value>
         <value xml:lang="en">Distributor</value>
         <value xml:lang="es">Distribuidor</value>
-        <value xml:lang="fa">توزیع‌کننده</value>
+        <value xml:lang="fa">توزیع‌گر</value>
         <value xml:lang="fr">Distributeur</value>
         <value xml:lang="hi_IN">माल सप्लाई कर्ता</value>
         <value xml:lang="it">Distributore</value>
@@ -4092,7 +4093,7 @@
         <value xml:lang="de">Direktlieferung</value>
         <value xml:lang="en">Drop Shipped</value>
         <value xml:lang="es">Envío directo al cliente sin transportista</value>
-        <value xml:lang="fa">قطع حمل</value>
+        <value xml:lang="fa">توقف حمل‌شده</value>
         <value xml:lang="fr">Expédié par un tiers</value>
         <value xml:lang="it">Spedizione per un terzo</value>
         <value xml:lang="ja">直送済</value>
@@ -4366,7 +4367,7 @@
         <value xml:lang="de">FEHLER: Keine Aktion gefunden mit der ID</value>
         <value xml:lang="en">ERROR: No promotion found with ID</value>
         <value xml:lang="es">ERROR: Promoción no encontrada</value>
-        <value xml:lang="fa">خطا: هیچ تبلیغی پیدا نشد با آی‌دی</value>
+        <value xml:lang="fa">خطا: هیچ تبلیغی پیدانشده با آی‌دی</value>
         <value xml:lang="fr">ERREUR: aucune promotion avec cette ref.</value>
         <value xml:lang="hi_IN">गलत: नम्बर से मिलता प्रोत्साहन नहीं</value>
         <value xml:lang="it">ERRORE: Nessuna promozione trovata con questo Codice</value>
@@ -4933,7 +4934,7 @@
         <value xml:lang="de">Bruttobeträge (enthält Anpassungen und hängige Aufträge)</value>
         <value xml:lang="en">Gross Dollar Amounts (includes adjustments and pending orders)</value>
         <value xml:lang="es">Importes totales brutos (incluyendo ajustes pedidos pendientes)</value>
-        <value xml:lang="fa">مقادیر پول ناخالص (شامل تعدیل‌ها و تعویق‌های سفارشات)</value>
+        <value xml:lang="fa">مقادیر پول ناخالص (شامل تعدیل‌ها و سفارشات معلق)</value>
         <value xml:lang="fr">Montants totals bruts (incluant les ajustements et les commandes en attente)</value>
         <value xml:lang="it">Importi Lordi (include aggiustamenti e ordini sospesi)</value>
         <value xml:lang="ja">総合計金額(調整および保留の注文を含む)</value>
@@ -4951,7 +4952,7 @@
         <value xml:lang="de">Elemente Brutto verkauft (enthält Aktionen und hängige Aufträge)</value>
         <value xml:lang="en">Gross Items Sold (includes promotions and pending orders)</value>
         <value xml:lang="es">Total de ítems brutos vendidos (incluye promociones y pedidos pendientes)</value>
-        <value xml:lang="fa">فروش اقلام ناخالص (شامل تبلیغات و تعویق‌های سفارشات)</value>
+        <value xml:lang="fa">فروش اقلام ناخالص (شامل تبلیغات و سفارشات معلق)</value>
         <value xml:lang="fr">Lignes de ventes brutes (incluant les promotions et les commandes en attente)</value>
         <value xml:lang="it">Righe Vendute Lorde (include promozioni e ordini sospesi)</value>
         <value xml:lang="ja">総販売アイテム数(プロモーションおよび保留の注文を含む)</value>
@@ -5467,7 +5468,7 @@
     <property key="OrderItemDescriptionCannotBeEmpty">
         <value xml:lang="de">Artikelbeschreibung darf nicht leer sein</value>
         <value xml:lang="en">Item description must not be empty</value>
-        <value xml:lang="fa">توضیحات قلم نمی‌تواند خالی باشد</value>
+        <value xml:lang="fa">شرح قلم نمی‌تواند خالی باشد</value>
         <value xml:lang="fr">La description de la ligne ne doit pas être vide</value>
         <value xml:lang="it">Descrizione riga ordine non può essere vuota</value>
         <value xml:lang="ja">アイテムの詳細は空にできません</value>
@@ -5703,7 +5704,7 @@
         <value xml:lang="de">Verlinkt von Auftragselement</value>
         <value xml:lang="en">Linked from order item</value>
         <value xml:lang="es">Enlazado desde ítem de pedido</value>
-        <value xml:lang="fa">لینک‌شده از قلم سفارش</value>
+        <value xml:lang="fa">پیوند‌شده از قلم سفارش</value>
         <value xml:lang="fr">Lien depuis ligne de commande</value>
         <value xml:lang="it">Link da una riga ordine</value>
         <value xml:lang="ja">注文アイテムからリンク</value>
@@ -5719,7 +5720,7 @@
         <value xml:lang="de">Verlinkt mit Auftragselement</value>
         <value xml:lang="en">Linked to order item</value>
         <value xml:lang="es">Enlazado al ítem de pedido</value>
-        <value xml:lang="fa">لینک‌شده به قلم سفارش</value>
+        <value xml:lang="fa">پیوند‌شده به قلم سفارش</value>
         <value xml:lang="fr">Lien vers ligne de commande</value>
         <value xml:lang="it">Link alle righe ordine</value>
         <value xml:lang="ja">注文アイテムにリンク</value>
@@ -5737,7 +5738,7 @@
         <value xml:lang="de_CH">Verlinkt mit Offerte</value>
         <value xml:lang="en">Linked to quote</value>
         <value xml:lang="es">Enlazado al presupuesto</value>
-        <value xml:lang="fa">لینک‌شده به مظنه</value>
+        <value xml:lang="fa">پیوند‌شده به مظنه</value>
         <value xml:lang="fr">Lien vers un devis</value>
         <value xml:lang="it">Link ai preventivi</value>
         <value xml:lang="ja">見積にリンク</value>
@@ -5754,7 +5755,7 @@
         <value xml:lang="de">Verlinkt mit Bedarf</value>
         <value xml:lang="en">Linked to requirement</value>
         <value xml:lang="es">Enlazado al requisito</value>
-        <value xml:lang="fa">لینک‌شده به درخواست</value>
+        <value xml:lang="fa">پیوند‌شده به درخواست</value>
         <value xml:lang="fr">Lien vers un besoin</value>
         <value xml:lang="it">Link ai fabbisogni</value>
         <value xml:lang="ja">要求にリンク</value>
@@ -5863,7 +5864,7 @@
         <value xml:lang="de">Auftragsverwaltung Anwendung</value>
         <value xml:lang="en">Order Manager</value>
         <value xml:lang="es">Gestión de pedidos</value>
-        <value xml:lang="fa">مدیریت سفارش</value>
+        <value xml:lang="fa">مدیر سفارش</value>
         <value xml:lang="fr">Gestion de Commandes</value>
         <value xml:lang="it">Gestione ordini</value>
         <value xml:lang="ja">注文管理</value>
@@ -5881,7 +5882,7 @@
         <value xml:lang="de">Auftragsverwaltung Anwendung</value>
         <value xml:lang="en">Order Manager Application</value>
         <value xml:lang="es">Gestión de pedidos</value>
-        <value xml:lang="fa">نرم‌افزار مدیریت سفارش</value>
+        <value xml:lang="fa">نرم‌افزار مدیر سفارش</value>
         <value xml:lang="fr">Gestion de Commandes</value>
         <value xml:lang="it">Applicazione gestione ordini</value>
         <value xml:lang="ja">注文管理業務</value>
@@ -6023,7 +6024,7 @@
         <value xml:lang="de">Anmerkung: Mehrere Lieferungen vorhanden, verwenden Sie Lieferung aufteilen.</value>
         <value xml:lang="en">NOTE: Multiple shipments exist, use Split Shipment.</value>
         <value xml:lang="es">NOTA: existen múltiples envíos, use partir envíos</value>
-        <value xml:lang="fa">توجه: روش‌های متفاوتی برای حمل‌ونقل موجود است، فقط از یکی از آن‌ها استفاده کنید.</value>
+        <value xml:lang="fa">توجه: روش‌های متفاوتی برای محموله موجود است، از تقسیم محموله استفاده‌کنید.</value>
         <value xml:lang="fr">NOTE : Il y a des expéditions multiples, séparer les envois.</value>
         <value xml:lang="it">NOTA: Esistono spedizioni multiple, suddividere la spedizione.</value>
         <value xml:lang="ja">注意: 複数の発送があります、分割発送を使用してください。</value>
@@ -6103,7 +6104,7 @@
         <value xml:lang="de">Neue Direktlieferung für Versandgruppe</value>
         <value xml:lang="en">New Drop Shipment For Ship Group</value>
         <value xml:lang="es">Nuevo envío directo para este grupo de envío</value>
-        <value xml:lang="fa">حمل‌ونقل قطره جدید برای گروه حمل‌ونقل</value>
+        <value xml:lang="fa">توقف محموله جدید برای گروه حمل</value>
         <value xml:lang="fr">Nouvelle livraison par un tiers pour le groupe d'expédition</value>
         <value xml:lang="it">Nuovo gruppo spedizione per spedizione conto terzi</value>
         <value xml:lang="ja">新規直送、発送グループ:</value>
@@ -6175,7 +6176,7 @@
         <value xml:lang="de_CH">Neues Offert Attribut</value>
         <value xml:lang="en">New Quote Attribute</value>
         <value xml:lang="es">Nuevo atributo de presupuesto</value>
-        <value xml:lang="fa">متغیر مظنه جدید</value>
+        <value xml:lang="fa">متغییر مظنه جدید</value>
         <value xml:lang="fr">Nouvelle donnée complémentaire</value>
         <value xml:lang="it">Nuovo Attributo Preventivo</value>
         <value xml:lang="ja">新規見積属性</value>
@@ -6370,7 +6371,7 @@
     <property key="OrderNoAgreementFoundWithIdNotDoingPromotions">
         <value xml:lang="de">Keine Vereinbarung mit dieser ID gefunden. Es werden keine Aktion angewendet</value>
         <value xml:lang="en">No Agreement Found With Id Not Doing Promotions</value>
-        <value xml:lang="fa">هیچ متغیری برای آی‌دی بدون تبلیغ پیدانشد</value>
+        <value xml:lang="fa">هیچ متغییری برای آی‌دی بدون تبلیغ پیدانشد</value>
         <value xml:lang="fr">Pas d'accord trouvé avec cette référence. Aucune promotion activée</value>
         <value xml:lang="it">Nessun contratto trovato con questo id nessuna promozione verrà creata</value>
         <value xml:lang="ja">プロモーションをしていないIDで同意書はありません</value>
@@ -6382,7 +6383,7 @@
     <property key="OrderNoAgreementItemFoundForAgreementWithIdNotDoingPromotions">
         <value xml:lang="de">Kein Vereinbarungselement mit dieser ID gefunden. Es werden keine Aktion angewendet</value>
         <value xml:lang="en">No Agreement Item Found With Id Not Doing Promotions</value>
-        <value xml:lang="fa">هیچ قلم متغیری برای آی‌دی بدون تبلیغ پیدانشد</value>
+        <value xml:lang="fa">هیچ قلم متغییری برای آی‌دی بدون تبلیغ پیدانشد</value>
         <value xml:lang="fr">Pas ligne d'accord trouvée avec cette référence. Aucune promotion activée</value>
         <value xml:lang="it">Nessuna riga contratto trovata con questo id nessuna promozione verrà creata</value>
         <value xml:lang="ja">プロモーションをしていないIDで同意書はありません</value>
@@ -6495,7 +6496,7 @@
         <value xml:lang="de">Keine Bestellungen gefunden</value>
         <value xml:lang="en">No Orders Found</value>
         <value xml:lang="es">No se ha encontrado ningún pedido</value>
-        <value xml:lang="fa">سفارشی پیدا نشد</value>
+        <value xml:lang="fa">سفارشی پیدانشده</value>
         <value xml:lang="fr">Aucune commande trouvée</value>
         <value xml:lang="hi_IN">कोई आर्डर नही मिला</value>
         <value xml:lang="it">Nessun ordine trovato</value>
@@ -6514,7 +6515,7 @@
         <value xml:lang="de">Kein Auftrag gefunden für Akteur ID</value>
         <value xml:lang="en">No orders found for partyId</value>
         <value xml:lang="es">No se han encontrado pedidos para este participante</value>
-        <value xml:lang="fa">سفارشی برای آی‌دی هم‌مشرب پیدا نشد</value>
+        <value xml:lang="fa">سفارشی برای آی‌دی هویت پیدانشده</value>
         <value xml:lang="fr">Aucune commande trouvés pour réf. d'acteur</value>
         <value xml:lang="it">Nessun Ordine Trovato per il soggetto</value>
         <value xml:lang="ja">注文はありません、取引先ID:</value>
@@ -6564,7 +6565,7 @@
     <property key="OrderNoProductStoreFinAccountSettingsFound">
         <value xml:lang="de">Keine Product Store FinAcccount Einstellungen gefunden</value>
         <value xml:lang="en">No Product Store FinAcccount Settings found</value>
-        <value xml:lang="fa">بدون انبار محصول تنظیمات FinAcccount پیدا نشدند</value>
+        <value xml:lang="fa">بدون انبار محصول تنظیمات FinAcccount پیدانشدهند</value>
         <value xml:lang="fr">Pas de configuration de compte financier trouvée sur le centre de profit</value>
         <value xml:lang="ja">製品店舗金融アカウント設定はありません</value>
         <value xml:lang="pt_BR">Nenhuma configuração de para conta de financiamento de produtos encontrada</value>
@@ -6732,7 +6733,7 @@
         <value xml:lang="de">Es wurden keine rückgabepflichtigen Artikel der Bestellung gefunden</value>
         <value xml:lang="en">No returnable items found for order</value>
         <value xml:lang="es">No se han encontrado artículos retornables para comprar</value>
-        <value xml:lang="fa">هیچ یک از اقلام قابل‌بازگشت برای سفارش پیدا نشد</value>
+        <value xml:lang="fa">هیچ یک از اقلام قابل‌بازگشت برای سفارش پیدانشده</value>
         <value xml:lang="fr">Pas d'article retournable pour cette commande</value>
         <value xml:lang="hi_IN">आर्डर मे कोई सामान वापस करने योग्य नही</value>
         <value xml:lang="it">Nessuna riga reso trovata per l'ordine</value>
@@ -7105,7 +7106,7 @@
         <value xml:lang="de">Auf Auftrag</value>
         <value xml:lang="en">On Order</value>
         <value xml:lang="es">Bajo pedido</value>
-        <value xml:lang="fa">در سفارش</value>
+        <value xml:lang="fa">درحال سفارش</value>
         <value xml:lang="fr">Commandé (réapro)</value>
         <value xml:lang="it">In Ordine</value>
         <value xml:lang="ja">注文時</value>
@@ -7254,7 +7255,7 @@
         <value xml:lang="de">Rechnung von Akteur</value>
         <value xml:lang="en">Bill From Party</value>
         <value xml:lang="es">Participante que factura</value>
-        <value xml:lang="fa">قبض‌گرفتن از هم‌مشرب</value>
+        <value xml:lang="fa">صورت‌حساب‌گرفتن از هویت</value>
         <value xml:lang="fr">Acteur crédité</value>
         <value xml:lang="it">Fattura Dal Soggetto</value>
         <value xml:lang="ja">請求元取引先</value>
@@ -7272,7 +7273,7 @@
         <value xml:lang="de">Rechnung an Akteur</value>
         <value xml:lang="en">Bill To Party</value>
         <value xml:lang="es">Participante a quien se factura</value>
-        <value xml:lang="fa">قبض‌دادن به هم‌مشرب</value>
+        <value xml:lang="fa">صورت‌حساب‌دادن به هویت</value>
         <value xml:lang="fr">Acteur débité</value>
         <value xml:lang="it">Fattura Al Soggetto</value>
         <value xml:lang="ja">請求先取引先</value>
@@ -7488,7 +7489,7 @@
         <value xml:lang="de">Auftragskopf Informationen</value>
         <value xml:lang="en">Order Header Info</value>
         <value xml:lang="es">Información de encabezado del envío</value>
-        <value xml:lang="fa">اطلاعات سرفصل سفارش</value>
+        <value xml:lang="fa">اطلاعات سربرگ سفارش</value>
         <value xml:lang="fr">Informations d'en-tête</value>
         <value xml:lang="it">Informazioni Testata Ordine</value>
         <value xml:lang="ja">注文ヘッダ情報</value>
@@ -7626,7 +7627,7 @@
         <value xml:lang="de">Zu bearbeitende Aufträge</value>
         <value xml:lang="en">Orders Needing Attention</value>
         <value xml:lang="es">Pedidos que requieren atención</value>
-        <value xml:lang="fa">سفارشات نیاز به توجه دارند</value>
+        <value xml:lang="fa">سفارشات نیاز به توجه‌نقد دارند</value>
         <value xml:lang="fr">Commandes nécessitant de l'attention</value>
         <value xml:lang="it">Ordini che Hanno bisogno di Attenzione</value>
         <value xml:lang="ja">要注意注文</value>
@@ -7673,7 +7674,7 @@
     <property key="OrderOrderNotFound">
         <value xml:lang="de">Konnte OrderHeader mit ID ${orderId} nicht finden</value>
         <value xml:lang="en">Could not find OrderHeader with ID ${orderId}</value>
-        <value xml:lang="fa">نمی‌توان یافت سرفصل سفارش با آی دی ${orderId}</value>
+        <value xml:lang="fa">نمی‌توان یافت سربرگ سفارش با آی دی ${orderId}</value>
         <value xml:lang="fr">Aucun entête de commande trouvé avec la référence ${orderId}</value>
         <value xml:lang="it">Non è possibile trovare l'ordine ${orderId}</value>
         <value xml:lang="ja">ID ${orderId} の注文ヘッダが見つかりません</value>
@@ -7799,7 +7800,7 @@
     <property key="OrderOrderPaymentCannotBeCreatedPayToPartyIdNotSet">
         <value xml:lang="de">Fehler beim Erstellen der Bezahlung: payToPartyId in ProductStore nicht gesetzt</value>
         <value xml:lang="en">Failed to create Payment: payToPartyId not set in ProductStore</value>
-        <value xml:lang="fa">شکست در ساختن پرداخت: آی‌دی هم‌مشرب پرداخت کننده در فروشگاه محصولات ثبت نشده است</value>
+        <value xml:lang="fa">شکست در ساختن پرداخت: آی‌دی هویت پرداخت کننده در فروشگاه محصولات ثبت نشده است</value>
         <value xml:lang="fr">Échec de la création du paiement : l'acteur créditeur n'est pas défini sur le centre de profit</value>
         <value xml:lang="it">Fallita creazione Pagamento: pagare a non impostato sul negozio</value>
         <value xml:lang="ja">支払の作成に失敗しました。支払先取引先IDが製品店舗に設定されていません。</value>
@@ -7809,7 +7810,7 @@
     <property key="OrderOrderPaymentCannotBeCreatedWithRelatedOrderHeader">
         <value xml:lang="de">Fehler beim Erstellen der Bezahlung: Kann OrderHeader von den Zahlungseinstellungen nicht erfassen</value>
         <value xml:lang="en">Failed to create Payment: Cannot get related OrderHeader from payment preference</value>
-        <value xml:lang="fa">شکست در ساختن پرداخت: نمی‌توان سرفصل سفارش مرتبط را از ترجیحات پرداخت دریافت کرد</value>
+        <value xml:lang="fa">شکست در ساختن پرداخت: نمی‌توان سربرگ سفارش مرتبط را از ترجیحات پرداخت دریافت کرد</value>
         <value xml:lang="fr">Échec de la création du paiement : impossible de retrouver l'entête de commande depuis la préférence de paiement</value>
         <value xml:lang="it">Fallita creazione Pagamento: Non è possibile trovare la testata ordine relazionata alle preferenza pagamento</value>
         <value xml:lang="ja">支払の作成に失敗しました。支払設定から関連する注文ヘッダが取得できません</value>
@@ -7819,7 +7820,7 @@
     <property key="OrderOrderPaymentCannotBeCreatedWithRelatedProductStore">
         <value xml:lang="de">Fehler beim Erstellen der Bezahlung: Kann ProductStore für den order header nicht erreichen</value>
         <value xml:lang="en">Failed to create Payment: Cannot get the ProductStore for the order header</value>
-        <value xml:lang="fa">شکست در ساختن پرداخت: نمی‌توان فروشگاه محصول را از سرفصل سفارش دریافت کرد</value>
+        <value xml:lang="fa">شکست در ساختن پرداخت: نمی‌توان فروشگاه محصول را از سربرگ سفارش دریافت کرد</value>
         <value xml:lang="fr">Échec de la création du paiement : le centre de profit n'a pas été trouvé depuis l'entête de commande</value>
         <value xml:lang="it">Fallita creazione Pagamento: Non è possibile trovare il negozio relazionato alla testata ordine</value>
         <value xml:lang="ja">支払の作成に失敗しました。注文ヘッダに対する製品店舗が取得できません</value>
@@ -7849,7 +7850,7 @@
     <property key="OrderOrderCreatingDropShipmentsError">
         <value xml:lang="de">Der folgende Fehler trat während des Erstellens von Direktlieferungen bei Bestellung ${orderId} auf: ${errorString}</value>
         <value xml:lang="en">The following error occurred creating drop shipments for order ${orderId}: ${errorString}</value>
-        <value xml:lang="fa">خظای پیشرو در هنگام ساختن لغو حمل‌ونقل برای سفارش ${orderId} اتفاق افتاده‌است: ${errorString}</value>
+        <value xml:lang="fa">خظای پیشرو در هنگام ساختن توقف محموله‌ها برای سفارش ${orderId} رخ‌داده‌است: ${errorString}</value>
         <value xml:lang="fr">Les erreurs suivantes ont été soulevées lors de la création de la commande de tiers ${orderId}: ${errorString}</value>
         <value xml:lang="it">Il seguente error è accaduto durante la creazione delle spedizioni conto terzi per l'ordine ${orderId}: ${errorString}</value>
         <value xml:lang="ja">注文 ${orderId} に対する直送の作成中に次のエラーが発生しました: ${errorString}</value>
@@ -8004,7 +8005,7 @@
         <value xml:lang="de">Attributname</value>
         <value xml:lang="en">Attribute Name</value>
         <value xml:lang="es">Nombre</value>
-        <value xml:lang="fa">نام متغیر</value>
+        <value xml:lang="fa">نام متغییر</value>
         <value xml:lang="fr">Nom de la donnée</value>
         <value xml:lang="it">Nome Attributo</value>
         <value xml:lang="ja">属性名称</value>
@@ -8022,7 +8023,7 @@
         <value xml:lang="de">Attributwert</value>
         <value xml:lang="en">Attribute Value</value>
         <value xml:lang="es">Valor</value>
-        <value xml:lang="fa">مقدار متغیر</value>
+        <value xml:lang="fa">مقدار متغییر</value>
         <value xml:lang="fr">Valeur de la donnée</value>
         <value xml:lang="it">Valore Attributo </value>
         <value xml:lang="ja">属性値</value>
@@ -8041,7 +8042,7 @@
         <value xml:lang="de_CH">Offertattribut</value>
         <value xml:lang="en">Quote Attributes</value>
         <value xml:lang="es">Atributos</value>
-        <value xml:lang="fa">متغیرهای مظنه</value>
+        <value xml:lang="fa">متغییرهای مظنه</value>
         <value xml:lang="fr">Données complémentaires</value>
         <value xml:lang="it">Attributi Preventivo</value>
         <value xml:lang="ja">見積属性</value>
@@ -8243,7 +8244,7 @@
         <value xml:lang="de_CH">Offertattribut bearbeiten</value>
         <value xml:lang="en">Edit Quote Attributes</value>
         <value xml:lang="es">Editar atributos de presupuesto</value>
-        <value xml:lang="fa">ویرایش متغیرهای مظنه</value>
+        <value xml:lang="fa">ویرایش متغییرهای مظنه</value>
         <value xml:lang="fr">Modifier les attributs du devis</value>
         <value xml:lang="it">Aggiorna Attributi Preventivo</value>
         <value xml:lang="ja">見積属性を編集</value>
@@ -8341,7 +8342,7 @@
         <value xml:lang="de_CH">Offertarbeitseinsatz bearbeiten</value>
         <value xml:lang="en">Edit Quote Work Efforts</value>
         <value xml:lang="es">Editar esfuerzos de trabajo del presupuesto</value>
-        <value xml:lang="fa">ویرایش تلاش‌های کاری مظنه</value>
+        <value xml:lang="fa">ویرایش برنامه‌های کار مظنه</value>
         <value xml:lang="fr">Modifier les tâches du devis</value>
         <value xml:lang="it">Aggiorna Preventivo Impegno di Lavoro</value>
         <value xml:lang="ja">見積作業成果を編集</value>
@@ -8358,7 +8359,7 @@
         <value xml:lang="de">Bestehende Arbeitseinsatz ID eingeben</value>
         <value xml:lang="en">Enter existing WorkEffort Id below</value>
         <value xml:lang="es">Introduzca un código de esfuerzo de trabajo existente abajo</value>
-        <value xml:lang="fa">واردکردن آی‌دی تلاش کاری موجود در زیر</value>
+        <value xml:lang="fa">واردکردن آی‌دی برنامه کار موجود در زیر</value>
         <value xml:lang="fr">Entrer la réf. de tâche existante ci-dessous</value>
         <value xml:lang="it">Inserire il Codice Impegno di Lavoro qui sotto</value>
         <value xml:lang="ja">既存の作業成果IDを次に入力してください</value>
@@ -8375,7 +8376,7 @@
         <value xml:lang="de">oder neue Arbeitseinsatz Daten angeben um neuen Datensatz anzulegen (Arbeitseinsatz ID leer lassen)</value>
         <value xml:lang="en">OR add new WorkEffort data below to create new entity (leave WorkEffort Id empty)</value>
         <value xml:lang="es">o introduzca datos abajo para crear un nuevo esfuerzo de trabajo (deje el código del esfuerzo en blanco)</value>
-        <value xml:lang="fa">یا با اضافه‌کردن داده تلاش کاری جدید در زیر برای ساختن نهاد جدید (و آی‌دی تلاش کاری را خالی رها کنید)</value>
+        <value xml:lang="fa">یا با اضافه‌کردن داده برنامه کار جدید در زیر برای ساختن نهاد جدید (و آی‌دی برنامه کار را خالی رها کنید)</value>
         <value xml:lang="fr">OU ajouter les nouvelles données liées à la tâche ci-dessous pour créer la nouvelle entité (laisser la réf. de tâche vide)</value>
         <value xml:lang="it">O aggiungi dei nuovi dati Impegno di Lavoro sotto per creare una nuova entità  (lascia vuoto il Codice Impegno di Lavoro)</value>
         <value xml:lang="ja">または新規エンティティを作成するために新規作業成果データを次に追加してください (作業成果IDは空にしてください)</value>
@@ -8524,7 +8525,7 @@
         <value xml:lang="de_CH">Liste der Offertattribute</value>
         <value xml:lang="en">List Quote Attributes</value>
         <value xml:lang="es">Lista de atributos de presupuesto</value>
-        <value xml:lang="fa">لیست‌کردن متغیرهای مظنه</value>
+        <value xml:lang="fa">لیست‌کردن متغییرهای مظنه</value>
         <value xml:lang="fr">Voir les attributs du devis</value>
         <value xml:lang="it">Lista Attributi Preventivo</value>
         <value xml:lang="ja">見積属性一覧</value>
@@ -8652,7 +8653,7 @@
         <value xml:lang="de">Prozentualer provisorischer Gewinn</value>
         <value xml:lang="en">Quote Percentage Profit</value>
         <value xml:lang="es">Porcentaje de beneficio del presupuesto</value>
-        <value xml:lang="fa">سود درصدی مظنه</value>
+        <value xml:lang="fa">نفع درصدی مظنه</value>
         <value xml:lang="fr">Pourcentage de profit prévisionnel</value>
         <value xml:lang="it">Percentuale Profitto Preventivo</value>
         <value xml:lang="ja">見積利益率(%)</value>
@@ -8708,7 +8709,7 @@
         <value xml:lang="de_CH">Offerte Gewinn</value>
         <value xml:lang="en">Quote Profit</value>
         <value xml:lang="es">Beneficio del presupuesto</value>
-        <value xml:lang="fa">سود مظنه</value>
+        <value xml:lang="fa">نفع مظنه</value>
         <value xml:lang="fr">Profit du devis</value>
         <value xml:lang="it">Profitto Preventivo </value>
         <value xml:lang="ja">見積利益</value>
@@ -8875,7 +8876,7 @@
         <value xml:lang="de_CH">Offertgewinn anzeigen</value>
         <value xml:lang="en">View Quote Profit</value>
         <value xml:lang="es">Ver beneficio del presupuesto</value>
-        <value xml:lang="fa">نمای سود مظنه</value>
+        <value xml:lang="fa">نمای نفع مظنه</value>
         <value xml:lang="fr">Voir le profit du devis</value>
         <value xml:lang="it">Mostra Profitto Preventivo</value>
         <value xml:lang="ja">見積利益を表示</value>
@@ -8911,7 +8912,7 @@
         <value xml:lang="de_CH">Offertarbeitseinsatz ID</value>
         <value xml:lang="en">Quote Work Effort Id</value>
         <value xml:lang="es">Código Esfuerzo de trabajo del presupuesto</value>
-        <value xml:lang="fa">آی‌دی تلاش کاری مظنه</value>
+        <value xml:lang="fa">آی‌دی برنامه کار مظنه</value>
         <value xml:lang="fr">Réf. d'activité de devis</value>
         <value xml:lang="it">Preventivo Impegno di Lavoro</value>
         <value xml:lang="ja">見積作業成果ID</value>
@@ -8930,7 +8931,7 @@
         <value xml:lang="de_CH">Offertarbeitseinsätze</value>
         <value xml:lang="en">Quote Work Efforts</value>
         <value xml:lang="es">Esfuerzo de trabajo del presupuesto</value>
-        <value xml:lang="fa">تلاش‌های کاری مظنه</value>
+        <value xml:lang="fa">برنامه‌های کار مظنه</value>
         <value xml:lang="fr">Tâches du devis</value>
         <value xml:lang="it">Preventivi Impegni di Lavoro</value>
         <value xml:lang="ja">見積作業成果</value>
@@ -9444,7 +9445,7 @@
         <value xml:lang="de">Keine weiteren Akteure hinzufügen.</value>
         <value xml:lang="en">I do not wish to add additional parties.</value>
         <value xml:lang="es">No quiero añadir participantes adicionales.</value>
-        <value xml:lang="fa">من علاقه‌ای به اضافه‌کردن هم‌مشرب اضافی ندارم.</value>
+        <value xml:lang="fa">من علاقه‌ای به اضافه‌کردن هویت اضافی ندارم.</value>
         <value xml:lang="fr">Je ne souhaite pas ajouter d'acteurs supplémentaires</value>
         <value xml:lang="it">Non vorrei inserire ulteriore soggetto.</value>
         <value xml:lang="ja">取引先の追加を望まない</value>
@@ -9478,7 +9479,7 @@
         <value xml:lang="de">Rolle für Akteur wählen</value>
         <value xml:lang="en">Select Role(s) For Party</value>
         <value xml:lang="es">Elija rol para el participante</value>
-        <value xml:lang="fa">انتخاب وظیفه(ها) برای هم‌مشرب</value>
+        <value xml:lang="fa">انتخاب وظیفه(ها) برای هویت</value>
         <value xml:lang="fr">Choisir le ou les rôles pour l'acteur</value>
         <value xml:lang="it">Seleziona Ruolo Per Soggetto</value>
         <value xml:lang="ja">ロールを選択、取引先:</value>
@@ -9731,7 +9732,7 @@
         <value xml:lang="de">Beträge hängige Zahlungen (inklusive Anpassungen)</value>
         <value xml:lang="en">Pending Payment Dollar Amounts (includes adjustments)</value>
         <value xml:lang="es">Importes de pagos pendientes (incluyendo los ajustes)</value>
-        <value xml:lang="fa">تعلیق‌کردن مقدار پول پرداخت (شامل تعدیل‌ها)</value>
+        <value xml:lang="fa">مقادیر پول پرداخت معلق (شامل تعدیل‌ها)</value>
         <value xml:lang="fr">Montants des paiements en cours (incluant les ajustements)</value>
         <value xml:lang="it">Importi Pagamenti in Sospeso (include aggiustamenti)</value>
         <value xml:lang="ja">保留支払金額(調整を含む)</value>
@@ -9749,7 +9750,7 @@
         <value xml:lang="de">Hängige Beträge verkauft (inklusive Aktionen)</value>
         <value xml:lang="en">Pending Payment Items Sold (includes promotions)</value>
         <value xml:lang="es">Ítems vendidos pendientes de pago (incluyendo las promociones)</value>
-        <value xml:lang="fa">تعلیق فروش اقلام پرداخت (شامل تبلیغات)</value>
+        <value xml:lang="fa">فروش اقلام پرداخت معلق (شامل تبلیغات)</value>
         <value xml:lang="fr">Lignes de commande en attente de paiement (incluant les promotions)</value>
         <value xml:lang="it">Righe Vendute Pagamenti in Sospeso (include promozioni)</value>
         <value xml:lang="ja">保留支払販売アイテム(調整を含む)</value>
@@ -9905,7 +9906,7 @@
         <value xml:lang="en">Please wait until the entire order is ready before shipping</value>
         <value xml:lang="en_GB">Please wait until the entire order is ready before delivering</value>
         <value xml:lang="es">Enviar cuando el pedido completo está disponible</value>
-        <value xml:lang="fa">لطفا صبر کنید تا زمانی که تمام سفارش آماده‌شود قبل از حمل</value>
+        <value xml:lang="fa">لطفا شکیباباشید تا زمانی که تمام سفارش آماده‌شود قبل از حمل</value>
         <value xml:lang="fr">Attendez que la commande soit complète avant d'expédier</value>
         <value xml:lang="hi_IN">कृपया इन्तजार किजीये माल उपलब्ध होते ही भेजा जाएगा</value>
         <value xml:lang="it">Per favore aspettare fino a quando l'intero ordine è pronto prima di spedirlo</value>
@@ -10781,7 +10782,7 @@
     <property key="OrderQuoteTermDescription">
         <value xml:lang="de">Bedingungsbeschreibung</value>
         <value xml:lang="en">Term Description</value>
-        <value xml:lang="fa">توضیحات شرط</value>
+        <value xml:lang="fa">شرح شرط</value>
         <value xml:lang="fr">Description de la cond. de réglement</value>
         <value xml:lang="it">Descrizione termini preventivo</value>
         <value xml:lang="ja">条件詳細</value>
@@ -11400,7 +11401,7 @@
     <property key="OrderRequestItemWorkEffort">
         <value xml:lang="de">Abeitsaufwand für Artikel anfordern</value>
         <value xml:lang="en">Request Item WorkEffort</value>
-        <value xml:lang="fa">درخواست تلاش‌کاری قلم</value>
+        <value xml:lang="fa">درخواست برنامه‌کار قلم</value>
         <value xml:lang="fr">Demande de ligne de tâche</value>
         <value xml:lang="it">Impegni di lavoro riga richiesta</value>
         <value xml:lang="ja">リクエストアイテム作業成果</value>
@@ -11467,7 +11468,7 @@
         <value xml:lang="de">Anfrageverwaltung</value>
         <value xml:lang="en">Request Manager</value>
         <value xml:lang="es">Gestión de peticiones</value>
-        <value xml:lang="fa">مدیریت درخواست</value>
+        <value xml:lang="fa">مدیر درخواست</value>
         <value xml:lang="fr">Gestionnaire de demande</value>
         <value xml:lang="it">Gestione Richieste</value>
         <value xml:lang="ja">リクエスト管理</value>
@@ -11610,7 +11611,7 @@
         <value xml:lang="de">Anfragender Akteur</value>
         <value xml:lang="en">Requesting Party</value>
         <value xml:lang="es">Participante solicitante</value>
-        <value xml:lang="fa">درخواست‌کردن هم‌مشرب</value>
+        <value xml:lang="fa">هویت خواهان</value>
         <value xml:lang="fr">Acteur émettant une demande</value>
         <value xml:lang="it">Soggetto richiedente</value>
         <value xml:lang="ja">リクエスト取引先</value>
@@ -11991,7 +11992,7 @@
         <value xml:lang="de">Retoure von Akteur</value>
         <value xml:lang="en">Return From Party</value>
         <value xml:lang="es">Participante de origen</value>
-        <value xml:lang="fa">بازگشت از هم‌مشرب</value>
+        <value xml:lang="fa">بازگشت از هویت</value>
         <value xml:lang="fr">Acteur d'origine</value>
         <value xml:lang="it">Reso Dal Soggetto</value>
         <value xml:lang="ja">返品元取引先</value>
@@ -12009,7 +12010,7 @@
         <value xml:lang="de">Retourenkopf</value>
         <value xml:lang="en">Return Header</value>
         <value xml:lang="es">Encabezado de devolución</value>
-        <value xml:lang="fa">سرفصل بازگشت</value>
+        <value xml:lang="fa">سربرگ بازگشت</value>
         <value xml:lang="fr">En-tête de retour</value>
         <value xml:lang="it">Testata Reso</value>
         <value xml:lang="ja">返品ヘッダ</value>
@@ -12849,7 +12850,7 @@
         <value xml:lang="de">Wählen Sie einen Akteurtyp aus, um ihn dem Auftrag zuzuordnen</value>
         <value xml:lang="en">Select type of party to associate to order</value>
         <value xml:lang="es">Seleccione el tipo de participante a asociar al pedido</value>
-        <value xml:lang="fa">انتخاب نوع هم‌مشرب مرتبط با سفارش</value>
+        <value xml:lang="fa">انتخاب نوع هویت مرتبط با سفارش</value>
         <value xml:lang="fr">Sélectionnez le type d'acteurs à associer à la commande</value>
         <value xml:lang="it">Seleziona il tipo di Soggetto da associare all'ordine</value>
         <value xml:lang="ja">注文に関連付ける取引先の種類を選択</value>
@@ -13418,7 +13419,7 @@
         <value xml:lang="de">Versand an anderen Akteur</value>
         <value xml:lang="en">Ship to Another Party</value>
         <value xml:lang="es">Enviar a otro participante</value>
-        <value xml:lang="fa">هم به هم‌مشرب دیگر</value>
+        <value xml:lang="fa">هم به هویت دیگر</value>
         <value xml:lang="fr">Envoyer vers un autre acteur</value>
         <value xml:lang="it">Spedizione ad un'Altro Soggetto</value>
         <value xml:lang="ja">別の取引先に発送</value>
@@ -13448,7 +13449,7 @@
         <value xml:lang="de">Versand an Akteur</value>
         <value xml:lang="en">Ship to Party</value>
         <value xml:lang="es">Enviar a participante</value>
-        <value xml:lang="fa">حمل به هم‌مشرب</value>
+        <value xml:lang="fa">حمل به هویت</value>
         <value xml:lang="fr">Destinataire</value>
         <value xml:lang="it">Spedire al Soggetto</value>
         <value xml:lang="ja">発送先取引先</value>
@@ -13525,7 +13526,7 @@
         <value xml:lang="de">Versender</value>
         <value xml:lang="en">Shipper</value>
         <value xml:lang="es">Transportista</value>
-        <value xml:lang="fa">حمل‌کننده</value>
+        <value xml:lang="fa">حمل‌گر</value>
         <value xml:lang="fr">Expéditeur</value>
         <value xml:lang="it">Spedizioniere</value>
         <value xml:lang="ja">発送元</value>
@@ -13839,7 +13840,7 @@
         <value xml:lang="de">In mehrere Lieferungen aufteilen</value>
         <value xml:lang="en">Split Into Multiple Shipments</value>
         <value xml:lang="es">Partir en múltiples envíos</value>
-        <value xml:lang="fa">به روش‌های حمل متفاوت تقسیم‌نمایید</value>
+        <value xml:lang="fa">به محموله‌های متفاوت تقسیم‌نمایید</value>
         <value xml:lang="fr">Fractionner en expéditions multiples</value>
         <value xml:lang="hi_IN">अलग अलग भेजें</value>
         <value xml:lang="it">Suddividi in spedizioni multiple</value>
@@ -13857,7 +13858,7 @@
         <value xml:lang="de">Lieferung aufteilen</value>
         <value xml:lang="en">Split Shipment</value>
         <value xml:lang="es">Partir envío</value>
-        <value xml:lang="fa">تقسیم حمل‌ونقل</value>
+        <value xml:lang="fa">تقسیم محموله</value>
         <value xml:lang="fr">Répartir l'expédition</value>
         <value xml:lang="it">Dividi spedizione</value>
         <value xml:lang="ja">発送を分割</value>
@@ -13875,7 +13876,7 @@
         <value xml:lang="de">Aufteilungspräferenz</value>
         <value xml:lang="en">Splitting Preference</value>
         <value xml:lang="es">Preferencia de división</value>
-        <value xml:lang="fa">ترجیحات تقسیم</value>
+        <value xml:lang="fa">ترجیحات تقسیم‌بندی</value>
         <value xml:lang="fr">Préférence de fractionnement</value>
         <value xml:lang="it">Preferenze di divisione</value>
         <value xml:lang="ja">分割設定</value>
@@ -13894,7 +13895,7 @@
         <value xml:lang="de">Startdatum/-zeit</value>
         <value xml:lang="en">Start Date/Time</value>
         <value xml:lang="es">Fecha/Hora de inicio</value>
-        <value xml:lang="fa">تاریخ/زمان شروع</value>
+        <value xml:lang="fa">زمان/تاریخ شروع</value>
         <value xml:lang="fr">Début (Date/Heure)</value>
         <value xml:lang="it">Inizio Data/Ora</value>
         <value xml:lang="ja">開始日時</value>
@@ -14005,7 +14006,7 @@
         <value xml:lang="de">Bitte warten Sie, der Auftrag wird verarbeitet...</value>
         <value xml:lang="en">Please Wait, Processing Order...</value>
         <value xml:lang="es">Por favor Espere, Procesando la Compra...</value>
-        <value xml:lang="fa">لطفا صبرکنید، پردازش سفارش ...</value>
+        <value xml:lang="fa">لطفا شکیباباشید، پردازش سفارش ...</value>
         <value xml:lang="fr">Attendez SVP, commande en cours de traitement...</value>
         <value xml:lang="hi_IN">कृपया इन्तजार करें, आपके आर्डर पर काम चालू है</value>
         <value xml:lang="it">Attendere prego, elaborazione ordine...</value>
@@ -14340,7 +14341,7 @@
         <value xml:lang="de">Total Menge nicht erhalten</value>
         <value xml:lang="en">Total quantity not received</value>
         <value xml:lang="es">Cantidad total no recibida</value>
-        <value xml:lang="fa">مجموع کمیت دریافت نشده</value>
+        <value xml:lang="fa">مجموع کمیت درپیدانشدهه</value>
         <value xml:lang="fr">Quantité totale non reçue</value>
         <value xml:lang="it">Totale quantità non ricevuta</value>
         <value xml:lang="ja">未受取数量合計</value>
@@ -14890,7 +14891,7 @@
         <value xml:lang="de">Sie haben keine Leseberechtigung für diese Seite ("ORDERMGR_VIEW", "ORDERMGR_PURCHASE_VIEW" oder "ORDERMGR_ADMIN" benötigt).</value>
         <value xml:lang="en">You do not have permission to view this page (it needs "ORDERMGR_VIEW", "ORDERMGR_PURCHASE_VIEW" or "ORDERMGR_ADMIN").</value>
         <value xml:lang="es">Usted no tiene permiso para ver esta página. (Privilegios como "ORDERMGR_VIEW", "ORDERMGR_PURCHASE_VIEW" u "ORDERMGR_ADMIN" son necesarios)</value>
-        <value xml:lang="fa">شما مجوز برای دیدن این صفحه را ندارید (مجوزهای "ORDERMGR_VIEW"، "ORDERMGR_PURCHASE_VIEW" یا "ORDERMGR_ADMIN" لازم است).</value>
+        <value xml:lang="fa">شما مجوز برای دیدن این صفحه را ندارید (مجوزهای "ORDERMGR_VIEW"، "ORDERMGR_PURCHASE_VIEW" یا "ORDERMGR_ADMIN" لازم‌است).</value>
         <value xml:lang="fr">Vous n'avez pas l'autorisation de voir cette page. ("ORDERMGR_VIEW", "ORDERMGR_PURCHASE_VIEW" ou "ORDERMGR_ADMIN" est nécessaire)</value>
         <value xml:lang="it">Non sei autorizzato a vedere questa pagina. ("ORDERMGR_VIEW", "ORDERMGR_PURCHASE_VIEW", "ORDERMGR_ADMIN" o ruolo associato all'agente Fornitore sono necessari)</value>
         <value xml:lang="ja">このページを表示する権限がありません。"ORDERMGR_VIEW", "ORDERMGR_PURCHASE_VIEW" または "ORDERMGR_ADMIN" が必要です。</value>
@@ -14927,7 +14928,7 @@
         <value xml:lang="de">Gewinn</value>
         <value xml:lang="en">Profit</value>
         <value xml:lang="es">Beneficio</value>
-        <value xml:lang="fa">سود</value>
+        <value xml:lang="fa">نفع</value>
         <value xml:lang="fr">Bénéfice</value>
         <value xml:lang="it">Profitto</value>
         <value xml:lang="ja">利益</value>
@@ -15231,7 +15232,7 @@
     <property key="PageTitleApprovedProductRequirementsByVendor">
         <value xml:lang="de">Genehmigter Produktbedarf nach Hersteller</value>
         <value xml:lang="en">Approved Product Requirements By Vendor</value>
-        <value xml:lang="fa">الزامات محصول تصویب‌شده بوسیله دست‌فروش</value>
+        <value xml:lang="fa">الزامات محصول تصویب‌شده بوسیله فروشنده</value>
         <value xml:lang="fr">Approbation des besoins produit par le fournisseur</value>
         <value xml:lang="it">Approva fabbisogni prodotto per fornitore</value>
         <value xml:lang="ja">ベンダ別承認済製品要求</value>
@@ -15261,7 +15262,7 @@
     <property key="PageTitleEditOrderHeader">
         <value xml:lang="de">Bestellungskopf bearbeiten</value>
         <value xml:lang="en">Edit Order Header</value>
-        <value xml:lang="fa">ویرایش سرفصل سفارش</value>
+        <value xml:lang="fa">ویرایش سربرگ سفارش</value>
         <value xml:lang="fr">Éditer l'entête de commande</value>
         <value xml:lang="it">Aggiorna testata ordine</value>
         <value xml:lang="ja">注文ヘッダを編集</value>
@@ -15321,7 +15322,7 @@
         <value xml:lang="de">Anfrageelement Arbeitseinsatz bearbeiten</value>
         <value xml:lang="en">Edit a Request Item WorkEffort</value>
         <value xml:lang="es">Editar un esfuerzo de trabajo para ítem de petición</value>
-        <value xml:lang="fa">ویرایش تلاش‌کاری قلم درخواست</value>
+        <value xml:lang="fa">ویرایش برنامه‌کار قلم درخواست</value>
         <value xml:lang="fr">Modifier une demande de service</value>
         <value xml:lang="it">Aggiorna Riga Richiesta Impegno di Lavoro</value>
         <value xml:lang="ja">リクエストアイテム作業成果を編集</value>
@@ -15456,7 +15457,7 @@
     <property key="PageTitleListOrderHeaders">
         <value xml:lang="de">Auftragsköpfe anzeigen</value>
         <value xml:lang="en">List Order Headers</value>
-        <value xml:lang="fa">لیست‌کردن سرفصل‌های سفارش</value>
+        <value xml:lang="fa">لیست‌کردن سربرگ‌های سفارش</value>
         <value xml:lang="fr">Liste des entêtes de commande</value>
         <value xml:lang="it">Lista testate ordini</value>
         <value xml:lang="ja">注文ヘッダ一覧</value>
@@ -15552,7 +15553,7 @@
         <value xml:lang="de">Auftragskopf suchen</value>
         <value xml:lang="en">Lookup Order Header</value>
         <value xml:lang="es">Buscar cabecera de pedido</value>
-        <value xml:lang="fa">جستجوی سرفصل سفارش</value>
+        <value xml:lang="fa">جستجوی سربرگ سفارش</value>
         <value xml:lang="fr">Rechercher un ou des entêtes de commande</value>
         <value xml:lang="it">Ricerca Testate Ordini</value>
         <value xml:lang="ja">注文ヘッダを検索</value>
@@ -15569,7 +15570,7 @@
         <value xml:lang="de">Auftragskopf und Versandinformationen suchen</value>
         <value xml:lang="en">Lookup Order Header and Ship Info</value>
         <value xml:lang="es">Buscar cabecera de pedido e información de envío</value>
-        <value xml:lang="fa">جستجوی سرفصل سفارش و اطلاعات حمل</value>
+        <value xml:lang="fa">جستجوی سربرگ سفارش و اطلاعات حمل</value>
         <value xml:lang="fr">Rechercher un ou des entêtes de commande et infos d'expédition</value>
         <value xml:lang="it">Ricerca Testate Ordini e Informazioni Spedizioni</value>
         <value xml:lang="ja">注文ヘッダおよび発送情報を検索</value>
@@ -15586,7 +15587,7 @@
         <value xml:lang="de">Beschaffungsauftragskopf und Versandinformationen suchen</value>
         <value xml:lang="en">Lookup Purchase Order Header and Ship Info</value>
         <value xml:lang="es">Buscar cabecera de pedido de compra e información de envío</value>
-        <value xml:lang="fa">جستجوی سرفصل سفارش خرید و اطلاعات حمل</value>
+        <value xml:lang="fa">جستجوی سربرگ سفارش خرید و اطلاعات حمل</value>
         <value xml:lang="fr">Rechercher un ou des entêtes commandes d'achat et infos d'expédition</value>
         <value xml:lang="it">Ricerca Testate Ordini Acquisto e Informazioni Spedizioni</value>
         <value xml:lang="ja">購買注文ヘッダおよび発送情報を検索</value>
@@ -15824,7 +15825,7 @@
         <value xml:lang="de">Retourenkopf</value>
         <value xml:lang="en">Return Header</value>
         <value xml:lang="es">Cabecera de devolución</value>
-        <value xml:lang="fa">سرفصل بازگشته</value>
+        <value xml:lang="fa">سربرگ بازگشته</value>
         <value xml:lang="fr">Entête de retour</value>
         <value xml:lang="it">Testata Reso</value>
         <value xml:lang="ja">返品ヘッダ</value>
@@ -15923,7 +15924,7 @@
         <value xml:lang="de">Positionen aufteilen für Versand</value>
         <value xml:lang="en">Split Items For Shipping</value>
         <value xml:lang="es">Dividir Artículos para envío</value>
-        <value xml:lang="fa">جداسازی اقلام برای حمل</value>
+        <value xml:lang="fa">تقسیم اقلام برای حمل‌کردن</value>
         <value xml:lang="fr">Dissocier les articles lors de l'expédition</value>
         <value xml:lang="it">Dividi gli articoli per spedizioni</value>
         <value xml:lang="ja">発送のためアイテムを分割</value>

@@ -39,7 +39,7 @@
         <value xml:lang="de">Exponat</value>
         <value xml:lang="en">Exhibit</value>
         <value xml:lang="es">Despliegue</value>
-        <value xml:lang="fa">نمایش</value>
+        <value xml:lang="fa">شکل</value>
         <value xml:lang="fr">Exposition</value>
         <value xml:lang="hi_IN">प्रदर्शन करे</value>
         <value xml:lang="it">Esposizione</value>
@@ -123,7 +123,7 @@
         <value xml:lang="de">Anstellung</value>
         <value xml:lang="en">Employment</value>
         <value xml:lang="es">Empleo</value>
-        <value xml:lang="fa">کارمند</value>
+        <value xml:lang="fa">استخدام</value>
         <value xml:lang="fr">Usage</value>
         <value xml:lang="hi_IN">रोजगार</value>
         <value xml:lang="it">Impiego</value>
@@ -495,7 +495,7 @@
         <value xml:lang="de">Rechnungs E-Mail-Adresse</value>
         <value xml:lang="en">Billing (AP) Email</value>
         <value xml:lang="es">Correo electrónico de facturación</value>
-        <value xml:lang="fa">ایمیل صورت‌حساب (حساب پرداختی)</value>
+        <value xml:lang="fa">ایمیل صورت‌حساب (پرداختنی حساب)</value>
         <value xml:lang="fr">Adresse courriel de facturation</value>
         <value xml:lang="hi_IN">देयकांकन(बिलिंग)(एपी) ईमेल</value>
         <value xml:lang="it">Email Fatturazione (AP)</value>
@@ -512,7 +512,7 @@
         <value xml:lang="de">Rechnungsadresse</value>
         <value xml:lang="en">Billing (AP) Address</value>
         <value xml:lang="es">Dirección de facturación</value>
-        <value xml:lang="fa">آدرس صورت‌حساب (حساب پرداختی)</value>
+        <value xml:lang="fa">آدرس صورت‌حساب (پرداختنی حساب)</value>
         <value xml:lang="fr">Adresse de facturation</value>
         <value xml:lang="hi_IN">देयकांकन(बिलिंग)(एपी) पता</value>
         <value xml:lang="it">Indirizzo di fatturazione</value>
@@ -654,7 +654,7 @@
         <value xml:lang="de">Zahlung E-Mail-Adresse</value>
         <value xml:lang="en">Payment (AR) Email</value>
         <value xml:lang="es">Correo electrónico de pago</value>
-        <value xml:lang="fa">ایمیل پرداخت (حساب‌ دریافتی)</value>
+        <value xml:lang="fa">ایمیل پرداخت (دریافتنی حساب‌)</value>
         <value xml:lang="fr">Adresse courriel de paiement</value>
         <value xml:lang="hi_IN">भुगतान (एआर) ईमेल</value>
         <value xml:lang="it">Email Pagamento (AR) </value>
@@ -671,7 +671,7 @@
         <value xml:lang="de">Zahlungsadresse</value>
         <value xml:lang="en">Payment (AR) Address</value>
         <value xml:lang="es">Dirección de pago</value>
-        <value xml:lang="fa">آدرس پرداخت (حساب دریافتی)</value>
+        <value xml:lang="fa">آدرس پرداخت (دریافتنی حساب)</value>
         <value xml:lang="fr">Adresse du service comptabilité (paiements)</value>
         <value xml:lang="hi_IN">भुगतान (एआर) का पता</value>
         <value xml:lang="it">Indirizzo Pagamento (AR)</value>
@@ -689,7 +689,7 @@
         <value xml:lang="de">Telefonnummer Assistent</value>
         <value xml:lang="en">Assistant's Phone Number</value>
         <value xml:lang="es">Número de teléfono de asistente</value>
-        <value xml:lang="fa">شماره تلفن همکار</value>
+        <value xml:lang="fa">شماره تلفن دستیار</value>
         <value xml:lang="fr">Numéro de téléphone de l'assistance</value>
         <value xml:lang="hi_IN">सहायक का फोन नंबर</value>
         <value xml:lang="it">Numero Telefono Assistente</value>
@@ -707,7 +707,7 @@
         <value xml:lang="de">Fakturierung Telefonnummer</value>
         <value xml:lang="en">Billing (AP) Phone Number</value>
         <value xml:lang="es">Teléfono de facturación</value>
-        <value xml:lang="fa">شماره تلفن صورت‌حساب (حساب پرداختی)</value>
+        <value xml:lang="fa">شماره تلفن صورت‌حساب (پرداختنی حساب)</value>
         <value xml:lang="fr">Numéro de téléphone du service facturation</value>
         <value xml:lang="hi_IN">देयकांकन(बिलिंग)(एपी) फोन नंबर</value>
         <value xml:lang="it">Numero telefono di fatturazione</value>
@@ -722,7 +722,7 @@
     </property>
     <property key="ContactMechPurposeType.description.PHONE_DID">
         <value xml:lang="en">Direct Inward Dialing Phone Number</value>
-        <value xml:lang="fa">شماره تلفن تماس داخلی</value>
+        <value xml:lang="fa">شماره تلفن تماس مستقیم</value>
         <value xml:lang="fr">Numéro de téléphone interne directe</value>
         <value xml:lang="hi_IN">डायरेक्ट आवक डायलन फोन नंबर</value>
         <value xml:lang="it">Numero telefono interno diretto per connettersi</value>
@@ -772,7 +772,7 @@
         <value xml:lang="de">Zahlung Telefonnummer</value>
         <value xml:lang="en">Payment (AR) Phone Number</value>
         <value xml:lang="es">Teléfono Pagos</value>
-        <value xml:lang="fa">شماره تلفن پرداخت (حساب دریافتی)</value>
+        <value xml:lang="fa">شماره تلفن پرداخت (دریافتنی حساب)</value>
         <value xml:lang="fr">Numéro de téléphone du service comptabilité</value>
         <value xml:lang="hi_IN">भुगतान (एआर) का फोन नंबर</value>
         <value xml:lang="it">Numero Telefono Pagamento (AR)</value>
@@ -818,7 +818,7 @@
         <value xml:lang="de">Telefonnummer Absenderadresse</value>
         <value xml:lang="en">Shipping Origin Phone Number</value>
         <value xml:lang="es">Teléfono origen de envíos</value>
-        <value xml:lang="fa">شماره تلفن اولیه حمل</value>
+        <value xml:lang="fa">شماره تلفن مبدا حمل</value>
         <value xml:lang="fr">Numéro de téléphone du lieu d'expédition</value>
         <value xml:lang="hi_IN">शिपिंग का मूल फ़ोन नंबर</value>
         <value xml:lang="it">Numero Telefono Origine Spedizione</value>
@@ -941,7 +941,7 @@
         <value xml:lang="de">1. Webseite URL</value>
         <value xml:lang="en">Primary Website URL</value>
         <value xml:lang="es">Sitio web principal</value>
-        <value xml:lang="fa">وب سایت اولیه (URL)</value>
+        <value xml:lang="fa">وب‌سایت اولیه (URL)</value>
         <value xml:lang="fr">Site Web principal (URL)</value>
         <value xml:lang="hi_IN">प्राथमिक वेबसाइट यूआरएल(URL)</value>
         <value xml:lang="it">URL Primario Sito Web</value>
@@ -995,7 +995,7 @@
         <value xml:lang="de">Absenderadresse</value>
         <value xml:lang="en">Shipping Origin Address</value>
         <value xml:lang="es">Dirección de origen de envíos</value>
-        <value xml:lang="fa">آدرس اولیه حمل</value>
+        <value xml:lang="fa">آدرس مبدا حمل</value>
         <value xml:lang="fr">Adresse d'expédition</value>
         <value xml:lang="hi_IN">शिपिंग का मूल पता</value>
         <value xml:lang="it">Indirizzo origine spedizione</value>
@@ -1065,7 +1065,7 @@
     </property>
     <property key="ContactMechType.description.INTERNAL_PARTYID">
         <value xml:lang="en">Internal Party Note</value>
-        <value xml:lang="fa">یادداشت هم‌مشرب داخلی</value>
+        <value xml:lang="fa">یادداشت هویت داخلی</value>
         <value xml:lang="fr">Note Interne</value>
         <value xml:lang="ja">内部取引先連絡</value>
         <value xml:lang="vi">Ghi chú tác nhân nội bộ</value>
@@ -1091,7 +1091,7 @@
     </property>
     <property key="ContactMechType.description.LDAP_ADDRESS">
         <value xml:lang="en">LDAP Address</value>
-        <value xml:lang="fa">آدرس فهرست‌راهنما</value>
+        <value xml:lang="fa">آدرس فهرست‌راهنما(LDAP)</value>
         <value xml:lang="fr">Annuaire (URL)</value>
         <value xml:lang="ja">LDAPアドレス</value>
         <value xml:lang="vi">Địa chỉ LDAP</value>
@@ -1155,7 +1155,7 @@
         <value xml:lang="de">Montage</value>
         <value xml:lang="en">ASSEMBLY</value>
         <value xml:lang="es">Ensamblado</value>
-        <value xml:lang="fa">مجمع</value>
+        <value xml:lang="fa">اجزاء</value>
         <value xml:lang="fr">Assemblage</value>
         <value xml:lang="hi_IN">सभा</value>
         <value xml:lang="it">Assemblatore</value>
@@ -1199,7 +1199,7 @@
         <value xml:lang="de">Direktor</value>
         <value xml:lang="en">DIRECTEUR</value>
         <value xml:lang="es">Director</value>
-        <value xml:lang="fa">سرپرست</value>
+        <value xml:lang="fa">کارگردان</value>
         <value xml:lang="fr">Directeur</value>
         <value xml:lang="hi_IN">निदेशक</value>
         <value xml:lang="it">Direttore</value>
@@ -1257,7 +1257,7 @@
     <property key="PartyClassificationType.description.EEOC_CLASSIFICATION">
         <value xml:lang="en">EEOC (Equal Employment Opportunity Commission)</value>
         <value xml:lang="es">EEOC (Comisión de Oportunidad Laboral Igualitaria de EE.UU.)</value>
-        <value xml:lang="fa">ک.ف.ک.ب (کارمزد فرصت‌های کارمندان برابر)</value>
+        <value xml:lang="fa">ک.ف.ا.ب (کارمزد فرصت‌های استخدام برابر)</value>
         <value xml:lang="fr">HALDE (Haute Autorité de Lutte contre les Discriminations et pour l’Egalité)</value>
         <value xml:lang="hi_IN">समान रोजगार अवसर आयोग(EEOC)</value>
         <value xml:lang="it">Commissione pari opportunità impiegati (EEOC)</value>
@@ -1350,7 +1350,7 @@
     <property key="PartyClassificationType.description.OWNERSHIP">
         <value xml:lang="en">Ownership</value>
         <value xml:lang="es">Posesión</value>
-        <value xml:lang="fa">مالک</value>
+        <value xml:lang="fa">مالکیت</value>
         <value xml:lang="fr">Propriété</value>
         <value xml:lang="hi_IN">स्वामित्व</value>
         <value xml:lang="it">Proprietà</value>
@@ -1449,7 +1449,7 @@
     <property key="PartyClassificationType.description.VALUE_RATING">
         <value xml:lang="en">Value Rating</value>
         <value xml:lang="es">Clasificación de valor</value>
-        <value xml:lang="fa">نرخ‌گذاری مقدار</value>
+        <value xml:lang="fa">نرخ‌گذاری ارزش</value>
         <value xml:lang="fr">Estimation de valeur</value>
         <value xml:lang="hi_IN">मान दर्ज़ा</value>
         <value xml:lang="it">Valore classifica</value>
@@ -1562,7 +1562,7 @@
     <property key="PartyRelationshipType.partyRelationshipName.CHILD">
         <value xml:lang="en">Child</value>
         <value xml:lang="es">Descendiente</value>
-        <value xml:lang="fa">فرزند</value>
+        <value xml:lang="fa">بچه</value>
         <value xml:lang="fr">Enfant</value>
         <value xml:lang="hi_IN">निचला(Child)</value>
         <value xml:lang="it">Figlio</value>
@@ -1611,7 +1611,7 @@
         <value xml:lang="de">Distributor</value>
         <value xml:lang="en">Distributor</value>
         <value xml:lang="es">Distribuidor</value>
-        <value xml:lang="fa">توزیع‌کننده</value>
+        <value xml:lang="fa">توزیع‌گر</value>
         <value xml:lang="fr">Distributeur</value>
         <value xml:lang="hi_IN">वितरक</value>
         <value xml:lang="it">Distributore</value>
@@ -1658,7 +1658,7 @@
         <value xml:lang="de">Gruppenmitglied</value>
         <value xml:lang="en">Group Member</value>
         <value xml:lang="es">Miembro de grupo</value>
-        <value xml:lang="fa">شماره گروه</value>
+        <value xml:lang="fa">عضو گروه</value>
         <value xml:lang="fr">Membre du groupe</value>
         <value xml:lang="hi_IN">समूह के सदस्य</value>
         <value xml:lang="it">Gruppo membro</value>
@@ -1691,7 +1691,7 @@
     <property key="PartyRelationshipType.partyRelationshipName.LEAD_OWNER">
         <value xml:lang="en">Lead owned by</value>
         <value xml:lang="es">Encargado de lead</value>
-        <value xml:lang="fa">مالک سرمشق</value>
+        <value xml:lang="fa">مالک هادی</value>
         <value xml:lang="fr">Propriétaire principal</value>
         <value xml:lang="hi_IN">मुख्य स्वामी</value>
         <value xml:lang="it">Proprietario</value>
@@ -1704,7 +1704,7 @@
     <property key="PartyRelationshipType.partyRelationshipName.LEAD_REL">
         <value xml:lang="en">Lead relation</value>
         <value xml:lang="es">Relación con lead</value>
-        <value xml:lang="fa">رابطه سرمشق</value>
+        <value xml:lang="fa">رابطه هادی</value>
         <value xml:lang="fr">Relation principale</value>
         <value xml:lang="hi_IN">मुख्य रिश्ता</value>
         <value xml:lang="it">Relazione di proprietà</value>
@@ -1717,7 +1717,7 @@
         <value xml:lang="de">Manager</value>
         <value xml:lang="en">Manager</value>
         <value xml:lang="es">Gerente</value>
-        <value xml:lang="fa">مدیریت</value>
+        <value xml:lang="fa">مدیر</value>
         <value xml:lang="fr">Gestionnaire</value>
         <value xml:lang="hi_IN">प्रबंधक</value>
         <value xml:lang="it">Capo ufficio</value>
@@ -1747,7 +1747,7 @@
     <property key="PartyRelationshipType.partyRelationshipName.PARENT">
         <value xml:lang="en">Parent</value>
         <value xml:lang="es">Precursor</value>
-        <value xml:lang="fa">مادر</value>
+        <value xml:lang="fa">والد</value>
         <value xml:lang="fr">Parent</value>
         <value xml:lang="hi_IN">जनक(Parent)</value>
         <value xml:lang="it">Padre</value>
@@ -1760,7 +1760,7 @@
     <property key="PartyRelationshipType.partyRelationshipName.PARENT_ACCOUNT">
         <value xml:lang="en">Parent account</value>
         <value xml:lang="es">Cuenta precursora</value>
-        <value xml:lang="fa">حساب مادر </value>
+        <value xml:lang="fa">حساب والد </value>
         <value xml:lang="fr">Compte parent</value>
         <value xml:lang="hi_IN">जनक खाता(Parent account)</value>
         <value xml:lang="it">Utenza padre</value>
@@ -1803,7 +1803,7 @@
         <value xml:lang="de">Verkaufspartner</value>
         <value xml:lang="en">Sales Affiliate</value>
         <value xml:lang="es">Asociado de venta</value>
-        <value xml:lang="fa">فروش واحدوابسته</value>
+        <value xml:lang="fa">واحدوابسته فروش</value>
         <value xml:lang="fr">Membre du réseau de vente</value>
         <value xml:lang="hi_IN">बिक्री संबद्ध</value>
         <value xml:lang="it">Affiliato vendite</value>
@@ -1832,7 +1832,7 @@
         <value xml:lang="de">Lieferant</value>
         <value xml:lang="en">Supplier</value>
         <value xml:lang="es">Proveedor</value>
-        <value xml:lang="fa">عرضه‌کننده</value>
+        <value xml:lang="fa">عرضه‌گر</value>
         <value xml:lang="fr">Fournisseur</value>
         <value xml:lang="hi_IN">प्रदायक</value>
         <value xml:lang="it">Fornitore</value>
@@ -1951,7 +1951,7 @@
         <value xml:lang="de">Informelle Gruppe</value>
         <value xml:lang="en">Informal Group</value>
         <value xml:lang="es">Grupo informal</value>
-        <value xml:lang="fa">گروه رسمی</value>
+        <value xml:lang="fa">گروه غیررسمی</value>
         <value xml:lang="fr">Groupe Informel</value>
         <value xml:lang="hi_IN">अनौपचारिक समूह</value>
         <value xml:lang="it">Gruppo informale</value>
@@ -1985,7 +1985,7 @@
         <value xml:lang="de">Akteurgruppe</value>
         <value xml:lang="en">Party Group</value>
         <value xml:lang="es">Grupo de participantes</value>
-        <value xml:lang="fa">گروه هم‌مشرب</value>
+        <value xml:lang="fa">گروه هویت</value>
         <value xml:lang="fr">Groupe d'acteurs</value>
         <value xml:lang="hi_IN">पार्टी समूह</value>
         <value xml:lang="it">Gruppo soggetto</value>
@@ -2048,7 +2048,7 @@
     <property key="RoleType.description.ACCOUNT_LEAD">
         <value xml:lang="en">Account Lead</value>
         <value xml:lang="es">Cuenta lead</value>
-        <value xml:lang="fa">سرمشق حساب</value>
+        <value xml:lang="fa">هادی حساب</value>
         <value xml:lang="fr">Compte principal</value>
         <value xml:lang="hi_IN">मुख्य खाता</value>
         <value xml:lang="it">Utenza leader</value>
@@ -2124,7 +2124,7 @@
         <value xml:lang="de">Genehmiger</value>
         <value xml:lang="en">Approver</value>
         <value xml:lang="es">Aprobante</value>
-        <value xml:lang="fa">تصویب‌کننده</value>
+        <value xml:lang="fa">تصویب‌گر</value>
         <value xml:lang="fr">Approbateur</value>
         <value xml:lang="hi_IN">अनुमोदक</value>
         <value xml:lang="it">Approvatore</value>
@@ -2187,7 +2187,7 @@
         <value xml:lang="de">Rechnung vom Verkäufer</value>
         <value xml:lang="en">Bill-From-Vendor</value>
         <value xml:lang="es">Proveedor que factura</value>
-        <value xml:lang="fa">صورت‌حساب از فروشنده</value>
+        <value xml:lang="fa">صورت‌حساب‌کردن-از-فروشنده</value>
         <value xml:lang="fr">Fournisseur émetteur de facture</value>
         <value xml:lang="hi_IN">विक्रेता-से-बिल</value>
         <value xml:lang="it">Fatturare dal fornitore</value>
@@ -2204,7 +2204,7 @@
         <value xml:lang="de">Rechnung an Kunde</value>
         <value xml:lang="en">Bill-To Customer</value>
         <value xml:lang="es">Cliente facturable</value>
-        <value xml:lang="fa">صورت‌حساب به مشتری</value>
+        <value xml:lang="fa">صورت‌حساب‌کردن-به مشتری</value>
         <value xml:lang="fr">Client facturé</value>
         <value xml:lang="hi_IN">ग्राहक को बिल</value>
         <value xml:lang="it">Fatturare al cliente</value>
@@ -2306,7 +2306,7 @@
         <value xml:lang="de">Blog Herausgeber</value>
         <value xml:lang="en">Blog Publisher</value>
         <value xml:lang="es">Emisor de blog</value>
-        <value xml:lang="fa">منتشرکننده بلاگ</value>
+        <value xml:lang="fa">انتشارگر بلاگ</value>
         <value xml:lang="fr">Editeur du blog</value>
         <value xml:lang="hi_IN">ब्लॉग प्रकाशक</value>
         <value xml:lang="it">Pubblicatore blog</value>
@@ -2338,7 +2338,7 @@
     </property>
     <property key="RoleType.description.BULK_CUSTOMER">
         <value xml:lang="en">Bulk Customer</value>
-        <value xml:lang="fa">توده مشتری</value>
+        <value xml:lang="fa">مشتری توده</value>
         <value xml:lang="hi_IN">थोक ग्राहक</value>
         <value xml:lang="it">Grosso cliente</value>
         <value xml:lang="ja">大口顧客</value>
@@ -2431,7 +2431,7 @@
         <value xml:lang="de">Kalenderorganisator</value>
         <value xml:lang="en">Calendar Organizer</value>
         <value xml:lang="es">Organiza el calendario</value>
-        <value xml:lang="fa">سازمان تقویم</value>
+        <value xml:lang="fa">سازمان‌دهنده تقویم</value>
         <value xml:lang="fr">Organisateur</value>
         <value xml:lang="hi_IN">कैलेंडर आयोजक</value>
         <value xml:lang="it">Organizzatore del calendario</value>
@@ -2465,7 +2465,7 @@
         <value xml:lang="de">Spediteur</value>
         <value xml:lang="en">Carrier</value>
         <value xml:lang="es">Transportista</value>
-        <value xml:lang="fa">جابجاکننده</value>
+        <value xml:lang="fa">جابجاگر</value>
         <value xml:lang="fr">Transporteur</value>
         <value xml:lang="hi_IN">वाहक</value>
         <value xml:lang="it">Corriere</value>
@@ -2527,7 +2527,7 @@
     <property key="RoleType.description.CLIENT_ANALYST">
         <value xml:lang="en">Client Analyst</value>
         <value xml:lang="es">Analista de clientes</value>
-        <value xml:lang="fa">تحلیلگر مشتری</value>
+        <value xml:lang="fa">تحلیل‌گر مشتری</value>
         <value xml:lang="fr">Utilisateur clé</value>
         <value xml:lang="hi_IN">ग्राहक विश्लेषक</value>
         <value xml:lang="it">Analista della clientela</value>
@@ -2540,7 +2540,7 @@
     <property key="RoleType.description.CLIENT_BILLING">
         <value xml:lang="en">Client Billing</value>
         <value xml:lang="es">Facturación clientes</value>
-        <value xml:lang="fa">صدور صورت‌حساب به مشتری</value>
+        <value xml:lang="fa">صورت‌حساب مشتری</value>
         <value xml:lang="fr">Acteur facturé</value>
         <value xml:lang="hi_IN">ग्राहक बिलिंग</value>
         <value xml:lang="it">Fatturazione clientela</value>
@@ -2554,7 +2554,7 @@
         <value xml:lang="de">Kundenmanager</value>
         <value xml:lang="en">Client Manager</value>
         <value xml:lang="es">Gestor de clientes</value>
-        <value xml:lang="fa">مدیریت مشتری </value>
+        <value xml:lang="fa">مدیر مشتری </value>
         <value xml:lang="fr">Chef de projet client</value>
         <value xml:lang="hi_IN">ग्राहक प्रबंधक</value>
         <value xml:lang="it">Responsabile della clientela</value>
@@ -2631,7 +2631,7 @@
     </property>
     <property key="RoleType.description.CONTENT">
         <value xml:lang="en">Content Member</value>
-        <value xml:lang="fa">شماره محتوا</value>
+        <value xml:lang="fa">عضو محتوا</value>
         <value xml:lang="fr">Gestionnaire de document</value>
         <value xml:lang="hi_IN">सामग्री(Content) के सदस्य</value>
         <value xml:lang="it">Membro contenuto</value>
@@ -2691,7 +2691,7 @@
     </property>
     <property key="RoleType.description.CONTENT_PUBLISHER">
         <value xml:lang="en">Content Publisher</value>
-        <value xml:lang="fa">منتشرکننده محتوا</value>
+        <value xml:lang="fa">انتشارگر محتوا</value>
         <value xml:lang="fr">Editeur de document</value>
         <value xml:lang="hi_IN">सामग्री(Content) प्रकाशक</value>
         <value xml:lang="it">Editore contenuto</value>
@@ -2785,7 +2785,7 @@
         <value xml:lang="de">Distributor</value>
         <value xml:lang="en">Distributor</value>
         <value xml:lang="es">Distribuidor</value>
-        <value xml:lang="fa">توزیع‌کننده</value>
+        <value xml:lang="fa">توزیع‌گر</value>
         <value xml:lang="fr">Distributeur</value>
         <value xml:lang="hi_IN">वितरक</value>
         <value xml:lang="it">Distributore</value>
@@ -2891,7 +2891,7 @@
     </property>
     <property key="RoleType.description.FAM_MANAGER">
         <value xml:lang="en">Maintenance Manager or Supervisor</value>
-        <value xml:lang="fa">مدیریت تعمیرونگهداری یا مباشر</value>
+        <value xml:lang="fa">مدیر یا مباشر تعمیرونگهداری</value>
         <value xml:lang="fr">Responsable de la maintenance</value>
         <value xml:lang="hi_IN">अनुरक्षण प्रबंधक अथवा सुपरवाइजर</value>
         <value xml:lang="it">Gestione manutenzione o supervisore</value>
@@ -2903,7 +2903,7 @@
     </property>
     <property key="RoleType.description.FAM_SUPPLIER">
         <value xml:lang="en">Maintenance Supplier or Service</value>
-        <value xml:lang="fa">عرضه‌کننده تعمیرونگهداری یا سرویس</value>
+        <value xml:lang="fa">عرضه‌گر یا سرویس تعمیرونگهداری</value>
         <value xml:lang="fr">Fournisseur ou service de maintenance</value>
         <value xml:lang="hi_IN">रखरखाव प्रदायक या सेवा</value>
         <value xml:lang="it">Manutenzione fornitore o servizio</value>
@@ -3007,7 +3007,7 @@
         <value xml:lang="de">Lead</value>
         <value xml:lang="en">Lead</value>
         <value xml:lang="es">Lead</value>
-        <value xml:lang="fa">سرمشق</value>
+        <value xml:lang="fa">هادی</value>
         <value xml:lang="fr">Prospect</value>
         <value xml:lang="hi_IN">नेतृत्व</value>
         <value xml:lang="it">Leader</value>
@@ -3024,7 +3024,7 @@
         <value xml:lang="de">Angemeldet</value>
         <value xml:lang="en">Logged In</value>
         <value xml:lang="es">Conectado</value>
-        <value xml:lang="fa">ورود</value>
+        <value xml:lang="fa">ورود به</value>
         <value xml:lang="fr">Connecté</value>
         <value xml:lang="hi_IN">लॉगड इन</value>
         <value xml:lang="it">Autenticato</value>
@@ -3058,7 +3058,7 @@
         <value xml:lang="de">Manager</value>
         <value xml:lang="en">Manager</value>
         <value xml:lang="es">Gerente</value>
-        <value xml:lang="fa">مدیریت</value>
+        <value xml:lang="fa">مدیر</value>
         <value xml:lang="fr">Responsable</value>
         <value xml:lang="hi_IN">प्रबंधक</value>
         <value xml:lang="it">Responsabile</value>
@@ -3217,7 +3217,7 @@
         <value xml:lang="de">Übergeordnete Organisation</value>
         <value xml:lang="en">Parent Organization</value>
         <value xml:lang="es">Organización padre</value>
-        <value xml:lang="fa">سازمان مادر</value>
+        <value xml:lang="fa">سازمان والد</value>
         <value xml:lang="fr">Organisation parente</value>
         <value xml:lang="hi_IN">उच्च स्तरीय(Parent) संगठन</value>
         <value xml:lang="it">Organizzazione padre</value>
@@ -3251,7 +3251,7 @@
         <value xml:lang="de">Berechtigungsgruppe</value>
         <value xml:lang="en">Permission Group</value>
         <value xml:lang="es">Grupo de permisos</value>
-        <value xml:lang="fa">گروه مجوز</value>
+        <value xml:lang="fa">گروه اجازه</value>
         <value xml:lang="fr">Groupe d'approbation</value>
         <value xml:lang="hi_IN">अनुमति समूह</value>
         <value xml:lang="it">Gruppo permesso</value>
@@ -3268,7 +3268,7 @@
         <value xml:lang="de">Mitglied Berechtigungsgruppe</value>
         <value xml:lang="en">Permission Group Member</value>
         <value xml:lang="es">Miembro de grupo de permisos</value>
-        <value xml:lang="fa">عضو گروه مجوز</value>
+        <value xml:lang="fa">عضو گروه اجازه</value>
         <value xml:lang="fr">Membre du groupe d'approbation</value>
         <value xml:lang="hi_IN">अनुमति समूह के सदस्य</value>
         <value xml:lang="it">Permesso membro gruppo</value>
@@ -3302,7 +3302,7 @@
         <value xml:lang="de">Kommissionierer</value>
         <value xml:lang="en">Picker</value>
         <value xml:lang="es">Recogedor</value>
-        <value xml:lang="fa">بسته‌بند</value>
+        <value xml:lang="fa">چیننده</value>
         <value xml:lang="fr">Préparateur</value>
         <value xml:lang="hi_IN">पिक्कर(Picker)</value>
         <value xml:lang="it">Prelevatore</value>
@@ -3318,7 +3318,7 @@
         <value xml:lang="de">Bestellender Kunde</value>
         <value xml:lang="en">Placing Customer</value>
         <value xml:lang="es">Cliente Comprador que realiza pedidos</value>
-        <value xml:lang="fa">مشتری بسته‌بندی</value>
+        <value xml:lang="fa">مشتری جایابی</value>
         <value xml:lang="fr">Client acheteur</value>
         <value xml:lang="it">Cliente che dispone</value>
         <value xml:lang="ja">見込顧客</value>
@@ -3348,7 +3348,7 @@
         <value xml:lang="de">Potentieller Kunde</value>
         <value xml:lang="en">Prospect</value>
         <value xml:lang="es">Cliente potencial</value>
-        <value xml:lang="fa">جنبه</value>
+        <value xml:lang="fa">چشم‌انداز</value>
         <value xml:lang="fr">Prospect</value>
         <value xml:lang="hi_IN">अपेक्षा</value>
         <value xml:lang="it">Prospetto</value>
@@ -3403,7 +3403,7 @@
     <property key="RoleType.description.PROVIDER_MANAGER">
         <value xml:lang="en">Provider Manager</value>
         <value xml:lang="es">Gestor de proveedores</value>
-        <value xml:lang="fa">مدیریت مهیاگر</value>
+        <value xml:lang="fa">مدیر مهیاگر</value>
         <value xml:lang="fr">Chef de projet</value>
         <value xml:lang="hi_IN">प्रदाता प्रबंधक</value>
         <value xml:lang="it">Responsabile del provider</value>
@@ -3416,7 +3416,7 @@
     <property key="RoleType.description.PROVIDER_TESTER">
         <value xml:lang="en">Provider Tester</value>
         <value xml:lang="es">Probador de proveedores</value>
-        <value xml:lang="fa">تست‌کننده مهیاگر</value>
+        <value xml:lang="fa">تست‌گر مهیاگر</value>
         <value xml:lang="fr">Testeur (prestataire)</value>
         <value xml:lang="hi_IN">प्रदाता परीक्षक</value>
         <value xml:lang="it">Tester del provider</value>
@@ -3429,7 +3429,7 @@
     <property key="RoleType.description.PROVIDER_VALIDATOR">
         <value xml:lang="en">Provider Validator</value>
         <value xml:lang="es">Validador de proveedores</value>
-        <value xml:lang="fa">تصدیق‌کننده مهیاگر</value>
+        <value xml:lang="fa">تصدیق‌گر مهیاگر</value>
         <value xml:lang="fr">Approbateur (prestataire)</value>
         <value xml:lang="hi_IN">प्रदाता वेलिडेटर(Validator)</value>
         <value xml:lang="it">Validatore del provider</value>
@@ -3494,7 +3494,7 @@
         <value xml:lang="de">Anfragemanager</value>
         <value xml:lang="en">Request Manager</value>
         <value xml:lang="es">Gerente de peticiones</value>
-        <value xml:lang="fa">مدیریت درخواست</value>
+        <value xml:lang="fa">مدیر درخواست</value>
         <value xml:lang="fr">Responsable de recherche</value>
         <value xml:lang="hi_IN">अनुरोध प्रबंधक</value>
         <value xml:lang="it">Responsabile delle richieste</value>
@@ -3511,7 +3511,7 @@
         <value xml:lang="de">Anfragender Akteur</value>
         <value xml:lang="en">Requesting Party</value>
         <value xml:lang="es">Emisor de peticiones</value>
-        <value xml:lang="fa">هم‌مشرب خواهان</value>
+        <value xml:lang="fa">هویت خواهان</value>
         <value xml:lang="fr">Demandeur</value>
         <value xml:lang="hi_IN">अनुरोध पार्टी</value>
         <value xml:lang="it">Soggetto richiesta</value>
@@ -3545,7 +3545,7 @@
         <value xml:lang="de">Prüfer</value>
         <value xml:lang="en">Reviewer</value>
         <value xml:lang="es">Revisador</value>
-        <value xml:lang="fa">بازبینی‌گر</value>
+        <value xml:lang="fa">بازبین‌گر</value>
         <value xml:lang="fr">Vérificateur</value>
         <value xml:lang="hi_IN">समीक्षक</value>
         <value xml:lang="it">Revisore</value>
@@ -3688,7 +3688,7 @@
         <value xml:lang="de">Abonnent</value>
         <value xml:lang="en">Subscriber</value>
         <value xml:lang="es">Abonado</value>
-        <value xml:lang="fa">تصویب‌گر</value>
+        <value xml:lang="fa">اشتراک‌گیرنده</value>
         <value xml:lang="fr">Abonné</value>
         <value xml:lang="hi_IN">सदस्य</value>
         <value xml:lang="it">Abbonato</value>
@@ -3756,7 +3756,7 @@
         <value xml:lang="de">Steuerbehörde</value>
         <value xml:lang="en">Tax Authority</value>
         <value xml:lang="es">Agencia tributaria</value>
-        <value xml:lang="fa">مالیات گیرنده</value>
+        <value xml:lang="fa">اداره مالیات</value>
         <value xml:lang="fr">Administration fiscale</value>
         <value xml:lang="hi_IN">टैक्स प्राधिकरण</value>
         <value xml:lang="it">Autorità tasse</value>
@@ -3841,7 +3841,7 @@
         <value xml:lang="de">Workflow Besitzer</value>
         <value xml:lang="en">Workflow Owner</value>
         <value xml:lang="es">Propietario de proceso de trabajo</value>
-        <value xml:lang="fa">مالک جریان‌کاری</value>
+        <value xml:lang="fa">مالک جریان‌کار</value>
         <value xml:lang="fr">Propriétaire de la séquence de travail</value>
         <value xml:lang="hi_IN">वर्कफ़्लो स्वामी</value>
         <value xml:lang="it">Proprietario flusso di lavoro</value>
@@ -3875,7 +3875,7 @@
         <value xml:lang="de">Workflow</value>
         <value xml:lang="en">Workflow</value>
         <value xml:lang="es">Proceso de trabajo</value>
-        <value xml:lang="fa">جریان‌کاری</value>
+        <value xml:lang="fa">جریان‌کار</value>
         <value xml:lang="fr">Séquence de travail</value>
         <value xml:lang="hi_IN">वर्कफ़्लो</value>
         <value xml:lang="it">Flusso di lavoro</value>
@@ -3909,7 +3909,7 @@
         <value xml:lang="de">Vertragsdauer</value>
         <value xml:lang="en">Agreement Termination</value>
         <value xml:lang="es">Acuerdo de finalización</value>
-        <value xml:lang="fa">اتمام توافق</value>
+        <value xml:lang="fa">فسخ توافق</value>
         <value xml:lang="fr">Convention de fin de contrat</value>
         <value xml:lang="hi_IN">समझौते समाप्ति</value>
         <value xml:lang="it">Termini contratto</value>
@@ -3947,7 +3947,7 @@
     </property>
     <property key="TermType.description.CIP">
         <value xml:lang="en">Incoterm Carriage and Insurance Paid to</value>
-        <value xml:lang="fa">شرایط بین‌المللی حمل و پرداخت بیمه به</value>
+        <value xml:lang="fa">شرایط بین‌المللی کرایه حمل‌ونقل و بیمه به</value>
         <value xml:lang="fr">Incoterm : livraison au premier transporteur, frais jusqu'au déchargement du mode de transport, avec assurance</value>
         <value xml:lang="it">Trasporto e assicurazione pagata incoterm</value>
         <value xml:lang="ja">CIP運送費保険料込み渡し/インコタームズ</value>
@@ -4033,7 +4033,7 @@
     </property>
     <property key="TermType.description.DEQ">
         <value xml:lang="en">Incoterm Delivered Ex Quay</value>
-        <value xml:lang="fa">شرایط بین‌المللی تحویل‌شده روي اسلكه در بندر مقصد</value>
+        <value xml:lang="fa">شرایط بین‌المللی تحویل‌شده روي اسلكه</value>
         <value xml:lang="it">Consegnato ex banchina incoterm</value>
         <value xml:lang="ja">DEQ埠頭持込渡し/インコタームズ</value>
         <value xml:lang="pt_BR">Incoterm DEQ</value>
@@ -4043,7 +4043,7 @@
     </property>
     <property key="TermType.description.DES">
         <value xml:lang="en">Incoterm Delivered Ex Ship</value>
-        <value xml:lang="fa">شرایط بین‌المللی تحویل‌شده روي عرشه كشتي در بندر مقصد</value>
+        <value xml:lang="fa">شرایط بین‌المللی تحویل‌شده روي کشتی</value>
         <value xml:lang="fr">Incoterm : livré sur quai</value>
         <value xml:lang="it">Consegnato ex spedizione incoterm</value>
         <value xml:lang="ja">DES本船持込渡し/インコタームズ</value>
@@ -4056,7 +4056,7 @@
         <value xml:lang="de">Exklusivverhältnis</value>
         <value xml:lang="en">Exclusive Relationship</value>
         <value xml:lang="es">Relación exclusiva</value>
-        <value xml:lang="fa">رابطه انحصاری</value>
+        <value xml:lang="fa">رابطه دربست</value>
         <value xml:lang="fr">Relation exclusive</value>
         <value xml:lang="hi_IN">अनन्य संबंध</value>
         <value xml:lang="it">Rapporto esclusivo</value>
@@ -4072,7 +4072,7 @@
     </property>
     <property key="TermType.description.EXW">
         <value xml:lang="en">Incoterm Ex Works</value>
-        <value xml:lang="fa">شرایط بین‌المللی کار اضافی</value>
+        <value xml:lang="fa">شرایط بین‌المللی کار دربست</value>
         <value xml:lang="fr">Incoterm : au départ non chargé, non dédouané</value>
         <value xml:lang="it">Ex fabbrica incoterm</value>
         <value xml:lang="ja">EXW工場渡し/インコタームズ</value>
@@ -4094,7 +4094,7 @@
     </property>
     <property key="TermType.description.FCA">
         <value xml:lang="en">Incoterm Free Carrier</value>
-        <value xml:lang="fa">شرایط بین‌المللی جابجاگر مجانی</value>
+        <value xml:lang="fa">شرایط بین‌المللی آزادسازی جابجاگر</value>
         <value xml:lang="fr">Incoterm : marchandises dédouanées et chargées dans le pays de départ</value>
         <value xml:lang="it">Gratis spedizioniere incoterm</value>
         <value xml:lang="ja">FCA運送人渡し/インコタームズ</value>
@@ -4160,7 +4160,7 @@
         <value xml:lang="de">Maximale Kommission pro Einheit</value>
         <value xml:lang="en">Commission Term Maximum Per Unit</value>
         <value xml:lang="es">Comisión máxima por unidad</value>
-        <value xml:lang="fa">بیشترین شرط کارمزد بر واحد</value>
+        <value xml:lang="fa">شرط کارمزد بیشینه بر واحد</value>
         <value xml:lang="fr">Commission maximale par unité</value>
         <value xml:lang="hi_IN">दलाली की शर्त अधिकतम प्रति यूनिट</value>
         <value xml:lang="it">Provvigione termine massimo per unità</value>
@@ -4177,7 +4177,7 @@
         <value xml:lang="de">Minimale Kommission pro Einheit</value>
         <value xml:lang="en">Commission Term Minimum Per Unit</value>
         <value xml:lang="es">Comisión mínima por unidad</value>
-        <value xml:lang="fa">کمترین شرط کارمز بر واحد</value>
+        <value xml:lang="fa">شرط کارمز کمینه بر واحد</value>
         <value xml:lang="fr">Commission minimale par unité</value>
         <value xml:lang="hi_IN">दलाली की शर्त न्यूनतम प्रति यूनिट</value>
         <value xml:lang="it">Provvigione termine minimo per unità</value>
@@ -4194,7 +4194,7 @@
         <value xml:lang="de">Variable Kommission</value>
         <value xml:lang="en">Commission Term Variable</value>
         <value xml:lang="es">Comisión variable</value>
-        <value xml:lang="fa">شرط کارمزد متغیر</value>
+        <value xml:lang="fa">متغییر شرط کارمز</value>
         <value xml:lang="fr">Commission variable</value>
         <value xml:lang="hi_IN">दलाली की शर्त के चर(Variable)</value>
         <value xml:lang="it">Provvigione termine variabile</value>
@@ -4211,7 +4211,7 @@
         <value xml:lang="de">Verzugsgebühr (Prozent)</value>
         <value xml:lang="en">Late Fee (percent)</value>
         <value xml:lang="es">Penalización por retraso (%)</value>
-        <value xml:lang="fa">قیمت نهایی (٪)</value>
+        <value xml:lang="fa">قیمت اخیر (٪)</value>
         <value xml:lang="fr">Pénalité de retard (%)</value>
         <value xml:lang="hi_IN">देरी शुल्क(प्रतिशत)</value>
         <value xml:lang="it">Tassa ritardata (percentuale)</value>
@@ -4247,7 +4247,7 @@
         <value xml:lang="de">Zahlung (Skonto bei Zahlung innerhalb der angegebenen Frist)</value>
         <value xml:lang="en">Payment (discounted if paid within specified days)</value>
         <value xml:lang="es">Pago (descuento por pago en el periodo establecido)</value>
-        <value xml:lang="fa">پرداخت (تخفیف در صورت پرداخت در روزهای مشخص‌شده)</value>
+        <value xml:lang="fa">پرداخت (تخفیف‌داده‌شده در صورت پرداخت در روزهای مشخص‌شده)</value>
         <value xml:lang="fr">Paiement (avec remise si payé dans un nombre de jours donnés)</value>
         <value xml:lang="hi_IN">भुगतान(यदि निर्दिष्ट दिनों के भीतर भुगतान कर दिया तो छूट मिल सकती है)</value>
         <value xml:lang="it">Pagamento (sconto se pagato senza giorni specificati)</value>
@@ -4332,7 +4332,7 @@
     </property>
     <property key="TermType.description.FOB">
         <value xml:lang="en">Incoterm Free On Board</value>
-        <value xml:lang="fa">شرایط بین‌المللی مجانی تا روی وسیله‌نقلیه</value>
+        <value xml:lang="fa">شرایط بین‌المللی آزادسازی روی وسیله‌نقلیه</value>
         <value xml:lang="fr">Incoterm chargé sur le bateau</value>
         <value xml:lang="it">Gratis a bordo incoterm</value>
         <value xml:lang="ja">FOB本船甲板渡し/インコタームズ</value>
@@ -4456,7 +4456,7 @@
     </property>
     <property key="TermType.description.PURCH_FREIGHT">
         <value xml:lang="en">Preferred Freight</value>
-        <value xml:lang="fa">کرایه</value>
+        <value xml:lang="fa">کرایه ارجح</value>
         <value xml:lang="fr">Frêt préféré</value>
         <value xml:lang="hi_IN">पसंदीदा भाड़ा</value>
         <value xml:lang="it">Spese di trasporto preferite</value>

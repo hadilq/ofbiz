@@ -22,7 +22,7 @@
         <value xml:lang="de">Zeitlicher Ausdruck</value>
         <value xml:lang="en">Temporal Expression</value>
         <value xml:lang="es">Expresión temporal</value>
-        <value xml:lang="fa">اصطلاحات زمانی</value>
+        <value xml:lang="fa">ابراز زمانی</value>
         <value xml:lang="fr">Expression temporelle</value>
         <value xml:lang="it">Espressione temporale</value>
         <value xml:lang="ja">時間表現</value>
@@ -34,7 +34,7 @@
         <value xml:lang="de">Ausdruckssammlung</value>
         <value xml:lang="en">Expression Collections</value>
         <value xml:lang="es">Colección de expresiones</value>
-        <value xml:lang="fa">مجموعه اصطلاحات</value>
+        <value xml:lang="fa">مجموعه ابراز</value>
         <value xml:lang="fr">Collections d'expression</value>
         <value xml:lang="it">Collezione espressioni</value>
         <value xml:lang="ja">表現集合</value>
@@ -58,7 +58,7 @@
         <value xml:lang="de">Suche Zeitliche Ausdrücke</value>
         <value xml:lang="en">Find Temporal Expression</value>
         <value xml:lang="es">Buscar expresión temporal</value>
-        <value xml:lang="fa">پیدا کردن اصطلاح زمانی</value>
+        <value xml:lang="fa">پیداکردن ابراز زمانی</value>
         <value xml:lang="fr">Rechercher une expression temporelle</value>
         <value xml:lang="it">Ricerca espressione temporale</value>
         <value xml:lang="ja">時間表現を検索</value>
@@ -94,7 +94,7 @@
         <value xml:lang="de">Ausdrucks-Id</value>
         <value xml:lang="en">Expression Id</value>
         <value xml:lang="es">Id de la expresión</value>
-        <value xml:lang="fa">آی‌دی اصطلاح</value>
+        <value xml:lang="fa">آی‌دی ابراز</value>
         <value xml:lang="fr">Réf. d'expression</value>
         <value xml:lang="it">Espressione</value>
         <value xml:lang="ja">表現ID</value>
@@ -118,7 +118,7 @@
         <value xml:lang="de">Wartung des Zeitlichen Ausdrucks</value>
         <value xml:lang="en">Temporal Expression Maintenance</value>
         <value xml:lang="es">Mantenimiento de expresiones temporales</value>
-        <value xml:lang="fa">تعمیرونگهداری اصطلاحات زمانی</value>
+        <value xml:lang="fa">تعمیرونگهداری ابراز زمانی</value>
         <value xml:lang="fr">maintenance d'expression temporelle</value>
         <value xml:lang="it">Gestione espressioni temporali</value>
         <value xml:lang="ja">時間表現メンテナンス</value>
@@ -153,7 +153,7 @@
         <value xml:lang="de">Ausdruckstyp</value>
         <value xml:lang="en">Expression Type</value>
         <value xml:lang="es">Tipo de expresión</value>
-        <value xml:lang="fa">نوع اصطلاح</value>
+        <value xml:lang="fa">نوع ابراز</value>
         <value xml:lang="fr">Type d'expression</value>
         <value xml:lang="it">Tipo espressione</value>
         <value xml:lang="ja">表現種類</value>
@@ -177,7 +177,7 @@
         <value xml:lang="de">Tag im Monat</value>    
         <value xml:lang="en">Day In Month</value>
         <value xml:lang="es">Día del mes</value>
-        <value xml:lang="fa">روز ماه</value>
+        <value xml:lang="fa">روزهای ماه</value>
         <value xml:lang="fr">Jour du mois</value>
         <value xml:lang="it">Giorno nel mese</value>
         <value xml:lang="ja">月の日にち</value>
@@ -189,7 +189,7 @@
         <value xml:lang="de">Tag im Monat Auswahl</value>    
         <value xml:lang="en">Day Of Month Range</value>
         <value xml:lang="es">Intervalo de días del mes</value>
-        <value xml:lang="fa">روز در بازه ماه</value>
+        <value xml:lang="fa">بازه روزها در ماه</value>
         <value xml:lang="fr">Intervalle entre 2 jours du mois</value>
         <value xml:lang="it">Giorno del mese nell'intervallo</value>
         <value xml:lang="ja">月の日にち範囲</value>
@@ -201,7 +201,7 @@
         <value xml:lang="de">Wochentagsauswahl</value>    
         <value xml:lang="en">Day Of Week Range</value>
         <value xml:lang="es">Intervalo de días de la semana</value>
-        <value xml:lang="fa">روز در بازه هفته</value>
+        <value xml:lang="fa">بازه روزها در هفته</value>
         <value xml:lang="fr">Intervalle entre 2 jour de la semaine</value>
         <value xml:lang="it">Giorno della settimana nell'intervallo</value>
         <value xml:lang="ja">週の日にち範囲</value>

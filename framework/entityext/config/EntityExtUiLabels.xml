@@ -20,7 +20,7 @@
 <resource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <property key="EntityExtCannotDoEntitySyncPush">
         <value xml:lang="en">Cannot do Entity Sync Push because entitySyncId [] is set for Pull Only.</value>
-        <value xml:lang="fa">نمی‌توان نهاد را همزمان‌کرد زیرا «آی‌دی همزمانی نهاد» [] فقط برای همزمان‌‌شدن تنظیم‌شده‌است.</value>
+        <value xml:lang="fa">نمی‌توان نهاد را همزمان‌کرد زیرا «آی‌دی همزمانی نهاد» [] فقط برای همزمان‌‌شدن ثبت‌شده‌است.</value>
         <value xml:lang="fr">Impossible d'effectuer la synchro (push) avec un configuration en mode esclave seulement (pull only).</value>
         <value xml:lang="it">Non è possibile fare Entity Sync Push perchè entitySyncId [] è impostato in Pull Only.</value>
         <value xml:lang="zh">无法实现实体同步推送因为实体同步标识（entitySyncId []）被设置为了只能提取。</value>
@@ -69,7 +69,7 @@
     </property>
     <property key="EntityExtErrorUnwrappingRecords">
         <value xml:lang="en">Error unwrapping ByteWrapper records: ${errorString}</value>
-        <value xml:lang="fa">خطا در جاروب‌نکردن گزارش‌های «جاروکننده بایت»: ${errorString}</value>
+        <value xml:lang="fa">خطا در جاروب‌نکردن سوابق «جاروکننده بایت»: ${errorString}</value>
         <value xml:lang="fr">Erreur lors de l"ouverture du flux des enregistrements : ${errorString}</value>
         <value xml:lang="it">Errore unwrapping ByteWrapper records: ${errorString}</value>
         <value xml:lang="zh">解析ByteWrapper记录时出错：${errorString}</value>
@@ -90,21 +90,21 @@
     </property>
     <property key="EntityExtFileNotFound">
         <value xml:lang="en">File not found: ${fileName}</value>
-        <value xml:lang="fa">فایل پیدانشد: ${fileName}</value>
+        <value xml:lang="fa">فایل پیدانشده: ${fileName}</value>
         <value xml:lang="fr">Fichier ${fileName} non trouvé</value>
         <value xml:lang="it">File non trovato: ${fileName}</value>
         <value xml:lang="zh">没有找到文件：${fileName}</value>
     </property>
     <property key="EntityExtNoFileAvailableInTheRootDirectory">
         <value xml:lang="en">No files available for reading in this root directory: ${rootDirectory}</value>
-        <value xml:lang="fa">هیچ فایلی برای خواندن در پوشه ریشه موجود نمی‌باشد: ${rootDirectory}</value>
+        <value xml:lang="fa">هیچ فایلی برای خواندن در این پوشه ریشه موجود نمی‌باشد: ${rootDirectory}</value>
         <value xml:lang="fr">Aucun fichier disponible pour la lecture dans le répertoire ${rootDirectory}</value>
         <value xml:lang="it">Nessun file disponibile da leggere nella directory principale: ${rootDirectory}</value>
         <value xml:lang="zh">这个根目录下没有可读的文件：${rootDirectory}</value>
     </property>
     <property key="EntityExtOfflineXMLFileNotFound">
         <value xml:lang="en">Offline EntitySync XML file not found (${fileName})</value>
-        <value xml:lang="fa">فایل XML «همزمان‌کننده نهاد» آفلاین پیدا نشد (${fileName})</value>
+        <value xml:lang="fa">فایل XML «همزمان‌کننده نهاد» آفلاین پیدانشده (${fileName})</value>
         <value xml:lang="fr">Le fichier hors ligne (${fileName}) n'a pas été trouvé</value>
         <value xml:lang="it">File Offline EntitySync XML non trovato (${fileName})</value>
         <value xml:lang="zh">没有找到离线实体同步（EntitySync）XML文件（${fileName}）</value>
@@ -118,7 +118,7 @@
     </property>
     <property key="EntityExtRootDirectoryDoesNotExists">
         <value xml:lang="en">Root directory does not exist or is not readable.</value>
-        <value xml:lang="fa">پوشه ریشه وجود ندارد و یا قابل خواندن نیست.</value>
+        <value xml:lang="fa">پوشه ریشه وجود ندارد یا قابل‌خواندن نیست.</value>
         <value xml:lang="fr">Le répertoire racine n'existe pas ou n'est pas lisible</value>
         <value xml:lang="it">Directory principale non esiste o non è leggibile.</value>
         <value xml:lang="zh">根目录不存在或不可读。</value>
@@ -132,7 +132,7 @@
     </property>
     <property key="EntityExtThisServiceIsNotYetImplemented">
         <value xml:lang="en">This service is not implemented yet.</value>
-        <value xml:lang="fa">این سرویس هنوز راه‌اندازی نشده‌است.</value>
+        <value xml:lang="fa">این سرویس هنوز پیاده‌سازی‌ نشده‌است.</value>
         <value xml:lang="fr">Ce service n'est pas implémenté actuellement</value>
         <value xml:lang="it">Questo servizio non è ancora implementato.</value>
         <value xml:lang="zh">这个服务尚未实现。</value>

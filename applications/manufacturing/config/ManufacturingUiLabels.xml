@@ -35,7 +35,7 @@
     <property key="FormFieldTitle_authUserLoginId">
         <value xml:lang="en">Auth User Login Id</value>
         <value xml:lang="es">Usuario</value>
-        <value xml:lang="fa">آی‌دی کاربر مجوزدار</value>
+        <value xml:lang="fa">آی‌دی ورود کاربر مجوزدار</value>
         <value xml:lang="fr">Authentification d'identifiant de connexion</value>
         <value xml:lang="it">Utente</value>
         <value xml:lang="ja">認証ログインユーザID</value>
@@ -63,7 +63,7 @@
         <value xml:lang="de">Zeitpunkt des Abbruchs</value>
         <value xml:lang="en">Cancel Date Time</value>
         <value xml:lang="es">Fecha y hora de cancelación</value>
-        <value xml:lang="fa">زمان تاریخ لغو</value>
+        <value xml:lang="fa">لغوکردن زمان تاریخ</value>
         <value xml:lang="fr">Date et heure d'annulation</value>
         <value xml:lang="it">Data/ora di annullamento</value>
         <value xml:lang="ja">取消日時</value>
@@ -117,7 +117,7 @@
         <value xml:lang="de">Kontenart für Kosten</value>
         <value xml:lang="en">Default Years Offset</value>
         <value xml:lang="es">Desfase anual por defecto</value>
-        <value xml:lang="fa">تهاتر سال‌ها پیش‌فرش</value>
+        <value xml:lang="fa">تهاتر سال‌ها پیش‌فرض</value>
         <value xml:lang="fr">Décalage d'années par défaut</value>
         <value xml:lang="it">Scostamento anni di default</value>
         <value xml:lang="ja">デフォルト年相殺</value>
@@ -270,7 +270,7 @@
         <value xml:lang="de">Anzahl Wiederholungsversuche</value>
         <value xml:lang="en">Max Retry</value>
         <value xml:lang="es">Número máximo de intentos</value>
-        <value xml:lang="fa">بیشینه تکرار</value>
+        <value xml:lang="fa">بیشینه تلاش‌مجدد</value>
         <value xml:lang="fr">Nb de tentatives max</value>
         <value xml:lang="it">Tentativi massimi</value>
         <value xml:lang="ja">最大再試行</value>
@@ -401,7 +401,7 @@
         <value xml:lang="de">Produktionsauftrag</value>
         <value xml:lang="en">production Runs</value>
         <value xml:lang="es">Código de producto en sustitución</value>
-        <value xml:lang="fa">اجراء تولید</value>
+        <value xml:lang="fa">خطوط تولید</value>
         <value xml:lang="fr">Cadences de production</value>
         <value xml:lang="it">Ordini di produzione</value>
         <value xml:lang="ja">生産実行</value>
@@ -416,7 +416,7 @@
         <value xml:lang="de">Arbeitsplan-Nr.</value>
         <value xml:lang="en">routingId</value>
         <value xml:lang="es">Fecha de comienzo del requisito</value>
-        <value xml:lang="fa">آی‌دی مسیریابی</value>
+        <value xml:lang="fa">آی‌دی حواله</value>
         <value xml:lang="fr">Gamme</value>
         <value xml:lang="it">Id ciclo</value>
         <value xml:lang="ja">経路制御ID</value>
@@ -431,7 +431,7 @@
         <value xml:lang="de">Regel-Nr.</value>
         <value xml:lang="en">Rule Id</value>
         <value xml:lang="es">Código de regla</value>
-        <value xml:lang="fa">آی‌دی دستور</value>
+        <value xml:lang="fa">آی‌دی قاعده</value>
         <value xml:lang="fr">Réf. de règle</value>
         <value xml:lang="it">Codice regola</value>
         <value xml:lang="ja">ルールID</value>
@@ -446,7 +446,7 @@
         <value xml:lang="de">Regel-Operator</value>
         <value xml:lang="en">Rule Operator</value>
         <value xml:lang="es">Operador de regla</value>
-        <value xml:lang="fa">عملگر دستور</value>
+        <value xml:lang="fa">عملگر قاعده</value>
         <value xml:lang="fr">Opérateur de règle</value>
         <value xml:lang="it">Operatore della regola</value>
         <value xml:lang="ja">ルール操作</value>
@@ -461,7 +461,7 @@
         <value xml:lang="de">Regel-Folgenummer</value>
         <value xml:lang="en">Rule Seq Id</value>
         <value xml:lang="es">Número de secuencia de regla</value>
-        <value xml:lang="fa">آی‌دی ترتیبی دستور</value>
+        <value xml:lang="fa">آی‌دی ترتیبی قاعده</value>
         <value xml:lang="fr">Réf. séq. de règle </value>
         <value xml:lang="it">Numero seq. regola</value>
         <value xml:lang="ja">ルール連番ID</value>
@@ -518,7 +518,7 @@
         <value xml:lang="de">Zusätzlicher Lagerort</value>
         <value xml:lang="en">Secondary Location Seq Id</value>
         <value xml:lang="es">Número de secuencia de la ubicación secundaria</value>
-        <value xml:lang="fa">آی‌دی ترتیب مکان فرعی</value>
+        <value xml:lang="fa">آی‌دی ترتیبی مکان فرعی</value>
         <value xml:lang="fr">Ref. séq. d'emplacement secondaire</value>
         <value xml:lang="it">Locazione secondaria</value>
         <value xml:lang="ja">補助位置連番ID</value>
@@ -690,7 +690,7 @@
         <value xml:lang="de">Variable Kosten</value>
         <value xml:lang="en">Variable Cost</value>
         <value xml:lang="es">Coste variable</value>
-        <value xml:lang="fa">هزینه متغیر</value>
+        <value xml:lang="fa">هزینه متغییر</value>
         <value xml:lang="fr">Coût variable</value>
         <value xml:lang="it">Costo variabile</value>
         <value xml:lang="ja">変動原価</value>
@@ -733,7 +733,7 @@
         <value xml:lang="de">ATP-Datum</value>
         <value xml:lang="en">ATP Date</value>
         <value xml:lang="es">Fecha ATP</value>
-        <value xml:lang="fa">تاریخ ATP</value>
+        <value xml:lang="fa">تاریخ موجود برای وعده (ATP)</value>
         <value xml:lang="fr">Date ATP</value>
         <value xml:lang="it">Data ATP</value>
         <value xml:lang="ja">納品日(ATP)</value>
@@ -763,7 +763,7 @@
         <value xml:lang="de">Ist-Kosten</value>
         <value xml:lang="en">Actual Costs</value>
         <value xml:lang="es">Costos Reales</value>
-        <value xml:lang="fa">هزینه واقعی</value>
+        <value xml:lang="fa">هزینه‌های واقعی</value>
         <value xml:lang="fr">Coûts actuels</value>
         <value xml:lang="it">Costi attuali</value>
         <value xml:lang="ja">実績原価</value>
@@ -822,7 +822,7 @@
         <value xml:lang="de">Einen bestehenden Arbeitsgang hinzufügen</value>
         <value xml:lang="en">Add a existing RoutingTask</value>
         <value xml:lang="es">Añadir una tarea existente</value>
-        <value xml:lang="fa">اضافه‌کردن یک «تکلیف ارسال» موجود</value>
+        <value xml:lang="fa">اضافه‌کردن یک «تکلیف حواله» موجود</value>
         <value xml:lang="fr">Ajouter une opération existante</value>
         <value xml:lang="it">Aggiungi una operazione esistente</value>
         <value xml:lang="ja">既存経路制御タスクを追加</value>
@@ -852,7 +852,7 @@
         <value xml:lang="de">Komponente zu Produktionsauftrag hinzufügen</value>
         <value xml:lang="en">Add ProductComponent to ProductionRun</value>
         <value xml:lang="es">Añadir componente</value>
-        <value xml:lang="fa">اضافه‌کردن «مولفه محصول» به «اجراء محصول»</value>
+        <value xml:lang="fa">اضافه‌کردن «مولفه محصول» به «خط تولید»</value>
         <value xml:lang="fr">Ajouter un composant à l'O.F.</value>
         <value xml:lang="it">Aggiungi componente ad un ordine di produzione</value>
         <value xml:lang="ja">生産実行に製品コンポーネントを追加</value>
@@ -865,7 +865,7 @@
     </property>
     <property key="ManufacturingAddProductionRunRoutingTaskNotCreated">
         <value xml:lang="en">Add Production Run Routing Task Not Created</value>
-        <value xml:lang="fa">اضافه‌کردن تکلیف ارسال اجراء تولید، ساخته‌نشده‌است</value>
+        <value xml:lang="fa">اضافه‌کردن تکلیف حواله خط تولید، ساخته‌نشده‌است</value>
         <value xml:lang="it">Aggiunta componente ad un compito non creato</value>
         <value xml:lang="ja">生産実行経路制御追加タスクは作成されません</value>
         <value xml:lang="pt_BR">Adicionar tarefa de execução de produção de roteamento não foi criada</value>
@@ -907,7 +907,7 @@
         <value xml:lang="de">Arbeitsgang hinzufügen</value>
         <value xml:lang="en">Add a RoutingTask</value>
         <value xml:lang="es">Añadir una ruta</value>
-        <value xml:lang="fa">اضافه‌کردن «تکلیف ارسال»</value>
+        <value xml:lang="fa">اضافه‌کردن «تکلیف حواله»</value>
         <value xml:lang="fr">Ajouter une opération</value>
         <value xml:lang="it">Aggiungi una operazione</value>
         <value xml:lang="ja">経路制御タスクを追加</value>
@@ -967,7 +967,7 @@
         <value xml:lang="de">Bedarfe bestätigen</value>
         <value xml:lang="en">Approve Requirements</value>
         <value xml:lang="es">Aprobar requisitos</value>
-        <value xml:lang="fa">تصویب ملزومات</value>
+        <value xml:lang="fa">تصویب‌کردن ملزومات</value>
         <value xml:lang="fr">Approuver les besoins</value>
         <value xml:lang="it">Approva fabbisogni</value>
         <value xml:lang="ja">要求を承認</value>
@@ -981,7 +981,7 @@
         <value xml:lang="de">Zugehörige Produktionsaufträge</value>
         <value xml:lang="en">Associated Production Runs</value>
         <value xml:lang="es">Tiradas asociadas</value>
-        <value xml:lang="fa">اجراءهای تولید مرتبط</value>
+        <value xml:lang="fa">خطوط تولید مرتبط</value>
         <value xml:lang="fr">Exécution de production associées</value>
         <value xml:lang="it">Ordini di produzione associati</value>
         <value xml:lang="ja">関連付け済製品実行</value>
@@ -1048,7 +1048,7 @@
     </property>
     <property key="ManufacturingBomErrorRunningMaxDethAlgorithm">
         <value xml:lang="en">Error running max depth algorithm: ${errorString}</value>
-        <value xml:lang="fa">خطا در اجراء الگوریتم بیشترین عمق: ${errorString}</value>
+        <value xml:lang="fa">خطا در اجراء الگوریتم عمق بیشینه: ${errorString}</value>
         <value xml:lang="it">Errore durante l'esecuzione dell'algoritmo massima profondità: ${errorString}</value>
         <value xml:lang="ja">最大深度アルゴリズム実行中にエラー: ${errorString}</value>
         <value xml:lang="vi">Lỗi xảy ra khi thực thi thuật toán tìm kiếm độ sâu tối đa: ${errorString}</value>
@@ -1064,7 +1064,7 @@
     </property>
     <property key="ManufacturingBomPackageAlreadyFound">
         <value xml:lang="en">Packages already found.</value>
-        <value xml:lang="fa">بسته‌ها از قبل پیداشده‌اند.</value>
+        <value xml:lang="fa">بسته‌ها ازقبل پیداشده‌اند.</value>
         <value xml:lang="it">Pacchi già trovati.</value>
         <value xml:lang="ja">パッケージが見つかりました。</value>
         <value xml:lang="vi">Đóng gói đã được tìm thấy.</value>
@@ -1254,7 +1254,7 @@
         <value xml:lang="de">Sie haben keine Berechtigung diese Seite anzuschauen ("MANUFACTURING_VIEW" oder "MANUFACTURING_ADMIN" wird benötigt)</value>
         <value xml:lang="en">You do not have permission to view this page. ("MANUFACTURING_VIEW" or "MANUFACTURING_ADMIN" needed)</value>
         <value xml:lang="es">Usted no tiene permiso para ver esta página. Necesita los permisos "MANUFACTURING_VIEW" o "MANUFACTURING_ADMIN"</value>
-        <value xml:lang="fa">شمار مجوز لازم برای دیدن این صفحه را ندارید. (مجوز "MANUFACTURING_VIEW" یا "MANUFACTURING_ADMIN" لازم‌است)</value>
+        <value xml:lang="fa">شمار اجازه لازم برای دیدن این صفحه را ندارید. ("MANUFACTURING_VIEW" یا "MANUFACTURING_ADMIN" لازم‌است)</value>
         <value xml:lang="fr">Erreur sécurité : pour effectuer une opération sur un calendrier, il faut avoir l'autorisation MANUFACTURING_CREATE ou MANUFACTURING_ADMIN.</value>
         <value xml:lang="it">Non sei autorizzato a vedere questa pagina. (permesso "MANUFACTURING_VIEW" o "MANUFACTURING_ADMIN" necessario)</value>
         <value xml:lang="ja">このページを表示する権限がありません。"MANUFACTURING_VIEW" または "MANUFACTURING_ADMIN" 権限が必要です。</value>
@@ -1269,7 +1269,7 @@
         <value xml:lang="de">Es gibt noch einen Kalender der diese Woche nutzt</value>
         <value xml:lang="en">There is still an calendar which use this week</value>
         <value xml:lang="es">Hay un calendario que usa esta semana</value>
-        <value xml:lang="fa">هنوز تقویمی که این از این هفته استفاده‌کند وجوددارد</value>
+        <value xml:lang="fa">هنوز تقویمی که از این هفته استفاده‌کند وجوددارد</value>
         <value xml:lang="fr">Il existe un calendrier qui utilise encore cette semaine</value>
         <value xml:lang="it">C'è ancora un calendario che usa questa settimana</value>
         <value xml:lang="ja">この週を使用しているカレンダがあります</value>
@@ -1417,7 +1417,7 @@
         <value xml:lang="de">OFBiz: Produktionsverwaltung</value>
         <value xml:lang="en">OFBiz: Manufacturing Manager</value>
         <value xml:lang="es">OFBiz: Gestor de producción</value>
-        <value xml:lang="fa">OFBiz: مدیریت ساخت</value>
+        <value xml:lang="fa">OFBiz: مدیر ساخت</value>
         <value xml:lang="fr">OFBiz: Gestion de production</value>
         <value xml:lang="it">OFBiz: Gestione della produzione</value>
         <value xml:lang="ja">OFBiz: 生産管理</value>
@@ -1433,7 +1433,7 @@
         <value xml:lang="ar">جزء من عائلة أوفبيز للتطبيقات الحرة للتسيير</value>
         <value xml:lang="de">Teil der Open For Business Familie von Open Source Software</value>
         <value xml:lang="en">Part of the Open For Business Family of Open Source Software</value>
-        <value xml:lang="fa">Part of the Open For Business Family of Open Source Software</value><!--value xml:lang="es">Parte de la familia "Open for Bussiness" de Software Libre</value-->
+        <value xml:lang="fa">بخشی از خانواده آزاد برای تجارت از نرم‌افزارهای متن باز</value><!--value xml:lang="es">Parte de la familia "Open for Bussiness" de Software Libre</value-->
         <value xml:lang="es">Parte de la familia de software Open For Business de código abierto</value>
         <value xml:lang="fr">Un module de la famille Open For Business, logiciel libre de gestion d'entreprise.</value>
         <value xml:lang="it">Un modulo della famiglia di software open source Open For Business</value>
@@ -1499,7 +1499,7 @@
         <value xml:lang="de">Kopieren eines Arbeitsganges</value>
         <value xml:lang="en">Copy a routingTask and Add it</value>
         <value xml:lang="es">Copiar una tarea y añadirla</value>
-        <value xml:lang="fa">رونوشت از «تکلیف ارسال» و اضافه‌کردن آن</value>
+        <value xml:lang="fa">رونوشت از «تکلیف حواله» و اضافه‌کردن آن</value>
         <value xml:lang="fr">Copier une opération puis l'ajouter</value>
         <value xml:lang="it">Copia e aggiungi una operazione</value>
         <value xml:lang="ja">経路制御タスクをコピーおよび追加</value>
@@ -1599,7 +1599,7 @@
     </property>
     <property key="ManufacturingCreateDependentProductionRuns">
         <value xml:lang="en">Create Dependent Production Runs</value>
-        <value xml:lang="fa">ساختن اجراءهای تولید وابسته</value>
+        <value xml:lang="fa">ساختن خطوط تولید وابسته</value>
         <value xml:lang="it">Crea ordini di produzione dipendenti</value>
         <value xml:lang="ja">従属生産実行の作成</value>
         <value xml:lang="vi">Thêm các 'Chế tác lô hàng' phụ thuộc</value>
@@ -1624,7 +1624,7 @@
         <value xml:lang="de">Sicherheits-Fehler: Um diesen Vorgang auszuführen müssen Sie über die Berechtigung MANUFACTURING_CREATE oder MANUFACTURING_ADMIN verfügen</value>
         <value xml:lang="en">Security Error: to run this operation you must have the MANUFACTURING_CREATE or MANUFACTURING_ADMIN permission</value>
         <value xml:lang="es">Error de seguridad: para ejecutar esta operación se requiere tener los permisos MANUFACTURING_CREATE o MANUFACTURING_ADMIN</value>
-        <value xml:lang="fa">خطا امنیتی: برای اجراء این عملیات شما باید مجوز MANUFACTURING_CREATE یا MANUFACTURING_ADMIN را داشته‌باشید</value>
+        <value xml:lang="fa">خطای امنیتی: برای اجراء این عملیات شما باید اجازه MANUFACTURING_CREATE یا MANUFACTURING_ADMIN را داشته‌باشید</value>
         <value xml:lang="fr">Erreur de sécurité : Pour exécuter cette opération vous devez avoir l'autorisation MANUFACTURING_CREATE or MANUFACTURING_ADMIN</value>
         <value xml:lang="it">Errore Sicurezza: per eseguire questa operazione tu devi avere i permessi MANUFACTURING_CREATE o MANUFACTURING_ADMIN</value>
         <value xml:lang="ja">セキュリティエラー: この操作の実行には MANUFACTURING_CREATE または MANUFACTURING_ADMIN 権限が必要です</value>
@@ -1651,7 +1651,7 @@
         <value xml:lang="de">Produktionsauftrag erstellen</value>
         <value xml:lang="en">Create a Production Run</value>
         <value xml:lang="es">Crear orden de producción</value>
-        <value xml:lang="fa">ساختن اجراء تولید</value>
+        <value xml:lang="fa">ساختن خط تولید</value>
         <value xml:lang="fr">Création O.F.</value>
         <value xml:lang="it">Nuovo ordine di produzione</value>
         <value xml:lang="ja">生産実行を作成</value>
@@ -1696,7 +1696,7 @@
         <value xml:lang="de">Rückmelden</value>
         <value xml:lang="en">Declare</value>
         <value xml:lang="es">Declarar</value>
-        <value xml:lang="fa">اعلام</value>
+        <value xml:lang="fa">اظهار</value>
         <value xml:lang="fr">Déclarer</value>
         <value xml:lang="it">Dichiarazione</value>
         <value xml:lang="ja">定義</value>
@@ -1711,7 +1711,7 @@
         <value xml:lang="de">Sicherheits-Fehler: Um diesen Vorgang auszuführen müssen Sie über die Berechtigung MANUFACTURING_DELETE oder MANUFACTURING_ADMIN verfügen</value>
         <value xml:lang="en">Security Error: to run this operation you must have the MANUFACTURING_DELETE or MANUFACTURING_ADMIN permission</value>
         <value xml:lang="es">Error de seguridad: para ejecutar esta operación se requiere tener los permisos MANUFACTURING_DELETE o MANUFACTURING_ADMIN</value>
-        <value xml:lang="fa">خطا امنیتی: برای اجراء این عملیات شما باید مجوز MANUFACTURING_DELETE یا MANUFACTURING_ADMIN را داشته‌باشید</value>
+        <value xml:lang="fa">خطای امنیتی: برای اجراء این عملیات شما باید اجازه MANUFACTURING_DELETE یا MANUFACTURING_ADMIN را داشته‌باشید</value>
         <value xml:lang="fr">Erreur de sécurité: Pour exécuter cette opération vous devez avoir l'autorisation MANUFACTURING_DELETE or MANUFACTURING_ADMIN</value>
         <value xml:lang="it">Errore Sicurezza: per eseguire questa operazione tu devi avere i permessi MANUFACTURING_CREATE o MANUFACTURING_ADMIN</value>
         <value xml:lang="ja">セキュリティエラー: この操作の実行には MANUFACTURING_DELETE または MANUFACTURING_ADMIN 権限が必要です</value>
@@ -1741,7 +1741,7 @@
         <value xml:lang="de">Abhängige Produktionsaufträge</value>
         <value xml:lang="en">Succeeding Production Run(s)</value>
         <value xml:lang="es">Esfuerzos de trabajo dependientes</value>
-        <value xml:lang="fa">اجراء تولید(ها) باموفقیت</value>
+        <value xml:lang="fa">خط(های) تولید موفق</value>
         <value xml:lang="fr">Exécution de production dépendantes</value>
         <value xml:lang="it">Ordini di produzione successivi</value>
         <value xml:lang="ja">依存する生産実行</value>
@@ -1772,7 +1772,7 @@
         <value xml:lang="de">Kalender-Ausnahme-Tag für</value>
         <value xml:lang="en">Edit Calendar Exception day for</value>
         <value xml:lang="es">Editar excepción de calendario</value>
-        <value xml:lang="fa">ویرایش استثناء تقویم برای</value>
+        <value xml:lang="fa">ویرایش روز استثناء تقویم برای</value>
         <value xml:lang="fr">Modifier des exclusions de jour pour</value>
         <value xml:lang="it">Aggiorna Calendario giorni speciali per</value>
         <value xml:lang="ja">カレンダ除外日を編集</value>
@@ -1877,7 +1877,7 @@
         <value xml:lang="de">Produktionsauftrag bearbeiten</value>
         <value xml:lang="en">Edit Production Run</value>
         <value xml:lang="es">Editar orden de producción</value>
-        <value xml:lang="fa">ویرایش اجراء تولید</value>
+        <value xml:lang="fa">ویرایش خط تولید</value>
         <value xml:lang="fr">Modifier l'ordre de fabrication</value>
         <value xml:lang="it">Aggiorna ordine di produzione</value>
         <value xml:lang="ja">生産実行を編集</value>
@@ -1892,7 +1892,7 @@
         <value xml:lang="de">Arbeitsplan bearbeiten</value>
         <value xml:lang="en">Edit Routing</value>
         <value xml:lang="es">Editar ruta</value>
-        <value xml:lang="fa">ویرایش ارسال</value>
+        <value xml:lang="fa">ویرایش حواله</value>
         <value xml:lang="fr">Modification gamme</value>
         <value xml:lang="it">Aggiorna ciclo</value>
         <value xml:lang="ja">経路制御を編集</value>
@@ -1907,7 +1907,7 @@
         <value xml:lang="de">Arbeitsplan-Produkt-Verbindung bearbeiten</value>
         <value xml:lang="en">Edit Routing Product Link</value>
         <value xml:lang="es">Editar asociación de producto a ruta</value>
-        <value xml:lang="fa">ویرایش پیوند ارسال محصول</value>
+        <value xml:lang="fa">ویرایش پیوند حواله محصول</value>
         <value xml:lang="fr">Modification des liens article - gamme</value>
         <value xml:lang="it">Aggiorna link prodotto-ciclo</value>
         <value xml:lang="ja">経路制御製品リンクを編集</value>
@@ -1922,7 +1922,7 @@
         <value xml:lang="de">Arbeitsgang bearbeiten</value>
         <value xml:lang="en">Edit Routing Task</value>
         <value xml:lang="es">Editar tarea</value>
-        <value xml:lang="fa">ویرایش تکلیف ارسال</value>
+        <value xml:lang="fa">ویرایش تکلیف حواله</value>
         <value xml:lang="fr">Modification d'une opération</value>
         <value xml:lang="it">Aggiorna Operazione</value>
         <value xml:lang="ja">経路制御タスクを編集</value>
@@ -1937,7 +1937,7 @@
         <value xml:lang="de">Arbeitsgang-Zuordnung bearbeiten</value>
         <value xml:lang="en">Edit Routing Task Assoc</value>
         <value xml:lang="es">Editar asociación a tarea</value>
-        <value xml:lang="fa">ویرایش تکلیف مرتبط با ارسال</value>
+        <value xml:lang="fa">ویرایش تکلیف حواله مرتبط</value>
         <value xml:lang="fr">Modifier la composition</value>
         <value xml:lang="it">Legami Operazioni</value>
         <value xml:lang="ja">経路制御タスク関連付けを編集</value>
@@ -1952,7 +1952,7 @@
         <value xml:lang="de">Arbeitsgang-Zuordnung-Gültigkeit bearbeiten</value>
         <value xml:lang="en">Edit Routing Task Association Date validity</value>
         <value xml:lang="es">Editar validez de fecha de asociación</value>
-        <value xml:lang="fa">ویرایش تاریخ تصدیق تکلیف مرتبط با ارسال</value>
+        <value xml:lang="fa">ویرایش صحت تاریخ انجمن تکلیف حواله</value>
         <value xml:lang="fr">Modification des dates de validité du lien opération-gamme</value>
         <value xml:lang="it">Aggiorna Associazione Operazione Data validità</value>
         <value xml:lang="ja">経路制御タスク関連付け日検証を編集</value>
@@ -1967,7 +1967,7 @@
         <value xml:lang="de">Arbeitsgang-Nr. bearbeiten</value>
         <value xml:lang="en">Edit Routing Task - ID</value>
         <value xml:lang="es">Editar código de tarea</value>
-        <value xml:lang="fa">ویرایش آی‌دی تکلیف ارسال</value>
+        <value xml:lang="fa">ویرایش آی‌دی تکلیف حواله</value>
         <value xml:lang="fr">Modification de l'opération - réf</value>
         <value xml:lang="it">Aggiorna Codice Operazione</value>
         <value xml:lang="ja">経路制御タスクを編集 - ID</value>
@@ -1980,7 +1980,7 @@
     </property>
     <property key="ManufacturingEngineeringBillOfMaterials">
         <value xml:lang="en">Engineering Bill of Materials</value>
-        <value xml:lang="fa">صورت‌حساب مهندسی مواد</value>
+        <value xml:lang="fa">مهندسی صورت‌حساب مواد</value>
         <value xml:lang="it">Distinta base ingegnerizzata</value>
         <value xml:lang="ja">設計部品表(EBOM)</value>
         <value xml:lang="pt_BR">Estrutura de produtos como desenvolvida (EBOM)</value>
@@ -2022,7 +2022,7 @@
         <value xml:lang="de">Geschätztes Start-Datum</value>
         <value xml:lang="en">Estimated Start Date</value>
         <value xml:lang="es">Fecha de inicio estimada</value>
-        <value xml:lang="fa">تاریخ انتظاری شورع</value>
+        <value xml:lang="fa">تاریخ انتظاری شروع</value>
         <value xml:lang="fr">Date de début estimée</value>
         <value xml:lang="it">Data Inizio Stimata</value>
         <value xml:lang="ja">見積開始日</value>
@@ -2082,7 +2082,7 @@
         <value xml:lang="de">Auffalten (nur für Produktion benötigte Komponenten)</value>
         <value xml:lang="en">Explosion (only for products needing manufacturing)</value>
         <value xml:lang="es">Explosión (sólo para productos fabricados)</value>
-        <value xml:lang="fa">انفجار (فقط برای ساخت نیاز محصولات)</value>
+        <value xml:lang="fa">انفجار (فقط برای محصولات به ساخت نیاز است)</value>
         <value xml:lang="fr">Explosion (seulement pour des articles ayant besoin de fabrication)</value>
         <value xml:lang="it">Esplosione (solo per prodotti che necessitano produzione)</value>
         <value xml:lang="ja">展開 (生産が必要な製品に対してのみ)</value>
@@ -2112,7 +2112,7 @@
         <value xml:lang="de">Lager nicht vorhanden</value>
         <value xml:lang="en">The facility table does not exist</value>
         <value xml:lang="es">El almacén no existe</value>
-        <value xml:lang="fa">جدول تسهلات موجود نمی‌باشد</value>
+        <value xml:lang="fa">جدول تسهیلات موجود نمی‌باشد</value>
         <value xml:lang="fr">La table des lieux de stockage n'existe pas</value>
         <value xml:lang="it">La tabella stabilimenti non esiste</value>
         <value xml:lang="ja">拠点テーブルは存在しません</value>
@@ -2172,7 +2172,7 @@
         <value xml:lang="de">Produktionsauftrag suchen</value>
         <value xml:lang="en">Find Production Run</value>
         <value xml:lang="es">Buscar órdenes de producción</value>
-        <value xml:lang="fa">پیداکردن اجراء محصول</value>
+        <value xml:lang="fa">پیداکردن خط تولید</value>
         <value xml:lang="fr">Recherche d'ordre de fabrication</value>
         <value xml:lang="it">Ricerca ordine di produzione</value>
         <value xml:lang="ja">生産実行を検索</value>
@@ -2187,7 +2187,7 @@
         <value xml:lang="de">Arbeitsplan suchen</value>
         <value xml:lang="en">Find Routing</value>
         <value xml:lang="es">Buscar ruta</value>
-        <value xml:lang="fa">پیداکردن ارسال</value>
+        <value xml:lang="fa">پیداکردن حواله</value>
         <value xml:lang="fr">Recherche de gamme</value>
         <value xml:lang="it">Ricerca ciclo</value>
         <value xml:lang="ja">経路制御を検索</value>
@@ -2202,7 +2202,7 @@
         <value xml:lang="de">Arbeitsgang suchen</value>
         <value xml:lang="en">Find Routing Tasks</value>
         <value xml:lang="es">Buscar tareas</value>
-        <value xml:lang="fa">پیداکردن تکلیف ارسال</value>
+        <value xml:lang="fa">پیداکردن تکلیف‌های حواله</value>
         <value xml:lang="fr">Recherche d'opérations</value>
         <value xml:lang="it">Ricerca Operazioni</value>
         <value xml:lang="ja">経路制御タスクを検索</value>
@@ -2277,7 +2277,7 @@
         <value xml:lang="de">Das Feld "Bis-Datum" ist falsch formatiert</value>
         <value xml:lang="en">The Thru Date field is not formatted correctly</value>
         <value xml:lang="es">La fecha de fin no tiene el formato correcto</value>
-        <value xml:lang="fa">بخش تا تاریخ به درستی فرمت‌نشده‌است</value>
+        <value xml:lang="fa">بخش «تا تاریخ» به درستی فرمت‌نشده‌است</value>
         <value xml:lang="fr">Le champ de par la date n'est pas formaté correctement</value>
         <value xml:lang="it">Il campo Data Fine non è formattata correttamente</value>
         <value xml:lang="ja">終了日が正しい書式ではありません</value>
@@ -2320,7 +2320,7 @@
     </property>
     <property key="ManufacturingGenerateProductionRuns">
         <value xml:lang="en">Generate Production Runs</value>
-        <value xml:lang="fa">ساختن اجراء تولید</value>
+        <value xml:lang="fa">ساختن خط تولید</value>
         <value xml:lang="it">Genera ordini di produzione</value>
         <value xml:lang="ja">生産実行を生成</value>
         <value xml:lang="pt_BR">Gerar execuções de produção</value>
@@ -2421,7 +2421,7 @@
         <value xml:lang="de">Bestands-Ereigniss-Art nicht vorhanden</value>
         <value xml:lang="en">Inventory Event Type does not exist</value>
         <value xml:lang="es">Tipo de movimiento de stock no existe</value>
-        <value xml:lang="fa">نوع رویداد موجودی کالا وجودندارد</value>
+        <value xml:lang="fa">نوع رویداد موجودی‌کالا وجودندارد</value>
         <value xml:lang="fr">La liste d'inventaire d'événements n'existe pas</value>
         <value xml:lang="it">Tipo Inventario Evento non esiste</value>
         <value xml:lang="ja">在庫イベント種類は存在しません</value>
@@ -2466,7 +2466,7 @@
         <value xml:lang="de">Komponenten ausgeben (ATP)</value>
         <value xml:lang="en">Issue Components (ATP)</value>
         <value xml:lang="es">Emitir componentes (ATP)</value>
-        <value xml:lang="fa">صدور مولفه‌ها (ATP)</value>
+        <value xml:lang="fa">صدور مولفه‌ها (موجود برای وعده (ATP))</value>
         <value xml:lang="fr">Composants publiés (ATP)</value>
         <value xml:lang="it">Preleva i Componenti (ATP)</value>
         <value xml:lang="ja">コンポーネント発行 (製品在庫/ATP)</value>
@@ -2553,7 +2553,7 @@
         <value xml:lang="de">Komponenten des Produktionsauftrages anzeigen</value>
         <value xml:lang="en">List Of Production Run Components</value>
         <value xml:lang="es">Lista de componentes de la orden de producción</value>
-        <value xml:lang="fa">لیست مولفه‌های اجراء تولید</value>
+        <value xml:lang="fa">لیست مولفه‌های خط تولید</value>
         <value xml:lang="fr">Liste de production de l'ordre de fabrication</value>
         <value xml:lang="it">Lista dei componenti dell'ordine di produzione</value>
         <value xml:lang="ja">生産実行コンポーネント一覧</value>
@@ -2567,7 +2567,7 @@
         <value xml:lang="de">Anlagen des Produktionsauftrages anzeigen</value>
         <value xml:lang="en">List Of Production Run Fixed Assets</value>
         <value xml:lang="es">Lista de activos fijos de la orden de producción</value>
-        <value xml:lang="fa">لیست دارایی‌های ثابت اجراء تولید</value>
+        <value xml:lang="fa">لیست دارایی‌های ثابت خط تولید</value>
         <value xml:lang="fr">Liste de production des cours des machines</value>
         <value xml:lang="it">Lista dei cespiti ordine di produzione</value>
         <value xml:lang="ja">生産実行固定資産一覧</value>
@@ -2580,7 +2580,7 @@
     </property>
     <property key="ManufacturingListOfProductionRunNotes">
         <value xml:lang="en">List Of Production Run Notes</value>
-        <value xml:lang="fa">لیست یادداشت‌های اجراء تولید</value>
+        <value xml:lang="fa">لیست یادداشت‌های خط تولید</value>
         <value xml:lang="fr">Liste des notes de l'ordre de fabrication</value>
         <value xml:lang="it">Lista note ordine di produzione</value>
         <value xml:lang="ja">生産実行注釈一覧</value>
@@ -2623,7 +2623,7 @@
         <value xml:lang="de">Arbeitsgänge auflisten</value>
         <value xml:lang="en">List Routings</value>
         <value xml:lang="es">Lista de Rutas</value>
-        <value xml:lang="fa">لیست ارسال‌ها</value>
+        <value xml:lang="fa">لیست حواله‌ها</value>
         <value xml:lang="fr">Liste des gammes</value>
         <value xml:lang="it">Lista Cicli</value>
         <value xml:lang="ja">経路制御一覧</value>
@@ -2723,7 +2723,7 @@
         <value xml:lang="de">Sicherheits-Fehler: Um eine Anlagengruppe zu bearbeiten müssen Sie über die Berechtigung MANUFACTURING_CREATE oder MANUFACTURING_ADMIN verfügen</value>
         <value xml:lang="en">Security Error: to work on a Fixed Asset Group you must have the MANUFACTURING_CREATE or MANUFACTURING_ADMIN permission</value>
         <value xml:lang="es">Error:  Para acceder a esta funcionalidad debe contar con los permisos MANUFACTURING_CREATE o MANUFACTURING_ADMIN</value>
-        <value xml:lang="fa">خطا امنیتی: برای کارکردن روی گروه دارایی ثابت شما باید مجوز MANUFACTURING_CREATE یا MANUFACTURING_ADMIN را داشته باشید</value>
+        <value xml:lang="fa">خطای امنیتی: برای کارکردن روی گروه دارایی ثابت شما باید اجازه MANUFACTURING_CREATE یا MANUFACTURING_ADMIN را داشته باشید</value>
         <value xml:lang="fr">Erreur sécurité : pour effectuer une opération sur un groupe de machines, il faut avoir l'autorisation MANUFACTURING_CREATE ou MANUFACTURING_ADMIN.</value>
         <value xml:lang="it">Errore Sicurezza : per lavorare sui gruppi Macchine tu devi avere il permesso MANUFACTURING_CREATE o MANUFACTURING_ADMIN</value>
         <value xml:lang="ja">セキュリティエラー: 固定資産グループの処理は MANUFACTURING_CREATE または MANUFACTURING_ADMIN 権限が必要です</value>
@@ -2768,7 +2768,7 @@
         <value xml:lang="de">Sicherheits-Fehler: Um eine Anlage zu bearbeiten müssen Sie über die Berechtigung MANUFACTURING_CREATE oder MANUFACTURING_ADMIN verfügen</value>
         <value xml:lang="en">Security Error: to work on Fixed Asset you must have the MANUFACTURING_CREATE or MANUFACTURING_ADMIN permission</value>
         <value xml:lang="es">Error:  Para acceder a esta funcionalidad debe contar con los permisos MANUFACTURING_CREATE o MANUFACTURING_ADMIN</value>
-        <value xml:lang="fa">خطا امنیتی: برای کارکردن روی دارایی ثابت شما باید مجوز MANUFACTURING_CREATE یا MANUFACTURING_ADMIN را داشته باشید</value>
+        <value xml:lang="fa">خطای امنیتی: برای کارکردن روی دارایی ثابت شما باید اجازه MANUFACTURING_CREATE یا MANUFACTURING_ADMIN را داشته باشید</value>
         <value xml:lang="fr">Erreur sécurité : pour effectuer une opération sur une machine, il faut avoir l'autorisation MANUFACTURING_CREATE ou MANUFACTURING_ADMIN.</value>
         <value xml:lang="it">Errore Sicurezza : per lavorare sulle Macchine tu devi avere il permesso MANUFACTURING_CREATE o MANUFACTURING_ADMIN</value>
         <value xml:lang="ja">セキュリティエラー: 固定資産の処理は MANUFACTURING_CREATE または MANUFACTURING_ADMIN 権限が必要です</value>
@@ -2783,7 +2783,7 @@
         <value xml:lang="de">Produktionsverwaltung: Startseite</value>
         <value xml:lang="en">Manufacturing Manager Main Page</value>
         <value xml:lang="es">Página principal de Producción</value>
-        <value xml:lang="fa">صفحه اصلی مدیریت ساخت</value>
+        <value xml:lang="fa">صفحه اصلی مدیر ساخت</value>
         <value xml:lang="fr">Page d'accueil de la gestion de fabrication</value>
         <value xml:lang="it">Pagina Principale Gestione della Produzione</value>
         <value xml:lang="ja">生産管理メインページ</value>
@@ -2797,7 +2797,7 @@
     <property key="ManufacturingMainPageNote">
         <value xml:lang="en">NOTE: This application is currently in development. This page will change.</value>
         <value xml:lang="es">NOTA: La aplicación aún se encuentra en desarrollo. Es muy probable que la página cambie en las siguientes versiones.</value>
-        <value xml:lang="fa">یادداشت: این نرم‌افزار در دست توسعه می‌باشد. این صفحه تغیر خواهدکرد.</value>
+        <value xml:lang="fa">یادداشت: این نرم‌افزار در دست توسعه می‌باشد. این صفحه تغییر خواهدکرد.</value>
         <value xml:lang="fr">NOTE : Cette application est actuellement à l'étude. Cette page changera.</value>
         <value xml:lang="it">NOTA: Questa applicazione è attualmente in sviluppo. Questa pagina verrà cambiata.</value>
         <value xml:lang="ja">注意: このアプリケーションは開発中です。このページは変更される可能性があります。</value>
@@ -2812,7 +2812,7 @@
         <value xml:lang="de">Kosten-Berechnungs-Einträge verwalten</value>
         <value xml:lang="en">Manage Cost Component Calc Entries</value>
         <value xml:lang="es">Administrar cálculo de costo de componentes</value>
-        <value xml:lang="fa">مدیریت ورودی‌های محاسبات مولفه هزینه</value>
+        <value xml:lang="fa">مدیر ورودی‌های محاسبات مولفه هزینه</value>
         <value xml:lang="fr">Contrôler les entrées composantes du coût Calc.</value>
         <value xml:lang="it">Gestione Costi Componenti Voci Calcolo</value>
         <value xml:lang="ja">原価構成計算エントリの管理</value>
@@ -2827,7 +2827,7 @@
         <value xml:lang="de">Produktionsverwaltung</value>
         <value xml:lang="en">Manufacturing Manager</value>
         <value xml:lang="es">Gestión de Producción</value>
-        <value xml:lang="fa">مدیریت ساخت</value>
+        <value xml:lang="fa">مدیر ساخت</value>
         <value xml:lang="fr">Gestion de production</value>
         <value xml:lang="it">Gestione della produzione</value>
         <value xml:lang="ja">生産管理</value>
@@ -2842,7 +2842,7 @@
         <value xml:lang="de">Produktionsverwaltung</value>
         <value xml:lang="en">Manufacturing Manager Application</value>
         <value xml:lang="es">Gestión de Producción</value>
-        <value xml:lang="fa">نرم‌افزار مدیریت ساخت</value>
+        <value xml:lang="fa">نرم‌افزار مدیر ساخت</value>
         <value xml:lang="fr">Gestion de production</value>
         <value xml:lang="it">Applicazione Gestione della Produzione</value>
         <value xml:lang="ja">生産管理業務</value>
@@ -2857,7 +2857,7 @@
         <value xml:lang="de">Erforderliche Produktionsaufträge</value>
         <value xml:lang="en">Preceding Production Run(s)</value>
         <value xml:lang="es">Órdenes de producción obligatorias</value>
-        <value xml:lang="fa">اجراء تولید مقدم</value>
+        <value xml:lang="fa">خط(های) تولید مقدم</value>
         <value xml:lang="fr">Cadences de production obligatoires</value>
         <value xml:lang="it">Cicli Produzione Precedenti</value>
         <value xml:lang="ja">生産強制実行</value>
@@ -2916,7 +2916,7 @@
         <value xml:lang="de">Materialien werden für aktuellen Arbeitsgang benötigt</value>
         <value xml:lang="en">Materials Required By The Running Task</value>
         <value xml:lang="es">Materiales requeridos para la tarea en ejecución</value>
-        <value xml:lang="fa">مواد الزامی بوسیله تکلیف اجراء</value>
+        <value xml:lang="fa">مواد الزامی بوسیله تکلیف اجرائی</value>
         <value xml:lang="fr">Matériaux exigés par l'opération en cours d'exécution</value>
         <value xml:lang="it">Materiali Richiesti dall'Operazione in Esecuzione</value>
         <value xml:lang="ja">実行中のタスクが要求した部品</value>
@@ -2943,7 +2943,7 @@
     </property>
     <property key="ManufacturingMrpCannotCountRecords">
         <value xml:lang="en">Unable to count MrpEvent records.</value>
-        <value xml:lang="fa">نمی‌توان گزارش‌های «رویداد MRP» را شمرد.</value>
+        <value xml:lang="fa">نمی‌توان سوابق «رویداد MRP» را شمرد.</value>
         <value xml:lang="it">Non è possibile contare i records da  i records da MrpEvent.</value>
         <value xml:lang="ja">MRPイベントレコードがカウントできません。</value>
         <value xml:lang="vi">Không thể đếm được bản ghi sự kiện MRP.</value>
@@ -2959,7 +2959,7 @@
     </property>
     <property key="ManufacturingMrpCannotFindProductFacility">
         <value xml:lang="en">Unable to retrieve ProductFacility records.</value>
-        <value xml:lang="fa">نمی‌توان گزارش‌های «تسهیلات تولید» را بازیابی‌کرد</value>
+        <value xml:lang="fa">نمی‌توان سوابق «تسهیلات تولید» را بازیابی‌کرد</value>
         <value xml:lang="it">Non è possibile ricavare i records da ProductFacility.</value>
         <value xml:lang="ja">製品拠点レコードの取得ができません。</value>
         <value xml:lang="vi">Hệ thống không lấy được dữ liệu bản ghi Chi nhánh / Cơ sở.</value>
@@ -2999,7 +2999,7 @@
     </property>
     <property key="ManufacturingMrpErrorForBomLevel">
         <value xml:lang="en">MRP Error retieving MRP event for the bom level: ${bomLevel}. Error: ${errorString}</value>
-        <value xml:lang="fa">خطاء مدیریت اجراء تولید در بازیابی رویداد MRP برای سطح BOM: ${bomLevel}. خطا: ${errorString}</value>
+        <value xml:lang="fa">خطا در بازیابی رویداد MRP برای سطح BOM: ${bomLevel}. خطا: ${errorString}</value>
         <value xml:lang="it">Errore MRP ricavando l'evento MRP per il livello di distinta base: ${bomLevel}. Errore: ${errorString}</value>
         <value xml:lang="ja">部品表レベル: ${bomLevel} に対するMRPイベント取得中にエラー: ${errorString}</value>
         <value xml:lang="vi">Lỗi khi lấy thông tin sự kiện MRP ở mức chào giá : ${bomLevel}. Lỗi: ${errorString}</value>
@@ -3038,7 +3038,7 @@
     </property>
     <property key="ManufacturingMrpEventRemoveError">
         <value xml:lang="en">Problem, we can not remove the MrpEvent items, for more detail look at the log</value>
-        <value xml:lang="fa">مشکل، ما نمی‌توانیم اقلام «رویداد مدیریت اجراء تولید» را حذف کنیم، برای اطلاعات بیشتر لاگ‌ها را ببینید</value>
+        <value xml:lang="fa">مشکل، ما نمی‌توانیم اقلام «رویداد م MRP» را حذف کنیم، برای اطلاعات بیشتر لاگ‌ها را ببینید</value>
         <value xml:lang="it">Problema, non possaimo rimuovere le righe di MrpEvent, per più dettagli controllare il log</value>
         <value xml:lang="ja">問題、MRPイベントアイテムが削除できません。詳細はログを参照してください</value>
         <value xml:lang="vi">Lỗi xảy ra, chúng tôi không xóa bỏ được sự kiện MRP, bạn hãy xem vết để biết thêm chi tiết</value>
@@ -3088,7 +3088,7 @@
         <value xml:lang="de">MRP-Initialisierung</value>
         <value xml:lang="en">IEP init.</value>
         <value xml:lang="es">Inic. MRP</value>
-        <value xml:lang="fa">آغاز MRP</value>
+        <value xml:lang="fa">نخست MRP</value>
         <value xml:lang="fr">Init. MRP</value>
         <value xml:lang="it">IEP init.</value>
         <value xml:lang="ja">IEP初期化</value>
@@ -3103,7 +3103,7 @@
         <value xml:lang="de">Ein MRP-Lauf ist aktiv</value>
         <value xml:lang="en">An Mrp Job is Running</value>
         <value xml:lang="es">Un trabajo MRP está en curso</value>
-        <value xml:lang="fa">یک کار MRP در حال اجراء است</value>
+        <value xml:lang="fa">یک کار MRP درحال‌اجراء است</value>
         <value xml:lang="fr">Un travail Mrp est en cours</value>
         <value xml:lang="it">Un Lavoro MRP è in esecuzione</value>
         <value xml:lang="ja">MRPジョブは実行中です</value>
@@ -3131,7 +3131,7 @@
         <value xml:lang="de">Geplanter oder aktiver MRP-Lauf</value>
         <value xml:lang="en">Scheduled or running Jobs</value>
         <value xml:lang="es">Trabajos planificados o en curso</value>
-        <value xml:lang="fa">کارهای برنامه‌ریزی‌شده یا درحال اجراء</value>
+        <value xml:lang="fa">کارهای برنامه‌ریزی‌شده یا درحال‌اجراء</value>
         <value xml:lang="fr">les travaux programmés ou en cours d'exécution</value>
         <value xml:lang="it">Lavori Schedulati o in Esecuzione</value>
         <value xml:lang="ja">スケジュール済または実行中のジョブ</value>
@@ -3219,7 +3219,7 @@
         <value xml:lang="de">Neuer Arbeitsplan</value>
         <value xml:lang="en">New Routing</value>
         <value xml:lang="es">Nueva ruta</value>
-        <value xml:lang="fa">ارسال جدید</value>
+        <value xml:lang="fa">حواله جدید</value>
         <value xml:lang="fr">Nouvelle gamme</value>
         <value xml:lang="it">Nuovo ciclo</value>
         <value xml:lang="ja">新規経路制御</value>
@@ -3234,7 +3234,7 @@
         <value xml:lang="de">Neuer Arbeitsgang</value>
         <value xml:lang="en">New Routing Task</value>
         <value xml:lang="es">Nueva tarea</value>
-        <value xml:lang="fa">تکلیف ارسال جدید</value>
+        <value xml:lang="fa">تکلیف حواله جدید</value>
         <value xml:lang="fr">Nouvelle opération de gamme</value>
         <value xml:lang="it">Nuova Operazione</value>
         <value xml:lang="ja">新規経路制御タスク</value>
@@ -3293,7 +3293,7 @@
         <value xml:lang="de">Anlagengruppe nicht vorhanden</value>
         <value xml:lang="en">No Fixed Asset group found</value>
         <value xml:lang="es">No se encontró grupo de máquina</value>
-        <value xml:lang="fa">هیچ گروه دارایی ثابت پیدانشد</value>
+        <value xml:lang="fa">هیچ گروه دارایی ثابت پیدانشده</value>
         <value xml:lang="fr">Aucun groupe de machines trouvé</value>
         <value xml:lang="it">Nessun Gruppo Macchine trovato</value>
         <value xml:lang="ja">固定資産グループはありません</value>
@@ -3308,7 +3308,7 @@
         <value xml:lang="de">Kein Produktionsauftrag ausgewählt</value>
         <value xml:lang="en">No ProductionRun Selected</value>
         <value xml:lang="es">No se seleccionó una orden de producción</value>
-        <value xml:lang="fa">هیچ «اجراء تولیدی» انتخاب‌نشده‌است</value>
+        <value xml:lang="fa">هیچ «خط تولیدی» انتخاب‌نشده‌است</value>
         <value xml:lang="fr">Aucun ordre de fabrication sélectionné</value>
         <value xml:lang="it">Nessun Ordine di Produzione Selezionato</value>
         <value xml:lang="ja">生産実行は選択されていません</value>
@@ -3322,7 +3322,7 @@
     <property key="ManufacturingNote1">
         <value xml:lang="en">date/time entries denote that the current time is before the From Date or after the Thru Date. If the From Date is</value>
         <value xml:lang="es">entradas fecha/hora indican que la hora actual es antes de la fecha de o hasta. Si la fecha desde es</value>
-        <value xml:lang="fa">ورودی‌های زمان/تاریخ که زمان کنونی قبل از از تاریخ یا بعد از تا تاریخ هستند. اگر از تاریخ باشد</value>
+        <value xml:lang="fa">ورودی‌های زمان/تاریخ که زمان کنونی قبل از ا«ز تاریخ »یا بعد از «تا تاریخ» هستند. اگر «از تاریخ» باشد</value>
         <value xml:lang="fr">Les lignes date/heure indiquent que l'heure en cours est avant la date ou après la date en cours. Si la date est </value>
         <value xml:lang="it">le voci data/ora indicano che l'orario attuale è prima della Data di Inizio o dopo la Data di Fine. Se la Data di Inizio è</value>
         <value xml:lang="ja">日時エントリが、現在時刻が開始日より前または終了日より後であることを示しています。開始日が</value>
@@ -3335,7 +3335,7 @@
     <property key="ManufacturingNote2">
         <value xml:lang="en">, association has not started yet; if Thru Date is</value>
         <value xml:lang="es">, asociación aún sin empezar; si la fecha hasta es</value>
-        <value xml:lang="fa">، انجمن هنوز شروع نشده‌است؛ اگز تا تاریخ باشد</value>
+        <value xml:lang="fa">، انجمن هنوز شروع نشده‌است؛ اگز «تا تاریخ» این باشد</value>
         <value xml:lang="fr">, l'association n'a pas commencé encore; si la date de fin est</value>
         <value xml:lang="it">, associazione non è ancora iniziata; se la Data di Fine è</value>
         <value xml:lang="ja">の場合、関連付けはまだ開始していません。終了日が</value>
@@ -3375,7 +3375,7 @@
     </property>
     <property key="ManufacturingPackageConfiguratorError">
         <value xml:lang="en">Package Configurator Error</value>
-        <value xml:lang="fa">خطا پیکربند بسته</value>
+        <value xml:lang="fa">خطا پیکربندی بسته</value>
         <value xml:lang="it">Errore configurazione pacco</value>
         <value xml:lang="ja">梱包設定エラー</value>
         <value xml:lang="pt_BR">Erro na configuração do pacote</value>
@@ -3422,7 +3422,7 @@
         <value xml:lang="de">Produktionsauftrag drucken</value>
         <value xml:lang="en">Manufacturing Print Production Run</value>
         <value xml:lang="es">Imprimir la orden de producción</value>
-        <value xml:lang="fa">اجراء تولید چاپ ساخت</value>
+        <value xml:lang="fa">خط تولید چاپ ساخت</value>
         <value xml:lang="fr">Impression de l'ordre de fabrication</value>
         <value xml:lang="it">Stampa Ordine di Produzione</value>
         <value xml:lang="ja">生産実行の印刷</value>
@@ -3521,7 +3521,7 @@
         <value xml:lang="de">Keine Stückliste für Produkt vorhanden</value>
         <value xml:lang="en">Product has no Bill of material </value>
         <value xml:lang="es">El producto no tiene lista de materiales</value>
-        <value xml:lang="fa">محصول صورت‌حسابی از مواد ندارد</value>
+        <value xml:lang="fa">محصول، صورت‌حساب مواد ندارد</value>
         <value xml:lang="fr">L'article n'a pas de nomenclature</value>
         <value xml:lang="it">Prodotto non ha Distinta Base</value>
         <value xml:lang="ja">製品に部品表(BOM)はありません</value>
@@ -3606,7 +3606,7 @@
         <value xml:lang="de">Arbeitsplan-Verbindung nicht vorhanden</value>
         <value xml:lang="en">Product Routing link doesn't exist</value>
         <value xml:lang="es">La relación con la ruta no existe</value>
-        <value xml:lang="fa">پیوند ارسال محصول وجودندارد</value>
+        <value xml:lang="fa">پیوند حواله محصول وجودندارد</value>
         <value xml:lang="fr">Le lien article-gamme saisi, n'existe pas</value>
         <value xml:lang="it">Link ciclo-prodotto inesistente</value>
         <value xml:lang="ja">製品経路制御リンクは存在しません</value>
@@ -3660,7 +3660,7 @@
         <value xml:lang="de">Produktionsauftrag</value>
         <value xml:lang="en">Production Run</value>
         <value xml:lang="es">Orden de producción</value>
-        <value xml:lang="fa">اجراء تولید</value>
+        <value xml:lang="fa">خط تولید</value>
         <value xml:lang="fr">Ordre de fabrication</value>
         <value xml:lang="it">Ordine di Produzione</value>
         <value xml:lang="ja">生産実行</value>
@@ -3675,7 +3675,7 @@
         <value xml:lang="de">Ist-Komponenten des Produktionsauftrages</value>
         <value xml:lang="en">Production Run Actual Components</value>
         <value xml:lang="es">Componentes reales de la orden de producción</value>
-        <value xml:lang="fa">مولفه‌های واقعی اجراء تولید</value>
+        <value xml:lang="fa">مولفه‌های واقعی خط تولید</value>
         <value xml:lang="fr">Composants réels de l'ordre de fabrication</value>
         <value xml:lang="it">Componenti Attuali Ordine di Produzione</value>
         <value xml:lang="ja">生産実行実績コンポーネント</value>
@@ -3702,7 +3702,7 @@
     </property>
     <property key="ManufacturingProductionRunCannotBeCancelled">
         <value xml:lang="en">Cannot cancel productionRun, not in a valid status</value>
-        <value xml:lang="fa">نمی‌توان «اجراء تولید» را لغوکرد، در وضعیت معتبری نیست</value>
+        <value xml:lang="fa">نمی‌توان «خط تولید» را لغوکرد، در وضعیت معتبری نیست</value>
         <value xml:lang="it">Non è possibile cancellare l'ordin di produzione, non è in uno stato valido</value>
         <value xml:lang="ja">生産実行を取消できません。有効なステータスではありません</value>
         <value xml:lang="vi">Không thể hủy bỏ Chế tác lô hàng, trạng thái không hợp lệ</value>
@@ -3710,7 +3710,7 @@
     </property>
      <property key="ManufacturingProductionRunCannotDecomposingInventoryItem">
         <value xml:lang="en">Error decomposing inventory item: inventory item with id ${inventoryItemId} not found.</value>
-        <value xml:lang="fa">خطا در تجزیه قلم موجود‌ی‌کالا: قلم موجودی‌کالا با آی‌دی ${inventoryItemId} پیدانشد</value>
+        <value xml:lang="fa">خطا در تجزیه قلم موجود‌ی‌کالا: قلم موجودی‌کالا با آی‌دی ${inventoryItemId} پیدانشده</value>
         <value xml:lang="it">Errore duranta la decomposizione della riga inventario: riga inventario ${inventoryItemId} non trovata.</value>
         <value xml:lang="ja">在庫アイテムの分解中にエラー、ID ${inventoryItemId} の在庫アイテムが見つかりません。</value>
         <value xml:lang="vi">Lỗi khi bóc tách hàng hóa trong kho: hàng hóa với Id ${inventoryItemId} không được tìm thấy.</value>
@@ -3718,7 +3718,7 @@
     </property>
     <property key="ManufacturingProductionRunCannotDecomposingInventoryItemNoComponentsFound">
         <value xml:lang="en">Error decomposing inventory item: no components found for marketing package ${productId}.</value>
-        <value xml:lang="fa">خطا در تجزیه قلم موجودی‌کالا: هیچ مولفه‌ای برای بسته بازاریابی پیدانشد </value>
+        <value xml:lang="fa">خطا در تجزیه قلم موجودی‌کالا: هیچ مولفه‌ای برای بسته بازاریابی پیدانشده</value>
         <value xml:lang="it">Errore duranta la decomposizione della riga inventario: nessun componente trovato per il pacco di vendita ${productId}.</value>
         <value xml:lang="ja">在庫アイテムの分解中にエラー、販売コンポーネント ${productId} に対するコンポーネントがありません。</value>
         <value xml:lang="vi">Lỗi khi bóc tách hàng hóa trong kho: không thành phần nào được tìm thấy cho gói tiếp thị ${productId}.</value>
@@ -3726,7 +3726,7 @@
     </property>
     <property key="ManufacturingProductionRunCannotDecomposingInventoryItemNoMarketingPackagesFound">
         <value xml:lang="en">Error decomposing inventory item: no marketing packages found in inventory item ${inventoryItemId}.</value>
-        <value xml:lang="fa">خطا در تجزیه قلم موجودی‌کالا: هیچ بسته بازاریابی در قلم موجودی‌کالا ${inventoryItemId} پیدانشد.</value>
+        <value xml:lang="fa">خطا در تجزیه قلم موجودی‌کالا: هیچ بسته بازاریابی در قلم موجودی‌کالا ${inventoryItemId} پیدانشده.</value>
         <value xml:lang="it">Errore duranta la decomposizione della riga inventario: nessun pacco di vendita trovato nella riga di inventario ${inventoryItemId}.</value>
         <value xml:lang="ja">在庫アイテムの分解中にエラー、在庫アイテム ${inventoryItemId} に販売コンポーネントがありません。</value>
         <value xml:lang="vi">Lỗi khi bóc tách hàng hóa trong kho: không gói tiếp thị nào được tìm thấy trong hàng hóa của kho ${productId}.</value>
@@ -3736,7 +3736,7 @@
         <value xml:lang="de">Produktionsauftrag abschließen</value>
         <value xml:lang="en">Close Production Run</value>
         <value xml:lang="es">Cerrar orden de producción</value>
-        <value xml:lang="fa">بستن اجراء تولید</value>
+        <value xml:lang="fa">بستن خط تولید</value>
         <value xml:lang="fr">Fermer l'ordre de fabrication</value>
         <value xml:lang="it">Chiudi Ordine di Produzione</value>
         <value xml:lang="ja">生産実行をクローズ</value>
@@ -3749,7 +3749,7 @@
     </property>
     <property key="ManufacturingProductionRunCompletionDateNotCorrect">
         <value xml:lang="en">Production Run Completion Date Not Correct</value>
-        <value xml:lang="fa">تاریخ تکمیل اجراء تولید درست نیست</value>
+        <value xml:lang="fa">تاریخ تکمیل خط تولید درست نیست</value>
         <value xml:lang="it">Data completamento ordine di produzione non corretta</value>
         <value xml:lang="ja">生産実行完了日が正しくありません</value>
         <value xml:lang="pt_BR">Data de encerramento da execução de produção não está correta</value>
@@ -3759,7 +3759,7 @@
     </property>
     <property key="ManufacturingProductionRunComponentAdded">
         <value xml:lang="en">Production Run Component Added</value>
-        <value xml:lang="fa">مولفه اجراء تولید اضافه‌شده‌است</value>
+        <value xml:lang="fa">مولفه خط تولید اضافه‌شده‌است</value>
         <value xml:lang="it">Aggiunta componente ordine di produzione</value>
         <value xml:lang="ja">生産実行コンポーネントは追加されました</value>
         <value xml:lang="pt_BR">Componente de execução de produto adicionado</value>
@@ -3769,7 +3769,7 @@
     </property>
     <property key="ManufacturingProductionRunComponentNotAdded">
         <value xml:lang="en">Production Run Component Not Added</value>
-        <value xml:lang="fa">مولفه اجراء تولید اضافه‌نشده‌است</value>
+        <value xml:lang="fa">مولفه خط تولید اضافه‌نشده‌است</value>
         <value xml:lang="it">Componente ordine di produzione non aggiunto</value>
         <value xml:lang="ja">生産実行コンポーネントは追加されません</value>
         <value xml:lang="pt_BR">Componente de execução de produto não adicionado</value>
@@ -3779,7 +3779,7 @@
     </property>
     <property key="ManufacturingProductionRunComponentNotExists">
         <value xml:lang="en">Production Run Component Not Exists</value>
-        <value xml:lang="fa">مولفه اجراء تولید وجودندارد</value>
+        <value xml:lang="fa">مولفه خط تولید وجودندارد</value>
         <value xml:lang="it">Componente ordine di produzione non esiste</value>
         <value xml:lang="ja">生産実行コンポーネントは存在しません</value>
         <value xml:lang="pt_BR">Componente de execução de produção não existe</value>
@@ -3789,7 +3789,7 @@
     </property>
     <property key="ManufacturingProductionRunComponentUpdated">
         <value xml:lang="en">Production Run Component Updated</value>
-        <value xml:lang="fa">مولفه اجراء تولید بروزرسانی‌شده‌است</value>
+        <value xml:lang="fa">مولفه خط تولید بروزرسانی‌شده‌است</value>
         <value xml:lang="it">Componente ordine di produzione aggiornato</value>
         <value xml:lang="ja">生産実行コンポーネントは更新されました</value>
         <value xml:lang="pt_BR">Componente de execução de produção atualizado</value>
@@ -3801,7 +3801,7 @@
         <value xml:lang="de">Komponenten des Produktionsauftrages</value>
         <value xml:lang="en">Production Run Components</value>
         <value xml:lang="es">Componentes de la orden de producción</value>
-        <value xml:lang="fa">مولفه‌های اجراء تولید</value>
+        <value xml:lang="fa">مولفه‌های خط تولید</value>
         <value xml:lang="fr">Composants de l'ordre de fabrication</value>
         <value xml:lang="it">Compomenti Ordine di Produzione</value>
         <value xml:lang="ja">生産実行コンポーネント</value>
@@ -3823,7 +3823,7 @@
         <value xml:lang="de">Produktionsauftrags-Kosten</value>
         <value xml:lang="en">Production Run Costs</value>
         <value xml:lang="es">Costes de la orden de producción</value>
-        <value xml:lang="fa">هزینه اجراء تولید</value>
+        <value xml:lang="fa">هزینه خط تولید</value>
         <value xml:lang="fr">Coûts de l'ordre de fabrication</value>
         <value xml:lang="it">Costi Ordine di Produzione</value>
         <value xml:lang="ja">生産実行原価</value>
@@ -3838,7 +3838,7 @@
         <value xml:lang="de">Produktionsauftrag ${productionRunId} erstellt</value>
         <value xml:lang="en">ProductionRun ${productionRunId} created</value>
         <value xml:lang="es">Orden de producción ${productionRunId} creada</value>
-        <value xml:lang="fa">اجراء تولید ${productionRunId} ساخته‌شده</value>
+        <value xml:lang="fa">خط تولید ${productionRunId} ساخته‌شده</value>
         <value xml:lang="fr">Ordre de fabrication créé ${productionRunId}</value>
         <value xml:lang="it">Ordine di produzione ${productionRunId} creato</value>
         <value xml:lang="ja">生産実行 ${productionRunId} 作成されました</value>
@@ -3852,7 +3852,7 @@
     <property key="ManufacturingProductionRunDeclaration">
         <value xml:lang="en">Production Run Declaration</value>
         <value xml:lang="es">Declaración de orden de producción</value>
-        <value xml:lang="fa">اظهارنامه اجراء تولید</value>
+        <value xml:lang="fa">اظهارنامه خط تولید</value>
         <value xml:lang="fr">Déclaration de l'ordre de fabrication</value>
         <value xml:lang="it">Dichiarazione Ordine di Produzione</value>
         <value xml:lang="ja">生産実行定義</value>
@@ -3865,7 +3865,7 @@
     </property>
     <property key="ManufacturingProductionRunDeclareAndProduce">
         <value xml:lang="en">Production Run Declare And Produce</value>
-        <value xml:lang="fa">اظهار اجراء تولید و و تولیدکردن</value>
+        <value xml:lang="fa">اظهار و تولیدکردن خط تولید</value>
         <value xml:lang="it">Ordine di produzione dichiara e produci</value>
         <value xml:lang="ja">生産実行の定義および生産</value>
         <value xml:lang="pt_BR">Declarar e produzir execução de produção</value>
@@ -3877,7 +3877,7 @@
         <value xml:lang="de">Anlage zuweisen</value>
         <value xml:lang="en">Fixed Asset Assign</value>
         <value xml:lang="es">Asignación de activo fijo</value>
-        <value xml:lang="fa">منتسب به دارایی ثابت</value>
+        <value xml:lang="fa">انتساب دارایی ثابت</value>
         <value xml:lang="fr">Affecter une machine</value>
         <value xml:lang="it">Assegna Cespite</value>
         <value xml:lang="ja">固定資産割当</value>
@@ -3906,7 +3906,7 @@
     <property key="ManufacturingProductionRunFixedAssets">
         <value xml:lang="en">Production Run Fixed Assets</value>
         <value xml:lang="es">Máquinas de la orden de producción</value>
-        <value xml:lang="fa">دارایی‌های ثابت اجراء تولید</value>
+        <value xml:lang="fa">دارایی‌های ثابت خط تولید</value>
         <value xml:lang="fr">Machines de l'ordre de fabrication</value>
         <value xml:lang="it">Cespite ordine di produzione</value>
         <value xml:lang="ja">生産実行固定資産</value>
@@ -3918,7 +3918,7 @@
     </property>
     <property key="ManufacturingProductionRunForMarketingPackagesCreationError">
         <value xml:lang="en">Error creating a production run for marketing package for order ${orderId} ${orderItemSeqId}: ${errorString}</value>
-        <value xml:lang="fa">خطا در ساختن اجرا تولید برای بسته بازاریابی برای سفارش ${orderId} ${orderItemSeqId}: ${errorString}</value>
+        <value xml:lang="fa">خطا در ساختن خط تولید برای بسته بازاریابی برای سفارش ${orderId} ${orderItemSeqId}: ${errorString}</value>
         <value xml:lang="it">Errore durante la creazione dell'ordine di produzione per il pacco di vendita per l'ordine ${orderId} ${orderItemSeqId}: ${errorString}</value>
         <value xml:lang="ja">注文 ${orderId} ${orderItemSeqId} に対する販売パッケージの生産実行作成中にエラー: ${errorString}</value>
         <value xml:lang="vi">Lỗi khi tạo Chế tác lô hàng cho Gói tiếp thị của Đặt hàng ${orderId} ${orderItemSeqId}: ${errorString}</value>
@@ -3926,7 +3926,7 @@
     </property>
     <property key="ManufacturingProductionRunForMarketingPackagesOrderItemNotFound">
         <value xml:lang="en">Error creating a production run for marketing package for order ${orderId} ${orderItemSeqId}: order item not found.</value>
-        <value xml:lang="fa">خطا در ساختن اجرا تولید برای بسته بازاریابی برای سفارش ${orderId} ${orderItemSeqId}: قلم سفارش پیدانشد.</value>
+        <value xml:lang="fa">خطا در ساختن خط تولید برای بسته بازاریابی برای سفارش ${orderId} ${orderItemSeqId}: قلم سفارش پیدانشده.</value>
         <value xml:lang="it">Errore durante la creazione dell'ordine di produzione per il pacco di vendita per l'ordine ${orderId} ${orderItemSeqId}: riga ordine non trovata.</value>
         <value xml:lang="ja">注文 ${orderId} ${orderItemSeqId} に対する販売パッケージの生産実行作成中にエラー、注文アイテムが見つかりません</value>
         <value xml:lang="vi">Lỗi khi tạo Chế tác lô hàng cho Gói tiếp thị của Đặt hàng ${orderId} ${orderItemSeqId}: hàng hóa đặt hàng không tìm thấy.</value>
@@ -3942,7 +3942,7 @@
     </property>
     <property key="ManufacturingProductionRunFromConfigurationNotValid">
         <value xml:lang="en">Product Configuration Not Valid</value>
-        <value xml:lang="fa">پیکربندی محصول معتبر نیست</value>
+        <value xml:lang="fa">پیکربندی محصول معتبرنیست</value>
         <value xml:lang="it">Configurazione non valida</value>
         <value xml:lang="ja">製品設定が無効です</value>
         <value xml:lang="vi">Cấu hình sản phẩm không đúng định dạng</value>
@@ -3952,7 +3952,7 @@
         <value xml:lang="de">Produktionsauftrags-Nr.</value>
         <value xml:lang="en">Production Run ID</value>
         <value xml:lang="es">Código de orden de producción</value>
-        <value xml:lang="fa">آی‌دی اجراء تولید</value>
+        <value xml:lang="fa">آی‌دی خط تولید</value>
         <value xml:lang="fr">Réf. de l'ordre de fabrication</value>
         <value xml:lang="it">Ordine di produzione</value>
         <value xml:lang="ja">生産実行ID</value>
@@ -3965,7 +3965,7 @@
     </property>
     <property key="ManufacturingProductionRunIsNotRequiredForProductId">
         <value xml:lang="en">No production run is required for product with id ${productId} in date ${startDate}; please verify the validity dates of the bill of materials and routing.</value>
-        <value xml:lang="fa">هیچ اجراء محصولی برای محصول با آی‌دی ${productId} در تاریخ ${startDate} الزامی‌نیست؛ لطفا صحت تاریخ‌ها را برای صورت‌حساب مواد و ارسال تصدیق‌نمایید.</value>
+        <value xml:lang="fa">هیچ خط تولیدی برای محصول با آی‌دی ${productId} در تاریخ ${startDate} الزامی‌نیست؛ لطفا صحت تاریخ‌ها را برای صورت‌حساب مواد و ارسال تصدیق‌نمایید.</value>
         <value xml:lang="it">Nessun ordine di produzione è richiesto per il prodotto ${productId} in data ${startDate}; verificare le date di validità dei materiali.</value>
         <value xml:lang="ja">製品ID ${productId} 日付 ${startDate} の生産実行は必要ではありません、部品表の日付を確認して経路制御してください。</value>
         <value xml:lang="vi">Không có Chế tác lô hàng với sản phẩm id ${productId} trong ngày ${startDate}; bạn hãy xem xét lại ngày kiểm hàng (validity date) trên Chào giá và Quy trình</value>
@@ -3975,7 +3975,7 @@
         <value xml:lang="de">Produktionsauftrags-Name</value>
         <value xml:lang="en">Production Run Name</value>
         <value xml:lang="es">Nombre de orden de producción</value>
-        <value xml:lang="fa">نام اجراء تولید</value>
+        <value xml:lang="fa">نام خط تولید</value>
         <value xml:lang="fr">Nom de l'ordre de fabrication</value>
         <value xml:lang="it">Nome ordine di produzione</value>
         <value xml:lang="ja">生産実行名称</value>
@@ -3988,7 +3988,7 @@
     </property>
     <property key="ManufacturingProductionRunNotCreated">
         <value xml:lang="en">Production Run Not Created</value>
-        <value xml:lang="fa">اجراء تولید ساخته‌نشده‌است</value>
+        <value xml:lang="fa">خط تولید ساخته‌نشده‌است</value>
         <value xml:lang="it">Ordine di produzione non creato</value>
         <value xml:lang="ja">生産実行は作成されません</value>
         <value xml:lang="pt_BR">Execução de produção não foi criada</value>
@@ -3998,7 +3998,7 @@
     </property>
     <property key="ManufacturingProductionRunNotExists">
         <value xml:lang="en">Production Run Not Exists</value>
-        <value xml:lang="fa">اجراء تولید وجودندارد</value>
+        <value xml:lang="fa">خط تولید وجودندارد</value>
         <value xml:lang="it">Ordine di produzione non esiste</value>
         <value xml:lang="ja">生産実行は存在しません</value>
         <value xml:lang="pt_BR">Execução de produção não existe</value>
@@ -4010,7 +4010,7 @@
         <value xml:lang="de">Aktualisierung des Produktionsauftrages nicht erfolgreich, für weitere Informationen siehe Log</value>
         <value xml:lang="en">Production Run update failed see log for more information</value>
         <value xml:lang="es">No se actualizó la orden de producción. Consulte los logs para más detalle.</value>
-        <value xml:lang="fa">شکست در بروزرسانی اجراء تولید؛ برای اطلاعات بیشتر لاگ را ببینید</value>
+        <value xml:lang="fa">شکست در بروزرسانی خط تولید؛ برای اطلاعات بیشتر لاگ را ببینید</value>
         <value xml:lang="fr">La mise à jour de l'ordre de fabrication a échouée. Voir la log (journal de bord) pour plus d'information</value>
         <value xml:lang="it">Aggiornamento Ordine di Produzione fallito, vedere il log per maggiori informazioni</value>
         <value xml:lang="ja">生産実行の更新に失敗しました。詳しい情報はログを参照してください</value>
@@ -4025,7 +4025,7 @@
         <value xml:lang="de">Dokumente für Produktionsauftrage drucken</value>
         <value xml:lang="en">Production Run Print Documents</value>
         <value xml:lang="es">Documentos de impresión orden de producción</value>
-        <value xml:lang="fa">سندهای چاپ اجراء تولید</value>
+        <value xml:lang="fa">سندهای چاپ خط تولید</value>
         <value xml:lang="fr">Documents d'impression de l'ordre de fabrication</value>
         <value xml:lang="it">Stampa documento ordine di produzione</value>
         <value xml:lang="ja">生産実行文書印刷</value>
@@ -4037,7 +4037,7 @@
     </property>
     <property key="ManufacturingProductionRunPrinted">
         <value xml:lang="en">Production Run Printed</value>
-        <value xml:lang="fa">اجراء تولید چاپ‌شده</value>
+        <value xml:lang="fa">خط تولید چاپ‌شده‌است</value>
         <value xml:lang="it">Ordine di produzione stampato</value>
         <value xml:lang="ja">生産実行は印刷されました</value>
         <value xml:lang="pt_BR">Execução de produção impressa</value>
@@ -4047,7 +4047,7 @@
     </property>
     <property key="ManufacturingProductionRunPriorityMissing">
         <value xml:lang="en">Production Run Priority Missing</value>
-        <value xml:lang="fa">دوره اجراء تولید فراموش‌شده‌است</value>
+        <value xml:lang="fa">اولویت خط تولید فراموش‌شده‌است</value>
         <value xml:lang="it">Ordine di produzione priorità mancante</value>
         <value xml:lang="ja">生産実行の優先度が正しくありません</value>
         <value xml:lang="pt_BR">Prioridade de execução de produção está faltando</value>
@@ -4057,7 +4057,7 @@
     </property>
     <property key="ManufacturingProductionRunProduce">
         <value xml:lang="en">Production Run Produce</value>
-        <value xml:lang="fa">تولیدشده اجراء تولید</value>
+        <value xml:lang="fa">تولید خط تولید</value>
         <value xml:lang="it">Ordine di produzione prodotto</value>
         <value xml:lang="ja">生産実行の生産</value>
         <value xml:lang="pt_BR">Execução de produção produz</value>
@@ -4069,7 +4069,7 @@
         <value xml:lang="de">Komponente für Produktionsauftrag</value>
         <value xml:lang="en">Production Run Product Component</value>
         <value xml:lang="es">Componente</value>
-        <value xml:lang="fa">مولفه محصول اجراء تولید</value>
+        <value xml:lang="fa">مولفه محصول خط تولید</value>
         <value xml:lang="fr">Composant de l'ordre de fabrication</value>
         <value xml:lang="it">Ordine di Produzione Prodotti Componenti</value>
         <value xml:lang="ja">生産実行製品コンポーネント</value>
@@ -4082,7 +4082,7 @@
     </property>
     <property key="ManufacturingProductionRunProductProducedNotStillAvailable">
         <value xml:lang="en">Production Run Product Produce Not Still Available</value>
-        <value xml:lang="fa">تولیدشده محصول اجراء تولید هنوز موجود نیست</value>
+        <value xml:lang="fa">تولید محصول خط تولید هنوز موجودنیست</value>
         <value xml:lang="it">Ordine di produzione prodotto da produrre non ancora disponibile</value>
         <value xml:lang="ja">生産実行製品生産はまだ有効ではありません</value>
         <value xml:lang="pt_BR">Produto da Execução de produção a produzir ainda não disponível</value>
@@ -4094,7 +4094,7 @@
         <value xml:lang="de">Menge für Produktionsauftrag fehlt</value>
         <value xml:lang="en">Production Run Quantity is missing</value>
         <value xml:lang="es">Falta la cantidad de la orden de producción</value>
-        <value xml:lang="fa">کمیت اجراء تولید فراموش‌شده‌است</value>
+        <value xml:lang="fa">کمیت خط تولید فراموش‌شده‌است</value>
         <value xml:lang="fr">La quantité de l'ordre de fabrication est absente</value>
         <value xml:lang="it">Ordine di Produzione Quantità è Mancante</value>
         <value xml:lang="ja">生産実行数量が正しくありません</value>
@@ -4109,7 +4109,7 @@
         <value xml:lang="de">Mengenfeld für Produktionsauftrag ist falsch formatiert</value>
         <value xml:lang="en">Production Run Quantity field is not formatted correctly</value>
         <value xml:lang="es">El formato usado para indicar la cantidad no es correcto</value>
-        <value xml:lang="fa">بخش کمیت اجراء تولید به درستی فرمت‌نشده‌است</value>
+        <value xml:lang="fa">بخش کمیت خط تولید به درستی فرمت‌نشده‌است</value>
         <value xml:lang="fr">Le champ quantité de l'orde de fabrication n'est pas formatté correctement</value>
         <value xml:lang="it">Ordine di Produzione campo Quantità non è formattato correttamente</value>
         <value xml:lang="ja">生産実行数量の書式が正しくありません</value>
@@ -4124,7 +4124,7 @@
         <value xml:lang="de">Start-Datum für Produktionsauftrag fehlt</value>
         <value xml:lang="en">Production Run Start Date is missing</value>
         <value xml:lang="es">Falta fecha de inicio</value>
-        <value xml:lang="fa">تاریخ شروع اجراء تولید فراموش‌شده‌است</value>
+        <value xml:lang="fa">تاریخ شروع خط تولید فراموش‌شده‌است</value>
         <value xml:lang="fr">Le champ date de début  est obligatoire</value>
         <value xml:lang="it">Ordine di Produzione Data Inizio è Mancante</value>
         <value xml:lang="ja">生産実行開始日が正しくありません</value>
@@ -4139,7 +4139,7 @@
         <value xml:lang="de">Ungültiges Format für Start-Datum</value>
         <value xml:lang="en">the Start Date field is incorrect, format must be AAAA-mm-jj HH:mm:ss</value>
         <value xml:lang="es">Fecha de inicio incorrecta</value>
-        <value xml:lang="fa">بخش تاریخ شروع درست نیست، فرمت باید AAAA-mm-jj HH:mm:ss باشد</value>
+        <value xml:lang="fa">بخش تاریخ شروع درست نیست، فرمت باید YYYY/mm/dd HH:mm:ss باشد</value>
         <value xml:lang="fr">Le champ date de début est incorrect , le format doit-être AAAA-mm-jj HH:mm:ss</value>
         <value xml:lang="it">il campo Data Inizio non è corretto, il formato deve essere AAAA-mm-jj HH:mm:ss</value>
         <value xml:lang="ja">開始日が正しくありません、書式は AAAA-mm-jj HH:mm:ss で入力してください</value>
@@ -4154,7 +4154,7 @@
         <value xml:lang="de">Status des Produktionsauftrages erfolgreich geändert</value>
         <value xml:lang="en">Production Run status changed successfully.</value>
         <value xml:lang="es">El cambio de estado de la orden de producción se ha realizado con éxito</value>
-        <value xml:lang="fa">وضعیت اجراء تولید باموفقیت تغیرکرده‌است.</value>
+        <value xml:lang="fa">وضعیت خط تولید باموفقیت تغییرکرده‌است.</value>
         <value xml:lang="fr">Statut de l'ordre de fabrication changé avec succès.</value>
         <value xml:lang="it">Stato Ordine di Produzione cambiato con successo.</value>
         <value xml:lang="ja">生産実行ステータスが変更されました</value>
@@ -4166,7 +4166,7 @@
     </property>
     <property key="ManufacturingProductionRunStatusNotChanged">
         <value xml:lang="en">Production Run Status Not Changed</value>
-        <value xml:lang="fa">وضعیت اجراء تولید تغیر نکرده‌است</value>
+        <value xml:lang="fa">وضعیت خط تولید تغییر نکرده‌است</value>
         <value xml:lang="it">Stato ordine di produzione non cambiato</value>
         <value xml:lang="ja">生産実行ステータスは変更されません</value>
         <value xml:lang="pt_BR">Estado da execução de produção não mudou</value>
@@ -4176,7 +4176,7 @@
     </property>
     <property key="ManufacturingProductionRunStatusNotChangedMandatoryProductionRunFound">
         <value xml:lang="en">Production Run Status Not Changed Mandatory Production Run Found</value>
-        <value xml:lang="fa">وضعیت اجراء تولید تغیرنکرده‌است؛ اجراء تولید اجباری پیداشده‌</value>
+        <value xml:lang="fa">وضعیت خط تولید تغییرنکرده‌است؛ خط تولید اجباری پیداشده‌</value>
         <value xml:lang="it">Stato ordine di produzione non cambiato per l'ordine di produzione trovato</value>
         <value xml:lang="ja">生産実行ステータスは変更されません。生産強制実行が見つかりました</value>
         <value xml:lang="pt_BR">Estado da execução de produção não mudou para aquela que foi encontrada</value>
@@ -4186,7 +4186,7 @@
     </property>
     <property key="ManufacturingProductionRunStatusNotChangedMandatoryProductionRunNotCompleted">
         <value xml:lang="en">Production Run Status Not Changed Mandatory Production Run Not Completed</value>
-        <value xml:lang="fa">وضعیت اجراء تولید تغیرنکرده‌است؛ اجراء تولید اجبرای کامل‌نشده‌است</value>
+        <value xml:lang="fa">وضعیت خط تولید تغییرنکرده‌است؛ خط تولید اجباری کامل‌نشده‌است</value>
         <value xml:lang="it">Stato ordine di produzione non cambiato per l'ordine di produzione non completato</value>
         <value xml:lang="ja">生産実行ステータスは変更されません。生産強制実行が完了していません</value>
         <value xml:lang="pt_BR">Estado de execução de produção não mudou para a execução de produção obrigatória que não terminou</value>
@@ -4196,7 +4196,7 @@
     </property>
     <property key="ManufacturingProductionRunTaskCannotReturnMoreItems">
         <value xml:lang="en">Production Run Task with id ${productionRunTaskId} cannot return more items ${quantity} than the ones currently allocated ${quantityAllocated}</value>
-        <value xml:lang="fa">تکلیف وضعیت اجراء تولید با آی‌دی ${productionRunTaskId} نمی‌تواند اقلام ${quantity} بیشتر از چیزی که هم‌اکنون تخصیص‌داده‌شده است ${quantityAllocated} برگرداند</value>
+        <value xml:lang="fa">تکلیف خط تولید با آی‌دی ${productionRunTaskId} نمی‌تواند اقلام ${quantity} بیشتر از چیزی که هم‌اکنون تخصیص‌داده‌شده است ${quantityAllocated} برگرداند</value>
         <value xml:lang="it">Compito ordine di produzione ${productionRunTaskId} non può restituire più righe ${quantity} di quelle allocate attualmente ${quantityAllocated}</value>
         <value xml:lang="ja">ID ${productionRunTaskId} の生産実行タスクは現在割り当てられた ${quantityAllocated} より多いアイテム ${quantity} を戻すことはできません</value>
         <value xml:lang="vi">Tác vụ - Đầu việc với Id ${productionRunTaskId} không thể trả về nhiều hơn số hàng hóa ${quantity} hơn số lượng đang được phân bổ ${quantityAllocated}</value>
@@ -4204,7 +4204,7 @@
     </property>
     <property key="ManufacturingProductionRunTaskCannotStartDocsNotPrinted">
         <value xml:lang="en">Production Run Task Cannot Start Docs Not Printed</value>
-        <value xml:lang="fa">شروع تکلیف اجراء تولید چاپ‌نشده‌است</value>
+        <value xml:lang="fa">تکلیف خط تولید نمی‌تواندشروع‌شود؛ اسناد چاپ‌نشده‌اند</value>
         <value xml:lang="it">Compito ordine di produzione non può iniziare con documento non stampato</value>
         <value xml:lang="ja">生産実行タスクは開始できません。文書が印刷されていません</value>
         <value xml:lang="pt_BR">Tarefa de execução de produção não pode começar pois documentos não foram impressos</value>
@@ -4214,7 +4214,7 @@
     </property>
     <property key="ManufacturingProductionRunTaskCannotStartPrevTasksNotCompleted">
         <value xml:lang="en">Production Run Task Cannot Start Prev Tasks Not Completed</value>
-        <value xml:lang="fa">تکلیف اجراء تولید نمی‌تواند تکلیف‌های کامل‌نشده قبلی را شروع‌کند</value>
+        <value xml:lang="fa">تکلیف خط تولید نمی‌تواند شروع‌شود؛ تکلیف‌های قبلی کامل‌نشده‌اند</value>
         <value xml:lang="it">Compito ordine di produzione non può iniziare un precedente compito non completato</value>
         <value xml:lang="ja">生産実行タスクは開始できません。前のタスクが完了していません</value>
         <value xml:lang="pt_BR">Tarefa de execução de produção não pode começar por a anterior não se completou</value>
@@ -4224,7 +4224,7 @@
     </property>
     <property key="ManufacturingProductionRunTaskNotFound">
         <value xml:lang="en">Cannot find the production run task with id: ${productionRunTaskId}</value>
-        <value xml:lang="fa">نمی‌توان تکلیف اجراء تولید با آی‌دی ${productionRunTaskId} را پیداکرد</value>
+        <value xml:lang="fa">نمی‌توان تکلیف خط تولید با آی‌دی ${productionRunTaskId} را پیداکرد</value>
         <value xml:lang="it">Non è possibile trovare il compito dell'ordine di produzione: ${productionRunTaskId}</value>
         <value xml:lang="ja">ID ${productionRunTaskId} の生産実行タスクが見つかりません</value>
         <value xml:lang="vi">Không tìm thấy Tác vụ - Đầu việc với Id: ${productionRunTaskId}</value>
@@ -4232,7 +4232,7 @@
     </property>
     <property key="ManufacturingProductionRunTaskNotExists">
         <value xml:lang="en">Production Run Task Not Exists</value>
-        <value xml:lang="fa">تکلیف اجراء تولید وجودندارد</value>
+        <value xml:lang="fa">تکلیف خط تولید وجودندارد</value>
         <value xml:lang="it">Compito ordine di produzione non esiste</value>
         <value xml:lang="ja">生産実行タスクは存在しません</value>
         <value xml:lang="pt_BR">Tarefa de execução de produção não existe</value>
@@ -4242,7 +4242,7 @@
     </property>
     <property key="ManufacturingProductionRunTaskNotRunning">
         <value xml:lang="en">Production Run Task Not Running</value>
-        <value xml:lang="fa">تکلیف اجراء تولید درحال‌اجراء نیست</value>
+        <value xml:lang="fa">تکلیف خط تولید درحال‌اجراء نیست</value>
         <value xml:lang="it">Compito ordine di produzione non in esecuzione</value>
         <value xml:lang="ja">生産実行タスクは実行していません</value>
         <value xml:lang="pt_BR">Tarefa de execução de produção não está sendo executada</value>
@@ -4252,7 +4252,7 @@
     </property>
     <property key="ManufacturingProductionRunTaskProduceError">
         <value xml:lang="en">Error calling productionRunTaskProduce: </value>
-        <value xml:lang="fa">خطا در فراخوانی «تولیدشده تکلیف اجراء تولید»</value>
+        <value xml:lang="fa">خطا در فراخوانی «تولیدشده تکلیف خط تولید»</value>
         <value xml:lang="it">Errore durante l'esecuzione di productionRunTaskProduce: </value>
         <value xml:lang="ja">productionRunTaskProduce の呼び出し中にエラー: </value>
         <value xml:lang="vi">Lỗi khi thực thi dịch vụ productionRunTaskProduce: </value>
@@ -4260,7 +4260,7 @@
     </property>
     <property key="ManufacturingProductionRunTaskStatusChanged">
         <value xml:lang="en">Production Run Task Status Changed</value>
-        <value xml:lang="fa">وضعیت تکلیف اجراء تولید تغیرکرده‌است</value>
+        <value xml:lang="fa">وضعیت تکلیف خط تولید تغییرکرده‌است</value>
         <value xml:lang="it">Compito ordine di produzione stato cambiato</value>
         <value xml:lang="ja">生産実行タスクのステータスが変更されました</value>
         <value xml:lang="pt_BR">Estado da tarefa de execução de produção não foi alterado</value>
@@ -4272,7 +4272,7 @@
         <value xml:lang="de">Arbeitsgänge des Produktionsauftrages</value>
         <value xml:lang="en">Production Run Tasks</value>
         <value xml:lang="es">Tareas de Orden de Producción</value>
-        <value xml:lang="fa">تکلیف‌های اجراء تولید</value>
+        <value xml:lang="fa">تکلیف‌های خط تولید</value>
         <value xml:lang="fr">Opérations de l'ordre de fabrication</value>
         <value xml:lang="it">Operazione Ordine di Produzione</value>
         <value xml:lang="ja">生産実行タスク</value>
@@ -4284,7 +4284,7 @@
     </property>
     <property key="ManufacturingProductionRunTryToCreateWorkEffortAssoc">
         <value xml:lang="en">Error try to create workeffort assoc</value>
-        <value xml:lang="fa">خطا در ساختن برنامه‌کاری مرتبط</value>
+        <value xml:lang="fa">خطا در ساختن برنامه‌کار مرتبط</value>
         <value xml:lang="it">Errore durante il tentativo di creazione associazione impegno di lavoro</value>
         <value xml:lang="ja">作業成果関連付け作成中にエラー</value>
         <value xml:lang="vi">Lỗi khi tạo Lượng giá nguồn lực kết hợp</value>
@@ -4300,7 +4300,7 @@
     </property>
     <property key="ManufacturingProductionRunUnableToCreateMaterialsCosts">
         <value xml:lang="en">Unable to create materials costs for the production run task ${productionRunTaskId}: ${errorString}</value>
-        <value xml:lang="fa">نمی‌توان هزینه‌های مواد را برای تکلیف اجراء تولید ساخت</value>
+        <value xml:lang="fa">نمی‌توان هزینه‌های مواد را برای تکلیف خط تولید ساخت</value>
         <value xml:lang="it">Non è possibile create i costi dei materiali per il compito dell'ordine di produzione ${productionRunTaskId}: ${errorString}</value>
         <value xml:lang="ja">生産実行タスク ${productionRunTaskId} に対する部品原価が作成できません: ${errorString}</value>
         <value xml:lang="vi">Không thể tạo Chi phí vật liệu cho Tác vụ - Đầu việc ${productionRunTaskId}: ${errorString}</value>
@@ -4308,7 +4308,7 @@
     </property>
     <property key="ManufacturingProductionRunUnableToCreateRoutingCosts">
         <value xml:lang="en">Unable to create routing costs for the production run task ${productionRunTaskId}: ${errorString}</value>
-        <value xml:lang="fa">نمی‌توان هزینه‌های ارسال را برای تکلیف اجراء تولید ساخت</value>
+        <value xml:lang="fa">نمی‌توان هزینه‌های حواله را برای تکلیف خط تولید ساخت</value>
         <value xml:lang="it">Non è possibile create i costi per il compito dell'ordine di produzione ${productionRunTaskId}: ${errorString}</value>
         <value xml:lang="ja">生産実行タスク ${productionRunTaskId} に対する経路制御原価が作成できません: ${errorString}</value>
         <value xml:lang="vi">Không thể tạo Chi phí quy trình cho Tác vụ - Đầu việc ${productionRunTaskId}: ${errorString}</value>
@@ -4316,7 +4316,7 @@
     </property>
     <property key="ManufacturingProductionRunUnableToFindCosts">
         <value xml:lang="en">Unable to find a currency for production run costs</value>
-        <value xml:lang="fa">نمی‌توان ارزی برای هزینه‌های اجراء تولید پیداکرد</value>
+        <value xml:lang="fa">نمی‌توان ارزی برای هزینه‌های خط تولید پیداکرد</value>
         <value xml:lang="it">Non è possibile trovare una valuta per i costi dell'ordine di produzione</value>
         <value xml:lang="ja">生産実行原価に対する通貨を見つけることができません</value>
         <value xml:lang="vi">Không thể tìm thấy kiểu Tiền tệ cho Chi phí</value>
@@ -4324,7 +4324,7 @@
     </property>
     <property key="ManufacturingProductionRunUnableToFindCostsForWorkEffort">
         <value xml:lang="en">Cannot retrieve costs for work effort ${workEffortId}: ${errorString}</value>
-        <value xml:lang="fa">نمی‌توان هزینه‌ها را برای برنامه‌کاری ${workEffortId} بازیابی‌کرد: ${errorString}</value>
+        <value xml:lang="fa">نمی‌توان هزینه‌ها را برای برنامه‌کار ${workEffortId} بازیابی‌کرد: ${errorString}</value>
         <value xml:lang="it">Non è possibile ricavare i costi per l'impegno di lavoro ${workEffortId}: ${errorString}</value>
         <value xml:lang="ja">作業成果 ${workEffortId} に対する原価が取得できません: ${errorString}</value>
         <value xml:lang="vi">Không thể lấy thông tin Chi phí cho Lượng giá nguồn lực ${workEffortId}: ${errorString}</value>
@@ -4332,7 +4332,7 @@
     </property>
     <property key="ManufacturingProductionRunUnableToFindOverheadCosts">
         <value xml:lang="en">Unable to compute overhead costs for production run: ${errorString}</value>
-        <value xml:lang="fa">نمی‌توان هزینه‌های سربار را برای اجراء تولید محاسبه‌کرد: ${errorString}</value>
+        <value xml:lang="fa">نمی‌توان هزینه‌های سربار را برای خط تولید محاسبه‌کرد: ${errorString}</value>
         <value xml:lang="it">Non è possibile elaborare gli ulteriori costo dell'ordine di produzione: ${errorString}</value>
         <value xml:lang="ja">生産実行に対する間接原価が計算できません: ${errorString}</value>
         <value xml:lang="vi">Không thể tính Chi phí phát sinh cho Chế tác lô hàng: ${errorString}</value>
@@ -4673,7 +4673,7 @@
         <value xml:lang="de">Arbeitsplan</value>
         <value xml:lang="en">Routing</value>
         <value xml:lang="es">Rutas</value>
-        <value xml:lang="fa">ارسال</value>
+        <value xml:lang="fa">حواله</value>
         <value xml:lang="fr">Gamme</value>
         <value xml:lang="it">Ciclo</value>
         <value xml:lang="ja">経路制御</value>
@@ -4686,7 +4686,7 @@
     </property>
     <property key="ManufacturingRoutingErrorFindingTask">
         <value xml:lang="en">Error finding routing task with id: ${taskId}</value>
-        <value xml:lang="fa">خطا در پیداکردن تکلیف ارسال با آی‌دی: ${taskId}</value>
+        <value xml:lang="fa">خطا در پیداکردن تکلیف حواله با آی‌دی: ${taskId}</value>
         <value xml:lang="it">Errore durante la ricerca del ciclo per il compito: ${taskId}</value>
         <value xml:lang="ja">ID ${taskId} の経路制御タスク検索時にエラー</value>
         <value xml:lang="vi">Lỗi tìm tác vụ quy trình với Id: ${taskId}</value>
@@ -4696,7 +4696,7 @@
         <value xml:lang="de">Arbeitsplan besitzt keinen Arbeitsgang</value>
         <value xml:lang="en">Routing has no Routing Task</value>
         <value xml:lang="es">La ruta no tiene tareas asociadas</value>
-        <value xml:lang="fa">ارسال وظیفه ارسال ندارد</value>
+        <value xml:lang="fa">حواله، تکلیف حواله ندارد</value>
         <value xml:lang="fr">La gamme n'a pas opération</value>
         <value xml:lang="it">Il ciclo non ha operazioni</value>
         <value xml:lang="ja">経路制御に経路制御タスクはありません</value>
@@ -4711,7 +4711,7 @@
         <value xml:lang="de">Arbeitsplan-Nr.</value>
         <value xml:lang="en">Routing Id</value>
         <value xml:lang="es">Código de ruta</value>
-        <value xml:lang="fa">آی‌دی ارسال</value>
+        <value xml:lang="fa">آی‌دی حواله</value>
         <value xml:lang="fr">Réf. de gamme</value>
         <value xml:lang="it">Codice ciclo</value>
         <value xml:lang="ja">経路制御ID</value>
@@ -4726,7 +4726,7 @@
         <value xml:lang="de">Arbeitsplan-Nr. fehlt</value>
         <value xml:lang="en">RoutingId is missing</value>
         <value xml:lang="es">Falta código de ruta</value>
-        <value xml:lang="fa">«آی‌دی ارسال» فراموش‌شده‌است</value>
+        <value xml:lang="fa">«آی‌دی حواله» فراموش‌شده‌است</value>
         <value xml:lang="fr">Réf. de gamme manquante</value>
         <value xml:lang="it">Codice ciclo mancante</value>
         <value xml:lang="ja">経路制御IDが正しくありません</value>
@@ -4741,7 +4741,7 @@
         <value xml:lang="de">Arbeitsplan-Name</value>
         <value xml:lang="en">Routing Name</value>
         <value xml:lang="es">Nombre de ruta</value>
-        <value xml:lang="fa">نام ارسال</value>
+        <value xml:lang="fa">نام حواله</value>
         <value xml:lang="fr">Nom de la gamme</value>
         <value xml:lang="it">Nome ciclo</value>
         <value xml:lang="ja">経路制御名称</value>
@@ -4756,7 +4756,7 @@
         <value xml:lang="de">Arbeitsplan-Folgenummer ist falsch</value>
         <value xml:lang="en">The Routing Seq Id format is not correct</value>
         <value xml:lang="es">El formato usado para el código de secuencia no es correcto</value>
-        <value xml:lang="fa">فرمت آی‌دی ترتیبی ارسال درست نیست</value>
+        <value xml:lang="fa">فرمت آی‌دی ترتیبی حواله درست نیست</value>
         <value xml:lang="fr">La réf. séq. de format de la gamme est incorrecte</value>
         <value xml:lang="it">Il formato del codice ciclo seq non è corretto</value>
         <value xml:lang="ja">経路制御連番IDの書式が正しくありません</value>
@@ -4771,7 +4771,7 @@
         <value xml:lang="de">Arbeitsplan-Folgenummer fehlt</value>
         <value xml:lang="en">Routing SeqId is Missing</value>
         <value xml:lang="es">Falta el código de secuencia</value>
-        <value xml:lang="fa">«آی‌دی ترتیبی» ارسال فراموش‌شده‌است</value>
+        <value xml:lang="fa">«آی‌دی ترتیبی» حواله فراموش‌شده‌است</value>
         <value xml:lang="fr">Réf. séq. de gamme manquante</value>
         <value xml:lang="it">Codice ciclo seq mancante</value>
         <value xml:lang="ja">経路制御連番IDが正しくありません</value>
@@ -4786,7 +4786,7 @@
         <value xml:lang="de">Arbeitsgang</value>
         <value xml:lang="en">Routing Task</value>
         <value xml:lang="es">Tarea</value>
-        <value xml:lang="fa">تکلیف ارسال</value>
+        <value xml:lang="fa">تکلیف حواله</value>
         <value xml:lang="fr">Opération</value>
         <value xml:lang="it">Operazione</value>
         <value xml:lang="ja">経路制御タスク</value>
@@ -4801,7 +4801,7 @@
         <value xml:lang="de">Arbeitsgang-Zuordnung erfolgreich erstellt</value>
         <value xml:lang="en">Routing Task association creation successful</value>
         <value xml:lang="es">Creación de asociación de tareas exitosa</value>
-        <value xml:lang="fa">انجمن تکلیف ارسال با موفقیت ساخته‌شد</value>
+        <value xml:lang="fa">انجمن تکلیف حواله با موفقیت ساخته‌شد</value>
         <value xml:lang="fr">Association de l'opération à la gamme réussie</value>
         <value xml:lang="it">Operazione associazione creata con successo</value>
         <value xml:lang="ja">経路制御タスク関連付けが作成されました</value>
@@ -4816,7 +4816,7 @@
         <value xml:lang="de">Arbeitsgang erfolgreich kopiert</value>
         <value xml:lang="en">Routing Task copied successfully</value>
         <value xml:lang="es">Tarea copiada exitosamente</value>
-        <value xml:lang="fa">تکلیف ارسال با موفقیت رونوشت‌شده</value>
+        <value xml:lang="fa">تکلیف حواله باموفقیت رونوشت‌شده</value>
         <value xml:lang="fr">Opération copiée avec succés</value>
         <value xml:lang="it">Operazione copiata con successo</value>
         <value xml:lang="ja">経路制御タスクがコピーされました</value>
@@ -4831,7 +4831,7 @@
         <value xml:lang="de">Arbeitsgang.Kosten</value>
         <value xml:lang="en">Routing Task Costs</value>
         <value xml:lang="es">Costo de la tarea</value>
-        <value xml:lang="fa">هزینه‌های تکلیف ارسال</value>
+        <value xml:lang="fa">هزینه‌های تکلیف حواله</value>
         <value xml:lang="fr">Coûts de l'opération de gamme</value>
         <value xml:lang="it">Costi Operazione</value>
         <value xml:lang="ja">経路制御タスク原価</value>
@@ -4861,7 +4861,7 @@
         <value xml:lang="de">Arbeitsgang-Nr.</value>
         <value xml:lang="en">Routing Task Id</value>
         <value xml:lang="es">Código de tarea</value>
-        <value xml:lang="fa">آی‌دی تکلیف ارسال</value>
+        <value xml:lang="fa">آی‌دی تکلیف حواله</value>
         <value xml:lang="fr">Opération</value>
         <value xml:lang="it">Codice Operazione</value>
         <value xml:lang="ja">経路制御タスクID</value>
@@ -4874,7 +4874,7 @@
     </property>
     <property key="ManufacturingRoutingTaskIdMissing">
         <value xml:lang="en">Routing Task Id Missing</value>
-        <value xml:lang="fa">تکلیف ارسال فراموش‌شده‌اس</value>
+        <value xml:lang="fa">آی‌دی تکلیف حواله فراموش‌شده‌اس</value>
         <value xml:lang="fr">Code d'opération manquant</value>
         <value xml:lang="it">Codice operazione mancante</value>
         <value xml:lang="ja">経路制御タスクIDが正しくありません</value>
@@ -4885,7 +4885,7 @@
     </property>
     <property key="ManufacturingRoutingTaskNotExists">
         <value xml:lang="en">Routing Task Not Exists</value>
-        <value xml:lang="fa">تکلیف ارسال وجودندارد</value>
+        <value xml:lang="fa">تکلیف حواله وجودندارد</value>
         <value xml:lang="fr">Cette opération n'existe pas</value>
         <value xml:lang="it">Codice operazione non esiste</value>
         <value xml:lang="ja">経路制御タスクは存在しません</value>
@@ -4896,7 +4896,7 @@
     </property>
     <property key="ManufacturingRoutingTaskSeqIdAlreadyExist">
         <value xml:lang="en">Routing Task Seq Id Already Exists</value>
-        <value xml:lang="fa">آی‌دی ترتیبی تکلیف ارسال ازقبل وجوددارد</value>
+        <value xml:lang="fa">آی‌دی ترتیبی تکلیف حواله ازقبل وجوددارد</value>
         <value xml:lang="fr">Cette opération existe déjà</value>
         <value xml:lang="it">Codice operazione sequenza già esistente</value>
         <value xml:lang="ja">経路制御タスク連番IDはすでに存在します</value>
@@ -4907,7 +4907,7 @@
     </property>
     <property key="ManufacturingRoutingTaskStartDateBeforePRun">
         <value xml:lang="en">Routing Task Start Date Before Production Run</value>
-        <value xml:lang="fa">تاریخ شروع تکلیف ارسال قبل از اجراء تولید</value>
+        <value xml:lang="fa">تاریخ شروع تکلیف حواله قبل از خط تولید</value>
         <value xml:lang="it">Codice operazione data inizio prima dell'ordine di produzione</value>
         <value xml:lang="ja">経路制御タスク開始日は生産実行前</value>
         <value xml:lang="pt_BR">Data de início da tarefa de rota é anterior à execução de produção</value>
@@ -4919,7 +4919,7 @@
         <value xml:lang="de">Arbeitsgang An fehlt</value>
         <value xml:lang="en">Routing Task To is Missing</value>
         <value xml:lang="es">La Tarea no se encuentra</value>
-        <value xml:lang="fa">تکلیف ارسال به فراموش‌شده‌است</value>
+        <value xml:lang="fa">تکلیف حواله به فراموش‌شده‌است</value>
         <value xml:lang="fr">L'opération de gamme est manquante</value>
         <value xml:lang="it">Operazione A è Mancante</value>
         <value xml:lang="ja">経路制御タスク(先)が正しくありません</value>
@@ -4934,7 +4934,7 @@
         <value xml:lang="de">Arbeitsgänge</value>
         <value xml:lang="en">Routing Tasks</value>
         <value xml:lang="es">Tarea de Ruta</value>
-        <value xml:lang="fa">تکلیف‌های ارسال</value>
+        <value xml:lang="fa">تکلیف‌های حواله</value>
         <value xml:lang="fr">Opérations de gamme</value>
         <value xml:lang="it">Operazioni</value>
         <value xml:lang="ja">経路制御タスク</value>
@@ -4949,7 +4949,7 @@
         <value xml:lang="de">Arbeitspläne</value>
         <value xml:lang="en">Routings</value>
         <value xml:lang="es">Rutas</value>
-        <value xml:lang="fa">ارسال‌ها</value>
+        <value xml:lang="fa">حواله‌ها</value>
         <value xml:lang="fr">Routages</value>
         <value xml:lang="it">Cicli</value>
         <value xml:lang="ja">経路制御</value>
@@ -5046,7 +5046,7 @@
     </property>
     <property key="ManufacturingShipmentWorkEffortTasks">
         <value xml:lang="en">Shipment WorkEffort Tasks</value>
-        <value xml:lang="fa">تکلیف‌های برنامه‌کاری محموله</value>
+        <value xml:lang="fa">تکلیف‌های برنامه‌کار محموله</value>
         <value xml:lang="it">Compiti impegni di lavoro spedizione</value>
         <value xml:lang="ja">発送作業成果タスク</value>
         <value xml:lang="pt_BR">Tarefas da equipe de trabalho de envio</value>
@@ -5220,7 +5220,7 @@
         <value xml:lang="de">Anlagen für Arbeitsgang</value>
         <value xml:lang="en">Routing Task Fixed Assets</value>
         <value xml:lang="es">Activos fijos de la tarea</value>
-        <value xml:lang="fa">دارایی‌های ثابت تکلیف ارسال</value>
+        <value xml:lang="fa">دارایی‌های ثابت تکلیف حواله</value>
         <value xml:lang="fr">Machines d'opération de gamme</value>
         <value xml:lang="it">Cespite Operazione</value>
         <value xml:lang="ja">経路制御タスク固定資産</value>
@@ -5249,7 +5249,7 @@
         <value xml:lang="de">Arbeitsgang-Name</value>
         <value xml:lang="en">Routing Task Name</value>
         <value xml:lang="es">Nombre de la tarea</value>
-        <value xml:lang="fa">نام تکلیف ارسال</value>
+        <value xml:lang="fa">نام تکلیف حواله</value>
         <value xml:lang="fr">Nom de l'opération</value>
         <value xml:lang="it">Nome Operazione</value>
         <value xml:lang="ja">経路制御タスク名称</value>
@@ -5334,7 +5334,7 @@
     </property>
     <property key="ManufacturingTechDataWorkEffortNotExist">
         <value xml:lang="en">Error finding desired WorkEffort records: ${errorString}</value>
-        <value xml:lang="fa">خطا در پیداکردن سابقه‌های برنامه‌کاری خواسته‌شده: ${errorString}</value>
+        <value xml:lang="fa">خطا در پیداکردن سوابق برنامه‌کار خواسته‌شده: ${errorString}</value>
         <value xml:lang="it">Errore durante la ricerca dei records di WorkEffort: ${errorString}</value>
         <value xml:lang="ja">要求された作業成果レコードの検索中にエラー: ${errorString}</value>
         <value xml:lang="vi">Lỗi tìm dữ liệu Lượng giá nguồn lực mong muốn: ${errorString}</value>
@@ -5342,7 +5342,7 @@
     </property>
     <property key="ManufacturingTechDataWorkEffortAssocNotExist">
         <value xml:lang="en">Error finding desired WorkEffortAssoc records: ${errorString}</value>
-        <value xml:lang="fa">خطا در پیداکردن سابقه‌های «تلاش‌کاری مرتبط» خواسته‌شده: ${errorString}</value>
+        <value xml:lang="fa">خطا در پیداکردن سوابق «برنامه‌کار مرتبط» خواسته‌شده: ${errorString}</value>
         <value xml:lang="it">Errore durante la ricerca dei records di WorkEffortAssoc: ${errorString}</value>
         <value xml:lang="ja">要求された作業成果関連付けレコードの検索中にエラー: ${errorString}</value>
         <value xml:lang="vi">Lỗi tìm dữ liệu Lượng giá nguồn lực kết hợp mong muốn: ${errorString}</value>
@@ -5396,7 +5396,7 @@
         <value xml:lang="de">Zwei Arbeitsgänge mit der gleichen Folgenummer und im gleichen Zeitraum</value>
         <value xml:lang="en">Two routing task with same SeqId and same period</value>
         <value xml:lang="es">Existen dos tareas con la misma secuencia y periodo</value>
-        <value xml:lang="fa">دو تکلیف ارسال با «آی‌دی ترتیبی» یکسان و دوره یکسان</value>
+        <value xml:lang="fa">دو تکلیف حواله با «آی‌دی ترتیبی» یکسان و دوره یکسان</value>
         <value xml:lang="fr">Deux opérations de gammes avec le même n° de séq. et la même date de début</value>
         <value xml:lang="it">Due Operazioni con stesso Codice Seq e stesso periodo</value>
         <value xml:lang="ja">2つの経路制御タスクで連番IDおよび期間が同じです</value>
@@ -5456,7 +5456,7 @@
         <value xml:lang="de">Sicherheits-Fehler: Um diesen Vorgang auszuführen müssen Sie über die Berechtigung MANUFACTURING_UPDATE oder MANUFACTURING_ADMIN verfügen</value>
         <value xml:lang="en">Security Error: to run this operation you must have the MANUFACTURING_UPDATE or MANUFACTURING_ADMIN permission</value>
         <value xml:lang="es">Error de seguridad: para ejecutar esta operación se requiere tener los permisos MANUFACTURING_UPDATE o MANUFACTURING_ADMIN</value>
-        <value xml:lang="fa">خطا امنیتی: برای اجراء این عملیات شما باید مجوز MANUFACTURING_UPDATE یا MANUFACTURING_ADMIN را داشته‌باشید</value>
+        <value xml:lang="fa">خطای امنیتی: برای اجراء این عملیات شما باید اجازه MANUFACTURING_UPDATE یا MANUFACTURING_ADMIN را داشته‌باشید</value>
         <value xml:lang="fr">Erreur sécurité: Pour exécuter cette opération vous devez avoir l'autorisation MANUFACTURING_UPDATE or MANUFACTURING_ADMIN</value>
         <value xml:lang="it">Errore Sicurezza: per eseguire questa operazione tu devi avere i permessi MANUFACTURING_UPDATE o MANUFACTURING_ADMIN</value>
         <value xml:lang="ja">セキュリティエラー: この操作の実行には MANUFACTURING_UPDATE または MANUFACTURING_ADMIN 権限が必要です</value>
@@ -5477,7 +5477,7 @@
         <value xml:lang="de">Sie haben keine Berechtigung um diese Seite anzuzeigen. ("MANUFACTURING_VIEWW oder WMANUFACTURING_ADMINW wird benötigt)</value>
         <value xml:lang="en">You do not have permission to view this page. ("MANUFACTURING_VIEW" or "MANUFACTURING_ADMIN" needed)</value>
         <value xml:lang="es">No tiene permiso para ver esta página. Necesita los permisos "MANUFACTURING_VIEW" o "MANUFACTURING_ADMIN"</value>
-        <value xml:lang="fa">شما مجوز برای دیدن این صفحه را ندارد. (مجوز "MANUFACTURING_VIEW" یا "MANUFACTURING_ADMIN" نیازاست)</value>
+        <value xml:lang="fa">شما اجازه برای دیدن این صفحه را ندارد. ("MANUFACTURING_VIEW" یا "MANUFACTURING_ADMIN" نیازاست)</value>
         <value xml:lang="fr">Vous n'avez pas l'autorisation de voir cette page. ("MANUFACTURING_VIEW" ou "MANUFACTURING_ADMIN" nécessaire)</value>
         <value xml:lang="it">Tu non sei autorizzato a vedere questa pagina. (permesso "MANUFACTURING_VIEW" o "MANUFACTURING_ADMIN" necessario)</value>
         <value xml:lang="ja">このページを表示する権限がありません。"MANUFACTURING_VIEW" または "MANUFACTURING_ADMIN" 権限が必要です</value>
@@ -5491,7 +5491,7 @@
     <property key="ManufacturingVisitType">
         <value xml:lang="en">Tree visit Algorithm</value>
         <value xml:lang="es">Algoritmo de búsqueda</value>
-        <value xml:lang="fa">آلگوریتم بازدید درخت</value>
+        <value xml:lang="fa">آلگوریتم بازدید درختی</value>
         <value xml:lang="fr">Algorithme de recherche arborescente</value>
         <value xml:lang="it">Algoritmo visita Albero</value>
         <value xml:lang="ja">ツリー訪問アルゴリズム</value>
@@ -5521,7 +5521,7 @@
         <value xml:lang="de">Wird auf die aktuelle Zeit gesetzt falls leer</value>
         <value xml:lang="en">WorkEffortAssoc does not exist</value>
         <value xml:lang="es">La asociación no existe</value>
-        <value xml:lang="fa">«برنامه‌کاری مرتبط» وجودندارد</value>
+        <value xml:lang="fa">«برنامه‌کار مرتبط» وجودندارد</value>
         <value xml:lang="fr">L' assoc. de tâche n'existe pas</value>
         <value xml:lang="it">WorkEffortAssoc non esiste</value>
         <value xml:lang="ja">作業成果関連付けが存在しません</value>
@@ -5536,7 +5536,7 @@
         <value xml:lang="de">Die ausgewählte Anlage ist schon diesem Arbeitsgang zugeordnet</value>
         <value xml:lang="en">The selected fixed asset is already associated with this production run task</value>
         <value xml:lang="es">El activo fijo seleccionado ya está asociado a esta tarea</value>
-        <value xml:lang="fa">دارایی ثابت انتخاب‌شده با این تکلیف اجراء تولید مرتبط‌ شده‌است</value>
+        <value xml:lang="fa">دارایی ثابت انتخاب‌شده با این تکلیف خط تولید ازقبل مرتبط‌ شده‌است</value>
         <value xml:lang="fr">La machine choisie est déjà associée à cette opération de l'ordre de fabrication</value>
         <value xml:lang="it">Il cespite selezionato è già associato con questa operazione dell'ordine di produzione</value>
         <value xml:lang="ja">選択された固定資産はすでに生産実行タスクと関連付けされています</value>
@@ -5551,7 +5551,7 @@
         <value xml:lang="de">Die ausgewählte Anlagen-Art ist schon diesem Arbeitsgang zugeordnet</value>
         <value xml:lang="en">The selected fixed asset type is already associated with this routing task</value>
         <value xml:lang="es">El tipo de activo fijo seleccionado ya está asociado a esta tarea</value>
-        <value xml:lang="fa">نوع دارایی ثابت انتخاب‌شده از قبل با این تکلیف ارسال مرتبط شده‌است</value>
+        <value xml:lang="fa">نوع دارایی ثابت انتخاب‌شده ازقبل با این تکلیف حواله مرتبط شده‌است</value>
         <value xml:lang="fr">Le type choisi de machine est déjà associé à cette opération de gamme</value>
         <value xml:lang="it">Il tipo cespite selezionato è già associato con questa operazione</value>
         <value xml:lang="ja">選択された固定資産種類はすでに経路制御タスクと関連付けされています</value>
@@ -5565,7 +5565,7 @@
     <property key="ManufacturingWorkEffortGoodStandardNotExist">
         <value xml:lang="en">WorkEffortGoodStandard table does not exist</value>
         <value xml:lang="es">La tabla del WorkEffortGoodStandard no existe</value>
-        <value xml:lang="fa">جدول «استاندارد کالا برنامه‌کاری» وجودندارد</value>
+        <value xml:lang="fa">جدول «استاندارد کالا برنامه‌کار» وجودندارد</value>
         <value xml:lang="fr">La table WorkEffortGoodStandard n'existe pas</value>
         <value xml:lang="it">Tabella WorkEffortGoodStandard non esiste</value>
         <value xml:lang="ja">作業成果商品標準テーブルは存在しません</value>
@@ -5579,7 +5579,7 @@
     <property key="ManufacturingWorkEffortIdFromNotExist">
         <value xml:lang="en">workEffortIdFrom does not exist</value>
         <value xml:lang="es">El esfuerzo de trabajo origen no existe</value>
-        <value xml:lang="fa">«از آی‌دی برنامه‌کاری» وجودندارد</value>
+        <value xml:lang="fa">«از آی‌دی برنامه‌کار» وجودندارد</value>
         <value xml:lang="fr">Réf. de tâche inexistante</value>
         <value xml:lang="it">workEffortIdFrom non esiste</value>
         <value xml:lang="ja">作業成果ID(元)は存在しません</value>
@@ -5593,7 +5593,7 @@
     <property key="ManufacturingWorkEffortNotExist">
         <value xml:lang="en">WorkEffort does not exist</value>
         <value xml:lang="es">El esfuerzo de trabajo no existe</value>
-        <value xml:lang="fa">«برنامه‌کاری» وجودندارد</value>
+        <value xml:lang="fa">«برنامه‌کار» وجودندارد</value>
         <value xml:lang="fr">Main d'oeuvre inexistante</value>
         <value xml:lang="it">WorkEffort non esiste</value>
         <value xml:lang="ja">作業成果は存在しません</value>
@@ -5750,7 +5750,7 @@
         <value xml:lang="de">Anlagen bearbeiten</value>
         <value xml:lang="en">Edit Fixed Asset Group</value>
         <value xml:lang="es">Editar grupo de máquina</value>
-        <value xml:lang="fa">ویرایش گروه داریی ثابت</value>
+        <value xml:lang="fa">ویرایش گروه دارایی ثابت</value>
         <value xml:lang="fr">Modification d'un groupe de machine</value>
         <value xml:lang="it">Aggiorna Gruppo Macchine</value>
         <value xml:lang="ja">固定資産グループを編集</value>
@@ -5795,7 +5795,7 @@
         <value xml:lang="de">Arbeitsplan bearbeiten</value>
         <value xml:lang="en">Edit Routing</value>
         <value xml:lang="es">Editar ruta</value>
-        <value xml:lang="fa">ویرایش ارسال</value>
+        <value xml:lang="fa">ویرایش حواله</value>
         <value xml:lang="fr">Modifier la gamme</value>
         <value xml:lang="it">Aggiorna ciclo</value>
         <value xml:lang="ja">経路制御を編集</value>
@@ -5810,7 +5810,7 @@
         <value xml:lang="de">Arbeitsplan-Produkt-Verbindung bearbeiten</value>
         <value xml:lang="en">Edit Routing-Product Link</value>
         <value xml:lang="es">Editar asociación con producto</value>
-        <value xml:lang="fa">ویرایش پیوند ارسال محصول</value>
+        <value xml:lang="fa">ویرایش پیوند حواله-محصول</value>
         <value xml:lang="fr">Modification des liens article - gamme</value>
         <value xml:lang="it">Aggiorna link ciclo-prodotto</value>
         <value xml:lang="ja">経路制御-製品リンクを編集</value>
@@ -5825,7 +5825,7 @@
         <value xml:lang="de">Arbeitsgang bearbeiten</value>
         <value xml:lang="en">Edit Routing Task</value>
         <value xml:lang="es">Editar tarea</value>
-        <value xml:lang="fa">ویرایش تکلیف ارسال</value>
+        <value xml:lang="fa">ویرایش تکلیف حواله</value>
         <value xml:lang="fr">Modifier l'opération de gamme</value>
         <value xml:lang="it">Aggiorna Operazione</value>
         <value xml:lang="ja">経路制御タスクを編集</value>
@@ -5840,7 +5840,7 @@
         <value xml:lang="de">Arbeitsgang-Zuordnung bearbeiten</value>
         <value xml:lang="en">Edit Routing Task Association</value>
         <value xml:lang="es">Editar asociación de tareas</value>
-        <value xml:lang="fa">ویرایش انجمن تکلیف ارسال</value>
+        <value xml:lang="fa">ویرایش انجمن تکلیف حواله</value>
         <value xml:lang="fr">Modification de la composition d'une gamme</value>
         <value xml:lang="it">Aggiorna Associazione Operazione</value>
         <value xml:lang="ja">経路制御タスク関連付けを編集</value>
@@ -5855,7 +5855,7 @@
         <value xml:lang="de">Arbeitsgang-Kosten bearbeiten</value>
         <value xml:lang="en">Edit Routing Task Costs</value>
         <value xml:lang="es">Editar costes de tarea</value>
-        <value xml:lang="fa">ویرایش هزینه‌های تکلیف ارسال</value>
+        <value xml:lang="fa">ویرایش هزینه‌های تکلیف حواله</value>
         <value xml:lang="fr">Modifier les coûts de l'opération de gamme</value>
         <value xml:lang="it">Aggiorna Costi Operazione</value>
         <value xml:lang="ja">経路制御タスク原価を編集</value>
@@ -5870,7 +5870,7 @@
         <value xml:lang="de">Arbeitsgang-Anlagen-Zuordnung bearbeiten</value>
         <value xml:lang="en">Edit Routing Task-Fixed Asset Association</value>
         <value xml:lang="es">Editar asociación tarea de ruta-activo fijo</value>
-        <value xml:lang="fa">ویرایش انجمن تکلیف ارسال دارایی ثابت</value>
+        <value xml:lang="fa">ویرایش انجمن تکلیف حواله دارایی ثابت</value>
         <value xml:lang="fr">Modifier l'association opération de gamme et machine</value>
         <value xml:lang="it">Legame operazione-cespite</value>
         <value xml:lang="ja">経路制御タスク-固定資産関連付けを編集</value>
@@ -5885,7 +5885,7 @@
         <value xml:lang="de">Arbeitsgang-Produkt bearbeiten</value>
         <value xml:lang="en">Edit Routing Task Product</value>
         <value xml:lang="es">Editar producto de tarea</value>
-        <value xml:lang="fa">ویرایش محصول تکلیف ارسال</value>
+        <value xml:lang="fa">ویرایش محصول تکلیف حواله</value>
         <value xml:lang="fr">Modifier l'opération de gamme de l'article</value>
         <value xml:lang="it">Aggiorna Operazione Prodotto</value>
         <value xml:lang="ja">経路制御タスク製品を編集</value>
@@ -5987,7 +5987,7 @@
         <value xml:lang="de">Arbeitsplan suchen</value>
         <value xml:lang="en">Find Routing</value>
         <value xml:lang="es">Buscar ruta</value>
-        <value xml:lang="fa">پیداکردن ارسال</value>
+        <value xml:lang="fa">پیداکردن حواله</value>
         <value xml:lang="fr">Recherche de gammes</value>
         <value xml:lang="it">Ricerca ciclo</value>
         <value xml:lang="ja">経路制御を検索</value>
@@ -6002,7 +6002,7 @@
         <value xml:lang="de">Arbeitsgang suchen</value>
         <value xml:lang="en">Find - Edit Routing Task</value>
         <value xml:lang="es">Buscar - Editar tarea</value>
-        <value xml:lang="fa">پیداکردن - ویرایش تکلیف ارسال</value>
+        <value xml:lang="fa">پیداکردن - ویرایش‌کردن تکلیف حواله</value>
         <value xml:lang="fr">Modification des opérations de gamme</value>
         <value xml:lang="it">Ricerca - Aggiorna Operazione</value>
         <value xml:lang="ja">経路制御タスクを検索 - 編集</value>
@@ -6032,7 +6032,7 @@
         <value xml:lang="de">Arbeitsgang-Zuordnung suchen</value>
         <value xml:lang="en">List Routing Task Assoc</value>
         <value xml:lang="es">Listar asociaciones de tareas</value>
-        <value xml:lang="fa">لیست تکلیف ارسال مرتبط</value>
+        <value xml:lang="fa">لیست تکلیف حواله مرتبط</value>
         <value xml:lang="fr">Opérations de la gamme</value>
         <value xml:lang="it">Lista Associazioni Operazioni</value>
         <value xml:lang="ja">経路制御タスク関連付け一覧</value>
@@ -6046,7 +6046,7 @@
         <value xml:lang="de">Arbeitsgang-Produkt bearbeiten</value>
         <value xml:lang="en">Edit Routing Task Products</value>
         <value xml:lang="es">Editar productos de tarea</value>
-        <value xml:lang="fa">ویرایش محصولات تکلیف ارسال</value>
+        <value xml:lang="fa">ویرایش‌کردن محصولات تکلیف حواله</value>
         <value xml:lang="fr">Modifier les opérations de gamme des articles</value>
         <value xml:lang="it">Aggiorna Operazione Prodotti</value>
         <value xml:lang="ja">経路制御タスク製品を編集</value>
@@ -6061,7 +6061,7 @@
         <value xml:lang="de">Arbeitpläne zum Arbeitsgang bearbeiten</value>
         <value xml:lang="en">Edit Routing Task Routings</value>
         <value xml:lang="es">Editar rutas de tarea</value>
-        <value xml:lang="fa">ویرایش ارسال‌های تکلیف ارسال</value>
+        <value xml:lang="fa">ویرایش‌کردن حواله‌های تکلیف حواله</value>
         <value xml:lang="fr">Modifier le routage des opérations de gamme</value>
         <value xml:lang="it">Aggiorna Cicli Associati all'Operazione</value>
         <value xml:lang="ja">経路制御タスク経路を編集</value>
@@ -6076,7 +6076,7 @@
         <value xml:lang="de">Arbeitsplansuche</value>
         <value xml:lang="en">Lookup Routing</value>
         <value xml:lang="es">Buscar ruta</value>
-        <value xml:lang="fa">جستجوی ارسال</value>
+        <value xml:lang="fa">جستجوی حواله</value>
         <value xml:lang="fr">Rechercher un ou des gammes</value>
         <value xml:lang="it">Ricerca ciclo</value>
         <value xml:lang="ja">経路制御を検索</value>
@@ -6091,7 +6091,7 @@
         <value xml:lang="de">Arbeitsgangsuche</value>
         <value xml:lang="en">Lookup RoutingTask</value>
         <value xml:lang="es">Buscar tarea</value>
-        <value xml:lang="fa">جستجوی «تکلیف ارسال»</value>
+        <value xml:lang="fa">جستجوی «تکلیف حواله»</value>
         <value xml:lang="fr">Consultation d'opération de gamme</value>
         <value xml:lang="it">Ricerca Operazione</value>
         <value xml:lang="ja">経路制御タスクを検索</value>

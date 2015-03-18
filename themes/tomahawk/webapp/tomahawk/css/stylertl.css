@@ -178,7 +178,22 @@ float: left;
 }
 
 .align-text {
+text-align: right;
+}
+
+.opposite-align-text{
 text-align: left;
+}
+
+.formatFieldRowTitleCellOpen {
+text-align:"left";
+padding:"3pt";
+}
+
+.formatFieldRowWidgetCellOpen {
+text-align:"right";
+padding:"2pt";
+padding-right:"5pt";
 }
 
 /* ==================================== */
@@ -360,10 +375,6 @@ padding-right: 1em;
 /* ===== Button Bar Navigation Styles ===== */
 /* ======================================== */
 
-.button-bar {
-direction: ltr;
-}
-
 .button-bar ul {
 direction: rtl;
 }
@@ -477,6 +488,43 @@ text-align: right;
 .nav-pager ul li {
 float: right;
 }
+
+.nav-pager ul .nav-first a:hover {
+background: url(../images/navigation-rtl.png) no-repeat 0px -46px;
+}
+.nav-pager ul .nav-previous a:hover {
+background: url(../images/navigation-rtl.png) no-repeat -23px -46px;
+}
+.nav-pager ul .nav-next a:hover {
+background: url(../images/navigation-rtl.png) no-repeat -46px -46px;
+}
+.nav-pager ul .nav-last a:hover {
+background: url(../images/navigation-rtl.png) no-repeat -69px -46px;
+}
+
+.nav-pager ul .nav-first a {
+background: url(../images/navigation-rtl.png) no-repeat 0px -23px;
+}
+.nav-pager ul .nav-previous a {
+background: url(../images/navigation-rtl.png) no-repeat -23px -23px;
+}
+.nav-pager ul .nav-next a {
+background: url(../images/navigation-rtl.png) no-repeat -46px -23px;
+}
+.nav-pager ul .nav-last a {
+background: url(../images/navigation-rtl.png) no-repeat -69px -23px;
+}
+.nav-pager ul .nav-first-disabled {
+background: url(../images/navigation-rtl.png) no-repeat 0px 0px;
+}
+.nav-pager ul .nav-previous-disabled {
+background: url(../images/navigation-rtl.png) no-repeat -23px 0px;
+}
+.nav-pager ul .nav-next-disabled {
+background: url(../images/navigation-rtl.png) no-repeat -46px 0px;
+}
+.nav-pager ul .nav-last-disabled {
+background: url(../images/navigation-rtl.png) no-repeat -69px 0px;
 
 /* From http://jqueryui.com/demos/autocomplete/maxheight.html */
 /* When displaying a long list of options, you can simply set the max-height for the autocomplete menu to prevent the menu from growing too large */

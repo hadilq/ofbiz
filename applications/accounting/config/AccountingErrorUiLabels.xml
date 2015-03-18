@@ -21,7 +21,7 @@
     <property key="AccountingDeleteRateAmount">
         <value xml:lang="de">Kann die zu löschende Raten-Summe nicht finden</value>    
         <value xml:lang="en">Could not find RateAmount record to be deleted</value>
-        <value xml:lang="fa">گزارش RateAmount را نمی‌توان پیدا کرد</value>
+        <value xml:lang="fa">سابقه «مقدار نرخ» را نمی‌توان برای پاک‌کردن پیداکرد</value>
         <value xml:lang="fr">Impossible de supprimer le taux</value>
         <value xml:lang="it">Non è possibile trovare un record di RateAmount che deve essere cancellato</value>
         <value xml:lang="ja">削除するレート金額レコードが見つかりません</value>
@@ -31,7 +31,7 @@
     <property key="AccountingEftAccountCannotBeCreated">
         <value xml:lang="de">FEHLER: Kann die Bezahlmethoden-ID nicht anlegen (ID Generierungsfehler)</value>    
         <value xml:lang="en">ERROR: Could not create payment method Id (id generation failure)</value>
-        <value xml:lang="fa">خطا: نمی‌توان آی‌دی روش پرداخت را ساخت</value>
+        <value xml:lang="fa">خطا: نمی‌توان آی‌دی روش پرداخت را ساخت (شکست در ساختن آی‌دی)</value>
         <value xml:lang="fr">Erreur : impossible de créer la méthode de paiement (échec de la génération de sa séquence)</value>
         <value xml:lang="it">ERRORE: Non è possibile creare il metodo pagamento (fallimento generazione id)</value>
         <value xml:lang="ja">エラー: 支払方法IDを作成できません (ID生成失敗)</value>
@@ -71,7 +71,7 @@
     <property key="AccountingEftPartyNotAuthorized">
         <value xml:lang="de">Akteur Id ${partyId} ist nicht der Besitzer der Bezahlmethode ${paymentMethodId} und hat keine Berechtigung diese zu ändern.</value>
         <value xml:lang="en">Party Id ${partyId} is not the owner of payment method ${paymentMethodId} and does not have permission to change it.</value>
-        <value xml:lang="fa">آی‌دی هم‌مشرب ${partyId} صاحب روش پرداخت ${paymentMethodId} نیست و اجازه برای تغییرش را ندارد.</value>
+        <value xml:lang="fa">آی‌دی هویت ${partyId} مالک روش پرداخت ${paymentMethodId} نیست و اجازه برای تغییرش را ندارد.</value>
         <value xml:lang="it">Il soggetto ${partyId} non è il propretario del metodo di pagamento ${paymentMethodId} non hai il permesso per cambiarlo.</value>
         <value xml:lang="ja">取引先ID ${partyId} は支払方法 ${paymentMethodId} の所有者ではないため変更する権限がありません。</value>
         <value xml:lang="pt">Participante com ID ${partyId} não é o proprietário do método de pagamento de US ${paymentMethodId} e não têm permissão para alterá-lo.</value>
@@ -89,7 +89,7 @@
     <property key="AccountingFinAccountCancelled">
         <value xml:lang="de">Zugriff wurde storniert</value>
         <value xml:lang="en">Account has been cancelled</value>
-        <value xml:lang="fa">حساب لغو شده است</value>
+        <value xml:lang="fa">حساب لغوشده است</value>
         <value xml:lang="it">Il conto è stato cancellato</value>
         <value xml:lang="ja">アカウントは取り消されています</value>
         <value xml:lang="pt">Conta foi cancelada</value>
@@ -116,7 +116,7 @@
     <property key="AccountingFinAccountCannotBeRefunded">
         <value xml:lang="de">Der verfügbare Betrag ist ungleich dem aktuellen Betrag; Schwebende Authorisierung; Es ist derzeit nicht möglich eine Rückerstattung durchzuführen.</value>    
         <value xml:lang="en">Available balance does not match the actual balance; pending authorizations; cannot refund FinAccount at this time.</value>
-        <value xml:lang="fa">تراز موجود با تراز واقعی سازگار نیست؛ نمی‌توان FinAccount را در این زمان بازپرداخت کرد.</value>
+        <value xml:lang="fa">تراز موجود با تراز واقعی همتا نیست؛ مجوزهای معلق؛ نمی‌توان «حساب مالی» را در این زمان بازپرداخت کرد.</value>
         <value xml:lang="it">Bilancio disponibilie non corrisponde all'attuale bilancio; autorizzazioni in attesa; non è possibile rimborsare il conto finanziario in questo momento.</value>
         <value xml:lang="ja">有効な貸借が実際の貸借と一致しません、認証を保留します。金融アカウントは現在払出できません。</value>
         <value xml:lang="pt">Saldo disponível não corresponde ao saldo real, autorizações pendentes; não é possível reembolsar FinAccount neste momento.</value>
@@ -125,7 +125,7 @@
     <property key="AccountingFinAccountCannotBeReplenish">
         <value xml:lang="de">Kann das Produkt-Lager nicht in den vorherigen Absätzen zu finden. Produkt-Lager darf nicht leer sein</value>
         <value xml:lang="en">Cannot locate product store from previous deposits; product store cannot be empty</value>
-        <value xml:lang="fa">نمی‌توان ذخیره محصول را از سپرده جدا کرد؛ ذخیره محصول نمی‌تواند خالی باشد</value>
+        <value xml:lang="fa">نمی‌توان انبار محصول را از سپرده جدا کرد؛ انبار محصول نمی‌تواند خالی باشد</value>
         <value xml:lang="it">Non è possibile localizzare il negozio dei precedenti depositi; il negozio non può essere vuoto</value>
         <value xml:lang="ja">前の預金から製品店舗を設立できません。製品店舗は空にできません</value>
         <value xml:lang="pt">Não é possível localizar loja de produtos de depósitos anteriores; loja de produtos não pode estar vazia</value>
@@ -134,7 +134,7 @@
     <property key="AccountingFinAccountCannotCapture">
         <value xml:lang="de">Keine Authorizierungs-Transaktion für die Bestell-Bezahl-Einstellungen gefunden; kann nicht OrderPaymentPreference; keine Erfassung möglich</value>
         <value xml:lang="en">No authorization transaction found for the OrderPaymentPreference; cannot capture</value>
-        <value xml:lang="fa">هیچ مجوز تراکنشی برای OrderPaymentPreference پیدا نشد؛ نمی‌توان اخذ کرد</value>
+        <value xml:lang="fa">هیچ مجوز تراکنشی برای «ترجیحات پرداخت سفارش» پیدانشده؛ نمی‌توان دریافت کرد</value>
         <value xml:lang="it">Nessuna transazione di autorizzazione trovata per le preferenze pagamento ordine; non è possibile catturare</value>
         <value xml:lang="ja">注文支払設定に対する認証トランザクションが見つかりません。キャプチャできません</value>
         <value xml:lang="pt">Nenhuma autorização de transação encontrado para a OrderPaymentPreference; não é possível capturar</value>
@@ -161,7 +161,7 @@
     <property key="AccountingFinAccountCannotCreditAccount">
         <value xml:lang="de">Es ist nicht möglich ein Dienste-Kredit-Konto anzulegen oder zu finden</value>
         <value xml:lang="en">Could not find or create a service credit account</value>
-        <value xml:lang="fa">نمی‌توان حساب اعتبار خدمات را پیدا کرد یا ساخت</value>
+        <value xml:lang="fa">نمی‌توان حساب اعتبار سرویس را پیداکرد یا ساخت</value>
         <value xml:lang="it">Non è possibile trovare o creare un servizio di accredito conto</value>
         <value xml:lang="ja">サービスクレジットアカウントが見つからないか、作成できません</value>
         <value xml:lang="pt">Não foi possível encontrar ou criar um serviço de conta de crédito</value>
@@ -170,7 +170,7 @@
     <property key="AccountingFinAccountCannotFindAuthorization">
         <value xml:lang="de"> Kann keine Authorisierungs-Transaktion finden.</value>
         <value xml:lang="en"> Could not find authorization transaction.</value>
-        <value xml:lang="fa">نمی‌توان مجوز تراکنشی را پیدا کرد.</value>
+        <value xml:lang="fa">نمی‌توان مجوز تراکنشی را پیداکرد.</value>
         <value xml:lang="it"> Non è possibile trovare la transazione di autorizzazione.</value>
         <value xml:lang="ja"> 認証トランザクションが見つかりません。</value>
         <value xml:lang="pt">Não foi possível encontrar autorização para a transação.</value>
@@ -187,7 +187,7 @@
     </property>
     <property key="AccountingFinAccountCannotPost">
         <value xml:lang="en">Cannot post FinAccountTrans with ID ${parameters.finAccountTransId} to GL, could not find ${creditDebit} ${requiredField}</value>
-        <value xml:lang="fa">نمی‌توان FinAccountTrans با آی‌دی ${parameters.finAccountTransId} به کد معین را پست کرد، نمی‌توان ${creditDebit} ${requiredField} را یافت.</value>
+        <value xml:lang="fa">نمی‌توان FinAccountTrans با آی‌دی ${parameters.finAccountTransId} به کد معین را ارسال‌کرد، نمی‌توان ${creditDebit} ${requiredField} را یافت.</value>
         <value xml:lang="it">Non post FinAccountTrans con ID ${parameters.finAccountTransId} in GL, could not find ${creditDebit} ${requiredField}</value>
         <value xml:lang="ja">ID ${parameters.finAccountTransId} の金融アカウントトランザクションを総勘定元帳(GL)に転記できません。${creditDebit} ${requiredField} が見つかりません。</value>
         <value xml:lang="pt">Não é possível enviar FinAccountTrans com ID ${parameters.finAccountTransId} para conntabilidade, não foi possível encontrar ${creditDebit} ${requiredField}</value>
@@ -213,7 +213,7 @@
     </property>
     <property key="AccountingFinAccountIdAndFinAccountCodeAreNull">
         <value xml:lang="en">Both finAccountId and finAccountCode cannot be null; at least one is required</value>
-        <value xml:lang="fa">جفت finAccountId و finAccountCode نمی‌توانند خالی باشند؛ حداقل یکی از آنها الزامی است</value>
+        <value xml:lang="fa">جفت «آی‌دی حساب مالی» و «کد حساب مالی» نمی‌توانند خالی باشند؛ حداقل یکی از آنها الزامی است</value>
         <value xml:lang="it">Entrambi finAccountId e finAccountCode non possono essere nulli; al minimo uno è richiesto</value>
         <value xml:lang="ja">金融アカウントIDと金融アカウントコードの両方とも空にできません。少なくとも１つは必須です</value>
         <value xml:lang="pt">Ambos finAccountId e finAccountCode não podem ser nulos, pelo menos um é necessário</value>
@@ -221,7 +221,7 @@
     </property>
     <property key="AccountingFinAccountIdInvalid">
         <value xml:lang="en">Invalid financial account; cannot locate account</value>
-        <value xml:lang="fa">حساب مالی بی‌اعتبار؛ نمی‌توان حساب را جدا کرد</value>
+        <value xml:lang="fa">حساب مالی نامعتبر؛ نمی‌توان حساب را جدا کرد</value>
         <value xml:lang="it">Conto finanziario invalido; non è possibile localizzare il conto</value>
         <value xml:lang="ja">金融アカウントが無効です。アカウントを設置できません</value>
         <value xml:lang="pt">Conta financeira Inválida, não é possível localizar a conta</value>
@@ -229,7 +229,7 @@
     </property>
     <property key="AccountingFinAccountInactiveStatusError">
         <value xml:lang="en">FinAccount must be in active status</value>
-        <value xml:lang="fa">FinAccount باید در وضعیت فعال باشد</value>
+        <value xml:lang="fa">«حساب مالی» باید در وضعیت فعال باشد</value>
         <value xml:lang="fr">Le compte financier doit être dans un état actif</value>
         <value xml:lang="ja">金融アカウントは有効ステータスである必要があります</value>
         <value xml:lang="pt">FinAccount deve estar no estado ativo</value>
@@ -237,7 +237,7 @@
     </property>
     <property key="AccountingFinAccountIsNotRefundable">
         <value xml:lang="en">Account is not refunable</value>
-        <value xml:lang="fa">حساب قابل بازپرداخت نمی‌باشد</value>
+        <value xml:lang="fa">حساب قابل‌بازپرداخت نمی‌باشد</value>
         <value xml:lang="it">Il conto non è rimborsabile</value>
         <value xml:lang="ja">アカウントは払出できません</value>
         <value xml:lang="pt">Conta não é reembolsável</value>
@@ -253,7 +253,7 @@
     </property>
     <property key="AccountingFinAccountNegative">
         <value xml:lang="en">Account is currently negative and pending replenishment</value>
-        <value xml:lang="fa">حساب هم‌اکنون منفی است و منتظر باز پرشدن می‌باشد</value>
+        <value xml:lang="fa">حساب هم‌اکنون منفی است و تنخواه معلق</value>
         <value xml:lang="it">Il conto è attualmente negativo e in attesa di rifornimento</value>
         <value xml:lang="ja">アカウントは現在マイナスで、補充する必要があります</value>
         <value xml:lang="pt">Conta está negativa e com reposição pendente</value>
@@ -269,7 +269,7 @@
     </property>
     <property key="AccountingFinAccountNotFound">
         <value xml:lang="en">No finAccountId found ${finAccountId}</value>
-        <value xml:lang="fa">هیچ finAccountId یافت نشد ${finAccountId}</value>
+        <value xml:lang="fa">هیچ finAccountId پیدانشده ${finAccountId}</value>
         <value xml:lang="it">Conto finanziario non trovato ${finAccountId}</value>
         <value xml:lang="ja">金融アカウントが見つかりません ${finAccountId}</value>
         <value xml:lang="pt">Não foi possível encontrar finAccountId ${finAccountId}</value>
@@ -277,7 +277,7 @@
     </property>
     <property key="AccountingFinAccountPartiallyRefunded">
         <value xml:lang="en">FinAccount partially refunded; not enough replenish deposits to refund!</value>
-        <value xml:lang="fa">FinAccount تقریبا بازپرداخت شده است: به اندازه کافی سپرده برای بازپرداخت نشده است!</value>
+        <value xml:lang="fa">«حساب مالی» تقریبا بازپرداخت شده است: به اندازه کافی سپرده تنخواه‌گردان برای بازپرداخت نیست!</value>
         <value xml:lang="it">Conto finanziario parzialmente rimborsato; non ci sono abbastanza depositi per il rifornimento da rimborsare!</value>
         <value xml:lang="ja">金融アカウントは一部払出済です。払出には預入の補充が不十分です。</value>
         <value xml:lang="pt">FinAccount parcialmente reembolsada, não há depósitos de reposição suficiente para reembolsar!</value>
@@ -285,7 +285,7 @@
     </property>
     <property key="AccountingFinAccountPinCodeCombinatorNotFound">
         <value xml:lang="en">Financial account PIN/CODE combination not found</value>
-        <value xml:lang="fa">حساب مالی با مشخصات PIN/CODE یافت نشد</value>
+        <value xml:lang="fa">حساب مالی با مشخصات PIN/CODE پیدانشده</value>
         <value xml:lang="it">Conto finanziario combinazione PIN/CODE non trovata</value>
         <value xml:lang="ja">金融アカウントのPIN/コードの組み合わせが見つかりません</value>
         <value xml:lang="pt">Conta financeira PIN/Código não encontrada</value>
@@ -293,7 +293,7 @@
     </property>
     <property key="AccountingFinAccountSetting">
         <value xml:lang="en">No settings found for store ${productStoreId} for fin account type ${finAccountTypeId}</value>
-        <value xml:lang="fa">هیچ تنظیماتی برای فروشگاه ${productStoreId} برای نوع حساب ${finAccountTypeId} پیدا نشد</value>
+        <value xml:lang="fa">هیچ تنظیماتی برای انبار ${productStoreId} برای نوع حساب ${finAccountTypeId} پیدانشده</value>
         <value xml:lang="it">Nessuna configurazione trovata per il negozio ${productStoreId} per il tipo conto finanziario ${finAccountTypeId}</value>
         <value xml:lang="ja">店舗 ${productStoreId} に対する金融アカウント種類 ${finAccountTypeId} の設定が見つかりません</value>
         <value xml:lang="pt">Nenhuma configuração encontrada para a loja ${productStoreId} para conta financeira de tipo ${finAccountTypeId}</value>
@@ -301,7 +301,7 @@
     </property>
     <property key="AccountingFinAccountStatusNotValidError">
         <value xml:lang="en">FinAccount not in valid status</value>
-        <value xml:lang="fa">FinAccount در وضعیت مورد تاییدی نیست</value>
+        <value xml:lang="fa">«حساب مالی» در وضعیت معتبری نیست</value>
         <value xml:lang="fr">Le compte financier n'est pas dans un état valide</value>
         <value xml:lang="ja">金融アカウントは有効ステータスではありません</value>
         <value xml:lang="pt">FinAccount não tem estado válido</value>
@@ -317,7 +317,7 @@
     </property>
     <property key="AccountingGiftCardCannotBeCreated">
         <value xml:lang="en">ERROR: Could not create GiftCard (id generation failure)</value>
-        <value xml:lang="fa">خطا: نمی‌توان کارت هدیه را ساخت (تولیدکننده آی‌دی شکست خورد)</value>
+        <value xml:lang="fa">خطا: نمی‌توان کارت هدیه را ساخت (شکست در ساختن آی‌دی)</value>
         <value xml:lang="it">ERRORE: Non è possibile creare la carta regalo (fallita generazione id)</value>
         <value xml:lang="ja">エラー: ギフトカードを作成できません (ID生成失敗)</value>
         <value xml:lang="pt">ERRO: Não foi possível criar vale presente (falha ao gerar ID)</value>
@@ -333,7 +333,7 @@
     </property>
     <property key="AccountingGiftCardCannotBeUpdated">
         <value xml:lang="en">ERROR: Could not get GiftCard to update (read error): ${errorString}</value>
-        <value xml:lang="fa">خطا: نمی‌توان کارت هدیه را بروز کرد (شکست در خواندن): ${errorString}</value>
+        <value xml:lang="fa">خطا: نمی‌توان کارت هدیه را بروزکرد (شکست در خواندن): ${errorString}</value>
         <value xml:lang="it">ERRORE: Non è possibile aggiornare la carta regalo (fallita lettura): ${errorString}</value>
         <value xml:lang="ja">エラー: ギフトカードを更新できません (読み込み失敗): ${errorString}</value>
         <value xml:lang="pt">ERRO: Não foi possível obter vale presente para atualizar (erro de leitura): ${errorString}</value>
@@ -341,7 +341,7 @@
     </property>
     <property key="AccountingGiftCardPartyNotAuthorized">
         <value xml:lang="en">Party Id ${partyId} is not the owner of payment method ${paymentMethodId} and does not have permission to change it.</value>
-        <value xml:lang="fa">آی‌دی هم‌مشرب ${partyId} صاحب روش پرداخت ${paymentMethodId} نیست و اجازه تغییر آن را ندارد.</value>
+        <value xml:lang="fa">آی‌دی هویت ${partyId} مالک روش پرداخت ${paymentMethodId} نیست و اجازه تغییر آن را ندارد.</value>
         <value xml:lang="it">Il soggetto ${partyId} non è il propretario del metodo di pagamento ${paymentMethodId} non hai il permesso per cambiarlo.</value>
         <value xml:lang="ja">取引先ID ${partyId} は支払方法 ${paymentMethodId} の所有者ではないため変更する権限がありません。</value>
         <value xml:lang="pt">ID de Participante ${partyId} não é o proprietário do método de pagamento de ${paymentMethodId} e não têm permissão para alterá-lo.</value>
@@ -357,7 +357,7 @@
     </property>
     <property key="AccountingGiftCerticateNumberCannotBeExpired">
         <value xml:lang="en">Unable to expire financial account authorization for Gift Certificate: </value>
-        <value xml:lang="fa">نمی‌توان اجاره حساب مالی برای تضمین هدیه را منقضی کرد:</value>
+        <value xml:lang="fa">نمی‌توان مجوز حساب مالی برای تضمین هدیه را منقضی کرد:</value>
         <value xml:lang="it">Non è possibile cancellare l'autorizzazione per il conto finanziario per il certificato regalo: </value>
         <value xml:lang="ja">ギフトカードに対する金融アカウントの認証を失効させることができません: </value>
         <value xml:lang="pt">Incapaz de expirar a autorização para a conta financeira para vale presente:</value>
@@ -365,7 +365,7 @@
     </property>
     <property key="AccountingGiftCerticateNumberCannotFulfill">
         <value xml:lang="en">No product associated with OrderItem, cannot fulfill gift card</value>
-        <value xml:lang="fa">هیچ محصولی با OrderItem مطابقت ندارد، نمی‌توان کارت هدیه را تکمیل کرد</value>
+        <value xml:lang="fa">هیچ محصولی با «قلم سفارش» مطابقت ندارد، نمی‌توان کارت هدیه را تکمیل‌کرد</value>
         <value xml:lang="it">Nessun prodotto associato alla riga ordine, non è possibile processare l'acquisto con carta regalo</value>
         <value xml:lang="ja">注文アイテムと関連付けられた製品がありません。ギフトカードの執行ができません</value>
         <value xml:lang="pt">Nenhum produto associado OrderItem, não é possível honrar o cartão de presente</value>
@@ -373,7 +373,7 @@
     </property>
     <property key="AccountingGiftCerticateNumberCannotFulfillFromSurveyAnswers">
         <value xml:lang="en">Unable to get survey response answers from survey response; cannot fulfill gift card</value>
-        <value xml:lang="fa">نمی‌توان جواب نظرسنجی را دریافت کرد؛ نمی‌توان کارت هدیه را تکمیل کرد</value>
+        <value xml:lang="fa">نمی‌توان جواب‌های ‌پاسخ نظرسنجی را از پاسخ نظرسنجی دریافت کرد؛ نمی‌توان کارت هدیه را تکمیل‌کرد</value>
         <value xml:lang="it">Non è possibile ottenere la risposta sondaggio dalle domande; non è possibile caricare la carta regalo</value>
         <value xml:lang="ja">評価の回答を取得できません。ギフトカードの執行ができません</value>
         <value xml:lang="pt">Não foi possível obter respostas da pesquisa, não pode atender ao cartão de presente</value>
@@ -389,7 +389,7 @@
     </property>
     <property key="AccountingGiftCerticateNumberCannotLocateItFromOrderPaymentPreference">
         <value xml:lang="en">Unable to get GiftCard from OrderPaymentPreference</value>
-        <value xml:lang="fa">نمی‌توان کارت هدیه را از OrderPaymentPreference گرفت</value>
+        <value xml:lang="fa">نمی‌توان کارت هدیه را از «ترجیحات پرداخت سفارش» گرفت</value>
         <value xml:lang="it">Non è possibile localizzare il certificato regalo dalla preferenze pagamento dell'ordine</value>
         <value xml:lang="ja">注文支払設定からギフトカードを取得できません</value>
         <value xml:lang="pt">Não foi possível obter vale presente de OrderPaymentPreference</value>
@@ -397,7 +397,7 @@
     </property>
     <property key="AccountingGiftCerticateNumberCannotProcess">
         <value xml:lang="en">Unable to process gift card purchase; no productStoreId on OrderHeader: ${orderId}</value>
-        <value xml:lang="fa">نمی‌توان به فروش کارت هدیه دسترسی پیدا کرد: هیچ productStoreId از  OrderHeader: ${orderId}</value>
+        <value xml:lang="fa">نمی‌توان خرید کارت هدیه را پردازش‌کرد: هیچ «آی‌دی انبار محصول» از  «سربرگ سفارش»: ${orderId}</value>
         <value xml:lang="it">Non è possibile processare l'acquisto con la carta regalo; nessun negozio impostato sulla testata ordine: ${orderId}</value>
         <value xml:lang="ja">ギフトカードの支払を処理できません。注文ヘッダに製品店舗がありません: ${orderId}</value>
         <value xml:lang="pt">Não é possível processar de compra com o cartão do presente, sem productStoreId em OrderHeader: ${orderId}</value>
@@ -405,7 +405,7 @@
     </property>
     <property key="AccountingGiftCerticateNumberCannotRelease">
         <value xml:lang="en">Attempt to release GiftCard payment failed; not a valid GiftCard record</value>
-        <value xml:lang="fa">تلاش برای ترخیص پرداخت کارت هدیه شکست خورد؛  گزارش کارت هدیه م نیست</value>
+        <value xml:lang="fa">تلاش برای ترخیص پرداخت کارت هدیه شکست‌خورد؛ سابقه کارت هدیه معتبر نیست</value>
         <value xml:lang="it">Tentivo di rilasciare il pagamento carta regalo fallito; non c'è un record valido</value>
         <value xml:lang="ja">ギフトカード支払の解放に失敗しました。ギフトカードレコードが有効ではありません</value>
         <value xml:lang="pt">Tentativa de liberar o pagamento GiftCard falhou; não é registro válido GiftCard</value>
@@ -413,7 +413,7 @@
     </property>
     <property key="AccountingGiftCerticateNumberCannotReload">
         <value xml:lang="en">Unable to process gift card reload; no productStoreId on OrderHeader: ${orderId}</value>
-        <value xml:lang="fa">نمی‌توان بارگزاری کارت هدیه را پردازش کرد؛ هیچ productStoreId از  OrderHeader: ${orderId}</value>
+        <value xml:lang="fa">نمی‌توان بازنگری کارت هدیه را پردازش‌کرد؛ هیچ «آی‌دی انبار محصول» در «سربرگ سفارش»: ${orderId}</value>
         <value xml:lang="it">Non è possibile processare la ricarica con la carta regalo; nessun negozio impostato sulla testata ordine: ${orderId}</value>
         <value xml:lang="ja">ギフトカードのチャージを処理できません。注文ヘッダに製品店舗IDがありません: ${orderId}</value>
         <value xml:lang="pt">Não foi possível processar a recarga do cartão de presente, sem productStoreId em OrderHeader: ${orderId}</value>
@@ -421,7 +421,7 @@
     </property>
     <property key="AccountingGiftCerticateNumberCannotReloadFromSurveyAnswers">
         <value xml:lang="en">Unable to get survey response answers from survey response; cannot fulfill gift card reload</value>
-        <value xml:lang="fa">نمی‌توان جواب نظرسنچی را گرفت؛ نمی‌توان بارگزاری کارت هدیه را تکمیل کرد</value>
+        <value xml:lang="fa">نمی‌توان جواب‌های پاسخ نظرسنچی را از پاسخ نظرسنجی گرفت؛ نمی‌توان بازنگری کارت هدیه را تکمیل کرد</value>
         <value xml:lang="it">Non è possibile ottenere l'informazione relativa alla risposta sondaggio dalle domande; non è possibile ricaricare la carta regalo</value>
         <value xml:lang="ja">評価の回答を取得できません。ギフトカードのチャージが執行できません</value>
         <value xml:lang="pt">Não foi possível obter respostas da pesquisa, não é possível realizar recarga do cartão do presente</value>
@@ -429,7 +429,7 @@
     </property>
     <property key="AccountingGiftCerticateNumberCannotSendEmailNotice">
         <value xml:lang="en">Error sending Gift Card notice email:  ${errorString}</value>
-        <value xml:lang="fa">خطا در فرستادن کارت هدیه به ایمیل: ${errorString}</value>
+        <value xml:lang="fa">خطا در فرستادن ایمیل اعلان کارت هدیه: ${errorString}</value>
         <value xml:lang="it">Non è possibile inviaria email di notifica carta regalo: ${errorString}</value>
         <value xml:lang="ja">ギフトカード通知メール送信エラー: ${errorString}</value>
         <value xml:lang="pt">Erro ao enviar e-mail de aviso do cartão de presente: ${errorString}</value>
@@ -453,7 +453,7 @@
     </property>
     <property key="AccountingGiftCerticateNumberExpired">
         <value xml:lang="en">Gift certificate has expired as of  ${thruDate}</value>
-        <value xml:lang="fa">تضمین هدیه از تاریخ ${thruDate} منقضی شده است</value>
+        <value xml:lang="fa">تضمین هدیه از تاریخ ${thruDate} منقضی‌شده‌است</value>
         <value xml:lang="it">Certificato regalo scaduto dal ${thruDate}</value>
         <value xml:lang="ja">ギフトカードは ${thruDate} に失効しています</value>
         <value xml:lang="pt">O cartão de presente expirou a partir de ${thruDate}</value>
@@ -461,7 +461,7 @@
     </property>
     <property key="AccountingGiftCerticateNumberNotFound">
         <value xml:lang="en">Gift certificate not found ${finAccountId}</value>
-        <value xml:lang="fa">تضمین هدیه پیدا نشد ${finAccountId}</value>
+        <value xml:lang="fa">تضمین هدیه پیدانشده ${finAccountId}</value>
         <value xml:lang="it">Certificato regalo non trovato ${finAccountId}</value>
         <value xml:lang="ja">ギフトカードが見つかりません ${finAccountId}</value>
         <value xml:lang="pt">Cartão de presente não encontrado ${finAccountId}</value>
@@ -469,7 +469,7 @@
     </property>
     <property key="AccountingGiftCerticateNumberPinNotValid">
         <value xml:lang="en">PIN number is not valid</value>
-        <value xml:lang="fa">شماره PIN مورد تایید نیست</value>
+        <value xml:lang="fa">شماره PIN معتبر نیست</value>
         <value xml:lang="it">Numero PIN non è valido</value>
         <value xml:lang="ja">PIN番号が無効です</value>
         <value xml:lang="pt">Número do PIN não é válido</value>
@@ -477,7 +477,7 @@
     </property>
     <property key="AccountingGiftCerticateNumberRefundCallError">
         <value xml:lang="en">Unable to call refund service!</value>
-        <value xml:lang="fa">نمی‌توان خدمات بازپرداخت را اجرا کرد!</value>
+        <value xml:lang="fa">نمی‌توان سرویس بازپرداخت را فراخوانی‌کرد!</value>
         <value xml:lang="it">Non è possibile eseguire il servizio refund!</value>
         <value xml:lang="ja">返済サービスの呼び出しができません</value>
         <value xml:lang="pt">Não foi possível invocar serviço de reembolso!</value>
@@ -485,7 +485,7 @@
     </property>
     <property key="AccountingOrbital">
         <value xml:lang="en">An error occurred while retreiving cart details</value>
-        <value xml:lang="fa">خطایی در زمان بازیابی اطلاعات کارت روی داده است</value>
+        <value xml:lang="fa">خطایی در زمان بازیابی جزئیات سبد رخ‌داده‌است</value>
         <value xml:lang="it">Un'errore è successo mentre ricavavo i dettagli del carrello</value>
         <value xml:lang="ja">カードの詳細を取得時にエラーが発生しました</value>
         <value xml:lang="pt">Ocorreu um erro ao recuperar os detalhes carrinho</value>
@@ -493,7 +493,7 @@
     </property>
     <property key="AccountingPartyAcctgPreferenceNotDefine">
         <value xml:lang="en">Acctg preference not define</value>
-        <value xml:lang="fa">ترجیحات تعریف نشده‌اند</value>
+        <value xml:lang="fa">ترجیحات حساب معین تعریف نشده‌اند</value>
         <value xml:lang="fr">Aucune configuration sur les préférences de gestion encore définie pour votre société</value>
         <value xml:lang="ja">アカウント設定が定義されていません</value>
         <value xml:lang="pt">Acctg não definir preferência</value>
@@ -582,7 +582,7 @@
     </property>
     <property key="AccountingPaymentMethodCannotBeDeleted">
         <value xml:lang="en">ERROR: Could not find Payment Method to delete (read failure ${errorString})</value>
-        <value xml:lang="fa">خطا: نمی‌توان برای حذف کردن روش پرداخت را پیدا کرد (شکست در خواندن) : ${errorString}</value>
+        <value xml:lang="fa">خطا: نمی‌توان برای پاک‌کردن روش پرداخت را پیداکرد (شکست در خواندن) : ${errorString}</value>
         <value xml:lang="it">ERRORE: Non è possibile trovare il metodo di pagmento da cancellare (lettura fallita ${errorString})</value>
         <value xml:lang="ja">エラー: 削除時に支払方法が見つかりません (読み込み失敗 ${errorString})</value>
         <value xml:lang="pt">ERRO: Não foi possível encontrar o método de pagamento para excluir (erro de leitura ${errorString})</value>
@@ -590,7 +590,7 @@
     </property>
     <property key="AccountingPaymentMethodCannotBeDeletedWriteFailure">
         <value xml:lang="en">ERROR: Could not find Payment Method to delete (write failure ${errorString})</value>
-        <value xml:lang="fa">خطا: نمی‌توان برای حذف کردن روش پرداخت را پیدا کرد (شکست در نوشتن) : ${errorString}</value>
+        <value xml:lang="fa">خطا: نمی‌توان برای پاک‌کردن روش پرداخت را پیداکرد (شکست در نوشتن) : ${errorString}</value>
         <value xml:lang="it">ERRORE: Non è possibile trovare il metodo di pagmento da cancellare (scrittura fallita ${errorString})</value>
         <value xml:lang="ja">エラー: 削除時に支払方法が見つかりません (書き込み失敗 ${errorString})</value>
         <value xml:lang="pt">ERRO: Não foi possível encontrar o método de pagamento para excluir (erro de escrita ${errorString})</value>
@@ -598,7 +598,7 @@
     </property>
     <property key="AccountingPaymentMethodNoPermissionToDelete">
         <value xml:lang="en">You do not have permission to delete Payment Method for this partyId</value>
-        <value xml:lang="fa">شما اجازه لازم برای حذف روش پرداخت برای این آی‌دی هم‌مشرب را ندارید</value>
+        <value xml:lang="fa">شما اجازه لازم برای پاک‌کردن روش پرداخت برای این آی‌دی هویت را ندارید</value>
         <value xml:lang="it">Non hai il permesso per cancellare il metodo di pagamento per questo soggetto</value>
         <value xml:lang="ja">この取引先IDに対する支払方法を削除する権限がありません</value>
         <value xml:lang="pt">Você não tem permissão para excluir este método de pagamento para partyId</value>
@@ -606,7 +606,7 @@
     </property>
     <property key="AccountingPaymentReauthorizingError">
         <value xml:lang="en">You do not have permission to delete Payment Method for this partyId</value>
-        <value xml:lang="fa">شما اجازه لازم برای حذف روش پرداخت برای این آی‌دی هم‌مشرب را ندارید</value>
+        <value xml:lang="fa">شما اجازه لازم برای پاک‌کردن روش پرداخت برای این آی‌دی هویت را ندارید</value>
         <value xml:lang="it">Non hai il permesso per cancellare il metodo di pagamento per questo soggetto</value>
         <value xml:lang="ja">この取引先IDに対する支払方法を削除する権限がありません</value>
         <value xml:lang="zh">你无权删除用户的支付方法，用户标识是</value>
@@ -620,7 +620,7 @@
     </property>
     <property key="AccountingTaxIdInvalidFormat">
         <value xml:lang="en">The tax ID ${parameters.partyTaxId} was not in a valid format for the selected tax authority ${taxAuthority.taxIdFormatPattern}</value>
-        <value xml:lang="fa">آی‌دی مالیات ${parameters.partyTaxId} قابل تایید نیست برای اجازه مالیاتی ${taxAuthority.taxIdFormatPattern}</value>
+        <value xml:lang="fa">آی‌دی مالیات ${parameters.partyTaxId} فرمت معتبر ندارد برای اداره مالیاتی انتخاب‌شده ${taxAuthority.taxIdFormatPattern}</value>
         <value xml:lang="it">Id tasse ${parameters.partyTaxId} non è nel formato valido per l'autorità tasse selezionata ${taxAuthority.taxIdFormatPattern}</value>
         <value xml:lang="ja">税ID ${parameters.partyTaxId} は選択した税務機関 ${taxAuthority.taxIdFormatPattern} に対して有効な書式ではありません</value>
         <value xml:lang="pt">O número de ID fiscal ${parameters.partyTaxId} não estava em um formato válido para a autoridade fiscal selecionada ${taxAuthority.taxIdFormatPattern}</value>
@@ -636,7 +636,7 @@
     <property key="payPalEvents.failedToExecuteServiceCreatePaymentFromPreference">
         <value xml:lang="de">Der Service createPaymentFromPreference konnte nicht ausgeführt werden</value>
         <value xml:lang="en">Failed to execute service createPaymentFromPreference</value>
-        <value xml:lang="fa">شکست در اجراء خدمت createPaymentFromPreference</value>
+        <value xml:lang="fa">شکست در اجراء سرویس «ساختن پرداخت از ترجیحات»</value>
         <value xml:lang="fr">Echec à l'exécution du service createPaymentFromPreference</value>
         <value xml:lang="hi_IN">सर्विस createPaymentFromPreference पर अमल(execute) करने में असफल</value>
         <value xml:lang="it">Fallita esecuzione del servizio createPaymentFromPreference</value>
@@ -650,7 +650,7 @@
     <property key="payPalEvents.noValidOrderIdReturned">
         <value xml:lang="de">Mit dem Callback von PayPal wurde keine gültige Auftragsnummer (orderId) übergeben.</value>
         <value xml:lang="en">No valid orderId returned with PayPal Callback.</value>
-        <value xml:lang="fa">orderId مورد تاییدی از جواب PayPal دریافت نشد.</value>
+        <value xml:lang="fa">«آی‌دی سفارش» معتبری از جواب PayPal بازنگشته.</value>
         <value xml:lang="fr">Aucune réf. valide de commande retournée par l'appel à PayPal.</value>
         <value xml:lang="hi_IN">मान्य orderId Paypal Callback के साथ नहीं लौटा</value>
         <value xml:lang="it">Nessun ordine valido restituito da PayPal.</value>
@@ -678,7 +678,7 @@
     <property key="payPalEvents.problemsConnectingWithPayPal">
         <value xml:lang="de">Es ist ein Verbindungsproblem mit PayPal aufgetreten; bitte kontaktieren Sie den Kundendienst.</value>
         <value xml:lang="en">Problems connecting with PayPal, please contact customer service.</value>
-        <value xml:lang="fa">مشکل در تماس با PayPal، لطفا با خدمات مشتریات تماس بگیرید.</value>
+        <value xml:lang="fa">مشکل در تماس با PayPal، لطفا با سرویس مشتریات تماس بگیرید.</value>
         <value xml:lang="fr">Les problèmes pour se connecter à PayPal, SVP entrez en contact avec le service clientèle.</value>
         <value xml:lang="hi_IN">Paypal के साथ जोड़ने में समस्या, कृपया ग्राहक सेवा से संपर्क करें</value>
         <value xml:lang="it">Problemi nella connessione a PayPal, prego contattare il servizio clienti.</value>
@@ -692,7 +692,7 @@
     <property key="payPalEvents.problemsGettingAuthenticationUser">
         <value xml:lang="de">Ich kann für den Benutzer keine Authentifizierung erhalten.</value>
         <value xml:lang="en">Problems getting authentication user.</value>
-        <value xml:lang="fa">خطا در گرفتن کاربر دارای مجوز.</value>
+        <value xml:lang="fa">مشکل در دریافت‌کردن سندیت کاربر</value>
         <value xml:lang="fr">Problèmes d'obtention d'authentification utilisateur</value>
         <value xml:lang="hi_IN">उपयोगकर्ता(user) के प्रमाणीकरण में समस्याएँ हो रही</value>
         <value xml:lang="it">Problemi durante autenticazione utente</value>
@@ -706,7 +706,7 @@
     <property key="payPalEvents.problemsGettingMerchantConfiguration">
         <value xml:lang="de">Es gibt Probleme mit der Händlerkonfiguration bei PayPal; bitte kontaktieren Sie den Kundendienst.</value>
         <value xml:lang="en">Problems getting merchant configuration, please contact customer service.</value>
-        <value xml:lang="fa">مشکل در دریافت تنظیمات بازرگان، لطفا با خدمات مشتریان تماس بگیرید.</value>
+        <value xml:lang="fa">مشکل در دریافت‌کردن تنظیمات بازرگان، لطفا با سرویس مشتریان تماس بگیرید.</value>
         <value xml:lang="fr">Problèmes d'obtention de la configuration du vendeur, svp entrez en contact avec le service clientèle.</value>
         <value xml:lang="hi_IN">व्यापारी विन्यास में समस्याएँ हो रही, कृपया ग्राहक सेवा से संपर्क करें</value>
         <value xml:lang="it">Problemi leggendo la configurazione del venditore, prego contattare il servizio clienti.</value>
@@ -720,7 +720,7 @@
     <property key="payPalEvents.problemsGettingOrderHeader">
         <value xml:lang="de">Ich kann die Bestelldaten nicht finden.</value>
         <value xml:lang="en">Problems getting order header.</value>
-        <value xml:lang="fa">خطا در دریافت سفارش.</value>
+        <value xml:lang="fa">مشکل در دریافت سربرگ سفارش.</value>
         <value xml:lang="fr">Problèmes d'obtention d'en-tête de commande .</value>
         <value xml:lang="hi_IN">order header में समस्याएँ हो रही</value>
         <value xml:lang="it">Problemi nel ricavare la testata ordine.</value>
@@ -733,7 +733,7 @@
     </property>
     <property key="worldPayEvents.failedToExecuteServiceCreatePaymentFromPreference">
         <value xml:lang="en">Failed To Execute Service CreatePaymentFromPreference</value>
-        <value xml:lang="fa">شکست در اجراء خدمت CreatePaymentFromPreference</value>
+        <value xml:lang="fa">شکست در اجراء سرویس CreatePaymentFromPreference</value>
         <value xml:lang="fr">Échec sur l'execution du service de création d'un payment suivant les préférence (CreatePaymentFromPreference)</value>
         <value xml:lang="hi_IN">सर्विस CreatePaymentFromPreference पर अमल(execute) करने में असफल</value>
         <value xml:lang="it">Fallita esecuzione servizio CreatePaymentFromPreference</value>
@@ -744,7 +744,7 @@
     <property key="worldPayEvents.noValidOrderIdReturned">
         <value xml:lang="de">Es wurde keine valide BestellId zurückgegeben</value>    
         <value xml:lang="en">No Valid OrderId Returned</value>
-        <value xml:lang="fa">هیچ OrderId مورد تاییدی باز نگشت</value>
+        <value xml:lang="fa">هیچ «آی‌دی سفارش» معتبری بازنگشته</value>
         <value xml:lang="fr">Référence commande retournée n'est pas valide</value>
         <value xml:lang="hi_IN">मान्य OrderId वापस नहीं लौटा</value>
         <value xml:lang="it">Nessun numero ordine restituito</value>
@@ -754,7 +754,7 @@
     </property>
     <property key="worldPayEvents.problemsConnectingWithWorldPay">
         <value xml:lang="en">Problems Connecting With WorldPay</value>
-        <value xml:lang="fa">مشکل در تماس با WorldPay</value>
+        <value xml:lang="fa">مشکل در اتصال با WorldPay</value>
         <value xml:lang="fr">Problème rencontré dans la connexion avec WorldPay</value>
         <value xml:lang="hi_IN">WorldPay के साथ जोड़ने में समस्या</value>
         <value xml:lang="it">Problema nella connessione con WorldPay</value>
@@ -815,7 +815,7 @@
     </property>
     <property key="idealEvents.failedToExecuteServiceCreatePaymentFromPreference">
         <value xml:lang="en">Failed To Execute Service CreatePaymentFromPreference</value>
-        <value xml:lang="fa">شکست در اجراء خدمت CreatePaymentFromPreference</value>
+        <value xml:lang="fa">شکست در اجراء سرویس CreatePaymentFromPreference</value>
         <value xml:lang="fr">Échec sur l'execution du service de création d'un payment suivant les préférence (CreatePaymentFromPreference)</value>
         <value xml:lang="hi_IN">सर्विस CreatePaymentFromPreference पर अमल(execute) करने में असफल</value>
         <value xml:lang="it">Fallita esecuzione servizio CreatePaymentFromPreference</value>

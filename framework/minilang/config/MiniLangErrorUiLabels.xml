@@ -22,7 +22,7 @@
         <value xml:lang="de">Fehler beim Starten der Transaktion, Methode konnte nicht verarbeitet werden</value>
         <value xml:lang="en">Error trying to begin transaction, could not process method</value>
         <value xml:lang="es">Error trying to begin transaction, could not process method</value>
-        <value xml:lang="fa">خطا در زمان شروع تراکنش، نمی‌توان این روش را پردازش کرد</value>
+        <value xml:lang="fa">خطا در زمان شروع تراکنش، نمی‌توان این تابع را پردازش کرد</value>
         <value xml:lang="fr">La transaction ne peut débuter, une erreur est survenue</value>
         <value xml:lang="it">Errore provando a iniziare una transazione, non è possibile eseguire il metodo</value>
         <value xml:lang="ja">トランザクションの開始時にエラー、メソッドを処理できません</value>
@@ -36,7 +36,7 @@
         <value xml:lang="de">Fehler beim Ausführen der simple-method</value>
         <value xml:lang="en">Error running the simple-method</value>
         <value xml:lang="es">Error running the simple-method</value>
-        <value xml:lang="fa">خطا در اجراء روش‌ساده</value>
+        <value xml:lang="fa">خطا در اجراء تابع-ساده</value>
         <value xml:lang="fr">Erreur pendant la simple-method</value>
         <value xml:lang="it">Errore nell'esecuzione del metodo-semplice</value>
         <value xml:lang="ja">シンプルメソッド実行時エラー</value>
