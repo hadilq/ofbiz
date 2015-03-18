@@ -22,7 +22,7 @@ under the License.
 <table border="0" cellpadding="2" cellspacing="0">
 
 <tr>
-<td width="20%" align="right">
+<td width="20%" class="opposite-align-text">
 <span class="tableheadtext">${uiLabelMap.EcommerceEnterQueryParameters}</span>
 </td>
 <td>&nbsp;</td>
@@ -37,10 +37,10 @@ under the License.
 <tr>
   <table>
     <tr>
-      <td align="right" valign="middle">
+      <td class="opposite-align-text" valign="middle">
         <div>${uiLabelMap.ProductFeatures}:</div>
       </td>
-      <td align="right" valign="middle">
+      <td class="opposite-align-text" valign="middle">
         <div>
           ${uiLabelMap.CommonAll} <input type="radio" name="any_or_all" value="all" checked="checked" />
           ${uiLabelMap.CommonAny} <input type="radio" name="any_or_all" value="any" />
@@ -52,7 +52,7 @@ under the License.
       <#assign productFeatureType = delegator.findOne("ProductFeatureType", findPftMap, true)>
       <#assign productFeatures = productFeaturesByTypeMap[productFeatureTypeId]>
       <tr>
-        <td align="right" valign="middle">
+        <td class="opposite-align-text" valign="middle">
           <div>${(productFeatureType.get("description",locale))?if_exists}:</div>
         </td>
         <td valign="middle">
@@ -69,7 +69,7 @@ under the License.
     </#list>
     <#if searchConstraintStrings?has_content>
       <tr>
-        <td align="right" valign="top">
+        <td class="opposite-align-text" valign="top">
           <div>${uiLabelMap.ProductLastSearch}:</div>
         </td>
         <td valign="top">
@@ -84,7 +84,7 @@ under the License.
         </td>
       </tr>
     </#if>
-<td width="20%" align="right">
+<td width="20%" class="opposite-align-text">
 &nbsp;</td>
 <td>&nbsp;</td>
 <td width="80%" colspan="4">

@@ -126,7 +126,7 @@ function getPaymentInformation() {
           <table width="100%" border="0" cellpadding="1" cellspacing="0">
               <tr><td colspan="3"><div class="errorMessage" id="noPaymentMethodSelectedError"></div></td></tr>
               <tr>
-                 <td width="26%" align="right" valign="top"><div class="tableheadtext">${uiLabelMap.OrderSelectPaymentMethod}</div></td>
+                 <td width="26%" class="opposite-align-text" valign="top"><div class="tableheadtext">${uiLabelMap.OrderSelectPaymentMethod}</div></td>
                  <td colspan="2">
                    <select name="paymentMethodTypeOptionList" class="selectBox"  onchange="javascript:getPaymentInformation();">
                        <option value="none">Select One</option>
@@ -147,7 +147,7 @@ function getPaymentInformation() {
               <#-- gift card fields -->
               <#if productStorePaymentMethodTypeIdMap.GIFT_CARD?exists>
               <tr>
-                <td width='26%' nowrap="nowrap" align="right">
+                <td width='26%' nowrap="nowrap" class="opposite-align-text">
                   <input type="checkbox" id="addGiftCard" name="addGiftCard" value="Y" onclick="javascript:getGCInfo();"/>
                 </td>
                 <td colspan="2" nowrap="nowrap"><div>${uiLabelMap.AccountingCheckGiftCard}</div></td>

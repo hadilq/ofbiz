@@ -81,7 +81,7 @@ under the License.
                         <div><span style="white-space: nowrap;">${custRequest.lastModifiedDate?if_exists}</span></div>
                     </td>
                     <td width="10">&nbsp;</td>
-                    <td align="right">
+                    <td class="opposite-align-text">
                         <a href="<@ofbizUrl>/ViewRequest?custRequestId=${custRequest.custRequestId}</@ofbizUrl>" class="buttontext">${uiLabelMap.CommonView}</a>
                     </td>
                     <td width="10">&nbsp;</td>

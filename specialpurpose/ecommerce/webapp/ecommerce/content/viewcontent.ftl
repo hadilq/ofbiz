@@ -81,7 +81,7 @@ under the License.
     <@loopSubContent contentId=thisContentId viewIndex=0 viewSize=9999 contentAssocTypeId="RELATED_CONTENT">
       <#assign thisNodeTrailCsv = nodeTrailCsv />
       <tr>
-        <td colspan="3" align="right">
+        <td colspan="3" class="opposite-align-text">
           <a class="tabButton" href="<@ofbizUrl>viewcontent?contentId=${subContentId}&amp;nodeTrailCsv=${thisNodeTrailCsv?if_exists}</@ofbizUrl>" >${content.contentName?if_exists}</a>
         </td>
       </tr>

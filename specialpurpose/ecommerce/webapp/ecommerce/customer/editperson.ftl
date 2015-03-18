@@ -30,7 +30,7 @@ under the License.
   <input type="hidden" name="partyId" value="${person.partyId?if_exists}" />
   <table width="90%" border="0" cellpadding="2" cellspacing="0">
   <tr>
-    <td align="right">${uiLabelMap.CommonTitle}</td>
+    <td class="opposite-align-text">${uiLabelMap.CommonTitle}</td>
     <td>
       <select name="personalTitle" class="selectBox">
         <#if personData.personalTitle?has_content >
@@ -47,37 +47,37 @@ under the License.
     </td>
   </tr>
   <tr>
-    <td align="right">${uiLabelMap.PartyFirstName}</td>
+    <td class="opposite-align-text">${uiLabelMap.PartyFirstName}</td>
       <td>
         <input type="text" class='inputBox' size="30" maxlength="30" name="firstName" value="${personData.firstName?if_exists}"/>
       *</td>
     </tr>
     <tr>
-      <td align="right">${uiLabelMap.PartyMiddleInitial}</td>
+      <td class="opposite-align-text">${uiLabelMap.PartyMiddleInitial}</td>
       <td>
         <input type="text" class='inputBox' size="4" maxlength="4" name="middleName" value="${personData.middleName?if_exists}"/>
       </td>
     </tr>
     <tr>
-      <td align="right">${uiLabelMap.PartyLastName}</td>
+      <td class="opposite-align-text">${uiLabelMap.PartyLastName}</td>
       <td>
         <input type="text" class='inputBox' size="30" maxlength="30" name="lastName" value="${personData.lastName?if_exists}"/>
       *</td>
     </tr>
     <tr>
-      <td align="right">${uiLabelMap.PartySuffix}</td>
+      <td class="opposite-align-text">${uiLabelMap.PartySuffix}</td>
       <td>
         <input type="text" class='inputBox' size="10" maxlength="30" name="suffix" value="${personData.suffix?if_exists}"/>
       </td>
     </tr>
     <tr>
-      <td align="right">${uiLabelMap.PartyNickName}</td>
+      <td class="opposite-align-text">${uiLabelMap.PartyNickName}</td>
       <td>
         <input type="text" class='inputBox' size="30" maxlength="60" name="nickname" value="${personData.nickname?if_exists}"/>
       </td>
     </tr>
     <tr>
-      <td align="right">${uiLabelMap.PartyGender}</td>
+      <td class="opposite-align-text">${uiLabelMap.PartyGender}</td>
       <td>
         <select name="gender" class='selectBox'>
           <#if personData.gender?has_content >
@@ -95,33 +95,33 @@ under the License.
       </td>
     </tr>
     <tr>
-      <td align="right">${uiLabelMap.PartyBirthDate}</td>
+      <td class="opposite-align-text">${uiLabelMap.PartyBirthDate}</td>
       <td>
-        <input type="text" class='inputBox' size="11" maxlength="20" name="birthDate" value="${(Static["org.ofbiz.base.util.UtilDateTime"].toDateTimeFormat(context).format(personData.birthDate))?if_exists}"/>
+        <input type="text" class='inputBox' size="11" maxlength="20" name="birthDate" value="${(Static["org.ofbiz.base.util.UtilDateTime"].toDateTimeStringByContext(personData.birthDate, context))?if_exists}"/>
         <div>${uiLabelMap.CommonFormatDate}</div>
       </td>
     </tr>
     <tr>
-      <td align="right">${uiLabelMap.PartyHeight}</td>
+      <td class="opposite-align-text">${uiLabelMap.PartyHeight}</td>
       <td>
         <input type="text" class='inputBox' size="30" maxlength="60" name="height" value="${personData.height?if_exists}"/>
       </td>
     </tr>
     <tr>
-      <td align="right">${uiLabelMap.PartyWeight}</td>
+      <td class="opposite-align-text">${uiLabelMap.PartyWeight}</td>
       <td>
         <input type="text" class='inputBox' size="30" maxlength="60" name="weight" value="${personData.weight?if_exists}"/>
       </td>
     </tr>
 
     <tr>
-      <td align="right">${uiLabelMap.PartyMaidenName}</td>
+      <td class="opposite-align-text">${uiLabelMap.PartyMaidenName}</td>
       <td>
         <input type="text" class='inputBox' size="30" maxlength="60" name="mothersMaidenName" value="${personData.mothersMaidenName?if_exists}"/>
       </td>
     </tr>
     <tr>
-      <td align="right">${uiLabelMap.PartyMaritalStatus}</td>
+      <td class="opposite-align-text">${uiLabelMap.PartyMaritalStatus}</td>
       <td>
         <select name="maritalStatus" class='selectBox'>
           <#if personData.maritalStatus?has_content>
@@ -141,32 +141,32 @@ under the License.
       </td>
     </tr>
     <tr>
-      <td align="right">${uiLabelMap.PartySocialSecurityNumber}</td>
+      <td class="opposite-align-text">${uiLabelMap.PartySocialSecurityNumber}</td>
       <td>
         <input type="text" class='inputBox' size="30" maxlength="60" name="socialSecurityNumber" value="${personData.socialSecurityNumber?if_exists}"/>
       </td>
     </tr>
     <tr>
-      <td align="right">${uiLabelMap.PartyPassportNumber}</td>
+      <td class="opposite-align-text">${uiLabelMap.PartyPassportNumber}</td>
       <td>
         <input type="text" class='inputBox' size="30" maxlength="60" name="passportNumber" value="${personData.passportNumber?if_exists}"/>
       </td>
     </tr>
     <tr>
-      <td align="right">${uiLabelMap.PartyPassportExpireDate}</td>
+      <td class="opposite-align-text">${uiLabelMap.PartyPassportExpireDate}</td>
       <td>
         <input type="text" class='inputBox' size="11" maxlength="20" name="passportExpireDate" value="${personData.passportExpireDate?if_exists}"/>
         <div>${uiLabelMap.CommonFormatDate}</div>
       </td>
     </tr>
     <tr>
-      <td align="right">${uiLabelMap.PartyTotalYearsWorkExperience}</td>
+      <td class="opposite-align-text">${uiLabelMap.PartyTotalYearsWorkExperience}</td>
       <td>
         <input type="text" class='inputBox' size="30" maxlength="60" name="totalYearsWorkExperience" value="${personData.totalYearsWorkExperience?if_exists}"/>
       </td>
     </tr>
     <tr>
-      <td align="right">${uiLabelMap.CommonComment}</td>
+      <td class="opposite-align-text">${uiLabelMap.CommonComment}</td>
       <td>
         <input type="text" class='inputBox' size="30" maxlength="60" name="comments" value="${personData.comments?if_exists}"/>
       </td>

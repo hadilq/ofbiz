@@ -46,7 +46,7 @@ under the License.
       <table width="100%" border="0" cellpadding="0">
         <tr valign="bottom">
           <td width="35%"><span class="tableheadtext"><b>${uiLabelMap.OrderProduct}</b></span></td>
-          <td width="10%" align="right"><span class="tableheadtext"><b>${uiLabelMap.OrderQuantity}</b></span></td>
+          <td width="10%" class="opposite-align-text"><span class="tableheadtext"><b>${uiLabelMap.OrderQuantity}</b></span></td>
         </tr>
       <tr><td colspan="10"><hr /></td></tr>
       <#list shipmentItems as shipmentItem>
@@ -54,7 +54,7 @@ under the License.
         <#assign product = shipmentItem.getRelatedOne("Product", false)>
         <tr>
           <td colspan="1" valign="top"> ${productId?if_exists} - ${product.internalName?if_exists}</td>
-          <td align="right" valign="top"> ${shipmentItem.quantity?if_exists}</td>
+          <td class="opposite-align-text" valign="top"> ${shipmentItem.quantity?if_exists}</td>
         </tr>
       </#list>
       <tr><td colspan="10"><hr /></td></tr>

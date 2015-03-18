@@ -59,7 +59,7 @@ under the License.
       <td colspan="4">
         &nbsp;
       </td>
-      <td align="right">
+      <td class="opposite-align-text">
           <#if (requestParameters.checkoutpage)?has_content>
             <input type="hidden" name="checkoutpage" value="${requestParameters.checkoutpage}" />
           </#if>

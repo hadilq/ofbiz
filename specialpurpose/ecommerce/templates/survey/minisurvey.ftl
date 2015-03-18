@@ -45,7 +45,7 @@ under the License.
 
     <tr>
       <#-- standard question options -->
-      <td align='left'>
+      <td class="align-text">
         <div>${surveyQuestionAndAppl.question?if_exists}</div>
         <#if surveyQuestionAndAppl.hint?has_content>
           <div>${surveyQuestionAndAppl.hint}</div>

@@ -51,7 +51,7 @@ under the License.
       <#else>
 
         <#-- standard question options -->
-        <td align='right' nowrap="nowrap">
+        <td class="opposite-align-text" nowrap="nowrap">
           <#assign answerString = "answers">
           <#if (results._total?default(0) == 1)>
              <#assign answerString = "answer">

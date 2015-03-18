@@ -19,24 +19,24 @@ under the License.
 
 <table border="0" cellpadding="1">
   <tr>
-      <td align="right" width="25%"><div class="tableheadtext">Account Number:</div></td>
+      <td class="opposite-align-text" width="25%"><div class="tableheadtext">Account Number:</div></td>
       <td><div>${ownedFinAccount.finAccountId}</div></td>
   </tr>
   <tr>
-      <td align="right"><div class="tableheadtext">Currency:</div></td>
+      <td class="opposite-align-text"><div class="tableheadtext">Currency:</div></td>
       <td><div>${(accountCurrencyUom.description)?if_exists} [${ownedFinAccount.currencyUomId?if_exists}]</div></td>
   </tr>
   <tr>
-      <td align="right"><div class="tableheadtext">Date Opened:</div></td>
+      <td class="opposite-align-text"><div class="tableheadtext">Date Opened:</div></td>
       <td><div>${ownedFinAccount.fromDate?if_exists}</div></td>
   </tr>
   <tr>
-      <td align="right"><div class="tableheadtext">Status:</div></td>
+      <td class="opposite-align-text"><div class="tableheadtext">Status:</div></td>
       <td><div>${(finAccountStatusItem.description)?default("Active")}</div></td>
   </tr>
   <#if ownedFinAccount.replenishLevel?exists>
   <tr>
-      <td align="right"><div class="tableheadtext">Replenish Level:</div></td>
+      <td class="opposite-align-text"><div class="tableheadtext">Replenish Level:</div></td>
       <td><div>${ownedFinAccount.replenishLevel}</div></td>
   </tr>
   </#if>

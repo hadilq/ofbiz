@@ -101,12 +101,12 @@ under the License.
     <#assign targOp=pageTargOp/>
 </#if>
 <@checkPermission mode="equals" entityOperation="_CREATE" subContentId=contentDept statusId="CTNT_PUBLISHED" targetOperation=targOp contentPurposeList="ARTICLE" quickCheckContentId=contentIdx>
-<tr><td align="right">
+<tr><td class="opposite-align-text">
 <a class="tabButton" style="height:14pt;" href="<@ofbizUrl>createforumarticle?forumId=${contentIdx?if_exists}&amp;nodeTrailCsv=${contentIdx?if_exists}</@ofbizUrl>" >${uiLabelMap.ProductNewArticle}</a>
 </td></tr>
 </@checkPermission>
 <@checkPermission mode="not-equals" entityOperation="_CREATE" subContentId=contentDept statusId="CTNT_PUBLISHED" targetOperation=targOp contentPurposeList="ARTICLE" quickCheckContentId=contentIdx>
-<tr><td align="right">
+<tr><td class="opposite-align-text">
 ${uiLabelMap.EcommerceLoggedToPost}
 </td></tr>
 </@checkPermission>

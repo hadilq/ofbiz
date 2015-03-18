@@ -83,7 +83,7 @@ function shipBillAddr() {
           <table width="100%" border="0" cellpadding="1" cellspacing="0">
             <#if cart.getShippingContactMechId()?exists && paymentMethodTypeId?if_exists != "GIFT_CARD">
               <tr>
-                <td width="26%" align="right" valign="top">
+                <td width="26%" class="opposite-align-text" valign="top">
                   <input type="checkbox" name="useShipAddr" value="Y" onclick="javascript:shipBillAddr();" <#if useShipAddr?exists>checked="checked"</#if>/>
                 </td>
                 <td colspan="2" valign="middle">
@@ -97,7 +97,7 @@ function shipBillAddr() {
 
             <#if (paymentMethodTypeId?if_exists == "CREDIT_CARD" || paymentMethodTypeId?if_exists == "EFT_ACCOUNT")>
               <tr>
-                <td width="26%" align="right" valign="top"><div class="tableheadtext">${uiLabelMap.PartyBillingAddress}</div></td>
+                <td width="26%" class="opposite-align-text" valign="top"><div class="tableheadtext">${uiLabelMap.PartyBillingAddress}</div></td>
                 <td width="5">&nbsp;</td>
                 <td width="74%">&nbsp;</td>
               </tr>
@@ -113,7 +113,7 @@ function shipBillAddr() {
                 <td colspan="3"><hr /></td>
               </tr>
               <tr>
-                <td width="26%" align="right" valign="top"><div class="tableheadtext">${uiLabelMap.AccountingCreditCardInformation}</div></td>
+                <td width="26%" class="opposite-align-text" valign="top"><div class="tableheadtext">${uiLabelMap.AccountingCreditCardInformation}</div></td>
                 <td width="5">&nbsp;</td>
                 <td width="74%">&nbsp;</td>
               </tr>
@@ -130,40 +130,40 @@ function shipBillAddr() {
                 <td colspan="3"><hr /></td>
               </tr>
               <tr>
-                <td width="26%" align="right" valign="top"><div class="tableheadtext">${uiLabelMap.AccountingEFTAccountInformation}</div></td>
+                <td width="26%" class="opposite-align-text" valign="top"><div class="tableheadtext">${uiLabelMap.AccountingEFTAccountInformation}</div></td>
                 <td width="5">&nbsp;</td>
                 <td width="74%">&nbsp;</td>
               </tr>
               <tr>
-                <td width="26%" align="right" valign="middle"><div>${uiLabelMap.AccountingNameOnAccount}</div></td>
+                <td width="26%" class="opposite-align-text" valign="middle"><div>${uiLabelMap.AccountingNameOnAccount}</div></td>
                 <td width="5">&nbsp;</td>
                 <td width="74%">
                   <input type="text" class="inputBox" size="30" maxlength="60" name="nameOnAccount" value="${eftAccount.nameOnAccount?if_exists}"/>
                 *</td>
               </tr>
               <tr>
-                <td width="26%" align="right" valign="middle"><div>${uiLabelMap.AccountingCompanyNameOnAccount}</div></td>
+                <td width="26%" class="opposite-align-text" valign="middle"><div>${uiLabelMap.AccountingCompanyNameOnAccount}</div></td>
                 <td width="5">&nbsp;</td>
                 <td width="74%">
                   <input type="text" class="inputBox" size="30" maxlength="60" name="companyNameOnAccount" value="${eftAccount.companyNameOnAccount?if_exists}"/>
                 </td>
               </tr>
               <tr>
-                <td width="26%" align="right" valign="middle"><div>${uiLabelMap.AccountingBankName}</div></td>
+                <td width="26%" class="opposite-align-text" valign="middle"><div>${uiLabelMap.AccountingBankName}</div></td>
                 <td width="5">&nbsp;</td>
                 <td width="74%">
                   <input type="text" class="inputBox" size="30" maxlength="60" name="bankName" value="${eftAccount.bankName?if_exists}"/>
                 *</td>
               </tr>
               <tr>
-                <td width="26%" align="right" valign="middle"><div>${uiLabelMap.AccountingRoutingNumber}</div></td>
+                <td width="26%" class="opposite-align-text" valign="middle"><div>${uiLabelMap.AccountingRoutingNumber}</div></td>
                 <td width="5">&nbsp;</td>
                 <td width="74%">
                   <input type="text" class="inputBox" size="10" maxlength="30" name="routingNumber" value="${eftAccount.routingNumber?if_exists}"/>
                 *</td>
               </tr>
               <tr>
-                <td width="26%" align="right" valign="middle"><div>${uiLabelMap.AccountingAccountType}</div></td>
+                <td width="26%" class="opposite-align-text" valign="middle"><div>${uiLabelMap.AccountingAccountType}</div></td>
                 <td width="5">&nbsp;</td>
                 <td width="74%">
                   <select name="accountType" class="selectBox">
@@ -175,14 +175,14 @@ function shipBillAddr() {
                 *</td>
               </tr>
               <tr>
-                <td width="26%" align="right" valign="middle"><div>${uiLabelMap.AccountingAccountNumber}</div></td>
+                <td width="26%" class="opposite-align-text" valign="middle"><div>${uiLabelMap.AccountingAccountNumber}</div></td>
                 <td width="5">&nbsp;</td>
                 <td width="74%">
                   <input type="text" class="inputBox" size="20" maxlength="40" name="accountNumber" value="${eftAccount.accountNumber?if_exists}"/>
                 *</td>
               </tr>
               <tr>
-                <td width="26%" align="right" valign="middle"><div>${uiLabelMap.CommonDescription}</div></td>
+                <td width="26%" class="opposite-align-text" valign="middle"><div>${uiLabelMap.CommonDescription}</div></td>
                 <td width="5">&nbsp;</td>
                 <td width="74%">
                   <input type="text" class="inputBox" size="30" maxlength="60" name="description" value="${eftAccount.description?if_exists}"/>
@@ -200,26 +200,26 @@ function shipBillAddr() {
                 </tr>
               </#if>
               <tr>
-                <td width="26%" align="right" valign="top"><div class="tableheadtext">${uiLabelMap.AccountingGiftCardInformation}</div></td>
+                <td width="26%" class="opposite-align-text" valign="top"><div class="tableheadtext">${uiLabelMap.AccountingGiftCardInformation}</div></td>
                 <td width="5">&nbsp;</td>
                 <td width="74%">&nbsp;</td>
               </tr>
               <tr>
-                <td width="26%" align="right" valign="middle"><div>${uiLabelMap.AccountingGiftCardNumber}</div></td>
+                <td width="26%" class="opposite-align-text" valign="middle"><div>${uiLabelMap.AccountingGiftCardNumber}</div></td>
                 <td width="5">&nbsp;</td>
                 <td width="74%">
                   <input type="text" class="inputBox" size="20" maxlength="60" name="giftCardNumber" value="${giftCard.cardNumber?if_exists}"/>
                 *</td>
               </tr>
               <tr>
-                <td width="26%" align="right" valign="middle"><div>${uiLabelMap.AccountingPINNumber}</div></td>
+                <td width="26%" class="opposite-align-text" valign="middle"><div>${uiLabelMap.AccountingPINNumber}</div></td>
                 <td width="5">&nbsp;</td>
                 <td width="74%">
                   <input type="text" class="inputBox" size="10" maxlength="60" name="giftCardPin" value="${giftCard.pinNumber?if_exists}"/>
                 *</td>
               </tr>
               <tr>
-                <td width="26%" align="right" valign="middle"><div>${uiLabelMap.CommonDescription}</div></td>
+                <td width="26%" class="opposite-align-text" valign="middle"><div>${uiLabelMap.CommonDescription}</div></td>
                 <td width="5">&nbsp;</td>
                 <td width="74%">
                   <input type="text" class="inputBox" size="30" maxlength="60" name="description" value="${giftCard.description?if_exists}"/>
@@ -227,7 +227,7 @@ function shipBillAddr() {
               </tr>
               <#if paymentMethodTypeId?if_exists != "GIFT_CARD">
                 <tr>
-                  <td width="26%" align="right" valign="middle"><div>${uiLabelMap.AccountingAmountToUse}</div></td>
+                  <td width="26%" class="opposite-align-text" valign="middle"><div>${uiLabelMap.AccountingAmountToUse}</div></td>
                   <td width="5">&nbsp;</td>
                   <td width="74%">
                     <input type="text" class="inputBox" size="5" maxlength="10" name="giftCardAmount" value="${giftCard.pinNumber?if_exists}"/>

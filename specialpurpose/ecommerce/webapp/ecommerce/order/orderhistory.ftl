@@ -36,7 +36,7 @@ under the License.
           <#list orderHeaderList as orderHeader>
             <#assign status = orderHeader.getRelatedOne("StatusItem", true) />
             <tr>
-              <td>${Static["org.ofbiz.base.util.UtilDateTime"].toDateTimeFormat(context).format(orderHeader.orderDate)}</td>
+              <td>${Static["org.ofbiz.base.util.UtilDateTime"].toDateTimeStringByContext(orderHeader.orderDate, context)}</td>
               <td>${orderHeader.orderId}</td>
               <td><@ofbizCurrency amount=orderHeader.grandTotal isoCode=orderHeader.currencyUom /></td>
               <td>${status.get("description",locale)}</td>
@@ -78,7 +78,7 @@ under the License.
           <#list porderHeaderList as porderHeader>
             <#assign pstatus = porderHeader.getRelatedOne("StatusItem", true) />
             <tr>
-              <td>${Static["org.ofbiz.base.util.UtilDateTime"].toDateTimeFormat(context).format(porderHeader.orderDate)}</td>
+              <td>${Static["org.ofbiz.base.util.UtilDateTime"].toDateTimeStringByContext(porderHeader.orderDate, context)}</td>
               <td>${porderHeader.orderId}</td>
               <td><@ofbizCurrency amount=porderHeader.grandTotal isoCode=porderHeader.currencyUom /></td>
               <td>${pstatus.get("description",locale)}</td>
