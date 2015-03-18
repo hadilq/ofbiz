@@ -36,7 +36,7 @@ orderHeaderList.each { orderHeader ->
     exprList.add(EntityCondition.makeCondition("orderItemTypeId", EntityOperator.EQUALS, "PRODUCT_ORDER_ITEM"));
     exprList.add(EntityCondition.makeCondition("isPromo", EntityOperator.EQUALS, "N"));
     orderItemList = delegator.findList("OrderItem", EntityCondition.makeCondition(exprList, EntityOperator.AND), null, null, null, false);
-    
+
     orderItemList.each { orderItem ->
         orderItemDetail = [:];
         qtyOrdered = BigDecimal.ZERO;
@@ -47,7 +47,7 @@ orderHeaderList.each { orderHeader ->
         amount = BigDecimal.ZERO;;
         amount = qtyOrdered * orderItem.unitPrice;
         inListFlag = false
-        
+
         bestSellingProducts.each { bestSellingProduct ->
             if ((bestSellingProduct.productId).equals(orderItem.productId) && (bestSellingProduct.currencyUom).equals(orderHeader.currencyUom)) {
                 inListFlag = true;
@@ -55,7 +55,7 @@ orderHeaderList.each { orderHeader ->
                 bestSellingProduct.qtyOrdered += qtyOrdered;
             }
         }
-        
+
         if (inListFlag == false) {
             orderItemDetail.productId = orderItem.productId;
             product = delegator.findOne("Product", [productId : orderItem.productId], false);
@@ -98,4 +98,4 @@ while (itr <= 5) {
 
 context.bestSellingProducts = topSellingProducts;
 
-context.now = UtilDateTime.toDateString(UtilDateTime.nowDate());
+context.now = UtilDateTime.nowDateStringByContext(context);

@@ -39,19 +39,19 @@ under the License.
         <table width="100%" border="0" cellpadding="1">
           <tr><td>&nbsp;</td></tr>
           <tr>
-              <td align="right"><div class="tableheadtext">${uiLabelMap.CommonFrom}:</div></td>
+              <td class="opposite-align-text"><div class="tableheadtext">${uiLabelMap.CommonFrom}:</div></td>
               <td><div>${fromName?if_exists}</div></td>
           </tr>
           <tr>
-              <td align="right"><div class="tableheadtext">${uiLabelMap.CommonTo}:</div></td>
+              <td class="opposite-align-text"><div class="tableheadtext">${uiLabelMap.CommonTo}:</div></td>
               <td><div>${toName?if_exists}</div></td>
           </tr>
           <tr>
-              <td align="right"><div class="tableheadtext">${uiLabelMap.CommonDate}:</div></td>
+              <td class="opposite-align-text"><div class="tableheadtext">${uiLabelMap.CommonDate}:</div></td>
               <td><div>${communicationEvent.entryDate}</div></td>
           </tr>
           <tr>
-              <td align="right"><div class="tableheadtext">${uiLabelMap.EcommerceSubject}:</div></td>
+              <td class="opposite-align-text"><div class="tableheadtext">${uiLabelMap.EcommerceSubject}:</div></td>
               <td><div>&nbsp;${(communicationEvent.subject)?default("[${uiLabelMap.EcommerceNoSubject}]")}</div></td>
           </tr>
           <tr><td>&nbsp;</td></tr>

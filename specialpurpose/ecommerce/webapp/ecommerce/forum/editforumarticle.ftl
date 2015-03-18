@@ -26,7 +26,7 @@ under the License.
       <h1>${contentIdTo?if_exists}
       </h1>
     </td>
-    <td align="right">
+    <td class="opposite-align-text">
     </td>
   </tr>
 </table>
@@ -42,9 +42,9 @@ under the License.
    
     <div class="screenlet-body">
   <table>
-    <tr><td align="right" nowrap="nowrap"><div class='tabletext'><b>${uiLabelMap.ProductContentId}</b></div></td><td>&nbsp;</td><td><div class='tabletext'>${contentId?if_exists}</div></td></tr>
-    <tr><td align="right" nowrap="nowrap"><div class='tabletext'><b>${uiLabelMap.EcommerceContentName}</b></div></td><td>&nbsp;</td><td><div class='tabletext'>${contentName?if_exists}</div></td></tr>
-    <tr><td align="right" nowrap="nowrap"><div class='tabletext'><b>${uiLabelMap.CommonDescription}</b></div></td><td>&nbsp;</td><td><div class='tabletext'>${description?if_exists}<div></td></tr>
+    <tr><td class="opposite-align-text" nowrap="nowrap"><div class='tabletext'><b>${uiLabelMap.ProductContentId}</b></div></td><td>&nbsp;</td><td><div class='tabletext'>${contentId?if_exists}</div></td></tr>
+    <tr><td class="opposite-align-text" nowrap="nowrap"><div class='tabletext'><b>${uiLabelMap.EcommerceContentName}</b></div></td><td>&nbsp;</td><td><div class='tabletext'>${contentName?if_exists}</div></td></tr>
+    <tr><td class="opposite-align-text" nowrap="nowrap"><div class='tabletext'><b>${uiLabelMap.CommonDescription}</b></div></td><td>&nbsp;</td><td><div class='tabletext'>${description?if_exists}<div></td></tr>
   </table>
     </div>
 </div>
@@ -58,7 +58,7 @@ under the License.
     
     <div class="screenlet-body">
   <table>
-    <tr><td align="right" nowrap="nowrap"><div class='tabletext'>${uiLabelMap.EcommerceImage}</div></td><td>&nbsp;</td><td><div class='tabletext'>
+    <tr><td class="opposite-align-text" nowrap="nowrap"><div class='tabletext'>${uiLabelMap.EcommerceImage}</div></td><td>&nbsp;</td><td><div class='tabletext'>
         <img src="<@ofbizUrl>img?imgId=${imgDataResourceId?if_exists}</@ofbizUrl>" alt="" class='cssImgStandard' />
 <div></td></tr>
   </table>
@@ -86,7 +86,7 @@ ${summaryData?if_exists}
         <h3>&nbsp;${uiLabelMap.EcommerceArticleInformation}</h3>
     <div class="screenlet-body">
   <table width="100%" border="0" cellpadding="0" cellspacing='0'>
-    <tr><td align="right" nowrap="nowrap"><div class='tabletext'><b>Article</b></div></td><td>&nbsp;</td><td><div class='tabletext'>
+    <tr><td class="opposite-align-text" nowrap="nowrap"><div class='tabletext'><b>Article</b></div></td><td>&nbsp;</td><td><div class='tabletext'>
 ${textData?if_exists}
 <div></td></tr>
   </table>

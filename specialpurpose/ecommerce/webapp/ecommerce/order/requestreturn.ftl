@@ -40,7 +40,7 @@ under the License.
           <table border="0" width="100%" cellpadding="2" cellspacing="0">
             <tr>
               <td colspan="5"><h3>${uiLabelMap.OrderReturnItemsFromOrder} ${uiLabelMap.CommonNbr}<a href="<@ofbizUrl>orderstatus?orderId=${orderId}</@ofbizUrl>" class="buttontext">${orderId}</h3></td>
-              <td align="right">
+              <td class="opposite-align-text">
                 <span class="tableheadtext">${uiLabelMap.CommonSelectAll}</span>&nbsp;
                 <input type="checkbox" name="selectAll" value="Y" onclick="javascript:toggleAll(this, 'selectAllForm');"/>
               </td>
@@ -102,7 +102,7 @@ under the License.
                       </#list>
                     </select>
                   </td>
-                  <td align="right">
+                  <td class="opposite-align-text">
                     <input type="checkbox" name="_rowSubmit_o_${rowCount}" value="Y" onclick="javascript:checkToggle(this, 'selectAllForm');"/>
                   </td>
                 </tr>
@@ -121,7 +121,7 @@ under the License.
                     <#list shippingContactMechList as shippingContactMech>
                       <#assign shippingAddress = shippingContactMech.getRelatedOne("PostalAddress", false)>
                       <tr>
-                        <td align="right" width="1%" valign="top" nowrap="nowrap">
+                        <td class="opposite-align-text" width="1%" valign="top" nowrap="nowrap">
                           <input type="radio" name="originContactMechId" value="${shippingAddress.contactMechId}"/>
                         </td>
                         <td width="99%" valign="top" nowrap="nowrap">
@@ -144,7 +144,7 @@ under the License.
               </tr>
               <tr><td colspan="6"><hr /></td></tr>
               <tr>
-                <td colspan="6" align="right">
+                <td colspan="6" class="opposite-align-text">
                   <a href="javascript:document.selectAllForm.submit();" class="buttontext">${uiLabelMap.OrderReturnSelectedItems}</a>
                 </td>
               </tr>

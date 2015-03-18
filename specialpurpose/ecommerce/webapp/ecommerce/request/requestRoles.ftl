@@ -27,7 +27,7 @@ under the License.
             <#assign roleType = requestParty.getRelatedOne("RoleType", false)>
             <#assign party = requestParty.getRelatedOne("Party", false)>
               <tr>
-                  <td align="right" valign="top" width="15%" class="label">
+                  <td class="opposite-align-text" valign="top" width="15%" class="label">
                       &nbsp;${roleType.get("description", locale)?if_exists}
                   </td>
                   <td width="5%">&nbsp;</td>

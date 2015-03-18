@@ -80,7 +80,7 @@
 
 <table>
     <tr>
-        <td width="10%" align="right">
+        <td width="10%" class="opposite-align-text">
         <span class="treeHeader"> </span>
         </td>
         <td>&nbsp;</td>
@@ -91,13 +91,13 @@
         <td width="60%">
         <textarea class="textAreaBox" class="inputBox" name="textData" cols="60" rows="24">${textData?if_exists}</textarea>
         </td>
-        <td width="10%" align="right">
+        <td width="10%" class="opposite-align-text">
         <span class="treeHeader"> </span>
         </td>
     </tr>
 
     <tr>
-        <td width="10%" align="right">
+        <td width="10%" class="opposite-align-text">
             <span class="treeHeader"> </span>
         </td>
         <td>&nbsp;</td>
@@ -116,7 +116,7 @@
             Top-left:<input type="radio" ${topleft_check} class="inputBox" name="templateId" value="BLOG_TPL_TOPLEFT"/>
             &nbsp;Top-center:<input type="radio" ${topcenter_check} class="inputBox" name="templateId" value="BLOG_TPL_TOPCENTER"/>
         </td>
-        <td width="10%" align="right">
+        <td width="10%" class="opposite-align-text">
             <span class="treeHeader">&nbsp;</span>
         </td>
     </tr>

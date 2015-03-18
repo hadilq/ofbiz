@@ -38,7 +38,7 @@ under the License.
           <#assign result = dispatcher.runSync("getPublicForumMessage", Static["org.ofbiz.base.util.UtilMisc"].toMap("contentId", contentId, "userLogin", userLogin))/>
           <#if (result.resultData)?exists>
             <div class="tableheadtext">
-                ${uiLabelMap.CommonTitle}: ${result.resultData.content.description?if_exists} ${uiLabelMap.CommonBy}:${result.resultData.content.createdByUserLogin} ${uiLabelMap.CommonAt}: ${Static["org.ofbiz.base.util.UtilDateTime"].toDateTimeFormat(context).format(result.resultData.content.createdDate)}
+                ${uiLabelMap.CommonTitle}: ${result.resultData.content.description?if_exists} ${uiLabelMap.CommonBy}:${result.resultData.content.createdByUserLogin} ${uiLabelMap.CommonAt}: ${Static["org.ofbiz.base.util.UtilDateTime"].toDateTimeStringByContext(result.resultData.content.createdDate, context)}
                 <a href="addForumMessage?forumId=${parameters.forumId}&amp;forumMessageIdTo=${result.resultData.content.contentId}&amp;threadView=${parameters.threadView?if_exists}" class="buttontext">${uiLabelMap.PartyReply}</a>
             </div>
             <div>

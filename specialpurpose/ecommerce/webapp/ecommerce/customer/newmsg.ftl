@@ -50,7 +50,7 @@ under the License.
           </tr>
           <tr>
             <td width="5">&nbsp;</td>
-            <td align="right"><div class="tableheadtext">${uiLabelMap.CommonFrom}:</div></td>
+            <td class="opposite-align-text"><div class="tableheadtext">${uiLabelMap.CommonFrom}:</div></td>
             <td><div>&nbsp;${sessionAttributes.autoName?if_exists} [${userLogin.partyId}] (${uiLabelMap.CommonNotYou}?&nbsp;<a href="<@ofbizUrl>autoLogout</@ofbizUrl>" class="buttontext">${uiLabelMap.CommonClickHere}</a>)</div></td>
           </tr>
           <#if partyIdTo?has_content>
@@ -61,7 +61,7 @@ under the License.
             </tr>
             <tr>
               <td width="5">&nbsp;</td>
-              <td align="right"><div class="tableheadtext">${uiLabelMap.CommonTo}:</div></td>
+              <td class="opposite-align-text"><div class="tableheadtext">${uiLabelMap.CommonTo}:</div></td>
               <td><div>&nbsp;${partyToName}</div></td>
             </tr>
           </#if>
@@ -80,7 +80,7 @@ under the License.
           </#if>
           <tr>
             <td width="5">&nbsp;</td>
-            <td align="right"><div class="tableheadtext">${uiLabelMap.EcommerceSubject}:</div></td>
+            <td class="opposite-align-text"><div class="tableheadtext">${uiLabelMap.EcommerceSubject}:</div></td>
             <td><input type="input" class="inputBox" name="subject" size="20" value="${defaultSubject}"/>
           </tr>
           <tr>
@@ -88,7 +88,7 @@ under the License.
           </tr>
           <tr>
             <td width="5">&nbsp;</td>
-            <td align="right"><div class="tableheadtext">${uiLabelMap.CommonMessage}:</div></td>
+            <td class="opposite-align-text"><div class="tableheadtext">${uiLabelMap.CommonMessage}:</div></td>
             <td>&nbsp;</td>
           </tr>
           <tr>

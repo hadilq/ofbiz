@@ -16,6 +16,8 @@ KIND, either express or implied.  See the License for the
 specific language governing permissions and limitations
 under the License.
 -->
+<#assign dateFormat = Static["org.ofbiz.base.util.UtilDateTime"].getDateFormatByContext(context)>
+<#assign dateTimeFormat = Static["org.ofbiz.base.util.UtilDateTime"].getDateTimeFormatByContext(context)>
 
 <#macro renderField text>
   <#if text?exists>
@@ -130,14 +132,14 @@ under the License.
               initDate = initDate.substring(0, initDate.indexOf('.'));
             }
             jQuery("#${id}").val(initDate);
-            var ofbizTime = "<#if shortDateInput?? && shortDateInput>${Static["org.ofbiz.base.util.UtilDateTime"].getDateFormatByContext(context)}<#else>${Static["org.ofbiz.base.util.UtilDateTime"].getDateTimeFormatByContext(context)}</#if>";
+            var ofbizTime = "<#if shortDateInput?? && shortDateInput>${dateFormat}<#else>${dateTimeFormat}</#if>";
             var dateObj = Date.parseExact(initDate, ofbizTime);
             var formatedObj = dateObj.toString(dateFormat);
             jQuery("#${id}_i18n").val(formatedObj);
           }
 
           jQuery("#${id}").change(function() {
-            var ofbizTime = "<#if shortDateInput?exists && shortDateInput>${Static["org.ofbiz.base.util.UtilDateTime"].getDateFormatByContext(context)}<#else>${Static["org.ofbiz.base.util.UtilDateTime"].getDateTimeFormatByContext(context)}</#if>";
+            var ofbizTime = "<#if shortDateInput?exists && shortDateInput>${dateFormat}<#else>${dateTimeFormat}</#if>";
             var newValue = ""
             if (this.value != "") {
               var dateObj = Date.parseExact(this.value, ofbizTime);
@@ -152,7 +154,7 @@ under the License.
             dateObj = Date.parseExact(this.value, dateFormat),
             ofbizTime;
             if (this.value != "" && dateObj !== null) {
-              ofbizTime = "<#if shortDateInput?exists && shortDateInput>${Static["org.ofbiz.base.util.UtilDateTime"].getDateFormatByContext(context)}<#else>${Static["org.ofbiz.base.util.UtilDateTime"].getDateTimeFormatByContext(context)}</#if>";
+              ofbizTime = "<#if shortDateInput?exists && shortDateInput>${dateFormat}<#else>${dateTimeFormat}</#if>";
               newValue = dateObj.toString(ofbizTime);
             }
             else { // invalid input
@@ -787,9 +789,9 @@ Parameter: lastViewName, String, optional - If the ajaxEnabled parameter is true
 <#macro renderBanner style leftStyle rightStyle leftText text rightText>
   <table width="100%">
     <tr><#rt/>
-      <#if leftText?has_content><td align="left"><#if leftStyle?has_content><div class="${leftStyle}"></#if>${leftText}<#if leftStyle?has_content></div></#if></td><#rt/></#if>
+      <#if leftText?has_content><td class="align-text"><#if leftStyle?has_content><div class="${leftStyle}"></#if>${leftText}<#if leftStyle?has_content></div></#if></td><#rt/></#if>
       <#if text?has_content><td align="center"><#if style?has_content><div class="${style}"></#if>${text}<#if style?has_content></div></#if></td><#rt/></#if>
-      <#if rightText?has_content><td align="right"><#if rightStyle?has_content><div class="${rightStyle}"></#if>${rightText}<#if rightStyle?has_content></div></#if></td><#rt/></#if>
+      <#if rightText?has_content><td class="opposite-align-text"><#if rightStyle?has_content><div class="${rightStyle}"></#if>${rightText}<#if rightStyle?has_content></div></#if></td><#rt/></#if>
     </tr>
   </table>
 </#macro>

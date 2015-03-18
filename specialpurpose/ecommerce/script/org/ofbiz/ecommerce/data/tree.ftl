@@ -17,6 +17,7 @@ KIND, either express or implied.  See the License for the
 specific language governing permissions and limitations
 under the License.
 -->
+<#assign dateTimeFormat = Static["org.ofbiz.base.util.UtilDateTime"].getDateTimeFormatByContext(context)>
 
 <entity-engine-xml>
 <#recurse doc>
@@ -39,7 +40,7 @@ under the License.
         <#assign assocType="PUBLISH_LINK"/>
     </#if>
     <#assign nowStamp=Static["org.ofbiz.base.util.UtilDateTime"].nowTimestamp()/>
-    <ContentAssoc contentIdTo="${contentIdTo}" contentId="${contentId}" contentAssocTypeId="${assocType}" fromDate="${nowStamp?string("${Static["org.ofbiz.base.util.UtilDateTime"].getDateTimeFormatByContext(context)}")}"/>
+    <ContentAssoc contentIdTo="${contentIdTo}" contentId="${contentId}" contentAssocTypeId="${assocType}" fromDate="${nowStamp?string("${dateTimeFormat}")}"/>
 </#macro>
 
 <#macro @element>
