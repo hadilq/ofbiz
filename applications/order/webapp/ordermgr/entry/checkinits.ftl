@@ -50,7 +50,7 @@ under the License.
       <table width="100%" border="0" cellspacing="0" cellpadding="0">
         <tr>
           <td >&nbsp;</td>
-          <td width="300" align='right' valign='middle' nowrap="nowrap"><div class='tableheadtext'>${uiLabelMap.ProductProductStore}</div></td>
+          <td width="300" class="opposite-align-text" valign='middle' nowrap="nowrap"><div class='tableheadtext'>${uiLabelMap.ProductProductStore}</div></td>
           <td >&nbsp;</td>
           <td valign='middle'>
             <div class='tabletext'>
@@ -71,7 +71,7 @@ under the License.
         <tr><td colspan="4">&nbsp;</td></tr>
         <tr>
           <td>&nbsp;</td>
-          <td align='right' valign='middle' nowrap="nowrap"><div class='tableheadtext'>${uiLabelMap.OrderSalesChannel}</div></td>
+          <td class="opposite-align-text" valign='middle' nowrap="nowrap"><div class='tableheadtext'>${uiLabelMap.OrderSalesChannel}</div></td>
           <td>&nbsp;</td>
           <td valign='middle'>
             <div class='tabletext'>
@@ -97,7 +97,7 @@ under the License.
         </#if>
         <tr>
           <td>&nbsp;</td>
-          <td align='right' valign='middle' nowrap="nowrap"><div class='tableheadtext'>${uiLabelMap.CommonUserLoginId}</div></td>
+          <td class="opposite-align-text" valign='middle' nowrap="nowrap"><div class='tableheadtext'>${uiLabelMap.CommonUserLoginId}</div></td>
           <td>&nbsp;</td>
           <td valign='middle'>
             <div class='tabletext'>
@@ -107,7 +107,7 @@ under the License.
         </tr>
         <tr>
           <td>&nbsp;</td>
-          <td align='right' valign='middle' nowrap="nowrap"><div class='tableheadtext'>${uiLabelMap.OrderCustomer}</div></td>
+          <td class="opposite-align-text" valign='middle' nowrap="nowrap"><div class='tableheadtext'>${uiLabelMap.OrderCustomer}</div></td>
           <td>&nbsp;</td>
           <td valign='middle'>
             <div class='tabletext'>
@@ -146,7 +146,7 @@ under the License.
         </#if>
         <tr>
           <td>&nbsp;</td>
-          <td width="300" align='right' valign='middle' nowrap="nowrap"><div class='tableheadtext'>${uiLabelMap.OrderOrderEntryInternalOrganization}</div></td>
+          <td width="300" class="opposite-align-text" valign='middle' nowrap="nowrap"><div class='tableheadtext'>${uiLabelMap.OrderOrderEntryInternalOrganization}</div></td>
           <td>&nbsp;</td>
           <td valign='middle'>
             <div class='tabletext'>
@@ -164,7 +164,7 @@ under the License.
         <tr><td colspan="4">&nbsp;</td></tr>
         <tr>
           <td>&nbsp;</td>
-          <td align='right' valign='middle' nowrap="nowrap"><div class='tableheadtext'>${uiLabelMap.CommonUserLoginId}</div></td>
+          <td class="opposite-align-text" valign='middle' nowrap="nowrap"><div class='tableheadtext'>${uiLabelMap.CommonUserLoginId}</div></td>
           <td>&nbsp;</td>
           <td valign='middle'>
             <div class='tabletext'>
@@ -174,7 +174,7 @@ under the License.
         </tr>
         <tr>
           <td>&nbsp;</td>
-          <td align='right' valign='middle' nowrap="nowrap"><div class='tableheadtext'>${uiLabelMap.PartySupplier}</div></td>
+          <td class="opposite-align-text" valign='middle' nowrap="nowrap"><div class='tableheadtext'>${uiLabelMap.PartySupplier}</div></td>
           <td>&nbsp;</td>
           <td valign='middle'>
             <div class='tabletext'>

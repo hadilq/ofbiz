@@ -23,7 +23,7 @@ under the License.
       <td>
         <h2>${productCategory.categoryName?if_exists}</h2>
       </td>
-      <td align="right">
+      <td class="opposite-align-text">
         <form name="choosequickaddform" method="post" action="<@ofbizUrl>quickadd</@ofbizUrl>" style='margin: 0;'>
           <select name='category_id'>
             <option value='${productCategory.productCategoryId}'>${productCategory.categoryName?if_exists}</option>

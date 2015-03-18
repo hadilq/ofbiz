@@ -38,7 +38,7 @@ under the License.
                 <#assign enabled = uiLabelMap.PartyEnabled>
                 <#if (userUserLogin.enabled)?default("Y") == "N">
                   <#if userUserLogin.disabledDateTime?exists>
-                    <#assign disabledTime = Static["org.ofbiz.base.util.UtilDateTime"].toDateTimeFormat(context).format(userUserLogin.disabledDateTime)>
+                    <#assign disabledTime = Static["org.ofbiz.base.util.UtilDateTime"].toDateTimeStringByContext(userUserLogin.disabledDateTime, context)>
                   <#else>
                     <#assign disabledTime = "??">
                   </#if>

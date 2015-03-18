@@ -113,7 +113,7 @@ under the License.
                         <#if itemsAvailableToReceive>
                             <td>${uiLabelMap.CommonReceive}</td>
                             <td>${uiLabelMap.ProductInventoryItemType}</td>
-                            <td colspan="2" align="right">
+                            <td colspan="2" class="opposite-align-text">
                                 <div>${uiLabelMap.CommonAll}<input type="checkbox" name="selectAll" value="${uiLabelMap.CommonY}" onclick="javascript:toggleAll(this, 'selectAllForm');highlightAllRows(this, 'orderItemData_tableRow_', 'selectAllForm');" /></div>
                             </td>
                         </#if>
@@ -190,10 +190,10 @@ under the License.
                                       </#list>
                                     </select>
                                 </td>
-                                <td align="right">
+                                <td class="opposite-align-text">
                                     <a href="<@ofbizUrl>ReceiveInventoryAgainstPurchaseOrder?shipmentId=${shipmentId}&amp;purchaseOrderId=${orderId}&amp;productId=${product.productId}</@ofbizUrl>" class="buttontext">${uiLabelMap.CommonClear}</a>
                                 </td>
-                                <td align="right">
+                                <td class="opposite-align-text">
                                   <input type="checkbox" name="_rowSubmit_o_${rowCount}" value="Y" onclick="javascript:checkToggle(this, 'selectAllForm');highlightRow(this,'orderItemData_tableRow_${rowCount}');" />
                                 </td>
                                 <#assign rowCount = rowCount + 1>
@@ -204,15 +204,15 @@ under the License.
                     </#list>
                     <#if itemsAvailableToReceive>
                         <tr>
-                            <td colspan="11" align="right">
+                            <td colspan="11" class="opposite-align-text">
                                 <a href="<@ofbizUrl>ReceiveInventoryAgainstPurchaseOrder?shipmentId=${shipmentId}&amp;purchaseOrderId=${orderId}&amp;clearAll=Y</@ofbizUrl>" class="buttontext">${uiLabelMap.CommonClearAll}</a>
                             </td>
-                            <td align="right">
+                            <td class="opposite-align-text">
                                 <a class="smallSubmit" href="javascript:populateQuantities(${rowCount - 1});document.selectAllForm.submit();">${uiLabelMap.ProductReceiveItem}</a>
                             </td>
                         </tr>
                         <tr>
-                            <td colspan="12" align="right">
+                            <td colspan="12" class="opposite-align-text">
                                 <a class="smallSubmit" href="<@ofbizUrl>completePurchaseOrder?orderId=${orderId}&amp;facilityId=${facilityId}&amp;shipmentId=${shipmentId}</@ofbizUrl>">${uiLabelMap.OrderForceCompletePurchaseOrder}</a>
                             </td>
                         </tr>

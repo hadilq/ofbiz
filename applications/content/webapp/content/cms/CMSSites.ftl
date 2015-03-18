@@ -42,7 +42,7 @@ function call_fieldlookup4(rootForumId, parentForumId ) {
       <form name="userform" method="post" action="<@ofbizUrl>CMSSites</@ofbizUrl>" >
       <table width='100%' border='0' cellspacing='0' cellpadding='0' class='appTitle'>
         <tr>
-          <td colspan="1" valign="middle" align="right">
+          <td colspan="1" valign="middle" class="opposite-align-text">
             <div class="boxhead">&nbsp; Root Site ID&nbsp;&nbsp; </div>
           </td>
           <td valign="middle">
@@ -50,7 +50,7 @@ function call_fieldlookup4(rootForumId, parentForumId ) {
              <input type="text" name="rootForumId" size="20" value="${rootForumId?if_exists}"/>
             </div>
           </td>
-          <td valign="middle" align="right">
+          <td valign="middle" class="opposite-align-text">
             <a href="javascript:document.userform.submit()" class="submenutextright">Refresh</a>
           </td>
         </tr>

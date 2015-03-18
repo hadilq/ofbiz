@@ -29,7 +29,7 @@ under the License.
 
     <table border='0' cellpadding='2' cellspacing='0'>
       <tr>
-        <td width="26%" align="right" valign="middle"><b>${uiLabelMap.CommonPaymentMethodType}</b></td>
+        <td width="26%" class="opposite-align-text" valign="middle"><b>${uiLabelMap.CommonPaymentMethodType}</b></td>
         <td width="5">&nbsp;</td>
         <td width='74%'>
           <#if paymentMethodType?has_content>
@@ -43,7 +43,7 @@ under the License.
         </td>
       </tr>
       <tr>
-        <td width="26%" align="right" valign="middle"><b>${uiLabelMap.ProductProductStore}</b></td>
+        <td width="26%" class="opposite-align-text" valign="middle"><b>${uiLabelMap.ProductProductStore}</b></td>
         <td width="5">&nbsp;</td>
         <td width='74%'>
           <#if currentStore?has_content>
@@ -59,7 +59,7 @@ under the License.
         </td>
       </tr>
       <tr>
-        <td width="26%" align="right" valign="middle"><b>${uiLabelMap.AccountingTransactionType}</b></td>
+        <td width="26%" class="opposite-align-text" valign="middle"><b>${uiLabelMap.AccountingTransactionType}</b></td>
         <td width="5">&nbsp;</td>
         <td width='74%'>
           <#if currentTx?has_content>
@@ -88,7 +88,7 @@ under the License.
         <tr><td colspan="3"><hr/></td></tr>
         <#-- amount field -->
         <tr>
-          <td width="26%" align="right" valign="middle"><b>${uiLabelMap.CommonAmount}</b></td>
+          <td width="26%" class="opposite-align-text" valign="middle"><b>${uiLabelMap.CommonAmount}</b></td>
           <td width="5">&nbsp;</td>
           <td width="74%">
             <input type="text" size="20" maxlength="30" name="amount" />
@@ -97,7 +97,7 @@ under the License.
         </tr>
         <#-- submit button -->
         <tr>
-          <td width="26%" align="right" valign="middle">&nbsp;</td>
+          <td width="26%" class="opposite-align-text" valign="middle">&nbsp;</td>
           <td width="5">&nbsp;</td>
           <td width="74%">
             <input type="submit" value="${uiLabelMap.CommonSubmit}" />

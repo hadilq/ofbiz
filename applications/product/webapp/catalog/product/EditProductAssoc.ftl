@@ -16,6 +16,7 @@ KIND, either express or implied.  See the License for the
 specific language governing permissions and limitations
 under the License.
 -->
+<#assign dateTimeFormat = Static["org.ofbiz.base.util.UtilDateTime"].getDateTimeFormatByContext(context)>
 <div class="screenlet">
     <div class="screenlet-title-bar">
         <h3>${uiLabelMap.PageTitleEditProductAssociations}</h3>
@@ -30,17 +31,17 @@ under the License.
                 <input type="hidden" name="UPDATE_MODE" value="CREATE" />
                 <table cellspacing="0" class="basic-table">
                 <tr>
-                <td align="right" class="label">${uiLabelMap.ProductProductId}</td>
+                <td class="opposite-align-text" class="label">${uiLabelMap.ProductProductId}</td>
                 <td>&nbsp;</td>
                 <td><input type="text" name="PRODUCT_ID" size="20" maxlength="40" value="${productId?if_exists}" /></td>
                 </tr>
                 <tr>
-                <td align="right" class="label">${uiLabelMap.ProductProductIdTo}</td>
+                <td class="opposite-align-text" class="label">${uiLabelMap.ProductProductIdTo}</td>
                 <td>&nbsp;</td>
                 <td><input type="text" name="PRODUCT_ID_TO" size="20" maxlength="40" value="${productIdTo?if_exists}" /></td>
                 </tr>
                 <tr>
-                <td align="right" class="label">${uiLabelMap.ProductAssociationTypeId}</td>
+                <td class="opposite-align-text" class="label">${uiLabelMap.ProductAssociationTypeId}</td>
                 <td>&nbsp;</td>
                 <td>
                     <select name="PRODUCT_ASSOC_TYPE_ID" size="1">
@@ -58,11 +59,11 @@ under the License.
                 </td>
                 </tr>
                 <tr>
-                <td align="right" class="label">${uiLabelMap.CommonFromDate}</td>
+                <td class="opposite-align-text" class="label">${uiLabelMap.CommonFromDate}</td>
                 <td>&nbsp;</td>
                 <td>
                     <div>
-                        <@htmlTemplate.renderDateTimeField name="FROM_DATE" event="" action="" value="${fromDate?if_exists}" className="" alert="" title="Format: ${Static["org.ofbiz.base.util.UtilDateTime"].getDateTimeFormatByContext(context)}" size="25" maxlength="30" id="fromDate1" dateType="date" shortDateInput=false timeDropdownParamName="" defaultDateTimeString="" localizedIconTitle="" timeDropdown="" timeHourName="" classString="" hour1="" hour2="" timeMinutesName="" minutes="" isTwelveHour="" ampmName="" amSelected="" pmSelected="" compositeType="" formName=""/>
+                        <@htmlTemplate.renderDateTimeField name="FROM_DATE" event="" action="" value="${fromDate?if_exists}" className="" alert="" title="Format: ${dateTimeFormat}" size="25" maxlength="30" id="fromDate1" dateType="date" shortDateInput=false timeDropdownParamName="" defaultDateTimeString="" localizedIconTitle="" timeDropdown="" timeHourName="" classString="" hour1="" hour2="" timeMinutesName="" minutes="" isTwelveHour="" ampmName="" amSelected="" pmSelected="" compositeType="" formName=""/>
                         ${uiLabelMap.CommonSetNowEmpty}
                     </div>
                 </td>
@@ -71,19 +72,19 @@ under the License.
                 <input type="hidden" name="UPDATE_MODE" value="CREATE" />
                 <table cellspacing="0" class="basic-table">
                 <tr>
-                <td align="right" class="label">${uiLabelMap.ProductProductId}</td>
+                <td class="opposite-align-text" class="label">${uiLabelMap.ProductProductId}</td>
                 <td>&nbsp;</td>
                 <td><input type="text" name="PRODUCT_ID" size="20" maxlength="40" value="${productId?if_exists}" /></td>
                 </tr>
                 <tr>
-                <td align="right" class="label">${uiLabelMap.ProductProductIdTo}</td>
+                <td class="opposite-align-text" class="label">${uiLabelMap.ProductProductIdTo}</td>
                 <td>&nbsp;</td>
                 <td>
                   <@htmlTemplate.lookupField formName="editProductAssocForm" name="PRODUCT_ID_TO" id="PRODUCT_ID_TO" fieldFormName="LookupProduct"/>
                 </td>
                 </tr>
                 <tr>
-                <td align="right" class="label">${uiLabelMap.ProductAssociationTypeId}</td>
+                <td class="opposite-align-text" class="label">${uiLabelMap.ProductAssociationTypeId}</td>
                 <td>&nbsp;</td>
                 <td>
                     <select name="PRODUCT_ASSOC_TYPE_ID" size="1">
@@ -95,12 +96,12 @@ under the License.
                 </td>
                 </tr>
                 <tr>
-                <td align="right" class="label">${uiLabelMap.CommonFromDate}</td>
+                <td class="opposite-align-text" class="label">${uiLabelMap.CommonFromDate}</td>
                 <td>&nbsp;</td>
                 <td>
                     <div>
                         ${fromDate?if_exists}
-                        <@htmlTemplate.renderDateTimeField name="FROM_DATE" event="" action="" value="${fromDate?if_exists}" className="" alert="" title="Format: ${Static["org.ofbiz.base.util.UtilDateTime"].getDateTimeFormatByContext(context)}" size="25" maxlength="30" id="fromDate2" dateType="date" shortDateInput=false timeDropdownParamName="" defaultDateTimeString="" localizedIconTitle="" timeDropdown="" timeHourName="" classString="" hour1="" hour2="" timeMinutesName="" minutes="" isTwelveHour="" ampmName="" amSelected="" pmSelected="" compositeType="" formName=""/>
+                        <@htmlTemplate.renderDateTimeField name="FROM_DATE" event="" action="" value="${fromDate?if_exists}" className="" alert="" title="Format: ${dateTimeFormat}" size="25" maxlength="30" id="fromDate2" dateType="date" shortDateInput=false timeDropdownParamName="" defaultDateTimeString="" localizedIconTitle="" timeDropdown="" timeHourName="" classString="" hour1="" hour2="" timeMinutesName="" minutes="" isTwelveHour="" ampmName="" amSelected="" pmSelected="" compositeType="" formName=""/>
                         ${uiLabelMap.CommonSetNowEmpty}
                     </div>
                 </td>
@@ -116,28 +117,28 @@ under the License.
             <input type="hidden" name="FROM_DATE" value="${fromDate?if_exists}" />
             <table cellspacing="0" class="basic-table">
             <tr>
-                <td align="right" class="label">${uiLabelMap.ProductProductId}</td>
+                <td class="opposite-align-text" class="label">${uiLabelMap.ProductProductId}</td>
                 <td>&nbsp;</td>
                 <td><b>${productId?if_exists}</b> ${uiLabelMap.ProductRecreateAssociation}</td>
             </tr>
             <tr>
-                <td align="right" class="label">${uiLabelMap.ProductProductIdTo}</td>
+                <td class="opposite-align-text" class="label">${uiLabelMap.ProductProductIdTo}</td>
                 <td>&nbsp;</td>
                 <td><b>${productIdTo?if_exists}</b> ${uiLabelMap.ProductRecreateAssociation}</td>
             </tr>
             <tr>
-                <td align="right" class="label">${uiLabelMap.ProductAssociationType}</td>
+                <td class="opposite-align-text" class="label">${uiLabelMap.ProductAssociationType}</td>
                 <td>&nbsp;</td>
                 <td><b><#if curProductAssocType?exists>${(curProductAssocType.get("description",locale))?if_exists}<#else> ${productAssocTypeId?if_exists}</#if></b> ${uiLabelMap.ProductRecreateAssociation}</td>
             </tr>
             <tr>
-                <td align="right" class="label">${uiLabelMap.CommonFromDate}</td>
+                <td class="opposite-align-text" class="label">${uiLabelMap.CommonFromDate}</td>
                 <td>&nbsp;</td>
                 <td><b>${fromDate?if_exists}</b> ${uiLabelMap.ProductRecreateAssociation}</td>
             </tr>
         </#if>
         <tr>
-            <td width="26%" align="right" class="label">${uiLabelMap.CommonThruDate}</td>
+            <td width="26%" class="opposite-align-text" class="label">${uiLabelMap.CommonThruDate}</td>
             <td>&nbsp;</td>
             <td width="74%">
             <div>
@@ -146,29 +147,29 @@ under the License.
               <#else>
                 <#assign value = (request.getParameter("THRU_DATE"))?if_exists>
               </#if>
-                <@htmlTemplate.renderDateTimeField name="THRU_DATE" event="" action="" value="${value}" className="" alert="" title="Format: ${Static["org.ofbiz.base.util.UtilDateTime"].getDateTimeFormatByContext(context)}" size="25" maxlength="30" id="thruDate1" dateType="date" shortDateInput=false timeDropdownParamName="" defaultDateTimeString="" localizedIconTitle="" timeDropdown="" timeHourName="" classString="" hour1="" hour2="" timeMinutesName="" minutes="" isTwelveHour="" ampmName="" amSelected="" pmSelected="" compositeType="" formName=""/>
+                <@htmlTemplate.renderDateTimeField name="THRU_DATE" event="" action="" value="${value}" className="" alert="" title="Format: ${dateTimeFormat}" size="25" maxlength="30" id="thruDate1" dateType="date" shortDateInput=false timeDropdownParamName="" defaultDateTimeString="" localizedIconTitle="" timeDropdown="" timeHourName="" classString="" hour1="" hour2="" timeMinutesName="" minutes="" isTwelveHour="" ampmName="" amSelected="" pmSelected="" compositeType="" formName=""/>
             </div>
             </div>
             </td>
         </tr>
         <tr>
-            <td width="26%" align="right" class="label">${uiLabelMap.ProductSequenceNum}</td>
+            <td width="26%" class="opposite-align-text" class="label">${uiLabelMap.ProductSequenceNum}</td>
             <td>&nbsp;</td>
             <td width="74%"><input type="text" name="SEQUENCE_NUM" <#if useValues>value="${(productAssoc.sequenceNum)?if_exists}"<#else>value="${(request.getParameter("SEQUENCE_NUM"))?if_exists}"</#if> size="5" maxlength="10" /></td>
         </tr>
         <tr>
-            <td width="26%" align="right" class="label">${uiLabelMap.ProductReason}</td>
+            <td width="26%" class="opposite-align-text" class="label">${uiLabelMap.ProductReason}</td>
             <td>&nbsp;</td>
             <td width="74%"><input type="text" name="REASON" <#if useValues>value="${(productAssoc.reason)?if_exists}"<#else>value="${(request.getParameter("REASON"))?if_exists}"</#if> size="60" maxlength="255" /></td>
         </tr>
         <tr>
-            <td width="26%" align="right" class="label">${uiLabelMap.ProductInstruction}</td>
+            <td width="26%" class="opposite-align-text" class="label">${uiLabelMap.ProductInstruction}</td>
             <td>&nbsp;</td>
             <td width="74%"><input type="text" name="INSTRUCTION" <#if useValues>value="${(productAssoc.instruction)?if_exists}"<#else>value="${(request.getParameter("INSTRUCTION"))?if_exists}"</#if> size="60" maxlength="255" /></td>
         </tr>
 
         <tr>
-            <td width="26%" align="right" class="label">${uiLabelMap.ProductQuantity}</td>
+            <td width="26%" class="opposite-align-text" class="label">${uiLabelMap.ProductQuantity}</td>
             <td>&nbsp;</td>
             <td width="74%"><input type="text" name="QUANTITY" <#if useValues>value="${(productAssoc.quantity)?if_exists}"<#else>value="${(request.getParameter("QUANTITY"))?if_exists}"</#if> size="10" maxlength="15" /></td>
         </tr>

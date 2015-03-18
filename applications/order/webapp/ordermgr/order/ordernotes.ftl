@@ -46,7 +46,7 @@ under the License.
                   <td valign="top" width="50%">
                     ${note.noteInfo?replace("\n", "<br/>")}
                   </td>
-                  <td align="right" valign="top" width="15%">
+                  <td class="opposite-align-text" valign="top" width="15%">
                     <#if note.internalNote?if_exists == "N">
                         ${uiLabelMap.OrderPrintableNote}
                         <form name="privateNotesForm_${note_index}" method="post" action="<@ofbizUrl>updateOrderNote</@ofbizUrl>">

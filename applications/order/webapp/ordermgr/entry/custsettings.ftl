@@ -27,35 +27,35 @@ under the License.
           <td>
             <table width="100%" border="0" cellpadding="1" cellspacing="0">
               <tr>
-                <td width="26%" align="right"><div>${uiLabelMap.CommonTitle}</div></td>
+                <td width="26%" class="opposite-align-text"><div>${uiLabelMap.CommonTitle}</div></td>
                 <td width="5">&nbsp;</td>
                 <td width="74%">
                   <input type="text" name="personalTitle" value="${requestParameters.personalTitle?if_exists}" size="10" maxlength="30"/>
                 </td>
               </tr>
               <tr>
-                <td width="26%" align="right"><div>${uiLabelMap.PartyFirstName}</div></td>
+                <td width="26%" class="opposite-align-text"><div>${uiLabelMap.PartyFirstName}</div></td>
                 <td width="5">&nbsp;</td>
                 <td width="74%">
                   <input type="text" name="firstName" value="${requestParameters.firstName?if_exists}" size="30" maxlength="30"/>
                 *</td>
               </tr>
               <tr>
-                <td width="26%" align="right"><div>${uiLabelMap.PartyMiddleInitial}</div></td>
+                <td width="26%" class="opposite-align-text"><div>${uiLabelMap.PartyMiddleInitial}</div></td>
                 <td width="5">&nbsp;</td>
                 <td width="74%">
                   <input type="text" name="middleName" value="${requestParameters.middleName?if_exists}" size="4" maxlength="4"/>
                 </td>
               </tr>
               <tr>
-                <td width="26%" align="right"><div>${uiLabelMap.PartyLastName}</div></td>
+                <td width="26%" class="opposite-align-text"><div>${uiLabelMap.PartyLastName}</div></td>
                 <td width="5">&nbsp;</td>
                 <td width="74%">
                   <input type="text" name="lastName" value="${requestParameters.lastName?if_exists}" size="30" maxlength="30"/>
                 *</td>
               </tr>
               <tr>
-                <td width="26%" align="right"><div>${uiLabelMap.PartySuffix}</div></td>
+                <td width="26%" class="opposite-align-text"><div>${uiLabelMap.PartySuffix}</div></td>
                 <td width="5">&nbsp;</td>
                 <td width="74%">
                   <input type="text" name="suffix" value="${requestParameters.suffix?if_exists}" size="10" maxlength="30"/>
@@ -65,7 +65,7 @@ under the License.
                 <td colspan="3">&nbsp;</td>
               </tr>
               <tr>
-                <td width="26%" align="right"><div>${uiLabelMap.PartyHomePhone}<br/>${uiLabelMap.OrderAllowSolicitation}</div></td>
+                <td width="26%" class="opposite-align-text"><div>${uiLabelMap.PartyHomePhone}<br/>${uiLabelMap.OrderAllowSolicitation}</div></td>
                 <td width="5">&nbsp;</td>
                 <td width="74%">
                   <input type="text" name="homeCountryCode" value="${requestParameters.homeCountryCode?if_exists}" size="4" maxlength="10"/>
@@ -83,7 +83,7 @@ under the License.
                 </td>
               </tr>
               <tr>
-                <td width="26%" align="right"><div>${uiLabelMap.PartyBusinessPhone}<br/>${uiLabelMap.OrderAllowSolicitation}</div></td>
+                <td width="26%" class="opposite-align-text"><div>${uiLabelMap.PartyBusinessPhone}<br/>${uiLabelMap.OrderAllowSolicitation}</div></td>
                 <td width="5">&nbsp;</td>
                 <td width="74%">
                   <input type="text" name="workCountryCode" value="${requestParameters.CUSTOMER_WORK_COUNTRY?if_exists}" size="4" maxlength="10"/>
@@ -104,7 +104,7 @@ under the License.
                 <td colspan="3">&nbsp;</td>
               </tr>
               <tr>
-                <td width="26%" align="right"><div>${uiLabelMap.PartyEmailAddress}<br/>${uiLabelMap.OrderAllowSolicitation}</div></td>
+                <td width="26%" class="opposite-align-text"><div>${uiLabelMap.PartyEmailAddress}<br/>${uiLabelMap.OrderAllowSolicitation}</div></td>
                 <td width="5">&nbsp;</td>
                 <td width="74%">
                   <input type="text" name="emailAddress" value="" size="60" maxlength="255" />
@@ -122,7 +122,7 @@ under the License.
                 <td colspan="3">&nbsp;</td>
               </tr>
               <tr>
-                <td width="26%" align="right"><div>${uiLabelMap.CommonUsername}</div></td>
+                <td width="26%" class="opposite-align-text"><div>${uiLabelMap.CommonUsername}</div></td>
                 <td width="5">&nbsp;</td>
                 <td width="74%">
                   <input type="text" name="userLoginId" value="${requestParameters.USERNAME?if_exists}" size="20" maxlength="250"/>

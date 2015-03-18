@@ -29,7 +29,7 @@ under the License.
                 <#assign party = quoteRole.getRelatedOne("Party", false)>
                 <#assign rolePartyNameResult = dispatcher.runSync("getPartyNameForDate", Static["org.ofbiz.base.util.UtilMisc"].toMap("partyId", quoteRole.partyId, "compareDate", quote.issueDate, "userLogin", userLogin))/>
                 <tr>
-                    <td align="right" valign="top" width="15%" class="label">
+                    <td class="opposite-align-text" valign="top" width="15%" class="label">
                         &nbsp;${roleType.get("description",locale)?if_exists}
                     </td>
                     <td width="5%">&nbsp;</td>

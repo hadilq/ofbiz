@@ -99,7 +99,7 @@ under the License.
         <table class="basic-table" cellspacing='0'>
             <#if orderHeader.orderName?has_content>
             <tr>
-              <td align="right" valign="top" width="15%" class="label">&nbsp;${uiLabelMap.OrderOrderName}</td>
+              <td class="opposite-align-text" valign="top" width="15%" class="label">&nbsp;${uiLabelMap.OrderOrderName}</td>
               <td width="5%">&nbsp;</td>
               <td valign="top" width="80%">${orderHeader.orderName}</td>
             </tr>
@@ -107,7 +107,7 @@ under the License.
             </#if>
             <#-- order status history -->
             <tr>
-              <td align="right" valign="top" width="15%" class="label">&nbsp;${uiLabelMap.OrderStatusHistory}</td>
+              <td class="opposite-align-text" valign="top" width="15%" class="label">&nbsp;${uiLabelMap.OrderStatusHistory}</td>
               <td width="5%">&nbsp;</td>
               <td valign="top" width="80%"<#if currentStatus.statusCode?has_content> class="${currentStatus.statusCode}"</#if>>
                 <span class="current-status">${uiLabelMap.OrderCurrentStatus}: ${currentStatus.get("description",locale)}</span>
@@ -127,27 +127,27 @@ under the License.
             </tr>
             <tr><td colspan="3"><hr /></td></tr>
             <tr>
-              <td align="right" valign="top" width="15%" class="label">&nbsp;${uiLabelMap.OrderDateOrdered}</td>
+              <td class="opposite-align-text" valign="top" width="15%" class="label">&nbsp;${uiLabelMap.OrderDateOrdered}</td>
               <td width="5%">&nbsp;</td>
               <td valign="top" width="80%"><#if orderHeader.orderDate?has_content>${Static["org.ofbiz.base.util.UtilFormatOut"].formatDateTime(orderHeader.orderDate, "", locale, timeZone)!}</#if></td>
             </tr>
             <tr><td colspan="3"><hr /></td></tr>
             <tr>
-              <td align="right" valign="top" width="15%" class="label">&nbsp;${uiLabelMap.CommonCurrency}</td>
+              <td class="opposite-align-text" valign="top" width="15%" class="label">&nbsp;${uiLabelMap.CommonCurrency}</td>
               <td width="5%">&nbsp;</td>
               <td valign="top" width="80%">${orderHeader.currencyUom?default("???")}</td>
             </tr>
             <#if orderHeader.internalCode?has_content>
             <tr><td colspan="3"><hr /></td></tr>
             <tr>
-              <td align="right" valign="top" width="15%" class="label">&nbsp;${uiLabelMap.OrderInternalCode}</td>
+              <td class="opposite-align-text" valign="top" width="15%" class="label">&nbsp;${uiLabelMap.OrderInternalCode}</td>
               <td width="5%">&nbsp;</td>
               <td valign="top" width="80%">${orderHeader.internalCode}</td>
             </tr>
             </#if>
             <tr><td colspan="3"><hr /></td></tr>
             <tr>
-              <td align="right" valign="top" width="15%" class="label">&nbsp;${uiLabelMap.OrderSalesChannel}</td>
+              <td class="opposite-align-text" valign="top" width="15%" class="label">&nbsp;${uiLabelMap.OrderSalesChannel}</td>
               <td width="5%">&nbsp;</td>
               <td valign="top" width="80%">
                   <#if orderHeader.salesChannelEnumId?has_content>
@@ -161,7 +161,7 @@ under the License.
             <tr><td colspan="3"><hr /></td></tr>
             <#if productStore?has_content>
               <tr>
-                <td align="right" valign="top" width="15%" class="label">&nbsp;${uiLabelMap.OrderProductStore}</td>
+                <td class="opposite-align-text" valign="top" width="15%" class="label">&nbsp;${uiLabelMap.OrderProductStore}</td>
                 <td width="5%">&nbsp;</td>
                 <td valign="top" width="80%">
                   ${productStore.storeName!}&nbsp;<a href="/catalog/control/EditProductStore?productStoreId=${productStore.productStoreId}${StringUtil.wrapString(externalKeyParam)}" target="catalogmgr" class="buttontext">(${productStore.productStoreId})</a>
@@ -170,7 +170,7 @@ under the License.
               <tr><td colspan="3"><hr /></td></tr>
             </#if>
             <tr>
-              <td align="right" valign="top" width="15%" class="label">&nbsp;${uiLabelMap.OrderOriginFacility}</td>
+              <td class="opposite-align-text" valign="top" width="15%" class="label">&nbsp;${uiLabelMap.OrderOriginFacility}</td>
               <td width="5%">&nbsp;</td>
               <td valign="top" width="80%">
                   <#if orderHeader.originFacilityId?has_content>
@@ -182,7 +182,7 @@ under the License.
             </tr>
             <tr><td colspan="3"><hr /></td></tr>
             <tr>
-              <td align="right" valign="top" width="15%" class="label">&nbsp;${uiLabelMap.CommonCreatedBy}</td>
+              <td class="opposite-align-text" valign="top" width="15%" class="label">&nbsp;${uiLabelMap.CommonCreatedBy}</td>
               <td width="5%">&nbsp;</td>
               <td valign="top" width="80%">
                   <#if orderHeader.createdBy?has_content>
@@ -195,7 +195,7 @@ under the License.
             <#if (orderItem.cancelBackOrderDate)?exists>
               <tr><td colspan="3"><hr /></td></tr>
               <tr>
-                <td align="right" valign="top" width="15%" class="label">&nbsp;${uiLabelMap.FormFieldTitle_cancelBackOrderDate}</td>
+                <td class="opposite-align-text" valign="top" width="15%" class="label">&nbsp;${uiLabelMap.FormFieldTitle_cancelBackOrderDate}</td>
                 <td width="5%">&nbsp;</td>
                 <td valign="top" width="80%"><#if orderItem.cancelBackOrderDate?has_content>${Static["org.ofbiz.base.util.UtilFormatOut"].formatDateTime(orderItem.cancelBackOrderDate, "", locale, timeZone)!}</#if></td>
               </tr>
@@ -203,7 +203,7 @@ under the License.
             <#if distributorId?exists>
             <tr><td colspan="3"><hr /></td></tr>
             <tr>
-              <td align="right" valign="top" width="15%" class="label">&nbsp;${uiLabelMap.OrderDistributor}</td>
+              <td class="opposite-align-text" valign="top" width="15%" class="label">&nbsp;${uiLabelMap.OrderDistributor}</td>
               <td width="5%">&nbsp;</td>
               <td valign="top" width="80%">
                   <#assign distPartyNameResult = dispatcher.runSync("getPartyNameForDate", Static["org.ofbiz.base.util.UtilMisc"].toMap("partyId", distributorId, "compareDate", orderHeader.orderDate, "userLogin", userLogin))/>
@@ -214,7 +214,7 @@ under the License.
             <#if affiliateId?exists>
             <tr><td colspan="3"><hr /></td></tr>
             <tr>
-              <td align="right" valign="top" width="15%" class="label">&nbsp;${uiLabelMap.OrderAffiliate}</td>
+              <td class="opposite-align-text" valign="top" width="15%" class="label">&nbsp;${uiLabelMap.OrderAffiliate}</td>
               <td width="5%">&nbsp;</td>
               <td valign="top" width="80%">
                   <#assign affPartyNameResult = dispatcher.runSync("getPartyNameForDate", Static["org.ofbiz.base.util.UtilMisc"].toMap("partyId", affiliateId, "compareDate", orderHeader.orderDate, "userLogin", userLogin))/>
@@ -226,7 +226,7 @@ under the License.
             <#if orderContentWrapper.get("IMAGE_URL")?has_content>
             <tr><td colspan="3"><hr /></td></tr>
             <tr>
-              <td align="right" valign="top" width="15%" class="label">&nbsp;${uiLabelMap.OrderImage}</td>
+              <td class="opposite-align-text" valign="top" width="15%" class="label">&nbsp;${uiLabelMap.OrderImage}</td>
               <td width="5%">&nbsp;</td>
               <td valign="top" width="80%">
                   <a href="<@ofbizUrl>viewimage?orderId=${orderId}&amp;orderContentTypeId=IMAGE_URL</@ofbizUrl>" target="_orderImage" class="buttontext">${uiLabelMap.OrderViewImage}</a>
@@ -236,7 +236,7 @@ under the License.
             <#if "SALES_ORDER" == orderHeader.orderTypeId>
             <tr><td colspan="3"><hr /></td></tr>
                 <tr>
-                  <td align="right" valign="top" width="15%" class="label">&nbsp;${uiLabelMap.FormFieldTitle_priority}</td>
+                  <td class="opposite-align-text" valign="top" width="15%" class="label">&nbsp;${uiLabelMap.FormFieldTitle_priority}</td>
                   <td width="5%">&nbsp;</td>
                   <td valign="top" width="80%">
                      <form name="setOrderReservationPriority" method="post" action="<@ofbizUrl>setOrderReservationPriority</@ofbizUrl>">
@@ -253,7 +253,7 @@ under the License.
             </#if>
             <tr><td colspan="3"><hr /></td></tr>
             <tr>
-              <td align="right" valign="top" width="15%" class="label">&nbsp;${uiLabelMap.AccountingInvoicePerShipment}</td>
+              <td class="opposite-align-text" valign="top" width="15%" class="label">&nbsp;${uiLabelMap.AccountingInvoicePerShipment}</td>
               <td width="5%">&nbsp;</td>
               <td valign="top" width="80%">
                  <form name="setInvoicePerShipment" method="post" action="<@ofbizUrl>setInvoicePerShipment</@ofbizUrl>">

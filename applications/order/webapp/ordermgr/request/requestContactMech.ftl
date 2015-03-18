@@ -37,7 +37,7 @@ under the License.
     <div class="screenlet-body">
         <table cellspacing="0" class="basic-table">
             <tr>
-                <td align="right" valign="top" width="25%" class="label">
+                <td class="opposite-align-text" valign="top" width="25%" class="label">
                     &nbsp;${label?default(uiLabelMap.PartyUnknown)}
                 </td>
                 <td width="5%">&nbsp;</td>

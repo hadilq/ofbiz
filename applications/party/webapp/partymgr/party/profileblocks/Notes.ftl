@@ -37,7 +37,7 @@ under the License.
                 <#if noteRef.noteParty?has_content>
                   <div><b>${uiLabelMap.CommonBy}: </b>${Static["org.ofbiz.party.party.PartyHelper"].getPartyName(delegator, noteRef.noteParty, true)}</div>
                 </#if>
-                <div><b>${uiLabelMap.CommonAt}: </b>${Static["org.ofbiz.base.util.UtilDateTime"].toDateTimeFormat(context).format(noteRef.noteDateTime)}</div>
+                <div><b>${uiLabelMap.CommonAt}: </b>${Static["org.ofbiz.base.util.UtilDateTime"].toDateTimeStringByContext(noteRef.noteDateTime, context)}</div>
               </td>
               <td>
                 ${noteRef.noteInfo}

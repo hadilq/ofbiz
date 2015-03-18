@@ -39,7 +39,7 @@ under the License.
     <#assign alt_row = false>
     <#list tasks as workEffort>
       <tr<#if alt_row> class="alternate-row"</#if>>
-        <td>${(Static["org.ofbiz.base.util.UtilDateTime"].toDateTimeFormat(context).format(workEffort.estimatedStartDate))?if_exists}</td>
+        <td>${(Static["org.ofbiz.base.util.UtilDateTime"].toDateTimeStringByContext(workEffort.estimatedStartDate, context))?if_exists}</td>
         <td>${workEffort.priority?if_exists}</td>
         <td>${(delegator.findOne("StatusItem", Static["org.ofbiz.base.util.UtilMisc"].toMap("statusId", workEffort.getString("currentStatusId")), true).get("description",locale))?if_exists}</td>
         <td><a href="<@ofbizContentUrl>/workeffort/control/WorkEffortSummary?workEffortId=${workEffort.workEffortId}</@ofbizContentUrl>">${workEffort.workEffortName}</a></td>
@@ -64,7 +64,7 @@ under the License.
       <#assign alt_row = false>
       <#list activities as workEffort>
         <tr<#if alt_row> class="alternate-row"</#if>>
-          <td>${(Static["org.ofbiz.base.util.UtilDateTime"].toDateTimeFormat(context).format(workEffort.estimatedStartDate))?if_exists}</td>
+          <td>${(Static["org.ofbiz.base.util.UtilDateTime"].toDateTimeStringByContext(workEffort.estimatedStartDate, context))?if_exists}</td>
           <td>${workEffort.priority?if_exists}</td>
           <td>${(delegator.findOne("StatusItem", Static["org.ofbiz.base.util.UtilMisc"].toMap("statusId", workEffort.getString("currentStatusId")), true).get("description",locale))?if_exists}</td>
           <td>${(delegator.findOne("StatusItem", Static["org.ofbiz.base.util.UtilMisc"].toMap("statusId", workEffort.getString("statusId")), true).get("description",locale))?if_exists}</td>
@@ -93,14 +93,14 @@ under the License.
       <#assign alt_row = false>
       <#list roleActivities as workEffort>
         <tr<#if alt_row> class="alternate-row"</#if>>
-          <td>${(Static["org.ofbiz.base.util.UtilDateTime"].toDateTimeFormat(context).format(workEffort.estimatedStartDate))?if_exists}</td>
+          <td>${(Static["org.ofbiz.base.util.UtilDateTime"].toDateTimeStringByContext(workEffort.estimatedStartDate, context))?if_exists}</td>
           <td>${workEffort.priority?if_exists}</td>
           <td>${(delegator.findOne("StatusItem", Static["org.ofbiz.base.util.UtilMisc"].toMap("statusId", workEffort.getString("currentStatusId")), true).get("description",locale))?if_exists}</td>
           <td>${(delegator.findOne("StatusItem", Static["org.ofbiz.base.util.UtilMisc"].toMap("statusId", workEffort.getString("statusId")), true).get("description",locale))?if_exists}</td>
           <#-- <td>${workEffort.partyId}</td> -->
           <td>${workEffort.roleTypeId}</td>
           <td><a href="<@ofbizContentUrl>/workeffort/control/WorkEffortSummary?workEffortId=${workEffort.workEffortId}</@ofbizContentUrl>">${workEffort.workEffortName}</a></td>
-          <td class="button-col"><a href="<@ofbizContentUrl>/workeffort/control/acceptRoleAssignment?workEffortId=${workEffort.workEffortId}&amp;partyId=${workEffort.partyId}&amp;roleTypeId=${workEffort.roleTypeId}&amp;fromDate=${Static["org.ofbiz.base.util.UtilDateTime"].toDateTimeFormat(context).format(workEffort.fromDate)}</@ofbizContentUrl>">${uiLabelMap.WorkEffortAcceptAssignment}&nbsp;[${workEffort.workEffortId}]</a></td>
+          <td class="button-col"><a href="<@ofbizContentUrl>/workeffort/control/acceptRoleAssignment?workEffortId=${workEffort.workEffortId}&amp;partyId=${workEffort.partyId}&amp;roleTypeId=${workEffort.roleTypeId}&amp;fromDate=${Static["org.ofbiz.base.util.UtilDateTime"].toDateTimeStringByContext(workEffort.fromDate, context)}</@ofbizContentUrl>">${uiLabelMap.WorkEffortAcceptAssignment}&nbsp;[${workEffort.workEffortId}]</a></td>
         </tr>
         <#assign alt_row = !alt_row>
       </#list>
@@ -122,7 +122,7 @@ under the License.
       <#assign alt_row = false>
       <#list groupActivities as workEffort>
         <tr<#if alt_row> class="alternate-row"</#if>>
-          <td>${(Static["org.ofbiz.base.util.UtilDateTime"].toDateTimeFormat(context).format(workEffort.estimatedStartDate))?if_exists}</td>
+          <td>${(Static["org.ofbiz.base.util.UtilDateTime"].toDateTimeStringByContext(workEffort.estimatedStartDate, context))?if_exists}</td>
           <td>${workEffort.priority?if_exists}</td>
           <td>${(delegator.findOne("StatusItem", Static["org.ofbiz.base.util.UtilMisc"].toMap("statusId", workEffort.getString("currentStatusId")), true).get("description",locale))?if_exists}</td>
           <td>${(delegator.findOne("StatusItem", Static["org.ofbiz.base.util.UtilMisc"].toMap("statusId", workEffort.getString("statusId")), true).get("description",locale))?if_exists}</td>

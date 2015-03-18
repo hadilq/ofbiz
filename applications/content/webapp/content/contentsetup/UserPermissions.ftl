@@ -60,7 +60,7 @@ function call_fieldlookup3(view_name) {
       <form name="userform" method="post" action="<@ofbizUrl>UserPermissions</@ofbizUrl>" >
       <table width='100%' border='0' cellspacing='0' cellpadding='0' class='appTitle'>
         <tr>
-          <td colspan="1" valign="middle" align="right">
+          <td colspan="1" valign="middle" class="opposite-align-text">
             <div class="boxhead">&nbsp; WebSitePublishPoint&nbsp;&nbsp; </div>
           </td>
           <td valign="middle">

@@ -36,7 +36,7 @@ under the License.
               <table class="basic-table" cellspacing='0'>
                 <tr>
                   <td>${uiLabelMap.OrderProcessingInHold}&nbsp;${uiLabelMap.OrderProcessingInHoldNote}</td>
-                  <td align="right" valign="center">
+                  <td class="opposite-align-text" valign="center">
                     <a href="javascript:document.activityForm.submit()" class="buttontext">${uiLabelMap.OrderRelease}</a>
                   </td>
                 </tr>
@@ -50,7 +50,7 @@ under the License.
               <table class="basic-table" cellspacing='0'>
                 <tr>
                   <td>${uiLabelMap.OrderProcessingInActive}</td>
-                  <td align="right" valign="center">
+                  <td class="opposite-align-text" valign="center">
                     <a href="javascript:document.activityForm.submit()" class="buttontext">${uiLabelMap.OrderHold}</a>
                   </td>
                 </tr>

@@ -96,7 +96,7 @@ under the License.
                     <td>${uiLabelMap.ProductIssuedOrdered}</td>
                 </#if>
                 <td>${uiLabelMap.ProductIssue}</td>
-                <td align="right">
+                <td class="opposite-align-text">
                     <div>${uiLabelMap.CommonSubmit} ?</div>
                     <div>${uiLabelMap.CommonAll}<input type="checkbox" name="selectAll" value="${uiLabelMap.CommonY}" onclick="javascript:toggleAll(this, 'selectAllForm');highlightAllRows(this, 'orderItemData_tableRow_', 'selectAllForm');" /></div>
                 </td>
@@ -116,7 +116,7 @@ under the License.
                     <td>
                         <#if itemIssuances?has_content>
                             <#list itemIssuances as itemIssuance>
-                                <div><b>[${itemIssuance.quantity?if_exists}]</b>${itemIssuance.shipmentId?if_exists}:${itemIssuance.shipmentItemSeqId?if_exists} ${uiLabelMap.CommonOn} [${(Static["org.ofbiz.base.util.UtilDateTime"].toDateTimeFormat(context).format(itemIssuance.issuedDateTime))?if_exists}] ${uiLabelMap.CommonBy} [${(itemIssuance.issuedByUserLoginId)?if_exists}]</div>
+                                <div><b>[${itemIssuance.quantity?if_exists}]</b>${itemIssuance.shipmentId?if_exists}:${itemIssuance.shipmentItemSeqId?if_exists} ${uiLabelMap.CommonOn} [${(Static["org.ofbiz.base.util.UtilDateTime"].toDateTimeStringByContext(itemIssuance.issuedDateTime, context))?if_exists}] ${uiLabelMap.CommonBy} [${(itemIssuance.issuedByUserLoginId)?if_exists}]</div>
                             </#list>
                         <#else>
                             <div>&nbsp;</div>
@@ -166,7 +166,7 @@ under the License.
                                 <input type="hidden" name="orderItemSeqId_o_${rowCount}" value="${orderItemAndShipGroupAssoc.orderItemSeqId}"/>
                                 <input type="text" size="5" name="quantity_o_${rowCount}" value="${quantityNotIssued}"/>
                             </td>
-                            <td align="right">
+                            <td class="opposite-align-text">
                               <input type="checkbox" name="_rowSubmit_o_${rowCount}" value="Y" onclick="javascript:checkToggle(this, 'selectAllForm');highlightRow(this,'orderItemData_tableRow_${rowCount}');" />
                             </td>
                             <#assign rowCount = rowCount + 1>
@@ -210,7 +210,7 @@ under the License.
                                     <input type="hidden" name="inventoryItemId_o_${rowCount}" value="${orderItemShipGrpInvRes.inventoryItemId}"/>
                                     <input type="text" size="5" name="quantity_o_${rowCount}" value="${(orderItemShipGrpInvResData.shipmentPlanQuantity)?default(availableQuantity)}"/>
                                 </td>
-                                <td align="right">
+                                <td class="opposite-align-text">
                                   <input type="checkbox" name="_rowSubmit_o_${rowCount}" value="Y" onclick="javascript:checkToggle(this, 'selectAllForm');highlightRow(this,'orderItemData_tableRow_${rowCount}');" />
                                 </td>
                                 <#assign rowCount = rowCount + 1>
@@ -225,7 +225,7 @@ under the License.
                 <#assign alt_row = !alt_row>
             </#list>
         </table>
-        <div align="right"><input type="submit" class="smallSubmit" value="${uiLabelMap.ProductIssueAll}"/></div>
+        <div class="opposite-align-text"><input type="submit" class="smallSubmit" value="${uiLabelMap.ProductIssueAll}"/></div>
         <input type="hidden" name="_rowCount" value="${rowCount}" />
         </form>
         <script language="JavaScript" type="text/javascript">selectAll('selectAllForm');</script>

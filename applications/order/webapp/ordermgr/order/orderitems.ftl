@@ -31,9 +31,9 @@ under the License.
                     <td width="30%">${uiLabelMap.ProductProduct}</td>
                     <td width="33%">${uiLabelMap.CommonStatus}</td>
                     <td width="5%">${uiLabelMap.OrderQuantity}</td>
-                    <td width="10%" align="right">${uiLabelMap.OrderUnitList}</td>
-                    <td width="10%" align="right">${uiLabelMap.OrderAdjustments}</td>
-                    <td width="10%" align="right">${uiLabelMap.OrderSubTotal}</td>
+                    <td width="10%" class="opposite-align-text">${uiLabelMap.OrderUnitList}</td>
+                    <td width="10%" class="opposite-align-text">${uiLabelMap.OrderAdjustments}</td>
+                    <td width="10%" class="opposite-align-text">${uiLabelMap.OrderSubTotal}</td>
                     <td width="2%">&nbsp;</td>
                 </tr>
                 <#if !orderItemList?has_content>
@@ -216,7 +216,7 @@ under the License.
                                     </#if>
                                 </td>
                                 <#-- QUANTITY -->
-                                <td align="right" valign="top" nowrap="nowrap">
+                                <td class="opposite-align-text" valign="top" nowrap="nowrap">
                                     <div class="screenlet order-item-quantity">
                                         <div class="screenlet-body">
                                             <table>
@@ -300,14 +300,14 @@ under the License.
                                         </div>
                                     </div>
                                 </td>
-                                <td align="right" valign="top" nowrap="nowrap">
+                                <td class="opposite-align-text" valign="top" nowrap="nowrap">
                                     <@ofbizCurrency amount=orderItem.unitPrice isoCode=currencyUomId/>
                                     / <@ofbizCurrency amount=orderItem.unitListPrice isoCode=currencyUomId/>
                                 </td>
-                                <td align="right" valign="top" nowrap="nowrap">
+                                <td class="opposite-align-text" valign="top" nowrap="nowrap">
                                     <@ofbizCurrency amount=Static["org.ofbiz.order.order.OrderReadHelper"].getOrderItemAdjustmentsTotal(orderItem, orderAdjustments, true, false, false) isoCode=currencyUomId/>
                                 </td>
-                                <td align="right" valign="top" nowrap="nowrap">
+                                <td class="opposite-align-text" valign="top" nowrap="nowrap">
                                     <#if orderItem.statusId != "ITEM_CANCELLED">
                                         <@ofbizCurrency amount=Static["org.ofbiz.order.order.OrderReadHelper"].getOrderItemSubTotal(orderItem, orderAdjustments) isoCode=currencyUomId/>
                                     <#else>
@@ -411,7 +411,7 @@ under the License.
                             <#list orderItemAdjustments as orderItemAdjustment>
                                 <#assign adjustmentType = orderItemAdjustment.getRelatedOne("OrderAdjustmentType", true)>
                                 <tr<#if itemClass == "1"> class="alternate-row"</#if>>
-                                    <td align="right" colspan="2">
+                                    <td class="opposite-align-text" colspan="2">
                                         <span class="label">${uiLabelMap.OrderAdjustment}</span>&nbsp;${adjustmentType.get("description",locale)}
                                         ${StringUtil.wrapString(orderItemAdjustment.get("description",locale)?if_exists)}
                                         <#if orderItemAdjustment.comments?has_content>
@@ -445,7 +445,7 @@ under the License.
                                     </td>
                                     <td>&nbsp;</td>
                                     <td>&nbsp;</td>
-                                    <td align="right">
+                                    <td class="opposite-align-text">
                                         <@ofbizCurrency amount=Static["org.ofbiz.order.order.OrderReadHelper"].calcItemAdjustment(orderItemAdjustment, orderItem) isoCode=currencyUomId/>
                                     </td>
                                     <td colspan="2">&nbsp;</td>
@@ -460,12 +460,12 @@ under the License.
                             </tr>
                             <#list orderItemPriceInfos as orderItemPriceInfo>
                                 <tr<#if itemClass == "1"> class="alternate-row"</#if>>
-                                    <td align="right" colspan="2">
+                                    <td class="opposite-align-text" colspan="2">
                                         <span class="label">${uiLabelMap.ProductPriceRuleNameId}</span>&nbsp;[${orderItemPriceInfo.productPriceRuleId?if_exists}:${orderItemPriceInfo.productPriceActionSeqId?if_exists}]
                                         ${orderItemPriceInfo.description?if_exists}
                                     </td>
                                     <td>&nbsp;</td>
-                                    <td align="right">
+                                    <td class="opposite-align-text">
                                         <@ofbizCurrency amount=orderItemPriceInfo.modifyAmount isoCode=currencyUomId/>
                                     </td>
                                     <td colspan="3">&nbsp;</td>
@@ -477,7 +477,7 @@ under the License.
                         <#if orderItemSurveyResponses?exists && orderItemSurveyResponses?has_content>
                             <#list orderItemSurveyResponses as survey>
                                 <tr<#if itemClass == "1"> class="alternate-row"</#if>>
-                                    <td align="right" colspan="2">
+                                    <td class="opposite-align-text" colspan="2">
                                         <span class="label">${uiLabelMap.CommonSurveys}</span>&nbsp;
                                         <a href="/content/control/ViewSurveyResponses?surveyResponseId=${survey.surveyResponseId}&amp;surveyId=${survey.surveyId}${StringUtil.wrapString(externalKeyParam)}"
                                            class="buttontext">${survey.surveyId}</a>
@@ -489,7 +489,7 @@ under the License.
                         <#-- display the ship estimated/before/after dates -->
                         <#if orderItem.estimatedShipDate?exists>
                             <tr<#if itemClass == "1"> class="alternate-row"</#if>>
-                                <td align="right" colspan="2">
+                                <td class="opposite-align-text" colspan="2">
                                     <span class="label">${uiLabelMap.OrderEstimatedShipDate}</span>&nbsp;${Static["org.ofbiz.base.util.UtilFormatOut"].formatDate(orderItem.estimatedShipDate, "", locale, timeZone)!}
                                 </td>
                                 <td colspan="5">&nbsp;</td>
@@ -497,7 +497,7 @@ under the License.
                         </#if>
                         <#if orderItem.estimatedDeliveryDate?exists>
                             <tr<#if itemClass == "1"> class="alternate-row"</#if>>
-                                <td align="right" colspan="2">
+                                <td class="opposite-align-text" colspan="2">
                                     <span class="label">${uiLabelMap.OrderOrderQuoteEstimatedDeliveryDate}</span>&nbsp;${Static["org.ofbiz.base.util.UtilFormatOut"].formatDate(orderItem.estimatedDeliveryDate, "", locale, timeZone)!}
                                 </td>
                                 <td colspan="5">&nbsp;</td>
@@ -505,7 +505,7 @@ under the License.
                         </#if>
                         <#if orderItem.shipAfterDate?exists>
                             <tr<#if itemClass == "1"> class="alternate-row"</#if>>
-                                <td align="right" colspan="2">
+                                <td class="opposite-align-text" colspan="2">
                                     <span class="label">${uiLabelMap.OrderShipAfterDate}</span>&nbsp;${Static["org.ofbiz.base.util.UtilFormatOut"].formatDate(orderItem.shipAfterDate, "", locale, timeZone)!}
                                 </td>
                                 <td colspan="5">&nbsp;</td>
@@ -513,7 +513,7 @@ under the License.
                         </#if>
                         <#if orderItem.shipBeforeDate?exists>
                             <tr<#if itemClass == "1"> class="alternate-row"</#if>>
-                                <td align="right" colspan="2">
+                                <td class="opposite-align-text" colspan="2">
                                     <span class="label">${uiLabelMap.OrderShipBeforeDate}</span>&nbsp;${Static["org.ofbiz.base.util.UtilFormatOut"].formatDate(orderItem.shipBeforeDate, "", locale, timeZone)!}
                                 </td>
                                 <td colspan="5">&nbsp;</td>
@@ -526,7 +526,7 @@ under the License.
                                 <#assign shipGroup = shipGroupAssoc.getRelatedOne("OrderItemShipGroup", false)>
                                 <#assign shipGroupAddress = shipGroup.getRelatedOne("PostalAddress", false)?if_exists>
                                 <tr<#if itemClass == "1"> class="alternate-row"</#if>>
-                                    <td align="right" colspan="2">
+                                    <td class="opposite-align-text" colspan="2">
                                         <span class="label">${uiLabelMap.OrderShipGroup}</span>&nbsp;[${shipGroup.shipGroupSeqId}]
                                         ${shipGroupAddress.address1?default("${uiLabelMap.OrderNotShipped}")}
                                     </td>
@@ -541,7 +541,7 @@ under the License.
                         <#if orderItemShipGrpInvResList?exists && orderItemShipGrpInvResList?has_content>
                             <#list orderItemShipGrpInvResList as orderItemShipGrpInvRes>
                                 <tr<#if itemClass == "1"> class="alternate-row"</#if>>
-                                    <td align="right" colspan="2">
+                                    <td class="opposite-align-text" colspan="2">
                                         <span class="label">${uiLabelMap.CommonInventory}</span>&nbsp;
                                         <a href="/facility/control/EditInventoryItem?inventoryItemId=${orderItemShipGrpInvRes.inventoryItemId}${StringUtil.wrapString(externalKeyParam)}"
                                            class="buttontext">${orderItemShipGrpInvRes.inventoryItemId}</a>
@@ -568,7 +568,7 @@ under the License.
                         <#if orderShipments?has_content>
                             <#list orderShipments as orderShipment>
                                 <tr<#if itemClass == "1"> class="alternate-row"</#if>>
-                                    <td align="right" colspan="2">
+                                    <td class="opposite-align-text" colspan="2">
                                         <span class="label">${uiLabelMap.OrderPlannedInShipment}</span>&nbsp;<a
                                             target="facility"
                                             href="/facility/control/ViewShipment?shipmentId=${orderShipment.shipmentId}${StringUtil.wrapString(externalKeyParam)}"
@@ -586,7 +586,7 @@ under the License.
                         <#if itemIssuances?has_content>
                             <#list itemIssuances as itemIssuance>
                             <tr<#if itemClass == "1"> class="alternate-row"</#if>>
-                                <td align="right" colspan="2">
+                                <td class="opposite-align-text" colspan="2">
                                     <#if itemIssuance.shipmentId?has_content>
                                         <span class="label">${uiLabelMap.OrderIssuedToShipmentItem}</span>&nbsp;
                                         <a target="facility"
@@ -607,7 +607,7 @@ under the License.
                         <#if itemIssuances?has_content>
                             <#list itemIssuances as itemIssuance>
                                 <tr<#if itemClass == "1"> class="alternate-row"</#if>>
-                                    <td align="right" colspan="2">
+                                    <td class="opposite-align-text" colspan="2">
                                         <#if itemIssuance.inventoryItemId?has_content>
                                             <#assign inventoryItem = itemIssuance.getRelatedOne("InventoryItem", false)/>
                                             <span class="label">${uiLabelMap.CommonInventory}</span>
@@ -632,7 +632,7 @@ under the License.
                         <#if shipmentReceipts?has_content>
                             <#list shipmentReceipts as shipmentReceipt>
                                 <tr<#if itemClass == "1"> class="alternate-row"</#if>>
-                                    <td align="right" colspan="2">
+                                    <td class="opposite-align-text" colspan="2">
                                         <#if shipmentReceipt.shipmentId?has_content>
                                             <span class="label">${uiLabelMap.OrderShipmentReceived}</span>&nbsp;
                                             <a target="facility"
@@ -659,7 +659,7 @@ under the License.
                                 <div class = "screenlet-body">
                                   <table>
                                     <tr>
-                                      <td align="right">
+                                      <td class="opposite-align-text">
                                         <span class="label">${uiLabelMap.CommonComments}</span>
                                       </td>
                                       <td align="">
@@ -705,12 +705,12 @@ under the License.
                     <#assign adjustmentAmount = Static["org.ofbiz.order.order.OrderReadHelper"].calcOrderAdjustment(orderHeaderAdjustment, orderSubTotal)>
                     <#if adjustmentAmount != 0>
                         <tr>
-                            <td align="right" colspan="5">
+                            <td class="opposite-align-text" colspan="5">
                                 <#if orderHeaderAdjustment.comments?has_content>${orderHeaderAdjustment.comments} - </#if>
                                 <#if orderHeaderAdjustment.description?has_content>${orderHeaderAdjustment.description} - </#if>
                                 <span class="label">${adjustmentType.get("description", locale)}</span>
                             </td>
-                            <td align="right" nowrap="nowrap">
+                            <td class="opposite-align-text" nowrap="nowrap">
                                 <@ofbizCurrency amount=adjustmentAmount isoCode=currencyUomId/>
                             </td>
                             <td>&nbsp;</td>
@@ -723,50 +723,50 @@ under the License.
                     <td colspan="6"><hr /></td>
                 </tr>
                 <tr>
-                    <td align="right" colspan="5">
+                    <td class="opposite-align-text" colspan="5">
                         <span class="label">${uiLabelMap.OrderItemsSubTotal}</span>
                     </td>
-                    <td align="right" nowrap="nowrap">
+                    <td class="opposite-align-text" nowrap="nowrap">
                         <@ofbizCurrency amount=orderSubTotal isoCode=currencyUomId/>
                     </td>
                     <td>&nbsp;</td>
                 </tr>
                 <#-- other adjustments -->
                 <tr>
-                    <td align="right" colspan="5">
+                    <td class="opposite-align-text" colspan="5">
                         <span class="label">${uiLabelMap.OrderTotalOtherOrderAdjustments}</span>
                     </td>
-                    <td align="right" nowrap="nowrap">
+                    <td class="opposite-align-text" nowrap="nowrap">
                         <@ofbizCurrency amount=otherAdjAmount isoCode=currencyUomId/>
                     </td>
                     <td>&nbsp;</td>
                 </tr>
                 <#-- shipping adjustments -->
                 <tr>
-                    <td align="right" colspan="5">
+                    <td class="opposite-align-text" colspan="5">
                         <span class="label">${uiLabelMap.OrderTotalShippingAndHandling}</span>
                     </td>
-                    <td align="right" nowrap="nowrap">
+                    <td class="opposite-align-text" nowrap="nowrap">
                         <@ofbizCurrency amount=shippingAmount isoCode=currencyUomId/>
                     </td>
                     <td>&nbsp;</td>
                 </tr>
                 <#-- tax adjustments -->
                 <tr>
-                    <td align="right" colspan="5">
+                    <td class="opposite-align-text" colspan="5">
                         <span class="label">${uiLabelMap.OrderTotalSalesTax}</span>
                     </td>
-                    <td align="right" nowrap="nowrap">
+                    <td class="opposite-align-text" nowrap="nowrap">
                         <@ofbizCurrency amount=taxAmount isoCode=currencyUomId/>
                     </td>
                     <td>&nbsp;</td>
                 </tr>
                 <#-- grand total -->
                 <tr>
-                    <td align="right" colspan="5">
+                    <td class="opposite-align-text" colspan="5">
                         <span class="label">${uiLabelMap.OrderTotalDue}</span>
                     </td>
-                    <td align="right" nowrap="nowrap">
+                    <td class="opposite-align-text" nowrap="nowrap">
                         <@ofbizCurrency amount=grandTotal isoCode=currencyUomId/>
                     </td>
                     <td>&nbsp;</td>

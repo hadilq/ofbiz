@@ -98,21 +98,21 @@ function insertImageName(size,nameValue) {
                 <input type="hidden" name="configItemId" value="${configItemId?if_exists}" />
                 <table cellspacing="0" class="basic-table">
                 <tr>
-                    <td width="20%" align="right" valign="top" class="label">${uiLabelMap.CommonDescription}</td>
+                    <td width="20%" class="opposite-align-text" valign="top" class="label">${uiLabelMap.CommonDescription}</td>
                     <td>&nbsp;</td>
                     <td width="80%" colspan="4" valign="top">
                         <textarea name="description" cols="60" rows="2">${(configItem.description)?if_exists}</textarea>
                     </td>
                 </tr>
                 <tr>
-                    <td width="20%" align="right" valign="top" class="label">${uiLabelMap.ProductLongDescription}</td>
+                    <td width="20%" class="opposite-align-text" valign="top" class="label">${uiLabelMap.ProductLongDescription}</td>
                     <td>&nbsp;</td>
                     <td width="80%" colspan="4" valign="top">
                         <textarea name="longDescription" cols="60" rows="7">${(configItem.longDescription)?if_exists}</textarea>
                     </td>
                 </tr>
                 <tr>
-                    <td width="20%" align="right" valign="top" class="label">
+                    <td width="20%" class="opposite-align-text" valign="top" class="label">
                         ${uiLabelMap.ProductSmallImage}
                         <#if (configItem.imageUrl)?exists>
                             <a href="<@ofbizContentUrl>${configItem.imageUrl}</@ofbizContentUrl>" target="_blank"><img alt="Image" src="<@ofbizContentUrl>${configItem.imageUrl}</@ofbizContentUrl>" class="cssImgSmall" /></a>

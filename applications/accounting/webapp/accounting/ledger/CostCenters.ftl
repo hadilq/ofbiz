@@ -51,7 +51,7 @@ under the License.
         <#assign alt_row = !alt_row>
       </#list>
     </table>
-    <div align="right"><input type="submit" value='${uiLabelMap.CommonSubmit}' /></div>
+    <div class="opposite-align-text"><input type="submit" value='${uiLabelMap.CommonSubmit}' /></div>
   </form>
 <#else>
   <label>${uiLabelMap.CommonNoRecordFound}</label>
