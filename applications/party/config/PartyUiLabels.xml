@@ -1166,7 +1166,7 @@
         <value xml:lang="de">Akteur Klassifizierungsgruppe ID</value>
         <value xml:lang="en">Party Classification Group Id</value>
         <value xml:lang="es">Código Grupo de clasificación</value>
-        <value xml:lang="fa">آی‌دی گروه دسته‌بندی هویت</value>
+        <value xml:lang="fa">آی‌دی گروه کلاس‌بندی هویت</value>
         <value xml:lang="fr">Classification d'acteur</value>
         <value xml:lang="hi_IN">पार्टी वर्गीकरण समूह क्रमांक</value>
         <value xml:lang="it">Codice gruppo classificazione soggetto</value>
@@ -1184,7 +1184,7 @@
         <value xml:lang="de">Akteur Klassifizierungstyp ID</value>
         <value xml:lang="en">Party Classification Type Id</value>
         <value xml:lang="es">Codigo Tipo de clasificación</value>
-        <value xml:lang="fa">آی‌دی نوع دسته‌بندی هویت</value>
+        <value xml:lang="fa">آی‌دی نوع کلاس‌بندی هویت</value>
         <value xml:lang="fr">Type de classification d'acteur</value>
         <value xml:lang="hi_IN">पार्टी वर्गीकरण प्रकार का क्रमांक</value>
         <value xml:lang="it">Tipo classificazione soggetto</value>
@@ -2301,7 +2301,7 @@
         <value xml:lang="de">Akteur Klassifizierung bearbeiten</value>
         <value xml:lang="en">Edit Party Classification Group</value>
         <value xml:lang="es">Editar grupo de clasificación</value>
-        <value xml:lang="fa">ویرایش‌کردن گروه دسته‌بندی هویت</value>
+        <value xml:lang="fa">ویرایش‌کردن گروه کلاس‌بندی هویت</value>
         <value xml:lang="fr">Modifier la classification de l'acteur</value>
         <value xml:lang="hi_IN">पार्टी वर्गीकरण समूह को संपादित करें</value>
         <value xml:lang="it">Aggiorna Classificazione Gruppo Soggetto</value>
@@ -2319,7 +2319,7 @@
         <value xml:lang="de">Klassifizierungsgruppen für Akteure bearbeiten</value>
         <value xml:lang="en">Edit Classification Group Parties</value>
         <value xml:lang="es">Editar grupos de clasificación</value>
-        <value xml:lang="fa">ویرایش‌کردن هویت‌های گروه دسته‌بندی</value>
+        <value xml:lang="fa">ویرایش‌کردن هویت‌های گروه کلاس‌بندی</value>
         <value xml:lang="fr">Modifier les classifications de l'acteurs</value>
         <value xml:lang="hi_IN">वर्गीकरण समूह पार्टियों को संपादित करें</value>
         <value xml:lang="it">Aggiorna Classificazione Gruppo Soggetto</value>
@@ -2514,7 +2514,7 @@
         <value xml:lang="de">Akteur Klassifizierungsgruppen suchen</value>
         <value xml:lang="en">Find Party Classification Groups</value>
         <value xml:lang="es">Buscar grupos de clasificación</value>
-        <value xml:lang="fa">پیداکردن گروه‌های دسته‌بندی هویت</value>
+        <value xml:lang="fa">پیداکردن گروه‌های کلاس‌بندی هویت</value>
         <value xml:lang="fr">Rechercher les classification de l'acteur</value>
         <value xml:lang="hi_IN">पार्टी वर्गीकरण समूह खोजें</value>
         <value xml:lang="it">Ricerca Gruppi Classificazione Soggetti</value>
@@ -2820,7 +2820,7 @@
         <value xml:lang="de">Akteur-Klassifizierungsgruppe des Akteurs anzeigen</value>
         <value xml:lang="en">View Party Classification Group Parties</value>
         <value xml:lang="es">Ver grupo de clasificación del participante</value>
-        <value xml:lang="fa">نمای هویت‌های گروه دسته‌بندی هویت</value>
+        <value xml:lang="fa">نمای هویت‌های گروه کلاس‌بندی هویت</value>
         <value xml:lang="fr">Afficher les classification de l'acteur</value>
         <value xml:lang="hi_IN">पार्टी वर्गीकरण समूह दलों को देखें</value>
         <value xml:lang="it">Mostra Gruppo Classificazioni Soggetto</value>
@@ -2836,7 +2836,7 @@
         <value xml:lang="de">Akteur Klassifizierung anzeigen</value>
         <value xml:lang="en">View Party Classifications</value>
         <value xml:lang="es">Ver clasificaciones</value>
-        <value xml:lang="fa">نمای دسته‌بندی‌های هویت</value>
+        <value xml:lang="fa">نمای کلاس‌بندی‌های هویت</value>
         <value xml:lang="fr">Afficher les classifications de l'acteur</value>
         <value xml:lang="hi_IN">पार्टी वर्गीकरण देखें</value>
         <value xml:lang="it">Mostra Classificazioni Soggetto</value>
@@ -4219,7 +4219,7 @@
         <value xml:lang="de">Klassifizierungsgruppe</value>
         <value xml:lang="en">Classification Group</value>
         <value xml:lang="es">Grupo de clasificación</value>
-        <value xml:lang="fa">گروه دسته‌بندی</value>
+        <value xml:lang="fa">گروه کلاس‌بندی</value>
         <value xml:lang="fr">Classification</value>
         <value xml:lang="hi_IN">वर्गीकरण समूह</value>
         <value xml:lang="it">Gruppo classificazione</value>
@@ -4237,7 +4237,7 @@
         <value xml:lang="de">Klassifizierungsgruppe ID</value>
         <value xml:lang="en">Classification Group Id</value>
         <value xml:lang="es">Grupo de clasificación</value>
-        <value xml:lang="fa">آی‌دی گروه دسته‌بندی</value>
+        <value xml:lang="fa">آی‌دی گروه کلاس‌بندی</value>
         <value xml:lang="fr">Classification</value>
         <value xml:lang="hi_IN">वर्गीकरण समूह क्रमांक</value>
         <value xml:lang="it">Codice gruppo classificazione</value>
@@ -4255,7 +4255,7 @@
         <value xml:lang="de">Klassifizierungsgruppe Akteure</value>
         <value xml:lang="en">Classification Group Parties</value>
         <value xml:lang="es">Participantes del grupo</value>
-        <value xml:lang="fa">هویت‌های گروه دسته‌بندی</value>
+        <value xml:lang="fa">هویت‌های گروه کلاس‌بندی</value>
         <value xml:lang="fr">Classification d'acteurs</value>
         <value xml:lang="hi_IN">वर्गीकरण समूह पार्टियाँ</value>
         <value xml:lang="it">Gruppo Classificazione Soggetti</value>
@@ -4273,7 +4273,7 @@
         <value xml:lang="de">Klassifizierungsgruppen</value>
         <value xml:lang="en">Classification Groups</value>
         <value xml:lang="es">Grupo de clasificación</value>
-        <value xml:lang="fa">گروه‌های دسته‌بندی</value>
+        <value xml:lang="fa">گروه‌های کلاس‌بندی</value>
         <value xml:lang="fr">Classifications</value>
         <value xml:lang="hi_IN">वर्गीकरण समूह</value>
         <value xml:lang="it">Gruppi classificazione</value>
@@ -4291,7 +4291,7 @@
         <value xml:lang="de">Klassifizierungen</value>
         <value xml:lang="en">Classifications</value>
         <value xml:lang="es">Clasificaciones</value>
-        <value xml:lang="fa">دسته‌بندی‌ها</value>
+        <value xml:lang="fa">کلاس‌بندی‌ها</value>
         <value xml:lang="fr">Classifications</value>
         <value xml:lang="hi_IN">वर्गीकरण</value>
         <value xml:lang="it">Classificazioni</value>
@@ -5606,7 +5606,7 @@
         <value xml:lang="de">Neue Akteur Klassifizierungsgruppe erstellen</value>
         <value xml:lang="en">Create New Party Classification Group</value>
         <value xml:lang="es">Crear nuevo grupo de clasificación</value>
-        <value xml:lang="fa">ساختن گروه دسته‌بندی هویت جدید</value>
+        <value xml:lang="fa">ساختن گروه کلاس‌بندی هویت جدید</value>
         <value xml:lang="fr">Créer une nouvelle classification</value>
         <value xml:lang="hi_IN">पार्टी का नया वर्गीकरण समूह बनाएँ</value>
         <value xml:lang="it">Nuovo gruppo classificazione soggetti</value>
@@ -5718,7 +5718,7 @@
         <value xml:lang="de">Sicherheitsfehler: um createPartyClassificationGroup auszuführen müssen Sie die Berechtigung PARTYMGR_CREATE oder PARTYMGR_ADMIN besitzen</value>
         <value xml:lang="en">Security Error: to run createPartyClassificationGroup you must have the PARTYMGR_CREATE or PARTYMGR_ADMIN permission</value>
         <value xml:lang="es">Error de seguridad: para acceder a esta funcionalidad debe contar con los permisos PARTYMGR_CREATE o PARTYMGR_ADMIN</value>
-        <value xml:lang="fa">خطا امنیتی: برای اجراء «ساختن گروه دسته‌بندی هویت» شما باید اجازه PARTYMGR_CREATE یا PARTYMGR_ADMIN را داشته‌باشید</value>
+        <value xml:lang="fa">خطا امنیتی: برای اجراء «ساختن گروه کلاس‌بندی هویت» شما باید اجازه PARTYMGR_CREATE یا PARTYMGR_ADMIN را داشته‌باشید</value>
         <value xml:lang="fr">Erreur sécurité : pour ajouter une classification d'acteur, il faut avoir avoir l'autorisation PARTYMGR_CREATE ou PARTYMGR_ADMIN</value>
         <value xml:lang="hi_IN">सुरक्षा त्रुटि: createPartyClassificationGroup चलाने के लिए आप को PARTYMGR_CREATE या PARTYMGR_ADMIN की अनुमति होना चाहिए</value>
         <value xml:lang="it">Errore Sicurezza : per eseguire createPartyClassificationGroup tu devi avere il permesso PARTYMGR_CREATE o PARTYMGR_ADMIN</value>
@@ -5736,7 +5736,7 @@
         <value xml:lang="de">Sicherheitsfehler: um createPartyClassification auszuführen müssen Sie die Berechtigung PARTYMGR_CREATE oder PARTYMGR_ADMIN besitzen</value>
         <value xml:lang="en">Security Error: to run createPartyClassification you must have the PARTYMGR_CREATE or PARTYMGR_ADMIN permission</value>
         <value xml:lang="es">Error de seguridad: para acceder a esta funcionalidad debe contar con los permisos PARTYMGR_CREATE o PARTYMGR_ADMIN</value>
-        <value xml:lang="fa">خطا امنیتی: برای اجراء «ساختن دسته‌بندی هویت» شما باید اجازه PARTYMGR_CREATE یا PARTYMGR_ADMIN را داشته‌باشید</value>
+        <value xml:lang="fa">خطا امنیتی: برای اجراء «ساختن کلاس‌بندی هویت» شما باید اجازه PARTYMGR_CREATE یا PARTYMGR_ADMIN را داشته‌باشید</value>
         <value xml:lang="fr">Erreur sécurité : pour exécuter createPartyClassification il faut avoir l'autorisation PARTYMGR_CREATE ou PARTYMGR_ADMIN</value>
         <value xml:lang="hi_IN">सुरक्षा त्रुटि: createPartyClassification चलाने के लिए आप को PARTYMGR_CREATE या PARTYMGR_ADMIN की अनुमति होना चाहिए</value>
         <value xml:lang="it">Errore Sicurezza : per eseguire createPartyClassification tu devi avere il permesso PARTYMGR_CREATE o PARTYMGR_ADMIN</value>
@@ -8113,7 +8113,7 @@
         <value xml:lang="de">Akteur Klassifizierungsgruppe suchen</value>
         <value xml:lang="en">Lookup Party Classification Group</value>
         <value xml:lang="es">Buscar grupo de clasificación de participante</value>
-        <value xml:lang="fa">جستجوی گروه دسته‌بندی هویت</value>
+        <value xml:lang="fa">جستجوی گروه کلاس‌بندی هویت</value>
         <value xml:lang="fr">Rechercher un ou des classification(s) d'acteur</value>
         <value xml:lang="hi_IN">पार्टी वर्गीकरण समूह लुकअप</value>
         <value xml:lang="it">Ricerca Gruppi Classificazione Soggetti</value>
@@ -11451,7 +11451,7 @@
         <value xml:lang="de">Sicherheitsfehler: um deletePartyClassificationGroup auszuführen müssen Sie die Berechtigung PARTYMGR_DELETE oder PARTYMGR_ADMIN besitzen</value>
         <value xml:lang="en">Security Error: to run deletePartyClassificationGroup you must have the PARTYMGR_DELETE or PARTYMGR_ADMIN permission</value>
         <value xml:lang="es">Error de seguridad: para acceder a esta funcionalidad debe contar con los permisos PARTYMGR_DELETE o PARTYMGR_ADMIN</value>
-        <value xml:lang="fa">خطای امنیتی: برای اجراء «حذف گروه دسته‌بندی هویت» شما باید اجازه PARTYMGR_DELETE یا PARTYMGR_ADMIN را داشته‌باشید</value>
+        <value xml:lang="fa">خطای امنیتی: برای اجراء «حذف گروه کلاس‌بندی هویت» شما باید اجازه PARTYMGR_DELETE یا PARTYMGR_ADMIN را داشته‌باشید</value>
         <value xml:lang="fr">Erreur sécurité : pour supprimer un groupe de classification d'acteurs, il faut avoir l'autorisation PARTYMGR_DELETE ou</value>
         <value xml:lang="hi_IN">सुरक्षा त्रुटि: deletePartyClassificationGroup चलाने के लिए आप को PARTYMGR_DELETE या PARTYMGR_ADMIN की अनुमति होना चाहिए</value>
         <value xml:lang="it">Errore Sicurezza : per eseguire deletePartyClassificationGroup tu devi avere il permesso PARTYMGR_DELETE o PARTYMGR_ADMIN</value>
@@ -11469,7 +11469,7 @@
         <value xml:lang="de">Sicherheitsfehler: um deletePartyClassification auszuführen müssen Sie die Berechtigung PARTYMGR_DELETE oder PARTYMGR_ADMIN besitzen</value>
         <value xml:lang="en">Security Error: to run deletePartyClassification you must have the PARTYMGR_DELETE or PARTYMGR_ADMIN permission</value>
         <value xml:lang="es">Error de seguridad: para acceder a esta funcionalidad debe contar con los permisos PARTYMGR_DELETE o PARTYMGR_ADMIN</value>
-        <value xml:lang="fa">خطای امنیتی: برای اجراء «حذف دسته‌بندی هویت» شما باید اجازه PARTYMGR_DELETE یا PARTYMGR_ADMIN را داشته‌باشید</value>
+        <value xml:lang="fa">خطای امنیتی: برای اجراء «حذف کلاس‌بندی هویت» شما باید اجازه PARTYMGR_DELETE یا PARTYMGR_ADMIN را داشته‌باشید</value>
         <value xml:lang="fr">Erreur sécurité : pour supprimer une classification d'acteur il faut avoir avoir l'autorisation PARTYMGR_DELETE ou PARTYMGR_ADMIN.</value>
         <value xml:lang="hi_IN">सुरक्षा त्रुटि: deletePartyClassification चलाने के लिए आप को PARTYMGR_DELETE या PARTYMGR_ADMIN की अनुमति होना चाहिए</value>
         <value xml:lang="it">Errore Sicurezza : per eseguire deletePartyClassification tu devi avere il permesso PARTYMGR_DELETE o PARTYMGR_ADMIN</value>
@@ -13095,7 +13095,7 @@
         <value xml:lang="de">Sicherheitsfehler: um updatePartyClassificationGroup auszuführen müssen Sie die Berechtigung PARTYMGR_UPDATE oder PARTYMGR_ADMIN besitzen</value>
         <value xml:lang="en">Security Error: to run updatePartyClassificationGroup you must have the PARTYMGR_UPDATE or PARTYMGR_ADMIN permission</value>
         <value xml:lang="es">Error de seguridad: Para ejecutar esta funcionalidad necesita los permisos PARTYMGR_UPDATE  o PARTYMGR_ADMIN</value>
-        <value xml:lang="fa">خطای امنیتی: برای اجراء «بروزرسانی گروه دسته‌بندی هویت» شما باید اجازه PARTYMGR_UPDATE یا PARTYMGR_ADMIN را داشته‌باشید</value>
+        <value xml:lang="fa">خطای امنیتی: برای اجراء «بروزرسانی گروه کلاس‌بندی هویت» شما باید اجازه PARTYMGR_UPDATE یا PARTYMGR_ADMIN را داشته‌باشید</value>
         <value xml:lang="fr">Erreur sécurité : pour mettre à jour un groupe de classifications, il faut avoir l'autorisation PARTYMGR_UPDATE ou PARTYMGR_ADMIN</value>
         <value xml:lang="hi_IN">सुरक्षा त्रुटि: updatePartyClassificationGroup चलाने के लिए आप को PARTYMGR_UPDATE या PARTYMGR_ADMIN की अनुमति होना चाहिए</value>
         <value xml:lang="it">Errore Sicurezza : per eseguire updatePartyClassificationGroup tu devi avere il permesso PARTYMGR_UPDATE o PARTYMGR_ADMIN</value>
@@ -13113,7 +13113,7 @@
         <value xml:lang="de">Sicherheitsfehler: um updatePartyClassification auszuführen müssen Sie die Berechtigung PARTYMGR_UPDATE oder PARTYMGR_ADMIN besitzen</value>
         <value xml:lang="en">Security Error: to run updatePartyClassification you must have the PARTYMGR_UPDATE or PARTYMGR_ADMIN permission</value>
         <value xml:lang="es">Error de seguridad: Para ejecutar esta funcionalidad necesita los permisos PARTYMGR_UPDATE  o PARTYMGR_ADMIN</value>
-        <value xml:lang="fa">خطای امنیتی: برای اجراء «بروزرسانی دسته‌بندی هویت» شما باید اجازه PARTYMGR_UPDATE یا PARTYMGR_ADMIN را داشته‌باشید</value>
+        <value xml:lang="fa">خطای امنیتی: برای اجراء «بروزرسانی کلاس‌بندی هویت» شما باید اجازه PARTYMGR_UPDATE یا PARTYMGR_ADMIN را داشته‌باشید</value>
         <value xml:lang="fr">Erreur sécurité : pour mettre à jour une classification, il faut avoir l'autorisation PARTYMGR_UPDATE ou PARTYMGR_ADMIN</value>
         <value xml:lang="hi_IN">सुरक्षा त्रुटि: updatePartyClassification चलाने के लिए आप को PARTYMGR_UPDATE या PARTYMGR_ADMIN की अनुमति होना चाहिए</value>
         <value xml:lang="it">Errore Sicurezza : per eseguire updatePartyClassification tu devi avere il permesso PARTYMGR_UPDATE o PARTYMGR_ADMIN</value>

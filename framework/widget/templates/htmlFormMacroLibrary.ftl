@@ -415,10 +415,10 @@ under the License.
   </tr>
 </#macro>
 <#macro renderFormatItemRowCellOpen fieldName style positionSpan>
-  <td <#if positionSpan?has_content && positionSpan gt 1>colspan="${positionSpan}"</#if><#if style?has_content>class="${style}"</#if>>
+  <td <#if positionSpan?has_content && positionSpan gt 1>colspan="${positionSpan}"</#if><#if style?has_content>class="${style}"</#if>><bdi>
 </#macro>
 <#macro renderFormatItemRowCellClose fieldName>
-  </td>
+  </bdi></td>
 </#macro>
 <#macro renderFormatItemRowFormCellOpen style>
   <td<#if style?has_content> class="${style}"</#if>>

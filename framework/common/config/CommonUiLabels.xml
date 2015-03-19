@@ -15099,7 +15099,7 @@
     <property key="PartyComponentDescription">
         <value xml:lang="cs">Zákazníci - Dodavatelé - Mamagement, komunikace, klasifikace</value>
         <value xml:lang="en">Customers - Suppliers - Employee Management, Communications, Classifications</value>
-        <value xml:lang="fa">مشتری‌ها - عرضه‌گر‌ها - مدیر کارمندان - ارتباطات - دسته‌بندی‌ها</value>
+        <value xml:lang="fa">مشتری‌ها - عرضه‌گر‌ها - مدیر کارمندان - ارتباطات -کلاس‌بندی‌ها</value>
         <value xml:lang="fr">Gestion des clients, Fournisseurs, Employés, Communications, Classifications</value>
         <value xml:lang="ja">顧客 - サプライヤ - 従業員管理、通信、分類</value>
         <value xml:lang="ru">Заказчики - Поставщики - Управление работниками, Коммуникации, Классификации</value>

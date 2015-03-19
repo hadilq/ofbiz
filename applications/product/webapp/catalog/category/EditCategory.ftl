@@ -131,9 +131,9 @@ function insertImageName(type,nameValue) {
                         <#if productCategory?has_content>
                             <div>
                             ${uiLabelMap.ProductInsertDefaultImageUrl}:
-                            <a href="javascript:insertImageName('category','${imageNameCategory}.jpg');" class="buttontext">.jpg</a>
-                            <a href="javascript:insertImageName('category','${imageNameCategory}.gif');" class="buttontext">.gif</a>
-                            <a href="javascript:insertImageName('category','');" class="buttontext">${uiLabelMap.CommonClear}</a>
+                            <bdi><a href="javascript:insertImageName('category','${imageNameCategory}.jpg');" class="buttontext">.jpg</a></bdi>
+                            <bdi><a href="javascript:insertImageName('category','${imageNameCategory}.gif');" class="buttontext">.gif</a></bdi>
+                            <bdi><a href="javascript:insertImageName('category','');" class="buttontext">${uiLabelMap.CommonClear}</a></bdi>
                             </div>
                         </#if>
                     </td>
@@ -151,9 +151,9 @@ function insertImageName(type,nameValue) {
                         <#if productCategory?has_content>
                             <div>
                                 ${uiLabelMap.ProductInsertDefaultImageUrl}:
-                                <a href="javascript:insertImageName('linkOne','${imageNameLinkOne}.jpg');" class="buttontext">.jpg</a>
-                                <a href="javascript:insertImageName('linkOne','${imageNameLinkOne}.gif');" class="buttontext">.gif</a>
-                                <a href="javascript:insertImageName('linkOne','');" class="buttontext">${uiLabelMap.CommonClear}</a>
+                                <bdi><a href="javascript:insertImageName('linkOne','${imageNameLinkOne}.jpg');" class="buttontext">.jpg</a></bdi>
+                                <bdi><a href="javascript:insertImageName('linkOne','${imageNameLinkOne}.gif');" class="buttontext">.gif</a></bdi>
+                                <bdi><a href="javascript:insertImageName('linkOne','');" class="buttontext">${uiLabelMap.CommonClear}</a></bdi>
                             </div>
                         </#if>
                     </td>
@@ -171,9 +171,9 @@ function insertImageName(type,nameValue) {
                         <#if productCategory?has_content>
                             <div>
                                 ${uiLabelMap.ProductInsertDefaultImageUrl}:
-                                <a href="javascript:insertImageName('linkTwo','${imageNameLinkTwo}.jpg');" class="buttontext">.jpg</a>
-                                <a href="javascript:insertImageName('linkTwo','${imageNameLinkTwo}.gif');" class="buttontext">.gif</a>
-                                <a href="javascript:insertImageName('linkTwo','');" class="buttontext">${uiLabelMap.CommonClear}</a>
+                                <bdi><a href="javascript:insertImageName('linkTwo','${imageNameLinkTwo}.jpg');" class="buttontext">.jpg</a></bdi>
+                                <bdi><a href="javascript:insertImageName('linkTwo','${imageNameLinkTwo}.gif');" class="buttontext">.gif</a></bdi>
+                                <bdi><a href="javascript:insertImageName('linkTwo','');" class="buttontext">${uiLabelMap.CommonClear}</a></bdi>
                             </div>
                         </#if>
                     </td>

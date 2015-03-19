@@ -271,7 +271,7 @@
         <value xml:lang="de">Anfrage</value>
         <value xml:lang="en">Inquiry</value>
         <value xml:lang="es">Demanda</value>
-        <value xml:lang="fa">پرس‌وجو</value>
+        <value xml:lang="fa">استعلام</value>
         <value xml:lang="fr">Enquête</value>
         <value xml:lang="hi_IN">पूछ-ताछ</value>
         <value xml:lang="it">Interrogazione</value>
@@ -1704,7 +1704,7 @@
     <property key="PartyRelationshipType.partyRelationshipName.LEAD_REL">
         <value xml:lang="en">Lead relation</value>
         <value xml:lang="es">Relación con lead</value>
-        <value xml:lang="fa">رابطه هادی</value>
+        <value xml:lang="fa">وابستگی هادی</value>
         <value xml:lang="fr">Relation principale</value>
         <value xml:lang="hi_IN">मुख्य रिश्ता</value>
         <value xml:lang="it">Relazione di proprietà</value>

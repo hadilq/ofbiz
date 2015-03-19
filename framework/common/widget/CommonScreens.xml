@@ -137,7 +137,7 @@ under the License.
                 <!-- The default (global) java scripts -->
                 <!-- jQuery part -->
                 <!-- Load available JS Language Files -->
-                <set field="initialLocaleComplete" type="String" value="${groovy:parameters?.userLogin?.lastLocale.toLanguageTag()}" default-value="${groovy:locale.toLanguageTag()}" />
+                <set field="initialLocaleComplete" type="String" value="${groovy:parameters?.userLogin?.lastLocale}" default-value="${groovy:locale.toLanguageTag()}" />
                 <!--<set field="layoutSettings.javaScripts[+0]" value="${groovy: org.ofbiz.common.JsLanguageFilesMapping.datejs.getFilePath(initialLocaleComplete)}" global="true" />-->
                 <set field="layoutSettings.javaScripts[+0]" value="${groovy: org.ofbiz.common.JsLanguageFilesMapping.jquery.getFilePath(initialLocaleComplete)}" global="true" />
                 <set field="layoutSettings.javaScripts[+0]" value="${groovy: org.ofbiz.common.JsLanguageFilesMapping.validation.getFilePath(initialLocaleComplete)}" global="true" />
