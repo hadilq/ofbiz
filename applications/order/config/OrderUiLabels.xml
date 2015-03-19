@@ -2362,7 +2362,7 @@
         <value xml:lang="de">Durchschnittliche Bewertung</value>
         <value xml:lang="en">Average Rating</value>
         <value xml:lang="es">Calficación estándar</value>
-        <value xml:lang="fa">نرخ متوسط</value>
+        <value xml:lang="fa">نرخ‌گذاری متوسط</value>
         <value xml:lang="fr">Classement moyen</value>
         <value xml:lang="hi_IN">औसत मापदंड</value>
         <value xml:lang="it">Media in Classifica</value>
@@ -10831,7 +10831,7 @@
         <value xml:lang="de">Bewertungen</value>
         <value xml:lang="en">Ratings</value>
         <value xml:lang="es">Calificaciones</value>
-        <value xml:lang="fa">نرخ‌گذاری</value>
+        <value xml:lang="fa">نرخ‌گذاری‌ها</value>
         <value xml:lang="fr">Taux</value>
         <value xml:lang="hi_IN">श्रेणी</value>
         <value xml:lang="it">Posizione</value>

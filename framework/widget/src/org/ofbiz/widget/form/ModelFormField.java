@@ -2116,8 +2116,15 @@ public class ModelFormField {
 
             if (UtilValidate.isEmpty(ObjRetVal)) {
                 retVal = this.getDefaultValue(context);
+<<<<<<< HEAD
             } else if ("currency".equals(type)) {
 >>>>>>> df11098... ofbiz-commit
+=======
+
+            } else if ("currency".equals(type) || ObjRetVal instanceof Double || ObjRetVal instanceof BigDecimal) {
+            // if type is not currency but ObjRetVal is an instance of Double or BigDecimal then we assume
+            // it is a currency
+>>>>>>> 0cb0279... modifying ModelFormField to display persian calendar
                 Locale locale = (Locale) context.get("locale");
                 if (locale == null) locale = Locale.getDefault();
                 String isoCode = null;
@@ -2194,6 +2201,7 @@ public class ModelFormField {
                         throw new IllegalArgumentException(errMsg);
                     }
                 }
+
             } else if ("date".equals(this.type)) {
                 Date date = null;
 
@@ -2218,7 +2226,9 @@ public class ModelFormField {
                     }
                 }
 
-            } else if ("date-time".equals(this.type)) {
+            } else if ("date-time".equals(this.type) || ObjRetVal instanceof Timestamp) {
+            // if type is not currency but ObjRetVal is an instance of Timestamp then we assume
+            // it is a date-time
                 Date date = null;
 
                 if (ObjRetVal instanceof Timestamp){
@@ -2275,6 +2285,7 @@ public class ModelFormField {
                         throw new IllegalArgumentException(errMsg);
                     }
                 }
+
             } else {
                 retVal = ObjRetVal.toString();
             }

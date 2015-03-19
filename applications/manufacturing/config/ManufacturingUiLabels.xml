@@ -4349,7 +4349,7 @@
     <property key="ManufacturingProposedOrder">
         <value xml:lang="en">Proposed Order</value>
         <value xml:lang="es">Orden propuesta</value>
-        <value xml:lang="fa">سفارش مطرح</value>
+        <value xml:lang="fa">سفارش مطرح‌شده</value>
         <value xml:lang="fr">Ordre Proposé</value>
         <value xml:lang="it">Ordine Proposta</value>
         <value xml:lang="ja">提案注文</value>

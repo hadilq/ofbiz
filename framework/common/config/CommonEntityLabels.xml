@@ -2054,7 +2054,7 @@
         <value xml:lang="de">Akteur Klassifizierung</value>
         <value xml:lang="en">Party Classification</value>
         <value xml:lang="es">Clasificación participante</value>
-        <value xml:lang="fa">دسته‌بندی هویت</value>
+        <value xml:lang="fa">کلاس‌بندی هویت</value>
         <value xml:lang="fr">Classification des acteurs</value>
         <value xml:lang="it">Classificazione soggetto</value>
         <value xml:lang="ja">取引先分類</value>
@@ -2794,7 +2794,7 @@
         <value xml:lang="de">Akteur Klassifizierung</value>
         <value xml:lang="en">Party Classification</value>
         <value xml:lang="es">Clasificación de participantes</value>
-        <value xml:lang="fa">دسته‌بندی هویت</value>
+        <value xml:lang="fa">کلاس‌بندی هویت</value>
         <value xml:lang="fr">Classification d'acteurs</value>
         <value xml:lang="it">Classificazione soggetto</value>
         <value xml:lang="ja">取引先分類</value>
@@ -4547,7 +4547,7 @@
         <value xml:lang="de">Arbeitseinsatz Bereich Klassifizierung</value>
         <value xml:lang="en">Work Effort Scope Classifications</value>
         <value xml:lang="es">Esfuerzo de trabajo - Ámbito</value>
-        <value xml:lang="fa">دسته‌بندی‌های گستره برنامه کار</value>
+        <value xml:lang="fa">کلاس‌بندی‌های گستره برنامه کار</value>
         <value xml:lang="fr">Classification de portée de tâche</value>
         <value xml:lang="it">Capacità classificazioni impegno di lavoro</value>
         <value xml:lang="ja">作業成果範囲分類</value>
@@ -12384,7 +12384,7 @@
         <value xml:lang="de">Vorgeschlagen</value>
         <value xml:lang="en">Proposed</value>
         <value xml:lang="es">Propuesto</value>
-        <value xml:lang="fa">پیشنهادداده‌شده</value>
+        <value xml:lang="fa">مطرح‌شده</value>
         <value xml:lang="fr">Proposée</value>
         <value xml:lang="it">Proposto</value>
         <value xml:lang="ja">提案済</value>
@@ -12958,7 +12958,7 @@
         <value xml:lang="de">Vorgeschlagen</value>
         <value xml:lang="en">Proposed</value>
         <value xml:lang="es">Propuesto</value>
-        <value xml:lang="fa">پیشنهادشده</value>
+        <value xml:lang="fa">مطرح‌شده</value>
         <value xml:lang="fr">Proposée</value>
         <value xml:lang="it">Proposto</value>
         <value xml:lang="ja">提案</value>

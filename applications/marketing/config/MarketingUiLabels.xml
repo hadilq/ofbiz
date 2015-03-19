@@ -1104,7 +1104,7 @@
         <value xml:lang="de">Neue Klassifizierung für Segmentgruppe erstellen</value>
         <value xml:lang="en">Create New Segment Group Classification</value>
         <value xml:lang="es">Nueva clasificación de segmento</value>
-        <value xml:lang="fa">ساختن دسته‌بندی گروه بخش جدید</value>
+        <value xml:lang="fa">ساختن کلس‌بندی گروه بخش جدید</value>
         <value xml:lang="fr">Créer une nouvelle classification de groupe de segment</value>
         <value xml:lang="it">Creare Nuova Classificazione Gruppo Segmento</value>
         <value xml:lang="ja">新規セグメントグループ分類を作成</value>
@@ -1218,7 +1218,7 @@
     <property key="MarketingSegmentGroupPartyClassificationGroupId">
         <value xml:lang="de">Segment Klassifizierungsgruppen-ID</value>
         <value xml:lang="en">Segment GroupParty ClassificationGroup Id</value>
-        <value xml:lang="fa">آی‌دی گروه دسته‌بندی گروه هویت بخش</value>
+        <value xml:lang="fa">آی‌دی «گروه کلاس‌بندی» «گروه هویت» بخش</value>
         <value xml:lang="fr">Réf du groupe de classification d'acteur</value>
         <value xml:lang="it">Soggetto gruppo segmento classificazione</value>
         <value xml:lang="ja">セグメントグループ取引先分類グループID</value>
@@ -1279,7 +1279,7 @@
         <value xml:lang="de">Klassifizierung</value>
         <value xml:lang="en">Classification</value>
         <value xml:lang="es">Clasificación</value>
-        <value xml:lang="fa">دسته‌بندی</value>
+        <value xml:lang="fa">کلاس‌بندی</value>
         <value xml:lang="fr">Classification</value>
         <value xml:lang="it">Classificazione</value>
         <value xml:lang="ja">分類</value>
@@ -2319,7 +2319,7 @@
         <value xml:lang="de">Segmentgruppe-Klassifizierungen bearbeiten</value>
         <value xml:lang="en">Edit Segment Group Classification</value>
         <value xml:lang="es">Editar clasificación de segmento</value>
-        <value xml:lang="fa">ویرایش دسته‌بندی گروه بخش</value>
+        <value xml:lang="fa">ویرایش کلاس‌بندی گروه بخش</value>
         <value xml:lang="fr">Modifier la classification de groupe de segment</value>
         <value xml:lang="it">Aggiorna Classificazione Gruppo Segmento</value>
         <value xml:lang="ja">セグメントグループ分類を編集</value>
