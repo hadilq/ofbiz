@@ -36,7 +36,7 @@
     </property>
     <property key="EmplLeaveType.description.INLAND_EARNED">
         <value xml:lang="en">Inland earned</value>
-        <value xml:lang="fa">درآمد درونی</value>
+        <value xml:lang="fa">بدست‌آمده درونی</value>
         <value xml:lang="fr">Congé payé</value>
         <value xml:lang="ja">国内取得</value>
         <value xml:lang="vi">Thu nhập quốc nội</value>
@@ -44,7 +44,7 @@
     </property>
     <property key="EmplLeaveType.description.LOSS_OF_PAY">
         <value xml:lang="en">Loss of pay</value>
-        <value xml:lang="fa">ضرر پرداخت</value>
+        <value xml:lang="fa">زیان پرداختن</value>
         <value xml:lang="fr">Sans solde</value>
         <value xml:lang="ja">無給</value>
         <value xml:lang="vi">Mất thanh toán</value>

@@ -79,7 +79,7 @@
     </property>
     <property key="ScaleImage.transform_is_non_invertible">
         <value xml:lang="en">Transform is non-invertible</value>
-        <value xml:lang="fa">دگرگونی غیرقابل بازگشت است</value>
+        <value xml:lang="fa">دگرگونی بازنگشتنی است</value>
         <value xml:lang="fr">La transformation n'est pas réversible</value>
         <value xml:lang="ja">変換は非可逆的です</value>
         <value xml:lang="zh">转换是不可逆的</value>
@@ -103,7 +103,7 @@
     </property>
     <property key="ScaleImage.unable_to_scale_original_image">
         <value xml:lang="en">Unable to scale original image</value>
-        <value xml:lang="fa">نمی‌توان عکس اولیه را مقیاس‌بندی‌کرد</value>
+        <value xml:lang="fa">نمی‌توان عکس اولیه را تغییراندازه‌داد</value>
         <value xml:lang="fr">Impossible de redimensionner l'image originale</value>
         <value xml:lang="ja">元の画像をスケール変更できません</value>
         <value xml:lang="zh">无法缩放原始图像</value>
@@ -163,13 +163,13 @@
     </property>
     <property key="ProductErrorNoInventoryReservationsAvailableCannotVerifyThisItem">
         <value xml:lang="en">ERROR: No inventory reservations available; cannot pick this item</value>
-        <value xml:lang="fa">خطا: هیچ رزرو موجودی‌کالا موجود‌نمی‌باشد؛ این قلم قابل چیدن نیست</value>
+        <value xml:lang="fa">خطا: هیچ رزرو موجودی‌کالا موجود‌نمی‌باشد؛ نمی‌توان این قلم را چید</value>
         <value xml:lang="ja">エラー: 有効な在庫予約がありません。このアイテムをピッキングできません</value>
         <value xml:lang="zh">错误：没有可用的库存预留；无法分拣这个明细</value>
     </property>
     <property key="ProductErrorNoShipGroupSequenceIdFoundCannotProcess">
         <value xml:lang="en">ERROR: No ship group sequence Id found cannot process</value>
-        <value xml:lang="fa">خطا: هیچ آی‌دی ترتیبی گروه حمل پیدانشده؛ قابل پردازش نیست</value>
+        <value xml:lang="fa">خطا: هیچ آی‌دی ترتیبی گروه حمل‌کردن پیدانشده؛ نمی‌توان پردازش کرد</value>
         <value xml:lang="ja">エラー: 発送グループ連番IDが見つかりません。処理できません</value>
         <value xml:lang="zh">错误：没有找到送货组序号标识，不能处理</value>
     </property>
@@ -263,7 +263,7 @@
     <property key="ProductReturnNotYetAcceptedOrAlreadyReceived">
         <value xml:lang="de">Diese Retoure wurde noch nicht akzeptiert oder wurde schon erhalten.</value>
         <value xml:lang="en">This return is not yet accepted or already received.</value>
-        <value xml:lang="fa">این بازگشت هنوز پذیرفته‌نشده یا هنوز نرسیده‌است.</value>
+        <value xml:lang="fa">این بازگشته هنوز پذیرفته‌نشده یا هنوز نرسیده‌است.</value>
         <value xml:lang="fr">Ce retour n'est pas encore accepté ou déjà reçu.</value>
         <value xml:lang="it">Questo non è ancora accettato o già ricevuto.</value>
         <value xml:lang="ja">この返品は未受付または受取済です。</value>
@@ -275,7 +275,7 @@
     <property key="ProductReturnRequestedOK">
         <value xml:lang="de">Die Retoure wurde verlangt.</value>
         <value xml:lang="en">The return is requested.</value>
-        <value xml:lang="fa">بازگشت لازم‌است.</value>
+        <value xml:lang="fa">بازگشته لازم‌است.</value>
         <value xml:lang="fr">Le retour est demandé.</value>
         <value xml:lang="it">Il reso è richiesto.</value>
         <value xml:lang="ja">返品がリクエストされました。</value>
@@ -353,7 +353,7 @@
         <value xml:lang="de">Verknüpfungstyp ID fehlt.</value>
         <value xml:lang="en">Association Type ID is missing.</value>
         <value xml:lang="es">Hace falta el código del tipo de asociación</value>
-        <value xml:lang="fa">آی‌دی نوع انجمن فراموش‌شده‌است.</value>
+        <value xml:lang="fa">آی‌دی نوع همبستگی فراموش‌شده‌است.</value>
         <value xml:lang="fr">La réf. de type d'association est absente.</value>
         <value xml:lang="it">Tipo Associazione è mancante.</value>
         <value xml:lang="ja">関連付け種類IDが正しくありません。</value>
@@ -367,7 +367,7 @@
         <value xml:lang="de">Attributname fehlt.</value>
         <value xml:lang="en">Attribute name is missing.</value>
         <value xml:lang="es">Falta el nombre del atributo.</value>
-        <value xml:lang="fa">نام خواص فراموش‌شده‌است.</value>
+        <value xml:lang="fa">نام خاصیت فراموش‌شده‌است.</value>
         <value xml:lang="fr">Le nom d'attribut est absent.</value>
         <value xml:lang="it">Nome Attributo è mancante.</value>
         <value xml:lang="ja">属性名称が正しくありません。</value>
@@ -381,7 +381,7 @@
         <value xml:lang="de">Attribute konnten nicht erstellen werden (Schreibfehler).</value>
         <value xml:lang="en">Could not create attribute (write error).</value>
         <value xml:lang="es">No se pudo crear atributo (error de escritura).</value>
-        <value xml:lang="fa">نمی‌توان خواص را ساخت (خطا در نوشتن).</value>
+        <value xml:lang="fa">نمی‌توان خاصیت را ساخت (خطا در نوشتن).</value>
         <value xml:lang="fr">Impossible de créer l'attribut (erreur d'écriture).</value>
         <value xml:lang="it">Non è possibile creare l'attributo (errore scrittura).</value>
         <value xml:lang="ja">属性が作成できません(書き込みエラー)。</value>
@@ -409,7 +409,7 @@
         <value xml:lang="de">Produktverknüpfung konnte nicht erstellt werden (existiert bereits).</value>
         <value xml:lang="en">Could not create product association (already exists).</value>
         <value xml:lang="es">No se pudo crear asociación (ya existe).</value>
-        <value xml:lang="fa">نمی‌توان انجمن محصول را ساخت (ازقبل موجود است).</value>
+        <value xml:lang="fa">نمی‌توان همبستگی محصول را ساخت (ازقبل موجود است).</value>
         <value xml:lang="fr">Impossible de créer l'association à l'article (existe déjà).</value>
         <value xml:lang="it">Non è possibile creare l'associazione prodotto (già esistente).</value>
         <value xml:lang="ja">製品関連付けが作成できません(すでに存在します)。</value>
@@ -423,7 +423,7 @@
         <value xml:lang="de">Produktverknüpfung konnte nicht erstellt werden (Schreibfehler).</value>
         <value xml:lang="en">Could not create product association (write error).</value>
         <value xml:lang="es">No se pudo crear asociación (error de escritura).</value>
-        <value xml:lang="fa">نمی‌توان انجمن محصول را ساخت (خطا در نوشتن).</value>
+        <value xml:lang="fa">نمی‌توان همبستگی محصول را ساخت (خطا در نوشتن).</value>
         <value xml:lang="fr">Impossible de créer l'association à l'article (erreur d'écriture).</value>
         <value xml:lang="it">Non è possibile creare associazione prodotto (errore scrittura).</value>
         <value xml:lang="ja">製品関連付けが作成できません(書き込みエラー)。</value>
@@ -465,7 +465,7 @@
         <value xml:lang="de">Attribut konnte nicht gelöscht werden (Schreibfehler).</value>
         <value xml:lang="en">Could not delete attribute (write error).</value>
         <value xml:lang="es">No se pudo borrar atributo (error de escritura).</value>
-        <value xml:lang="fa">نمی‌تواند خواص را پاک‌نمود (خطا در نوشتن).</value>
+        <value xml:lang="fa">نمی‌تواند خاصیت را پاک‌نمود (خطا در نوشتن).</value>
         <value xml:lang="fr">Impossible de supprimer l'attribut (erreur d'écriture)</value>
         <value xml:lang="it">Non è possibile cancellare attributo (errore scrittura).</value>
         <value xml:lang="ja">属性を削除できません(書き込みエラー)。</value>
@@ -493,7 +493,7 @@
         <value xml:lang="de">Produktverknüpfung konnte nicht gelöscht werden (nicht vorhanden).</value>
         <value xml:lang="en">Could not remove product association (does not exist).</value>
         <value xml:lang="es">No se pudo remover asociación de producto (no existe).</value>
-        <value xml:lang="fa">نمی‌توان انجمن محصول را حذف‌نمود (موجود نمی‌باشد).</value>
+        <value xml:lang="fa">نمی‌توان همبستگی محصول را حذف‌نمود (موجود نمی‌باشد).</value>
         <value xml:lang="fr">Impossible de supprimer le mot-clé de l'article (erreur d'écriture).</value>
         <value xml:lang="it">Non è possibile cancellare associazione prodotto (non esiste).</value>
         <value xml:lang="ja">製品関連付けを削除できません(存在しません)。</value>
@@ -507,7 +507,7 @@
         <value xml:lang="de">Produktverknüpfung konnte nicht gelöscht werden (Schreibfehler).</value>
         <value xml:lang="en">Could not remove product association (write error).</value>
         <value xml:lang="es">No se pudo remover asociación de producto (error de escritura).</value>
-        <value xml:lang="fa">نمی‌توان انجمن محصول را حذف‌نمود (خطا نوشتن).</value>
+        <value xml:lang="fa">نمی‌توان همبستگی محصول را حذف‌نمود (خطا نوشتن).</value>
         <value xml:lang="fr">Impossible de supprimer l'association à l'article (n'existe pas).</value>
         <value xml:lang="it">Non è possibile cancellare associazione prodotto (errore scrittura).</value>
         <value xml:lang="ja">製品関連付けを削除できません(書き込みエラー)。</value>
@@ -548,7 +548,7 @@
         <value xml:lang="de">Attribut konnte nicht aktualisiert werden (Schreibfehler).</value>
         <value xml:lang="en">Could not update attribute (write error).</value>
         <value xml:lang="es">No se pudo actualizar atributo (error de escritura).</value>
-        <value xml:lang="fa">نمی‌توان خواص را بروزکرد (خطا در نوشتن).</value>
+        <value xml:lang="fa">نمی‌توان خاصیت را بروزکرد (خطا در نوشتن).</value>
         <value xml:lang="fr">Impossible de mettre à jour l'attribut (erreur d'écriture).</value>
         <value xml:lang="it">Non è possibile aggiornare attributo (errore scrittura).</value>
         <value xml:lang="ja">属性を更新できません(書き込みエラー)。</value>
@@ -562,7 +562,7 @@
         <value xml:lang="de">Produktverknüpfung konnte nicht aktualisiert werden (Schreibfehler).</value>
         <value xml:lang="en">Could not update product association (write error).</value>
         <value xml:lang="es">No se pudo actualizar asociación de escritura (error de escritura).</value>
-        <value xml:lang="fa">نمی‌توان انجمن محصول را بروزکرد (خطا در نوشتن).</value>
+        <value xml:lang="fa">نمی‌توان همبستگی محصول را بروزکرد (خطا در نوشتن).</value>
         <value xml:lang="fr">Impossible de mettre à jour l'association à l'article (erreur d'écriture).</value>
         <value xml:lang="it">Non è possibile aggiornare associazione prodotto (errore scrittura).</value>
         <value xml:lang="ja">製品関連付けを更新できません(書き込みエラー)。</value>
@@ -981,7 +981,7 @@
         <value xml:lang="de">Leere Liste mit wählbaren Merkmalen gefunden.</value>
         <value xml:lang="en">Empty list of selectable features found.</value>
         <value xml:lang="es">Se halló una lista de características seleccionables vacía.</value>
-        <value xml:lang="fa">لیست خالی افزونه‌های قابل‌انتخاب پیداشده‌است.</value>
+        <value xml:lang="fa">لیست خالی افزونه‌های ‌انتخاب‌شدنی پیداشده‌است.</value>
         <value xml:lang="fr">Liste de caractéristiques sélectionnables trouvées vide.</value>
         <value xml:lang="it">Lista vuota di caratteristiche selezionabili trovate.</value>
         <value xml:lang="ja">選択可能機能リストが空です。</value>
@@ -1003,7 +1003,7 @@
         <value xml:lang="de">Fehler bei zugeordneter Variante mit ID ${productIdTo}, Fehler war: ${errMessage}.</value>
         <value xml:lang="en">Error finding associated variant with ID ${productIdTo}, error was: ${errMessage}.</value>
         <value xml:lang="es">Error buscando una variante asociada con el código ${productIdTo}, el error fue: ${errMessage}.</value>
-        <value xml:lang="fa">خطای پیداکردن گونه مرتبط با آی‌دی  ${productIdTo}، خطا این بود ${errMessage}.</value>
+        <value xml:lang="fa">خطای پیداکردن گونه همبسته‌شده با آی‌دی  ${productIdTo}، خطا این بود ${errMessage}.</value>
         <value xml:lang="fr">Erreur dans la variante associée avec la réf. ${productIdTo}, l'erreur était : ${errMessage}.</value>
         <value xml:lang="it">Errore nella ricerca associata alla variante con Codice ${productIdTo}, errore era: ${errMessage}.</value>
         <value xml:lang="ja">ID ${productIdTo} に関連付けられた別型の検索エラー: ${errMessage}.</value>
@@ -1115,7 +1115,7 @@
         <value xml:lang="de">Problem bei den Produktverbindungen: ${errMessage}.</value>
         <value xml:lang="en">Problems product association relation: ${errMessage}.</value>
         <value xml:lang="es">Problemas de relación de asociaciones de producto: ${errMessage}.</value>
-        <value xml:lang="fa">مشکلات در وابستگی انجمن محصول: ${errMessage}.</value>
+        <value xml:lang="fa">مشکلات در وابستگی همبستگی محصول: ${errMessage}.</value>
         <value xml:lang="fr">Problème dans l'association d'article : ${errMessage}.</value>
         <value xml:lang="it">Problema leggendo relazione associazione prodotto: ${errMessage}.</value>
         <value xml:lang="ja">製品関連付けの関係エラー: ${errMessage}.</value>
@@ -1355,7 +1355,7 @@
         <value xml:lang="de">Produktvariante erfolgreich erstellt mit der ID: ${variantProductId} (enthält Verbindungen und Standart-Merkmale für die Variante).</value>
         <value xml:lang="en">Successfully created variant product with id: ${variantProductId} (includes association, and standard features for the variant).</value>
         <value xml:lang="es">Se creó exitosamente el producto variante con código: ${variantProductId} (incluye asociación, y características estándard para la variante).</value>
-        <value xml:lang="fa">باموفقیت محصول گونه با آی‌دی ${variantProductId} ساخته‌شده‌است (شامل انجمن و افزونه‌های استاندارد برای گونه).</value>
+        <value xml:lang="fa">باموفقیت محصول گونه با آی‌دی ${variantProductId} ساخته‌شده‌است (شامل همبستگی و افزونه‌های استاندارد برای گونه).</value>
         <value xml:lang="fr">Création résussie de la variante d'article : réf. ${variantProductId} (inclut l'association, et les caractéristiques standards pour la variante).</value>
         <value xml:lang="it">Variante prodotto con Codice: ${variantProductId} creato con successo (incluse associazioni, e caratteristiche standard per la variante).</value>
         <value xml:lang="ja">id: ${variantProductId} の別型製品が正しく作成されました(別型の関連付け、および標準機能を含め)。</value>

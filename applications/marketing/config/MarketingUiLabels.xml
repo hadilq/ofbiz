@@ -86,7 +86,7 @@
     <property key="FormFieldTitle_convertedLeads">
         <value xml:lang="de">Konvertierte Leads</value>
         <value xml:lang="en">Converted Leads</value>
-        <value xml:lang="fa">:332</value>
+        <value xml:lang="fa">هادی‌های تبدیل‌شده</value>
         <value xml:lang="fr">Prospects convertis</value>
         <value xml:lang="it">Leads convertiti</value>
         <value xml:lang="ja">変換済リード</value>
@@ -112,7 +112,7 @@
     <property key="FormFieldTitle_expectedResponsePercent">
         <value xml:lang="de">Erwartete Antworten in Prozent</value>
         <value xml:lang="en">Expected Response Percent</value>
-        <value xml:lang="fa">درصد پاسخگوی مورد انتظار</value>
+        <value xml:lang="fa">درصد پاسخگوی موردانتظار</value>
         <value xml:lang="fr">Pourcentage de réponse estimé</value>
         <value xml:lang="it">Percentuale di risposta stimata</value>
         <value xml:lang="ja">期待レスポンス割合(%)</value>
@@ -124,7 +124,7 @@
     <property key="FormFieldTitle_expectedRevenue">
         <value xml:lang="de">Erwarteter Ertrag</value>
         <value xml:lang="en">Expected Revenue</value>
-        <value xml:lang="fa">درآمد مورد انتظار</value>
+        <value xml:lang="fa">درآمد موردانتظار</value>
         <value xml:lang="fr">Revenu estimé</value>
         <value xml:lang="it">Ricavo stimato</value>
         <value xml:lang="ja">期待利益</value>
@@ -397,6 +397,7 @@
         <value xml:lang="de">OFBiz: Vermarktungsmanager</value>
         <value xml:lang="en">OFBiz: Marketing Manager</value>
         <value xml:lang="es">OFBiz: Gestión de Marketing</value>
+        <value xml:lang="fa">OFBiz: مدیر بازاریابی</value>
         <value xml:lang="fr">OFBiz: Gestion du Marketing</value>
         <value xml:lang="it">OFBiz: Gestione vendite</value>
         <value xml:lang="ja">OFBiz: マーケティング管理</value>
@@ -615,7 +616,7 @@
     <property key="MarketingContactListIsSingleUse">
         <value xml:lang="de">Einmalige Nutzung ?</value>
         <value xml:lang="en">Is Single Use ?</value>
-        <value xml:lang="fa">آیا فقط برای یکبار استفاده است؟</value>
+        <value xml:lang="fa">آیا تک کاره است؟</value>
         <value xml:lang="fr">Est à usage unique ?</value>
         <value xml:lang="it">E' a singolo uso ?</value>
         <value xml:lang="ja">単一使用?</value>
@@ -743,7 +744,7 @@
     <property key="MarketingContactListPartiesImport">
         <value xml:lang="de">Akteure importieren</value>
         <value xml:lang="en">Import Parties</value>
-        <value xml:lang="fa">وارد کردن هویت</value>
+        <value xml:lang="fa">واردکردن هویت</value>
         <value xml:lang="fr">Import d'acteurs</value>
         <value xml:lang="ja">取引先をインポート</value>
         <value xml:lang="th">นำเข้ากลุ่มผู้ใช้</value>
@@ -929,7 +930,7 @@
     <property key="MarketingFindLeads">
         <value xml:lang="de">Leads suchen</value>
         <value xml:lang="en">Find SFA Leads</value>
-        <value xml:lang="fa">:390</value>
+        <value xml:lang="fa">پیداکردن هادی‌های مدیریت نیروی فروش (SFA)</value>
         <value xml:lang="fr">Rechercher des prospects</value>
         <value xml:lang="ja">SFAリードを検索</value>
         <value xml:lang="pt_BR">Buscar Leads da equipe de vendas</value>
@@ -1432,7 +1433,7 @@
     <property key="MarketingTrackingCodeBillableLifetime">
         <value xml:lang="en">Billable Lifetime</value>
         <value xml:lang="es">Tiempo de facturación</value>
-        <value xml:lang="fa">عمر قابل صورت‌حساب‌دهی</value>
+        <value xml:lang="fa">عمر صورت‌حساب‌کردنی</value>
         <value xml:lang="fr">Durée de vie facturable</value>
         <value xml:lang="it">Tempo di Vita Fatturabile</value>
         <value xml:lang="ja">請求可能期限</value>
@@ -1589,7 +1590,7 @@
         <value xml:lang="de">Kann fakturiert werden?</value>
         <value xml:lang="en">Is Billable ?</value>
         <value xml:lang="es">Es facturable ?</value>
-        <value xml:lang="fa">آیا قابل صورت‌حساب‌دهی است؟</value>
+        <value xml:lang="fa">آیا صورت‌حساب‌کردنی است؟</value>
         <value xml:lang="fr">Facturable ?</value>
         <value xml:lang="it">E' Fatturabile ?</value>
         <value xml:lang="ja">請求可能?</value>
@@ -1705,7 +1706,7 @@
     <property key="MarketingTrackingCodeTrackableLifetime">
         <value xml:lang="en">Trackable Lifetime</value>
         <value xml:lang="es">Tiempo de vida</value>
-        <value xml:lang="fa">عمر قابل پیگیری بودن</value>
+        <value xml:lang="fa">عمر پیگیرشدنی</value>
         <value xml:lang="fr">Durée de vie du suivi</value>
         <value xml:lang="it">Tracciatura Tempo di Vita</value>
         <value xml:lang="ja">追跡可能期限</value>
@@ -1765,6 +1766,7 @@
         <value xml:lang="de">Tracking-Code Art erstellen</value>
         <value xml:lang="en">Create Tracking Code Type</value>
         <value xml:lang="es">Crear tipo de seguimiento</value>
+        <value xml:lang="fa">ساختن نوع کد پیگیری</value>
         <value xml:lang="fr">Nouveau type de code de suivi</value>
         <value xml:lang="it">Nuovo tipo tracciatura</value>
         <value xml:lang="ja">追跡コード種類を作成</value>
@@ -2439,7 +2441,7 @@
         <value xml:lang="de">Zugehörige Kommunikationsereigniss suchen</value>
         <value xml:lang="en">Find Associated CommEvents</value>
         <value xml:lang="es">Buscar eventos asociados</value>
-        <value xml:lang="fa">پیداکردن رویداد معمول مربوط</value>
+        <value xml:lang="fa">پیداکردن رویداد معمول همبسته‌شده</value>
         <value xml:lang="fr">Rechercher les évènements de communication associés</value>
         <value xml:lang="it">Ricerca eventi comunicazione associati</value>
         <value xml:lang="ja">関連通信イベントを検索</value>
@@ -2468,7 +2470,7 @@
     <property key="PageTitleFindImportContactListParties">
         <value xml:lang="de">Kontaktlisten-Akteure importieren</value>
         <value xml:lang="en">Find Import Contact List Parties</value>
-        <value xml:lang="fa">پیداکردن وراد کردن لیست تماس هویت‌ها</value>
+        <value xml:lang="fa">پیداکردن واردکردن لیست تماس هویت‌ها</value>
         <value xml:lang="fr">Rechercher des acteurs importés sur une liste de contact</value>
         <value xml:lang="ja">インポート連絡リスト取引先を検索</value>
         <value xml:lang="th">ค้นหารายการติดต่อกลุ่มผู้ใช้เพื่อการนำเข้า</value>
@@ -3247,7 +3249,7 @@
     <property key="SfaExportVCardError">
         <value xml:lang="de">Fehler beim Exportieren von VCard: ${errorString}</value>
         <value xml:lang="en">Error during export data from VCard: ${errorString}</value>
-        <value xml:lang="fa">خطا در زمان خروج اطلاعات از VCard: ${errorString}</value>
+        <value xml:lang="fa">خطا در زمان صادرکردن داده از VCard: ${errorString}</value>
         <value xml:lang="fr">Erreur durant l'export de la VCard : ${errorString}</value>
         <value xml:lang="it">Errore durante l'esportazione dei dati da VCard: ${errorString}</value>
         <value xml:lang="ja">vCardからデータをエクスポート中にエラー: ${errorString}</value>
@@ -3257,7 +3259,7 @@
     <property key="SfaExportVCardErrorOpeningFile">
         <value xml:lang="de">Fehler beim Exportieren von VCard, Datei zum Schreiben konnte nicht geöffnet werden: ${errorString}</value>
         <value xml:lang="en">Error during export data from VCard, unable to open file for writing: ${errorString}</value>
-        <value xml:lang="fa">خطا در زمان خروج اطلاعات از VCard، ناتوانی در بازکردن فایل برای نوشتن: ${errorString}</value>
+        <value xml:lang="fa">خطا در زمان صادرکردن داده از VCard، ناتوانی در بازکردن فایل برای نوشتن: ${errorString}</value>
         <value xml:lang="fr">Erreur durant l'export de la VCard, impossible d'ouvrir le fichier en écriture : ${errorString}</value>
         <value xml:lang="it">Errore durante l'esportazione dei dati da VCard, non è possibile aprire il file in scrittura: ${errorString}</value>
         <value xml:lang="ja">vCardからデータをエクスポート中にエラー。書き込みファイルをオープンできません: ${errorString}</value>
@@ -3267,7 +3269,7 @@
     <property key="SfaExportVCardErrorWritingFile">
         <value xml:lang="de">Fehler beim Exportieren von VCard, Daten konnten nicht geschrieben werden: ${errorString}</value>
         <value xml:lang="en">Error during export data from VCard, unable to write data to: ${errorString}</value>
-        <value xml:lang="fa">خطا در زمان خروج اطلاعات از VCard، ناتوانی در نوشتن اطلاعات: ${errorString}</value>
+        <value xml:lang="fa">خطا در زمان صادرکردن داده از VCard، ناتوانی در نوشتن اطلاعات: ${errorString}</value>
         <value xml:lang="fr">Erreur durant l'export de la VCard, impossible d'écrire les données : ${errorString}</value>
         <value xml:lang="it">Errore durante l'esportazione dei dati da VCard, non è possibile scrivere i dati in: ${errorString}</value>
         <value xml:lang="ja">vCardからデータをエクスポート中にエラー。ファイルにデータを書き込みできません: ${errorString}</value>

@@ -187,7 +187,7 @@
     </property>
     <property key="AccountingFinAccountCannotPost">
         <value xml:lang="en">Cannot post FinAccountTrans with ID ${parameters.finAccountTransId} to GL, could not find ${creditDebit} ${requiredField}</value>
-        <value xml:lang="fa">نمی‌توان FinAccountTrans با آی‌دی ${parameters.finAccountTransId} به کد معین را ارسال‌کرد، نمی‌توان ${creditDebit} ${requiredField} را یافت.</value>
+        <value xml:lang="fa">نمی‌توان FinAccountTrans با آی‌دی ${parameters.finAccountTransId} به کد معین را ارسال‌کرد، نمی‌توان ${creditDebit} ${requiredField} را پیداکرد.</value>
         <value xml:lang="it">Non post FinAccountTrans con ID ${parameters.finAccountTransId} in GL, could not find ${creditDebit} ${requiredField}</value>
         <value xml:lang="ja">ID ${parameters.finAccountTransId} の金融アカウントトランザクションを総勘定元帳(GL)に転記できません。${creditDebit} ${requiredField} が見つかりません。</value>
         <value xml:lang="pt">Não é possível enviar FinAccountTrans com ID ${parameters.finAccountTransId} para conntabilidade, não foi possível encontrar ${creditDebit} ${requiredField}</value>
@@ -237,7 +237,7 @@
     </property>
     <property key="AccountingFinAccountIsNotRefundable">
         <value xml:lang="en">Account is not refunable</value>
-        <value xml:lang="fa">حساب قابل‌بازپرداخت نمی‌باشد</value>
+        <value xml:lang="fa">حساب بازپرداختنی نمی‌باشد</value>
         <value xml:lang="it">Il conto non è rimborsabile</value>
         <value xml:lang="ja">アカウントは払出できません</value>
         <value xml:lang="pt">Conta não é reembolsável</value>
@@ -261,7 +261,7 @@
     </property>
     <property key="AccountingFinAccountNoPaymentMethodAssociatedWithReplenishAccount">
         <value xml:lang="en">No payment method associated with replenish account</value>
-        <value xml:lang="fa">هیچ روش پرداختی متناسب با باز پرکردن حساب نیست</value>
+        <value xml:lang="fa">هیچ روش پرداختی همبسته‌شده با حساب تنخواه‌گردان نیست</value>
         <value xml:lang="it">Nessun metodo pagamento associtao con il conto di rifornimento</value>
         <value xml:lang="ja">補充アカウントと関連付けられた支払方法がありません</value>
         <value xml:lang="pt">Nenhum método de pagamento associado à reposição de conta</value>
@@ -277,7 +277,7 @@
     </property>
     <property key="AccountingFinAccountPartiallyRefunded">
         <value xml:lang="en">FinAccount partially refunded; not enough replenish deposits to refund!</value>
-        <value xml:lang="fa">«حساب مالی» تقریبا بازپرداخت شده است: به اندازه کافی سپرده تنخواه‌گردان برای بازپرداخت نیست!</value>
+        <value xml:lang="fa">«حساب مالی» بخشی بازپرداخت شده است: به اندازه کافی سپرده تنخواه‌گردان برای بازپرداخت نیست!</value>
         <value xml:lang="it">Conto finanziario parzialmente rimborsato; non ci sono abbastanza depositi per il rifornimento da rimborsare!</value>
         <value xml:lang="ja">金融アカウントは一部払出済です。払出には預入の補充が不十分です。</value>
         <value xml:lang="pt">FinAccount parcialmente reembolsada, não há depósitos de reposição suficiente para reembolsar!</value>
@@ -365,7 +365,7 @@
     </property>
     <property key="AccountingGiftCerticateNumberCannotFulfill">
         <value xml:lang="en">No product associated with OrderItem, cannot fulfill gift card</value>
-        <value xml:lang="fa">هیچ محصولی با «قلم سفارش» مطابقت ندارد، نمی‌توان کارت هدیه را تکمیل‌کرد</value>
+        <value xml:lang="fa">هیچ محصولی با «قلم سفارش» همبسته‌شده نیست، نمی‌توان کارت هدیه را تکمیل‌کرد</value>
         <value xml:lang="it">Nessun prodotto associato alla riga ordine, non è possibile processare l'acquisto con carta regalo</value>
         <value xml:lang="ja">注文アイテムと関連付けられた製品がありません。ギフトカードの執行ができません</value>
         <value xml:lang="pt">Nenhum produto associado OrderItem, não é possível honrar o cartão de presente</value>
@@ -825,7 +825,7 @@
     <property key="idealEvents.noValidOrderIdReturned">
         <value xml:lang="de">Es wurde keine valide BestellId zurückgegeben</value>
         <value xml:lang="en">No Valid OrderId Returned</value>
-        <value xml:lang="fa">هیچ OrderId مورد تاییدی برنگشت</value>
+        <value xml:lang="fa">هیچ OrderId معتبری بازنگشته</value>
         <value xml:lang="fr">Référence commande retournée n'est pas valide</value>
         <value xml:lang="hi_IN">मान्य OrderId वापस नहीं लौटा</value>
         <value xml:lang="it">Nessun numero ordine restituito</value>

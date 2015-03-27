@@ -118,7 +118,7 @@
         <value xml:lang="de">Wartung des Zeitlichen Ausdrucks</value>
         <value xml:lang="en">Temporal Expression Maintenance</value>
         <value xml:lang="es">Mantenimiento de expresiones temporales</value>
-        <value xml:lang="fa">تعمیرونگهداری ابراز زمانی</value>
+        <value xml:lang="fa">نگهداری ابراز زمانی</value>
         <value xml:lang="fr">maintenance d'expression temporelle</value>
         <value xml:lang="it">Gestione espressioni temporali</value>
         <value xml:lang="ja">時間表現メンテナンス</value>
@@ -279,7 +279,7 @@
         <value xml:lang="de">Ersetzung</value>    
         <value xml:lang="en">Substitution</value>
         <value xml:lang="es">Sustitución</value>
-        <value xml:lang="fa">جایگذینی</value>
+        <value xml:lang="fa">جایگزینی</value>
         <value xml:lang="ja">代用</value>
         <value xml:lang="pt_BR">Substituição</value>
         <value xml:lang="zh">替换</value>

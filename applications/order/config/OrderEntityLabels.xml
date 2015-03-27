@@ -22,7 +22,7 @@
         <value xml:lang="de">Duplikat</value>
         <value xml:lang="en">Duplicate</value>
         <value xml:lang="es">Duplicado</value>
-        <value xml:lang="fa">نسخه‌دوم</value>
+        <value xml:lang="fa">تکراری</value>
         <value xml:lang="fr">Dupliquée</value>
         <value xml:lang="it">Duplicato</value>
         <value xml:lang="ja">コピー</value>
@@ -54,7 +54,7 @@
         <value xml:lang="de">Umgesetzt</value>
         <value xml:lang="en">Implemented</value>
         <value xml:lang="es">Implementado</value>
-        <value xml:lang="fa">بکاربرده‌شده</value>
+        <value xml:lang="fa">پیاده‌سازی‌شده</value>
         <value xml:lang="fr">Implémentée</value>
         <value xml:lang="it">Implementato</value>
         <value xml:lang="ja">実装済</value>
@@ -86,7 +86,7 @@
         <value xml:lang="de">Wird nicht behoben</value>
         <value xml:lang="en">Won't Fix</value>
         <value xml:lang="es">No se resuelve</value>
-        <value xml:lang="fa">تعمیر نمی‌شود</value>
+        <value xml:lang="fa">تعمیرنمی‌شود</value>
         <value xml:lang="fr">Non corrigée</value>
         <value xml:lang="it">Non verra fissato</value>
         <value xml:lang="ja">修正しない</value>
@@ -102,7 +102,7 @@
         <value xml:lang="de">Funktioniert bei mir</value>
         <value xml:lang="en">Works For Me</value>
         <value xml:lang="es">Me funciona</value>
-        <value xml:lang="fa">برای من کار می‌کند</value>
+        <value xml:lang="fa">برای من کارمی‌کند</value>
         <value xml:lang="fr">Fonctionne pour moi</value>
         <value xml:lang="it">Per me funziona</value>
         <value xml:lang="ja">私の作業</value>
@@ -118,7 +118,7 @@
         <value xml:lang="de">Fehlerkorrektur verlangt</value>
         <value xml:lang="en">Request For Bug Fix</value>
         <value xml:lang="es">Petición de corregir error</value>
-        <value xml:lang="fa">درخواست برای رفع باگ</value>
+        <value xml:lang="fa">درخواست برای تعمیرباگ</value>
         <value xml:lang="fr">Correction d'erreur</value>
         <value xml:lang="it">Richiesta di bug fix</value>
         <value xml:lang="ja">不具合修正に対するリクエスト</value>
@@ -150,7 +150,7 @@
         <value xml:lang="de">Produktmerkmal verlangt</value>
         <value xml:lang="en">Request For Feature</value>
         <value xml:lang="es">Petición de característica</value>
-        <value xml:lang="fa">درخواست برای قابلیت</value>
+        <value xml:lang="fa">درخواست برای افزونه</value>
         <value xml:lang="fr">Demande de caractéristique</value>
         <value xml:lang="it">Richiesta di caratteristica</value>
         <value xml:lang="ja">機能に対するリクエスト</value>
@@ -247,7 +247,7 @@
         <value xml:lang="de">Zusätzliches Merkmal</value>
         <value xml:lang="en">Additional Feature</value>
         <value xml:lang="es">Característica adicional</value>
-        <value xml:lang="fa">قابلیت‌های اضافی</value>
+        <value xml:lang="fa">افزونه‌های اضافی</value>
         <value xml:lang="fr">Caractéristique additionnelle</value>
         <value xml:lang="it">Caratteristica aggiuntiva</value>
         <value xml:lang="ja">追加機能</value>
@@ -391,7 +391,7 @@
         <value xml:lang="de">Zuschlag</value>
         <value xml:lang="en">Surcharge</value>
         <value xml:lang="es">Recargo</value>
-        <value xml:lang="fa">اضافه‌بار</value>
+        <value xml:lang="fa">هزینه‌اضافی</value>
         <value xml:lang="fr">Supplément</value>
         <value xml:lang="it">Sovraccarico</value>
         <value xml:lang="ja">追加料金</value>
@@ -479,7 +479,7 @@
         <value xml:lang="de">Bild URL</value>
         <value xml:lang="en">Image URL</value>
         <value xml:lang="es">URL de Imagen</value>
-        <value xml:lang="fa">URL تصویر</value>
+        <value xml:lang="fa">URL عکس</value>
         <value xml:lang="fr">URL d'image</value>
         <value xml:lang="it">URL immagine</value>
         <value xml:lang="ja">画像URL</value>
@@ -493,7 +493,7 @@
         <value xml:lang="de">Grossauftrag Element</value>
         <value xml:lang="en">BULK_ORDER_ITEM</value>
         <value xml:lang="es">Ítem a granel</value>
-        <value xml:lang="fa">:1472</value>
+        <value xml:lang="fa">قلم سفارش توده</value>
         <value xml:lang="fr">Vrac</value>
         <value xml:lang="it">Riga ordine bulk</value>
         <value xml:lang="ja">バルク注文アイテム</value>
@@ -507,7 +507,7 @@
         <value xml:lang="de">Produkt</value>
         <value xml:lang="en">PRODUCT_ORDER_ITEM</value>
         <value xml:lang="es">Ítem de pedido</value>
-        <value xml:lang="fa">:1473</value>
+        <value xml:lang="fa">قلم سفارش محصول</value>
         <value xml:lang="fr">Article</value>
         <value xml:lang="it">Prodotto riga ordine</value>
         <value xml:lang="ja">製品注文アイテム</value>
@@ -521,7 +521,7 @@
         <value xml:lang="de">Miete</value>
         <value xml:lang="en">RENTAL_ORDER_ITEM</value>
         <value xml:lang="es">Ítem de alquiler</value>
-        <value xml:lang="fa">:1474</value>
+        <value xml:lang="fa">قلم سفارش کرایه</value>
         <value xml:lang="fr">Location</value>
         <value xml:lang="it">Riga ordine di affitto</value>
         <value xml:lang="ja">レンタル注文アイテム</value>
@@ -535,7 +535,7 @@
         <value xml:lang="de">Arbeit</value>
         <value xml:lang="en">WORK_ORDER_ITEM</value>
         <value xml:lang="es">Ítem de trabajo</value>
-        <value xml:lang="fa">:1475</value>
+        <value xml:lang="fa">قلم سفارش کار</value>
         <value xml:lang="fr">Tâche</value>
         <value xml:lang="it">Riga ordine di lavoro</value>
         <value xml:lang="ja">作業注文アイテム</value>
@@ -644,7 +644,7 @@
         <value xml:lang="de">Vorschlag Beschaffung</value>
         <value xml:lang="en">PROPOSAL_PURCHASE</value>
         <value xml:lang="es">Propuesta de compra</value>
-        <value xml:lang="fa">پیشنهاد خرید</value>
+        <value xml:lang="fa">خرید پیشنهاد</value>
         <value xml:lang="fr">Proposition d'achat</value>
         <value xml:lang="it">Proposta di acquisto</value>
         <value xml:lang="ja">提案購入</value>
@@ -673,7 +673,7 @@
         <value xml:lang="de">Kunde Bedarf</value>
         <value xml:lang="en">Customer Requirement</value>
         <value xml:lang="es">Requisito de cliente</value>
-        <value xml:lang="fa">الزامات مشتری</value>
+        <value xml:lang="fa">ملزوم مشتری</value>
         <value xml:lang="fr">Besoin client</value>
         <value xml:lang="it">Fabbisogno cliente</value>
         <value xml:lang="ja">顧客要求</value>
@@ -689,7 +689,7 @@
         <value xml:lang="de">Interner Bedarf</value>
         <value xml:lang="en">Internal Requirement</value>
         <value xml:lang="es">Requisito interno</value>
-        <value xml:lang="fa">الزامات داخلی</value>
+        <value xml:lang="fa">ملزوم داخلی</value>
         <value xml:lang="fr">Besoin interne</value>
         <value xml:lang="it">Fabbisogno interno</value>
         <value xml:lang="ja">内部要求</value>
@@ -705,7 +705,7 @@
         <value xml:lang="de">Bedarf gemäss Produktionsplanung MRP</value>
         <value xml:lang="en">MRP_PRO_PROD_ORDER</value>
         <value xml:lang="es">Requisito de producción según MRP</value>
-        <value xml:lang="fa">:1486</value>
+        <value xml:lang="fa">سفارش محصول تولید MRP</value>
         <value xml:lang="fr">Besoins du cycle de production proposé au processus MRP</value>
         <value xml:lang="it">Fabbisogno ciclo produzione proposto dal processo MRP</value>
         <value xml:lang="ja">MRP製品注文</value>
@@ -719,7 +719,7 @@
         <value xml:lang="de">Einkaufsbedarf gemäss Produktionsplanung MRP</value>
         <value xml:lang="en">MRP_PRO_PURCH_ORDER</value>
         <value xml:lang="es">Requisito de compra según MRP</value>
-        <value xml:lang="fa">:1487</value>
+        <value xml:lang="fa">سفارش خرید تولید MRP</value>
         <value xml:lang="fr">Besoins d'achat proposé au processus MRP</value>
         <value xml:lang="it">Fabbisogno ordine acquisto proposto dal processo MRP</value>
         <value xml:lang="ja">MRP購買注文</value>
@@ -733,7 +733,7 @@
         <value xml:lang="de">Produkt Bedarf</value>
         <value xml:lang="en">Product Requirement</value>
         <value xml:lang="es">Requisito de producto</value>
-        <value xml:lang="fa">الزامات محصول</value>
+        <value xml:lang="fa">ملزوم محصول</value>
         <value xml:lang="fr">Besoin en produit</value>
         <value xml:lang="it">Fabbisogno prodotto</value>
         <value xml:lang="ja">製品要求</value>
@@ -749,7 +749,7 @@
         <value xml:lang="de">Arbeitsbedarf</value>
         <value xml:lang="en">Work Requirement</value>
         <value xml:lang="es">Requisito de trabajo</value>
-        <value xml:lang="fa">الزامات کار</value>
+        <value xml:lang="fa">ملزوم کار</value>
         <value xml:lang="fr">Besoin de production</value>
         <value xml:lang="it">Fabbisogno lavoro</value>
         <value xml:lang="ja">作業要求</value>
@@ -764,7 +764,7 @@
     <property key="ReturnAdjustmentType.description.RET_ADD_FEATURE_ADJ">
         <value xml:lang="de">Retoure Zusatzmerkmal</value>
         <value xml:lang="en">Return Additional Feature</value>
-        <value xml:lang="fa">بازگشت قابلیت اضافی</value>
+        <value xml:lang="fa">بازگشتن افزونه اضافی</value>
         <value xml:lang="fr">Caractéristique additionnelle de retour</value>
         <value xml:lang="it">Caratteristiche aggiuntive sul reso</value>
         <value xml:lang="ja">返品-追加機能</value>
@@ -776,7 +776,7 @@
     <property key="ReturnAdjustmentType.description.RET_DISCOUNT_ADJ">
         <value xml:lang="de">Retourenrabatt</value>
         <value xml:lang="en">Return Discount</value>
-        <value xml:lang="fa">بازگشت تخفیف</value>
+        <value xml:lang="fa">بازگشتن تخفیف</value>
         <value xml:lang="it">Sconto sul reso</value>
         <value xml:lang="ja">返品-割引</value>
         <value xml:lang="pt_BR">Desconto por devolução</value>
@@ -787,7 +787,7 @@
     <property key="ReturnAdjustmentType.description.RET_FEE_ADJ">
         <value xml:lang="de">Retourengebühr</value>
         <value xml:lang="en">Return Fee</value>
-        <value xml:lang="fa">بازگشت قیمت</value>
+        <value xml:lang="fa">بازگشتن قیمت</value>
         <value xml:lang="it">Commissioni sul reso</value>
         <value xml:lang="ja">返品-手数料</value>
         <value xml:lang="pt_BR">Taxa de devolução</value>
@@ -798,7 +798,7 @@
     <property key="ReturnAdjustmentType.description.RET_MAN_ADJ">
         <value xml:lang="de">Retoure manuelle Anpassung</value>
         <value xml:lang="en">Return Manual Adjustment</value>
-        <value xml:lang="fa">بازگشت تعدیل دستی</value>
+        <value xml:lang="fa">بازگشتن تعدیل دستی</value>
         <value xml:lang="it">Aggiustamento manuale sul reso</value>
         <value xml:lang="ja">返品-手動調整</value>
         <value xml:lang="pt_BR">Ajuste manual sobre devolução</value>
@@ -809,7 +809,7 @@
     <property key="ReturnAdjustmentType.description.RET_MISC_ADJ">
         <value xml:lang="de">Retoure sonstige Gebühren</value>
         <value xml:lang="en">Return Miscellaneous Charges</value>
-        <value xml:lang="fa">بازگشت هزینه‌های گوناگون</value>
+        <value xml:lang="fa">بازگشتن هزینه‌های گوناگون</value>
         <value xml:lang="it">Ricarichi vari sul reso</value>
         <value xml:lang="ja">返品-その他費用</value>
         <value xml:lang="pt_BR">Taxas diversas sobre devolução</value>
@@ -820,7 +820,7 @@
     <property key="ReturnAdjustmentType.description.RET_MKTG_PKG_ADJ">
         <value xml:lang="de">Retoure Marketing Packet Anpassung</value>
         <value xml:lang="en">Return Marketing Package Adjustment</value>
-        <value xml:lang="fa">بازگشت تعدیل بسته بازاریابی</value>
+        <value xml:lang="fa">بازگشتن تعدیل بسته بازاریابی</value>
         <value xml:lang="it">Aggiustamento pacco di vendita sul reso</value>
         <value xml:lang="ja">返品-パッケージ/セット販売調整</value>
         <value xml:lang="pt_BR">Ajuste sobre a a devolução de pacote de marketing</value>
@@ -831,7 +831,7 @@
     <property key="ReturnAdjustmentType.description.RET_PROMOTION_ADJ">
         <value xml:lang="de">Retoure Aktion</value>
         <value xml:lang="en">Return Promotion</value>
-        <value xml:lang="fa">بازکشت تبلیغ</value>
+        <value xml:lang="fa">بازگشتن تبلیغ</value>
         <value xml:lang="it">Promozione reso</value>
         <value xml:lang="ja">返品-プロモーション</value>
         <value xml:lang="pt_BR">Promoção devolução</value>
@@ -842,7 +842,7 @@
     <property key="ReturnAdjustmentType.description.RET_REPLACE_ADJ">
         <value xml:lang="de">Retoure Ersatz</value>
         <value xml:lang="en">Return Replacement</value>
-        <value xml:lang="fa">بازگشت جایگزین</value>
+        <value xml:lang="fa">بازگشتن جایگزین</value>
         <value xml:lang="it">Reso in sostituzione</value>
         <value xml:lang="ja">返品-交換</value>
         <value xml:lang="pt_BR">Devolução de reposição</value>
@@ -853,7 +853,7 @@
     <property key="ReturnAdjustmentType.description.RET_SALES_TAX_ADJ">
         <value xml:lang="de">Retoure MwSt.</value>
         <value xml:lang="en">Return Sales Tax</value>
-        <value xml:lang="fa">بازگشت مالیات فروش</value>
+        <value xml:lang="fa">بازگشتن مالیات فروش</value>
         <value xml:lang="fr">Taxe de vente sur retour</value>
         <value xml:lang="it">Tasse di vendita sul reso</value>
         <value xml:lang="ja">返品-消費税</value>
@@ -865,7 +865,7 @@
     <property key="ReturnAdjustmentType.description.RET_SHIPPING_ADJ">
         <value xml:lang="de">Retoure Versandkosten</value>
         <value xml:lang="en">Return Shipping and Handling</value>
-        <value xml:lang="fa">بازگشت اداره و حمل‌ونقل</value>
+        <value xml:lang="fa">بازگشتن اداره و حمل‌ونقل</value>
         <value xml:lang="fr">Transport sur retour</value>
         <value xml:lang="it">Spese di trasporto sul reso</value>
         <value xml:lang="ja">返品-配送および取扱手数料</value>
@@ -877,7 +877,7 @@
     <property key="ReturnAdjustmentType.description.RET_SURCHARGE_ADJ">
         <value xml:lang="de">Retoure Zuschlag</value>
         <value xml:lang="en">Return Surcharge</value>
-        <value xml:lang="fa">بازگشت اضافه‌بار</value>
+        <value xml:lang="fa">بازگشتن هزینه‌اضافی</value>
         <value xml:lang="fr">Supplément sur retour</value>
         <value xml:lang="it">Spese supplementari sul reso</value>
         <value xml:lang="ja">返品-追加料金</value>
@@ -889,7 +889,7 @@
     <property key="ReturnAdjustmentType.description.RET_WARRANTY_ADJ">
         <value xml:lang="de">Retoure Garantie</value>
         <value xml:lang="en">Return Warranty</value>
-        <value xml:lang="fa">بازگشت تضمین محصول</value>
+        <value xml:lang="fa">بازگشت تضمین‌محصول</value>
         <value xml:lang="fr">Garantie sur retour</value>
         <value xml:lang="it">Garanzia sul reso</value>
         <value xml:lang="ja">返品-保証</value>
@@ -902,7 +902,7 @@
         <value xml:lang="de">Vereinbarte Zahlung bei Lieferung abgeleht</value>
         <value xml:lang="en">COD Payment Rejected</value>
         <value xml:lang="es">Pago acordado rechazado a la entrega</value>
-        <value xml:lang="fa">پرداخت COD ردشده</value>
+        <value xml:lang="fa">پرداخت در محل (COD) ردشده</value>
         <value xml:lang="fr">COD paiement rejeté</value>
         <value xml:lang="it">Pagmento contrassegno rifiutato</value>
         <value xml:lang="ja">代金引換配送支払拒否</value>
@@ -933,7 +933,7 @@
         <value xml:lang="de">Elektronische Auslieferung fehlgeschlagen</value>
         <value xml:lang="en">Digital Fulfillment Failed</value>
         <value xml:lang="es">Error de entrega via electrónica</value>
-        <value xml:lang="fa">تکمیل ارقام شکست‌خورده</value>
+        <value xml:lang="fa">تکمیل دیجیتال شکست‌خورده</value>
         <value xml:lang="fr">Erreur de chargement de fichier </value>
         <value xml:lang="it">Soddisfazione digitale fallita</value>
         <value xml:lang="ja">データ執行失敗</value>
@@ -949,7 +949,7 @@
         <value xml:lang="de">Falsch versandtes Element</value>
         <value xml:lang="en">Mis-Shipped Item</value>
         <value xml:lang="es">Ítem mal enviado</value>
-        <value xml:lang="fa">:1505</value>
+        <value xml:lang="fa">قلم حمل-نشده</value>
         <value xml:lang="fr">Ligne d'expédition manquante</value>
         <value xml:lang="it">Prodotto non-spedito</value>
         <value xml:lang="ja">誤発送</value>
@@ -980,7 +980,7 @@
     <property key="ReturnReason.description.RTN_SIZE_EXCHANGE">
         <value xml:lang="de">Umtausch Größe</value>
         <value xml:lang="en">Size Exchange</value>
-        <value xml:lang="fa">تعویض اندازه</value>
+        <value xml:lang="fa">تبادل اندازه</value>
         <value xml:lang="fr">Mauvaise taille, échange</value>
         <value xml:lang="it">Cambio taglia</value>
         <value xml:lang="ja">サイズ交換</value>
@@ -992,7 +992,7 @@
         <value xml:lang="de">Guthaben</value>
         <value xml:lang="en">Store Credit</value>
         <value xml:lang="es">Crédito de la tienda</value>
-        <value xml:lang="fa">فروشگاه اعتبار</value>
+        <value xml:lang="fa">اعتبار انبار</value>
         <value xml:lang="fr">Avoir</value>
         <value xml:lang="it">Credito negozio</value>
         <value xml:lang="ja">店舗信用</value>
@@ -1008,7 +1008,7 @@
         <value xml:lang="de">Austausch bei Lieferung</value>
         <value xml:lang="en">Cross-Ship Replacement</value>
         <value xml:lang="es">Reemplazo en la entrega</value>
-        <value xml:lang="fa">:1509</value>
+        <value xml:lang="fa">جایگزین حمل‌کردن-عرضی</value>
         <value xml:lang="fr">Remplacement à la livraison </value>
         <value xml:lang="it">Sostituzione cross-ship</value>
         <value xml:lang="ja">代替品を発送</value>
@@ -1071,7 +1071,7 @@
         <value xml:lang="de">Automatischer Auftrag</value>
         <value xml:lang="en">Automatic Re-Orders</value>
         <value xml:lang="es">Volver a pedir automáticamente</value>
-        <value xml:lang="fa">باز سفارش خودکار</value>
+        <value xml:lang="fa">بازسفارشات خودکار</value>
         <value xml:lang="fr">Commander automatiquement un produit déjà commandé  </value>
         <value xml:lang="it">Ri-ordini automatici</value>
         <value xml:lang="ja">自動再注文</value>
@@ -1199,7 +1199,7 @@
         <value xml:lang="de">Implementiert</value>
         <value xml:lang="en">Implements</value>
         <value xml:lang="es">Implementa</value>
-        <value xml:lang="fa">کاربردها</value>
+        <value xml:lang="fa">پیاده‌سازی‌ها</value>
         <value xml:lang="fr">Implémentations</value>
         <value xml:lang="it">Implementa</value>
         <value xml:lang="ja">実装</value>

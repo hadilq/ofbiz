@@ -151,7 +151,7 @@
         <value xml:lang="de">Sie müssen einen Servicenamen 'SERVICE_NAME' angeben (zusätzliche Parameter sind: SERVICE_TIME, SERVICE_FREQUENCY, SERVICE_INTERVAL, SERVICE_COUNT)</value>
         <value xml:lang="en">You must specify a 'SERVICE_NAME' (other parameters include: SERVICE_TIME, SERVICE_FREQUENCY, SERVICE_INTERVAL, SERVICE_COUNT)</value>
         <value xml:lang="es">Debe especificar nombre de servicio(además de: tiempo, frecuencia, intervalos y cantidad de servicios)</value>
-        <value xml:lang="fa">شما باید «نام سرویس» (و دیگر پارامترها شامل: «زمان سرویس»، «بسامد سرویس»، «بازه سرویس» و «شمارنده سرویس») را مشخص‌نمایید </value>
+        <value xml:lang="fa">شما باید «نام سرویس» (و دیگر پارامترها شامل: «زمان سرویس»، «بسامد سرویس»، «بازه سرویس» و «شمارنده سرویس») را مشخص‌نمایید</value>
         <value xml:lang="fr">Vous devez spécifier un 'SERVICE_NAME'. Les autres paramètres incluent : SERVICE_TIME, SERVICE_FREQUENCY, SERVICE_INTERVAL, SERVICE_COUNT</value>
         <value xml:lang="it">Tu devi specificare un 'SERVICE_NAME' (altri parametri inclusi: SERVICE_TIME, SERVICE_FREQUENCY, SERVICE_INTERVAL, SERVICE_COUNT)</value>
         <value xml:lang="ja">'SERVICE_NAME'を指定してください (その他のパラメータも含みます: SERVICE_TIME, SERVICE_FREQUENCY, SERVICE_INTERVAL, SERVICE_COUNT)</value>
@@ -165,7 +165,7 @@
         <value xml:lang="de">Sie müssen einen Servicenamen 'SERVICE_NAME' und optional einen Modus angeben (sync oder async, standardmässig auf sync)</value>
         <value xml:lang="en">You must specify a 'serviceName', and optionally a 'mode' (sync or async, defaults to sync)</value>
         <value xml:lang="es">Debe especificar un nombre de servicio y opcionalmente el modo (síncrono o asíncrono, Síncrono por defecto)</value>
-        <value xml:lang="fa">شما باید «نام سرویس»، و به‌صورت‌اختیاری «حالت» (همزمان یا ناهمزمان، که پیش‌فرض همزمان است) را مشخص‌نمایید </value>
+        <value xml:lang="fa">شما باید «نام سرویس»، و به‌صورت‌اختیاری «حالت» (همزمان یا ناهمزمان، که پیش‌فرض همزمان است) را مشخص‌نمایید</value>
         <value xml:lang="fr">Vous devez spécifier un 'service Name', et optionnellement un mode (sync ou async, standard: sync)</value>
         <value xml:lang="it">Tu devi specificare un 'serviceName', e opzionalmente un 'mode' (sincrono o asincrono, defaults è sincrono)</value>
         <value xml:lang="ja">'サービス名'を指定してください、オプションで'モード' (同期/非同期、デフォルトは同期)も指定できます</value>
@@ -222,7 +222,7 @@
         <value xml:lang="de">Sie sind nicht berechtigt, diesen 'non-exported' Service aufzurufen. Sie müssen sich am System anmelden und die Sicherheitsberechtigung SERVICE_INVOKE_ANY besitzen.</value>
         <value xml:lang="en">You are not authorized to call this non-exported service, you must be logged in and have the SERVICE_INVOKE_ANY permission</value>
         <value xml:lang="es">Usten no está autorizada a invocar a este servicio, para lo cual debe contar con el permiso: SERVICE_INVOKE_ANY</value>
-        <value xml:lang="fa">شما برای فراخوانی این سرویس غیرخارچی مجوز ندارید، شما باید وارد سایت شوید و مجوز SERVICE_INVOKE_ANY را داشته‌باشید</value>
+        <value xml:lang="fa">شما برای فراخوانی این سرویس غیر-صادرکردن مجوز ندارید، شما باید وارد سایت شوید و اجازه SERVICE_INVOKE_ANY را داشته‌باشید</value>
         <value xml:lang="fr">Vous n'êtes pas autorisé à appeler ce sercie non exporté, vous devez  être connecté et avoir l'autorisation du SERVICE_INVOKE_ANY.</value>
         <value xml:lang="it">Tu non sei autorizzato ad eseguire questo servizio non-esportato, tu devi essere autenticato e avere il permesso SERVICE_INVOKE_ANY</value>
         <value xml:lang="ja">このサービスを呼び出す権限がありません。ログインして SERVICE_INVOKE_ANY 権限が必要です</value>

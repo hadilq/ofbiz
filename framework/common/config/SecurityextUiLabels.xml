@@ -53,7 +53,7 @@
         <value xml:lang="de">Fehler beim Speichern des neuen Passworts, die E-Mail, die sie erhalten wird nicht das korrekte Passwort enthalten, das alte Passwort ist weiterhin gültig: ${errorMessage}.</value>
         <value xml:lang="en">Error saving new password, the email that you receive will not have the correct password in it, your old password is still being used: ${errorMessage}.</value>
         <value xml:lang="es">Error al grabar la nueva clave: el email que recibirá no tendrá la clave correcta; se seguirá usando la clave anterior</value>
-        <value xml:lang="fa">خطا در ذخیره‌کردن گذرواژه، ایمیلی که دریافت خواهید کرد حاوی گذرواژه صحیح نمی‌باشد، گذرواژه قدیمی همچنان مورد استفاده است: ${errorMessage}.</value>
+        <value xml:lang="fa">خطا در ذخیره‌کردن گذرواژه، ایمیلی که دریافت‌کردید حاوی گذرواژه صحیح نخواهدبود، گذرواژه قدیمی همچنان مورد استفاده است: ${errorMessage}.</value>
         <value xml:lang="fr">Erreur survenue pendant l'enregistrement du nouveau mot de passe, le courriel que vous allez recevoir ne comportera pas le mot de passe correct, votre ancien mot de passe est toujours valide: ${errorMessage}.</value>
         <value xml:lang="it">Errore nel salvataggio della nuova password, l'email che riceverai non ha una password corretta, la tua vecchia password è ancora valida: ${errorMessage}.</value>
         <value xml:lang="ja">パスワードの保存時にエラーが発生しました。あなたが受けとったEメールに記載されたパスワードは正しくありません。前回のパスワードが有効です: ${errorMessage}</value>
@@ -795,7 +795,7 @@
         <value xml:lang="de">Das Passwort muß aus mindestens ${minPasswordLength} Zeichen bestehen.</value>
         <value xml:lang="en">Password must be at least ${minPasswordLength} characters long.</value>
         <value xml:lang="es">La clave debe tener al menos ${minPasswordLength} caracteres.</value>
-        <value xml:lang="fa">گذرواژه باید حداقل شامل ${minPasswordLength} حرف باشد.</value>
+        <value xml:lang="fa">گذرواژه باید حداقل شامل ${minPasswordLength} واژ باشد.</value>
         <value xml:lang="fr">Le mot de passe doit être d'au moins ${minPasswordLength} caractères.</value>
         <value xml:lang="it">La password deve essere lunga almeno ${minPasswordLength} caratteri.</value>
         <value xml:lang="ja">パスワードは少なくとも ${minPasswordLength} 文字で入力してください。</value>
