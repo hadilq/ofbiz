@@ -21,7 +21,7 @@
     <property key="CannotFindCmsform">
         <value xml:lang="de">Die CMS Form kann nicht gefunden werden!</value>
         <value xml:lang="en">Cannot find the cmsform!</value>
-        <value xml:lang="fa">نمی‌توان فرم cms را پیدا کرد!</value>
+        <value xml:lang="fa">نمی‌توان فرم cms را پیداکرد!</value>
         <value xml:lang="fr">Le formulaire CMS n'a pas été trouvé</value>
         <value xml:lang="ja">CMSフォームが見つかりません!</value>
         <value xml:lang="pt">Não é possível localizar o cmsform!</value>
@@ -30,7 +30,7 @@
     </property>
     <property key="ContenCommEventContentAssocNotFoundForDelete">
         <value xml:lang="en">CommEventContentAssoc entity not found for delete, communicationEventId: ${parameters.communicationEventId} and contentId: ${parameters.contentId}</value>
-        <value xml:lang="fa">CommEventContentAssoc برای حذف‌کردن communicationEventId پیدا نمی‌شود: ${parameters.communicationEventId} و contentId: ${parameters.contentId}</value>
+        <value xml:lang="fa">نهاد «همبستگی محتوای رویداد ارتباط» برای پاک‌کردن «آی‌دی رویداد ارتباط» پیدانشده: ${parameters.communicationEventId} و «آی‌دی محتوا»: ${parameters.contentId}</value>
         <value xml:lang="fr">L'association avec la communication ${parameters.communicationEventId} et le document ${parameters.contentId} pour la suppression n'a pas été trouvée</value>
         <value xml:lang="it">Entità CommEventContentAssoc non trovata da cancellare, communicationEventId: ${parameters.communicationEventId} e contentId: ${parameters.contentId}</value>
         <value xml:lang="ja">削除するCommEventContentAssocエンティティが見つかりません。通信イベントID: ${parameters.communicationEventId} およびコンテンツID: ${parameters.contentId}</value>
@@ -40,7 +40,7 @@
     </property>
     <property key="ContenCommEventContentAssocNotFoundForUpdate">
         <value xml:lang="en">CommEventContentAssoc entity not found for update, communicationEventId: ${parameters.communicationEventId} and contentId: ${parameters.contentId}</value>
-        <value xml:lang="fa">CommEventContentAssoc پیدا نمی‌شود برای بروز رسانی communicationEventId: ${parameters.communicationEventId} و contentId: ${parameters.contentId}</value>
+        <value xml:lang="fa">نهاد «همبستگی محتوای رویداد ارتباط» پیدانشده برای بروزرسانی «آی‌دی رویداد ارتباط»: ${parameters.communicationEventId} و «آی‌دی محتوا»: ${parameters.contentId}</value>
         <value xml:lang="fr">L'association avec la communication ${parameters.communicationEventId} et le document ${parameters.contentId} pour la mise à jour n'a pas été trouvée</value>
         <value xml:lang="it">Entità CommEventContentAssoc non trovata da aggiornare, communicationEventId: ${parameters.communicationEventId} e contentId: ${parameters.contentId}</value>
         <value xml:lang="ja">更新するCommEventContentAssocエンティティが見つかりません。通信イベントID: ${parameters.communicationEventId} およびコンテンツID: ${parameters.contentId}</value>
@@ -51,7 +51,7 @@
     <property key="ContentAbsoluteFile">
         <value xml:lang="da">Absolut fil</value>
         <value xml:lang="en">Absolute File</value>
-        <value xml:lang="fa">فایل مستقل</value>
+        <value xml:lang="fa">فایل مطلق</value>
         <value xml:lang="fr">Fichier à nom absolu</value>
         <value xml:lang="it">File assoluto</value>
         <value xml:lang="ja">フルパス</value>
@@ -98,7 +98,7 @@
     </property>
     <property key="ContentAnyAssocType">
         <value xml:lang="en">Any Assoc Type</value>
-        <value xml:lang="fa">هر نوع همکاری</value>
+        <value xml:lang="fa">هر نوع همبستگی</value>
         <value xml:lang="fr">Tous types d'associations</value>
         <value xml:lang="ja">任意の関連付け種類</value>
         <value xml:lang="pt">Qualquer tipo de associação</value>
@@ -107,7 +107,7 @@
     </property>
     <property key="ContentArticleName">
         <value xml:lang="en">Article Name</value>
-        <value xml:lang="fa">نام مقاله</value>
+        <value xml:lang="fa">نام مطلب</value>
         <value xml:lang="fr">Nom de l'article</value>
         <value xml:lang="ja">記事名</value>
         <value xml:lang="pt">Nome do artigo</value>
@@ -117,7 +117,7 @@
     </property>
     <property key="ContentArticleNameIsMissing">
         <value xml:lang="en">Article Name is missing.</value>
-        <value xml:lang="fa">نام مقاله فراموش شده است.</value>
+        <value xml:lang="fa">نام مطلب فراموش شده‌است.</value>
         <value xml:lang="fr">Le nom de l'article est manquant.</value>
         <value xml:lang="it">Nome articolo è mancante.</value>
         <value xml:lang="ja">記事名が正しくありません。</value>
@@ -131,7 +131,7 @@
         <value xml:lang="de">Inhalt Zuordnung</value>
         <value xml:lang="en">Content Assoc</value>
         <value xml:lang="es">Asociación de Contenido</value>
-        <value xml:lang="fa">محتوای همکاری</value>
+        <value xml:lang="fa">همبستگی محتوای</value>
         <value xml:lang="fr">Association de contenus</value>
         <value xml:lang="it">Associazione Contenuto</value>
         <value xml:lang="ja">コンテンツ関連付け</value>
@@ -145,7 +145,7 @@
     </property>
     <property key="ContentAssocDeactivatingError">
         <value xml:lang="en">Error in deactivating ContentAssoc. Entity is null.</value>
-        <value xml:lang="fa">خطا در غیر فعال کردن محتوای همکاری. مقدار null.</value>
+        <value xml:lang="fa">خطا در غیر فعال کردن «همبستگی محتوا». نهاد خالی است.</value>
         <value xml:lang="fr">Erreur dans la désactivation de l'association. Entité inexistante.</value>
         <value xml:lang="it">Errore nella disattivazione dell'entità ContentAssoc che è nulla.</value>
         <value xml:lang="ja">コンテンツ関連付けの無効化時にエラー。エンティティが空です。</value>
@@ -155,7 +155,7 @@
     </property>
     <property key="ContentAssocNotFound">
         <value xml:lang="en">No association found for contentId ${activeContentId} and contentIdTo ${contentIdTo} and contentAssocTypeId ${contentAssocTypeId} and fromDate ${fromDate}</value>
-        <value xml:lang="fa">هیچ همکاری پیدانشده برای contentId ${activeContentId} و contentIdTo ${contentIdTo} و contentAssocTypeId ${contentAssocTypeId} و fromDate ${fromDate}</value>
+        <value xml:lang="fa">هیچ همبستگی پیدانشده برای «آی‌دی محتوا»ی ${activeContentId} و «آی‌دی محتوا به» ${contentIdTo} و «آی‌دی نوع همبستگی محتوا» ${contentAssocTypeId} و «از تاریخ» ${fromDate}</value>
         <value xml:lang="fr">Pas d'association trouvée pour le document référencé ${activeContentId} et le document associé référencé ${contentIdTo} sous le type d'association ${contentAssocTypeId} et pour la date ${fromDate}</value>
         <value xml:lang="it">Nessuna associazione trovata per il contenuto ${activeContentId} e il contenuto a ${contentIdTo} e il tipo associazione contenuto ${contentAssocTypeId} e dalla data ${fromDate}</value>
         <value xml:lang="ja">関連付けが見つかりません、コンテンツID ${activeContentId} コンテンツID(先) ${contentIdTo} コンテンツ関連付け種類ID ${contentAssocTypeId} 開始日付 ${fromDate}</value>
@@ -165,7 +165,7 @@
     </property>
     <property key="ContentAssocRetrievingError">
         <value xml:lang="en">Error in retrieving Content: ${errorString}</value>
-        <value xml:lang="fa">خطا در بازیابی</value>
+        <value xml:lang="fa">خطا در بازیابی محتوا: ${errorString}</value>
         <value xml:lang="fr">Erreur dans la recherche de document : ${errorString}</value>
         <value xml:lang="it">Errore nel ricavare ContentAsssoc entity: ${errorString}</value>
         <value xml:lang="ja">コンテンツ取得中にエラー: ${errorString}</value>
@@ -175,7 +175,7 @@
     </property>
     <property key="ContentAssocUpdateError">
         <value xml:lang="en">Error in updating ContentAssoc. Entity is null.</value>
-        <value xml:lang="fa">خطا در بروزکردن محتوای همکاری. مقدار null.</value>
+        <value xml:lang="fa">خطا در بروزکردن «همبستگی محتوا». نهاد خالی است.</value>
         <value xml:lang="fr">Erreur dans la mise à jour de l'association. Entité inexistante.</value>
         <value xml:lang="it">Errore nell'aggiornamento dell'entità ContentAssoc che è nulla.</value>
         <value xml:lang="ja">コンテンツ関連付けの更新中にエラー。エンティティが空です。</value>
@@ -189,7 +189,7 @@
         <value xml:lang="de">Zuordnungen</value>
         <value xml:lang="en">Association</value>
         <value xml:lang="es">Asociación</value>
-        <value xml:lang="fa">همکاری</value>
+        <value xml:lang="fa">همبستگی</value>
         <value xml:lang="fr">Association</value>
         <value xml:lang="it">Associazione</value>
         <value xml:lang="ja">関連付け</value>
@@ -207,7 +207,7 @@
         <value xml:lang="de">Attribute</value>
         <value xml:lang="en">Attribute</value>
         <value xml:lang="es">Atributo</value>
-        <value xml:lang="fa">متغییر</value>
+        <value xml:lang="fa">خاصیت</value>
         <value xml:lang="fr">Attribut</value>
         <value xml:lang="it">Attributi</value>
         <value xml:lang="ja">属性</value>
@@ -222,7 +222,7 @@
     <property key="ContentAttributeName">
         <value xml:lang="da">Attribut navn</value>
         <value xml:lang="en">Attribute Name</value>
-        <value xml:lang="fa">نام متغییر</value>
+        <value xml:lang="fa">نام خاصیت</value>
         <value xml:lang="fr">Nom d'attribut</value>
         <value xml:lang="it">Nome attributo</value>
         <value xml:lang="ja">属性名称</value>
@@ -257,7 +257,7 @@
     <property key="ContentBlogArticle">
         <value xml:lang="da">Artikel</value>
         <value xml:lang="en">Article</value>
-        <value xml:lang="fa">مقاله</value>
+        <value xml:lang="fa">مطلب</value>
         <value xml:lang="fr">Article</value>
         <value xml:lang="it">Articolo</value>
         <value xml:lang="ja">記事</value>
@@ -270,7 +270,7 @@
     <property key="ContentBlogArticleList">
         <value xml:lang="da">Liste med blog artikler</value>
         <value xml:lang="en">List of Blog articles</value>
-        <value xml:lang="fa">لیست‌کردن مقالات بلاگ</value>
+        <value xml:lang="fa">لیست‌کردن مطالب بلاگ</value>
         <value xml:lang="fr">Liste des articles du blog</value>
         <value xml:lang="it">Lista degli articoli Blog</value>
         <value xml:lang="ja">ブログ記事の一覧</value>
@@ -543,7 +543,7 @@
     </property>
     <property key="ContentCannotProcessBothCharacterAndBinaryFile">
         <value xml:lang="en">Cannot process both character and binary data in the same file</value>
-        <value xml:lang="fa">نمیتوان هم کاراکتر و هم باینری را در یک فایل پردازش کرد</value>
+        <value xml:lang="fa">نمیتوان هم واژ و هم باینری را در یک فایل پردازش کرد</value>
         <value xml:lang="fr">Impossible de procéder avec la présence de données binaires et textuelles dans le même fichier</value>
         <value xml:lang="it">Non è possibile processare i dati di entrambi i file binari e carattere</value>
         <value xml:lang="ja">同じファイルでテキストとバイナリは一緒に処理できません</value>
@@ -589,7 +589,7 @@
     </property>
     <property key="ContentClearAssociatedRenderCacheError">
         <value xml:lang="en">Unable to clear associated render cache with dataResourceId ${dataResourceId}</value>
-        <value xml:lang="fa">نمی‌توان حافظه کش را پاک کرد با آی‌دی منبع داده ${dataResourceId}</value>
+        <value xml:lang="fa">نمی‌توان مخزن پایش همبسته‌شده را پاک کرد با «آی‌دی منبع داده» ${dataResourceId}</value>
         <value xml:lang="fr">Impossible de nettoyer la mémoire cache pour la ressource référencée ${dataResourceId}</value>
         <value xml:lang="it">Non è possibile pulire la cache associata alla risorsa dati ${dataResourceId}</value>
         <value xml:lang="ja">データソースID ${dataResourceId} と関連付けられたレンダーキャッシュをクリアできません</value>
@@ -1148,7 +1148,7 @@
         <value xml:lang="da">Indholdselementer tilknyttet til denne data ressource</value>
         <value xml:lang="de">Inhaltseinträge zugeordnet zu dieser Datenressource</value>
         <value xml:lang="en">Content Entries Associated to this Data Resource</value>
-        <value xml:lang="fa">محتوای ورودی متناسب با این منبع داده</value>
+        <value xml:lang="fa">ورودی‌های محتوا همبسته‌شده با این منبع داده</value>
         <value xml:lang="fr">Elément de contenu associé à cette ressource</value>
         <value xml:lang="it">Voci contenuto associate a questa risorsa dati</value>
         <value xml:lang="ja">このデータリソースに関連付けられたコンテンツのエントリ</value>
@@ -1300,7 +1300,7 @@
         <value xml:lang="de">Attribut</value>
         <value xml:lang="en">Attribute</value>
         <value xml:lang="es">Atributo</value>
-        <value xml:lang="fa">متغییر</value>
+        <value xml:lang="fa">خاصیت</value>
         <value xml:lang="fr">Attribut</value>
         <value xml:lang="it">Attributo</value>
         <value xml:lang="ja">属性</value>
@@ -2048,7 +2048,7 @@
         <value xml:lang="de">Stichwortrelevanz</value>
         <value xml:lang="en">Keyword Relevancy</value>
         <value xml:lang="es">Relevancia de palabra clave</value>
-        <value xml:lang="fa">کلیدواژه مربوط</value>
+        <value xml:lang="fa">ربط کلیدواژه</value>
         <value xml:lang="fr">Pertinence du mot-clé</value>
         <value xml:lang="it">Rilevanza chiave</value>
         <value xml:lang="ja">キーワード関連性</value>
@@ -2229,7 +2229,7 @@
         <value xml:lang="da">Meta tags</value>
         <value xml:lang="de">Meta Auszeichnungen (Tags)</value>
         <value xml:lang="en">Meta Tags</value>
-        <value xml:lang="fa">برچسب جانبی</value>
+        <value xml:lang="fa">علامت‌گذاری‌های جانبی</value>
         <value xml:lang="fr">Méta-étiquettes</value>
         <value xml:lang="it">Meta Tags</value>
         <value xml:lang="ja">メタタグ</value>
@@ -2259,7 +2259,7 @@
         <value xml:lang="da">Mime type</value>
         <value xml:lang="de">Mime Typ</value>
         <value xml:lang="en">Mime Type</value>
-        <value xml:lang="fa">نوع تقلید</value>
+        <value xml:lang="fa">نوع میم</value>
         <value xml:lang="fr">Type mime</value>
         <value xml:lang="it">Tipo Mime</value>
         <value xml:lang="ja">MIMEタイプ</value>
@@ -2275,7 +2275,7 @@
         <value xml:lang="da">Mime type skabelon</value>
         <value xml:lang="de">Mime Typ Vorlage</value>
         <value xml:lang="en">Mime Type Template</value>
-        <value xml:lang="fa">الگوی نوع تقلید</value>
+        <value xml:lang="fa">الگوی نوع میم</value>
         <value xml:lang="fr">Type modèle Mime</value>
         <value xml:lang="it">Tipo Mime Template</value>
         <value xml:lang="ja">MIMEタイプテンプレート</value>
@@ -3722,7 +3722,7 @@
         <value xml:lang="da">Type attribut</value>
         <value xml:lang="de">Typ Attribute</value>
         <value xml:lang="en">Type Attribute</value>
-        <value xml:lang="fa">نوع متغییر</value>
+        <value xml:lang="fa">نوع خاصیت</value>
         <value xml:lang="fr">Type d'attribut</value>
         <value xml:lang="it">Tipo Attributo</value>
         <value xml:lang="ja">タイプ属性</value>
@@ -3765,7 +3765,7 @@
     </property>
     <property key="ContentUnableWriteCharacterDataToFile">
         <value xml:lang="en">Unable to write character data to: ${fileName}</value>
-        <value xml:lang="fa">نمی‌توان داده متن را نوشت: ${fileName}</value>
+        <value xml:lang="fa">نمی‌توان داده واژ را نوشت: ${fileName}</value>
         <value xml:lang="fr">Impossible d'écrire les données dans le fichier ${fileName}</value>
         <value xml:lang="it">Non è possibile scrivere i dati carattere in: ${fileName}</value>
         <value xml:lang="ja">ファイル ${fileName} に文字データを書き込みできません</value>
@@ -4126,7 +4126,7 @@
         <value xml:lang="da">Indholds assoc prædikat ID</value>
         <value xml:lang="de">Inhalt Zuordnung Prädikat ID</value>
         <value xml:lang="en">Content Assoc Predicate Id</value>
-        <value xml:lang="fa">آی‌دی مسند همکار محتوا</value>
+        <value xml:lang="fa">آی‌دی مسند همبستگی محتوا</value>
         <value xml:lang="fr">Prédicat de contenu d'association</value>
         <value xml:lang="it">Predicato Associazione Contenuto</value>
         <value xml:lang="ja">コンテンツ関連付け属性ID</value>
@@ -4329,7 +4329,7 @@
         <value xml:lang="da">Indhold assoc prædikat Id</value>
         <value xml:lang="de">Inhalt Zuordnung Prädikat ID</value>
         <value xml:lang="en">Content Assoc Predicate Id</value>
-        <value xml:lang="fa">آی‌دی مسند همکار محتوا</value>
+        <value xml:lang="fa">آی‌دی مسند همبستگی محتوا</value>
         <value xml:lang="fr">Prédicat de contenu d'association</value>
         <value xml:lang="it">Predicato Associazione Contenuto</value>
         <value xml:lang="ja">コンテンツ関連付け属性ID</value>
@@ -4345,7 +4345,7 @@
         <value xml:lang="da">Indhold assoc type Id</value>
         <value xml:lang="de">Inhalt Zuordnungstyp ID</value>
         <value xml:lang="en">Content Assoc Type Id</value>
-        <value xml:lang="fa">آی‌دی نوع مسند محتوا</value>
+        <value xml:lang="fa">آی‌دی نوع مسند همبستگی محتوا</value>
         <value xml:lang="fr">Contenu d'association</value>
         <value xml:lang="it">Tipo Associazione Contenuto</value>
         <value xml:lang="ja">コンテンツ関連付け種類ID</value>
@@ -4858,7 +4858,7 @@
         <value xml:lang="de">Mime Typ ID (Dr)</value>
         <value xml:lang="en">Dr Mime Type Id</value>
         <value xml:lang="es">Tipo de documento</value>
-        <value xml:lang="fa">آی‌دی نوع تقلید (Dr)</value>
+        <value xml:lang="fa">آی‌دی نوع میم (Dr)</value>
         <value xml:lang="fr">Type Mime (Dr)</value>
         <value xml:lang="it">Tipo Mime</value>
         <value xml:lang="ja">DR MIMEタイプID</value>
@@ -5542,7 +5542,7 @@
         <value xml:lang="de">Mimetyp ID</value>
         <value xml:lang="en">Mime Type Id</value>
         <value xml:lang="es">Tipo MIME</value>
-        <value xml:lang="fa">آی‌دی نوع تقلید</value>
+        <value xml:lang="fa">آی‌دی نوع میم</value>
         <value xml:lang="fr">Type MIME</value>
         <value xml:lang="it">Tipo Mime</value>
         <value xml:lang="ja">MIMEタイプID</value>
@@ -5783,7 +5783,7 @@
     <property key="FormFieldTitle_queryLine">
         <value xml:lang="da">Forespørgsel linie</value>
         <value xml:lang="en">Query Line</value>
-        <value xml:lang="fa">خط درخواست</value>
+        <value xml:lang="fa">صف درخواست</value>
         <value xml:lang="fr">Ligne de requête</value>
         <value xml:lang="it">Riga query</value>
         <value xml:lang="ja">照会行</value>
@@ -6389,7 +6389,7 @@
         <value xml:lang="da">Tilføj en assosiation</value>
         <value xml:lang="de">Eine Zuordnung hinzufügen</value>
         <value xml:lang="en">Add an association</value>
-        <value xml:lang="fa">اضافه‌کردن همکاری</value>
+        <value xml:lang="fa">اضافه‌کردن یک همبستگی</value>
         <value xml:lang="fr">Ajouter une association</value>
         <value xml:lang="it">Aggiungi una associazione</value>
         <value xml:lang="ja">関連付けを追加</value>
@@ -6406,7 +6406,7 @@
         <value xml:lang="da">Tilføj en attribut</value>
         <value xml:lang="de">Ein Attribut hinzufügen</value>
         <value xml:lang="en">Add an attribute</value>
-        <value xml:lang="fa">اضافه‌کردن متغییر</value>
+        <value xml:lang="fa">اضافه‌کردن خاصیت</value>
         <value xml:lang="fr">Ajouter un attribut</value>
         <value xml:lang="it">Aggiungi un'attributo</value>
         <value xml:lang="ja">属性を追加</value>
@@ -6751,7 +6751,7 @@
         <value xml:lang="da">Ret en forbindelse</value>
         <value xml:lang="de">Eine Zuordnung bearbeiten</value>
         <value xml:lang="en">Edit an association</value>
-        <value xml:lang="fa">ویرایش یک همکاری</value>
+        <value xml:lang="fa">ویرایش یک همبستگی</value>
         <value xml:lang="fr">Modifier une association</value>
         <value xml:lang="it">Aggiorna una associazione</value>
         <value xml:lang="ja">関連付けを編集</value>
@@ -6766,7 +6766,7 @@
     <property key="PageTitleEditBlogArticlePermissionError">
         <value xml:lang="da">Tilladelse til at rette artikel fejlede</value>
         <value xml:lang="en">Permissions failed to edit Article</value>
-        <value xml:lang="fa">مجوزها شکست خورد برای ویرایش مقاله</value>
+        <value xml:lang="fa">مجوزها شکست خورد برای ویرایش مطلب</value>
         <value xml:lang="fr">Les autorisations ne permettent pas de modifier l'article</value>
         <value xml:lang="it">Aggiorna una associazione</value>
         <value xml:lang="ja">記事の編集で権限エラー</value>
@@ -6856,7 +6856,7 @@
         <value xml:lang="da">Ret indholdsforbindelse</value>
         <value xml:lang="de">Inhaltszuordnung bearbeiten</value>
         <value xml:lang="en">Edit Content Association</value>
-        <value xml:lang="fa">ویرایش همکار محتوا</value>
+        <value xml:lang="fa">ویرایش همبستگی محتوا</value>
         <value xml:lang="fr">Modifier le contenu d'association</value>
         <value xml:lang="it">Aggiorna associazione contenuto</value>
         <value xml:lang="ja">コンテンツ関連付けを編集</value>
@@ -6873,7 +6873,7 @@
         <value xml:lang="da">Ret indholdsforbindelse prædikat</value>
         <value xml:lang="de">Inhaltszuordnung Prädikat bearbeiten</value>
         <value xml:lang="en">Edit Content Association Predicate</value>
-        <value xml:lang="fa">ویرایش مسند همکار محتوا</value>
+        <value xml:lang="fa">ویرایش مسند همبستگی محتوا</value>
         <value xml:lang="fr">Modifier le contenu de prédicat d'association</value>
         <value xml:lang="it">Aggiorna Associazione Contenuto Predicato</value>
         <value xml:lang="ja">コンテンツ関連付け属性を編集</value>
@@ -6889,7 +6889,7 @@
         <value xml:lang="da">Ret indholdsforbindelsestype</value>
         <value xml:lang="de">Inhaltszuordnungstyp bearbeiten</value>
         <value xml:lang="en">Edit Content Association Type</value>
-        <value xml:lang="fa">ویرایش نوع همکار محتوا</value>
+        <value xml:lang="fa">ویرایش نوع همبستگی محتوا</value>
         <value xml:lang="fr">Modifier le type de contenu d'association</value>
         <value xml:lang="it">Aggiorna Tipo Associazione Contenuto</value>
         <value xml:lang="ja">コンテンツ関連付け種類を編集</value>
@@ -6905,7 +6905,7 @@
         <value xml:lang="da">Ret indholdsattribut</value>
         <value xml:lang="de">Inhaltsattribut bearbeiten</value>
         <value xml:lang="en">Edit Content Attribute</value>
-        <value xml:lang="fa">ویرایش متغییر محتوا</value>
+        <value xml:lang="fa">ویرایش خاصیت محتوا</value>
         <value xml:lang="fr">Modifier l'attribut du contenu</value>
         <value xml:lang="it">Aggiorna Attributo Contenuto</value>
         <value xml:lang="ja">コンテンツ属性を編集</value>
@@ -6919,7 +6919,7 @@
     </property>
     <property key="PageTitleEditContentKeywords">
         <value xml:lang="en">Edit Content Keywords</value>
-        <value xml:lang="fa">ویرایش کلیدواژه محتوا</value>
+        <value xml:lang="fa">ویرایش کلیدواژه‌های محتوا</value>
         <value xml:lang="fr">Édition des mots-clés document</value>
         <value xml:lang="ja">コンテンツキーワードを編集</value>
         <value xml:lang="pt">Editar conteúdo palavras-chave</value>
@@ -6948,7 +6948,7 @@
         <value xml:lang="da">Ret indholdsprocedure</value>
         <value xml:lang="de">Inhaltsverfahren bearbeiten</value>
         <value xml:lang="en">Edit Content Operation</value>
-        <value xml:lang="fa">ویراش عملیات محتوا</value>
+        <value xml:lang="fa">ویراش عملکرد محتوا</value>
         <value xml:lang="fr">Modifier l'opération de contenu</value>
         <value xml:lang="it">Aggiorna Operazione Contenuto</value>
         <value xml:lang="ja">コンテンツ操作を編集</value>
@@ -6980,7 +6980,7 @@
         <value xml:lang="da">Ret indholdsformål procedure</value>
         <value xml:lang="de">Inhaltszweck Verfahren bearbeiten</value>
         <value xml:lang="en">Edit Content Purpose Operation</value>
-        <value xml:lang="fa">ویرایش عملیات هدف محتوا</value>
+        <value xml:lang="fa">ویرایش عملکرد هدف محتوا</value>
         <value xml:lang="fr">Modifier le but d'opération du contenu</value>
         <value xml:lang="it">Aggiorna Funzione Operazione Contenuto</value>
         <value xml:lang="ja">コンテンツ目的操作を編集</value>
@@ -7045,7 +7045,7 @@
         <value xml:lang="da">Ret indholdstype attribut</value>
         <value xml:lang="de">Inhaltstyp Attribut bearbeiten</value>
         <value xml:lang="en">Edit Content Type Attribute</value>
-        <value xml:lang="fa">ویرایش متغییر نوع محتوا</value>
+        <value xml:lang="fa">ویرایش خاصیت نوع محتوا</value>
         <value xml:lang="fr">Modifier le le type d'attribut du contenu</value>
         <value xml:lang="it">Aggiorna Attributo Tipo Contenuto</value>
         <value xml:lang="ja">コンテンツタイプ属性を編集</value>
@@ -7061,7 +7061,7 @@
         <value xml:lang="da">Tilladelser</value>
         <value xml:lang="de">Berechtigungen</value>
         <value xml:lang="en">Permissions</value>
-        <value xml:lang="fa">مجوزها</value>
+        <value xml:lang="fa">اجازه‌ها</value>
         <value xml:lang="fr">Autorisations</value>
         <value xml:lang="it">Permessi</value>
         <value xml:lang="ja">権限</value>
@@ -7110,7 +7110,7 @@
         <value xml:lang="da">Ret dataressource attribut</value>
         <value xml:lang="de">Datenressource Attribut bearbeiten</value>
         <value xml:lang="en">Edit Data Resource Attribute</value>
-        <value xml:lang="fa">ویرایش متغییر منبع داده</value>
+        <value xml:lang="fa">ویرایش خاصیت منبع داده</value>
         <value xml:lang="fr">Modifier l'attribut de ressources de données</value>
         <value xml:lang="it">Aggiorna Attributo Risorsa Dati</value>
         <value xml:lang="ja">データリソース属性を編集</value>
@@ -7141,7 +7141,7 @@
         <value xml:lang="da">Ret karaktersæt</value>
         <value xml:lang="de">Zeichensatz bearbeiten</value>
         <value xml:lang="en">Edit Character Set</value>
-        <value xml:lang="fa">ویرایش مجموعه کاراکتر</value>
+        <value xml:lang="fa">ویرایش مجموعه واژ</value>
         <value xml:lang="fr">Modifier le jeu de caractères</value>
         <value xml:lang="it">Aggiorna Set di Caratteri</value>
         <value xml:lang="ja">キャラクタセットを編集</value>
@@ -7185,7 +7185,7 @@
         <value xml:lang="da">Ret Mime type</value>
         <value xml:lang="de">Mimetyp bearbeiten</value>
         <value xml:lang="en">Edit Mime Type</value>
-        <value xml:lang="fa">ویرایش نوع تقلید</value>
+        <value xml:lang="fa">ویرایش نوع میم</value>
         <value xml:lang="fr">Modifier le type MIME</value>
         <value xml:lang="it">Aggiorna Tipo Mime</value>
         <value xml:lang="ja">MIMEタイプを編集</value>
@@ -7199,7 +7199,7 @@
         <value xml:lang="da">Ret Mime type Html skabelon</value>
         <value xml:lang="de">Mimetyp Html Vorlage bearbeiten</value>
         <value xml:lang="en">Edit Mime Type Html Template</value>
-        <value xml:lang="fa">ویرایش الگو HTML نوع تقلید</value>
+        <value xml:lang="fa">ویرایش الگو HTML نوع میم</value>
         <value xml:lang="fr">Modifier le modèle de type de mime HTML</value>
         <value xml:lang="it">Aggiorna Tipo Mime Template Html</value>
         <value xml:lang="ja">MIMEタイプHTMLテンプレート</value>
@@ -7214,7 +7214,7 @@
         <value xml:lang="da">Ret dataressource produktegenskab</value>
         <value xml:lang="de">Datenressource Produktmerkmal bearbeiten</value>
         <value xml:lang="en">Edit Data Resource Product Features</value>
-        <value xml:lang="fa">ویرایش قابلیت‌های محصول منبع داده</value>
+        <value xml:lang="fa">ویرایش افزونه‌های محصول منبع داده</value>
         <value xml:lang="fr">Modifier la ressource de données (caractéristiques du produit)</value>
         <value xml:lang="it">Aggiorna Caratteristiche Prodotto Risorsa Dati</value>
         <value xml:lang="ja">データリソース製品機能を編集</value>
@@ -7281,7 +7281,7 @@
         <value xml:lang="da">Ret dataressource type attribut</value>
         <value xml:lang="de">Datenressourcentyp Attribute bearbeiten</value>
         <value xml:lang="en">Edit Data Resource Type Attribute</value>
-        <value xml:lang="fa">ویرایش متغییر نوع منبع داده</value>
+        <value xml:lang="fa">ویرایش خاصیت نوع منبع داده</value>
         <value xml:lang="fr">Modifier la ressource de données (type d'attibut)</value>
         <value xml:lang="it">Aggiorna Attributo Tipo Risorsa Dati</value>
         <value xml:lang="ja">データリソース種類属性を編集</value>
@@ -7511,7 +7511,7 @@
         <value xml:lang="da">Ret webside</value>
         <value xml:lang="de">Webseite bearbeiten</value>
         <value xml:lang="en">Edit WebSite</value>
-        <value xml:lang="fa">ویراش وب‌سایت</value>
+        <value xml:lang="fa">ویرایش وب‌سایت</value>
         <value xml:lang="fr">Modifier le site web</value>
         <value xml:lang="it">Aggiorna Sito Web</value>
         <value xml:lang="ja">Webサイトを編集</value>
@@ -7527,7 +7527,7 @@
         <value xml:lang="da">Ret webside CMS</value>
         <value xml:lang="de">Webseite CMS bearbeiten</value>
         <value xml:lang="en">Edit WebSite CMS</value>
-        <value xml:lang="fa">ویرایس CMS وب‌سایت</value>
+        <value xml:lang="fa">ویرایش CMS وب‌سایت</value>
         <value xml:lang="fr">Modifier le site web CMS</value>
         <value xml:lang="it">Aggiorna CMS Sito Web</value>
         <value xml:lang="ja">WebサイトCMSを編集</value>
@@ -7542,7 +7542,7 @@
         <value xml:lang="da">Ret webside indhold</value>
         <value xml:lang="de">Webseite Inhalt bearbeiten</value>
         <value xml:lang="en">Edit WebSite Content</value>
-        <value xml:lang="fa">ویرایس محتوای وب‌سایت</value>
+        <value xml:lang="fa">ویرایش محتوای وب‌سایت</value>
         <value xml:lang="fr">Modifier le contenu du site web</value>
         <value xml:lang="it">Aggiorna Contenuto Sito Web</value>
         <value xml:lang="ja">Webサイトコンテンツを編集</value>
@@ -7574,7 +7574,7 @@
         <value xml:lang="da">Find CMS indhold</value>
         <value xml:lang="de">CMS Inhalt suchen</value>
         <value xml:lang="en">CMS Content Find</value>
-        <value xml:lang="fa">یافته‌ محتوای CMS</value>
+        <value xml:lang="fa">محتوای CMS پیداکردن</value>
         <value xml:lang="fr">Rechercher le contenu CMS</value>
         <value xml:lang="it">Ricerca Contenuto CMS</value>
         <value xml:lang="ja">CMSコンテンツ検索</value>
@@ -7786,7 +7786,7 @@
         <value xml:lang="da">Oplist assosiationer</value>
         <value xml:lang="de">Liste der Zuordnungen</value>
         <value xml:lang="en">List associations</value>
-        <value xml:lang="fa">لیست‌کردن همکاران</value>
+        <value xml:lang="fa">لیست‌کردن همبستگی‌ها</value>
         <value xml:lang="fr">Liste d'associations</value>
         <value xml:lang="it">Lista associazioni</value>
         <value xml:lang="ja">関連付け一覧</value>
@@ -7819,7 +7819,7 @@
         <value xml:lang="da">Oplist indholdsgodkendelser</value>
         <value xml:lang="de">Liste der Inhaltsbestätigungen</value>
         <value xml:lang="en">List Content Approval</value>
-        <value xml:lang="fa">لیست‌کردن مصوبه محتوا</value>
+        <value xml:lang="fa">لیست‌کردن تصویب محتوا</value>
         <value xml:lang="fr">Liste d'autorisations de contenu</value>
         <value xml:lang="it">Lista Approvazione Contenuto</value>
         <value xml:lang="ja">コンテンツ承認一覧</value>
@@ -7896,7 +7896,7 @@
         <value xml:lang="da">Søg indhold</value>
         <value xml:lang="de">Inhalt suchen</value>
         <value xml:lang="en">Lookup Content</value>
-        <value xml:lang="fa">یافتن محتوا</value>
+        <value xml:lang="fa">جستجو محتوا</value>
         <value xml:lang="fr">Consultation de contenu</value>
         <value xml:lang="it">Ricerca contenuto</value>
         <value xml:lang="ja">コンテンツを検索</value>
@@ -7913,7 +7913,7 @@
         <value xml:lang="da">Søg dataressource</value>
         <value xml:lang="de">Datenressource suchen</value>
         <value xml:lang="en">Lookup Data Resource</value>
-        <value xml:lang="fa">یافتن منبع داده</value>
+        <value xml:lang="fa">جستجو منبع داده</value>
         <value xml:lang="fr">Consultation de ressource de données</value>
         <value xml:lang="it">Ricerca Risorse Dati</value>
         <value xml:lang="ja">データリソースを検索</value>
@@ -7929,7 +7929,7 @@
         <value xml:lang="da">Søg liste layout</value>
         <value xml:lang="de">Liste Layout suchen</value>
         <value xml:lang="en">Lookup List Layout</value>
-        <value xml:lang="fa">یافتن طرح‌بندی لیست</value>
+        <value xml:lang="fa">جستجو طرح‌بندی لیست</value>
         <value xml:lang="fr">Consultation de mise en page</value>
         <value xml:lang="it">Ricerca Layout</value>
         <value xml:lang="ja">レイアウト検索一覧</value>
@@ -7942,7 +7942,7 @@
         <value xml:lang="da">Søg subindhold</value>
         <value xml:lang="de">Untergeordneten Inhalt suchen</value>
         <value xml:lang="en">Lookup Sub Content</value>
-        <value xml:lang="fa">یافتن زیرمحتوا</value>
+        <value xml:lang="fa">جستجو زیرمحتوا</value>
         <value xml:lang="fr">Consultation de sous-contenu</value>
         <value xml:lang="it">Ricerca Sotto-Contenuto</value>
         <value xml:lang="ja">サブコンテンツを検索</value>
@@ -7958,7 +7958,7 @@
         <value xml:lang="da">Søg rundspørge</value>
         <value xml:lang="de">Befragung suchen</value>
         <value xml:lang="en">Lookup Survey</value>
-        <value xml:lang="fa">یافتن نظرسنجی</value>
+        <value xml:lang="fa">جستجو نظرسنجی</value>
         <value xml:lang="fr">Consultation de sondage</value>
         <value xml:lang="it">Ricerca sondaggi</value>
         <value xml:lang="ja">評価を検索</value>
@@ -7974,7 +7974,7 @@
         <value xml:lang="da">Søg rundspørge svar</value>
         <value xml:lang="de">Befragung Antwort suchen</value>
         <value xml:lang="en">Lookup Survey Response</value>
-        <value xml:lang="fa">یافتن پاسخ نظرسنجی</value>
+        <value xml:lang="fa">جستجو پاسخ نظرسنجی</value>
         <value xml:lang="fr">Consultation de réponse de sondage</value>
         <value xml:lang="it">Ricerca risposte sondaggio</value>
         <value xml:lang="ja">評価回答を検索</value>
@@ -7988,7 +7988,7 @@
     <property key="PageTitleNavigateContent">
         <value xml:lang="da">Navigér i indhold</value>
         <value xml:lang="en">Navigate Content</value>
-        <value xml:lang="fa">هدایت‌کردن محتوا</value>
+        <value xml:lang="fa">پیمایش محتوا</value>
         <value xml:lang="fr">Naviguer dans le contenu</value>
         <value xml:lang="it">Naviga contenuto</value>
         <value xml:lang="ja">コンテンツのナビゲート</value>
@@ -8002,7 +8002,7 @@
         <value xml:lang="da">Navigér i dataressource vha. datakategorier</value>
         <value xml:lang="de">Durch Datenressourcen navigieren mittels Datenkategorien</value>
         <value xml:lang="en">Navigate Data Resources using Data Categories</value>
-        <value xml:lang="fa">هدایت‌کردن منبع داده بوسیله دسته‌بندی‌های داده</value>
+        <value xml:lang="fa">پیمایش منبع داده بوسیله دسته‌بندی‌های داده</value>
         <value xml:lang="fr">Parcourir les ressources de données utilisant des catégories de données</value>
         <value xml:lang="it">Naviga nelle Risorse Dati usando i Dati Categorie</value>
         <value xml:lang="ja">データカテゴリを使用してデータリソースをナビゲート</value>

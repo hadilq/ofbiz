@@ -419,7 +419,7 @@
     <property key="AccountingAddFixedAssetMaintOrder">
         <value xml:lang="de">Anlagen-Wartungs-Reihenfolge hinzufügen</value>
         <value xml:lang="en">Add Fixed Asset Maintenance Order</value>
-        <value xml:lang="fa">اضافه‌کردن سفارش تعمیرونگهداری دارایی ثابت</value>
+        <value xml:lang="fa">اضافه‌کردن سفارش نگهداری دارایی ثابت</value>
         <value xml:lang="fr">Ajouter une commande de maintenance d'immobilisation</value>
         <value xml:lang="hi_IN">अचल संपत्ति रखरखाव के आदेश जोड़ें</value>
         <value xml:lang="it">Nuovo ordine di manutenzione cespite</value>
@@ -435,7 +435,7 @@
         <value xml:lang="de">Anlagen-Wartung hinzufügen</value>
         <value xml:lang="en">Add Fixed Asset Maintenance</value>
         <value xml:lang="es">Editar Mantenimiento de Activo Fijo</value>
-        <value xml:lang="fa">اضافه‌کردن تعمیرونگهداری دارایی ثابت</value>
+        <value xml:lang="fa">اضافه‌کردن نگهداری دارایی ثابت</value>
         <value xml:lang="fr">Ajouter une maintenance d'immobilisation</value>
         <value xml:lang="hi_IN">अचल संपत्ति रखरखाव जोड़ें</value>
         <value xml:lang="it">Nuova manutenzione cespite</value>
@@ -845,7 +845,7 @@
         <value xml:lang="de">Bedingungen</value>
         <value xml:lang="en">Terms</value>
         <value xml:lang="es">Términos</value>
-        <value xml:lang="fa">شروط</value>
+        <value xml:lang="fa">قیود</value>
         <value xml:lang="fr">Termes d'un point d'accord commercial</value>
         <value xml:lang="hi_IN">शर्तें</value>
         <value xml:lang="it">Termini</value>
@@ -934,7 +934,7 @@
         <value xml:lang="de">Vereinbarungsart</value>
         <value xml:lang="en">Agreement Term Id</value>
         <value xml:lang="es">Id término de acuerdo</value>
-        <value xml:lang="fa">آی‌دی  شرط توافق</value>
+        <value xml:lang="fa">آی‌دی  قید توافق</value>
         <value xml:lang="fr">Réf. du terme de l'accord commecial</value>
         <value xml:lang="hi_IN">अनुबंध अवधि क्रमांक</value>
         <value xml:lang="it">Codice Termine Contratto</value>
@@ -953,7 +953,7 @@
         <value xml:lang="de">Vereinbarungs-Konditionen</value>
         <value xml:lang="en">Agreement Terms</value>
         <value xml:lang="es">Términos de acuerdo</value>
-        <value xml:lang="fa">شروط توافق</value>
+        <value xml:lang="fa">قیود توافق</value>
         <value xml:lang="fr">Termes de l'accord commercial</value>
         <value xml:lang="hi_IN">अनुबंध की शर्तें</value>
         <value xml:lang="it">Termini Contratto</value>
@@ -1594,7 +1594,7 @@
         <value xml:lang="de">Die arithmetischen Einstellungen für die Rechnungs-Services sind nicht richtig konfiguriert. Die Verarbeitung kann nicht fortgesetzt werden.</value>
         <value xml:lang="en">Arithmetic properties for Invoice services not configured properly. Cannot proceed.</value>
         <value xml:lang="es">Propiedades aritméticas para factura de servicios no configurada apropiadamente. No es posible proceder.</value>
-        <value xml:lang="fa">عملیات ریاضی برای سرویس فاکتورها به درستی تنظیم‌نشده‌است. نمی‌توان پردازش‌کرد.</value>
+        <value xml:lang="fa">مشخصات ریاضی برای سرویس فاکتورها به درستی تنظیم‌نشده‌است. نمی‌توان پردازش‌کرد.</value>
         <value xml:lang="fr">Les propriétés arithmétiques des services de facturation ne sont pas configurées convenablement. Transaction abandonnée.</value>
         <value xml:lang="hi_IN">चालान सेवाओं के लिए अंकगणित संपत्तियों ठीक से विन्यस्त नहीं है! आगे नहीं जा सकते!</value>
         <value xml:lang="it">Arithmetic properties per il servizio Fattura non configurato propriamente. Non è possibile procedere.</value>
@@ -1872,7 +1872,7 @@
     </property>
     <property key="AccountingAuthorizeNetTransactionUrlNotFound">
         <value xml:lang="en">No payment.authorizedotnet.url found.</value>
-        <value xml:lang="fa">هیچ payment.authorizedotnet.url پیدانشده</value>
+        <value xml:lang="fa">هیچ «URL تراکنش خالص مجوزدار پرداخت»ی پیدانشده</value>
         <value xml:lang="fr">valeur pour payment.authorizedotnet.url non trouvée</value>
         <value xml:lang="it">Nessun url trovato.</value>
         <value xml:lang="ja">payment.authorizedotnet.url が見つかりません。</value>
@@ -1946,7 +1946,7 @@
         <value xml:lang="de">Bilanz</value>
         <value xml:lang="en">Balance Sheet</value>
         <value xml:lang="es">Hoja de Balance</value>
-        <value xml:lang="fa">جدول تراز</value>
+        <value xml:lang="fa">ترازنامه</value>
         <value xml:lang="fr">Bilan</value>
         <value xml:lang="hi_IN">पक्का-चिट्ठा/तुलन-पत्र</value>
         <value xml:lang="it">Stato Patrimoniale</value>
@@ -2614,7 +2614,7 @@
     <property key="AccountingCancelBatchPaymentsError">
         <value xml:lang="de">Sammelzahlung [${paymentGroupId}] kann nicht abgebrochen werden, da sie zur Kontenabstimung [${glReconciliationId}] zugeordnet ist</value>
         <value xml:lang="en">Cannot Cancel Batch Payment [${paymentGroupId}], is associated to glReconciliation [${glReconciliationId}]</value>
-        <value xml:lang="fa">نمی‌توان دسته پرداخت [${paymentGroupId}] را لغوکرد ، مرتبط است به «حسابرسی معین» [${glReconciliationId}]</value>
+        <value xml:lang="fa">نمی‌توان دسته پرداخت [${paymentGroupId}] را لغوکرد ، همبسته‌شده است به «حسابرسی معین» [${glReconciliationId}]</value>
         <value xml:lang="fr">Impossible d'annuler le service de paiement [${paymentGroupId}], il est associé au rapprochement comptable [${glReconciliationId}]</value>
         <value xml:lang="hi_IN">बैच भुगतान [${paymentGroupId}], glReconciliation [${glReconciliationId}] से जुड़ा है , इसे रद्द नहीं कर सकते |</value>
         <value xml:lang="ja">バッチ支払 [${paymentGroupId}] の取消はできません、GL残高照合 [${glReconciliationId}] に関連付けされています</value>
@@ -2844,7 +2844,7 @@
     <property key="AccountingCashFlowStatement">
         <value xml:lang="de">Kapitalflussrechnung</value>
         <value xml:lang="en">Cash Flow Statement</value>
-        <value xml:lang="fa">صورت جریان وجه‌نقد</value>
+        <value xml:lang="fa">صورت گردش پول</value>
         <value xml:lang="fr">Tableau des flux de trésorerie</value>
         <value xml:lang="hi_IN">रोकड प्रवाह विवरण</value>
         <value xml:lang="ja">キャッシュフロー計算書</value>
@@ -3221,7 +3221,7 @@
     <property key="AccountingComparativeBalanceSheet">
         <value xml:lang="de">Vergleichsbilanz</value>
         <value xml:lang="en">Comparative Balance Sheet</value>
-        <value xml:lang="fa">جدول تراز مقایسه‌ای</value>
+        <value xml:lang="fa">ترازنامه مقایسه‌ای</value>
         <value xml:lang="fr">Bilan comparatif</value>
         <value xml:lang="hi_IN">तुलनात्मक तुलन-पत्र</value>
         <value xml:lang="it">Stato Patrimoniale Comparativo</value>
@@ -3236,7 +3236,7 @@
     <property key="AccountingComparativeCashFlowStatement">
         <value xml:lang="de">Vergleichs-Kapitalflussrechnung</value>
         <value xml:lang="en">Comparative Cash Flow Statement</value>
-        <value xml:lang="fa">صورت جریان وجه‌نقد مقایسه‌ای</value>
+        <value xml:lang="fa">صورت گردش پول مقایسه‌ای</value>
         <value xml:lang="fr">Tableau comparatif de flux de trésorerie</value>
         <value xml:lang="hi_IN">तुलनात्मक रोकड प्रवाह विवरण</value>
         <value xml:lang="ja">比較キャッシュフロー計算書</value>
@@ -3462,7 +3462,7 @@
         <value xml:lang="de">Rechnungskontobedingung erstellen</value>
         <value xml:lang="en">Create Billing Account Term</value>
         <value xml:lang="es">Crear término de cuenta de facturación</value>
-        <value xml:lang="fa">ساختن شرط حساب صورت‌حساب</value>
+        <value xml:lang="fa">ساختن قید حساب صورت‌حساب</value>
         <value xml:lang="fr">Créer un terme pour le compte de facturation</value>
         <value xml:lang="hi_IN">देयकांकन(बिलिंग) खाते की शर्तें बनाएँ</value>
         <value xml:lang="it">Creare Termine Conto Fatturazione</value>
@@ -3693,7 +3693,7 @@
     <property key="AccountingCreateNewWithdrawalPayment">
         <value xml:lang="de">Neue Abbuchung</value>
         <value xml:lang="en">Create New Withdrawal Payment</value>
-        <value xml:lang="fa">ساختن پرداخت پس‌گیرنده جدید</value>
+        <value xml:lang="fa">ساختن پرداخت سرمایه‌برداری جدید</value>
         <value xml:lang="fr">Créer un nouveau retrait</value>
         <value xml:lang="hi_IN">नई वापसी भुगतान बनाएँ</value>
         <value xml:lang="ja">新規払出支払を作成</value>
@@ -3704,7 +3704,7 @@
     <property key="AccountingCreateNewWithdrawalPaymentFor">
         <value xml:lang="de">Neue Abbuchung für Finanzkonto : ${finAccount.finAccountName} [${finAccountId}]</value>
         <value xml:lang="en">Create New Withdrawal Payment For Financial Account : ${finAccount.finAccountName} [${finAccountId}]</value>
-        <value xml:lang="fa">ساختن پرداخت پش‌گیرنده جدید برای حساب مالی: ${finAccount.finAccountName} [${finAccountId}]</value>
+        <value xml:lang="fa">ساختن پرداخت سرمایه‌برداری جدید برای حساب مالی: ${finAccount.finAccountName} [${finAccountId}]</value>
         <value xml:lang="fr">Créer un nouveau retrait pour le compte financier ${finAccount.finAccountName} [${finAccountId}]</value>
         <value xml:lang="hi_IN">${finAccount.finAccountName} [${finAccountId}] वित्तीय खाते के लिए नई वापसी भुगतान बनाएँ</value>
         <value xml:lang="ja">金融アカウント: ${finAccount.finAccountName} [${finAccountId}] に対して払出支払を新規作成</value>
@@ -3856,7 +3856,7 @@
     <property key="AccountingCreditCardBillingAddNotFoundError">
         <value xml:lang="de">Die zur Kreditkarte zugeordnete Rechnungsadresse wurde nicht gefunden.</value>
         <value xml:lang="en">Billing Address associated with Credit Card not found.</value>
-        <value xml:lang="fa">آدرس صورت‌حساب مرتبط با کارت اعتباری پیدانشده.</value>
+        <value xml:lang="fa">آدرس صورت‌حساب همبسته‌شده با کارت اعتباری پیدانشده.</value>
         <value xml:lang="fr">Adresse de facturation associée à la carte de crédit non trouvée</value>
         <value xml:lang="hi_IN">क्रेडिट कार्ड के साथ जुड़े देयकांकन(बिलिंग) पता नहीं मिला!</value>
         <value xml:lang="it">Indirizzo di spedizione associato alla carta di credito non trovato.</value>
@@ -4065,7 +4065,7 @@
     <property key="AccountingCreditDebitFlag">
         <value xml:lang="de">S/H</value>
         <value xml:lang="en">Cr/Dr</value>
-        <value xml:lang="fa">ا/ب</value>
+        <value xml:lang="fa">بد/بس</value>
         <value xml:lang="fr">C/D</value>
         <value xml:lang="hi_IN">जमा/नामे</value>
         <value xml:lang="ja">貸/借</value>
@@ -4076,7 +4076,7 @@
     <property key="AccountingCreditFlag">
         <value xml:lang="de">H</value>
         <value xml:lang="en">Cr</value>
-        <value xml:lang="fa">ا</value>
+        <value xml:lang="fa">بس</value>
         <value xml:lang="fr">C</value>
         <value xml:lang="hi_IN">जमा</value>
         <value xml:lang="ja">貸</value>
@@ -4194,7 +4194,7 @@
     <property key="AccountingCurrentLiabilities">
         <value xml:lang="de">kurzfristige Verbindlichkeiten</value>
         <value xml:lang="en">Current Liabilities</value>
-        <value xml:lang="fa">دین کنونی</value>
+        <value xml:lang="fa">بستانده کنونی</value>
         <value xml:lang="fr">Passifs circulants</value>
         <value xml:lang="ja">流動負債</value>
         <value xml:lang="pt">Passivo Circulante</value>
@@ -4303,7 +4303,7 @@
     </property>
     <property key="AccountingCyberSourceErrorGettingPaymentGatewayConfig">
         <value xml:lang="en">ERROR: Getting CyberSource property configuration</value>
-        <value xml:lang="fa">خطا: گرفتن پیکربندی صفات CyberSource</value>
+        <value xml:lang="fa">خطا: دریافت‌کردن پیکربندی مشخصه CyberSource</value>
         <value xml:lang="fr">ERREUR lors du chargement de la configuration CyberSource</value>
         <value xml:lang="it">ERRORE: Non è possibile ottenere la configuration di CyberSource</value>
         <value xml:lang="ja">エラー: CyberSourceプロパティ設定取得中にエラー</value>
@@ -4490,7 +4490,7 @@
     <property key="AccountingDebitAmount">
         <value xml:lang="de">Sollbetrag</value>
         <value xml:lang="en">Debit Amount</value>
-        <value xml:lang="fa">مقدار بدهی</value>
+        <value xml:lang="fa">مقدار بدهکار</value>
         <value xml:lang="fr">Montant débité</value>
         <value xml:lang="hi_IN">नामे/उधार राशि</value>
         <value xml:lang="ja">借方金額</value>
@@ -4503,7 +4503,7 @@
         <value xml:lang="de">Soll und Haben müssen beim buchen auf dass Hauptkonto gleich sein.</value>
         <value xml:lang="en">Debit and Credit Totals must be equal to post to GL.</value>
         <value xml:lang="es">Totales de Débito y Crédito deben ser iguales para enviar a LM.</value>
-        <value xml:lang="fa">مجموع‌های بدهی و اعتبار باید با مساوی باشند تا به کد معین ارسال‌شوند</value>
+        <value xml:lang="fa">مجموع‌های بدهکاری و بستانکاری باید مساوی باشند تا به کد معین ارسال‌شوند</value>
         <value xml:lang="fr">Les montants du débit et du crédit doivent être égaux</value>
         <value xml:lang="hi_IN">नामे/उधार या जमा राशि योग करने के लिए जीएल(GL) पद के बराबर होना चाहिए</value>
         <value xml:lang="it">Totale Debito e Credito deve essere contabilizzato in Contabilità Generale.</value>
@@ -4520,7 +4520,7 @@
     <property key="AccountingDebitFlag">
         <value xml:lang="de">S</value>
         <value xml:lang="en">Dr</value>
-        <value xml:lang="fa">ب</value>
+        <value xml:lang="fa">بد</value>
         <value xml:lang="fr">D</value>
         <value xml:lang="hi_IN">नामे</value>
         <value xml:lang="ja">借</value>
@@ -4531,7 +4531,7 @@
     <property key="AccountingDebitOrCreditOfBalance">
         <value xml:lang="de">Soll oder Haben der Bilanz</value>
         <value xml:lang="en">Debit Or Credit Of The Balance</value>
-        <value xml:lang="fa">بدهی یا اعتبار تراز</value>
+        <value xml:lang="fa">تراز بدهکار یا بستانکار</value>
         <value xml:lang="fr">Solde Débit ou Crédit</value>
         <value xml:lang="hi_IN">नामे/उधार या जमा की शेष राशि</value>
         <value xml:lang="ja">借方または貸方</value>
@@ -4569,7 +4569,7 @@
     <property key="AccountingDepositOrWithdrawPayments">
         <value xml:lang="de">Ein- oder Auszahlung für Finanzkonto: ${finAccount.finAccountName} [${finAccountId}]</value>
         <value xml:lang="en">Deposit Or Withdraw Payments for Financial Account: ${finAccount.finAccountName} [${finAccountId}]</value>
-        <value xml:lang="fa">پرداخت‌های پس‌گیری یا سپرده برای حساب مالی: ${finAccount.finAccountName} [${finAccountId}]</value>
+        <value xml:lang="fa">پرداخت‌های سرمایه‌برداری یا سپرده برای حساب مالی: ${finAccount.finAccountName} [${finAccountId}]</value>
         <value xml:lang="fr">Dépôt ou retrait de paiements pour compte financier: ${finAccount.finAccountName} [${finAccountId}]</value>
         <value xml:lang="hi_IN">${finAccount.finAccountName} [${finAccountId}] वित्तीय खाते के लिए जमा भुगतान या भुगतान वापस करे</value>
         <value xml:lang="ja">金融アカウント: ${finAccount.finAccountName} [${finAccountId}] に対する預入または払出支払</value>
@@ -4623,7 +4623,7 @@
     <property key="AccountingDepositWithdraw">
         <value xml:lang="de">Einzahlung/Auszahlung</value>
         <value xml:lang="en">Deposit/Withdraw</value>
-        <value xml:lang="fa">سپرده/پس‌گیری</value>
+        <value xml:lang="fa">سپرده/سرمایه‌برداری</value>
         <value xml:lang="fr">Dépôt/Retrait</value>
         <value xml:lang="hi_IN">जमा/वापस</value>
         <value xml:lang="ja">預入/払出</value>
@@ -5297,7 +5297,7 @@
         <value xml:lang="ar">مشكل أثناء استحداث بند الفاتورة من الطلبية</value>
         <value xml:lang="de">Fehler bei der Erstellung einer Rechnungs-Kondition aus Auftrag</value>
         <value xml:lang="en">Error creating InvoiceTerm from order</value>
-        <value xml:lang="fa">خطا در ساختن «شرط فاکتور» از سفارش</value>
+        <value xml:lang="fa">خطا در ساختن «قید فاکتور» از سفارش</value>
         <value xml:lang="fr">Erreur lors de la création d'un terme de facturation à partir de la commande</value>
         <value xml:lang="hi_IN">आर्डर से चालान शर्तें  बनाने में त्रुटि</value>
         <value xml:lang="it">Errore durante la creazione di InvoiceTerm dall'ordine</value>
@@ -5361,7 +5361,8 @@
     </property>
     <property key="AccountingExportInvoices">
         <value xml:lang="en">Export Invoices</value>
-    </property>
+    <value xml:lang="fa">صادرکردن فاکتورها</value>
+        </property>
     <property key="AccountingExpenses">
         <value xml:lang="de">Aufwendungen</value>
         <value xml:lang="en">Expenses</value>
@@ -5430,7 +5431,7 @@
     <property key="AccountingExportAsCsv">
         <value xml:lang="de">Als CSV exportieren</value>
         <value xml:lang="en">Export as CSV</value>
-        <value xml:lang="fa">صدور به‌عنوان CSV</value>
+        <value xml:lang="fa">صادرکردن به‌عنوان CSV</value>
         <value xml:lang="fr">Exporter en CSV</value>
         <value xml:lang="hi_IN">सीएसवी के रूप में करे निर्यात</value>
         <value xml:lang="ja">CSV形式でエクスポート</value>
@@ -5442,7 +5443,7 @@
     <property key="AccountingExportAsPdf">
         <value xml:lang="de">Als PDF exportieren</value>
         <value xml:lang="en">Export as PDF</value>
-        <value xml:lang="fa">صدور به‌عنوان PDF</value>
+        <value xml:lang="fa">صادرکردن به‌عنوان PDF</value>
         <value xml:lang="fr">Exporter en PDF</value>
         <value xml:lang="hi_IN">पीडीएफ के रूप में करे निर्यात</value>
         <value xml:lang="ja">PDF形式でエクスポート</value>
@@ -5454,7 +5455,7 @@
     <property key="AccountingExportWithInvoiceAndPaymentAsPdf">
         <value xml:lang="de">Als PDF mit Rechnung und Zahlung exportieren</value>
         <value xml:lang="en">Export with Invoice and Payment as PDF</value>
-        <value xml:lang="fa">صدور با فاکتور و پرداخت به عنوان PDF</value>
+        <value xml:lang="fa">صادرکردن با فاکتور و پرداخت به عنوان PDF</value>
         <value xml:lang="fr">Exporter avec les factures et paiement en PDF</value>
         <value xml:lang="ja">請求書および支払書をPDF形式でエクスポート</value>
         <value xml:lang="pt">Exportação com fatura e pagamento em formato PDF</value>
@@ -5604,7 +5605,7 @@
     <property key="AccountingFinAcctTransAssociatedToGlReconciliation">
         <value xml:lang="de">Finanzkonto-TransaktionFin zu Kontenabstimmung zugeordnet</value>
         <value xml:lang="en">Fin Account Trans Associated To Gl Reconciliation</value>
-        <value xml:lang="fa">تراکنش حساب مالی مرتبط به حسابرسی معین</value>
+        <value xml:lang="fa">تراکنش حساب مالی همبسته‌شده به حسابرسی معین</value>
         <value xml:lang="fr">La transaction a déjà été rapprochée</value>
         <value xml:lang="hi_IN">Gl मिलान से जुड़े Fin खाता</value>
         <value xml:lang="ja">GL照合に割当済の金融アカウントトランザクション</value>
@@ -6323,7 +6324,7 @@
         <value xml:lang="de">Wartung</value>
         <value xml:lang="en">Maintenance</value>
         <value xml:lang="es">Mantenimiento</value>
-        <value xml:lang="fa">تعمیرونگهداری</value>
+        <value xml:lang="fa">نگهداری</value>
         <value xml:lang="fr">Maintenance</value>
         <value xml:lang="hi_IN">रखरखाव</value>
         <value xml:lang="it">Manutenzione</value>
@@ -6399,7 +6400,7 @@
         <value xml:lang="de">Falls Produktwartung angegeben wurde wird dies automatisch (zurück-) gesetzt</value>
         <value xml:lang="en">If the Product Maintenance is specified, this will be set/reset automatically</value>
         <value xml:lang="es">Si el mantenimiento del producto es especificado, será establecido/reestablecido automaticamente</value>
-        <value xml:lang="fa">اگر تعمیرونگهداری محصول انتخاب‌شده‌باشد این به طور خودکار ثبت/بازنشاندن خواهدشد</value>
+        <value xml:lang="fa">اگر نگهداری محصول انتخاب‌شده‌باشد این به طور خودکار ثبت/بازنشاندن خواهدشد</value>
         <value xml:lang="fr">Si la maintenance est définie au niveau du produit, ceci sera mis à jour automatiquement</value>
         <value xml:lang="hi_IN">यदि उत्पाद रखरखाव निर्दिष्ट किया है,यह स्वतः स्थापित/पुनःस्थापित किया जाएगा</value>
         <value xml:lang="it">Se la Manutenzione Prodotto è specificata, questa sarà impostata/azzerata automaticamente</value>
@@ -6418,7 +6419,7 @@
         <value xml:lang="de">Nur nutzen falls zutreffend, ansonnsten kann Wartungs-Art genutzt werden</value>
         <value xml:lang="en">Only use if applicable, can use Maintenance Type instead</value>
         <value xml:lang="es">Solo usar si es aplicable, tambien puede usar Tipo de Mantenimiento</value>
-        <value xml:lang="fa">فقط استفاده کنید اگر کاربرد دارد؛ می‌توان نوع تعمیرونگهداری را بجایش استفاده کرد</value>
+        <value xml:lang="fa">فقط استفاده کنید اگر کاربرد دارد؛ می‌توان نوع نگهداری را بجایش استفاده کرد</value>
         <value xml:lang="fr">Si adéquat, sinon utiliser le type de maintenance à la place</value>
         <value xml:lang="hi_IN">यदि लागू हो तो ही उपयोग करें, रखरखाव प्रकार का उपयोग कर सकते हैं</value>
         <value xml:lang="it">Solamente usato se applicabile, può essere usato Tipo Manutenzione invece</value>
@@ -6435,7 +6436,7 @@
     <property key="AccountingFixedAssetMaintMessage3">
         <value xml:lang="ar">إذا حدد نموذج الصيانة مع صيانة السلعة, فإنه سيتم الوضع/إعادة الوضع آليا</value>
         <value xml:lang="en">If Maintenance Template is specified with Product Maintenance, this will be set/reset automatically</value>
-        <value xml:lang="fa">اگر الگو تعمیرونگهداری با تعمیرونگهداری محصول مشخص‌شده‌باشد این به طور خودکار ثبت/بازنشاندن خواهدشد</value>
+        <value xml:lang="fa">اگر الگو نگهداری با نگهداری محصول مشخص‌شده‌باشد این به طور خودکار ثبت/بازنشاندن خواهدشد</value>
         <value xml:lang="fr">Si un schéma de maintenance est défini pour le produit, ceci sera mis à jour automatiquement</value>
         <value xml:lang="hi_IN">यदि रखरखाव खाका उत्पाद रखरखाव के साथ निर्दिष्ट किया है, यह स्वतः स्थापित/पुनःस्थापित किया जाएगा</value>
         <value xml:lang="it">Se il Maintenance Template è specificato per la manutenzione prodotto, questo verrà impostato/azzerato automaticamente</value>
@@ -6453,7 +6454,7 @@
         <value xml:lang="de">Wartungsname</value>
         <value xml:lang="en">Maintenance Name</value>
         <value xml:lang="es">Nombre de mantenimiento</value>
-        <value xml:lang="fa">نام تعمیرونگهداری</value>
+        <value xml:lang="fa">نام نگهداری</value>
         <value xml:lang="fr">Nom de la maintenance</value>
         <value xml:lang="hi_IN">रखरखाव का नाम</value>
         <value xml:lang="it">Nome Manutenzione</value>
@@ -6487,7 +6488,7 @@
     <property key="AccountingFixedAssetMaintSeqId">
         <value xml:lang="de">Anlagenwartungsreihenfolge</value>
         <value xml:lang="en">Fixed Asset Maint Seq Id</value>
-        <value xml:lang="fa">آی‌دی ترتیبی تعمیرونگهداری دارایی ثابت</value>
+        <value xml:lang="fa">آی‌دی ترتیبی نگهداری دارایی ثابت</value>
         <value xml:lang="fr">Réf. de maintenance de la classe d'actif immobilisé</value>
         <value xml:lang="hi_IN">अचल संपत्ति रखरखाव अनुक्रम क्रमांक</value>
         <value xml:lang="it">Riga manutenzione cespite</value>
@@ -6502,7 +6503,7 @@
         <value xml:lang="de">Wartungsart</value>
         <value xml:lang="en">Maintenance Type</value>
         <value xml:lang="es">Tipo de mantenimiento</value>
-        <value xml:lang="fa">نوع تعمیرونگهداری</value>
+        <value xml:lang="fa">نوع نگهداری</value>
         <value xml:lang="fr">Type de maintenance</value>
         <value xml:lang="hi_IN">रखरखाव के प्रकार</value>
         <value xml:lang="it">Tipo manutenzione</value>
@@ -6519,7 +6520,7 @@
     <property key="AccountingFixedAssetMaintWorkEffortName">
         <value xml:lang="de">Wartung von Anlage ${fixedAsset.fixedAssetName} [${fixedAsset.fixedAssetId}]</value>
         <value xml:lang="en">Maintenance of Fixed Asset ${fixedAsset.fixedAssetName} [${fixedAsset.fixedAssetId}]</value>
-        <value xml:lang="fa">تعمیرونگهداری دارایی ثابت ${fixedAsset.fixedAssetName} [${fixedAsset.fixedAssetId}]</value>
+        <value xml:lang="fa">نگهداری دارایی ثابت ${fixedAsset.fixedAssetName} [${fixedAsset.fixedAssetId}]</value>
         <value xml:lang="fr">Maintenance de l'immobilisation ${fixedAsset.fixedAssetName} [${fixedAsset.fixedAssetId}]</value>
         <value xml:lang="hi_IN"> अचल संपत्ति ${fixedAsset.fixedAssetName} [${fixedAsset.fixedAssetId}] का रखरखाव</value>
         <value xml:lang="it">Manutenzione del cespite ${fixedAsset.fixedAssetName} ${fixedAsset.fixedAssetId}</value>
@@ -6534,7 +6535,7 @@
         <value xml:lang="ar">نموذج الصيانة</value>
         <value xml:lang="de">Wartungsvorlage</value>
         <value xml:lang="en">Maintenance Template</value>
-        <value xml:lang="fa">الگو تعمیرونگهداری</value>
+        <value xml:lang="fa">الگو نگهداری</value>
         <value xml:lang="fr">Schéma de maintenance</value>
         <value xml:lang="hi_IN">रखरखाव खाका</value>
         <value xml:lang="it">Manutenzione template</value>
@@ -6551,7 +6552,7 @@
         <value xml:lang="de">Wartungen</value>
         <value xml:lang="en">Maintenances</value>
         <value xml:lang="es">Mantenimientos</value>
-        <value xml:lang="fa">تعمیرونگهداری‌ها</value>
+        <value xml:lang="fa">نگهداری‌ها</value>
         <value xml:lang="fr">Maintenances</value>
         <value xml:lang="hi_IN">रखरखाव</value>
         <value xml:lang="it">Manutenzioni</value>
@@ -7025,7 +7026,7 @@
         <value xml:lang="de">Schnittstellen-Antwort</value>
         <value xml:lang="en">Gateway Response</value>
         <value xml:lang="es">Respuesta de entrada</value>
-        <value xml:lang="fa">پاسخ دروازه</value>
+        <value xml:lang="fa">پاسخ درگاه</value>
         <value xml:lang="fr">Réponse du terminal de paiement</value>
         <value xml:lang="hi_IN">गेटवे प्रतिक्रिया</value>
         <value xml:lang="it">Risposta Gateway</value>
@@ -7044,7 +7045,7 @@
         <value xml:lang="de">Schnittstellen-Antworten</value>
         <value xml:lang="en">Gateway Responses</value>
         <value xml:lang="es">Respuestas de entradas</value>
-        <value xml:lang="fa">پاسخ‌های دروازه</value>
+        <value xml:lang="fa">پاسخ‌های درگاه</value>
         <value xml:lang="fr">Réponses du terminal de paiement</value>
         <value xml:lang="hi_IN">गेटवे प्रतिक्रियांए</value>
         <value xml:lang="it">Risposte Gateway</value>
@@ -7886,7 +7887,7 @@
         <value xml:lang="de">Mehrere Aufträge oder Retouren, wird nicht unterstützt.</value>
         <value xml:lang="en">Multiple orders or returns, not handled.</value>
         <value xml:lang="es">Multiples ordenes o devoluciones, no manejadas.</value>
-        <value xml:lang="fa">چند سفارش یا بازگشت مدیر نشده.</value>
+        <value xml:lang="fa">چند سفارش یا بازگشته اداره‌نشده.</value>
         <value xml:lang="fr">Commandes/ retours multiples, pas pris en charge.</value>
         <value xml:lang="hi_IN">एकाधिक आदेश या रिटर्न, संभाला नहीं</value>
         <value xml:lang="it">Ordine Multipli o resi, non trattati.</value>
@@ -7905,7 +7906,7 @@
         <value xml:lang="de">Keine Auftrags- oder Retourenpositionen, Provisionsabrechnung wird nicht erstellt</value>
         <value xml:lang="en">No order or return items, not creating commission invoice</value>
         <value xml:lang="es">No order or return items, not creating commission invoice</value>
-        <value xml:lang="fa">هیچ قلم سفارش یا بازگشت، فاکتور کارمزد ساخته نمی‌شود</value>
+        <value xml:lang="fa">هیچ قلم سفارش یا بازگشته، فاکتور کارمزد ساخته نمی‌شود</value>
         <value xml:lang="fr">Aucune ligne dans la commande/ retour, il n'a pas été créé de facture de commission</value>
         <value xml:lang="hi_IN">आर्डर या वापसी मद नहीं है , दलाली चालन नहीं बनाया</value>
         <value xml:lang="it">Nessun ordine o righe reso, non creata provvigione fattura</value>
@@ -8900,7 +8901,7 @@
         <value xml:lang="de">Verbindlichkeiten</value>
         <value xml:lang="en">Liabilities</value>
         <value xml:lang="es">Responsabilidades</value>
-        <value xml:lang="fa">دیون</value>
+        <value xml:lang="fa">بستانده‌ها</value>
         <value xml:lang="fr">Dettes</value>
         <value xml:lang="hi_IN">देयताएँ</value>
         <value xml:lang="it">Debiti</value>
@@ -8930,7 +8931,7 @@
         <value xml:lang="de">Positionssumme</value>
         <value xml:lang="en">Line Total</value>
         <value xml:lang="es">Linea Total</value>
-        <value xml:lang="fa">مجموع خط</value>
+        <value xml:lang="fa">مجموع صف</value>
         <value xml:lang="fr">Total de la ligne</value>
         <value xml:lang="hi_IN">लाइन टोटल</value>
         <value xml:lang="it">Totale Riga</value>
@@ -8993,7 +8994,7 @@
         <value xml:lang="de">Rechnungen die zugewiesen werden könnten</value>
         <value xml:lang="en">Possible invoices to apply</value>
         <value xml:lang="es">Posibles facturas a aplicar</value>
-        <value xml:lang="fa">فاکتورهای قابل واریز</value>
+        <value xml:lang="fa">فاکتورهای احتمالی برای واریز</value>
         <value xml:lang="fr">Factures pouvant être allouées</value>
         <value xml:lang="hi_IN">लागू करने के लिए संभावित चालान</value>
         <value xml:lang="it">Possibili fatture da applicare</value>
@@ -9027,7 +9028,7 @@
         <value xml:lang="de">Zuzuweisende Zahlungen</value>
         <value xml:lang="en">Possible payments to apply</value>
         <value xml:lang="es">Posibles pagos a aplicar</value>
-        <value xml:lang="fa">پرداخت‌های قابل واریز</value>
+        <value xml:lang="fa">پرداخت‌های احتمالی برای واریز</value>
         <value xml:lang="fr">Paiements pouvant être alloués</value>
         <value xml:lang="hi_IN">लागू करने के लिए संभावित भुगतान</value>
         <value xml:lang="it">Possibili pagamenti da applicare</value>
@@ -9303,6 +9304,7 @@
     </property>
     <property key="AccountingMissingPaymentMethod">
         <value xml:lang="en">Cannot change the status to '${statusItem.description}' when the  mandatory payment method is missing.</value>
+        <value xml:lang="fa">نمی‌توان وضعیت را به «${statusItem.description}» تغییرداد زمانی که روش پرداخت اجباری فراموش‌شده‌است.</value>
     </property>
     <property key="AccountingMiddleNameCard">
         <value xml:lang="ar">الإسم الوسط على البطاقة</value>
@@ -9513,7 +9515,7 @@
         <value xml:lang="de">Bedingung erstellen</value>
         <value xml:lang="en">Create Term</value>
         <value xml:lang="es">Crear término</value>
-        <value xml:lang="fa">ساختن شرط</value>
+        <value xml:lang="fa">ساختن قید</value>
         <value xml:lang="fr">Ajouter un terme à l'accord</value>
         <value xml:lang="hi_IN">शर्ते बनाएँ</value>
         <value xml:lang="it">Nuovo termine</value>
@@ -9565,7 +9567,7 @@
         <value xml:lang="de">Vereinbarungsbedingung erstellen</value>
         <value xml:lang="en">Create Agreement Term</value>
         <value xml:lang="es">Crear término de acuerdo</value>
-        <value xml:lang="fa">ساختن شرط توافق</value>
+        <value xml:lang="fa">ساختن قید توافق</value>
         <value xml:lang="fr">Ajouter un terme à l'accord</value>
         <value xml:lang="hi_IN">नई अनुबंध की शर्तें बनाएँ</value>
         <value xml:lang="it">Creare Termine Contratto</value>
@@ -9662,7 +9664,7 @@
         <value xml:lang="de">Neue Wartung</value>
         <value xml:lang="en">New Maintenance</value>
         <value xml:lang="es">Nuevo mantenimiento</value>
-        <value xml:lang="fa">تعمیرونگهداری جدید</value>
+        <value xml:lang="fa">نگهداری جدید</value>
         <value xml:lang="fr">Créer une maintenance</value>
         <value xml:lang="hi_IN">नया अनुरक्षण</value>
         <value xml:lang="it">Nuova manutenzione</value>
@@ -9909,7 +9911,7 @@
         <value xml:lang="de">Es existieren keine Rechnungskonten-Bedingungen.</value>
         <value xml:lang="en">No billing account terms exist.</value>
         <value xml:lang="es">No existen términos de cuenta de facturación.</value>
-        <value xml:lang="fa">هیچ شرط حساب صورت‌حسابی وجودندارد.</value>
+        <value xml:lang="fa">هیچ قید حساب صورت‌حسابی وجودندارد.</value>
         <value xml:lang="fr">Aucun terme pour ce compte de facturation.</value>
         <value xml:lang="hi_IN">देयकांकन(बिलिंग) खाते की कोई शर्त अस्तित्व में नहीं है</value>
         <value xml:lang="it">Nessun termine conto fatturazione esistente.</value>
@@ -10085,7 +10087,7 @@
         <value xml:lang="de">Keine bekannte Rechnungspositionsart für Retouren-Anpassungs-Art [${returnAdjustmentTypeId}]</value>
         <value xml:lang="en">No known invoice item type for the return adjustment type [${returnAdjustmentTypeId}]</value>
         <value xml:lang="es">Tipo de elemento de factura desconocido para tipo de ajuste de retorno [${returnAdjustmentTypeId}]</value>
-        <value xml:lang="fa">هیچ نوع قلم فاکتور شناخته‌شده‌ای برای نوع تعدیل بازگشت [${returnAdjustmentTypeId}]</value>
+        <value xml:lang="fa">هیچ نوع قلم فاکتور شناخته‌شده‌ای برای نوع تعدیل بازگشته [${returnAdjustmentTypeId}]</value>
         <value xml:lang="fr">Aucuntype de facture identifié pour cet ajustement sur retour de type [${returnAdjustmentTypeId}]</value>
         <value xml:lang="hi_IN">वापसी समायोजन प्रकार [$(returnAdjustmentTypeId)] के लिए कोई चालान मद प्रकार ज्ञात नहीं है</value>
         <value xml:lang="it">Nessuna tipo riga fattura conosciuta per il tipo aggiustamento reso [${returnAdjustmentTypeId}]</value>
@@ -10103,7 +10105,7 @@
         <value xml:lang="de">Keine bekannte Rechnungspositionsart für Retouren-Positions-Art [${returnItemTypeId}]</value>
         <value xml:lang="en">No known invoice item type for the return item type [${returnItemTypeId}]</value>
         <value xml:lang="es">Tipo de elemento de factura desconocido para el tipo de elemento de retorno [${returnItemTypeId}]</value>
-        <value xml:lang="fa">هیچ نوع قلم فاکتور شناخته‌شده‌ای برای نوع تعدیل بازگشت [${returnItemTypeId}]</value>
+        <value xml:lang="fa">هیچ نوع قلم فاکتور شناخته‌شده‌ای برای نوع تعدیل بازگشته [${returnItemTypeId}]</value>
         <value xml:lang="fr">Aucuntype de facture identifié pour ce  retour de type [${returnItemTypeId}]</value>
         <value xml:lang="hi_IN">वापसी मद प्रकार [${returnItemTypeId}] के लिए कोई चालान मद प्रकार ज्ञात नहीं है</value>
         <value xml:lang="it">Nessuna tipo riga fattura conosciuta per il tipo riga reso [${returnItemTypeId}]</value>
@@ -10165,7 +10167,7 @@
     </property>
     <property key="AccountingNoPaymentGatewayResponseCreatedForFailedService">
         <value xml:lang="en">Unable to create PaymentGatewayResponse for failed service call!</value>
-        <value xml:lang="fa">نمی‌توان برای تماس سرویس شکست خورده، پاسخ دروازه پرداخت را ساخت!</value>
+        <value xml:lang="fa">نمی‌توان برای تماس سرویس شکست خورده، پاسخ درگاه پرداخت را ساخت!</value>
         <value xml:lang="fr">Impossible de créer une réponse du portail de paiement, échec dans l'appel de service !</value>
         <value xml:lang="it">Non è possibile creare la risposta gateway pagamento per il fallimento al servizio!</value>
         <value xml:lang="ja">支払ゲートウェイレスポンスが作成できません。サービス呼び出しに失敗しました!</value>
@@ -10174,7 +10176,7 @@
     </property>
     <property key="AccountingNoPaymentGatewayResponseCreatedForInvoice">
         <value xml:lang="en">No paymentGatewayResponse created for invoice ${invoiceId} and billing account ${billingAccountId}: Order with ID ${orderId} not found!</value>
-        <value xml:lang="fa">هیچ پاسخ دروازه پرداختی برای فاکتور ${invoiceId} و حساب صورت‌حساب ${billingAccountId} ساخته نشده: سفارش با آی‌دی ${orderId} پیدانشده!</value>
+        <value xml:lang="fa">هیچ پاسخ درگاه پرداختی برای فاکتور ${invoiceId} و حساب صورت‌حساب ${billingAccountId} ساخته نشده: سفارش با آی‌دی ${orderId} پیدانشده!</value>
         <value xml:lang="fr">Impossible de créer une réponse du portail de paiement pour la facture ${invoiceId} et l'encours ${billingAccountId} : la commande ${orderId} n'a pas été trouvée</value>
         <value xml:lang="it">Nessun risposta gateway pagamento creata per la fattura ${invoiceId} e conto di fatturazione ${billingAccountId}: Ordine ${orderId} non trovato!</value>
         <value xml:lang="ja">請求書 ${invoiceId} 請求アカウント ${billingAccountId} に対する支払ゲートウェイレスポンスが作成できません。注文ID ${orderId} が見つかりません!</value>
@@ -10357,7 +10359,7 @@
     </property>
     <property key="AccountingNotPostingGlAccountTransactionBadDebitCreditFlag">
         <value xml:lang="en">Bad debitCreditFlag ${acctgTransEntry.debitCreditFlag} (was not D or C) in Accounting Transaction Entry with acctgTransId=${acctgTransEntry.acctgTransId} and acctgTransEntrySeqId=${acctgTransEntry.acctgTransEntrySeqId}</value>
-        <value xml:lang="fa">«پرچم اعتبار/بدهی» ${acctgTransEntry.debitCreditFlag} مشکل دارد («ب» یا «ا» نبود) در ورودی تراکنش حسابداری با «آی‌دی تراکنش حساب»=${acctgTransEntry.acctgTransId} و «آی‌دی ترتیبی ورودی تراکنش حساب»=${acctgTransEntry.acctgTransEntrySeqId}</value>
+        <value xml:lang="fa">«پرچم بدهکار/بستانکار» ${acctgTransEntry.debitCreditFlag} مشکل دارد («بد» یا «بس» نبود) در ورودی تراکنش حسابداری با «آی‌دی تراکنش حساب»=${acctgTransEntry.acctgTransId} و «آی‌دی ترتیبی ورودی تراکنش حساب»=${acctgTransEntry.acctgTransEntrySeqId}</value>
         <value xml:lang="fr">L'indication Débit/Crédit pour la ligne est mal positionnée</value>
         <value xml:lang="it">Flag debito/credito errato ${acctgTransEntry.debitCreditFlag} (non è D o C) in Accounting Transaction Entry con acctgTransId=${acctgTransEntry.acctgTransId} e acctgTransEntrySeqId=${acctgTransEntry.acctgTransEntrySeqId}</value>
         <value xml:lang="ja">会計仕訳ID=${acctgTransEntry.acctgTransId} 会計仕訳エントリ連番ID=${acctgTransEntry.acctgTransEntrySeqId} の会計仕訳エントリで、貸借フラグ ${acctgTransEntry.debitCreditFlag} が正しくありません (D:借 または C:貸)</value>
@@ -10367,7 +10369,7 @@
     </property>
     <property key="AccountingNotPostingGlAccountTransactionCreditZero">
         <value xml:lang="en">Not posting GL Accounting Transaction with ID ${parameters.acctgTransId} because credit total is zero: Debit Total=${trialBalanceResultMap.debitTotal} Credit Total=${trialBalanceResultMap.creditTotal} Debit/Credit Difference=${trialBalanceResultMap.debitCreditDifference}</value>
-        <value xml:lang="fa">هیچ تراکنش حسابداری معین با آی‌دی ${parameters.acctgTransId} ارسال‌نشده، زیرا مجموع اعتبار صفر است: مجموع بدهی‌ها =${trialBalanceResultMap.debitTotal}  مجموع اعتبار =${trialBalanceResultMap.creditTotal}   اختلاف بدهی/اعتبار = ${trialBalanceResultMap.debitCreditDifference}</value>
+        <value xml:lang="fa">هیچ تراکنش حسابداری معین با آی‌دی ${parameters.acctgTransId} ارسال‌نشده، زیرا مجموع بستانکاری صفر است: مجموع بدهکاری =${trialBalanceResultMap.debitTotal}  مجموع بستانکاری =${trialBalanceResultMap.creditTotal}   اختلاف بدهکار/بستانکار = ${trialBalanceResultMap.debitCreditDifference}</value>
         <value xml:lang="fr">Imposible d'équilibrer la transaction ${parameters.acctgTransId} car le total crédit est à zéro : Total débit = ${trialBalanceResultMap.debitTotal}, total crédit = ${trialBalanceResultMap.creditTotal}, différence = ${trialBalanceResultMap.debitCreditDifference}</value>
         <value xml:lang="it">Non è possibile contabilizzare la GL Accounting Transaction con ID ${parameters.acctgTransId} perchè il credito totale è zero: Debito Totale=${trialBalanceResultMap.debitTotal} Credito Totale=${trialBalanceResultMap.creditTotal} Debito/Credito Differenza=${trialBalanceResultMap.debitCreditDifference}</value>
         <value xml:lang="ja">ID ${parameters.acctgTransId} のGL会計仕訳が転記できません。貸方の合計がゼロです。借方合計=${trialBalanceResultMap.debitTotal} 貸方合計=${trialBalanceResultMap.creditTotal} 借方/貸方差額=${trialBalanceResultMap.debitCreditDifference}</value>
@@ -10377,7 +10379,7 @@
     </property>
     <property key="AccountingNotPostingGlAccountTransactionDebitZero">
         <value xml:lang="en">Not posting GL Accounting Transaction with ID ${parameters.acctgTransId} because debit total is zero: Debit Total=${trialBalanceResultMap.debitTotal} Credit Total=${trialBalanceResultMap.creditTotal} Debit/Credit Difference=${trialBalanceResultMap.debitCreditDifference}</value>
-        <value xml:lang="fa">هیچ تراکنش حسابداری معین با آی‌دی ${parameters.acctgTransId} ارسال‌نشده، زیرا مجموع بدهی صفر است: مجموع بدهی ${trialBalanceResultMap.debitTotal}= مجموع اعتبار =${trialBalanceResultMap.creditTotal} اختلاف بدهی/اعتبار = ${trialBalanceResultMap.debitCreditDifference}</value>
+        <value xml:lang="fa">هیچ تراکنش حسابداری معین با آی‌دی ${parameters.acctgTransId} ارسال‌نشده، زیرا مجموع بدهکاری صفر است: مجموع بدهکاری ${trialBalanceResultMap.debitTotal}= مجموع بستانکاری =${trialBalanceResultMap.creditTotal} اختلاف بدهکار/بستانکار = ${trialBalanceResultMap.debitCreditDifference}</value>
         <value xml:lang="fr">Imposible d'équilibrer la transaction ${parameters.acctgTransId} car le total débit est à zéro : Total débit = ${trialBalanceResultMap.debitTotal}, total crédit = ${trialBalanceResultMap.creditTotal}, différence = ${trialBalanceResultMap.debitCreditDifference</value>
         <value xml:lang="it">Non è possibile contabilizzare la GL Accounting Transaction con ID ${parameters.acctgTransId} perchè il debito totale è zero: Debito Totale=${trialBalanceResultMap.debitTotal} Credito Totale=${trialBalanceResultMap.creditTotal} Debito/Credito Differenza=${trialBalanceResultMap.debitCreditDifference}</value>
         <value xml:lang="ja">ID ${parameters.acctgTransId} のGL会計仕訳が転記できません。借方の合計がゼロです。借方合計=${trialBalanceResultMap.debitTotal} 貸方合計=${trialBalanceResultMap.creditTotal} 借方/貸方差額=${trialBalanceResultMap.debitCreditDifference}</value>
@@ -10397,7 +10399,7 @@
     </property>
     <property key="AccountingNotPostingGlAccountTransactionTrialBalanceFailed">
         <value xml:lang="en">Not posting GL Accounting Transaction with ID ${parameters.acctgTransId} because the trial balance failed: Debit Total=${trialBalanceResultMap.debitTotal} Credit Total=${trialBalanceResultMap.creditTotal} Debit/Credit Difference=${trialBalanceResultMap.debitCreditDifference}</value>
-        <value xml:lang="fa">هیچ تراکنش حسابداری معین با آی‌دی ${parameters.acctgTransId} ارسال‌نشده، زیرا ترازنامه آزمایشی شکست خورد: مجموع بدهی =${trialBalanceResultMap.debitTotal} مجموع اعتبار =${trialBalanceResultMap.creditTotal} اختلاف بدهی/اعتبار =${trialBalanceResultMap.debitCreditDifference}</value>
+        <value xml:lang="fa">هیچ تراکنش حسابداری معین با آی‌دی ${parameters.acctgTransId} ارسال‌نشده، زیرا ترازنامه آزمایشی شکست خورد: مجموع بدهکاری =${trialBalanceResultMap.debitTotal} مجموع بستانکاری =${trialBalanceResultMap.creditTotal} اختلاف بدهی/اعتبار =${trialBalanceResultMap.debitCreditDifference}</value>
         <value xml:lang="fr">Imposible d'équilibrer la transaction ${parameters.acctgTransId} : Total débit = ${trialBalanceResultMap.debitTotal}, total crédit = ${trialBalanceResultMap.creditTotal}, différence = ${trialBalanceResultMap.debitCreditDifference}</value>
         <value xml:lang="it">Non è possibile contabilizzare la GL Accounting Transaction con ID ${parameters.acctgTransId} perchè il bilancio di prova è fallito: Debito Totale=${trialBalanceResultMap.debitTotal} Credito Totale=${trialBalanceResultMap.creditTotal} Debito/Credito Differenza=${trialBalanceResultMap.debitCreditDifference}</value>
         <value xml:lang="ja">ID ${parameters.acctgTransId} のGL会計仕訳が転記できません。貸借の資産に失敗しました。借方合計=${trialBalanceResultMap.debitTotal} 貸方合計=${trialBalanceResultMap.creditTotal} 借方/貸方差額=${trialBalanceResultMap.debitCreditDifference}</value>
@@ -10407,7 +10409,7 @@
     </property>
     <property key="AccountingNotPostingGlJournalTrialBalanceFailed">
         <value xml:lang="en">Not posting GL Journal with ID ${parameters.glJournalId} because the trial balance failed: Debit Total=${trialBalanceResultMap.debitTotal} Credit Total=${trialBalanceResultMap.creditTotal} Debit/Credit Difference=${trialBalanceResultMap.debitCreditDifference}</value>
-        <value xml:lang="fa">هیچ روزانه معین با آی‌دی ${parameters.glJournalId} ارسال‌نشده، زیرا ترازنامه آزمایشی شکست‌خورده: مجموع بدهی =${trialBalanceResultMap.debitTotal} مجموع اعتبار = ${trialBalanceResultMap.creditTotal} اختلاف بدهی/اعتبار =${trialBalanceResultMap.debitCreditDifference}</value>
+        <value xml:lang="fa">هیچ روزانه معین با آی‌دی ${parameters.glJournalId} ارسال‌نشده، زیرا ترازنامه آزمایشی شکست‌خورده: مجموع بدهکاری =${trialBalanceResultMap.debitTotal} مجموع بستانکاری = ${trialBalanceResultMap.creditTotal} اختلاف بدهکار/بستانکار =${trialBalanceResultMap.debitCreditDifference}</value>
         <value xml:lang="fr">Échec de la publication du journal ${parameters.glJournalId}, erreur dans l'équilibre : Total débit = ${trialBalanceResultMap.debitTotal}, total crédit = ${trialBalanceResultMap.creditTotal}, différence = ${trialBalanceResultMap.debitCreditDifference}</value>
         <value xml:lang="it">Non è possibile contabilizzare il giornale con ID ${parameters.glJournalId} perchè il bilancio di prova è fallito: Debito Totale=${trialBalanceResultMap.debitTotal} Credito Totale=${trialBalanceResultMap.creditTotal} Debito/Credito Differenza=${trialBalanceResultMap.debitCreditDifference}</value>
         <value xml:lang="ja">ID ${parameters.acctgTransId} のGLジャーナルが転記できません。貸借の資産に失敗しました。借方合計=${trialBalanceResultMap.debitTotal} 貸方合計=${trialBalanceResultMap.creditTotal} 借方/貸方差額=${trialBalanceResultMap.debitCreditDifference}</value>
@@ -10427,7 +10429,7 @@
     </property>
     <property key="AccountingNotWithdrawalFinAccountTrans">
         <value xml:lang="en">Not a withdrawal financial account transaction.</value>
-        <value xml:lang="fa">هیچ تراکنش حساب مالی پس‌گیرنده‌ای</value>
+        <value xml:lang="fa">یک تراکنش حساب مالی سرمایه‌برداری نیست.</value>
         <value xml:lang="fr">Pas une transaction sur un compte de désengagement financier</value>
         <value xml:lang="hi_IN">वापसी वित्तीय खाता गतिविधि नहीं है</value>
         <value xml:lang="ja">払出できない金融アカウントトランザクションです。</value>
@@ -11262,7 +11264,7 @@
     <property key="AccountingPaymentAlreadyAssociatedToFinAccountError">
         <value xml:lang="de">Zahlung [${paymentId}] ist schon einem anderen Finanzkonto zugeordnet.</value>
         <value xml:lang="en">Payment [${paymentId}] is already associated with other financial account.</value>
-        <value xml:lang="fa">پرداخت [${paymentId}] ازقبل با دیگر حساب‌های مالی مرتبط‌شده‌است.</value>
+        <value xml:lang="fa">پرداخت [${paymentId}] ازقبل با دیگر حساب‌های مالی همبسته‌شده ‌است.</value>
         <value xml:lang="fr">Le paiement [${paymentId}] est déjà associé avec un autre compte financier</value>
         <value xml:lang="hi_IN">भुगतान [${paymentId}] पहले से ही अन्य वित्तीय खाते के साथ जुड़ा हुआ है</value>
         <value xml:lang="ja">支払 [${paymentId}] はすでに別の金融アカウントに割当済です</value>
@@ -11431,7 +11433,7 @@
     </property>
     <property key="AccountingPaymentApplicationParameterListUnsuitable">
         <value xml:lang="en">--Input parameters...InvoiceId: ${invoiceId} invoiceItemSeqId: ${invoiceItemSeqId} PaymentId: ${paymentId} toPaymentId: ${toPaymentId} \n  paymentApplicationId: ${paymentApplicationId} amountApplied: ${amountApplied}</value>
-        <value xml:lang="fa">--پارامترهای ورودی...«آی‌دی فاکتور»: ${invoiceId} «آی‌دی ترتیبی قلم فاکتور»: ${invoiceItemSeqId} «آی‌دی پرداخت»: ${paymentId} «به آی‌دی پرداخت»: ${toPaymentId} \n </value>
+        <value xml:lang="fa">--پارامترهای ورودی...«آی‌دی فاکتور»: ${invoiceId} «آی‌دی ترتیبی قلم فاکتور»: ${invoiceItemSeqId} «آی‌دی پرداخت»: ${paymentId} «به آی‌دی پرداخت»: ${toPaymentId} \n</value>
         <value xml:lang="fr">--Input parameters...InvoiceId: ${invoiceId} invoiceItemSeqId: ${invoiceItemSeqId} PaymentId: ${paymentId} toPaymentId: ${toPaymentId} \n  paymentApplicationId: ${paymentApplicationId} amountApplied: ${amountApplied}</value>
         <value xml:lang="it">--Parametri...Fattura: ${invoiceId} riga fattura: ${invoiceItemSeqId} pagamento: ${paymentId} al pagamento: ${toPaymentId} \n  paymentApplicationId: ${paymentApplicationId} importo applicato: ${amountApplied}</value>
         <value xml:lang="ja">--入力パラメータ...請求書ID: ${invoiceId} 請求アイテム連番ID: ${invoiceItemSeqId} 支払ID: ${paymentId} 支払先ID: ${toPaymentId} \n  支払申請ID: ${paymentApplicationId} 消込済金額: ${amountApplied}</value>
@@ -11619,7 +11621,7 @@
     <property key="AccountingPaymentGatewayConfig">
         <value xml:lang="de">Zahlungs-Gateway-Konfiguration</value>
         <value xml:lang="en">Payment Gateway Config</value>
-        <value xml:lang="fa">پیکربندی دروازه پرداخت</value>
+        <value xml:lang="fa">پیکربندی درگاه پرداخت</value>
         <value xml:lang="fr">Configuration de la passerelle de paiement</value>
         <value xml:lang="hi_IN">भुगतान गेटवे विन्यास(PaymentGatewayConfig)</value>
         <value xml:lang="it">Configurazioni gateway pagamenti</value>
@@ -11632,7 +11634,7 @@
     <property key="AccountingPaymentGatewayConfigDescription">
         <value xml:lang="de">Beschreibung</value>
         <value xml:lang="en">Payment Gateway Config Description</value>
-        <value xml:lang="fa">شرح پیکربندی دروازه پرداخت</value>
+        <value xml:lang="fa">شرح پیکربندی درگاه پرداخت</value>
         <value xml:lang="fr">Description de la configuration de passerelle de paiement</value>
         <value xml:lang="hi_IN">भुगतान गेटवे विन्यास वर्णन</value>
         <value xml:lang="it">Descrizione configurazione gateway pagamenti</value>
@@ -11645,7 +11647,7 @@
     <property key="AccountingPaymentGatewayConfigId">
         <value xml:lang="de">Zahlungs-Schnittstellen-Id</value>
         <value xml:lang="en">Payment Gateway Config Id</value>
-        <value xml:lang="fa">آی‌دی پیکربندی دروازه پرداخت</value>
+        <value xml:lang="fa">آی‌دی پیکربندی درگاه پرداخت</value>
         <value xml:lang="fr">Réf. config. passerelle de paiement</value>
         <value xml:lang="hi_IN">भुगतान गेटवे विन्यास क्रमांक</value>
         <value xml:lang="it">Codice configurazione gateway pagamenti</value>
@@ -11659,7 +11661,7 @@
         <!--value xml:lang="de">Schnittstellentyp, Beschr.</value duplicate -->
         <value xml:lang="de">Zahlungs-Gateway-Konfigurations-Art-Beschreibung</value>
         <value xml:lang="en">Payment Gateway Config Type Description</value>
-        <value xml:lang="fa">شرح نوع پیکربندی دروازه پرداخت</value>
+        <value xml:lang="fa">شرح نوع پیکربندی درگاه پرداخت</value>
         <value xml:lang="fr">Description des types de configuration de passerelle de paiement</value>
         <value xml:lang="hi_IN">भुगतान गेटवे विन्यास प्रकार वर्णन</value>
         <value xml:lang="it">Descrizione tipo configurazione gateway pagamenti</value>
@@ -11672,7 +11674,7 @@
     <property key="AccountingPaymentGatewayConfigTypeId">
         <value xml:lang="de">Schnittstellentyp</value>
         <value xml:lang="en">Payment Gateway Config Type Id</value>
-        <value xml:lang="fa">آی‌دی نوع پیکربندی دروازه پرداخت</value>
+        <value xml:lang="fa">آی‌دی نوع پیکربندی درگاه پرداخت</value>
         <value xml:lang="fr">Type de configuration de passerelle de paiment</value>
         <value xml:lang="hi_IN">भुगतान गेटवे विन्यास प्रकार क्रमांक</value>
         <value xml:lang="it">Tipo configurazione gateway pagamenti</value>
@@ -11685,7 +11687,7 @@
     <property key="AccountingPaymentGatewayConfigTypes">
         <value xml:lang="de">Konfigurationstypen</value>
         <value xml:lang="en">Payment Gateway Config Types</value>
-        <value xml:lang="fa">انواع پیکربندی دروازه پرداخت</value>
+        <value xml:lang="fa">انواع پیکربندی درگاه پرداخت</value>
         <value xml:lang="fr">Types de configuration de passerelle de paiment</value>
         <value xml:lang="hi_IN">भुगतान गेटवे विन्यास प्रकार</value>
         <value xml:lang="it">Tipi configurazione gateway pagamenti</value>
@@ -11738,7 +11740,7 @@
         <value xml:lang="de">Antwort-Id des Zahlungs-Gateways</value>
         <value xml:lang="en">Accounting Payment Gateway Response Id</value>
         <value xml:lang="es">Id Respuesta Puerta de Pago Contable</value>
-        <value xml:lang="fa">آی‌دی پاسخگویی دروازه پرداخت حسابداری</value>
+        <value xml:lang="fa">آی‌دی پاسخگویی درگاه پرداخت حسابداری</value>
         <value xml:lang="fr">Réf. de la réponse du terminal de paiement</value>
         <value xml:lang="hi_IN">लेखांकन भुगतान गेटवे प्रतिक्रिया क्रमांक</value>
         <value xml:lang="it">Codice Risposta Gateway Pagamento Contabile</value>
@@ -12134,7 +12136,7 @@
         <value xml:lang="de">Zahlung Einstellungen</value>
         <value xml:lang="en">Payment Properties</value>
         <value xml:lang="es">Propiedades de Pago</value>
-        <value xml:lang="fa">خواص پرداخت</value>
+        <value xml:lang="fa">مشخصات پرداخت</value>
         <value xml:lang="fr">Propriétés du paiement</value>
         <value xml:lang="hi_IN">भुगतान गुण</value>
         <value xml:lang="it">Proprietà Pagamento</value>
@@ -12462,7 +12464,7 @@
     </property>
     <property key="AccountingPaymentTestBadCardNumber">
         <value xml:lang="en">This is a test processor; no payments were captured or authorized</value>
-        <value xml:lang="fa">این پردازشگر تست است؛ هیچ پرداختی دریافت یا مجوز داده‌نشده‌است</value>
+        <value xml:lang="fa">این پردازشگر تست است؛ هیچ پرداختی دریافت‌شده یا مجوزدار نشده‌است</value>
         <value xml:lang="fr">Ceci est un test, aucune autorisation ou récupération de paiement sera effectuée</value>
         <value xml:lang="it">Questo è un test di cattura transazione; nessun pagamento verrà catturato o autorizzato</value>
         <value xml:lang="ja">これはテストプロセッサです。支払はキャプチャまたは認証されません</value>
@@ -12480,7 +12482,7 @@
     </property>
     <property key="AccountingPaymentTestCaptureDeclined">
         <value xml:lang="en">This is a test processor; no payments were captured or authorized</value>
-        <value xml:lang="fa">این یک پردازشگر تست است؛ هیچ پرداختی دریافت یا مجوز داده‌نشده‌است</value>
+        <value xml:lang="fa">این یک پردازشگر تست است؛ هیچ پرداختی دریافت‌شده یا مجوزدار نشده‌است</value>
         <value xml:lang="fr">Ceci est un test de récupération; aucun paiement ne sera effectué ou autorisé</value>
         <value xml:lang="it">Questo è un test di cattura transazione; nessun pagamento verrà catturato o autorizzato</value>
         <value xml:lang="ja">これはテストプロセッサです。支払はキャプチャまたは認証されません</value>
@@ -12498,7 +12500,7 @@
     </property>
     <property key="AccountingPaymentTestProcessor">
         <value xml:lang="en">This is a test processor; no payments were captured or authorized.</value>
-        <value xml:lang="fa">این یک پردازشگر تست است؛ هیچ پرداختی دریافت یا مجوز داده‌نشده‌است</value>
+        <value xml:lang="fa">این یک پردازشگر تست است؛ هیچ پرداختی دریافت‌شده یا مجوزدار نشده‌است.</value>
         <value xml:lang="fr">Ceci est un test de récupération, aucun paiement ne sera effectué ou autorisé</value>
         <value xml:lang="it">Questo è un test di autorizzazione transazione; nessun pagamento verrà catturato o autorizzato</value>
         <value xml:lang="ja">これはテストプロセッサです。支払はキャプチャまたは認証されません。</value>
@@ -12507,7 +12509,7 @@
     </property>
     <property key="AccountingPaymentTestProcessorDeclined">
         <value xml:lang="en">This is a test processor; no payments were captured or authorized</value>
-        <value xml:lang="fa">این یک پردازشگر تست است؛ هیچ پرداختی دریافت یا مجوز داده‌نشده‌است</value>
+        <value xml:lang="fa">این یک پردازشگر تست است؛ هیچ پرداختی دریافت‌شده یا مجوزدار نشده‌است</value>
         <value xml:lang="fr">Ceci est un test de récupération, aucun paiement ne sera effectué ou autorisé</value>
         <value xml:lang="it">Questo è un test di autorizzazione transazione; nessun pagamento verrà catturato o autorizzato</value>
         <value xml:lang="ja">これはテストプロセッサです。支払はキャプチャまたは認証されません</value>
@@ -12705,7 +12707,7 @@
     </property>
     <property key="AccountingPaymentsAssociateWithFinAccountHasInvalidStatusError">
         <value xml:lang="en">Associated Payments with FinAccountTrans has invalid status</value>
-        <value xml:lang="fa">پرداخت‌های مرتبط با «تراکنش حساب مالی» دارای وضعیت نامعتبر می‌باشند</value>
+        <value xml:lang="fa">پرداخت‌های همبسته‌شده با «تراکنش حساب مالی» دارای وضعیت نامعتبر می‌باشند</value>
         <value xml:lang="fr">Les paiements associés à l'opération financière n'ont pas un statut correct</value>
         <value xml:lang="hi_IN">FinAccountTrans के साथ जुड़े भुगतान अमान्य स्थिति में है</value>
         <value xml:lang="ja">金融アカウントトランザクションと関連付けられた支払は無効なステータスです</value>
@@ -12836,7 +12838,7 @@
     </property>
     <property key="AccountingPeriod1Credit_Disbursement">
         <value xml:lang="en">Period 1 Credit(Disbursement)</value>
-        <value xml:lang="fa">اعتبار در دوره ۱(پرداخت‌نقدی)</value>
+        <value xml:lang="fa">بستانکاری در دوره ۱(پرداخت‌نقدی)</value>
         <value xml:lang="fr">Période 1 Crédit (décaissement)</value>
         <value xml:lang="hi_IN">अवधि 1 जमा</value>
         <value xml:lang="ja">期間1 貸方(支払金)</value>
@@ -12846,7 +12848,7 @@
     </property>
     <property key="AccountingPeriod1Debit_Receipts">
         <value xml:lang="en">Period 1 Debit(Receipts)</value>
-        <value xml:lang="fa">بدهی در دوره ۱(دریافت‌ها)</value>
+        <value xml:lang="fa">بدهکاری در دوره ۱(دریافت‌ها)</value>
         <value xml:lang="fr">Période 1 Débit (recettes)</value>
         <value xml:lang="hi_IN">अवधि 1 नामे</value>
         <value xml:lang="ja">期間1 借方(受領)</value>
@@ -12878,7 +12880,7 @@
     </property>
     <property key="AccountingPeriod2Credit_Disbursement">
         <value xml:lang="en">Period 2 Credit(Disbursement)</value>
-        <value xml:lang="fa">اعتبار در دوره ۲(پرداخت‌نقدی)</value>
+        <value xml:lang="fa">بستانکاری در دوره ۲(پرداخت‌نقدی)</value>
         <value xml:lang="fr">Période 2 Crédit (décaissement)</value>
         <value xml:lang="hi_IN">अवधि 2 जमा</value>
         <value xml:lang="ja">期間2 貸方(支払金)</value>
@@ -12888,7 +12890,7 @@
     </property>
     <property key="AccountingPeriod2Debit_Receipts">
         <value xml:lang="en">Period 2 Debit(Receipts)</value>
-        <value xml:lang="fa">بدهی در دوره ۲ (دریافت‌ها)</value>
+        <value xml:lang="fa">بدهکاری در دوره ۲ (دریافت‌ها)</value>
         <value xml:lang="fr">Period 2 Débit (recettes)</value>
         <value xml:lang="hi_IN">अवधि 2 नामे</value>
         <value xml:lang="ja">期間2 借方(受領)</value>
@@ -13001,7 +13003,7 @@
     <property key="AccountingPermissionPeriod">
         <value xml:lang="de">Sie haben keine Berechtigung diese Seite zu nutzen (es wird PERIOD_MAINT benötigt)</value>
         <value xml:lang="en">You do not have permission to use this page (PERIOD_MAINT needed)</value>
-        <value xml:lang="fa">شما برای استفاده از این صفحه اجازه ندارید («دوره تعمیرونگهداری لازم‌است)</value>
+        <value xml:lang="fa">شما برای استفاده از این صفحه اجازه ندارید («دوره نگهداری لازم‌است)</value>
         <value xml:lang="fr">Vous n'avez pas l'autorisation d'utiliser cette page (PERIOD_MAINT est nécessaire)</value>
         <value xml:lang="hi_IN">आप को इस पृष्ठ का उपयोग करने के लिए नहीं है (PERIOD_MAINT आवश्यक)</value>
         <value xml:lang="it">Tu non hai il permesso di usare questa pagina (necessario PERIOD_MAINT)</value>
@@ -13269,7 +13271,7 @@
         <value xml:lang="ar">مشكل عند التحصل على السلع من الشحنات</value>
         <value xml:lang="en">Problem getting issued items from shipments</value>
         <value xml:lang="es">Problema obteniendo elementos entregados del envío</value>
-        <value xml:lang="fa">مشکل در دریافت اقلام صادرشده از محموله‌ها</value>
+        <value xml:lang="fa">مشکل در دریافت‌کردن اقلام صادرشده از محموله‌ها</value>
         <value xml:lang="fr">Erreur en recherchant les articles des livraisons</value>
         <value xml:lang="hi_IN">मदो की माल लदाई जरी करने में समस्या</value>
         <value xml:lang="it">Problemi leggendo righe con problemi dalle spedizioni</value>
@@ -13286,7 +13288,7 @@
     <property key="AccountingProblemGettingOrderItemOrderItemBilling">
         <value xml:lang="en">Problem getting OrderItem/OrderItemBilling records ${lookup}</value>
         <value xml:lang="es">Problema obteniendo registros de Elemento de orden/Facturación de elementos de orden ${lookup}</value>
-        <value xml:lang="fa">مشکل در دریافت سوابق «قلم سفارش»/«صورت‌حساب قلم سفارش» ${lookup}</value>
+        <value xml:lang="fa">مشکل در دریافت‌کردن سوابق «قلم سفارش»/«صورت‌حساب قلم سفارش» ${lookup}</value>
         <value xml:lang="fr">Erreur en recherchant la lignes de la commande ${lookup}</value>
         <value xml:lang="hi_IN">अभिलेखों OrderItem/OrderItemBilling में समस्या हो रही ${lookup}</value>
         <value xml:lang="it">Problemi leggendo OrderItem/OrderItemBilling records ${lookup}</value>
@@ -13302,7 +13304,7 @@
     </property>
     <property key="AccountingProblemGettingOrderPaymentPreferences">
         <value xml:lang="en">Problem getting OrderPaymentPreference records</value>
-        <value xml:lang="fa">مشکل در گرفتن سوابق «ترجیحات پرداخت سفارش»</value>
+        <value xml:lang="fa">مشکل در دریافت‌کردن سوابق «ترجیحات پرداخت سفارش»</value>
         <value xml:lang="fr">Erreur en recherchant les préférences de paiement associées à la commande</value>
         <value xml:lang="hi_IN">OrderPaymentPreference अभिलेखों में समस्या हो रही</value>
         <value xml:lang="it">Problema nella ricerca dei records di OrderPaymentPreference</value>
@@ -13334,7 +13336,7 @@
     </property>
     <property key="AccountingProblemGettingShipmentItemBilling">
         <value xml:lang="en">Problem getting ShipmentItemBilling records</value>
-        <value xml:lang="fa">مشکل در گرفتن سوابق «صورت‌حساب قلم محموله»</value>
+        <value xml:lang="fa">مشکل در دریافت‌کردن سوابق «صورت‌حساب قلم محموله»</value>
         <value xml:lang="fr">Erreur durant la recherche des lignes d'expédition associées</value>
         <value xml:lang="hi_IN">ShipmentItemBilling अभिलेखों के लिए समस्या हो रही</value>
         <value xml:lang="ja">発送アイテム請求レコードの取得時に問題があります</value>
@@ -13912,7 +13914,7 @@
     </property>
     <property key="AccountingSagePayPaymentRefundNotAuthorized">
         <value xml:lang="en">Refund not authorized by the acquiring bank</value>
-        <value xml:lang="fa">بازپرداخت بوسیله بانک داده‌شده مجوز ندارد</value>
+        <value xml:lang="fa">بازپرداخت بوسیله بانک داده‌شده مجوزدار نیست</value>
         <value xml:lang="fr">Remboursement non authorisé par la banque acquéreuse</value>
         <value xml:lang="it">Rimborso non autorizzato dalla banca</value>
         <value xml:lang="ja">請求先の銀行で払出が認証されませんでした</value>
@@ -14187,7 +14189,7 @@
     </property>
     <property key="AccountingSecurityPayNotProperlyConfigurated">
         <value xml:lang="en">ERROR: Getting SecurePay property configuration</value>
-        <value xml:lang="fa">خطا: گرفتن پیکربندی صفات SecurePay</value>
+        <value xml:lang="fa">خطا: دریافت‌کردن پیکربندی مشخصه SecurePay</value>
         <value xml:lang="fr">ERREUR lors de la récupération des configurations pour SecurePay</value>
         <value xml:lang="it">ERRORE: Ricavando la configurazione di SecurePay</value>
         <value xml:lang="ja">エラー: SecurePayプロパティ設定の取得中にエラー</value>
@@ -14293,7 +14295,7 @@
     </property>
     <property key="AccountingServiceErrorCreatingInvoiceTermFromOrder">
         <value xml:lang="en">Service/other problem creating InvoiceTerm from order</value>
-        <value xml:lang="fa">سرویس/دیگر مشکلات «شرط فاکتور» را از سفارش ساخته‌است</value>
+        <value xml:lang="fa">سرویس/دیگر مشکلات «قید فاکتور» را از سفارش ساخته‌است</value>
         <value xml:lang="fr">Service/ erreur en essayant de créer une date d'échéance à partir de la commande</value>
         <value xml:lang="hi_IN">सेवा/अन्य को InvoiceTerm बनाने में आदेश से पैदा समस्या</value>
         <value xml:lang="it">Servizio/altro problema nelle creazione di InvoiceTerm dall'ordine</value>
@@ -14635,7 +14637,7 @@
     </property>
     <property key="AccountingSubsidiaryLedger">
         <value xml:lang="en">Subsidiary Ledger</value>
-        <value xml:lang="fa">تفضیلی</value>
+        <value xml:lang="fa">دفتر تفضیلی</value>
         <value xml:lang="fr">Comptabilité de filiale</value>
         <value xml:lang="hi_IN">सहायक खाता</value>
         <value xml:lang="ja">補助簿</value>
@@ -14856,7 +14858,7 @@
     </property>
     <property key="AccountingTermAmount">
         <value xml:lang="en">Term Amount</value>
-        <value xml:lang="fa">مقدار شرط</value>
+        <value xml:lang="fa">مقدار قید</value>
         <value xml:lang="fr">Montant du terme</value>
         <value xml:lang="hi_IN">शर्त राशी</value>
         <value xml:lang="ja">条件金額</value>
@@ -14869,7 +14871,7 @@
         <value xml:lang="de">Vereinbarungsart</value>
         <value xml:lang="en">Term Type Id</value>
         <value xml:lang="es">Id TipoTérmino</value>
-        <value xml:lang="fa">آی‌دی نوع شرط</value>
+        <value xml:lang="fa">آی‌دی نوع قید</value>
         <value xml:lang="fr">Type de terme</value>
         <value xml:lang="hi_IN">शर्त प्रकार क्रमांक</value>
         <value xml:lang="it">Tipo Termine</value>
@@ -15095,7 +15097,7 @@
     </property>
     <property key="AccountingTotalCredit_Disbursement">
         <value xml:lang="en">Total Credit(Disbursement)</value>
-        <value xml:lang="fa">اعتبار مجموع(پرداخت‌نقدی)</value>
+        <value xml:lang="fa">بستانکاری مجموع(پرداخت‌نقدی)</value>
         <value xml:lang="fr">Total crédit (décaissement)</value>
         <value xml:lang="hi_IN">कुल जमा</value>
         <value xml:lang="ja">貸方合計(支払金)</value>
@@ -15117,7 +15119,7 @@
     </property>
     <property key="AccountingTotalDebit_Receipts">
         <value xml:lang="en">Total Debit(Receipts)</value>
-        <value xml:lang="fa">بدهی مجموع(دریافتی‌ها)</value>
+        <value xml:lang="fa">بدهکاری مجموع(دریافتی‌ها)</value>
         <value xml:lang="fr">Total Débit (recettes)</value>
         <value xml:lang="hi_IN">कुल नामे</value>
         <value xml:lang="ja">借方合計(受取金)</value>
@@ -15153,7 +15155,7 @@
     </property>
     <property key="AccountingTotalLiabilitiesAndEquities">
         <value xml:lang="en">Total Liabilities and Equities</value>
-        <value xml:lang="fa">دیون و سهام مجموع</value>
+        <value xml:lang="fa">بستانده‌ها و سهام مجموع</value>
         <value xml:lang="fr">Total du passif et Actions</value>
         <value xml:lang="ja">負債および正味資産合計</value>
         <value xml:lang="pt">Total do Passivo e Ações</value>
@@ -15162,7 +15164,7 @@
     </property>
     <property key="AccountingTotalLiabilities">
         <value xml:lang="en">Total Liabilities</value>
-        <value xml:lang="fa">دیون مجموع</value>
+        <value xml:lang="fa">بستانده‌ها مجموع</value>
         <value xml:lang="fr">Total du passif</value>
         <value xml:lang="ja">負債合計</value>
         <value xml:lang="nl">Totaal kortlopende schulden</value>
@@ -15453,7 +15455,7 @@
     </property>
     <property key="AccountingTroubleCallingCreateInvoicesFromShipmentService">
         <value xml:lang="en">Trouble calling createInvoicesFromShipment service; invoice not created for shipment [${shipmentId}]</value>
-        <value xml:lang="fa">مشکل در فراخوانی سرویس «ساختن فاکتور از محموله»؛ فاکتور برای محموله ساخته‌نشده [${shipmentId}] </value>
+        <value xml:lang="fa">مشکل در فراخوانی سرویس «ساختن فاکتور از محموله»؛ فاکتور برای محموله ساخته‌نشده [${shipmentId}]</value>
         <value xml:lang="fr">Problème rencontré en invoquant le service createInvoicesFromShipment; il n'a pas été créé de facture pour la livraison  [${shipmentId}]</value>
         <value xml:lang="hi_IN">createInvoicesFromShipment सर्विस कॉल करने में परेशानी; माल-लदाई [${shipmentId}] के लिए चालान नहीं बना</value>
         <value xml:lang="it">Problema nell'esecuzione del servizio createInvoicesFromShipment; fattura non creata per la spedizione ${shipmentId}</value>
@@ -16114,7 +16116,7 @@
     </property>
     <property key="AccountingWithdrawalPaymentInFinAccount">
         <value xml:lang="en">Withdrawal Payment from: ${finAccount.finAccountName}</value>
-        <value xml:lang="fa">پرداخت پس‌گیرنده از: ${finAccount.finAccountName}</value>
+        <value xml:lang="fa">پرداخت سرمایه‌برداری از: ${finAccount.finAccountName}</value>
         <value xml:lang="fr">Retrait sur ${finAccount.finAccountName}</value>
         <value xml:lang="hi_IN">वित्तीय खाते द्वारा वापस भुगतान: ${finAccount.finAccountName}</value>
         <value xml:lang="ja">払出支払元: ${finAccount.finAccountName}</value>
@@ -16157,7 +16159,7 @@
     </property>
     <property key="AccountingWorldPayFixContact">
         <value xml:lang="en">Contact details non-editable</value>
-        <value xml:lang="fa">جزئیات تماس قابل ویرایش‌نیستند</value>
+        <value xml:lang="fa">ویرایش‌نشدنی جزئیات تماس</value>
         <value xml:lang="fr">Le détail du contact n'est pas modifiable</value>
         <value xml:lang="hi_IN">गैर संपादन संपर्क विवरण</value>
         <value xml:lang="it">Dettagli contatto non-editabili</value>
@@ -16267,7 +16269,7 @@
     </property>
     <property key="AccountingWorldPayWithDelivery">
         <value xml:lang="en">Delivery Address Editable</value>
-        <value xml:lang="fa">آدرس تحویل قابل‌ویرایش</value>
+        <value xml:lang="fa">ویرایش‌شدنی آدرس تحویل</value>
         <value xml:lang="fr">Adresse de destination modifiable</value>
         <value xml:lang="hi_IN">डिलिवरी पता संपादन</value>
         <value xml:lang="it">Indirizzo di spedizione editabile</value>
@@ -16438,7 +16440,7 @@
     <property key="AcctgGlJrnlIdToolTip">
         <value xml:lang="en">Non-editable System ID</value>
         <value xml:lang="es">Id de sistema no editable</value>
-        <value xml:lang="fa">آی‌دی سیستم غیرقابل‌ویرایش</value>
+        <value xml:lang="fa">آی‌دی سیستم ‌ویرایش‌نشدنی</value>
         <value xml:lang="fr">Réf. système non éditable</value>
         <value xml:lang="hi_IN">गैर संपादन सिस्टम क्रमांक</value>
         <value xml:lang="it">Codice Sistema Non-editabile</value>
@@ -17285,7 +17287,7 @@
     </property>
     <property key="FormFieldTitle_closingBalanceCredit">
         <value xml:lang="en">Closing Balance Credit</value>
-        <value xml:lang="fa">اعتبار تراز آخرین</value>
+        <value xml:lang="fa">بستانکاری تراز آخرین</value>
         <value xml:lang="fr">Solde fermé au crédit</value>
         <value xml:lang="hi_IN">बंद शेष जमा</value>
         <value xml:lang="ja">貸方期末残高</value>
@@ -17295,7 +17297,7 @@
     </property>
     <property key="FormFieldTitle_closingBalanceDebit">
         <value xml:lang="en">Closing Balance Debit</value>
-        <value xml:lang="fa">بدهی تراز آخرین</value>
+        <value xml:lang="fa">بدهکاری تراز آخرین</value>
         <value xml:lang="fr">Solde fermé au débit</value>
         <value xml:lang="hi_IN">बंद शेष नामे</value>
         <value xml:lang="ja">借方期末残高</value>
@@ -17376,7 +17378,7 @@
     </property>
     <property key="FormFieldTitle_credit">
         <value xml:lang="en">Credit</value>
-        <value xml:lang="fa">اعتبار</value>
+        <value xml:lang="fa">بستانکار</value>
         <value xml:lang="fr">Crédit</value>
         <value xml:lang="hi_IN">जमा</value>
         <value xml:lang="it">Credito</value>
@@ -17389,7 +17391,7 @@
     <property key="FormFieldTitle_creditGlAccountId">
         <value xml:lang="en">Credit Gl Account Id</value>
         <value xml:lang="es">Id Cuenta de LM Crédito</value>
-        <value xml:lang="fa">آی‌دی حساب معین اعتبار</value>
+        <value xml:lang="fa">آی‌دی حساب معین بستانکار</value>
         <value xml:lang="fr">Compte de crédit</value>
         <value xml:lang="hi_IN">जमा जीएल(Gl) खाता क्रमांक</value>
         <value xml:lang="it">Codice Conto Credito Gl</value>
@@ -17542,7 +17544,7 @@
     </property>
     <property key="FormFieldTitle_debit">
         <value xml:lang="en">Debit</value>
-        <value xml:lang="fa">بدهی</value>
+        <value xml:lang="fa">بدهکار</value>
         <value xml:lang="fr">Débit</value>
         <value xml:lang="hi_IN">नामे</value>
         <value xml:lang="it">Debito</value>
@@ -17556,7 +17558,7 @@
         <value xml:lang="ar">علامة الدين القرض</value>
         <value xml:lang="en">Debit Credit Flag</value>
         <value xml:lang="es">Bandera de débito/crédito</value>
-        <value xml:lang="fa">پرچم اعتبار بدهی</value>
+        <value xml:lang="fa">پرچم بستانکار بدهکار</value>
         <value xml:lang="fr">Débit ou crédit</value>
         <value xml:lang="hi_IN">जमा नामे फ्लैग</value>
         <value xml:lang="it">Flag Debito Credito</value>
@@ -17573,7 +17575,7 @@
     <property key="FormFieldTitle_debitGlAccountId">
         <value xml:lang="en">Debit Gl Account Id</value>
         <value xml:lang="es">Id Cuenta de LM Débito</value>
-        <value xml:lang="fa">آی‌دی حساب معین بدهی</value>
+        <value xml:lang="fa">آی‌دی حساب معین بدهکار</value>
         <value xml:lang="fr">Compte de débit</value>
         <value xml:lang="hi_IN">नामे जीएल(Gl) खाता क्रमांक</value>
         <value xml:lang="it">Codice Conto Debito Gl</value>
@@ -18087,7 +18089,7 @@
         <value xml:lang="de">Schnittstelle AVS Ergebnis</value>
         <value xml:lang="en">Gateway Avs Result</value>
         <value xml:lang="es">Resultado Puerta Avs</value>
-        <value xml:lang="fa">نتیجه Avs دروازه</value>
+        <value xml:lang="fa">نتیجه Avs درگاه</value>
         <value xml:lang="fr">Réponse Avs du terminal de paiement</value>
         <value xml:lang="hi_IN">गेटवे Avs परिणाम</value>
         <value xml:lang="it">Risultato Avs Gateway</value>
@@ -18106,7 +18108,7 @@
         <value xml:lang="de">Schnittstellencode</value>
         <value xml:lang="en">Gateway Code</value>
         <value xml:lang="es">Código de puerta</value>
-        <value xml:lang="fa">کد دروازه</value>
+        <value xml:lang="fa">کد درگاه</value>
         <value xml:lang="fr">Code du terminal de paiement</value>
         <value xml:lang="hi_IN">गेटवे कोड</value>
         <value xml:lang="it">Codice Gateway</value>
@@ -18123,7 +18125,7 @@
     <property key="FormFieldTitle_gatewayCvResult">
         <value xml:lang="de">Schnittstelle CV Ergebnis</value>
         <value xml:lang="en">Gateway Cv Result</value>
-        <value xml:lang="fa">نتیجه Cv دروازه</value>
+        <value xml:lang="fa">نتیجه Cv درگاه</value>
         <value xml:lang="fr">Resultat de l'interface Cv</value>
         <value xml:lang="hi_IN">गेटवे Cv परिणाम</value>
         <value xml:lang="it">Risultato Cv gateway</value>
@@ -18138,7 +18140,7 @@
         <value xml:lang="de">Schnittstellen-Flag</value>
         <value xml:lang="en">Gateway Flag</value>
         <value xml:lang="es">Bandera de puerta</value>
-        <value xml:lang="fa">پرچم دروازه</value>
+        <value xml:lang="fa">پرچم درگاه</value>
         <value xml:lang="fr">Indicateur du terminal de paiement</value>
         <value xml:lang="hi_IN">गेटवे फ्लैग</value>
         <value xml:lang="it">Flag Gateway</value>
@@ -18157,7 +18159,7 @@
         <value xml:lang="de">Schnittstellen-Mitteilung</value>
         <value xml:lang="en">Gateway Message</value>
         <value xml:lang="es">Mensaje de puerta</value>
-        <value xml:lang="fa">پیام دروازه</value>
+        <value xml:lang="fa">پیام درگاه</value>
         <value xml:lang="fr">Message du terminal de paiement</value>
         <value xml:lang="hi_IN">गेटवे संदेश</value>
         <value xml:lang="it">Messaggio Gateway</value>
@@ -18176,7 +18178,7 @@
         <value xml:lang="de">Schnittstelle Score Ergebnis</value>
         <value xml:lang="en">Gateway Score Result</value>
         <value xml:lang="es">Gateway Score Result</value>
-        <value xml:lang="fa">نتیجه امتیاز دروازه</value>
+        <value xml:lang="fa">نتیجه امتیاز درگاه</value>
         <value xml:lang="fr">Score du terminal de paiement</value>
         <value xml:lang="hi_IN">गेटवे स्कोर परिणाम</value>
         <value xml:lang="it">Risultato Punteggio Gateway</value>
@@ -18719,7 +18721,7 @@
     </property>
     <property key="FormFieldTitle_invoiceTermId">
         <value xml:lang="en">Invoice Term Id</value>
-        <value xml:lang="fa">آی‌دی شرط فاکتور</value>
+        <value xml:lang="fa">آی‌دی قید فاکتور</value>
         <value xml:lang="fr">Terme sur facture</value>
         <value xml:lang="hi_IN">चालान शर्त क्रमांक</value>
         <value xml:lang="ja">請求条件ID</value>
@@ -18777,7 +18779,7 @@
     </property>
     <property key="FormFieldTitle_isRefundable">
         <value xml:lang="en">Is Refundable</value>
-        <value xml:lang="fa">آیا قابل‌بازپرداخت‌است</value>
+        <value xml:lang="fa">آیا بازپرداختنی است</value>
         <value xml:lang="fr">Est remboursable</value>
         <value xml:lang="it">E' Rimborsabile</value>
         <value xml:lang="ja">返金可能</value>
@@ -18951,7 +18953,7 @@
     </property>
     <property key="FormFieldTitle_lossGlAccountId">
         <value xml:lang="en">Loss GL account</value>
-        <value xml:lang="fa">حساب معین ضرر</value>
+        <value xml:lang="fa">حساب معین زیان</value>
         <value xml:lang="fr">Compte de charges</value>
         <value xml:lang="ja">損失GL勘定</value>
         <value xml:lang="pt">Conta razão de perdas</value>
@@ -18962,7 +18964,7 @@
     <property key="FormFieldTitle_maintHistSeqId">
         <value xml:lang="en">Maint Hist Seq Id</value>
         <value xml:lang="es">Id Sec Hist Mant</value>
-        <value xml:lang="fa">آی‌دی ترتیبی تاریخچه تعمیرونگهداری</value>
+        <value xml:lang="fa">آی‌دی ترتیبی تاریخچه نگهداری</value>
         <value xml:lang="fr">Séquence historique de maintenance</value>
         <value xml:lang="hi_IN">रखरखाव इतिहास अनुक्रम क्रमांक(MaintHistSeqId)</value>
         <value xml:lang="it">Sequenza manutenzione</value>
@@ -19079,7 +19081,7 @@
     </property>
     <property key="FormFieldTitle_monthAmountCredit">
         <value xml:lang="en">Month Amount Credit</value>
-        <value xml:lang="fa">اعتبار مقدار ماه</value>
+        <value xml:lang="fa">بستانکار مقدار ماه</value>
         <value xml:lang="fr">Montant du mois en crédit</value>
         <value xml:lang="hi_IN">जमा महीने राशि</value>
         <value xml:lang="ja">貸方月額</value>
@@ -19089,7 +19091,7 @@
     </property>
     <property key="FormFieldTitle_monthAmountDebit">
         <value xml:lang="en">Month Amount Debit</value>
-        <value xml:lang="fa">بدهی مقدار ماه</value>
+        <value xml:lang="fa">بدهکاری مقدار ماه</value>
         <value xml:lang="fr">Montant du mois en débit</value>
         <value xml:lang="hi_IN">नामे महीने राशि</value>
         <value xml:lang="ja">借方月額</value>
@@ -19169,7 +19171,7 @@
     </property>
     <property key="FormFieldTitle_openingBalanceCredit">
         <value xml:lang="en">Opening Balance Credit</value>
-        <value xml:lang="fa">اعتبار تراز اولین</value>
+        <value xml:lang="fa">بستانکار تراز اولین</value>
         <value xml:lang="fr">Solde ouvert en crédit</value>
         <value xml:lang="hi_IN">प्रारंभिक शेष जमा</value>
         <value xml:lang="ja">貸方期首残高</value>
@@ -19179,7 +19181,7 @@
     </property>
     <property key="FormFieldTitle_openingBalanceDebit">
         <value xml:lang="en">Opening Balance Debit</value>
-        <value xml:lang="fa">بدهی تراز اولین</value>
+        <value xml:lang="fa">بدهکاری تراز اولین</value>
         <value xml:lang="fr">Solde ouvert en débit</value>
         <value xml:lang="hi_IN">प्रारंभिक शेष नामे</value>
         <value xml:lang="ja">借方期首残高</value>
@@ -19511,7 +19513,7 @@
     <property key="FormFieldTitle_paymentGatewayResponseId">
         <value xml:lang="en">Payment Gateway Response Id</value>
         <value xml:lang="es">Id Respuesta de Puerta de Pago</value>
-        <value xml:lang="fa">آی‌دی پاسخگویی دروازه پرداخت</value>
+        <value xml:lang="fa">آی‌دی پاسخگویی درگاه پرداخت</value>
         <value xml:lang="fr">Réf. réponse du terminal de paiement</value>
         <value xml:lang="hi_IN">भुगतान गेटवे प्रतिक्रिया क्रमांक(PaymentGatewayResponseId)</value>
         <value xml:lang="it">Codice Risposta Gateway Pagamento</value>
@@ -19929,7 +19931,7 @@
         <value xml:lang="de">Produktverwaltung</value>
         <value xml:lang="en">Product Maintenance</value>
         <value xml:lang="es">Mantenimiento de producto</value>
-        <value xml:lang="fa">تعمیرونگهداری محصول</value>
+        <value xml:lang="fa">نگهداری محصول</value>
         <value xml:lang="fr">Maintenance du produit</value>
         <value xml:lang="hi_IN">उत्पाद रखरखाव</value>
         <value xml:lang="it">Manutenzione Prodotto</value>
@@ -19998,7 +20000,7 @@
     </property>
     <property key="FormFieldTitle_profitGlAccountId">
         <value xml:lang="en">Profit GL account</value>
-        <value xml:lang="fa">نفع حساب معین</value>
+        <value xml:lang="fa">سود حساب معین</value>
         <value xml:lang="fr">Compte de produits</value>
         <value xml:lang="ja">利益GL勘定</value>
         <value xml:lang="pt">Lucro da conta razão</value>
@@ -20738,7 +20740,7 @@
     <property key="FormFieldTitle_taxableFlag">
         <value xml:lang="en">Taxable Flag</value>
         <value xml:lang="es">Bandera Aplica Impuesto</value>
-        <value xml:lang="fa">پرچم قابل‌مالیات‌بودن</value>
+        <value xml:lang="fa">پرچم ‌مالیاتی</value>
         <value xml:lang="fr">Taxable</value>
         <value xml:lang="hi_IN">टैक्स योग्य फ्लैग</value>
         <value xml:lang="it">Flag Tassabile</value>
@@ -20755,7 +20757,7 @@
     <property key="FormFieldTitle_termDays">
         <value xml:lang="en">Term Days</value>
         <value xml:lang="es">Dias de Término</value>
-        <value xml:lang="fa">روزهای شرط</value>
+        <value xml:lang="fa">روزهای قید</value>
         <value xml:lang="fr">Terme (jours)</value>
         <value xml:lang="hi_IN">शर्त के दिन</value>
         <value xml:lang="it">Giorni Termine</value>
@@ -20772,7 +20774,7 @@
     <property key="FormFieldTitle_termTypeId">
         <value xml:lang="de">Vereinbarungsart</value>
         <value xml:lang="en">Term Type Id</value>
-        <value xml:lang="fa">آی‌دی نوع شرط</value>
+        <value xml:lang="fa">آی‌دی نوع قید</value>
         <value xml:lang="fr">Réf. de type de terme</value>
         <value xml:lang="hi_IN">शर्त प्रकार क्रमांक</value>
         <value xml:lang="it">Tipo Termine di Pagamento</value>
@@ -20788,7 +20790,7 @@
         <value xml:lang="de">Bedingungswert</value>
         <value xml:lang="en">Term Value</value>
         <value xml:lang="es">Valor Término</value>
-        <value xml:lang="fa">مقدار شرط</value>
+        <value xml:lang="fa">ارزش قید</value>
         <value xml:lang="fr">Terme (valeur)</value>
         <value xml:lang="hi_IN">शर्त के मान</value>
         <value xml:lang="it">Valore Termine</value>
@@ -21180,7 +21182,7 @@
     </property>
     <property key="FormFieldTitle_yearToDateBalanceCredit">
         <value xml:lang="en">Year To Date Balance Credit</value>
-        <value xml:lang="fa">سال به اعتبار تراز تاریخ</value>
+        <value xml:lang="fa">سال به بستانکاری تراز تاریخ</value>
         <value xml:lang="fr">Solde à date du crédit</value>
         <value xml:lang="hi_IN">वर्ष से दिनांक शेष जमा</value>
         <value xml:lang="ja">貸方年初来損益</value>
@@ -21190,7 +21192,7 @@
     </property>
     <property key="FormFieldTitle_yearToDateBalanceDebit">
         <value xml:lang="en">Year To Date Balance Debit</value>
-        <value xml:lang="fa">سال به بدهی تراز تاریخ</value>
+        <value xml:lang="fa">سال به بدهکاری تراز تاریخ</value>
         <value xml:lang="fr">Solde à date du débit</value>
         <value xml:lang="hi_IN">वर्ष से दिनांक शेष नामे</value>
         <value xml:lang="ja">借方年初来損益</value>
@@ -21247,7 +21249,7 @@
     <property key="PageTitleAddTaxAuthorityAssoc">
         <value xml:lang="en">Add Tax Authority Association</value>
         <value xml:lang="es">Agregar Asociación de Autoridad Fiscal</value>
-        <value xml:lang="fa">اضافه‌کردن انجمن اداره مالیات</value>
+        <value xml:lang="fa">اضافه‌کردن همبستگی اداره مالیات</value>
         <value xml:lang="fr">Créer une association vers une administration fiscale</value>
         <value xml:lang="hi_IN">टैक्स प्राधिकरण एसोसिएशन बनाएँ</value>
         <value xml:lang="it">Aggiungi Associazione Autorità Tasse</value>
@@ -21450,7 +21452,7 @@
     </property>
     <property key="PageTitleEditAgreementItemTerm">
         <value xml:lang="en">Edit Agreement Item Term</value>
-        <value xml:lang="fa">ویرایش شرط قلم توافق</value>
+        <value xml:lang="fa">ویرایش قید قلم توافق</value>
         <value xml:lang="fr">Modifier le terme de la ligne d'accord commercial</value>
         <value xml:lang="hi_IN">अनुबंध मद की शर्त संपादित करें</value>
         <value xml:lang="it">Aggiorna Termini Riga Contratto</value>
@@ -21486,7 +21488,7 @@
     <property key="PageTitleEditAgreementTerm">
         <value xml:lang="en">Edit Agreement Term</value>
         <value xml:lang="es">Editar Término de Acuerdo</value>
-        <value xml:lang="fa">ویرایش شرط توافق</value>
+        <value xml:lang="fa">ویرایش قید توافق</value>
         <value xml:lang="fr">Modifier un terme de l'accord</value>
         <value xml:lang="hi_IN">अनुबंध की शर्त संपादित करें</value>
         <value xml:lang="it">Aggiorna Termine Contratto</value>
@@ -21603,7 +21605,7 @@
         <value xml:lang="de">Rechnungskontobedingungen bearbeiten</value>
         <value xml:lang="en">Edit Billing Account Terms</value>
         <value xml:lang="es">Editar Términos de Cuenta de Facturación</value>
-        <value xml:lang="fa">ویرایش شروط حساب صورت‌حساب</value>
+        <value xml:lang="fa">ویرایش قیود حساب صورت‌حساب</value>
         <value xml:lang="fr">Modifier les termes du compte de facturation</value>
         <value xml:lang="hi_IN">देयकांकन(बिलिंग)खाते की शर्त संपादित करें</value>
         <value xml:lang="it">Aggiorna Termini Conto Fatturazione</value>
@@ -21714,7 +21716,7 @@
     </property>
     <property key="PageTitleEditFixedAssetMaintOrders">
         <value xml:lang="en">Edit Fixed Asset Maint Orders</value>
-        <value xml:lang="fa">ویرایش سفارشات تعمیرونگهداری دارایی ثابت</value>
+        <value xml:lang="fa">ویرایش سفارشات نگهداری دارایی ثابت</value>
         <value xml:lang="fr">Modifier les commandes de maintenance d'immobilisation</value>
         <value xml:lang="hi_IN">अचल संपत्ति रखरखाव आदेश संपादित करें</value>
         <value xml:lang="it">Aggiorna Manutenzione Cespite Ordine</value>
@@ -21729,7 +21731,7 @@
     <property key="PageTitleEditFixedAssetMaintenance">
         <value xml:lang="en">Edit Fixed Asset Maintenance</value>
         <value xml:lang="es">Editar Mantenimiento de Activo Fijo</value>
-        <value xml:lang="fa">ویرایش تعمیرونگهداری دارایی ثابت</value>
+        <value xml:lang="fa">ویرایش نگهداری دارایی ثابت</value>
         <value xml:lang="fr">Modifier la maintenance de l'immobilisation</value>
         <value xml:lang="hi_IN">अचल संपत्ति रखरखाव संपादित करें</value>
         <value xml:lang="it">Aggiorna manutenzione cespite</value>
@@ -21911,7 +21913,7 @@
     <property key="PageTitleEditTaxAuthorityAssocs">
         <value xml:lang="en">Edit Tax Authority Associations</value>
         <value xml:lang="es">Editar Asociación de Autoridades Fiscales</value>
-        <value xml:lang="fa">ویرایش انجمن‌های اداره مالیات</value>
+        <value xml:lang="fa">ویرایش همبستگی‌های اداره مالیات</value>
         <value xml:lang="fr">Modifier les associations à des administrations fiscales</value>
         <value xml:lang="hi_IN">टैक्स प्राधिकरण एसोसिएशन संपादित करें</value>
         <value xml:lang="it">Aggiorna Associazioni Autorità Tasse</value>
@@ -22140,7 +22142,7 @@
         <value xml:lang="de">Schnittstellen-Antwort finden</value>
         <value xml:lang="en">Find Gateway Responses</value>
         <value xml:lang="es">Encontrar Respuestas de Gateway</value>
-        <value xml:lang="fa">پیداکردن پاسخ‌های دروازه</value>
+        <value xml:lang="fa">پیداکردن پاسخ‌های درگاه</value>
         <value xml:lang="fr">Recherche de réponses de terminaux de paiement</value>
         <value xml:lang="hi_IN">गेटवे प्रतिक्रियांए खोजें</value>
         <value xml:lang="it">Ricerca Risposte Gateway</value>
@@ -22225,7 +22227,7 @@
     <property key="PageTitleFindPaymentGatewayConfig">
         <value xml:lang="de">Bezahl-Schnittstelle-Konfigurationen suchen</value>
         <value xml:lang="en">Find Payment Gateway Config</value>
-        <value xml:lang="fa">پیداکردن پیکربندی دروازه پرداخت</value>
+        <value xml:lang="fa">پیداکردن پیکربندی درگاه پرداخت</value>
         <value xml:lang="fr">Rechercher les configurations d'interface de paiement</value>
         <value xml:lang="hi_IN">भुगतान गेटवे विन्यास खोजें</value>
         <value xml:lang="it">Ricerca configurazioni gateway pagamenti</value>
@@ -22238,7 +22240,7 @@
     <property key="PageTitleFindPaymentGatewayConfigTypes">
         <value xml:lang="de">Bezahl-Schnittstelle. Konfigurationstypen suchen</value>
         <value xml:lang="en">Find Payment Gateway Config Types</value>
-        <value xml:lang="fa">پیداکردن انواع پیکربندی دروازه پرداخت</value>
+        <value xml:lang="fa">پیداکردن انواع پیکربندی درگاه پرداخت</value>
         <value xml:lang="fr">Rechercher les types de configuration d'interface de paiement</value>
         <value xml:lang="hi_IN">भुगतान गेटवे विन्यास प्रकार खोजें</value>
         <value xml:lang="it">Ricerca tipi configurazioni gateway pagamenti</value>
@@ -22430,7 +22432,7 @@
     </property>
     <property key="PageTitleListAgreementItemTerms">
         <value xml:lang="en">List Agreement Item Terms</value>
-        <value xml:lang="fa">لیست‌کردن شروط قلم توافق</value>
+        <value xml:lang="fa">لیست‌کردن قیود قلم توافق</value>
         <value xml:lang="fr">Liste des termes des lignes des accords commerciaux</value>
         <value xml:lang="hi_IN">अनुबंध मद की शर्तों की सूची</value>
         <value xml:lang="it">Lista Termini Riga Contratto</value>
@@ -22496,7 +22498,7 @@
     <property key="PageTitleListAgreementTerms">
         <value xml:lang="en">List Agreement Terms</value>
         <value xml:lang="es">Lista Términos de Acuerdos</value>
-        <value xml:lang="fa">لیست‌کردن شروط توافق</value>
+        <value xml:lang="fa">لیست‌کردن قیود توافق</value>
         <value xml:lang="fr">Liste des termes de l'accord</value>
         <value xml:lang="hi_IN">अनुबंध शर्तों की सूची</value>
         <value xml:lang="it">Lista Termini Contratto</value>
@@ -22602,7 +22604,7 @@
     </property>
     <property key="PageTitleListFixedAssetMaintOrders">
         <value xml:lang="en">List Fixed Asset Maint Orders</value>
-        <value xml:lang="fa">لیست‌کردن سفارشات تعمیرونگهداری دارایی ثابت</value>
+        <value xml:lang="fa">لیست‌کردن سفارشات نگهداری دارایی ثابت</value>
         <value xml:lang="fr">Liste des commandes de maintenance d'immobilisation</value>
         <value xml:lang="hi_IN">अचल संपत्ति रखरखाव आदेश की सूची</value>
         <value xml:lang="it">Lista Manutenzioni Cespiti Ordini</value>
@@ -22617,7 +22619,7 @@
     <property key="PageTitleListFixedAssetMaints">
         <value xml:lang="en">List Fixed Asset Maints</value>
         <value xml:lang="es">Lista Mants Activo Fijo</value>
-        <value xml:lang="fa">لیست‌کردن تعمیرونگهداری‌های دارایی ثابت</value>
+        <value xml:lang="fa">لیست‌کردن نگهداری‌های دارایی ثابت</value>
         <value xml:lang="fr">Liste des maintenances de l'immobilisation</value>
         <value xml:lang="hi_IN">अचल संपत्ति रखरखाव की सूची</value>
         <value xml:lang="it">Lista Manutenzioni Cespiti</value>
@@ -22633,7 +22635,7 @@
     </property>
     <property key="PageTitleListFixedAssetMeters">
         <value xml:lang="en">List Fixed Asset Maint Meters</value>
-        <value xml:lang="fa">لیست‌کردن ابعاد تعمیرونگهداری دارایی ثابت</value>
+        <value xml:lang="fa">لیست‌کردن ابعاد نگهداری دارایی ثابت</value>
         <value xml:lang="fr">Liste des mesures de maintenance d'immobilisation</value>
         <value xml:lang="hi_IN">अचल संपत्ति रखरखाव मापक(Maint Meter) की सूची</value>
         <value xml:lang="it">Lista Manutenzioni Cespiti Contatori</value>
@@ -22954,7 +22956,7 @@
     <property key="PageTitleUpdatePaymentGatewayConfig">
         <value xml:lang="de">Bezahl-Schnittstelle aktualisieren</value>
         <value xml:lang="en">Update Payment Gateway Config</value>
-        <value xml:lang="fa">بروزرسانی پیکربندی دروازه پرداخت</value>
+        <value xml:lang="fa">بروزرسانی پیکربندی درگاه پرداخت</value>
         <value xml:lang="fr">Mise à jour de la configuration de l'interface de paiement</value>
         <value xml:lang="hi_IN">भुगतान गेटवे विन्यास उन्नत करे</value>
         <value xml:lang="it">Aggiorna configurazione gateway pagamento</value>
@@ -22966,7 +22968,7 @@
     </property>
     <property key="PageTitleUpdatePaymentGatewayConfigAuthorizeNet">
         <value xml:lang="en">Update Payment Gateway Config Authorize Dot Net</value>
-        <value xml:lang="fa">بروزرسانی مجوز پیکربندی دروازه پرداخت Dot Net</value>
+        <value xml:lang="fa">بروزرسانی مجوز پیکربندی درگاه پرداخت Dot Net</value>
         <value xml:lang="fr">Mise à jour de la configuration de l'interface de paiement Authorize Dot Net</value>
         <value xml:lang="hi_IN">भुगतान गेटवे विन्यास अधिकृत Dot Net उन्नत करे</value>
         <value xml:lang="it">Aggiorna configurazione gateway pagamento Authorize Dot Net</value>
@@ -22991,7 +22993,7 @@
     </property>
     <property key="PageTitleUpdatePaymentGatewayConfigCyberSource">
         <value xml:lang="en">Update Payment Gateway Config CyberSource</value>
-        <value xml:lang="fa">بروزرسانی پیکربندی دروازه پرداخت CyberSource</value>
+        <value xml:lang="fa">بروزرسانی پیکربندی درگاه پرداخت CyberSource</value>
         <value xml:lang="fr">Mise à jour de la configuration de l'interface de paiement CyberSource</value>
         <value xml:lang="hi_IN">भुगतान गेटवे विन्यास साइबरसोर्स उन्नत करे</value>
         <value xml:lang="it">Aggiorna configurazione gateway pagamento CyberSource</value>
@@ -23003,7 +23005,7 @@
     </property>
     <property key="PageTitleUpdatePaymentGatewayConfigEway">
         <value xml:lang="en">Update Payment Gateway Config eWay</value>
-        <value xml:lang="fa">بروزرسانی پیکربندی دروازه پرداخت eWay</value>
+        <value xml:lang="fa">بروزرسانی پیکربندی درگاه پرداخت eWay</value>
         <value xml:lang="fr">Mise à jour de la configuration de l'interface de paiement eWay</value>
         <value xml:lang="ja">eWay支払ゲートウェイ設定を更新</value>
         <value xml:lang="pt">Atualizar configuração do Gateway de Pagamento eWay</value>
@@ -23013,7 +23015,7 @@
     <property key="PageTitleUpdatePaymentGatewayConfigPayPal">
         <value xml:lang="de">Bezahl-Schnittstelle PayPal aktualisieren</value>
         <value xml:lang="en">Update Payment Gateway Config PayPal</value>
-        <value xml:lang="fa">بروزرسانی پیکربندی دروازه پرداخت PayPal</value>
+        <value xml:lang="fa">بروزرسانی پیکربندی درگاه پرداخت PayPal</value>
         <value xml:lang="fr">Mise à jour de la configuration de l'interface de paiement PayPal</value>
         <value xml:lang="hi_IN">भुगतान गेटवे विन्यास PayPal उन्नत करे</value>
         <value xml:lang="it">Aggiorna configurazione gateway pagamento PayPal</value>
@@ -23026,7 +23028,7 @@
     <property key="PageTitleUpdatePaymentGatewayConfigPayflowPro">
         <value xml:lang="de">Bezahl-Schnittstelle Payflow Pro aktualisieren</value>
         <value xml:lang="en">Update Payment Gateway Config Payflow Pro</value>
-        <value xml:lang="fa">بروزرسانی پیکربندی دروازه پرداخت Payflow Pro </value>
+        <value xml:lang="fa">بروزرسانی پیکربندی درگاه پرداخت Payflow Pro</value>
         <value xml:lang="fr">Mise à jour de la configuration de l'interface de paiement Payflow Pro</value>
         <value xml:lang="hi_IN">भुगतान गेटवे विन्यास Payflow Pro उन्नत करे</value>
         <value xml:lang="it">Aggiorna configurazione gateway pagamento Payflow Pro</value>
@@ -23038,7 +23040,7 @@
     </property>
     <property key="PageTitleUpdatePaymentGatewayConfigSagePay">
         <value xml:lang="en">Update Payment Gateway Config SagePay</value>
-        <value xml:lang="fa">بروزرسانی پیکربندی دروازه پرداخت SagePay</value>
+        <value xml:lang="fa">بروزرسانی پیکربندی درگاه پرداخت SagePay</value>
         <value xml:lang="fr">Mise à jour de la configuration de l'interface de paiement SagePay</value>
         <value xml:lang="ja">SagePay支払ゲートウェイ設定を更新</value>
         <value xml:lang="pt">Atualizar configuração do Gateway de Pagamento SagePay</value>
@@ -23048,7 +23050,7 @@
     </property>
     <property key="PageTitleUpdatePaymentGatewayConfigSecurePay">
         <value xml:lang="en">Update Payment Gateway Config SecurePay</value>
-        <value xml:lang="fa">بروزرسانی پیکربندی دروازه پرداخت SecurePay</value>
+        <value xml:lang="fa">بروزرسانی پیکربندی درگاه پرداخت SecurePay</value>
         <value xml:lang="fr">Mise à jour de la configuration de l'interface de paiement SecurePay</value>
         <value xml:lang="hi_IN">भुगतान गेटवे विन्यास SecurePay उन्नत करे</value>
         <value xml:lang="it">Aggiorna configurazione gateway pagamento SecurePay</value>
@@ -23060,7 +23062,7 @@
     <property key="PageTitleUpdatePaymentGatewayConfigType">
         <value xml:lang="de">Bezahl-Schnittstellen-Typ aktualisieren</value>
         <value xml:lang="en">Update Payment Gateway Config Type</value>
-        <value xml:lang="fa">بروزرسانی پیکربندی دروازه پرداخت Type</value>
+        <value xml:lang="fa">بروزرسانی پیکربندی درگاه پرداخت Type</value>
         <value xml:lang="fr">Mise à jour de la configuration du type d'interface de paiement</value>
         <value xml:lang="hi_IN">भुगतान गेटवे विन्यास प्रकार उन्नत करे</value>
         <value xml:lang="it">Aggiorna tipo configurazione gateway pagamento</value>
@@ -23072,7 +23074,7 @@
     </property>
     <property key="PageTitleUpdatePaymentGatewayConfigWorldPay">
         <value xml:lang="en">Update Payment Gateway Config RBS WorldPay</value>
-        <value xml:lang="fa">بروزرسانی پیکربندی دروازه پرداخت RBS WorldPay</value>
+        <value xml:lang="fa">بروزرسانی پیکربندی درگاه پرداخت RBS WorldPay</value>
         <value xml:lang="fr">Mise à jour de la configuration de l'interface de paiement RBS WorldPay</value>
         <value xml:lang="hi_IN">भुगतान गेटवे विन्यास RBS WorldPay उन्नत करे</value>
         <value xml:lang="it">Aggiorna configurazione gateway pagamento RBS WorldPay</value>
@@ -23102,7 +23104,7 @@
     <property key="PageTitleViewGatewayResponse">
         <value xml:lang="de">Bezahl-Schnittstellen-Antwort ansehen</value>
         <value xml:lang="en">View Gateway Response</value>
-        <value xml:lang="fa">نمای پاسخ دروازه</value>
+        <value xml:lang="fa">نمای پاسخ درگاه</value>
         <value xml:lang="fr">Voir la réponse du terminal de paiement</value>
         <value xml:lang="hi_IN">गेटवे प्रतिक्रियांए देखें</value>
         <value xml:lang="it">Mostra risposte gateway</value>
@@ -23157,7 +23159,7 @@
     </property>
     <property key="PageTitleUpdatePaymentGatewayConfigiDEAL">
         <value xml:lang="en">Update Payment Gateway Config iDEAL</value>
-        <value xml:lang="fa">بروزرسانی پیکربندی دروازه پرداخت iDEAL</value>
+        <value xml:lang="fa">بروزرسانی پیکربندی درگاه پرداخت iDEAL</value>
         <value xml:lang="fr">Mise à jour de la configuration de l'interface iDEAL</value>
         <value xml:lang="hi_IN">भुगतान गेटवे विन्यास iDEAL उन्नत करे</value>
         <value xml:lang="it">Aggiorna configurazione gateway pagamento iDEAL</value>

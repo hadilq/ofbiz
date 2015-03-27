@@ -249,7 +249,7 @@
     </property>
     <property key="BusinessIntelligenceNote25">
         <value xml:lang="en">SalesInvoiceItemStarSchema that is a simple "profit and loss" (P&amp;L) analysis.</value>
-        <value xml:lang="fa">برنامه‌صورت‌حساب‌فروش یک «نفع و ضرر» ساده است</value>
+        <value xml:lang="fa">برنامه‌صورت‌حساب‌فروش یک «سود و زیان» ساده است</value>
         <value xml:lang="fr">SalesInvoiceItemStarSchema qui est une simple analyse "profits et pertes" (P&amp;L).</value>
         <value xml:lang="it">SalesInvoiceItemStarSchema che è una semplice analisi di "profit and loss" (P&amp;L).</value>
         <value xml:lang="ja">販売請求明細スタースキーマ は単純な "損益" (P&amp;L) 分析です。</value>
@@ -321,7 +321,7 @@
     </property>
     <property key="BusinessIntelligenceNote3">
         <value xml:lang="en">accessible, in the same way as the main one (OLTP), via the delegator.</value>
-        <value xml:lang="fa">قابل دسترسی، به همان روش (OLTP) اصلی، بوسیله نماینده.</value>
+        <value xml:lang="fa">دست‌یافتنی، به همان روش (OLTP) اصلی، بوسیله نماینده.</value>
         <value xml:lang="fr">accessibles, de la même manière que pour la base de données principale (OLTP), par l'intermédiaire du délégateur.</value>
         <value xml:lang="it">accessibile, nello stesso modo di quello principale (OLTP), attraverso un delegator.</value>
         <value xml:lang="ja">理解しやすく、主流(OLAP)と同じ方法で、デリゲータによって実現します。</value>

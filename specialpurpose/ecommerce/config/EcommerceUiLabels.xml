@@ -62,6 +62,7 @@
         <value xml:lang="de">Ihre Benutzeranmeldung ist:</value>
         <value xml:lang="en">Your account login is:</value>
         <value xml:lang="es">Usuario</value>
+        <value xml:lang="fa">ورود حساب شما این است:</value>
         <value xml:lang="fr">Votre identifiant est :</value>
         <value xml:lang="hi_IN">आपका प्रवेश ख़ाता है:</value>
         <value xml:lang="it">Il tuo login è:</value>
@@ -81,6 +82,7 @@
         <value xml:lang="de">Aktiv</value>
         <value xml:lang="en">Active</value>
         <value xml:lang="es">Activo</value>
+        <value xml:lang="fa">فعال</value>
         <value xml:lang="fr">Actif</value>
         <value xml:lang="hi_IN">सक्रिय</value>
         <value xml:lang="it">Attivo</value>
@@ -4612,7 +4614,7 @@
         <value xml:lang="de">Forum Artikel</value>
         <value xml:lang="en">Forum Article</value>
         <value xml:lang="es">Artículo de Foro</value>
-        <value xml:lang="fa">بازار مقاله</value>
+        <value xml:lang="fa">بازار مطلب</value>
         <value xml:lang="fr">Article du forum</value>
         <value xml:lang="it">Articoli forum</value>
         <value xml:lang="ja">フォーラム記事</value>
@@ -5032,7 +5034,7 @@
         <value xml:lang="de">Anfrageantwort</value>
         <value xml:lang="en">Request Return</value>
         <value xml:lang="es">Solicitud de devolución</value>
-        <value xml:lang="fa">درخواست بازده</value>
+        <value xml:lang="fa">درخواست بازگشت</value>
         <value xml:lang="fr">Demande de retour</value>
         <value xml:lang="it">Richiesta di reso</value>
         <value xml:lang="ja">返品リクエスト</value>
@@ -5088,7 +5090,7 @@
         <value xml:lang="da">Forsendelse afsluttet notits</value>
         <value xml:lang="de">Lieferung abgeschlossen Bekanntmachung</value>
         <value xml:lang="en">Shipment Complete Notice</value>
-        <value xml:lang="fa">اعلان تکمیل حمل‌ونقل</value>
+        <value xml:lang="fa">اعلان تکمیل محموله</value>
         <value xml:lang="fr">Avis de Livraison</value>
         <value xml:lang="it">Notifica di spedizione completata</value>
         <value xml:lang="ja">発送完了通知</value>
@@ -5180,7 +5182,7 @@
     <property key="PageTitleTagResults">
         <value xml:lang="de">Tag Suchergebnis</value>
         <value xml:lang="en">Tag results</value>
-        <value xml:lang="fa">نتایح برچسب‌ها</value>
+        <value xml:lang="fa">نتایح علامت‌گذاری</value>
         <value xml:lang="fr">Résultats de la recherche par étiquette</value>
         <value xml:lang="ja">タグ結果</value>
         <value xml:lang="vi">Đánh dấu (Tag) kết quả</value>

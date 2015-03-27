@@ -115,7 +115,7 @@
     </property>
     <property key="EntityImportPathNotFound">
         <value xml:lang="en">path not found or can't be read</value>
-        <value xml:lang="fa">مسیر پیدانشد یا قابل‌خواندن نیست</value>
+        <value xml:lang="fa">مسیر پیدانشد یا خواندنی نیست</value>
         <value xml:lang="it">path non trovato o non può essere letto</value>
         <value xml:lang="ja">パスが見つからないか読み込みできません</value>
         <value xml:lang="vi">đường dẫn không tìm thấy hoặc không thể đọc nội dung</value>
@@ -206,7 +206,7 @@
     <property key="FormFieldTitle_exprAssocType">
         <value xml:lang="de">Ausdruck Verknüpfungstyp</value>
         <value xml:lang="en">Expr Assoc Type</value>
-        <value xml:lang="fa">نوع مرتبط گزاره</value>
+        <value xml:lang="fa">نوع همبستگی گزاره</value>
         <value xml:lang="it">Tipo associazione espressione</value>
         <value xml:lang="ja">表現割当種類</value>
         <value xml:lang="pt">Tipo de associaÃ§Ã£o da expressÃ£o</value>
@@ -1163,7 +1163,8 @@
         <value xml:lang="ar">جزء من عائلة أوفبيز للتطبيقات الحرة للتسيير</value>
         <value xml:lang="de">Teil der Open For Business Familie von Open Source Software</value>
         <value xml:lang="en">Part of the Open For Business Family of Open Source Software</value>
-        <value xml:lang="fa">بخشی از خانواده آزاد برای تجارت از نرم‌افزارهای متن باز</value><!--value xml:lang="es">Parte de la familia "Open for Bussiness" de Software Libre</value-->
+        <value xml:lang="fa">بخشی از خانواده آزاد برای تجارت از نرم‌افزارهای متن باز</value>
+        <!--value xml:lang="es">Parte de la familia "Open for Bussiness" de Software Libre</value-->
         <value xml:lang="es">Parte de la familia de software Open For Business de código abierto</value>
         <value xml:lang="fr">Un module de la famille Open For Business, logiciel libre de gestion d'entreprise.</value>
         <value xml:lang="it">Un modulo della famiglia di software open source Open For Business</value>

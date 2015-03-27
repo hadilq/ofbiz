@@ -267,7 +267,7 @@
         <value xml:lang="de">in Beziehung mit</value>
         <value xml:lang="en">related-to</value>
         <value xml:lang="es">se relaciona con</value>
-        <value xml:lang="fa">مرتبط با</value>
+        <value xml:lang="fa">مربوط-به</value>
         <value xml:lang="fr">Apparenté à</value>
         <value xml:lang="it">Relativo-a</value>
         <value xml:lang="ja">関連先</value>
@@ -297,7 +297,7 @@
         <value xml:lang="de">Sekundäres Locale</value>
         <value xml:lang="en">Alternate Locale</value>
         <value xml:lang="es">Ubicación secundaria</value>
-        <value xml:lang="fa">موقعیت جایگزین</value>
+        <value xml:lang="fa">جایگزین محلی</value>
         <value xml:lang="fr">Traduction alternative</value>
         <value xml:lang="it">Locale Alternativo</value>
         <value xml:lang="ja">代替地域</value>
@@ -313,7 +313,7 @@
         <value xml:lang="de">Attribut</value>
         <value xml:lang="en">Attribute</value>
         <value xml:lang="es">Atributo</value>
-        <value xml:lang="fa">متغییر</value>
+        <value xml:lang="fa">خاصیت</value>
         <value xml:lang="fr">Attribut</value>
         <value xml:lang="it">Attributo</value>
         <value xml:lang="ja">属性</value>
@@ -630,7 +630,7 @@
         <value xml:lang="de">Untergeordnetes Element löschen</value>
         <value xml:lang="en">Child Delete</value>
         <value xml:lang="es">Borrar hijo</value>
-        <value xml:lang="fa">حذف بچه</value>
+        <value xml:lang="fa">پاک‌کردن بچه</value>
         <value xml:lang="fr">Suppression d'enfant</value>
         <value xml:lang="it">Cancellare Figlio</value>
         <value xml:lang="ja">下位(子)削除</value>
@@ -877,7 +877,7 @@
         <value xml:lang="da">Har administrator rolle</value>
         <value xml:lang="de">Hat Rolle Administrator</value>
         <value xml:lang="en">Has Admin Role</value>
-        <value xml:lang="fa">آیا وظیفه Admin دارید</value>
+        <value xml:lang="fa">آیا وظیفه رئیس را دارید</value>
         <value xml:lang="fr">A le rôle d'administrateur</value>
         <value xml:lang="it">Ha Ruolo Amministratore</value>
         <value xml:lang="ja">管理者ロールを保持</value>
@@ -937,7 +937,7 @@
         <value xml:lang="da">Har udgiver rolle</value>
         <value xml:lang="de">Hat Rolle Herausgeber</value>
         <value xml:lang="en">Has Publisher Role</value>
-        <value xml:lang="fa">آیا وظیفه انتشاردهده دارید</value>
+        <value xml:lang="fa">آیا وظیفه انتشارگر دارید</value>
         <value xml:lang="fr">A le rôle d'éditeur</value>
         <value xml:lang="it">Ha Ruolo Pubblicatore</value>
         <value xml:lang="ja">公開者ロールを保持</value>
@@ -968,7 +968,7 @@
         <value xml:lang="de">Nicht anwendbar</value>
         <value xml:lang="en">Not Applicable</value>
         <value xml:lang="es">No aplicable</value>
-        <value xml:lang="fa">غیر قابل کاربرد</value>
+        <value xml:lang="fa">غیر کاربردی</value>
         <value xml:lang="fr">Non applicable</value>
         <value xml:lang="it">Non Applicabile</value>
         <value xml:lang="ja">適用外</value>
@@ -999,7 +999,7 @@
         <value xml:lang="de">Artikel</value>
         <value xml:lang="en">Article</value>
         <value xml:lang="es">Artículo</value>
-        <value xml:lang="fa">مقاله</value>
+        <value xml:lang="fa">مطلب</value>
         <value xml:lang="fr">Article</value>
         <value xml:lang="it">Articolo</value>
         <value xml:lang="ja">記事</value>
@@ -1281,7 +1281,7 @@
         <value xml:lang="da">Ikke relevant</value>
         <value xml:lang="de">Nicht anwendbar</value>
         <value xml:lang="en">Not Applicable</value>
-        <value xml:lang="fa">غیر قابل کاربرد</value>
+        <value xml:lang="fa">غیر کاربردی</value>
         <value xml:lang="fr">Non applicable</value>
         <value xml:lang="it">Non Applicabile</value>
         <value xml:lang="ja">適用外</value>
@@ -1448,7 +1448,7 @@
     <property key="ContentType.description.MENU_CONTAINER">
         <value xml:lang="da">Menu container</value>
         <value xml:lang="en">Menu Container</value>
-        <value xml:lang="fa">منوی ظرف</value>
+        <value xml:lang="fa">منوی کانتینر</value>
         <value xml:lang="it">Contenitore menu</value>
         <value xml:lang="ja">メニューコンテナ</value>
         <value xml:lang="pt">Container de menu</value>
@@ -1670,7 +1670,7 @@
         <value xml:lang="da">Forretning</value>
         <value xml:lang="de">Geschäft</value>
         <value xml:lang="en">Business</value>
-        <value xml:lang="fa">تجارت</value>
+        <value xml:lang="fa">کسب‌وکار</value>
         <value xml:lang="fr">Affaires</value>
         <value xml:lang="it">Affari</value>
         <value xml:lang="ja">業務</value>
@@ -1700,7 +1700,7 @@
         <value xml:lang="da">Detail</value>
         <value xml:lang="de">Einzelhandel</value>
         <value xml:lang="en">Retail</value>
-        <value xml:lang="fa">خرده فروشی</value>
+        <value xml:lang="fa">خرده‌فروش</value>
         <value xml:lang="fr">Détail</value>
         <value xml:lang="it">Commercio Dettaglio</value>
         <value xml:lang="ja">小売</value>
@@ -2255,7 +2255,7 @@
         <value xml:lang="de">Exportdokumentation</value>
         <value xml:lang="en">EXPORT_DOCUMENTATION</value>
         <value xml:lang="es">Documentación de exportación</value>
-        <value xml:lang="fa">سند صادرات</value>
+        <value xml:lang="fa">صادرکردن سند</value>
         <value xml:lang="fr">Documentation d'export</value>
         <value xml:lang="it">Documentazione esportata</value>
         <value xml:lang="ja">輸出書類</value>
@@ -2314,7 +2314,7 @@
         <value xml:lang="de">Hafengebühren Dokument</value>
         <value xml:lang="en">PORT_CHARGE_DOCUMENT</value>
         <value xml:lang="es">Carga en puerto</value>
-        <value xml:lang="fa">سند بارگذاری بندر</value>
+        <value xml:lang="fa">سند بارگذاری گمرک</value>
         <value xml:lang="fr">Document de chargement en port</value>
         <value xml:lang="it">Documento di carico</value>
         <value xml:lang="ja">港湾手数料書類</value>
@@ -2329,7 +2329,7 @@
         <value xml:lang="de">Versanddokument</value>
         <value xml:lang="en">SHIPPING_DOCUMENT</value>
         <value xml:lang="es">Envío</value>
-        <value xml:lang="fa">سند حمل‌ونقل</value>
+        <value xml:lang="fa">سند حمل</value>
         <value xml:lang="fr">Document d'expédition</value>
         <value xml:lang="it">Documento di spedizione</value>
         <value xml:lang="ja">出荷書類</value>
@@ -3563,7 +3563,7 @@
         <value xml:lang="de">Trennlinie</value>
         <value xml:lang="en">Seperator Line</value>
         <value xml:lang="es">Separador</value>
-        <value xml:lang="fa">خط جداکننده</value>
+        <value xml:lang="fa">صف جداکننده</value>
         <value xml:lang="fr">Ligne séparatrice</value>
         <value xml:lang="it">Separatore Riga</value>
         <value xml:lang="ja">区切り線</value>

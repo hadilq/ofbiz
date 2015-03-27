@@ -1760,7 +1760,7 @@
     <property key="PartyRelationshipType.partyRelationshipName.PARENT_ACCOUNT">
         <value xml:lang="en">Parent account</value>
         <value xml:lang="es">Cuenta precursora</value>
-        <value xml:lang="fa">حساب والد </value>
+        <value xml:lang="fa">حساب والد</value>
         <value xml:lang="fr">Compte parent</value>
         <value xml:lang="hi_IN">जनक खाता(Parent account)</value>
         <value xml:lang="it">Utenza padre</value>
@@ -2141,7 +2141,7 @@
         <value xml:lang="de">Vereinigung</value>
         <value xml:lang="en">Association</value>
         <value xml:lang="es">Asociación</value>
-        <value xml:lang="fa">انجمن</value>
+        <value xml:lang="fa">همبستگی</value>
         <value xml:lang="fr">Association</value>
         <value xml:lang="hi_IN">संघ</value>
         <value xml:lang="it">Associazione</value>
@@ -2554,7 +2554,7 @@
         <value xml:lang="de">Kundenmanager</value>
         <value xml:lang="en">Client Manager</value>
         <value xml:lang="es">Gestor de clientes</value>
-        <value xml:lang="fa">مدیر مشتری </value>
+        <value xml:lang="fa">مدیر مشتری</value>
         <value xml:lang="fr">Chef de projet client</value>
         <value xml:lang="hi_IN">ग्राहक प्रबंधक</value>
         <value xml:lang="it">Responsabile della clientela</value>
@@ -2880,7 +2880,7 @@
     </property>
     <property key="RoleType.description.FAM_ASSIGNEE">
         <value xml:lang="en">Fixed Asset Maint Assignee</value>
-        <value xml:lang="fa">مامور تعمیرونگهداری دارایی ثابت</value>
+        <value xml:lang="fa">مامور نگهداری دارایی ثابت</value>
         <value xml:lang="hi_IN">अचल संपत्ति रखरखाव अनुदिष्ट</value>
         <value xml:lang="it">Assegna manutenzione cespite</value>
         <value xml:lang="ja">固定資産メンテナンス受託者</value>
@@ -2891,7 +2891,7 @@
     </property>
     <property key="RoleType.description.FAM_MANAGER">
         <value xml:lang="en">Maintenance Manager or Supervisor</value>
-        <value xml:lang="fa">مدیر یا مباشر تعمیرونگهداری</value>
+        <value xml:lang="fa">مدیر یا مباشر نگهداری</value>
         <value xml:lang="fr">Responsable de la maintenance</value>
         <value xml:lang="hi_IN">अनुरक्षण प्रबंधक अथवा सुपरवाइजर</value>
         <value xml:lang="it">Gestione manutenzione o supervisore</value>
@@ -2903,7 +2903,7 @@
     </property>
     <property key="RoleType.description.FAM_SUPPLIER">
         <value xml:lang="en">Maintenance Supplier or Service</value>
-        <value xml:lang="fa">عرضه‌گر یا سرویس تعمیرونگهداری</value>
+        <value xml:lang="fa">عرضه‌گر یا سرویس نگهداری</value>
         <value xml:lang="fr">Fournisseur ou service de maintenance</value>
         <value xml:lang="hi_IN">रखरखाव प्रदायक या सेवा</value>
         <value xml:lang="it">Manutenzione fornitore o servizio</value>
@@ -2915,7 +2915,7 @@
     </property>
     <property key="RoleType.description.FAM_WORKER">
         <value xml:lang="en">Maintenance Worker</value>
-        <value xml:lang="fa">کارگر تعمیرونگهداری</value>
+        <value xml:lang="fa">کارگر نگهداری</value>
         <value xml:lang="fr">Opérateur de maintenance</value>
         <value xml:lang="hi_IN">रखरखाव कार्यकर्ता</value>
         <value xml:lang="it">Impiegato manutenzione</value>
@@ -3511,7 +3511,7 @@
         <value xml:lang="de">Anfragender Akteur</value>
         <value xml:lang="en">Requesting Party</value>
         <value xml:lang="es">Emisor de peticiones</value>
-        <value xml:lang="fa">هویت خواهان</value>
+        <value xml:lang="fa">هویت درخواست‌کننده</value>
         <value xml:lang="fr">Demandeur</value>
         <value xml:lang="hi_IN">अनुरोध पार्टी</value>
         <value xml:lang="it">Soggetto richiesta</value>
@@ -3705,7 +3705,7 @@
         <value xml:lang="de">Filiale</value>
         <value xml:lang="en">Subsidiary</value>
         <value xml:lang="es">Subsidiario</value>
-        <value xml:lang="fa">کمکی</value>
+        <value xml:lang="fa">تفضیلی</value>
         <value xml:lang="fr">Filiale</value>
         <value xml:lang="hi_IN">सहायक</value>
         <value xml:lang="it">Filiale </value>
@@ -3841,7 +3841,7 @@
         <value xml:lang="de">Workflow Besitzer</value>
         <value xml:lang="en">Workflow Owner</value>
         <value xml:lang="es">Propietario de proceso de trabajo</value>
-        <value xml:lang="fa">مالک جریان‌کار</value>
+        <value xml:lang="fa">مالک گردش‌کار</value>
         <value xml:lang="fr">Propriétaire de la séquence de travail</value>
         <value xml:lang="hi_IN">वर्कफ़्लो स्वामी</value>
         <value xml:lang="it">Proprietario flusso di lavoro</value>
@@ -3875,7 +3875,7 @@
         <value xml:lang="de">Workflow</value>
         <value xml:lang="en">Workflow</value>
         <value xml:lang="es">Proceso de trabajo</value>
-        <value xml:lang="fa">جریان‌کار</value>
+        <value xml:lang="fa">گردش‌کار</value>
         <value xml:lang="fr">Séquence de travail</value>
         <value xml:lang="hi_IN">वर्कफ़्लो</value>
         <value xml:lang="it">Flusso di lavoro</value>
@@ -3892,7 +3892,7 @@
         <value xml:lang="de">Nicht anwendbar</value>
         <value xml:lang="en">Not Applicable</value>
         <value xml:lang="es">No aplicable</value>
-        <value xml:lang="fa">قابل کاربرد‌نیست</value>
+        <value xml:lang="fa">غیر ‌کاربردی</value>
         <value xml:lang="fr">Non applicable</value>
         <value xml:lang="hi_IN">लागू नहीं है</value>
         <value xml:lang="it">Non applicabile</value>
@@ -4003,7 +4003,7 @@
     </property>
     <property key="TermType.description.DAF">
         <value xml:lang="en">Incoterm Delivered At Frontier</value>
-        <value xml:lang="fa">شایط بین‌المللی تحویل‌شده در مرز</value>
+        <value xml:lang="fa">شرایط بین‌المللی تحویل‌شده در مرز</value>
         <value xml:lang="it">Consegnato alla frontiera incoterm</value>
         <value xml:lang="ja">DAF国境持込渡し/インコタームズ</value>
         <value xml:lang="pt_BR">Incoterm DAF</value>
@@ -4125,7 +4125,7 @@
         <value xml:lang="de">Mahngebühr für Inkassoagentur</value>
         <value xml:lang="en">Penalty For Collection Agency</value>
         <value xml:lang="es">Penalización para Agencia de Recaudación</value>
-        <value xml:lang="fa">جزا برای نماینده وصول</value>
+        <value xml:lang="fa">جزا برای نمایندگی وصول</value>
         <value xml:lang="fr">Pénalité pour recouvrement</value>
         <value xml:lang="hi_IN">संग्रह एजेंसी पर जुर्माना</value>
         <value xml:lang="it">Penalità per agenzia collezione</value>
@@ -4143,7 +4143,7 @@
         <value xml:lang="de">Feste Kommission pro Einheit</value>
         <value xml:lang="en">Commission Term Fixed Per Unit</value>
         <value xml:lang="es">Comisión fija por unidad</value>
-        <value xml:lang="fa">شرط کارمزد ثابت بر واحد</value>
+        <value xml:lang="fa">قید کارمزد ثابت بر واحد</value>
         <value xml:lang="fr">Commission fixée par unité</value>
         <value xml:lang="hi_IN">प्रति यूनिट निश्चित दलाली की शर्त</value>
         <value xml:lang="it">Provvigione termine fisso per unità</value>
@@ -4160,7 +4160,7 @@
         <value xml:lang="de">Maximale Kommission pro Einheit</value>
         <value xml:lang="en">Commission Term Maximum Per Unit</value>
         <value xml:lang="es">Comisión máxima por unidad</value>
-        <value xml:lang="fa">شرط کارمزد بیشینه بر واحد</value>
+        <value xml:lang="fa">قید کارمزد بیشینه بر واحد</value>
         <value xml:lang="fr">Commission maximale par unité</value>
         <value xml:lang="hi_IN">दलाली की शर्त अधिकतम प्रति यूनिट</value>
         <value xml:lang="it">Provvigione termine massimo per unità</value>
@@ -4177,7 +4177,7 @@
         <value xml:lang="de">Minimale Kommission pro Einheit</value>
         <value xml:lang="en">Commission Term Minimum Per Unit</value>
         <value xml:lang="es">Comisión mínima por unidad</value>
-        <value xml:lang="fa">شرط کارمز کمینه بر واحد</value>
+        <value xml:lang="fa">قید کارمزد کمینه بر واحد</value>
         <value xml:lang="fr">Commission minimale par unité</value>
         <value xml:lang="hi_IN">दलाली की शर्त न्यूनतम प्रति यूनिट</value>
         <value xml:lang="it">Provvigione termine minimo per unità</value>
@@ -4194,7 +4194,7 @@
         <value xml:lang="de">Variable Kommission</value>
         <value xml:lang="en">Commission Term Variable</value>
         <value xml:lang="es">Comisión variable</value>
-        <value xml:lang="fa">متغییر شرط کارمز</value>
+        <value xml:lang="fa">متغییر قید کارمز</value>
         <value xml:lang="fr">Commission variable</value>
         <value xml:lang="hi_IN">दलाली की शर्त के चर(Variable)</value>
         <value xml:lang="it">Provvigione termine variabile</value>
@@ -4229,7 +4229,7 @@
         <value xml:lang="de">Ausverkaufsartikel ohne Rückgaberecht</value>
         <value xml:lang="en">Non-Returnable Sales Item</value>
         <value xml:lang="es">Artículos no retornables</value>
-        <value xml:lang="fa">شرط فروش بدون‌بازگشت</value>
+        <value xml:lang="fa">قلم فروش نابازگشتنی</value>
         <value xml:lang="fr">Article non retournable</value>
         <value xml:lang="hi_IN">गैर-वापसी की बिक्री मद</value>
         <value xml:lang="it">Riga vendita non-restituibile</value>

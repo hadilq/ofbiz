@@ -118,7 +118,7 @@
     </property>
     <property key="EntityExtRootDirectoryDoesNotExists">
         <value xml:lang="en">Root directory does not exist or is not readable.</value>
-        <value xml:lang="fa">پوشه ریشه وجود ندارد یا قابل‌خواندن نیست.</value>
+        <value xml:lang="fa">پوشه ریشه وجود ندارد یا خواندنی نیست.</value>
         <value xml:lang="fr">Le répertoire racine n'existe pas ou n'est pas lisible</value>
         <value xml:lang="it">Directory principale non esiste o non è leggibile.</value>
         <value xml:lang="zh">根目录不存在或不可读。</value>

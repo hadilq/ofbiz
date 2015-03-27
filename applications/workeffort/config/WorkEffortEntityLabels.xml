@@ -59,7 +59,7 @@
     </property>
     <property key="WorkEffortAssocType.description.ROUTING_COMPONENT">
         <value xml:lang="en">Routing and Routing Task Association</value>
-        <value xml:lang="fa">حواله و تکلیف حواله مرتبط</value>
+        <value xml:lang="fa">حواله و همبستگی تکلیف حواله</value>
         <value xml:lang="fr">Routage et association de tâche de routage</value>
         <value xml:lang="it">Associazione rotta e rotta compito</value>
         <value xml:lang="ja">ルーティングとタスク関連付けのルーティング</value>
@@ -232,7 +232,7 @@
     <property key="WorkEffortPurposeType.description.WEPT_MAINTENANCE">
         <value xml:lang="en">Maintenance</value>
         <value xml:lang="es">Mantenimiento</value>
-        <value xml:lang="fa">تعمیرونگهداری</value>
+        <value xml:lang="fa">نگهداری</value>
         <value xml:lang="fr">Maintenance</value>
         <value xml:lang="it">Manutenzione</value>
         <value xml:lang="ja">保守</value>
@@ -357,7 +357,7 @@
     <property key="WorkEffortType.description.ACTIVITY">
         <value xml:lang="en">Workflow Activity</value>
         <value xml:lang="es">Actividad</value>
-        <value xml:lang="fa">فعالیت جریان‌کاری</value>
+        <value xml:lang="fa">فعالیت گردش‌کاری</value>
         <value xml:lang="fr">Activité</value>
         <value xml:lang="it">Attività impegno di lavoro</value>
         <value xml:lang="ja">ワークフローの活動</value>
@@ -370,7 +370,7 @@
     </property>
     <property key="WorkEffortType.description.ASSET_USAGE">
         <value xml:lang="en">Fixed Asset Usage (rental)</value>
-        <value xml:lang="fa">مورداستفاده دارایی ثابت (کرایه‌ای)</value>
+        <value xml:lang="fa">استفاده‌از دارایی ثابت (کرایه‌ای)</value>
         <value xml:lang="fr">Utilisation d'immobilisation (location)</value>
         <value xml:lang="it">Uso cespite (noleggio)</value>
         <value xml:lang="ja">固定資産の使用(レンタル)</value>
@@ -450,7 +450,7 @@
     </property>
     <property key="WorkEffortType.description.PERSONAL_TIMEOFF">
         <value xml:lang="en">Personal Time Off</value>
-        <value xml:lang="fa">استراحت شخصی</value>
+        <value xml:lang="fa">زمان استراحت شخصی</value>
         <value xml:lang="fr">Temps libre personnel</value>
         <value xml:lang="it">Tempo libero personale</value>
         <value xml:lang="ja">私用休暇</value>
@@ -548,7 +548,7 @@
     </property>
     <property key="WorkEffortType.description.PUBLISH_PROPS">
         <value xml:lang="en">Publish Properties</value>
-        <value xml:lang="fa">خواص انتشار</value>
+        <value xml:lang="fa">مشخصات انتشار</value>
         <value xml:lang="fr">Propriétés de publication</value>
         <value xml:lang="it">Pubblica properties</value>
         <value xml:lang="ja">公開プロパティ</value>
@@ -628,7 +628,7 @@
     <property key="WorkEffortType.description.WORK_FLOW">
         <value xml:lang="en">Workflow Process</value>
         <value xml:lang="es">Flujo de trabajo</value>
-        <value xml:lang="fa">پردازش جریان‌کاری</value>
+        <value xml:lang="fa">پردازش گردش‌کاری</value>
         <value xml:lang="fr">Processus de flux de travail</value>
         <value xml:lang="it">Processo impegno di lavoro</value>
         <value xml:lang="ja">ワークフロープロセス</value>

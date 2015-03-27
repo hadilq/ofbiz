@@ -981,7 +981,7 @@
         <value xml:lang="de">Zugehörige Produktionsaufträge</value>
         <value xml:lang="en">Associated Production Runs</value>
         <value xml:lang="es">Tiradas asociadas</value>
-        <value xml:lang="fa">خطوط تولید مرتبط</value>
+        <value xml:lang="fa">خطوط تولید همبسته‌شده</value>
         <value xml:lang="fr">Exécution de production associées</value>
         <value xml:lang="it">Ordini di produzione associati</value>
         <value xml:lang="ja">関連付け済製品実行</value>
@@ -1433,7 +1433,8 @@
         <value xml:lang="ar">جزء من عائلة أوفبيز للتطبيقات الحرة للتسيير</value>
         <value xml:lang="de">Teil der Open For Business Familie von Open Source Software</value>
         <value xml:lang="en">Part of the Open For Business Family of Open Source Software</value>
-        <value xml:lang="fa">بخشی از خانواده آزاد برای تجارت از نرم‌افزارهای متن باز</value><!--value xml:lang="es">Parte de la familia "Open for Bussiness" de Software Libre</value-->
+        <value xml:lang="fa">بخشی از خانواده آزاد برای تجارت از نرم‌افزارهای متن باز</value>
+        <!--value xml:lang="es">Parte de la familia "Open for Bussiness" de Software Libre</value-->
         <value xml:lang="es">Parte de la familia de software Open For Business de código abierto</value>
         <value xml:lang="fr">Un module de la famille Open For Business, logiciel libre de gestion d'entreprise.</value>
         <value xml:lang="it">Un modulo della famiglia di software open source Open For Business</value>
@@ -1757,7 +1758,7 @@
         <value xml:lang="de">Die folgenden Zuordnungen könnten Endlosschleifen verursachen:  {0} --&gt; {1}</value>
         <value xml:lang="en">The following association could cause loops: {0} --&gt; {1}</value>
         <value xml:lang="es">La siguiente asociación puede causar recursión: {0} --&gt; {1}</value>
-        <value xml:lang="fa">انجمن پیشرو باعث دور می‌شود: {0} --&gt; {1}</value>
+        <value xml:lang="fa">همبستگی پیشرو باعث دور می‌شود: {0} --&gt; {1}</value>
         <value xml:lang="fr">L'association existante suivante pourrait causer des boucles : {0} --&gt; {1}</value>
         <value xml:lang="it">Le seguenti associazioni esistono utilizzando le cause: {0} --&gt; {1}</value>
         <value xml:lang="ja">次の関連付けはループが発生します: {0} --&gt; {1}</value>
@@ -1937,7 +1938,7 @@
         <value xml:lang="de">Arbeitsgang-Zuordnung bearbeiten</value>
         <value xml:lang="en">Edit Routing Task Assoc</value>
         <value xml:lang="es">Editar asociación a tarea</value>
-        <value xml:lang="fa">ویرایش تکلیف حواله مرتبط</value>
+        <value xml:lang="fa">ویرایش همبستگی تکلیف حواله</value>
         <value xml:lang="fr">Modifier la composition</value>
         <value xml:lang="it">Legami Operazioni</value>
         <value xml:lang="ja">経路制御タスク関連付けを編集</value>
@@ -1952,7 +1953,7 @@
         <value xml:lang="de">Arbeitsgang-Zuordnung-Gültigkeit bearbeiten</value>
         <value xml:lang="en">Edit Routing Task Association Date validity</value>
         <value xml:lang="es">Editar validez de fecha de asociación</value>
-        <value xml:lang="fa">ویرایش صحت تاریخ انجمن تکلیف حواله</value>
+        <value xml:lang="fa">ویرایش صحت تاریخ همبستگی تکلیف حواله</value>
         <value xml:lang="fr">Modification des dates de validité du lien opération-gamme</value>
         <value xml:lang="it">Aggiorna Associazione Operazione Data validità</value>
         <value xml:lang="ja">経路制御タスク関連付け日検証を編集</value>
@@ -2608,7 +2609,7 @@
         <value xml:lang="de">Produkte auflisten</value>
         <value xml:lang="en">Deliverable Products</value>
         <value xml:lang="es">Productos Entregables</value>
-        <value xml:lang="fa">محصولات قابل‌تحویل</value>
+        <value xml:lang="fa">محصولات ‌تحویل‌شدنی</value>
         <value xml:lang="fr">Produits livrables</value>
         <value xml:lang="it">Prodotti Consegnabili</value>
         <value xml:lang="ja">配送可能製品</value>
@@ -3054,7 +3055,7 @@
     </property>
     <property key="ManufacturingMrpFacilityGroupIsNotAssociatedToFacility">
         <value xml:lang="en">No facility associated to facilityGroupId ${facilityGroupId}</value>
-        <value xml:lang="fa">هیچ تسهیلات مرتبطی با «آی‌دی گروه تسهیلات» ${facilityGroupId}</value>
+        <value xml:lang="fa">هیچ تسهیلات همبسته‌شده‌ای با «آی‌دی گروه تسهیلات» ${facilityGroupId}</value>
         <value xml:lang="it">Nessuna stabilimento associato al gruppo stabilimento ${facilityGroupId}</value>
         <value xml:lang="ja">拠点グループID ${facilityGroupId} に関連付けられた拠点がありません</value>
         <value xml:lang="vi">Không có Chi nhánh / Cơ sở kết hợp với Nhóm chi nhánh / Cơ sở ${facilityGroupId}</value>
@@ -3249,7 +3250,7 @@
         <value xml:lang="de">Produkt hinzufügen</value>
         <value xml:lang="en">Add Deliverable Product</value>
         <value xml:lang="es">Añadir producto entregable</value>
-        <value xml:lang="fa">اضافه‌کردن محصول قابل‌تحویل</value>
+        <value xml:lang="fa">اضافه‌کردن محصول ‌تحویل‌شدنی</value>
         <value xml:lang="fr">Ajouter l'article livrable</value>
         <value xml:lang="it">Aggiungi Prodotti Consegnabili</value>
         <value xml:lang="ja">新規配送可能製品</value>
@@ -3335,7 +3336,7 @@
     <property key="ManufacturingNote2">
         <value xml:lang="en">, association has not started yet; if Thru Date is</value>
         <value xml:lang="es">, asociación aún sin empezar; si la fecha hasta es</value>
-        <value xml:lang="fa">، انجمن هنوز شروع نشده‌است؛ اگز «تا تاریخ» این باشد</value>
+        <value xml:lang="fa">، همبستگی هنوز شروع نشده‌است؛ اگز «تا تاریخ» این باشد</value>
         <value xml:lang="fr">, l'association n'a pas commencé encore; si la date de fin est</value>
         <value xml:lang="it">, associazione non è ancora iniziata; se la Data di Fine è</value>
         <value xml:lang="ja">の場合、関連付けはまだ開始していません。終了日が</value>
@@ -3348,7 +3349,7 @@
     <property key="ManufacturingNote3">
         <value xml:lang="en">, association has expired (and should probably be deleted).</value>
         <value xml:lang="es">, la asociación ya no es válida (y probablemente debería borrarse.</value>
-        <value xml:lang="fa">، انجمن منقضی‌شده‌است (و احتمالا باید پاک‌شود).</value>
+        <value xml:lang="fa">، همبستگی منقضی‌شده‌است (و احتمالا باید پاک‌شود).</value>
         <value xml:lang="fr">, l'association a expiré (et devrait probablement être supprimée.</value>
         <value xml:lang="it">, associazione è scaduta (e dovrebbe probabilmente essere cancellata).</value>
         <value xml:lang="ja">の場合、関連付けは失効しています (またおそらく削除されています)。</value>
@@ -3461,7 +3462,7 @@
         <value xml:lang="de">Produkt-Zuordnung nicht vorhanden</value>
         <value xml:lang="en">ProductAssoc does not exist</value>
         <value xml:lang="es">Asociación inexistente</value>
-        <value xml:lang="fa">«محصول مرتبط» وجودندارد</value>
+        <value xml:lang="fa">«همبستگی محصول» وجودندارد</value>
         <value xml:lang="fr">L'association d'article n'existe pas</value>
         <value xml:lang="it">Associazione Prodotto inesistente</value>
         <value xml:lang="ja">製品の関連付けは存在しません</value>
@@ -3689,7 +3690,7 @@
         <value xml:lang="de">Zuordnungen</value>
         <value xml:lang="en">Assocs</value>
         <value xml:lang="es">Asociaciones</value>
-        <value xml:lang="fa">مرتبط‌ها</value>
+        <value xml:lang="fa">همبستگی‌ها</value>
         <value xml:lang="fr">Associations</value>
         <value xml:lang="it">Associazioni</value>
         <value xml:lang="ja">関連付け</value>
@@ -4284,7 +4285,7 @@
     </property>
     <property key="ManufacturingProductionRunTryToCreateWorkEffortAssoc">
         <value xml:lang="en">Error try to create workeffort assoc</value>
-        <value xml:lang="fa">خطا در ساختن برنامه‌کار مرتبط</value>
+        <value xml:lang="fa">خطا در ساختن همبستگی برنامه‌کار</value>
         <value xml:lang="it">Errore durante il tentativo di creazione associazione impegno di lavoro</value>
         <value xml:lang="ja">作業成果関連付け作成中にエラー</value>
         <value xml:lang="vi">Lỗi khi tạo Lượng giá nguồn lực kết hợp</value>
@@ -4292,7 +4293,7 @@
     </property>
     <property key="ManufacturingProductionRunTryToGetBomListError">
         <value xml:lang="en">Error try to get BOM list from productAssoc</value>
-        <value xml:lang="fa">خطا در دریافت لیست BOM از «محصول مرتبط»</value>
+        <value xml:lang="fa">خطا در دریافت لیست BOM از «همبستگی محصول»</value>
         <value xml:lang="it">Errore durante il tentativo di ottenere la lista della distinta base da productAssoc</value>
         <value xml:lang="ja">製品関連付けからBOM一覧を取得中にエラー</value>
         <value xml:lang="vi">Lỗi khi lấy thông tin danh sách Chào giá từ Sản phẩm</value>
@@ -4801,7 +4802,7 @@
         <value xml:lang="de">Arbeitsgang-Zuordnung erfolgreich erstellt</value>
         <value xml:lang="en">Routing Task association creation successful</value>
         <value xml:lang="es">Creación de asociación de tareas exitosa</value>
-        <value xml:lang="fa">انجمن تکلیف حواله با موفقیت ساخته‌شد</value>
+        <value xml:lang="fa">همبستگی تکلیف حواله باموفقیت ساخته‌شد</value>
         <value xml:lang="fr">Association de l'opération à la gamme réussie</value>
         <value xml:lang="it">Operazione associazione creata con successo</value>
         <value xml:lang="ja">経路制御タスク関連付けが作成されました</value>
@@ -5342,7 +5343,7 @@
     </property>
     <property key="ManufacturingTechDataWorkEffortAssocNotExist">
         <value xml:lang="en">Error finding desired WorkEffortAssoc records: ${errorString}</value>
-        <value xml:lang="fa">خطا در پیداکردن سوابق «برنامه‌کار مرتبط» خواسته‌شده: ${errorString}</value>
+        <value xml:lang="fa">خطا در پیداکردن سوابق «همبستگی برنامه‌کار» خواسته‌شده: ${errorString}</value>
         <value xml:lang="it">Errore durante la ricerca dei records di WorkEffortAssoc: ${errorString}</value>
         <value xml:lang="ja">要求された作業成果関連付けレコードの検索中にエラー: ${errorString}</value>
         <value xml:lang="vi">Lỗi tìm dữ liệu Lượng giá nguồn lực kết hợp mong muốn: ${errorString}</value>
@@ -5521,7 +5522,7 @@
         <value xml:lang="de">Wird auf die aktuelle Zeit gesetzt falls leer</value>
         <value xml:lang="en">WorkEffortAssoc does not exist</value>
         <value xml:lang="es">La asociación no existe</value>
-        <value xml:lang="fa">«برنامه‌کار مرتبط» وجودندارد</value>
+        <value xml:lang="fa">«همبستگی برنامه‌کار» وجودندارد</value>
         <value xml:lang="fr">L' assoc. de tâche n'existe pas</value>
         <value xml:lang="it">WorkEffortAssoc non esiste</value>
         <value xml:lang="ja">作業成果関連付けが存在しません</value>
@@ -5536,7 +5537,7 @@
         <value xml:lang="de">Die ausgewählte Anlage ist schon diesem Arbeitsgang zugeordnet</value>
         <value xml:lang="en">The selected fixed asset is already associated with this production run task</value>
         <value xml:lang="es">El activo fijo seleccionado ya está asociado a esta tarea</value>
-        <value xml:lang="fa">دارایی ثابت انتخاب‌شده با این تکلیف خط تولید ازقبل مرتبط‌ شده‌است</value>
+        <value xml:lang="fa">دارایی ثابت انتخاب‌شده با این تکلیف خط تولید ازقبل همبسته‌شده ‌است</value>
         <value xml:lang="fr">La machine choisie est déjà associée à cette opération de l'ordre de fabrication</value>
         <value xml:lang="it">Il cespite selezionato è già associato con questa operazione dell'ordine di produzione</value>
         <value xml:lang="ja">選択された固定資産はすでに生産実行タスクと関連付けされています</value>
@@ -5551,7 +5552,7 @@
         <value xml:lang="de">Die ausgewählte Anlagen-Art ist schon diesem Arbeitsgang zugeordnet</value>
         <value xml:lang="en">The selected fixed asset type is already associated with this routing task</value>
         <value xml:lang="es">El tipo de activo fijo seleccionado ya está asociado a esta tarea</value>
-        <value xml:lang="fa">نوع دارایی ثابت انتخاب‌شده ازقبل با این تکلیف حواله مرتبط شده‌است</value>
+        <value xml:lang="fa">نوع دارایی ثابت انتخاب‌شده ازقبل با این تکلیف حواله همبسته‌شده ‌است</value>
         <value xml:lang="fr">Le type choisi de machine est déjà associé à cette opération de gamme</value>
         <value xml:lang="it">Il tipo cespite selezionato è già associato con questa operazione</value>
         <value xml:lang="ja">選択された固定資産種類はすでに経路制御タスクと関連付けされています</value>
@@ -5840,7 +5841,7 @@
         <value xml:lang="de">Arbeitsgang-Zuordnung bearbeiten</value>
         <value xml:lang="en">Edit Routing Task Association</value>
         <value xml:lang="es">Editar asociación de tareas</value>
-        <value xml:lang="fa">ویرایش انجمن تکلیف حواله</value>
+        <value xml:lang="fa">ویرایش همبستگی تکلیف حواله</value>
         <value xml:lang="fr">Modification de la composition d'une gamme</value>
         <value xml:lang="it">Aggiorna Associazione Operazione</value>
         <value xml:lang="ja">経路制御タスク関連付けを編集</value>
@@ -5870,7 +5871,7 @@
         <value xml:lang="de">Arbeitsgang-Anlagen-Zuordnung bearbeiten</value>
         <value xml:lang="en">Edit Routing Task-Fixed Asset Association</value>
         <value xml:lang="es">Editar asociación tarea de ruta-activo fijo</value>
-        <value xml:lang="fa">ویرایش انجمن تکلیف حواله دارایی ثابت</value>
+        <value xml:lang="fa">ویرایش همبستگی دارایی ثابت-تکلیف حواله</value>
         <value xml:lang="fr">Modifier l'association opération de gamme et machine</value>
         <value xml:lang="it">Legame operazione-cespite</value>
         <value xml:lang="ja">経路制御タスク-固定資産関連付けを編集</value>
@@ -6032,7 +6033,7 @@
         <value xml:lang="de">Arbeitsgang-Zuordnung suchen</value>
         <value xml:lang="en">List Routing Task Assoc</value>
         <value xml:lang="es">Listar asociaciones de tareas</value>
-        <value xml:lang="fa">لیست تکلیف حواله مرتبط</value>
+        <value xml:lang="fa">لیست همبستگی تکلیف حواله</value>
         <value xml:lang="fr">Opérations de la gamme</value>
         <value xml:lang="it">Lista Associazioni Operazioni</value>
         <value xml:lang="ja">経路制御タスク関連付け一覧</value>

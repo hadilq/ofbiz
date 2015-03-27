@@ -105,7 +105,7 @@ padding:"3pt";
 }
 
 body,textarea,input,select {
-font-family:Verdana, Geneva, sans-serif;
+font-family:Tahoma, Verdana, Geneva, sans-serif;
 }
 
 hr {
@@ -376,7 +376,7 @@ border-right: #999999 solid 0.1em;
 background-image: url(../images/button_whitegray.jpg);
 background-repeat:repeat-x;
 font-weight: bold;
-line-height: 2.9em;
+line-height: 1.4em;
 margin-left:  0.0em;
 padding: 0.4em 0.6em 0.4em 0.6em;
 /*white-space: nowrap;*/
@@ -1535,7 +1535,7 @@ float: right;
 background-image:url(../images/tab_normal1.png);
 color:#000000;
 padding: 6px 10px 6px;
-line-height:19px;
+line-height:15px;
 white-space: nowrap;
 }
 

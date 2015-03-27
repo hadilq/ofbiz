@@ -21,7 +21,7 @@
     <property key="MrpEventType.description.MANUF_ORDER_RECP">
         <value xml:lang="en">Manufacturing Order receipt</value>
         <value xml:lang="es">Recibo de Orden de Producción</value>
-        <value xml:lang="fa">رسید سفارش ساخت </value>
+        <value xml:lang="fa">رسید سفارش ساخت</value>
         <value xml:lang="fr">Reçu d'ordre de fabrication</value>
         <value xml:lang="it">Ricevuto Ordine Produzione</value>
         <value xml:lang="ja">生産注文受付</value>

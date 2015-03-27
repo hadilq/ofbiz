@@ -277,7 +277,7 @@
     <property key="FormFieldTitle_contentMimeTypeId">
         <value xml:lang="de">Inhalt Mime Typ ID</value>
         <value xml:lang="en">Content Mime Type Id</value>
-        <value xml:lang="fa">آی‌دی نوع تقلید محتوا</value>
+        <value xml:lang="fa">آی‌دی نوع میم محتوا</value>
         <value xml:lang="fr">Type de contenu</value>
         <value xml:lang="hi_IN">सामग्री माइम प्रकार का क्रमांक(contentMimeTypeId)</value>
         <value xml:lang="it">Codice tipo contenuto mime</value>
@@ -1990,7 +1990,7 @@
         <value xml:lang="de">Akteur Einladung Gruppe Verbindung hinzufügen</value>
         <value xml:lang="en">Add Party Invitation Group Assoc</value>
         <value xml:lang="es">Añadir asociación de grupo a invitación de participante</value>
-        <value xml:lang="fa">اضافه‌کردن گروه دعوت‌ هویت مرتبط</value>
+        <value xml:lang="fa">اضافه‌کردن همبستگی گروه دعوت‌ هویت</value>
         <value xml:lang="fr">Ajoutez le groupe d'association d'invitation de l'acteur</value>
         <value xml:lang="hi_IN">पार्टी निमंत्रण समूह एसोसिएशन जोड़ें</value>
         <value xml:lang="it">Aggiungi al gruppo di soggetti associati</value>
@@ -2006,7 +2006,7 @@
         <value xml:lang="de">Akteur Einladung Rolle Verbindung hinzufügen </value>
         <value xml:lang="en">Add Party Invitation Role Assoc</value>
         <value xml:lang="es">Añadir asociación de rol a invitación de participante</value>
-        <value xml:lang="fa">اضافه‌کردن وظیفه دعوت هویت مرتبط</value>
+        <value xml:lang="fa">اضافه‌کردن همبستگی وظیفه دعوت هویت</value>
         <value xml:lang="fr">Ajoutez le rôle d'association d'invitation de l'acteur</value>
         <value xml:lang="hi_IN">पार्टी निमंत्रण भूमिका एसोसिएशन जोड़ें</value>
         <value xml:lang="it">Associa nuovo ruolo all'invito</value>
@@ -2283,7 +2283,7 @@
         <value xml:lang="de">Akteur Attribute bearbeiten</value>
         <value xml:lang="en">Edit Party Attribute</value>
         <value xml:lang="es">Editar atributos</value>
-        <value xml:lang="fa">ویرایش‌کردن خواص هویت</value>
+        <value xml:lang="fa">ویرایش‌کردن خاصیت هویت</value>
         <value xml:lang="fr">Modifier les attributs de l'acteur</value>
         <value xml:lang="hi_IN">पार्टी की विशेषता को संपादित करें</value>
         <value xml:lang="it">Aggiorna Attributo Soggetto</value>
@@ -2336,7 +2336,7 @@
     <property key="PageTitleEditPartyInvitationGroupAssoc">
         <value xml:lang="en">Edit Party Invitation GroupAssoc</value>
         <value xml:lang="es">Editar asociación de grupo de invitación de participante</value>
-        <value xml:lang="fa">ویرایش‌کردن «گروه مرتبط» دعوت هویت</value>
+        <value xml:lang="fa">ویرایش‌کردن «همبستگی گروه» دعوت هویت</value>
         <value xml:lang="fr">Modifier l'association groupe invitation de l'acteurs</value>
         <value xml:lang="hi_IN">पार्टी निमंत्रण समूहएसोसिएशन(GroupAssoc) को संपादित करें</value>
         <value xml:lang="it">Aggiorna soggetti associati all'invito</value>
@@ -2352,7 +2352,7 @@
         <value xml:lang="de">Verbindung Rolle Einladung Akteur bearbeiten</value>
         <value xml:lang="en">Edit Party Invitation RoleAssoc</value>
         <value xml:lang="es">Editar asociación de rol de invitación de participante</value>
-        <value xml:lang="fa">ویرایش‌کردن «وظیفه مرتبط» دعوت هویت</value>
+        <value xml:lang="fa">ویرایش‌کردن «همبستگی وظیفه» دعوت هویت</value>
         <value xml:lang="fr">Modifier l'association de rôle d'invitation de l'acteur</value>
         <value xml:lang="hi_IN">पार्टी निमंत्रण भूमिका एसोसिएशन को संपादित करें</value>
         <value xml:lang="it">Aggiorna associazione ruolo invito</value>
@@ -3813,7 +3813,7 @@
         <value xml:lang="de">Akteur Attribut</value>
         <value xml:lang="en">Party Attribute</value>
         <value xml:lang="es">Atributo</value>
-        <value xml:lang="fa">خواص هویت</value>
+        <value xml:lang="fa">خاصیت هویت</value>
         <value xml:lang="fr">Attribut de l'acteur</value>
         <value xml:lang="hi_IN">पार्टी की विशेषता</value>
         <value xml:lang="it">Attributo Soggetto</value>
@@ -3831,7 +3831,7 @@
         <value xml:lang="de">Akteur Attribute</value>
         <value xml:lang="en">Party Attribute(s)</value>
         <value xml:lang="es">Atributo(s)</value>
-        <value xml:lang="fa">خواص هویت</value>
+        <value xml:lang="fa">خاصیت(های) هویت</value>
         <value xml:lang="fr">Attribut(s) de l'acteur</value>
         <value xml:lang="hi_IN">पार्टी की विशेषता(एँ)</value>
         <value xml:lang="it">Attributo(i) Soggetto</value>
@@ -4589,7 +4589,7 @@
         <value xml:lang="de">Kommunikationsereignis</value>
         <value xml:lang="en">Communication Event</value>
         <value xml:lang="es">Evento de comunicación</value>
-        <value xml:lang="fa">رویداد ارتباط </value>
+        <value xml:lang="fa">رویداد ارتباط</value>
         <value xml:lang="fr">Evénement de communication</value>
         <value xml:lang="hi_IN">संचार घटना</value>
         <value xml:lang="it">Evento comunicazioni</value>
@@ -4703,7 +4703,8 @@
         <value xml:lang="ar">جزء من عائلة أوفبيز للتطبيقات الحرة للتسيير</value>
         <value xml:lang="de">Teil der Open For Business Familie von Open Source Software</value>
         <value xml:lang="en">Part of the Open For Business Family of Open Source Software</value>
-        <value xml:lang="fa">بخشی از خانواده آزاد برای تجارت از نرم‌افزارهای متن باز</value><!--value xml:lang="es">Parte de la familia "Open for Bussiness" de Software Libre</value-->
+        <value xml:lang="fa">بخشی از خانواده آزاد برای تجارت از نرم‌افزارهای متن باز</value>
+        <!--value xml:lang="es">Parte de la familia "Open for Bussiness" de Software Libre</value-->
         <value xml:lang="es">Parte de la familia de software Open For Business de código abierto</value>
         <value xml:lang="fr">Un module de la famille Open For Business, logiciel libre de gestion d'entreprise.</value>
         <value xml:lang="hi_IN">Open Source Software के Open For Business परिवार का हिस्सा</value>
@@ -5139,7 +5140,7 @@
         <value xml:lang="de">Werbung OK?</value>
         <value xml:lang="en">Soliciting OK?</value>
         <value xml:lang="es">¿Admitir publicidad?</value>
-        <value xml:lang="fa">رایزنی قبول‌می‌باشد؟</value>
+        <value xml:lang="fa">رایزنی خوب‌می‌باشد؟</value>
         <value xml:lang="fr">Accepte les sollicitations </value>
         <value xml:lang="hi_IN">याचना ठीक है?</value>
         <value xml:lang="it">Sollecito OK?</value>
@@ -5330,7 +5331,7 @@
         <value xml:lang="de">Sicherheitsfehler: um createPartyAttribute auszuführen müssen Sie die Berechtigung PARTYMGR_CREATE oder PARTYMGR_ADMIN besitzen</value>
         <value xml:lang="en">Security Error: to run createPartyAttribute you must have the PARTYMGR_CREATE or PARTYMGR_ADMIN permission</value>
         <value xml:lang="es">Error de seguridad: para acceder a esta funcionalidad debe contar con los permisos PARTYMGR_CREATE o PARTYMGR_ADMIN</value>
-        <value xml:lang="fa">خطا امنیتی: برای اجراء «ساختن خواص هویت» شما باید اجازه PARTYMGR_CREATE یا PARTYMGR_ADMIN را داشته‌باشید</value>
+        <value xml:lang="fa">خطا امنیتی: برای اجراء «ساختن خاصیت هویت» شما باید اجازه PARTYMGR_CREATE یا PARTYMGR_ADMIN را داشته‌باشید</value>
         <value xml:lang="fr">Erreur sécurité: pour exécuter createPartyAttribute : vous devez avoir l'autorisation PARTYMGR_CREATE ou PARTYMGR_ADMIN</value>
         <value xml:lang="hi_IN">सुरक्षा त्रुटि: createPartyAttribute चलाने के लिए आप को PARTYMGR_CREATE या PARTYMGR_ADMIN की अनुमति होना चाहिए</value>
         <value xml:lang="it">Errore Sicurezza : per eseguire createPartyAttribute tu devi avere il permesso PARTYMGR_CREATE o PARTYMGR_ADMIN</value>
@@ -6338,7 +6339,7 @@
         <value xml:lang="de">Die E-Mail Adresse kann nicht überprüft werden. Die E-Mail Adresse existiert nicht.</value>
         <value xml:lang="en">The Email Address cannot be verified.  This Email Address does not exists.</value>
         <value xml:lang="es">La dirección de correo electrónico no se puede verificar. Esta dirección no existe.</value>
-        <value xml:lang="fa">نمی‌توان آدرس ایمیل را تصدیق‌کرد. این آدرس ایمیل وجودندارد. </value>
+        <value xml:lang="fa">نمی‌توان آدرس ایمیل را تصدیق‌کرد. این آدرس ایمیل وجودندارد.</value>
         <value xml:lang="fr">L'adresse électronique ne peut pas être vérifiée. Cette adresse n'existe pas</value>
         <value xml:lang="hi_IN">ईमेल पता सत्यापित नहीं किया जा सकता है| यह ईमेल पता मौजूद नहीं है|</value>
         <value xml:lang="it">L'indirizzo email non può essere verificato. Questo indirizzo email non esiste.</value>
@@ -7456,7 +7457,7 @@
         <value xml:lang="de">Gruppe Verbindung</value>
         <value xml:lang="en">GroupAssoc </value>
         <value xml:lang="es">Grupo de asociación</value>
-        <value xml:lang="fa">گروه مرتبط</value>
+        <value xml:lang="fa">«همبستگی گروه»</value>
         <value xml:lang="fr">Groupe d'associations</value>
         <value xml:lang="hi_IN">समूहसंघ</value>
         <value xml:lang="it">Soggetti associati</value>
@@ -7551,7 +7552,7 @@
         <value xml:lang="de">Rolle Verbindung</value>
         <value xml:lang="en">RoleAssoc</value>
         <value xml:lang="es">Asociación Rol</value>
-        <value xml:lang="fa">«وظیفه مرتبط»</value>
+        <value xml:lang="fa">«همبستگی وظیفه»</value>
         <value xml:lang="fr">Association de rôle</value>
         <value xml:lang="hi_IN">भूमिकाएसोसिएशन</value>
         <value xml:lang="it">Ruolo associati</value>
@@ -7793,7 +7794,7 @@
         <value xml:lang="de">WARNUNG: Dies kann nicht rückgängig gemacht werden. Bestätigen Sie bitte, dass Sie die beiden unten aufgeführten Akteure verknüpfen möchten. </value>
         <value xml:lang="en">WARNING: This cannot be un-done, confirm you wish to link the two party records listed below.</value>
         <value xml:lang="es">Advertencia: Esto no se puede deshacer, confirme que desea enlazar los dos participantes listados abajo.</value>
-        <value xml:lang="fa">اخطار: غیرقابل برگشت، تاییدکنید که شما می‌خواهید سوابق هویت‌های لیست‌شده را پیوند‌کنید.</value>
+        <value xml:lang="fa">اخطار: برگشتنی نیست، تاییدکنید که شما می‌خواهید سوابق هویت‌های لیست‌شده را پیوند‌کنید.</value>
         <value xml:lang="fr">ATTENTION: Ceci ne peut pas être défait, confirmez votre souhait de lier les deux enregistrements de l'acteur énumérés ci-dessous.</value>
         <value xml:lang="hi_IN">चेतावनी: यह पूर्ववत नहीं किया जा सकता, नीचे सूचीबद्ध दो पार्टी रिकॉर्ड जोड़ने के लिए अपनी इच्छा की पुष्टि करे|</value>
         <value xml:lang="it">ATTENZIONE: Questa operazione non può essere annullata, conferma che vuoi legare i due soggetti elencati qui sotto.</value>
@@ -8257,7 +8258,7 @@
         <value xml:lang="de">Geburtsname</value>
         <value xml:lang="en">Mothers Maiden Name</value>
         <value xml:lang="es">Apellido de Soltera</value>
-        <value xml:lang="fa">شهرت خانوادگی </value>
+        <value xml:lang="fa">شهرت خانوادگی</value>
         <value xml:lang="fr">Nom de jeune fille</value>
         <value xml:lang="hi_IN">माता का प्रथम नाम</value>
         <value xml:lang="it">Cognome da ragazza</value>
@@ -9352,7 +9353,7 @@
         <value xml:lang="de">Keine Akteur Attribute gefunden.</value>
         <value xml:lang="en">No party attributes found.</value>
         <value xml:lang="es">No se han encontrado atributos de participante.</value>
-        <value xml:lang="fa">هیچ خواص هویتی پیدانشد.</value>
+        <value xml:lang="fa">هیچ خاصیت هویتی پیدانشد.</value>
         <value xml:lang="fr">Aucun attribut n'a été trouvé.</value>
         <value xml:lang="hi_IN">पार्टी की कोई भी विशेषता नहीं मिली|</value>
         <value xml:lang="it">Nessun attributo Soggetto trovato.</value>
@@ -11396,7 +11397,7 @@
         <value xml:lang="de">Sicherheitsfehler: um createPartyAttribute auszuführen müssen Sie die Berechtigung PARTYMGR_DELETE oder PARTYMGR_ADMIN besitzen</value>
         <value xml:lang="en">Security Error: to run createPartyAttribute you must have the PARTYMGR_DELETE or PARTYMGR_ADMIN permission</value>
         <value xml:lang="es">Error de seguridad: para acceder a esta funcionalidad debe contar con los permisos PARTYMGR_DELETE o PARTYMGR_ADMIN</value>
-        <value xml:lang="fa">خطای امنیتی: برای اجراء «ساختن خواص هویت» شما باید اجازه PARTYMGR_DELETE یا PARTYMGR_ADMIN را داشته‌باشید</value>
+        <value xml:lang="fa">خطای امنیتی: برای اجراء «ساختن خاصیت هویت» شما باید اجازه PARTYMGR_DELETE یا PARTYMGR_ADMIN را داشته‌باشید</value>
         <value xml:lang="fr">Erreur de sécurité: pour exécuter createPartyAttribute vous devez avoir l'autorisation PARTYMGR_DELETE ou PARTYMGR_ADMIN</value>
         <value xml:lang="hi_IN">सुरक्षा त्रुटि: createPartyAttribute चलाने के लिए आप को PARTYMGR_CREATE या PARTYMGR_ADMIN की अनुमति होना चाहिए</value>
         <value xml:lang="it">Errore Sicurezza : per eseguire createPartyAttribute tu devi avere il permesso PARTYMGR_DELETE o PARTYMGR_ADMIN</value>
@@ -11968,7 +11969,7 @@
     <property key="PartySelectMimeType">
         <value xml:lang="de">Mime Typ auswählen</value>
         <value xml:lang="en">Select Mime Type</value>
-        <value xml:lang="fa">انتخاب‌کردن نوع تقلید</value>
+        <value xml:lang="fa">انتخاب‌کردن نوع میم</value>
         <value xml:lang="fr">Sélectionnez le type Mime</value>
         <value xml:lang="hi_IN">माइम प्रकार चुनें</value>
         <value xml:lang="it">Selezione tipo mime</value>
@@ -12367,7 +12368,7 @@
         <value xml:lang="en">Soliciting OK</value>
         <value xml:lang="en_GB">Can we contact you</value>
         <value xml:lang="es">Solicitud correcta</value>
-        <value xml:lang="fa">رایزنی موردقبول</value>
+        <value xml:lang="fa">رایزنی خوب</value>
         <value xml:lang="fr">D'accord pour les sollicitations</value>
         <value xml:lang="hi_IN">क्या हम आपसे संपर्क कर सकते हैं?</value>
         <value xml:lang="it">Acconsenti al sollecito</value>
@@ -12693,7 +12694,7 @@
         <value xml:lang="de">Bedingung</value>
         <value xml:lang="en">Term</value>
         <value xml:lang="es">Condición</value>
-        <value xml:lang="fa">شرط</value>
+        <value xml:lang="fa">قید</value>
         <value xml:lang="fr">Echéance</value>
         <value xml:lang="hi_IN">शर्तें</value>
         <value xml:lang="it">Termine</value>
@@ -12713,7 +12714,7 @@
         <value xml:lang="de">Bedingung Typ</value>
         <value xml:lang="en">Term Type</value>
         <value xml:lang="es">Tipo de condición</value>
-        <value xml:lang="fa">نوع شرط</value>
+        <value xml:lang="fa">نوع قید</value>
         <value xml:lang="fr">Type de termes</value>
         <value xml:lang="hi_IN">शर्त के प्रकार</value>
         <value xml:lang="it">Tipo Termine</value>
@@ -12733,7 +12734,7 @@
         <value xml:lang="de">Bedingung Wert</value>
         <value xml:lang="en">Term Value</value>
         <value xml:lang="es">Condiciones</value>
-        <value xml:lang="fa">ارزش شرط</value>
+        <value xml:lang="fa">ارزش قید</value>
         <value xml:lang="fr">Valeur du terme</value>
         <value xml:lang="hi_IN">शर्त के मान</value>
         <value xml:lang="it">Valore Termine</value>
@@ -12753,7 +12754,7 @@
         <value xml:lang="de">Bedingungen</value>
         <value xml:lang="en">Terms</value>
         <value xml:lang="es">Condiciones</value>
-        <value xml:lang="fa">شروط</value>
+        <value xml:lang="fa">قیود</value>
         <value xml:lang="fr">Echéances</value>
         <value xml:lang="hi_IN">शर्तें</value>
         <value xml:lang="it">Termini</value>
@@ -13064,7 +13065,7 @@
         <value xml:lang="de">Sicherheitsfehler: um updatePartyAttribute auszuführen müssen Sie die Berechtigung PARTYMGR_UPDATE oder PARTYMGR_ADMIN besitzen</value>
         <value xml:lang="en">Security Error: to run updatePartyAttribute you must have the PARTYMGR_UPDATE or PARTYMGR_ADMIN permission</value>
         <value xml:lang="es">Error de seguridad: Para ejecutar esta funcionalidad necesita los permisos PARTYMGR_UPDATE  o PARTYMGR_ADMIN</value>
-        <value xml:lang="fa">خطای امنیتی: برای اجراء «بروزرسانی خواص هویت» شما باید اجازه PARTYMGR_UPDATE یا PARTYMGR_ADMIN را داشته‌باشید</value>
+        <value xml:lang="fa">خطای امنیتی: برای اجراء «بروزرسانی خاصیت هویت» شما باید اجازه PARTYMGR_UPDATE یا PARTYMGR_ADMIN را داشته‌باشید</value>
         <value xml:lang="fr">erreur sécurité: pour exécuter updatePartyAttribute vous devez avoir l'autorisation PARTYMGR_UPDATE ou PARTYMGR_ADMIN</value>
         <value xml:lang="hi_IN">सुरक्षा त्रुटि: updatePartyAttribute चलाने के लिए आप को PARTYMGR_UPDATE या PARTYMGR_ADMIN की अनुमति होना चाहिए</value>
         <value xml:lang="it">Errore Sicurezza : per eseguire updatePartyAttribute tu devi avere il permesso PARTYMGR_UPDATE o PARTYMGR_ADMIN</value>

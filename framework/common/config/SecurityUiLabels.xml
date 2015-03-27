@@ -475,7 +475,7 @@
         <value xml:lang="de">Zeitspanne für die die Ansicht nicht angezeigt wird (in Sekunden)</value>
         <value xml:lang="en">Duration during which the view will not be accessible (in seconds)</value>
         <value xml:lang="es">Período durante el cual la vista no será accesible (en segundos)</value>
-        <value xml:lang="fa">زمان کلی که نما قابل‌دسترس نخواهدبود (به ثانیه)</value>
+        <value xml:lang="fa">زمان کلی که نما ‌دست‌یافتنی نخواهدبود (به ثانیه)</value>
         <value xml:lang="fr">Durée pendant laquelle la vue ne sera plus accessible (en secondes)</value>
         <value xml:lang="hi_IN">अवधि जिसके दौरान देखना सुलभ नहीं होगा (सेकंड में)</value>
         <value xml:lang="it">Tempo durante il quale la vista non è accessibile (in secondi)</value>

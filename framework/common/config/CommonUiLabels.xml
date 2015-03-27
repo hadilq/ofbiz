@@ -78,7 +78,7 @@
         <value xml:lang="de">Instandhaltung</value>
         <value xml:lang="en">Asset Maint</value>
         <value xml:lang="es">Manten. Activos</value>
-        <value xml:lang="fa">تعمیرونگهداری دارایی</value>
+        <value xml:lang="fa">نگهداری دارایی</value>
         <value xml:lang="fr">Maintenance</value>
         <value xml:lang="hi-IN">संपत्ति का रखरखाव</value>
         <value xml:lang="it">Manutenzione</value>
@@ -746,7 +746,7 @@
         <value xml:lang="de">Beliebiger Retourenstatus</value>
         <value xml:lang="en">Any return status</value>
         <value xml:lang="es">Cualquier estado de devolución</value>
-        <value xml:lang="fa">هر وضعیت بازگشتی</value>
+        <value xml:lang="fa">هر وضعیت بازگشته‌ای</value>
         <value xml:lang="fr">Tous Statuts</value>
         <value xml:lang="hi-IN">कोईभी वापसी स्थिति</value>
         <value xml:lang="it">Qualsiasi stato reso</value>
@@ -993,7 +993,7 @@
         <value xml:lang="de">Partner</value>
         <value xml:lang="en">Associate</value>
         <value xml:lang="es">Asociado</value>
-        <value xml:lang="fa">همکار</value>
+        <value xml:lang="fa">همبسته</value>
         <value xml:lang="fr">associé</value>
         <value xml:lang="hi-IN">सहयोगी</value>
         <value xml:lang="it">Associare</value>
@@ -1015,7 +1015,7 @@
         <value xml:lang="de">Assoziationen</value>
         <value xml:lang="en">Associations</value>
         <value xml:lang="es">Asociaciones</value>
-        <value xml:lang="fa">انجمن‌ها</value>
+        <value xml:lang="fa">همبستگی‌ها</value>
         <value xml:lang="fr">Associations</value>
         <value xml:lang="hi-IN">संघों</value>
         <value xml:lang="it">Associazioni</value>
@@ -2254,7 +2254,7 @@
         <value xml:lang="cs">Copyright</value>
         <value xml:lang="en">Copyright</value>
         <value xml:lang="es">Copyright</value>
-        <value xml:lang="fa">حق‌رونوشت</value>
+        <value xml:lang="fa">Copyright</value>
         <value xml:lang="fr">Droit d'auteur</value>
         <value xml:lang="hi-IN">कॉपीराइट</value>
         <value xml:lang="it">Copyright</value>
@@ -2513,7 +2513,7 @@
         <value xml:lang="de">Guthaben</value>
         <value xml:lang="en">Credit</value>
         <value xml:lang="es">Crédito</value>
-        <value xml:lang="fa">اعتبار</value>
+        <value xml:lang="fa">بستانکار</value>
         <value xml:lang="fr">Crédit</value>
         <value xml:lang="hi-IN">जमा</value>
         <value xml:lang="it">Credito</value>
@@ -2763,7 +2763,7 @@
         <value xml:lang="de">Belastung</value>
         <value xml:lang="en">Debit</value>
         <value xml:lang="es">Débito</value>
-        <value xml:lang="fa">بدهی</value>
+        <value xml:lang="fa">بدهکار</value>
         <value xml:lang="fr">Débit</value>
         <value xml:lang="hi-IN">नामे</value>
         <value xml:lang="it">Debito</value>
@@ -2818,7 +2818,7 @@
     <property key="CommonDeferred">
         <value xml:lang="cs">Odložený</value>
         <value xml:lang="en">Deferred</value>
-        <value xml:lang="fa">معوق‌شده</value>
+        <value xml:lang="fa">پیش‌دریافت‌شده</value>
         <value xml:lang="fr">Différé</value>
         <value xml:lang="ja">延期</value>
         <value xml:lang="ru">Отличия</value>
@@ -3143,7 +3143,7 @@
         <value xml:lang="de">Portlet-Attribute anpassen</value>
         <value xml:lang="en">Edit Attributes for Portlet</value>
         <value xml:lang="es">Modificar atributos del portlet</value>
-        <value xml:lang="fa">ویرایش متغییرها برای پورتلت</value>
+        <value xml:lang="fa">ویرایش خواص برای پورتلت</value>
         <value xml:lang="fr">Modifier les attributs du portlet </value>
         <value xml:lang="hi-IN">Portlet के गुण संपादित करें</value>
         <value xml:lang="it">Modifica attributi portlet</value>
@@ -3400,7 +3400,7 @@
         <value xml:lang="cs">Nedoručený email vrácen odesílateli</value>
         <value xml:lang="en">Undelivered Mail Returned to Sender</value>
         <value xml:lang="es">Correo electrónico que no puede ser entregado devuelto al remitente</value>
-        <value xml:lang="fa">بسته پستی تحویل داده نشده بازگشت به فرستنده</value>
+        <value xml:lang="fa">بسته پستی تحویل داده‌نشده و به فرستنده بازگشته</value>
         <value xml:lang="fr">Non distribution du courriel, retourné à l'expéditeur</value>
         <value xml:lang="it">Mail non consegnabile restituita a colui che l'ha inviata</value>
         <value xml:lang="ja">配達できなかったメールが送信者に戻されました</value>
@@ -3667,7 +3667,7 @@
         <value xml:lang="de">Der folgende Fehler ist aufgetreten</value>
         <value xml:lang="en">The following errors occurred</value>
         <value xml:lang="es">Los siguientes errores han ocurrido</value>
-        <value xml:lang="fa">خطای پیشرو اتفاق افتاده</value>
+        <value xml:lang="fa">خطای پیشرو رخ‌داده‌است</value>
         <value xml:lang="fr">Les erreurs suivantes se sont produites</value>
         <value xml:lang="hi-IN">निम्नलिखित त्रुटि हुई</value>
         <value xml:lang="it">Sono accaduti i seguenti errori</value>
@@ -3935,7 +3935,7 @@
         <value xml:lang="de">Exportieren</value>
         <value xml:lang="en">Export</value>
         <value xml:lang="es">Exportar</value>
-        <value xml:lang="fa">صادرات</value>
+        <value xml:lang="fa">صادرکردن</value>
         <value xml:lang="fr">Exporter</value>
         <value xml:lang="hi-IN">निर्यात</value>
         <value xml:lang="it">Esporta</value>
@@ -4340,7 +4340,7 @@
         <value xml:lang="de">Folgende Fehler sind aufgetreten</value>
         <value xml:lang="en">The Following Errors Occurred</value>
         <value xml:lang="es">Los siguientes errores ocurrieron</value>
-        <value xml:lang="fa">خطای پیشرو اتفاق رخ‌داده‌است</value>
+        <value xml:lang="fa">خطای پیشرو رخ‌داده‌است</value>
         <value xml:lang="fr">Erreur(s) </value>
         <value xml:lang="hi-IN">निम्नलिखित त्रुटियाँ घटित हुई</value>
         <value xml:lang="it">Errore</value>
@@ -4894,7 +4894,7 @@
         <value xml:lang="cs">ID asociace typu polohy</value>
         <value xml:lang="en">Geo Assoc Type ID</value>
         <value xml:lang="es">Tipo de código de ubicación</value>
-        <value xml:lang="fa">آی‌دی نوع مرتبط جغرافیایی</value>
+        <value xml:lang="fa">آی‌دی نوع همبستگی جغرافیایی</value>
         <value xml:lang="fr">Type d'assocation entre zones</value>
         <value xml:lang="ja">位置関連付け種類ID</value>
         <value xml:lang="pt-BR">Tipo de ID de associação geo referencial</value>
@@ -5467,10 +5467,12 @@
     </property>
     <property key="CommonImport">
         <value xml:lang="en">Import</value>
-    </property>
+    <value xml:lang="fa">واردکردن</value>
+        </property>
     <property key="CommonImportExport">
         <value xml:lang="en">Import/Export</value>
-    </property>
+    <value xml:lang="fa">واردکردن/صادرکردن</value>
+        </property>
     <property key="CommonIn">
         <value xml:lang="ar">داخل</value>
         <value xml:lang="cs">V</value>
@@ -8570,7 +8572,7 @@
         <value xml:lang="de">Sicherheitsfehler: Um ${resourceDescription} auszuführen müssen Sie eine der folgenden Berechtigungen besitzen:   EXAMPLE_${mainAction} EXAMPLE_ADMIN</value>
         <value xml:lang="en">Error  Security: To run ${resourceDescription}  you must have the one of the following permissions:   EXAMPLE_${mainAction} EXAMPLE_ADMIN</value>
         <value xml:lang="es">Error de seguridad: Para ejecutar ${resourceDescription} debe disponer de alguno de estos permisos EXAMPLE_${mainAction} EXAMPLE_ADMIN</value>
-        <value xml:lang="fa">خطا امنیتی: برای اجراء ${resourceDescription} شما باید یکی از مجوز‌های پیشرو را داشته باشید:   EXAMPLE_${mainAction} EXAMPLE_ADMIN</value>
+        <value xml:lang="fa">خطا امنیتی: برای اجراء ${resourceDescription} شما باید یکی از اجازه‌های پیشرو را داشته باشید:   EXAMPLE_${mainAction} EXAMPLE_ADMIN</value>
         <value xml:lang="fr">Erreur de sécurité : pour exécuter ${resourceDescription} vous devez avoir les autorisations suivantes :   EXAMPLE_${mainAction} EXAMPLE_ADMIN</value>
         <value xml:lang="hi-IN">सुरक्षा त्रुटि: ${resourceDescription} चलाने के लिए आप के पास निम्न में से एक अनुमतियाँ हो: EXAMPLE_${mainAction} EXAMPLE_ADMIN</value>
         <value xml:lang="it">Errore sicurezza: per eseguire ${resourceDescription}  tu devi avere uno dei seguenti permessi:   EXAMPLE_${mainAction} EXAMPLE_ADMIN</value>
@@ -8588,7 +8590,7 @@
         <value xml:lang="de">Der main-action Parameter fehlt!</value>
         <value xml:lang="en">Permission main-action parameter missing!</value>
         <value xml:lang="es">Falta el parámetro de la acción principal (main-action).</value>
-        <value xml:lang="fa">پارامتر کنش-اصلی مجوز گم شده است!</value>
+        <value xml:lang="fa">پارامتر کنش-اصلی اجازه گم شده است!</value>
         <value xml:lang="fr">Le paramètre d'autorisation d'action principale manque !</value>
         <value xml:lang="it">Parametro permesso mancante!</value>
         <value xml:lang="ja">主処理パラメータの権限が正しくありません</value>
@@ -8673,7 +8675,7 @@
         <value xml:lang="de">Ungültige Anzahl wurde von der Datenbank zurückgegeben</value>
         <value xml:lang="en">Invalid count returned from database</value>
         <value xml:lang="es">No es válido el contador devuelto por la base de datos</value>
-        <value xml:lang="fa">شمارش نامعتبر از بانک‌داده بازگشت</value>
+        <value xml:lang="fa">شمارش نامعتبر از بانک‌داده بازگشته‌شده‌است</value>
         <value xml:lang="fr">Comptage invalide retourné par la source de données</value>
         <value xml:lang="it">Contantore invalido restituito dal database</value>
         <value xml:lang="ja">データベースから戻された件数が正しくありません</value>
@@ -8853,7 +8855,7 @@
         <value xml:lang="de">Powered by</value>
         <value xml:lang="en">Powered by</value>
         <value xml:lang="es">Powered by</value>
-        <value xml:lang="fa">توانمند شده با</value>
+        <value xml:lang="fa">Powered by</value>
         <value xml:lang="fr">Fonctionne grâce à </value>
         <value xml:lang="hi-IN">द्वारा संचालित</value>
         <value xml:lang="it">Realizzato con</value>
@@ -9852,7 +9854,7 @@
         <value xml:lang="de">Retoure</value>
         <value xml:lang="en">Return</value>
         <value xml:lang="es">Devolución</value>
-        <value xml:lang="fa">بازگشت</value>
+        <value xml:lang="fa">بازگشته</value>
         <value xml:lang="fr">Retour</value>
         <value xml:lang="hi-IN">वापस करे</value>
         <value xml:lang="it">Reso</value>
@@ -9873,7 +9875,7 @@
         <value xml:lang="de">Status Retoure</value>
         <value xml:lang="en">Return Status</value>
         <value xml:lang="es">Estado de la devolución</value>
-        <value xml:lang="fa">وضعیت بازگشت</value>
+        <value xml:lang="fa">وضعیت بازگشته</value>
         <value xml:lang="fr">Statut du retour</value>
         <value xml:lang="hi-IN">वापसी की स्थिति</value>
         <value xml:lang="it">Stato reso</value>
@@ -12011,7 +12013,7 @@
         <value xml:lang="de">Total Prozent Gewinn</value>
         <value xml:lang="en">Total Perc Profit</value>
         <value xml:lang="es">Porcentaje de margen de beneficio total</value>
-        <value xml:lang="fa">نفع درصد مجموع</value>
+        <value xml:lang="fa">سود درصد مجموع</value>
         <value xml:lang="fr">Pourcentage total du bénéfice</value>
         <value xml:lang="hi-IN">कुल लाभ प्रतिशत</value>
         <value xml:lang="it">Totale percentuale profitto</value>
@@ -12049,7 +12051,7 @@
         <value xml:lang="de">Total Gewinn</value>
         <value xml:lang="en">Total Profit</value>
         <value xml:lang="es">Beneficio total</value>
-        <value xml:lang="fa">نفع مجموع</value>
+        <value xml:lang="fa">سود مجموع</value>
         <value xml:lang="fr">Bénéfice total</value>
         <value xml:lang="hi-IN">कुल लाभ</value>
         <value xml:lang="it">Totale profitto</value>
@@ -13012,6 +13014,7 @@
         <value xml:lang="de">OFBiz Dashboard - Willkommen</value>
         <value xml:lang="en">Welcome to the OFBiz dashboard</value>
         <value xml:lang="es">Bienvenido al panel de control de OFBiz</value>
+        <value xml:lang="fa">به داشبورد OFBiz خوش‌آمدید</value>
         <value xml:lang="fr">Bienvenue sur le tableau de bord d'OFBiz</value>
         <value xml:lang="hi-IN">OFBiz डैशबोर्ड पर आपका स्वागत है</value>
         <value xml:lang="it">Benvenuto al cruscotto di OFBiz</value>
@@ -13071,7 +13074,7 @@
         <value xml:lang="de">Dem Nutzer zugeordnete Workflow-Aktivitäten</value>
         <value xml:lang="en">Workflow Activities Assigned to User</value>
         <value xml:lang="es">Actividades de flujo de trabajo asignadas al usuario</value>
-        <value xml:lang="fa">فعالیت‌های جریان‌کار به کاربر واگذار شده</value>
+        <value xml:lang="fa">فعالیت‌های گردش‌کار به کاربر واگذار شده</value>
         <value xml:lang="fr">Actions du workflow associés à l'utilisateur</value>
         <value xml:lang="hi-IN">वर्कफ़्लो क्रियाएँ उपयोगकर्ता को निरुपित</value>
         <value xml:lang="it">Attività impegno di lavoro assegnate all'utente</value>
@@ -13093,7 +13096,7 @@
         <value xml:lang="de">Der Nutzerrolle zugeordnete Workflow-Aktivitäten</value>
         <value xml:lang="en">Workflow Activities Assigned to User Role</value>
         <value xml:lang="es">Actividades de flujo de trabajo asignadas al rol de usuario</value>
-        <value xml:lang="fa">فعالیت‌های جریان‌کار به وظیفه کاربر منتسب‌شده</value>
+        <value xml:lang="fa">فعالیت‌های گردش‌کار به وظیفه کاربر منتسب‌شده</value>
         <value xml:lang="fr">Actions du workflow associés au rôle de l'utilisateur</value>
         <value xml:lang="hi-IN">वर्कफ़्लो क्रियाएँ उपयोगकर्ता भूमिका को निरुपित</value>
         <value xml:lang="it">Attività impegno di lavoro assegnate al ruolo utente</value>
@@ -14135,7 +14138,7 @@
         <value xml:lang="de">Zeilentotal</value>
         <value xml:lang="en">Line Total</value>
         <value xml:lang="es">Total línea</value>
-        <value xml:lang="fa">مجموع خط</value>
+        <value xml:lang="fa">مجموع صف</value>
         <value xml:lang="fr">Ligne total</value>
         <value xml:lang="it">Totale riga</value>
         <value xml:lang="ja">行合計</value>
@@ -14154,7 +14157,7 @@
         <value xml:lang="de">Maximale Wiederholungen</value>
         <value xml:lang="en">Max Recurrence Count</value>
         <value xml:lang="es">Número máximo de recurrencias</value>
-        <value xml:lang="fa">بیشترین تعداد عودت</value>
+        <value xml:lang="fa">بیشترین تعداد بازرخداد</value>
         <value xml:lang="fr">Nombre max de récurrences</value>
         <value xml:lang="hi-IN">अधिकतम पुनरावृत्ति गणना</value>
         <value xml:lang="it">Numero massimo di ricorrenze</value>
@@ -14719,6 +14722,7 @@
         <value xml:lang="de">OFBiz Homepage</value>
         <value xml:lang="en">OFBiz Site</value>
         <value xml:lang="es">Página web de OFBiz</value>
+        <value xml:lang="fa">سایت OFBiz</value>
         <value xml:lang="fr">Site officiel d'OFBiz</value>
         <value xml:lang="hi-IN">OFBiz साइट</value>
         <value xml:lang="it">Sito di OFBiz</value>

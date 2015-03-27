@@ -80,7 +80,7 @@
         <value xml:lang="da">Endelig skala faktor er null</value>
         <value xml:lang="en">Final scale factor is null</value>
         <value xml:lang="es">El factor de escala final es nulo</value>
-        <value xml:lang="fa">ضریب مقیاس نهایی خالی است</value>
+        <value xml:lang="fa">ضریب تغییراندازه نهایی خالی است</value>
         <value xml:lang="fr">Le facteur final de redimensionnement est nul</value>
         <value xml:lang="hi_IN">अंतिम पैमाने पहलू null है</value>
         <value xml:lang="it">Fattore di scala finale è nullo</value>
@@ -96,7 +96,7 @@
         <value xml:lang="da">Høj skala faktor er null</value>
         <value xml:lang="en">Height scale factor is null</value>
         <value xml:lang="es">El factor de escala de altura es nulo</value>
-        <value xml:lang="fa">ضریب مقیاس طولی خالی‌است</value>
+        <value xml:lang="fa">ضریب تغییراندازه طولی خالی‌است</value>
         <value xml:lang="fr">Le ratio 'hauteur' de redimensionnement est nul</value>
         <value xml:lang="hi_IN">ऊँचाई पैमाने पहलू null है</value>
         <value xml:lang="it">Fattore di scala altezza è nullo</value>
@@ -176,7 +176,7 @@
         <value xml:lang="da">Bredde skala faktor er null</value>
         <value xml:lang="en">Width scale factor is null</value>
         <value xml:lang="es">El factor de escala de anchura es nulo</value>
-        <value xml:lang="fa">ضریب مقیاس عرضی خالی‌است</value>
+        <value xml:lang="fa">ضریب تغییراندازه عرضی خالی‌است</value>
         <value xml:lang="fr">Le ratio 'largeur' de redimensionnement est nul</value>
         <value xml:lang="hi_IN">चौड़ाई पैमाने कारक(Width scale factor) null है</value>
         <value xml:lang="it">Fattore di scala altezza è nullo</value>
