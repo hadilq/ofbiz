@@ -18,9 +18,7 @@ under the License.
 -->
 <#escape x as x?xml>
 <fo:root xmlns:fo="http://www.w3.org/1999/XSL/Format"
-    <#-- inheritance -->
-    <#if defaultFontFamily?has_content>font-family="${defaultFontFamily}"</#if>
->
+    font-family="${Static["org.ofbiz.common.languageFontsMapping"].getFontFamily(locale)}">
     <fo:layout-master-set>
         <fo:simple-page-master master-name="main-page"
               page-width="8.5in" page-height="11in"

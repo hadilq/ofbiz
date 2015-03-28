@@ -16,6 +16,7 @@ KIND, either express or implied.  See the License for the
 specific language governing permissions and limitations
 under the License.
 -->
+<#assign defaultFontFamily = Static["org.ofbiz.common.languageFontsMapping"].getFontFamily(locale)>
 <#escape x as x?xml>
 
 <fo:root xmlns:fo="http://www.w3.org/1999/XSL/Format">
@@ -35,7 +36,7 @@ under the License.
                         ${uiLabelMap.CommonPage} <fo:page-number/>
                     </fo:block>
                 </fo:static-content>
-                <fo:flow flow-name="xsl-region-body" font-family="Helvetica">
+                <fo:flow flow-name="xsl-region-body" font-family="${defaultFontFamily}">
                     <fo:block><fo:leader/></fo:block>
                     <fo:block font-size="14pt">${uiLabelMap.ManufacturingOperationRunForShipment}:${shipmentIdPar}</fo:block>
                     <fo:block><fo:leader/></fo:block>
@@ -128,7 +129,7 @@ under the License.
 
         <#else>
             <fo:page-sequence master-reference="main">
-                <fo:flow flow-name="xsl-region-body" font-family="Helvetica">
+                <fo:flow flow-name="xsl-region-body" font-family="${defaultFontFamily}">
                     <fo:block font-size="14pt">
                         ${uiLabelMap.ManufacturingNoDataAvailable}
                     </fo:block>

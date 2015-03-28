@@ -16,6 +16,7 @@ KIND, either express or implied.  See the License for the
 specific language governing permissions and limitations
 under the License.
 -->
+<#assign defaultFontFamily = Static["org.ofbiz.common.languageFontsMapping"].getFontFamily(locale)>
 
 <#escape x as x?xml>
 <fo:root xmlns:fo="http://www.w3.org/1999/XSL/Format">
@@ -38,7 +39,7 @@ under the License.
 
 <#if orderPurchasePaymentSummaryList?has_content>
         <fo:page-sequence master-reference="main">
-        <fo:flow flow-name="xsl-region-body" font-family="Helvetica">
+        <fo:flow flow-name="xsl-region-body" font-family="${defaultFontFamily}">
             <fo:block font-size="14pt">${uiLabelMap.OrderReportPurchasesByPaymentMethod}</fo:block>
             <#if !showProductStore><fo:block font-size="10pt">${uiLabelMap.CommonFor} ${uiLabelMap.ProductProductStore}: ${parameters.productStoreId}</fo:block></#if>
             <#if !showOriginFacility><fo:block font-size="10pt">${uiLabelMap.CommonFor} ${uiLabelMap.FormFieldTitle_originFacilityId}: ${parameters.originFacilityId}</fo:block></#if>
@@ -109,7 +110,7 @@ under the License.
         </fo:page-sequence>
 <#else>
     <fo:page-sequence master-reference="main">
-    <fo:flow flow-name="xsl-region-body" font-family="Helvetica">
+    <fo:flow flow-name="xsl-region-body" font-family="${defaultFontFamily}">
         <fo:block font-size="14pt">
             ${uiLabelMap.OrderNoPurchasePaymentMethod}
         </fo:block>

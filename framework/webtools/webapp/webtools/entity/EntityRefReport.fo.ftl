@@ -16,8 +16,9 @@ KIND, either express or implied.  See the License for the
 specific language governing permissions and limitations
 under the License.
 -->
+<#assign defaultFontFamily = Static["org.ofbiz.common.languageFontsMapping"].getFontFamily(locale)>
 <#escape x as x?xml>
-<fo:root xmlns:fo="http://www.w3.org/1999/XSL/Format" font-family="Helvetica" font-size="8pt">
+<fo:root xmlns:fo="http://www.w3.org/1999/XSL/Format" font-family="${defaultFontFamily}" font-size="8pt">
   <fo:layout-master-set>
     <fo:simple-page-master master-name="letter-portrait" page-height="11in" page-width="8.5in"
         margin-top="0.5in" margin-bottom="0.5in" margin-left="0.5in" margin-right="0.25in">

@@ -16,6 +16,7 @@ KIND, either express or implied.  See the License for the
 specific language governing permissions and limitations
 under the License.
 -->
+<#assign defaultFontFamily = Static["org.ofbiz.common.languageFontsMapping"].getFontFamily(locale)>
 
 <#escape x as x?xml>
 <fo:root xmlns:fo="http://www.w3.org/1999/XSL/Format">
@@ -36,7 +37,7 @@ under the License.
 
 <#if productReportList?has_content>
         <fo:page-sequence master-reference="main">
-        <fo:flow flow-name="xsl-region-body" font-family="Helvetica">
+        <fo:flow flow-name="xsl-region-body" font-family="${defaultFontFamily}">
             <fo:block font-size="14pt">${uiLabelMap.OrderReportSalesByStore}</fo:block>
             <#if !showProductStore><fo:block font-size="10pt">${uiLabelMap.CommonFor} ${uiLabelMap.ProductProductStore}: ${parameters.productStoreId} - ${productReportList.get(0).storeName?if_exists}</fo:block></#if>
             <#if !showToParty><fo:block font-size="10pt">${uiLabelMap.PartyParty}: ${Static["org.ofbiz.party.party.PartyHelper"].getPartyName(delegator, toPartyId, false)}</fo:block></#if>
@@ -98,7 +99,7 @@ under the License.
         </fo:page-sequence>
 <#else>
     <fo:page-sequence master-reference="main">
-    <fo:flow flow-name="xsl-region-body" font-family="Helvetica">
+    <fo:flow flow-name="xsl-region-body" font-family="${defaultFontFamily}">
         <fo:block font-size="14pt">
             ${uiLabelMap.OrderNoOrderFound}.
         </fo:block>

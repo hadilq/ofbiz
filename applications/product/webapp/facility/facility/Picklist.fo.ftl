@@ -16,6 +16,7 @@ KIND, either express or implied.  See the License for the
 specific language governing permissions and limitations
 under the License.
 -->
+<#assign defaultFontFamily = Static["org.ofbiz.common.languageFontsMapping"].getFontFamily(locale)>
 
 <#escape x as x?xml>
 <fo:root xmlns:fo="http://www.w3.org/1999/XSL/Format">
@@ -124,7 +125,7 @@ under the License.
 </fo:layout-master-set>
 
 <fo:page-sequence master-reference="main">
-<fo:flow flow-name="xsl-region-body" font-family="Helvetica">
+<fo:flow flow-name="xsl-region-body" font-family="${defaultFontFamily}">
 
     <#if security.hasEntityPermission("FACILITY", "_VIEW", session)>
 
@@ -202,7 +203,7 @@ under the License.
         <#assign picklistBin = picklistBinInfo.picklistBin>
         <#assign picklistItemInfoList = picklistBinInfo.picklistItemInfoList?if_exists>
         <fo:page-sequence master-reference="main">
-        <fo:flow flow-name="xsl-region-body" font-family="Helvetica">
+        <fo:flow flow-name="xsl-region-body" font-family="${defaultFontFamily}">
             <fo:block text-align="right">
                 <fo:instream-foreign-object>
                     <barcode:barcode xmlns:barcode="http://barcode4j.krysalis.org/ns"

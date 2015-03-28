@@ -16,6 +16,7 @@ KIND, either express or implied.  See the License for the
 specific language governing permissions and limitations
 under the License.
 -->
+<#assign defaultFontFamily = Static["org.ofbiz.common.languageFontsMapping"].getFontFamily(locale)>
 <#escape x as x?xml>
     <fo:root xmlns:fo="http://www.w3.org/1999/XSL/Format">
         <fo:layout-master-set>
@@ -28,7 +29,7 @@ under the License.
         </fo:layout-master-set>
         
         <fo:page-sequence master-reference="main">
-            <fo:flow flow-name="xsl-region-body" font-family="Helvetica">
+            <fo:flow flow-name="xsl-region-body" font-family="${defaultFontFamily}">
                 <#include "component://order/webapp/ordermgr/order/companyHeader.fo.ftl"/>
                 <fo:table border-width="1pt" border-style="solid">
                     <fo:table-column column-width="250pt"/>
