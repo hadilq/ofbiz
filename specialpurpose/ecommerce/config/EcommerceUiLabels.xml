@@ -4575,7 +4575,7 @@
         <value xml:lang="de">Forum Inhalt Informationen bearbeiten</value>
         <value xml:lang="en">Edit Forum Content Info</value>
         <value xml:lang="es">Modificar información de contenido del fóro</value>
-        <value xml:lang="fa">ویرایش فرم اطلاعات تماس</value>
+        <value xml:lang="fa">ویرایش اطلاعات محتوای انجمن</value>
         <value xml:lang="fr">Modifier l'information contenue dans le forum</value>
         <value xml:lang="it">Aggiorna informazioni contenuto forum</value>
         <value xml:lang="ja">フォーラムコンテンツ情報を編集</value>
@@ -4614,7 +4614,7 @@
         <value xml:lang="de">Forum Artikel</value>
         <value xml:lang="en">Forum Article</value>
         <value xml:lang="es">Artículo de Foro</value>
-        <value xml:lang="fa">بازار مطلب</value>
+        <value xml:lang="fa">مطلب انجمن</value>
         <value xml:lang="fr">Article du forum</value>
         <value xml:lang="it">Articoli forum</value>
         <value xml:lang="ja">フォーラム記事</value>
@@ -4632,7 +4632,7 @@
         <value xml:lang="de">Forum Antwort</value>
         <value xml:lang="en">Forum Response</value>
         <value xml:lang="es">Respuesta de foro</value>
-        <value xml:lang="fa">بازار پاسخگویی</value>
+        <value xml:lang="fa">پاسخ انجمن</value>
         <value xml:lang="fr">Réponse du forum</value>
         <value xml:lang="it">Risposte forum</value>
         <value xml:lang="ja">フォーラム回答</value>
@@ -4650,7 +4650,7 @@
         <value xml:lang="de">Forum Zusammenfassung</value>
         <value xml:lang="en">Forum Summary</value>
         <value xml:lang="es">Resumen de fóro</value>
-        <value xml:lang="fa">بازار خلاصه</value>
+        <value xml:lang="fa">خلاصه انجمن</value>
         <value xml:lang="fr">Sommaire du forum</value>
         <value xml:lang="it">Sommario forum</value>
         <value xml:lang="ja">フォーラムサマリ</value>
@@ -5146,7 +5146,7 @@
         <value xml:lang="en">Shopping Cart</value>
         <value xml:lang="en_GB">Shopping basket</value>
         <value xml:lang="es">Carro de la Compra</value>
-        <value xml:lang="fa">کارت خرید</value>
+        <value xml:lang="fa">سبد خرید</value>
         <value xml:lang="fr">Panier</value>
         <value xml:lang="hi_IN">खरीदारी टोकरी</value>
         <value xml:lang="it">Carrello</value>

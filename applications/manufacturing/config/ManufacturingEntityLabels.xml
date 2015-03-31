@@ -49,7 +49,7 @@
     <property key="MrpEventType.description.MRP_REQUIREMENT">
         <value xml:lang="en">Mrp requirement</value>
         <value xml:lang="es">Requisito de Mrp</value>
-        <value xml:lang="fa">ملزوم MRP</value>
+        <value xml:lang="fa">ملزوم «برنامه‌ریزی ملزومات مواد (MRP)»</value>
         <value xml:lang="fr">Besoin Mrp</value>
         <value xml:lang="it">Fabbisogno Mrp</value>
         <value xml:lang="ja">MRP要求</value>

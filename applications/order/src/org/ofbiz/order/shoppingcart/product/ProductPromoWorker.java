@@ -37,6 +37,7 @@ import javolution.util.FastList;
 import javolution.util.FastMap;
 import javolution.util.FastSet;
 
+import org.ofbiz.base.util.Calendar;
 import org.ofbiz.base.util.Debug;
 import org.ofbiz.base.util.GeneralException;
 import org.ofbiz.base.util.UtilDateTime;
@@ -64,8 +65,6 @@ import org.ofbiz.service.ModelService;
 import org.ofbiz.service.ServiceUtil;
 import org.ofbiz.service.calendar.RecurrenceInfo;
 import org.ofbiz.service.calendar.RecurrenceInfoException;
-
-import com.ibm.icu.util.Calendar;
 
 /**
  * ProductPromoWorker - Worker class for catalog/product promotion related functionality
@@ -190,7 +189,7 @@ public class ProductPromoWorker {
                     GenericValue productPromoCode = productPromoCodesIter.next();
                     promoCodes.add(productPromoCode.getString("productPromoCodeId"));
                 }
-            } 
+            }
         } catch (GenericEntityException e) {
             Debug.logError(e, module);
         }
@@ -1169,7 +1168,7 @@ public class ProductPromoWorker {
                         return false;
                     } else {
                         BigDecimal orderSubTotal = (BigDecimal) result.get("totalSubRemainingAmount");
-                        BigDecimal orderSubTotalAndCartSubTotal = orderSubTotal.add(cart.getSubTotal()); 
+                        BigDecimal orderSubTotalAndCartSubTotal = orderSubTotal.add(cart.getSubTotal());
                         if (Debug.verboseOn()) Debug.logVerbose("Doing order history sub-total compare: orderSubTotal=" + orderSubTotal + ", for the last " + monthsToInclude + " months.", module);
                         compareBase = Integer.valueOf(orderSubTotalAndCartSubTotal.compareTo(new BigDecimal(condValue)));
                     }

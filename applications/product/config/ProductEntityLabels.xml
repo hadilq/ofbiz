@@ -67,7 +67,7 @@
         <value xml:lang="de">Effektive Wegkosten (Anlageverwendung)</value>
         <value xml:lang="en">Actual Route (fixed asset usage) Cost</value>
         <value xml:lang="es">Coste de ruta actual (uso de activo fijo)</value>
-        <value xml:lang="fa">هزینه واقعی حواله‌کردن (استفاده‌از دارایی ثابت)</value>
+        <value xml:lang="fa">هزینه واقعی حواله‌کردن (کاربرد دارایی ثابت)</value>
         <value xml:lang="fr">Coût réel d'itinéraire (utilisation d'immobilisation)</value>
         <value xml:lang="it">Costo effettivo ciclo (utilizzo cespiti)</value>
         <value xml:lang="ja">実績経路(固定資産使用)原価</value>
@@ -166,7 +166,7 @@
         <value xml:lang="de">Geschätzte Wegkosten (Anlageverwendung)</value>
         <value xml:lang="en">Estimated Standard Route (fixed asset usage) Cost</value>
         <value xml:lang="es">Coste estimado estándar de ruta (uso de activo fijo)</value>
-        <value xml:lang="fa">هزینه حواله‌کردن استاندارد انتظاری (استفاده‌از دارایی ثابت)</value>
+        <value xml:lang="fa">هزینه حواله‌کردن استاندارد انتظاری (کاربرد دارایی ثابت)</value>
         <value xml:lang="fr">Estimation standard de coût d'itinéraire (utilisation d'immobilisation)</value>
         <value xml:lang="it">Costo standard ciclo stimato (utilizzo cespiti)</value>
         <value xml:lang="ja">見積標準経路(固定資産使用)原価</value>
@@ -225,7 +225,7 @@
         <value xml:lang="de">Wegkosten (Anlageverwendung)</value>
         <value xml:lang="en">Route (fixed asset usage) Cost</value>
         <value xml:lang="es">Coste de ruta (uso de activo fijo)</value>
-        <value xml:lang="fa">هزینه حواله‌کردن (استفاده‌از دارایی ثابت)</value>
+        <value xml:lang="fa">هزینه حواله‌کردن (کاربرد دارایی ثابت)</value>
         <value xml:lang="fr">Coût d'itinéraire (utilisation d'immobilisation)</value>
         <value xml:lang="it">Costo ciclo (utilizzo cespiti)</value>
         <value xml:lang="ja">経路(固定資産使用)原価</value>
@@ -504,7 +504,7 @@
         <value xml:lang="de">ohne Seriennummern</value>
         <value xml:lang="en">Non-Serialized</value>
         <value xml:lang="es">Sin número de serie</value>
-        <value xml:lang="fa">مرتب-نشده</value>
+        <value xml:lang="fa">مرتب‌نشده</value>
         <value xml:lang="fr">Non en série</value>
         <value xml:lang="it">Non-serializzato</value>
         <value xml:lang="ja">複数個口でない</value>
@@ -775,7 +775,7 @@
         <value xml:lang="de">Stückliste Engineering</value>
         <value xml:lang="en">Engineering Bill of Materials</value>
         <value xml:lang="es">Lista de materiales de ingeniería</value>
-        <value xml:lang="fa">صورت‌حساب مواد مهندسی</value>
+        <value xml:lang="fa">صورت‌حساب‌کردن مواد مهندسی</value>
         <value xml:lang="fr">Nomenclatures d'étude</value>
         <value xml:lang="it">Distinta base ingegneria</value>
         <value xml:lang="ja">設計部品表(EBOM)</value>
@@ -790,7 +790,7 @@
         <value xml:lang="de">Stückliste Produktion</value>
         <value xml:lang="en">Manufacturing Bill of Materials</value>
         <value xml:lang="es">Lista de materiales de fabricación</value>
-        <value xml:lang="fa">صورت‌حساب مواد ساخت</value>
+        <value xml:lang="fa">صورت‌حساب‌کردن مواد ساخت</value>
         <value xml:lang="fr">Nomenclatures de fabrication</value>
         <value xml:lang="it">Distinta base produzione</value>
         <value xml:lang="ja">製造部品表(MBOM)</value>
@@ -1305,7 +1305,7 @@
         <value xml:lang="de">Verwendungszweck</value>
         <value xml:lang="en">Usage</value>
         <value xml:lang="es">Uso</value>
-        <value xml:lang="fa">استفاده‌از</value>
+        <value xml:lang="fa">کاربرد</value>
         <value xml:lang="fr">Usage</value>
         <value xml:lang="it">Uso</value>
         <value xml:lang="ja">用途</value>
@@ -1668,7 +1668,7 @@
         <value xml:lang="de">Bild Alt Text - Long</value>
         <value xml:lang="en">Image Alt Text - Large</value>
         <value xml:lang="es">Texto alternativo de la imagen - grande</value>
-        <value xml:lang="fa">متن جایگزین عکل - بزرگ</value>
+        <value xml:lang="fa">متن جایگزین عکس - بزرگ</value>
         <value xml:lang="fr">Texte alternatif de l'image - Long</value>
         <value xml:lang="it">Immagine testo alternativo - grande</value>
         <value xml:lang="ja">画像代替(Alt)テキスト - 大</value>
@@ -2990,7 +2990,7 @@
         <value xml:lang="de">Benützungsgebühr</value>
         <value xml:lang="en">Usage Charge</value>
         <value xml:lang="es">Cargo de uso</value>
-        <value xml:lang="fa">هزینه استفاده‌از</value>
+        <value xml:lang="fa">هزینه کاربرد</value>
         <value xml:lang="fr">Charge/coût d'usage</value>
         <value xml:lang="it">Usa ricarico</value>
         <value xml:lang="ja">使用手数料</value>
@@ -3158,7 +3158,7 @@
         <value xml:lang="de">Benutzungsgebühr</value>
         <value xml:lang="en">Usage Charge</value>
         <value xml:lang="es">Cargo por uso</value>
-        <value xml:lang="fa">هزینه استفاده‌از</value>
+        <value xml:lang="fa">هزینه کاربرد</value>
         <value xml:lang="fr">Charge d'utilisation</value>
         <value xml:lang="it">Uso Ricarico</value>
         <value xml:lang="ja">使用手数料</value>
@@ -3240,7 +3240,7 @@
         <value xml:lang="de">Anlageverwendung</value>
         <value xml:lang="en">Fixed Asset Usage</value>
         <value xml:lang="es">Uso de activo fijo</value>
-        <value xml:lang="fa">استفاده‌از دارایی ثابت</value>
+        <value xml:lang="fa">کاربرد دارایی ثابت</value>
         <value xml:lang="fr">Usage d'immobilisation</value>
         <value xml:lang="it">Uso cespite</value>
         <value xml:lang="ja">固定資産使用</value>
@@ -3396,7 +3396,7 @@
         <value xml:lang="de">In Arbeit</value>
         <value xml:lang="en">Work In Process</value>
         <value xml:lang="es">Trabajo en proceso</value>
-        <value xml:lang="fa">کار درحال‌اجراء</value>
+        <value xml:lang="fa">کار درحال اجراء</value>
         <value xml:lang="fr">Travaux</value>
         <value xml:lang="it">Semilavorato</value>
         <value xml:lang="ja">仕掛品</value>
@@ -3411,7 +3411,7 @@
         <value xml:lang="de">Preiskomponente Auftragswert Sprung</value>
         <value xml:lang="en">Price Component Order Value Break</value>
         <value xml:lang="es">Dividir el valor de la orden en precios de sus componentes</value>
-        <value xml:lang="fa">آستانه مقدار سفارش مولفه قیمت</value>
+        <value xml:lang="fa">آستانه ارزش سفارش مولفه قیمت</value>
         <value xml:lang="fr">Rupture par valeur à la commande des prix de composant</value>
         <value xml:lang="it">Intervallo prezzo componente valore ordine</value>
         <value xml:lang="ja">価格コンポーネント注文値見直</value>
@@ -3925,7 +3925,7 @@
     </property>
     <property key="FieldDescription.ProdCatalog.catalogName">
         <value xml:lang="en">This will be shown to your customers, so think of image when giving your catalog a name.</value>
-        <value xml:lang="fa">این برای مشتریان شما به نمایش در خواهد‌امد، بنابراین برای نام رده‌بندی کمی فکر کنید.</value>
+        <value xml:lang="fa">این برای مشتریان شما به نمایش در خواهد‌امد، بنابراین برای نام رده‌بندی کمی بیشتر فکرکنید.</value>
         <value xml:lang="ja">これは顧客に表示されます、カタログに名前をつける時にイメージを考えてください。</value>
         <value xml:lang="vi">Phần này sẽ hiển thị tới khách hàng của bạn, hãy nghĩ về hình ảnh hi bạn đưa đến một cái tên danh mục.</value>
         <value xml:lang="zh">这会显示给的客户，所以在命名你的目前前想像一下这个情况。</value>
@@ -3967,14 +3967,14 @@
     </property>
     <property key="FieldDescription.ProdCatalog.viewAllowPermReqd">
         <value xml:lang="en">If Y, administrators can only add products to 'View Allow' categories if they have the permission CATALOG_VIEW_ALLOW</value>
-        <value xml:lang="fa">اگر «ب»، رئیس‌ها تنها می‌توانند محصول را به دسته‌بندی‌های «اجازه نمایش» اضافه‌کنند اگر آن‌ها مجوز CATALOG_VIEW_ALLOW را داشته‌باشند</value>
+        <value xml:lang="fa">اگر «ب»، رئیس‌ها فقط می‌توانند محصولات را به دسته‌بندی‌های «اجازه نمایش» اضافه‌کنند اگر آن‌ها اجازه CATALOG_VIEW_ALLOW را داشته‌باشند</value>
         <value xml:lang="ja">Y の場合、CATALOG_VIEW_ALLOW 権限をもつ管理者のみが'表示許可'カテゴリに製品を追加することができます。</value>
         <value xml:lang="vi">Nếu Y , các quản trị viên chỉ có thể thêm danh mục sản phẩm 'Cho phép xem' nếu họ có quyền CATALOG_VIEW_ALLOW</value>
         <value xml:lang="zh">如果设为Y，管理员只能把产品添加到有 CATALOG_VIEW_ALLOW 权限的、'允许浏览'的分类</value>
     </property>
     <property key="FieldDescription.ProdCatalog.purchaseAllowPermReqd">
         <value xml:lang="en">If Y, administrators can only add products to 'Purchase Allow' categories if they have the permission CATALOG_VIEW_ALLOW</value>
-        <value xml:lang="fa">اگر «ب»، رئیس‌ها تنها می‌توانند محصول را به دسته‌بندی‌های «اجازه خرید» اضافه‌کنند اگر آن‌ها مجوز CATALOG_VIEW_ALLOW را داشته‌باشند</value>
+        <value xml:lang="fa">اگر «ب»، رئیس‌ها فقط می‌توانند محصولات را به دسته‌بندی‌های «اجازه خرید» اضافه‌کنند اگر آن‌ها اجازه CATALOG_VIEW_ALLOW را داشته‌باشند</value>
         <value xml:lang="ja">Y の場合、CATALOG_VIEW_ALLOW 権限をもつ管理者のみが'購入許可'カテゴリに製品を追加することができます。</value>
         <value xml:lang="vi">Nếu Y, các quản trị viên chỉ có thể thêm danh mục sản phẩm 'Cho phép mua' nếu họ có quyền CATALOG_VIEW_ALLOW</value>
         <value xml:lang="zh">如果设为Y，管理员只能把产品添加到有 CATALOG_PURCHASE_ALLOW 权限的、'允许采购'的分类</value>
@@ -4043,7 +4043,7 @@
         <value xml:lang="zh">是否捕获手工授权问题的是/否（Y/N）选项的下拉框。</value>
     </property>
     <property key="FieldDescription.ProductStore.prorateShipping">
-        <value xml:lang="en">When some share of the cost of shipping is covered under an account other than the bill-to.</value> <value xml:lang="fa">زمانی که بعضی هزینه‌های حمل مشترک پوشش داده‌شده‌باشند در زیر یک حساب به غیر از صورت‌حساب‌کردن-به.</value>
+        <value xml:lang="en">When some share of the cost of shipping is covered under an account other than the bill-to.</value> <value xml:lang="fa">زمانی که بعضی هزینه‌های حمل مشترک پوشش داده‌شده‌باشند در زیر یک حساب به‌غیر از صورت‌حساب‌کردن-به.</value>
         <!--  TODO - what does this really mean? -->
         <value xml:lang="ja">請求先以外のアカウントでいつ共有の発送原価が含まれますか。</value>
         <value xml:lang="vi">Khi một số chia sẻ chi phí vận chuyển được chi trả dưới một tài khoản khác hơn so với hóa đơn.</value>
@@ -4086,7 +4086,7 @@
     </property>
     <property key="FieldDescription.ProductStore.isDemoStore">
         <value xml:lang="en">If Yes, any orders created will not be sent, credit card charges will not be made, etc.</value>
-        <value xml:lang="fa">اگر بله، هر سفارشی که ساخته‌شود فرستاده‌نخواهدشد، هزینه‌های کارت اعتباری  و غیره محسوب نمی‌شوند.</value>
+        <value xml:lang="fa">اگر بله، هر سفارشی که ساخته‌شده فرستاده‌نخواهدشد، هزینه‌های کارت اعتباری  و غیره محسوب نمی‌شوند.</value>
         <value xml:lang="zh">如果是，则不会发送任何新建的订单，也不会对信用卡收费等。</value>
     </property>
     <property key="FieldDescription.ProductStore.isImmediatelyFulfilled">
@@ -4131,14 +4131,14 @@
     </property>
     <property key="FieldDescription.ProductStore.requireInventory">
         <value xml:lang="en">If sufficient inventory not on hand, order will not be processed when this flag is set to Yes.</value>
-        <value xml:lang="fa">اگر مقدار کافی از موجودی‌کالا روی دست نباشد، سفارشات پردازش نخواهندشد زمانی که این پرچم بله باشد.</value>
+        <value xml:lang="fa">اگر مقدار کافی از موجودی‌کالا «روی دست» نباشد، سفارش پردازش نخواهدشد زمانی که این پرچم بله باشد.</value>
         <value xml:lang="ja">このフラグを Y にセットすると、手元に十分な在庫がない場合、注文は処理されません。</value>
         <value xml:lang="vi">Nếu đủ hàng trong kho, đặt hàng sẽ không được thực hiện khi cài đặt này được đánh dấu là YES</value>
         <value xml:lang="zh">如果手头库存不足，当这个标志设置为是时，将不再处理订单。</value>
     </property>
     <property key="FieldDescription.ProductStore.balanceResOnOrderCreation">
         <value xml:lang="en">If set to Y, when a new sales order is created with backordered items, then reservations on the facility/product are reassigned according to the priority given by the shipBeforeDate field.</value>
-        <value xml:lang="fa">اگر «ب» ثبت‌شده‌باشد، در زمان ساخته‌شدن سفارش فروش جدید با اقلام یپش‌خریدشده، رزروهای تسهیلات/محصول دوباره بر اساس بخش «حمل قبل‌از تاریخ» محاسبه‌می‌شوند.</value>
+        <value xml:lang="fa">اگر «ب» ثبت‌شده‌باشد، در زمان ساخته‌شدن سفارش فروش جدید با اقلام پیش‌خریدشده، رزروهای تسهیلات/محصول دوباره بر اساس اولویتی که بخش «حمل قبل‌از تاریخ» می‌دهد محاسبه‌می‌شوند.</value>
         <value xml:lang="ja">Y にセットした場合、発送待ちのアイテムで新規販売注文が作成されると、発送期限日で与えられた優先順位にしたがって拠点/製品の予約が再割当されます。</value>
         <value xml:lang="vi">Nếu cài đặt là Y, khi một đặt hàng mới được tạo ra với sản phẩm được đặt gia công, sau đó sự hạn chế đối với cơ sở/sản phẩm sẽ được tái chuyển giao tới đơn vị ủy quyền và cài đặt trường giao hàng trước ngày (shipBeforeDate).</value>
         <value xml:lang="zh">如果设置为是（Y），当为缺货商品新建一个销售订单时，那么会按照最晚送货日期（shipBeforeDate）指定的优先级来重新分配预留的场所/商品。</value>
@@ -4159,7 +4159,7 @@
     </property>
     <property key="FieldDescription.ProductStore.defaultLocaleString">
         <value xml:lang="en">Default locale, for language, number, and currency formats.</value>
-        <value xml:lang="fa">مکان پیش‌فرض، برای زبان، اعداد، و فرمت‌های ارز.</value>
+        <value xml:lang="fa">محل پیش‌فرض، برای زبان، اعداد، و فرمت‌های ارز.</value>
         <value xml:lang="ja">デフォルトの地域。言語、数値、および通貨の書式を指定します。</value>
         <value xml:lang="vi">Khu vực mặc định, cho ngôn ngữ, con số và loại tiền tệ.</value>
         <value xml:lang="zh">缺省语言，用于文字、数字和币种格式。</value>
@@ -4230,14 +4230,14 @@
     </property>
     <property key="FieldDescription.ProductStore.itemApprovedStatus">
         <value xml:lang="en">What to set order items status to when orders are approved, declined, or canceled. Based on the standard defined status codes in Open for Business.</value>
-        <value xml:lang="fa">چه وضعیت قلم سفارشی برای زمانی که سفارشات تصویب‌شده، نزول‌‌کرده یا لغوشده باشند ثبت‌شود؟ برپایه کد وضعیت تعریف‌شده استاندارد در OFBiz.</value>
+        <value xml:lang="fa">چه وضعیت اقلام سفارشی برای زمانی که سفارشات تصویب‌شده، نزول‌کرده یا لغوشده باشند ثبت‌شود؟ برپایه کد وضعیت تعریف‌شده استاندارد در OFBiz.</value>
         <value xml:lang="ja">注文が承認、否認、または取消された時に、注文アイテムステータスに何を設定しますか。OFBizで標準定義されたステータスコードに基づきます。</value>
         <value xml:lang="vi">Để thiết lập trật tự các mục tình trạng khi đơn đặt hàng được phê duyệt , từ chối hoặc hủy bỏ. Dựa trên mã trạng thái quy định tiêu chuẩn mở cho doanh nghiệp.</value>
         <value xml:lang="zh">当订单被批准、被拒绝或被取消时，把订单明细设置成什么状态。基于OFBiz中定义的标准状态代码。</value>
     </property>
     <property key="FieldDescription.ProductStore.digitalItemApprovedStatus">
         <value xml:lang="en">What to set order items status to when Digital Item orders are approved, declined, or canceled. Based on the standard defined status codes in Open for Business.</value>
-        <value xml:lang="fa">چه وضعیت اقلام سفارش برای زمانی که سفارشات قلم دیجیتال تصویت‌شده، نزول‌کرده یا لغوشده باشند ثبت‌شود؟ برپایه کد وضعیت تعریف‌شده استاندارد در OFBiz.</value>
+        <value xml:lang="fa">چه وضعیت اقلام سفارش برای زمانی که سفارشات قلم دیجیتال تصویب‌شده، نزول‌کرده یا لغوشده باشند ثبت‌شود؟ برپایه کد وضعیت تعریف‌شده استاندارد در OFBiz.</value>
         <value xml:lang="ja">デジタル商品の注文が承認、否認、または取消された時に、注文アイテムステータスに何を設定しますか。OFBizで標準定義されたステータスコードに基づきます。</value>
         <value xml:lang="vi">Để thiết lập trật tự các mục tình trạng khi các đơn đặt hàng mục kỹ thuật số được phê duyệt , từ chối hoặc hủy bỏ. Dựa trên các mã trạng thái quy định tiêu chuẩn mở cho doanh nghiệp.</value>
         <value xml:lang="zh">当数字产品明细订单被批准、被拒绝或被取消时，把订单明细设置成什么状态。基于OFBiz中定义的标准状态代码。</value>
@@ -4251,7 +4251,7 @@
     </property>
     <property key="FieldDescription.ProductStore.itemDeclinedStatus">
         <value xml:lang="en">This is the message you want the customer to see when one of their items is declined for some reason.</value>
-        <value xml:lang="fa">این پیامی‌است که شما می‌خواهید مشتریانتان زمانی که سفارششان به دلایلی نزول‌کرده است ببینند.</value>
+        <value xml:lang="fa">این پیامی‌است که شما می‌خواهید مشتریانتان زمانی که یکی از اقلام‌شان به دلیلی نزول‌کرده است ببینند.</value>
         <value xml:lang="ja">何らかの理由で注文の一部が否認された時に顧客に見せたいメッセージを指定します。</value>
         <value xml:lang="vi">Tin nhắn mà bạn muốn khách hàng của bạn nhìn thấy khi đặt hàng của họ bị từ chối vì một số lý do nào đó</value>
         <value xml:lang="zh">当客户的明细中的一个因某种原因被拒绝时，这是你想要他看到的信息。</value>
@@ -4272,7 +4272,7 @@
     </property>
     <property key="FieldDescription.ProductStore.authDeclinedMessage">
         <value xml:lang="en">Message shown when payment authorization is declined.</value>
-        <value xml:lang="fa">این پیامی‌است که شما می‌خواهید مشتریانتان زمانی که مجوز پرداختشان داده‌نشده است ببینند.</value>
+        <value xml:lang="fa">این پیامی‌است که شما می‌خواهید مشتریانتان زمانی که مجوز پرداختشان نزول‌کرده است ببینند.</value>
         <value xml:lang="ja">支払承認が否認された時に表示されるメッセージ。</value>
         <value xml:lang="vi">Tin nhắn hiển thị sự cho phép thanh toán bị từ chối</value>
         <value xml:lang="zh">当支付授权被拒绝时，显示的信息。</value>
@@ -4306,7 +4306,7 @@
     </property>
     <property key="FieldDescription.ProductStore.usePrimaryEmailUsername">
         <value xml:lang="en">If set to Y then in the create customer form no entry box will be presented for a username - the primary email address will be used for username.</value>
-        <value xml:lang="fa">اگز «ب» ثبت‌شده‌باشد آنگاه در فرم ساخت مشتری برای نام‌کاربری هیچ بخشی نمایش‌داده‌نخواهدشد- آدرس ایمیل اولیه به عنوان نام‌کاربری استفاده‌خواهدشد.</value>
+        <value xml:lang="fa">اگز «ب» ثبت‌شده‌باشد آنگاه در فرم ساخت مشتری برای نام‌کاربری هیچ جعبه‌ ورودی‌ای نمایش‌داده‌نخواهدشد- آدرس ایمیل اولیه به عنوان نام‌کاربری استفاده‌خواهدشد.</value>
         <!-- If set to N, the default, there is a checkbox a user can select to use the email address as a username, but they also have the option of entering a username. -->
         <value xml:lang="zh">如果设为是（Y），那么在创建用户的表单中将没有用户名 —— 会使用首选电子邮件地址作为用户名。</value>
     </property>
@@ -4324,7 +4324,7 @@
     </property>
     <property key="FieldDescription.ProductStore.reqShipAddrForDigItems">
         <value xml:lang="en">Require Shipping Address for Digital Items? Note this only has an effect if there are ONLY digital goods in the cart.</value>
-        <value xml:lang="fa">آدرس حمل لازم‌است برای اقلام دیجیتال؟ دقت داشته‌باشد فقط برای کالاهای دیجیتال در سبد این مورد تاثیرخواهدداشت.</value>
+        <value xml:lang="fa">آدرس حمل لازم‌است برای اقلام دیجیتال؟ دقت‌داشته‌باشد فقط برای کالاهای دیجیتال در سبد این مورد تاثیرخواهدداشت.</value>
         <value xml:lang="ja">デジタル商品に対して発送先住所を必要としますか? これは買い物かごにあるデジタル商品に対してのみ意味をもちます。</value>
         <value xml:lang="vi">Yêu cầu địa chỉ giao hàng cho sản phẩm kỹ thuật số? Lưu ý rằng phần này chỉ áp dụng nếu chỉ có sản phẩm kỹ thuật số trong giỏ hàng.</value>
         <value xml:lang="zh">数字产品明细必须有送货地址？注意：这仅在购物车中只有数字商品时有效。</value>
@@ -4337,7 +4337,7 @@
     </property>
     <property key="FieldDescription.ProductStore.selectPaymentTypePerItem">
         <value xml:lang="en">If Yes, allows customer to pay for some order items with one payment type, others with another type.</value>
-        <value xml:lang="fa">اگز «ب» باشد آنگاه به مشتری اجازه‌داده‌میشود که برای اقلام سفارش یک نوع پرداخت و برای دیگران نوع دیگری را استفاده‌کند.</value>
+        <value xml:lang="fa">اگز «ب» باشد آنگاه به مشتری اجازه‌داده‌میشود که برای پرداختن برخی اقلام سفارش از یک نوع پرداخت و برای دیگران از نوع دیگری استفاده‌کند.</value>
         <value xml:lang="ja">はいの場合、顧客はいくつかの注文アイテムに対して1つの支払種類が選択でき、それ以外は別の種類を選択できます。</value>
         <value xml:lang="vi">Nếu có, cho phép khách hàng trả tiền cho các sản phẩm đặt hàng với một kiểu thanh toán, loại khác với kiểu khác.</value>
         <value xml:lang="zh">如果是，允许客户为一些订单明细使用一种支付类型，为其它的明细使用另一种支付类型。</value>
@@ -4400,28 +4400,28 @@
     </property>
     <property key="FieldDescription.ProductStore.autoOrderCcTryExp">
         <value xml:lang="en">For auto-orders try other Credit Card expiration dates (if date is wrong or general failure where type not known).</value>
-        <value xml:lang="fa">برای سفارش-خودکار، تاریخ‌های انقضاء کارت اعتباری را امتحان‌کنید (اگر تاریخ اشتباه است یا درحالت کلی شکست در نوع نامشخص وجوددارد).</value>
+        <value xml:lang="fa">برای سفارشات-خودکار، تاریخ‌های انقضاء کارت اعتباری دیگری را امتحان‌کنید (اگر تاریخ اشتباه است یا درحالت کلی شکست در نوع نامشخص وجوددارد).</value>
         <value xml:lang="ja">自動注文に対して、別のクレジットカード有効期限日を試行します (日付誤りまたは種類不明の一般例外の場合)。</value>
         <value xml:lang="vi">Dành cho việc đặt hàng tự động thử sử dụng Thẻ tín dụng đã hết hạn (nếu sai ngày hoặc các lỗi thực tế từ kiểu ngày).</value>
         <value xml:lang="zh">对于自动生成的订单，尝试其它信用卡失效日期（如果发生日期错误或类型未知的通用错误）。</value>
     </property>
     <property key="FieldDescription.ProductStore.autoOrderCcTryOtherCards">
         <value xml:lang="en">For auto-orders try other Credit Cards for the customer.</value>
-        <value xml:lang="fa">برای سفارش-خودکار دیگر کارت‌های اعتباری را برای مشتری امتحان‌کنید.</value>
+        <value xml:lang="fa">برای سفارشات-خودکار دیگر کارت‌های اعتباری را برای مشتری امتحان‌کنید.</value>
         <value xml:lang="ja">自動注文に対して、顧客に別のクレジットカードを試行します。</value>
         <value xml:lang="vi">Dành cho việc đặt hàng tự động thử sử dụng Thẻ tín dụng khác</value>
         <value xml:lang="zh">对于自动生成的订单，尝试客户的其它信用卡。</value>
     </property>
     <property key="FieldDescription.ProductStore.autoOrderCcTryLaterNsf">
         <value xml:lang="en">For auto-orders if Credit Cards fails for NSF (Not Sufficient Funds) try again later.</value>
-        <value xml:lang="fa">برای سفارش-خودکار اگر کارت‌های اعتباری شکست‌خوردند برای «سرمایه‌گذاری‌ها کافی نمی‌باشند» (NFS) بعدا دوباره امتحان‌کنید.</value>
+        <value xml:lang="fa">برای سفارشات-خودکار اگر کارت‌های اعتباری شکست‌خوردند برای «سرمایه‌گذاری‌ها کافی نمی‌باشند» (NFS) بعدا دوباره امتحان‌کنید.</value>
         <value xml:lang="ja">自動注文に対して、クレジットカードの限度額不足(NSF)の場合、後で再試行します。</value>
         <value xml:lang="vi">Dành cho việc tự động đặt hàng nếu Thẻ tín dụng bị lỗi cho phép NSF thực hiện lại sau.</value>
         <value xml:lang="zh">对于自动生成的订单，如果信用卡发生余额不足的错误，稍后再试。</value>
     </property>
     <property key="FieldDescription.ProductStore.autoOrderCcTryLaterMax">
         <value xml:lang="en">For auto-orders if Credit Cards fails for NSF try again how many times.</value>
-        <value xml:lang="fa">برای سفارش-خودکار اگر کارت‌های اعتباری شکست‌خوردند برای «موجودی کافی نمی‌باشد» (NFS) چنبستانده‌بار امتحان‌نمایید.</value>
+        <value xml:lang="fa">برای سفارشات-خودکار اگر کارت‌های اعتباری شکست‌خوردند برای «موجودی کافی نمی‌باشد» (NFS) چنبستانده‌بار امتحان‌نمایید.</value>
         <value xml:lang="ja">自動注文に対して、クレジットカードの限度額不足(NSF)の場合、再試行回数。</value>
         <value xml:lang="vi">Dành cho việc tự động đặt hàng nếu Thẻ tín dụng bị lỗi cho phép NSF thực hiện lại bao nhiêu lần.</value>
         <value xml:lang="zh">对于自动生成的订单，如果信用卡余额不足，再尝试多少次。</value>

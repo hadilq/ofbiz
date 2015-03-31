@@ -63,7 +63,7 @@
     <property key="getPreference.permissionError">
         <value xml:lang="en">Permissions error while getting user preferences</value>
         <value xml:lang="es">Error de permisos al obtener las preferencias del usuario</value>
-        <value xml:lang="fa">خطا در مجوزها در هنگام دریافت ترجیحات کاربر</value>
+        <value xml:lang="fa">خطا در اجازه‌ها در هنگام دریافت‌کردن ترجیحات کاربر</value>
         <value xml:lang="fr">Erreur de permissions tout en obtenant des préférences d'utilisateur</value>
         <value xml:lang="it">Errore di permesso durante la lettura delle preferenza utente</value>
         <value xml:lang="ja">ユーザ設定の読取時に権限エラーが発生しました</value>

@@ -89,7 +89,7 @@
         <value xml:lang="de">Fehler beim Holen des Bild Datensatzes von acquireImage</value>
         <value xml:lang="en">Error getting image record from acquireImage</value>
         <value xml:lang="es">Error al obtener la imagen a partir de la captura de imagenes</value>
-        <value xml:lang="fa">خطا در گرفتن سابقه عکس از «عکس موجود»</value>
+        <value xml:lang="fa">خطا در دریافت‌کردن سابقه عکس از «عکس موجود»</value>
         <value xml:lang="fr">Erreur d'obtention de compte-rendu d'image depuis acquireImage</value>
         <value xml:lang="it">Errore lettura record immagine da aquireImage</value>
         <value xml:lang="ja">取込画像の画像レコード取得時エラー</value>

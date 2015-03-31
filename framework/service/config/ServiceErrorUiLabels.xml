@@ -36,7 +36,7 @@
         <value xml:lang="de">Sie haben keine Berechtigung, diese Aktion für diesen Akteur auszuführen</value>
         <value xml:lang="en">You do not have permission to perform this operation for this party</value>
         <value xml:lang="es">Usted no cuenta con permisos para realizar la acción</value>
-        <value xml:lang="fa">شما مجوز لازم برای اجراء این عملیات برای این هویت را ندارید</value>
+        <value xml:lang="fa">شما اجازه لازم برای اجراء این عملیات برای این هویت را ندارید</value>
         <value xml:lang="fr">Vous n'avez pas l'autorisation pour effectuer cette opération</value>
         <value xml:lang="it">Non hai il permesso per eseguire questa operazione per questo soggetto</value>
         <value xml:lang="ja">この取引先に対してこの操作を実行する権限がありません</value>
@@ -50,7 +50,7 @@
         <value xml:lang="de">Sie haben keine Berechtigung, diesen Service auszuführen</value>
         <value xml:lang="en">You do not have permission to run this service</value>
         <value xml:lang="es">Usted no cuenta con permisos para realizar la acción</value>
-        <value xml:lang="fa">شما مجوز برای اجراء این سرویس را ندارید</value>
+        <value xml:lang="fa">شما اجازه برای اجراء این سرویس را ندارید</value>
         <value xml:lang="fr">Vous n'avez pas l'autorisation pour effectuer ce service</value>
         <value xml:lang="it">Non hai il permesso di eseguire questo servizio</value>
         <value xml:lang="ja">このサービスを実行する権限がありません</value>
@@ -188,35 +188,35 @@
     </property>
     <property key="ServiceTestLockWaitTimeoutRetryGrabber">
         <value xml:lang="en">Entity Engine Exception running lock wait timeout test Grabber thread: ${errorString}</value>
-        <value xml:lang="fa">استثناء موتور نهاد رشته قلاب تست انقضاء انتظار قفل را اجراء می‌کند: ${errorString}</value>
+        <value xml:lang="fa">استثناء موتور نهاد، رشته قلاب تست منقضی انتظار قفل را اجراء می‌کند: ${errorString}</value>
         <value xml:lang="it">Eccezione Entity Engine durante l'esecuzione del lock wait timeout test Grabber thread: ${errorString}</value>
         <value xml:lang="ja">ロック待タイムアウトテスト獲得スレッド実行中にエンティティエンジン例外: ${errorString}</value>
         <value xml:lang="zh">运行锁等待超时测试采集程序线程时发生实体引擎意外：${errorString}</value>
     </property>
     <property key="ServiceTestLockWaitTimeoutRetryWaiter">
         <value xml:lang="en">Entity Engine Exception running lock wait timeout test Grabber thread: ${errorString}</value>
-        <value xml:lang="fa">استثناء موتور نهاد رشته قلاب تست انقضاء انتظار قفل را اجراء می‌کند: ${errorString}</value>
+        <value xml:lang="fa">استثناء موتور نهاد، رشته قلاب تست منقضی انتظار قفل را اجراء می‌کند: ${errorString}</value>
         <value xml:lang="it">Eccezione Entity Engine durante l'esecuzione del lock wait timeout test Grabber thread: ${errorString}</value>
         <value xml:lang="ja">ロック待タイムアウトテスト待機スレッド実行中にエンティティエンジン例外: ${errorString}</value>
         <value xml:lang="zh">运行锁等待超时测试采集程序线程时发生实体引擎意外：${errorString}</value>
     </property>
     <property key="ServiceTestLockInterruptedExceptionRetryGrabber">
         <value xml:lang="en">Wait Interrupted Exception running lock wait timeout test Grabber thread: ${errorString}</value>
-        <value xml:lang="fa">استثناء تفسیر انتظار رشته قلاب تست انقضاء انتظار قفل را اجراء می‌کند: ${errorString}</value>
+        <value xml:lang="fa">استثناء تفسیرشده انتظار، رشته قلاب تست منقضی انتظار قفل را اجراء می‌کند: ${errorString}</value>
         <value xml:lang="it">Eccezione Wait Interrupted Exception durante l'esecuzione del lock wait timeout test Grabber thread: ${errorString}</value>
         <value xml:lang="ja">ロック待タイムアウトテスト獲得スレッド実行中にウェイト割込例外: ${errorString}</value>
         <value xml:lang="zh">运行锁等待超时测试采集程序线程时发生等待中断意外：${errorString}</value>
     </property>
     <property key="ServiceTestLockInterruptedExceptionRetryWaiter">
         <value xml:lang="en">Wait Interrupted Exception running lock wait timeout test Waiter thread: ${errorString}</value>
-        <value xml:lang="fa">استثناء تفسیر انتظار رشته قلاب تست انقضاء انتظار قفل را اجراء می‌کند: ${errorString}</value>
+        <value xml:lang="fa">استثناء تفسیرشده انتظار، رشته قلاب تست منقضی انتظار قفل را اجراء می‌کند: ${errorString}</value>
         <value xml:lang="it">Eccezione Wait Interrupted Exception durante l'esecuzione del lock wait timeout test Waiter thread: ${errorString}</value>
         <value xml:lang="ja">ロック待タイムアウトテスト待機スレッド実行中にウェイト割込例外: ${errorString}</value>
         <value xml:lang="zh">运行锁等待超时测试等待程序线程时发生等待中断意外：${errorString}</value>
     </property>
     <property key="ServiceTestLockWaitTimeoutRetryCantRecoverWaiter">
         <value xml:lang="en">Error running testServiceLockWaitTimeoutRetryCantRecoverWaiter</value>
-        <value xml:lang="fa">خطا در اجراء «منتظر بازیابی  بیان تلاش‌مجدد انقضاء انتظار قفل سرویس تست»</value>
+        <value xml:lang="fa">خطا در اجراء «منتظر بازیابی  بیان تلاش‌مجدد منقضی انتظار قفل سرویس تست»</value>
         <value xml:lang="it">Errore durante l'esecuzione di testServiceLockWaitTimeoutRetryCantRecoverWaiter</value>
         <value xml:lang="ja">testServiceLockWaitTimeoutRetryCantRecoverWaiter実行中にエラー</value>
         <value xml:lang="zh">运行测试服务锁等待程序超时重试不能恢复等待（testServiceLockWaitTimeoutRetryCantRecoverWaiter）时出错</value>
@@ -237,7 +237,7 @@
     </property>
     <property key="ServiceTestOwnTxSubServiceAfterSetRollbackOnlyInParent">
         <value xml:lang="en">Error running sub-service in testServiceOwnTxSubServiceAfterSetRollbackOnlyInParent</value>
-        <value xml:lang="fa">خطا در زیر-سرویس «زیر سرویس own tx سرویس تست بعد از فقط عقب‌گرد در والد»</value>
+        <value xml:lang="fa">خطا در اجراء زیر-سرویس «زیر سرویس own tx سرویس تست بعد از فقط عقب‌گرد در والد»</value>
         <value xml:lang="it">Errore durante l'esecuzione di testServiceOwnTxSubServiceAfterSetRollbackOnlyInParent</value>
         <value xml:lang="ja">testServiceOwnTxSubServiceAfterSetRollbackOnlyInParentの中のサブサービス実行中にエラー</value>
         <value xml:lang="zh">运行在上级服务中设置了仅回滚后的带有事务处理子服务的测试服务（testServiceOwnTxSubServiceAfterSetRollbackOnlyInParent）中的子服务时出错</value>
@@ -251,7 +251,7 @@
     </property>
     <property key="ServiceTestSubServiceError">
         <value xml:lang="en">Error calling sub-service, it should return an error but not throw an exception, so something went wrong: ${errorString}</value>
-        <value xml:lang="fa">خطا در فراخوانی زیر-سرویس، باید خطایی را بازگرداند ولی استثناءی رخ نداد، بنابراین چیزی اشتباه است: ${errorString}</value>
+        <value xml:lang="fa">خطا در فراخوانی زیر-سرویس، باید خطایی را بازگرداند ولی استثناءی رخ نداده، بنابراین چیزی اشتباه است: ${errorString}</value>
         <value xml:lang="it">Errore durante l'esecuzione del sotto-servizio, dovrebbe restituire un'errore ma non generare un'eccezione, così qualcosa è andato male: ${errorString}</value>
         <value xml:lang="ja">サブサービス呼び出し中にエラー。エラーを戻しましたが例外がスローされませんでした。なにか誤りがあります: ${errorString}</value>
         <value xml:lang="zh">调用子服务时出错，它应该返回一个错误，而不是抛出一个意外，因此发生了错误：${errorString}</value>

@@ -48,7 +48,7 @@
         <value xml:lang="da">Fejl forhinder dokumentet i at blive fuldt ud oversat</value>
         <value xml:lang="en">Error prevents the document from being fully parsed</value>
         <value xml:lang="es">Un error evita que el documento sea completamente analizado</value>
-        <value xml:lang="fa">خطا سند را از تحلیل‌شدن بازداشته‌است</value>
+        <value xml:lang="fa">خطا سند را از تجزیه‌شدن بازداشته‌است</value>
         <value xml:lang="fr">Une erreur empêche que le document soit entièrement analysé</value>
         <value xml:lang="hi_IN">त्रुटि दस्तावेज़ को पूरी तरह पार्स करने से रोक रही है</value>
         <value xml:lang="it">Errore previene il documento da essere completamente parsato</value>
@@ -64,7 +64,7 @@
         <value xml:lang="da">Der opstod fejl under oversættelse</value>
         <value xml:lang="en">Errors occured during parsing</value>
         <value xml:lang="es">Se produjeron errores durante el análisis</value>
-        <value xml:lang="fa">در طول تکمیل شدن خطایی روی داده است</value>
+        <value xml:lang="fa">در طول تجزیه‌شدن خطایی روی داده‌است</value>
         <value xml:lang="fr">Des erreurs sont survenues lors de l'analyse</value>
         <value xml:lang="hi_IN">पार्सिंग के दौरान त्रुटियाँ हुई</value>
         <value xml:lang="it">Errore accaduti durante il parsing</value>

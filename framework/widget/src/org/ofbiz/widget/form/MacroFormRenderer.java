@@ -45,6 +45,7 @@ import javolution.util.FastList;
 import org.ofbiz.base.conversion.ConversionException;
 import org.ofbiz.base.conversion.DateTimeConverters;
 import org.ofbiz.base.conversion.DateTimeConverters.StringToTimestamp;
+import org.ofbiz.base.util.Calendar;
 import org.ofbiz.base.util.Debug;
 import org.ofbiz.base.util.StringUtil;
 import org.ofbiz.base.util.UtilFormatOut;
@@ -83,8 +84,6 @@ import org.ofbiz.widget.form.ModelFormField.TextField;
 import org.ofbiz.widget.form.ModelFormField.TextFindField;
 import org.ofbiz.widget.form.ModelFormField.TextareaField;
 import org.ofbiz.widget.screen.ModelScreenWidget;
-
-import com.ibm.icu.util.Calendar;
 
 import freemarker.core.Environment;
 import freemarker.template.Template;
@@ -624,7 +623,7 @@ public class MacroFormRenderer implements FormStringRenderer {
             if (timeZone == null) timeZone = TimeZone.getDefault();
 
             try {
-                cal = UtilDateTime.getICUCalendar(timeZone, locale);
+                cal = Calendar.getInstance(timeZone, locale);
                 if (defaultTimestamp == null){
                     defaultTimestamp = new Timestamp((new Date()).getTime());
                 }

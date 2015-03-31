@@ -22,7 +22,7 @@
         <value xml:lang="de">Benötigter Parameter 'delegator' fehlt.</value>
         <value xml:lang="en">Required parameter 'delegator' not passed.</value>
         <value xml:lang="es">No se proporciono el parametro 'delegator'</value>
-        <value xml:lang="fa">پارامتر «نماینده» الزامی است ولی داده‌نشده‌است.</value>
+        <value xml:lang="fa">پارامتر «نماینده» لازم‌‌شده ولی داده‌نشده‌است.</value>
         <value xml:lang="fr">Le paramètre obligatoire 'delegator' n'a pas fonctionné.</value>
         <value xml:lang="it">Parametro 'delegator' richiesto non passato.</value>
         <value xml:lang="ja">必要なパラメータ 'デリゲータ' が渡されませんでした。</value>
@@ -66,7 +66,7 @@
         <value xml:lang="de">Benötigter Parameter 'dispatcher' fehlt</value>
         <value xml:lang="en">Required parameter 'dispatcher' not passed</value>
         <value xml:lang="es">El parametro 'dispatcher' no se transmitio</value>
-        <value xml:lang="fa">پارامتر «گسیل‌‌گر» الزامی است ولی داده‌نشده‌است</value>
+        <value xml:lang="fa">پارامتر «گسیل‌گر» لازم‌‌شده ولی داده‌نشده‌است</value>
         <value xml:lang="fr">le paramètre obligatoire 'dispatcher' n'a pas fonctionné</value>
         <value xml:lang="it">Parameter 'dispatcher' richiesto non passato</value>
         <value xml:lang="ja">必要なパラメータ 'ディスパッチャ' が渡されませんでした。</value>
@@ -279,7 +279,7 @@
         <value xml:lang="de">Ein Service mit diesem Namen wurde nicht gefunden</value>
         <value xml:lang="en">Could not find a service with the serviceName</value>
         <value xml:lang="es">No se pudo encontrar un servicio con ese nombre</value>
-        <value xml:lang="fa">سرویسی را این «نام سرویس» پیدانشد</value>
+        <value xml:lang="fa">سرویسی با این «نام سرویس» پیدانمی‌شود</value>
         <value xml:lang="fr">Un service ne peut être trouvé par ce nom de service</value>
         <value xml:lang="it">Non è possibile trovare un servizio con serviceName</value>
         <value xml:lang="ja">サービスが見つかりません、サービス名:</value>

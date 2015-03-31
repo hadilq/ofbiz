@@ -35,6 +35,7 @@ import javax.xml.parsers.ParserConfigurationException;
 
 import javolution.util.FastMap;
 
+import org.ofbiz.base.util.Calendar;
 import org.ofbiz.base.util.Debug;
 import org.ofbiz.base.util.UtilGenerics;
 import org.ofbiz.base.util.UtilMisc;
@@ -61,8 +62,6 @@ import org.ofbiz.service.ServiceUtil;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.xml.sax.SAXException;
-
-import com.ibm.icu.util.Calendar;
 
 /**
  * Entity Engine Sync Services

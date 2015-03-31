@@ -255,7 +255,7 @@
     <property key="ManufacturingPrintoutDate">
         <value xml:lang="en">Printout Date</value>
         <value xml:lang="es">Fecha de Impresión</value>
-        <value xml:lang="fa">تاریخ چاپ</value>
+        <value xml:lang="fa">تاریخ نتیجه‌چاپ</value>
         <value xml:lang="fr">Date de sortie sur imprimante</value>
         <value xml:lang="it">Data Emissione</value>
         <value xml:lang="ja">印刷日</value>
@@ -399,7 +399,7 @@
     <property key="ManufacturingShipTo">
         <value xml:lang="en">Ship To</value>
         <value xml:lang="es">Enviar a</value>
-        <value xml:lang="fa">حمل به</value>
+        <value xml:lang="fa">حمل‌کردن به</value>
         <value xml:lang="fr">Expédié à</value>
         <value xml:lang="it">Spedire A</value>
         <value xml:lang="ja">発送先</value>

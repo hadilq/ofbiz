@@ -32,10 +32,8 @@ import java.util.Locale;
 import java.util.Map;
 import java.util.TimeZone;
 
-import com.ibm.icu.util.Calendar;
-import com.ibm.icu.util.ULocale;
-
 import org.ofbiz.base.util.Debug;
+import org.ofbiz.base.util.Calendar;
 
 /**
  * Utility class for handling java.util.Date, the java.sql data/time classes and related
@@ -62,8 +60,18 @@ public class UtilDateTime {
 
     public static final DecimalFormat df = new DecimalFormat("0.00;-0.00");
 
+
+    /**
+     * Language tag of farsi, Iran
+    */
     public static final String FA_TAG = "fa-IR";
+    /**
+     * Language tag of farsi with Jalali Calendar
+    */
     public static final String FA_JALALI_TAG = "fa-IR-u-ca-jalali";
+    /**
+     * Language tag of farsi with Jalali Calendar and persian numbers.
+    */
     public static final String FA_JALALI_PERSIAN_TAG = "fa-IR-u-ca-jalali-nu-persian";
 
 
@@ -921,12 +929,6 @@ public class UtilDateTime {
         return calendar.get(Calendar.WEEK_OF_YEAR);
     }
 
-    // ----- New methods that take a timezone and locale -- //
-
-    public static Calendar getCalendarInstance(TimeZone timeZone, Locale locale) {
-        return Calendar.getInstance(com.ibm.icu.util.TimeZone.getTimeZone(timeZone.getID()), locale);
-    }
-
     /**
      * Returns a Calendar object initialized to the specified date/time, time zone,
      * and locale.
@@ -938,7 +940,7 @@ public class UtilDateTime {
      * @see java.util.Calendar
      */
     public static Calendar toCalendar(Date date, TimeZone timeZone, Locale locale) {
-        Calendar cal = getCalendarInstance(timeZone, locale);
+        Calendar cal = Calendar.getInstance(timeZone, locale);
         if (date != null) {
             cal.setTime(date);
         }
@@ -1414,7 +1416,7 @@ public class UtilDateTime {
     }
 
     public static Date getEarliestDate() {
-        Calendar cal = getCalendarInstance(TimeZone.getTimeZone("GMT"), Locale.getDefault());
+        Calendar cal = Calendar.getInstance(TimeZone.getTimeZone("GMT"), Locale.getDefault());
         cal.set(Calendar.YEAR, cal.getActualMinimum(Calendar.YEAR));
         cal.set(Calendar.MONTH, cal.getActualMinimum(Calendar.MONTH));
         cal.set(Calendar.DAY_OF_MONTH, 1);
@@ -1426,7 +1428,7 @@ public class UtilDateTime {
     }
 
     public static Date getLatestDate() {
-        Calendar cal = getCalendarInstance(TimeZone.getTimeZone("GMT"), Locale.getDefault());
+        Calendar cal = Calendar.getInstance(TimeZone.getTimeZone("GMT"), Locale.getDefault());
         cal.set(Calendar.YEAR, cal.getActualMaximum(Calendar.YEAR));
         cal.set(Calendar.MONTH, cal.getActualMaximum(Calendar.MONTH));
         cal.set(Calendar.DAY_OF_MONTH, cal.getActualMaximum(Calendar.DAY_OF_MONTH));
@@ -1435,34 +1437,6 @@ public class UtilDateTime {
         cal.set(Calendar.SECOND, 59);
         cal.set(Calendar.MILLISECOND, 999);
         return cal.getTime();
-    }
-
-    /**
-     * Makes a time String in the format HH:MM:SS from a Date. If the seconds are 0, then the output is in HH:MM.
-     *
-     * @param date The Date
-     * @return A time String in the format HH:MM:SS or HH:MM
-     */
-    public static Calendar getICUCalendar(TimeZone timeZone, Locale locale) {
-        String localeTag = locale.toLanguageTag();
-        ULocale ulocale = null;
-        if (localeTag.equals(FA_JALALI_PERSIAN_TAG)
-            || localeTag.equals(FA_JALALI_TAG)) {
-            ulocale = new ULocale("fa_IR@calendar=persian");
-        } else {
-            ulocale = new ULocale(localeTag);
-        }
-        com.ibm.icu.util.TimeZone tz = null;
-        if (timeZone == null) {
-            tz = com.ibm.icu.util.TimeZone.getDefault();
-        } else {
-            tz = com.ibm.icu.util.TimeZone.getTimeZone(timeZone.getDisplayName());
-        }
-
-
-        Calendar calendar = Calendar.getInstance(tz, locale);
-        return calendar;
-
     }
 
     public static String getDateMask(Locale locale) {

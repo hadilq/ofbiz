@@ -33,6 +33,7 @@ import javolution.util.FastList;
 import javolution.util.FastMap;
 
 import org.ofbiz.base.config.GenericConfigException;
+import org.ofbiz.base.util.Calendar;
 import org.ofbiz.base.util.Debug;
 import org.ofbiz.base.util.UtilDateTime;
 import org.ofbiz.base.util.UtilGenerics;
@@ -51,8 +52,6 @@ import org.ofbiz.entity.util.EntityFindOptions;
 import org.ofbiz.entity.util.EntityListIterator;
 import org.ofbiz.security.Security;
 import org.ofbiz.service.config.ServiceConfigUtil;
-
-import com.ibm.icu.util.Calendar;
 
 /**
  * Generic Service Utility Class

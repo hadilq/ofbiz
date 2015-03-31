@@ -65,7 +65,7 @@
     <property key="CommonExtSystemInfoNoteForUser">
         <value xml:lang="de">Systemnachricht für Benutzer:</value>    
         <value xml:lang="en">System Info note for user:</value>
-        <value xml:lang="fa">یادداشت اطلاعات سیستم برای کابر:</value>
+        <value xml:lang="fa">یادداشت اطلاعات سیستم برای کاربر:</value>
         <value xml:lang="fr">Message d'information système pour l'utilisateur :</value>
         <value xml:lang="it">Messaggio di sistema per l'utente:</value>
         <value xml:lang="ja">システム情報連絡 ユーザ:</value>

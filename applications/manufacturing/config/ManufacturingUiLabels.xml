@@ -1008,7 +1008,7 @@
     </property>
     <property key="ManufacturingBomErrorCreatingBillOfMaterialsTree">
         <value xml:lang="en">Error creating bill of materials tree: ${errorString}</value>
-        <value xml:lang="fa">خطا در ساختن درخت صورت‌حساب مواد: ${errorString}</value>
+        <value xml:lang="fa">خطا در ساختن صورت‌حساب‌کردن درخت مواد: ${errorString}</value>
         <value xml:lang="it">Errore durante la creazione dell'albero dei materiali: ${errorString}</value>
         <value xml:lang="ja">部品表ツリー作成中にエラー: ${errorString}</value>
         <value xml:lang="vi">Lỗi xảy ra khi tạo cây chào giá vật liệu: ${errorString}</value>
@@ -1433,7 +1433,7 @@
         <value xml:lang="ar">جزء من عائلة أوفبيز للتطبيقات الحرة للتسيير</value>
         <value xml:lang="de">Teil der Open For Business Familie von Open Source Software</value>
         <value xml:lang="en">Part of the Open For Business Family of Open Source Software</value>
-        <value xml:lang="fa">بخشی از خانواده آزاد برای تجارت از نرم‌افزارهای متن باز</value>
+        <value xml:lang="fa">بخشی از خانواده آزاد برای کسب‌وکار از نرم‌افزارهای متن باز</value>
         <!--value xml:lang="es">Parte de la familia "Open for Bussiness" de Software Libre</value-->
         <value xml:lang="es">Parte de la familia de software Open For Business de código abierto</value>
         <value xml:lang="fr">Un module de la famille Open For Business, logiciel libre de gestion d'entreprise.</value>
@@ -1638,7 +1638,7 @@
     </property>
     <property key="ManufacturingCreateProductBom">
         <value xml:lang="en">Create Bill Of Material</value>
-        <value xml:lang="fa">ساختن صورت‌حساب مواد</value>
+        <value xml:lang="fa">ساختن صورت‌حساب‌کردن مواد</value>
         <value xml:lang="fr">Créer une nomenclature</value>
         <value xml:lang="it">Creazione distinta base</value>
         <value xml:lang="ja">部品表(BOM)を作成</value>
@@ -1981,7 +1981,7 @@
     </property>
     <property key="ManufacturingEngineeringBillOfMaterials">
         <value xml:lang="en">Engineering Bill of Materials</value>
-        <value xml:lang="fa">مهندسی صورت‌حساب مواد</value>
+        <value xml:lang="fa">مهندسی صورت‌حساب‌کردن مواد</value>
         <value xml:lang="it">Distinta base ingegnerizzata</value>
         <value xml:lang="ja">設計部品表(EBOM)</value>
         <value xml:lang="pt_BR">Estrutura de produtos como desenvolvida (EBOM)</value>
@@ -2128,7 +2128,7 @@
         <value xml:lang="de">Stückliste suchen</value>
         <value xml:lang="en">Find Bill Of Materials</value>
         <value xml:lang="es">Buscar Lista de materiales</value>
-        <value xml:lang="fa">پیداکردن صورت‌حساب مواد</value>
+        <value xml:lang="fa">پیداکردن صورت‌حساب‌کردن مواد</value>
         <value xml:lang="fr">Recherche de nomenclature</value>
         <value xml:lang="it">Ricerca Distinte Base</value>
         <value xml:lang="ja">部品表(BOM)を検索</value>
@@ -2321,7 +2321,7 @@
     </property>
     <property key="ManufacturingGenerateProductionRuns">
         <value xml:lang="en">Generate Production Runs</value>
-        <value xml:lang="fa">ساختن خط تولید</value>
+        <value xml:lang="fa">ساختن خطوط تولید</value>
         <value xml:lang="it">Genera ordini di produzione</value>
         <value xml:lang="ja">生産実行を生成</value>
         <value xml:lang="pt_BR">Gerar execuções de produção</value>
@@ -2609,7 +2609,7 @@
         <value xml:lang="de">Produkte auflisten</value>
         <value xml:lang="en">Deliverable Products</value>
         <value xml:lang="es">Productos Entregables</value>
-        <value xml:lang="fa">محصولات ‌تحویل‌شدنی</value>
+        <value xml:lang="fa">محصولات تحویل‌شدنی</value>
         <value xml:lang="fr">Produits livrables</value>
         <value xml:lang="it">Prodotti Consegnabili</value>
         <value xml:lang="ja">配送可能製品</value>
@@ -2639,7 +2639,7 @@
         <value xml:lang="de">Fehler beim anzeigen der Stückliste</value>
         <value xml:lang="en">Error while listing the Bill of Material</value>
         <value xml:lang="es">Error al cargar la lista de materiales</value>
-        <value xml:lang="fa">خطا در هنگام لیست‌کردن صورت‌حساب مواد</value>
+        <value xml:lang="fa">خطا در هنگام لیست‌کردن صورت‌حساب‌کردن مواد</value>
         <value xml:lang="fr">Erreur durant l'énumération des nomenclatures</value>
         <value xml:lang="it">Errore durante la lista delle Distinte Base</value>
         <value xml:lang="ja">部品表(BOM)一覧時エラー</value>
@@ -2931,7 +2931,7 @@
         <value xml:lang="de">MRP</value>
         <value xml:lang="en">MRP</value>
         <value xml:lang="es">MRP</value>
-        <value xml:lang="fa">MRP</value>
+        <value xml:lang="fa">برنامه‌ریزی ملزومات مواد (MRP)</value>
         <value xml:lang="fr">MRP</value>
         <value xml:lang="it">MRP</value>
         <value xml:lang="ja">資材所要量計画(MRP)</value>
@@ -2944,7 +2944,7 @@
     </property>
     <property key="ManufacturingMrpCannotCountRecords">
         <value xml:lang="en">Unable to count MrpEvent records.</value>
-        <value xml:lang="fa">نمی‌توان سوابق «رویداد MRP» را شمرد.</value>
+        <value xml:lang="fa">نمی‌توان سوابق «رویداد برنامه‌ریزی ملزومات مواد (MRP)» را شمرد.</value>
         <value xml:lang="it">Non è possibile contare i records da  i records da MrpEvent.</value>
         <value xml:lang="ja">MRPイベントレコードがカウントできません。</value>
         <value xml:lang="vi">Không thể đếm được bản ghi sự kiện MRP.</value>
@@ -2992,7 +2992,7 @@
     </property>
     <property key="ManufacturingMrpCreateOrUpdateEvent">
         <value xml:lang="en">Error during creation or update MrpEvent, parameters: ${parameters}</value>
-        <value xml:lang="fa">خطا در هنگام ساختن یا بروزکردن «رویداد MRP»، پارامترها:  ${parameters}</value>
+        <value xml:lang="fa">خطا در هنگام ساختن یا بروزکردن «رویداد برنامه‌ریزی ملزومات مواد (MRP)»، پارامترها:  ${parameters}</value>
         <value xml:lang="it">Errore durante la creazione o aggiornamento MrpEvent, parametri: ${parameters}</value>
         <value xml:lang="ja">MRPイベントの作成または更新中にエラー。パラメータ: ${parameters}</value>
         <value xml:lang="vi">Lỗi khi tạo mới hoặc cập nhật sự kiện Mrp, tham số : ${parameters}</value>
@@ -3000,7 +3000,7 @@
     </property>
     <property key="ManufacturingMrpErrorForBomLevel">
         <value xml:lang="en">MRP Error retieving MRP event for the bom level: ${bomLevel}. Error: ${errorString}</value>
-        <value xml:lang="fa">خطا در بازیابی رویداد MRP برای سطح BOM: ${bomLevel}. خطا: ${errorString}</value>
+        <value xml:lang="fa">خطا در بازیابی «رویداد برنامه‌ریزی ملزومات مواد (MRP)» برای سطح BOM: ${bomLevel}. خطا: ${errorString}</value>
         <value xml:lang="it">Errore MRP ricavando l'evento MRP per il livello di distinta base: ${bomLevel}. Errore: ${errorString}</value>
         <value xml:lang="ja">部品表レベル: ${bomLevel} に対するMRPイベント取得中にエラー: ${errorString}</value>
         <value xml:lang="vi">Lỗi khi lấy thông tin sự kiện MRP ở mức chào giá : ${bomLevel}. Lỗi: ${errorString}</value>
@@ -3016,14 +3016,14 @@
     </property>
     <property key="ManufacturingMrpErrorRunningInitMrpEvents">
         <value xml:lang="en">Error running the initMrpEvents service: ${errorString}</value>
-        <value xml:lang="fa">خطا در اجراء سرویس «رویداد‌های MRP نخست»: ${errorString}</value>
+        <value xml:lang="fa">خطا در اجراء سرویس «رویداد‌های برنامه‌ریزی ملزومات مواد (MRP) نخست»: ${errorString}</value>
         <value xml:lang="it">Errore durante l'esecuzione del servizio initMrpEvents: ${errorString}</value>
         <value xml:lang="ja">MRPイベント初期化サービスの実行中にエラー: ${errorString}</value>
         <value xml:lang="zh">运行初始化生产资源计划事件（initMrpEvents）服务时出错：${errorString}</value>
     </property>
     <property key="ManufacturingMrpEventFindError">
         <value xml:lang="en">Problem, we can not find all the items of MrpEvent, for more detail look at the log</value>
-        <value xml:lang="fa">مشکل، ما نمی‌توانیم همه اقلام «رویداد MRP» را پیداکنیم، برای اطلاعات بیشتر لاگ‌ها را ببینید</value>
+        <value xml:lang="fa">مشکل، ما نمی‌توانیم همه اقلام «رویداد برنامه‌ریزی ملزومات مواد (MRP)» را پیداکنیم، برای اطلاعات بیشتر لاگ‌ها را ببینید</value>
         <value xml:lang="it">Problema, non possaimo trovare tutte le righe di MrpEvent, per più dettagli controllare il log</value>
         <value xml:lang="ja">問題、MRPイベントのすべてのアイテムを見つけることができません。詳細はログを参照してください</value>
         <value xml:lang="vi">Lỗi xảy ra, chúng tôi không tìm thấy các hạng mục của sự kiện MRP, bạn hãy xem vết để biết thêm chi tiết</value>
@@ -3031,7 +3031,7 @@
     </property>
     <property key="ManufacturingMrpEventProblemInitializing">
         <value xml:lang="en">Problem initializing the MrpEvent entity (${mrpEventTypeId})</value>
-        <value xml:lang="fa">مشکل در آغاز نهاد «رویداد MRP» (${mrpEventTypeId})</value>
+        <value xml:lang="fa">مشکل در آغاز نهاد «رویداد برنامه‌ریزی ملزومات مواد (MRP)» (${mrpEventTypeId})</value>
         <value xml:lang="it">Problema di inizializzazione entità MrpEvent (${mrpEventTypeId})</value>
         <value xml:lang="ja">MRPイベントエンティティ ${mrpEventTypeId} の初期化中にエラー</value>
         <value xml:lang="vi">Lỗi xảy ra khi khởi tạo thực thể MrpEvent : ${mrpEventTypeId}</value>
@@ -3039,7 +3039,7 @@
     </property>
     <property key="ManufacturingMrpEventRemoveError">
         <value xml:lang="en">Problem, we can not remove the MrpEvent items, for more detail look at the log</value>
-        <value xml:lang="fa">مشکل، ما نمی‌توانیم اقلام «رویداد م MRP» را حذف کنیم، برای اطلاعات بیشتر لاگ‌ها را ببینید</value>
+        <value xml:lang="fa">مشکل، ما نمی‌توانیم اقلام «رویداد برنامه‌ریزی ملزومات مواد (MRP)» را حذف کنیم، برای اطلاعات بیشتر لاگ‌ها را ببینید</value>
         <value xml:lang="it">Problema, non possaimo rimuovere le righe di MrpEvent, per più dettagli controllare il log</value>
         <value xml:lang="ja">問題、MRPイベントアイテムが削除できません。詳細はログを参照してください</value>
         <value xml:lang="vi">Lỗi xảy ra, chúng tôi không xóa bỏ được sự kiện MRP, bạn hãy xem vết để biết thêm chi tiết</value>
@@ -3089,7 +3089,7 @@
         <value xml:lang="de">MRP-Initialisierung</value>
         <value xml:lang="en">IEP init.</value>
         <value xml:lang="es">Inic. MRP</value>
-        <value xml:lang="fa">نخست MRP</value>
+        <value xml:lang="fa">«برنامه‌ریزی ملزومات مواد (MRP)» نخست</value>
         <value xml:lang="fr">Init. MRP</value>
         <value xml:lang="it">IEP init.</value>
         <value xml:lang="ja">IEP初期化</value>
@@ -3104,7 +3104,7 @@
         <value xml:lang="de">Ein MRP-Lauf ist aktiv</value>
         <value xml:lang="en">An Mrp Job is Running</value>
         <value xml:lang="es">Un trabajo MRP está en curso</value>
-        <value xml:lang="fa">یک کار MRP درحال‌اجراء است</value>
+        <value xml:lang="fa">یک کار «برنامه‌ریزی ملزومات مواد (MRP)» درحال‌اجراء است</value>
         <value xml:lang="fr">Un travail Mrp est en cours</value>
         <value xml:lang="it">Un Lavoro MRP è in esecuzione</value>
         <value xml:lang="ja">MRPジョブは実行中です</value>
@@ -3146,7 +3146,7 @@
         <value xml:lang="de">MRP-Log</value>
         <value xml:lang="en">MRP Log</value>
         <value xml:lang="es">Informe MRP</value>
-        <value xml:lang="fa">لاگ MRP</value>
+        <value xml:lang="fa">لاگ «برنامه‌ریزی ملزومات مواد (MRP)»</value>
         <value xml:lang="fr">Log MRP</value>
         <value xml:lang="it">Log MRP</value>
         <value xml:lang="ja">MRPログ</value>
@@ -3160,7 +3160,7 @@
         <value xml:lang="de">MRP-Name</value>
         <value xml:lang="en">Mrp Name</value>
         <value xml:lang="es">Nombre de MRP</value>
-        <value xml:lang="fa">نام MRP</value>
+        <value xml:lang="fa">نام «برنامه‌ریزی ملزومات مواد (MRP)»</value>
         <value xml:lang="fr">Nom Mrp</value>
         <value xml:lang="it">Nome Mrp</value>
         <value xml:lang="ja">MRP名称</value>
@@ -3250,7 +3250,7 @@
         <value xml:lang="de">Produkt hinzufügen</value>
         <value xml:lang="en">Add Deliverable Product</value>
         <value xml:lang="es">Añadir producto entregable</value>
-        <value xml:lang="fa">اضافه‌کردن محصول ‌تحویل‌شدنی</value>
+        <value xml:lang="fa">اضافه‌کردن محصول تحویل‌شدنی</value>
         <value xml:lang="fr">Ajouter l'article livrable</value>
         <value xml:lang="it">Aggiungi Prodotti Consegnabili</value>
         <value xml:lang="ja">新規配送可能製品</value>
@@ -3522,7 +3522,7 @@
         <value xml:lang="de">Keine Stückliste für Produkt vorhanden</value>
         <value xml:lang="en">Product has no Bill of material </value>
         <value xml:lang="es">El producto no tiene lista de materiales</value>
-        <value xml:lang="fa">محصول، صورت‌حساب مواد ندارد</value>
+        <value xml:lang="fa">محصول، صورت‌حساب‌کردن مواد ندارد</value>
         <value xml:lang="fr">L'article n'a pas de nomenclature</value>
         <value xml:lang="it">Prodotto non ha Distinta Base</value>
         <value xml:lang="ja">製品に部品表(BOM)はありません</value>
@@ -3966,7 +3966,7 @@
     </property>
     <property key="ManufacturingProductionRunIsNotRequiredForProductId">
         <value xml:lang="en">No production run is required for product with id ${productId} in date ${startDate}; please verify the validity dates of the bill of materials and routing.</value>
-        <value xml:lang="fa">هیچ خط تولیدی برای محصول با آی‌دی ${productId} در تاریخ ${startDate} الزامی‌نیست؛ لطفا صحت تاریخ‌ها را برای صورت‌حساب مواد و ارسال تصدیق‌نمایید.</value>
+        <value xml:lang="fa">هیچ خط تولیدی برای محصول با آی‌دی ${productId} در تاریخ ${startDate} الزامی‌نیست؛ لطفا صحت تاریخ‌ها را برای صورت‌حساب‌کردن مواد و حواله تصدیق‌نمایید.</value>
         <value xml:lang="it">Nessun ordine di produzione è richiesto per il prodotto ${productId} in data ${startDate}; verificare le date di validità dei materiali.</value>
         <value xml:lang="ja">製品ID ${productId} 日付 ${startDate} の生産実行は必要ではありません、部品表の日付を確認して経路制御してください。</value>
         <value xml:lang="vi">Không có Chế tác lô hàng với sản phẩm id ${productId} trong ngày ${startDate}; bạn hãy xem xét lại ngày kiểm hàng (validity date) trên Chào giá và Quy trình</value>
@@ -4965,7 +4965,7 @@
         <value xml:lang="de">MRP ausführen</value>
         <value xml:lang="en">Run MRP</value>
         <value xml:lang="es">Ejecutar MRP</value>
-        <value xml:lang="fa">اجراء MRP</value>
+        <value xml:lang="fa">اجراء «برنامه‌ریزی ملزومات مواد (MRP)»</value>
         <value xml:lang="fr">Lancement du MRP</value>
         <value xml:lang="it">Esegui MRP</value>
         <value xml:lang="ja">MRP実行</value>
@@ -5442,7 +5442,7 @@
         <value xml:lang="de">Anlagen-Gruppe aktualisieren</value>
         <value xml:lang="en">Update Fixed Asset Group</value>
         <value xml:lang="es">Actualizar grupo de máquina</value>
-        <value xml:lang="fa">بروزرسانی گروه دارایی ثابب</value>
+        <value xml:lang="fa">بروزرسانی گروه دارایی ثابت</value>
         <value xml:lang="fr">Mise à jour du groupe de machines</value>
         <value xml:lang="it">Aggiorna Gruppo Macchine</value>
         <value xml:lang="ja">固定資産グループを更新</value>
@@ -5914,7 +5914,7 @@
     </property>
     <property key="PageTitleFindBom">
         <value xml:lang="en">Find Bill Of Materials</value>
-        <value xml:lang="fa">پیداکردن صورت‌حساب مواد</value>
+        <value xml:lang="fa">پیداکردن صورت‌حساب‌کردن مواد</value>
         <value xml:lang="fr">Rechercher une nomenclature</value>
         <value xml:lang="it">Ricerca distinta base</value>
         <value xml:lang="ja">部品表(BOM)を検索</value>

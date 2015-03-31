@@ -70,7 +70,7 @@
     <property key="FormFieldTitle_applicationDate">
         <value xml:lang="de">Bewerbungsdatum</value>
         <value xml:lang="en">Application Date</value>
-        <value xml:lang="fa">تاریخ برداشت</value>
+        <value xml:lang="fa">تاریخ واریز</value>
         <value xml:lang="fr">Date de demande d'emploi</value>
         <value xml:lang="it">Data Applicazione</value>
         <value xml:lang="ja">申請日</value>
@@ -83,7 +83,7 @@
     <property key="FormFieldTitle_applicationId">
         <value xml:lang="de">Einsatzgebiet ID</value>
         <value xml:lang="en">Application Id</value>
-        <value xml:lang="fa">آی‌دی برداشت</value>
+        <value xml:lang="fa">آی‌دی واریز</value>
         <value xml:lang="fr">Demande d'emploi</value>
         <value xml:lang="it">Numero Applicazione</value>
         <value xml:lang="ja">申請ID</value>
@@ -250,7 +250,7 @@
     </property>
     <property key="FormFieldTitle_emplLeaveReasonTypeId">
         <value xml:lang="en">Leave Reason Type</value>
-        <value xml:lang="fa">نوع دلیل ترک</value>
+        <value xml:lang="fa">نوع دلیل مرخصی</value>
         <value xml:lang="fr">Raison du congé</value>
         <value xml:lang="ja">休職理由種類</value>
         <value xml:lang="pt_BR">Tipo da razão de licença</value>
@@ -465,7 +465,7 @@
     </property>
     <property key="FormFieldTitle_leaveStatus">
         <value xml:lang="en">Leave Status</value>
-        <value xml:lang="fa">وضعیت ترک</value>
+        <value xml:lang="fa">وضعیت مرخصی</value>
         <value xml:lang="fr">Etat de congé</value>
         <value xml:lang="ja">休職ステータス</value>
         <value xml:lang="pt_BR">Estado da licença</value>
@@ -474,7 +474,7 @@
     </property>
     <property key="FormFieldTitle_leaveTypeId">
         <value xml:lang="en">Leave Type Id</value>
-        <value xml:lang="fa">آی‌دی نوع ترک</value>
+        <value xml:lang="fa">آی‌دی نوع مرخصی</value>
         <value xml:lang="fr">Type de congé</value>
         <value xml:lang="it">Tipo di licenziamento</value>
         <value xml:lang="ja">休職種類ID</value>
@@ -520,7 +520,7 @@
     </property>
     <property key="FormFieldTitle_payGradeId">
         <value xml:lang="en">Pay Grade Id</value>
-        <value xml:lang="fa">آی‌دی</value>
+        <value xml:lang="fa">آی‌دی درجه پرداختن</value>
         <value xml:lang="fr">Catégorie de salaire</value>
         <value xml:lang="it">Grado Paga</value>
         <value xml:lang="ja">給与等級ID</value>
@@ -532,7 +532,7 @@
     </property>
     <property key="FormFieldTitle_payGradeName">
         <value xml:lang="en">Pay Grade Name</value>
-        <value xml:lang="fa">نام درجه پرداخت</value>
+        <value xml:lang="fa">نام درجه پرداختن</value>
         <value xml:lang="fr">Nom de catégorie de salaire</value>
         <value xml:lang="it">Nome Grado Paga</value>
         <value xml:lang="ja">給与等級名称</value>
@@ -544,7 +544,7 @@
     </property>
     <property key="FormFieldTitle_payHistoryFromDate">
         <value xml:lang="en">Pay History From Date</value>
-        <value xml:lang="fa">«از تاریخ» تاریخجه پرداخت</value>
+        <value xml:lang="fa">«از تاریخ» تاریخچه پرداختن</value>
         <value xml:lang="fr">Date de début</value>
         <value xml:lang="it">Storia Data Pagamento Da</value>
         <value xml:lang="ja">給与履歴開始日</value>
@@ -556,7 +556,7 @@
     </property>
     <property key="FormFieldTitle_payHistoryPartyIdFrom">
         <value xml:lang="en">Pay History Party Id From</value>
-        <value xml:lang="fa">آی‌دی هویت تاریخچه پرداخت از</value>
+        <value xml:lang="fa">«از آی‌دی هویت» تاریخچه پرداختن</value>
         <value xml:lang="fr">Réf. d'acteur depuis</value>
         <value xml:lang="it">Storia Soggetto Pagamento Da</value>
         <value xml:lang="ja">給与履歴取引先ID(元)</value>
@@ -568,7 +568,7 @@
     </property>
     <property key="FormFieldTitle_payHistoryPartyIdTo">
         <value xml:lang="en">Pay History Party Id To</value>
-        <value xml:lang="fa">آی‌دی هویت تاریخجه پرداخت به</value>
+        <value xml:lang="fa">«به آی‌دی هویت» تاریخچه پرداختن</value>
         <value xml:lang="fr">Réf. d'acteur vers</value>
         <value xml:lang="it">Storia Soggetto Pagamento A</value>
         <value xml:lang="ja">給与履歴取引先ID(先)</value>
@@ -580,7 +580,7 @@
     </property>
     <property key="FormFieldTitle_payHistoryRoleTypeIdFrom">
         <value xml:lang="en">Pay History Role Type Id From</value>
-        <value xml:lang="fa">آی‌دی نوع وظیفه تاریخچه پرداخت از</value>
+        <value xml:lang="fa">«از آی‌دی نوع وظیفه» تاریخچه پرداختن</value>
         <value xml:lang="fr">Type de rôle depuis</value>
         <value xml:lang="it">Storia Tipo Ruolo Pagamento Da</value>
         <value xml:lang="ja">給与履歴ロール種類ID(元)</value>
@@ -592,7 +592,7 @@
     </property>
     <property key="FormFieldTitle_payHistoryRoleTypeIdTo">
         <value xml:lang="en">Pay History Role Type Id To</value>
-        <value xml:lang="fa">آی‌دی نوع وظیفه تاریخچه پرداخت به</value>
+        <value xml:lang="fa">«به آی‌دی نوع وظیفه» تاریخچه پرداختن</value>
         <value xml:lang="fr">Type de rôle vers</value>
         <value xml:lang="it">Storia Tipo Ruolo Pagamento A</value>
         <value xml:lang="ja">給与履歴ロール種類ID(先)</value>
@@ -604,7 +604,7 @@
     </property>
     <property key="FormFieldTitle_perfRatingTypeId">
         <value xml:lang="en">Perf Rating Type Id</value>
-        <value xml:lang="fa">آی‌دی نوع نرخ‌گذاری اجراء</value>
+        <value xml:lang="fa">آی‌دی نوع نرخ‌گذاری عملکرد</value>
         <value xml:lang="it">Tipo percentuale prestazioni</value>
         <value xml:lang="ja">業績評価種類ID</value>
         <value xml:lang="pt_BR">Id de tipo de avaliação de desempenho</value>
@@ -614,7 +614,7 @@
     </property>
     <property key="FormFieldTitle_perfReviewId">
         <value xml:lang="en">Perf Review Id</value>
-        <value xml:lang="fa">آی‌دی بازبینی اجراء</value>
+        <value xml:lang="fa">آی‌دی بازبینی عملکرد</value>
         <value xml:lang="fr">Évaluation des performances</value>
         <value xml:lang="it">Rassegna Prestazioni</value>
         <value xml:lang="ja">業績評価ID</value>
@@ -626,7 +626,7 @@
     </property>
     <property key="FormFieldTitle_perfReviewItemSeqId">
         <value xml:lang="en">Perf Review Item Seq Id</value>
-        <value xml:lang="fa">آی‌دی ترتیب قلم بازبینی اجراء</value>
+        <value xml:lang="fa">آی‌دی ترتیبی قلم بازبینی عملکرد</value>
         <value xml:lang="it">Riga rassegna prestazioni</value>
         <value xml:lang="ja">業績評価アイテム連番ID</value>
         <value xml:lang="pt_BR">Id de Item de sequência da avaliação de desempenho</value>
@@ -636,7 +636,7 @@
     </property>
     <property key="FormFieldTitle_perfReviewItemTypeId">
         <value xml:lang="en">Perf Review Item Type Id</value>
-        <value xml:lang="fa">آی‌دی نوع قلم بازبینی اجراء</value>
+        <value xml:lang="fa">آی‌دی نوع قلم بازبینی عملکرد</value>
         <value xml:lang="it">Tipo riga rassegna prestazioni</value>
         <value xml:lang="ja">業績評価アイテム種類ID</value>
         <value xml:lang="pt_BR">Id de tipo de Item de avaliação de desempenho</value>
@@ -895,7 +895,7 @@
     </property>
     <property key="FormFieldTitle_unemploymentClaimId">
         <value xml:lang="en">Unemployment Claim Id</value>
-        <value xml:lang="fa">تاریخ مطالبه‌کردن بیکاری</value>
+        <value xml:lang="fa">آی‌دی مطالبه‌کردن بیکاری</value>
         <value xml:lang="fr">Date de demande du chômage</value>
         <value xml:lang="it">Reclamo Disoccupazione</value>
         <value xml:lang="ja">解雇申請ID</value>
@@ -938,7 +938,7 @@
     </property>
     <property key="HumanResAddEmplLeave">
         <value xml:lang="en">Add Employee Leave</value>
-        <value xml:lang="fa">اضافه‌کردن ترک کارمند</value>
+        <value xml:lang="fa">اضافه‌کردن مرخصی کارمند</value>
         <value xml:lang="fr">Ajouter le congé</value>
         <value xml:lang="it">Aggiungi uscita di un'impiegato</value>
         <value xml:lang="ja">従業員休職を追加</value>
@@ -949,7 +949,7 @@
     </property>
     <property key="HumanResAddEmplLeaveReasonType">
         <value xml:lang="en">Add Employee Leave Reason</value>
-        <value xml:lang="fa">اضافه‌کردن دلیل ترک کارمند</value>
+        <value xml:lang="fa">اضافه‌کردن دلیل مرخصی کارمند</value>
         <value xml:lang="fr">Ajouter un type de congé</value>
         <value xml:lang="ja">従業員休職理由を追加</value>
         <value xml:lang="pt_BR">Adicionar razão para licença de empregado</value>
@@ -958,7 +958,7 @@
     </property>
     <property key="HumanResAddEmplLeaveType">
         <value xml:lang="en">Add EmplLeave Types</value>
-        <value xml:lang="fa">اضافه‌کردن انواع ترک کارمند»</value>
+        <value xml:lang="fa">اضافه‌کردن انواع مرخصی کارمند»</value>
         <value xml:lang="fr">Ajouter un type de congé</value>
         <value xml:lang="it">Aggiungi tipo licenziamento impiegato</value>
         <value xml:lang="ja">従業員休職種類を追加</value>
@@ -991,7 +991,7 @@
     </property>
     <property key="HumanResAddJobInterviewType">
         <value xml:lang="en">Add Job Interview Type</value>
-        <value xml:lang="fa">اضافه‌کردن نوع ممالکه کار</value>
+        <value xml:lang="fa">اضافه‌کردن نوع مصاحبه کار</value>
         <value xml:lang="fr">Ajouter un type d'entretien</value>
         <value xml:lang="ja">職務面談種類を追加</value>
         <value xml:lang="pt_BR">Adicionar tipo de entrevista de emprego</value>
@@ -1078,7 +1078,7 @@
     </property>
     <property key="HumanResAddReportedToEmplPositionReportingStruct">
         <value xml:lang="en">Add Empl Position Reporting Struct [Reported To ${parameters.emplPositionId}]</value>
-        <value xml:lang="fa">اضافه‌کردن ساختار گزارش‌دادن موقعیت [گزارش به ${parameters.emplPositionId}]</value>
+        <value xml:lang="fa">اضافه‌کردن ساختار گزارش‌دادن موقعیت کارمند [گزارش‌دهی به ${parameters.emplPositionId}]</value>
         <value xml:lang="fr">Ajouter le compte-rendu de position [en rapport avec ${parameters.emplPositionId}</value>
         <value xml:lang="it">Aggiungi posizione impiegato per le competenze [competenze di ${parameters.emplPositionId}]</value>
         <value xml:lang="ja">従業員職位報告階層を追加 [${parameters.emplPositionId} に報告]</value>
@@ -1089,7 +1089,7 @@
     </property>
     <property key="HumanResAddReportsToEmplPositionReportingStruct">
         <value xml:lang="en">Add Empl Position Reporting Struct [${parameters.emplPositionId} Reports To]</value>
-        <value xml:lang="fa">اضافه‌کردن ساختار گزارش‌دادن موقعیت [${parameters.emplPositionId} گزارش به]</value>
+        <value xml:lang="fa">اضافه‌کردن ساختار گزارش‌دادن موقعیت کارمند [گزارش‌دهی ${parameters.emplPositionId} به]</value>
         <value xml:lang="fr">Ajouter le compte-rendu de position [${parameters.emplPositionId} qui se rapporte à]</value>
         <value xml:lang="it">Aggiungi posizione impiegato per le competenze [${parameters.emplPositionId} competenze a]</value>
         <value xml:lang="ja">従業員職位報告階層を追加 [${parameters.emplPositionId} から報告]</value>
@@ -1178,7 +1178,7 @@
     <property key="HumanResApplicationId">
         <value xml:lang="de">Einsatzgebiet ID</value>
         <value xml:lang="en">Application Id</value>
-        <value xml:lang="fa">آی‌دی درخواست</value>
+        <value xml:lang="fa">آی‌دی واریز</value>
         <value xml:lang="fr">Demande d'emploi</value>
         <value xml:lang="it">Codice Applicazione</value>
         <value xml:lang="ja">申請ID</value>
@@ -1235,7 +1235,7 @@
     </property>
     <property key="HumanResCompanySubtitle">
         <value xml:lang="en">Part of the Open For Business Family of Open Source Software</value>
-        <value xml:lang="fa">بخشی از خانواده آزاد برای تجارت از نرم‌افزارهای متن باز</value>
+        <value xml:lang="fa">بخشی از خانواده آزاد برای کسب‌وکار از نرم‌افزارهای متن باز</value>
         <value xml:lang="fr">Partie de l'ouverture pour la famille d'affaires du logiciel libre</value>
         <value xml:lang="it">Un modulo della famiglia di software open source Open For Business</value>
         <value xml:lang="ja">Part of the Open For Business Family of Open Source Software</value>
@@ -1247,7 +1247,7 @@
     </property>
     <property key="HumanResCurrentEmploymentData">
         <value xml:lang="en">Current Employment information</value>
-        <value xml:lang="fa">اطلاعات کارمندی کنونی</value>
+        <value xml:lang="fa">اطلاعات استخدام کنونی</value>
         <value xml:lang="fr">Informations actuelles sur l'emploi</value>
         <value xml:lang="it">Informazioni attuali sull'impiego</value>
         <value xml:lang="ja">現在の雇用情報</value>
@@ -1258,7 +1258,7 @@
     </property>
     <property key="HumanResEditAgreementEmploymentAppl">
         <value xml:lang="en">Edit Agreement Employment Appl</value>
-        <value xml:lang="fa">ویرایش درخواست توافق استخدام</value>
+        <value xml:lang="fa">ویرایش‌کردن درخواست توافق استخدام</value>
         <value xml:lang="fr">Modifier l'accord d'application d'emploi</value>
         <value xml:lang="it">Aggiorna applicazione contratto d'impiego</value>
         <value xml:lang="ja">雇用契約申請を編集</value>
@@ -1269,7 +1269,7 @@
     </property>
     <property key="HumanResEditApprovalStatus">
         <value xml:lang="en">Edit Approval Status</value>
-        <value xml:lang="fa">ویرایش وضعیت تصویب</value>
+        <value xml:lang="fa">ویرایش‌کردن وضعیت تصویب</value>
         <value xml:lang="fr">Modifier un status d'approbation</value>
         <value xml:lang="ja">承認ステータスを編集</value>
         <value xml:lang="pt_BR">Editar estado de aprovação</value>
@@ -1278,7 +1278,7 @@
     </property>
     <property key="HumanResEditEmplLeave">
         <value xml:lang="en">Edit Empl Leave</value>
-        <value xml:lang="fa">ویرایش ترک کارمند</value>
+        <value xml:lang="fa">ویرایش‌کردن مرخصی کارمند</value>
         <value xml:lang="fr">Modifier une demande de congé</value>
         <value xml:lang="it">Aggiorna licenziamento impiegato</value>
         <value xml:lang="ja">従業員休職を編集</value>
@@ -1289,7 +1289,7 @@
     </property>
     <property key="HumanResEditEmplLeaveType">
         <value xml:lang="en">Edit Empl Leave Type</value>
-        <value xml:lang="fa">ویرایش نوع سطح کارمند</value>
+        <value xml:lang="fa">ویرایش‌کردن نوع مرخصی کارمند</value>
         <value xml:lang="fr">Modifier un type de congé</value>
         <value xml:lang="it">Aggiorna tipo licenziamento impiegato</value>
         <value xml:lang="ja">従業員休職種類を編集</value>
@@ -1300,7 +1300,7 @@
     </property>
     <property key="HumanResEditEmplPosition">
         <value xml:lang="en">Edit Employee Position</value>
-        <value xml:lang="fa">ویرایش موقعیت کارمند</value>
+        <value xml:lang="fa">ویرایش‌کردن موقعیت کارمند</value>
         <value xml:lang="fr">Modifier la position de l'employé</value>
         <value xml:lang="it">Aggiorna posizione impiegato</value>
         <value xml:lang="ja">従業員職位を編集</value>
@@ -1311,7 +1311,7 @@
     </property>
     <property key="HumanResEditEmplPositionReportingStruct">
         <value xml:lang="en">Edit EmplPosition Reporting Structure</value>
-        <value xml:lang="fa">ویرایش ساختار گزارش‌دادن «موقعیت کارمند»</value>
+        <value xml:lang="fa">ویرایش‌کردن ساختار گزارش‌دادن «موقعیت کارمند»</value>
         <value xml:lang="fr">Modifier la structure du rapport de position des employés</value>
         <value xml:lang="it">Aggiorna Struttura Stampa Posizione Impiegati</value>
         <value xml:lang="ja">従業員職位報告階層を編集</value>
@@ -1323,7 +1323,7 @@
     </property>
     <property key="HumanResEditEmplPositionType">
         <value xml:lang="en">Edit Position Types</value>
-        <value xml:lang="fa">ویرایش انواع موقعیت</value>
+        <value xml:lang="fa">ویرایش‌کردن انواع موقعیت</value>
         <value xml:lang="fr">Modifier les types de position</value>
         <value xml:lang="it">Aggiorna tipi posizione</value>
         <value xml:lang="ja">職位種類を編集</value>
@@ -1334,7 +1334,7 @@
     </property>
     <property key="HumanResEditEmployment">
         <value xml:lang="en">Edit Employment</value>
-        <value xml:lang="fa">ویرایش استخدامی</value>
+        <value xml:lang="fa">ویرایش‌کردن استخدامی</value>
         <value xml:lang="fr">Modifier l'emploi</value>
         <value xml:lang="it">Aggiorna impiego</value>
         <value xml:lang="ja">雇用を編集</value>
@@ -1346,7 +1346,7 @@
     </property>
     <property key="HumanResEditEmploymentApp">
         <value xml:lang="en">Edit Employment Application</value>
-        <value xml:lang="fa">ویرایش درخواست استخدامی</value>
+        <value xml:lang="fa">ویرایش‌کردن درخواست استخدامی</value>
         <value xml:lang="fr">Modifier la demande d'emploi</value>
         <value xml:lang="it">Aggiorna la candidatura d'impiego</value>
         <value xml:lang="ja">雇用申請を編集</value>
@@ -1358,7 +1358,7 @@
     </property>
     <property key="HumanResEditJobInterview">
         <value xml:lang="en">Edit Job Interview</value>
-        <value xml:lang="fa">ویرایش ممالکه کار</value>
+        <value xml:lang="fa">ویرایش‌کردن مصاحبه کار</value>
         <value xml:lang="fr">Modifier un entretien</value>        
         <value xml:lang="ja">職務面談を編集</value>
         <value xml:lang="pt_BR">Editar entrevista de emprego</value>
@@ -1367,7 +1367,7 @@
     </property>
     <property key="HumanResEditJobRequisition">
         <value xml:lang="en">Edit Job Requisition</value>
-        <value xml:lang="fa">ویرایش درخواست کار</value>
+        <value xml:lang="fa">ویرایش‌کردن درخواست کار</value>
         <value xml:lang="fr">Editer une demande de poste</value>
         <value xml:lang="ja">職務辞令を編集</value>
         <value xml:lang="pt_BR">Editar requisição de emprego</value>
@@ -1376,7 +1376,7 @@
     </property>
     <property key="HumanResEditLeaveApprovalStatus">
         <value xml:lang="en">Edit Leave Approval Status</value>
-        <value xml:lang="fa">ویرایش وضعیت تصویب ترک</value>
+        <value xml:lang="fa">ویرایش‌کردن وضعیت تصویب مرخصی</value>
         <value xml:lang="ja">休職承認ステータスを編集</value>
         <value xml:lang="pt_BR">Editar Estado de aprovação de licença</value>
         <value xml:lang="vi">Cập nhật trạng thái duyệt cho Nghỉ phép</value>
@@ -1395,7 +1395,7 @@
     </property>
     <property key="HumanResEditPartyQual">
         <value xml:lang="en">Edit party Qualification</value>
-        <value xml:lang="fa">ویرایش شرط هویت</value>
+        <value xml:lang="fa">ویرایش‌کردن شرط هویت</value>
         <value xml:lang="fr">Modifier la qualification de l'acteur</value>
         <value xml:lang="it">Aggiorna Qualifica Soggetto</value>
         <value xml:lang="ja">取引先資格を編集</value>
@@ -1407,7 +1407,7 @@
     </property>
     <property key="HumanResEditPartyResume">
         <value xml:lang="en">Edit Party Resume</value>
-        <value xml:lang="fa">ویرایش رزومه هویت</value>
+        <value xml:lang="fa">ویرایش‌کردن رزومه هویت</value>
         <value xml:lang="fr">Modifier le CV de l'acteur</value>
         <value xml:lang="it">Aggiorna Riassunto Soggetto</value>
         <value xml:lang="ja">取引先復帰を編集</value>
@@ -1430,7 +1430,7 @@
     </property>
     <property key="HumanResEditPartySkill">
         <value xml:lang="en">Edit party Skill</value>
-        <value xml:lang="fa">ویرایش مهارت هویت</value>
+        <value xml:lang="fa">ویرایش‌کردن مهارت هویت</value>
         <value xml:lang="fr">Modifier les compétences de l'acteur</value>
         <value xml:lang="it">Aggiorna Abilità Soggetto</value>
         <value xml:lang="ja">取引先スキルを編集</value>
@@ -1442,7 +1442,7 @@
     </property>
     <property key="HumanResEditPayGrade">
         <value xml:lang="en">Edit Pay Grade</value>
-        <value xml:lang="fa">ویرایش درجه پرداخت</value>
+        <value xml:lang="fa">ویرایش‌کردن درجه پرداختن</value>
         <value xml:lang="fr">Modifier l'échelon de salaire</value>
         <value xml:lang="it">Aggiorna grado paga</value>
         <value xml:lang="ja">給与等級を編集</value>
@@ -1453,7 +1453,7 @@
     </property>
     <property key="HumanResEditPayHistory">
         <value xml:lang="en">Pay Histories</value>
-        <value xml:lang="fa">تاریخچه‌ّای پرداخت</value>
+        <value xml:lang="fa">تاریخچه‌های پرداختن</value>
         <value xml:lang="fr">Historique de salaire</value>
         <value xml:lang="it">Storia paghe</value>
         <value xml:lang="ja">給与履歴</value>
@@ -1510,7 +1510,7 @@
     <property key="HumanResEmplLeave">
         <value xml:lang="de">Entlassungen</value>
         <value xml:lang="en">Leave</value>
-        <value xml:lang="fa">ترک</value>
+        <value xml:lang="fa">مرخصی</value>
         <value xml:lang="fr">Congé</value>
         <value xml:lang="it">Licenziamento</value>
         <value xml:lang="ja">休職</value>
@@ -1522,7 +1522,7 @@
     <property key="HumanResEmplLeaveType">
         <value xml:lang="de">Kündingungsarten</value>
         <value xml:lang="en">Employee Leave Type</value>
-        <value xml:lang="fa">نوع ترک کارمند</value>
+        <value xml:lang="fa">نوع مرخصی کارمند</value>
         <value xml:lang="fr">Type de congé des employés</value>
         <value xml:lang="it">Tipo licenziamento impiegato</value>
         <value xml:lang="ja">従業員休職種類</value>
@@ -1677,7 +1677,7 @@
     </property>
     <property key="HumanResEmployeeLeave">
         <value xml:lang="en">Employee Leave</value>
-        <value xml:lang="fa">ترک کارمند</value>
+        <value xml:lang="fa">مرخصی کارمند</value>
         <value xml:lang="fr">Congés d'employés</value>
         <value xml:lang="ja">従業員休職</value>
         <value xml:lang="pt_BR">Licença de empregado</value>
@@ -1686,7 +1686,7 @@
     </property>
     <property key="HumanResEmployeeLeaveType">
         <value xml:lang="en">Leave Type</value>
-        <value xml:lang="fa">نوع ترک</value>
+        <value xml:lang="fa">نوع مرخصی</value>
         <value xml:lang="ja">休職種類</value>
         <value xml:lang="pt_BR">Tipo de Licença</value>
         <value xml:lang="vi">Kiểu Nghỉ phép</value>
@@ -1827,7 +1827,7 @@
     <property key="HumanResFindEmplLeave">
         <value xml:lang="de">Entlassungssuche</value>
         <value xml:lang="en">Find Employee Leave</value>
-        <value xml:lang="fa">پیداکردن ترک کارمند</value>
+        <value xml:lang="fa">پیداکردن مرخصی کارمند</value>
         <value xml:lang="fr">Rechercher un congé de l'employé</value>
         <value xml:lang="it">Ricerca licenziamenti impiegato</value>
         <value xml:lang="ja">従業員休職を検索</value>
@@ -1911,7 +1911,7 @@
     <property key="HumanResFindPayGrade">
         <value xml:lang="de">Gehaltsklassensuche</value>
         <value xml:lang="en">Find Pay Grade</value>
-        <value xml:lang="fa">پیداکردن درجه پرداخت</value>
+        <value xml:lang="fa">پیداکردن درجه پرداختن</value>
         <value xml:lang="fr">Rechercher l'échelon de salaire</value>
         <value xml:lang="it">Ricerca grado paga</value>
         <value xml:lang="ja">給与等級を検索</value>
@@ -1923,7 +1923,7 @@
     <property key="HumanResFindPerfReview">
         <value xml:lang="de">Leistungbewertungssuche</value>
         <value xml:lang="en">Find Performance Review</value>
-        <value xml:lang="fa">پیداکردن بازبینی نمایشگاه</value>
+        <value xml:lang="fa">پیداکردن بازبینی عملکرد</value>
         <value xml:lang="fr">Rechercher l'évaluation de performance</value>
         <value xml:lang="it">Ricerca verifica performance</value>
         <value xml:lang="ja">業績評価を検索</value>
@@ -1986,7 +1986,7 @@
     </property>
     <property key="HumanResJobInterview">
         <value xml:lang="en">Job Interview</value>
-        <value xml:lang="fa">ممالکه کاری</value>
+        <value xml:lang="fa">مصاحبه کاری</value>
         <value xml:lang="fr">Entretien</value>
         <value xml:lang="ja">職務面談</value>
         <value xml:lang="pt_BR">Entrevista de emprego</value>
@@ -1995,7 +1995,7 @@
     </property>
     <property key="HumanResJobInterviewType">
         <value xml:lang="en">Job Interview Type</value>
-        <value xml:lang="fa">نوع ممالکه کاری</value>
+        <value xml:lang="fa">نوع مصاحبه کاری</value>
         <value xml:lang="fr">Type d'entretien</value>
         <value xml:lang="ja">職務面談種類</value>
         <value xml:lang="pt_BR">Tipo de entrevista de emprego</value>
@@ -2013,7 +2013,7 @@
     </property>
     <property key="HumanResLeaveApproval">
         <value xml:lang="en">Leave Approval</value>
-        <value xml:lang="fa">تصویب ترک</value>
+        <value xml:lang="fa">تصویب مرخصی</value>
         <value xml:lang="fr">Approbation de congés</value>
         <value xml:lang="ja">休職承認</value>
         <value xml:lang="pt_BR">Aprovação de licença</value>
@@ -2022,7 +2022,7 @@
     </property>
     <property key="HumanResLeaveStatus">
         <value xml:lang="en">Leave</value>
-        <value xml:lang="fa">ترک</value>
+        <value xml:lang="fa">مرخصی</value>
         <value xml:lang="ja">休職</value>
         <value xml:lang="pt_BR">Licença</value>
         <value xml:lang="vi">Nghỉ phép</value>
@@ -2030,7 +2030,7 @@
     </property>
     <property key="HumanResLeaveCreationSuccess">
         <value xml:lang="en">Leave request created successfully</value>
-        <value xml:lang="fa">درخواست ترک باموفقیت ساخته‌شده‌است</value>
+        <value xml:lang="fa">درخواست مرخصی باموفقیت ساخته‌شده‌است</value>
         <value xml:lang="fr">Demande de congés créée avec succès</value>
         <value xml:lang="ja">休暇リクエストが正しく作成されました</value>
         <value xml:lang="vi">Yêu cầu Nghỉ phép đã được gửi đi thành công</value>
@@ -2062,7 +2062,7 @@
     </property>
     <property key="HumanResListPayHistories">
         <value xml:lang="en">List Pay Histories</value>
-        <value xml:lang="fa">لیست تاریخچه‌های پرداخت</value>
+        <value xml:lang="fa">لیست تاریخچه‌های پرداختن</value>
         <value xml:lang="fr">Liste d'historique de salaires</value>
         <value xml:lang="it">Lista Storia Paghe</value>
         <value xml:lang="ja">給与履歴一覧</value>
@@ -2496,7 +2496,7 @@
     </property>
     <property key="HumanResNewJobInterview">
         <value xml:lang="en">New Job Interview</value>
-        <value xml:lang="fa">ممالکه کار جدید</value>
+        <value xml:lang="fa">مصاحبه کار جدید</value>
         <value xml:lang="fr">Nouvel entretien</value>
         <value xml:lang="ja">新規職務面談</value>
         <value xml:lang="pt_BR">Nova entrevista de emprego</value>
@@ -2514,7 +2514,7 @@
     </property>
     <property key="HumanResNewLeave">
         <value xml:lang="en">New Leave</value>
-        <value xml:lang="fa">ترک جدید</value>
+        <value xml:lang="fa">مرخصی جدید</value>
         <value xml:lang="fr">Nouveau congé</value>
         <value xml:lang="it">Nuovo licenziamento</value>
         <value xml:lang="ja">新規休職</value>
@@ -2625,7 +2625,7 @@
     <property key="HumanResNewPayGrade">
         <value xml:lang="de">Interne Organisation</value>
         <value xml:lang="en">New Pay Grade</value>
-        <value xml:lang="fa">درجه پرداخت جدید</value>
+        <value xml:lang="fa">درجه پرداختن جدید</value>
         <value xml:lang="fr">Nouvel échelon de salaire</value>
         <value xml:lang="it">Nuovo Grado Paga</value>
         <value xml:lang="ja">新規給与等級</value>
@@ -2637,7 +2637,7 @@
     </property>
     <property key="HumanResNewPayHistory">
         <value xml:lang="en">New Pay History</value>
-        <value xml:lang="fa">تاریخچه پرداخت جدید</value>
+        <value xml:lang="fa">تاریخچه پرداختن جدید</value>
         <value xml:lang="fr">Nouvel historique de salaire</value>
         <value xml:lang="it">Nuovo Storia Paghe</value>
         <value xml:lang="ja">新規給与履歴</value>
@@ -2709,7 +2709,7 @@
     </property>
     <property key="HumanResNewUnemploymentClaim">
         <value xml:lang="en">New Unemployment Claim</value>
-        <value xml:lang="fa">مطالبه بیکاری جدید</value>
+        <value xml:lang="fa">مطالبه‌کردن بیکاری جدید</value>
         <value xml:lang="fr">Nouvelle demande de chômage</value>
         <value xml:lang="it">Nuovo Reclamo Disoccupazione</value>
         <value xml:lang="ja">新規解雇申請</value>
@@ -2805,7 +2805,7 @@
     </property>
     <property key="HumanResPartySkillsAlreadyExists">
         <value xml:lang="en">Record with the selected combination already exists.Please try with Other combination.</value>
-        <value xml:lang="fa">سابقه با ترکیب انتخاب‌شده ازقبل موچوداست. لطفا ترکیب جدیدی انتخاب کنید.</value>
+        <value xml:lang="fa">سابقه با ترکیب انتخاب‌شده ازقبل موچوداست. لطفا ترکیب دیگری انتخاب‌کنید.</value>
         <value xml:lang="it">Un record con la combinazione selezionata esiste già.Per favore provare con altre combinazioni.</value>
         <value xml:lang="ja">選択された組み合わせのレコードはすでに存在します。別の組み合わせを試してください。</value>
         <value xml:lang="vi">Bản ghi được chọn để kết hợp đã tồn tại, mời bạn thử lại với sự kết hợp khác.</value>
@@ -2814,7 +2814,7 @@
     <property key="HumanResPayGrade">
         <value xml:lang="de">Lohnstufen</value>
         <value xml:lang="en">Pay Grades</value>
-        <value xml:lang="fa">درجه‌های پرداخت</value>
+        <value xml:lang="fa">درجه‌های پرداختن</value>
         <value xml:lang="fr">Echelon de salaire</value>
         <value xml:lang="it">Grado Paga</value>
         <value xml:lang="ja">給与等級</value>
@@ -2826,7 +2826,7 @@
     </property>
     <property key="HumanResPayGradeID">
         <value xml:lang="en">Pay GradeID</value>
-        <value xml:lang="fa">«آی‌دی درجه» پرداخت</value>
+        <value xml:lang="fa">«آی‌دی درجه» پرداختن</value>
         <value xml:lang="fr">Réf. d'échelon de salaire</value>
         <value xml:lang="it">Codice Grado Paga</value>
         <value xml:lang="ja">給与等級ID</value>
@@ -2838,7 +2838,7 @@
     </property>
     <property key="HumanResPayHistories">
         <value xml:lang="en">Pay Histories</value>
-        <value xml:lang="fa">تاریخجه‌های پرداخت</value>
+        <value xml:lang="fa">تاریخجه‌های پرداختن</value>
         <value xml:lang="fr">Historiques des salaires</value>
         <value xml:lang="it">Storia Paghe</value>
         <value xml:lang="ja">給与履歴</value>
@@ -2850,7 +2850,7 @@
     </property>
     <property key="HumanResPayHistory">
         <value xml:lang="en">Pay History</value>
-        <value xml:lang="fa">تاریخچه پرداخت</value>
+        <value xml:lang="fa">تاریخچه پرداختن</value>
         <value xml:lang="fr">Historique de salaire</value>
         <value xml:lang="it">Storia Paga</value>
         <value xml:lang="ja">給与履歴</value>
@@ -3081,7 +3081,7 @@
     <property key="HumanResServices.PartyQualFailureInputEntities">
         <value xml:lang="en">Could not create education entry, one or more input entity does not exist</value>
         <value xml:lang="es">No se pudo crear la entidad educación, uno o más entidades asociadas no existen</value>
-        <value xml:lang="fa">نمی‌توان ورودی تحصیلات را ساخت، یکی یا چند ورودی وجود ندارند</value>
+        <value xml:lang="fa">نمی‌توان ورودی تحصیلات را ساخت، یکی یا چند ورودی نهاد وجود ندارند</value>
         <value xml:lang="fr">Impossible de créer l'entrée d'éducation, une ou plusieurs entrée d'entités n'existent pas</value>
         <value xml:lang="it">Non è possibile creare voce educazione, uno o più entità non esistono</value>
         <value xml:lang="ja">教育登録ができません、エンティティが存在しません</value>
@@ -3095,7 +3095,7 @@
     <property key="HumanResServices.PartyQualFailureMissingParam">
         <value xml:lang="en">Could not create education entry, required parameters missing</value>
         <value xml:lang="es">No se pudo crear la entidad educación, faltan parametros</value>
-        <value xml:lang="fa">نمی‌توان ورودی تحصیلات را ساخت، نیاز به پارامترهای فراموش‌شده‌است</value>
+        <value xml:lang="fa">نمی‌توان ورودی تحصیلات را ساخت، پارامترهای الزامی فراموش‌شده‌اند</value>
         <value xml:lang="fr">Impossible de créer l'entrée d'éducation, il manque des paramètres</value>
         <value xml:lang="it">Non è possibile creare voce educazione, parametro richiesto mancante</value>
         <value xml:lang="ja">教育登録ができません、必須項目が入力されていません</value>
@@ -3258,7 +3258,7 @@
     </property>
     <property key="HumanResViewPermissionError">
         <value xml:lang="en">View Permission Error</value>
-        <value xml:lang="fa">خطای مجوز نمایش</value>
+        <value xml:lang="fa">خطای اجازه نمایش</value>
         <value xml:lang="fr">Erreur d'autorisation de visualisation</value>
         <value xml:lang="it">Errore Permesso di Visualizzazione</value>
         <value xml:lang="ja">表示権限エラー</value>
@@ -3270,7 +3270,7 @@
     </property>
     <property key="LookupJobInterview">
         <value xml:lang="en">LookUp Job Interview</value>
-        <value xml:lang="fa">جستجوی ممالکه کار</value>
+        <value xml:lang="fa">جستجوی مصاحبه کار</value>
         <value xml:lang="fr">Rechercher un entretien d'embauche</value>
         <value xml:lang="ja">職務面談を検索</value>
         <value xml:lang="pt_BR">Procurar por entrevista de emprego</value>
@@ -3295,7 +3295,7 @@
     </property>
     <property key="PageTitleEditApprovalStatus">
         <value xml:lang="en">Edit Approval Status</value>
-        <value xml:lang="fa">ویرایش وضعیت تصویب</value>
+        <value xml:lang="fa">ویرایش‌کردن وضعیت تصویب</value>
         <value xml:lang="fr">Modifier les approbations</value>
         <value xml:lang="ja">承認ステータスを検索</value>
         <value xml:lang="pt_BR">Editar estado de aprovação</value>
@@ -3304,7 +3304,7 @@
     </property>
     <property key="PageTitleEditEmplPosition">
         <value xml:lang="en">Edit Empl Position</value>
-        <value xml:lang="fa">ویرایش موقعیت کارمند</value>
+        <value xml:lang="fa">ویرایش‌کردن موقعیت کارمند</value>
         <value xml:lang="fr">Modifier la position d'emploi</value>
         <value xml:lang="it">Aggiorna Posizione Impiegato</value>
         <value xml:lang="ja">従業員職位を編集</value>
@@ -3316,7 +3316,7 @@
     </property>
     <property key="PageTitleEditInternalJobPosting">
         <value xml:lang="en">Edit Internal JobPosting</value>
-        <value xml:lang="fa">ویرایش «ارسال کار» داخلی</value>
+        <value xml:lang="fa">ویرایش‌کردن «ارسال کار» داخلی</value>
         <value xml:lang="fr">Modifier une offre de travail interne</value>
         <value xml:lang="ja">内部職務配置を編集</value>
         <value xml:lang="pt_BR">Editar oferta interna de emprego</value>
@@ -3326,7 +3326,7 @@
     </property>
     <property key="PageTitleEditJobInterview">
         <value xml:lang="en">Edit Interview</value>
-        <value xml:lang="fa">ویرایش ممالکه</value>
+        <value xml:lang="fa">ویرایش‌کردن مصاحبه</value>
         <value xml:lang="fr">Modifier un entretien</value>
         <value xml:lang="ja">面談を編集</value>
         <value xml:lang="pt_BR">Editar entrevista</value>
@@ -3336,7 +3336,7 @@
     </property>
     <property key="PageTitleEditJobInterviewType">
         <value xml:lang="en">Edit Job Interview Type</value>
-        <value xml:lang="fa">ویرایش نوع ممالکه کار</value>
+        <value xml:lang="fa">ویرایش‌کردن نوع مصاحبه کار</value>
         <value xml:lang="fr">Modifier les types d'entretiens</value>
         <value xml:lang="ja">職務面談を編集</value>
         <value xml:lang="pt_BR">Editar tipo de entrevista de emprego</value>
@@ -3346,7 +3346,7 @@
     </property>
     <property key="PageTitleEditJobRequisition">
         <value xml:lang="en">Edit JobRequisition</value>
-        <value xml:lang="fa">ویرایش «درخواست کار»</value>
+        <value xml:lang="fa">ویرایش‌کردن «درخواست کار»</value>
         <value xml:lang="fr">Modifier une demande de poste</value>
         <value xml:lang="ja">職務辞令を編集</value>
         <value xml:lang="pt_BR">Editar petição de emprego</value>
@@ -3356,7 +3356,7 @@
     </property>
     <property key="PageTitleEditPartyReview">
         <value xml:lang="en">Edit PerfReview</value>
-        <value xml:lang="fa">ویرایش «بازبینی عملکرد»</value>
+        <value xml:lang="fa">ویرایش‌کردن «بازبینی عملکرد»</value>
         <value xml:lang="fr">Modifier l'évaluation des performances</value>
         <value xml:lang="it">Aggiorna Rassegna Prestazioni</value>
         <value xml:lang="ja">業績評価を編集</value>
@@ -3368,7 +3368,7 @@
     </property>
     <property key="PageTitleEditPartyReviewItem">
         <value xml:lang="en">Edit PerfReviewItem</value>
-        <value xml:lang="fa">ویرایش «قلم بازبینی عملکرد»</value>
+        <value xml:lang="fa">ویرایش‌کردن «قلم بازبینی عملکرد»</value>
         <value xml:lang="fr">Modifier la ligne d'évaluation de performances</value>
         <value xml:lang="it">Aggiorna Riga Rassegna Prestazioni</value>
         <value xml:lang="ja">業績評価アイテムを編集</value>
@@ -3380,7 +3380,7 @@
     </property>
     <property key="PageTitleEditResponsibilityType">
         <value xml:lang="en">Edit Responsibility Type</value>
-        <value xml:lang="fa">ویرایش نوع مسئولیت</value>
+        <value xml:lang="fa">ویرایش‌کردن نوع مسئولیت</value>
         <value xml:lang="fr">Modifier le type de responsabilité</value>
         <value xml:lang="it">Aggiorna tipo responsibilità</value>
         <value xml:lang="ja">職責種類を編集</value>
@@ -3391,7 +3391,7 @@
     </property>
     <property key="PageTitleEditSkillType">
         <value xml:lang="en">Edit Skill Type</value>
-        <value xml:lang="fa">ویرایش نوع مهارت</value>
+        <value xml:lang="fa">ویرایش‌کردن نوع مهارت</value>
         <value xml:lang="fr">Modifier le type de compétence</value>
         <value xml:lang="it">Aggiorna Tipo Abilità</value>
         <value xml:lang="ja">スキル種類を編集</value>
@@ -3403,7 +3403,7 @@
     </property>
     <property key="PageTitleEditTrainingTypes">
         <value xml:lang="en">Edit Training Types</value>
-        <value xml:lang="fa">ویرایش انواع آموزش</value>
+        <value xml:lang="fa">ویرایش‌کردن انواع آموزش</value>
         <value xml:lang="ja">トレーニング種類を編集</value>
         <value xml:lang="pt_BR">Editar tipos de treinamento</value>
         <value xml:lang="vi">Cập nhật Loại đào tạo</value>
@@ -3411,7 +3411,7 @@
     </property>
     <property key="PageTitleEditValidResponsibility">
         <value xml:lang="en">Edit ValidResponsibility</value>
-        <value xml:lang="fa">ویرایش «مسئولیت معتبر»</value>
+        <value xml:lang="fa">ویرایش‌کردن «مسئولیت معتبر»</value>
         <value xml:lang="fr">Modifier la validité de responsabilité</value>
         <value xml:lang="it">Aggiorna Validità Responsibilità</value>
         <value xml:lang="ja">有効な職責を編集</value>
@@ -3441,7 +3441,7 @@
     </property>
     <property key="PageTitleFindJobInterviewDetails">
         <value xml:lang="en">Find Interview Details</value>
-        <value xml:lang="fa">پیداکردن جزئیات ممالکه</value>
+        <value xml:lang="fa">پیداکردن جزئیات مصاحبه</value>
         <value xml:lang="fr">Rechercher des détails d'entretiens</value>
         <value xml:lang="ja">面談詳細を検索</value>
         <value xml:lang="pt_BR">Procurar detalhes de entrevista</value>
@@ -3600,14 +3600,14 @@
     </property>
     <property key="PageTitlePublicHoliday">
         <value xml:lang="en">Public Holiday</value>
-        <value xml:lang="fa">تعطیلات عمومی</value>
+        <value xml:lang="fa">تعطیلی عمومی</value>
         <value xml:lang="ja">祝日</value>
         <value xml:lang="vi">Kỳ nghỉ công cộng</value>
         <value xml:lang="zh">公众假日</value>
     </property>
     <property key="PageTitlePublicHolidayList">
         <value xml:lang="en">Public Holiday List</value>
-        <value xml:lang="fa">لیست تعطیلات عمومی</value>
+        <value xml:lang="fa">لیست تعطیلی عمومی</value>
         <value xml:lang="ja">祝日一覧</value>
         <value xml:lang="vi">Danh sách kỳ nghỉ công cộng</value>
         <value xml:lang="zh">公众假日列表</value>

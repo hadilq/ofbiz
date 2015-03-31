@@ -1823,7 +1823,7 @@
     <property key="FormFieldTitle_totalInvoiceNotApplied">
         <value xml:lang="de">Gesamtrechnung nicht angewandt</value>
         <value xml:lang="en">Total Invoice Not Applied</value>
-        <value xml:lang="fa">فاکتور واریزنشده مجموع</value>
+        <value xml:lang="fa">فاکتور مجموع واریزنشده</value>
         <value xml:lang="fr">Total des factures non allouées</value>
         <value xml:lang="hi_IN">कुल चालान लागू नहीं हुई</value>
         <value xml:lang="it">Totale fatture non applicate</value>
@@ -1836,7 +1836,7 @@
     <property key="FormFieldTitle_totalPaymentNotApplied">
         <value xml:lang="de">Gesamtzahlung nicht angewandt</value>
         <value xml:lang="en">Total Payment Not Applied</value>
-        <value xml:lang="fa">پرداخت واریز‌نشده مجموع</value>
+        <value xml:lang="fa">پرداخت مجموع واریز‌نشده</value>
         <value xml:lang="fr">Total des paiements non alloués</value>
         <value xml:lang="hi_IN">कुल भुगतान लागू नहीं हुआ</value>
         <value xml:lang="it">Totale pagamenti non applicati</value>
@@ -2602,7 +2602,7 @@
     <property key="PageTitleListCommunicationsRelatedParties">
         <value xml:lang="de">Kommunikationsliste zugehöriger Akteure</value>
         <value xml:lang="en">List Communications of related parties</value>
-        <value xml:lang="fa">لیست هویت‌های مرتبط ارتباطات</value>
+        <value xml:lang="fa">لیست ارتباطات هویت‌های مربوط</value>
         <value xml:lang="it">Lista comunicazioni dei soggetti relazionati</value>
         <value xml:lang="ja">関連取引先の通信を一覧表示</value>
         <value xml:lang="pt_BR">Lista de comunicações de participantes relacionados</value>
@@ -3448,7 +3448,7 @@
         <value xml:lang="de">Versandadresse</value>
         <value xml:lang="en">Mailing/Shipping Address</value>
         <value xml:lang="es">Dirección de envío</value>
-        <value xml:lang="fa">آدرس پستی/خرید</value>
+        <value xml:lang="fa">آدرس پستی/حمل</value>
         <value xml:lang="fr">Adresse postale/ de livraison</value>
         <value xml:lang="hi_IN">डाक/शिपिंग पता</value>
         <value xml:lang="it">Indirizzo di Posta/Spedizione</value>
@@ -4043,7 +4043,7 @@
     <property key="PartyCannotGetUserLoginFromParty">
         <value xml:lang="de">Der benötigte Parameter 'userLoginId' darf nicht leer sein.</value>
         <value xml:lang="en">Required parameter 'userLoginId' cannot be empty.</value>
-        <value xml:lang="fa">پارامتر «آی‌دی نام کاربری» الزامی‌است و نمی‌تواند خالی باشد.</value>
+        <value xml:lang="fa">پارامتر «آی‌دی نام‌کاربری» الزامی‌است و نمی‌تواند خالی باشد.</value>
         <value xml:lang="it">Parametro 'userLoginId' richiesto non può essere vuoto.</value>
         <value xml:lang="ja">必須のパラメータ'ユーザログインID'は空にできません。</value>
         <value xml:lang="vi">Trường bắt buộc 'userLoginId' không được rỗng.</value>
@@ -4061,7 +4061,7 @@
     <property key="PartyCannotGetPartyContactMech">
         <value xml:lang="de">'partyId' und 'userLogin' sind leer.</value>
         <value xml:lang="en">Both 'partyId' and 'userLogin' are empty.</value>
-        <value xml:lang="fa">هم «آی‌دی هویت» و هم «نام کاربری» خالی هستند.</value>
+        <value xml:lang="fa">هم «آی‌دی هویت» و هم «نام‌کاربری» خالی هستند.</value>
         <value xml:lang="it">Entrambi 'soggetto' e 'utente' sono vuoti.</value>
         <value xml:lang="ja">'取引先ID'と'ユーザログイン'の両方とも空です。</value>
         <value xml:lang="vi">Cả 'partyId' và 'userLogin' đều rỗng.</value>
@@ -4703,7 +4703,7 @@
         <value xml:lang="ar">جزء من عائلة أوفبيز للتطبيقات الحرة للتسيير</value>
         <value xml:lang="de">Teil der Open For Business Familie von Open Source Software</value>
         <value xml:lang="en">Part of the Open For Business Family of Open Source Software</value>
-        <value xml:lang="fa">بخشی از خانواده آزاد برای تجارت از نرم‌افزارهای متن باز</value>
+        <value xml:lang="fa">بخشی از خانواده آزاد برای کسب‌وکار از نرم‌افزارهای متن باز</value>
         <!--value xml:lang="es">Parte de la familia "Open for Bussiness" de Software Libre</value-->
         <value xml:lang="es">Parte de la familia de software Open For Business de código abierto</value>
         <value xml:lang="fr">Un module de la famille Open For Business, logiciel libre de gestion d'entreprise.</value>
@@ -5313,7 +5313,7 @@
         <value xml:lang="de">Sicherheitsfehler: um addWebSiteRole auszuführen müssen Sie die Berechtigung PARTYMGR_CREATE oder PARTYMGR_ADMIN besitzen</value>
         <value xml:lang="en">Security Error: to run addWebSiteRole you must have the PARTYMGR_CREATE or PARTYMGR_ADMIN permission</value>
         <value xml:lang="es">Error de seguridad: para acceder a esta funcionalidad debe contar con los permisos PARTYMGR_CREATE o PARTYMGR_ADMIN</value>
-        <value xml:lang="fa">خطا امنیتی: برای اجراء «اضافه‌کردن وظیفه سایت» شما باید اجازه PARTYMGR_CREATE یا PARTYMGR_ADMIN را داشته‌باشید</value>
+        <value xml:lang="fa">خطای امنیتی: برای اجراء «اضافه‌کردن وظیفه سایت» شما باید اجازه PARTYMGR_CREATE یا PARTYMGR_ADMIN را داشته‌باشید</value>
         <value xml:lang="fr">Erreur sécurité : pour ajouter un rôle de site web il faut avoir avoir l'autorisation PARTYMGR_CREATE ou PARTYMGR_ADMIN.</value>
         <value xml:lang="hi_IN">सुरक्षा त्रुटि: addWebSiteRole चलाने के लिए आप को PARTYMGR_CREATE या PARTYMGR_ADMIN की अनुमति होना चाहिए</value>
         <value xml:lang="it">Errore Sicurezza : per eseguire addWebSiteRole tu devi avere il permesso PARTYMGR_CREATE o PARTYMGR_ADMIN</value>
@@ -5331,7 +5331,7 @@
         <value xml:lang="de">Sicherheitsfehler: um createPartyAttribute auszuführen müssen Sie die Berechtigung PARTYMGR_CREATE oder PARTYMGR_ADMIN besitzen</value>
         <value xml:lang="en">Security Error: to run createPartyAttribute you must have the PARTYMGR_CREATE or PARTYMGR_ADMIN permission</value>
         <value xml:lang="es">Error de seguridad: para acceder a esta funcionalidad debe contar con los permisos PARTYMGR_CREATE o PARTYMGR_ADMIN</value>
-        <value xml:lang="fa">خطا امنیتی: برای اجراء «ساختن خاصیت هویت» شما باید اجازه PARTYMGR_CREATE یا PARTYMGR_ADMIN را داشته‌باشید</value>
+        <value xml:lang="fa">خطای امنیتی: برای اجراء «ساختن خاصیت هویت» شما باید اجازه PARTYMGR_CREATE یا PARTYMGR_ADMIN را داشته‌باشید</value>
         <value xml:lang="fr">Erreur sécurité: pour exécuter createPartyAttribute : vous devez avoir l'autorisation PARTYMGR_CREATE ou PARTYMGR_ADMIN</value>
         <value xml:lang="hi_IN">सुरक्षा त्रुटि: createPartyAttribute चलाने के लिए आप को PARTYMGR_CREATE या PARTYMGR_ADMIN की अनुमति होना चाहिए</value>
         <value xml:lang="it">Errore Sicurezza : per eseguire createPartyAttribute tu devi avere il permesso PARTYMGR_CREATE o PARTYMGR_ADMIN</value>
@@ -5349,7 +5349,7 @@
         <value xml:lang="de">Sicherheitsfehler: um createCommunicationEvent auszuführen müssen Sie die Berechtigung PARTYMGR_CREATE oder PARTYMGR_ADMIN besitzen</value>
         <value xml:lang="en">Security Error: to run createCommunicationEvent you must have the PARTYMGR_CREATE or PARTYMGR_ADMIN permission</value>
         <value xml:lang="es">Error de seguridad: para acceder a esta funcionalidad debe contar con los permisos PARTYMGR_CREATE o PARTYMGR_ADMIN</value>
-        <value xml:lang="fa">خطا امنیتی: برای اجراء «ساختن رویداد ارتباط» شما باید اجازه PARTYMGR_CREATE or PARTYMGR_ADMIN را داشته‌باشید</value>
+        <value xml:lang="fa">خطای امنیتی: برای اجراء «ساختن رویداد ارتباط» شما باید اجازه PARTYMGR_CREATE or PARTYMGR_ADMIN را داشته‌باشید</value>
         <value xml:lang="fr">Erreur sécurité : pour créer une communication il faut avoir avoir l'autorisation PARTYMGR_CREATE ou PARTYMGR_ADMIN</value>
         <value xml:lang="hi_IN">सुरक्षा त्रुटि: createCommunicationEvent चलाने के लिए आप को PARTYMGR_CREATE या PARTYMGR_ADMIN की अनुमति होना चाहिए</value>
         <value xml:lang="it">Errore Sicurezza : per eseguire createCommunicationEvent tu devi avere il permesso PARTYMGR_CREATE o PARTYMGR_ADMIN</value>
@@ -5368,7 +5368,7 @@
         <value xml:lang="de">Sicherheitsfehler: um createCommunicationEventPurpose auszuführen müssen Sie die Berechtigung PARTYMGR_CREATE oder PARTYMGR_ADMIN besitzen</value>
         <value xml:lang="en">Security Error: to run createCommunicationEventPurpose you must have the PARTYMGR_CREATE or PARTYMGR_ADMIN permission</value>
         <value xml:lang="es">Error de seguridad: para acceder a esta funcionalidad debe contar con los permisos PARTYMGR_CREATE o PARTYMGR_ADMIN</value>
-        <value xml:lang="fa">خطا امنیتی: برای اجراء «ساختن هدف رویداد ارتباط» شما باید اجازه PARTYMGR_CREATE or PARTYMGR_ADMIN را داشته‌باشید</value>
+        <value xml:lang="fa">خطای امنیتی: برای اجراء «ساختن هدف رویداد ارتباط» شما باید اجازه PARTYMGR_CREATE or PARTYMGR_ADMIN را داشته‌باشید</value>
         <value xml:lang="fr">Erreur sécurité : pour ajouter un but à un appel il faut avoir avoir l'autorisation PARTYMGR_CREATE ou PARTYMGR_ADMIN</value>
         <value xml:lang="hi_IN">सुरक्षा त्रुटि: createCommunicationEventPurpose चलाने के लिए आप को PARTYMGR_CREATE या PARTYMGR_ADMIN की अनुमति होना चाहिए</value>
         <value xml:lang="it">Errore Sicurezza : per eseguire createCommunicationEventPurpose tu devi avere il permesso PARTYMGR_CREATE o PARTYMGR_ADMIN</value>
@@ -5387,7 +5387,7 @@
         <value xml:lang="de">Sicherheitsfehler: um createCommunicationEventRole auszuführen müssen Sie die Berechtigung PARTYMGR_CREATE oder PARTYMGR_ADMIN besitzen</value>
         <value xml:lang="en">Security Error: to run createCommunicationEventRole you must have the PARTYMGR_CREATE or PARTYMGR_ADMIN permission</value>
         <value xml:lang="es">Error de seguridad: para acceder a esta funcionalidad debe contar con los permisos PARTYMGR_CREATE o PARTYMGR_ADMIN</value>
-        <value xml:lang="fa">خطا امنیتی: برای اجراء «ساختن وظیفه رویداد ارتباط» شما باید اجازه PARTYMGR_CREATE or PARTYMGR_ADMIN را داشته‌باشید</value>
+        <value xml:lang="fa">خطای امنیتی: برای اجراء «ساختن وظیفه رویداد ارتباط» شما باید اجازه PARTYMGR_CREATE or PARTYMGR_ADMIN را داشته‌باشید</value>
         <value xml:lang="fr">Erreur sécurité : pour ajouter un rôle à une communication il faut avoir avoir l'autorisation PARTYMGR_CREATE ou PARTYMGR_ADMIN</value>
         <value xml:lang="hi_IN">सुरक्षा त्रुटि: createCommunicationEventRole चलाने के लिए आप को PARTYMGR_CREATE या PARTYMGR_ADMIN की अनुमति होना चाहिए</value>
         <value xml:lang="it">Errore Sicurezza : per eseguire createCommunicationEventRole tu devi avere il permesso PARTYMGR_CREATE o PARTYMGR_ADMIN</value>
@@ -5416,7 +5416,7 @@
         <value xml:lang="de">Legen Sie eine neue Rechnungsadresse für diese Kreditkarte an</value>
         <value xml:lang="en">Create a new billing address for this credit card</value>
         <value xml:lang="es">Crear una nueva dirección de facturación para esta tarjeta de crédito</value>
-        <value xml:lang="fa">ساختن آدرس صورت‌حساب برای کارت اعتباری</value>
+        <value xml:lang="fa">ساختن آدرس صورت‌حساب جدید برای این کارت اعتباری</value>
         <value xml:lang="fr">Créer une adresse de facturation pour cette carte de crédit</value>
         <value xml:lang="hi_IN">क्रेडिट कार्ड का नया पता बनाइये</value>
         <value xml:lang="it">Creare un nuovo indirizzo di fatturazione per questa carta di credito</value>
@@ -5719,7 +5719,7 @@
         <value xml:lang="de">Sicherheitsfehler: um createPartyClassificationGroup auszuführen müssen Sie die Berechtigung PARTYMGR_CREATE oder PARTYMGR_ADMIN besitzen</value>
         <value xml:lang="en">Security Error: to run createPartyClassificationGroup you must have the PARTYMGR_CREATE or PARTYMGR_ADMIN permission</value>
         <value xml:lang="es">Error de seguridad: para acceder a esta funcionalidad debe contar con los permisos PARTYMGR_CREATE o PARTYMGR_ADMIN</value>
-        <value xml:lang="fa">خطا امنیتی: برای اجراء «ساختن گروه کلاس‌بندی هویت» شما باید اجازه PARTYMGR_CREATE یا PARTYMGR_ADMIN را داشته‌باشید</value>
+        <value xml:lang="fa">خطای امنیتی: برای اجراء «ساختن گروه کلاس‌بندی هویت» شما باید اجازه PARTYMGR_CREATE یا PARTYMGR_ADMIN را داشته‌باشید</value>
         <value xml:lang="fr">Erreur sécurité : pour ajouter une classification d'acteur, il faut avoir avoir l'autorisation PARTYMGR_CREATE ou PARTYMGR_ADMIN</value>
         <value xml:lang="hi_IN">सुरक्षा त्रुटि: createPartyClassificationGroup चलाने के लिए आप को PARTYMGR_CREATE या PARTYMGR_ADMIN की अनुमति होना चाहिए</value>
         <value xml:lang="it">Errore Sicurezza : per eseguire createPartyClassificationGroup tu devi avere il permesso PARTYMGR_CREATE o PARTYMGR_ADMIN</value>
@@ -5737,7 +5737,7 @@
         <value xml:lang="de">Sicherheitsfehler: um createPartyClassification auszuführen müssen Sie die Berechtigung PARTYMGR_CREATE oder PARTYMGR_ADMIN besitzen</value>
         <value xml:lang="en">Security Error: to run createPartyClassification you must have the PARTYMGR_CREATE or PARTYMGR_ADMIN permission</value>
         <value xml:lang="es">Error de seguridad: para acceder a esta funcionalidad debe contar con los permisos PARTYMGR_CREATE o PARTYMGR_ADMIN</value>
-        <value xml:lang="fa">خطا امنیتی: برای اجراء «ساختن کلاس‌بندی هویت» شما باید اجازه PARTYMGR_CREATE یا PARTYMGR_ADMIN را داشته‌باشید</value>
+        <value xml:lang="fa">خطای امنیتی: برای اجراء «ساختن کلاس‌بندی هویت» شما باید اجازه PARTYMGR_CREATE یا PARTYMGR_ADMIN را داشته‌باشید</value>
         <value xml:lang="fr">Erreur sécurité : pour exécuter createPartyClassification il faut avoir l'autorisation PARTYMGR_CREATE ou PARTYMGR_ADMIN</value>
         <value xml:lang="hi_IN">सुरक्षा त्रुटि: createPartyClassification चलाने के लिए आप को PARTYMGR_CREATE या PARTYMGR_ADMIN की अनुमति होना चाहिए</value>
         <value xml:lang="it">Errore Sicurezza : per eseguire createPartyClassification tu devi avere il permesso PARTYMGR_CREATE o PARTYMGR_ADMIN</value>
@@ -5754,7 +5754,7 @@
     <property key="PartyCreatePartyRolePermissionError">
         <value xml:lang="de">Sicherheitsfehler: um createPartyRole auszuführen müssen Sie die Berechtigung PARTYMGR_ROLE_CREATE oder PARTYMGR_ADMIN besitzen</value>
         <value xml:lang="en">Security Error: to run createPartyRole you must have the PARTYMGR_ROLE_CREATE or PARTYMGR_ADMIN permission</value>
-        <value xml:lang="fa">خطا امنیتی: برای اجراء «ساختن وظیفه هویت» شما باید اجازه PARTYMGR_ROLE_CREATE یا PARTYMGR_ADMIN را داشته‌باشید</value>
+        <value xml:lang="fa">خطای امنیتی: برای اجراء «ساختن وظیفه هویت» شما باید اجازه PARTYMGR_ROLE_CREATE یا PARTYMGR_ADMIN را داشته‌باشید</value>
         <value xml:lang="fr">Erreur sécurité : pour exécuter createPartyRole vous devez avoir l'autorisation PARTYMGR_ROLE_CREATE or PARTYMGR_ADMIN</value>
         <value xml:lang="hi_IN">सुरक्षा त्रुटि: createPartyRole चलाने के लिए आप को PARTYMGR_CREATE या PARTYMGR_ADMIN की अनुमति होना चाहिए</value>
         <value xml:lang="it">Errore sicurezza: per eseguire il servizio createPartyRole tu devi avere il permesso PARTYMGR_ROLE_CREATE o PARTYMGR_ADMIN</value>
@@ -5771,7 +5771,7 @@
         <value xml:lang="de">Sicherheitsfehler: um createPostalAddressBoundary auszuführen müssen Sie die Berechtigung PARTYMGR_CREATE oder PARTYMGR_ADMIN besitzen</value>
         <value xml:lang="en">Security Error: to run createPostalAddressBoundary you must have the PARTYMGR_CREATE or PARTYMGR_ADMIN permission</value>
         <value xml:lang="es">Error de seguridad: para acceder a esta funcionalidad debe contar con los permisos PARTYMGR_CREATE o PARTYMGR_ADMIN</value>
-        <value xml:lang="fa">خطا امنیتی: برای اجراء «ساختن مرز آدرس پستی» شما باید اجازه PARTYMGR_CREATE یا PARTYMGR_ADMIN را داشته‌باشید</value>
+        <value xml:lang="fa">خطای امنیتی: برای اجراء «ساختن مرز آدرس پستی» شما باید اجازه PARTYMGR_CREATE یا PARTYMGR_ADMIN را داشته‌باشید</value>
         <value xml:lang="fr">Erreur sécurité : pour ajouter une adresse postal frontière il faut avoir avoir l'autorisation PARTYMGR_CREATE ou PARTYMGR_ADMIN</value>
         <value xml:lang="hi_IN">सुरक्षा त्रुटि: createPostalAddressBoundary चलाने के लिए आप को PARTYMGR_CREATE या PARTYMGR_ADMIN की अनुमति होना चाहिए</value>
         <value xml:lang="it">Errore Sicurezza : per eseguire createPostalAddressBoundary tu devi avere il permesso PARTYMGR_CREATE o PARTYMGR_ADMIN</value>
@@ -5804,7 +5804,7 @@
         <value xml:lang="de">Sicherheitsfehler: um createVendor auszuführen müssen Sie die Berechtigung PARTYMGR_CREATE oder PARTYMGR_ADMIN besitzen</value>
         <value xml:lang="en">Security Error: to run createVendor you must have the PARTYMGR_CREATE or PARTYMGR_ADMIN permission</value>
         <value xml:lang="es">Error de seguridad: para acceder a esta funcionalidad debe contar con los permisos PARTYMGR_CREATE o PARTYMGR_ADMIN</value>
-        <value xml:lang="fa">خطا امنیتی: برای اجراء «ساختن فروشنده» شما باید اجازه PARTYMGR_CREATE یا PARTYMGR_ADMIN را داشته‌باشید</value>
+        <value xml:lang="fa">خطای امنیتی: برای اجراء «ساختن فروشنده» شما باید اجازه PARTYMGR_CREATE یا PARTYMGR_ADMIN را داشته‌باشید</value>
         <value xml:lang="fr">Erreur sécurité : pour ajouter un vendeur il faut avoir l'autorisation PARTYMGR_CREATE ou PARTYMGR_ADMIN</value>
         <value xml:lang="hi_IN">सुरक्षा त्रुटि: createVendor चलाने के लिए आप को PARTYMGR_CREATE या PARTYMGR_ADMIN की अनुमति होना चाहिए</value>
         <value xml:lang="it">Errore Sicurezza : per eseguire createVendor tu devi avere il permesso PARTYMGR_CREATE o PARTYMGR_ADMIN</value>
@@ -5960,7 +5960,7 @@
         <value xml:lang="de">Sicherheitsfehler: um deletePartyRole auszuführen müssen Sie die Berechtigung PARTYMGR_DELETE oder PARTYMGR_ADMIN besitzen</value>
         <value xml:lang="en">Security Error: to run deletePartyRole you must have the PARTYMGR_DELETE or PARTYMGR_ADMIN permission</value>
         <value xml:lang="es">Error de seguridad: para ejecutar deletePartyRole debe tener privilegios de PARTYMGR_DELETE o PARTYMGR_AMIN</value>
-        <value xml:lang="fa">خطا امنیتی: برای اجراء «پاک‌کردن وظیفه هویت» شما باید اجازه PARTYMGR_DELETE یا PARTYMGR_ADMIN را داشته‌باشید</value>
+        <value xml:lang="fa">خطای امنیتی: برای اجراء «پاک‌کردن وظیفه هویت» شما باید اجازه PARTYMGR_DELETE یا PARTYMGR_ADMIN را داشته‌باشید</value>
         <value xml:lang="fr">Erreur sécurité: pour exécuter deletePartyRole vous devez avoir l'autorisation PARTYMGR_DELETE or PARTYMGR_ADMIN</value>
         <value xml:lang="hi_IN">सुरक्षा त्रुटि: deletePartyRole चलाने के लिए आप को PARTYMGR_DELETE या PARTYMGR_ADMIN की अनुमति होना चाहिए</value>
         <value xml:lang="it">Errore sicurezza: per eseguire il servizio deletePartyRole tu devi avere il permesso PARTYMGR_DELETE o PARTYMGR_ADMIN</value>
@@ -5977,7 +5977,7 @@
         <value xml:lang="de">Sicherheitsfehler: um deleteVendor auszuführen müssen Sie die Berechtigung PARTYMGR_CREATE oder PARTYMGR_ADMIN besitzen</value>
         <value xml:lang="en">Security Error: to run deleteVendor you must have the PARTYMGR_CREATE or PARTYMGR_ADMIN permission</value>
         <value xml:lang="es">Error de seguridad: para acceder a esta funcionalidad debe contar con los permisos PARTYMGR_CREATE o PARTYMGR_ADMIN</value>
-        <value xml:lang="fa">خطا امنیتی: برای اجراء «پاک‌کردن فروشنده» شما باید اجازه PARTYMGR_CREATE یا PARTYMGR_ADMIN را داشته‌باشید</value>
+        <value xml:lang="fa">خطای امنیتی: برای اجراء «پاک‌کردن فروشنده» شما باید اجازه PARTYMGR_CREATE یا PARTYMGR_ADMIN را داشته‌باشید</value>
         <value xml:lang="fr">Erreur Sécurité : pour supprimer un vendeur, il faut avoir l'autorisation PARTYMGR_CREATE ou PARTYMGR_ADMIN</value>
         <value xml:lang="hi_IN">सुरक्षा त्रुटि: deleteVendor चलाने के लिए आप को PARTYMGR_DELETE या PARTYMGR_ADMIN की अनुमति होना चाहिए</value>
         <value xml:lang="it">Errore Sicurezza : per eseguire deleteVendor tu devi avere il permesso PARTYMGR_CREATE o PARTYMGR_ADMIN</value>
@@ -6374,7 +6374,7 @@
     <property key="PartyEmailAddressRequired">
         <value xml:lang="de">E-Mail Adresse wird benötigt</value>
         <value xml:lang="en">Email address is required</value>
-        <value xml:lang="fa">آدرس ایمیل الزامی است</value>
+        <value xml:lang="fa">آدرس ایمیل الزامی‌است</value>
         <value xml:lang="it">L'indirizzo e-mail è richiesto</value>
         <value xml:lang="ja">Eメールアドレスを入力してください</value>
         <value xml:lang="vi">Thư điện tử bắt buộc phải nhập</value>
@@ -6850,7 +6850,7 @@
         <value xml:lang="de">Session verfolgen</value>
         <value xml:lang="en">Follow Session</value>
         <value xml:lang="es">Continuar sesión</value>
-        <value xml:lang="fa">نشست پیش‌رو</value>
+        <value xml:lang="fa">نشست پیشرو</value>
         <value xml:lang="fr">Session suivante</value>
         <value xml:lang="hi_IN">सत्र का अनुगमन करें</value>
         <value xml:lang="it">Segui sessione</value>
@@ -7567,7 +7567,7 @@
     <property key="PartyInvoicesNotApplied">
         <value xml:lang="de">Rechnungen noch nicht (vollständig) bezahlt</value>
         <value xml:lang="en">Invoices not yet (fully) applied</value>
-        <value xml:lang="fa">فاکتورها هنوز کامل واریز‌نشده‌اند</value>
+        <value xml:lang="fa">فاکتورهایی که هنوز کامل واریز‌نشده‌اند</value>
         <value xml:lang="fr">Factures non (complètement) payées</value>
         <value xml:lang="hi_IN">चालान अभी तक (पूर्ण) लागू नहीं है</value>
         <value xml:lang="it">Fatture non ancora (completamente) applicate</value>
@@ -7784,7 +7784,7 @@
     <property key="PartyLinkExplanation">
         <value xml:lang="de">Dies setzt den status des Akteurs auf 'Inaktiv' auch wenn es eine Verbindung im Feld 'partyTo' der Akteur Attribute gibt</value>
         <value xml:lang="en">This will set the status of 'partyId' to disabled however will link it to 'partyTo' in the party Attributes</value>
-        <value xml:lang="fa">این وضعیت «آی‌دی هویت» را غیرفعال خواهدکرد به‌هرحال به «هویت به» در خواص هویت پیوند‌خواهدشد</value>
+        <value xml:lang="fa">این وضعیت «آی‌دی هویت» را غیرفعال ثبت‌خواهدکرد به‌هرحال به «هویت به» در خواص هویت پیوند‌خواهدشد</value>
         <value xml:lang="fr">Désactive l'acteur sélectionné (gauche), et lie ses données vers l'acteur sélectionné à droite</value>
         <value xml:lang="ja">これは'取引先ID'のステータスを無効に設定しますが、取引先属性で'取引先(先)'にリンクします</value>
         <value xml:lang="vi">Việc này sẽ đặt trạng thái 'partyId' thành vô hiệu hóa và tạo liên kết đến 'partyTo' tại thuộc tính của tác nhân</value>
@@ -7794,7 +7794,7 @@
         <value xml:lang="de">WARNUNG: Dies kann nicht rückgängig gemacht werden. Bestätigen Sie bitte, dass Sie die beiden unten aufgeführten Akteure verknüpfen möchten. </value>
         <value xml:lang="en">WARNING: This cannot be un-done, confirm you wish to link the two party records listed below.</value>
         <value xml:lang="es">Advertencia: Esto no se puede deshacer, confirme que desea enlazar los dos participantes listados abajo.</value>
-        <value xml:lang="fa">اخطار: برگشتنی نیست، تاییدکنید که شما می‌خواهید سوابق هویت‌های لیست‌شده را پیوند‌کنید.</value>
+        <value xml:lang="fa">هشدار: برگشتنی نیست، تاییدکنید که شما می‌خواهید سوابق هویت‌های لیست‌شده را پیوند‌کنید.</value>
         <value xml:lang="fr">ATTENTION: Ceci ne peut pas être défait, confirmez votre souhait de lier les deux enregistrements de l'acteur énumérés ci-dessous.</value>
         <value xml:lang="hi_IN">चेतावनी: यह पूर्ववत नहीं किया जा सकता, नीचे सूचीबद्ध दो पार्टी रिकॉर्ड जोड़ने के लिए अपनी इच्छा की पुष्टि करे|</value>
         <value xml:lang="it">ATTENZIONE: Questa operazione non può essere annullata, conferma che vuoi legare i due soggetti elencati qui sotto.</value>
@@ -9372,7 +9372,7 @@
         <value xml:lang="de">Finde keine Akteur-Information für den aktuellen Nutzer mit Nutzernamen</value>
         <value xml:lang="en">No party found for current user with user name</value>
         <value xml:lang="es">No hay un actor associado a este nombre de usuario</value>
-        <value xml:lang="fa">هیچ هویتی پیدانشد برای کاربر کنونی با نام کاربری</value>
+        <value xml:lang="fa">هیچ هویتی پیدانشد برای کاربر کنونی با نام‌کاربری</value>
         <value xml:lang="fr">Aucun acteur associé au nom d'utilisateur</value>
         <value xml:lang="hi_IN">इस नाम से कोई पार्टी नही है</value>
         <value xml:lang="it">Nessun soggetto associato al nome dell'utente</value>
@@ -10494,7 +10494,7 @@
     <property key="PartyPaymentsNotApplied">
         <value xml:lang="de">Zahlungen noch nicht (vollständig) erfüllt</value>
         <value xml:lang="en">Payments not yet (fully) applied</value>
-        <value xml:lang="fa">پرداخت‌ها هنوز کاملا واریز‌نشده‌اند</value>
+        <value xml:lang="fa">پرداخت‌هایی که هنوز کاملا واریز‌نشده‌اند</value>
         <value xml:lang="fr">Paiements non (complètement) utilisés</value>
         <value xml:lang="hi_IN">भुगतान अभी तक (पूर्ण)लागू नहीं है</value>
         <value xml:lang="it">Pagamenti non ancora (completamente) applicati</value>
@@ -11415,7 +11415,7 @@
         <value xml:lang="de">Sicherheitsfehler: um removeCommunicationEventPurpose auszuführen müssen Sie die Berechtigung PARTYMGR_DELETE oder PARTYMGR_ADMIN besitzen</value>
         <value xml:lang="en">Security Error: to run removeCommunicationEventPurpose you must have the PARTYMGR_DELETE or PARTYMGR_ADMIN permission</value>
         <value xml:lang="es">Error de seguridad: para acceder a esta funcionalidad debe contar con los permisos PARTYMGR_DELETE o PARTYMGR_ADMIN</value>
-        <value xml:lang="fa">خطا امنیتی: برای اجراء «حذف هدف رویداد ارتباط» شما باید اجازه PARTYMGR_DELETE یا PARTYMGR_ADMIN را داشته‌باشید</value>
+        <value xml:lang="fa">خطای امنیتی: برای اجراء «حذف هدف رویداد ارتباط» شما باید اجازه PARTYMGR_DELETE یا PARTYMGR_ADMIN را داشته‌باشید</value>
         <value xml:lang="fr">Erreur sécurité : pour supprimer l'objet d'un appel il faut avoir avoir l'autorisation PARTYMGR_DELETE ou PARTYMGR_ADMIN.</value>
         <value xml:lang="hi_IN">सुरक्षा त्रुटि: removeCommunicationEventPurpose चलाने के लिए आप को PARTYMGR_DELETE या PARTYMGR_ADMIN की अनुमति होना चाहिए</value>
         <value xml:lang="it">Errore Sicurezza : per eseguire removeCommunicationEventPurpose tu devi avere il permesso PARTYMGR_DELETE o PARTYMGR_ADMIN</value>
@@ -12425,7 +12425,7 @@
     <property key="PartyStateInCanadaMissing">
         <value xml:lang="de">Staat fehlt und wird für Adressen in Canada zwingend benötigt.</value>
         <value xml:lang="en">State is missing, and is required for an address in Canada.</value>
-        <value xml:lang="fa">استان فراموش‌شده‌است، و برای آدرس الزامی می‌باشد.</value>
+        <value xml:lang="fa">استان فراموش‌شده‌است، و برای آدرس الزامی‌می‌باشد.</value>
         <value xml:lang="fr">L'état manque, il est nécessaire pour une adresse au Canada</value>
         <value xml:lang="hi_IN">राज्य नही है, और कनाडा में एक पते के लिए आवश्यक है|</value>
         <value xml:lang="it">Stato mancante, ed è richiesto per un'indirizzo in Canada.</value>
@@ -12438,7 +12438,7 @@
         <value xml:lang="de">Staat fehlt und wird zwingend benötigt für eine Adresse in den Vereinigten Staaten.</value>
         <value xml:lang="en">State is missing, and is required for an address in the United States.</value>
         <value xml:lang="es">Falta estado y es obligatorio para direcciones en Estados Unidos</value>
-        <value xml:lang="fa">ایالت فراموش‌شده‌است، و برای آدرس آمریکا الزامی می‌باشد.</value>
+        <value xml:lang="fa">ایالت فراموش‌شده‌است، و برای آدرس آمریکا الزامی‌می‌باشد.</value>
         <value xml:lang="fr">Etat absent, il est obligatoire pour une adresse aux Etat-Unis.</value>
         <value xml:lang="hi_IN">राज्य नही है, और अमेरिका में एक पते के लिए आवश्यक है|</value>
         <value xml:lang="it">Stato mancante, ed è richiesto per un'indirizzo negli Stati Uniti d'America.</value>
@@ -12605,7 +12605,7 @@
         <value xml:lang="de">Steuernummer und Befreiung</value>
         <value xml:lang="en">Tax Identification and Exemption</value>
         <value xml:lang="es">Identificación tributaria y extempción</value>
-        <value xml:lang="fa">شناسه‌(آی‌دی) مالیات و معافیت</value>
+        <value xml:lang="fa">شناسه(آی‌دی) مالیات و معافیت</value>
         <value xml:lang="fr">Identification et exemption d'impôts</value>
         <value xml:lang="hi_IN">कर(tax) पहचान और छूट</value>
         <value xml:lang="it">Identificazione tasse ed esenzione</value>

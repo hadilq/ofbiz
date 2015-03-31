@@ -312,7 +312,7 @@
         <value xml:lang="de">Lieferung ID</value>
         <value xml:lang="en">Deliverable Id</value>
         <value xml:lang="es">Código de envío</value>
-        <value xml:lang="fa">آی‌دی ‌تحویل‌شدنی</value>
+        <value xml:lang="fa">آی‌دی تحویل‌شدنی</value>
         <value xml:lang="fr">Réf. de livrable</value>
         <value xml:lang="it">Codice consegna</value>
         <value xml:lang="ja">引渡ID</value>
@@ -379,7 +379,7 @@
     <property key="FormFieldTitle_expectedItemStatus">
         <value xml:lang="de">Erwarteter Positionsstatus</value>
         <value xml:lang="en">Expected Item Status</value>
-        <value xml:lang="fa">وصعیت قلم موردانتظار</value>
+        <value xml:lang="fa">وضعیت قلم موردانتظار</value>
         <value xml:lang="fr">Statut des lignes en exception</value>
         <value xml:lang="it">Stato riga atteso</value>
         <value xml:lang="ja">期待アイテムステータス</value>
@@ -1154,7 +1154,7 @@
         <value xml:lang="de">Antwort benötigt Datum</value>
         <value xml:lang="en">Response Required Date</value>
         <value xml:lang="es">Fecha exigida para respuesta</value>
-        <value xml:lang="fa">تاریخ لازم‌شده پاسخ</value>
+        <value xml:lang="fa">تاریخ الزامی پاسخ</value>
         <value xml:lang="fr">Date requise de la réponse</value>
         <value xml:lang="it">Rispondere entro</value>
         <value xml:lang="ja">回答要求期限</value>
@@ -2285,7 +2285,7 @@
         <value xml:lang="da">Tildel emne</value>
         <value xml:lang="en">Assign Items</value>
         <value xml:lang="es">Asignar ítems</value>
-        <value xml:lang="fa">ثبت‌کردن اقلام</value>
+        <value xml:lang="fa">منتسب‌کردن اقلام</value>
         <value xml:lang="fr">Affecter les articles</value>
         <value xml:lang="it">Assegna articoli</value>
         <value xml:lang="ja">アイテムを割当</value>
@@ -2446,7 +2446,7 @@
         <value xml:lang="en">Back to Shopping Cart</value>
         <value xml:lang="en_GB">Back to Shopping basket</value>
         <value xml:lang="es">Volver al carro</value>
-        <value xml:lang="fa">بازگشتن به کارت خرید</value>
+        <value xml:lang="fa">بازگشتن به سبد خرید</value>
         <value xml:lang="fr">Retour au panier</value>
         <value xml:lang="hi_IN">ख़रीदारी टोकरी पर वापस जाऐं</value>
         <value xml:lang="it">Torna al carrello</value>
@@ -3081,7 +3081,7 @@
         <value xml:lang="de">Teil der Open For Business Familie von Open Source Software</value>
         <value xml:lang="en">Part of the Open For Business Family of Open Source Software</value>
         <value xml:lang="es">Parte de la familia de software Open For Business de código abierto</value>
-        <value xml:lang="fa">بخشی از خانواده آزاد برای تجارت از نرم‌افزارهای متن باز</value>
+        <value xml:lang="fa">بخشی از خانواده آزاد برای کسب‌وکار از نرم‌افزارهای متن باز</value>
         <value xml:lang="fr">Un module de la famille Open For Business, logiciel libre de gestion d'entreprise.</value>
         <value xml:lang="it">Un modulo della famiglia di software open source Open For Business</value>
         <value xml:lang="ja">Part of the Open For Business Family of Open Source Software</value>
@@ -3101,7 +3101,7 @@
         <value xml:lang="de_CH">Auftrag abschliessen</value>
         <value xml:lang="en">Complete Order</value>
         <value xml:lang="es">Cerrar el pedido</value>
-        <value xml:lang="fa">تکمیل‌کردن سفارش</value>
+        <value xml:lang="fa">کامل‌کردن سفارش</value>
         <value xml:lang="fr">Terminer la commande</value>
         <value xml:lang="it">Ordine Completato</value>
         <value xml:lang="ja">注文を完了</value>
@@ -3276,7 +3276,7 @@
     <property key="OrderCreateTestSalesOrderSingleError">
         <value xml:lang="de">Keine Produkte gefunden in Kategorie ${productCategoryId}; Bestellungen werden nicht erstellt</value>
         <value xml:lang="en">No products found in category ${productCategoryId}; no orders will be created</value>
-        <value xml:lang="fa">هیچ محصولی در رده‌بندی ${productCategoryId} پیدانشده؛ هیچ سفارشی ساخته نخواهدشد</value>
+        <value xml:lang="fa">هیچ محصولی در دسته‌بندی ${productCategoryId} پیدانشده؛ هیچ سفارشی ساخته نخواهدشد</value>
         <value xml:lang="fr">Pas de produits trouvés dans la catégorie ${productCategoryId}, aucune commande ne peut être créée</value>
         <value xml:lang="it">Nessun prodotto trovato nella categoria ${productCategoryId}; nessun ordine verrà creato</value>
         <value xml:lang="ja">カテゴリ ${productCategoryId} に製品が見つかりません。注文は作成されません</value>
@@ -4033,7 +4033,7 @@
         <value xml:lang="de">Nicht genügend vorhanden (Sie haben ${requestedQuantity}) vom Produkt ${productName} (Produkt ID: ${productId}) angegeben, Produkt nicht zum Warenkorb hinzugefügt. Reduzieren Sie die Menge oder nehmen Sie Kontakt mit dem Kundendienst auf.</value>
         <value xml:lang="en">Sorry, we do not have enough (you tried ${requestedQuantity}) of the product ${productName} (product ID: ${productId}) in stock, not adding to cart. Please try a lower quantity, try again later, or call customer service for more information.</value>
         <value xml:lang="es">Lo sentimos pero no hay suficiente en stock del producto ${productName} [${productId}], el producto no se ha añadido al carro. Por favor reduzca la cantidad o póngase en contacto con atención al cliente.</value>
-        <value xml:lang="fa">متاسفانه ما مقدار کافی (مقدار درخواستی شما: ${requestedQuantity}) از محصول ${productName} (آی‌دی محصول: ${productId}) را در انبار موجود نداریم. به سبد چیزی اضافه نشد. لطفا کمیت کمتری را امتحان نمایید، بعدا امتحان نمایید، یا با سرویس مشتری برای اطلاعات بیشتر تماس بگیرید.</value>
+        <value xml:lang="fa">متاسفانه ما مقدار کافی (مقدار درخواستی شما: ${requestedQuantity}) از محصول ${productName} (آی‌دی محصول: ${productId}) را در موجودی نداریم. به سبد چیزی اضافه نشد. لطفا کمیت کمتری را امتحان نمایید، بعدا امتحان نمایید، یا با سرویس مشتری برای اطلاعات بیشتر تماس بگیرید.</value>
         <value xml:lang="fr">Désolé, nous n'en avons pas assez (vous avez essayé ${requestedQuantity} du produit ${productName}en stock (product ID: ${productId}), non ajouté au panier. SVP essayez une quantité inférieure, essayez de nouveau plus tard, ou appelez le service client pour plus d'information</value>
         <value xml:lang="it">Spiacente, al momento non disponiamo in magazzino di ${requestedQuantity} pezzi del prodotto ${productName} (product ID: ${productId}), questi non saranno aggiunti al carrello. Puoi provare a richiedere una quantità minore, a riprovare più tardi, o contattare il servizio assistenza clienti.</value>
         <value xml:lang="ja">申し訳ありません。製品 ${productName} (製品ID: ${productId}) の充分な在庫がありません( ${requestedQuantity} をご希望)。買い物かごに追加することができません。数を減らすか、後でお試しください。あるいは詳細な情報はカスタマサービスにご連絡ください。</value>
@@ -4176,7 +4176,7 @@
         <value xml:lang="de">wurde angenommen. Ihr Auftrag wird verarbeitet und Sie werden eine E-Mail Benachrichtigung erhalten sobald Positionen versendet werden.Besten Dank für Ihren Auftrag.</value>
         <value xml:lang="en">has been accepted. Your order will be processed, and you will receive an email notification once the item(s) have shipped.Thank you for your order!</value>
         <value xml:lang="es">Ha sido aceptado. Su orden ha sido procesada, recibirá un correo al enviarsele los artículo(s).Gracias por su preferenciar!</value>
-        <value xml:lang="fa">پذیرفته‌شده‌است. سفارش شما پردازش خواهد شد، و شما ایمیل آگاه‌سازی دریافت خواهید کرد وقتی که اقلام فرستاده شدند. ممنون برای سفارش شما!</value>
+        <value xml:lang="fa">پذیرفته‌شده‌است. سفارش شما پردازش خواهد شد، و شما ایمیل آگاه‌سازی دریافت خواهید کرد وقتی که قلم(اقلام) فرستاده شدند. ممنون برای سفارش شما!</value>
         <value xml:lang="fr">A été acceptée.Votre commande sera traitée, et vous recevrez un courriel de confirmation une fois l(es)'articles(s) expédié(s).Merci pour votre confiance !</value>
         <value xml:lang="hi_IN">चुना गया है  आपके आर्डर पर विचार कर आपको माल भेजने के बाद इमेल से सूचित किया जाएगा  आपके आर्डर के लिए धन्यवाद</value>
         <value xml:lang="it">è stato accettato. Il tuo ordine sarà processato, e riceverai un notifica email appena gli articoli saranno spediti.Grazie per averci preferito!</value>
@@ -4896,7 +4896,7 @@
         <value xml:lang="de">Alles in Geschenkverpackung</value>
         <value xml:lang="en">Gift Wrap All Items?</value>
         <value xml:lang="es">Todo en el paquete del regalo</value>
-        <value xml:lang="fa">هدیه‌پیچ‌کردن همه اقلام؟</value>
+        <value xml:lang="fa">هدیه پیچیدن همه اقلام؟</value>
         <value xml:lang="fr">Emballer comme cadeaux tous les articles ?</value>
         <value xml:lang="it">Omaggio Coinvolge Tutte le Righe?</value>
         <value xml:lang="ja">すべてのアイテムをギフト包装?</value>
@@ -6372,7 +6372,7 @@
     <property key="OrderNoAgreementFoundWithIdNotDoingPromotions">
         <value xml:lang="de">Keine Vereinbarung mit dieser ID gefunden. Es werden keine Aktion angewendet</value>
         <value xml:lang="en">No Agreement Found With Id Not Doing Promotions</value>
-        <value xml:lang="fa">هیچ توافقی با آی‌دی بدون تبلیغ پیدانشده</value>
+        <value xml:lang="fa">هیچ توافقی با آی‌دی بدون تبلیغات پیدانشده</value>
         <value xml:lang="fr">Pas d'accord trouvé avec cette référence. Aucune promotion activée</value>
         <value xml:lang="it">Nessun contratto trovato con questo id nessuna promozione verrà creata</value>
         <value xml:lang="ja">プロモーションをしていないIDで同意書はありません</value>
@@ -6384,7 +6384,7 @@
     <property key="OrderNoAgreementItemFoundForAgreementWithIdNotDoingPromotions">
         <value xml:lang="de">Kein Vereinbarungselement mit dieser ID gefunden. Es werden keine Aktion angewendet</value>
         <value xml:lang="en">No Agreement Item Found With Id Not Doing Promotions</value>
-        <value xml:lang="fa">هیچ قلم توافقی با آی‌دی بدون تبلیغ پیدانشده</value>
+        <value xml:lang="fa">هیچ قلم توافقی با آی‌دی بدون تبلیغات پیدانشده</value>
         <value xml:lang="fr">Pas ligne d'accord trouvée avec cette référence. Aucune promotion activée</value>
         <value xml:lang="it">Nessuna riga contratto trovata con questo id nessuna promozione verrà creata</value>
         <value xml:lang="ja">プロモーションをしていないIDで同意書はありません</value>
@@ -6497,7 +6497,7 @@
         <value xml:lang="de">Keine Bestellungen gefunden</value>
         <value xml:lang="en">No Orders Found</value>
         <value xml:lang="es">No se ha encontrado ningún pedido</value>
-        <value xml:lang="fa">سفارشی پیدانشده</value>
+        <value xml:lang="fa">هیچ سفارشی پیدانشده</value>
         <value xml:lang="fr">Aucune commande trouvée</value>
         <value xml:lang="hi_IN">कोई आर्डर नही मिला</value>
         <value xml:lang="it">Nessun ordine trovato</value>
@@ -6516,7 +6516,7 @@
         <value xml:lang="de">Kein Auftrag gefunden für Akteur ID</value>
         <value xml:lang="en">No orders found for partyId</value>
         <value xml:lang="es">No se han encontrado pedidos para este participante</value>
-        <value xml:lang="fa">سفارشی برای «آی‌دی هویت» پیدانشده</value>
+        <value xml:lang="fa">هیچ سفارشی برای «آی‌دی هویت» پیدانشده</value>
         <value xml:lang="fr">Aucune commande trouvés pour réf. d'acteur</value>
         <value xml:lang="it">Nessun Ordine Trovato per il soggetto</value>
         <value xml:lang="ja">注文はありません、取引先ID:</value>
@@ -8377,7 +8377,7 @@
         <value xml:lang="de">oder neue Arbeitseinsatz Daten angeben um neuen Datensatz anzulegen (Arbeitseinsatz ID leer lassen)</value>
         <value xml:lang="en">OR add new WorkEffort data below to create new entity (leave WorkEffort Id empty)</value>
         <value xml:lang="es">o introduzca datos abajo para crear un nuevo esfuerzo de trabajo (deje el código del esfuerzo en blanco)</value>
-        <value xml:lang="fa">یا با اضافه‌کردن داده برنامه ‌جدید در زیر برای ساختن نهاد جدید (آی‌دی برنامه کار را خالی رها کنید)</value>
+        <value xml:lang="fa">یا با اضافه‌کردن داده برنامه ‌جدید در زیر برای ساختن نهاد جدید (آی‌دی برنامه کار را خالی رهاکنید)</value>
         <value xml:lang="fr">OU ajouter les nouvelles données liées à la tâche ci-dessous pour créer la nouvelle entité (laisser la réf. de tâche vide)</value>
         <value xml:lang="it">O aggiungi dei nuovi dati Impegno di Lavoro sotto per creare una nuova entità  (lascia vuoto il Codice Impegno di Lavoro)</value>
         <value xml:lang="ja">または新規エンティティを作成するために新規作業成果データを次に追加してください (作業成果IDは空にしてください)</value>
@@ -9263,7 +9263,7 @@
     <property key="OrderOrderShipEstimate">
         <value xml:lang="de">Geschätzter Versandbetrag</value>
         <value xml:lang="en">Shipping estimate amount</value>
-        <value xml:lang="fa">مقدار انتظاری حمل</value>
+        <value xml:lang="fa">مقدار تخمین حمل</value>
         <value xml:lang="fr">Montant d'expédition estimé</value>
         <value xml:lang="ja">発送見積金額</value>
         <value xml:lang="vi">Giá trị chuyển vận ước tính</value>
@@ -15777,7 +15777,7 @@
         <value xml:lang="de_CH">Anfrageelemente Bedarf</value>
         <value xml:lang="en">Request Item Requirements</value>
         <value xml:lang="es">Requisitos de ítem de petición</value>
-        <value xml:lang="fa">درخواست‌کردن الزامات قلم</value>
+        <value xml:lang="fa">درخواست‌کردن ملزومات قلم</value>
         <value xml:lang="fr">Demande des besoins sur article</value>
         <value xml:lang="it">Fabbisogni Riga Richiesta</value>
         <value xml:lang="ja">リクエストアイテム要求</value>

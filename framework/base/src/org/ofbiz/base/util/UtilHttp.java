@@ -55,11 +55,10 @@ import org.apache.oro.text.regex.MalformedPatternException;
 import org.owasp.esapi.errors.EncodingException;
 import org.owasp.esapi.errors.IntrusionException;
 
-import com.ibm.icu.util.Calendar;
-
 import org.ofbiz.base.conversion.ConversionException;
 import org.ofbiz.base.conversion.DateTimeConverters;
 import org.ofbiz.base.conversion.DateTimeConverters.StringToTimestamp;
+import org.ofbiz.base.util.Calendar;
 
 /**
  * HttpUtil - Misc HTTP Utility Functions
@@ -1257,7 +1256,7 @@ public class UtilHttp {
                     // create default timestamp value from timestamp string
                     timestamp = Timestamp.valueOf(date.substring(0, 10) + " 00:00:00.000");
                 }
-                Calendar cal = UtilDateTime.getICUCalendar(null, locale);
+                Calendar cal = Calendar.getInstance(null, locale);
                 cal.setTime(timestamp);
                 if (isTwelveHour) {
                     boolean isAM = ("AM".equals(ampm) ? true : false);

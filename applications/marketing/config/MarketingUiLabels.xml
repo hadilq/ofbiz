@@ -414,7 +414,7 @@
         <value xml:lang="de">Teil der Open For Business Familie von Open Source Software</value>
         <value xml:lang="en">Part of the Open For Business Family of Open Source Software</value>
         <value xml:lang="es">Parte de la familia de software Open For Business de código abierto</value>
-        <value xml:lang="fa">بخشی از خانواده آزاد برای تجارت از نرم‌افزارهای متن باز</value>
+        <value xml:lang="fa">بخشی از خانواده آزاد برای کسب‌وکار از نرم‌افزارهای متن باز</value>
         <value xml:lang="fr">Un module de la famille Open For Business, logiciel libre de gestion d'entreprise.</value>
         <value xml:lang="it">Un modulo della famiglia di software open source Open For Business</value>
         <value xml:lang="ja">Part of the Open For Business Family of Open Source Software</value>
@@ -449,7 +449,7 @@
         <value xml:lang="de">Neues Kontaktlisten-Kommunikationsereignis erstellen</value>
         <value xml:lang="en">Create New Contact List Comm Event</value>
         <value xml:lang="es">Crear evento de comunicación</value>
-        <value xml:lang="fa">ساختن لیست تماس جدید رویدادهای معمول</value>
+        <value xml:lang="fa">ساختن رویداد ارتباط لیست تماس جدید</value>
         <value xml:lang="fr">Nouvel évènement de communication de la liste de contact</value>
         <value xml:lang="it">Nuovo evento comunicazione della lista contatti</value>
         <value xml:lang="ja">新規連絡リスト通信イベントを作成</value>
@@ -522,7 +522,7 @@
         <value xml:lang="de">Kontaktlistenname</value>
         <value xml:lang="en">Contact List Name</value>
         <value xml:lang="es">Nombre de lista</value>
-        <value xml:lang="fa">نام لست تماس</value>
+        <value xml:lang="fa">نام لیست تماس</value>
         <value xml:lang="fr">Nom de la liste de contact</value>
         <value xml:lang="it">Nome lista contatti</value>
         <value xml:lang="ja">連絡リスト名称</value>
@@ -616,7 +616,7 @@
     <property key="MarketingContactListIsSingleUse">
         <value xml:lang="de">Einmalige Nutzung ?</value>
         <value xml:lang="en">Is Single Use ?</value>
-        <value xml:lang="fa">آیا تک کاره است؟</value>
+        <value xml:lang="fa">آیا تک‌کاره است؟</value>
         <value xml:lang="fr">Est à usage unique ?</value>
         <value xml:lang="it">E' a singolo uso ?</value>
         <value xml:lang="ja">単一使用?</value>
@@ -647,7 +647,7 @@
         <value xml:lang="de">zusätzlicher Bestätigungscode</value>
         <value xml:lang="en">Opt-In Verify Code</value>
         <value xml:lang="es">Código de verificación Opt-in</value>
-        <value xml:lang="fa">کد تایید اضافه</value>
+        <value xml:lang="fa">کد تصدیق اضافه</value>
         <value xml:lang="fr">Code de vérification d'inscription volontaire (Opt-in)</value>
         <value xml:lang="it">Codice Verifica Opt-In</value>
         <value xml:lang="ja">選択確認コード</value>
@@ -662,7 +662,7 @@
     <property key="MarketingContactListOptInVerifyCodeIsMandatory">
         <value xml:lang="de">zusätzlicher Bestätigungscode</value>
         <value xml:lang="en">No Opt-in Verify Code specified, but one is required.</value>
-        <value xml:lang="fa">هیچ کد تایید اضافه‌ای مشخص نشده است، اما یکی لازم‌است.</value>
+        <value xml:lang="fa">هیچ کد تصدیق اضافه‌ای مشخص‌نشده‌است، اما یکی لازم‌است.</value>
         <value xml:lang="it">Nessun codice di verifica Opt-in specificato, ma uno è obbligatorio.</value>
         <value xml:lang="ja">選択確認コードが指定されていません。１つは必須です。</value>
         <value xml:lang="vi">Mã xác nhận (Opt-In) chưa được nhập.</value>
@@ -671,7 +671,7 @@
     <property key="MarketingContactListOptInVerifyCodeNotCorrect">
         <value xml:lang="de">Der angegebene Bestätigungscode [${parameters.optInVerifyCode}] ist falsch. Bitte prüfen sie den zugeschickten Code.</value>
         <value xml:lang="en">The Opt-in Verify Code specified [${parameters.optInVerifyCode}] was not correct. Please check the code you were sent.</value>
-        <value xml:lang="fa">کد تایید اضافه [${parameters.optInVerifyCode}] درست نیست. لطفا کد فرستاده شده را بازبینی کنید.</value>
+        <value xml:lang="fa">کد تصدیق اضافه [${parameters.optInVerifyCode}] درست نیست. لطفا کد فرستاده شده را چک‌کنید.</value>
         <value xml:lang="it">Il codice di verifia Opt-in specificato [${parameters.optInVerifyCode}] non era corretto. Per favore verificare il codice che ti è stato inviato.</value>
         <value xml:lang="ja">指定された選択確認コード [${parameters.optInVerifyCode}] は正しくありません。コードを確認してください。</value>
         <value xml:lang="vi">Mã xác nhận (Opt-In) có giá trị [${parameters.optInVerifyCode}] không đúng. Bạn hãy kiểm tra lại mã xác nhận đã gửi.</value>
@@ -771,7 +771,7 @@
         <value xml:lang="de">Bestätigungsemail von</value>
         <value xml:lang="en">Verify Email From</value>
         <value xml:lang="es">E-mail de verificación</value>
-        <value xml:lang="fa">فرم ایمیل تایید</value>
+        <value xml:lang="fa">فرم ایمیل تصدیق</value>
         <value xml:lang="fr">Adresse courriel de vérification</value>
         <value xml:lang="it">Verifica Email da</value>
         <value xml:lang="ja">確認Eメール差出人</value>
@@ -787,7 +787,7 @@
         <value xml:lang="de">Bestätigungsemail Inhalt</value>
         <value xml:lang="en">Verify Email Screen</value>
         <value xml:lang="es">Pantalla de verificación</value>
-        <value xml:lang="fa">صفحه ایمیل تایید</value>
+        <value xml:lang="fa">صفحه ایمیل تصدیق</value>
         <value xml:lang="fr">Ecran de vérification du courriel</value>
         <value xml:lang="it">Schermo di verifica Email</value>
         <value xml:lang="ja">確認Eメール画面</value>
@@ -803,7 +803,7 @@
         <value xml:lang="de">Bestätigungsemail Betreff</value>
         <value xml:lang="en">Verify Email Subject</value>
         <value xml:lang="es">Título del mensaje</value>
-        <value xml:lang="fa">موضوع ایمیل تایید</value>
+        <value xml:lang="fa">موضوع ایمیل تصدیق</value>
         <value xml:lang="fr">Sujet du courriel de vérification</value>
         <value xml:lang="it">Verifica Email Soggetto</value>
         <value xml:lang="ja">確認Eメール件名</value>
@@ -819,7 +819,7 @@
         <value xml:lang="de">Bestätigungsemail Webseiten ID</value>
         <value xml:lang="en">Verify Email WebSite Id</value>
         <value xml:lang="es">Sitio web de verificación</value>
-        <value xml:lang="fa">آی‌دی وب‌سایت ایمیل تایید</value>
+        <value xml:lang="fa">آی‌دی وب‌سایت ایمیل تصدیق</value>
         <value xml:lang="fr">Réf. du site Internet du courriel de vérification</value>
         <value xml:lang="it">Verifica Email Sito Web</value>
         <value xml:lang="ja">確認EメールWebサイトID</value>
@@ -834,7 +834,7 @@
     <property key="MarketingContactMechNotRightForContactList">
         <value xml:lang="de">Der bevorzugte Kontaktmechanismus [${preferredContactMechType.description}] ist vom falschen Typ für die Liste [${listContactMechType.description}].</value>
         <value xml:lang="en">The preferred contact mechanism [${preferredContactMechType.description}] was not of the right type for the list [${listContactMechType.description}].</value>
-        <value xml:lang="fa">مکانیسم تماس ارجح [${preferredContactMechType.description}] نوع مناسبی برای لیست [${listContactMechType.description}] نیست.</value>
+        <value xml:lang="fa">ساختار تماس ارجح [${preferredContactMechType.description}] نوع مناسبی برای لیست [${listContactMechType.description}] نیست.</value>
         <value xml:lang="it">Il contatto preferito [${preferredContactMechType.description}] non era la giusta lista [${listContactMechType.description}].</value>
         <value xml:lang="ja">通常の連絡方法 [${preferredContactMechType.description}] は一覧 [${listContactMechType.description}] の正しい種類ではありません。</value>
         <value xml:lang="vi">Cơ chế liên lạc ưa thích [${preferredContactMechType.description}] không nằm trong loại của danh sách [${listContactMechType.description}].</value>
@@ -859,7 +859,7 @@
     <property key="MarketingCreatePermissionError">
         <value xml:lang="de">Berechtigungsfehler: Um '${resourceDescription}' auszuführen muss man die Berechtigungen MARKETING_CREATE oder MARKETING_ADMIN besitzen</value>
         <value xml:lang="en">Security Error: to run ${resourceDescription} you must have the MARKETING_CREATE or MARKETING_ADMIN permission</value>
-        <value xml:lang="fa">خطای امنیتی: برای اجراء ${resourceDescription} شما باید دارای مجوز MARKETING_CREATE یا MARKETING_ADMIN</value>
+        <value xml:lang="fa">خطای امنیتی: برای اجراء ${resourceDescription} شما باید اجازه MARKETING_CREATE یا MARKETING_ADMIN را داشته‌باشید</value>
         <value xml:lang="fr">Erreur de sécurité : pour lancer ${resourceDescription}, vous devez avoir la permission MARKETING_CREATE ou MARKETING_ADMIN</value>
         <value xml:lang="it">Errore di sicurezza: per eseguire ${resourceDescription} devi avere il permesso MARKETING_CREATE o MARKETING_ADMIN</value>
         <value xml:lang="ja">セキュリティエラー: ${resourceDescription} の実行には MARKETING_CREATE または MARKETING_ADMIN 権限が必要です。</value>
@@ -885,7 +885,7 @@
     <property key="MarketingDeletePermissionError">
         <value xml:lang="de">Berechtigungsfehler: Um '${resourceDescription}' auszuführen muss man die Berechtigungen MARKETING_DELETE oder MARKETING_ADMIN besitzen</value>
         <value xml:lang="en">Security Error: to run ${resourceDescription} you must have the MARKETING_DELETE or MARKETING_ADMIN permission</value>
-        <value xml:lang="fa">خطای امنیتی: برای اجراء ${resourceDescription} شما باید دارای مجوز  MARKETING_DELETE یا MARKETING_ADMIN</value>
+        <value xml:lang="fa">خطای امنیتی: برای اجراء ${resourceDescription} شما باید اجازه  MARKETING_DELETE یا MARKETING_ADMIN را داشته‌باشید</value>
         <value xml:lang="fr">Erreur de sécurité : pour lancer ${resourceDescription}, vous devez avoir la permission MARKETING_DELETE ou MARKETING_ADMIN</value>
         <value xml:lang="it">Errore di sicurezza: per eseguire ${resourceDescription} devi avere il permesso MARKETING_DELETE o MARKETING_ADMIN</value>
         <value xml:lang="ja">セキュリティエラー: ${resourceDescription} の実行には MARKETING_DELETE または MARKETING_ADMIN 権限が必要です。</value>
@@ -906,7 +906,7 @@
     <property key="MarketingFindAccounts">
         <value xml:lang="de">Accounts suchen</value>
         <value xml:lang="en">Find SFA Accounts</value>
-        <value xml:lang="fa">پیداکردن حساب SFA</value>
+        <value xml:lang="fa">پیداکردن حساب‌های «مدیریت نیروی فروش (SFA)»</value>
         <value xml:lang="fr">Rechercher les comptes de ventes</value>
         <value xml:lang="it">Ricerca utenze SFA</value>
         <value xml:lang="ja">SFAアカウントを検索</value>
@@ -919,7 +919,7 @@
     <property key="MarketingFindContacts">
         <value xml:lang="de">Kontakte suchen</value>
         <value xml:lang="en">Find SFA Contacts</value>
-        <value xml:lang="fa">پیداکردن تماس‌های SFA</value>
+        <value xml:lang="fa">پیداکردن تماس‌های «مدیریت نیروی فروش (SFA)»</value>
         <value xml:lang="fr">Rechercher des contacts</value>
         <value xml:lang="ja">SFA連絡を検索</value>
         <value xml:lang="pt_BR">Encontrar contatos da equipe de vendas</value>
@@ -1016,7 +1016,7 @@
         <value xml:lang="de">Auftragssumme</value>
         <value xml:lang="en">Amount of Orders</value>
         <value xml:lang="es">Cantidad de órdenes</value>
-        <value xml:lang="fa">مقدار سفارش‌ها</value>
+        <value xml:lang="fa">مقدار سفارشات</value>
         <value xml:lang="fr">Montant des commandes</value>
         <value xml:lang="it">Importo degli Ordini</value>
         <value xml:lang="ja">注文金額</value>
@@ -1032,7 +1032,7 @@
         <value xml:lang="de">Aufträge</value>
         <value xml:lang="en">Orders</value>
         <value xml:lang="es">Órdenes</value>
-        <value xml:lang="fa">سفارش‌ها</value>
+        <value xml:lang="fa">سفارشات</value>
         <value xml:lang="fr">Commandes</value>
         <value xml:lang="it">Ordini</value>
         <value xml:lang="ja">注文</value>
@@ -1105,7 +1105,7 @@
         <value xml:lang="de">Neue Klassifizierung für Segmentgruppe erstellen</value>
         <value xml:lang="en">Create New Segment Group Classification</value>
         <value xml:lang="es">Nueva clasificación de segmento</value>
-        <value xml:lang="fa">ساختن کلس‌بندی گروه بخش جدید</value>
+        <value xml:lang="fa">ساختن کلاس‌بندی گروه بخش جدید</value>
         <value xml:lang="fr">Créer une nouvelle classification de groupe de segment</value>
         <value xml:lang="it">Creare Nuova Classificazione Gruppo Segmento</value>
         <value xml:lang="ja">新規セグメントグループ分類を作成</value>
@@ -1147,7 +1147,7 @@
     <property key="MarketingSegmentGroupDeletePermissionError">
         <value xml:lang="de">Fehler beim Löschen der Segmentgruppe</value>
         <value xml:lang="en">Error on delete Segment Group</value>
-        <value xml:lang="fa">خطا در حذف گروه بخش</value>
+        <value xml:lang="fa">خطا در پاک‌کردن گروه بخش</value>
         <value xml:lang="fr">Erreur dans la suppression d'un groupe de segment</value>
         <value xml:lang="it">Errore durante la cancellazione di un gruppo segmento</value>
         <value xml:lang="ja">セグメントグループ削除時エラー</value>
@@ -1233,7 +1233,7 @@
         <value xml:lang="de">Laden-ID</value>
         <value xml:lang="en">Product Store Id</value>
         <value xml:lang="es">Tienda</value>
-        <value xml:lang="fa">آی‌دی ذخیره محصول</value>
+        <value xml:lang="fa">آی‌دی انبار محصول</value>
         <value xml:lang="fr">Réf. de centre de profit</value>
         <value xml:lang="it">Codice Negozio</value>
         <value xml:lang="ja">製品店舗ID</value>
@@ -1390,7 +1390,7 @@
     <property key="MarketingServiceError">
         <value xml:lang="de">Während der Anfrage ist ein Problem aufgetreten, bitte versuchen Sie es noch einmal oder, falls das Problem weiterhin besteht, kontaktieren Sie uns.</value>
         <value xml:lang="en">There was a problem processing your request.  Please try again.  If the problem persists, please contact us.</value>
-        <value xml:lang="fa">برای درخواست شما مشکلی بوجود آمده است. لطفا دوباره تلاش کنید. اگر مشکل حل نشد لطفا با ما تماس بگیرید.</value>
+        <value xml:lang="fa">برای پردازش درخواست شما مشکلی بوجودآمده‌است. لطفا دوباره امتحان‌کنید. اگر مشکل حل نشد لطفا با ما تماس‌بگیرید.</value>
         <value xml:lang="fr">Il y a eu un problème durant le traitement de votre demande. SVP, essayez encore. Si le problème persiste, contactez-nous, merci.</value>
         <value xml:lang="it">C'è stato un problema durante l'esecuzione della tua richiesta. Prego riprovare. Se il problema persiste, contattaci, grazie.</value>
         <value xml:lang="ja">リクエストの処理中に問題があります。再度実行してください。問題が解消しない場合は連絡してください。</value>
@@ -1481,7 +1481,7 @@
         <value xml:lang="de">Standard-Produkkatalog</value>
         <value xml:lang="en">Default Product Catalog Id</value>
         <value xml:lang="es">Catálogo</value>
-        <value xml:lang="fa">آی‌دی خودکار رده‌بندی محصول</value>
+        <value xml:lang="fa">آی‌دی رده‌بندی محصول پیش‌فرض</value>
         <value xml:lang="fr">Catalogue produit par défaut</value>
         <value xml:lang="it">Codice Catalogo Default</value>
         <value xml:lang="ja">デフォルト製品カタログID</value>
@@ -1545,7 +1545,7 @@
         <value xml:lang="de">Kein Überschreiben (co-brand) falls leer</value>
         <value xml:lang="en">No override (co-brand) if empty</value>
         <value xml:lang="es">Si este campo queda vacío no se reemplazará</value>
-        <value xml:lang="fa">بدون جایگزین (برند همکار) اگر خالی بود</value>
+        <value xml:lang="fa">بدون بازنویسی (برند همکار) اگر خالی بود</value>
         <value xml:lang="fr">Aucun remplacement (marque associée) si vide</value>
         <value xml:lang="it">Nessuna sovrapposizione (co-brand) se vuoto</value>
         <value xml:lang="ja">空の場合(相互ブランド)上書しない</value>
@@ -1575,7 +1575,7 @@
         <value xml:lang="de">Tracking Code Aufträge</value>
         <value xml:lang="en">Tracking Code Orders</value>
         <value xml:lang="es">Órdenes de seguimiento</value>
-        <value xml:lang="fa"> سفارش‌های کد پیگیری</value>
+        <value xml:lang="fa"> سفارشات کد پیگیری</value>
         <value xml:lang="fr">Codes de suivi des commandes</value>
         <value xml:lang="it">Codice Tracciatura Ordini</value>
         <value xml:lang="ja">追跡コード注文</value>
@@ -1736,7 +1736,7 @@
         <value xml:lang="de">Tracking-Code Art</value>
         <value xml:lang="en">Tracking Code Type Id</value>
         <value xml:lang="es">Tipo de código</value>
-        <value xml:lang="fa">آی‌‌‌دی نوع کد پیگیری</value>
+        <value xml:lang="fa">آی‌دی نوع کد پیگیری</value>
         <value xml:lang="fr">Type de code de suivi</value>
         <value xml:lang="it">Tipo Tracciatura</value>
         <value xml:lang="ja">追跡コード種類ID</value>
@@ -1796,7 +1796,7 @@
         <value xml:lang="de">Tracking-Code Visits</value>
         <value xml:lang="en">Tracking Code Visits</value>
         <value xml:lang="es">Visitas de seguimiento</value>
-        <value xml:lang="fa">بازدید کد پیگیری</value>
+        <value xml:lang="fa">بازدیدهای کد پیگیری</value>
         <value xml:lang="fr">Codes de suivi des visites</value>
         <value xml:lang="it">Codice Tracciatura Visite</value>
         <value xml:lang="ja">追跡コード訪問</value>
@@ -1885,7 +1885,7 @@
     <property key="MarketingTrackingCodeVisitSessionId">
         <value xml:lang="en">Session Id</value>
         <value xml:lang="es">Código de sesión</value>
-        <value xml:lang="fa">آی‌دی جلسه</value>
+        <value xml:lang="fa">آی‌دی نشست</value>
         <value xml:lang="fr">Réf. de la session</value>
         <value xml:lang="it">Numero Sessione</value>
         <value xml:lang="ja">セッションID</value>
@@ -1913,7 +1913,7 @@
     <property key="MarketingTrackingCodeVisitUserLoginId">
         <value xml:lang="de">Tracking-Code User-Login</value>
         <value xml:lang="en">Tracking Code Visit User Login Id</value>
-        <value xml:lang="fa">کد پیگریری بازدید برای ورود کاربر</value>
+        <value xml:lang="fa">کد پیگیری بازدیدکردن آی‌دی ورود کاربر</value>
         <value xml:lang="fr">Réf. de code de suivi de visite d'identifiant de connexion</value>
         <value xml:lang="it">Codice tracciatura utente visita</value>
         <value xml:lang="ja">追跡コード訪問ログインユーザID</value>
@@ -1940,7 +1940,7 @@
     <property key="MarketingTrackingCodeVisitVisitorId">
         <value xml:lang="en">Visitor Id</value>
         <value xml:lang="es">Código de visitante</value>
-        <value xml:lang="fa">آی‌دی بازدیدکننده</value>
+        <value xml:lang="fa">آی‌دی بازدیدگر</value>
         <value xml:lang="fr">Réf. du visiteur</value>
         <value xml:lang="it">Codice Visitatore</value>
         <value xml:lang="ja">訪問者ID</value>
@@ -1969,7 +1969,7 @@
     <property key="MarketingUpdatePermissionError">
         <value xml:lang="de">Berechtigungsfehler: Um ${resourceDescription} auszuführen muss man MARKETING_UPDATE oder MARKETING_ADMIN Berechtigungen haben</value>
         <value xml:lang="en">Security Error: to run ${resourceDescription} you must have the MARKETING_UPDATE or MARKETING_ADMIN permission</value>
-        <value xml:lang="fa">خطا امنیتی: برای اجرای ${resourceDescription} شما نیاز به مجوزهای MARKETING_UPDATE یا MARKETING_ADMIN دارید.</value>
+        <value xml:lang="fa">خطای امنیتی: برای اجراء ${resourceDescription} شما باید اجازه MARKETING_UPDATE یا MARKETING_ADMIN را داشته‌باشید.</value>
         <value xml:lang="it">Errore di sicurezza: per eseguire ${resourceDescription} devi avere il permesso MARKETING_UPDATE o MARKETING_ADMIN</value>
         <value xml:lang="ja">セキュリティエラー: ${resourceDescription} の実行には MARKETING_UPDATE または MARKETING_ADMIN 権限が必要です。</value>
         <value xml:lang="vi">Lỗi phân quyền: để thực thi ${resourceDescription} bạn cần quyền MARKETING_UPDATE hoặc quyền MARKETING_ADMIN</value>
@@ -1979,7 +1979,7 @@
         <value xml:lang="de">Sie haben keine Berechtigung diese Seite anzusehen.</value>
         <value xml:lang="en">View Permission Error</value>
         <value xml:lang="es">Usted no cuenta con permiso de acceso</value>
-        <value xml:lang="fa">خطا مجوز نما</value>
+        <value xml:lang="fa">خطای اجازه نما</value>
         <value xml:lang="fr">Vous n'avez pas l'autorisation de voir</value>
         <value xml:lang="it">Mostra Errore Permessi</value>
         <value xml:lang="ja">表示権限エラー</value>
@@ -2194,7 +2194,7 @@
         <value xml:lang="de">Account bearbeiten</value>
         <value xml:lang="en">Edit Account</value>
         <value xml:lang="es">Editar cuenta</value>
-        <value xml:lang="fa">ویرایش حساب</value>
+        <value xml:lang="fa">ویرایش‌کردن حساب</value>
         <value xml:lang="fr">Modifier le compte</value>
         <value xml:lang="it">Aggiornare utente</value>
         <value xml:lang="ja">アカウントを編集</value>
@@ -2207,7 +2207,7 @@
         <value xml:lang="de">Kontaktliste bearbeiten</value>
         <value xml:lang="en">Edit Contact List</value>
         <value xml:lang="es">Editar lista de contactos</value>
-        <value xml:lang="fa">ویرایش لیست تماس</value>
+        <value xml:lang="fa">ویرایش‌کردن لیست تماس</value>
         <value xml:lang="fr">Modifier la liste de contact</value>
         <value xml:lang="it">Aggiorna lista contatti</value>
         <value xml:lang="ja">連絡リストを編集</value>
@@ -2222,7 +2222,7 @@
         <value xml:lang="de">Kommunikationsereigniss zu Kontaktliste bearbeiten</value>
         <value xml:lang="en">Edit Contact List Comm Event</value>
         <value xml:lang="es">Editar evento de comunicación</value>
-        <value xml:lang="fa">ویرایش لیست تماس رویداد معمول</value>
+        <value xml:lang="fa">ویرایش‌کردن رویداد ارتباط لیست تماس</value>
         <value xml:lang="fr">Modifier l'événement de communication de la liste de contact</value>
         <value xml:lang="it">Aggiorna Lista Contatto Evento Comunicazione</value>
         <value xml:lang="ja">連絡リスト通信イベントを編集</value>
@@ -2237,7 +2237,7 @@
         <value xml:lang="de">Kontaktliste Akteure bearbeiten</value>
         <value xml:lang="en">Edit Contact List Party</value>
         <value xml:lang="es">Añadir participante</value>
-        <value xml:lang="fa">ویرایش لیست تماس هویت</value>
+        <value xml:lang="fa">ویرایش‌کردن لیست تماس هویت</value>
         <value xml:lang="fr">Modifier l'abonné à la liste de contact</value>
         <value xml:lang="it">Aggiorna membro lista contatti</value>
         <value xml:lang="ja">連絡リスト取引先を編集</value>
@@ -2252,7 +2252,7 @@
         <value xml:lang="de">Marketingkampagne bearbeiten</value>
         <value xml:lang="en">Edit Marketing Campaign</value>
         <value xml:lang="es">Editar campaña de marketing</value>
-        <value xml:lang="fa">ویرایش کمپین بازاریابی</value>
+        <value xml:lang="fa">ویرایش‌کردن کمپین بازاریابی</value>
         <value xml:lang="fr">Modifier la campagne marketing</value>
         <value xml:lang="it">Aggiorna campagna di vendita</value>
         <value xml:lang="ja">キャンペーンを編集</value>
@@ -2267,7 +2267,7 @@
         <value xml:lang="de">Marketingkampagne Rolle bearbeiten</value>
         <value xml:lang="en">Edit Marketing Campaign Role</value>
         <value xml:lang="es">Editar roles de la campaña de marketing</value>
-        <value xml:lang="fa">ویرایش وظیفه کمپین بازاریابی</value>
+        <value xml:lang="fa">ویرایش‌کردن وظیفه کمپین بازاریابی</value>
         <value xml:lang="fr">Modifier les rôles de la campagne marketing</value>
         <value xml:lang="it">Aggiorna Ruolo Campagna Vendita</value>
         <value xml:lang="ja">キャンペーンロールを編集</value>
@@ -2281,7 +2281,7 @@
     <property key="PageTitleEditSalesForecast">
         <value xml:lang="de">Verkaufsprognose bearbeiten</value>
         <value xml:lang="en">Edit Sales Forecast</value>
-        <value xml:lang="fa">ویرایش پیش‌بینی فروش</value>
+        <value xml:lang="fa">ویرایش‌کردن پیش‌بینی فروش</value>
         <value xml:lang="fr">Modifier la prévision de ventes</value>
         <value xml:lang="it">Aggiorna previsioni di vendita</value>
         <value xml:lang="ja">販売予測を編集</value>
@@ -2293,7 +2293,7 @@
     <property key="PageTitleEditSalesForecastDetail">
         <value xml:lang="de">Verkaufsprognosendetail bearbeiten</value>
         <value xml:lang="en">Edit Sales Forecast Detail</value>
-        <value xml:lang="fa">ویرایش جزئیات پیش‌بینی فروش</value>
+        <value xml:lang="fa">ویرایش‌کردن جزئیات پیش‌بینی فروش</value>
         <value xml:lang="fr">Modifier le détail de la prévision de ventes</value>
         <value xml:lang="it">Aggiorna dettagli previsioni di vendita</value>
         <value xml:lang="ja">販売予測詳細を編集</value>
@@ -2306,7 +2306,7 @@
         <value xml:lang="de">Segmentgruppe bearbeiten</value>
         <value xml:lang="en">Edit Segment Group</value>
         <value xml:lang="es">Editar segmento</value>
-        <value xml:lang="fa">ویرایش گروه بخش</value>
+        <value xml:lang="fa">ویرایش‌کردن گروه بخش</value>
         <value xml:lang="fr">Modifier le groupe de segment</value>
         <value xml:lang="it">Aggiorna gruppo segmento</value>
         <value xml:lang="ja">セグメントグループを編集</value>
@@ -2321,7 +2321,7 @@
         <value xml:lang="de">Segmentgruppe-Klassifizierungen bearbeiten</value>
         <value xml:lang="en">Edit Segment Group Classification</value>
         <value xml:lang="es">Editar clasificación de segmento</value>
-        <value xml:lang="fa">ویرایش کلاس‌بندی گروه بخش</value>
+        <value xml:lang="fa">ویرایش‌کردن کلاس‌بندی گروه بخش</value>
         <value xml:lang="fr">Modifier la classification de groupe de segment</value>
         <value xml:lang="it">Aggiorna Classificazione Gruppo Segmento</value>
         <value xml:lang="ja">セグメントグループ分類を編集</value>
@@ -2336,7 +2336,7 @@
         <value xml:lang="de">Segmentgruppe-Gebiet bearbeiten</value>
         <value xml:lang="en">Edit Segment Group Geo</value>
         <value xml:lang="es">Editar ubicación de segmento</value>
-        <value xml:lang="fa">ویرایش جغرافیا گروه بخش</value>
+        <value xml:lang="fa">ویرایش‌کردن جغرافیای گروه بخش</value>
         <value xml:lang="fr">Modifier des zones géographiques du groupe de segment</value>
         <value xml:lang="it">Aggiorna Geografia Gruppo Segmento </value>
         <value xml:lang="ja">セグメントグループ位置を編集</value>
@@ -2351,7 +2351,7 @@
         <value xml:lang="de">Segmentgruppe-Rollen bearbeiten</value>
         <value xml:lang="en">Edit Segment Group Role</value>
         <value xml:lang="es">Editar rol de segmento</value>
-        <value xml:lang="fa">ویرایش وظیفه گروه بخش</value>
+        <value xml:lang="fa">ویرایش‌کردن وظیفه گروه بخش</value>
         <value xml:lang="fr">Modifier le rôle du groupe de segment</value>
         <value xml:lang="it">Aggiorna Ruolo Gruppo Segmento </value>
         <value xml:lang="ja">セグメントグループロールを編集</value>
@@ -2366,7 +2366,7 @@
         <value xml:lang="de">Tracking-Code bearbeiten</value>
         <value xml:lang="en">Edit Tracking Code</value>
         <value xml:lang="es">Editar seguimiento</value>
-        <value xml:lang="fa">ویرایش کد پیگیری</value>
+        <value xml:lang="fa">ویرایش‌کردن کد پیگیری</value>
         <value xml:lang="fr">Modifier le code de suivi</value>
         <value xml:lang="it">Aggiorna Codice Tracciatura</value>
         <value xml:lang="ja">追跡コードを編集</value>
@@ -2381,7 +2381,7 @@
         <value xml:lang="de">Tracking-Code Auftrag bearbeiten</value>
         <value xml:lang="en">Edit Tracking Code Order</value>
         <value xml:lang="es">Editar orden de seguimiento</value>
-        <value xml:lang="fa">ویرایش کد پیگیری سفارش</value>
+        <value xml:lang="fa">ویرایش‌کردن کد پیگیری سفارش</value>
         <value xml:lang="fr">Modifier la commande associée au code de suivi</value>
         <value xml:lang="it">Aggiorna Codice Tracciatura Ordine</value>
         <value xml:lang="ja">追跡コード注文を編集</value>
@@ -2396,7 +2396,7 @@
         <value xml:lang="de">Tracking-Code Art bearbeiten</value>
         <value xml:lang="en">Edit Tracking Code Type</value>
         <value xml:lang="es">Editar tipo de seguimiento</value>
-        <value xml:lang="fa"> ویرایش نوع کد پیگیری</value>
+        <value xml:lang="fa"> ویرایش‌کردن نوع کد پیگیری</value>
         <value xml:lang="fr">Modifier le type de code de suivi</value>
         <value xml:lang="it">Aggiorna tipo tracciatura</value>
         <value xml:lang="ja">追跡コード種類を編集</value>
@@ -2411,7 +2411,7 @@
         <value xml:lang="de">Tracking-Code Visit bearbeiten</value>
         <value xml:lang="en">Edit Tracking Code Visit</value>
         <value xml:lang="es">Editar visita de seguimiento</value>
-        <value xml:lang="fa">ویرایش بازدید کد پیگیری</value>
+        <value xml:lang="fa">ویرایش‌کردن بازدید کد پیگیری</value>
         <value xml:lang="fr">Modifier la visite associée au code de suivi</value>
         <value xml:lang="it">Aggiorna Codice Visita Tracciatura</value>
         <value xml:lang="ja">追跡コード訪問を編集</value>
@@ -2426,7 +2426,7 @@
         <value xml:lang="de">Kontaktlisten-Kommunikationsereigniss suchen</value>
         <value xml:lang="en">Find Contact List Communication Event</value>
         <value xml:lang="es">Buscar evento de comunicación</value>
-        <value xml:lang="fa">پیداکردن رویداد ارتباطات لیست تماس</value>
+        <value xml:lang="fa">پیداکردن رویداد ارتباط لیست تماس</value>
         <value xml:lang="fr">Rechercher l'évènement de communication de la liste de contact</value>
         <value xml:lang="it">Ricerca Lista Contatto Eventi Comunicazione</value>
         <value xml:lang="ja">連絡リスト通信イベントを検索</value>
@@ -2441,7 +2441,7 @@
         <value xml:lang="de">Zugehörige Kommunikationsereigniss suchen</value>
         <value xml:lang="en">Find Associated CommEvents</value>
         <value xml:lang="es">Buscar eventos asociados</value>
-        <value xml:lang="fa">پیداکردن رویداد معمول همبسته‌شده</value>
+        <value xml:lang="fa">پیداکردن رویداد ارتباط همبسته‌شده</value>
         <value xml:lang="fr">Rechercher les évènements de communication associés</value>
         <value xml:lang="it">Ricerca eventi comunicazione associati</value>
         <value xml:lang="ja">関連通信イベントを検索</value>
@@ -2535,7 +2535,7 @@
         <value xml:lang="de">Tracking-Code Aufträge suchen</value>
         <value xml:lang="en">Find Tracking Code Orders</value>
         <value xml:lang="es">Buscar órdenes de seguimiento</value>
-        <value xml:lang="fa">پیداکردن سفارش‌های کد پیگیری</value>
+        <value xml:lang="fa">پیداکردن سفارشات کد پیگیری</value>
         <value xml:lang="fr">Rechercher les ordres associés au code de suivi</value>
         <value xml:lang="it">Ricerca Codice Tracciatura Ordini</value>
         <value xml:lang="ja">追跡コード注文を検索</value>
@@ -2594,7 +2594,7 @@
         <value xml:lang="de">Liste der Kontaktlisten-Kommunikationsereignisse</value>
         <value xml:lang="en">List Contact List Comm Events</value>
         <value xml:lang="es">Mostrar eventos de comunicación</value>
-        <value xml:lang="fa">لیست‌کردن رویدادهای معمول لیست تماس</value>
+        <value xml:lang="fa">لیست‌کردن رویدادهای ارتباط لیست تماس</value>
         <value xml:lang="fr">Liste des événements de communication de la liste de contact</value>
         <value xml:lang="it">Visualizza Lista Contatti Eventi Comunicazioni</value>
         <value xml:lang="ja">連絡リスト通信イベントの一覧</value>
@@ -2669,7 +2669,7 @@
         <value xml:lang="de">Segmentgruppen-Rollen auflisten</value>
         <value xml:lang="en">List Segment Group Roles</value>
         <value xml:lang="es">Mostrar roles de segmentos</value>
-        <value xml:lang="fa">لیست‌کردن وظیفه گروه بخش</value>
+        <value xml:lang="fa">لیست‌کردن وظیفه‌های گروه بخش</value>
         <value xml:lang="fr">Liste des rôles du groupe de segment</value>
         <value xml:lang="it">Visualizza Ruoli Gruppo Segmento</value>
         <value xml:lang="ja">セグメントグループロール一覧</value>
@@ -3018,7 +3018,7 @@
     <property key="SfaCanNotMergeSameContact">
         <value xml:lang="de">Zusammenführen der Kontakte fehlgeschlagen. Sie haben die gleichen Kontakte zum zusammenführen ausgewählt.</value>
         <value xml:lang="en">Failed to merge contacts. You have selected same contact to merge.</value>
-        <value xml:lang="fa">خطا در یکی‌کردن تماس‌ها. شما تماس یکسانی را برای یکی‌شدن انتخاب کرده‌اید.</value>
+        <value xml:lang="fa">شکست در یکی‌کردن تماس‌ها. شما تماس یکسانی را برای یکی‌شدن انتخاب‌کرده‌اید.</value>
         <value xml:lang="fr">Echec à la fusion des contacts. Vous avez choisi le même contact à fusionner.</value>
         <value xml:lang="it">Fallito il merce dei contatti. Tu devi selezionare lo stesso contatto per fare il merge.</value>
         <value xml:lang="ja">連絡のマージに失敗しました。同じ連絡を選択しています。</value>
@@ -3031,7 +3031,7 @@
         <value xml:lang="de">Zusammenführen der Kontakte fehlgeschlagen. Sie haben die gleichen Leads zum zusammenführen ausgewählt.</value>
         <value xml:lang="en">Failed to merge Leads. You have selected same Lead to merge.</value>
         <value xml:lang="es">No se ha podido unir leads. Ha seleccionado el mismo lead.</value>
-        <value xml:lang="fa">خطا در یکی‌کردن هادی‌ها. شما هادی‌ یکسانی را برای یکی‌شدن انتخاب کرده‌اید.</value>
+        <value xml:lang="fa">شکست در یکی‌کردن هادی‌ها. شما هادی‌ یکسانی را برای یکی‌شدن انتخاب‌کرده‌اید.</value>
         <value xml:lang="fr">Echec à la fusion des prospects. Vous avez choisi le même prospect pour fusionner</value>
         <value xml:lang="it">Fallito il merce dei leads. Tu devi selezionare lo stesso lead per fare il merge.</value>
         <value xml:lang="ja">リードのマージに失敗しました。同じリードを選択しています。</value>
@@ -3070,6 +3070,7 @@
         <value xml:lang="de">OFBiz: Vertriebsmanager</value>
         <value xml:lang="en">OFBiz: SFA Manager</value>
         <value xml:lang="es">Gestor de fuerzas de ventas</value>
+        <value xml:lang="fa">OFBiz: مدیر «مدیریت نیروی فروش (SFA)»</value>
         <value xml:lang="fr">OFBiz: gestion des ventes</value>
         <value xml:lang="it">OFBiz: Gestione forze di vendita</value>
         <value xml:lang="ja">OFBiz: 営業支援(SFA)管理</value>
@@ -3093,7 +3094,7 @@
     <property key="SfaComplete">
         <value xml:lang="de">Komplett</value>
         <value xml:lang="en">Complete</value>
-        <value xml:lang="fa">تکمیل</value>
+        <value xml:lang="fa">کامل</value>
         <value xml:lang="ja">完了</value>
         <value xml:lang="pt_BR">Completo</value>
         <value xml:lang="th">เสร็จสิ้น</value>
@@ -3225,7 +3226,7 @@
     <property key="SfaEstimatedAmount">
         <value xml:lang="de">Geschätzter Betrag</value>
         <value xml:lang="en">Estimated Amount</value>
-        <value xml:lang="fa">مقدار پیش‌بینی‌شده</value>
+        <value xml:lang="fa">مقدار انتظاری</value>
         <value xml:lang="fr">Montant estimé</value>
         <value xml:lang="it">Importo stimato</value>
         <value xml:lang="ja">予定金額</value>
@@ -3401,7 +3402,7 @@
     <property key="SfaImportVCardError">
         <value xml:lang="de">Fehler beim importieren von VCard: ${errorString}</value>
         <value xml:lang="en">Error during import data from VCard: ${errorString}</value>
-        <value xml:lang="fa">خطا در زمان واردکردن اطلاعات از VCard: ${errorString}</value>
+        <value xml:lang="fa">خطا در زمان واردکردن داده از VCard: ${errorString}</value>
         <value xml:lang="fr">Erreur durant l'import de la VCard : ${errorString}</value>
         <value xml:lang="it">Errore durante l'importazione dei dati da VCard: ${errorString}</value>
         <value xml:lang="ja">vCardからデータのインポート中にエラー: ${errorString}</value>
@@ -3411,7 +3412,7 @@
     <property key="SfaInitialAccount">
         <value xml:lang="de">Initiales Account</value>
         <value xml:lang="en">Initial Account</value>
-        <value xml:lang="fa">حساب اولیه</value>
+        <value xml:lang="fa">حساب نخست</value>
         <value xml:lang="fr">Compte initial</value>
         <value xml:lang="it">Utente iniziale</value>
         <value xml:lang="ja">初期アカウント</value>
@@ -3423,7 +3424,7 @@
     <property key="SfaInitialStage">
         <value xml:lang="de">Initiale Phase</value>
         <value xml:lang="en">Initial Stage</value>
-        <value xml:lang="fa">پایه اولیه</value>
+        <value xml:lang="fa">پایه نخست</value>
         <value xml:lang="fr">Phase initiale</value>
         <value xml:lang="it">Stage iniziale</value>
         <value xml:lang="ja">初期段階</value>
@@ -3483,7 +3484,7 @@
     <property key="SfaManager">
         <value xml:lang="de">CRM Manager</value>
         <value xml:lang="en">SFA Manager</value>
-        <value xml:lang="fa">مدیر SFA</value>
+        <value xml:lang="fa">مدیر «مدیریت نیروی فروش (SFA)»</value>
         <value xml:lang="fr">Application de gestion des ventes</value>
         <value xml:lang="it">Gestione vendite</value>
         <value xml:lang="ja">営業支援(SFA)管理</value>
@@ -3506,7 +3507,7 @@
     <property key="SfaManagerWelcome">
         <value xml:lang="de">Willkommen bei der CRM-Anwendung.</value>
         <value xml:lang="en">Welcome to the Sales Force Automation Manager Application.</value>
-        <value xml:lang="fa">به نرم‌افزار مدیر خودکار فروش خوش‌آمدید.</value>
+        <value xml:lang="fa">به نرم‌افزار مدیریت نیروی فروش خوش‌آمدید.</value>
         <value xml:lang="fr">Bienvenue dans l'application de gestion des ventes.</value>
         <value xml:lang="it">Benvenuto all'applicazione di gestione delle forze esterne.</value>
         <value xml:lang="ja">営業支援(SFA)管理業務へようこそ</value>
@@ -3773,7 +3774,7 @@
     <property key="SfaSelectLeadOwners">
         <value xml:lang="de">Lead_eigentümer auswählen</value>
         <value xml:lang="en">Select Lead Owners</value>
-        <value xml:lang="fa">انتخاب مالک هادی</value>
+        <value xml:lang="fa">انتخاب مالکان هادی</value>
         <value xml:lang="fr">Selection de vos propects</value>
         <value xml:lang="ja">リード所有者を選択</value>
         <value xml:lang="pt_BR">Selecionar donos do Lead</value>
@@ -3783,7 +3784,7 @@
     <property key="SfaTaskAssignedByMe">
         <value xml:lang="de">Öffne Aufgaben die ich zugeteilt habe.</value>
         <value xml:lang="en">Open Tasks Assigned by me.</value>
-        <value xml:lang="fa">بازکردن مسئولیت منتسب‌شده به من.</value>
+        <value xml:lang="fa">بازکردن تکلیف‌های منتسب‌شده به من.</value>
         <value xml:lang="fr">Tâches ouvertes assignées par moi</value>
         <value xml:lang="ja">私が割当したタスクを開く</value>
         <value xml:lang="pt_BR">Tarefas em aberto designadas para mim.</value>
@@ -3794,7 +3795,7 @@
     <property key="SfaTaskAssignedToMe">
         <value xml:lang="de">Öffne Aufgaben die mir zugeteilt sind.</value>
         <value xml:lang="en">Open Tasks Assigned to me.</value>
-        <value xml:lang="fa">وظیفه باز منتسب‌شده به من.</value>
+        <value xml:lang="fa">بازکردن تکلیف‌های منتسب‌شده به من.</value>
         <value xml:lang="fr">Tâches ouvertes qui me sont assignées</value>
         <value xml:lang="ja">私に割当済のタスクを開く</value>
         <value xml:lang="pt_BR">Tarefas em aberto designadas para mim.</value>

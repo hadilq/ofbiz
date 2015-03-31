@@ -27,6 +27,7 @@ import java.util.Map;
 import javolution.util.FastList;
 import javolution.util.FastMap;
 
+import org.ofbiz.base.util.Calendar;
 import org.ofbiz.base.util.Debug;
 import org.ofbiz.base.util.UtilDateTime;
 import org.ofbiz.base.util.UtilMisc;
@@ -42,8 +43,6 @@ import org.ofbiz.entity.condition.EntityOperator;
 import org.ofbiz.entity.util.EntityUtil;
 import org.ofbiz.service.DispatchContext;
 import org.ofbiz.service.ServiceUtil;
-
-import com.ibm.icu.util.Calendar;
 
 /**
  * TechDataServices - TechData related Services
@@ -98,7 +97,7 @@ public class TechDataServices {
         result.put("lookupResult", listRoutingTask);
         return result;
     }
-    
+
     /**
      *
      * Used to check if there is not two routing task with the same SeqId valid at the same period

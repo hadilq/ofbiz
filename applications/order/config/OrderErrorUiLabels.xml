@@ -22,7 +22,7 @@
         <value xml:lang="de">Für einen Verkaufsauftrag muss ein Laden ausgewählt werden. </value>
         <value xml:lang="en">A Product Store MUST be selected for a Sales Order. </value>
         <value xml:lang="es">Se debe seleccionar una tienda para un pedido de venta</value>
-        <value xml:lang="fa">یک انبار محصول برای سفارش خرید باید انتخاب‌شود.</value>
+        <value xml:lang="fa">یک انبار محصول برای سفارش فروش باید انتخاب‌شود.</value>
         <value xml:lang="fr">Un centre de profit doit être choisi pour une commande de vente.</value>
         <value xml:lang="it">Un Negozioe DEVE essere selezionato per un'Ordine di Vendita. </value>
         <value xml:lang="ja">販売注文に対して製品店舗を選択する必要があります。</value>
@@ -43,7 +43,7 @@
         <value xml:lang="de">Ein alternative Gratisbeigabe ist vorhanden, aber entweder nicht mehr gültig oder nicht mehr auf Lager : ${alternateGwpProductId}</value>
         <value xml:lang="en">An alternateGwpProductId was in place, but was either not valid or is no longer in stock for ID : ${alternateGwpProductId}</value>
         <value xml:lang="es">El identificador del producto de sustitución Gwp estaba en lugar pero ya no era válido o ya no había en stock para el código: ${alternateGwpProductId}</value>
-        <value xml:lang="fa">«آی‌دی محصول Gwp جایگزین» موجود بود ولی یا تاییدنشده یا در سهم نیست برای آی‌دی : ${alternateGwpProductId}</value>
+        <value xml:lang="fa">«آی‌دی محصول Gwp جایگزین» موجود بود ولی یا معتبرنیست یا در موجودی نیست برای آی‌دی : ${alternateGwpProductId}</value>
         <value xml:lang="fr">L'identifiant de l'article de remplacement Gwp était en place mais n'était plus valable ou mis en place dans la réserve pour l'identifiant : ${alternateGwpProductId}</value>
         <value xml:lang="it">Un alternateGwpProductId erà scelto, ma entrambi non sono validi o non più in giacenza per ID : ${alternateGwpProductId}</value>
         <value xml:lang="ja">alternateGwpProductIdが設定されていますが、有効でないか、ID : ${alternateGwpProductId} に対する在庫がありません</value>
@@ -306,7 +306,7 @@
     <property key="OrderCheckCustRequest">
         <value xml:lang="de">Kundenanfrage kann nur im Status 'in Bearbeitung' geändert werden...ist jetzt: ${custRequest.statusId}</value>
         <value xml:lang="en">Can only update customer request, when status is in-process...is now: ${custRequest.statusId}</value>
-        <value xml:lang="fa">فقط می‌تواند درخواست مشتری را بروزرسانی‌کرد، زمانی که وضعیت درحال پردازش است... هم‌اکنون: ${custRequest.statusId}</value>
+        <value xml:lang="fa">فقط می‌تواند درخواست مشتری را بروزرسانی‌کرد، زمانی که وضعیت «درحال-اجزاء» است... هم‌اکنون: ${custRequest.statusId}</value>
         <value xml:lang="fr">Il est possible de mettre à jour une demande seulement au statut "En Cours", actuellement elle est sur ${custRequest.statusId}</value>
         <value xml:lang="ja">ステータスが処理中の顧客リクエストのみ更新できます...現在: ${custRequest.statusId}</value>
         <value xml:lang="nl">Kan alleen een klantvraag aanpassen wanneer de status 'onder handen' is ... status is nu: ${custRequest.statusId}</value>
@@ -478,7 +478,7 @@
         <value xml:lang="de">Alternative Gratisbeigabe konnte nicht gewählt werden, 'alternateGwpProductId' wurde nicht übergeben. </value>
         <value xml:lang="en">Could not select alternate gift, no alternateGwpProductId passed. </value>
         <value xml:lang="es">No puede seleccionar el regalo suplementario, ningún código de producto Gwp suplementario se ha pasado.</value>
-        <value xml:lang="fa">نمی‌توان جایگزین هدیه را انتخاب‌کرد، هیچ «آی‌دی محصول Gwp جایگزین» داده‌نشده‌است.</value>
+        <value xml:lang="fa">نمی‌توان هدیه جایگزین را انتخاب‌کرد، هیچ «آی‌دی محصول Gwp جایگزین» داده‌نشده‌است.</value>
         <value xml:lang="fr">Vous ne pouvez pas sélectionner un cadeau alternatif, aucun indentifiant d'article Gwp alternative n'a été passé.</value>
         <value xml:lang="it">Non è possibile selezionare un'omaggio alternativo, nessun alternateGwpProductId passato. </value>
         <value xml:lang="ja">代替のギフトが選択できません。alternateGwpProductIdが渡されませんでした</value>
@@ -1251,7 +1251,7 @@
         <value xml:lang="de">FEHLER : Auftragsposition kann nicht geändert werden</value>
         <value xml:lang="en">ERROR : OrderItem can't be modified</value>
         <value xml:lang="es">ERROR: El artículo no puede ser modificado</value>
-        <value xml:lang="fa">خطا : «قلم سفارش» نمی‌تواند اصلاح‌‌شده باشد</value>
+        <value xml:lang="fa">خطا : «قلم سفارش» نمی‌تواند اصلاح‌شده باشد</value>
         <value xml:lang="fr">Erreur : article de la commande ne peut pas être modifié</value>
         <value xml:lang="it">ERRORE : OrderItem non può essere modificata</value>
         <value xml:lang="ja">エラー: 注文アイテムは更新できません</value>
@@ -1290,7 +1290,7 @@
     <property key="OrderErrorOrderNotApprovedForPicking">
         <value xml:lang="de">FEHLER: Auftrag ${orderId} nicht zum Kommisionieren freigegeben</value>
         <value xml:lang="en">ERROR: Order #${orderId} is not approved for picking</value>
-        <value xml:lang="fa">خطا: سفارش شماره ${orderId} برای بسته‌بندی تصویب‌نشده است</value>
+        <value xml:lang="fa">خطا: سفارش شماره ${orderId} برای چیدن تصویب‌نشده است</value>
         <value xml:lang="fr">ERREUR : La commande ${orderId} n'est pas approuvée, le prélèvement n'est pas autorisé</value>
         <value xml:lang="ja">エラー: 注文No ${orderId} はピッキングの承認がされていません</value>
         <value xml:lang="pt_BR">ERRO: Pedido #${orderId} não está liberado para recolhimento</value>
@@ -2033,7 +2033,7 @@
         <value xml:lang="de">Kein Auftragskopf, Zahlung kann nicht erstellt werden</value>
         <value xml:lang="en">No order header, cannot create payment</value>
         <value xml:lang="es">Ningún encabezado de pedido, no puede crear el pago</value>
-        <value xml:lang="fa">هیچ سربرگ سفارشی موجودنیست، نمی‌توان پرداخت کرد</value>
+        <value xml:lang="fa">هیچ سربرگ سفارشی موجودنیست، نمی‌توان پرداخت را ساخت</value>
         <value xml:lang="fr">Aucun en-tôte de commande, ne peut créer le paiement</value>
         <value xml:lang="it">Nessuna testata ordine, non è possibile creare il pagamento</value>
         <value xml:lang="ja">注文ヘッダがありません。支払を作成できません</value>
@@ -2065,7 +2065,7 @@
         <value xml:lang="de">Kein Laden, Zahlung kann nicht erstellt werden</value>
         <value xml:lang="en">No product store, cannot create payment</value>
         <value xml:lang="es">Ninguna tienda, no puede crear el pago</value>
-        <value xml:lang="fa">هیچ انبار محصول موجودنیست، نمی‌توان پرداخت کرد</value>
+        <value xml:lang="fa">هیچ انبار محصول موجودنیست، نمی‌توان پرداخت را ساخت</value>
         <value xml:lang="fr">Aucun centre de profit, ne peut créer le paiement</value>
         <value xml:lang="it">Nessun negozio prodotto, non è possibile creare il pagamento</value>
         <value xml:lang="ja">製品店舗がありません。支払が作成できません</value>
@@ -2336,7 +2336,7 @@
     <property key="OrderOrderTermDaysIsRequired">
         <value xml:lang="de">Anzahl Tage wird für diesen Konditionstyp benötigt. </value>
         <value xml:lang="en">Order Term Days is required for this term type. </value>
-        <value xml:lang="fa">روزهای قید سفارش برای این نوع قید لازم‌است.</value>
+        <value xml:lang="fa">روزهای قید سفارش برای این نوع قید الزامی‌است.</value>
         <value xml:lang="fr">Le nombre de jours est nécessaire pour ce type de condition de réglement. </value>
         <value xml:lang="ja">この条件の種類に注文条件日数は必要です。</value>
         <value xml:lang="pt_BR">Dias de prazo para pedido é necessário para esse tipo de prazo.</value>
@@ -2347,7 +2347,7 @@
         <value xml:lang="de">Auftragskonditions-Typ wird benötigt. </value>
         <value xml:lang="en">Order Term Type is required. </value>
         <value xml:lang="es">El tipo de término del pedido es requerido.</value>
-        <value xml:lang="fa">نوع قید سفارش لازم‌است.</value>
+        <value xml:lang="fa">نوع قید سفارش الزامی‌است.</value>
         <value xml:lang="fr">Le type condition de réglement de la commande est exigé. </value>
         <value xml:lang="it">Tipo Termine Ordine è richiesto. </value>
         <value xml:lang="ja">注文条件種類が必要です。</value>
@@ -2986,7 +2986,7 @@
         <value xml:lang="de">Problem beim lesen der Akteurs-Konteneinstellungen. </value>
         <value xml:lang="en">Problems with getting PartyAcctgPreference. </value>
         <value xml:lang="es">Hay problemas al obtener preferencias de contabilidad de participante.</value>
-        <value xml:lang="fa">مشکلات با دریافت‌کردن «ترجیحات حساب هویت».</value>
+        <value xml:lang="fa">مشکلات با دریافت‌کردن «ترجیحات حساب‌معین هویت».</value>
         <value xml:lang="fr">Problème à l'obtention des préférences comptabilité de l'acteur</value>
         <value xml:lang="it">Problema nell'ottenere PartyAcctgPreference.</value>
         <value xml:lang="ja">取引先アカウント設定の取得中にエラー</value>
@@ -3798,7 +3798,7 @@
         <value xml:lang="de">Berechtigungsfehler: Um 'createReturnHeader' auszuführen muss man ORDERMGR_CREATE oder ORDERMGR_ADMIN Berechtigungen haben</value>
         <value xml:lang="en">Security Error : to run createReturnHeader you must have the ORDERMGR_CREATE or ORDERMGR_ADMIN permission</value>
         <value xml:lang="es">Error de seguridad: Para ejecutar createReturnHeader debe contar con los permisos ORDERMGR_CREATE o ORDERMGR_ADMIN</value>
-        <value xml:lang="fa">خطای امنیتی : برای اجراء «ساختن سربرگ بازگشته» شما باید اجازه ORDERMGR_CREATE یا ORDERMGR_ADMIN را داشته باشید</value>
+        <value xml:lang="fa">خطای امنیتی : برای اجراء «ساختن سربرگ بازگشته» شما باید اجازه ORDERMGR_CREATE یا ORDERMGR_ADMIN را داشته‌باشید</value>
         <value xml:lang="fr">Erreur de sécurité : pour exécuter createReturnHeader, vous devez avoir l'autorisation d'administrer ou de créer la commande</value>
         <value xml:lang="it">Errore Sicurezza : per eseguire createReturnHeader tu devi avere il permesso ORDERMGR_CREATE o ORDERMGR_ADMIN</value>
         <value xml:lang="ja">セキュリティエラー: createReturnHeaderの実行には ORDERMGR_CREATE または ORDERMGR_ADMIN 権限が必要です</value>
@@ -3814,7 +3814,7 @@
         <value xml:lang="de">Berechtigungsfehler: Um 'createReturnItem' auszuführen muss man ORDERMGR_CREATE oder ORDERMGR_ADMIN Berechtigungen haben</value>
         <value xml:lang="en">Security Error : to run createReturnItem you must have the ORDERMGR_CREATE or ORDERMGR_ADMIN permission</value>
         <value xml:lang="es">Error de seguridad: Para ejecutar createReturnItem debe contar con los permisos ORDERMGR_CREATE o ORDERMGR_ADMIN</value>
-        <value xml:lang="fa">خطای امنیتی : برای اجراء «ساختن سربرگ بازگشته» شما باید اجازه ORDERMGR_CREATE یا ORDERMGR_ADMIN را داشته باشید</value>
+        <value xml:lang="fa">خطای امنیتی : برای اجراء «ساختن سربرگ بازگشته» شما باید اجازه ORDERMGR_CREATE یا ORDERMGR_ADMIN را داشته‌باشید</value>
         <value xml:lang="fr">Erreur de sécurité : pour exécuter createReturnItem, vous devez avoir l'autorisation d'administrer ou de créer la commande</value>
         <value xml:lang="it">Errore Sicurezza : per eseguire createReturnItem tu devi avere il permesso ORDERMGR_CREATE o ORDERMGR_ADMIN</value>
         <value xml:lang="ja">セキュリティエラー: createReturnItemの実行には ORDERMGR_CREATE または ORDERMGR_ADMIN 権限が必要です</value>
@@ -3920,7 +3920,7 @@
         <value xml:lang="de">Berechtigungsfehler: Um 'quickReturnFromOrder' auszuführen muss man ORDERMGR_CREATE oder ORDERMGR_ADMIN Berechtigungen haben</value>
         <value xml:lang="en">Security Error : to run quickReturnFromOrder you must have the ORDERMGR_CREATE or ORDERMGR_ADMIN permission</value>
         <value xml:lang="es">Error de seguridad: Para ejecutar quickReturnFromOrder debe contar con los permisos ORDERMGR_CREATE o ORDERMGR_ADMIN</value>
-        <value xml:lang="fa">خطای امنیتی : برای اجراء «بازگشت سریع از سفارش» شما باید مجوز ORDERMGR_CREATE یا ORDERMGR_ADMIN را داشته‌باشید</value>
+        <value xml:lang="fa">خطای امنیتی : برای اجراء «بازگشت سریع از سفارش» شما باید اجازه ORDERMGR_CREATE یا ORDERMGR_ADMIN را داشته‌باشید</value>
         <value xml:lang="fr">Erreur de sécurité : pour exécuter quickReturnFromOrder, vous devez avoir l'autorisation d'administrer ou de créer la commande</value>
         <value xml:lang="it">Errore Sicurezza : per eseguire quickReturnFromOrder tu devi avere il permesso ORDERMGR_CREATE o ORDERMGR_ADMIN</value>
         <value xml:lang="ja">セキュリティエラー: quickReturnFromOrderの実行には ORDERMGR_CREATE または ORDERMGR_ADMIN 権限が必要です</value>
@@ -4628,7 +4628,7 @@
         <value xml:lang="de">Rule-Datei konnte nicht gefunden werden : ${ruleFileLocation}</value>
         <value xml:lang="en">Unable to locate rule file from location : ${ruleFileLocation}</value>
         <value xml:lang="es">No se pudo ubicar la regla en ${ruleFileLocation}</value>
-        <value xml:lang="fa">ناتوانی در مشخص‌کردن فایل قواعد از مکان : ${ruleFileLocation}</value>
+        <value xml:lang="fa">ناتوانی در مشخص‌کردن فایل قاعده از مکان : ${ruleFileLocation}</value>
         <value xml:lang="fr">Impossible de localiser le fichier de règle de l'emplacement : ${ruleFileLocation}</value>
         <value xml:lang="it">Non è possibile localizzare regola file dalla locazione : ${ruleFileLocation}</value>
         <value xml:lang="ja">ルールファイルを位置づけできません、元の位置: ${ruleFileLocation}</value>
@@ -6394,7 +6394,7 @@
     <property key="productpromoworker.promotion_code_no_account_or_email">
         <value xml:lang="de">Diser Aktionscode [${productPromoCodeId}] muss mit Ihrem Konto oder der Email-Adresse verknüpft sein.</value>
         <value xml:lang="en">The promotion code [${productPromoCodeId}] requires you to be associated with it by account or email address and you are not associated with it.</value>
-        <value xml:lang="fa">کد تبلیغ [${productPromoCodeId}] لازم‌دارد به حساب یا آدرس ایمیل  شما همبسته‌شده باشد و شما مرتبط نیستید.</value>
+        <value xml:lang="fa">کد تبلیغ [${productPromoCodeId}] لازم‌دارد به حساب یا آدرس ایمیل  شما همبسته‌شده باشد و شما همبسته‌شده نیستید.</value>
         <value xml:lang="fr">Le code de promotion [${productPromoCodeId}] nécessite que vous y soyez associé par un compte ou une adresse courriel ce qui n'est pas le cas</value>
         <value xml:lang="ja">このプロモーションコード [${productPromoCodeId}] はあなたのアカウントまたはEメールアドレスと関連付けられていないため使用できません。</value>
         <value xml:lang="pt_BR">O código de promoção [${productPromoCodeId}] necessita que você esteja associado a ele por sua conta ou endereço de email e você não está.</value>
@@ -6441,7 +6441,7 @@
         <value xml:lang="de">Alternatives Geschenk konnte nicht gewählt werden, alternateGwpLine wurde nicht übergeben</value>
         <value xml:lang="en">Could not select alternate gift, no alternateGwpLine passed</value>
         <value xml:lang="es">No se pudo seleccionar un regalo alternativo, no se pasó alternateGwpLine</value>
-        <value xml:lang="fa">نمی‌توان هدیه جایگزین را انتخاب نمود، «صف Gwp جایگزین» موجودنیست</value>
+        <value xml:lang="fa">نمی‌توان هدیه جایگزین را انتخاب نمود، «صف Gwp جایگزین» داده‌نشده</value>
         <value xml:lang="fr">Vous ne pouvez pas sélectionner un cadeau alternatif, aucune ligne Gwp alternative n'a été passée.</value>
         <value xml:lang="it">Non è possibile selezionare omaggio alternativo, nessun alternateGwpLine passato</value>
         <value xml:lang="ja">代替のギフトを選択できません。alternateGwpLineが渡されませんでした。</value>
@@ -6457,7 +6457,7 @@
         <value xml:lang="de">Alternatives Geschenk konnte nicht gewählt werden, alternateGwpProductId wurde nicht übergeben</value>
         <value xml:lang="en">Could not select alternate gift, no alternateGwpProductId passed</value>
         <value xml:lang="es">No se pudo retirar los ajustes de impuesto a la venta</value>
-        <value xml:lang="fa">نمی‌توان هدیه جایگزین را انتخاب نمود، «آی‌دی محصول Gwp جایگزین» موجودنیست</value>
+        <value xml:lang="fa">نمی‌توان هدیه جایگزین را انتخاب نمود، «آی‌دی محصول Gwp جایگزین» داده‌نشده</value>
         <value xml:lang="fr">Vous ne pouvez pas sélectionner un cadeau alternatif, aucun alternateGwpProductId n'a été passé.</value>
         <value xml:lang="it">Non è possibile selezionare omaggio alternativo, nessun alternateGwpProductId passato</value>
         <value xml:lang="ja">代替のギフトを選択できません。alternateGwpProductIdが渡されませんでした。</value>
@@ -6691,7 +6691,7 @@
         <value xml:lang="de">shoppingListId ist ein notwendiger Parameter.</value>
         <value xml:lang="en">shoppingListId is a required parameter.</value>
         <value xml:lang="es">El código de la lista de compras es un parámetro requerido.</value>
-        <value xml:lang="fa">متغییر «آی‌دی لیست خرید» لازم‌است.</value>
+        <value xml:lang="fa">متغییر «آی‌دی لیست خرید» الزامی‌است.</value>
         <value xml:lang="fr">Une réf. de liste d'achat est requise.</value>
         <value xml:lang="it">E' richiesto il riferimento alla lista di acquisto.</value>
         <value xml:lang="ja">買い物リストIDは必須パラメータです。</value>

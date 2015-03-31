@@ -116,7 +116,7 @@
     </property>
     <property key="FacilityCompanySubtitle">
         <value xml:lang="en">Part of the Open For Business Family of Open Source Software</value>
-        <value xml:lang="fa">بخشی از خانواده آزاد برای تجارت از نرم‌افزارهای متن باز</value>
+        <value xml:lang="fa">بخشی از خانواده آزاد برای کسب‌وکار از نرم‌افزارهای متن باز</value>
         <value xml:lang="fr">Un module de la famille Open For Business, logiciel libre de gestion d'entreprise.</value>
         <value xml:lang="it">Un modulo della famiglia di software open source Open For Business</value>
         <value xml:lang="ja">Part of the Open For Business Family of Open Source Software</value>
@@ -210,7 +210,7 @@
     </property>
     <property key="FacilityInventoryItemsMissingCurrencyId">
         <value xml:lang="en">Error: you cannot create inventory items with no currencyUomId; you can set a default currency in the PartyAcctgPreference for the party ${inventoryItem.ownerPartyId}, or in the general.properties file under the key currency.uom.id.default.</value>
-        <value xml:lang="fa">خطا: شما نمی‌توانید اقلام موجودی‌کالا را بدون آی‌دی واحدسنجش ارز بسازید؛ شما می‌توانید ارز پیش‌فرض در «ترجیحات حساب هویت» را برای هویت ${inventoryItem.ownerPartyId} ثبت‌نمایید، یا در فایل general.properties با کلید currency.uom.id.default.</value>
+        <value xml:lang="fa">خطا: شما نمی‌توانید اقلام موجودی‌کالا را بدون آی‌دی واحدسنجش ارز بسازید؛ شما می‌توانید ارز پیش‌فرض در «ترجیحات حساب‌معین هویت» را برای هویت ${inventoryItem.ownerPartyId} ثبت‌نمایید، یا در فایل general.properties با کلید currency.uom.id.default.</value>
         <value xml:lang="it">Errore: tu non puoi creare una riga di inventario senza indicare la valuta; puoi imposta la valuta di default attraverso le preferenze del soggetto proprietario ${inventoryItem.ownerPartyId}, o nel file general.properties alla chiave currency.uom.id.default.</value>
         <value xml:lang="ja">エラー: 通貨単位IDを指定しないと在庫アイテムの作成ができません。取引先 ${inventoryItem.ownerPartyId} の取引先会計設定、または、general.properties ファイルのキー currency.uom.id.default でデフォルトの通貨を設定することができます。</value>
         <value xml:lang="vi">Báo lỗi: Bạn không thể tạo hàng hóa trong kho chứa thiếu mã tiền tệ; bạn có thể đặt mã tiền tệ mặc địc trong phần ${inventoryItem.ownerPartyId}, hoặc trong tệp tin general.properties với từ khóa là currency.uom.id.default.</value>
@@ -266,7 +266,7 @@
     </property>
     <property key="FacilityMultipleLocations">
         <value xml:lang="en">Multiple Locations</value>
-        <value xml:lang="fa">اماکن مختلف</value>
+        <value xml:lang="fa">مکان‌های مختلف</value>
         <value xml:lang="it">Posizioni multiple</value>
         <value xml:lang="ja">複数地域</value>
         <value xml:lang="vi">Đa địa điểm</value>
@@ -291,7 +291,7 @@
     </property>
     <property key="FacilityNoItemsAvailableToShip">
         <value xml:lang="en">No items available to ship</value>
-        <value xml:lang="fa">هیچ قلمی برای حمل موجود نیست</value>
+        <value xml:lang="fa">هیچ قلمی برای حمل‌کردن موجود نیست</value>
         <value xml:lang="it">Nessun prodotto disponibile da spedire</value>
         <value xml:lang="ja">発送できるアイテムはありません</value>
         <value xml:lang="vi">Không hàng hóa nào có sẵn để chuyển đi</value>
@@ -299,7 +299,7 @@
     </property>
     <property key="FacilityNoAssociatedWithProcuctStore">
         <value xml:lang="en">Facility with id ${parameters.facilityId} is not associated to ProductStore with id ${parameters.productStoreId}, not reserving inventory.</value>
-        <value xml:lang="fa">تسهیلات با آی‌دی ${parameters.facilityId} با «انبار محصول» با آی‌دی ${parameters.productStoreId} همبسته‌شده نیست، بدون رزروکردن موجودی‌‌کالا..</value>
+        <value xml:lang="fa">تسهیلات با آی‌دی ${parameters.facilityId} با «انبار محصول» با آی‌دی ${parameters.productStoreId} همبسته‌شده نیست، بدون رزروکردن موجودی‌کالا..</value>
         <value xml:lang="it">Stabilimento con id ${parameters.facilityId} non è associato al negozio con id ${parameters.productStoreId}, nessun inventario verrà riservato.</value>
         <value xml:lang="ja">拠点ID ${parameters.facilityId} は製品店舗ID ${parameters.productStoreId} に関連付けられていません。在庫予約できません。</value>
         <value xml:lang="vi">Chi nhánh / Cơ sở ${parameters.facilityId} được liên kết với kho hàng  ${parameters.productStoreId}, không phải là kho chứa hàng dự trữ</value>
@@ -315,7 +315,7 @@
     </property>
     <property key="FacilityNoOrdersReadyToPick">
         <value xml:lang="en">No orders ready to pick, not creating picklist.</value>
-        <value xml:lang="fa">هیچ سفارشی برای چیدن آماده‌نمی‌باشد، «لیست چیدن» ساخته‌نشده‌است.</value>
+        <value xml:lang="fa">هیچ سفارشی برای چیدن آماده‌نمی‌باشد، «لیست‌چیدن» ساخته‌نشده‌است.</value>
         <value xml:lang="it">Nessun ordine pronto da prelevare.</value>
         <value xml:lang="ja">ピッキングできる注文はありません。ピッキング一覧は作成できません。</value>
         <value xml:lang="vi">Không đặt hàng nào sẵn sàng được bốc xếp, không tạo danh sách bốc xếp</value>
@@ -325,7 +325,7 @@
         <value xml:lang="de">Benutze Voreinstellung: Keine anderen Liefermethoden verfügbar</value>
         <value xml:lang="en">Use Default: No other shipping methods available.</value>
         <value xml:lang="es">Por defecto: Ningún otro medio de envío disponible</value>
-        <value xml:lang="fa">از پیش‌فرض استفاده نمایید: هیچ روش حمل سفارشی موجود نمی‌باشد.</value>
+        <value xml:lang="fa">از پیش‌فرض استفاده نمایید: هیچ روش حمل سفارشی دیگری موجود نمی‌باشد.</value>
         <value xml:lang="fr">Par défaut : Aucun autre moyen d'expédition possible</value>
         <value xml:lang="it">Usare Default: Nessun altro metodo di spedizione disponibile.</value>
         <value xml:lang="ja">デフォルトを使用: 他の有効な配送方法はありません</value>
@@ -374,7 +374,7 @@
     </property>
     <property key="FacilityNoQuickShipForNotReserveInventory">
         <value xml:lang="en">ProductStore ${productStore.productStoreId} does not reserve inventory; cannot use Quick Ship</value>
-        <value xml:lang="fa">«انبار محصول» ${productStore.productStoreId} موجودی‌کالا را رزرونکرده‌است؛ نمی‌توان از حمل سریع استفاده‌نمود</value>
+        <value xml:lang="fa">«انبار محصول» ${productStore.productStoreId} موجودی‌کالا را رزرونکرده‌است؛ نمی‌توان از حمل‌کردن سریع استفاده‌نمود</value>
         <value xml:lang="it">Negozio ${productStore.productStoreId} non è possibile riservare inventario; non puoi usare spedizione veloce</value>
         <value xml:lang="ja">製品店舗 ${productStore.productStoreId} は在庫を予約していません。クイック発送は使用できません</value>
         <value xml:lang="vi">Kho hàng ${productStore.productStoreId} không phải là kho chứa hàng dự trữ; không thể sử dụng tính năng Vận chuyển nhanh</value>
@@ -382,7 +382,7 @@
     </property>
     <property key="FacilityNoQuickShipForMultipleFacilities">
         <value xml:lang="en">ProductStore ${productStore.productStoreId} allows multiple facilities; cannot use Quick Ship</value>
-        <value xml:lang="fa">«انبار محصول» ${productStore.productStoreId} به تسهیلات مختلف اجازه‌داده است؛ نمی‌توان از حمل سریع استفاده‌نمود</value>
+        <value xml:lang="fa">«انبار محصول» ${productStore.productStoreId} به تسهیلات مختلف اجازه‌داده است؛ نمی‌توان از حمل‌کردن سریع استفاده‌نمود</value>
         <value xml:lang="it">Negozio ${productStore.productStoreId} permette stabilimenti multipli; non puoi usare spedizione veloce</value>
         <value xml:lang="ja">製品店舗 ${productStore.productStoreId} は複数拠点を許可しています。クイック発送は使用できません</value>
         <value xml:lang="vi">Kho hàng ${productStore.productStoreId} phân phối tại nhiều Chi nhánh / Cơ sở nên không thể sử dụng tính năng Vận chuyển nhanh</value>
@@ -445,7 +445,7 @@
         <value xml:lang="de">Alles zusammen liefern oder 'sobald etwas verfügbar'?</value>
         <value xml:lang="en">Ship all at once, or 'as available'?</value>
         <value xml:lang="es">¿Enviar todo de una vez o en cuanto se encuentre disponibles?</value>
-        <value xml:lang="fa">حمل همه با هم، یا در زمانی که موجود بودند؟</value>
+        <value xml:lang="fa">حمل‌کردن همه با هم، یا در زمانی که موجود بودند؟</value>
         <value xml:lang="fr">Expédition complète ou partielle ?</value>
         <value xml:lang="it">Spedisci tutto in una volta, o 'appena disponibili'?</value>
         <value xml:lang="ja">すべての品物を一度に発送しますか、あるいは'準備ができしだい'?</value>
@@ -540,7 +540,7 @@
     </property>
     <property key="FacilityShipmentDhlAccessShippingKey">
         <value xml:lang="en">Your DHL ShipIT Shipping Key</value>
-        <value xml:lang="fa">کلید محموله DHL ShipIT شما</value>
+        <value xml:lang="fa">کلید حمل DHL ShipIT شما</value>
         <value xml:lang="it">La tua chiave spedizione DHL ShipIT</value>
         <value xml:lang="ja">DHL ShipIT配送キー</value>
         <value xml:lang="vi">Khóa gửi hàng qua HDL</value>
@@ -700,7 +700,7 @@
     </property>
     <property key="FacilityShipmentDhlRateEstimate">
         <value xml:lang="en">Rate Estimate API schema</value>
-        <value xml:lang="fa">الگوی API انتظاری نرخ</value>
+        <value xml:lang="fa">الگوی API تخمین نرخ</value>
         <value xml:lang="it">API schema per stima spedizione</value>
         <value xml:lang="ja">レート見積APIスキーマ</value>
         <value xml:lang="vi">Miêu tả (schema) API ước lượng tỷ lệ</value>
@@ -756,7 +756,7 @@
     </property>
     <property key="FacilityShipmentDhlRouteSegmentStatusNotStarted">
         <value xml:lang="en">ERROR: The Carrier Service Status for ShipmentRouteSegment ${shipmentRouteSegmentId} of Shipment ${shipmentId}, is ${shipmentRouteSegmentStatus}, but must be not-set or [SHRSCS_NOT_STARTED] to perform the DHL Shipment Confirm operation.</value>
-        <value xml:lang="fa">خطا: در وضعیت سرویس جابجاگر برای «بخش حواله‌کردن محموله» ${shipmentRouteSegmentId} از محموله ${shipmentId}، ${shipmentRouteSegmentStatus} است ولی باید ثبت-نشده یا [SHRSCS_NOT_STARTED] باشد تا عملکرد تایید محموله DHL نمایش‌داده‌شود</value>
+        <value xml:lang="fa">خطا: در وضعیت سرویس جابجاگر برای «بخش حواله‌کردن محموله» ${shipmentRouteSegmentId} از محموله ${shipmentId}، ${shipmentRouteSegmentStatus} است ولی باید ثبت-نشده یا [SHRSCS_NOT_STARTED] باشد تا عملیات تاییدکردن محموله DHL نمایش‌داده‌شود</value>
         <value xml:lang="it">ERRORE: lo stato corriere per percorso spedizione ${shipmentRouteSegmentId} della spedizione ${shipmentId}, è ${shipmentRouteSegmentStatus}, ma deve non essere impostato o [SHRSCS_NOT_STARTED] per eseguire l'operazione di Conferma Spedizione DHL.</value>
         <value xml:lang="ja">エラー: 発送 ${shipmentId} の発送経路セグメント ${shipmentRouteSegmentId} に対する運送業者サービスステータスは ${shipmentRouteSegmentStatus} ですが、DHL発送確認操作を行うには、設定しないか [SHRSCS_NOT_STARTED] にする必要があります。</value>
         <value xml:lang="vi">Lỗi xảy ra: Trạng thái dịch vụ từ Nhà chuyển vận ShipmentRouteSegment ${shipmentRouteSegmentId} của Chuyển vận ${shipmentId}, là ${shipmentRouteSegmentStatus}, nhưng chưa được thiết lập cho [SHRSCS_NOT_STARTED] để thực hiện thao tác xác nhận chuyển vận từ DHL.</value>
@@ -772,7 +772,7 @@
     </property>
     <property key="FacilityShipmentDhlShipmentLabelError">
         <value xml:lang="en">Cannot get response DHL shipment label for shipment package route segment ${shipmentPackageRouteSeg}.  DHL response is: ${rateResponseString}</value>
-        <value xml:lang="fa">نمی‌توان پاسخ برچسب محموله DHL را دریافت‌کرد برای بخش حواله‌کردن محموله ${shipmentPackageRouteSeg}. پاسخ DHL این است: ${rateResponseString}</value>
+        <value xml:lang="fa">نمی‌توان پاسخ برچسب محموله DHL را دریافت‌کرد برای بخش حواله‌کردن بسته محموله ${shipmentPackageRouteSeg}. پاسخ DHL این است: ${rateResponseString}</value>
         <value xml:lang="it">Non è possibile ottene la risposta da DHL per l'etichetta spedizione per il percorso spedizione ${shipmentPackageRouteSeg}. Risposta da DHL è: ${rateResponseString}</value>
         <value xml:lang="ja">発送梱包経路セグメント ${shipmentPackageRouteSeg} に対するレスポンスDHL発送ラベルが取得できません。DHLレスポンス: ${rateResponseString}</value>
         <value xml:lang="vi">Không thể nhận phản hồi nhãn chuyển vận DHL cho gói hàng chuyển theo phân đoạn ${shipmentPackageRouteSeg}.  Phản hồi DHL là: ${rateResponseString}</value>
@@ -1036,7 +1036,7 @@
     </property>
     <property key="FacilityShipmentFedexHomeDeliveryDateBeforeCurrentDate">
         <value xml:lang="en">Home Delivery Date is before the current time for ShipmentRouteSegment with shipmentId ${shipmentId} and shipmentRouteSegmentId ${shipmentRouteSegmentId}</value>
-        <value xml:lang="fa">تاریخ تحویل خانه قبل از زمان موجود است برای «بخش حواله‌کردن محموله» با «آی‌دی محموله» ${shipmentId} و «آی‌دی بخش حواله‌کردن محموله» ${shipmentRouteSegmentId}</value>
+        <value xml:lang="fa">تاریخ تحویل خانه قبل از زمان کنونی است برای «بخش حواله‌کردن محموله» با «آی‌دی محموله» ${shipmentId} و «آی‌دی بخش حواله‌کردن محموله» ${shipmentRouteSegmentId}</value>
         <value xml:lang="it">Home Delivery Date è antecedente la data odierna per la spedizione ${shipmentId} e percorso spedizione ${shipmentRouteSegmentId}</value>
         <value xml:lang="ja">自宅配達日が現在より前です。発送経路セグメント 発送ID ${shipmentId} 発送経路セグメントID ${shipmentRouteSegmentId}</value>
         <value xml:lang="vi">'Ngày nhận hàng tại nhà' phải trước thời gian hiện tại cho Chặng chuyển vận với Chuyển vận ${shipmentId} và Chặng chuyển vận ${shipmentRouteSegmentId}</value>
@@ -1300,7 +1300,7 @@
     </property>
     <property key="FacilityShipmentFedexRateEstimateTemplateLocation">
         <value xml:lang="en">Rate Estimate Template Location</value>
-        <value xml:lang="fa">نرخ‌گذاری مکان الگو تخمینی</value>
+        <value xml:lang="fa">نرخ‌گذاری تخمین‌زدن مکان الگو</value>
         <value xml:lang="it">Posizione template stima spedizione</value>
         <value xml:lang="ja">レート見積テンプレート位置</value>
         <value xml:lang="vi">Đường dẫn của Biểu mẫu ước lượng tỷ lệ</value>
@@ -1316,7 +1316,7 @@
     </property>
     <property key="FacilityShipmentFedexRouteSegmentStatusNotStarted">
         <value xml:lang="en">ERROR: The Carrier Service Status for ShipmentRouteSegment ${shipmentRouteSegmentId} of Shipment ${shipmentId}, is ${shipmentRouteSegmentStatus}, but must be not-set or [SHRSCS_NOT_STARTED] to perform the Fedex Shipment Confirm operation.</value>
-        <value xml:lang="fa">خطا: وضعیت سرویس جابجایی برای «بخش حواله‌کردن محموله» ${shipmentRouteSegmentId} از محموله ${shipmentId}، ${shipmentRouteSegmentStatus} است، ولی باید ثبت-نشده یا [SHRSCS_NOT_STARTED] باشد تا عملکرد محموله Fedex نمایش‌داده‌شود.</value>
+        <value xml:lang="fa">خطا: وضعیت سرویس جابجاگر برای «بخش حواله‌کردن محموله» ${shipmentRouteSegmentId} از محموله ${shipmentId}، ${shipmentRouteSegmentStatus} است، ولی باید ثبت-نشده یا [SHRSCS_NOT_STARTED] باشد تا عملیات تاییدکردن محموله Fedex نمایش‌داده‌شود.</value>
         <value xml:lang="it">ERRORE: lo stato corriere per percorso spedizione ${shipmentRouteSegmentId} della spedizione ${shipmentId}, è ${shipmentRouteSegmentStatus}, ma deve non essere impostato o [SHRSCS_NOT_STARTED] per eseguire l'operazione di Conferma Spedizione Fedex.</value>
         <value xml:lang="ja">エラー: 発送 ${shipmentId} の発送経路セグメント ${shipmentRouteSegmentId} の運送業者サービスステータスは ${shipmentRouteSegmentStatus} ですが、Fedex発送確認操作を実行するには、設定しないか、[SHRSCS_NOT_STARTED] の必要があります。</value>
         <value xml:lang="vi">Lỗi xảy ra: Trạng thái dịch vụ nhà chuyển vận cho Chặng chuyển vận ${shipmentRouteSegmentId} của Chuyển vận ${shipmentId} là ${shipmentRouteSegmentStatus}, nhưng không được thiết lập hoặc [SHRSCS_NOT_STARTED] để thực hiện thao tác Xác nhận chuyển vận từ Fedex.</value>
@@ -1364,7 +1364,7 @@
     </property>
     <property key="FacilityShipmentFedexShipmentTemplateLocationNotFound">
         <value xml:lang="en">Can't find location for FDXShipRequest template - should be in ${templateLocation}</value>
-        <value xml:lang="fa">نمی‌توان مکان را برای الگو «درخواست حمل‌کردن Fedex پیدا کرد - باید در ${templateLocation} باشد</value>
+        <value xml:lang="fa">نمی‌توان مکان را برای الگو «درخواست حمل‌کردن Fedex پیداکرد - باید در ${templateLocation} باشد</value>
         <value xml:lang="it">Non è possibile trovare il template per FDXShipRequest - dovrebbe essere in ${templateLocation}</value>
         <value xml:lang="ja">FDXShipRequestテンプレートの位置が見つかりません - ${templateLocation} に必要です</value>
         <value xml:lang="vi">Không tìm thấy đường dẫn cho biểu mẫu Yêu cầu chuyển hàng Fedex (FDXShipRequest) - đáng nhẽ phải có tại ${templateLocation}</value>
@@ -1396,7 +1396,7 @@
     </property>
     <property key="FacilityShipmentFedexSubscriptionTemplateParsingError">
         <value xml:lang="en">Error parsing the FDXSubscriptionRequest response: ${errorString}</value>
-        <value xml:lang="fa">خطا در پاسخ «درخواست اشتراک Fedex»: ${errorString}</value>
+        <value xml:lang="fa">خطا در تجزیه «درخواست اشتراک Fedex»: ${errorString}</value>
         <value xml:lang="it">Errore di parsing della risposta FDXSubscriptionRequest: ${errorString}</value>
         <value xml:lang="ja">FDXSubscriptionRequestレスポンスの解析中にエラー: ${errorString}</value>
         <value xml:lang="vi">Lỗi khi phân tích phản hồi FDXSubscriptionRequest : ${errorString}</value>
@@ -1508,7 +1508,7 @@
     </property>
     <property key="FacilityShipmentIdCreated">
         <value xml:lang="en">Created shipment with ID {0} for ship group ID {1} for facility ID {2}</value>
-        <value xml:lang="fa">ساختن محموله با آی‌دی {0} برای آی‌دی گروه حمل‌کردن {1} برای آی‌دی تسهیلات {2}</value>
+        <value xml:lang="fa">محموله ساخته‌شده با آی‌دی {0} برای آی‌دی گروه حمل‌کردن {1} برای آی‌دی تسهیلات {2}</value>
         <value xml:lang="it">Creata spedizione numero {0} per il gruppo spedizione {1} per lo stabilimento {2}</value>
         <value xml:lang="ja">ID {0} の発送が、発送グループID {1}、拠点ID {2} に対して作成されました</value>
         <value xml:lang="vi">Đã tạo chuyển vận với định danh {0} cho nhóm chuyển vận ID {1} cho Chi nhánh / Cơ sở {2}</value>
@@ -1532,7 +1532,7 @@
     </property>
     <property key="FacilityShipmentNotCreatedForNotReserveInventory">
         <value xml:lang="en">ProductStore ${productStore.productStoreId} does not reserve inventory; cannot use Quick Ship for Multiple Facilities</value>
-        <value xml:lang="fa">انبار محصول ${productStore.productStoreId} موجودی‌کالا را رزرو نکرده‌است؛ نمی‌توان برای تسهیلات مختلف از حمل سریع استفاده نمود</value>
+        <value xml:lang="fa">انبار محصول ${productStore.productStoreId} موجودی‌کالا را رزرو نکرده‌است؛ نمی‌توان برای تسهیلات مختلف از حمل‌کردن سریع استفاده نمود</value>
         <value xml:lang="it">Negozio ${productStore.productStoreId} non riserva inventario; non è possibile utilizzare la spedizione veloce per stabilimenti multipli</value>
         <value xml:lang="ja">製品店舗 {0} は在庫予約していません; 複数の拠点にクイック発送は使用できません</value>
         <value xml:lang="vi">Cửa hàng ${productStore.productStoreId} không có kho hàng dự trữ, nên không thể sử dụng Chuyển hàng nhanh cho Nhiều Chi nhánh / Cơ sở</value>
@@ -1540,7 +1540,7 @@
     </property>
     <property key="FacilityShipmentNotCreatedForExplodesOrderItems">
         <value xml:lang="en">ProductStore ${productStore.productStoreId} explodes order items; cannot use Quick Ship for Multiple Facilities</value>
-        <value xml:lang="fa">انبار محصول ${productStore.productStoreId} پر است از اقلام سفارشات؛ نمی‌توان برای تسهیلات مختلف از حمل سریع استفاده نمود</value>
+        <value xml:lang="fa">انبار محصول ${productStore.productStoreId} درحال انفجار است از اقلام سفارشات؛ نمی‌توان برای تسهیلات چندگانه از حمل‌کردن سریع استفاده نمود</value>
         <value xml:lang="it">Negozio ${productStore.productStoreId} esplosione righe ordine; non è possibile utilizzare la spedizione veloce per stabilimenti multipli</value>
         <value xml:lang="ja">製品店舗 {0} は注文アイテムが分散されています; 複数の拠点にクイック発送は使用できません</value>
         <value xml:lang="vi">Cửa hàng ${productStore.productStoreId} không có hàng hóa đặt hàng nên không thể sử dụng Chuyển hàng nhanh cho Nhiều Chi nhánh / Cơ sở</value>
@@ -1548,7 +1548,7 @@
     </property>
     <property key="FacilityShipmentNoItemsAvailableToShip">
         <value xml:lang="en">No items available to ship at this time for ship group ID {0}</value>
-        <value xml:lang="fa">هیچ قلمی برای حمل در این زمان برای آی‌دی گروه {0} موجود نمی‌باشد</value>
+        <value xml:lang="fa">هیچ قلمی برای حمل‌کردن در این زمان برای آی‌دی گروه حمل‌کردن {0} موجود نمی‌باشد</value>
         <value xml:lang="it">Nessuna riga disponibile da spedire in questo momento per il gruppo spedizione {0}</value>
         <value xml:lang="ja">現在発送グループID {0} に対して発送可能なアイテムはありません</value>
         <value xml:lang="vi">Không hạng mục nào sẵn sàng để chuyển tại thời điểm này cho nhóm chuyển ID {0}</value>
@@ -1900,7 +1900,7 @@
     </property>
     <property key="FacilityShipmentUpsErrorDataShipmentAlternateRate">
         <value xml:lang="en">Error reading or writing Shipment data for UPS Shipment Alternate Rates Inquiry: ${errorString}</value>
-        <value xml:lang="fa">خطا در خواندن یا نوشتن داده محموله برای استعلام نرخ جایگذاری محموله UPS: ${errorString}</value>
+        <value xml:lang="fa">خطا در خواندن یا نوشتن داده محموله برای استعلام نرخ‌های جایگزین محموله UPS: ${errorString}</value>
         <value xml:lang="it">Errore leggendo o scrivendo i dati della spedizione stima spedizione alternativa UPS: ${errorString}</value>
         <value xml:lang="ja">UPS発送代替レート照会に対する発送データの読み書き中にエラー: ${errorString}</value>
         <value xml:lang="vi">Lỗi đọc hoặc ghi dữ liệu chuyển vận cho Yêu cầu tỷ lệ thay thế UPS: ${errorString}</value>
@@ -2036,7 +2036,7 @@
     </property>
     <property key="FacilityShipmentUpsErrorParsingVoidShipmentResponse">
         <value xml:lang="en">Error parsing the VoidShipmentResponse: ${errorString}</value>
-        <value xml:lang="fa">خطا در تحویل «پاسخ محموله بی‌اعتبار»: ${errorString}</value>
+        <value xml:lang="fa">خطا در تجزیه «پاسخ محموله بی‌اعتبار»: ${errorString}</value>
         <value xml:lang="it">Errore di parsing di VoidShipmentResponse: ${errorString}</value>
         <value xml:lang="ja">無効発送レスポンスの解析中にエラー: ${errorString}</value>
         <value xml:lang="vi">Lỗi khi phân tích VoidShipmentResponse: ${errorString}</value>
@@ -2252,7 +2252,7 @@
     </property>
     <property key="FacilityShipmentUpsRouteSegmentStatusNotConfirmed">
         <value xml:lang="en">ERROR: The Carrier Service Status for ShipmentRouteSegment ${shipmentRouteSegmentId} of Shipment ${shipmentId}, is ${shipmentRouteSegmentStatus}, but must be not-set or [SHRSCS_CONFIRMED] to perform the UPS Shipment Accept operation.</value>
-        <value xml:lang="fa">خطا: وضعیت سرویس جابجاگر برای «بخش حواله‌کردن محموله» ${shipmentRouteSegmentId} از محموله ${shipmentId}، ${shipmentRouteSegmentStatus} است، ولی باید یا ثبت-نشده و یا  [SHRSCS_CONFIRMED] باشد تا عملکرد پذیریش محموله را نمایش‌داده‌شود.</value>
+        <value xml:lang="fa">خطا: وضعیت سرویس جابجاگر برای «بخش حواله‌کردن محموله» ${shipmentRouteSegmentId} از محموله ${shipmentId}، ${shipmentRouteSegmentStatus} است، ولی باید یا ثبت-نشده و یا  [SHRSCS_CONFIRMED] باشد تا عملیات پذیریش‌کردن محموله را نمایش‌داده‌شود.</value>
         <value xml:lang="it">ERRORE: lo stato corriere per percorso spedizione ${shipmentRouteSegmentId} della spedizione ${shipmentId}, è ${shipmentRouteSegmentStatus}, ma deve non essere impostato o [SHRSCS_CONFIRMED] per eseguire l'operazione di Accettazione Spedizione UPS.</value>
         <value xml:lang="ja">エラー: 発送 ${shipmentId} の発送経路セグメント ${shipmentRouteSegmentId} に対する運送業者サービスステータスは ${shipmentRouteSegmentStatus} ですが、UPS発送受付操作を実行するには設定しないか [SHRSCS_CONFIRMED] にする必要があます。</value>
         <value xml:lang="vi">Lỗi xảy ra: Trạng thái dịch vụ nhà chuyển vận cho Chặng chuyển ${shipmentRouteSegmentId} của Chuyển vận ${shipmentId} nhưng chưa được thiết lập hoặc [SHRSCS_CONFIRMED] để thực hiện thủ tục Chấp nhận chuyển vận UPS</value>
@@ -2260,21 +2260,21 @@
     </property>
     <property key="FacilityShipmentUpsRouteSegmentStatusMustBeConfirmedOrAccepted">
         <value xml:lang="en">ERROR: The Carrier Service Status for ShipmentRouteSegment ${shipmentRouteSegmentId} of Shipment ${shipmentId}, is ${shipmentRouteSegmentStatus}, but must be [SHRSCS_CONFIRMED] or [SHRSCS_ACCEPTED] to perform the UPS Void Shipment operation.</value>
-        <value xml:lang="fa">خطا: وضعیت سرویس جابجاگر برای «بخش حواله‌کردن محموله» ${shipmentRouteSegmentId} از محموله ${shipmentId}، ${shipmentRouteSegmentStatus} است، ولی باید یا [SHRSCS_ACCEPTED] و یا  [SHRSCS_CONFIRMED] باشد تا عملکرد محموله بی‌اعتبار UPS نمایش‌داده‌شود.</value>
+        <value xml:lang="fa">خطا: وضعیت سرویس جابجاگر برای «بخش حواله‌کردن محموله» ${shipmentRouteSegmentId} از محموله ${shipmentId}، ${shipmentRouteSegmentStatus} است، ولی باید یا [SHRSCS_ACCEPTED] و یا  [SHRSCS_CONFIRMED] باشد تا عملیات محموله ابطال‌کردن UPS نمایش‌داده‌شود.</value>
         <value xml:lang="it">ERRORE: lo stato corriere per percorso spedizione ${shipmentRouteSegmentId} della spedizione ${shipmentId}, è ${shipmentRouteSegmentStatus}, ma deve essere impostato [SHRSCS_CONFIRMED] or [SHRSCS_ACCEPTED] per eseguire l'operazione di Cancellazione Spedizione UPS.</value>
         <value xml:lang="ja">エラー: 発送 ${shipmentId} の発送経路セグメント ${shipmentRouteSegmentId} に対する運送業者サービスステータスは ${shipmentRouteSegmentStatus} ですが、UPS無効発送操作を実行するには [SHRSCS_CONFIRMED] または [SHRSCS_ACCEPTED] にする必要があます。</value>
         <value xml:lang="zh">错误：承运人服务状态是 ${shipmentRouteSegmentStatus}，要执行联合包裹取消送货操作，状态必须是 [SHRSCS_CONFIRMED] 或 [SHRSCS_ACCEPTED]，其中，送货路径分区 ${shipmentRouteSegmentId}、送货 ${shipmentId}。</value>
     </property>
     <property key="FacilityShipmentUpsRouteSegmentStatusNotAccepted">
         <value xml:lang="en">ERROR: The Carrier Service Status for ShipmentRouteSegment ${shipmentRouteSegmentId} of Shipment ${shipmentId}, is ${shipmentRouteSegmentStatus}, but must be not-set or [SHRSCS_ACCEPTED] to perform the UPS Shipment Confirm operation.</value>
-        <value xml:lang="fa">خطا: وضعیت سرویس جابجاگر برای «بخش حواله‌کردن محموله» ${shipmentRouteSegmentId} از محموله ${shipmentId}، ${shipmentRouteSegmentStatus} است، ولی باید یا ثبت-نشده یا  [SHRSCS_ACCEPTED] باشد تا عملکرد تایید محموله UPS نمایش‌داده‌شود.</value>
+        <value xml:lang="fa">خطا: وضعیت سرویس جابجاگر برای «بخش حواله‌کردن محموله» ${shipmentRouteSegmentId} از محموله ${shipmentId}، ${shipmentRouteSegmentStatus} است، ولی باید یا ثبت-نشده یا  [SHRSCS_ACCEPTED] باشد تا عملیات تاییدکردن محموله UPS نمایش‌داده‌شود.</value>
         <value xml:lang="it">ERRORE: lo stato corriere per percorso spedizione ${shipmentRouteSegmentId} della spedizione ${shipmentId}, è ${shipmentRouteSegmentStatus}, ma deve non essere impostato o [SHRSCS_ACCEPTED] per eseguire l'operazione di Conferma Spedizione UPS.</value>
         <value xml:lang="ja">エラー: 発送 ${shipmentId} の発送経路セグメント ${shipmentRouteSegmentId} に対する運送業者サービスステータスは ${shipmentRouteSegmentStatus} ですが、UPS発送確認操作を実行するには設定しないか [SHRSCS_ACCEPTED] にする必要があます。</value>
         <value xml:lang="zh">错误：承运人服务状态是 ${shipmentRouteSegmentStatus}，要执行联合包裹送货确认操作，必须是不设置状态或者状态是[SHRSCS_ACCEPTED]，其中，送货路径分区 ${shipmentRouteSegmentId}、送货 ${shipmentId}。</value>
     </property>
     <property key="FacilityShipmentUpsRouteSegmentStatusNotStarted">
         <value xml:lang="en">ERROR: The Carrier Service Status for ShipmentRouteSegment ${shipmentRouteSegmentId} of Shipment ${shipmentId}, is ${shipmentRouteSegmentStatus}, but must be not-set or [SHRSCS_NOT_STARTED] to perform the UPS Shipment Confirm operation.</value>
-        <value xml:lang="fa">خطا: وضعیت سرویس جابجاگر برای «بخش حواله‌کردن محموله» ${shipmentRouteSegmentId} از محموله ${shipmentId}، ${shipmentRouteSegmentStatus} است، ولی باید یا ثبت-نشده یا  [SHRSCS_NOT_STARTED] باشد تا عملکرد تایید محموله UPS نمایش‌داده‌شود.</value>
+        <value xml:lang="fa">خطا: وضعیت سرویس جابجاگر برای «بخش حواله‌کردن محموله» ${shipmentRouteSegmentId} از محموله ${shipmentId}، ${shipmentRouteSegmentStatus} است، ولی باید یا ثبت-نشده یا  [SHRSCS_NOT_STARTED] باشد تا عملیات تاییدکردن محموله UPS نمایش‌داده‌شود.</value>
         <value xml:lang="it">ERRORE: lo stato corriere per percorso spedizione ${shipmentRouteSegmentId} della spedizione ${shipmentId}, è ${shipmentRouteSegmentStatus}, ma deve non essere impostato o [SHRSCS_NOT_STARTED] per eseguire l'operazione di Conferma Spedizione UPS.</value>
         <value xml:lang="ja">エラー: 発送 ${shipmentId} の発送経路セグメント ${shipmentRouteSegmentId} に対する運送業者サービスステータスは ${shipmentRouteSegmentStatus} ですが、UPS発送確認操作を実行するには設定しないか [SHRSCS_NOT_STARTED] にする必要があます。</value>
         <value xml:lang="zh">错误：承运人服务状态是 ${shipmentRouteSegmentStatus}，要执行联合包裹送货确认操作，必须是不设置状态或者状态是[SHRSCS_NOT_STARTED]，其中，送货路径分区 ${shipmentRouteSegmentId}、送货 ${shipmentId}。</value>
@@ -2446,7 +2446,7 @@
     </property>
     <property key="FacilityShipmentUpsSurchargeAll">
         <value xml:lang="en">Surcharge amount will be applied to each shipment package</value>
-        <value xml:lang="fa">مقدار هزینه‌اضافی برای هر بسته محموله محاسبه‌خواهدشد</value>
+        <value xml:lang="fa">مقدار هزینه‌اضافی برای هر بسته محموله اضافه‌خواهدشد</value>
         <value xml:lang="it">Importo supplementare sarà applicato ad ogni pacco di spedizione</value>
         <value xml:lang="ja">各発送梱包ごとに追加料金が適用されます</value>
         <value xml:lang="zh">附加费金额会应用到每个要运送的包裹</value>
@@ -2537,21 +2537,21 @@
     </property>
     <property key="FacilityShipmentUpsRateEstimateError">
         <value xml:lang="en">Error on UPS Rate Estimate: ${errorString}</value>
-        <value xml:lang="fa">خطا در پیش‌بینی نرخ UPS: ${errorString}</value>
+        <value xml:lang="fa">خطا در تخمین نرخ UPS: ${errorString}</value>
         <value xml:lang="it">Errore su stima spedizione UPS: ${errorString}</value>
         <value xml:lang="ja">UPSレート見積でエラー: ${errorString}</value>
         <value xml:lang="zh">联合包裹费率预估错误：${errorString}</value>
     </property>
     <property key="FacilityShipmentUpsShipToAddresssNoDestionationCountry">
         <value xml:lang="en">Destination CountryGeo not found for ship-to address</value>
-        <value xml:lang="fa">جغرافیای کشور مقصد برای آدرس حمل-به پیدانشده</value>
+        <value xml:lang="fa">جغرافیای کشور مقصد برای آدرس حمل‌کردن-به پیدانشده</value>
         <value xml:lang="it">Paese di destinazione non trovato dall'indirizzo di spedizione</value>
         <value xml:lang="ja">配送先住所に対して国が見つかりません</value>
         <value xml:lang="zh">没有找到用于交货地的地址的目的地国家地理</value>
     </property>
     <property key="FacilityShipmentUnableFoundShipToAddresss">
         <value xml:lang="en">Unable to determine ship-to address</value>
-        <value xml:lang="fa">نمی‌توان آدرس حمل-به را مشخص‌نمود</value>
+        <value xml:lang="fa">نمی‌توان آدرس حمل‌کردن-به را مشخص‌نمود</value>
         <value xml:lang="it">Non è possibile determinare l'indirizzo di spedizione</value>
         <value xml:lang="ja">配送先住所を決定できません</value>
         <value xml:lang="zh">无法确定交货地的地址</value>
@@ -2730,7 +2730,7 @@
     </property>
     <property key="FacilityShipmentUspsMaxEstimateWeight">
         <value xml:lang="en">Estimate split into packages</value>
-        <value xml:lang="fa">تقسیم انتظاری برای بسته‌ها</value>
+        <value xml:lang="fa">تخمین‌زدن تقسیم‌بندی برای بسته‌ها</value>
         <value xml:lang="it">Stima spezzatura pacchi</value>
         <value xml:lang="ja">梱包に見積分割</value>
         <value xml:lang="zh">预计拆分包裹</value>
@@ -2915,7 +2915,7 @@
     </property>
     <property key="FacilityShipmentUspsTrackingSendingError">
         <value xml:lang="en">Error sending request for USPS Tracking service: ${errorString}</value>
-        <value xml:lang="fa">خطا در فرستادن درخواست برای سرویش پیگیری USPS: ${errorString}</value>
+        <value xml:lang="fa">خطا در فرستادن درخواست برای سرویس پیگیری USPS: ${errorString}</value>
         <value xml:lang="it">Errore nella richiesta inviata a USPS per la tracciatura della spedizione: ${errorString}</value>
         <value xml:lang="ja">USPS追跡サービスのリクエスト送信中にエラー: ${errorString}</value>
         <value xml:lang="zh">为美国邮政跟踪服务发送请求时出错：${errorString}</value>
@@ -3156,7 +3156,7 @@
         <value xml:lang="de">Hinzufügen zum Warenkorb ersetzt Zusatzverkäufe (Upsell)</value>
         <value xml:lang="en">Add To Cart Replace Upsell</value>
         <value xml:lang="es">Añadir a carro, reemplazar sobreventa</value>
-        <value xml:lang="fa">اضافه‌کردن به کارت و جایگذاری تشویق</value>
+        <value xml:lang="fa">اضافه‌کردن به تشویق جایگذاری سبد</value>
         <value xml:lang="fr">L'ajout au panier retire les éventuels produits redondants (upsell)</value>
         <value xml:lang="it">Aggiunta al Carrello Sostituisce Upsell</value>
         <value xml:lang="ja">上位商品に交換して買い物かごに追加</value>
@@ -3701,7 +3701,7 @@
     </property>
     <property key="FormFieldTitle_canDropShip">
         <value xml:lang="en">Can Drop Ship</value>
-        <value xml:lang="fa">آیا می‌توان حمل را متوقف‌کرد</value>
+        <value xml:lang="fa">آیا می‌توان حمل‌کردن را متوقف‌کرد</value>
         <value xml:lang="fr">Peut faire de l'expédition par tiers</value>
         <value xml:lang="it">Possono essere effettuare spedizione c/terzi</value>
         <value xml:lang="ja">直送可能</value>
@@ -4265,7 +4265,7 @@
         <value xml:lang="de">Tage bis zum Versand</value>
         <value xml:lang="en">Days To Ship</value>
         <value xml:lang="es">Días hasta envío</value>
-        <value xml:lang="fa">روزهای حمل</value>
+        <value xml:lang="fa">روزهای حمل‌کردن</value>
         <value xml:lang="fr">Nb de jour avant expédition</value>
         <value xml:lang="it">Giorni Per la Spedizione</value>
         <value xml:lang="ja">発送までの日数</value>
@@ -4322,7 +4322,7 @@
         <value xml:lang="de">Standard Locale String</value>
         <value xml:lang="en">Default Locale String</value>
         <value xml:lang="es">Cadena Locale por defecto</value>
-        <value xml:lang="fa">رشته محلی پیش‌فرض</value>
+        <value xml:lang="fa">رشته محل پیش‌فرض</value>
         <value xml:lang="fr">Langue et région par défaut</value>
         <value xml:lang="it">Stringa Localizzazione di Default</value>
         <value xml:lang="ja">デフォルト地域文字列</value>
@@ -4514,7 +4514,7 @@
         <value xml:lang="de">Methode zur Berechnung Schätzung</value>
         <value xml:lang="en">Estimate Calc Method</value>
         <value xml:lang="es">Método de cálculo estimado</value>
-        <value xml:lang="fa">روش محاسبه انتظاری</value>
+        <value xml:lang="fa">روش محاسبه تخمین</value>
         <value xml:lang="fr">Methode de calcul estimé</value>
         <value xml:lang="it">Metodo Calcolo Stimato</value>
         <value xml:lang="ja">見積計算方法</value>
@@ -4575,7 +4575,7 @@
         <value xml:lang="de">Geschätztes Versanddatum</value>
         <value xml:lang="en">Est. Ship Date</value>
         <value xml:lang="es">Fecha de envío estimada</value>
-        <value xml:lang="fa">تاریخ حمل انتظاری</value>
+        <value xml:lang="fa">تاریخ حمل‌کردن انتظاری</value>
         <value xml:lang="fr">Date d'expédition estimée</value>
         <value xml:lang="it">Data Spedizione Stimata</value>
         <value xml:lang="ja">見積発送日</value>
@@ -6664,7 +6664,7 @@
         <value xml:lang="de">Produkt Läden Versandmethode ID</value>
         <value xml:lang="en">Product Store Ship Meth Id</value>
         <value xml:lang="es">Código Método de envío de tienda</value>
-        <value xml:lang="fa">آی‌دی روش حمل انبار محصول</value>
+        <value xml:lang="fa">آی‌دی روش حمل‌کردن انبار محصول</value>
         <value xml:lang="fr">Réf. de méthode d'expédition</value>
         <value xml:lang="it">Negozio Metodo di Spedizione</value>
         <value xml:lang="ja">製品店舗発送方法ID</value>
@@ -6677,7 +6677,7 @@
         <value xml:lang="de">Versprochen Datum/Zeit</value>
         <value xml:lang="en">Promised Datetime</value>
         <value xml:lang="es">Fecha/hora prometida</value>
-        <value xml:lang="fa">زمان‌وتاریخ وعده‌شده</value>
+        <value xml:lang="fa">‌زمان‌وتاریخ وعده‌شده</value>
         <value xml:lang="fr">Durée promise</value>
         <value xml:lang="it">Data Ora Promessa</value>
         <value xml:lang="ja">承諾日時</value>
@@ -7532,7 +7532,7 @@
         <value xml:lang="de">Lieferung Kostenschätzung ID</value>
         <value xml:lang="en">Shipment Cost Estimate Id</value>
         <value xml:lang="es">Código Estimación de coste de envío</value>
-        <value xml:lang="fa">آی‌دی انتظاری هزینه محموله</value>
+        <value xml:lang="fa">آی‌دی تخمین هزینه محموله</value>
         <value xml:lang="fr">Réf. de coût estimé d'expédition</value>
         <value xml:lang="it">Costo Stimato Spedizione</value>
         <value xml:lang="ja">発送原価見積ID</value>
@@ -7726,7 +7726,7 @@
         <value xml:lang="de">Zahlungseinstellungen pro Versandgruppe aufteilen</value>
         <value xml:lang="en">Split Pay Pref Per Shp Grp</value>
         <value xml:lang="es">Separar las preferencias de pago por grupos de envío</value>
-        <value xml:lang="fa">تقسیم‌کردن ترجیحات پرداخت برای گروه حمل</value>
+        <value xml:lang="fa">تقسیم‌کردن ترجیحات پرداختن برای گروه حمل‌کردن</value>
         <value xml:lang="fr">Séparer les préférences de paiement par groupes d'expédition</value>
         <value xml:lang="it">Suddividere Preferenze Pagamento Per Gruppo di Spedizione</value>
         <value xml:lang="ja">支払設定を発送グループに分割</value>
@@ -8192,7 +8192,7 @@
         <value xml:lang="de">Verwendungszeit Einheit ID</value>
         <value xml:lang="en">Use Time Uom Id</value>
         <value xml:lang="es">Usar UDM de tiempo</value>
-        <value xml:lang="fa">استفاده از آی‌دی واحدسنجش دوره</value>
+        <value xml:lang="fa">استفاده از آی‌دی واحدسنجش زمان</value>
         <value xml:lang="fr">Utiliser la ref. d'unité de mesure du temps</value>
         <value xml:lang="it">Uso dell'unità di misura del tempo</value>
         <value xml:lang="ja">使用時間単位ID</value>
@@ -8381,14 +8381,14 @@
     </property>
     <property key="ImageManagementAltForumCode">
         <value xml:lang="en">Alt Forum Code</value>
-        <value xml:lang="fa">کد اجتماع جایگزین</value>
+        <value xml:lang="fa">کد انجمن جایگزین</value>
         <value xml:lang="ja">代替フォーラムコード</value>
         <value xml:lang="vi">Mã diễn đàn thay thế</value>
         <value xml:lang="zh">更换论坛代码</value>
     </property>
     <property key="ImageManagementAltForumThumbnail">
         <value xml:lang="en">Alt Forum Thumbnail</value>
-        <value xml:lang="fa">نمونه اجتماع جایگزین</value>
+        <value xml:lang="fa">عکس‌نمونه انجمن جایگزین</value>
         <value xml:lang="ja">代替フォーラムサムネイル</value>
         <value xml:lang="vi">Xem nhanh nội dung diễn đàn</value>
         <value xml:lang="zh">更换论坛缩略图</value>
@@ -8460,7 +8460,7 @@
     </property>
     <property key="ImageManagementCreateNewThumbnailSize">
         <value xml:lang="en">Create New Thumbnail Size</value>
-        <value xml:lang="fa">ساختن اندازه نمونه عکس جدید</value>
+        <value xml:lang="fa">ساختن اندازه عکس‌نمونه جدید</value>
         <value xml:lang="ja">新規サムネイルサイズを作成</value>
         <value xml:lang="zh">新建缩略图大小</value>
     </property>
@@ -8497,7 +8497,7 @@
     </property>
     <property key="ImageManagementForumCode">
         <value xml:lang="en">Forum Code</value>
-        <value xml:lang="fa">کد اجتماع</value>
+        <value xml:lang="fa">کد انجمن</value>
         <value xml:lang="ja">フォーラムコード</value>
         <value xml:lang="th">รหัสฟอรั่ม</value>
         <value xml:lang="vi">Mã diễn đàn</value>
@@ -8505,7 +8505,7 @@
     </property>
     <property key="ImageManagementForumThumbnail">
         <value xml:lang="en">Forum Thumbnail</value>
-        <value xml:lang="fa">عکس‌نمونه اجتماع</value>
+        <value xml:lang="fa">عکس‌نمونه انجمن</value>
         <value xml:lang="ja">フォーラムサムネイル</value>
         <value xml:lang="th">รูปภาพย่อฟอรั่ม</value>
         <value xml:lang="vi">Ảnh mô tả Diễn đàn</value>
@@ -8877,7 +8877,7 @@
         <value xml:lang="de">Produkt Anlage Verwendung hinzufügen</value>
         <value xml:lang="en">Add Product Asset Usage</value>
         <value xml:lang="es">Añadir uso de bien del producto</value>
-        <value xml:lang="fa">اضافه‌کردن مورداستفاده دارایی محصول</value>
+        <value xml:lang="fa">اضافه‌کردن کاربرد دارایی محصول</value>
         <value xml:lang="fr">Ajouter une utilisation d'immobilisation</value>
         <value xml:lang="it">Aggiungi Bene a Noleggio</value>
         <value xml:lang="ja">製品資産用途を追加</value>
@@ -9254,7 +9254,7 @@
         <value xml:lang="de">Neue Anlageverwendung</value>
         <value xml:lang="en">New Asset Usage</value>
         <value xml:lang="es">Nuevo uso de activo</value>
-        <value xml:lang="fa">استفاده‌از دارایی جدید</value>
+        <value xml:lang="fa">کاربرد دارایی جدید</value>
         <value xml:lang="fr">Nouvelle utilisation d'un bien immobilisé</value>
         <value xml:lang="it">Nuovo Bene a Noleggio</value>
         <value xml:lang="ja">新規資産用途</value>
@@ -9336,7 +9336,7 @@
         <value xml:lang="de">Einfachen Textinhalt für anderes Locale erstellen</value>
         <value xml:lang="en">Create Simple Text Content For Alternate Locale</value>
         <value xml:lang="es">Crear texto para locale alternativa</value>
-        <value xml:lang="fa">ساختن محتوای متن ساده برای جایگذاری محلی</value>
+        <value xml:lang="fa">ساختن محتوای متن ساده برای محل جایگزین</value>
         <value xml:lang="fr">Créer un contenu (traduction d'un texte) pour une région alternative</value>
         <value xml:lang="it">Creare Testo Semplice Contenuto per Locale Alternativi</value>
         <value xml:lang="ja">別の言語で簡単な説明を作成</value>
@@ -9843,7 +9843,7 @@
         <value xml:lang="de">Produkt Anlage Verwendung bearbeiten</value>
         <value xml:lang="en">Edit Product Asset Usage</value>
         <value xml:lang="es">Editar uso de activo</value>
-        <value xml:lang="fa">ویرایش‌کردن استفاده‌از دارایی محصول</value>
+        <value xml:lang="fa">ویرایش‌کردن کاربرد دارایی محصول</value>
         <value xml:lang="fr">Modifier l'association produit - immobilisation</value>
         <value xml:lang="it">Aggiorna Bene a Noleggio</value>
         <value xml:lang="ja">製品資産用途を編集</value>
@@ -10510,7 +10510,7 @@
         <value xml:lang="de">Läden Lieferungen Einstellungen bearbeiten</value>
         <value xml:lang="en">Edit Product Store Ship Setup</value>
         <value xml:lang="es">Editar Configuración de Envíos de una Tienda de Productos</value>
-        <value xml:lang="fa">ویرایش‌کردن نصب حمل انبار محصول</value>
+        <value xml:lang="fa">ویرایش‌کردن نصب حمل‌کردن انبار محصول</value>
         <value xml:lang="fr">Configuration des expéditions du centre de profit</value>
         <value xml:lang="it">Aggiorna Configurazione Spedizioni Negozio</value>
         <value xml:lang="ja">製品店舗発送設定を編集</value>
@@ -10525,7 +10525,7 @@
         <value xml:lang="de">Läden Lieferkosten Schätzungen bearbeiten</value>
         <value xml:lang="en">Edit Product Store Shipment Cost Estimates</value>
         <value xml:lang="es">Editar estimaciones de gastos de envío de tienda</value>
-        <value xml:lang="fa">ویرایش‌کردن انتظارات هزینه محموله انبار محصول</value>
+        <value xml:lang="fa">ویرایش‌کردن تخمین‌های هزینه محموله انبار محصول</value>
         <value xml:lang="fr">Modifier les estimations des coûts d'expédition du centre de profit</value>
         <value xml:lang="it">Aggiorna Stime Costi Spedizione Negozio</value>
         <value xml:lang="ja">製品店舗発送原価見積を編集</value>
@@ -10715,7 +10715,7 @@
         <value xml:lang="de">Lieferweg Abschnitt bearbeiten</value>
         <value xml:lang="en">Edit Shipment Route Segments</value>
         <value xml:lang="es">Editar Segmentos de Ruta de Envío</value>
-        <value xml:lang="fa">ویرایش‌کردن بخش حواله‌کردن محموله</value>
+        <value xml:lang="fa">ویرایش‌کردن بخش‌های حواله‌کردن محموله</value>
         <value xml:lang="fr">Modifier les détails de l'itinéraire</value>
         <value xml:lang="it">Aggiorna Segmenti Percorsi Spedizioni</value>
         <value xml:lang="ja">発送経路セグメントを編集</value>
@@ -11534,7 +11534,7 @@
         <value xml:lang="de">Kommissionierungsliste</value>
         <value xml:lang="en">Pick List</value>
         <value xml:lang="es">Lista de Selección</value>
-        <value xml:lang="fa">لیست چیدن</value>
+        <value xml:lang="fa">لیست‌چیدن</value>
         <value xml:lang="fr">Liste des préparations de commande</value>
         <value xml:lang="it">Lista di Prelievo</value>
         <value xml:lang="ja">ピッキング一覧</value>
@@ -11549,7 +11549,7 @@
         <value xml:lang="de">Kommissionierungsliste Optionen</value>
         <value xml:lang="en">Pick List Options</value>
         <value xml:lang="es">Opciones de Lista de Selección</value>
-        <value xml:lang="fa">گزینه‌های لیست چیدن</value>
+        <value xml:lang="fa">گزینه‌های لیست‌چیدن</value>
         <value xml:lang="fr">Options de la liste de préparation</value>
         <value xml:lang="it">Opzioni Lista di Prelievo</value>
         <value xml:lang="ja">ピッキング一覧オプション</value>
@@ -11871,7 +11871,7 @@
         <value xml:lang="de">Lieferweg Informationen anzeigen</value>
         <value xml:lang="en">View Shipment Route Info</value>
         <value xml:lang="es">Ver información de ruta</value>
-        <value xml:lang="fa">نمای اطلاعات حواله محموله</value>
+        <value xml:lang="fa">نمای اطلاعات حواله‌کردن محموله</value>
         <value xml:lang="fr">Voir les informations d'itinéraire</value>
         <value xml:lang="it">Mostra Percorso Spedizione</value>
         <value xml:lang="ja">発送経路情報を表示</value>
@@ -13233,7 +13233,7 @@
         <value xml:lang="de">Alternative</value>
         <value xml:lang="en">Alternate</value>
         <value xml:lang="es">Alternativo</value>
-        <value xml:lang="fa">جایگذاری</value>
+        <value xml:lang="fa">جایگزین</value>
         <value xml:lang="fr">Remplacement</value>
         <value xml:lang="it">Alternare</value>
         <value xml:lang="ja">代替</value>
@@ -13248,7 +13248,7 @@
         <value xml:lang="de">Alternativer Schlüsselwort Thesaurus</value>
         <value xml:lang="en">Alternate KeyWord Thesaurus</value>
         <value xml:lang="es">Palabra clave alterna para la Enciclopedia</value>
-        <value xml:lang="fa">جایگذاری‌کردن گنجینه کلیدواژه</value>
+        <value xml:lang="fa">جایگزین‌کردن گنجینه کلیدواژه</value>
         <value xml:lang="fr">Thésaurus de mots clés de remplacement</value>
         <value xml:lang="it">Dizionario dei sinonimi delle parole chiave</value>
         <value xml:lang="ja">代替キーワード分類語</value>
@@ -14037,7 +14037,7 @@
         <value xml:lang="de">Behälter #</value>
         <value xml:lang="en">Bin Num</value>
         <value xml:lang="es">Nº de caja</value>
-        <value xml:lang="fa">شماره کانتینتر</value>
+        <value xml:lang="fa">شماره کانتینر</value>
         <value xml:lang="fr">N° de bac</value>
         <value xml:lang="it">Bin Num</value>
         <value xml:lang="ja">格納No</value>
@@ -14052,7 +14052,7 @@
         <value xml:lang="de">Behälter Nummer</value>
         <value xml:lang="en">Bin Number</value>
         <value xml:lang="es">Número de caja</value>
-        <value xml:lang="fa">شماره کانتینتر</value>
+        <value xml:lang="fa">شماره کانتینر</value>
         <value xml:lang="fr">N° de bac</value>
         <value xml:lang="it">Numero Bin</value>
         <value xml:lang="ja">格納番号</value>
@@ -14188,7 +14188,7 @@
         <value xml:lang="de">Foren durchsuchen</value>
         <value xml:lang="en">Browse Forums</value>
         <value xml:lang="es">Buscar Fóros</value>
-        <value xml:lang="fa">مرورکردن اجتماعات</value>
+        <value xml:lang="fa">مرورکردن انجمن‌ها</value>
         <value xml:lang="fr">Parcourir les forums</value>
         <value xml:lang="it">Sfoglia i forum</value>
         <value xml:lang="ja">フォーラムの表示</value>
@@ -14386,7 +14386,7 @@
     </property>
     <property key="ProductCatalogEmptyWarning">
         <value xml:lang="en">If you don't populate a Catalog with Categories, it will not shown in the Browse Catalogs/Categories tree</value>
-        <value xml:lang="fa">اگر شما یک رده‌بندی را با یک دسته‌بندی منتشرنکنید، در مرورکردن درخت رده‌بندی/دسته‌بندی  نمایش‌داده‌نخواهدشد</value>
+        <value xml:lang="fa">اگر شما یک رده‌بندی را با یک دسته‌بندی تکثیرنکنید، در مرورکردن درخت رده‌بندی/دسته‌بندی  نمایش‌داده‌نخواهدشد</value>
         <value xml:lang="fr">Si vous ne créez pas de catégories pour un catalogue, il n'apparaitra pas dans l'arbre des Catalogues/catégories</value>
         <value xml:lang="it">Se un catalogo non viene valorizzato con delle categorie, questo non verrà mostrato nell'albero Sfoglia cataloghi/categorie</value>
         <value xml:lang="ja">カタログがカテゴリに属していない場合、カタログ/カテゴリツリーは表示されません</value>
@@ -14549,7 +14549,7 @@
     </property>
     <property key="ProductCatalogSeoCreate">
         <value xml:lang="en">Create SEO category/products</value>
-        <value xml:lang="fa">ساختن موتورجستجوی دسته‌بندی/محصول</value>
+        <value xml:lang="fa">ساختن موتورجستجوی دسته‌بندی/محصولات</value>
         <value xml:lang="ja">SEOカテゴリ/製品を作成</value>
         <value xml:lang="vi">Tạo tiếp thị mạng (SEO) Phân loại Quản lý/Sản phẩm</value>
         <value xml:lang="zh">创建搜索引擎优化分类/产品</value>
@@ -14761,7 +14761,7 @@
     </property>
     <property key="ProductCategoryNoVariants">
         <value xml:lang="en">No products which fit your requirements were found.</value>
-        <value xml:lang="fa">هیچ محصولی که با خواسته‌های شما مطابقت‌داشته‌باشد پیدانشد.</value>
+        <value xml:lang="fa">هیچ محصولی که با ملزومات شما مطابقت‌داشته‌باشد پیدانشده.</value>
         <value xml:lang="it">Nessun prodotto trovato corrispondono ai tuoi parametri.</value>
         <value xml:lang="ja">あなたの要求に適する製品が見つかりません。</value>
         <value xml:lang="vi">Hệ thống không tìm thấy sản phẩm nào thỏa mãn yêu cầu của bạn.</value>
@@ -14801,7 +14801,7 @@
         <value xml:lang="de">Berechtigung benötigt um Produkte zur "PurchaseAllow" Kategorie hinzuzufügen</value>
         <value xml:lang="en">Permission required to add product to "PurchaseAllow" category</value>
         <value xml:lang="es">Se requiere tener permiso para añadir producto a la categoría "PurchaseAllow".</value>
-        <value xml:lang="fa">برای اضافه‌کردن محصول به دسته‌بندی «مجوز فروش» مجوز الزامی‌است</value>
+        <value xml:lang="fa">برای اضافه‌کردن محصول به دسته‌بندی «مجوز فروش» اجازه الزامی‌است</value>
         <value xml:lang="fr">Permission requise pour ajouter des articles à la catégorie "PurchaseAllow"</value>
         <value xml:lang="it">Permesso richiesto per aggiungere prodotti alla categoria "PurchaseAllow"</value>
         <value xml:lang="ja">"購入許可"カテゴリに製品を追加する権限が必要</value>
@@ -14875,7 +14875,7 @@
         <value xml:lang="de">Berechtigung benötigt um Produkte zur Kategorie "ViewAllow" hinzuzufügen</value>
         <value xml:lang="en">Permission required to add product to "ViewAllow" category</value>
         <value xml:lang="es">Se requiere tener permiso para añadir producto a la categoría "ViewAllow".</value>
-        <value xml:lang="fa">برای اضافه‌کردن دسته‌بندی «مجوز نمایش» مجوز الزامی‌می‌باشد</value>
+        <value xml:lang="fa">برای اضافه‌کردن دسته‌بندی «مجوز نمایش» اجازه الزامی‌می‌باشد</value>
         <value xml:lang="fr">Permission requise pour ajouter des articles à la catégorie "ViewAllow"</value>
         <value xml:lang="it">Permesso richiesto per aggiungere prodotti alla categoria "ViewAllow"</value>
         <value xml:lang="ja">"表示許可"カテゴリに製品を追加する権限が必要</value>
@@ -15184,7 +15184,7 @@
         <value xml:lang="ar">جزء من عائلة أوفبيز للتطبيقات الحرة للتسيير</value>
         <value xml:lang="de">Teil der Open For Business Familie von Open Source Software</value>
         <value xml:lang="en">Part of the Open For Business Family of Open Source Software</value>
-        <value xml:lang="fa">بخشی از خانواده آزاد برای تجارت از نرم‌افزارهای متن باز</value>
+        <value xml:lang="fa">بخشی از خانواده آزاد برای کسب‌وکار از نرم‌افزارهای متن باز</value>
         <!--value xml:lang="es">Parte de la familia "Open for Bussiness" de Software Libre</value-->
         <value xml:lang="es">Parte de la familia de software Open For Business de código abierto</value>
         <value xml:lang="fr">Un module de la famille Open For Business, logiciel libre de gestion d'entreprise.</value>
@@ -15919,7 +15919,7 @@
     </property>
     <property key="ProductCreateNewConfigOptions">
         <value xml:lang="en">Create New Config Options</value>
-        <value xml:lang="fa">ساختن گزینه‌های پیکربندی چدید</value>
+        <value xml:lang="fa">ساختن گزینه‌های پیکربندی جدید</value>
         <value xml:lang="fr">Créer de nouvelles options de configuration</value>
         <value xml:lang="it">Creare nuove opzioni di prodotti configurabili</value>
         <value xml:lang="ja">新規設定オプションを作成</value>
@@ -15961,7 +15961,7 @@
         <value xml:lang="de">Neue Bestandsposition erstellen für diese Einrichtung</value>
         <value xml:lang="en">Create New Inventory Item for this Facility</value>
         <value xml:lang="es">Crear nuevo Inventario de Artículos para este Almacén</value>
-        <value xml:lang="fa">ساختن قلم موجودی‌کالا برای این تسهیلات</value>
+        <value xml:lang="fa">ساختن قلم موجودی‌کالا جدید برای این تسهیلات</value>
         <value xml:lang="fr">Créer une ligne de stock pour ce lieu de stockage</value>
         <value xml:lang="it">Creare Nuova Riga Inventario per questo Stabilimento</value>
         <value xml:lang="ja">この拠点の新規在庫アイテムを作成</value>
@@ -15976,7 +15976,7 @@
         <value xml:lang="de">Neue Bestandsposition erstellen für dieses Produkt</value>
         <value xml:lang="en">Create New Inventory Item for this Product</value>
         <value xml:lang="es">Crear nuevo Inventario de Artículos para este Producto</value>
-        <value xml:lang="fa">ساختن قلم موجودی‌کالا برای این محصول</value>
+        <value xml:lang="fa">ساختن قلم موجودی‌کالا جدید برای این محصول</value>
         <value xml:lang="fr">Créer une ligne de stock pour cet article</value>
         <value xml:lang="it">Creare Nuova Riga Inventario per questo Prodotto</value>
         <value xml:lang="ja">この製品の新規在庫アイテムを作成</value>
@@ -16227,7 +16227,7 @@
     </property>
     <property key="ProductCreateSimpleTextContentForAlternateLocale">
         <value xml:lang="en">Create Simple Text Content For Alternate Locale</value>
-        <value xml:lang="fa">ساختن محتوای متن ساده برای جایگذاری مکان</value>
+        <value xml:lang="fa">ساختن محتوای متن ساده برای محل جایگزین</value>
         <value xml:lang="fr">Créer un texte au format simple pour une traduction</value>
         <value xml:lang="it">Creare testo semplice per contenuto con locale alternativo</value>
         <value xml:lang="ja">別の言語で簡単な説明内容を作成</value>
@@ -16451,7 +16451,7 @@
         <value xml:lang="de">Tage bis zur Lieferung</value>
         <value xml:lang="en">Days To Ship</value>
         <value xml:lang="es">Días para el envío</value>
-        <value xml:lang="fa">روزهای در حمل</value>
+        <value xml:lang="fa">روزهای حمل‌کردن</value>
         <value xml:lang="fr">Délai d'expédition</value>
         <value xml:lang="it">Giorni Alla Spedizione</value>
         <value xml:lang="ja">発送までの日数</value>
@@ -16502,7 +16502,7 @@
         <value xml:lang="de">Standard Tage bis zur Lieferung</value>
         <value xml:lang="en">Default Days To Ship</value>
         <value xml:lang="es">Días por defecto para enviar</value>
-        <value xml:lang="fa">روزهای پیش‌فرض در حمل</value>
+        <value xml:lang="fa">روزهای حمل‌کردن پیش‌فرض</value>
         <value xml:lang="fr">Nombre de jour avant l'envoi par défaut</value>
         <value xml:lang="it">Giorni di Default per la Spedizione</value>
         <value xml:lang="ja">発送までのデフォルト日数</value>
@@ -17204,14 +17204,14 @@
     </property>
     <property key="ProductErrorFailedProductStockTake">
         <value xml:lang="en">updateProductStocktake failed getting inventory items</value>
-        <value xml:lang="fa">«بروزرسانی موجودی‌پذیر محصول» در گرفتن اقلام موجودی‌کالا شکست‌خورد</value>
+        <value xml:lang="fa">«بروزرسانی موجودی‌پذیر محصول» در دریافت‌کردن اقلام موجودی‌کالا شکست‌خورد</value>
         <value xml:lang="it">updateProductStocktake fallito per ottenere riga inventario</value>
         <value xml:lang="ja">在庫アイテムの取得中にupdateProductStocktakeが失敗しました</value>
         <value xml:lang="zh">更新产品库存盘点（updateProductStocktake）时，获取库存明细失败</value>
     </property>
     <property key="ProductErrorUpdateProductStockTake">
         <value xml:lang="en">updateProductStocktake failed getting inventory counts</value>
-        <value xml:lang="fa">«بروزرسانی موجودی‌پذیر محصول» در گرفتن شمارش موجودی‌کالا شکست‌خورد</value>
+        <value xml:lang="fa">«بروزرسانی موجودی‌پذیر محصول» در دریافت‌کردن شمارش موجودی‌کالا شکست‌خورد</value>
         <value xml:lang="it">updateProductStocktake fallito per ottenere contatori inventario</value>
         <value xml:lang="ja">在庫件数の取得中にupdateProductStocktakeが失敗しました</value>
         <value xml:lang="zh">更新产品库存盘点（updateProductStocktake）时，获取库存计数失败</value>
@@ -17365,7 +17365,7 @@
         <value xml:lang="de">Schätzung ID</value>
         <value xml:lang="en">Estimate ID</value>
         <value xml:lang="es">Código de la estimación</value>
-        <value xml:lang="fa">آی‌دی انتظاری</value>
+        <value xml:lang="fa">آی‌دی تخمین</value>
         <value xml:lang="fr">Réf. de l'estimation</value>
         <value xml:lang="it">Codice Stima</value>
         <value xml:lang="ja">見積ID</value>
@@ -17380,7 +17380,7 @@
         <value xml:lang="de">Voraussichtliche Lieferkosten</value>
         <value xml:lang="en">Estimate Ship Cost</value>
         <value xml:lang="es">Coste de envío estimado</value>
-        <value xml:lang="fa">هزینه حمل انتظاری</value>
+        <value xml:lang="fa">تخمین‌زدن هزینه حمل‌کردن</value>
         <value xml:lang="fr">Coût estimé de l'expédition</value>
         <value xml:lang="it">Costo Spedizione Stimato</value>
         <value xml:lang="ja">発送原価を見積</value>
@@ -17678,7 +17678,7 @@
         <value xml:lang="de">Varianten ausgeschlossen</value>
         <value xml:lang="en">Exclude Variants</value>
         <value xml:lang="es">Excluir variantes</value>
-        <value xml:lang="fa">حمل‌کردن گونه‌های</value>
+        <value xml:lang="fa">به‌استثناء گونه‌های</value>
         <value xml:lang="fr">Exclure les variantes</value>
         <value xml:lang="it">Escludi Varianti</value>
         <value xml:lang="ja">別型を除外</value>
@@ -17767,7 +17767,7 @@
         <value xml:lang="de">Auftragspositionen erstellen</value>
         <value xml:lang="en">Explode Order Items</value>
         <value xml:lang="es">Ver detalle de artículos de la orden</value>
-        <value xml:lang="fa">منفجرکردن اقلام سفارش</value>
+        <value xml:lang="fa">اقلام سفارش انفجاری</value>
         <value xml:lang="fr">Développer les lignes de commande</value>
         <value xml:lang="it">Esplodi Righe Ordine</value>
         <value xml:lang="ja">注文アイテムを展開</value>
@@ -18173,7 +18173,7 @@
         <value xml:lang="de">Sicherheitsfehler: um ${resourceDescription} auszuführen, benötigen Sie die Berechtigung CATALOG_${mainAction} oder CATALOG_ADMIN oder FACILITY_${mainAction} oder FACILITY_ADMIN</value>
         <value xml:lang="en">Security Error : to run ${resourceDescription} you must have the CATALOG_${mainAction} or CATALOG_ADMIN or FACILITY_${mainAction} or FACILITY_ADMIN permission</value>
         <value xml:lang="es">Error de seguridad : para ejecutar ${resourceDescription} debe tener alguno de los permisos CATALOG_${mainAction} - CATALOG_ADMIN - FACILITY_${mainAction} - FACILITY_ADMIN </value>
-        <value xml:lang="fa">خطا امنیتی: برای اجراء ${resourceDescription} شما باید اجازه CATALOG_${mainAction} or CATALOG_ADMIN or FACILITY_${mainAction} or FACILITY_ADMIN را داشته‌باشید</value>
+        <value xml:lang="fa">خطای امنیتی: برای اجراء ${resourceDescription} شما باید اجازه CATALOG_${mainAction} or CATALOG_ADMIN or FACILITY_${mainAction} or FACILITY_ADMIN را داشته‌باشید</value>
         <value xml:lang="fr">Erreur de sécurité : pour exécuter ${resourceDescription} vous devez avoir l'autorisation CATALOG_${mainAction} ou le CATALOG_ADMIN ou FACILITY_${mainAction} ou FACILITY_ADMIN</value>
         <value xml:lang="it">Errore sicurezza : per eseguire ${resourceDescription} tu devi avere il permesso CATALOG_${mainAction} o CATALOG_ADMIN o FACILITY_${mainAction} o FACILITY_ADMIN</value>
         <value xml:lang="ja">セキュリティエラー: ${resourceDescription} の実行は CATALOG_${mainAction} または CATALOG_ADMIN または FACILITY_${mainAction} または FACILITY_ADMIN 権限が必要です</value>
@@ -19392,7 +19392,7 @@
         <value xml:lang="de"> Datum/Zeit Angaben sind rot markiert wenn die aktuelle Zeit vor dem Von Datum oder nach dem Bis Datum ist. Wenn das Von Datum rot ist, ist die Zuordnung noch nicht aktiv; falls das Bis Datum rot ist, ist die Zuordnung abgelaufen (und sollte vermutlich gelöscht werden).</value>
         <value xml:lang="en"> date/time entries denote that the current time is before the From Date or after the Thru Date. If the From Date is red, association has not started yet; if Thru Date is red, association has expired (and should probably be deleted).</value>
         <value xml:lang="es"> entrades de fecha/hora indican que la hora actual es anterior a la Fecha de Inicio o después de la Fecha de Fin. Si la fecha de inicio es red, la asociación no ha comenzado aún; si la fecha de fin es red, la asociación ha expirado (y probablemente debe ser eliminada).</value>
-        <value xml:lang="fa">زمان/تاریخ ورودی قبل از «از تاریخ» یا بعد از «تا تاریخ» هستند. اگر «از تاریخ» قرمز بود همبستگی هنوز شروع نشده‌است و اگر «تا تاریخ» قرمز بود همبستگی منقضی شده (و احتمالا باید پاک‌شود)</value>
+        <value xml:lang="fa">ورودی‌های زمان/تاریخ نشان‌می‌دهند که زمان کنونی قبل‌از «از تاریخ» یا بعداز «تا تاریخ» است. اگر «از تاریخ» قرمز بود همبستگی هنوز شروع نشده‌است و اگر «تا تاریخ» قرمز بود همبستگی منقضی شده (و احتمالا باید پاک‌شود)</value>
         <value xml:lang="fr"> date/heure sont notées en rouge lorsque l'heure précède la date de début ou dépasse la date de fin. Si la date de début est en rouge, l'association n'a pas pu encore débuter ; si la date de fin est en rouge, l'association a déjà expiré (et il faudra sûrement la supprimer).</value>
         <value xml:lang="it"> voci data/ora denotano che l'ora attuale è prima della Data Da o dopo la Data A. Se la Data Da è rossa, associazione non è stata ancora iniziata; se la Data A è rosso, associazione è scaduta (e dovrebbe essere probabilmente cancellata).</value>
         <value xml:lang="ja">日時エントリが、現在時刻が開始日より前または終了日より後であることを示しています。開始日が赤の場合、関連付けはまだ開始していません。終了日が赤の場合、関連付けは失効しています (またおそらく削除されています)。</value>
@@ -19523,7 +19523,7 @@
     </property>
     <property key="ProductImageFrameContentIdRequired">
         <value xml:lang="en">Required frame image content ID or dataResource ID parameters. Please upload new frame image or choose the exist frame.</value>
-        <value xml:lang="fa">آی‌دی محتوای عکس قاب یا پارامترهای آی‌دی «منبع داده» الزامی است. لطفا آپلودکنید</value>
+        <value xml:lang="fa">آی‌دی محتوای عکس قاب یا پارامترهای آی‌دی «منبع داده» الزامی است. لطفا عکس قاب جدید یا را آپلودکنید یا قابی موجود را انتخاب‌نمایید.</value>
         <value xml:lang="it">Richiesti i parametri frame image content ID o dataResource ID. Per favore caricare un nuova frame immagine o scegliere il frame esistente.</value>
         <value xml:lang="ja">フレーム画像コンテンツIDまたはデータリソースIDパラメータが必要です。新規フレーム画像をアップロードするか既存のフレームを選択してください。</value>
         <value xml:lang="vi">Bạn hãy tải lên Ảnh mới hoặc chọn Ảnh có sẵn.</value>
@@ -19707,7 +19707,7 @@
         <value xml:lang="de">Enthält Produkte mit Gratis-Versand</value>
         <value xml:lang="en">Include Free Ship Items</value>
         <value xml:lang="es">Incluir ítems libres de gastos de envío</value>
-        <value xml:lang="fa">شامل اقلام حمل رایگان</value>
+        <value xml:lang="fa">شامل اقلام حمل‌کردن رایگان</value>
         <value xml:lang="fr">Inclure les articles à expédition gratuite</value>
         <value xml:lang="it">Includi Righe Spedizione Gratuita</value>
         <value xml:lang="ja">無料配送アイテムを含む</value>
@@ -20047,7 +20047,7 @@
     </property>
     <property key="ProductInventoryItemATPIsNotSufficient">
         <value xml:lang="en">The request transfer amount is not available, the available to promise ${atp} is not sufficient for the desired transfer quantity ${xferQty} on the Inventory Item with ID ${inventoryItemId}</value>
-        <value xml:lang="fa">مقدار انتقال درخواستی موجودنمی‌باشد، مقدار کافی در موجودی برای وعده‌ ${atp} برای کمیت انتقالی خواسته‌شده ${xferQty} در موجودی‌‌کالا با آی‌دی ${inventoryItemId} نمی‌باشد</value>
+        <value xml:lang="fa">مقدار انتقال درخواستی موجودنمی‌باشد، مقدار کافی در «موجود برای وعده‌» ${atp} برای کمیت انتقالی خواسته‌شده ${xferQty} در قلم موجودی‌کالا با آی‌دی ${inventoryItemId} نمی‌باشد</value>
         <value xml:lang="it">La richiesta di trasferimento non è disponibile, la disponibilità promessa ${atp} non è sufficiente per la quantità desiderata di trasferimento ${xferQty} sulla riga inventario ${inventoryItemId}</value>
         <value xml:lang="ja">リクエストした転送数量は有効ではありません。在庫の数(ATP) ${atp} が要求された転送数量 ${xferQty} より少ないです、アイテムID ${inventoryItemId}</value>
         <value xml:lang="vi">Giá trị yêu cầu chuyển không sẵn sàng, số lượng để hứa cung ứng ${atp} là không đủ so với số lượng chuyển mong muốn ${xferQty} với Hàng hóa Id ${inventoryItemId}</value>
@@ -20774,7 +20774,7 @@
         <value xml:lang="de">Beliebiges Wort muss übereinstimmen</value>
         <value xml:lang="en">any word matches</value>
         <value xml:lang="es">cualquier palabra coincide</value>
-        <value xml:lang="fa">هر کلمه‌ای که همتاباشد</value>
+        <value xml:lang="fa">هر واژه‌ای که همتاباشد</value>
         <value xml:lang="fr">Au moins un des mots égal</value>
         <value xml:lang="it">qualsiasi parola uguale</value>
         <value xml:lang="ja">キーワードがいずれか一致</value>
@@ -20930,7 +20930,7 @@
         <value xml:lang="de">Letztes Bearbeitungsdatum</value>
         <value xml:lang="en">Last Modified Date</value>
         <value xml:lang="es">Fecha de última modificación</value>
-        <value xml:lang="fa">آخرین تاریخ اصلاح‌شدن</value>
+        <value xml:lang="fa">آخرین تاریخ اصلاح‌شده</value>
         <value xml:lang="fr">Date de dernière modification</value>
         <value xml:lang="it">Data Ultima Modifica</value>
         <value xml:lang="ja">最終更新日</value>
@@ -21176,7 +21176,7 @@
         <value xml:lang="de">Locale String</value>
         <value xml:lang="en">Locale String</value>
         <value xml:lang="es">Cadena de idioma (Locale)</value>
-        <value xml:lang="fa">رشته محلی</value>
+        <value xml:lang="fa">رشته محل</value>
         <value xml:lang="fr">Code langue</value>
         <value xml:lang="it">Stringa Locale</value>
         <value xml:lang="ja">地域文字列</value>
@@ -21716,7 +21716,7 @@
     <property key="ProductMessageQoh">
         <value xml:lang="de">Standardmässig werden nur Bewegungen angezeigt, die die verfügbare Menge beeinflussen. Falls das 0 gelöscht wird, werden auch Bewegungen angezeigt, die Reservationen betreffen.</value>
         <value xml:lang="en">By default, only movements affecting the qoh are shown; remove the 0 here to get also the movements related to reservations.</value>
-        <value xml:lang="fa">به طور پیش‌فرض، فقط جابجایی‌های موثر از کمیت روی دست (QOH) نمایش‌داده‌می‌شوند؛ در اینجا 0 را حذف‌کنید تا جابجایی‌های مرتبط با رزروها نیز نمایش‌داده‌شود.</value>
+        <value xml:lang="fa">به طور پیش‌فرض، فقط جابجایی‌های موثر از «کمیت روی دست (QOH)» نمایش‌داده‌می‌شوند؛ در اینجا 0 را حذف‌کنید تا جابجایی‌های مربوط با رزروها نیز نمایش‌داده‌شود.</value>
         <value xml:lang="fr">Par défaut, seulement les mouvements affectant le qoh (quantité réellement en stock) sont montrés; enlevez le 0 ici pour obtenir également les mouvements liés aux réservations.</value>
         <value xml:lang="it">Di default, solo i movimenti che corrispondono alla quantità disponibile saranno visualizzati; rimuovendo lo 0 qui otterrai anche i movimenti relativi alle riservazioni.</value>
         <value xml:lang="ja">デフォルトでは、手持数量に影響を与える移動のみ表示されます; 予約に関連した移動を表示するにはここの0を削除してください。</value>
@@ -22141,7 +22141,7 @@
         <value xml:lang="de">Mehr als einen Wegabschnitt gefunden. Diese Lieferung muss manuell versendet werden.</value>
         <value xml:lang="en">More than one route segment found. You must ship this manually</value>
         <value xml:lang="es">Se encontró más de una ruta para este envío. Debe enviarlo manualmente</value>
-        <value xml:lang="fa">بیشتر از یک بخش حواله پیداشده‌است. نیاز به تنظیمات دستی حمل‌کردن</value>
+        <value xml:lang="fa">بیشتر از یک بخش حواله‌کردن پیداشده‌است. نیاز به تنظیمات دستی حمل‌کردن</value>
         <value xml:lang="fr">Plus d'un itinéraire trouvé. Saisissez l'expédition manuellement</value>
         <value xml:lang="it">Più di un segmento percorso trovato. Tu dovresti spedirle manualmente</value>
         <value xml:lang="ja">複数の経路セグメントがあります。手動で発送する必要があります。</value>
@@ -22575,7 +22575,7 @@
         <value xml:lang="de">Neue Schätzung für Lieferung</value>
         <value xml:lang="en">New Shipment Estimate</value>
         <value xml:lang="es">Nuevo envío estimado</value>
-        <value xml:lang="fa">انتظارات محموله جدید</value>
+        <value xml:lang="fa">تخمین محموله جدید</value>
         <value xml:lang="fr">Nouvelle estimation d'expédition</value>
         <value xml:lang="it">Nuova Stima Spedizione</value>
         <value xml:lang="ja">新規発送見積</value>
@@ -22796,7 +22796,7 @@
         <value xml:lang="de">Keine Datei angegeben für den Upload</value>
         <value xml:lang="en">No file specified for Upload</value>
         <value xml:lang="es">No se especificaron archivos para la carga</value>
-        <value xml:lang="fa">هیچ فایلی برای اپلود مشخص‌نشده‌است</value>
+        <value xml:lang="fa">هیچ فایلی برای آپلود مشخص‌نشده‌است</value>
         <value xml:lang="fr">Aucun fichier spécifié pour le téléchargement vers le serveur</value>
         <value xml:lang="it">Nessun file specificato da caricare</value>
         <value xml:lang="ja">アップロードするファイルは指定されていません</value>
@@ -23583,7 +23583,7 @@
         <value xml:lang="de">Die Checkbox oben wird nur verwendet um Positionen zu der Textbox unten hinzuzufügen und zu löschen. Die Checkbox hat keinen Einfluss auf die anderen Aktionen des Formulars unten.</value>
         <value xml:lang="en">The check boxes above are used only to add to and remove from the text box below, they will not limit the other actions for the forms below!</value>
         <value xml:lang="es">Las casillas arriba sólo se utilizan para añadir o quitar del texto abajo, no limitan otras acciones para los formularios debajo.</value>
-        <value xml:lang="fa">چک‌باکس بالا فقط برای «اضافه‌کردن به» و «حذف از» باکس‌متن زیر استفاده‌شده‌است، این‌ها دیگر کنش‌های فرم‌های زیر را محدود نمی‌کنند!</value>
+        <value xml:lang="fa">جعبه‌تیک‌های بالا فقط برای «اضافه‌کردن به» و «حذف از» جعبه‌متن زیر استفاده‌شده‌اند، این‌ها باعث محدودیت دیگر کنش‌های فرم‌های زیر را نخواهندشد!</value>
         <value xml:lang="fr">Les cases à cocher ci-dessus sont utilisées pour s'ajouter et s'enlever seulement de la zone de texte ci-dessous, elles ne limiteront pas les autres actions pour les formes ci-dessous !</value>
         <value xml:lang="it">I check boxes sotto sono usati solamente per aggiungere e rimuovere dal text box sotto, questi non limiteranno le altre azioni per le forms sotto!</value>
         <value xml:lang="ja">上のチェックボックスは下のテキストボックスに追加あるいは削除するために使用します。下のフォームへのその他の操作を制限するものではありません。</value>
@@ -24761,7 +24761,7 @@
         <value xml:lang="de">Die Akteur ID des Transportunternehmens für Gratis Lieferungen (falls leer werden die Gratis Lieferungen einem beliebigen Transportunternehmen zugeordnet).</value>
         <value xml:lang="en">The Party ID for Free Shipping actions is Carrier Party ID to give free shipping for (if blank any Carrier Parties may receive free shipping).</value>
         <value xml:lang="es">El código de participante en la acción de envío gratis es el código del transportista al que se le dará envío gratis (si se deja en blanco cualquier transportista puede recibir envío gratis)</value>
-        <value xml:lang="fa">آی‌دی هویت برای کنش‌های حمل رایگان، آی‌دی هویت جابجاگر برای دریافت حمل رایگان هستند (اگر خالی بماند هر هویت جابجاگری ممکن است حمل رایگان دریافت‌کند).</value>
+        <value xml:lang="fa">آی‌دی هویت برای کنش‌های حمل رایگان، آی‌دی هویت جابجاگر برای دادن حمل رایگان هستند (اگر خالی بماند هر هویت جابجاگری ممکن است حمل رایگان دریافت‌کند).</value>
         <value xml:lang="fr">Acteur (transporteur) pour l'envoi gratuit (si blanc, n'importe lequel des transporteurs peut effectuer les livraison gratuites).</value>
         <value xml:lang="it">Codice Soggetto per azioni di Spedizioni Gratuite è Codice Corriere per dare spedizioni gratuite (se vuoto qualsiasi Corriere potrebbe ricevere spedizioni gratuite).</value>
         <value xml:lang="ja">無料配送行為に対する取引先IDは無料配送を指示する運送業者取引先IDです(空白の場合、任意の運送業者が無料配送を受付ます)。</value>
@@ -25380,7 +25380,7 @@
     </property>
     <property key="ProductPriceCannotRetrieveProductStore">
         <value xml:lang="en">Error getting product store info from the database while calculating price: ${errorString}</value>
-        <value xml:lang="fa">خطا در دریافت‌کردن اطلاعات انبار از بانک‌داده در زمان محاسبه قیمت: ${errorString}</value>
+        <value xml:lang="fa">خطا در دریافت‌کردن اطلاعات انبار محصول از بانک‌داده در زمان محاسبه قیمت: ${errorString}</value>
         <value xml:lang="it">Errore nel ricavare il negozio dal database durant il calcolo del prezzo: ${errorString}</value>
         <value xml:lang="ja">価格計算時に、データベースから製品店舗情報を取得中にエラー: ${errorString}</value>
         <value xml:lang="vi">Lỗi xảy ra khi lấy thông tin Cửa hàng từ cơ sở dữ liệu khi tính giá: ${errorString}</value>
@@ -25396,7 +25396,7 @@
     </property>
     <property key="ProductPriceCannotRetrieveShipmentAndItem">
         <value xml:lang="en">Problem getting ShipmentAndItem records</value>
-        <value xml:lang="fa">مشکل در دریافت‌کردن سابقه‌های «قلم و محموله»</value>
+        <value xml:lang="fa">مشکل در دریافت‌کردن سوابق «قلم و محموله»</value>
         <value xml:lang="it">Problema nel ricavare ShipmentAndItem records</value>
         <value xml:lang="ja">発送およびアイテムレコード取得中にエラー</value>
         <value xml:lang="vi">Lỗi xảy ra khi lấy thông tin bản ghi Chuyển vận và Hàng hóa</value>
@@ -25422,7 +25422,7 @@
         <value xml:lang="de">Sie haben keine Berechtigung die Preisinformationen zu verwalten ("CATALOG_PRICE_MAINT" wird benötigt).</value>
         <value xml:lang="en">You do not have permission to maintain price information. ("CATALOG_PRICE_MAINT" needed)</value>
         <value xml:lang="es">No tiene permiso para realizar el mantenimiento de la información del precio (se necesitan permisos de "CATALOG_PRICE_MAINT")</value>
-        <value xml:lang="fa">شما اجازه لازم برای نگهداری اطلاعات قیمت را ندارید (مجوز "CATALOG_PRICE_MAINT" نیاز است)</value>
+        <value xml:lang="fa">شما اجازه لازم برای نگهداری اطلاعات قیمت را ندارید (مجوز "CATALOG_PRICE_MAINT" نیازاست)</value>
         <value xml:lang="fr">Vous n'avez pas les autorisations pour mettre à jour les prix. ("CATALOG_PRICE_MAINT" est nécessaire)</value>
         <value xml:lang="it">Tu non sei autorizzato per manutenere le informazioni sui prezzi. (Permesso "CATALOG_PRICE_MAINT" necessario)</value>
         <value xml:lang="ja">価格情報をメンテナンスする権限がありません。"CATALOG_PRICE_MAINT" 権限が必要です</value>
@@ -27851,7 +27851,7 @@
         <value xml:lang="de">Menge ${quantityToBackOrder$ von ${quantityToReceive} für Produkt ${productId} wird für Auftragsrückstand verwendet</value>
         <value xml:lang="en">Quantity ${quantityToBackOrder} of ${quantityToReceive} for product ${productId} will go to a back order</value>
         <value xml:lang="es">Cantidad ${quantityToBackOrder} de ${quantityToReceive} para producto ${productId} irá en nuevo pedido</value>
-        <value xml:lang="fa">کمیت ${quantityToBackOrder} از ${quantityToReceive} برای محصول ${productId} برای پیش‌خرید خواهد رفت</value>
+        <value xml:lang="fa">کمیت ${quantityToBackOrder} از ${quantityToReceive} برای محصول ${productId} برای پیش‌خرید خواهدرفت</value>
         <value xml:lang="fr">Quantité ${quantityToBackOrder} de ${quantityToReceive} pour le produit ${productId} ira à une commande en attente</value>
         <value xml:lang="it">Quantità ${quantityToBackOrder} di ${quantityToReceive} per il prodotto ${productId} andrà in back order</value>
         <value xml:lang="ja">製品 ${productId} の数量 ${quantityToBackOrder} / ${quantityToReceive} が納品待ちになります</value>
@@ -29761,7 +29761,7 @@
         <value xml:lang="de">Kosten Schätzung ID</value>
         <value xml:lang="en">Cost Estimate Id</value>
         <value xml:lang="es">Código estimación de coste</value>
-        <value xml:lang="fa">آی‌دی انتظاری هزینه</value>
+        <value xml:lang="fa">آی‌دی تخمین هزینه</value>
         <value xml:lang="fr">Réf. estimation du coût</value>
         <value xml:lang="it">Costo stimato</value>
         <value xml:lang="ja">原価見積ID</value>
@@ -29789,7 +29789,7 @@
     </property>
     <property key="ProductShipmentCostEstimateCannotFoundForCarrier">
         <value xml:lang="en">No shipping estimate found for carrier ${carrierPartyId} and shipment method type ${shipmentMethodTypeId}</value>
-        <value xml:lang="fa">هیچ انتظار حملی برای جابجاگر ${carrierPartyId} و نوع روش محموله ${shipmentMethodTypeId} پیدانشده</value>
+        <value xml:lang="fa">هیچ تخمین حملی برای جابجاگر ${carrierPartyId} و نوع روش محموله ${shipmentMethodTypeId} پیدانشده</value>
         <value xml:lang="it">Nessun stima costi di spedizione trovata per il corriere ${carrierPartyId} e il tipo metodo di spedizione ${shipmentMethodTypeId}</value>
         <value xml:lang="ja">運送業者 ${carrierPartyId} および発送方法種類 ${shipmentMethodTypeId} の配送見積が見つかりません</value>
         <value xml:lang="vi">Chưa có ước lượng chuyển vận cho Nhà chuyển vận ${carrierPartyId} và phương thức chuyển vận ${shipmentMethodTypeId}</value>
@@ -29797,7 +29797,7 @@
     </property>
     <property key="ProductShipmentCostEstimateCannotRetrieve">
         <value xml:lang="en">Unable to locate estimates from database</value>
-        <value xml:lang="fa">نمی‌توان «انتظارات» را از بانک‌داده مشخص‌کرد</value>
+        <value xml:lang="fa">نمی‌توان تخمین‌ها را از بانک‌داده مشخص‌کرد</value>
         <value xml:lang="it">Non è possibile localizzare le stime di spedizione dal database</value>
         <value xml:lang="ja">データベースから見積を取得できません</value>
         <value xml:lang="vi">Không thể tìm được các ước lượng từ cơ sở dữ liệu</value>
@@ -32018,7 +32018,7 @@
         <value xml:lang="de">Total Merkmal(e) angewendet</value>
         <value xml:lang="en">total feature(s) applied</value>
         <value xml:lang="es">características totales aplicadas</value>
-        <value xml:lang="fa">افزونه(های) بکاربرده‌شده مجموع</value>
+        <value xml:lang="fa">افزونه(های) مجموع بکاربرده‌شده</value>
         <value xml:lang="fr">nb de caract. appliquées</value>
         <value xml:lang="it">totale caratteristica(e) applicate</value>
         <value xml:lang="ja">適用済機能合計</value>
@@ -32580,7 +32580,7 @@
         <value xml:lang="de">Verwendung</value>
         <value xml:lang="en">Usage</value>
         <value xml:lang="es">Uso</value>
-        <value xml:lang="fa">استفاده‌از</value>
+        <value xml:lang="fa">کاربرد</value>
         <value xml:lang="fr">Utilisation</value>
         <value xml:lang="it">Uso</value>
         <value xml:lang="ja">用途</value>
@@ -32748,7 +32748,7 @@
         <value xml:lang="de">Wert, Typ</value>
         <value xml:lang="en">Value, Type</value>
         <value xml:lang="es">Valor, Tipo</value>
-        <value xml:lang="fa">مقدار، نوع</value>
+        <value xml:lang="fa">ارزش، نوع</value>
         <value xml:lang="fr">Valeur, type</value>
         <value xml:lang="it">Valore, Tipo</value>
         <value xml:lang="ja">値、種類</value>
@@ -32934,7 +32934,7 @@
     <property key="ProductViewEstimates">
         <value xml:lang="en">Shipping Estimates</value>
         <value xml:lang="es">Ver estimaciones</value>
-        <value xml:lang="fa">انتظارات حمل</value>
+        <value xml:lang="fa">تخمین‌های حمل</value>
         <value xml:lang="fr">Coûts d'expédition</value>
         <value xml:lang="it">Mostra Stime</value>
         <value xml:lang="ja">配送見積</value>
@@ -33014,7 +33014,7 @@
     </property>
     <property key="ProductVirtualVariantCreation">
         <value xml:lang="en">Error creating a virtual with variants: the ID ${variantProductId} is not a valid Product.productId or a GoodIdentification.idValue</value>
-        <value xml:lang="fa">خطا در ساختن یک مجازی با گونه‌های: آی‌دی ${variantProductId} یک آی‌دی Product.productId یا GoodIdentification.idValue موردتصدیق نیست</value>
+        <value xml:lang="fa">خطا در ساختن یک مجازی با گونه‌های: آی‌دی ${variantProductId} یک آی‌دی Product.productId یا GoodIdentification.idValue معتبر نیست</value>
         <value xml:lang="it">Errore durante la creazione del virtuale dalle varianti: variante prodotto ${variantProductId} non è valido Product.productId o un GoodIdentification.idValue</value>
         <value xml:lang="ja">別型で仮想作成中にエラー。ID ${variantProductId} は有効な製品ID、または品目商品IDではありません。</value>
         <value xml:lang="vi">Lỗi xảy ra khi tạo sản phẩm Ảo với Sản phẩm 'tự tùy chỉnh': ID ${variantProductId} không phải là Id sản phẩm hoặc Định danh hàng hóa</value>

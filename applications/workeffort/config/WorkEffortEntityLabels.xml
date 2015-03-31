@@ -370,7 +370,7 @@
     </property>
     <property key="WorkEffortType.description.ASSET_USAGE">
         <value xml:lang="en">Fixed Asset Usage (rental)</value>
-        <value xml:lang="fa">استفاده‌از دارایی ثابت (کرایه‌ای)</value>
+        <value xml:lang="fa">کاربرد دارایی ثابت (کرایه‌ای)</value>
         <value xml:lang="fr">Utilisation d'immobilisation (location)</value>
         <value xml:lang="it">Uso cespite (noleggio)</value>
         <value xml:lang="ja">固定資産の使用(レンタル)</value>

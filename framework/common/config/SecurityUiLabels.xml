@@ -22,7 +22,7 @@
         <value xml:lang="de">Berechtigung (durch Eingabe) zur Sicherheitsgruppe hinzufügen</value>
         <value xml:lang="en">Add Permission (manually) to Security Group</value>
         <value xml:lang="es">Añadir permiso (manualmente) al grupo de seguridad</value>
-        <value xml:lang="fa">اضافه‌کردن مجوز (دستی) به گروه امنیتی</value>
+        <value xml:lang="fa">اضافه‌کردن اجازه (دستی) به گروه امنیتی</value>
         <value xml:lang="fr">Ajouter une autorisation (manuellement) au groupe de sécurité</value>
         <value xml:lang="hi_IN">सुरक्षा समूह में अनुमति(स्वयं) जोड़ें</value>
         <value xml:lang="it">Aggiungi permesso (manualmente) al gruppo sicurezza</value>
@@ -632,7 +632,7 @@
         <value xml:lang="de">Sicherheitsgruppen zur Benuterzanmeldung bearbeiten</value>
         <value xml:lang="en">Edit User Login Security Groups</value>
         <value xml:lang="es">Editar grupos de seguridad</value>
-        <value xml:lang="fa">ویرایش گروه امنیتی ورود کاربر</value>
+        <value xml:lang="fa">ویرایش گروه‌های امنیتی ورود کاربر</value>
         <value xml:lang="fr">Modifier les groupes de sécurité de l'identifiant de connexion </value>
         <value xml:lang="hi_IN">प्रयोक्तालॉगिन के सुरक्षा समूह को संपादित करें</value>
         <value xml:lang="it">Aggiorna Gruppi Sicurezza Utente</value>

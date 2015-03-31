@@ -125,7 +125,7 @@
     </property>
     <property key="EntityExtServicePermissionNotGranted">
         <value xml:lang="en">You do not have permission to run this service.</value>
-        <value xml:lang="fa">شما مجوز لازم برای اجراء این سرویس را ندارید.</value>
+        <value xml:lang="fa">شما اجازه لازم برای اجراء این سرویس را ندارید.</value>
         <value xml:lang="fr">Vous n'avez pas la permission d'exécuter ce service</value>
         <value xml:lang="it">Tu non hai il permesso di eseguire questo servizio.</value>
         <value xml:lang="zh">你没有权限运行这个服务。</value>
