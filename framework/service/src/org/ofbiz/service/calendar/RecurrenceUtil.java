@@ -24,7 +24,7 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
-import com.ibm.icu.util.Calendar;
+import org.ofbiz.base.util.Calendar;
 
 /**
  * Recurrence Utilities

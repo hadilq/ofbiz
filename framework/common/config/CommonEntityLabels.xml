@@ -22,7 +22,7 @@
         <value xml:lang="de">Beispiel Formel für Aufgabe (qty * estimatedMilliSeconds * 10)</value>
         <value xml:lang="en">Example task formula (qty * estimatedMilliSeconds * 10)</value>
         <value xml:lang="es">Ejemplo de fórmula de tarea (cant * milisegundosEstimados * 10)</value>
-        <value xml:lang="fa">مثال برای فرمول تکلیف (کمیت * میلی‌ثانیه‌انتظاری * 10)</value>
+        <value xml:lang="fa">مثال برای فرمول تکلیف (کمیت * میلی‌ثانیه‌تخمینی * 10)</value>
         <value xml:lang="fr">Exemple de formule de tâche (qté * millisecondes estimées * 10)</value>
         <value xml:lang="it">Esempio formula compito (qnt * Milli Secondi Stimati * 10)</value>
         <value xml:lang="ja">タスク公式例 (数量 * 見積ミリ秒 * 10)</value>
@@ -525,7 +525,7 @@
     <property key="Enumeration.description.ESIA_EXCLUDE">
         <value xml:lang="en">ESIA_EXCLUDE</value>
         <value xml:lang="es">Excluir</value>
-        <value xml:lang="fa">شامل استثناء</value>
+        <value xml:lang="fa">به‌استثناء</value>
         <value xml:lang="fr">Exclure</value>
         <value xml:lang="it">Escluso</value>
         <value xml:lang="ja">除外</value>
@@ -1650,7 +1650,7 @@
         <value xml:lang="de">Fracht, Porto und Versicherung bezahlt bis</value>
         <value xml:lang="en">Carriage and Insurance Paid To</value>
         <value xml:lang="es">Transporte y seguro pagados hasta (CIP)</value>
-        <value xml:lang="fa">كرايه حمل‌ونقل و بيمه كالا تا مقصد</value>
+        <value xml:lang="fa">كرايه حمل‌ونقل و بيمه كالا پرداخت‌شده به</value>
         <value xml:lang="fr">Transport et assurance payée à</value>
         <value xml:lang="it">Trasporto e assicurazione pagate Da</value>
         <value xml:lang="ja">運送費用および保険費用の支払:</value>
@@ -1667,7 +1667,7 @@
         <value xml:lang="de">Fracht, Porto bezahlt bis</value>
         <value xml:lang="en">Carriage Paid To</value>
         <value xml:lang="es">Transporte pagado hasta (CPT)</value>
-        <value xml:lang="fa">کرایه حمل‌ونقل تا مقصد</value>
+        <value xml:lang="fa">کرایه حمل‌ونقل پرداخت‌شده به</value>
         <value xml:lang="fr">Transport payé à</value>
         <value xml:lang="it">Trasporto pagato da</value>
         <value xml:lang="ja">運送費用の支払:</value>
@@ -1978,7 +1978,7 @@
         <value xml:lang="de">Konto Tage seit Erstellung</value>
         <value xml:lang="en">Account Days Since Created</value>
         <value xml:lang="es">Días desde la creación de la cuenta</value>
-        <value xml:lang="fa">روزهای حساب اززمان ساخت</value>
+        <value xml:lang="fa">روزهای حساب اززمانی‌که ساخته‌شده</value>
         <value xml:lang="fr">Jours comptabilisés depuis la création</value>
         <value xml:lang="it">Giorni dalla creazione conto</value>
         <value xml:lang="ja">作成後受渡日数</value>
@@ -2532,7 +2532,7 @@
         <value xml:lang="de">Zahlung Autorisierung Überprüfungs Dienst</value>
         <value xml:lang="en">Payment Auth Verification Service</value>
         <value xml:lang="es">Servicio de verificación de pagos</value>
-        <value xml:lang="fa">سرویس تایید مجوز پرداخت</value>
+        <value xml:lang="fa">سرویس تصدیق مجوز پرداخت</value>
         <value xml:lang="fr">Vérification de l'authenticité du paiement</value>
         <value xml:lang="it">Pagamento servizio verifica autorizzazione</value>
         <value xml:lang="ja">支払認証検証サービス</value>
@@ -2956,7 +2956,7 @@
     <property key="Enumeration.description.PRODRQM_ATP">
         <value xml:lang="en">Requirement for order when ATP Reaches Minimum Stock for Product-Facility</value>
         <value xml:lang="es">Solicitud de pedido cuando la cantidad disponible (ATP) alcanza el mínimo del producto por almacén</value>
-        <value xml:lang="fa">ملزوم برای سفارش زمانی که ATP به کمینه موجودی برای تسهیلات-محصول برسد</value>
+        <value xml:lang="fa">ملزوم برای سفارش زمانی که «موجود برای وعده» (ATP) به کمینه موجودی برای تسهیلات-محصول برسد</value>
         <value xml:lang="fr">Besoin créé quand la quantité disponible (ATP) atteint le stock minimum fixé</value>
         <value xml:lang="it">Fabbisogno per un'ordine quando ATP raggiunge la giacenza minima per il prodotto-stabilimento</value>
         <value xml:lang="ja">製品在庫(納期)が下限到達の場合注文要求</value>
@@ -2986,7 +2986,7 @@
     <property key="Enumeration.description.PRODRQM_DS">
         <value xml:lang="en">Drop-ship only</value>
         <value xml:lang="es">Solo envío directo</value>
-        <value xml:lang="fa">فقط توقف-حمل</value>
+        <value xml:lang="fa">فقط توقف-حمل‌کردن</value>
         <value xml:lang="fr">Expédition par un tiers seulement</value>
         <value xml:lang="it">Solo spedizione conto terzi</value>
         <value xml:lang="ja">直送のみ</value>
@@ -2999,7 +2999,7 @@
     <property key="Enumeration.description.PRODRQM_DSATP">
         <value xml:lang="en">Auto drop-ship on low quantity</value>
         <value xml:lang="es">Envío directo automático para pequeñas cantidades</value>
-        <value xml:lang="fa">توقف-حمل خودکار روی کمترین مقدار</value>
+        <value xml:lang="fa">توقف-حمل‌کردن خودکار روی کمترین مقدار</value>
         <value xml:lang="fr">Expédition par un tiers automatique sur faible quantité</value>
         <value xml:lang="it">Spedizione conto terzi automatica sulla bassa quantità</value>
         <value xml:lang="ja">少数時自動直送</value>
@@ -3396,7 +3396,7 @@
     <property key="Enumeration.description.WAT_ROUTE">
         <value xml:lang="en">WAT_ROUTE</value>
         <value xml:lang="es">Ruta</value>
-        <value xml:lang="fa">مسیر</value>
+        <value xml:lang="fa">حواله‌کردن</value>
         <value xml:lang="fr">Route</value>
         <value xml:lang="it">Percorso</value>
         <value xml:lang="ja">経路</value>
@@ -3466,7 +3466,7 @@
     <property key="Enumeration.description.WDT_DATETIME">
         <value xml:lang="en">DATETIME</value>
         <value xml:lang="es">Fecha-hora</value>
-        <value xml:lang="fa">زمان‌وتاریخ - نوع پایه</value>
+        <value xml:lang="fa">‌زمان‌وتاریخ - نوع پایه</value>
         <value xml:lang="fr">Date-Heure - type de base</value>
         <value xml:lang="it">Data ora</value>
         <value xml:lang="ja">日付時間型</value>
@@ -3702,7 +3702,7 @@
         <value xml:lang="de">Beteiligung benötigt</value>
         <value xml:lang="en">Involvement Required</value>
         <value xml:lang="es">Requiere actuación</value>
-        <value xml:lang="fa">همکاری الزامی</value>
+        <value xml:lang="fa">همکاری لازم‌‌شده</value>
         <value xml:lang="fr">Participation requise</value>
         <value xml:lang="it">Domanda impegno</value>
         <value xml:lang="ja">要関与</value>
@@ -3992,7 +3992,7 @@
     <property key="Enumeration.description.WTC_CONDITION">
         <value xml:lang="en">WTC_CONDITION</value>
         <value xml:lang="es">Condición</value>
-        <value xml:lang="fa">شرایط</value>
+        <value xml:lang="fa">شرط</value>
         <value xml:lang="fr">Condition</value>
         <value xml:lang="it">Condizione</value>
         <value xml:lang="ja">条件</value>
@@ -4344,7 +4344,7 @@
         <value xml:lang="de">Produktaktion Bedingung</value>
         <value xml:lang="en">Product Promotion Condition</value>
         <value xml:lang="es">Condición de promoción de producto</value>
-        <value xml:lang="fa">شرایط تبلیغ محصول</value>
+        <value xml:lang="fa">شرط تبلیغ محصول</value>
         <value xml:lang="fr">Condition de prix</value>
         <value xml:lang="it">Condizioni promozioni prodotto</value>
         <value xml:lang="ja">製品プロモーション条件</value>
@@ -4395,7 +4395,7 @@
         <value xml:lang="de">Produktaktion Bedingung</value>
         <value xml:lang="en">Product Promotion Condition</value>
         <value xml:lang="es">Condición de promoción</value>
-        <value xml:lang="fa">شرایط تبلیغ محصول</value>
+        <value xml:lang="fa">شرط تبلیغ محصول</value>
         <value xml:lang="fr">Condition de promotion</value>
         <value xml:lang="it">Condizione promozione prodotto</value>
         <value xml:lang="ja">製品プロモーション条件</value>
@@ -4429,7 +4429,7 @@
         <value xml:lang="de">Produktaktion Produkt/Kategorie Anwendungs Typ</value>
         <value xml:lang="en">Product Promotion Product/Category Application Type</value>
         <value xml:lang="es">Tipo de aplicación</value>
-        <value xml:lang="fa">نوع برداشت محصول/دسته‌بندی تبلیغ محصول</value>
+        <value xml:lang="fa">نوع واریز محصول/دسته‌بندی تبلیغ محصول</value>
         <value xml:lang="fr">Promotion d'article/Type d'application de catégorie</value>
         <value xml:lang="it">Promozione prodotto tipo applicazione prodotto/categoria</value>
         <value xml:lang="ja">プロモーション製品/カテゴリ業務種類</value>
@@ -8925,7 +8925,7 @@
         <value xml:lang="de">Nicht geregelt</value>
         <value xml:lang="en">Not Reconciled</value>
         <value xml:lang="es">No reconciliado</value>
-        <value xml:lang="fa">آشتی نشده</value>
+        <value xml:lang="fa">‌حسابرسی‌نشده</value>
         <value xml:lang="fr">Non réconcilié</value>
         <value xml:lang="it">Non riconciliato</value>
         <value xml:lang="ja">未消込</value>
@@ -8940,7 +8940,7 @@
         <value xml:lang="de">Teilweise geregelt</value>
         <value xml:lang="en">Partially Reconciled</value>
         <value xml:lang="es">Parcialmente reconciliado</value>
-        <value xml:lang="fa">نیمه آشتی</value>
+        <value xml:lang="fa">حسابرسی‌شده بخشی</value>
         <value xml:lang="fr">Partiellement réconcilié</value>
         <value xml:lang="it">Parzialmente riconciliato</value>
         <value xml:lang="ja">一部消込</value>
@@ -8955,7 +8955,7 @@
         <value xml:lang="de">Geregelt</value>
         <value xml:lang="en">Reconciled</value>
         <value xml:lang="es">Reconciliado</value>
-        <value xml:lang="fa">آشتی</value>
+        <value xml:lang="fa">‌حسابرسی‌شده</value>
         <value xml:lang="fr">Réconcilié</value>
         <value xml:lang="it">Riconciliato</value>
         <value xml:lang="ja">消込済</value>
@@ -9097,7 +9097,7 @@
         <value xml:lang="de">Abgelehnt</value>
         <value xml:lang="en">Declined</value>
         <value xml:lang="es">Rechazado</value>
-        <value xml:lang="fa">نزول‌‌کرده</value>
+        <value xml:lang="fa">نزول‌کرده</value>
         <value xml:lang="fr">Refusé</value>
         <value xml:lang="it">Rifiutato</value>
         <value xml:lang="ja">謝絶</value>
@@ -9289,7 +9289,7 @@
     <property key="StatusItem.description.CNTAP_IN_PROCESS">
         <value xml:lang="en">Approval In Process</value>
         <value xml:lang="es">Aprobación en curso</value>
-        <value xml:lang="fa">تصویب درحال‌اجراء</value>
+        <value xml:lang="fa">تصویب درحال اجراء</value>
         <value xml:lang="fr">Approbation en cours</value>
         <value xml:lang="it">Approvazione in corso</value>
         <value xml:lang="ja">承認処理中</value>
@@ -9603,7 +9603,7 @@
         <value xml:lang="de">Abgelehnt</value>
         <value xml:lang="en">Rejected</value>
         <value xml:lang="es">Rechazado</value>
-        <value xml:lang="fa">رد‌شده</value>
+        <value xml:lang="fa">ردشده</value>
         <value xml:lang="fr">Rejeté</value>
         <value xml:lang="it">Rifiutato</value>
         <value xml:lang="ja">否認</value>
@@ -10043,7 +10043,7 @@
         <value xml:lang="de">In arbeit</value>
         <value xml:lang="en">In Process</value>
         <value xml:lang="es">En curso</value>
-        <value xml:lang="fa">درحال‌اجراء</value>
+        <value xml:lang="fa">درحال اجراء</value>
         <value xml:lang="fr">En cours</value>
         <value xml:lang="it">In corso</value>
         <value xml:lang="ja">処理中</value>
@@ -10556,7 +10556,7 @@
         <value xml:lang="de">Reserviert</value>
         <value xml:lang="en">Promised</value>
         <value xml:lang="es">Reservado</value>
-        <value xml:lang="fa">طبق موعد</value>
+        <value xml:lang="fa">وعده‌شده</value>
         <value xml:lang="fr">Réservé</value>
         <value xml:lang="it">Promessa</value>
         <value xml:lang="ja">承諾済</value>
@@ -10709,7 +10709,7 @@
         <value xml:lang="de">Unterwegs</value>
         <value xml:lang="en">En-Route</value>
         <value xml:lang="es">En camino</value>
-        <value xml:lang="fa">در مسیر</value>
+        <value xml:lang="fa">ورودی-حواله‌کردن</value>
         <value xml:lang="fr">En cours</value>
         <value xml:lang="it">Nel percorso</value>
         <value xml:lang="ja">配送中</value>
@@ -10759,7 +10759,7 @@
     <property key="StatusItem.description.LEAD_ASSIGNED">
         <value xml:lang="en">Assigned</value>
         <value xml:lang="es">Asignado</value>
-        <value xml:lang="fa">واگذارشده</value>
+        <value xml:lang="fa">منتسب‌شده</value>
         <value xml:lang="fr">Affecté</value>
         <value xml:lang="it">Assegnato</value>
         <value xml:lang="ja">割当</value>
@@ -10967,7 +10967,7 @@
     <property key="StatusItem.description.OAGMP_PROC_ERROR">
         <value xml:lang="en">In Processed - Error</value>
         <value xml:lang="es">Procesando - Error</value>
-        <value xml:lang="fa">درحال‌اجراء - خطا</value>
+        <value xml:lang="fa">درحال اجراء بوده - خطا</value>
         <value xml:lang="fr">Erreur pendant l'exécution</value>
         <value xml:lang="it">Errore durante l'esecuzione</value>
         <value xml:lang="ja">処理中 - エラー</value>
@@ -10979,7 +10979,7 @@
     <property key="StatusItem.description.OAGMP_PROC_SUCCESS">
         <value xml:lang="en">In Processed - Success</value>
         <value xml:lang="es">Procesando - Correcto</value>
-        <value xml:lang="fa">درحال‌اجراء - موفقیت</value>
+        <value xml:lang="fa">درحال اجراء بوده - موفقیت</value>
         <value xml:lang="fr">Exécuté avec succès</value>
         <value xml:lang="it">Successo durante l'esecuzione</value>
         <value xml:lang="ja">処理中 - 成功</value>
@@ -11400,7 +11400,7 @@
         <value xml:lang="de">Zugewiesen</value>
         <value xml:lang="en">Assigned</value>
         <value xml:lang="es">Asignado</value>
-        <value xml:lang="fa">واگذارشده</value>
+        <value xml:lang="fa">منتسب‌شده</value>
         <value xml:lang="fr">Assignée</value>
         <value xml:lang="it">Assegnato</value>
         <value xml:lang="ja">割当済</value>
@@ -11462,7 +11462,7 @@
         <value xml:lang="de">Abgelehnt (declined)</value>
         <value xml:lang="en">Declined</value>
         <value xml:lang="es">Rechazado</value>
-        <value xml:lang="fa">نزول‌‌کرده</value>
+        <value xml:lang="fa">نزول‌کرده</value>
         <value xml:lang="fr">Refusé</value>
         <value xml:lang="it">Declinato</value>
         <value xml:lang="ja">否認</value>
@@ -11603,7 +11603,7 @@
         <value xml:lang="de">Zugewiesen</value>
         <value xml:lang="en">Assigned</value>
         <value xml:lang="es">Asignado</value>
-        <value xml:lang="fa">واگذارشده</value>
+        <value xml:lang="fa">منتسب‌شده</value>
         <value xml:lang="fr">Assignée</value>
         <value xml:lang="it">Assegnata</value>
         <value xml:lang="ja">割当済</value>
@@ -11863,7 +11863,7 @@
     <property key="StatusItem.description.PQV_NOT_VERIFIED">
         <value xml:lang="en">Not verified</value>
         <value xml:lang="es">No verificado</value>
-        <value xml:lang="fa">تاییدنشده</value>
+        <value xml:lang="fa">تصدیق‌نشده</value>
         <value xml:lang="fr">Non vérifié</value>
         <value xml:lang="it">Non verificato</value>
         <value xml:lang="ja">未検証</value>
@@ -11876,7 +11876,7 @@
     <property key="StatusItem.description.PQV_VERIFIED">
         <value xml:lang="en">Verified</value>
         <value xml:lang="es">Verificado</value>
-        <value xml:lang="fa">تاییدشده</value>
+        <value xml:lang="fa">تصدیق‌شده</value>
         <value xml:lang="fr">Vérifié</value>
         <value xml:lang="it">Verificato</value>
         <value xml:lang="ja">検証済</value>
@@ -11957,7 +11957,7 @@
         <value xml:lang="de">Zugewiesen</value>
         <value xml:lang="en">Assigned</value>
         <value xml:lang="es">Asignado</value>
-        <value xml:lang="fa">واگذارشده</value>
+        <value xml:lang="fa">منتسب‌شده</value>
         <value xml:lang="fr">Affectée</value>
         <value xml:lang="it">Assegnato</value>
         <value xml:lang="ja">割当済</value>
@@ -12123,7 +12123,7 @@
         <value xml:lang="de">Annulliert</value>
         <value xml:lang="en">Cancelled</value>
         <value xml:lang="es">Cancelado</value>
-        <value xml:lang="fa">لغو‌شده</value>
+        <value xml:lang="fa">لغوشده</value>
         <value xml:lang="fr">Annulé</value>
         <value xml:lang="it">Cancellato</value>
         <value xml:lang="ja">取消</value>
@@ -12165,7 +12165,7 @@
         <value xml:lang="de">Zugewiesen</value>
         <value xml:lang="en">Assigned</value>
         <value xml:lang="es">Asignado</value>
-        <value xml:lang="fa">واگذارشده</value>
+        <value xml:lang="fa">منتسب‌شده</value>
         <value xml:lang="fr">Assignée</value>
         <value xml:lang="it">Assegnato</value>
         <value xml:lang="ja">割当済</value>
@@ -12582,7 +12582,7 @@
     <property key="StatusItem.description.SERVICE_FINISHED">
         <value xml:lang="en">Finished</value>
         <value xml:lang="es">Finalizado</value>
-        <value xml:lang="fa">تمام‌شد</value>
+        <value xml:lang="fa">تمام‌شده</value>
         <value xml:lang="fr">Fini</value>
         <value xml:lang="it">Finito</value>
         <value xml:lang="ja">完了</value>
@@ -12915,7 +12915,7 @@
     <property key="StatusItem.description.TIMESHEET_IN_PROCESS">
         <value xml:lang="en">In-Process</value>
         <value xml:lang="es">En curso</value>
-        <value xml:lang="fa">درحال‌اجراء</value>
+        <value xml:lang="fa">درحال-اجراء</value>
         <value xml:lang="fr">En cours</value>
         <value xml:lang="it">In attesa</value>
         <value xml:lang="ja">処理中</value>
@@ -12948,7 +12948,7 @@
     </property>
     <property key="StatusItem.description.TRAINING_ASSIGNED">
         <value xml:lang="en">Assigned</value>
-        <value xml:lang="fa">واگذارشده</value>
+        <value xml:lang="fa">منتسب‌شده</value>
         <value xml:lang="fr">Affecté</value>
         <value xml:lang="ja">割当</value>
         <value xml:lang="ru">Назначенный</value>
@@ -13334,7 +13334,7 @@
     <property key="StatusItem.description.WIP_INCOMING_RES">
         <value xml:lang="en">WIP_INCOMING_RES</value>
         <value xml:lang="es">Entrante reservado</value>
-        <value xml:lang="fa">ورودی محفوظ‌شده</value>
+        <value xml:lang="fa">ورودی پاسخ</value>
         <value xml:lang="fr">En cours : article entrant d'inventaire réservé</value>
         <value xml:lang="it">Entrata riservata</value>
         <value xml:lang="ja">残余収入</value>
@@ -13390,7 +13390,7 @@
     <property key="StatusItem.description.WIP_OUTGOING_RES">
         <value xml:lang="en">WIP_OUTGOING_RES</value>
         <value xml:lang="es">Saliente</value>
-        <value xml:lang="fa">خروجی محفوظ‌شده</value>
+        <value xml:lang="fa">خروجی پاسخ</value>
         <value xml:lang="fr">En cours : article sortant d'inventaire réservé</value>
         <value xml:lang="it">Uscita riservata</value>
         <value xml:lang="ja">残余支出</value>
@@ -13418,7 +13418,7 @@
     <property key="StatusItem.description.WPS_UNDER_REVISION">
         <value xml:lang="en">WPS_UNDER_REVISION</value>
         <value xml:lang="es">En revisión</value>
-        <value xml:lang="fa">تجدیدتظر</value>
+        <value xml:lang="fa">تجدیدنظر</value>
         <value xml:lang="fr">En cours de révision</value>
         <value xml:lang="it">In revisione</value>
         <value xml:lang="ja">修正中</value>
@@ -13563,7 +13563,7 @@
         <value xml:lang="de">Anlage Wartung</value>
         <value xml:lang="en">Fixed Asset Maintenance</value>
         <value xml:lang="es">Mantenimiento Activo Fijo</value>
-        <value xml:lang="fa">نگهداری داریی‌های ثابت</value>
+        <value xml:lang="fa">نگهداری دارایی‌های ثابت</value>
         <value xml:lang="fr">Maintenance d'immobilisation</value>
         <value xml:lang="it">Manutenzione cespiti</value>
         <value xml:lang="ja">固定資産メンテナンス</value>
@@ -15352,7 +15352,7 @@
         <value xml:lang="de">Tranfer abschliessen</value>
         <value xml:lang="en">Transfer Complete</value>
         <value xml:lang="es">Transferencia finalizada</value>
-        <value xml:lang="fa">جابجایی کامل</value>
+        <value xml:lang="fa">انتقال کامل</value>
         <value xml:lang="fr">Transfert complet</value>
         <value xml:lang="it">Trasferimento completato</value>
         <value xml:lang="ja">転送完了</value>
@@ -15370,7 +15370,7 @@
         <value xml:lang="de">Transfer abschliessen (Reserviert)</value>
         <value xml:lang="en">Transfer Complete (Promised)</value>
         <value xml:lang="es">Transferencia finalizada (reservada)</value>
-        <value xml:lang="fa">جابجایی کامل(طبق موعد)</value>
+        <value xml:lang="fa">انتقال کامل(وعده‌شده)</value>
         <value xml:lang="fr">Transfert complet (réservé)</value>
         <value xml:lang="it">Trasferimento completato (Promesso)</value>
         <value xml:lang="ja">転送完了(承諾済)</value>
@@ -15458,7 +15458,7 @@
         <value xml:lang="de">in Transfer (reserviert)</value>
         <value xml:lang="en">Being Transfered (Promised)</value>
         <value xml:lang="es">Siendo transferido (reservado)</value>
-        <value xml:lang="fa">منتقل‌شده باشد(طبق موعود)</value>
+        <value xml:lang="fa">منتقل‌شده باشد(وعده‌شده)</value>
         <value xml:lang="fr">En cours de transft (réservé)</value>
         <value xml:lang="it">In trasferimento (Promesso)</value>
         <value xml:lang="ja">転送中(承諾済)</value>
@@ -15631,7 +15631,7 @@
         <value xml:lang="de">Transfer abgeschlossen</value>
         <value xml:lang="en">In Route Transfer Completed</value>
         <value xml:lang="es">Transferencia completada</value>
-        <value xml:lang="fa">جابجایی در جاده کامل‌شده</value>
+        <value xml:lang="fa">انتقال درحال حواله‌کردن کامل‌شده</value>
         <value xml:lang="fr">Transfert terminé</value>
         <value xml:lang="it">Nel percorso trasferimento completato</value>
         <value xml:lang="ja">配送中転送完了</value>
@@ -15678,7 +15678,7 @@
     <property key="StatusValidChange.transitionName.IXF_REQUESTED.IXF_EN_ROUTE">
         <value xml:lang="en">Inventory Request In Route</value>
         <value xml:lang="es">Petición de inventario en camino</value>
-        <value xml:lang="fa">درخواست موجودی‌کالاها در جاده است</value>
+        <value xml:lang="fa">درخواست موجودی‌کالاها درحال حواله‌کردن</value>
         <value xml:lang="fr">La demande d'inventaire est en route</value>
         <value xml:lang="it">Richiesta inventario nel percorso</value>
         <value xml:lang="ja">配送中在庫リクエスト</value>
@@ -15742,7 +15742,7 @@
     <property key="StatusValidChange.transitionName.IXF_SCHEDULED.IXF_EN_ROUTE">
         <value xml:lang="en">Scheduled Inventory In Route</value>
         <value xml:lang="es">Inventario planificado en camino</value>
-        <value xml:lang="fa">برنامه‌ریزی برای موجودی‌کالاها در راه است</value>
+        <value xml:lang="fa">برنامه‌ریزی موجودی‌کالاها درحال حواله‌کردن</value>
         <value xml:lang="fr">L'inventaire programmée est en route</value>
         <value xml:lang="it">Richiesta inventario nel percorso</value>
         <value xml:lang="ja">スケジュール済在庫配送中</value>
@@ -16654,7 +16654,7 @@
         <value xml:lang="de">Versenden</value>
         <value xml:lang="en">Ship</value>
         <value xml:lang="es">Enviar</value>
-        <value xml:lang="fa">حمل‌ونقل</value>
+        <value xml:lang="fa">حمل‌کردن</value>
         <value xml:lang="fr">Transport</value>
         <value xml:lang="it">Spedita</value>
         <value xml:lang="ja">発送</value>
@@ -16951,7 +16951,7 @@
         <value xml:lang="de">Verpacken</value>
         <value xml:lang="en">Pack</value>
         <value xml:lang="es">Empaquetar</value>
-        <value xml:lang="fa">بسته</value>
+        <value xml:lang="fa">بسته‌بندی</value>
         <value xml:lang="fr">Emballer</value>
         <value xml:lang="it">Imballa</value>
         <value xml:lang="ja">梱包</value>
@@ -16969,7 +16969,7 @@
         <value xml:lang="de">Kommissionieren</value>
         <value xml:lang="en">Pick</value>
         <value xml:lang="es">Recoger</value>
-        <value xml:lang="fa">انتخاب</value>
+        <value xml:lang="fa">چیدن</value>
         <value xml:lang="fr">Prélever</value>
         <value xml:lang="it">Preleva</value>
         <value xml:lang="ja">ピッキング</value>
@@ -17022,7 +17022,7 @@
         <value xml:lang="de">Versenden</value>
         <value xml:lang="en">Ship</value>
         <value xml:lang="es">Enviar</value>
-        <value xml:lang="fa">حمل‌ونقل</value>
+        <value xml:lang="fa">حمل‌کردن</value>
         <value xml:lang="fr">Transporter</value>
         <value xml:lang="it">Spedire</value>
         <value xml:lang="ja">発送</value>
@@ -17057,7 +17057,7 @@
         <value xml:lang="de">Verpacken</value>
         <value xml:lang="en">Pack</value>
         <value xml:lang="es">Empaquetar</value>
-        <value xml:lang="fa">بسته</value>
+        <value xml:lang="fa">بسته‌بندی</value>
         <value xml:lang="fr">Emballer</value>
         <value xml:lang="it">Imballa</value>
         <value xml:lang="ja">梱包</value>
@@ -17092,7 +17092,7 @@
         <value xml:lang="de">Verpacken</value>
         <value xml:lang="en">Pack</value>
         <value xml:lang="es">Empaquetar</value>
-        <value xml:lang="fa">بسته</value>
+        <value xml:lang="fa">بسته‌بندی</value>
         <value xml:lang="fr">Emballer</value>
         <value xml:lang="it">Imballa</value>
         <value xml:lang="ja">梱包</value>
@@ -17110,7 +17110,7 @@
         <value xml:lang="de">Kommissionieren</value>
         <value xml:lang="en">Pick</value>
         <value xml:lang="es">Recoger</value>
-        <value xml:lang="fa">انتخاب</value>
+        <value xml:lang="fa">چیدن</value>
         <value xml:lang="fr">Prélever</value>
         <value xml:lang="it">Preleva</value>
         <value xml:lang="ja">ピッキング</value>
@@ -17284,7 +17284,7 @@
         <value xml:lang="de">Beenden</value>
         <value xml:lang="en">Terminate</value>
         <value xml:lang="es">Terminar</value>
-        <value xml:lang="fa">فسخ‌کردن</value>
+        <value xml:lang="fa">فسخ‌‌کردن</value>
         <value xml:lang="fr">Terminer</value>
         <value xml:lang="it">Terminato</value>
         <value xml:lang="ja">終了</value>

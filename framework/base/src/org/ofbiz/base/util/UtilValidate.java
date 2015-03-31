@@ -24,8 +24,7 @@ import java.util.Map;
 
 import org.apache.commons.validator.routines.EmailValidator;
 import org.ofbiz.base.lang.IsEmpty;
-
-import com.ibm.icu.util.Calendar;
+import org.ofbiz.base.util.Calendar;
 
 /**
  * General input/data validation methods

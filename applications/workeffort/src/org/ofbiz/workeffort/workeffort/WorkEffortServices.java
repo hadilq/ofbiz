@@ -34,6 +34,7 @@ import javolution.util.FastList;
 import javolution.util.FastMap;
 import javolution.util.FastSet;
 
+import org.ofbiz.base.util.Calendar;
 import org.ofbiz.base.util.DateRange;
 import org.ofbiz.base.util.Debug;
 import org.ofbiz.base.util.TimeDuration;
@@ -60,8 +61,6 @@ import org.ofbiz.service.LocalDispatcher;
 import org.ofbiz.service.ServiceUtil;
 import org.ofbiz.service.calendar.TemporalExpression;
 import org.ofbiz.service.calendar.TemporalExpressionWorker;
-
-import com.ibm.icu.util.Calendar;
 
 /**
  * WorkEffortServices - WorkEffort related Services
@@ -96,7 +95,7 @@ public class WorkEffortServices {
                );
             } catch (GenericEntityException e) {
                 Debug.logWarning(e, module);
-                return ServiceUtil.returnError(UtilProperties.getMessage(resourceError, 
+                return ServiceUtil.returnError(UtilProperties.getMessage(resourceError,
                         "WorkEffortNotFound", UtilMisc.toMap("errorString", e.toString()), locale));
             }
         }
@@ -131,7 +130,7 @@ public class WorkEffortServices {
            );
         } catch (GenericEntityException e) {
             Debug.logWarning(e, module);
-            return ServiceUtil.returnError(UtilProperties.getMessage(resourceError, 
+            return ServiceUtil.returnError(UtilProperties.getMessage(resourceError,
                     "WorkEffortNotFound", UtilMisc.toMap("errorString", e.toString()), locale));
         }
 
@@ -172,7 +171,7 @@ public class WorkEffortServices {
                 validWorkEfforts.addAll(EntityUtil.filterByDate(delegator.findList("WorkEffortAndPartyAssign", ecl, null, UtilMisc.toList("createdDate DESC"), null, false)));
             } catch (GenericEntityException e) {
                 Debug.logWarning(e, module);
-                return ServiceUtil.returnError(UtilProperties.getMessage(resourceError, 
+                return ServiceUtil.returnError(UtilProperties.getMessage(resourceError,
                         "WorkEffortNotFound", UtilMisc.toMap("errorString", e.toString()), locale));
             }
         }
@@ -210,7 +209,7 @@ public class WorkEffortServices {
                 validWorkEfforts = EntityUtil.filterByDate(delegator.findList("WorkEffortAndPartyAssign", ecl, null, UtilMisc.toList("priority"), null, false));
             } catch (GenericEntityException e) {
                 Debug.logWarning(e, module);
-                return ServiceUtil.returnError(UtilProperties.getMessage(resourceError, 
+                return ServiceUtil.returnError(UtilProperties.getMessage(resourceError,
                         "WorkEffortNotFound", UtilMisc.toMap("errorString", e.toString()), locale));
             }
         }
@@ -249,7 +248,7 @@ public class WorkEffortServices {
                );
             } catch (GenericEntityException e) {
                 Debug.logWarning(e, module);
-                return ServiceUtil.returnError(UtilProperties.getMessage(resourceError, 
+                return ServiceUtil.returnError(UtilProperties.getMessage(resourceError,
                         "WorkEffortNotFound", UtilMisc.toMap("errorString", e.toString()), locale));
             }
         }
@@ -288,7 +287,7 @@ public class WorkEffortServices {
                );
             } catch (GenericEntityException e) {
                 Debug.logWarning(e, module);
-                return ServiceUtil.returnError(UtilProperties.getMessage(resourceError, 
+                return ServiceUtil.returnError(UtilProperties.getMessage(resourceError,
                         "WorkEffortNotFound", UtilMisc.toMap("errorString", e.toString()), locale));
             }
         }
@@ -556,7 +555,7 @@ public class WorkEffortServices {
             if (partyId.equals(userLogin.getString("partyId")) || security.hasEntityPermission("WORKEFFORTMGR", "_VIEW", userLogin)) {
                 partyIdsToUse.add(partyId);
             } else {
-                return ServiceUtil.returnError(UtilProperties.getMessage(resourceError, 
+                return ServiceUtil.returnError(UtilProperties.getMessage(resourceError,
                         "WorkEffortPartyPermissionError", UtilMisc.toMap("partyId", partyId), locale));
             }
         } else {
@@ -887,7 +886,7 @@ public class WorkEffortServices {
             }
 
         } catch (GenericEntityException gee) {
-            return ServiceUtil.returnError(UtilProperties.getMessage(resourceError, 
+            return ServiceUtil.returnError(UtilProperties.getMessage(resourceError,
                     "WorkEffortManufacturingError", UtilMisc.toMap("productId", productId, "errorString", gee.getMessage()), locale));
         }
         Map<String, Object> resultMap = ServiceUtil.returnSuccess();
@@ -910,7 +909,7 @@ public class WorkEffortServices {
         try {
             eventReminders = delegator.findList("WorkEffortEventReminder", EntityCondition.makeCondition(UtilMisc.<EntityCondition>toList(EntityCondition.makeCondition("reminderDateTime", EntityOperator.EQUALS, null), EntityCondition.makeCondition("reminderDateTime", EntityOperator.LESS_THAN_EQUAL_TO, now)), EntityOperator.OR), null, null, null, false);
         } catch (GenericEntityException e) {
-            return ServiceUtil.returnError(UtilProperties.getMessage(resourceError, 
+            return ServiceUtil.returnError(UtilProperties.getMessage(resourceError,
                     "WorkEffortEventRemindersRetrivingError", UtilMisc.toMap("errorString", e), localePar));
         }
         for (GenericValue reminder : eventReminders) {
@@ -1121,7 +1120,7 @@ public class WorkEffortServices {
                     }
                 }
             } catch (GenericEntityException e) {
-                return ServiceUtil.returnError(UtilProperties.getMessage(resourceError, 
+                return ServiceUtil.returnError(UtilProperties.getMessage(resourceError,
                         "WorkEffortEventRemindersMigrationError", UtilMisc.toMap("errorString", e), locale));
             }
         }

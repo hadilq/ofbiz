@@ -21,6 +21,7 @@ package org.ofbiz.base.util;
 import java.math.BigDecimal;
 import java.text.DateFormat;
 import java.text.DecimalFormat;
+import java.text.NumberFormat;
 import java.text.ParseException;
 import java.util.Date;
 import java.util.Locale;
@@ -303,6 +304,41 @@ public class UtilFormatOut {
             orgBuf.deleteCharAt(0);
         }
         return orgBuf.toString();
+    }
+
+    // ------------------- Number format handlers -------------------
+
+    /** Formats an Long representing a quantity into a string
+     * @param quantity The quantity Long to be formatted
+     * @return A String with the formatted quantity
+     */
+    public static String formatNumber(Object number, Locale aLocale) {
+        if (number == null)
+            return "";
+
+        NumberFormat numberFormat = null;
+        if (aLocale == null) {
+            numberFormat = NumberFormat.getInstance(Locale.getDefault(Locale.Category.FORMAT));
+        } else {
+            numberFormat = NumberFormat.getInstance(aLocale);
+        }
+
+        String retVal = null;
+        if (number instanceof Long || number instanceof Integer ||
+            number instanceof Short || number instanceof Byte) {
+            numberFormat.setMaximumFractionDigits(0);
+            numberFormat.setMinimumFractionDigits(0);
+
+            retVal =  numberFormat.format(((Number)number).longValue());
+        } else if (number instanceof Number) {
+            numberFormat.setMaximumFractionDigits(3);
+            numberFormat.setMinimumFractionDigits(3);
+
+            retVal =  numberFormat.format(((Number)number).doubleValue());
+        } else {
+            retVal =  "";
+        }
+        return retVal;
     }
 
     // ------------------- date handlers -------------------

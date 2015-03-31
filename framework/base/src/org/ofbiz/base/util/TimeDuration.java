@@ -22,8 +22,7 @@ import java.io.Serializable;
 
 import org.ofbiz.base.lang.SourceMonitored;
 import org.ofbiz.base.lang.ThreadSafe;
-
-import com.ibm.icu.util.Calendar;
+import org.ofbiz.base.util.Calendar;
 
 /** An immutable representation of a period of time. */
 @SourceMonitored

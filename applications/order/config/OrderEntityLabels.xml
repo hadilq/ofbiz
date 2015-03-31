@@ -705,7 +705,7 @@
         <value xml:lang="de">Bedarf gemäss Produktionsplanung MRP</value>
         <value xml:lang="en">MRP_PRO_PROD_ORDER</value>
         <value xml:lang="es">Requisito de producción según MRP</value>
-        <value xml:lang="fa">سفارش محصول تولید MRP</value>
+        <value xml:lang="fa">سفارش تولید محصول «برنامه‌ریزی ملزومات مواد (MRP)»</value>
         <value xml:lang="fr">Besoins du cycle de production proposé au processus MRP</value>
         <value xml:lang="it">Fabbisogno ciclo produzione proposto dal processo MRP</value>
         <value xml:lang="ja">MRP製品注文</value>
@@ -719,7 +719,7 @@
         <value xml:lang="de">Einkaufsbedarf gemäss Produktionsplanung MRP</value>
         <value xml:lang="en">MRP_PRO_PURCH_ORDER</value>
         <value xml:lang="es">Requisito de compra según MRP</value>
-        <value xml:lang="fa">سفارش خرید تولید MRP</value>
+        <value xml:lang="fa">سفارش خرید محصول «برنامه‌ریزی ملزومات مواد (MRP)»</value>
         <value xml:lang="fr">Besoins d'achat proposé au processus MRP</value>
         <value xml:lang="it">Fabbisogno ordine acquisto proposto dal processo MRP</value>
         <value xml:lang="ja">MRP購買注文</value>

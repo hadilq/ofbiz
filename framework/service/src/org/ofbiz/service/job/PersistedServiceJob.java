@@ -29,6 +29,7 @@ import javolution.util.FastMap;
 
 import org.apache.commons.lang.StringUtils;
 import org.ofbiz.base.config.GenericConfigException;
+import org.ofbiz.base.util.Calendar;
 import org.ofbiz.base.util.Debug;
 import org.ofbiz.base.util.UtilDateTime;
 import org.ofbiz.base.util.UtilGenerics;
@@ -49,8 +50,6 @@ import org.ofbiz.service.calendar.TemporalExpression;
 import org.ofbiz.service.calendar.TemporalExpressionWorker;
 import org.ofbiz.service.config.ServiceConfigUtil;
 import org.xml.sax.SAXException;
-
-import com.ibm.icu.util.Calendar;
 
 /**
  * A {@link Job} that is backed by the entity engine. Job data is stored

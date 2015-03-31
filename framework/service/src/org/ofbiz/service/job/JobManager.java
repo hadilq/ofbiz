@@ -30,6 +30,7 @@ import java.util.concurrent.RejectedExecutionException;
 
 import org.ofbiz.base.config.GenericConfigException;
 import org.ofbiz.base.util.Assert;
+import org.ofbiz.base.util.Calendar;
 import org.ofbiz.base.util.Debug;
 import org.ofbiz.base.util.UtilDateTime;
 import org.ofbiz.base.util.UtilMisc;
@@ -53,8 +54,6 @@ import org.ofbiz.service.calendar.RecurrenceInfo;
 import org.ofbiz.service.calendar.RecurrenceInfoException;
 import org.ofbiz.service.config.ServiceConfigUtil;
 import org.ofbiz.service.config.model.RunFromPool;
-
-import com.ibm.icu.util.Calendar;
 
 /**
  * Job manager. The job manager queues and manages jobs. Client code can queue a job to be run immediately
@@ -129,7 +128,7 @@ public final class JobManager {
 
     /**
      * Get a List of each threads current state.
-     * 
+     *
      * @return List containing a Map of each thread's state.
      */
     public Map<String, Object> getPoolState() {
@@ -345,7 +344,7 @@ public final class JobManager {
 
     /**
      * Schedule a job to start at a specific time with specific recurrence info
-     * 
+     *
      * @param serviceName
      *            The name of the service to invoke
      *@param context
@@ -365,7 +364,7 @@ public final class JobManager {
 
     /**
      * Schedule a job to start at a specific time with specific recurrence info
-     * 
+     *
      * @param serviceName
      *            The name of the service to invoke
      *@param context
@@ -387,7 +386,7 @@ public final class JobManager {
 
     /**
      * Schedule a job to start at a specific time with specific recurrence info
-     * 
+     *
      * @param serviceName
      *            The name of the service to invoke
      *@param context
@@ -407,7 +406,7 @@ public final class JobManager {
 
     /**
      * Schedule a job to start at a specific time with specific recurrence info
-     * 
+     *
      * @param poolName
      *            The name of the pool to run the service from
      *@param serviceName
@@ -432,7 +431,7 @@ public final class JobManager {
 
     /**
      * Schedule a job to start at a specific time with specific recurrence info
-     * 
+     *
      * @param poolName
      *            The name of the pool to run the service from
      *@param serviceName
@@ -448,7 +447,7 @@ public final class JobManager {
 
     /**
      * Schedule a job to start at a specific time with specific recurrence info
-     * 
+     *
      * @param jobName
      *            The name of the job
      *@param poolName
@@ -492,7 +491,7 @@ public final class JobManager {
 
     /**
      * Schedule a job to start at a specific time with specific recurrence info
-     * 
+     *
      * @param jobName
      *            The name of the job
      *@param poolName

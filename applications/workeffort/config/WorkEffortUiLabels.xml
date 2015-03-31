@@ -2013,7 +2013,7 @@
     <property key="WorkEffortApplicationEventsTasksWorkflowActivities">
         <value xml:lang="en">This application is meant for those who maintain and use calendar events tasks and workflow activities</value>
         <value xml:lang="es">Esta aplicación está destinada para las personas que administran los eventos, las tareas y los flujos de trabajo</value>
-        <value xml:lang="fa">این نرم‌افزار برای کسانی‌ست که تکلیف‌های رویدادهای تقویم و فعالیت‌های «گردش‌کار» را نگهداری می‌کنند</value>
+        <value xml:lang="fa">این نرم‌افزار برای کسانی‌ست که تکلیف‌های رویدادهای تقویم و فعالیت‌های «گردش‌کار» را نگهداری و استفاده می‌کنند</value>
         <value xml:lang="fr">Cette application est destinées aux personnes qui gèrent et utilisent les événements des tâches du calendrier, et le déroulement d'opérations</value>
         <value xml:lang="it">Questa applicazione è dedicata per quelli che gestiscono e usano compiti eventi di calendario e attività flussi di lavoro</value>
         <value xml:lang="ja">この業務はカレンダイベントタスクおよびワークフローの活動を使う人向けです</value>
@@ -2097,7 +2097,7 @@
     </property>
     <property key="WorkEffortBanner4">
         <value xml:lang="en">OR add new Communication Event data below to create new entity (leave Communication Event Id empty)</value>
-        <value xml:lang="fa">یا اضافه‌کردن داده رویداد ارتباط جدید در زیر برای ساختن نهاد جدید (آی‌دی رویداد  ارتباط را خالی بگذارید)</value>
+        <value xml:lang="fa">یا اضافه‌کردن داده رویداد ارتباط جدید در زیر برای ساختن نهاد جدید (آی‌دی رویداد  ارتباط را خالی رهاکنید)</value>
         <value xml:lang="fr">OU Ajouter une nouvelle donnée d'événement de communication ci-dessous pour créer la nouvelle entité (Laisser la réf. d'évènement de communication vide)</value>
         <value xml:lang="it">O aggiungi un nuovo evento comunicazione qui sotto per creare una nuova entità (lasciare vuoto)</value>
         <value xml:lang="ja">または新規エンティティを作成するために、次の新規通信イベントデータを追加してください(通信イベントIDは入力しないでください)</value>
@@ -2123,7 +2123,7 @@
     </property>
     <property key="WorkEffortBanner6">
         <value xml:lang="en">OR add new Requirement data below to create new entity (leave Requirement Id empty)</value>
-        <value xml:lang="fa">یا اضافه‌کردن داده ملزوم جدید در زیر برای نهاد جدید (آی‌دی ملزوم را خالی بگذارید)</value>
+        <value xml:lang="fa">یا اضافه‌کردن داده ملزوم جدید در زیر برای نهاد جدید (آی‌دی ملزوم را خالی رهاکنید)</value>
         <value xml:lang="fr">OU ajouter une nouvelle donnée de besoin ci-dessous pour créer la nouvelle entité (laisser la réf. de besoin vide)</value>
         <value xml:lang="it">O aggiungi un nuovo fabbisogno qui sotto per creare una nuova entità (lasciare vuoto)</value>
         <value xml:lang="ja">または新規エンティティを作成するために、次の新規要求データを追加してください(要求IDは入力しないでください)</value>
@@ -2391,7 +2391,7 @@
     </property>
     <property key="WorkEffortCannotDeleteContactInfo">
         <value xml:lang="en">ERROR: Cannot delete specified contact info because it does not correspond to the specified work effort</value>
-        <value xml:lang="fa">خطا: نمی‌توان اطلاعات تماس مشخص‌شده را پاک‌کرد زیرا با برنامه کار مشخص‌شده متناظر نیست</value>
+        <value xml:lang="fa">خطا: نمی‌توان اطلاعات تماس مشخص‌شده را پاک‌کرد زیرا با برنامه کار مشخص‌شده متناظرنیست</value>
         <value xml:lang="it">ERRORE: Non è possibile cancellare il contatto perchè non corrisponde all'impegno di lavoro specificato</value>
         <value xml:lang="ja">エラー: 指定した作業成果に対応しないため、指定した連絡情報を削除できません</value>
         <value xml:lang="vi">Lỗi xảy ra: Không thể xóa Liên hệ này vì không liên quan đến Lượng giá nguồn lực hiện tại</value>
@@ -2466,7 +2466,7 @@
         <value xml:lang="ar">جزء من عائلة أوفبيز للتطبيقات الحرة للتسيير</value>
         <value xml:lang="de">Teil der Open For Business Familie von Open Source Software</value>
         <value xml:lang="en">Part of the Open For Business Family of Open Source Software</value>
-        <value xml:lang="fa">بخشی از خانواده آزاد برای تجارت از نرم‌افزارهای متن باز</value>
+        <value xml:lang="fa">بخشی از خانواده آزاد برای کسب‌وکار از نرم‌افزارهای متن باز</value>
         <!--value xml:lang="es">Parte de la familia "Open for Bussiness" de Software Libre</value-->
         <value xml:lang="es">Parte de la familia de software Open For Business de código abierto</value>
         <value xml:lang="fr">Un module de la famille Open For Business, logiciel libre de gestion d'entreprise.</value>
@@ -4096,7 +4096,7 @@
     </property>
     <property key="WorkEffortPartyAssignmentError">
         <value xml:lang="en">Party ${parameters.partyId} with role ${parameters.roleTypeId} is already assigned to work effort Id ${parameters.workEffortId}, not adding again</value>
-        <value xml:lang="fa">هویت ${parameters.partyId} با وظیفه ${parameters.workEffortId} ${parameters.roleTypeId} ازقبل نسبت‌داده‌شده‌است برای آی‌دی برنامه کار ${parameters.workEffortId}، دوباره اضافه‌نمی‌شود</value>
+        <value xml:lang="fa">هویت ${parameters.partyId} با وظیفه ${parameters.workEffortId} ${parameters.roleTypeId} ازقبل منتسب‌شده به آی‌دی برنامه کار ${parameters.workEffortId}، دوباره اضافه‌نمی‌شود</value>
         <value xml:lang="fr">L'acteur ${parameters.partyId} avec le rôle ${parameters.roleTypeId} est déjà affecté à la tâche de réf. ${parameters.workEffortId}</value>
         <value xml:lang="it">Soggetto ${parameters.partyId} con il ruolo ${parameters.roleTypeId} è già stato assegnato all'impegno di lavoro ${parameters.workEffortId}, non aggiungerlo nuovamente</value>
         <value xml:lang="ja">${parameters.roleTypeId} ロールの取引先 ${parameters.partyId} は、すでに作業成果ID ${parameters.workEffortId} に割当られています、追加できません</value>
@@ -4770,7 +4770,7 @@
         <value xml:lang="de">Benötigt von</value>
         <value xml:lang="en">Required By</value>
         <value xml:lang="es">Pedido por</value>
-        <value xml:lang="fa">لازم‌‌شده بوسیله</value>
+        <value xml:lang="fa">الزامی بوسیله</value>
         <value xml:lang="fr">Demandés par</value>
         <value xml:lang="it">Richiesto da</value>
         <value xml:lang="ja">要求元:</value>
@@ -4785,7 +4785,7 @@
     <property key="WorkEffortRequiredByDate">
         <value xml:lang="en">Required By Date</value>
         <value xml:lang="es">Se necesita hasta fecha</value>
-        <value xml:lang="fa">لازم‌‌شده در تاریخ</value>
+        <value xml:lang="fa">الزامی در تاریخ</value>
         <value xml:lang="fr">Demandés par date</value>
         <value xml:lang="it">Richiesta entro</value>
         <value xml:lang="ja">要求された日</value>
@@ -4801,7 +4801,7 @@
         <value xml:lang="de">Datum benötigt</value>
         <value xml:lang="en">Required Date</value>
         <value xml:lang="es">Fecha para la cual se requiere el pedido</value>
-        <value xml:lang="fa">تاریخ لازم‌‌شده</value>
+        <value xml:lang="fa">تاریخ الزامی</value>
         <value xml:lang="fr">Date demandée</value>
         <value xml:lang="it">Data richiesta</value>
         <value xml:lang="ja">要求日</value>
@@ -4891,7 +4891,7 @@
     <property key="WorkEffortResponseRequiredBy">
         <value xml:lang="en">Response Required By</value>
         <value xml:lang="es">Respuesta requerida por</value>
-        <value xml:lang="fa">پاسخ لازم‌‌شده بوسیله</value>
+        <value xml:lang="fa">پاسخ الزامی بوسیله</value>
         <value xml:lang="fr">Réponse demandée par</value>
         <value xml:lang="it">Risposta richiesta entro</value>
         <value xml:lang="ja">回答、要求元:</value>
@@ -5393,7 +5393,7 @@
     </property>
     <property key="WorkEffortTimesheetNotInProcessStatus">
         <value xml:lang="en">Can only update Timesheet, when status is in-process...current status: ${statusItem.description}</value>
-        <value xml:lang="fa">فقط می‌توان «جدول‌زمان» را بروزکرد، زمانی که وضعیت «درحال انجام» باشد... وضعیت کنونی ${statusItem.description} است</value>
+        <value xml:lang="fa">فقط می‌توان «جدول‌زمان» را بروزکرد، زمانی که وضعیت «درحال-اجراء» باشد... وضعیت کنونی ${statusItem.description} است</value>
         <value xml:lang="it">La timbratura può essere aggiornata solo quanto lo stato è "in-corso"... stato corrente: ${statusItem.description}</value>
         <value xml:lang="ja">予定表の更新はステータスが処理中のみ可能です。現在のステータスは: ${statusItem.description}</value>
         <value xml:lang="vi">Không thể cập nhật Khai báo công việc, khi trạng thái là 'Đang thực hiện'... trạng thái hiện tại là :${statusItem.description}</value>

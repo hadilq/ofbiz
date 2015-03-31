@@ -781,7 +781,7 @@
     <property key="FixedAssetStdCostType.description.USAGE_COST">
         <value xml:lang="de">Nutzungskosten</value>
         <value xml:lang="en">Standard Usage Cost</value>
-        <value xml:lang="fa">هزینه استفاده استاندارد</value>
+        <value xml:lang="fa">هزینه کاربرد استاندارد</value>
         <value xml:lang="fr">Coût standard d'utilisation</value>
         <value xml:lang="hi_IN">मानक उपयोग की लागत</value>
         <value xml:lang="it">Costo Standard Uso</value>
@@ -1012,7 +1012,7 @@
     <property key="GlAccountClass.description.CASH_EQUIVALENT">
         <value xml:lang="de">Flüssige und gleichwertige Mittel</value>
         <value xml:lang="en">Cash and Equivalent</value>
-        <value xml:lang="fa">وجه‌نقد و هم‌ارز</value>
+        <value xml:lang="fa">صندوق و هم‌ارز</value>
         <value xml:lang="fr">Caisse et équivalent</value>
         <value xml:lang="hi_IN">नकद और समतुल्य</value>
         <value xml:lang="it">Cassa e Banca</value>
@@ -1904,7 +1904,6 @@
         <value xml:lang="zh">注销利息收入</value>
         <value xml:lang="zh_TW">登出利息收入</value>
     </property>
-        
     <property key="GlAccountType.description.INVENTORY_ACCOUNT">
         <value xml:lang="de">Lager</value>
         <value xml:lang="en">Inventory</value>
@@ -2820,7 +2819,7 @@
     <property key="InvoiceItemType.description.CRT_TE_ITEM">
         <value xml:lang="de">Retoure Zeiteintrag</value>
         <value xml:lang="en">Return Time-Entry Item</value>
-        <value xml:lang="fa">بازگشتن قلم ورود-زمان</value>
+        <value xml:lang="fa">بازگشتن قلم ورودی-زمان</value>
         <value xml:lang="fr">Retour de prestation horaire</value>
         <value xml:lang="hi_IN">रिटर्न समय-प्रवेश मद</value>
         <value xml:lang="it">Reso Riga Voce-Tempo</value>
@@ -3088,7 +3087,7 @@
     <property key="InvoiceItemType.description.INV_SHIPPING_CHARGES">
         <value xml:lang="de">Versandkosten</value>
         <value xml:lang="en">Invoice Shipping and Handling (Sales)</value>
-        <value xml:lang="fa">فاکتورکردن حمل‌‌کردن و اداره‌کردن</value>
+        <value xml:lang="fa">فاکتورکردن حمل‌‌کردن و اداره‌کردن (فروش)</value>
         <value xml:lang="fr">Frais d'expédition facturés (ventes)</value>
         <value xml:lang="hi_IN">चालान शिपिंग और हैंडलिंग</value>
         <value xml:lang="it">Fattura Spese di Spedizione e Imballaggio</value>
@@ -3136,7 +3135,7 @@
     <property key="InvoiceItemType.description.INV_TE_ITEM">
         <value xml:lang="de">Zeiteintrag</value>
         <value xml:lang="en">Invoice Time-Entry Item (Sales)</value>
-        <value xml:lang="fa">فاکتورکردن قلم ورودی-زمان</value>
+        <value xml:lang="fa">فاکتورکردن قلم ورودی-زمان (فروش)</value>
         <value xml:lang="fr">Facturation de prestation horaire (ventes)</value>
         <value xml:lang="hi_IN">चालान समय-प्रवेश मद</value>
         <value xml:lang="it">Fattura Riga Voce-Tempo</value>
@@ -3592,7 +3591,7 @@
     <property key="InvoiceItemType.description.PAYROL_PAYPER_OVRPAY">
         <value xml:lang="de">Überstundenzuschlag</value>
         <value xml:lang="en">Pay Period adj(over pay)</value>
-        <value xml:lang="fa">تعدیل دوره پرداخت(بیش پرداخت)</value>
+        <value xml:lang="fa">پرداختن تعدیل دوره(بیش پرداختن)</value>
         <value xml:lang="hi_IN">भुगतान अवधि समायोजन(वेतन पर)</value>
         <value xml:lang="it">Pagamento periodo avanzato</value>
         <value xml:lang="ja">支払期間調整(過支払)</value>
@@ -4606,7 +4605,7 @@
     <property key="InvoiceType.description.SALES_INV_TEMPLATE">
         <value xml:lang="de">Vorlage Verkaufsrechnung</value>
         <value xml:lang="en">Sales Invoice Template</value>
-        <value xml:lang="fa">الگوی فاکتور خرید</value>
+        <value xml:lang="fa">الگوی فاکتور فروش</value>
         <value xml:lang="fr">Modèle de facture de vente</value>
         <value xml:lang="hi_IN">बिक्री चालान खाका</value>
         <value xml:lang="it">Template fattura di vendita</value>
@@ -4632,7 +4631,7 @@
     <property key="PaymentMethodType.description.CASH">
         <value xml:lang="de">Bargeld</value>
         <value xml:lang="en">Cash</value>
-        <value xml:lang="fa">وجه‌نقد</value>
+        <value xml:lang="fa">صندوق</value>
         <value xml:lang="fr">Espèces</value>
         <value xml:lang="hi_IN">नकद</value>
         <value xml:lang="it">Contanti</value>

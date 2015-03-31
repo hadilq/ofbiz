@@ -28,6 +28,7 @@ import javax.servlet.http.HttpServletRequest;
 import javolution.util.FastList;
 import javolution.util.FastMap;
 
+import org.ofbiz.base.util.Calendar;
 import org.ofbiz.base.util.Debug;
 import org.ofbiz.base.util.UtilHttp;
 import org.ofbiz.base.util.UtilMisc;
@@ -38,8 +39,6 @@ import org.ofbiz.entity.DelegatorFactory;
 import org.ofbiz.entity.GenericEntityException;
 import org.ofbiz.entity.GenericValue;
 import org.ofbiz.entity.model.ModelEntity;
-
-import com.ibm.icu.util.Calendar;
 
 /**
  * <p>Counts server hits and tracks statistics for request, events and views
@@ -101,7 +100,7 @@ public class ServerHitBin {
             }
         }
     }
-    
+
     private static String makeIdTenantAware(String id, Delegator delegator) {
         if (UtilValidate.isNotEmpty(delegator.getDelegatorTenantId())) {
             return id + "#" + delegator.getDelegatorTenantId();
@@ -119,7 +118,7 @@ public class ServerHitBin {
         if (delegator == null) {
             throw new IllegalArgumentException("In countHit could not find a delegator or delegatorName to work from");
         }
-        
+
         String id = makeIdTenantAware(baseId, delegator);
 
         ServerHitBin bin = null;
@@ -633,9 +632,9 @@ public class ServerHitBin {
                 Debug.logInfo("The Visit GenericValue stored in the client session does not exist in the database, not storing server hit.", module);
                 return;
             }
-            
+
             Debug.logInfo("Visit delegatorName=" + visit.getDelegator().getDelegatorName() + ", ServerHitBin delegatorName=" + this.delegator.getDelegatorName(), module);
-            
+
             /* this isn't needed, the problem was better solved elsewhere, and without adding another query; leaving it here because it might be useful for something in the future
              * else {
                 try {
@@ -651,8 +650,8 @@ public class ServerHitBin {
                 } catch (GenericEntityException e) {
                     // this is an error on the retry and not part of the main flow, so log it and let it go
                     Debug.logWarning(e, "Error retrying ServerHit: " + e.toString(), module);
-                }                
-                
+                }
+
             }
             */
 

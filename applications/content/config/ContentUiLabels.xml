@@ -374,7 +374,7 @@
     <property key="ContentBlogPublish">
         <value xml:lang="da">Publicer</value>
         <value xml:lang="en">Publish</value>
-        <value xml:lang="fa">منتشرکردن</value>
+        <value xml:lang="fa">انتشار</value>
         <value xml:lang="fr">Publier</value>
         <value xml:lang="it">Pubblica</value>
         <value xml:lang="ja">公開</value>
@@ -523,7 +523,7 @@
     </property>
     <property key="ContentCannotFindContextFileWithEmptyContextRoot">
         <value xml:lang="en">Cannot find CONTEXT_FILE with an empty context root!</value>
-        <value xml:lang="fa">نمی‌توان CONTEXT_FILE با ریشه خالی پیدا کرد!</value>
+        <value xml:lang="fa">نمی‌توان CONTEXT_FILE با ریشه زمینه خالی را پیداکرد!</value>
         <value xml:lang="fr">Impossible de trouver CONTEXT_FILE avec un contexte racine vide !</value>
         <value xml:lang="it">Non è possibile trovare il CONTEXT_FILE con un contesto principale vuoto!</value>
         <value xml:lang="ja">コンテキストルートが空のCONTEXT_FILEが見つかりません!</value>
@@ -543,7 +543,7 @@
     </property>
     <property key="ContentCannotProcessBothCharacterAndBinaryFile">
         <value xml:lang="en">Cannot process both character and binary data in the same file</value>
-        <value xml:lang="fa">نمیتوان هم واژ و هم باینری را در یک فایل پردازش کرد</value>
+        <value xml:lang="fa">نمیتوان هم داده واژ و هم داده باینری را در یک فایل پردازش کرد</value>
         <value xml:lang="fr">Impossible de procéder avec la présence de données binaires et textuelles dans le même fichier</value>
         <value xml:lang="it">Non è possibile processare i dati di entrambi i file binari e carattere</value>
         <value xml:lang="ja">同じファイルでテキストとバイナリは一緒に処理できません</value>
@@ -557,7 +557,7 @@
         <value xml:lang="de">Kategorie</value>
         <value xml:lang="en">Category</value>
         <value xml:lang="es">Categoría</value>
-        <value xml:lang="fa">رده‌بندی</value>
+        <value xml:lang="fa">دسته‌بندی</value>
         <value xml:lang="fr">Catégorie</value>
         <value xml:lang="it">Categoria</value>
         <value xml:lang="ja">カテゴリ</value>
@@ -575,7 +575,7 @@
         <value xml:lang="de">Zeichensatz</value>
         <value xml:lang="en">Character Set</value>
         <value xml:lang="es">Set de caracteres</value>
-        <value xml:lang="fa">مجموعه کاراکتر</value>
+        <value xml:lang="fa">مجموعه واژ</value>
         <value xml:lang="fr">Jeu de caractères</value>
         <value xml:lang="it">Set di Caratteri</value>
         <value xml:lang="ja">キャラクタセット</value>
@@ -751,7 +751,7 @@
     <property key="ContentCompDocCurrentInstance">
         <value xml:lang="da">Sammensat dokument nuværende instans</value>
         <value xml:lang="en">Comp Doc Current Instance</value>
-        <value xml:lang="fa">سند مرکب نمونه جاری</value>
+        <value xml:lang="fa">نمونه کنونی «سند مرکب»</value>
         <value xml:lang="fr">Instance courante de document composite</value>
         <value xml:lang="it">Istanza attuale</value>
         <value xml:lang="ja">複合文書の現在のインスタンス</value>
@@ -763,7 +763,7 @@
     <property key="ContentCompDocCurrentTemplate">
         <value xml:lang="da">Nuværende skabelon sammensat dokument</value>
         <value xml:lang="en">Current Template CompDoc</value>
-        <value xml:lang="fa">سند مرکب الگو جاری</value>
+        <value xml:lang="fa">«سند مرکب» الگوی کنونی</value>
         <value xml:lang="fr">Modèle courant de document composite</value>
         <value xml:lang="it">Template attuale</value>
         <value xml:lang="ja">現在のテンプレート複合文書</value>
@@ -799,7 +799,7 @@
     <property key="ContentCompDocGoBack">
         <value xml:lang="da">Gå tilbage til roden af sammensat dokument</value>
         <value xml:lang="en">Go Back to CompDoc Root</value>
-        <value xml:lang="fa">بازگشت به ریشه سند مرکب</value>
+        <value xml:lang="fa">بازگشت به ریشه «سند مرکب»</value>
         <value xml:lang="fr">Retourner à la racine du document composite</value>
         <value xml:lang="it">Torna indietro alla composizione documenti</value>
         <value xml:lang="ja">複合文書ルートに戻る</value>
@@ -890,7 +890,7 @@
     <property key="ContentCompDocStartApprovalProcess">
         <value xml:lang="da">Start godkendelsesprocess</value>
         <value xml:lang="en">Start Approval Proces</value>
-        <value xml:lang="fa">شروع پردازش مصوبه</value>
+        <value xml:lang="fa">شروع‌کردن پردازش تصویب</value>
         <value xml:lang="fr">Démarrer le processus d'approbation</value>
         <value xml:lang="it">Inizio processo approvazione</value>
         <value xml:lang="ja">承認プロセスを開始</value>
@@ -988,7 +988,7 @@
         <value xml:lang="de">Teil der Open For Business Familie von Open Source Software</value>
         <value xml:lang="en">Part of the Open For Business Family of Open Source Software</value>
         <value xml:lang="es">Parte de la familia de software Open For Business de código abierto</value>
-        <value xml:lang="fa">بخشی از خانواده آزاد برای تجارت از نرم‌افزارهای متن باز</value>
+        <value xml:lang="fa">بخشی از خانواده آزاد برای کسب‌وکار از نرم‌افزارهای متن باز</value>
         <value xml:lang="fr">Un module de la famille Open For Business, logiciel libre de gestion d'entreprise.</value>
         <value xml:lang="it">Un modulo della famiglia di software open source Open For Business</value>
         <value xml:lang="ja">Part of the Open For Business Family of Open Source Software</value>
@@ -1190,7 +1190,7 @@
     </property>
     <property key="ContentCreateDateInvalidFormat">
         <value xml:lang="en">Created Date is not a valid Timestamp input format.</value>
-        <value xml:lang="fa">تاریخ ساخته شده Timestamp با فرمت ورودی مورد تایید نیست.</value>
+        <value xml:lang="fa">تاریخ ساخته شده فرمت ورودی Timestamp معتبر نیست.</value>
         <value xml:lang="fr">La date de création n'est pas dans un format valide.</value>
         <value xml:lang="it">Data creazione non è nel formato valido.</value>
         <value xml:lang="ja">作成日の書式が正しくありません。</value>
@@ -1266,7 +1266,7 @@
     <property key="ContentDataBaseText">
         <value xml:lang="da">Database tekst</value>
         <value xml:lang="en">DataBase Text</value>
-        <value xml:lang="fa">متن بانک اطلاعات</value>
+        <value xml:lang="fa">متن بانک‌داده</value>
         <value xml:lang="fr">Texte de base de données</value>
         <value xml:lang="it">Testo database</value>
         <value xml:lang="ja">データベーステキスト</value>
@@ -1492,7 +1492,7 @@
     <property key="ContentDeleteFolder">
         <value xml:lang="da">Slet folder</value>
         <value xml:lang="en">Delete Folder</value>
-        <value xml:lang="fa">حذف پوشه</value>
+        <value xml:lang="fa">پاک‌کردن پوشه</value>
         <value xml:lang="fr">Suppression de répertoire</value>
         <value xml:lang="it">Cancella cartella</value>
         <value xml:lang="ja">フォルダを削除</value>
@@ -1548,7 +1548,7 @@
     <property key="ContentEditingLatestRevision">
         <value xml:lang="da">Redigérer seneste revision</value>
         <value xml:lang="en">Editing Latest Revision</value>
-        <value xml:lang="fa">ویرایش آخرین بازبینی</value>
+        <value xml:lang="fa">ویرایش آخرین تجدیدنظر</value>
         <value xml:lang="fr">Modification de la dernière version</value>
         <value xml:lang="it">Aggiorna ultima revisione</value>
         <value xml:lang="ja">修正中最新リビジョン</value>
@@ -1591,7 +1591,7 @@
         <value xml:lang="de">Dateierweiterung</value>
         <value xml:lang="en">File Ext</value>
         <value xml:lang="es">Extesión de Archivo</value>
-        <value xml:lang="fa">فایل خارجی</value>
+        <value xml:lang="fa">فایل مستقل</value>
         <value xml:lang="fr">Extension de fichier</value>
         <value xml:lang="it">Estensione File</value>
         <value xml:lang="ja">ファイル拡張子</value>
@@ -1649,7 +1649,7 @@
         <value xml:lang="de">Forum</value>
         <value xml:lang="en">Forum</value>
         <value xml:lang="es">Foro</value>
-        <value xml:lang="fa">فروم</value>
+        <value xml:lang="fa">انجمن</value>
         <value xml:lang="fr">Forum</value>
         <value xml:lang="it">Forum</value>
         <value xml:lang="ja">フォーラム</value>
@@ -1711,7 +1711,7 @@
         <value xml:lang="da">Tilføj ny tråd til dette forum</value>
         <value xml:lang="de">Ein neues Thema zu diesem Forum hinzufügen</value>
         <value xml:lang="en">Add new thread to this Forum</value>
-        <value xml:lang="fa">اضافه‌کردن موضوع جدید به فروم</value>
+        <value xml:lang="fa">اضافه‌کردن موضوع جدید به انجمن</value>
         <value xml:lang="fr">Ajouter un nouveau fil de discussion à ce forum</value>
         <value xml:lang="it">Aggiungi nuova discussione a questo forum</value>
         <value xml:lang="ja">このフォーラムに新規スレッドを追加</value>
@@ -1727,7 +1727,7 @@
         <value xml:lang="da">Tilføj forum til</value>
         <value xml:lang="de">Forum hinzufügen zu</value>
         <value xml:lang="en">Add forum to</value>
-        <value xml:lang="fa">اضافه‌کردن فروم به</value>
+        <value xml:lang="fa">اضافه‌کردن انجمن به</value>
         <value xml:lang="fr">Ajouter le forum à</value>
         <value xml:lang="it">Aggiungi al forum</value>
         <value xml:lang="ja">フォーラムを追加</value>
@@ -1755,7 +1755,7 @@
         <value xml:lang="da">Opret ny forumgruppe</value>
         <value xml:lang="de">Neue Forumsgruppe erstellen</value>
         <value xml:lang="en">Create new forum group</value>
-        <value xml:lang="fa">ساختن گروه فروم جدید</value>
+        <value xml:lang="fa">ساختن گروه انجمن جدید</value>
         <value xml:lang="fr">Créer un nouveau groupe de forum</value>
         <value xml:lang="it">Creare nuovo gruppo forum</value>
         <value xml:lang="ja">新規フォーラムグループを作成</value>
@@ -1812,7 +1812,7 @@
     <property key="ContentForums">
         <value xml:lang="da">Forummer</value>
         <value xml:lang="en">Forums</value>
-        <value xml:lang="fa">فروم‌ها</value>
+        <value xml:lang="fa">انجمن‌ها</value>
         <value xml:lang="fr">Forums</value>
         <value xml:lang="it">Forums</value>
         <value xml:lang="ja">フォーラム</value>
@@ -2031,7 +2031,7 @@
         <value xml:lang="de">Beliebiges Wort muss übereinstimmen</value>
         <value xml:lang="en">any word matches</value>
         <value xml:lang="es">cualquier palabra coincide</value>
-        <value xml:lang="fa">هر کلمه مطابقت می‌کند</value>
+        <value xml:lang="fa">هر واژه‌ای که همتاشود</value>
         <value xml:lang="fr">Au moins un des mots égal</value>
         <value xml:lang="it">qualsiasi parola uguale</value>
         <value xml:lang="ja">いずれかの語が一致</value>
@@ -2099,7 +2099,7 @@
     </property>
     <property key="ContentLastModifiedDateInvalidFormat">
         <value xml:lang="en">Last Modified Date is not a valid Timestamp input format.</value>
-        <value xml:lang="fa">آخرین تاریخی که تغییر کرده دارای فرمت Timestamp معتبر نیست.</value>
+        <value xml:lang="fa">آخرین تاریخ اصلاح‌شده دارای فرمت ورودی Timestamp معتبر نیست.</value>
         <value xml:lang="fr">La date de dernière modification n'est pas dans un format valide.</value>
         <value xml:lang="it">Data modifica non è nel formato valido.</value>
         <value xml:lang="ja">最終更新日の書式が正しくありません。</value>
@@ -2148,7 +2148,7 @@
         <value xml:lang="da">Vis egne oprettede skabeloner</value>
         <value xml:lang="de">Liste der selber erstellten Vorlagen</value>
         <value xml:lang="en">List own created Templates</value>
-        <value xml:lang="fa">لیست‌کردن الگوها ساخته شده شخصی</value>
+        <value xml:lang="fa">لیست‌کردن الگوها ساخته‌شده شخصی</value>
         <value xml:lang="fr">Voir vos propres modèles</value>
         <value xml:lang="it">Lista templates personali creati</value>
         <value xml:lang="ja">自分で作成したテンプレート一覧</value>
@@ -2159,7 +2159,7 @@
     </property>
     <property key="ContentLocalFileDoesNotPointToAbsoluteLocation">
         <value xml:lang="en">DataResource LOCAL_FILE does not point to an absolute location</value>
-        <value xml:lang="fa">منبع داده LOCAL_FILE به مکان مشخصی اشاره نمی‌کند</value>
+        <value xml:lang="fa">منبع داده LOCAL_FILE به مکان مطلقی اشاره نمی‌کند</value>
         <value xml:lang="fr">La ressource LOCAL_FILE ne doit pas indiquer un emplacement absolu</value>
         <value xml:lang="it">La risorda dati LOCAL_FILE non punta ad una posizione assoluta</value>
         <value xml:lang="ja">データリソースLOCAL_FILEが絶対パスで指定されていません</value>
@@ -2289,7 +2289,7 @@
         <value xml:lang="da">Naviger</value>
         <value xml:lang="de">Navigieren</value>
         <value xml:lang="en">Navigate</value>
-        <value xml:lang="fa">هدایت‌کردن</value>
+        <value xml:lang="fa">پیمایش‌کردن</value>
         <value xml:lang="fr">Naviguer</value>
         <value xml:lang="it">Naviga</value>
         <value xml:lang="ja">ナビゲート</value>
@@ -2349,7 +2349,7 @@
     </property>
     <property key="ContentNoContentFound">
         <value xml:lang="en">Content record not found for ID ${contentId}</value>
-        <value xml:lang="fa">ردیف محتوا داده نشده است برای آی‌دی ${contentId}</value>
+        <value xml:lang="fa">سابقه محتوا پیدانشده برای آی‌دی ${contentId}</value>
         <value xml:lang="it">Contenuto non trovato ${contentId}</value>
         <value xml:lang="ja">ID ${contentId} のコンテンツレコードが見つかりません</value>
         <value xml:lang="pt">Registro de conteúdo não encontrado para o ID ${contentId}</value>
@@ -2376,7 +2376,7 @@
     </property>
     <property key="ContentNoUploadedContentFound">
         <value xml:lang="en">No uploaded content found in context</value>
-        <value xml:lang="fa">هیچ محتوای آپلودشده‌ای پیدانشد</value>
+        <value xml:lang="fa">هیچ محتوای آپلودشده‌ای در زمینه پیدانشده</value>
         <value xml:lang="it">Nessun contenuto caricato trovato</value>
         <value xml:lang="ja">コンテキストにアップロードされたコンテンツが見つかりません</value>
         <value xml:lang="pt">Nenhum conteúdo carregado encontrado no contexto</value>
@@ -2528,7 +2528,7 @@
     </property>
     <property key="ContentPermissionNotGranted">
         <value xml:lang="en">Permission not granted.</value>
-        <value xml:lang="fa">مجوز داده‌نشده‌است</value>
+        <value xml:lang="fa">اجازه داده‌نشده‌است</value>
         <value xml:lang="fr">Permission non accordée.</value>
         <value xml:lang="it">Permesso non abilitato.</value>
         <value xml:lang="ja">権限が付与されていません。</value>
@@ -2581,7 +2581,7 @@
     <property key="ContentPublishToContent">
         <value xml:lang="da">Udgiv til indhold</value>
         <value xml:lang="en">Publish-to content</value>
-        <value xml:lang="fa">منتشرکردن در محتوا</value>
+        <value xml:lang="fa">انتشار-در محتوا</value>
         <value xml:lang="fr">Contenu à publier</value>
         <value xml:lang="it">Pubblica sul contenuto</value>
         <value xml:lang="ja">公開先コンテンツ</value>
@@ -2608,7 +2608,7 @@
     </property>
     <property key="ContentQuestionTypeRequiredField">
         <value xml:lang="en">Question type ${questionType} requires ${requiredField} to be set</value>
-        <value xml:lang="fa">نوع سوال ${questionType}  به بخش ${requiredField} نیازدارد</value>
+        <value xml:lang="fa">نوع سوال ${questionType}  بخش ${requiredField} را لازم‌دارد برای ثبت‌شدن</value>
         <value xml:lang="fr">Le type de question ${questionType} requiert le champ ${requiredField} pour être défini</value>
         <value xml:lang="it">Tipo domanda ${questionType} richiede ${requiredField} di essere impostato</value>
         <value xml:lang="ja">質問種類 ${questionType} は ${requiredField} を設定する必要があります</value>
@@ -2633,7 +2633,7 @@
     <property key="ContentRejected">
         <value xml:lang="da">Afslået</value>
         <value xml:lang="en">Rejected</value>
-        <value xml:lang="fa">ردکرده</value>
+        <value xml:lang="fa">ردشده</value>
         <value xml:lang="fr">Rejeté</value>
         <value xml:lang="it">Rifiutato</value>
         <value xml:lang="ja">否認</value>
@@ -2668,7 +2668,7 @@
     </property>
     <property key="ContentRequiredField">
         <value xml:lang="en">Required field ${requiredField} is missing in simple method call ${resourceDescription}</value>
-        <value xml:lang="fa">بخش موردنیاز ${requiredField} در اجراء تابع ساده ${resourceDescription} فراموش شده است</value>
+        <value xml:lang="fa">بخش الزامی ${requiredField} در فراخوانی تابع ساده ${resourceDescription} فراموش شده‌است</value>
         <value xml:lang="fr">Le champ requis ${requiredField} est manquant dans l'appel d'une méthode simple : ${resourceDescription}</value>
         <value xml:lang="it">Campo ${requiredField} è richiesto ed è mancante nella chiamata a ${resourceDescription}</value>
         <value xml:lang="ja">シンプルメソッド呼び出し ${resourceDescription} で、必須項目 ${requiredField} が正しくありません</value>
@@ -2708,7 +2708,7 @@
         <value xml:lang="da">Ingen (træ, kategori, etc.)</value>
         <value xml:lang="de">Keine (Baum, Kategorie, etc.)</value>
         <value xml:lang="en">None (Tree, Category, etc)</value>
-        <value xml:lang="fa">هیچی (درخت، رده‌بندی و غیره)</value>
+        <value xml:lang="fa">هیچی (درخت، دسته‌بندی و غیره)</value>
         <value xml:lang="fr">Aucun (arborescence, catégorie, etc.)</value>
         <value xml:lang="it">Nessuno (Albero, Categoria, etc)</value>
         <value xml:lang="ja">なし (ツリー, カテゴリなど)</value>
@@ -2805,7 +2805,7 @@
     </property>
     <property key="ContentSecurityCreatePermission">
         <value xml:lang="en">Security Error: to run ${resourceDescription} you must have the CONTENTMGR_CREATE or CONTENTMGR_ADMIN permission</value>
-        <value xml:lang="fa">خطای امنیتی: برای اجراء ${resourceDescription} شما باید مجوزهای CONTENTMGR_CREATE یا CONTENTMGR_ADMIN را داشته باشید</value>
+        <value xml:lang="fa">خطای امنیتی: برای اجراء ${resourceDescription} شما باید اجازه CONTENTMGR_CREATE یا CONTENTMGR_ADMIN را‌داشته باشید</value>
         <value xml:lang="it">Errore di sicurezza: per eseguire ${resourceDescription} devi avere il permesso CONTENTMGR_CREATE o CONTENTMGR_ADMIN</value>
         <value xml:lang="ja">セキュリティエラー: ${resourceDescription} の実行には CONTENTMGR_CREATE または CONTENTMGR_ADMIN 権限が必要です</value>
         <value xml:lang="pt">Erro de segurança: para executar o ${resourceDescription} você deve ter a permissão de CONTENTMGR_CREATE ou CONTENTMGR_ADMIN</value>
@@ -2814,7 +2814,7 @@
     </property>
     <property key="ContentSecurityDeletePermission">
         <value xml:lang="en">Security Error: to run ${resourceDescription} you must have the CONTENTMGR_DELETE or CONTENTMGR_ADMIN permission</value>
-        <value xml:lang="fa">خطای امنیتی: برای اجزاء ${resourceDescription} شما باید مجوزهای CONTENTMGR_DELETE یا CONTENTMGR_ADMIN را داشته باشید</value>
+        <value xml:lang="fa">خطای امنیتی: برای اجزاء ${resourceDescription} شما باید اجازه CONTENTMGR_DELETE یا CONTENTMGR_ADMIN را داشته‌باشید</value>
         <value xml:lang="it">Errore di sicurezza: per eseguire ${resourceDescription} devi avere il permesso CONTENTMGR_DELETE o CONTENTMGR_ADMIN</value>
         <value xml:lang="ja">セキュリティエラー: ${resourceDescription} の実行には CONTENTMGR_DELETE または CONTENTMGR_ADMIN 権限が必要です</value>
         <value xml:lang="pt">Erro de segurança: para executar o ${resourceDescription} você deve ter a permissão de CONTENTMGR_DELETE ou CONTENTMGR_ADMIN</value>
@@ -2823,7 +2823,7 @@
     </property>
     <property key="ContentSecurityUpdatePermission">
         <value xml:lang="en">Security Error: to run ${resourceDescription} you must have the CONTENTMGR_UPDATE or CONTENTMGR_ADMIN permission</value>
-        <value xml:lang="fa">خطای امنیتی: برای اجزاء ${resourceDescription} شما باید مجوزهای CONTENTMGR_UPDATE or CONTENTMGR_ADMIN را داشته باشید</value>
+        <value xml:lang="fa">خطای امنیتی: برای اجزاء ${resourceDescription} شما باید اجازه CONTENTMGR_UPDATE or CONTENTMGR_ADMIN را داشته‌باشید</value>
         <value xml:lang="it">Errore di sicurezza: per eseguire ${resourceDescription} devi avere il permesso CONTENTMGR_UPDATE o CONTENTMGR_ADMIN</value>
         <value xml:lang="ja">セキュリティエラー: ${resourceDescription} の実行には CONTENTMGR_UPDATE または CONTENTMGR_ADMIN 権限が必要です</value>
         <value xml:lang="pt">Erro de segurança: para executar o ${resourceDescription} você deve ter a permissão de CONTENTMGR_UPDATE ou CONTENTMGR_ADMIN</value>
@@ -2833,7 +2833,7 @@
     <property key="ContentSoftRejected">
         <value xml:lang="da">Soft afvist</value>
         <value xml:lang="en">Soft Rejected</value>
-        <value xml:lang="fa">ردکردن نرم</value>
+        <value xml:lang="fa">ردشده نرم</value>
         <value xml:lang="fr">Rejeté publiquement(?)</value>
         <value xml:lang="it">Rifiutato leggermente</value>
         <value xml:lang="ja">謝絶</value>
@@ -2907,7 +2907,7 @@
         <value xml:lang="da">Kategori</value>
         <value xml:lang="de">Kategorie</value>
         <value xml:lang="en">Category</value>
-        <value xml:lang="fa">رده‌بندی</value>
+        <value xml:lang="fa">دسته‌بندی</value>
         <value xml:lang="fr">Catégorie</value>
         <value xml:lang="it">Categoria</value>
         <value xml:lang="ja">カテゴリ</value>
@@ -3005,7 +3005,7 @@
         <value xml:lang="da">Tiføj spørgsmål fra kategori</value>
         <value xml:lang="de">Frage(n) anwenden von Kategorie</value>
         <value xml:lang="en">Apply Question(s) From Category</value>
-        <value xml:lang="fa">استفاده از رده‌بندی برای سوال‌ها</value>
+        <value xml:lang="fa">اعمال سوال‌ها از دسته‌بندی</value>
         <value xml:lang="fr">Appliquer les questions à partir de la catégorie</value>
         <value xml:lang="it">Applica domanda(e) dalla categoria</value>
         <value xml:lang="ja">カテゴリから質問を引用</value>
@@ -3070,7 +3070,7 @@
         <value xml:lang="da">Opret spørgsmålskategori</value>
         <value xml:lang="de">Fragenkategorie erstellen</value>
         <value xml:lang="en">Create Question Category</value>
-        <value xml:lang="fa">ساختن رده‌بندی سوال</value>
+        <value xml:lang="fa">ساختن دسته‌بندی سوال</value>
         <value xml:lang="fr">Créer une catégorie de question</value>
         <value xml:lang="it">Creare categoria domanda</value>
         <value xml:lang="ja">質問カテゴリを作成</value>
@@ -3326,7 +3326,7 @@
     </property>
     <property key="ContentSurveyQuestionRequiresAResponse">
         <value xml:lang="en">The question ${surveyQuestionAndAppl.question} requires a response.</value>
-        <value xml:lang="fa">سوال ${surveyQuestionAndAppl.question} پاسخ نیاز دارد.</value>
+        <value xml:lang="fa">سوال ${surveyQuestionAndAppl.question} پاسخ لازم‌دارد.</value>
         <value xml:lang="fr">La question ${surveyQuestionAndAppl.question} nécessite une réponse.</value>
         <value xml:lang="it">La domanda ${surveyQuestionAndAppl.question} richiede una risposta.</value>
         <value xml:lang="ja">質問 ${surveyQuestionAndAppl.question} は必ず入力してください。</value>
@@ -3336,7 +3336,7 @@
     </property>
     <property key="ContentSurveyQuestionRequiresAValidCreditCardNumber">
         <value xml:lang="en">The question ${surveyQuestionAndAppl.question} requires a valid credit-card number.</value>
-        <value xml:lang="fa">سوال ${surveyQuestionAndAppl.question} به کارت اعتباری معتبر نیاز دارد.</value>
+        <value xml:lang="fa">سوال ${surveyQuestionAndAppl.question} شماره کارت اعتباری معتبر لازم‌دارد.</value>
         <value xml:lang="fr">La question ${surveyQuestionAndAppl.question} nécessite un numéro de carte de crédit valide.</value>
         <value xml:lang="it">La domanda ${surveyQuestionAndAppl.question} richiede una carta di credito valida.</value>
         <value xml:lang="ja">質問 ${surveyQuestionAndAppl.question} はクレジットカード番号を入力してください。</value>
@@ -3346,7 +3346,7 @@
     </property>
     <property key="ContentSurveyQuestionRequiresAValidCurrencyAmount">
         <value xml:lang="en">The question ${surveyQuestionAndAppl.question} requires a valid currency amount.</value>
-        <value xml:lang="fa"> سوال ${surveyQuestionAndAppl.question} به مقدار پول معتبر نیاز دارد.</value>
+        <value xml:lang="fa"> سوال ${surveyQuestionAndAppl.question} مقدار ارز معتبر لازم‌دارد.</value>
         <value xml:lang="fr">La question ${surveyQuestionAndAppl.question} nécessite un montant valide.</value>
         <value xml:lang="it">La domanda ${surveyQuestionAndAppl.question} richiede un'importo in valuta valido.</value>
         <value xml:lang="ja">質問 ${surveyQuestionAndAppl.question} は正しい金額を入力してください。</value>
@@ -3356,7 +3356,7 @@
     </property>
     <property key="ContentSurveyQuestionRequiresAValidDate">
         <value xml:lang="en">The question ${surveyQuestionAndAppl.question} requires a valid date string (mm/dd/yyyy).</value>
-        <value xml:lang="fa">سوال ${surveyQuestionAndAppl.question} به تاریخ معتبر نیاز دارد (mm/dd/yyyy).</value>
+        <value xml:lang="fa">سوال ${surveyQuestionAndAppl.question} تاریخ معتبر لازم‌دارد (mm/dd/yyyy).</value>
         <value xml:lang="fr">La question ${surveyQuestionAndAppl.question} nécessite une date valide (mm/jj/aaaa).</value>
         <value xml:lang="it">La domanda ${surveyQuestionAndAppl.question} richiede una data valida (mm/gg/aaaa).</value>
         <value xml:lang="ja">質問 ${surveyQuestionAndAppl.question} は正しい書式(mm/dd/yyyy)で日付を入力してください。</value>
@@ -3366,7 +3366,7 @@
     </property>
     <property key="ContentSurveyQuestionRequiresAValidDecimalNumber">
         <value xml:lang="en">The question ${surveyQuestionAndAppl.question} requires a valid decimal number.</value>
-        <value xml:lang="fa">سوال ${surveyQuestionAndAppl.question} عدد اعشاری معتبر نیاز دارد.</value>
+        <value xml:lang="fa">سوال ${surveyQuestionAndAppl.question} عدد اعشاری معتبر لازم‌دارد.</value>
         <value xml:lang="fr">La question ${surveyQuestionAndAppl.question} nécessite un nombre décimal.</value>
         <value xml:lang="it">La domanda ${surveyQuestionAndAppl.question} richiede un numero con decimali valido.</value>
         <value xml:lang="ja">質問 ${surveyQuestionAndAppl.question} を正しく小数で入力してください。</value>
@@ -3376,7 +3376,7 @@
     </property>
     <property key="ContentSurveyQuestionRequiresAValidEmailAddress">
         <value xml:lang="en">The question ${surveyQuestionAndAppl.question} requires a valid email address.</value>
-        <value xml:lang="fa">سوال ${surveyQuestionAndAppl.question} به آدرس ایمیل معتبر نیاز دارد.</value>
+        <value xml:lang="fa">سوال ${surveyQuestionAndAppl.question} آدرس ایمیل معتبر لازم‌دارد.</value>
         <value xml:lang="fr">La question ${surveyQuestionAndAppl.question} nécessite une adresse courriel valide.</value>
         <value xml:lang="it">La domanda ${surveyQuestionAndAppl.question} richiede un'indirizzo e-mail valido.</value>
         <value xml:lang="ja">質問 ${surveyQuestionAndAppl.question} は正しいEメールアドレスを入力してください。</value>
@@ -3406,7 +3406,7 @@
     </property>
     <property key="ContentSurveyQuestionRequiresAValidWholeNumber">
         <value xml:lang="en">The question ${surveyQuestionAndAppl.question} requires a valid whole number.</value>
-        <value xml:lang="fa">سوال ${surveyQuestionAndAppl.question} به یک عدد نیاز دارد.</value>
+        <value xml:lang="fa">سوال ${surveyQuestionAndAppl.question} یک شماره کلی معتبر لازم‌دارد.</value>
         <value xml:lang="fr">La question ${surveyQuestionAndAppl.question} nécessite un nombre entier.</value>
         <value xml:lang="it">La domanda ${surveyQuestionAndAppl.question} richiede un numero intero valido.</value>
         <value xml:lang="ja">質問 ${surveyQuestionAndAppl.question} を正しく整数で入力してください。</value>
@@ -3778,7 +3778,7 @@
         <value xml:lang="da">Du har ikke tilladelse til at se denne side. ("CONTENTMGR_UPDATE" eller "CONTENTMGR_ADMIN" krævet)</value>
         <value xml:lang="de">Sie haben keine Berechtigung diese Seite anzusehen ("CONTENTMGR_UPDATE" oder "CONTENTMGR_ADMIN" benötigt).</value>
         <value xml:lang="en">You do not have permission to view this page. ("CONTENTMGR_UPDATE" or "CONTENTMGR_ADMIN" needed)</value>
-        <value xml:lang="fa">شما مجوز لازم برای دیدن این صفحه را ندارید؛ ("CONTENTMGR_UPDATE" یا "CONTENTMGR_ADMIN" مورد نیاز است)</value>
+        <value xml:lang="fa">شما اجازه لازم برای دیدن این صفحه را ندارید؛ ("CONTENTMGR_UPDATE" یا "CONTENTMGR_ADMIN" مورد نیازاست)</value>
         <value xml:lang="fr">Vous n'avez pas l'autorisation de regarder cette page. ("CONTENTMGR_UPDATE" ou "CONTENTMGR_ADMIN" nécessaire)</value>
         <value xml:lang="it">Tu non hai il permesso di visualizzare questa pagina. (Necessario "CONTENTMGR_UPDATE" o "CONTENTMGR_ADMIN")</value>
         <value xml:lang="ja">このページを表示する権限がありません。"CONTENTMGR_UPDATE" または "CONTENTMGR_ADMIN" 権限が必要です。</value>
@@ -3790,7 +3790,7 @@
     </property>
     <property key="ContentUploadFileTypeNotMatch">
         <value xml:lang="en">Upload file type not match your selected.</value>
-        <value xml:lang="fa">نوع فایل آپلودشده با انتخاب شما مطابقت ندارد.</value>
+        <value xml:lang="fa">نوع فایل آپلودشده با انتخاب شما همتانیست.</value>
         <value xml:lang="fr">Le type de fichier chargé ne correspond pas avec votre selection.</value>
         <value xml:lang="it">Tipo file da caricare non corrisponde alla tua selezione.</value>
         <value xml:lang="ja">選択したアップロードファイルの種類が一致しません。</value>
@@ -3831,7 +3831,7 @@
         <value xml:lang="da">Du har ikke tilladelse til at se denne side.("CONTENTMGR_VIEW" eller "CONTENTMGR_ADMIN" krævet)</value>
         <value xml:lang="de">Sie haben keine Berechtigung diese Seite anzusehen ("CONTENTMGR_VIEW" oder "CONTENTMGR_ADMIN" benötigt).</value>
         <value xml:lang="en">You do not have permission to view this page. ("CONTENTMGR_VIEW" or "CONTENTMGR_ADMIN" needed)</value>
-        <value xml:lang="fa">شما مجوز لازم برای دیدن این صفحه را ندارید؛ ("CONTENTMGR_VIEW" یا "CONTENTMGR_ADMIN" مورد نیاز است)</value>
+        <value xml:lang="fa">شما اجازه لازم برای دیدن این صفحه را ندارید؛ ("CONTENTMGR_VIEW" یا "CONTENTMGR_ADMIN" مورد نیازاست)</value>
         <value xml:lang="fr">Vous n'avez pas l'autorisation de regarder cette page. ("CONTENTMGR_VIEW" or "CONTENTMGR_ADMIN" nécessaire)</value>
         <value xml:lang="it">Tu non sei autorizzato a vedere questa pagina. ("CONTENTMGR_VIEW" o "CONTENTMGR_ADMIN" necessari)</value>
         <value xml:lang="ja">このページを表示する権限がありません。"CONTENTMGR_VIEW" または "CONTENTMGR_ADMIN" 権限が必要です。</value>
@@ -3980,7 +3980,7 @@
     </property>
     <property key="ContentWebSiteGenerateMissingSeoUrl">
         <value xml:lang="en">Generate missing seo url's</value>
-        <value xml:lang="fa">ساختن seo url's گم‌شده</value>
+        <value xml:lang="fa">ساختن seo url's فراموش‌شده‌است</value>
         <value xml:lang="ja">SEO URLの生成に失敗しました</value>
         <value xml:lang="pt">Gerar urls necessárias para SEO</value>
         <value xml:lang="vi">Sinh các liên kết URL phục vụ SEO bị thiếu</value>
@@ -4079,7 +4079,7 @@
         <value xml:lang="da">Basisbeløb enheds id</value>
         <value xml:lang="de">Basisbetrag Einheit ID</value>
         <value xml:lang="en">Amount Base Uom Id</value>
-        <value xml:lang="fa">آی‌دی مقدار واحد پایه ارز</value>
+        <value xml:lang="fa">آی‌دی واحدسنجش پایه ارز</value>
         <value xml:lang="fr">Unité de mesure de qantité de base</value>
         <value xml:lang="it">Udm Importo Base</value>
         <value xml:lang="ja">金額ベース単位ID</value>
@@ -4185,7 +4185,7 @@
         <value xml:lang="da">Mapnings nøgle</value>
         <value xml:lang="de">Zugriffsschlüssel</value>
         <value xml:lang="en">Map Key</value>
-        <value xml:lang="fa">کلید نقشه</value>
+        <value xml:lang="fa">کلید نگاشت</value>
         <value xml:lang="fr">Clef d'association</value>
         <value xml:lang="it">Chiave Mappa</value>
         <value xml:lang="ja">マップキー</value>
@@ -4499,7 +4499,7 @@
         <value xml:lang="da">Indholdsrevision sekv. Id</value>
         <value xml:lang="de">Inhalt Version Seq. ID</value>
         <value xml:lang="en">Content Revision Seq Id</value>
-        <value xml:lang="fa">آی‌دی ترتیب بازنگری محتوا</value>
+        <value xml:lang="fa">آی‌دی ترتیبی تجدیدنظر محتوا</value>
         <value xml:lang="fr">Séq. de révision de contenu</value>
         <value xml:lang="it">Numero Sequenza Revisione Contenuto</value>
         <value xml:lang="ja">コンテンツリビジョン連番ID</value>
@@ -4584,7 +4584,7 @@
         <value xml:lang="de">Datenkategorie ID</value>
         <value xml:lang="en">Data Category Id</value>
         <value xml:lang="es">Código Categoría de datos</value>
-        <value xml:lang="fa">آی‌دی رده‌بندی داده</value>
+        <value xml:lang="fa">آی‌دی دسته‌بندی داده</value>
         <value xml:lang="fr">Catégorie de données</value>
         <value xml:lang="it">Categoria Dati</value>
         <value xml:lang="ja">データカテゴリID</value>
@@ -4758,7 +4758,7 @@
         <value xml:lang="da">Tegnsæt id</value>
         <value xml:lang="de">Zeichensatz ID</value>
         <value xml:lang="en">Character Set Id</value>
-        <value xml:lang="fa">آی‌دی ثبت کاراکتر</value>
+        <value xml:lang="fa">آی‌دی ثبت واژ</value>
         <value xml:lang="fr">Jeu de caractères</value>
         <value xml:lang="it">Set di Caratteri</value>
         <value xml:lang="ja">キャラクタセットID</value>
@@ -4774,7 +4774,7 @@
         <value xml:lang="da">Datakategori</value>
         <value xml:lang="de">Datenkategorie</value>
         <value xml:lang="en">Data Category</value>
-        <value xml:lang="fa">رده‌بندی داده</value>
+        <value xml:lang="fa">دسته‌بندی داده</value>
         <value xml:lang="fr">Catégorie de données</value>
         <value xml:lang="it">Categoria Dati</value>
         <value xml:lang="ja">データカテゴリID</value>
@@ -4824,7 +4824,7 @@
         <value xml:lang="da">Dr dataskabelontype id</value>
         <value xml:lang="de">Datenvorlagetyp ID (Dr)</value>
         <value xml:lang="en">Dr Data Template Type Id</value>
-        <value xml:lang="fa">آیدی نوع الگوی داده (Dr)</value>
+        <value xml:lang="fa">آی‌دی نوع الگوی داده (Dr)</value>
         <value xml:lang="fr">Type de modèle de données (Dr)</value>
         <value xml:lang="it">Tipo Template Dati</value>
         <value xml:lang="ja">DRデータテンプレート種類ID</value>
@@ -4840,7 +4840,7 @@
         <value xml:lang="da">Locale tekst</value>
         <value xml:lang="de">Locale Text</value>
         <value xml:lang="en">Locale String</value>
-        <value xml:lang="fa">مشخص‌کردن رشته</value>
+        <value xml:lang="fa">رشته محل</value>
         <value xml:lang="fr">Langue et région</value>
         <value xml:lang="it">Stringa Locale</value>
         <value xml:lang="ja">地域文字列</value>
@@ -4911,7 +4911,7 @@
         <value xml:lang="da">Varighed enheds id</value>
         <value xml:lang="de">Dauer Einheit ID</value>
         <value xml:lang="en">Duration Uom Id</value>
-        <value xml:lang="fa">آی‌دی ارز دوره‌زمانی</value>
+        <value xml:lang="fa">آی‌دی واحدسنجش دوره‌زمانی</value>
         <value xml:lang="fr">Durée UOM</value>
         <value xml:lang="it">Udm Durata</value>
         <value xml:lang="ja">存続期間単位ID</value>
@@ -4962,7 +4962,7 @@
     <property key="FormFieldTitle_enumTypeId">
         <value xml:lang="da">Nummereringstype id</value>
         <value xml:lang="en">Enum Type Id</value>
-        <value xml:lang="fa">آی‌دی نوع شمارا</value>
+        <value xml:lang="fa">آی‌دی نوع شمارش</value>
         <value xml:lang="fr">Type d'énumération</value>
         <value xml:lang="it">Tipo enumerazione</value>
         <value xml:lang="ja">種類ID</value>
@@ -5016,7 +5016,7 @@
         <value xml:lang="da">Forum beskrivelse</value>
         <value xml:lang="de">Forum Beschreibung</value>
         <value xml:lang="en">Forum Description</value>
-        <value xml:lang="fa">شرح فروم</value>
+        <value xml:lang="fa">شرح انجمن</value>
         <value xml:lang="fr">Description de forum</value>
         <value xml:lang="it">Descrizione Forum</value>
         <value xml:lang="ja">フォーラム詳細</value>
@@ -5032,7 +5032,7 @@
         <value xml:lang="da">Forumgruppe beskrivelse</value>
         <value xml:lang="de">Forumgruppe Beschreibung</value>
         <value xml:lang="en">Forum Group Description</value>
-        <value xml:lang="fa">شرح گروه فروم</value>
+        <value xml:lang="fa">شرح گروه انجمن</value>
         <value xml:lang="fr">Description de groupe de forum</value>
         <value xml:lang="it">Descrizione Gruppo Forum</value>
         <value xml:lang="ja">フォーラムグループ詳細</value>
@@ -5048,7 +5048,7 @@
         <value xml:lang="da">Forumgruppe navn</value>
         <value xml:lang="de">Forumgruppe Name</value>
         <value xml:lang="en">Forum Group Name</value>
-        <value xml:lang="fa">نام گروه فروم</value>
+        <value xml:lang="fa">نام گروه انجمن</value>
         <value xml:lang="fr">Nom de groupe de forum</value>
         <value xml:lang="it">Nome Gruppo Forum</value>
         <value xml:lang="ja">フォーラムグループ名称</value>
@@ -5064,7 +5064,7 @@
         <value xml:lang="da">Forum grupper</value>
         <value xml:lang="de">Formgruppen</value>
         <value xml:lang="en">Forum Groups</value>
-        <value xml:lang="fa">گروه‌های فروم</value>
+        <value xml:lang="fa">گروه‌های انجمن</value>
         <value xml:lang="fr">Groupes de forum</value>
         <value xml:lang="it">Gruppi Forum</value>
         <value xml:lang="ja">フォーラムグループ</value>
@@ -5112,7 +5112,7 @@
         <value xml:lang="da">Forum navn</value>
         <value xml:lang="de">Forum Name</value>
         <value xml:lang="en">Forum Name</value>
-        <value xml:lang="fa">نام فروم</value>
+        <value xml:lang="fa">نام انجمن</value>
         <value xml:lang="fr">Nom du forum</value>
         <value xml:lang="it">Nome Forum</value>
         <value xml:lang="ja">フォーラム名称</value>
@@ -5128,7 +5128,7 @@
         <value xml:lang="da">Forummer</value>
         <value xml:lang="de">Foren</value>
         <value xml:lang="en">Forums</value>
-        <value xml:lang="fa">فروم‌ها</value>
+        <value xml:lang="fa">انجمن‌ها</value>
         <value xml:lang="fr">Forums</value>
         <value xml:lang="it">Forum </value>
         <value xml:lang="ja">フォーラム</value>
@@ -5171,7 +5171,7 @@
         <value xml:lang="da">Hint</value>
         <value xml:lang="de">Hinweis</value>
         <value xml:lang="en">Hint</value>
-        <value xml:lang="fa">اشاره</value>
+        <value xml:lang="fa">اشاره‌به</value>
         <value xml:lang="fr">Indication</value>
         <value xml:lang="it">Suggerimento</value>
         <value xml:lang="ja">ヒント</value>
@@ -5188,7 +5188,7 @@
         <value xml:lang="de">HTTP Server</value>
         <value xml:lang="en">Http Host</value>
         <value xml:lang="es">Host Http</value>
-        <value xml:lang="fa">سرور HTTP</value>
+        <value xml:lang="fa">میزبان HTTP</value>
         <value xml:lang="fr">Centre serveur HTTP</value>
         <value xml:lang="it">Host Http</value>
         <value xml:lang="ja">HTTPサーバ</value>
@@ -5396,7 +5396,7 @@
         <value xml:lang="da">Locale tekst</value>
         <value xml:lang="de">Locale Text</value>
         <value xml:lang="en">Locale String</value>
-        <value xml:lang="fa">مشخص‌کردن رشته</value>
+        <value xml:lang="fa">رشته محل</value>
         <value xml:lang="fr">Langue et région</value>
         <value xml:lang="it">Stringa locale</value>
         <value xml:lang="ja">地域文字列</value>
@@ -5427,7 +5427,7 @@
         <value xml:lang="da">Map nøgle</value>
         <value xml:lang="de">Zugriff Schlüssel</value>
         <value xml:lang="en">Map Key</value>
-        <value xml:lang="fa">کلید نقشه</value>
+        <value xml:lang="fa">کلید نگاشت</value>
         <value xml:lang="fr">Clef d'association</value>
         <value xml:lang="it">Chiave Mappa</value>
         <value xml:lang="ja">マップキー</value>
@@ -5443,7 +5443,7 @@
         <value xml:lang="da">Meddelsesliste</value>
         <value xml:lang="de">Liste der Meldungen</value>
         <value xml:lang="en">Msgs List</value>
-        <value xml:lang="fa">لست پیام‌ها</value>
+        <value xml:lang="fa">لیست پیام‌ها</value>
         <value xml:lang="fr">Liste de messages</value>
         <value xml:lang="it">Lista Messaggi</value>
         <value xml:lang="ja">メッセージ一覧</value>
@@ -5752,7 +5752,7 @@
         <value xml:lang="de">Privileg Aufzählung ID</value>
         <value xml:lang="en">Privilege Enum Id</value>
         <value xml:lang="es">Tipo privilegio</value>
-        <value xml:lang="fa">آی‌دی شمارای دسترسی</value>
+        <value xml:lang="fa">آی‌دی شمارش دسترسی</value>
         <value xml:lang="fr">Enumération de privilège</value>
         <value xml:lang="it">Enumerazione Privilegio</value>
         <value xml:lang="ja">特権ID</value>
@@ -5829,7 +5829,7 @@
         <value xml:lang="da">Relateret detail id</value>
         <value xml:lang="de">Zugehöriges Detail ID</value>
         <value xml:lang="en">Related Detail Id</value>
-        <value xml:lang="fa">آی‌دی جزئیات مرتبط</value>
+        <value xml:lang="fa">آی‌دی جزئیات مربوط</value>
         <value xml:lang="fr">Détail lié</value>
         <value xml:lang="it">Dettaglio Relativo</value>
         <value xml:lang="ja">関連詳細ID</value>
@@ -5844,7 +5844,7 @@
         <value xml:lang="da">Erstatte</value>
         <value xml:lang="de">Ersetzen</value>
         <value xml:lang="en">Replace</value>
-        <value xml:lang="fa">جایگزین‌کردن</value>
+        <value xml:lang="fa">جایگذاری</value>
         <value xml:lang="fr">Remplacer</value>
         <value xml:lang="it">Sostituisci</value>
         <value xml:lang="ja">置換</value>
@@ -6008,7 +6008,7 @@
         <value xml:lang="da">Spring adgangskontrol over</value>
         <value xml:lang="de">Berechtigungsprüfung überspringen</value>
         <value xml:lang="en">Skip Permission Check</value>
-        <value xml:lang="fa">پرش از روی چک‌کردن مجوز</value>
+        <value xml:lang="fa">پرش از روی چک‌کردن اجازه</value>
         <value xml:lang="fr">Sauter le contrôle d'autorisation</value>
         <value xml:lang="it">Salta Controllo Permesso</value>
         <value xml:lang="ja">権限チェックをスキップ</value>
@@ -6128,7 +6128,7 @@
         <value xml:lang="da">Rundspørge spørgsmålskategori id</value>
         <value xml:lang="de">Befragung Fragenkategorie ID</value>
         <value xml:lang="en">Survey Question Category Id</value>
-        <value xml:lang="fa">آی‌دی رده‌بندی سوال نظرسنجی</value>
+        <value xml:lang="fa">آی‌دی دسته‌بندی سوال نظرسنجی</value>
         <value xml:lang="fr">Catégorie de question (sondage)</value>
         <value xml:lang="it">Categoria Domanda Sondaggio</value>
         <value xml:lang="ja">評価質問カテゴリID</value>
@@ -6487,7 +6487,7 @@
         <value xml:lang="da">Tilføj dataressource</value>
         <value xml:lang="de">Datenressource hinzufügen</value>
         <value xml:lang="en">Add DataResource</value>
-        <value xml:lang="fa">اضافه‌گردن منبع داده</value>
+        <value xml:lang="fa">اضافه‌کردن منبع داده</value>
         <value xml:lang="fr">Ajouter une ressource de données</value>
         <value xml:lang="it">Aggiungi Risorsa Dati</value>
         <value xml:lang="ja">データリソースを追加</value>
@@ -6564,7 +6564,7 @@
         <value xml:lang="da">Tilføj en besked til forum: </value>
         <value xml:lang="de">Meldung zu einem Forum hinzufügen: </value>
         <value xml:lang="en">Add a message to forum: </value>
-        <value xml:lang="fa">اضافه‌کردن یک پیام به فروم:</value>
+        <value xml:lang="fa">اضافه‌کردن یک پیام به انجمن:</value>
         <value xml:lang="fr">Ajoutez un message au forum : </value>
         <value xml:lang="it">Aggiungi un messaggio al forum: </value>
         <value xml:lang="ja">フォーラムにメッセージを追加</value>
@@ -6660,7 +6660,7 @@
         <value xml:lang="da">Auto-opret point for udgivelse af indhold</value>
         <value xml:lang="de">Automatisches Erstellen des Veröffentlichungsortes</value>
         <value xml:lang="en">Auto-Create Content Publish Points</value>
-        <value xml:lang="fa">ساختن خودکار اشارات انتشار محتوا</value>
+        <value xml:lang="fa">ساختن-خودکار امتیازهای انتشار محتوا</value>
         <value xml:lang="fr">Créer automatiquement un contenu de points publiés</value>
         <value xml:lang="it">Creazioni-Automatica Contenuto Punti Pubblicati</value>
         <value xml:lang="ja">コンテンツ公開場所を自動作成</value>
@@ -6751,7 +6751,7 @@
         <value xml:lang="da">Ret en forbindelse</value>
         <value xml:lang="de">Eine Zuordnung bearbeiten</value>
         <value xml:lang="en">Edit an association</value>
-        <value xml:lang="fa">ویرایش یک همبستگی</value>
+        <value xml:lang="fa">ویرایش‌کردن یک همبستگی</value>
         <value xml:lang="fr">Modifier une association</value>
         <value xml:lang="it">Aggiorna una associazione</value>
         <value xml:lang="ja">関連付けを編集</value>
@@ -6766,7 +6766,7 @@
     <property key="PageTitleEditBlogArticlePermissionError">
         <value xml:lang="da">Tilladelse til at rette artikel fejlede</value>
         <value xml:lang="en">Permissions failed to edit Article</value>
-        <value xml:lang="fa">مجوزها شکست خورد برای ویرایش مطلب</value>
+        <value xml:lang="fa">اجازه‌ها شکست خورد برای ویرایش مطلب</value>
         <value xml:lang="fr">Les autorisations ne permettent pas de modifier l'article</value>
         <value xml:lang="it">Aggiorna una associazione</value>
         <value xml:lang="ja">記事の編集で権限エラー</value>
@@ -6779,7 +6779,7 @@
         <value xml:lang="da">CMS ret indhold</value>
         <value xml:lang="de">CMS Inhalt bearbeiten</value>
         <value xml:lang="en">CMS Content Edit</value>
-        <value xml:lang="fa">ویرایش محتوای CMS</value>
+        <value xml:lang="fa">ویرایش‌کردن محتوای CMS</value>
         <value xml:lang="fr">Modifier le contenu CMS</value>
         <value xml:lang="it">Aggiorna Contenuto CMS</value>
         <value xml:lang="ja">CMSコンテンツを編集</value>
@@ -6794,7 +6794,7 @@
         <value xml:lang="da">Ret forekomst af sammensat dokument</value>
         <value xml:lang="de">CompDoc Instanz bearbeiten</value>
         <value xml:lang="en">Edit CompDoc Instance</value>
-        <value xml:lang="fa">ویرایش نمونه سند مرکب</value>
+        <value xml:lang="fa">ویرایش‌کردن نمونه سند مرکب</value>
         <value xml:lang="fr">Modifier l'instance de document composite</value>
         <value xml:lang="it">Aggiorna Istanza CompDoc</value>
         <value xml:lang="ja">複合文書インスタンスを編集</value>
@@ -6808,7 +6808,7 @@
         <value xml:lang="da">Ret template for sammensat dokument</value>
         <value xml:lang="de">CompDoc Vorlage bearbeiten</value>
         <value xml:lang="en">Edit CompDoc Template</value>
-        <value xml:lang="fa">ویرایش الگو سند مرکب</value>
+        <value xml:lang="fa">ویرایش‌کردن الگو سند مرکب</value>
         <value xml:lang="fr">Modifier le modèle de document composite</value>
         <value xml:lang="it">Aggiorna Template CompDoc</value>
         <value xml:lang="ja">複合文書テンプレートを編集</value>
@@ -6824,7 +6824,7 @@
         <value xml:lang="de">Inhalt bearbeiten</value>
         <value xml:lang="en">Edit Content</value>
         <value xml:lang="es">Modificar Contenido</value>
-        <value xml:lang="fa">ویرایش محتوا</value>
+        <value xml:lang="fa">ویرایش‌کردن محتوا</value>
         <value xml:lang="fr">Modifier le contenu</value>
         <value xml:lang="it">Aggiorna contenuto</value>
         <value xml:lang="ja">コンテンツを編集</value>
@@ -6841,7 +6841,7 @@
         <value xml:lang="da">Ret godkend indhold redigerings side</value>
         <value xml:lang="de">Inhaltsbestätigung Bearbeitenseite bearbeiten</value>
         <value xml:lang="en">Edit Content Approval Edit Page</value>
-        <value xml:lang="fa">ویرایش صفحه ویرایش مصوب محتوا</value>
+        <value xml:lang="fa">ویرایش‌کردن صفحه ویرایش تصویب محتوا</value>
         <value xml:lang="fr">Modifier le contenu d'approbation de modification de page</value>
         <value xml:lang="it">Pagina per Editare Approvazione Contenuto per</value>
         <value xml:lang="ja">コンテンツ承認編集ページを編集</value>
@@ -6856,7 +6856,7 @@
         <value xml:lang="da">Ret indholdsforbindelse</value>
         <value xml:lang="de">Inhaltszuordnung bearbeiten</value>
         <value xml:lang="en">Edit Content Association</value>
-        <value xml:lang="fa">ویرایش همبستگی محتوا</value>
+        <value xml:lang="fa">ویرایش‌کردن همبستگی محتوا</value>
         <value xml:lang="fr">Modifier le contenu d'association</value>
         <value xml:lang="it">Aggiorna associazione contenuto</value>
         <value xml:lang="ja">コンテンツ関連付けを編集</value>
@@ -6873,7 +6873,7 @@
         <value xml:lang="da">Ret indholdsforbindelse prædikat</value>
         <value xml:lang="de">Inhaltszuordnung Prädikat bearbeiten</value>
         <value xml:lang="en">Edit Content Association Predicate</value>
-        <value xml:lang="fa">ویرایش مسند همبستگی محتوا</value>
+        <value xml:lang="fa">ویرایش‌کردن مسند همبستگی محتوا</value>
         <value xml:lang="fr">Modifier le contenu de prédicat d'association</value>
         <value xml:lang="it">Aggiorna Associazione Contenuto Predicato</value>
         <value xml:lang="ja">コンテンツ関連付け属性を編集</value>
@@ -6889,7 +6889,7 @@
         <value xml:lang="da">Ret indholdsforbindelsestype</value>
         <value xml:lang="de">Inhaltszuordnungstyp bearbeiten</value>
         <value xml:lang="en">Edit Content Association Type</value>
-        <value xml:lang="fa">ویرایش نوع همبستگی محتوا</value>
+        <value xml:lang="fa">ویرایش‌کردن نوع همبستگی محتوا</value>
         <value xml:lang="fr">Modifier le type de contenu d'association</value>
         <value xml:lang="it">Aggiorna Tipo Associazione Contenuto</value>
         <value xml:lang="ja">コンテンツ関連付け種類を編集</value>
@@ -6905,7 +6905,7 @@
         <value xml:lang="da">Ret indholdsattribut</value>
         <value xml:lang="de">Inhaltsattribut bearbeiten</value>
         <value xml:lang="en">Edit Content Attribute</value>
-        <value xml:lang="fa">ویرایش خاصیت محتوا</value>
+        <value xml:lang="fa">ویرایش‌کردن خاصیت محتوا</value>
         <value xml:lang="fr">Modifier l'attribut du contenu</value>
         <value xml:lang="it">Aggiorna Attributo Contenuto</value>
         <value xml:lang="ja">コンテンツ属性を編集</value>
@@ -6919,7 +6919,7 @@
     </property>
     <property key="PageTitleEditContentKeywords">
         <value xml:lang="en">Edit Content Keywords</value>
-        <value xml:lang="fa">ویرایش کلیدواژه‌های محتوا</value>
+        <value xml:lang="fa">ویرایش‌کردن کلیدواژه‌های محتوا</value>
         <value xml:lang="fr">Édition des mots-clés document</value>
         <value xml:lang="ja">コンテンツキーワードを編集</value>
         <value xml:lang="pt">Editar conteúdo palavras-chave</value>
@@ -6931,7 +6931,7 @@
         <value xml:lang="da">Ret indhold metadata</value>
         <value xml:lang="de">Inhalt Metadaten bearbeiten</value>
         <value xml:lang="en">Edit Content Metadata</value>
-        <value xml:lang="fa">ویرایش داده‌جانبی محتوا</value>
+        <value xml:lang="fa">ویرایش‌کردن داده‌جانبی محتوا</value>
         <value xml:lang="fr">Modifier le contenu méta-données</value>
         <value xml:lang="it">Aggiorna Metadata Contenuto</value>
         <value xml:lang="ja">コンテンツメタデータを編集</value>
@@ -6948,7 +6948,7 @@
         <value xml:lang="da">Ret indholdsprocedure</value>
         <value xml:lang="de">Inhaltsverfahren bearbeiten</value>
         <value xml:lang="en">Edit Content Operation</value>
-        <value xml:lang="fa">ویراش عملکرد محتوا</value>
+        <value xml:lang="fa">ویرایش‌کردن عملیات محتوا</value>
         <value xml:lang="fr">Modifier l'opération de contenu</value>
         <value xml:lang="it">Aggiorna Operazione Contenuto</value>
         <value xml:lang="ja">コンテンツ操作を編集</value>
@@ -6964,7 +6964,7 @@
         <value xml:lang="da">Ret indholdsformål</value>
         <value xml:lang="de">Inhaltszweck bearbeiten</value>
         <value xml:lang="en">Edit Content Purpose</value>
-        <value xml:lang="fa">ویرایش هدف محتوا</value>
+        <value xml:lang="fa">ویرایش‌کردن هدف محتوا</value>
         <value xml:lang="fr">Modifier le but du contenu</value>
         <value xml:lang="it">Aggiorna Funzione Contenuto</value>
         <value xml:lang="ja">コンテンツ目的を編集</value>
@@ -6980,7 +6980,7 @@
         <value xml:lang="da">Ret indholdsformål procedure</value>
         <value xml:lang="de">Inhaltszweck Verfahren bearbeiten</value>
         <value xml:lang="en">Edit Content Purpose Operation</value>
-        <value xml:lang="fa">ویرایش عملکرد هدف محتوا</value>
+        <value xml:lang="fa">ویرایش‌کردن عملیات هدف محتوا</value>
         <value xml:lang="fr">Modifier le but d'opération du contenu</value>
         <value xml:lang="it">Aggiorna Funzione Operazione Contenuto</value>
         <value xml:lang="ja">コンテンツ目的操作を編集</value>
@@ -6996,7 +6996,7 @@
         <value xml:lang="da">Ret indholdsformål type</value>
         <value xml:lang="de">Inhalt Zweck Typ bearbeiten</value>
         <value xml:lang="en">Edit Content Purpose Type</value>
-        <value xml:lang="fa">ویرایش نوع هدف محتوا</value>
+        <value xml:lang="fa">ویرایش‌کردن نوع هدف محتوا</value>
         <value xml:lang="fr">Modifier le type de but du contenu</value>
         <value xml:lang="it">Aggiorna Contenuto Tipo Funzione</value>
         <value xml:lang="ja">コンテンツ目的種類を編集</value>
@@ -7011,7 +7011,7 @@
         <value xml:lang="da">Ret indholdsrolle</value>
         <value xml:lang="de">Inhaltsrolle bearbeiten</value>
         <value xml:lang="en">Edit Content Role</value>
-        <value xml:lang="fa">ویرایش وظیفه محتوا</value>
+        <value xml:lang="fa">ویرایش‌کردن وظیفه محتوا</value>
         <value xml:lang="fr">Modifier le rôle du contenu</value>
         <value xml:lang="it">Aggiorna Ruolo Contenuto</value>
         <value xml:lang="ja">コンテンツロールを編集</value>
@@ -7028,7 +7028,7 @@
         <value xml:lang="da">Ret indholdstype</value>
         <value xml:lang="de">Inhaltstyp bearbeiten</value>
         <value xml:lang="en">Edit Content Type</value>
-        <value xml:lang="fa">ویرایش نوع محتوا</value>
+        <value xml:lang="fa">ویرایش‌کردن نوع محتوا</value>
         <value xml:lang="fr">Modifier le type du contenu</value>
         <value xml:lang="it">Aggiorna Tipo Contenuto</value>
         <value xml:lang="ja">コンテンツタイプを編集</value>
@@ -7045,7 +7045,7 @@
         <value xml:lang="da">Ret indholdstype attribut</value>
         <value xml:lang="de">Inhaltstyp Attribut bearbeiten</value>
         <value xml:lang="en">Edit Content Type Attribute</value>
-        <value xml:lang="fa">ویرایش خاصیت نوع محتوا</value>
+        <value xml:lang="fa">ویرایش‌کردن خاصیت نوع محتوا</value>
         <value xml:lang="fr">Modifier le le type d'attribut du contenu</value>
         <value xml:lang="it">Aggiorna Attributo Tipo Contenuto</value>
         <value xml:lang="ja">コンテンツタイプ属性を編集</value>
@@ -7078,7 +7078,7 @@
         <value xml:lang="da">Ret indhold arbejdsindsats</value>
         <value xml:lang="de">Inhalt Arbeitseinsatz bearbeiten</value>
         <value xml:lang="en">Edit Content WorkEffort</value>
-        <value xml:lang="fa">ویرایش برنامه‌کار محتوا</value>
+        <value xml:lang="fa">ویرایش‌کردن برنامه‌کار محتوا</value>
         <value xml:lang="fr">Modifier le contenu des tâches</value>
         <value xml:lang="it">Aggiorna Contenuto Impegni di Lavoro</value>
         <value xml:lang="ja">コンテンツ作業成果を編集</value>
@@ -7093,7 +7093,7 @@
         <value xml:lang="da">Ret dataressource</value>
         <value xml:lang="de">Datenressource bearbeiten</value>
         <value xml:lang="en">Edit Data Resource</value>
-        <value xml:lang="fa">ویرایش منبع داده</value>
+        <value xml:lang="fa">ویرایش‌کردن منبع داده</value>
         <value xml:lang="fr">Modifier la ressource de données</value>
         <value xml:lang="it">Aggiorna Risorsa Dati</value>
         <value xml:lang="ja">データリソースを編集</value>
@@ -7110,7 +7110,7 @@
         <value xml:lang="da">Ret dataressource attribut</value>
         <value xml:lang="de">Datenressource Attribut bearbeiten</value>
         <value xml:lang="en">Edit Data Resource Attribute</value>
-        <value xml:lang="fa">ویرایش خاصیت منبع داده</value>
+        <value xml:lang="fa">ویرایش‌کردن خاصیت منبع داده</value>
         <value xml:lang="fr">Modifier l'attribut de ressources de données</value>
         <value xml:lang="it">Aggiorna Attributo Risorsa Dati</value>
         <value xml:lang="ja">データリソース属性を編集</value>
@@ -7126,7 +7126,7 @@
         <value xml:lang="da">Ret dataressource katagori</value>
         <value xml:lang="de">Datenressource Kategorie bearbeiten</value>
         <value xml:lang="en">Edit Data Resource Category</value>
-        <value xml:lang="fa">ویرایش دسته‌بندی منبع داده</value>
+        <value xml:lang="fa">ویرایش‌کردن دسته‌بندی منبع داده</value>
         <value xml:lang="fr">Modifier la catégorie de ressources de données</value>
         <value xml:lang="it">Aggiorna Categoria Risorsa Dati</value>
         <value xml:lang="ja">データリソースカテゴリを編集</value>
@@ -7141,7 +7141,7 @@
         <value xml:lang="da">Ret karaktersæt</value>
         <value xml:lang="de">Zeichensatz bearbeiten</value>
         <value xml:lang="en">Edit Character Set</value>
-        <value xml:lang="fa">ویرایش مجموعه واژ</value>
+        <value xml:lang="fa">ویرایش‌کردن مجموعه واژ</value>
         <value xml:lang="fr">Modifier le jeu de caractères</value>
         <value xml:lang="it">Aggiorna Set di Caratteri</value>
         <value xml:lang="ja">キャラクタセットを編集</value>
@@ -7156,7 +7156,7 @@
         <value xml:lang="da">Ret filendelse</value>
         <value xml:lang="de">Dateierweiterung bearbeiten</value>
         <value xml:lang="en">Edit File Extension</value>
-        <value xml:lang="fa">ویرایش فایل الحاقی</value>
+        <value xml:lang="fa">ویرایش‌کردن فایل الحاقی</value>
         <value xml:lang="fr">Modifier l'extension de fichier</value>
         <value xml:lang="it">Aggiorna Estensione File</value>
         <value xml:lang="ja">ファイル拡張子を編集</value>
@@ -7171,7 +7171,7 @@
         <value xml:lang="da">Ret metadata prædikat</value>
         <value xml:lang="de">Metadaten Prädikat bearbeiten</value>
         <value xml:lang="en">Edit Meta Data Predicate</value>
-        <value xml:lang="fa">ویرایش مسند داده جانبی</value>
+        <value xml:lang="fa">ویرایش‌کردن مسند داده جانبی</value>
         <value xml:lang="fr">Modifier le prédicat de méta-données</value>
         <value xml:lang="it">Aggiorna Predicato Meta Data</value>
         <value xml:lang="ja">メタデータ属性を編集</value>
@@ -7185,7 +7185,7 @@
         <value xml:lang="da">Ret Mime type</value>
         <value xml:lang="de">Mimetyp bearbeiten</value>
         <value xml:lang="en">Edit Mime Type</value>
-        <value xml:lang="fa">ویرایش نوع میم</value>
+        <value xml:lang="fa">ویرایش‌کردن نوع میم</value>
         <value xml:lang="fr">Modifier le type MIME</value>
         <value xml:lang="it">Aggiorna Tipo Mime</value>
         <value xml:lang="ja">MIMEタイプを編集</value>
@@ -7199,7 +7199,7 @@
         <value xml:lang="da">Ret Mime type Html skabelon</value>
         <value xml:lang="de">Mimetyp Html Vorlage bearbeiten</value>
         <value xml:lang="en">Edit Mime Type Html Template</value>
-        <value xml:lang="fa">ویرایش الگو HTML نوع میم</value>
+        <value xml:lang="fa">ویرایش‌کردن الگو HTML نوع میم</value>
         <value xml:lang="fr">Modifier le modèle de type de mime HTML</value>
         <value xml:lang="it">Aggiorna Tipo Mime Template Html</value>
         <value xml:lang="ja">MIMEタイプHTMLテンプレート</value>
@@ -7214,7 +7214,7 @@
         <value xml:lang="da">Ret dataressource produktegenskab</value>
         <value xml:lang="de">Datenressource Produktmerkmal bearbeiten</value>
         <value xml:lang="en">Edit Data Resource Product Features</value>
-        <value xml:lang="fa">ویرایش افزونه‌های محصول منبع داده</value>
+        <value xml:lang="fa">ویرایش‌کردن افزونه‌های محصول منبع داده</value>
         <value xml:lang="fr">Modifier la ressource de données (caractéristiques du produit)</value>
         <value xml:lang="it">Aggiorna Caratteristiche Prodotto Risorsa Dati</value>
         <value xml:lang="ja">データリソース製品機能を編集</value>
@@ -7231,7 +7231,7 @@
         <value xml:lang="da">Ret dataressource rolle</value>
         <value xml:lang="de">Datenressource Rolle bearbeiten</value>
         <value xml:lang="en">Edit Data Resource Role</value>
-        <value xml:lang="fa">ویرایش وظیفه منبع داده</value>
+        <value xml:lang="fa">ویرایش‌کردن وظیفه منبع داده</value>
         <value xml:lang="fr">Modifier la ressource de données (rôle)</value>
         <value xml:lang="it">Aggiorna Ruolo Risorsa Dati</value>
         <value xml:lang="ja">データリソースロールを編集</value>
@@ -7248,7 +7248,7 @@
         <value xml:lang="da">Ret dataressource tekst</value>
         <value xml:lang="de">Datenressource Text bearbeiten</value>
         <value xml:lang="en">Edit Data Resource Text</value>
-        <value xml:lang="fa">ویرایش متن منبع داده</value>
+        <value xml:lang="fa">ویرایش‌کردن متن منبع داده</value>
         <value xml:lang="fr">Modifier la ressource de données (texte)</value>
         <value xml:lang="it">Aggiorna Testo Risorsa Dati</value>
         <value xml:lang="ja">データリソーステキストを編集</value>
@@ -7265,7 +7265,7 @@
         <value xml:lang="da">Ret dataressource type</value>
         <value xml:lang="de">Datenressourcentyp bearbeiten</value>
         <value xml:lang="en">Edit Data Resource Type</value>
-        <value xml:lang="fa">ویرایش نوع منبع داده</value>
+        <value xml:lang="fa">ویرایش‌کردن نوع منبع داده</value>
         <value xml:lang="fr">Modifier la ressource de données (type)</value>
         <value xml:lang="it">Aggiorna Tipo Risorsa Dati</value>
         <value xml:lang="ja">データリソース種類を編集</value>
@@ -7281,7 +7281,7 @@
         <value xml:lang="da">Ret dataressource type attribut</value>
         <value xml:lang="de">Datenressourcentyp Attribute bearbeiten</value>
         <value xml:lang="en">Edit Data Resource Type Attribute</value>
-        <value xml:lang="fa">ویرایش خاصیت نوع منبع داده</value>
+        <value xml:lang="fa">ویرایش‌کردن خاصیت نوع منبع داده</value>
         <value xml:lang="fr">Modifier la ressource de données (type d'attibut)</value>
         <value xml:lang="it">Aggiorna Attributo Tipo Risorsa Dati</value>
         <value xml:lang="ja">データリソース種類属性を編集</value>
@@ -7297,7 +7297,7 @@
         <value xml:lang="da">Ret dataressource upload</value>
         <value xml:lang="de">Datenressource bearbeiten (hochladen)</value>
         <value xml:lang="en">Edit Data Resource Upload</value>
-        <value xml:lang="fa">ویرایش آپلود منبع داده</value>
+        <value xml:lang="fa">ویرایش‌کردن آپلود منبع داده</value>
         <value xml:lang="fr">Modifier la ressource de données (téléchargement vers serveur)</value>
         <value xml:lang="it">Aggiorna Caricamento Risorsa Dati</value>
         <value xml:lang="ja">データリソースアップロードを編集</value>
@@ -7314,7 +7314,7 @@
         <value xml:lang="da">Ret dataressource url</value>
         <value xml:lang="de">Datenressource URL bearbeiten</value>
         <value xml:lang="en">Edit Data Resource Url</value>
-        <value xml:lang="fa">ویرایش URL منبع داده</value>
+        <value xml:lang="fa">ویرایش‌کردن URL منبع داده</value>
         <value xml:lang="fr">Modifier la ressource de données (URL)</value>
         <value xml:lang="it">Aggiorna Url Risorsa Dati</value>
         <value xml:lang="ja">データリソースURLを編集</value>
@@ -7331,7 +7331,7 @@
         <value xml:lang="da">Ret elektronisk tekst</value>
         <value xml:lang="de">Elektronischen Text bearbeiten</value>
         <value xml:lang="en">Edit Electronic Text</value>
-        <value xml:lang="fa">ویرایش متن الکترونیک</value>
+        <value xml:lang="fa">ویرایش‌کردن متن الکترونیک</value>
         <value xml:lang="fr">Modifier le texte électronique</value>
         <value xml:lang="it">Aggiorna Testo Elettronico</value>
         <value xml:lang="ja">電子テキストを編集</value>
@@ -7348,7 +7348,7 @@
         <value xml:lang="da">Ret besked</value>
         <value xml:lang="de">Meldung bearbeiten:</value>
         <value xml:lang="en">Edit message:</value>
-        <value xml:lang="fa">ویرایش پیام:</value>
+        <value xml:lang="fa">ویرایش‌کردن پیام:</value>
         <value xml:lang="fr">Modifier le message : </value>
         <value xml:lang="it">Aggiorna messaggio:</value>
         <value xml:lang="ja">メッセージを編集</value>
@@ -7364,7 +7364,7 @@
         <value xml:lang="da">Ret Html tekst</value>
         <value xml:lang="de">Html-Text bearbeiten</value>
         <value xml:lang="en">Edit Html Text</value>
-        <value xml:lang="fa">ویرایش متن HTML</value>
+        <value xml:lang="fa">ویرایش‌کردن متن HTML</value>
         <value xml:lang="fr">Modifier le texte HTML</value>
         <value xml:lang="it">Aggiorna Testo Html</value>
         <value xml:lang="ja">HTML文書を編集</value>
@@ -7380,7 +7380,7 @@
         <value xml:lang="da">Ret layout</value>
         <value xml:lang="de">Layout bearbeiten</value>
         <value xml:lang="en">Edit Layout</value>
-        <value xml:lang="fa">ویرایش طرح‌بندی</value>
+        <value xml:lang="fa">ویرایش‌کردن طرح‌بندی</value>
         <value xml:lang="fr">Modifier la mise en page</value>
         <value xml:lang="it">Aggiorna Layout</value>
         <value xml:lang="ja">レイアウトを編集</value>
@@ -7394,7 +7394,7 @@
         <value xml:lang="da">Ret layout subindhold</value>
         <value xml:lang="de">Layout untergeordneter Inhalt bearbeiten</value>
         <value xml:lang="en">Edit Layout Sub Content</value>
-        <value xml:lang="fa">ویریاش زیرمحتوای طرح‌بندی</value>
+        <value xml:lang="fa">ویرایش‌کردن زیرمحتوای طرح‌بندی</value>
         <value xml:lang="fr">Modifier le sous-contenu de la mise en page</value>
         <value xml:lang="it">Aggiorna Layout Sotto-Contenuto</value>
         <value xml:lang="ja">レイアウトサブコンテンツを編集</value>
@@ -7410,7 +7410,7 @@
         <value xml:lang="de">Basis zusammengesetztes Dokument bearbeiten</value>
         <value xml:lang="en">Edit Root Composite Document</value>
         <value xml:lang="es">Modificar Documento compuesto Raíz</value>
-        <value xml:lang="fa">ویرایش سند مرکب ریشه</value>
+        <value xml:lang="fa">ویرایش‌کردن سند مرکب ریشه</value>
         <value xml:lang="fr">Modifier la racine du document composite</value>
         <value xml:lang="it">Aggiorna Radice Documento Composito</value>
         <value xml:lang="ja">ルート複合文書を編集</value>
@@ -7427,7 +7427,7 @@
         <value xml:lang="de">Befragung bearbeiten</value>
         <value xml:lang="en">Edit survey</value>
         <value xml:lang="es">Modificar Encuesta</value>
-        <value xml:lang="fa">ویرایش نظرسنجی</value>
+        <value xml:lang="fa">ویرایش‌کردن نظرسنجی</value>
         <value xml:lang="fr">Modifier le sondage</value>
         <value xml:lang="it">Aggiorna sondaggio</value>
         <value xml:lang="ja">評価を編集</value>
@@ -7444,7 +7444,7 @@
         <value xml:lang="de">Befragung Mehrfachantwortgruppen bearbeiten</value>
         <value xml:lang="en">Edit Survey Multi-Response Groups</value>
         <value xml:lang="es">Modificar Encuesta de grupo de respuestas</value>
-        <value xml:lang="fa">ویرایش گروه‌های پاسخگویی چندگانه نظرسنجی</value>
+        <value xml:lang="fa">ویرایش‌کردن گروه‌های پاسخگویی چندگانه نظرسنجی</value>
         <value xml:lang="fr">Modifier les groupes multi-réponses du sondage</value>
         <value xml:lang="it">Aggiorna Risposte Multiple Gruppo Sondaggio</value>
         <value xml:lang="ja">評価複数回答グループを編集</value>
@@ -7461,7 +7461,7 @@
         <value xml:lang="de">Befragungsseiten bearbeiten</value>
         <value xml:lang="en">Edit Survey Pages</value>
         <value xml:lang="es">Modificar página de encuestas</value>
-        <value xml:lang="fa">ویرایش صفحه‌های نظرسنجی</value>
+        <value xml:lang="fa">ویرایش‌کردن صفحه‌های نظرسنجی</value>
         <value xml:lang="fr">Modifier les pages du sondage</value>
         <value xml:lang="it">Aggiorna Pagine Sondaggio</value>
         <value xml:lang="ja">評価ページを編集</value>
@@ -7478,7 +7478,7 @@
         <value xml:lang="de">Befragung Fragen bearbeiten</value>
         <value xml:lang="en">Edit Survey Questions</value>
         <value xml:lang="es">Modificar Preeguntas de Encuesta</value>
-        <value xml:lang="fa">ویرایش سوال‌های نظرسنچی</value>
+        <value xml:lang="fa">ویرایش‌کردن سوال‌های نظرسنجی</value>
         <value xml:lang="fr">Modifier les questions du sondage</value>
         <value xml:lang="it">Aggiorna domande sondaggio</value>
         <value xml:lang="ja">評価質問を編集</value>
@@ -7495,7 +7495,7 @@
         <value xml:lang="de">Befragung Antworten bearbeiten</value>
         <value xml:lang="en">Edit Survey Response</value>
         <value xml:lang="es">Modificar Respuestas de Encuesta</value>
-        <value xml:lang="fa">ویرایش پاسخ نظرسنجی</value>
+        <value xml:lang="fa">ویرایش‌کردن پاسخ نظرسنجی</value>
         <value xml:lang="fr">Modifier les réponses du sondage</value>
         <value xml:lang="it">Aggiorna risposta sondaggio</value>
         <value xml:lang="ja">評価回答を編集</value>
@@ -7511,7 +7511,7 @@
         <value xml:lang="da">Ret webside</value>
         <value xml:lang="de">Webseite bearbeiten</value>
         <value xml:lang="en">Edit WebSite</value>
-        <value xml:lang="fa">ویرایش وب‌سایت</value>
+        <value xml:lang="fa">ویرایش‌کردن وب‌سایت</value>
         <value xml:lang="fr">Modifier le site web</value>
         <value xml:lang="it">Aggiorna Sito Web</value>
         <value xml:lang="ja">Webサイトを編集</value>
@@ -7527,7 +7527,7 @@
         <value xml:lang="da">Ret webside CMS</value>
         <value xml:lang="de">Webseite CMS bearbeiten</value>
         <value xml:lang="en">Edit WebSite CMS</value>
-        <value xml:lang="fa">ویرایش CMS وب‌سایت</value>
+        <value xml:lang="fa">ویرایش‌کردن CMS وب‌سایت</value>
         <value xml:lang="fr">Modifier le site web CMS</value>
         <value xml:lang="it">Aggiorna CMS Sito Web</value>
         <value xml:lang="ja">WebサイトCMSを編集</value>
@@ -7542,7 +7542,7 @@
         <value xml:lang="da">Ret webside indhold</value>
         <value xml:lang="de">Webseite Inhalt bearbeiten</value>
         <value xml:lang="en">Edit WebSite Content</value>
-        <value xml:lang="fa">ویرایش محتوای وب‌سایت</value>
+        <value xml:lang="fa">ویرایش‌کردن محتوای وب‌سایت</value>
         <value xml:lang="fr">Modifier le contenu du site web</value>
         <value xml:lang="it">Aggiorna Contenuto Sito Web</value>
         <value xml:lang="ja">Webサイトコンテンツを編集</value>
@@ -7558,7 +7558,7 @@
         <value xml:lang="da">Ret webside parter</value>
         <value xml:lang="de">Webseite Akteure bearbeiten</value>
         <value xml:lang="en">Edit WebSite Parties</value>
-        <value xml:lang="fa">ویرایش هویت‌های وب‌سایت</value>
+        <value xml:lang="fa">ویرایش‌کردن هویت‌های وب‌سایت</value>
         <value xml:lang="fr">Modifier les acteurs du site web</value>
         <value xml:lang="it">Aggiorna Soggetti Sito Web</value>
         <value xml:lang="ja">Webサイト取引先を編集</value>
@@ -7641,7 +7641,7 @@
         <value xml:lang="da">Forumgruppe liste</value>
         <value xml:lang="de">Liste der Forumsgruppen</value>
         <value xml:lang="en">Forumgroup list</value>
-        <value xml:lang="fa">لیست گروه فروم</value>
+        <value xml:lang="fa">لیست گروه انجمن</value>
         <value xml:lang="fr">Liste des groupes de forum</value>
         <value xml:lang="it">Lista gruppo Forum</value>
         <value xml:lang="ja">フォーラムグループ一覧</value>
@@ -7657,7 +7657,7 @@
         <value xml:lang="da">Beskeder for forum: ${objectName} [${objectId}]</value>
         <value xml:lang="de">Meldungen für Forum: ${objectName} [${objectId}]</value>
         <value xml:lang="en">Messages for Forum: ${objectName} [${objectId}]</value>
-        <value xml:lang="fa">پیام‌ها برای فروم: ${objectName} [${objectId}]</value>
+        <value xml:lang="fa">پیام‌ها برای انجمن: ${objectName} [${objectId}]</value>
         <value xml:lang="fr">Messages pour le forum : ${objectName} [${objectId}]</value>
         <value xml:lang="it">Mesasggi per forum: ${objectName} [${objectId}]</value>
         <value xml:lang="ja">フォーラム: ${objectName} [${objectId}] に対するメッセージ</value>
@@ -7673,7 +7673,7 @@
         <value xml:lang="da">Forum liste for forum gruppe: ${objectName} [${objectId}]</value>
         <value xml:lang="de">Liste der Foren für Forumsgruppe: ${objectName} [${objectId}]</value>
         <value xml:lang="en">Forum List for Forum Group: ${objectName} [${objectId}]</value>
-        <value xml:lang="fa">لیست فروم برای گروه فروم: ${objectName} [${objectId}]</value>
+        <value xml:lang="fa">لیست انجمن برای گروه انجمن: ${objectName} [${objectId}]</value>
         <value xml:lang="fr">Liste des forums pour les groupes de forum : ${objectName} [${objectId}]</value>
         <value xml:lang="it">Lista Forum per gruppo forum: ${objectName} [${objectId}]</value>
         <value xml:lang="ja">フォーラムグループ: ${objectName} [${objectId}] に対するフォーラム一覧</value>
@@ -7754,7 +7754,7 @@
         <value xml:lang="da">Formål for forumgruppe</value>
         <value xml:lang="de">Zwecke für Forumgruppe:</value>
         <value xml:lang="en">Purposes for forumgroup:</value>
-        <value xml:lang="fa">هدف‌ها برای گروه فروم:</value>
+        <value xml:lang="fa">هدف‌ها برای گروه انجمن:</value>
         <value xml:lang="fr">Buts pour le groupe de forums</value>
         <value xml:lang="it">Funzioni per gruppo forum:</value>
         <value xml:lang="ja">フォーラムグループの目的</value>
@@ -7770,7 +7770,7 @@
         <value xml:lang="da">Roller for forumgruppe</value>
         <value xml:lang="de">Rollen für Forumgruppe:</value>
         <value xml:lang="en">Roles for forumgroup:</value>
-        <value xml:lang="fa">وظیفه‌ها برای گروه فروم:</value>
+        <value xml:lang="fa">وظیفه‌ها برای گروه انجمن:</value>
         <value xml:lang="fr">Rôles pour le groupe de forums : </value>
         <value xml:lang="it">Ruoli per gruppo forum:</value>
         <value xml:lang="ja">フォーラムグループのロール</value>
@@ -7896,7 +7896,7 @@
         <value xml:lang="da">Søg indhold</value>
         <value xml:lang="de">Inhalt suchen</value>
         <value xml:lang="en">Lookup Content</value>
-        <value xml:lang="fa">جستجو محتوا</value>
+        <value xml:lang="fa">جستجوی محتوا</value>
         <value xml:lang="fr">Consultation de contenu</value>
         <value xml:lang="it">Ricerca contenuto</value>
         <value xml:lang="ja">コンテンツを検索</value>
@@ -7913,7 +7913,7 @@
         <value xml:lang="da">Søg dataressource</value>
         <value xml:lang="de">Datenressource suchen</value>
         <value xml:lang="en">Lookup Data Resource</value>
-        <value xml:lang="fa">جستجو منبع داده</value>
+        <value xml:lang="fa">جستجوی منبع داده</value>
         <value xml:lang="fr">Consultation de ressource de données</value>
         <value xml:lang="it">Ricerca Risorse Dati</value>
         <value xml:lang="ja">データリソースを検索</value>
@@ -7929,7 +7929,7 @@
         <value xml:lang="da">Søg liste layout</value>
         <value xml:lang="de">Liste Layout suchen</value>
         <value xml:lang="en">Lookup List Layout</value>
-        <value xml:lang="fa">جستجو طرح‌بندی لیست</value>
+        <value xml:lang="fa">جستجوی طرح‌بندی لیست</value>
         <value xml:lang="fr">Consultation de mise en page</value>
         <value xml:lang="it">Ricerca Layout</value>
         <value xml:lang="ja">レイアウト検索一覧</value>
@@ -7942,7 +7942,7 @@
         <value xml:lang="da">Søg subindhold</value>
         <value xml:lang="de">Untergeordneten Inhalt suchen</value>
         <value xml:lang="en">Lookup Sub Content</value>
-        <value xml:lang="fa">جستجو زیرمحتوا</value>
+        <value xml:lang="fa">جستجوی زیرمحتوا</value>
         <value xml:lang="fr">Consultation de sous-contenu</value>
         <value xml:lang="it">Ricerca Sotto-Contenuto</value>
         <value xml:lang="ja">サブコンテンツを検索</value>
@@ -7958,7 +7958,7 @@
         <value xml:lang="da">Søg rundspørge</value>
         <value xml:lang="de">Befragung suchen</value>
         <value xml:lang="en">Lookup Survey</value>
-        <value xml:lang="fa">جستجو نظرسنجی</value>
+        <value xml:lang="fa">جستجوی نظرسنجی</value>
         <value xml:lang="fr">Consultation de sondage</value>
         <value xml:lang="it">Ricerca sondaggi</value>
         <value xml:lang="ja">評価を検索</value>
@@ -7974,7 +7974,7 @@
         <value xml:lang="da">Søg rundspørge svar</value>
         <value xml:lang="de">Befragung Antwort suchen</value>
         <value xml:lang="en">Lookup Survey Response</value>
-        <value xml:lang="fa">جستجو پاسخ نظرسنجی</value>
+        <value xml:lang="fa">جستجوی پاسخ نظرسنجی</value>
         <value xml:lang="fr">Consultation de réponse de sondage</value>
         <value xml:lang="it">Ricerca risposte sondaggio</value>
         <value xml:lang="ja">評価回答を検索</value>
@@ -8148,7 +8148,7 @@
         <value xml:lang="da">Webside CMS navigation</value>
         <value xml:lang="de">Navigation (Webseite CMS)</value>
         <value xml:lang="en">Web Site CMS Nav</value>
-        <value xml:lang="fa">هدایت سایت CMS</value>
+        <value xml:lang="fa">هدایت وب‌سایت CMS</value>
         <value xml:lang="fr">Navigation (site Web CMS)</value>
         <value xml:lang="it">Sito Web CMS Navigazione</value>
         <value xml:lang="ja">WebサイトCMSナビゲート</value>
@@ -8176,7 +8176,7 @@
     </property>
     <property key="PageTitleWebSiteSEO">
         <value xml:lang="en">Generate Missing SEO URL's</value>
-        <value xml:lang="fa">ساختن SEO URLهای گم‌شده</value>
+        <value xml:lang="fa">ساختن SEO URL های فراموش‌شده‌است</value>
         <value xml:lang="ja">SEO URLの生成に失敗しました</value>
         <value xml:lang="pt">Gerar URL's faltantes para SEO</value>
         <value xml:lang="vi">Sinh lại các URL dành cho SEO bị thiếu</value>

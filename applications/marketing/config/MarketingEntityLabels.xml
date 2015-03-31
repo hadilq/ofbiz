@@ -107,7 +107,7 @@
     <property key="TrackingCodeType.description.EXTERNAL">
         <value xml:lang="en">External</value>
         <value xml:lang="es">Externo</value>
-        <value xml:lang="fa">خارجی</value>
+        <value xml:lang="fa">مستقل</value>
         <value xml:lang="fr">Externe</value>
         <value xml:lang="it">Esterno</value>
         <value xml:lang="ja">外部</value>
@@ -137,7 +137,7 @@
     <property key="TrackingCodeType.description.PARTNER_MGD">
         <value xml:lang="en">Partner Managed</value>
         <value xml:lang="es">Partner</value>
-        <value xml:lang="fa">هویت مدیر‌شده</value>
+        <value xml:lang="fa">شریک مدیر‌شده</value>
         <value xml:lang="fr">Géré par un tiers</value>
         <value xml:lang="it">Gestito da un Partner</value>
         <value xml:lang="ja">パートナー</value>

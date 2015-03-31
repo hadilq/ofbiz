@@ -30,6 +30,7 @@ import java.util.Set;
 import javolution.util.FastList;
 import javolution.util.FastMap;
 
+import org.ofbiz.base.util.Calendar;
 import org.ofbiz.base.util.Debug;
 import org.ofbiz.base.util.UtilDateTime;
 import org.ofbiz.base.util.UtilGenerics;
@@ -51,8 +52,6 @@ import org.ofbiz.service.GenericServiceException;
 import org.ofbiz.service.LocalDispatcher;
 import org.ofbiz.service.ModelService;
 import org.ofbiz.service.ServiceUtil;
-
-import com.ibm.icu.util.Calendar;
 
 /**
  * Services for running MRP
@@ -687,8 +686,8 @@ public class MrpServices {
                         stockTmp = findProductMrpQoh(mrpId, product, facilityId, dispatcher, delegator);
                         try {
                             InventoryEventPlannedServices.createOrUpdateMrpEvent(UtilMisc.<String, Object>toMap("mrpId", mrpId,
-                                    "productId", product.getString("productId"), 
-                                    "mrpEventTypeId", "INITIAL_QOH", "eventDate", now), 
+                                    "productId", product.getString("productId"),
+                                    "mrpEventTypeId", "INITIAL_QOH", "eventDate", now),
                                     stockTmp, facilityId, null, false, delegator);
                         } catch (GenericEntityException e) {
                             return ServiceUtil.returnError(UtilProperties.getMessage(resource, "ManufacturingMrpCreateOrUpdateEvent", UtilMisc.toMap("parameters", parameters), locale));

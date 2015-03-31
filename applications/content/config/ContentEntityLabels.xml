@@ -297,7 +297,7 @@
         <value xml:lang="de">Sekundäres Locale</value>
         <value xml:lang="en">Alternate Locale</value>
         <value xml:lang="es">Ubicación secundaria</value>
-        <value xml:lang="fa">جایگزین محلی</value>
+        <value xml:lang="fa">محل جایگزین</value>
         <value xml:lang="fr">Traduction alternative</value>
         <value xml:lang="it">Locale Alternativo</value>
         <value xml:lang="ja">代替地域</value>
@@ -423,7 +423,7 @@
         <value xml:lang="de">Listeneintrag</value>
         <value xml:lang="en">List Entry</value>
         <value xml:lang="es">Lista de ingreso</value>
-        <value xml:lang="fa">لیست‌کردن نهاد</value>
+        <value xml:lang="fa">لیست‌کردن ورودی</value>
         <value xml:lang="fr">Entrée de liste</value>
         <value xml:lang="it">Lista Voce</value>
         <value xml:lang="ja">エントリ一覧</value>
@@ -439,7 +439,7 @@
         <value xml:lang="de">Link zur Veröffentlichung</value>
         <value xml:lang="en">Publish link</value>
         <value xml:lang="es">Publicar</value>
-        <value xml:lang="fa">منتشرکردن پیوند</value>
+        <value xml:lang="fa">انتشار پیوند</value>
         <value xml:lang="fr">Lien de publication</value>
         <value xml:lang="it">Pubblica link</value>
         <value xml:lang="ja">公開リンク</value>
@@ -678,7 +678,7 @@
         <value xml:lang="de">Inhalt Verwaltung</value>
         <value xml:lang="en">Content Admin</value>
         <value xml:lang="es">A</value>
-        <value xml:lang="fa">محتوای Admin</value>
+        <value xml:lang="fa">محتوای رئیس</value>
         <value xml:lang="fr">Administrateur de contenu</value>
         <value xml:lang="it">Amministra Contenuto</value>
         <value xml:lang="ja">コンテンツ管理</value>
@@ -726,7 +726,7 @@
         <value xml:lang="de">Inhalt löschen</value>
         <value xml:lang="en">Content Delete</value>
         <value xml:lang="es">Borrar contenido</value>
-        <value xml:lang="fa">حذف محتوا</value>
+        <value xml:lang="fa">محتوای پاک‌کردن</value>
         <value xml:lang="fr">Effacer le contenu</value>
         <value xml:lang="it">Cancella Contenuto</value>
         <value xml:lang="ja">コンテンツ削除</value>
@@ -862,7 +862,7 @@
         <value xml:lang="da">Vis kort beskrivelse</value>
         <value xml:lang="de">Kurzbeschreibung anzeigen</value>
         <value xml:lang="en">View Short Desc</value>
-        <value xml:lang="fa">نمای نزولی کوتاه</value>
+        <value xml:lang="fa">نمای شرح کوتاه</value>
         <value xml:lang="fr">Visualisation de description courte</value>
         <value xml:lang="it">Mostra Descrizione Corta</value>
         <value xml:lang="ja">簡単な説明を表示</value>
@@ -1419,7 +1419,7 @@
         <value xml:lang="da">Forum rod udgivelsespunkt</value>
         <value xml:lang="de">Forum Basis Veröffentlichungsort</value>
         <value xml:lang="en">Forum root publish point</value>
-        <value xml:lang="fa">نقطه انتشار ریشه فروم</value>
+        <value xml:lang="fa">نقطه انتشار ریشه انجمن</value>
         <value xml:lang="fr">Racine de publication du forum</value>
         <value xml:lang="it">Radice Forum punto pubblico</value>
         <value xml:lang="ja">フォーラムルート公開場所</value>
@@ -2240,7 +2240,7 @@
         <value xml:lang="de">Seefrachtbrief</value>
         <value xml:lang="en">BILL_OF_LADING</value>
         <value xml:lang="es">Cuenta de carga</value>
-        <value xml:lang="fa">بارنامه</value>
+        <value xml:lang="fa">صورت‌حساب‌کردن بارنامه</value>
         <value xml:lang="fr">Connaissement</value>
         <value xml:lang="it">Polizza di carico</value>
         <value xml:lang="ja">船荷証券(B/L)</value>
@@ -2270,7 +2270,7 @@
         <value xml:lang="de">Verzeichnis</value>
         <value xml:lang="en">MANIFEST</value>
         <value xml:lang="es">Manifiesto</value>
-        <value xml:lang="fa">اعلامیه</value>
+        <value xml:lang="fa">بیانیه</value>
         <value xml:lang="fr">Manifeste</value>
         <value xml:lang="it">Manifesto</value>
         <value xml:lang="ja">マニフェスト</value>
@@ -2284,7 +2284,7 @@
         <value xml:lang="de">Anderes Versanddokument</value>
         <value xml:lang="en">OTHER_SHIP_DOCUMENT</value>
         <value xml:lang="es">Otros documentos de envíos</value>
-        <value xml:lang="fa">سند حمل‌ونقل دیگر</value>
+        <value xml:lang="fa">سند حمل‌کردن دیگر</value>
         <value xml:lang="fr">Autre document expédié</value>
         <value xml:lang="it">Altro documento di spedizione</value>
         <value xml:lang="ja">その他出荷書類</value>
@@ -2732,7 +2732,7 @@
         <value xml:lang="da">Ekstern brødtekst besked</value>
         <value xml:lang="de">External Body Message</value>
         <value xml:lang="en">External Body Message</value>
-        <value xml:lang="fa">متن پیام خارجی</value>
+        <value xml:lang="fa">متن پیام مستقل</value>
         <value xml:lang="fr">Message de corps externe</value>
         <value xml:lang="it">Corpo Messagio Esterno</value>
         <value xml:lang="ja">外部本文メッセージ</value>
@@ -2919,7 +2919,7 @@
         <value xml:lang="da">Related Multipart</value>
         <value xml:lang="de">Related Multipart</value>
         <value xml:lang="en">Related Multipart</value>
-        <value xml:lang="fa">چندبخشی مرتبط</value>
+        <value xml:lang="fa">چندبخشی مربوط</value>
         <value xml:lang="fr">Multipart apparenté</value>
         <value xml:lang="it">Related Multipart</value>
         <value xml:lang="ja">マルチパートリテーテッド</value>
@@ -2961,7 +2961,7 @@
         <value xml:lang="da">Kommasepareret tekstværdi</value>
         <value xml:lang="de">CSV - Comma Separated Value Text</value>
         <value xml:lang="en">Comma Separated Value Text </value>
-        <value xml:lang="fa">متن جدا شده بوسیله ویرگول</value>
+        <value xml:lang="fa">متن جداشده بوسیله ویرگول</value>
         <value xml:lang="fr">Valeur de texte séparée par une virgule (CSV)</value>
         <value xml:lang="it">Valore di testo separati da virgola</value>
         <value xml:lang="ja">CSV - カンマ区切りテキスト</value>
@@ -3064,7 +3064,7 @@
         <value xml:lang="da">Tab separeret værdi tekst</value>
         <value xml:lang="de">Tab Separated Value Text</value>
         <value xml:lang="en">Tab Separated Value Text</value>
-        <value xml:lang="fa">متن جدا شده بوسیله تب</value>
+        <value xml:lang="fa">متن جداشده بوسیله تب</value>
         <value xml:lang="fr">Valeur de texte séparée par une tabulation</value>
         <value xml:lang="it">Tab Separato Valore Testo</value>
         <value xml:lang="ja">タブ区切りテキスト</value>
@@ -3089,7 +3089,7 @@
     <property key="MimeType.description.text/x-vcard">
         <value xml:lang="da">eletronisk visitkort</value>
         <value xml:lang="en">electronic business card</value>
-        <value xml:lang="fa">کارت تجاری الکترونیک</value>
+        <value xml:lang="fa">کارت کسب‌وکار الکترونیک</value>
         <value xml:lang="it">carta business elettronica</value>
         <value xml:lang="ja">vCard 電子名刺</value>
         <value xml:lang="pt">cartão de visita eletrônico</value>
@@ -3225,7 +3225,7 @@
         <value xml:lang="de">Zum Warenkorb hinzufügen</value>
         <value xml:lang="en">Add-To Cart</value>
         <value xml:lang="es">Añadir al carro</value>
-        <value xml:lang="fa">اضافه‌کردن به کارت</value>
+        <value xml:lang="fa">اضافه‌کردن به سبد</value>
         <value xml:lang="fr">Ajouter au panier</value>
         <value xml:lang="it">Aggiungi Al Carrello</value>
         <value xml:lang="ja">買い物かごに追加</value>
@@ -3369,7 +3369,7 @@
         <value xml:lang="de">Inhalt Datensatz</value>
         <value xml:lang="en">Content Record</value>
         <value xml:lang="es">Contenido</value>
-        <value xml:lang="fa">گزارش محتوا</value>
+        <value xml:lang="fa">سابقه محتوا</value>
         <value xml:lang="fr">Enregistrement de contenu</value>
         <value xml:lang="it">Record Contenuto</value>
         <value xml:lang="ja">内容記録</value>
@@ -3694,7 +3694,7 @@
     </property>
     <property key="WebSiteContentType.description.FORUM_ROOT">
         <value xml:lang="en">Forum Root</value>
-        <value xml:lang="fa">ریشه فروم</value>
+        <value xml:lang="fa">ریشه انجمن</value>
         <value xml:lang="fr">Racine du forum</value>
         <value xml:lang="ja">フォーラムルート</value>
         <value xml:lang="pt">Raiz do Fórum</value>

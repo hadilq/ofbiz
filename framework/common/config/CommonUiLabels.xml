@@ -150,7 +150,7 @@
     <property key="CatalogComponentDescription">
         <value xml:lang="cs">Správa katalogu produktů, Kategorií, Produktů, Cenových pravidel, Akcí, Obchodu</value>
         <value xml:lang="en">Product Catalog management, Categories, Product, Price rules, Promotions, Product Store</value>
-        <value xml:lang="fa">مدیر رده‌بندی کالاها، دسته‌بندی‌ها، محصول، قواعد قیمت، تبلیغات، انبار محصول</value>
+        <value xml:lang="fa">مدیریت رده‌بندی کالاها، دسته‌بندی‌ها، محصول، قواعد قیمت، تبلیغات، انبار محصول</value>
         <value xml:lang="fr">Gestion des catalogues, Catégories, Articles, Promotions, Règles de prix, Centres de profit </value>
         <value xml:lang="ja">製品カタログ管理、カテゴリ、製品、価格ルール、プロモーション、製品店舗</value>
         <value xml:lang="ru">Каталог управления товарами, Категории, Товар, Цены, Акции, Магазин</value>
@@ -299,7 +299,7 @@
         <value xml:lang="cs">Přidání nového sloupce do portálu</value>
         <value xml:lang="en">Add a new column to this portal</value>
         <value xml:lang="es">Añadir nueva columna a este portal</value>
-        <value xml:lang="fa">اضافه‌کردن یک ستون به این پورتال</value>
+        <value xml:lang="fa">اضافه‌کردن یک ستون جدید به این پورتال</value>
         <value xml:lang="fr">Ajouter une nouvelle colonne à ce portail</value>
         <value xml:lang="it">Aggiunge una nuova colonna a questa pagina</value>
         <value xml:lang="ja">このポータルに新規項目を追加</value>
@@ -1130,7 +1130,7 @@
         <value xml:lang="cs">Autorizovat</value>
         <value xml:lang="en">Authorise</value>
         <value xml:lang="es">Autorizar</value>
-        <value xml:lang="fa">اعتبار‌دادن</value>
+        <value xml:lang="fa">اعتباردادن</value>
         <value xml:lang="fr">Autoriser</value>
         <value xml:lang="ja">許可</value>
         <value xml:lang="ru">Авторизация</value>
@@ -1141,7 +1141,7 @@
         <value xml:lang="cs">Unikátní ID - automaticky přiřazeno pokud je prázdné</value>
         <value xml:lang="en">Unique ID - auto-assigned if blank</value>
         <value xml:lang="es">Código único - asignado automáticamente si se deja en blanco</value>
-        <value xml:lang="fa">آی‌دی یکتا - اگر خالی باشد به صورت خودکار منتسب خواهد شد</value>
+        <value xml:lang="fa">آی‌دی یکتا - اگر خالی باشد به‌صورت خودکار-منتسب‌شده</value>
         <value xml:lang="fr">Réf. unique - générée automatiquement si vide</value>
         <value xml:lang="hi-IN">अद्वितीय क्रमांक - यदि खाली है, आपही सौंपा दिया जाएगा</value>
         <value xml:lang="it">Codice univoco - assegnato automaticamente se lasciato vuoto</value>
@@ -1557,7 +1557,7 @@
         <value xml:lang="cs">Kód captcha</value>
         <value xml:lang="en">Captcha Code</value>
         <value xml:lang="es">Código captcha</value>
-        <value xml:lang="fa">کد رمز</value>
+        <value xml:lang="fa">کد امنیتی</value>
         <value xml:lang="fr">Code captcha</value>
         <value xml:lang="ja">キャプチャコード</value>
         <value xml:lang="pt-BR">Código Captcha</value>
@@ -1670,7 +1670,7 @@
         <value xml:lang="de">Bestellung ohne Login</value>
         <value xml:lang="en">Checkout Without Login</value>
         <value xml:lang="es">Checkout anónimo</value>
-        <value xml:lang="fa">چک‌کردن بدون واردشدن</value>
+        <value xml:lang="fa">چک‌کردن بدون ورود</value>
         <value xml:lang="fr">Validation en anonyme</value>
         <value xml:lang="hi-IN">लॉगिन के बिना चेकआउट</value>
         <value xml:lang="it">Checkout senza login</value>
@@ -3367,7 +3367,7 @@
         <value xml:lang="cs">Parametr sendVia je požadován, když sendType není mail.smtp.host</value>
         <value xml:lang="en">Parameter sendVia is required when sendType is not mail.smtp.host</value>
         <value xml:lang="es">El parámetro sendVia debe indicarse cuando sendType no es mail.smtp.host</value>
-        <value xml:lang="fa">پارامتر sendVia الزامیست زمانی که sendType، mail.smtp.host نیست</value>
+        <value xml:lang="fa">پارامتر «فرستادن بوسیله» لازم‌‌شده است زمانی‌که «نوع فرستادن» mail.smtp.host نیست</value>
         <value xml:lang="fr">Le paramêtre sendVia est requis lorsque sendType n'est pas mail.smtp.host</value>
         <value xml:lang="it">Parametro sendVia è richiesto quando sendType non è mail.smtp.host</value>
         <value xml:lang="ja">sendTypeがmail.smtp.hostでない時、sendViaパラメータは必須です。</value>
@@ -3773,7 +3773,7 @@
         <value xml:lang="de">Ausschliessen</value>
         <value xml:lang="en">Exclude</value>
         <value xml:lang="es">Excluir</value>
-        <value xml:lang="fa">به استثناء</value>
+        <value xml:lang="fa">به‌استثناء</value>
         <value xml:lang="fr">Exclure</value>
         <value xml:lang="hi-IN">छोड़ देना</value>
         <value xml:lang="it">Escludi</value>
@@ -4531,7 +4531,7 @@
         <value xml:lang="de">Frame Warnung</value>
         <value xml:lang="en">Frame Alert</value>
         <value xml:lang="es">Alerta de Frame</value>
-        <value xml:lang="fa">اخطار فریم</value>
+        <value xml:lang="fa">اخطار قاب</value>
         <value xml:lang="fr">Alerte de frame</value>
         <value xml:lang="hi-IN">फ़्रेम चेतावनी</value>
         <value xml:lang="it">Avviso frame</value>
@@ -4550,7 +4550,7 @@
         <value xml:lang="de">Dieses Dokument wurde mit Frames erstellt. Falls Sie diese Meldung sehen, unterstützt Ihr Web-Browser keine Frames.</value>
         <value xml:lang="en">This document is designed to be viewed using the frames feature. If you see this message, you are using a non-frame-capable web client.</value>
         <value xml:lang="es">Debe habilitar frames para ver este documento.</value>
-        <value xml:lang="fa">این سند ساخته شده تا بوسیله افزونه فریم‌ها نمایش داده شود. اگر شما این پیام را می‌بینید از مرورگری که این ویژگی را پشتیبانی نمی‌کند استفاده می‌کنید.</value>
+        <value xml:lang="fa">این سند ساخته شده تا بوسیله افزونه قاب‌ها نمایش داده شود. اگر شما این پیام را می‌بینید از مرورگری که این ویژگی را پشتیبانی نمی‌کند استفاده می‌کنید.</value>
         <value xml:lang="fr">Ce document est conçu pour être vu en utilisant les frames. Si vous voyez ce message, vous utilisez un navigateur un frame ne gérant pas les frames</value>
         <value xml:lang="hi-IN">इस दस्तावेज को फ़्रेम फीचर्स का उपयोग देखने के लिए बनाया गया है! यदि आप इस संदेश को देखे, आप एक गैर फ्रेम-सक्षम वेब ग्राहक का उपयोग कर रहे हैं</value>
         <value xml:lang="it">Questo documento è disegnato per essere visualizzato usando i frames. Se vedi questo messaggio, tu stai usando un client web senza capacità frame.</value>
@@ -4656,7 +4656,7 @@
         <value xml:lang="de">'Von Datum' fehlt</value>
         <value xml:lang="en">From Date is missing</value>
         <value xml:lang="es">Falta la fecha de inicio</value>
-        <value xml:lang="fa">«از تاریخ» ازدست‌رفته</value>
+        <value xml:lang="fa">«از تاریخ» فراموش‌شده‌است</value>
         <value xml:lang="fr">Date de début absente</value>
         <value xml:lang="hi-IN">'दिनांक से' गायब है</value>
         <value xml:lang="it">Dalla data è mancante</value>
@@ -4818,7 +4818,7 @@
         <value xml:lang="de">Sicherheitsfehler: Um ${resourceDescription} auszuführen, müssen Sie eine der folgenden Berechtigungen besitzen: ${primaryPermission}_${mainAction}, ${primaryPermission}_ADMIN${altPermissionList}</value>
         <value xml:lang="en">Security Error: To run ${resourceDescription} you must have the one of the following permissions: ${primaryPermission}_${mainAction}, ${primaryPermission}_ADMIN${altPermissionList}</value>
         <value xml:lang="es">Error de seguridad: Para ejecutar ${resourceDescription} debe tener uno de los siguientes permisos: ${primaryPermission}_${mainAction}, ${primaryPermission}_ADMIN${altPermissionList}</value>
-        <value xml:lang="fa">خطای امنیتی: برای اجراء ${resourceDescription} شما باید یکی از مجوزهای پیشرو را داشته‌‌باشید: ${primaryPermission}_${mainAction}, ${primaryPermission}_ADMIN${altPermissionList}</value>
+        <value xml:lang="fa">خطای امنیتی: برای اجراء ${resourceDescription} شما باید یکی از اجازه‌های پیشرو را داشته‌‌باشید: ${primaryPermission}_${mainAction}, ${primaryPermission}_ADMIN${altPermissionList}</value>
         <value xml:lang="fr">Erreur de sécurité : pour exécuter ${resourceDescription} vous devez avoir une des autorisations suivantes : ${primaryPermission}_${mainAction}, ${primaryPermission}_ADMIN${altPermissionList}</value>
         <value xml:lang="hi-IN">सुरक्षा त्रुटि: ${resourceDescription} चलाने के लिए आप के पास निम्न में से एक अनुमतियाँ हो: ${primaryPermission}_${mainAction}, ${primaryPermission}_ADMIN${altPermissionList}</value>
         <value xml:lang="it">Errore sicurezza: per eseguire ${resourceDescription} tu devi avere uno dei seguenti permessi: ${primaryPermission}_${mainAction}, ${primaryPermission}_ADMIN${altPermissionList}</value>
@@ -5039,7 +5039,7 @@
         <value xml:lang="de">Passwort Hinweis</value>
         <value xml:lang="en">Get Password Hint</value>
         <value xml:lang="es">Obtener pista de clave</value>
-        <value xml:lang="fa">گرفتن «اشاره‌ به»ی گذرواژه</value>
+        <value xml:lang="fa">گرفتن «اشاره‌به»ی گذرواژه</value>
         <value xml:lang="fr">Voir votre aide pour le mot de passe</value>
         <value xml:lang="hi-IN">पासवर्ड सुझाव पाएँ</value>
         <value xml:lang="it">Suggerisci password</value>
@@ -5207,7 +5207,7 @@
         <value xml:lang="de">Halten</value>
         <value xml:lang="en">Held</value>
         <value xml:lang="es">Retenido</value>
-        <value xml:lang="fa">نگه‌داشتن</value>
+        <value xml:lang="fa">نگهداشته‌شده</value>
         <value xml:lang="fr">Retenir</value>
         <value xml:lang="hi-IN">पकड़ा</value>
         <value xml:lang="it">Congelati</value>
@@ -5981,7 +5981,7 @@
         <value xml:lang="de">Zeile</value>
         <value xml:lang="en">Line</value>
         <value xml:lang="es">Línea</value>
-        <value xml:lang="fa">خط</value>
+        <value xml:lang="fa">صف</value>
         <value xml:lang="fr">Ligne</value>
         <value xml:lang="hi-IN">रेखा</value>
         <value xml:lang="it">Riga</value>
@@ -6235,7 +6235,7 @@
         <value xml:lang="cs">Vyhledat lokalizaci</value>
         <value xml:lang="en">Lookup Locale</value>
         <value xml:lang="es">Buscar Locale</value>
-        <value xml:lang="fa">جستجو به‌صورت محلی</value>
+        <value xml:lang="fa">جستجوی محل</value>
         <value xml:lang="fr">Recherche langue</value>
         <value xml:lang="ja">地域を検索</value>
         <value xml:lang="ru">Поиск местности</value>
@@ -6858,7 +6858,7 @@
         <value xml:lang="de">Portlet an die Unterkante verschieben</value>
         <value xml:lang="en">Move Portlet at the Bottom</value>
         <value xml:lang="es">Mover el Portlet abajo del todo</value>
-        <value xml:lang="fa">پرتلت را روی کف بکش</value>
+        <value xml:lang="fa">پورتلت را روی کف بکش</value>
         <value xml:lang="fr">Déplacer le portlet tout en bas</value>
         <value xml:lang="hi-IN">Portlet को तल पर स्थानांतरित करे</value>
         <value xml:lang="it">Sposta il portlet in fondo</value>
@@ -6874,7 +6874,7 @@
         <value xml:lang="de">Portlet nach unten schieben</value>
         <value xml:lang="en">Move Portlet Down</value>
         <value xml:lang="es">Mover el Portlet hacia abajo</value>
-        <value xml:lang="fa">پرتلت را پایین بکش</value>
+        <value xml:lang="fa">پورتلت را پایین بکش</value>
         <value xml:lang="fr">Déplacer le portlet en bas</value>
         <value xml:lang="hi-IN">Portlet नीचे ले जाएँ</value>
         <value xml:lang="it">Sposta il portlet in basso</value>
@@ -6890,7 +6890,7 @@
         <value xml:lang="de">Portlet nach links schieben</value>
         <value xml:lang="en">Move Portlet Left</value>
         <value xml:lang="es">Mover el Portlet hacia la izquierda</value>
-        <value xml:lang="fa">پرتلت را به چپ بکش</value>
+        <value xml:lang="fa">پورتلت را به چپ بکش</value>
         <value xml:lang="fr">Déplacer le portlet à gauche</value>
         <value xml:lang="hi-IN">Portlet बाएं ले जाएँ</value>
         <value xml:lang="it">Sposta il portlet a sinistra</value>
@@ -6906,7 +6906,7 @@
         <value xml:lang="de">Portlet nach rechts schieben</value>
         <value xml:lang="en">Move Portlet Right</value>
         <value xml:lang="es">Mover el Portlet hacia la derecha</value>
-        <value xml:lang="fa">پرتلت را به راست بکش</value>
+        <value xml:lang="fa">پورتلت را به راست بکش</value>
         <value xml:lang="fr">Déplacer le portlet à droite</value>
         <value xml:lang="hi-IN">Portlet दाएं ले जाएँ</value>
         <value xml:lang="it">Sposta il portlet a destra</value>
@@ -6922,7 +6922,7 @@
         <value xml:lang="de">Portlet an die Oberkante verschieben</value>
         <value xml:lang="en">Move Portlet at the Top</value>
         <value xml:lang="es">Mover el Portlet arriba del todo</value>
-        <value xml:lang="fa">پرتلت را روی سقف بکش</value>
+        <value xml:lang="fa">پورتلت را روی سقف بکش</value>
         <value xml:lang="fr">Déplacer le portlet tout en haut</value>
         <value xml:lang="hi-IN">Portlet शीर्ष पर ले जाएँ</value>
         <value xml:lang="it">Sposta il portlet in cima</value>
@@ -6954,7 +6954,7 @@
         <value xml:lang="de">Auf die Portalseite verschieben...</value>
         <value xml:lang="en">Move to Portal Page...</value>
         <value xml:lang="es">Mover a la página del portal...</value>
-        <value xml:lang="fa">ببر به صفحه پرتلت...</value>
+        <value xml:lang="fa">ببر به صفحه پورتلت...</value>
         <value xml:lang="fr">Aller à la page "portail"</value>
         <value xml:lang="hi-IN">Portlet में ले जाएँ</value>
         <value xml:lang="it">Sposta nella pagina...</value>
@@ -7146,7 +7146,7 @@
         <value xml:lang="de">Neue Portalseite</value>
         <value xml:lang="en">New Portal Page</value>
         <value xml:lang="es">Nueva página del portal</value>
-        <value xml:lang="fa">صفحه پرتال جدید</value>
+        <value xml:lang="fa">صفحه پورتال جدید</value>
         <value xml:lang="fr">Nouvelle page portail</value>
         <value xml:lang="it">Nuova pagina portale</value>
         <value xml:lang="ja">新規ポータルページ</value>
@@ -7248,7 +7248,7 @@
         <value xml:lang="de">Sie haben keine Berechtigung für diese Fumktion; falls Sie dies für einen Fehler halten, wenden Sie sich an Ihren Systemadministrator</value>
         <value xml:lang="en">No Access to this function, contact your system administrator if you feel this is an error</value>
         <value xml:lang="es">Acceso no autorizado. Póngase en contacto con su administrador de sistemas si piensa que esto es un error.</value>
-        <value xml:lang="fa">شما به این تابع دسترسی ندارید، با مسئول مربوطه تماس بگیرید اگر فکر می‌کنید این یک خطاست</value>
+        <value xml:lang="fa">شما به این تابع دسترسی ندارید، با رئیس سیستم‌تان تماس بگیرید اگر فکر می‌کنید این یک خطاست</value>
         <value xml:lang="fr">L'accès à cette fonction ne vous est pas autorisé, contactez votre administrateur système si vous pensez que c'est une erreur.</value>
         <value xml:lang="hi-IN">इस फंक्शन पर पहुँच उपलब्ध नहीं है, अगर आप को यह एक त्रुटि महसूस हो रही है तो अपने सिस्टम व्यवस्थापक से संपर्क करें</value>
         <value xml:lang="it">Nessun accesso a questa funzione, contattare l'amministratore di sistema se pensi che sia un'errore</value>
@@ -7447,7 +7447,7 @@
         <value xml:lang="de">Bitte wählen Sie erneut eine neue Kategorie. Keine Portlets in dieser Kategorie.</value>
         <value xml:lang="en">Please, choose new category again, No portlet in this category.</value>
         <value xml:lang="es">No hay portlets en esta categoría, escoja nuevamente otra categoría.</value>
-        <value xml:lang="fa">لطفا یک دسته‌بندی جدید انتخاب‌کنید، هیچ پرتلتی در این دسته‌بندی نیست</value>
+        <value xml:lang="fa">لطفا یک دسته‌بندی جدید انتخاب‌کنید، هیچ پورتلتی در این دسته‌بندی نیست</value>
         <value xml:lang="fr">Aucune portlet n'est présente dans cette catégorie</value>
         <value xml:lang="it">Nessun portlet in questa categoria.</value>
         <value xml:lang="ja">再度新規カテゴリを選択してください、カテゴリにポートレットはありません。</value>
@@ -8552,7 +8552,7 @@
         <value xml:lang="de">Berechtigungsfehler</value>
         <value xml:lang="en">Permission Error</value>
         <value xml:lang="es">Error de permisos de acceso</value>
-        <value xml:lang="fa">خطا در مجوز</value>
+        <value xml:lang="fa">خطا در اجازه</value>
         <value xml:lang="fr">Erreur de droits d'accès, autorisations insuffisantes</value>
         <value xml:lang="hi-IN">अनुमति त्रुटि</value>
         <value xml:lang="it">Errore permesso</value>
@@ -8572,7 +8572,7 @@
         <value xml:lang="de">Sicherheitsfehler: Um ${resourceDescription} auszuführen müssen Sie eine der folgenden Berechtigungen besitzen:   EXAMPLE_${mainAction} EXAMPLE_ADMIN</value>
         <value xml:lang="en">Error  Security: To run ${resourceDescription}  you must have the one of the following permissions:   EXAMPLE_${mainAction} EXAMPLE_ADMIN</value>
         <value xml:lang="es">Error de seguridad: Para ejecutar ${resourceDescription} debe disponer de alguno de estos permisos EXAMPLE_${mainAction} EXAMPLE_ADMIN</value>
-        <value xml:lang="fa">خطا امنیتی: برای اجراء ${resourceDescription} شما باید یکی از اجازه‌های پیشرو را داشته باشید:   EXAMPLE_${mainAction} EXAMPLE_ADMIN</value>
+        <value xml:lang="fa">خطای امنیتی: برای اجراء ${resourceDescription} شما باید یکی از اجازه‌های پیشرو را داشته‌باشید:   EXAMPLE_${mainAction} EXAMPLE_ADMIN</value>
         <value xml:lang="fr">Erreur de sécurité : pour exécuter ${resourceDescription} vous devez avoir les autorisations suivantes :   EXAMPLE_${mainAction} EXAMPLE_ADMIN</value>
         <value xml:lang="hi-IN">सुरक्षा त्रुटि: ${resourceDescription} चलाने के लिए आप के पास निम्न में से एक अनुमतियाँ हो: EXAMPLE_${mainAction} EXAMPLE_ADMIN</value>
         <value xml:lang="it">Errore sicurezza: per eseguire ${resourceDescription}  tu devi avere uno dei seguenti permessi:   EXAMPLE_${mainAction} EXAMPLE_ADMIN</value>
@@ -8590,7 +8590,7 @@
         <value xml:lang="de">Der main-action Parameter fehlt!</value>
         <value xml:lang="en">Permission main-action parameter missing!</value>
         <value xml:lang="es">Falta el parámetro de la acción principal (main-action).</value>
-        <value xml:lang="fa">پارامتر کنش-اصلی اجازه گم شده است!</value>
+        <value xml:lang="fa">پارامتر کنش-اصلی اجازه فراموش‌شده‌است!</value>
         <value xml:lang="fr">Le paramètre d'autorisation d'action principale manque !</value>
         <value xml:lang="it">Parametro permesso mancante!</value>
         <value xml:lang="ja">主処理パラメータの権限が正しくありません</value>
@@ -8662,7 +8662,7 @@
         <value xml:lang="de">Die Verbindung zur Datenquelle kann nicht aufgebaut werden!</value>
         <value xml:lang="en">Unable to connect to datasource!</value>
         <value xml:lang="es">No se puede conectar a la fuente de datos!</value>
-        <value xml:lang="fa">نمی‌توان با «منبع داده» ارتباط برقرارکرد!</value>
+        <value xml:lang="fa">نمی‌توان با «منبع داده» اتصال برقرارکرد!</value>
         <value xml:lang="fr">Impossible de se connecter à la source de données</value>
         <value xml:lang="it">Non è possibile connettersi al datasource!</value>
         <value xml:lang="ja">データソースに接続できません!</value>
@@ -8688,7 +8688,7 @@
         <value xml:lang="de">Bitte eine gültige Zahl in dieses Feld eingeben.</value>
         <value xml:lang="en">Please enter a valid number in this field.</value>
         <value xml:lang="es">Por favor, introduzca un número válido en este campo.</value>
-        <value xml:lang="fa">لطفا عددی معتبر در این بخش وارد کنید.</value>
+        <value xml:lang="fa">لطفا شماره معتبر در این بخش وارد کنید.</value>
         <value xml:lang="fr">SVP, entrer un nombre valide pour ce champ.</value>
         <value xml:lang="ja">正しい数字を入力してください。</value>
         <value xml:lang="pt-BR">Por favor insira um número válido neste campo.</value>
@@ -8783,7 +8783,7 @@
         <value xml:lang="de">Neue Portalseite hinzufügen</value>
         <value xml:lang="en">Add a new portal Page</value>
         <value xml:lang="es">Añadir una nueva página del portal</value>
-        <value xml:lang="fa">اضافه‌کردن یک صفحه پورتال</value>
+        <value xml:lang="fa">اضافه‌کردن یک صفحه پورتال جدید</value>
         <value xml:lang="fr">Ajouter une nouvelle page portail</value>
         <value xml:lang="hi-IN">एक नया पोर्टल पेज जोड़ें</value>
         <value xml:lang="it">Aggiungi una nuova pagina portale</value>
@@ -9704,7 +9704,7 @@
         <value xml:lang="de">Portlet entfernen</value>
         <value xml:lang="en">Remove Portlet</value>
         <value xml:lang="es">Eliminar portlet</value>
-        <value xml:lang="fa">حذف پرتلت</value>
+        <value xml:lang="fa">حذف پورتلت</value>
         <value xml:lang="fr">Supprimer le portlet</value>
         <value xml:lang="hi-IN">Portlet हटाये</value>
         <value xml:lang="it">Rimuovi il portlet</value>
@@ -10324,7 +10324,7 @@
         <value xml:lang="de">Portalseite auswählen...</value>
         <value xml:lang="en">Select Portal Page...</value>
         <value xml:lang="es">Seleccione página del portal...</value>
-        <value xml:lang="fa">انتخاب صفحه پرتال ...</value>
+        <value xml:lang="fa">انتخاب صفحه پورتال ...</value>
         <value xml:lang="fr">Sélectionnez la page du portail...</value>
         <value xml:lang="hi-IN">पोर्टल पेज चुनें</value>
         <value xml:lang="it">Seleziona pagina...</value>
@@ -10340,7 +10340,7 @@
         <value xml:lang="de">Wählen Sie ein Portlet aus, an dem Sie mitarbeiten wollen....</value>
         <value xml:lang="en">Select a portlet you would like to have help on....</value>
         <value xml:lang="es">Seleccione un portlet del que desee obtener ayuda....</value>
-        <value xml:lang="fa">پرتالی را که می‌خواهید کمک‌شوید را انتخاب نمایید</value>
+        <value xml:lang="fa">پورتلتی را که می‌خواهید کمک‌شوید را انتخاب نمایید</value>
         <value xml:lang="fr">Liste des portlets contenues dans cette page, sélectionnez celle pour laquelle vous souhaitez de l'aide</value>
         <value xml:lang="ja">ヘルプを参照したいポートレットを選択してください....</value>
         <value xml:lang="ru">Выберите портлет, который вам может помочь</value>
@@ -10710,7 +10710,7 @@
         <value xml:lang="de">Warenkorb</value>
         <value xml:lang="en">ShoppingCart</value>
         <value xml:lang="es">Cesta de la compra</value>
-        <value xml:lang="fa">کارت خریدکردن</value>
+        <value xml:lang="fa">سبد خرید</value>
         <value xml:lang="fr">Panier</value>
         <value xml:lang="hi-IN">शॉपिंगकार्ट</value>
         <value xml:lang="it">Carrello</value>
@@ -10771,7 +10771,7 @@
         <value xml:lang="de">Alle Datensätze anzeigen</value>
         <value xml:lang="en">Show all records</value>
         <value xml:lang="es">Mostrar todos los registros</value>
-        <value xml:lang="fa">نمایش همه گزارشات</value>
+        <value xml:lang="fa">نمایش همه سوابق</value>
         <value xml:lang="fr">Montrer tous les enregistrements</value>
         <value xml:lang="hi-IN">सभी रिकॉर्ड दिखाएँ</value>
         <value xml:lang="it">Mostra tutti i records</value>
@@ -12071,7 +12071,7 @@
         <value xml:lang="de">Gesamtwert</value>
         <value xml:lang="en">Total Value</value>
         <value xml:lang="es">Valor total</value>
-        <value xml:lang="fa">مقدار مجموع</value>
+        <value xml:lang="fa">ارزش مجموع</value>
         <value xml:lang="fr">Valeur totale</value>
         <value xml:lang="hi-IN">कुल मूल्य</value>
         <value xml:lang="it">Valore totale</value>
@@ -12496,7 +12496,7 @@
         <value xml:lang="de">Nutzername</value>
         <value xml:lang="en">User Name</value>
         <value xml:lang="es">Nombre de usuario</value>
-        <value xml:lang="fa">نام کاربر</value>
+        <value xml:lang="fa">نام‌کاربر</value>
         <value xml:lang="fr">Nom de l'utilisateur</value>
         <value xml:lang="hi-IN">उपयोगकर्ता का नाम</value>
         <value xml:lang="it">Nome utente</value>
@@ -12606,7 +12606,7 @@
         <value xml:lang="de">Wert</value>
         <value xml:lang="en">Value</value>
         <value xml:lang="es">Valor</value>
-        <value xml:lang="fa">مقدار</value>
+        <value xml:lang="fa">ارزش</value>
         <value xml:lang="fr">Valeur</value>
         <value xml:lang="hi-IN">मूल्य</value>
         <value xml:lang="it">Valore</value>
@@ -12773,7 +12773,7 @@
         <value xml:lang="de">In der Layoutvorlage wurde ein ungültiger Ressourcen-Satz gefunden: visualThemeId = ${visualThemeId}, resourceTypeEnumId = ${resourceTypeEnumId}.</value>
         <value xml:lang="en">Invalid Visual Theme resource record found: visualThemeId = ${visualThemeId}, resourceTypeEnumId = ${resourceTypeEnumId}.</value>
         <value xml:lang="es">Se ha encontrado una entrada inválida de tema visual: visualThemeId = ${visualThemeId}, resourceTypeEnumId = ${resourceTypeEnumId}.</value>
-        <value xml:lang="fa">گزارش منبع تم مجازی نامعتبر پیدا شد: visualThemeId = ${visualThemeId}, resourceTypeEnumId = ${resourceTypeEnumId}.</value>
+        <value xml:lang="fa">سابقه منبع تم مجازی نامعتبر پیدا شد: visualThemeId = ${visualThemeId}, resourceTypeEnumId = ${resourceTypeEnumId}.</value>
         <value xml:lang="fr">Ressource de charte graphique trouvée non valable : visualThemeId = ${visualThemeId}, resourceTypeEnumId = ${resourceTypeEnumId}.</value>
         <value xml:lang="hi-IN">अवैध दृश्य शैली संसाधन रिकॉर्ड मिला: visualThemeId = ${visualThemeId}, resourceTypeEnumId = ${resourceTypeEnumId}.</value>
         <value xml:lang="it">Risorsa tema grafico non trovato: visualThemeId = ${visualThemeId}, resourceTypeEnumId = ${resourceTypeEnumId}.</value>
@@ -13074,7 +13074,7 @@
         <value xml:lang="de">Dem Nutzer zugeordnete Workflow-Aktivitäten</value>
         <value xml:lang="en">Workflow Activities Assigned to User</value>
         <value xml:lang="es">Actividades de flujo de trabajo asignadas al usuario</value>
-        <value xml:lang="fa">فعالیت‌های گردش‌کار به کاربر واگذار شده</value>
+        <value xml:lang="fa">فعالیت‌های گردش‌کار به کاربر منتسب‌شده</value>
         <value xml:lang="fr">Actions du workflow associés à l'utilisateur</value>
         <value xml:lang="hi-IN">वर्कफ़्लो क्रियाएँ उपयोगकर्ता को निरुपित</value>
         <value xml:lang="it">Attività impegno di lavoro assegnate all'utente</value>
@@ -13496,7 +13496,7 @@
     <property key="FacilityComponentDescription">
         <value xml:lang="cs">Správa skladu, lokalit, dodávek, dodacích listů</value>
         <value xml:lang="en">Inventory management, Facility, location, Shipment, Receipt, Physical Inventory</value>
-        <value xml:lang="fa">مدیر موجودی‌کالاها، تسهیلات، مکان، محموله، رسید موجودی‌کالاهای فیزیکی</value>
+        <value xml:lang="fa">مدیریت موجودی‌کالاها، تسهیلات، مکان، محموله، رسید موجودی‌کالاهای فیزیکی</value>
         <value xml:lang="fr">Gestion des stocks, lieux de stockage, emplacement, expédition, réception, inventaire</value>
         <value xml:lang="ja">在庫管理、拠点、位置、発送、受領、物理在庫</value>
         <value xml:lang="ru">Управление инвентарем, объект, местность, отправление, получение, переучет</value>
@@ -13603,7 +13603,7 @@
         <value xml:lang="de">Attributnamen</value>
         <value xml:lang="en">Attr Name</value>
         <value xml:lang="es">Nombre de atributo</value>
-        <value xml:lang="fa">نام خواص</value>
+        <value xml:lang="fa">نام خاصیت</value>
         <value xml:lang="fr">Nom d'attribut</value>
         <value xml:lang="hi-IN">Attr नाम</value>
         <value xml:lang="it">Nome attributo</value>
@@ -13623,7 +13623,7 @@
         <value xml:lang="de">Attributwert</value>
         <value xml:lang="en">Attr Value</value>
         <value xml:lang="es">Valor de atributo</value>
-        <value xml:lang="fa">مقدار خواص</value>
+        <value xml:lang="fa">مقدار خاصیت</value>
         <value xml:lang="fr">Valeur d'attribut</value>
         <value xml:lang="hi-IN">Attr मूल्य</value>
         <value xml:lang="it">Valore attributo</value>
@@ -13783,7 +13783,7 @@
         <value xml:lang="de">Erstellungsdatum</value>
         <value xml:lang="en">Created Date</value>
         <value xml:lang="es">Fecha de creación</value>
-        <value xml:lang="fa">تاریخ ساخته‌شدن</value>
+        <value xml:lang="fa">تاریخ ساخته‌شده</value>
         <value xml:lang="fr">Date de création</value>
         <value xml:lang="hi-IN">निर्मित दिनांक</value>
         <value xml:lang="it">Data creazione</value>
@@ -14082,7 +14082,7 @@
         <value xml:lang="de">Zuletzt geändert von Benutzer</value>
         <value xml:lang="en">Last Modified By User Login</value>
         <value xml:lang="es">Última modificación por usuario</value>
-        <value xml:lang="fa">آخرین تغییرات بوسیله ورود کاربر</value>
+        <value xml:lang="fa">آخرین‌بار اصلاح‌شده بوسیله ورود کاربر</value>
         <value xml:lang="fr">Modification en dernier par l'identifiant de connexion</value>
         <value xml:lang="hi-IN">उपयोगकर्ता लॉगिन द्वारा अंतिम बार संशोधित</value>
         <value xml:lang="it">Ultima modifica dell'utente</value>
@@ -14102,7 +14102,7 @@
         <value xml:lang="de">Letztes Bearbeitungsdatum</value>
         <value xml:lang="en">Last Modified Date</value>
         <value xml:lang="es">Última fecha de modificación</value>
-        <value xml:lang="fa">آخرین تاریخ تغییر</value>
+        <value xml:lang="fa">آخرین تاریخ اصلاح‌شده</value>
         <value xml:lang="fr">Dernière date de modification</value>
         <value xml:lang="hi-IN">अंतिम बार संशोधित दिनांक</value>
         <value xml:lang="it">Data ultima modifica</value>
@@ -14121,7 +14121,7 @@
         <value xml:lang="de">Zeitpunkt der letzten Aktualisierung</value>
         <value xml:lang="en">Last Updated Tx Stamp</value>
         <value xml:lang="es">Última fecha modificación Tx</value>
-        <value xml:lang="fa">آخرین بروزرسانی مهر مالیات</value>
+        <value xml:lang="fa">آخرین بروزرسانی مهر ‌مالیات</value>
         <value xml:lang="fr">Dernière mise à jour d'estampille temporelle de transaction créée</value>
         <value xml:lang="hi-IN">अंतिम बार अद्यतित TX स्टाम्प</value>
         <value xml:lang="it">Ultimo aggiornamento data/ora</value>
@@ -14243,7 +14243,7 @@
         <value xml:lang="de">Portaseitenname</value>
         <value xml:lang="en">Portal page name</value>
         <value xml:lang="es">Nombre de la página del portal</value>
-        <value xml:lang="fa">نام صفحه پرتال</value>
+        <value xml:lang="fa">نام صفحه پورتال</value>
         <value xml:lang="fr">Nom de page</value>
         <value xml:lang="it">Nome pagina portale</value>
         <value xml:lang="ja">ポータルページ名称</value>
@@ -14774,7 +14774,7 @@
     <property key="OrderComponentDescription">
         <value xml:lang="cs">Správa objednávek, požadavků zákazníků, nabídej a jejich statistika</value>
         <value xml:lang="en">Sales Order management, Purchase order, Customer request, Requirement, Quote, Statistics</value>
-        <value xml:lang="fa">مدیر سفارش فروش، سفارشات خرید، درخواست مشتری، ملزومات، مظنه‌ها، آمارها</value>
+        <value xml:lang="fa">مدیریت سفارش فروش، سفارشات خرید، درخواست مشتری، ملزومات، مظنه‌ها، آمارها</value>
         <value xml:lang="fr">Gestion des commandes de vente, d'achat, des demandes, des devis, des besoins, des stats</value>
         <value xml:lang="ja">販売注文管理、購買注音、顧客リクエスト、要求、見積、状態</value>
         <value xml:lang="ru">Управление продажами заказов, Покупка заказа, Запрос заказчика, Требования, Голосование, Статистика</value>
@@ -15103,7 +15103,7 @@
     <property key="PartyComponentDescription">
         <value xml:lang="cs">Zákazníci - Dodavatelé - Mamagement, komunikace, klasifikace</value>
         <value xml:lang="en">Customers - Suppliers - Employee Management, Communications, Classifications</value>
-        <value xml:lang="fa">مشتری‌ها - عرضه‌گر‌ها - مدیر کارمندان - ارتباطات -کلاس‌بندی‌ها</value>
+        <value xml:lang="fa">مشتری‌ها - عرضه‌گر‌ها - مدیریت کارمندان - ارتباطات -کلاس‌بندی‌ها</value>
         <value xml:lang="fr">Gestion des clients, Fournisseurs, Employés, Communications, Classifications</value>
         <value xml:lang="ja">顧客 - サプライヤ - 従業員管理、通信、分類</value>
         <value xml:lang="ru">Заказчики - Поставщики - Управление работниками, Коммуникации, Классификации</value>
@@ -15164,7 +15164,7 @@
         <value xml:lang="de">Vertrieb</value>
         <value xml:lang="en">SFA</value>
         <value xml:lang="es">Distribución</value>
-        <value xml:lang="fa">مدیر نیروی فروش (SFA)</value>
+        <value xml:lang="fa">مدیریت نیروی فروش (SFA)</value>
         <value xml:lang="fr">Ventes</value>
         <value xml:lang="hi-IN">एसऍफ़ए(SFA)</value>
         <value xml:lang="it">Forze di vendita</value>

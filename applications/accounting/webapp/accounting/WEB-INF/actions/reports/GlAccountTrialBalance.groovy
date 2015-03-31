@@ -17,11 +17,11 @@
  * under the License.
  */
 import java.sql.Timestamp;
+import org.ofbiz.base.util.Calendar;
 import org.ofbiz.base.util.UtilDateTime;
 import org.ofbiz.base.util.UtilValidate;
 import org.ofbiz.base.util.UtilNumber;
 import org.ofbiz.accounting.util.UtilAccounting;
-import com.ibm.icu.util.Calendar;
 
 if (organizationPartyId) {
     onlyIncludePeriodTypeIdList = [];
@@ -46,11 +46,11 @@ if (organizationPartyId) {
 
     if (parameters.timePeriod) {
         currentTimePeriod = delegator.findOne("CustomTimePeriod", [customTimePeriodId : parameters.timePeriod], false);
-        previousTimePeriodResult = dispatcher.runSync("getPreviousTimePeriod", 
+        previousTimePeriodResult = dispatcher.runSync("getPreviousTimePeriod",
                 [customTimePeriodId : parameters.timePeriod, userLogin : userLogin]);
         previousTimePeriod = previousTimePeriodResult.previousTimePeriod;
         if (UtilValidate.isNotEmpty(previousTimePeriod)) {
-            glAccountHistory = delegator.findOne("GlAccountHistory", 
+            glAccountHistory = delegator.findOne("GlAccountHistory",
                     [customTimePeriodId : previousTimePeriod.customTimePeriodId, glAccountId : parameters.glAccountId, organizationPartyId : organizationPartyId], false);
             if (glAccountHistory && glAccountHistory.endingBalance != null) {
                 context.openingBalance = glAccountHistory.endingBalance;
@@ -76,7 +76,7 @@ if (organizationPartyId) {
             if ("ALL".equals(isPosted)) {
                 isPosted = "";
             }
-            acctgTransEntriesAndTransTotal = dispatcher.runSync("getAcctgTransEntriesAndTransTotal", 
+            acctgTransEntriesAndTransTotal = dispatcher.runSync("getAcctgTransEntriesAndTransTotal",
                     [customTimePeriodStartDate : customTimePeriodStartDate, customTimePeriodEndDate : customTimePeriodEndDate, organizationPartyId : organizationPartyId, glAccountId : parameters.glAccountId, isPosted : isPosted, userLogin : userLogin]);
             totalOfYearToDateDebit = totalOfYearToDateDebit + acctgTransEntriesAndTransTotal.debitTotal;
             acctgTransEntriesAndTransTotal.totalOfYearToDateDebit = totalOfYearToDateDebit.setScale(decimals, rounding);

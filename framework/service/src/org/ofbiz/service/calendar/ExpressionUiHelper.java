@@ -21,7 +21,6 @@ package org.ofbiz.service.calendar;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Arrays;
-import com.ibm.icu.util.Calendar;
 import java.util.List;
 import java.util.Locale;
 import java.util.Map;
@@ -29,7 +28,9 @@ import java.util.Set;
 
 import javolution.util.FastSet;
 
+import org.ofbiz.base.util.Calendar;
 import org.ofbiz.base.util.UtilMisc;
+import org.ofbiz.base.util.UtilDateTime;
 import org.ofbiz.entity.Delegator;
 import org.ofbiz.entity.GenericEntityException;
 import org.ofbiz.entity.GenericValue;
@@ -91,7 +92,7 @@ public class ExpressionUiHelper {
      * <code>description</code> entry and a <code>value</code> entry.
      */
     public static List<Map<String, Object>> getMonthValueList(Locale locale) {
-        Calendar tempCal = Calendar.getInstance(locale);
+        Calendar tempCal = Calendar.getInstance(null, locale);
         tempCal.set(Calendar.MONTH, Calendar.JANUARY);
         SimpleDateFormat dateFormat = new SimpleDateFormat("MMMM", locale);
         List<Map<String, Object>> result = new ArrayList<Map<String, Object>>(13);

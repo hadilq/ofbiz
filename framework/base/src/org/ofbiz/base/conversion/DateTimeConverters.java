@@ -27,12 +27,12 @@ import java.util.Locale;
 import java.util.TimeZone;
 import java.util.Map;
 
+import org.ofbiz.base.util.Calendar;
 import org.ofbiz.base.util.ObjectType;
 import org.ofbiz.base.util.TimeDuration;
 import org.ofbiz.base.util.UtilDateTime;
 import org.ofbiz.base.util.UtilValidate;
 
-import com.ibm.icu.util.Calendar;
 
 /** Date/time Converter classes. */
 public class DateTimeConverters implements ConverterLoader {
@@ -67,10 +67,7 @@ public class DateTimeConverters implements ConverterLoader {
         }
 
         public String convert(Calendar obj) throws ConversionException {
-            Locale locale = obj.getLocale(com.ibm.icu.util.ULocale.VALID_LOCALE).toLocale();
-            TimeZone timeZone = UtilDateTime.toTimeZone(obj.getTimeZone().getID());
-            DateFormat df = UtilDateTime.toDateTimeFormat(timeZone, locale);
-            return df.format(obj);
+            return obj.getDisplay();
         }
     }
 

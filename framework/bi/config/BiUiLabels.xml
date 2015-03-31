@@ -20,7 +20,7 @@
 <resource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <property key="BusinessIntelligenceApplication">
         <value xml:lang="en">Business Intelligence Application</value>
-        <value xml:lang="fa">برنامه تجارت هوشمند</value>
+        <value xml:lang="fa">برنامه کسب‌وکار هوشمند</value>
         <value xml:lang="fr">Application d'informatique décisionnelle</value>
         <value xml:lang="it">Applicazione Business Intelligence</value>
         <value xml:lang="ja">ビジネスインテリジェンス</value>
@@ -29,6 +29,7 @@
     </property>
     <property key="BusinessIntelligenceCompanyName">
         <value xml:lang="en">OFBiz: Business Intelligence</value>
+        <value xml:lang="fa">OFBiz: کسب‌وکار هوشمند</value>
         <value xml:lang="fr">OFBiz: Informatique décisionnelle</value>
         <value xml:lang="it">OFBiz: Business Intelligence</value>
         <value xml:lang="ja">OFBiz: ビジネスインテリジェンス</value>
@@ -40,7 +41,7 @@
         <value xml:lang="de">Teil der Open For Business Familie von Open Source Software</value>
         <value xml:lang="en">Part of the Open For Business Family of Open Source Software</value>
         <value xml:lang="es">Parte de la familia de software Open For Business de código abierto</value>
-        <value xml:lang="fa">بخشی از خانواده آزاد برای تجارت از نرم‌افزارهای متن باز</value>
+        <value xml:lang="fa">بخشی از خانواده آزاد برای کسب‌وکار از نرم‌افزارهای متن باز</value>
         <value xml:lang="fr">Un module de la famille Open For Business, logiciel libre de gestion d'entreprise.</value>
         <value xml:lang="it">Un modulo della famiglia di software open source Open For Business</value>
         <value xml:lang="ja">Part of the Open For Business Family of Open Source Software</value>
@@ -82,7 +83,7 @@
     </property>
     <property key="BusinessIntelligenceIntegratedFramework">
         <value xml:lang="en">Business Intelligence Integrated Framework</value>
-        <value xml:lang="fa">بدنه کلی تجارت هوشتمند</value>
+        <value xml:lang="fa">چارچوب کلی کسب‌وکار هوشتمند</value>
         <value xml:lang="fr">Informatique décisionnelle intégrée au Framework</value>
         <value xml:lang="it">Business Intelligence Framework Integrato</value>
         <value xml:lang="ja">ビジネスインテリジェンス統合フレームワーク</value>
@@ -116,6 +117,7 @@
     </property>
     <property key="BusinessIntelligenceNote11">
         <value xml:lang="en">The data for dimensions and facts are maintained and kept up to date using standard OFBiz services</value>
+        <value xml:lang="fa">داده‌ها برای ابعاد و واقعیات بوسیله سرویس‌های OFBiz استاندارد بروز نگهداری‌می‌شوند</value>
         <value xml:lang="fr">Les données des dimensions et faits sont maintenues et tenues à jour à l'aide des services standard d'OFBiz</value>
         <value xml:lang="it">I dati per dimensioni e fatti sono gestiti e mantenuti aggiornati usando servizi standard di OFBiz</value>
         <value xml:lang="ja">ディメンジョンとファクトのデータを最新に保つために、標準OFBizサービス</value>
@@ -124,7 +126,7 @@
     </property>
     <property key="BusinessIntelligenceNote12">
         <value xml:lang="en">(most of them written in minilang to facilitate customizations) and eca rules (easily customizable).</value>
-        <value xml:lang="fa">(بیشتر آن‌ها برای تسهیل سفارشی‌شدن بوسیله زبان‌های میانی نوشته شده‌اند) و قاعده‌های اکا(آسان سفارشی‌شونده(</value>
+        <value xml:lang="fa">(بیشتر آن‌ها برای تسهیل سفارشی‌شدن بوسیله زبان‌های میانی نوشته شده‌اند) و قواعد اکا(آسان سفارشی‌شونده(</value>
         <value xml:lang="fr">(la plupart d'entre eux écrits en minilang pour faciliter la personnalisation) et des règles de ECA (facilement personnalisables).</value>
         <value xml:lang="it">(molti dei quali sono scritti utizzando minilang per facilitare le personalizzazioni) e le regole eca (facilmente personalizzabili).</value>
         <value xml:lang="ja">(大部分はミニ言語で記述されていて、カスタマイズが容易) および ECAルール (容易にカスタマイズ可能) が使われています。</value>
@@ -133,7 +135,7 @@
     </property>
     <property key="BusinessIntelligenceNote13">
         <value xml:lang="en">The main low level services to post data to the datawarehouse,</value>
-        <value xml:lang="fa">لایه اصلی پایینی سرویس برای ارسال داده به «انبارکالا داده»</value>
+        <value xml:lang="fa">سطح اصلی پایینی سرویس برای ارسال داده به «انبارکالا داده»</value>
         <value xml:lang="fr">Les principaux services de bas niveau pour envoyer des données au datawarehouse,</value>
         <value xml:lang="it">I servizi principali a basso livello per ricavare i dati del datawarehouse,</value>
         <value xml:lang="ja">主に下位(子)のサービスでデータウェアハウスにデータが送信されます、</value>
@@ -142,7 +144,7 @@
     </property>
     <property key="BusinessIntelligenceNote14">
         <value xml:lang="en">to map the operational keys with the datawarehouse ones, and to manage</value>
-        <value xml:lang="fa">برای نگاشتن کلید‌‌های موثر به «انبارکالا داده» و برای مدیرت آن‌ها</value>
+        <value xml:lang="fa">برای نگاشتن کلید‌‌های عملیاتی به «انبارکالا داده» و برای مدیرت آن‌ها</value>
         <value xml:lang="fr">pour aligner les clefs opérationnelles avec celles du datawarehouse, et contrôler</value>
         <value xml:lang="it">la mappa di chiavi operazionali con il datawarehouse, e la gestione</value>
         <value xml:lang="ja">操作キーとデータウェアハウスをマップし、</value>
@@ -151,7 +153,7 @@
     </property>
     <property key="BusinessIntelligenceNote15">
         <value xml:lang="en">history of data changes are already implemented; they will be improved as the datawarehouse will grow (e.g. performance enhancements).</value>
-        <value xml:lang="fa">تاریخچه تغییرات اطلاعات اعمال شده است. با گسترش «انبارکالا داده» این تغییرات بهبود خواهد یافت. (e.g. performance enhancements)</value>
+        <value xml:lang="fa">تاریخچه تغییرات اطلاعات ازقبل پیاده‌سازی‌شده؛ با گسترش «انبارکالا داده» این تغییرات بهبود خواهد یافت. (بهبود عملکرد و غیره)</value>
         <value xml:lang="fr">l'historique des changements de données sont déjà implémentés. Ils seront améliorés quand le datawarehouse se développera (par exemple des perfectionnements en performance).</value>
         <value xml:lang="it">storia di cambio di dati che sono già implementati; sarà aumentato di caratteristiche non appena crescerà il datawarehouse (e.g. aumento prestazioni).</value>
         <value xml:lang="ja">履歴データの変更の管理を行うことがすでに実装されています: データウェアハウスの成長に合わせてそれらも見直されます (たとえばパフォーマンスの改善)</value>
@@ -196,6 +198,7 @@
     </property>
     <property key="BusinessIntelligenceNote1">
         <value xml:lang="en">This is a proof of concept for an OFBiz integrated framework for business intelligence analysis.</value>
+        <value xml:lang="fa">این اثباتی است برای مفهوم چارچوب کلی کسب‌وکار برای تحلیل هوشمند کسب‌وکار</value>
         <value xml:lang="fr">C'est une preuve de concept d'informatique décisionnelle intégrée au Framework</value>
         <value xml:lang="it">Questo è un prototipo di un framework per analisi di dati (business intelligence) integrato in OFBiz.</value>
         <value xml:lang="ja">OFBiz統合フレームワークにおけるビジネスインテリジェンス分析のコンセプト。</value>
@@ -213,7 +216,7 @@
     </property>
     <property key="BusinessIntelligenceNote21">
         <value xml:lang="en">Then you can run the analysis using the report builder menu.</value>
-        <value xml:lang="fa">در اینجا شما می‌توانید با استفاده از منو تهیه‌گزارش برای اجراء تحلیل‌ها استفاده کنید</value>
+        <value xml:lang="fa">در اینجا شما می‌توانید با استفاده از منو تهیه‌گزارش برای اجراء تحلیل‌ها استفاده‌کنید</value>
         <value xml:lang="fr">Vous pouvez alors exécuter l'analyse en utilisant le menu "Générateur de rapport".</value>
         <value xml:lang="it">Successivamente potrai eseguire l'analisi usando il menu costruzione report.</value>
         <value xml:lang="ja">そしてレポートビルダメニューから分析を実行することができます。</value>
@@ -222,7 +225,7 @@
     </property>
     <property key="BusinessIntelligenceNote22">
         <value xml:lang="en">The report builder is a very simple tool that allows you to run</value>
-        <value xml:lang="fa">تهیه‌گزارش ابزار بسیار ساده‌ایی است برای اجراء کردن</value>
+        <value xml:lang="fa">تهیه‌گزارش ابزار بسیار ساده‌ایی است برای اجراء‌کردن</value>
         <value xml:lang="fr">Le générateur de rapport est un outil très simple qui vous permet d'exécuter</value>
         <value xml:lang="it">La costruzione report è uno strumento molto semplice che ti permette di eseguire</value>
         <value xml:lang="ja">レポートビルダは、分析を実行するための、非常にシンプルなツールです。</value>
@@ -258,7 +261,7 @@
     </property>
     <property key="BusinessIntelligenceNote26">
         <value xml:lang="en">Just select using the checkboxes the fields (columns) you want to see in the report</value>
-        <value xml:lang="fa">ستون‌هایی که می‌خواهید در گزارش قراربگیرند را انتخاب کنید</value>
+        <value xml:lang="fa">ستون‌هایی(بخش‌هایی) که می‌خواهید در گزارش قراربگیرند را با استفاده از جعبه‌تیک‌ها انتخاب‌کنید</value>
         <value xml:lang="fr">Sélectionnez simplement en utilisant les case à cocher des champs (colonnes) que vous voulez voir dans le rapport</value>
         <value xml:lang="it">Seleziona i campi che vuoi vedere</value>
         <value xml:lang="ja">チェックボックスの項目を選択するだけでレポートを参照することができます。</value>
@@ -276,7 +279,7 @@
     </property>
     <property key="BusinessIntelligenceNote28">
         <value xml:lang="en">all the descriptions you see in the report screens are pulled from the entity definitions.</value>
-        <value xml:lang="fa">همه شرحی که در صفخه گزارش می‌بینید با توجه‌نقد به تعاریف نهاد بدست‌آمده‌اند</value>
+        <value xml:lang="fa">همه شرحی که در پرده‌های گزارش می‌بینید با توجه به تعاریف نهاد بدست‌آمده‌اند</value>
         <value xml:lang="fr">Toutes les descriptions que vous voyez dans les écrans de rapport sont tirées des définitions d'entités.</value>
         <value xml:lang="it">tutte le descrizioni che tu vedrai nelle scrermate del report sono prelevare dalla definizioni delle entità.</value>
         <value xml:lang="ja">レポート画面のすべての定義がエンティティの定義から抽出されます。</value>
@@ -294,7 +297,7 @@
     </property>
     <property key="BusinessIntelligenceNote2">
         <value xml:lang="en">The idea is to define a set entities for business intelligence analysis in a separate (olap) database,</value>
-        <value xml:lang="fa">ایده این است که برای تحلیل تجارت هوشمند در بانک‌های داده جدا(olap) یک مجموعه از نهادها را تعریف کنیم.</value>
+        <value xml:lang="fa">ایده این است که برای تحلیل کسب‌وکار هوشمند در بانک‌داده‌های جدا(olap) یک مجموعه از نهادها را تعریف کنیم.</value>
         <value xml:lang="fr">L'idée est de définir un ensemble d'entités pour l'analyse de l'Informatique décisionnelle dans une base de données séparée (OLAP),</value>
         <value xml:lang="it">L'idea è di definire un'insieme di entità per le analisi di business intelligence in un database (OLAP) separato,</value>
         <value xml:lang="ja">ビジネスインテリジェンス分析のために別の(OLAP)データベースにエンティティ一式を定義するという考えは、</value>
@@ -330,7 +333,7 @@
     </property>
     <property key="BusinessIntelligenceNote4">
         <value xml:lang="en">The new olap database, will contain all the entities necessary to datawarehouse analysis:</value>
-        <value xml:lang="fa">بانک اطلاعاتی olap جدید همه مشخصات لازم برای تحلیل «انبارکالا داده» را خواهد داشت</value>
+        <value xml:lang="fa">بانک‌داده olap جدید همه مشخصات لازم برای تحلیل «انبارکالا داده» را خواهد داشت</value>
         <value xml:lang="fr">La nouvelle base de données OLAP, contiendra toutes les entités nécessaires à l'analyse du datawarehouse :</value>
         <value xml:lang="it">Il nuovo database olap, conterrà tutte le entità necessarie alle analisi di datawarehouse: </value>
         <value xml:lang="ja">新しいOLAPデータベースはデータウェアハウス分析に必要なエンティティを全て含んでいます。</value>
@@ -339,6 +342,7 @@
     </property>
     <property key="BusinessIntelligenceNote5">
         <value xml:lang="en">dimensions, facts and star schemas (that are view-entities).</value>
+        <value xml:lang="fa">ابعاد، واقعیات و برنامه‌های ستاره‌دار (آن‌هایی که در نمای-نهاد هستند).</value>
         <value xml:lang="fr">dimensions, faits et schémas en étoile (ce sont des vues sur la base de données : view-entities au sens d'OFBiz).</value>
         <value xml:lang="it">dimensioni, fatti e star schemas (view-entities).</value>
         <value xml:lang="ja">ディメンジョン、ファクト、そしてスタースキーマ (ビュー) です。</value>

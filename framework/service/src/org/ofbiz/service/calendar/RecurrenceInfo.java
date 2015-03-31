@@ -19,12 +19,12 @@
 package org.ofbiz.service.calendar;
 
 import java.util.ArrayList;
-import com.ibm.icu.util.Calendar;
 import java.util.Collections;
 import java.util.Date;
 import java.util.Iterator;
 import java.util.List;
 
+import org.ofbiz.base.util.Calendar;
 import org.ofbiz.base.util.Debug;
 import org.ofbiz.base.util.StringUtil;
 import org.ofbiz.base.util.UtilValidate;

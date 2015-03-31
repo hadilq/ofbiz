@@ -2848,7 +2848,7 @@
         <value xml:lang="de">Endnutzer</value>
         <value xml:lang="en">End-User Customer</value>
         <value xml:lang="es">Cliente Comprador final</value>
-        <value xml:lang="fa">مشتری نهایی</value>
+        <value xml:lang="fa">مشتری کاربر-پایانی</value>
         <value xml:lang="fr">Client final</value>
         <value xml:lang="hi_IN">अंत-प्रयोक्ता ग्राहक</value>
         <value xml:lang="it">Cliente utente finale</value>
@@ -3613,7 +3613,7 @@
         <value xml:lang="de">Lieferung vom Verkäufer</value>
         <value xml:lang="en">Ship-From Vendor</value>
         <value xml:lang="es">Envío de proveedor</value>
-        <value xml:lang="fa">حمل-از فروشنده</value>
+        <value xml:lang="fa">حمل‌کردن-از فروشنده</value>
         <value xml:lang="fr">Vendeur expéditeur</value>
         <value xml:lang="hi_IN">विक्रेता से अपवाहन</value>
         <value xml:lang="it">Spedizione dal fornitore</value>
@@ -3630,7 +3630,7 @@
         <value xml:lang="de">Lieferung an Kunde</value>
         <value xml:lang="en">Ship-To Customer</value>
         <value xml:lang="es">Envío a cliente</value>
-        <value xml:lang="fa">حمل-به مشتری</value>
+        <value xml:lang="fa">حمل‌کردن-به مشتری</value>
         <value xml:lang="fr">Client livré</value>
         <value xml:lang="hi_IN">ग्राहक को अपवाहन</value>
         <value xml:lang="it">Spedizione al cliente</value>
@@ -4194,7 +4194,7 @@
         <value xml:lang="de">Variable Kommission</value>
         <value xml:lang="en">Commission Term Variable</value>
         <value xml:lang="es">Comisión variable</value>
-        <value xml:lang="fa">متغییر قید کارمز</value>
+        <value xml:lang="fa">متغییر قید کارمزد</value>
         <value xml:lang="fr">Commission variable</value>
         <value xml:lang="hi_IN">दलाली की शर्त के चर(Variable)</value>
         <value xml:lang="it">Provvigione termine variabile</value>

@@ -22,6 +22,7 @@ import java.sql.Timestamp;
 import java.util.Locale;
 import java.util.TimeZone;
 
+import org.ofbiz.base.util.Calendar;
 import org.ofbiz.base.util.Debug;
 import org.ofbiz.base.util.ObjectType;
 import org.ofbiz.base.util.Scriptlet;
@@ -37,8 +38,6 @@ import org.ofbiz.minilang.SimpleMethod;
 import org.ofbiz.minilang.method.MethodContext;
 import org.ofbiz.minilang.method.MethodOperation;
 import org.w3c.dom.Element;
-
-import com.ibm.icu.util.Calendar;
 
 /**
  * Implements the &lt;set-calendar&gt; element.

@@ -30,6 +30,7 @@ import javolution.util.FastList;
 import javolution.util.FastMap;
 import javolution.util.FastSet;
 
+import org.ofbiz.base.util.Calendar;
 import org.ofbiz.base.util.Debug;
 import org.ofbiz.base.util.StringUtil;
 import org.ofbiz.base.util.UtilDateTime;
@@ -56,8 +57,6 @@ import org.ofbiz.service.LocalDispatcher;
 import org.ofbiz.service.ModelService;
 import org.ofbiz.service.ServiceAuthException;
 import org.ofbiz.service.ServiceUtil;
-
-import com.ibm.icu.util.Calendar;
 
 /**
  * ContentManagementServices Class
@@ -175,21 +174,21 @@ public class ContentManagementServices {
             context.put("contentPurposeList", contentPurposeList);
             context.put("contentPurposeString", null);
         }
-        
+
         if (Debug.infoOn()) {
             Debug.logInfo("in persist... contentPurposeList(0):" + contentPurposeList, null);
             Debug.logInfo("in persist... textData(0):" + context.get("textData"), null);
         }
 
         GenericValue content = delegator.makeValue("Content");
-        
+
         content.setPKFields(context);
         content.setNonPKFields(context);
         String contentId = (String) content.get("contentId");
         String contentTypeId = (String) content.get("contentTypeId");
         String origContentId = (String) content.get("contentId");
         String origDataResourceId = (String) content.get("dataResourceId");
-        
+
         if (Debug.infoOn()) {
             Debug.logInfo("in persist... contentId(0):" + contentId, null);
         }
@@ -508,7 +507,7 @@ public class ContentManagementServices {
                       String errMsg = ServiceUtil.getErrorMessage(permResults);
                       if (UtilValidate.isNotEmpty(errMsg)) {
                           return ServiceUtil.returnError(errMsg);
-                      } 
+                      }
                       //addRoleToUser(delegator, dispatcher, serviceContext);
                   } catch (GenericServiceException e) {
                       Debug.logError(e, e.toString(), module);

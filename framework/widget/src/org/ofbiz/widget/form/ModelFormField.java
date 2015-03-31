@@ -1542,7 +1542,7 @@ public class ModelFormField {
             this.listEntryName = optionElement.getAttribute("list-entry-name");
             this.keyAcsr = FlexibleMapAccessor.getInstance(optionElement.getAttribute("key-name"));
             this.listAcsr = FlexibleMapAccessor.getInstance(optionElement.getAttribute("list-name"));
-            this.listEntryName = optionElement.getAttribute("list-entry-name");
+            //this.listEntryName = optionElement.getAttribute("list-entry-name");
             this.description = FlexibleStringExpander.getInstance(optionElement.getAttribute("description"));
             this.fieldInfo = fieldInfo;
         }
@@ -2114,6 +2114,10 @@ public class ModelFormField {
                     }
                 }
 
+            } else if (ObjRetVal instanceof Integer || ObjRetVal instanceof Long) {
+                Locale locale = (Locale) context.get("locale");
+                if (locale == null) locale = Locale.getDefault();
+                retVal = UtilFormatOut.formatNumber(ObjRetVal, locale);
             } else {
                 retVal = ObjRetVal.toString();
             }

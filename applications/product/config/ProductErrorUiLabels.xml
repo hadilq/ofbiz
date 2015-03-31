@@ -125,7 +125,7 @@
     </property>
     <property key="ProductErrorAllOrderItemsAreNotVerified">
         <value xml:lang="en">ERROR: All order items are not verified</value>
-        <value xml:lang="fa">خطا: همه اقلام سفارش تایید نشده‌اند</value>
+        <value xml:lang="fa">خطا: همه اقلام سفارش تصدیق‌نشده‌اند</value>
         <value xml:lang="ja">エラー: すべての注文アイテムが確認されていません</value>
         <value xml:lang="zh">错误：所有订单明细都没有验证</value>
     </property>
@@ -325,7 +325,7 @@
         <value xml:lang="de">Fehler beim Holen der Suchresultate</value>
         <value xml:lang="en">Error getting search results</value>
         <value xml:lang="es">Error al obtener resultados de búsqueda</value>
-        <value xml:lang="fa">خطا در دریافت نتایج جستجو</value>
+        <value xml:lang="fa">خطا در دریافت‌کردن نتایج جستجو</value>
         <value xml:lang="fr">Erreur survenue pendant la recherche</value>
         <value xml:lang="it">Errore nella ricerca risultati</value>
         <value xml:lang="ja">検索結果取得エラー</value>
@@ -993,7 +993,7 @@
     </property>
     <property key="productservices.entity_error_quick_add_variant_data">
         <value xml:lang="en">Entity error quick add variant data</value>
-        <value xml:lang="fa">خطای نهاد، اضافه‌کردن سریع داده گوناگون</value>
+        <value xml:lang="fa">خطای نهاد، اضافه‌کردن سریع داده‌ی گونه</value>
         <value xml:lang="it">Errore durante la lettura dei dati per l'aggiunta variante veloce.</value>
         <value xml:lang="ja">別型データのクイック追加でエンティティエラー</value>
         <value xml:lang="zh">快速添加多样化产品数据时发生实体错误</value>
@@ -1381,7 +1381,7 @@
     </property>
     <property key="PicklistManageTooMuchQuantity">
         <value xml:lang="en">The quantity entered (${parameters.quantity}) is higher than the quantity expected (${picklistItem.quantity}).</value>
-        <value xml:lang="fa">کمیت واردشده (${parameters.quantity}) بیشتر از کمیت انتظاری (${picklistItem.quantity}) است.</value>
+        <value xml:lang="fa">کمیت واردشده (${parameters.quantity}) بیشتر از کمیت موردانتظار (${picklistItem.quantity}) است.</value>
         <value xml:lang="fr">La quantité entrée (${parameters.quantity}) est supérieure à  la quantité attendue (${picklistItem.quantity}).</value>
         <value xml:lang="ja">入力した数量 (${parameters.quantity}) が期待した数量 (${picklistItem.quantity}) より大きい。</value>
         <value xml:lang="zh">输入的数量（${parameters.quantity}）大于期望的数量（${picklistItem.quantity}）。</value>
