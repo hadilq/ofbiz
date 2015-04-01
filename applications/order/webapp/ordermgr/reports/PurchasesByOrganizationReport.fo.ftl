@@ -16,10 +16,17 @@ KIND, either express or implied.  See the License for the
 specific language governing permissions and limitations
 under the License.
 -->
+<#assign docLangAttr = locale.toLanguageTag()>
+<#assign rightToLeftLocales = Static["org.ofbiz.base.util.UtilMisc"].rightToLeftLocales()/>
+<#assign writingMode = "lr">
+<#if rightToLeftLocales?contains(docLangAttr?substring(0, 2))>
+    <#assign writingMode = "rl">
+</#if>
 <#assign defaultFontFamily = Static["org.ofbiz.common.languageFontsMapping"].getFontFamily(locale)>
 
 <#escape x as x?xml>
-<fo:root xmlns:fo="http://www.w3.org/1999/XSL/Format">
+<fo:root xmlns:fo="http://www.w3.org/1999/XSL/Format"
+    writing-mode="${writingMode}">
 
 <#-- do not display columns associated with values specified in the request, ie constraint values -->
 <#assign showToParty = !parameters.toPartyId?has_content>

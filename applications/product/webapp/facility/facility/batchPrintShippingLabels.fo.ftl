@@ -16,6 +16,12 @@ KIND, either express or implied.  See the License for the
 specific language governing permissions and limitations
 under the License.
 -->
+<#assign docLangAttr = locale.toLanguageTag()>
+<#assign rightToLeftLocales = Static["org.ofbiz.base.util.UtilMisc"].rightToLeftLocales()/>
+<#assign writingMode = "lr">
+<#if rightToLeftLocales?contains(docLangAttr?substring(0, 2))>
+    <#assign writingMode = "rl">
+</#if>
 
 <#-- FOP may require a library called JIMI to print certain graphical formats such as GIFs.  Jimi is a Sun library which cannot
 be included in OFBIZ due to licensing incompatibility, but you can download it yourself at: http://java.sun.com/products/jimi/
@@ -23,7 +29,8 @@ and rename the ZIP file that comes with it as jimi-xxx.jar, then copy it into th
 is ${ofbiz.home}/framework/webapp/lib/ -->
 
 <#escape x as x?xml>
-<fo:root xmlns:fo="http://www.w3.org/1999/XSL/Format">
+<fo:root xmlns:fo="http://www.w3.org/1999/XSL/Format"
+    writing-mode="${writingMode}">
     <fo:layout-master-set>
         <#-- these margins are arbitrary, please redefine as you see fit -->
         <fo:simple-page-master master-name="main-page"
