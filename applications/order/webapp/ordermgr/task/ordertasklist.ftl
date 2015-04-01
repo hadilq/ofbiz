@@ -60,8 +60,8 @@ under the License.
                             <td>${uiLabelMap.CommonName}</td>
                             <td>${uiLabelMap.OrderOrderDate}</td>
                             <td>${uiLabelMap.CommonStatus}</td>
-                            <td width="1" align="right">${uiLabelMap.OrderOrderItems}</td>
-                            <td width="1" align="right">${uiLabelMap.OrderItemTotal}</td>
+                            <td width="1" class="opposite-align-text">${uiLabelMap.OrderOrderItems}</td>
+                            <td width="1" class="opposite-align-text">${uiLabelMap.OrderItemTotal}</td>
                             <td width="1">&nbsp;&nbsp;</td>
                             <td width="1">&nbsp;&nbsp;</td>
                           </tr>
@@ -97,10 +97,10 @@ under the License.
                               </td>
                               <td><span style="white-space: nowrap;">${orderHeaderAndRole.getString("orderDate")}</span></td>
                               <td>${statusItem.get("description",locale)?default(statusItem.statusId?default("N/A"))}</td>
-                              <td align="right">${orh.getTotalOrderItemsQuantity()?string.number}</td>
-                              <td align="right"><@ofbizCurrency amount=orh.getOrderGrandTotal() isoCode=orderHeaderAndRole.currencyUom?if_exists/></td>
+                              <td class="opposite-align-text">${orh.getTotalOrderItemsQuantity()?string.number}</td>
+                              <td class="opposite-align-text"><@ofbizCurrency amount=orh.getOrderGrandTotal() isoCode=orderHeaderAndRole.currencyUom?if_exists/></td>
                               <td width="1">&nbsp;&nbsp;</td>
-                              <td align='right'>
+                              <td class="opposite-align-text">
                                 <a href="<@ofbizUrl>OrderDeliveryScheduleInfo?orderId=${orderHeaderAndRole.orderId}</@ofbizUrl>" class='buttontext'>Schedule&nbsp;Delivery</a>
                               </td>
                             </tr>
@@ -124,7 +124,7 @@ under the License.
                             <td><a href="<@ofbizUrl>tasklist?sort=orderId</@ofbizUrl>">${uiLabelMap.OrderOrderNumber}</a></td>
                             <td><a href="<@ofbizUrl>tasklist?sort=name</@ofbizUrl>">${uiLabelMap.CommonName}</a></td>
                             <td><a href="<@ofbizUrl>tasklist?sort=orderDate</@ofbizUrl>">${uiLabelMap.OrderOrderDate}</a></td>
-                            <td width="1" align="right"><a href="<@ofbizUrl>tasklist?sort=grandTotal</@ofbizUrl>">Total</a></td>
+                            <td width="1" class="opposite-align-text"><a href="<@ofbizUrl>tasklist?sort=grandTotal</@ofbizUrl>">Total</a></td>
                             <td width="1">&nbsp;&nbsp;</td>
                             <td><a href="<@ofbizUrl>tasklist?sort=actualStartDate</@ofbizUrl>">${uiLabelMap.OrderStartDateTime}</a></td>
                             <td><a href="<@ofbizUrl>tasklist?sort=priority</@ofbizUrl>">${uiLabelMap.CommonPriority}</a></td>
@@ -134,7 +134,7 @@ under the License.
                           <#list partyTasks as task>
                             <tr valign="middle"<#if alt_row> class="alternate-row"</#if>>
                               <td>
-                                <#assign orderStr = "orderId=" + task.orderId + "&amp;partyId=" + userLogin.partyId + "&amp;roleTypeId=" + task.roleTypeId + "&amp;workEffortId=" + task.workEffortId + "&amp;fromDate=" + task.get("fromDate").toString()>
+                                <#assign orderStr = "orderId=" + task.orderId + "&amp;partyId=" + userLogin.partyId + "&amp;roleTypeId=" + task.roleTypeId + "&amp;workEffortId=" + task.workEffortId + "&amp;fromDate=" + Static["org.ofbiz.base.util.UtilDateTime"].toDateTimeStringByContext(task.get("fromDate"), context)>
                                 <a href="<@ofbizUrl>orderview?${orderStr}</@ofbizUrl>" class="buttontext">
                                   ${task.orderId}
                                 </a>
@@ -150,14 +150,14 @@ under the License.
                               </td>
                               <td>
                                 <div>
-                                  ${task.get("orderDate").toString()}
+                                  ${Static["org.ofbiz.base.util.UtilDateTime"].toDateTimeStringByContext(task.get("orderDate"), context)}
                                 </div>
                               </td>
-                              <td width="1" align="right"><@ofbizCurrency amount=task.grandTotal isoCode=orderCurrencyMap.get(task.orderId)/></td>
+                              <td width="1" class="opposite-align-text"><@ofbizCurrency amount=task.grandTotal isoCode=orderCurrencyMap.get(task.orderId)/></td>
                               <td width="1">&nbsp;&nbsp;</td>
                               <td>
                                 <#if task.actualStartDate?exists>
-                                  <#assign actualStartDate = task.get("actualStartDate").toString()>
+                                  <#assign actualStartDate = Static["org.ofbiz.base.util.UtilDateTime"].toDateTimeStringByContext(task.get("actualStartDate"), context)>
                                 <#else>
                                   <#assign actualStartDate = "N/A">
                                 </#if>
@@ -190,7 +190,7 @@ under the License.
                             <td><a href="<@ofbizUrl>tasklist?sort=orderId</@ofbizUrl>">${uiLabelMap.OrderOrderNumber}</a></td>
                             <td><a href="<@ofbizUrl>tasklist?sort=name</@ofbizUrl>">${uiLabelMap.CommonName}</a></td>
                             <td><a href="<@ofbizUrl>tasklist?sort=orderDate</@ofbizUrl>">${uiLabelMap.OrderOrderDate}</a></td>
-                            <td width="1" align="right"><a href="<@ofbizUrl>tasklist?sort=grandTotal</@ofbizUrl>">${uiLabelMap.CommonTotal}</a></td>
+                            <td width="1" class="opposite-align-text"><a href="<@ofbizUrl>tasklist?sort=grandTotal</@ofbizUrl>">${uiLabelMap.CommonTotal}</a></td>
                             <td width="1">&nbsp;&nbsp;</td>
                             <td><a href="<@ofbizUrl>tasklist?sort=actualStartDate</@ofbizUrl>">${uiLabelMap.CommonStartDateTime}</a></td>
                             <td><a href="<@ofbizUrl>tasklist?sort=wepaPartyId</@ofbizUrl>">${uiLabelMap.PartyParty}</a></td>
@@ -208,14 +208,14 @@ under the License.
                               <#if task.statusId?exists && task.statusId == "CAL_SENT">
                                 <input type="hidden" name="partyId" value="${userLogin.partyId}" />
                                 <input type="hidden" name="roleTypeId" value="${task.roleTypeId}" />
-                                <input type="hidden" name="fromDate" value="${task.get("fromDate").toString()}" />
+                                <input type="hidden" name="fromDate" value="${Static["org.ofbiz.base.util.UtilDateTime"].toDateTimeStringByContext(task.get("fromDate"), context)}" />
                               <#else>
                                 <input type="hidden" name="partyId" value="${userLogin.partyId}" />
                                 <input type="hidden" name="roleTypeId" value="${task.roleTypeId}" />
-                                <input type="hidden" name="fromDate" value="${task.get("fromDate").toString()}" />
+                                <input type="hidden" name="fromDate" value="${Static["org.ofbiz.base.util.UtilDateTime"].toDateTimeStringByContext(task.get("fromDate"), context)}" />
                                 <input type="hidden" name="fromPartyId" value="${task.wepaPartyId}" />
                                 <input type="hidden" name="fromRoleTypeId" value="${task.roleTypeId}" />
-                                <input type="hidden" name="fromFromDate" value="${task.get("fromDate").toString()}" />
+                                <input type="hidden" name="fromFromDate" value="${Static["org.ofbiz.base.util.UtilDateTime"].toDateTimeStringByContext(task.get("fromDate"), context)}" />
                                 <input type="hidden" name="toPartyId" value="${userLogin.partyId}" />
                                 <input type="hidden" name="toRoleTypeId" value="${task.roleTypeId}" />
                                 <input type="hidden" name="toFromDate" value="${now}" />
@@ -236,14 +236,14 @@ under the License.
                                 </td>
                                 <td>
                                   <div>
-                                    ${task.get("orderDate").toString()}
+                                    ${Static["org.ofbiz.base.util.UtilDateTime"].toDateTimeStringByContext(task.get("orderDate"), context)}
                                   </div>
                                 </td>
-                                <td width="1" align="right"><@ofbizCurrency amount=task.grandTotal isoCode=orderCurrencyMap.get(task.orderId)/></td>
+                                <td width="1" class="opposite-align-text"><@ofbizCurrency amount=task.grandTotal isoCode=orderCurrencyMap.get(task.orderId)/></td>
                                 <td width="1">&nbsp;&nbsp;</td>
                                 <td>
                                   <#if task.actualStartDate?exists>
-                                    <#assign actualStartDate = task.get("actualStartDate").toString()>
+                                    <#assign actualStartDate = Static["org.ofbiz.base.util.UtilDateTime"].toDateTimeStringByContext(task.get("actualStartDate"), context)>
                                   <#else>
                                     <#assign actualStartDate = "N/A">
                                   </#if>
@@ -264,9 +264,9 @@ under the License.
                                   </a>
                                 </td>
                                 <#if task.statusId?exists && task.statusId == "CAL_SENT">
-                                  <td align="right"><input type="checkbox" name="delegate" value="true" checked="checked" /></td>
+                                  <td class="opposite-align-text"><input type="checkbox" name="delegate" value="true" checked="checked" /></td>
                                 <#else>
-                                  <td align="right"><input type="checkbox" name="delegate" value="true" /></td>
+                                  <td class="opposite-align-text"><input type="checkbox" name="delegate" value="true" /></td>
                                 </#if>
                               </tr>
                             </form>

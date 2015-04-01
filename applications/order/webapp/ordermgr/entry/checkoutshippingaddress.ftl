@@ -104,7 +104,7 @@ function toggleBillingAccount(box) {
                    <#if agreements.size()!=1>
                      <tr>
                        <td>&nbsp;</td>
-                       <td align='left' valign='top' nowrap="nowrap">
+                       <td class="align-text" valign='top' nowrap="nowrap">
                          <div class='tableheadtext'>
                            ${uiLabelMap.OrderSelectAgreement}
                          </div>
@@ -140,7 +140,7 @@ function toggleBillingAccount(box) {
     <td>
       &nbsp;<a href="javascript:submitForm(document.checkoutInfoForm, 'CS', '');" class="buttontextbig">${uiLabelMap.OrderBacktoShoppingCart}</a>
     </td>
-    <td align="right">
+    <td class="opposite-align-text">
       <a href="javascript:submitForm(document.checkoutInfoForm, 'DN', '');" class="buttontextbig">${uiLabelMap.CommonNext}</a>
     </td>
   </tr>

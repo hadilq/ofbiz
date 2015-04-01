@@ -44,7 +44,7 @@ under the License.
                       <#assign displayPartyNameResult = dispatcher.runSync("getPartyNameForDate", Static["org.ofbiz.base.util.UtilMisc"].toMap("partyId", displayParty.partyId, "compareDate", orderHeader.orderDate, "userLogin", userLogin))/>
                   </#if>
                   <tr>
-                    <td align="right" valign="top" width="15%">
+                    <td class="opposite-align-text" valign="top" width="15%">
                       <div>&nbsp;<b>${uiLabelMap.PartyName}</b></div>
                     </td>
                     <td width="5">&nbsp;</td>
@@ -58,7 +58,7 @@ under the License.
                 </#if>
                 <#-- order status information -->
                 <tr>
-                  <td align="right" valign="top" width="15%">
+                  <td class="opposite-align-text" valign="top" width="15%">
                     <div>&nbsp;<b>${uiLabelMap.CommonStatus}</b></div>
                   </td>
                   <td width="5">&nbsp;</td>
@@ -74,19 +74,19 @@ under the License.
                 <#if orderHeader?has_content>
                   <tr><td colspan="7"><hr /></td></tr>
                   <tr>
-                    <td align="right" valign="top" width="15%">
+                    <td class="opposite-align-text" valign="top" width="15%">
                       <div>&nbsp;<b>${uiLabelMap.CommonDate}</b></div>
                     </td>
                     <td width="5">&nbsp;</td>
                     <td valign="top" width="80%">
-                      <div>${orderHeader.orderDate.toString()}</div>
+                      <div>${Static["org.ofbiz.base.util.UtilDateTime"].toDateTimeStringByContext(orderHeader.orderDate, context)}</div>
                     </td>
                   </tr>
                 </#if>
                 <#if distributorId?exists>
                   <tr><td colspan="7"><hr /></td></tr>
                   <tr>
-                    <td align="right" valign="top" width="15%">
+                    <td class="opposite-align-text" valign="top" width="15%">
                       <div>&nbsp;<b>${uiLabelMap.OrderDistributor}</b></div>
                     </td>
                     <td width="5">&nbsp;</td>
@@ -126,7 +126,7 @@ under the License.
               <table width="100%" border="0" cellpadding="1">
                 <#if shippingAddress?has_content>
                   <tr>
-                    <td align="right" valign="top" width="15%">
+                    <td class="opposite-align-text" valign="top" width="15%">
                       <div>&nbsp;<b>${uiLabelMap.OrderDestination}</b> [${groupNumber}]</div>
                     </td>
                     <td width="5">&nbsp;</td>

@@ -34,7 +34,7 @@ under the License.
     <#if contentIds?has_content>
     <table class="basic-table" cellspacing="0">
         <tr>
-          <td align="right" class="label">
+          <td class="opposite-align-text" class="label">
             <#if 0 < viewIndex?int>
               <a href="<@ofbizUrl>ContentSearchResults/~VIEW_INDEX=${viewIndex-1}/~VIEW_SIZE=${viewSize}/~clearSearch=N</@ofbizUrl>" class="buttontext">${uiLabelMap.CommonPrevious}</a>
             </#if>
@@ -69,7 +69,7 @@ under the License.
     <#if contentIds?has_content>
     <table class="basic-table" cellspacing="0">
         <tr>
-          <td align="right" class="label">
+          <td class="opposite-align-text" class="label">
             <#if 0 < viewIndex?int>
               <a href="<@ofbizUrl>ContentSearchResults/~VIEW_INDEX=${viewIndex-1}/~VIEW_SIZE=${viewSize}/~clearSearch=N</@ofbizUrl>" class="buttontext">${uiLabelMap.CommonPrevious}</a> |
             </#if>

@@ -47,7 +47,7 @@ under the License.
                 <div>${(product.description)?if_exists}</div>
               </td>
               <td width="5">&nbsp;</td>
-              <td align="right">
+              <td class="opposite-align-text">
                 <a href="<@ofbizUrl>digitalproductedit?productId=${supplierProduct.productId}&amp;currencyUomId=${supplierProduct.currencyUomId}&amp;minimumOrderQuantity=${supplierProduct.minimumOrderQuantity}&amp;availableFromDate=${supplierProduct.availableFromDate}</@ofbizUrl>" class="buttontext">Edit</a>
               </td>
             </tr>

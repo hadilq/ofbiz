@@ -25,12 +25,11 @@ import java.util.Map;
 
 import javolution.util.FastMap;
 
+import org.ofbiz.base.util.Calendar;
 import org.ofbiz.base.util.Debug;
 import org.ofbiz.service.GenericServiceException;
 import org.ofbiz.service.LocalDispatcher;
 import org.ofbiz.service.ModelService;
-
-import com.ibm.icu.util.Calendar;
 
 /**
  * UomWorker

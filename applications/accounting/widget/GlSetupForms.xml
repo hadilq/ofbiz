@@ -18,7 +18,7 @@ specific language governing permissions and limitations
 under the License.
 -->
 
-<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:noNamespaceSchemaLocation="http://ofbiz.apache.org/dtds/widget-form.xsd">
 
     <form name="ListCompanies" type="list" title="Internal Organizations" list-name="parties"
@@ -101,8 +101,8 @@ under the License.
         <field name="organizationPartyId"><hidden value="${organizationPartyId}"/></field>
         <field name="invoiceId" title="invoiceId"><display/></field>
         <field name="invoiceTypeId" title="invoiceTypeId"><display/></field>
-        <field name="invoiceDate" title="invoiceDate"><display/></field>
-        <field name="dueDate" title="dueDate"><display/></field>
+        <field name="invoiceDate" title="invoiceDate"><display type="date"/></field>
+        <field name="dueDate" title="dueDate"><display type="date"/></field>
         <field name="partyIdFrom" title="partyIdFrom"><display/></field>
         <field name="partyIdFromTrans" title="partyIdFromTrans"><display/></field>
         <field name="partyId" title="partyId"><display/></field>
@@ -118,7 +118,7 @@ under the License.
         <field name="quantity" title="quantity"><display/></field>
         <field name="amount" title="amount"><display/></field>
     </form>
-    
+
     <form name="ImportInvoice" type="upload" target="ImportInvoice" title="" >
         <field name="organizationPartyId"><hidden value="${parameters.organizationPartyId}"/></field>
         <field name="uploadedFile"><file/></field>
@@ -361,7 +361,7 @@ under the License.
         </field>
         <field name="errorGlJournalId" tooltip="${groovy: import org.ofbiz.base.util.UtilProperties;
             if((partyAcctgPreference==null&amp;&amp;aggregatedPartyAcctgPreference!= null&amp;&amp;aggregatedPartyAcctgPreference.get('errorGlJournalId')!=null) ||
-            (partyAcctgPreference!=null&amp;&amp;partyAcctgPreference.get('errorGlJournalId')==null&amp;&amp;aggregatedPartyAcctgPreference!= null&amp;&amp;aggregatedPartyAcctgPreference.get('errorGlJournalId')!=null))return 
+            (partyAcctgPreference!=null&amp;&amp;partyAcctgPreference.get('errorGlJournalId')==null&amp;&amp;aggregatedPartyAcctgPreference!= null&amp;&amp;aggregatedPartyAcctgPreference.get('errorGlJournalId')!=null))return
             (UtilProperties.getMessage('AccountingUiLabels', 'AccountingInheritedValue', locale))}">
             <drop-down allow-empty="true">
                 <entity-options entity-name="GlJournal" key-field-name="glJournalId" description="${glJournalName} [${glJournalId}]">
@@ -379,8 +379,8 @@ under the License.
         <field name="uomIdTo" title="${uiLabelMap.CommonTo} ${uiLabelMap.CommonCurrency}"><display/></field>
         <field name="purposeEnumId" title="${uiLabelMap.CommonPurpose}"><display-entity entity-name="Enumeration" key-field-name="enumId"/></field>
         <field name="conversionFactor"><display/></field>
-        <field name="fromDate" title="${uiLabelMap.CommonFrom}"><display/></field>
-        <field name="thruDate" title="${uiLabelMap.CommonThru}"><display/></field>
+        <field name="fromDate" title="${uiLabelMap.CommonFrom}"><display type="date"/></field>
+        <field name="thruDate" title="${uiLabelMap.CommonThru}"><display type="date" default-value="${context.nowTimestamp}"/></field>
     </form>
 
     <form name="updateFXConversion" type="single" target="updateFXConversion" default-service-name="updateFXConversion"
@@ -1093,13 +1093,13 @@ under the License.
         <field name="glAccountClassId"><display-entity entity-name="GlAccountClass" key-field-name="glAccountClassId"/></field>
         <field name="glResourceTypeId"><display-entity entity-name="GlResourceType" key-field-name="glResourceTypeId"/></field>
         <field name="glXbrlClassId"><display-entity entity-name="GlXbrlClass" key-field-name="glXbrlClassId"/></field>
-        <field name="parentGlAccountId"><display-entity entity-name="GlAccount" key-field-name="glAccountId" description="${parentGlAccountId}"/></field>            
+        <field name="parentGlAccountId"><display-entity entity-name="GlAccount" key-field-name="glAccountId" description="${parentGlAccountId}"/></field>
         <field name="accountCode" ><display-entity entity-name="GlAccount" key-field-name="glAccountId" description="${accountCode}"/></field>
         <field name="accountName" ><display-entity entity-name="GlAccount" key-field-name="glAccountId" description="${accountName}"/></field>
         <field name="description"><display description="${description}"/></field>
         <field name="productId"><display description="${productId}"/></field>
     </form>
-    
+
     <form name="FindGlAccountCategory" type="single" target="FindGlAccountCategory" default-entity-name="GlAccountCategory">
         <field name="noConditionFind"><hidden value="Y"/><!-- if this isn't there then with all fields empty no query will be done --></field>
         <field name="glAccountCategoryId"><text-find/></field>
@@ -1154,7 +1154,7 @@ under the License.
         <auto-fields-entity entity-name="GlAccountCategoryMember" default-field-type="edit"/>
         <field name="glAccountId"><display-entity entity-name="GlAccount" key-field-name="glAccountId" description="${glAccountId}-${accountName}"/></field>
         <field name="glAccountCategoryId"><display-entity entity-name="GlAccountCategory"/></field>
-        <field name="fromDate"><display/></field>
+        <field name="fromDate"><display type="date"/></field>
         <field name="thruDate"><date-time/></field>
         <field name="deleteLink" title="" widget-style="buttontext">
             <hyperlink target="deleteGlAccountCategoryMember" description="${uiLabelMap.CommonDelete}" also-hidden="false">
@@ -1163,7 +1163,7 @@ under the License.
                 <parameter param-name="fromDate" from-field="fromDate"/>
             </hyperlink>
         </field>
-        
+
         <field name="submitButton" title="${uiLabelMap.CommonUpdate}"><submit button-type="button"/></field>
     </form>
 

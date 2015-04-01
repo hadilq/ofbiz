@@ -16,6 +16,7 @@ KIND, either express or implied.  See the License for the
 specific language governing permissions and limitations
 under the License.
 -->
+<#assign dateTimeFormat = Static["org.ofbiz.base.util.UtilDateTime"].getDateTimeFormatByContext(context)>
 <#-- variable setup -->
 <#assign price = priceMap?if_exists/>
 <#-- end variable setup -->
@@ -266,7 +267,7 @@ ${virtualJavaScript?if_exists}
             block2.style.display = "none";
         }
     </#if>
-    
+
     function displayProductVirtualVariantId(variantId) {
         document.addform.product_id.value = variantId;
         var elem = document.getElementById('product_id_display');
@@ -287,7 +288,7 @@ ${virtualJavaScript?if_exists}
   <#-- Category next/previous -->
   <#if category?exists>
     <tr>
-      <td colspan="2" align="right">
+      <td colspan="2" class="opposite-align-text">
         <#if previousProductId?exists>
           <a href="<@ofbizUrl>product/~category_id=${categoryId?if_exists}/~product_id=${previousProductId?if_exists}</@ofbizUrl>" class="buttontext">${uiLabelMap.CommonPrevious}</a>&nbsp;|&nbsp;
         </#if>
@@ -313,7 +314,7 @@ ${virtualJavaScript?if_exists}
         <a href="javascript:popupDetail();"><img src="<@ofbizContentUrl>${contentPathPrefix?if_exists}${productLargeImageUrl?if_exists}</@ofbizContentUrl>" name="mainImage" vspace="5" hspace="5" class='cssImgLarge' alt="" /></a>
       </#if>
     </td>
-    <td align="right" valign="top">
+    <td class="opposite-align-text" valign="top">
       <h2>${productContentWrapper.get("PRODUCT_NAME")?if_exists}</h2>
       <div>${productContentWrapper.get("DESCRIPTION")?if_exists}</div>
       <div><b>${product.productId?if_exists}</b></div>
@@ -509,7 +510,7 @@ ${virtualJavaScript?if_exists}
             </#if>
           </#if>
         </#if>
-      </td></tr><tr><td colspan="2" align="right">
+      </td></tr><tr><td colspan="2" class="opposite-align-text">
         <#-- check to see if introductionDate hasnt passed yet -->
         <#if product.introductionDate?exists && nowTimestamp.before(product.introductionDate)>
         <p>&nbsp;</p>
@@ -531,12 +532,12 @@ ${virtualJavaScript?if_exists}
             </div>
             <#if product.productTypeId?if_exists == "ASSET_USAGE" || product.productTypeId?if_exists == "ASSET_USAGE_OUT_IN">
                 <table width="100%"><tr>
-                    <@htmlTemplate.renderDateTimeField name="reservStart" event="" action="" value="" className="" alert="" title="Format: yyyy-MM-dd HH:mm:ss.SSS" size="25" maxlength="30" id="startDate1" dateType="date" shortDateInput=false timeDropdownParamName="" defaultDateTimeString="" localizedIconTitle="" timeDropdown="" timeHourName="" classString="" hour1="" hour2="" timeMinutesName="" minutes="" isTwelveHour="" ampmName="" amSelected="" pmSelected="" compositeType="" formName=""/>
-                    <@htmlTemplate.renderDateTimeField name="reservEnd" event="" action="" value="" className="" alert="" title="Format: yyyy-MM-dd HH:mm:ss.SSS" size="25" maxlength="30" id="endDate1" dateType="date" shortDateInput=false timeDropdownParamName="" defaultDateTimeString="" localizedIconTitle="" timeDropdown="" timeHourName="" classString="" hour1="" hour2="" timeMinutesName="" minutes="" isTwelveHour="" ampmName="" amSelected="" pmSelected="" compositeType="" formName=""/>
+                    <@htmlTemplate.renderDateTimeField name="reservStart" event="" action="" value="" className="" alert="" title="Format: ${dateTimeFormat}" size="25" maxlength="30" id="startDate1" dateType="date" shortDateInput=false timeDropdownParamName="" defaultDateTimeString="" localizedIconTitle="" timeDropdown="" timeHourName="" classString="" hour1="" hour2="" timeMinutesName="" minutes="" isTwelveHour="" ampmName="" amSelected="" pmSelected="" compositeType="" formName=""/>
+                    <@htmlTemplate.renderDateTimeField name="reservEnd" event="" action="" value="" className="" alert="" title="Format: ${dateTimeFormat}" size="25" maxlength="30" id="endDate1" dateType="date" shortDateInput=false timeDropdownParamName="" defaultDateTimeString="" localizedIconTitle="" timeDropdown="" timeHourName="" classString="" hour1="" hour2="" timeMinutesName="" minutes="" isTwelveHour="" ampmName="" amSelected="" pmSelected="" compositeType="" formName=""/>
                 <tr>
-                <#--td nowrap="nowrap" align="right">Number<br />of days</td><td><input type="textt" size="4" name="reservLength"/></td></tr><tr><td>&nbsp;</td><td align="right" nowrap>&nbsp;</td-->
-                <td nowrap="nowrap" align="right">Number of persons</td><td><input type="text" size="4" name="reservPersons" value="2"/></td>
-                <td nowrap="nowrap" align="right">Number of rooms</td><td><input type="text" size="5" name="quantity" value="1"/></td></tr></table>
+                <#--td nowrap="nowrap" class="opposite-align-text">Number<br />of days</td><td><input type="textt" size="4" name="reservLength"/></td></tr><tr><td>&nbsp;</td><td class="opposite-align-text" nowrap>&nbsp;</td-->
+                <td nowrap="nowrap" class="opposite-align-text">Number of persons</td><td><input type="text" size="4" name="reservPersons" value="2"/></td>
+                <td nowrap="nowrap" class="opposite-align-text">Number of rooms</td><td><input type="text" size="5" name="quantity" value="1"/></td></tr></table>
             <#else/>
                 <input type="text" size="5" name="quantity" value="1"<#if product.isVirtual?if_exists?upper_case == "Y"> disabled="disabled"</#if>/>
             </#if>
@@ -567,7 +568,7 @@ ${virtualJavaScript?if_exists}
           </select>
           &nbsp;&nbsp;
           <#if product.productTypeId?if_exists == "ASSET_USAGE" || product.productTypeId?if_exists == "ASSET_USAGE_OUT_IN">
-              <table><tr><td>&nbsp;</td><td align="right">${uiLabelMap.CommonStartDate} (yyyy-mm-dd)</td><td><input type="text" size="10" name="reservStartStr" /></td><td>Number of&nbsp;days</td><td><input type="text" size="4" name="reservLength" /></td><td>&nbsp;</td><td align="right">Number of&nbsp;persons</td><td><input type="text" size="4" name="reservPersons" value="1" /></td><td align="right">Qty&nbsp;</td><td><input type="text" size="5" name="quantity" value="1" /></td></tr></table>
+              <table><tr><td>&nbsp;</td><td class="opposite-align-text">${uiLabelMap.CommonStartDate} (yyyy-mm-dd)</td><td><input type="text" size="10" name="reservStartStr" /></td><td>Number of&nbsp;days</td><td><input type="text" size="4" name="reservLength" /></td><td>&nbsp;</td><td class="opposite-align-text">Number of&nbsp;persons</td><td><input type="text" size="4" name="reservPersons" value="1" /></td><td class="opposite-align-text">Qty&nbsp;</td><td><input type="text" size="5" name="quantity" value="1" /></td></tr></table>
           <#else>
               <input type="text" size="5" name="quantity" value="1"/>
               <input type="hidden" name="reservStartStr" value= ""/>

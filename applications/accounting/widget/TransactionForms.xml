@@ -126,7 +126,7 @@ under the License.
                 </sub-hyperlink>
             </display-entity>
         </field>
-        <field name="effectiveDate"><display/></field>
+        <field name="effectiveDate"><display type="date"/></field>
         <field name="currencyUomId"><hidden/></field>
         <field name="amount"><display also-hidden="false" type="currency" currency="${currencyUomId}"/></field>
     </form>

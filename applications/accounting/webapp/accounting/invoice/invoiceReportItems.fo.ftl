@@ -129,7 +129,7 @@ under the License.
                 </fo:table-row>
                 <fo:table-row height="14px">
                    <fo:table-cell number-columns-spanned="5">
-                        <fo:block font-weight="bold"> ${uiLabelMap.ProductShipmentId}: ${newShipmentId}<#if issuedDateTime?exists> ${uiLabelMap.CommonDate}: ${Static["org.ofbiz.base.util.UtilDateTime"].toDateString(issuedDateTime)}</#if></fo:block>
+                        <fo:block font-weight="bold"> ${uiLabelMap.ProductShipmentId}: ${newShipmentId}<#if issuedDateTime?exists> ${uiLabelMap.CommonDate}: ${Static["org.ofbiz.base.util.UtilDateTime"].toDateStringByContext(issuedDateTime, context)}</#if></fo:block>
                    </fo:table-cell>
                 </fo:table-row>
                 <#assign currentShipmentId = newShipmentId>

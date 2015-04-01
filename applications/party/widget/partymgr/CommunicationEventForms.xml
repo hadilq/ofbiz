@@ -124,7 +124,7 @@ under the License.
     </form>
     <form name="EditEmail" type="single" target="createCommunicationEvent" default-map-name="communicationEvent" id="EditEmail">
         <actions>
-            <set field="nowDate" value="${bsh:org.ofbiz.base.util.UtilDateTime.nowDateString(&quot;yyyy-MM-dd HH:mm:ss.S&quot;)}" type="String"/>
+            <set field="nowDate" value="${groovy: org.ofbiz.base.util.UtilDateTime.nowDateTimeStringByContext(context)}" type="String"/>
             <entity-condition entity-name="PartyContactWithPurpose" list="emailAddresses">
                 <condition-list combine="and">
                     <condition-expr field-name="partyId" from-field="partyIdFrom"/>
@@ -184,7 +184,7 @@ under the License.
     </form>
     <form name="EditInternalNote" type="single" target="createCommunicationEvent" default-map-name="communicationEvent">
         <actions>
-            <set field="nowDate" value="${bsh:org.ofbiz.base.util.UtilDateTime.nowDateString(&quot;yyyy-MM-dd HH:mm:ss.S&quot;)}" type="String"/>
+            <set field="nowDate" value="${groovy: org.ofbiz.base.util.UtilDateTime.nowDateTimeStringByContext(context)}" type="String"/>
             <script location="component://party/webapp/partymgr/WEB-INF/actions/communication/recentVisitor.groovy"/>
         </actions>
         <alt-target use-when="communicationEvent!=null" target="updateCommunicationEvent"/>
@@ -259,7 +259,7 @@ under the License.
             </hyperlink>
         </field>
         <field name="note" title="${uiLabelMap.CommonNote}"><display/></field>
-        
+
         <sort-order>
             <field-group collapsible="false" initially-collapsed="false">
                 <sort-field name="communicationEventId"/>
@@ -270,14 +270,14 @@ under the License.
                 <sort-field name="partyIdFrom"/>
                 <sort-field name="partyIdTo"/>
                 <sort-field name="statusId"/>
-                <sort-field name="lastUpdatedStamp"/>                
+                <sort-field name="lastUpdatedStamp"/>
                 <sort-field name="datetimeStarted"/>
                 <sort-field name="datetimeEnded"/>
                 <sort-field name="subject"/>
             </field-group>
-            <field-group title="${uiLabelMap.CommonContent}" collapsible="true" initially-collapsed="false">                               
+            <field-group title="${uiLabelMap.CommonContent}" collapsible="true" initially-collapsed="false">
                 <sort-field name="content"/>
-                <sort-field name="note"/>                
+                <sort-field name="note"/>
             </field-group>
         </sort-order>
     </form>
@@ -312,13 +312,13 @@ under the License.
         </field>
         <field name="roleTypeIdFrom" use-when="&quot;my&quot;==void"><display-entity description="${description}" entity-name="RoleType" key-field-name="roleTypeId"/></field>
         <field name="roleTypeIdTo" use-when="&quot;my&quot;==void"><display-entity description="${description}" entity-name="RoleType" key-field-name="roleTypeId"/></field>
-        <field name="datetimeStarted" title="${uiLabelMap.CommonStartDate}"><display/></field>
-        <field name="datetimeEnded" title="${uiLabelMap.CommonFinishDate}"><display/></field>
+        <field name="datetimeStarted" title="${uiLabelMap.CommonStartDate}"><display type="date-time"/></field>
+        <field name="datetimeEnded" title="${uiLabelMap.CommonFinishDate}"><display type="date-time"/></field>
         <field name="subject"><display/></field>
         <field map-name="subjectMap" name="eventNote" title="${uiLabelMap.CommonNote}"><display/></field>
         <field name="contentMimeTypeId" use-when="&quot;my&quot;==void"><display/></field>
         <field name="content" title="${uiLabelMap.CommonContent}" encode-output="false"><textarea cols="60" rows="10" read-only="true"/></field>
-        
+
         <sort-order>
             <field-group collapsible="false" initially-collapsed="false">
                 <sort-field name="communicationEventId"/>
@@ -335,10 +335,10 @@ under the License.
                 <sort-field name="datetimeEnded"/>
                 <sort-field name="subject"/>
             </field-group>
-            <field-group title="${uiLabelMap.CommonContent}" collapsible="true" initially-collapsed="false">               
+            <field-group title="${uiLabelMap.CommonContent}" collapsible="true" initially-collapsed="false">
                 <sort-field name="contentMimeTypeId"/>
                 <sort-field name="content"/>
-                <sort-field name="note"/>                
+                <sort-field name="note"/>
             </field-group>
         </sort-order>
     </form>
@@ -485,7 +485,7 @@ under the License.
             </hyperlink>
         </field>
     </form>
-    
+
     <form name="ListPartyCommEvents" type="list" target="RemoveCommunicationEventRole" list-name="listIt"
         odd-row-style="alternate-row" header-row-style="header-row-2" default-table-style="basic-table hover-bar" sort-field-parameter-name="partyCommEventSortField">
         <actions>
@@ -791,7 +791,7 @@ under the License.
         <field name="contentTypeId"><hidden/></field>
         <field name="dataResourceId"><display/></field>
         <field name="contentName"><text/></field>
-        <field name="fromDate"><display/></field>
+        <field name="fromDate"><display type="date"/></field>
         <field name="thruDate"><date-time/></field>
         <field name="sequenceNum"><text/></field>
         <field name="drMimeTypeId">
@@ -867,7 +867,7 @@ under the License.
         <field name="imageData" map-name="empty"><file/></field>
         <field name="submitButton" title="${uiLabelMap.CommonUpload}"><submit/></field>
     </form>
-    
+
     <form name="uploadContent" type="upload" target="uploadAttachFiletoEmail">
         <field name="dataCategoryId"><hidden value="PERSONAL"/></field>
         <field name="contentTypeId"><hidden value="DOCUMENT"/></field>
@@ -886,7 +886,7 @@ under the License.
         <field name="my"><hidden value="${my}"/></field>
         <field name="contentId" title="${uiLabelMap.FormFieldTitle_existContentId}"><lookup target-form-name="LookupTreeContent"/></field>
         <field name="uploadedFile"><file/></field>
-        <field name="contentIdFrom" title="${uiLabelMap.ContentCompDocParentContentId}"><lookup target-form-name="LookupDetailContentTree"/></field>        
+        <field name="contentIdFrom" title="${uiLabelMap.ContentCompDocParentContentId}"><lookup target-form-name="LookupDetailContentTree"/></field>
         <field name="send" title=" ">
             <hyperlink also-hidden="true"
                 target-type="plain" description="${uiLabelMap.CommonUpload}"
@@ -896,7 +896,7 @@ under the License.
     <form name="uploadContent1" type="upload" extends="uploadContent" target="uploadAttachFile">
         <field name="send"><ignored/></field>
         <field name="submitButton" title="${uiLabelMap.CommonUpload}"><submit/></field>
-    </form>      
+    </form>
 
     <form name="editCommTextContent" type="single" target="uploadCommEventContent" default-map-name="commEventContentDataResource"
         header-row-style="header-row" default-table-style="basic-table">

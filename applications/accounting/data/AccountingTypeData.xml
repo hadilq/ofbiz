@@ -188,7 +188,7 @@ under the License.
     <StatusValidChange condition="" statusId="FAM_SCHEDULED" statusIdTo="FAM_IN_PROCESS" transitionName="Scheduled Maintenace In-Process"/>
     <StatusValidChange condition="" statusId="FAM_SCHEDULED" statusIdTo="FAM_CANCELLED" transitionName="Scheduled Maintenace Cancelled"/>
     <StatusValidChange condition="" statusId="FAM_IN_PROCESS" statusIdTo="FAM_COMPLETED" transitionName="In-Process Maintenance Completed"/>
-    
+
     <!-- Fixed Asset Maintenance party roles -->
     <RoleType description="Fixed Asset Maint Assignee" hasTable="N" roleTypeId="FAM_ASSIGNEE"/>
     <RoleType description="Maintenance Supplier or Service" hasTable="N" parentTypeId="FAM_ASSIGNEE" roleTypeId="FAM_SUPPLIER"/>
@@ -280,7 +280,7 @@ under the License.
     <GlAccountClass description="Return of Capital" glAccountClassId="RETURN_OF_CAPITAL" parentClassId="DISTRIBUTION"/>
     <GlAccountClass description="Dividends" glAccountClassId="DIVIDEND" parentClassId="DISTRIBUTION"/>
     <GlAccountClass description="Revenue" glAccountClassId="REVENUE" parentClassId="CREDIT"/>
-    <GlAccountClass description="Contra Revenue" glAccountClassId="CONTRA_REVENUE" parentClassId="DEBIT"/>     
+    <GlAccountClass description="Contra Revenue" glAccountClassId="CONTRA_REVENUE" parentClassId="DEBIT"/>
     <GlAccountClass description="Income" glAccountClassId="INCOME" parentClassId="CREDIT"/>
     <GlAccountClass description="Cash Income" glAccountClassId="CASH_INCOME" parentClassId="INCOME"/>
     <GlAccountClass description="Non-Cash Income" glAccountClassId="NON_CASH_INCOME" parentClassId="INCOME"/>
@@ -388,7 +388,7 @@ under the License.
 
     <!-- Invoice content type-->
     <InvoiceContentType invoiceContentTypeId="COMMENTS" description="comments" hasTable="N" parentTypeId=""/>
-    
+
     <!-- invoice item types tree for adjustments -->
     <InvoiceItemType description="Invoice Adjustment" hasTable="N" invoiceItemTypeId="INVOICE_ADJ" parentTypeId=""/>
     <InvoiceItemType description="Invoice Header Adjustment" hasTable="N" invoiceItemTypeId="INVOICE_HEAD_ADJ" parentTypeId="INVOICE_ADJ"/>
@@ -714,7 +714,7 @@ under the License.
     <!-- Payment Group Type -->
     <PaymentGroupType paymentGroupTypeId="CHECK_RUN" parentTypeId="" hasTable="N" description="Check Run"/>
     <PaymentGroupType paymentGroupTypeId="BATCH_PAYMENT" parentTypeId="" hasTable="N" description="Batch of Payments"/>
-    
+
     <!--  Credit Card methods by type -->
     <CustomMethodType customMethodTypeId="CC_AUTH" parentTypeId="" hasTable="N" description="Credit Card authorize methods"/>
     <CustomMethodType customMethodTypeId="CC_CAPTURE" parentTypeId="" hasTable="N" description="Credit Card capture methods"/>
@@ -995,10 +995,10 @@ under the License.
     <RateType rateTypeId="HIGH_PAY_RATE" description="Highest Pay Rate"/>
     <RateType rateTypeId="LOW_PAY_RATE" description="Lowest Pay Rate"/>
     <!-- rate periods -->
-    <PeriodType description="Rate amount per Hour" periodTypeId="RATE_HOUR" periodLength="1" uomId="TF_hr"/>
-    <PeriodType description="Rate amount per Week" periodTypeId="RATE_WEEK" periodLength="1" uomId="TF_wk"/>
-    <PeriodType description="Rate amount per month" periodTypeId="RATE_MONTH" periodLength="1" uomId="TF_mon"/>
-    <PeriodType description="Rate amount per Quarter" periodTypeId="RATE_QUARTER" periodLength="3" uomId="TF_mon"/>
+    <PeriodType periodTypeId="RATE_HOUR" description="Rate amount per Hour" periodLength="1" uomId="TF_hr"/>
+    <PeriodType periodTypeId="RATE_WEEK" description="Rate amount per Week" periodLength="1" uomId="TF_wk"/>
+    <PeriodType periodTypeId="RATE_MONTH" description="Rate amount per month" periodLength="1" uomId="TF_mon"/>
+    <PeriodType periodTypeId="RATE_QUARTER" description="Rate amount per Quarter" periodLength="3" uomId="TF_mon"/>
 
     <!-- create 'Not Applicable'  records-->
     <WorkEffort workEffortId="_NA_"/>

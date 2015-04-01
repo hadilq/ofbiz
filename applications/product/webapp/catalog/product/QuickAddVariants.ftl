@@ -62,7 +62,7 @@ function clickAll(e) {
             <td><b>${uiLabelMap.ProductNewProductCreate} !</b></td>
             <td><b>${uiLabelMap.ProductSequenceNum}</b></td>
             <td><b>${uiLabelMap.ProductExistingVariant} :</b></td>
-            <td align="right"><b>${uiLabelMap.CommonAll}<input type="checkbox" name="selectAll" value="${uiLabelMap.CommonY}" onclick="javascript:clickAll(this);" /></b></td>
+            <td class="opposite-align-text"><b>${uiLabelMap.CommonAll}<input type="checkbox" name="selectAll" value="${uiLabelMap.CommonY}" onclick="javascript:clickAll(this);" /></b></td>
         </tr>
 
         <#assign defaultSequenceNum = 10>
@@ -93,7 +93,7 @@ function clickAll(e) {
                     </#list>
                     </div>
                 </td>
-                <td align="right">
+                <td class="opposite-align-text">
                   <input type="checkbox" name="_rowSubmit_o_${rowCount}" value="Y" onclick="javascript:setProductVariantId(this, '${defaultVariantProductId}', 'productVariantId_o_${rowCount}');" />
                 </td>
             </tr>

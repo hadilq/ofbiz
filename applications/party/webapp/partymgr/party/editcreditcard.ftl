@@ -64,7 +64,7 @@ under the License.
                     <p>
                       <b>${curContactMechPurposeType.get("description",locale)?if_exists}</b>
                       <#if curPartyContactMechPurpose.thruDate?exists>
-                        (${uiLabelMap.CommonExpire}:${curPartyContactMechPurpose.thruDate.toString()})
+                        (${uiLabelMap.CommonExpire}:${Static["org.ofbiz.base.util.UtilDateTime"].toDateTimeStringByContext(curPartyContactMechPurpose.thruDate, context)})
                       </#if>
                     </p>
                   </#list>
@@ -74,8 +74,8 @@ under the License.
                   <#if curPostalAddress.address2?exists><p>${curPostalAddress.address2}</p></#if>
                   <p>${curPostalAddress.city?if_exists}<#if curPostalAddress.stateProvinceGeoId?has_content>,&nbsp;${curPostalAddress.stateProvinceGeoId?if_exists}</#if>&nbsp;${curPostalAddress.postalCode?if_exists}</p>
                   <#if curPostalAddress.countryGeoId?exists><p>${curPostalAddress.countryGeoId}</p></#if>
-                  <p>(${uiLabelMap.CommonUpdated}:&nbsp;${(curPartyContactMech.fromDate.toString())?if_exists})</p>
-                  <#if curPartyContactMech.thruDate?exists><p><b>${uiLabelMap.CommonDelete}:&nbsp;${curPartyContactMech.thruDate.toString()}</b></p></#if>
+                  <p>(${uiLabelMap.CommonUpdated}:&nbsp;${(Static["org.ofbiz.base.util.UtilDateTime"].toDateTimeStringByContext(curPartyContactMech.fromDate, context))?if_exists})</p>
+                  <#if curPartyContactMech.thruDate?exists><p><b>${uiLabelMap.CommonDelete}:&nbsp;${Static["org.ofbiz.base.util.UtilDateTime"].toDateTimeStringByContext(curPartyContactMech.thruDate, context)}</b></p></#if>
                 </td>
               </tr>
             <#else>
@@ -115,8 +115,8 @@ under the License.
                     <#if postalAddress.address2?exists><p>${postalAddress.address2}</p></#if>
                     <p>${postalAddress.city}<#if postalAddress.stateProvinceGeoId?has_content>,&nbsp;${postalAddress.stateProvinceGeoId}</#if>&nbsp;${postalAddress.postalCode?if_exists}</p>
                     <#if postalAddress.countryGeoId?exists><p>${postalAddress.countryGeoId}</p></#if>
-                    <p>(${uiLabelMap.CommonUpdated}:&nbsp;${(partyContactMech.fromDate.toString())?if_exists})</p>
-                    <#if partyContactMech.thruDate?exists><p><b>${uiLabelMap.CommonDelete}:&nbsp;${partyContactMech.thruDate.toString()}</b></p></#if>
+                    <p>(${uiLabelMap.CommonUpdated}:&nbsp;${(Static["org.ofbiz.base.util.UtilDateTime"].toDateTimeStringByContext(partyContactMech.fromDate, context))?if_exists})</p>
+                    <#if partyContactMech.thruDate?exists><p><b>${uiLabelMap.CommonDelete}:&nbsp;${Static["org.ofbiz.base.util.UtilDateTime"].toDateTimeStringByContext(partyContactMech.thruDate, context)}</b></p></#if>
                   </td>
                 </tr>
               </#list>
@@ -125,7 +125,7 @@ under the License.
               </#if>
               <#-- not yet supported in party manager
               <tr>
-                <td align="right" valigh="top" width="1%">
+                <td class="opposite-align-text" valigh="top" width="1%">
                   <input type="radio" name="contactMechId" value="_NEW_" <#if !hasCurrent>checked="checked"</#if> />
                 </td>
                 <td valign="middle" width="80%">

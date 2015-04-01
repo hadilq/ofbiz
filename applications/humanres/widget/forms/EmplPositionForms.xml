@@ -115,7 +115,7 @@ under the License.
             </display-entity>
         </field>
         <field name="emplPositionId"><hidden/></field>
-        <field name="fromDate" title="${uiLabelMap.CommonDate}"><display/></field>
+        <field name="fromDate" title="${uiLabelMap.CommonDate}"><display type="date"/></field>
         <field name="submitButton" title="${uiLabelMap.CommonUpdate}"><submit button-type="button"/> </field>
         <field name="deleteLink" title="${uiLabelMap.CommonDelete}" widget-style="buttontext">
             <hyperlink target="deleteEmplPositionFulfillment" description="${uiLabelMap.CommonDelete}" also-hidden="false">
@@ -146,7 +146,7 @@ under the License.
         <field name="emplPositionId"><hidden value="${parameters.emplPositionId}"/></field>
         <field name="emplPositionIdReportingTo"><display/></field>
         <field name="emplPositionIdManagedBy"><display/></field>
-        <field name="fromDate"><display/></field>
+        <field name="fromDate"><display type="date"/></field>
         <field name="comments"><text/></field>
         <field name="submitButton" title="${uiLabelMap.CommonUpdate}"><submit button-type="button"/> </field>
         <field name="deleteLink" title="${uiLabelMap.CommonDelete}" widget-style="buttontext">
@@ -179,7 +179,7 @@ under the License.
         <field name="emplPositionId"><hidden value="${parameters.emplPositionId}"/></field>
         <field name="emplPositionIdManagedBy"><display/></field>
         <field name="emplPositionIdReportingTo"><display/></field>
-        <field name="fromDate"><display/></field>
+        <field name="fromDate"><display type="date"/></field>
         <field name="comments"><text/></field>
         <field name="submitButton" title="${uiLabelMap.CommonUpdate}"><submit button-type="button"/> </field>
         <field name="deleteLink" title="${uiLabelMap.CommonDelete}" widget-style="buttontext">
@@ -211,7 +211,7 @@ under the License.
         <auto-fields-service service-name="updateEmplPositionResponsibility"/>
         <field name="emplPositionId"><hidden/></field>
         <field name="responsibilityTypeId" title="${uiLabelMap.HumanResResponsibilityTypeId}"><display /></field>
-        <field name="fromDate"><display /></field>
+        <field name="fromDate"><display type="date" /></field>
         <field name="submitButton" title="${uiLabelMap.CommonUpdate}"><submit button-type="button"/> </field>
         <field name="deleteLink" title="${uiLabelMap.CommonDelete}" widget-style="buttontext">
             <hyperlink target="deleteEmplPositionResponsibility" description="${uiLabelMap.CommonDelete}" also-hidden="false">
@@ -242,7 +242,7 @@ under the License.
         <auto-fields-service service-name="updateValidResponsibility"/>
         <field name="emplPositionTypeId" title="${uiLabelMap.HumanResEmployeePositionTypeId}"><display /></field>
         <field name="responsibilityTypeId" title="${uiLabelMap.HumanResResponsibilityTypeId}"><display /></field>
-        <field name="fromDate"><display /></field>
+        <field name="fromDate"><display type="date" /></field>
         <field name="submitButton" title="${uiLabelMap.CommonUpdate}"><submit button-type="button"/> </field>
         <field name="deleteLink" title="${uiLabelMap.CommonDelete}" widget-style="buttontext">
             <hyperlink target="deleteValidResponsibility" description="${uiLabelMap.CommonDelete}" also-hidden="false">

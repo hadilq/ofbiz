@@ -53,7 +53,7 @@ under the License.
         <input type="hidden" name="facilityId" value="${facility.facilityId?if_exists}"/>
         <table cellspacing="0" class="basic-table">
           <tr>
-            <td width="25%" align="right"><span class="label">${uiLabelMap.ProductOrderId}</span></td>
+            <td width="25%" class="opposite-align-text"><span class="label">${uiLabelMap.ProductOrderId}</span></td>
             <td width="1">&nbsp;</td>
             <td width="25%">
               <#if shipmentId?has_content>
@@ -80,7 +80,7 @@ under the License.
         <input type="hidden" name="facilityId" value="${facility.facilityId?if_exists}"/>
         <table cellspacing="0" class="basic-table">
           <tr>
-            <td width="25%" align='right'><span class="label">${uiLabelMap.FormFieldTitle_picklistBinId}</span></td>
+            <td width="25%" class="opposite-align-text"><span class="label">${uiLabelMap.FormFieldTitle_picklistBinId}</span></td>
             <td width="1">&nbsp;</td>
             <td width="25%">
               <input type="text" name="picklistBinId" size="29" maxlength="60" value="${picklistBinId?if_exists}"/>
@@ -195,8 +195,8 @@ under the License.
               <td>${uiLabelMap.ProductProductId}</td>
               <td>${uiLabelMap.ProductInternalName}</td>
               <td>${uiLabelMap.ProductCountryOfOrigin}</td>
-              <td align="right">${uiLabelMap.ProductOrderedQuantity}</td>
-              <td align="right">${uiLabelMap.ProductVerified}&nbsp;${uiLabelMap.CommonQuantity}</td>
+              <td class="opposite-align-text">${uiLabelMap.ProductOrderedQuantity}</td>
+              <td class="opposite-align-text">${uiLabelMap.ProductVerified}&nbsp;${uiLabelMap.CommonQuantity}</td>
               <td align="center">${uiLabelMap.CommonQty}&nbsp;${uiLabelMap.CommonTo}&nbsp;${uiLabelMap.ProductVerify}</td>
             </tr>
             <#if orderItems?has_content>
@@ -248,8 +248,8 @@ under the License.
                       ${screens.render("component://common/widget/CommonScreens.xml#countries")}
                     </select>
                   </td>
-                  <td align="right">${orderItemQuantity?if_exists}</td>
-                  <td align="right">${readyToVerify?if_exists}</td>
+                  <td class="opposite-align-text">${orderItemQuantity?if_exists}</td>
+                  <td class="opposite-align-text">${readyToVerify?if_exists}</td>
                   <td align="center">
                     <#if (orderItemQuantity.compareTo(readyToVerify) > 0)>
                       <#assign qtyToVerify = orderItemQuantity.subtract(readyToVerify) >
@@ -285,7 +285,7 @@ under the License.
                               <td>${product.productId?default("N/A")}</td>
                               <td>${product.internalName?if_exists}</td>
                               <td></td>
-                              <td align="right">${workEffortInventoryAssign.quantity?if_exists}</td>
+                              <td class="opposite-align-text">${workEffortInventoryAssign.quantity?if_exists}</td>
                             </tr>
                           </#list>
                           <tr><td colspan="8"><hr /></td></tr>
@@ -301,7 +301,7 @@ under the License.
               <td colspan="10">&nbsp;</td>
             </tr>
             <tr>
-              <td colspan="12" align="right">
+              <td colspan="12" class="opposite-align-text">
                 <#if isShowVerifyItemButton == "true">
                   <input type="submit" value="${uiLabelMap.ProductVerify}&nbsp;${uiLabelMap.OrderItems}"/>
                 </#if>
@@ -337,7 +337,7 @@ under the License.
                 <td>${uiLabelMap.ProductItem} ${uiLabelMap.CommonNbr}</td>
                 <td>${uiLabelMap.ProductProductId}</td>
                 <td>${uiLabelMap.ProductInventoryItem} ${uiLabelMap.CommonNbr}</td>
-                <td align="right">${uiLabelMap.ProductVerified}&nbsp;${uiLabelMap.CommonQuantity}</td>
+                <td class="opposite-align-text">${uiLabelMap.ProductVerified}&nbsp;${uiLabelMap.CommonQuantity}</td>
                 <td>&nbsp;</td>
               </tr>
               <#list pickRows as pickRow>
@@ -346,12 +346,12 @@ under the License.
                     <td>${pickRow.getOrderItemSeqId()?if_exists}</td>
                     <td>${pickRow.getProductId()?if_exists}</td>
                     <td>${pickRow.getInventoryItemId()?if_exists}</td>
-                    <td align="right">${pickRow.getReadyToVerifyQty()?if_exists}</td>
+                    <td class="opposite-align-text">${pickRow.getReadyToVerifyQty()?if_exists}</td>
                   </tr>
                 </#if>
               </#list>
             </table>
-            <div align="right">
+            <div class="opposite-align-text">
               <a href="javascript:document.completePickForm.submit()" class="buttontext">${uiLabelMap.ProductComplete}</a>
             </div>
           </div>

@@ -26,7 +26,7 @@ under the License.
         <#if (listSize > 0)>
             <table border="0" width="100%" cellpadding="2">
                 <tr>
-                <td align="right">
+                <td class="opposite-align-text">
                     <span>
                     <b>
                     <#if (viewIndex > 0)>

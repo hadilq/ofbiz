@@ -16,6 +16,7 @@ KIND, either express or implied.  See the License for the
 specific language governing permissions and limitations
 under the License.
 -->
+<#assign dateTimeFormat = Static["org.ofbiz.base.util.UtilDateTime"].getDateTimeFormatByContext(context)>
 <#if productId?exists>
 <div class="screenlet">
   <div class="screenlet-title-bar">
@@ -65,7 +66,7 @@ under the License.
     <#assign hasExpired = false>
     <#if (productFeatureAndAppl.getTimestamp("thruDate"))?exists && Static["org.ofbiz.base.util.UtilDateTime"].nowTimestamp().after(productFeatureAndAppl.getTimestamp("thruDate"))> <#assign hasExpired = true></#if>
             <#if hasExpired><#assign class="alert"></#if>
-            <@htmlTemplate.renderDateTimeField name="thruDate_o_${productFeatureAndAppl_index}" event="" action="" className="${class!''}" alert="" title="Format: yyyy-MM-dd HH:mm:ss.SSS" value="${(productFeatureAndAppl.thruDate)?if_exists}" size="25" maxlength="30" id="thruDate_o_${productFeatureAndAppl_index}" dateType="date" shortDateInput=false timeDropdownParamName="" defaultDateTimeString="" localizedIconTitle="" timeDropdown="" timeHourName="" classString="" hour1="" hour2="" timeMinutesName="" minutes="" isTwelveHour="" ampmName="" amSelected="" pmSelected="" compositeType="" formName=""/>
+            <@htmlTemplate.renderDateTimeField name="thruDate_o_${productFeatureAndAppl_index}" event="" action="" className="${class!''}" alert="" title="Format: ${dateTimeFormat}" value="${(productFeatureAndAppl.thruDate)?if_exists}" size="25" maxlength="30" id="thruDate_o_${productFeatureAndAppl_index}" dateType="date" shortDateInput=false timeDropdownParamName="" defaultDateTimeString="" localizedIconTitle="" timeDropdown="" timeHourName="" classString="" hour1="" hour2="" timeMinutesName="" minutes="" isTwelveHour="" ampmName="" amSelected="" pmSelected="" compositeType="" formName=""/>
             <input type="text" size='6' name='amount_o_${productFeatureAndAppl_index}' value='${(productFeatureAndAppl.amount)?if_exists}' />
             <input type="text" size='5' name='sequenceNum_o_${productFeatureAndAppl_index}' value='${(productFeatureAndAppl.sequenceNum)?if_exists}' />
             <select name='productFeatureApplTypeId_o_${productFeatureAndAppl_index}' size="1">
@@ -78,7 +79,7 @@ under the License.
     </#list>
             </select>
           </td>
-          <td align="right">
+          <td class="opposite-align-text">
             <input type="checkbox" name="_rowSubmit_o_${productFeatureAndAppl_index}" value="Y" onclick="javascript:checkToggle(this, 'selectAllForm');highlightRow(this,'productFeatureId_tableRow_${productFeatureAndAppl_index}');" />
           </td>
           <td>
@@ -168,9 +169,9 @@ under the License.
       </select>
       <br />
       <span class='label'>${uiLabelMap.CommonFrom} : </span>
-      <@htmlTemplate.renderDateTimeField name="fromDate" event="" action="" className="" alert="" title="Format: yyyy-MM-dd HH:mm:ss.SSS" value="" size="25" maxlength="30" id="fromDate1" dateType="date" shortDateInput=false timeDropdownParamName="" defaultDateTimeString="" localizedIconTitle="" timeDropdown="" timeHourName="" classString="" hour1="" hour2="" timeMinutesName="" minutes="" isTwelveHour="" ampmName="" amSelected="" pmSelected="" compositeType="" formName=""/>
+      <@htmlTemplate.renderDateTimeField name="fromDate" event="" action="" className="" alert="" title="Format: ${dateTimeFormat}" value="" size="25" maxlength="30" id="fromDate1" dateType="date" shortDateInput=false timeDropdownParamName="" defaultDateTimeString="" localizedIconTitle="" timeDropdown="" timeHourName="" classString="" hour1="" hour2="" timeMinutesName="" minutes="" isTwelveHour="" ampmName="" amSelected="" pmSelected="" compositeType="" formName=""/>
       <span class='label'>${uiLabelMap.CommonThru} : </span>
-      <@htmlTemplate.renderDateTimeField name="thruDate" event="" action="" className="" alert="" title="Format: yyyy-MM-dd HH:mm:ss.SSS" value="" size="25" maxlength="30" id="thruDate1" dateType="date" shortDateInput=false timeDropdownParamName="" defaultDateTimeString="" localizedIconTitle="" timeDropdown="" timeHourName="" classString="" hour1="" hour2="" timeMinutesName="" minutes="" isTwelveHour="" ampmName="" amSelected="" pmSelected="" compositeType="" formName=""/>
+      <@htmlTemplate.renderDateTimeField name="thruDate" event="" action="" className="" alert="" title="Format: ${dateTimeFormat}" value="" size="25" maxlength="30" id="thruDate1" dateType="date" shortDateInput=false timeDropdownParamName="" defaultDateTimeString="" localizedIconTitle="" timeDropdown="" timeHourName="" classString="" hour1="" hour2="" timeMinutesName="" minutes="" isTwelveHour="" ampmName="" amSelected="" pmSelected="" compositeType="" formName=""/>
       <span class='label'>${uiLabelMap.CommonSequence} : </span><input type="text" size='5' name='sequenceNum'/>
       <input type="submit" value="${uiLabelMap.CommonAdd}"/>
     </form>
@@ -197,8 +198,8 @@ under the License.
   </#list>
       </select>
       <br />
-      <span class="label">${uiLabelMap.CommonFrom} : </span><@htmlTemplate.renderDateTimeField name="fromDate" event="" action="" className="" alert="" title="Format: yyyy-MM-dd HH:mm:ss.SSS" value="" size="25" maxlength="30" id="fromDate2" dateType="date" shortDateInput=false timeDropdownParamName="" defaultDateTimeString="" localizedIconTitle="" timeDropdown="" timeHourName="" classString="" hour1="" hour2="" timeMinutesName="" minutes="" isTwelveHour="" ampmName="" amSelected="" pmSelected="" compositeType="" formName=""/>
-      <span class="label">${uiLabelMap.CommonThru} : </span><@htmlTemplate.renderDateTimeField name="thruDate" event="" action="" className="" alert="" title="Format: yyyy-MM-dd HH:mm:ss.SSS" value="" size="25" maxlength="30" id="thruDate2" dateType="date" shortDateInput=false timeDropdownParamName="" defaultDateTimeString="" localizedIconTitle="" timeDropdown="" timeHourName="" classString="" hour1="" hour2="" timeMinutesName="" minutes="" isTwelveHour="" ampmName="" amSelected="" pmSelected="" compositeType="" formName=""/>
+      <span class="label">${uiLabelMap.CommonFrom} : </span><@htmlTemplate.renderDateTimeField name="fromDate" event="" action="" className="" alert="" title="Format: ${dateTimeFormat}" value="" size="25" maxlength="30" id="fromDate2" dateType="date" shortDateInput=false timeDropdownParamName="" defaultDateTimeString="" localizedIconTitle="" timeDropdown="" timeHourName="" classString="" hour1="" hour2="" timeMinutesName="" minutes="" isTwelveHour="" ampmName="" amSelected="" pmSelected="" compositeType="" formName=""/>
+      <span class="label">${uiLabelMap.CommonThru} : </span><@htmlTemplate.renderDateTimeField name="thruDate" event="" action="" className="" alert="" title="Format: ${dateTimeFormat}" value="" size="25" maxlength="30" id="thruDate2" dateType="date" shortDateInput=false timeDropdownParamName="" defaultDateTimeString="" localizedIconTitle="" timeDropdown="" timeHourName="" classString="" hour1="" hour2="" timeMinutesName="" minutes="" isTwelveHour="" ampmName="" amSelected="" pmSelected="" compositeType="" formName=""/>
       <span class="label">${uiLabelMap.CommonSequence} : </span><input type="text" size="5" name="sequenceNum"/>
       <input type="submit" value="${uiLabelMap.CommonAdd}"/>
     </form>

@@ -465,7 +465,7 @@ function submitForm(form, mode, value) {
                       </td>
                     </tr>
                     <tr>
-                      <td width="1%" align="right">
+                      <td width="1%" class="opposite-align-text">
                         <input type="text" size="5" name="billingAccountAmount" value=""/>
                       </td>
                       <td width="50%">
@@ -527,7 +527,7 @@ function submitForm(form, mode, value) {
     <td>
       &nbsp;<a href="javascript:submitForm(document.checkoutInfoForm, 'CS', '');" class="buttontextbig">${uiLabelMap.OrderBacktoShoppingCart}</a>
     </td>
-    <td align="right">
+    <td class="opposite-align-text">
       <a href="javascript:submitForm(document.checkoutInfoForm, 'DN', '');" class="buttontextbig">${uiLabelMap.OrderContinueToFinalOrderReview}</a>
     </td>
   </tr>

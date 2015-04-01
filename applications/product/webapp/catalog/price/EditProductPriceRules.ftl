@@ -16,6 +16,7 @@ KIND, either express or implied.  See the License for the
 specific language governing permissions and limitations
 under the License.
 -->
+<#assign dateTimeFormat = Static["org.ofbiz.base.util.UtilDateTime"].getDateTimeFormatByContext(context)>
 <div class="screenlet">
     <div class="screenlet-title-bar">
         <h3>${uiLabelMap.ProductGlobalPriceRule}</h3>
@@ -38,8 +39,8 @@ under the License.
                     <input type="hidden" name="productPriceRuleId" value="${productPriceRule.productPriceRuleId}" />
                     <input type="text" size="15" name="ruleName" value="${productPriceRule.ruleName}" />
                     <input type="text" size="15" name="description" value="${productPriceRule.description?if_exists}" />
-                    <@htmlTemplate.renderDateTimeField name="fromDate" event="" action="" className="" alert="" title="Format: yyyy-MM-dd HH:mm:ss.SSS" value="${productPriceRule.fromDate?if_exists}" size="25" maxlength="30" id="fromDate1" dateType="date" shortDateInput=false timeDropdownParamName="" defaultDateTimeString="" localizedIconTitle="" timeDropdown="" timeHourName="" classString="" hour1="" hour2="" timeMinutesName="" minutes="" isTwelveHour="" ampmName="" amSelected="" pmSelected="" compositeType="" formName=""/>
-                    <@htmlTemplate.renderDateTimeField name="thruDate" event="" action="" className="" alert="" title="Format: yyyy-MM-dd HH:mm:ss.SSS" value="${productPriceRule.thruDate?if_exists}" size="25" maxlength="30" id="thruDate1" dateType="date" shortDateInput=false timeDropdownParamName="" defaultDateTimeString="" localizedIconTitle="" timeDropdown="" timeHourName="" classString="" hour1="" hour2="" timeMinutesName="" minutes="" isTwelveHour="" ampmName="" amSelected="" pmSelected="" compositeType="" formName=""/>
+                    <@htmlTemplate.renderDateTimeField name="fromDate" event="" action="" className="" alert="" title="Format: ${dateTimeFormat}" value="${productPriceRule.fromDate?if_exists}" size="25" maxlength="30" id="fromDate1" dateType="date" shortDateInput=false timeDropdownParamName="" defaultDateTimeString="" localizedIconTitle="" timeDropdown="" timeHourName="" classString="" hour1="" hour2="" timeMinutesName="" minutes="" isTwelveHour="" ampmName="" amSelected="" pmSelected="" compositeType="" formName=""/>
+                    <@htmlTemplate.renderDateTimeField name="thruDate" event="" action="" className="" alert="" title="Format: ${dateTimeFormat}" value="${productPriceRule.thruDate?if_exists}" size="25" maxlength="30" id="thruDate1" dateType="date" shortDateInput=false timeDropdownParamName="" defaultDateTimeString="" localizedIconTitle="" timeDropdown="" timeHourName="" classString="" hour1="" hour2="" timeMinutesName="" minutes="" isTwelveHour="" ampmName="" amSelected="" pmSelected="" compositeType="" formName=""/>
                     &nbsp;&nbsp;
                     <#assign saleRule = productPriceRule.isSale?exists && productPriceRule.isSale == "Y">
                     <div>
@@ -61,7 +62,7 @@ under the License.
             </td>
           </tr>
           <tr valign="top">
-            <td align="right" class="label">${uiLabelMap.ProductConditions}</td>
+            <td class="opposite-align-text" class="label">${uiLabelMap.ProductConditions}</td>
             <td colspan="2">
                 <table cellspacing="0" class="basic-table">
                   <tr class="header-row">
@@ -148,7 +149,7 @@ under the License.
             </td>
           </tr>
           <tr valign="top">
-            <td align="right" class="label">${uiLabelMap.ProductActions}</td>
+            <td class="opposite-align-text" class="label">${uiLabelMap.ProductActions}</td>
             <td colspan="2">
                 <table cellspacing="0" class="basic-table">
                   <tr class="header-row">

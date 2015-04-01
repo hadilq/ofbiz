@@ -51,7 +51,7 @@ function insertImageName(type,nameValue) {
             <form action="<@ofbizUrl>createProductCategory</@ofbizUrl>" method="post" style="margin: 0;" name="productCategoryForm">
                 <table cellspacing="0" class="basic-table">
                     <tr>
-                        <td align="right" class="label">${uiLabelMap.ProductProductCategoryId}</td>
+                        <td class="opposite-align-text" class="label">${uiLabelMap.ProductProductCategoryId}</td>
                         <td>&nbsp;</td>
                         <td>
                             <input type="text" name="productCategoryId" size="20" maxlength="40" value="${productCategoryId}"/>
@@ -68,7 +68,7 @@ function insertImageName(type,nameValue) {
             <form action="<@ofbizUrl>createProductCategory</@ofbizUrl>" method="post" style="margin: 0;" name="productCategoryForm">
                 <table cellspacing="0" class="basic-table">
                     <tr>
-                        <td align="right" class="label">${uiLabelMap.ProductProductCategoryId}</td>
+                        <td class="opposite-align-text" class="label">${uiLabelMap.ProductProductCategoryId}</td>
                         <td>&nbsp;</td>
                         <td>
                             <input type="text" name="productCategoryId" size="20" maxlength="40" value=""/>
@@ -84,7 +84,7 @@ function insertImageName(type,nameValue) {
             <input type="hidden" name="productCategoryId" value="${productCategoryId}"/>
             <table cellspacing="0" class="basic-table">
                 <tr>
-                    <td align="right" class="label">${uiLabelMap.ProductProductCategoryId}</td>
+                    <td class="opposite-align-text" class="label">${uiLabelMap.ProductProductCategoryId}</td>
                     <td>&nbsp;</td>
                     <td>
                       <b>${productCategoryId}</b> (${uiLabelMap.ProductNotModificationRecreationCategory}.)
@@ -92,7 +92,7 @@ function insertImageName(type,nameValue) {
                 </tr>
 </#if>
                 <tr>
-                    <td width="26%" align="right" class="label">${uiLabelMap.ProductProductCategoryType}</td>
+                    <td width="26%" class="opposite-align-text" class="label">${uiLabelMap.ProductProductCategoryType}</td>
                     <td>&nbsp;</td>
                     <td width="74%">
                         <select name="productCategoryTypeId" size="1">
@@ -109,17 +109,17 @@ function insertImageName(type,nameValue) {
                     </td>
                 </tr>
                 <tr>
-                    <td width="26%" align="right" class="label">${uiLabelMap.ProductProductCategoryName}</td>
+                    <td width="26%" class="opposite-align-text" class="label">${uiLabelMap.ProductProductCategoryName}</td>
                     <td>&nbsp;</td>
                     <td width="74%"><input type="text" value="${(productCategory.categoryName)?if_exists}" name="categoryName" size="60" maxlength="60"/></td>
                 </tr>
                 <tr>
-                    <td width="26%" align="right" class="label">${uiLabelMap.ProductProductCategoryDescription}</td>
+                    <td width="26%" class="opposite-align-text" class="label">${uiLabelMap.ProductProductCategoryDescription}</td>
                     <td>&nbsp;</td>
                     <td width="74%"><textarea name="description" cols="60" rows="2"><#if productCategory?has_content>${(productCategory.description)?if_exists}</#if></textarea></td>
                 </tr>
                 <tr>
-                    <td width="20%" align="right" valign="top" class="label">
+                    <td width="20%" class="opposite-align-text" valign="top" class="label">
                         ${uiLabelMap.ProductCategoryImageUrl}
                         <#if (productCategory.categoryImageUrl)?exists>
                             <a href="<@ofbizContentUrl>${(productCategory.categoryImageUrl)?if_exists}</@ofbizContentUrl>" target="_blank"><img alt="Category Image" src="<@ofbizContentUrl>${(productCategory.categoryImageUrl)?if_exists}</@ofbizContentUrl>" class="cssImgSmall" /></a>
@@ -131,15 +131,15 @@ function insertImageName(type,nameValue) {
                         <#if productCategory?has_content>
                             <div>
                             ${uiLabelMap.ProductInsertDefaultImageUrl}:
-                            <a href="javascript:insertImageName('category','${imageNameCategory}.jpg');" class="buttontext">.jpg</a>
-                            <a href="javascript:insertImageName('category','${imageNameCategory}.gif');" class="buttontext">.gif</a>
-                            <a href="javascript:insertImageName('category','');" class="buttontext">${uiLabelMap.CommonClear}</a>
+                            <bdi><a href="javascript:insertImageName('category','${imageNameCategory}.jpg');" class="buttontext">.jpg</a></bdi>
+                            <bdi><a href="javascript:insertImageName('category','${imageNameCategory}.gif');" class="buttontext">.gif</a></bdi>
+                            <bdi><a href="javascript:insertImageName('category','');" class="buttontext">${uiLabelMap.CommonClear}</a></bdi>
                             </div>
                         </#if>
                     </td>
                 </tr>
                 <tr>
-                    <td width="20%" align="right" valign="top" class="label">
+                    <td width="20%" class="opposite-align-text" valign="top" class="label">
                         ${uiLabelMap.ProductLinkOneImageUrl}
                         <#if (productCategory.linkOneImageUrl)?exists>
                             <a href="<@ofbizContentUrl>${(productCategory.linkOneImageUrl)?if_exists}</@ofbizContentUrl>" target="_blank"><img alt="Link One Image" src="<@ofbizContentUrl>${(productCategory.linkOneImageUrl)?if_exists}</@ofbizContentUrl>" class="cssImgSmall" /></a>
@@ -151,15 +151,15 @@ function insertImageName(type,nameValue) {
                         <#if productCategory?has_content>
                             <div>
                                 ${uiLabelMap.ProductInsertDefaultImageUrl}:
-                                <a href="javascript:insertImageName('linkOne','${imageNameLinkOne}.jpg');" class="buttontext">.jpg</a>
-                                <a href="javascript:insertImageName('linkOne','${imageNameLinkOne}.gif');" class="buttontext">.gif</a>
-                                <a href="javascript:insertImageName('linkOne','');" class="buttontext">${uiLabelMap.CommonClear}</a>
+                                <bdi><a href="javascript:insertImageName('linkOne','${imageNameLinkOne}.jpg');" class="buttontext">.jpg</a></bdi>
+                                <bdi><a href="javascript:insertImageName('linkOne','${imageNameLinkOne}.gif');" class="buttontext">.gif</a></bdi>
+                                <bdi><a href="javascript:insertImageName('linkOne','');" class="buttontext">${uiLabelMap.CommonClear}</a></bdi>
                             </div>
                         </#if>
                     </td>
                 </tr>
                 <tr>
-                    <td width="20%" align="right" valign="top" class="label">
+                    <td width="20%" class="opposite-align-text" valign="top" class="label">
                         ${uiLabelMap.ProductLinkTwoImageUrl}
                         <#if (productCategory.linkTwoImageUrl)?exists>
                             <a href="<@ofbizContentUrl>${(productCategory.linkTwoImageUrl)?if_exists}</@ofbizContentUrl>" target="_blank"><img alt="Link One Image" src="<@ofbizContentUrl>${(productCategory.linkTwoImageUrl)?if_exists}</@ofbizContentUrl>" class="cssImgSmall" /></a>
@@ -171,15 +171,15 @@ function insertImageName(type,nameValue) {
                         <#if productCategory?has_content>
                             <div>
                                 ${uiLabelMap.ProductInsertDefaultImageUrl}:
-                                <a href="javascript:insertImageName('linkTwo','${imageNameLinkTwo}.jpg');" class="buttontext">.jpg</a>
-                                <a href="javascript:insertImageName('linkTwo','${imageNameLinkTwo}.gif');" class="buttontext">.gif</a>
-                                <a href="javascript:insertImageName('linkTwo','');" class="buttontext">${uiLabelMap.CommonClear}</a>
+                                <bdi><a href="javascript:insertImageName('linkTwo','${imageNameLinkTwo}.jpg');" class="buttontext">.jpg</a></bdi>
+                                <bdi><a href="javascript:insertImageName('linkTwo','${imageNameLinkTwo}.gif');" class="buttontext">.gif</a></bdi>
+                                <bdi><a href="javascript:insertImageName('linkTwo','');" class="buttontext">${uiLabelMap.CommonClear}</a></bdi>
                             </div>
                         </#if>
                     </td>
                 </tr>
                 <tr>
-                    <td width="26%" align="right" class="label">${uiLabelMap.ProductDetailScreen}</td>
+                    <td width="26%" class="opposite-align-text" class="label">${uiLabelMap.ProductDetailScreen}</td>
                     <td>&nbsp;</td>
                     <td width="74%">
                         <input type="text" <#if productCategory?has_content>value="${productCategory.detailScreen?if_exists}"</#if> name="detailScreen" size="60" maxlength="250"/>
@@ -187,7 +187,7 @@ function insertImageName(type,nameValue) {
                     </td>
                 </tr>
                 <tr>
-                    <td width="26%" align="right" class="label">${uiLabelMap.ProductPrimaryParentCategory}</td>
+                    <td width="26%" class="opposite-align-text" class="label">${uiLabelMap.ProductPrimaryParentCategory}</td>
                     <td>&nbsp;</td>
                     <td width="74%">
                         <@htmlTemplate.lookupField value="${(productCategory.primaryParentCategoryId)?default('')}" formName="productCategoryForm" name="primaryParentCategoryId" id="primaryParentCategoryId" fieldFormName="LookupProductCategory"/>

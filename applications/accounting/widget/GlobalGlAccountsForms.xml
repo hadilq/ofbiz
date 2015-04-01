@@ -207,7 +207,7 @@ under the License.
             </display-entity>
         </field>
         <field name="reconciledBalance"><display/></field>
-        <field name="reconciledDate"><display/></field>
+        <field name="reconciledDate"><display type="date"/></field>
     </form>
 
     <form name="ListGlReconciliationEntries" type="list" list-name="glReconciliationEntries" default-entity-name="GlReconciliationEntry"

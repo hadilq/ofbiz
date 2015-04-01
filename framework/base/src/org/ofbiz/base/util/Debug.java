@@ -136,9 +136,9 @@ public final class Debug {
             } else {
                 StringBuilder prefixBuf = new StringBuilder();
 
-                DateToString dateToString = new DateToString(); 
+                DateToString dateToString = new DateToString();
                 try {
-                    prefixBuf.append(dateToString.convert(new java.util.Date(), Locale.getDefault(), 
+                    prefixBuf.append(dateToString.convert(new java.util.Date(), Locale.getDefault(),
                             TimeZone.getDefault(), UtilDateTime.DATE_TIME_FORMAT));
                 } catch (ConversionException e) {
                     logFatal(e, Debug.class.getName());
@@ -383,5 +383,21 @@ public final class Debug {
         if (!useLevelOnCache)
             return true;
         return levelOnCache[level];
+    }
+
+    public static void logErrorLastCalls(String module) {
+        StackTraceElement[] stackTraceElements = Thread.currentThread().getStackTrace();
+        int max = 50;
+        if (max > stackTraceElements.length) {
+            max = stackTraceElements.length;
+        }
+        for (int i = 0; i < max; i++) {
+            logError("i: "+i, module);
+            logError("getClassName: "+stackTraceElements[i].getClassName(), module);
+            logError("getFileName: "+stackTraceElements[i].getFileName(), module);
+            logError("getLineNumber: "+stackTraceElements[i].getLineNumber(), module);
+            logError("getMethodName: "+stackTraceElements[i].getMethodName(), module);
+        }
+        //Integer last = stackTraceElements.length-2;
     }
 }

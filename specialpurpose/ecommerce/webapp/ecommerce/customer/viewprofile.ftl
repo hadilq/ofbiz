@@ -34,7 +34,7 @@ under the License.
         </#if>
       </h2>
     </td>
-    <td align="right">
+    <td class="opposite-align-text">
       <#if showOld>
         <a href="<@ofbizUrl>viewprofile</@ofbizUrl>" class="button">${uiLabelMap.PartyHideOld}</a>
       <#else>
@@ -58,7 +58,7 @@ under the License.
     <div>
       <table width="100%" border="0" cellpadding="0" cellspacing="0">
         <tr>
-          <td align="right">${uiLabelMap.PartyName}</td>
+          <td class="opposite-align-text">${uiLabelMap.PartyName}</td>
           <td>
               ${person.personalTitle?if_exists}
               ${person.firstName?if_exists}
@@ -67,18 +67,18 @@ under the License.
               ${person.suffix?if_exists}
           </td>
         </tr>
-      <#if person.nickname?has_content><tr><td align="right">${uiLabelMap.PartyNickName}</td><td>${person.nickname}</td></tr></#if>
-      <#if person.gender?has_content><tr><td align="right">${uiLabelMap.PartyGender}</td><td>${person.gender}</td></tr></#if>
-      <#if person.birthDate?exists><tr><td align="right">${uiLabelMap.PartyBirthDate}</td><td>${person.birthDate.toString()}</td></tr></#if>
-      <#if person.height?exists><tr><td align="right">${uiLabelMap.PartyHeight}</td><td>${person.height}</td></tr></#if>
-      <#if person.weight?exists><tr><td align="right">${uiLabelMap.PartyWeight}</td><td>${person.weight}</td></tr></#if>
-      <#if person.mothersMaidenName?has_content><tr><td align="right">${uiLabelMap.PartyMaidenName}</td><td>${person.mothersMaidenName}</td></tr></#if>
-      <#if person.maritalStatus?has_content><tr><td align="right">${uiLabelMap.PartyMaritalStatus}</td><td>${person.maritalStatus}</td></tr></#if>
-      <#if person.socialSecurityNumber?has_content><tr><td align="right">${uiLabelMap.PartySocialSecurityNumber}</td><td>${person.socialSecurityNumber}</td></tr></#if>
-      <#if person.passportNumber?has_content><tr><td align="right">${uiLabelMap.PartyPassportNumber}</td><td>${person.passportNumber}</td></tr></#if>
-      <#if person.passportExpireDate?exists><tr><td align="right">${uiLabelMap.PartyPassportExpireDate}</td><td>${person.passportExpireDate.toString()}</td></tr></#if>
-      <#if person.totalYearsWorkExperience?exists><tr><td align="right">${uiLabelMap.PartyYearsWork}</td><td>${person.totalYearsWorkExperience}</td></tr></#if>
-      <#if person.comments?has_content><tr><td align="right">${uiLabelMap.CommonComments}</td><td>${person.comments}</td></tr></#if>
+      <#if person.nickname?has_content><tr><td class="opposite-align-text">${uiLabelMap.PartyNickName}</td><td>${person.nickname}</td></tr></#if>
+      <#if person.gender?has_content><tr><td class="opposite-align-text">${uiLabelMap.PartyGender}</td><td>${person.gender}</td></tr></#if>
+      <#if person.birthDate?exists><tr><td class="opposite-align-text">${uiLabelMap.PartyBirthDate}</td><td>${Static["org.ofbiz.base.util.UtilDateTime"].toDateTimeStringByContext(person.birthDate, context)}</td></tr></#if>
+      <#if person.height?exists><tr><td class="opposite-align-text">${uiLabelMap.PartyHeight}</td><td>${person.height}</td></tr></#if>
+      <#if person.weight?exists><tr><td class="opposite-align-text">${uiLabelMap.PartyWeight}</td><td>${person.weight}</td></tr></#if>
+      <#if person.mothersMaidenName?has_content><tr><td class="opposite-align-text">${uiLabelMap.PartyMaidenName}</td><td>${person.mothersMaidenName}</td></tr></#if>
+      <#if person.maritalStatus?has_content><tr><td class="opposite-align-text">${uiLabelMap.PartyMaritalStatus}</td><td>${person.maritalStatus}</td></tr></#if>
+      <#if person.socialSecurityNumber?has_content><tr><td class="opposite-align-text">${uiLabelMap.PartySocialSecurityNumber}</td><td>${person.socialSecurityNumber}</td></tr></#if>
+      <#if person.passportNumber?has_content><tr><td class="opposite-align-text">${uiLabelMap.PartyPassportNumber}</td><td>${person.passportNumber}</td></tr></#if>
+      <#if person.passportExpireDate?exists><tr><td class="opposite-align-text">${uiLabelMap.PartyPassportExpireDate}</td><td>${Static["org.ofbiz.base.util.UtilDateTime"].toDateTimeStringByContext(person.passportExpireDate, context)}</td></tr></#if>
+      <#if person.totalYearsWorkExperience?exists><tr><td class="opposite-align-text">${uiLabelMap.PartyYearsWork}</td><td>${person.totalYearsWorkExperience}</td></tr></#if>
+      <#if person.comments?has_content><tr><td class="opposite-align-text">${uiLabelMap.CommonComments}</td><td>${person.comments}</td></tr></#if>
       </table>
     </div>
     <#else>
@@ -120,7 +120,7 @@ under the License.
         <#assign partyContactMech = partyContactMechValueMap.partyContactMech?if_exists />
           <tr><td colspan="7"></td></tr>
           <tr>
-            <td align="right" valign="top">
+            <td class="opposite-align-text" valign="top">
               ${contactMechType.get("description",locale)}
             </td>
             <td>&nbsp;</td>
@@ -143,7 +143,7 @@ under the License.
                   <#else>
                     ${uiLabelMap.PartyPurposeTypeNotFound}: "${partyContactMechPurpose.contactMechPurposeTypeId}"
                   </#if>
-                  <#if partyContactMechPurpose.thruDate?exists>(${uiLabelMap.CommonExpire}:${partyContactMechPurpose.thruDate.toString()})</#if>
+                  <#if partyContactMechPurpose.thruDate?exists>(${uiLabelMap.CommonExpire}:${Static["org.ofbiz.base.util.UtilDateTime"].toDateTimeStringByContext(partyContactMechPurpose.thruDate, context)})</#if>
                 </div>
               </#list>
               <#if contactMech.contactMechTypeId?if_exists = "POSTAL_ADDRESS">
@@ -196,15 +196,15 @@ under the License.
               <#else>
                 ${contactMech.infoString?if_exists}
               </#if>
-              <div>(${uiLabelMap.CommonUpdated}:&nbsp;${partyContactMech.fromDate.toString()})</div>
-              <#if partyContactMech.thruDate?exists><div>${uiLabelMap.CommonDelete}:&nbsp;${partyContactMech.thruDate.toString()}</div></#if>
+              <div>(${uiLabelMap.CommonUpdated}:&nbsp;${Static["org.ofbiz.base.util.UtilDateTime"].toDateTimeStringByContext(partyContactMech.fromDate, context)})</div>
+              <#if partyContactMech.thruDate?exists><div>${uiLabelMap.CommonDelete}:&nbsp;${Static["org.ofbiz.base.util.UtilDateTime"].toDateTimeStringByContext(partyContactMech.thruDate, context)}</div></#if>
             </td>
             <td align="center" valign="top"><div>(${partyContactMech.allowSolicitation?if_exists})</div></td>
             <td>&nbsp;</td>
-            <td align="right" valign="top">
+            <td class="opposite-align-text" valign="top">
               <a href="<@ofbizUrl>editcontactmech?contactMechId=${contactMech.contactMechId}</@ofbizUrl>" class="button">${uiLabelMap.CommonUpdate}</a>
             </td>
-            <td align="right" valign="top">
+            <td class="opposite-align-text" valign="top">
               <form name= "deleteContactMech_${contactMech.contactMechId}" method= "post" action= "<@ofbizUrl>deleteContactMech</@ofbizUrl>">
                 <div>
                 <input type= "hidden" name= "contactMechId" value= "${contactMech.contactMechId}"/>
@@ -252,12 +252,12 @@ under the License.
                     <#if creditCard.suffixOnCard?has_content>&nbsp;${creditCard.suffixOnCard}</#if>
                     &nbsp;${Static["org.ofbiz.party.contact.ContactHelper"].formatCreditCard(creditCard)}
                     <#if paymentMethod.description?has_content>(${paymentMethod.description})</#if>
-                    <#if paymentMethod.fromDate?has_content>(${uiLabelMap.CommonUpdated}:&nbsp;${paymentMethod.fromDate.toString()})</#if>
+                    <#if paymentMethod.fromDate?has_content>(${uiLabelMap.CommonUpdated}:&nbsp;${Static["org.ofbiz.base.util.UtilDateTime"].toDateTimeStringByContext(paymentMethod.fromDate, context)})</#if>
                     <#if paymentMethod.thruDate?exists>(${uiLabelMap.CommonDelete}:&nbsp;${paymentMethod.thruDate.toString()})</#if>
                   </div>
                 </td>
                 <td>&nbsp;</td>
-                <td align="right" valign="top">
+                <td class="opposite-align-text" valign="top">
                   <a href="<@ofbizUrl>editcreditcard?paymentMethodId=${paymentMethod.paymentMethodId}</@ofbizUrl>" class="button">
                             ${uiLabelMap.CommonUpdate}</a>
                 </td>
@@ -282,12 +282,12 @@ under the License.
                     <div>
                       ${uiLabelMap.AccountingGiftCard}: ${giftCardNumber}
                       <#if paymentMethod.description?has_content>(${paymentMethod.description})</#if>
-                      <#if paymentMethod.fromDate?has_content>(${uiLabelMap.CommonUpdated}:&nbsp;${paymentMethod.fromDate.toString()})</#if>
-                      <#if paymentMethod.thruDate?exists>(${uiLabelMap.CommonDelete}:&nbsp;${paymentMethod.thruDate.toString()})</#if>
+                      <#if paymentMethod.fromDate?has_content>(${uiLabelMap.CommonUpdated}:&nbsp;${Static["org.ofbiz.base.util.UtilDateTime"].toDateTimeStringByContext(paymentMethod.fromDate, context)})</#if>
+                      <#if paymentMethod.thruDate?exists>(${uiLabelMap.CommonDelete}:&nbsp;${Static["org.ofbiz.base.util.UtilDateTime"].toDateTimeStringByContext(paymentMethod.thruDate, context)})</#if>
                     </div>
                   </td>
                   <td >&nbsp;</td>
-                  <td align="right" valign="top">
+                  <td class="opposite-align-text" valign="top">
                     <a href="<@ofbizUrl>editgiftcard?paymentMethodId=${paymentMethod.paymentMethodId}</@ofbizUrl>" class="button">
                             ${uiLabelMap.CommonUpdate}</a>
                   </td>
@@ -296,21 +296,21 @@ under the License.
                     <div>
                       ${uiLabelMap.AccountingEFTAccount}: ${eftAccount.nameOnAccount?if_exists} - <#if eftAccount.bankName?has_content>${uiLabelMap.AccountingBank}: ${eftAccount.bankName}</#if> <#if eftAccount.accountNumber?has_content>${uiLabelMap.AccountingAccount} #: ${eftAccount.accountNumber}</#if>
                       <#if paymentMethod.description?has_content>(${paymentMethod.description})</#if>
-                      <#if paymentMethod.fromDate?has_content>(${uiLabelMap.CommonUpdated}:&nbsp;${paymentMethod.fromDate.toString()})</#if>
-                      <#if paymentMethod.thruDate?exists>(${uiLabelMap.CommonDelete}:&nbsp;${paymentMethod.thruDate.toString()})</#if>
+                      <#if paymentMethod.fromDate?has_content>(${uiLabelMap.CommonUpdated}:&nbsp;${Static["org.ofbiz.base.util.UtilDateTime"].toDateTimeStringByContext(paymentMethod.fromDate, context)})</#if>
+                      <#if paymentMethod.thruDate?exists>(${uiLabelMap.CommonDelete}:&nbsp;${Static["org.ofbiz.base.util.UtilDateTime"].toDateTimeStringByContext(paymentMethod.thruDate, context)})</#if>
                     </div>
                   </td>
                   <td>&nbsp;</td>
-                  <td align="right" valign="top">
+                  <td class="opposite-align-text" valign="top">
                     <a href="<@ofbizUrl>editeftaccount?paymentMethodId=${paymentMethod.paymentMethodId}</@ofbizUrl>" class="button">
                             ${uiLabelMap.CommonUpdate}</a>
                   </td>
                 </#if>
-                <td align="right" valign="top">
+                <td class="opposite-align-text" valign="top">
                  <a href="<@ofbizUrl>deletePaymentMethod/viewprofile?paymentMethodId=${paymentMethod.paymentMethodId}</@ofbizUrl>" class="button">
                         ${uiLabelMap.CommonExpire}</a>
                 </td>
-                <td align="right" valign="top">
+                <td class="opposite-align-text" valign="top">
                   <#if (profiledefs.defaultPayMeth)?default("") == paymentMethod.paymentMethodId>
                     <span class="buttontextdisabled">${uiLabelMap.EcommerceIsDefault}</span>
                   <#else>
@@ -357,7 +357,7 @@ under the License.
   <div class="screenlet-body">
     <table width="100%" border="0" cellpadding="1">
       <tr>
-        <td align="right" valign="top">${uiLabelMap.CommonUsername}</td>
+        <td class="opposite-align-text" valign="top">${uiLabelMap.CommonUsername}</td>
         <td>&nbsp;</td>
         <td valign="top">${userLogin.userLoginId}</td>
       </tr>
@@ -414,7 +414,7 @@ under the License.
             <td>${mimeType?if_exists.description?if_exists}</td>
             <td>${(status.get("description",locale))?if_exists}</td>
             <td>${contentRole.fromDate?if_exists}</td>
-            <td align="right">
+            <td class="opposite-align-text">
               <form name="removeContent_${contentRole.contentId}" method="post" action="removePartyAsset">
                 <input name="partyId" type="hidden" value="${userLogin.partyId}"/>
                 <input name="contentId" type="hidden" value="${contentRole.contentId}"/>
@@ -489,7 +489,7 @@ under the License.
         <td>${emailAddress.infoString?if_exists}</td>
         <td>&nbsp;</td>
         <td>
-          <#if (contactListParty.statusId?if_exists == "CLPT_ACCEPTED")>            
+          <#if (contactListParty.statusId?if_exists == "CLPT_ACCEPTED")>
             <form method="post" action="<@ofbizUrl>updateContactListParty</@ofbizUrl>" name="clistRejectForm${contactListParty_index}">
             <div>
               <#assign productStoreId = Static["org.ofbiz.product.store.ProductStoreWorker"].getProductStoreId(request) />
@@ -578,7 +578,7 @@ under the License.
             <#if (responses > 0 && survey.allowUpdate?default("N") == "Y")>
               <#assign surveyLabel = uiLabelMap.EcommerceUpdateSurvey />
             </#if>
-            <td align="right"><a href="<@ofbizUrl>takesurvey?productStoreSurveyId=${surveyAppl.productStoreSurveyId}</@ofbizUrl>" class="button">${surveyLabel}</a></td>
+            <td class="opposite-align-text"><a href="<@ofbizUrl>takesurvey?productStoreSurveyId=${surveyAppl.productStoreSurveyId}</@ofbizUrl>" class="button">${surveyLabel}</a></td>
           <#else>
           &nbsp;
           </#if>

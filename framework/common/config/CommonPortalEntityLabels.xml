@@ -8,7 +8,6 @@
     to you under the Apache License, Version 2.0 (the
     "License"); you may not use this file except in compliance
     with the License.  You may obtain a copy of the License at
-
     http://www.apache.org/licenses/LICENSE-2.0
 
     Unless required by applicable law or agreed to in writing,
@@ -22,6 +21,7 @@
     <property key="PortalPage.portalPageName.MYPORTAL_EMPLOYEE">
         <value xml:lang="en">Main</value>
         <value xml:lang="es">Principal</value>
+        <value xml:lang="fa">اصلی</value>
         <value xml:lang="fr">Accueil</value>
         <value xml:lang="ja">メイン</value>
         <value xml:lang="pt_BR">Principal</value>
@@ -31,6 +31,7 @@
     </property>
     <property key="PortalPage.portalPageName.MYPORTAL_EMPLOYEE0">
         <value xml:lang="en">My Comms</value>
+        <value xml:lang="fa">ارتباطات من</value>
         <value xml:lang="fr">Mes communications</value>
         <value xml:lang="ja">私の通信</value>
         <value xml:lang="ru">Мои связи</value>
@@ -40,6 +41,7 @@
     <property key="PortalPage.portalPageName.MYPORTAL_EMPLOYEE1">
         <value xml:lang="en">My Profile</value>
         <value xml:lang="es">Mi perfil</value>
+        <value xml:lang="fa">پروفایل من</value>
         <value xml:lang="fr">Mon profil</value>
         <value xml:lang="ja">私のプロファイル</value>
         <value xml:lang="pt_BR">Meu Perfil</value>
@@ -49,6 +51,7 @@
     </property>
     <property key="PortalPage.portalPageName.MYPORTAL_EMPLOYEE2">
         <value xml:lang="en">Other Party Comms</value>
+        <value xml:lang="fa">ارتباطات هویت دیگر</value>
         <value xml:lang="fr">Autres communications</value>
         <value xml:lang="ja">その他取引先の通信</value>
         <value xml:lang="ru">Другие средства связи</value>
@@ -58,6 +61,7 @@
     <property key="PortalPage.portalPageName.MYPORTAL_EMPLOYEE4">
         <value xml:lang="en">My Time Sheet</value>
         <value xml:lang="es">Mi hoja de tiempos</value>
+        <value xml:lang="fa">جدول‌زمان من</value>
         <value xml:lang="fr">Mes feuilles de temps</value>
         <value xml:lang="ja">私の予定表</value>
         <value xml:lang="pt_BR">Minha folha de tempo</value>
@@ -67,6 +71,7 @@
     </property>
     <property key="PortalPage.portalPageName.MYPORTAL_EMPLOYEE5">
         <value xml:lang="en">My Tasks</value>
+        <value xml:lang="fa">تکلیف‌های من</value>
         <value xml:lang="fr">Mes tâches</value>
         <value xml:lang="ja">私のタスク</value>
         <value xml:lang="ru">Мои задачи</value>
@@ -75,6 +80,7 @@
     </property>
     <property key="PortalPage.portalPageName.MYPORTAL_EMPLOYEE6">
         <value xml:lang="en">My Leave</value>
+        <value xml:lang="fa">مرخصی‌های من</value>
         <value xml:lang="fr">Mes congés</value>
         <value xml:lang="ja">私の休暇</value>
         <value xml:lang="ru">Мой отпуск</value>
@@ -83,6 +89,7 @@
     </property>
     <property key="PortalPage.portalPageName.MYPORTAL_EMPLOYEE7">
         <value xml:lang="en">My trainings</value>
+        <value xml:lang="fa">آموزش‌های من</value>
         <value xml:lang="fr">Mes formations</value>
         <value xml:lang="ja">私のトレーニング</value>
         <value xml:lang="ru">Мои тренировки</value>
@@ -91,6 +98,7 @@
     </property>
     <property key="PortalPage.portalPageName.MYPORTAL_EMPLOYEE8">
         <value xml:lang="en">My Payments</value>
+        <value xml:lang="fa">پرداخت‌های من</value>
         <value xml:lang="fr">Mes paiements</value>
         <value xml:lang="ja">私の支払</value>
         <value xml:lang="ru">Мои платежи</value>
@@ -101,6 +109,7 @@
         <value xml:lang="de">Lager</value>
         <value xml:lang="en">Facility</value>
         <value xml:lang="es">Almacén</value>
+        <value xml:lang="fa">تسهیلات</value>
         <value xml:lang="fr">Lieu de stockage</value>
         <value xml:lang="it">Stabilimento </value>
         <value xml:lang="ja">拠点</value>

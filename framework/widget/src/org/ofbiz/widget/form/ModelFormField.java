@@ -612,19 +612,24 @@ public class ModelFormField {
                 }
             } else {
                 retVal = this.entryAcsr.get(dataMap, locale);
+
             }
         } else {
             //Debug.logInfo("Getting entry, no entryAcsr so using field name " + this.name + " for field " + this.getName() + " of form " + this.modelForm.getName(), module);
             // if no entry name was specified, use the field's name
             retVal = dataMap.get(this.name);;
+
         }
 
         // this is a special case to fill in fields during a create by default from parameters passed in
         if (dataMapIsContext && retVal == null && !Boolean.FALSE.equals(useRequestParameters)) {
             Map<String, ? extends Object> parameters = UtilGenerics.checkMap(context.get("parameters"));
             if (parameters != null) {
-                if (UtilValidate.isNotEmpty(this.entryAcsr))  retVal = this.entryAcsr.get(parameters);
-                else retVal = parameters.get(this.name);
+                if (UtilValidate.isNotEmpty(this.entryAcsr)) {
+                    retVal = this.entryAcsr.get(parameters);
+                } else {
+                    retVal = parameters.get(this.name);
+                }
             }
         }
 
@@ -647,11 +652,6 @@ public class ModelFormField {
     public String getEntry(Map<String, ? extends Object> context , String defaultValue) {
         Boolean isError = (Boolean) context.get("isError");
         Boolean useRequestParameters = (Boolean) context.get("useRequestParameters");
-
-        Locale locale = (Locale) context.get("locale");
-        if (locale == null) locale = Locale.getDefault();
-        TimeZone timeZone = (TimeZone) context.get("timeZone");
-        if (timeZone == null) timeZone = TimeZone.getDefault();
 
         String returnValue;
 
@@ -679,20 +679,22 @@ public class ModelFormField {
             if (retVal != null) {
                 // format string based on the user's locale and time zone
                 if (retVal instanceof Double || retVal instanceof Float || retVal instanceof BigDecimal) {
+                    Locale locale = (Locale) context.get("locale");
+                    if (locale == null) locale = Locale.getDefault();
                     NumberFormat nf = NumberFormat.getInstance(locale);
                     nf.setMaximumFractionDigits(10);
                     return nf.format(retVal);
                 } else if (retVal instanceof java.sql.Date) {
-                    DateFormat df = UtilDateTime.toDateFormat(timeZone, locale);
+                    DateFormat df = UtilDateTime.toDateFormatByContext(context);
                     return df.format((java.util.Date) retVal);
                 } else if (retVal instanceof java.sql.Time) {
-                    DateFormat df = UtilDateTime.toTimeFormat(timeZone, locale);
+                    DateFormat df = UtilDateTime.toTimeFormatByContext(context);
                     return df.format((java.util.Date) retVal);
                 } else if (retVal instanceof java.sql.Timestamp) {
-                    DateFormat df = UtilDateTime.toDateTimeFormat(timeZone, locale);
+                    DateFormat df = UtilDateTime.toDateTimeFormatByContext(context);
                     return df.format((java.util.Date) retVal);
                 } else if (retVal instanceof java.util.Date) {
-                    DateFormat df = UtilDateTime.toDateTimeFormat("EEE MMM dd hh:mm:ss z yyyy", timeZone, locale);
+                    DateFormat df = UtilDateTime.toDateTimeFormatByContext("EEE MMM dd hh:mm:ss z yyyy", context);
                     return df.format((java.util.Date) retVal);
                 } else {
                     returnValue = retVal.toString();
@@ -704,7 +706,7 @@ public class ModelFormField {
 
         if (this.getEncodeOutput() && returnValue != null) {
             StringUtil.SimpleEncoder simpleEncoder = (StringUtil.SimpleEncoder) context.get("simpleEncoder");
-            if (simpleEncoder != null)  returnValue = simpleEncoder.encode(returnValue);
+            if (simpleEncoder != null) returnValue = simpleEncoder.encode(returnValue);
         }
         return returnValue;
     }
@@ -770,6 +772,17 @@ public class ModelFormField {
         } else {
             return baseName;
         }
+    }
+
+    public String getParameterNameWithSuffix(Map<String, ? extends Object> context, String namePlusSuffix) {
+        if (UtilValidate.isNotEmpty(context.get("parameters"))) {
+            Map<String, ? extends Object> parameters = UtilGenerics.checkMap(context.get("parameters"));
+            if (parameters != null && UtilValidate.isNotEmpty(parameters.get(namePlusSuffix))) {
+                return (String) parameters.get(namePlusSuffix);
+            } else
+                return "";
+        } else
+            return "";
     }
 
     public int getPosition() {
@@ -1529,7 +1542,7 @@ public class ModelFormField {
             this.listEntryName = optionElement.getAttribute("list-entry-name");
             this.keyAcsr = FlexibleMapAccessor.getInstance(optionElement.getAttribute("key-name"));
             this.listAcsr = FlexibleMapAccessor.getInstance(optionElement.getAttribute("list-name"));
-            this.listEntryName = optionElement.getAttribute("list-entry-name");
+            //this.listEntryName = optionElement.getAttribute("list-entry-name");
             this.description = FlexibleStringExpander.getInstance(optionElement.getAttribute("description"));
             this.fieldInfo = fieldInfo;
         }
@@ -2005,9 +2018,12 @@ public class ModelFormField {
             if (UtilValidate.isNotEmpty(this.description)) ObjRetVal = this.description.expandString(context);
             else ObjRetVal = this.modelFormField.getObjectEntry(context);
 
-            if (ObjRetVal instanceof String && UtilValidate.isEmpty(ObjRetVal)) {
+            if (UtilValidate.isEmpty(ObjRetVal)) {
                 retVal = this.getDefaultValue(context);
-            } else if ("currency".equals(type)) {
+
+            } else if ("currency".equals(type) || ObjRetVal instanceof Double || ObjRetVal instanceof BigDecimal) {
+            // if type is not currency but ObjRetVal is an instance of Double or BigDecimal then we assume
+            // it is a currency
                 Locale locale = (Locale) context.get("locale");
                 if (locale == null) locale = Locale.getDefault();
                 String isoCode = null;
@@ -2027,61 +2043,67 @@ public class ModelFormField {
                         throw new IllegalArgumentException(errMsg);
                     }
                 }
-            } else if ("date".equals(this.type)) {
-                Locale locale = (Locale) context.get("locale");
-                TimeZone timeZone = (TimeZone) context.get("timeZone");
-                if (locale == null) locale = Locale.getDefault();
-                if (timeZone == null) timeZone = TimeZone.getDefault();;
 
+            } else if ("date".equals(this.type)) {
                 Date date = null;
 
-                if (ObjRetVal instanceof Timestamp)
+                if (ObjRetVal instanceof Timestamp){
                     date = new Date(((Timestamp) ObjRetVal).getTime());
-                else {
+                    retVal = UtilDateTime.toDateStringByContext(date, context);
+                } else {// FIXME: There shouldn't be any string date here! but they are!
                     StringToTimestamp stringToTimestamp = new DateTimeConverters.StringToTimestamp();
 
-                    try { // FIXME: There shouldn't be any string date here! but they are!
-                        Timestamp timestamp = null;
-                        timestamp = stringToTimestamp.convert((String) ObjRetVal);
+                    Timestamp timestamp = null;
+                    try {
+                        timestamp = stringToTimestamp.convert((String) ObjRetVal, context);
                         date = new Date(timestamp.getTime());
+
+                        retVal = UtilDateTime.toDateStringByContext(date, context);
                     }
                     catch (ConversionException e) {
-                        String errMsg = "Error formatting date using default instead [" + retVal + "]: " + e.toString();
-                        Debug.logError(e, errMsg, module);
-                        // create default date value from timestamp string
-                        retVal = retVal.substring(0,10);
+                        try {
+                            // create default dateTime value from timestamp string
+                            retVal = ((String) ObjRetVal).substring(0,10);
+                        } catch (java.lang.StringIndexOutOfBoundsException e2) {
+                            String errMsg = "Error formatting date using default instead [" + retVal + "]: " + e.toString();
+                            Debug.logError(e, errMsg, module);
+                            // create default date value from timestamp string
+                            retVal = ((String) ObjRetVal);
+                        }
+
                     }
                 }
-                DateFormat dateFormatter = UtilDateTime.toDateFormat(timeZone, locale);
-                //DateFormat dateFormatter = DateFormat.getDateInstance(DateFormat.SHORT, locale);
-                retVal = dateFormatter.format(date);
 
-            } else if ("date-time".equals(this.type)) {
-                Locale locale = (Locale) context.get("locale");
-                TimeZone timeZone = (TimeZone) context.get("timeZone");
-                if (locale == null) locale = Locale.getDefault();
-                if (timeZone == null) timeZone = TimeZone.getDefault();
-
+            } else if ("date-time".equals(this.type) || ObjRetVal instanceof Timestamp) {
+            // if type is not currency but ObjRetVal is an instance of Timestamp then we assume
+            // it is a date-time
                 Date date = null;
 
-                if (ObjRetVal instanceof Timestamp)
+                if (ObjRetVal instanceof Timestamp){
                     date = new Date(((Timestamp) ObjRetVal).getTime());
-                else {
+
+                    retVal = UtilDateTime.toDateTimeStringByContext(date, context);
+                } else {
                     StringToTimestamp stringToTimestamp = new DateTimeConverters.StringToTimestamp();
                     Timestamp timestamp = null;
                     try {
-                        timestamp = stringToTimestamp.convert((String) ObjRetVal);
+                        timestamp = stringToTimestamp.convert((String) ObjRetVal, context);
                         date = new Date(timestamp.getTime());
+
+                        retVal  = UtilDateTime.toDateTimeStringByContext(date, context);
                     }
                     catch (ConversionException e) {
-                        String errMsg = "Error formatting date/time using default instead [" + retVal + "]: " + e.toString();
-                        Debug.logError(e, errMsg, module);
-                        // create default date/time value from timestamp string
-                        retVal = retVal.substring(0,16);
+                        try {
+                            // create default dateTime value from timestamp string
+                            retVal = ((String) ObjRetVal).substring(0,16);
+                        } catch (java.lang.StringIndexOutOfBoundsException e2) {
+                            String errMsg = "Error formatting date using default instead [" + retVal + "]: " + e.toString();
+                            Debug.logError(e, errMsg, module);
+                            // create default date value from timestamp string
+                            retVal = ((String) ObjRetVal);
+                        }
                     }
                 }
-                DateFormat dateFormatter = UtilDateTime.toDateTimeFormat(timeZone, locale);
-                retVal = dateFormatter.format(date);
 
             } else if ("accounting-number".equals(this.type)) {
                 Locale locale = (Locale) context.get("locale");
@@ -2102,8 +2124,13 @@ public class ModelFormField {
                         throw new IllegalArgumentException(errMsg);
                     }
                 }
+
+            } else if (ObjRetVal instanceof Integer || ObjRetVal instanceof Long) {
+                Locale locale = (Locale) context.get("locale");
+                if (locale == null) locale = Locale.getDefault();
+                retVal = UtilFormatOut.formatNumber(ObjRetVal, locale);
             } else {
-                if (ObjRetVal == null) retVal = this.getDefaultValue(context); else retVal = ObjRetVal.toString();
+                retVal = ObjRetVal.toString();
             }
 
             if (retVal != null && this.getModelFormField().getEncodeOutput()) {
@@ -3496,8 +3523,11 @@ public class ModelFormField {
             return this.defaultOption;
         }
 
-        public boolean getHideIgnoreCase() {
-            return this.hideIgnoreCase;
+        public boolean getHideIgnoreCase(Map<String, Object> context) {
+            Locale locale = (Locale) context.get("locale");
+            if (locale == null) return this.hideIgnoreCase;
+            return this.hideIgnoreCase ||
+                UtilMisc.hideIgnoreCaseLocales().contains(locale.getLanguage()) ? true : false;
         }
 
         public boolean getHideOptions() {

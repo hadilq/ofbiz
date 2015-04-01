@@ -44,22 +44,22 @@ under the License.
 
     <table width="90%" border="0" cellpadding="2" cellspacing="0">
     <tr>
-      <td width="26%" align="right" valign="top"><div>${uiLabelMap.ProductProductName}</div></td>
+      <td width="26%" class="opposite-align-text" valign="top"><div>${uiLabelMap.ProductProductName}</div></td>
       <td width="5">&nbsp;</td>
       <td width="74%"><input type="text" class="inputBox" size="30" maxlength="60" name="productName" value="${(product.productName)?if_exists}"/>*</td>
     </tr>
     <tr>
-      <td width="26%" align="right" valign="top"><div>${uiLabelMap.ProductProductDescription}</div></td>
+      <td width="26%" class="opposite-align-text" valign="top"><div>${uiLabelMap.ProductProductDescription}</div></td>
       <td width="5">&nbsp;</td>
       <td width="74%"><input type="text" class="inputBox" size="30" maxlength="60" name="description" value="${(product.description)?if_exists}"/></td>
     </tr>
     <tr>
-      <td width="26%" align="right" valign="top"><div>${uiLabelMap.ProductPrice}</div></td>
+      <td width="26%" class="opposite-align-text" valign="top"><div>${uiLabelMap.ProductPrice}</div></td>
       <td width="5">&nbsp;</td>
       <td width="74%"><input type="text" class="inputBox" size="30" maxlength="60" name="price" value="${(productPrice.price)?if_exists}"/>*</td>
     </tr>
     <tr>
-      <td width="26%" align="right" valign="top"><div>&nbsp;</div></td>
+      <td width="26%" class="opposite-align-text" valign="top"><div>&nbsp;</div></td>
       <td width="5">&nbsp;</td>
       <td width="74%"><a href="javascript:document.editdigitaluploadform.submit()" class="buttontext">${uiLabelMap.CommonSave}</a></td>
     </tr>

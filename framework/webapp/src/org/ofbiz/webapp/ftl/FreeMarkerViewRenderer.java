@@ -52,7 +52,7 @@ public class FreeMarkerViewRenderer extends org.jpublish.view.freemarker.FreeMar
         //TODO: find some way of getting the site identifier... hmmm...
         String id = "unknown";
         fmConfig.setCacheStorage(new OfbizCacheStorage(id));
-        fmConfig.setSetting("datetime_format", "yyyy-MM-dd HH:mm:ss.SSS");
+        fmConfig.setSetting("datetime_format", UtilDateTime.getDateTimeFormatByContext(context));
     }
 
     protected Object createViewContext(JPublishContext context, String path) throws ViewRenderException {

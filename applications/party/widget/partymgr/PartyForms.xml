@@ -334,7 +334,7 @@ under the License.
                 </sub-hyperlink>
             </display-entity>
         </field>
-        <field name="fromDate" title="${uiLabelMap.CommonFromDateTime}"><display/></field>
+        <field name="fromDate" title="${uiLabelMap.CommonFromDateTime}"><display type="date-time"/></field>
         <field name="submitButton" title="${uiLabelMap.CommonUpdate}"><submit button-type="button"/></field>
         <field name="deleteLink" title=" " widget-style="smallSubmit">
             <hyperlink target="deletePartyTaxAuthInfo" description="${uiLabelMap.CommonDelete}" also-hidden="false">
@@ -719,7 +719,7 @@ under the License.
         <auto-fields-service service-name="updatePartyCarrierAccount"/>
         <field name="partyId"><display/></field>
         <field name="carrierPartyId"><display/></field>
-        <field name="fromDate"><display/></field>
+        <field name="fromDate"><display type="date"/></field>
         <field name="submitButton" title="${uiLabelMap.CommonUpdate}"><submit button-type="button"/></field>
         <field name="deleteLink" title="${uiLabelMap.CommonDelete}" widget-style="smallSubmit">
             <hyperlink target="updatePartyCarrierAccount" description="${uiLabelMap.CommonDelete}" also-hidden="false">
@@ -770,8 +770,8 @@ under the License.
                 </sub-hyperlink>
             </display-entity>
         </field>
-        <field name="fromDate"><display/></field>
-        <field name="thruDate"><display/></field>
+        <field name="fromDate"><display type="date"/></field>
+        <field name="thruDate"><display type="date"/></field>
     </form>
 
     <form name="ListRelatedContacts" type="list" list-name="contacts" default-table-style="basic-table">
@@ -1180,8 +1180,8 @@ under the License.
             </display-entity>
         </field>
         <field name="roleTypeId" title="${uiLabelMap.PartyRoleTypeId}"><display-entity entity-name="RoleType"/></field>
-        <field name="fromDate"><display/></field>
-        <field name="thruDate"><display/></field>
+        <field name="fromDate"><display type="date"/></field>
+        <field name="thruDate"><display type="date"/></field>
         <field name="sequenceNum"><display/></field>
         <field name="editLink" widget-style="buttontext" title="${uiLabelMap.CommonEdit}">
            <hyperlink target="FindProductStoreRoles" description="${uiLabelMap.CommonEdit}">

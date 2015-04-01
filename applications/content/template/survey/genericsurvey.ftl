@@ -276,7 +276,7 @@ under the License.
         <td colspan="5"><hr /></td>
       <#else/>
         <#-- standard question options -->
-        <td align="right">
+        <td class="opposite-align-text">
           <@renderSurveyQuestionText surveyQuestionAndAppl=surveyQuestionAndAppl/>
         </td>
         <td width="1">&nbsp;</td>

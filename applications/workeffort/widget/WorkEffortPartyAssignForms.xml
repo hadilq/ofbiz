@@ -37,8 +37,8 @@ under the License.
             </display-entity>
         </field>
         <field name="roleTypeId" title="${uiLabelMap.PartyRoleType}"><display-entity entity-name="RoleType"/></field>
-        <field name="statusDateTime"><display/></field>
-        <field name="fromDate"><display/></field>
+        <field name="statusDateTime"><display type="date-time"/></field>
+        <field name="fromDate"><display type="date"/></field>
         <field name="thruDate"><date-time/></field>
         <field name="statusId">
             <drop-down no-current-selected-key="PARTYASSIGN_UNASSIGNED">

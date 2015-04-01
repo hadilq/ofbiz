@@ -52,7 +52,7 @@ under the License.
     <Geo abbreviation="گلس" geoCode="27" geoId="IR-27" geoName="گلستان" geoTypeId="PROVINCE" wellKnownText="Golestan"/>
     <Geo abbreviation="قزو" geoCode="28" geoId="IR-28" geoName="قزوین" geoTypeId="PROVINCE" wellKnownText="Qazvin"/>
     <Geo abbreviation="خرج" geoCode="29" geoId="IR-29" geoName="خراسان جنوبی" geoTypeId="PROVINCE" wellKnownText="Khorasan, South"/>
-    <Geo abbreviation="خرر" geoCode="30" geoId="IR-30" geoName="خراسان رضوی" geoTypeId="PROVINCE" wellKnownText="Khorasan, Razavi"/>
+    <Geo abbreviation="خرض" geoCode="30" geoId="IR-30" geoName="خراسان رضوی" geoTypeId="PROVINCE" wellKnownText="Khorasan, Razavi"/>
     <Geo abbreviation="خرش" geoCode="31" geoId="IR-31" geoName="خراسان شمالی" geoTypeId="PROVINCE" wellKnownText="Khorasan, North"/>
 
     <GeoAssoc geoId="IRN" geoIdTo="IR-01" geoAssocTypeId="REGIONS"/>

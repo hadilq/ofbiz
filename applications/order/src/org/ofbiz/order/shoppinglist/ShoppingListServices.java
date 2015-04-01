@@ -27,6 +27,7 @@ import java.util.Map;
 
 import javolution.util.FastMap;
 
+import org.ofbiz.base.util.Calendar;
 import org.ofbiz.base.util.Debug;
 import org.ofbiz.base.util.GeneralException;
 import org.ofbiz.base.util.UtilDateTime;
@@ -58,8 +59,6 @@ import org.ofbiz.service.LocalDispatcher;
 import org.ofbiz.service.ServiceUtil;
 import org.ofbiz.service.calendar.RecurrenceInfo;
 import org.ofbiz.service.calendar.RecurrenceInfoException;
-
-import com.ibm.icu.util.Calendar;
 
 /**
  * Shopping List Services

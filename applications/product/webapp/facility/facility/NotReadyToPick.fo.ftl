@@ -16,8 +16,16 @@ KIND, either express or implied.  See the License for the
 specific language governing permissions and limitations
 under the License.
 -->
+<#assign docLangAttr = locale.toLanguageTag()>
+<#assign rightToLeftLocales = Static["org.ofbiz.base.util.UtilMisc"].rightToLeftLocales()/>
+<#assign writingMode = "lr">
+<#if rightToLeftLocales?contains(docLangAttr?substring(0, 2))>
+    <#assign writingMode = "rl">
+</#if>
+<#assign defaultFontFamily = Static["org.ofbiz.common.languageFontsMapping"].getFontFamily(locale)>
 <#escape x as x?xml>
-    <fo:root xmlns:fo="http://www.w3.org/1999/XSL/Format">
+    <fo:root xmlns:fo="http://www.w3.org/1999/XSL/Format"
+    writing-mode="${writingMode}">
         <fo:layout-master-set>
             <fo:simple-page-master master-name="main" page-height="11in" page-width="8.5in"
                     margin-top="0.5in" margin-bottom="1in" margin-left=".5in" margin-right="1in">
@@ -28,7 +36,7 @@ under the License.
         </fo:layout-master-set>
         
         <fo:page-sequence master-reference="main">
-            <fo:flow flow-name="xsl-region-body" font-family="Helvetica">
+            <fo:flow flow-name="xsl-region-body" font-family="${defaultFontFamily}">
                 <#include "component://order/webapp/ordermgr/order/companyHeader.fo.ftl"/>
                 <fo:table border-width="1pt" border-style="solid">
                     <fo:table-column column-width="250pt"/>

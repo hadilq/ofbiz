@@ -16,6 +16,7 @@ KIND, either express or implied.  See the License for the
 specific language governing permissions and limitations
 under the License.
 -->
+<#assign dateTimeFormat = Static["org.ofbiz.base.util.UtilDateTime"].getDateTimeFormatByContext(context)>
 <#if shipment?exists>
 <div class="screenlet">
     <div class="screenlet-title-bar">
@@ -202,7 +203,8 @@ under the License.
                                     <option ${(shipmentRouteSegment.homeDeliveryType?default("")=="EVENING")?string("selected=\"selected\"","")} value="EVENING">${uiLabelMap.ProductShipmentFedexHomeEvening}</option>
                                     <option ${(shipmentRouteSegment.homeDeliveryType?default("")=="APPOINTMENT")?string("selected=\"selected\"","")} value="APPOINTMENT">${uiLabelMap.ProductShipmentFedexHomeAppointment}</option>
                                 </select>
-                                <@htmlTemplate.renderDateTimeField name="homeDeliveryDate" event="" action="" className="" alert="" title="Format: yyyy-MM-dd HH:mm:ss.SSS" value="${(shipmentRouteSegment.homeDeliveryDate.toString())?if_exists}" size="25" maxlength="30" id="homeDeliveryDate1" dateType="date" shortDateInput=false timeDropdownParamName="" defaultDateTimeString="" localizedIconTitle="" timeDropdown="" timeHourName="" classString="" hour1="" hour2="" timeMinutesName="" minutes="" isTwelveHour="" ampmName="" amSelected="" pmSelected="" compositeType="" formName=""/>
+                                <#assign dateTimeString = Static["org.ofbiz.base.util.UtilDateTime"].toDateTimeStringByContext(shipmentRouteSegment.homeDeliveryDate, context)>
+                                <@htmlTemplate.renderDateTimeField name="homeDeliveryDate" event="" action="" className="" alert="" title="Format: ${dateTimeFormat}" value="${(dateTimeString)?if_exists}" size="25" maxlength="30" id="homeDeliveryDate1" dateType="date" shortDateInput=false timeDropdownParamName="" defaultDateTimeString="" localizedIconTitle="" timeDropdown="" timeHourName="" classString="" hour1="" hour2="" timeMinutesName="" minutes="" isTwelveHour="" ampmName="" amSelected="" pmSelected="" compositeType="" formName=""/>
                             </#if>
                         <#else>
                             <#-- Todo: implement closeout with Fedex -->
@@ -210,7 +212,7 @@ under the License.
                             <#-- Todo: implement shipment tracking with Fedex -->
                             ${shipmentRouteSegment.homeDeliveryType?default(uiLabelMap.ProductShipmentNone)}
                             <#if shipmentRouteSegment.homeDeliveryDate?exists>
-                                &nbsp;(${shipmentRouteSegment.homeDeliveryDate?string("yyyy-MM-dd")})
+                                &nbsp;(${Static["org.ofbiz.base.util.UtilDateTime"].toDateStringByContext(shipmentRouteSegment.homeDeliveryDate, context)})
                             </#if>
                             <br />
                         </#if>
@@ -230,11 +232,15 @@ under the License.
                     <br />
                     <input type="text" size="24" name="trackingIdNumber" value="${shipmentRouteSegment.trackingIdNumber?if_exists}"/>
                     <br />
-                    <@htmlTemplate.renderDateTimeField name="estimatedStartDate" event="" action="" className="" alert="" title="Format: yyyy-MM-dd HH:mm:ss.SSS" value="${(shipmentRouteSegment.estimatedStartDate.toString())?if_exists}" size="25" maxlength="30" id="estimatedStartDate1" dateType="date" shortDateInput=false timeDropdownParamName="" defaultDateTimeString="" localizedIconTitle="" timeDropdown="" timeHourName="" classString="" hour1="" hour2="" timeMinutesName="" minutes="" isTwelveHour="" ampmName="" amSelected="" pmSelected="" compositeType="" formName=""/>
-                    <@htmlTemplate.renderDateTimeField name="estimatedArrivalDate" event="" action="" className="" alert="" title="Format: yyyy-MM-dd HH:mm:ss.SSS" value="${(shipmentRouteSegment.estimatedArrivalDate.toString())?if_exists}" size="25" maxlength="30" id="estimatedArrivalDate1" dateType="date" shortDateInput=false timeDropdownParamName="" defaultDateTimeString="" localizedIconTitle="" timeDropdown="" timeHourName="" classString="" hour1="" hour2="" timeMinutesName="" minutes="" isTwelveHour="" ampmName="" amSelected="" pmSelected="" compositeType="" formName=""/>
+                    <#assign dateTimeString = Static["org.ofbiz.base.util.UtilDateTime"].toDateTimeStringByContext(shipmentRouteSegment.estimatedStartDate, context)>
+                    <@htmlTemplate.renderDateTimeField name="estimatedStartDate" event="" action="" className="" alert="" title="Format: ${dateTimeFormat}" value="${(dateTimeString)?if_exists}" size="25" maxlength="30" id="estimatedStartDate1" dateType="date" shortDateInput=false timeDropdownParamName="" defaultDateTimeString="" localizedIconTitle="" timeDropdown="" timeHourName="" classString="" hour1="" hour2="" timeMinutesName="" minutes="" isTwelveHour="" ampmName="" amSelected="" pmSelected="" compositeType="" formName=""/>
+                    <#assign dateTimeString = Static["org.ofbiz.base.util.UtilDateTime"].toDateTimeStringByContext(shipmentRouteSegment.estimatedArrivalDate, context)>
+                    <@htmlTemplate.renderDateTimeField name="estimatedArrivalDate" event="" action="" className="" alert="" title="Format: ${dateTimeFormat}" value="${(dateTimeString)?if_exists}" size="25" maxlength="30" id="estimatedArrivalDate1" dateType="date" shortDateInput=false timeDropdownParamName="" defaultDateTimeString="" localizedIconTitle="" timeDropdown="" timeHourName="" classString="" hour1="" hour2="" timeMinutesName="" minutes="" isTwelveHour="" ampmName="" amSelected="" pmSelected="" compositeType="" formName=""/>
                     <br />
-                    <@htmlTemplate.renderDateTimeField name="actualStartDate" event="" action="" className="" alert="" title="Format: yyyy-MM-dd HH:mm:ss.SSS" value="${(shipmentRouteSegment.actualStartDate.toString())?if_exists}" size="25" maxlength="30" id="actualStartDate2" dateType="date" shortDateInput=false timeDropdownParamName="" defaultDateTimeString="" localizedIconTitle="" timeDropdown="" timeHourName="" classString="" hour1="" hour2="" timeMinutesName="" minutes="" isTwelveHour="" ampmName="" amSelected="" pmSelected="" compositeType="" formName=""/>
-                    <@htmlTemplate.renderDateTimeField name="actualArrivalDate" event="" action="" className="" alert="" title="Format: yyyy-MM-dd HH:mm:ss.SSS" value="${(shipmentRouteSegment.actualArrivalDate.toString())?if_exists}" size="25" maxlength="30" id="actualArrivalDate2" dateType="date" shortDateInput=false timeDropdownParamName="" defaultDateTimeString="" localizedIconTitle="" timeDropdown="" timeHourName="" classString="" hour1="" hour2="" timeMinutesName="" minutes="" isTwelveHour="" ampmName="" amSelected="" pmSelected="" compositeType="" formName=""/>
+                    <#assign dateTimeString = Static["org.ofbiz.base.util.UtilDateTime"].toDateTimeStringByContext(shipmentRouteSegment.actualStartDate, context)>
+                    <@htmlTemplate.renderDateTimeField name="actualStartDate" event="" action="" className="" alert="" title="Format: ${dateTimeFormat}" value="${(dateTimeString)?if_exists}" size="25" maxlength="30" id="actualStartDate2" dateType="date" shortDateInput=false timeDropdownParamName="" defaultDateTimeString="" localizedIconTitle="" timeDropdown="" timeHourName="" classString="" hour1="" hour2="" timeMinutesName="" minutes="" isTwelveHour="" ampmName="" amSelected="" pmSelected="" compositeType="" formName=""/>
+                    <#assign dateTimeString = Static["org.ofbiz.base.util.UtilDateTime"].toDateTimeStringByContext(shipmentRouteSegment.actualArrivalDate, context)>
+                    <@htmlTemplate.renderDateTimeField name="actualArrivalDate" event="" action="" className="" alert="" title="Format: ${dateTimeFormat}" value="${(dateTimeString)?if_exists}" size="25" maxlength="30" id="actualArrivalDate2" dateType="date" shortDateInput=false timeDropdownParamName="" defaultDateTimeString="" localizedIconTitle="" timeDropdown="" timeHourName="" classString="" hour1="" hour2="" timeMinutesName="" minutes="" isTwelveHour="" ampmName="" amSelected="" pmSelected="" compositeType="" formName=""/>
                 </div>
             </td>
             <td valign="top">
@@ -289,12 +295,12 @@ under the License.
             <input type="hidden" name="shipmentId" value="${shipmentRouteSegment.shipmentId}"/>
             <input type="hidden" name="shipmentRouteSegmentId" value="${shipmentRouteSegment.shipmentRouteSegmentId}"/>
         </form>
-        
+
         <form name="dhlShipmentConfirm_${shipmentRouteSegmentData_index}" method="post" action="<@ofbizUrl>dhlShipmentConfirm</@ofbizUrl>">
             <input type="hidden" name="shipmentId" value="${shipmentRouteSegment.shipmentId}"/>
             <input type="hidden" name="shipmentRouteSegmentId" value="${shipmentRouteSegment.shipmentRouteSegmentId}"/>
         </form>
-        
+
         <form name="fedexShipmentConfirm_${shipmentRouteSegmentData_index}" method="post" action="<@ofbizUrl>fedexShipmentConfirm</@ofbizUrl>">
             <input type="hidden" name="shipmentId" value="${shipmentRouteSegment.shipmentId}"/>
             <input type="hidden" name="shipmentRouteSegmentId" value="${shipmentRouteSegment.shipmentRouteSegmentId}"/>
@@ -431,11 +437,11 @@ under the License.
                     <br />
                     <input type="text" size="24" name="trackingIdNumber" value=""/>
                     <br />
-                    <@htmlTemplate.renderDateTimeField name="estimatedStartDate" event="" action="" className="" alert="" title="Format: yyyy-MM-dd HH:mm:ss.SSS" value="" size="25" maxlength="30" id="estimatedStartDate3" dateType="date" shortDateInput=false timeDropdownParamName="" defaultDateTimeString="" localizedIconTitle="" timeDropdown="" timeHourName="" classString="" hour1="" hour2="" timeMinutesName="" minutes="" isTwelveHour="" ampmName="" amSelected="" pmSelected="" compositeType="" formName=""/>
-                    <@htmlTemplate.renderDateTimeField name="estimatedArrivalDate" event="" action="" className="" alert="" title="Format: yyyy-MM-dd HH:mm:ss.SSS" value="" size="25" maxlength="30" id="estimatedArrivalDate3" dateType="date" shortDateInput=false timeDropdownParamName="" defaultDateTimeString="" localizedIconTitle="" timeDropdown="" timeHourName="" classString="" hour1="" hour2="" timeMinutesName="" minutes="" isTwelveHour="" ampmName="" amSelected="" pmSelected="" compositeType="" formName=""/>
+                    <@htmlTemplate.renderDateTimeField name="estimatedStartDate" event="" action="" className="" alert="" title="Format: ${dateTimeFormat}" value="" size="25" maxlength="30" id="estimatedStartDate3" dateType="date" shortDateInput=false timeDropdownParamName="" defaultDateTimeString="" localizedIconTitle="" timeDropdown="" timeHourName="" classString="" hour1="" hour2="" timeMinutesName="" minutes="" isTwelveHour="" ampmName="" amSelected="" pmSelected="" compositeType="" formName=""/>
+                    <@htmlTemplate.renderDateTimeField name="estimatedArrivalDate" event="" action="" className="" alert="" title="Format: ${dateTimeFormat}" value="" size="25" maxlength="30" id="estimatedArrivalDate3" dateType="date" shortDateInput=false timeDropdownParamName="" defaultDateTimeString="" localizedIconTitle="" timeDropdown="" timeHourName="" classString="" hour1="" hour2="" timeMinutesName="" minutes="" isTwelveHour="" ampmName="" amSelected="" pmSelected="" compositeType="" formName=""/>
                     <br />
-                    <@htmlTemplate.renderDateTimeField name="actualStartDate" event="" action="" className="" alert="" title="Format: yyyy-MM-dd HH:mm:ss.SSS" value="" size="25" maxlength="30" id="actualArrivalDate3" dateType="date" shortDateInput=false timeDropdownParamName="" defaultDateTimeString="" localizedIconTitle="" timeDropdown="" timeHourName="" classString="" hour1="" hour2="" timeMinutesName="" minutes="" isTwelveHour="" ampmName="" amSelected="" pmSelected="" compositeType="" formName=""/>
-                    <@htmlTemplate.renderDateTimeField name="actualArrivalDate" event="" action="" className="" alert="" title="Format: yyyy-MM-dd HH:mm:ss.SSS" value="" size="25" maxlength="30" id="actualArrivalDate3" dateType="date" shortDateInput=false timeDropdownParamName="" defaultDateTimeString="" localizedIconTitle="" timeDropdown="" timeHourName="" classString="" hour1="" hour2="" timeMinutesName="" minutes="" isTwelveHour="" ampmName="" amSelected="" pmSelected="" compositeType="" formName=""/>
+                    <@htmlTemplate.renderDateTimeField name="actualStartDate" event="" action="" className="" alert="" title="Format: ${dateTimeFormat}" value="" size="25" maxlength="30" id="actualArrivalDate3" dateType="date" shortDateInput=false timeDropdownParamName="" defaultDateTimeString="" localizedIconTitle="" timeDropdown="" timeHourName="" classString="" hour1="" hour2="" timeMinutesName="" minutes="" isTwelveHour="" ampmName="" amSelected="" pmSelected="" compositeType="" formName=""/>
+                    <@htmlTemplate.renderDateTimeField name="actualArrivalDate" event="" action="" className="" alert="" title="Format: ${dateTimeFormat}" value="" size="25" maxlength="30" id="actualArrivalDate3" dateType="date" shortDateInput=false timeDropdownParamName="" defaultDateTimeString="" localizedIconTitle="" timeDropdown="" timeHourName="" classString="" hour1="" hour2="" timeMinutesName="" minutes="" isTwelveHour="" ampmName="" amSelected="" pmSelected="" compositeType="" formName=""/>
                 </td>
                 <td valign="top">
                     <input type="text" size="5" name="billingWeight" value="${(shipmentRouteSegment.billingWeight)?if_exists}"/>

@@ -10,7 +10,7 @@
         timezoneText: 'Time Zone',
         currentText: 'Now',
         closeText: 'Done',
-        timeFormat: 'hh:mm tt',
+        timeFormat: 'hh:mm:ss tt',
         ampm: false
     };
     $.timepicker.setDefaults($.timepicker.regional['en']);

@@ -29,12 +29,11 @@ import javolution.util.FastSet;
 import net.fortuna.ical4j.model.*;
 import net.fortuna.ical4j.model.property.*;
 
+import org.ofbiz.base.util.Calendar;
 import org.ofbiz.service.calendar.TemporalExpression;
 import org.ofbiz.service.calendar.TemporalExpressionVisitor;
 import org.ofbiz.service.calendar.TemporalExpressions;
 import org.ofbiz.service.calendar.TemporalExpressions.*;
-
-import com.ibm.icu.util.Calendar;
 
 /** Temporal Expression to iCalendar recurrence converter. The conversion results
  * (or conversion success) are unpredictable since the OFBiz Temporal Expressions

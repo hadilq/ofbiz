@@ -16,6 +16,8 @@ KIND, either express or implied.  See the License for the
 specific language governing permissions and limitations
 under the License.
 -->
+<#assign dateFormat = Static["org.ofbiz.base.util.UtilDateTime"].getDateFormatByContext(context)>
+<#assign dateTimeFormat = Static["org.ofbiz.base.util.UtilDateTime"].getDateTimeFormatByContext(context)>
 
 <#macro renderField text>
   <#if text?exists>
@@ -101,7 +103,7 @@ under the License.
   </#if>
 </#macro>
 
-<#macro renderDateTimeField name className alert title value size maxlength id dateType shortDateInput timeDropdownParamName defaultDateTimeString localizedIconTitle timeDropdown timeHourName classString hour1 hour2 timeMinutesName minutes isTwelveHour ampmName amSelected pmSelected compositeType formName mask="" event="" action="" step="" timeValues="">
+<#macro renderDateTimeField name className alert title value size maxlength id dateType shortDateInput timeDropdownParamName defaultDateTimeString localizedIconTitle timeDropdown timeHourName classString hour1 hour2 timeMinutesName minutes isTwelveHour ampmName amSelected pmSelected compositeType formName mask="" righToLeft=false event="" action="" step="" timeValues="">
   <span class="view-calendar">
     <#if dateType!="time" >
       <input type="text" name="${name}_i18n" <@renderClass className alert /><#rt/>
@@ -130,14 +132,14 @@ under the License.
               initDate = initDate.substring(0, initDate.indexOf('.'));
             }
             jQuery("#${id}").val(initDate);
-            var ofbizTime = "<#if shortDateInput?? && shortDateInput>yyyy-MM-dd<#else>yyyy-MM-dd HH:mm:ss</#if>";
+            var ofbizTime = "<#if shortDateInput?? && shortDateInput>${dateFormat}<#else>${dateTimeFormat}</#if>";
             var dateObj = Date.parseExact(initDate, ofbizTime);
             var formatedObj = dateObj.toString(dateFormat);
             jQuery("#${id}_i18n").val(formatedObj);
           }
 
           jQuery("#${id}").change(function() {
-            var ofbizTime = "<#if shortDateInput?exists && shortDateInput>yyyy-MM-dd<#else>yyyy-MM-dd HH:mm:ss</#if>";
+            var ofbizTime = "<#if shortDateInput?exists && shortDateInput>${dateFormat}<#else>${dateTimeFormat}</#if>";
             var newValue = ""
             if (this.value != "") {
               var dateObj = Date.parseExact(this.value, ofbizTime);
@@ -152,7 +154,7 @@ under the License.
             dateObj = Date.parseExact(this.value, dateFormat),
             ofbizTime;
             if (this.value != "" && dateObj !== null) {
-              ofbizTime = "<#if shortDateInput?exists && shortDateInput>yyyy-MM-dd<#else>yyyy-MM-dd HH:mm:ss</#if>";
+              ofbizTime = "<#if shortDateInput?exists && shortDateInput>${dateFormat}<#else>${dateTimeFormat}</#if>";
               newValue = dateObj.toString(ofbizTime);
             }
             else { // invalid input
@@ -191,24 +193,14 @@ under the License.
       </script>
     </#if>
     <#if timeDropdown?has_content && timeDropdown=="time-dropdown">
-      <select name="${timeHourName}" <#if classString?has_content>class="${classString}"</#if>><#rt/>
-        <#if isTwelveHour>
-          <#assign x=11>
-          <#list 0..x as i>
-            <option value="${i}"<#if hour1?has_content><#if i=hour1> selected="selected"</#if></#if>>${i}</option><#rt/>
-          </#list>
+        <span class="alwaysLeftToRight">
+        <#if righToLeft>
+            <@renderMinute timeMinutesName classString timeValues minutes step />:<@renderHour timeHourName classString isTwelveHour hour1 hour2 /><#rt/>
         <#else>
-          <#assign x=23>
-          <#list 0..x as i>
-            <option value="${i}"<#if hour2?has_content><#if i=hour2> selected="selected"</#if></#if>>${i}</option><#rt/>
-          </#list>
+            <@renderHour timeHourName classString isTwelveHour hour1 hour2 />:<@renderMinute timeMinutesName classString timeValues minutes step /><#rt/>
         </#if>
-        </select>:<select name="${timeMinutesName}" <#if classString?has_content>class="${classString}"</#if>><#rt/>
-          <#assign values = Static["org.ofbiz.base.util.StringUtil"].toList(timeValues)>
-          <#list values as i>
-            <option value="${i}"<#if minutes?has_content><#if i?number== minutes ||((i?number==(60 -step?number)) && (minutes &gt; 60 - (step?number/2))) || ((minutes &gt; i?number )&& (minutes &lt; i?number+(step?number/2))) || ((minutes &lt; i?number )&& (minutes &gt; i?number-(step?number/2)))> selected="selected"</#if></#if>>${i}</option><#rt/>
-          </#list>
-        </select>
+        <#rt/>
+        </span>
         <#rt/>
         <#if isTwelveHour>
           <select name="${ampmName}" <#if classString?has_content>class="${classString}"</#if>><#rt/>
@@ -220,6 +212,31 @@ under the License.
     </#if>
     <input type="hidden" name="${compositeType}" value="Timestamp"/>
   </span>
+</#macro>
+
+<#macro renderHour timeHourName classString isTwelveHour hour1 hour2>
+    <select name="${timeHourName}" <#if classString?has_content>class="${classString}"</#if>><#rt/>
+        <#if isTwelveHour>
+            <#assign x=11>
+            <#list 0..x as i>
+                <option value="${i}"<#if hour1?has_content><#if i=hour1> selected="selected"</#if></#if>>${i}</option><#rt/>
+            </#list>
+        <#else>
+            <#assign x=23>
+            <#list 0..x as i>
+                <option value="${i}"<#if hour2?has_content><#if i=hour2> selected="selected"</#if></#if>>${i}</option><#rt/>
+            </#list>
+        </#if>
+    </select>
+</#macro>
+
+<#macro renderMinute timeMinutesName classString timeValues minutes step>
+    <select name="${timeMinutesName}" <#if classString?has_content>class="${classString}"</#if>><#rt/>
+        <#assign values = Static["org.ofbiz.base.util.StringUtil"].toList(timeValues)>
+        <#list values as i>
+            <option value="${i}"<#if minutes?has_content><#if i?number== minutes ||((i?number==(60 -step?number)) && (minutes &gt; 60 - (step?number/2))) || ((minutes &gt; i?number )&& (minutes &lt; i?number+(step?number/2))) || ((minutes &lt; i?number )&& (minutes &gt; i?number-(step?number/2)))> selected="selected"</#if></#if>>${i}</option><#rt/>
+        </#list>
+    </select>
 </#macro>
 
 <#macro renderDropDownField name className alert id multiple formName otherFieldName event action size firstInList currentValue explicitDescription allowEmpty options fieldName otherFieldName otherValue otherFieldSize dDFCurrent ajaxEnabled noCurrentSelectedKey ajaxOptions frequency minChars choices autoSelect partialSearch partialChars ignoreCase fullSearch>
@@ -398,10 +415,10 @@ under the License.
   </tr>
 </#macro>
 <#macro renderFormatItemRowCellOpen fieldName style positionSpan>
-  <td <#if positionSpan?has_content && positionSpan gt 1>colspan="${positionSpan}"</#if><#if style?has_content>class="${style}"</#if>>
+  <td <#if positionSpan?has_content && positionSpan gt 1>colspan="${positionSpan}"</#if><#if style?has_content>class="${style}"</#if>><bdi>
 </#macro>
 <#macro renderFormatItemRowCellClose fieldName>
-  </td>
+  </bdi></td>
 </#macro>
 <#macro renderFormatItemRowFormCellOpen style>
   <td<#if style?has_content> class="${style}"</#if>>
@@ -772,9 +789,9 @@ Parameter: lastViewName, String, optional - If the ajaxEnabled parameter is true
 <#macro renderBanner style leftStyle rightStyle leftText text rightText>
   <table width="100%">
     <tr><#rt/>
-      <#if leftText?has_content><td align="left"><#if leftStyle?has_content><div class="${leftStyle}"></#if>${leftText}<#if leftStyle?has_content></div></#if></td><#rt/></#if>
+      <#if leftText?has_content><td class="align-text"><#if leftStyle?has_content><div class="${leftStyle}"></#if>${leftText}<#if leftStyle?has_content></div></#if></td><#rt/></#if>
       <#if text?has_content><td align="center"><#if style?has_content><div class="${style}"></#if>${text}<#if style?has_content></div></#if></td><#rt/></#if>
-      <#if rightText?has_content><td align="right"><#if rightStyle?has_content><div class="${rightStyle}"></#if>${rightText}<#if rightStyle?has_content></div></#if></td><#rt/></#if>
+      <#if rightText?has_content><td class="opposite-align-text"><#if rightStyle?has_content><div class="${rightStyle}"></#if>${rightText}<#if rightStyle?has_content></div></#if></td><#rt/></#if>
     </tr>
   </table>
 </#macro>

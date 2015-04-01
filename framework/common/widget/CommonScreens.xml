@@ -137,27 +137,27 @@ under the License.
                 <!-- The default (global) java scripts -->
                 <!-- jQuery part -->
                 <!-- Load available JS Language Files -->
-                <set field="initialLocaleComplete" type="String" value="${groovy:parameters?.userLogin?.lastLocale}" default-value="${groovy:locale.toString()}" />
-                <set field="layoutSettings.javaScripts[+0]" value="${groovy: org.ofbiz.common.JsLanguageFilesMapping.datejs.getFilePath(initialLocaleComplete)}" global="true" />
+                <set field="initialLocaleComplete" type="String" value="${groovy:parameters?.userLogin?.lastLocale}" default-value="${groovy:locale.toLanguageTag()}" />
+                <!--<set field="layoutSettings.javaScripts[+0]" value="${groovy: org.ofbiz.common.JsLanguageFilesMapping.datejs.getFilePath(initialLocaleComplete)}" global="true" />-->
                 <set field="layoutSettings.javaScripts[+0]" value="${groovy: org.ofbiz.common.JsLanguageFilesMapping.jquery.getFilePath(initialLocaleComplete)}" global="true" />
                 <set field="layoutSettings.javaScripts[+0]" value="${groovy: org.ofbiz.common.JsLanguageFilesMapping.validation.getFilePath(initialLocaleComplete)}" global="true" />
                 <set field="layoutSettings.javaScripts[+0]" value="${groovy: org.ofbiz.common.JsLanguageFilesMapping.dateTime.getFilePath(initialLocaleComplete)}" global="true" />
                 <set field="layoutSettings.javaScripts[+0]" value="/images/jquery/plugins/asmselect/jquery.asmselect-1.0.4a-beta.js" global="true" />
-                <set field="layoutSettings.javaScripts[+0]" value="/images/jquery/plugins/datetimepicker/jquery-ui-timepicker-addon.min-1.4.3.js" global="true" />
+                <set field="layoutSettings.javaScripts[+0]" value="/images/jquery/plugins/datetimepicker/jquery-ui-timepicker-addon-1.5.0.js" global="true" />
                 <set field="layoutSettings.javaScripts[+0]" value="/images/jquery/plugins/jquery.maskedinput-1.3.1.min.js" global="true" />
-                <set field="layoutSettings.javaScripts[+0]" value="/images/jquery/ui/js/jquery-ui-1.10.3.min.js" global="true" />
+                <set field="layoutSettings.javaScripts[+0]" value="/images/jquery/ui/js/jquery-ui-1.11.2.custom.js" global="true" />
                 <set field="layoutSettings.javaScripts[+0]" value="/images/jquery/plugins/jeditable/jquery.jeditable.js" global="true" />
                 <set field="layoutSettings.javaScripts[+0]" value="/images/jquery/plugins/validate/jquery.validate.min.js" global="true" />
                 <set field="layoutSettings.javaScripts[+0]" value="/images/jquery/plugins/fjTimer/jquerytimer-min.js" global="true" />
                 <set field="layoutSettings.javaScripts[+0]" value="/images/jquery/jquery-migrate-1.2.1.js" global="true"/>
-                <set field="layoutSettings.javaScripts[+0]" value="/images/jquery/jquery-1.10.2.min.js" global="true" />
+                <set field="layoutSettings.javaScripts[+0]" value="/images/jquery/jquery-1.11.1.min.js" global="true" />
                 <!-- jQuery CSSs -->
                 <set field="layoutSettings.styleSheets[+0]" value="/images/jquery/plugins/asmselect/jquery.asmselect-1.0.4a-beta.css" global="true" />
-                
+
                 <set field="layoutSettings.javaScripts[]" value="/images/OpenLayers-2.13.1.js" global="true" />
                 <set field="layoutSettings.javaScripts[]" value="/images/selectall.js" global="true" />
                 <set field="layoutSettings.javaScripts[]" value="/images/fieldlookup.js" global="true" />
-                <set field="layoutSettings.javaScripts[]" value="/images/date/date.format-1.2.3-min.js" global="true" />
+                <!-- <set field="layoutSettings.javaScripts[]" value="/images/date/date.format-1.2.3-min.js" global="true" />-->
                 <set field="layoutSettings.javaScripts[]" value="/images/date/date.timezone-min.js" global="true" />
                 <set field="layoutSettings.javaScripts[]" value="/images/miscAjaxFunctions.js" global="true" />
                 <set field="layoutSettings.javaScripts[]" value="/images/selectMultipleRelatedValues.js" global="true" />
@@ -475,13 +475,13 @@ under the License.
                 <set field="layoutSettings.javaScripts[+0]" value="${groovy: org.ofbiz.common.JsLanguageFilesMapping.validation.getFilePath(initialLocaleComplete)}" global="true"/>
 
                 <set field="layoutSettings.javaScripts[+0]" value="/images/jquery/plugins/asmselect/jquery.asmselect-1.0.4a-beta.js" global="true"/>
-                <set field="layoutSettings.javaScripts[+0]" value="/images/jquery/plugins/datetimepicker/jquery-ui-timepicker-addon.min-1.4.3.js" global="true"/>
-                <set field="layoutSettings.javaScripts[+0]" value="/images/jquery/ui/js/jquery-ui-1.10.3.min.js" global="true"/>
+                <set field="layoutSettings.javaScripts[+0]" value="/images/jquery/plugins/datetimepicker/jquery-ui-timepicker-addon-1.5.0.js" global="true"/>
+                <set field="layoutSettings.javaScripts[+0]" value="/images/jquery/ui/js/jquery-ui-1.11.2.custom.js" global="true"/>
                 <set field="layoutSettings.javaScripts[+0]" value="/images/jquery/plugins/jeditable/jquery.jeditable.js" global="true"/>
                 <set field="layoutSettings.javaScripts[+0]" value="/images/jquery/plugins/fjTimer/jquerytimer-min.js" global="true"/>
                 <set field="layoutSettings.javaScripts[+0]" value="/images/jquery/plugins/validate/jquery.validate.min.js" global="true"/>
                 <set field="layoutSettings.javaScripts[+0]" value="/images/jquery/jquery-migrate-1.2.1.js" global="true"/>
-                <set field="layoutSettings.javaScripts[+0]" value="/images/jquery/jquery-1.10.2.min.js" global="true"/>
+                <set field="layoutSettings.javaScripts[+0]" value="/images/jquery/jquery-1.11.1.min.js" global="true"/>
                     <!-- jQuery CSSs -->
                 <set field="layoutSettings.styleSheets[+0]" value="/images/jquery/plugins/asmselect/jquery.asmselect-1.0.4a-beta.css" global="true"/>
 
@@ -641,6 +641,42 @@ under the License.
                 </section>
                 <decorator-section-include name="menu-bar"/>
                 <container style="clear"/>
+                <screenlet id="searchOptions" name="findScreenlet" collapsible="true" title="${uiLabelMap.CommonSearchOptions}">
+                    <container id="search-options">
+                        <decorator-section-include name="search-options" />
+                    </container>
+                </screenlet>
+                <screenlet padded="false">
+                    <label style="h3" text="${uiLabelMap.CommonSearchResults}"/>
+                    <container id="search-results">
+                        <decorator-section-include name="search-results"/>
+                    </container>
+                </screenlet>
+            </widgets>
+        </section>
+    </screen>
+
+    <screen name="FindPatternScreenDecorator">
+        <section>
+            <widgets>
+                <section>
+                    <condition>
+                        <if-empty field="titleProperty"/>
+                    </condition>
+                    <widgets>
+                        <container style="page-title"><label text="${title}"></label></container>
+                    </widgets>
+                    <fail-widgets>
+                        <container style="page-title"><label text="${uiLabelMap[titleProperty]}"></label></container>
+                    </fail-widgets>
+                </section>
+                <decorator-section-include name="menu-bar"/>
+                <container style="clear"/>
+                <screenlet id="pattrnOptions" name="patternScreenlet" collapsible="true" initially-collapsed="true" title="${uiLabelMap.CommonPatternOptions}">
+                    <container id="pattern-options">
+                        <decorator-section-include name="pattern-options" />
+                    </container>
+                </screenlet>
                 <screenlet id="searchOptions" name="findScreenlet" collapsible="true" title="${uiLabelMap.CommonSearchOptions}">
                     <container id="search-options">
                         <decorator-section-include name="search-options" />

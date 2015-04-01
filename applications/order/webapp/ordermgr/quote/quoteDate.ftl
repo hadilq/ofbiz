@@ -23,32 +23,32 @@ under the License.
     <div class="screenlet-body">
         <table cellspacing="0" class="basic-table">
             <tr>
-                <td align="right" valign="top" width="15%" class="label">
+                <td class="opposite-align-text" valign="top" width="15%" class="label">
                     &nbsp;${uiLabelMap.OrderOrderQuoteIssueDate}
                 </td>
                 <td width="5%">&nbsp;</td>
                 <td valign="top" width="80%">
-                    ${(quote.issueDate.toString())?if_exists}
+                    ${(Static["org.ofbiz.base.util.UtilDateTime"].toDateTimeStringByContext(quote.issueDate, context))?if_exists}
                 </td>
             </tr>
             <tr><td colspan="3"><hr /></td></tr>
             <tr>
-                <td align="right" valign="top" width="15%" class="label">
+                <td class="opposite-align-text" valign="top" width="15%" class="label">
                     &nbsp;${uiLabelMap.CommonValidFromDate}
                 </td>
                 <td width="5%">&nbsp;</td>
                 <td valign="top" width="80%">
-                    ${(quote.validFromDate.toString())?if_exists}
+                    ${(Static["org.ofbiz.base.util.UtilDateTime"].toDateTimeStringByContext(quote.validFromDate, context))?if_exists}
                 </td>
             </tr>
             <tr><td colspan="3"><hr /></td></tr>
             <tr>
-                <td align="right" valign="top" width="15%" class="label">
+                <td class="opposite-align-text" valign="top" width="15%" class="label">
                     &nbsp;${uiLabelMap.CommonValidThruDate}
                 </td>
                 <td width="5%">&nbsp;</td>
                 <td valign="top" width="80%">
-                    ${(quote.validThruDate.toString())?if_exists}
+                    ${(Static["org.ofbiz.base.util.UtilDateTime"].toDateTimeStringByContext(quote.validThruDate, context))?if_exists}
                 </td>
             </tr>
         </table>

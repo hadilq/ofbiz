@@ -16,9 +16,17 @@ KIND, either express or implied.  See the License for the
 specific language governing permissions and limitations
 under the License.
 -->
+<#assign docLangAttr = locale.toLanguageTag()>
+<#assign rightToLeftLocales = Static["org.ofbiz.base.util.UtilMisc"].rightToLeftLocales()/>
+<#assign writingMode = "lr">
+<#if rightToLeftLocales?contains(docLangAttr?substring(0, 2))>
+    <#assign writingMode = "rl">
+</#if>
+<#assign defaultFontFamily = Static["org.ofbiz.common.languageFontsMapping"].getFontFamily(locale)>
 
 <#escape x as x?xml>
-<fo:root xmlns:fo="http://www.w3.org/1999/XSL/Format">
+<fo:root xmlns:fo="http://www.w3.org/1999/XSL/Format"
+    writing-mode="${writingMode}">
 
 <#-- It is important to set defaults for facilityLocation and facilityLocationInfo in case the picklisted item has no location defined in facility.
   Because these defaults are scalars, we must then use the ?is_hash check directive as well before trying to access them -->
@@ -124,7 +132,7 @@ under the License.
 </fo:layout-master-set>
 
 <fo:page-sequence master-reference="main">
-<fo:flow flow-name="xsl-region-body" font-family="Helvetica">
+<fo:flow flow-name="xsl-region-body" font-family="${defaultFontFamily}">
 
     <#if security.hasEntityPermission("FACILITY", "_VIEW", session)>
 
@@ -202,7 +210,7 @@ under the License.
         <#assign picklistBin = picklistBinInfo.picklistBin>
         <#assign picklistItemInfoList = picklistBinInfo.picklistItemInfoList?if_exists>
         <fo:page-sequence master-reference="main">
-        <fo:flow flow-name="xsl-region-body" font-family="Helvetica">
+        <fo:flow flow-name="xsl-region-body" font-family="${defaultFontFamily}">
             <fo:block text-align="right">
                 <fo:instream-foreign-object>
                     <barcode:barcode xmlns:barcode="http://barcode4j.krysalis.org/ns"

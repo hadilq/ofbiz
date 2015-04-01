@@ -29,7 +29,7 @@ under the License.
         </field>
         <field name="custRequestName"><display/></field>
         <field name="priority"><display/></field>
-        <field name="responseRequiredDate"><display/></field>
+        <field name="responseRequiredDate"><display type="date"/></field>
         <field name="partyId"><display/></field>
         <field name="statusId">
             <display-entity also-hidden="false" entity-name="StatusItem"/>

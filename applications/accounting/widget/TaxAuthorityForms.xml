@@ -134,7 +134,7 @@ under the License.
             </display-entity>
         </field>
         <field name="toTaxAuthGeoId"><display-entity entity-name="Geo" key-field-name="geoId" description="${geoName} [${geoCode}] [${geoId}]"/></field>
-        <field name="fromDate"><display/></field>
+        <field name="fromDate"><display type="date"/></field>
 
         <field name="taxAuthorityAssocTypeId" title="${uiLabelMap.CommonType}">
             <drop-down allow-empty="true">
@@ -354,8 +354,8 @@ under the License.
                 </sub-hyperlink>
             </display-entity>
         </field>
-        <field name="fromDate" title="${uiLabelMap.CommonFromDate}"><display/></field>
-        <field name="thruDate" title="${uiLabelMap.CommonThruDate}"><display/></field>
+        <field name="fromDate" title="${uiLabelMap.CommonFromDate}"><display type="date"/></field>
+        <field name="thruDate" title="${uiLabelMap.CommonThruDate}"><display type="date"/></field>
 
         <field name="partyTaxId"><display/></field>
         <field name="isExempt"><display/></field>
@@ -392,7 +392,7 @@ under the License.
                 </sub-hyperlink>
             </display-entity>
         </field>
-        <field use-when="partyTaxAuthInfo!=null" name="fromDate" title="${uiLabelMap.CommonFromDate}"><display/></field>
+        <field use-when="partyTaxAuthInfo!=null" name="fromDate" title="${uiLabelMap.CommonFromDate}"><display type="date"/></field>
 
         <field use-when="partyTaxAuthInfo==null" name="partyId" title="${uiLabelMap.PartyPartyId}"><lookup target-form-name="LookupPartyName"/></field>
         <field use-when="partyTaxAuthInfo==null" name="fromDate" title="${uiLabelMap.CommonFromDate}"><date-time/></field>

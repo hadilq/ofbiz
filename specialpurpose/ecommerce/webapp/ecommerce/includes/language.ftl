@@ -28,11 +28,11 @@ under the License.
     <form method="post" name="chooseLanguage" action="<@ofbizUrl>setSessionLocale</@ofbizUrl>">
       <select name="newLocale" class="selectBox" style="width:95%" onchange="submit()">
         <#assign availableLocales = Static["org.ofbiz.base.util.UtilMisc"].availableLocales()/>
-        <#assign RightToLeftLocales = Static["org.ofbiz.base.util.UtilMisc"].RightToLeftLocales()/>
+        <#assign rightToLeftLocales = Static["org.ofbiz.base.util.UtilMisc"].rightToLeftLocales()/>
         <#list availableLocales as availableLocale>
           <#assign langAttr = availableLocale.toString()?replace("_", "-")>
           <#assign langDir = "ltr">
-          <#if RightToLeftLocales?contains(langAttr?substring(0, 2))>
+          <#if rightToLeftLocales?contains(langAttr?substring(0, 2))>
             <#assign langDir = "rtl">
           </#if>
           <option lang="${langAttr}" dir="${langDir}" value="${availableLocale.toString()}"<#if locale.toString() = availableLocale.toString()> selected="selected"</#if>>${availableLocale.getDisplayName(availableLocale)}</option>

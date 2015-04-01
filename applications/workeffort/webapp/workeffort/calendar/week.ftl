@@ -37,7 +37,7 @@ under the License.
   <tr<#if currentPeriod> class="current-period"<#else><#if (period.calendarEntries?size > 0)> class="active-period"</#if></#if>>
     <td class="centered" width="1%">
       <a href="<@ofbizUrl>${parameters._LAST_VIEW_NAME_}?period=day&amp;start=${period.start.time?string("#")}${urlParam?if_exists}${addlParam?if_exists}</@ofbizUrl>">${period.start?date?string("EEEE")?cap_first}&nbsp;${period.start?date?string.short}</a><br />
-      <a href="<@ofbizUrl>${newCalEventUrl}?period=week&amp;form=edit&amp;start=${parameters.start?if_exists}&amp;parentTypeId=${parentTypeId?if_exists}&amp;currentStatusId=CAL_TENTATIVE&amp;estimatedStartDate=${period.start?string("yyyy-MM-dd HH:mm:ss")}&amp;estimatedCompletionDate=${period.end?string("yyyy-MM-dd HH:mm:ss")}${addlParam?if_exists}${urlParam?if_exists}</@ofbizUrl>">${uiLabelMap.CommonAddNew}</a>
+      <a href="<@ofbizUrl>${newCalEventUrl}?period=week&amp;form=edit&amp;start=${parameters.start?if_exists}&amp;parentTypeId=${parentTypeId?if_exists}&amp;currentStatusId=CAL_TENTATIVE&amp;estimatedStartDate=${Static["org.ofbiz.base.util.UtilDateTime"].toDateTimeStringByContext(period.start, context)}&amp;estimatedCompletionDate=${Static["org.ofbiz.base.util.UtilDateTime"].toDateTimeStringByContext(period.end, context)}${addlParam?if_exists}${urlParam?if_exists}</@ofbizUrl>">${uiLabelMap.CommonAddNew}</a>
     </td>
     <#list period.calendarEntries as calEntry>
         <#if calEntry.workEffort.actualStartDate?exists>
@@ -54,11 +54,11 @@ under the License.
 
         <#if !completionDate?has_content && calEntry.workEffort.actualMilliSeconds?has_content>
             <#assign completionDate =  calEntry.workEffort.actualStartDate + calEntry.workEffort.actualMilliSeconds>
-        </#if>    
+        </#if>
         <#if !completionDate?has_content && calEntry.workEffort.estimatedMilliSeconds?has_content>
             <#assign completionDate =  calEntry.workEffort.estimatedStartDate + calEntry.workEffort.estimatedMilliSeconds>
-        </#if>    
-    
+        </#if>
+
     <#if calEntry.startOfPeriod>
     <td<#if (calEntry.periodSpan > 1)> rowspan="${calEntry.periodSpan}"</#if> width="${entryWidth?string("#")}%">
     <#if (startDate.compareTo(period.start) <= 0 && completionDate?has_content && completionDate.compareTo(period.end) >= 0)>
@@ -78,7 +78,7 @@ under the License.
     ${setRequestAttribute("periodType", "week")}
     ${setRequestAttribute("workEffortId", calEntry.workEffort.workEffortId)}
     ${screens.render("component://workeffort/widget/CalendarScreens.xml#calendarEventContent")}
-    </td>  
+    </td>
     </#if>
     </#list>
     <#if (period.calendarEntries?size < maxConcurrentEntries)>

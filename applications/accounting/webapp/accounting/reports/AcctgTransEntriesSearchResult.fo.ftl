@@ -16,6 +16,7 @@ KIND, either express or implied.  See the License for the
 specific language governing permissions and limitations
 under the License.
 -->
+<#assign defaultFontFamily = Static["org.ofbiz.common.languageFontsMapping"].getFontFamily(locale)>
 
 <#escape x as x?xml>
     <fo:root xmlns:fo="http://www.w3.org/1999/XSL/Format">
@@ -26,7 +27,7 @@ under the License.
             </fo:simple-page-master>
         </fo:layout-master-set>
         <fo:page-sequence master-reference="11x17-landscape">
-            <fo:flow flow-name="xsl-region-body" font-family="Helvetica">
+            <fo:flow flow-name="xsl-region-body" font-family="${defaultFontFamily}">
                 <fo:block align="center">${screens.render("component://order/widget/ordermgr/OrderPrintScreens.xml#CompanyLogo")}</fo:block>
                 <#if acctgTransEntryList?has_content>
                     <fo:block>${uiLabelMap.AccountingAcctgTransEntriesFor}

@@ -16,6 +16,7 @@ KIND, either express or implied.  See the License for the
 specific language governing permissions and limitations
 under the License.
 -->
+<#assign dateTimeFormat = Static["org.ofbiz.base.util.UtilDateTime"].getDateTimeFormatByContext(context)>
 
 <#--
 To use these macros in your template, insert the following line in
@@ -32,7 +33,7 @@ your template file:
 
 <#macro DateField formName="" fieldName="" fieldValue="" fieldClass="">
   <#if javaScriptEnabled>
-    <@htmlTemplate.renderDateTimeField name="${fieldName}" event="${event!}" action="${action!}" className="${fieldClass!''}" alert="" title="Format: yyyy-MM-dd HH:mm:ss.SSS" value="${fieldValue!''}" size="25" maxlength="30" id="${fieldName}1" dateType="date" shortDateInput=false timeDropdownParamName="" defaultDateTimeString="" localizedIconTitle="" timeDropdown="" timeHourName="" classString="" hour1="" hour2="" timeMinutesName="" minutes="" isTwelveHour="" ampmName="" amSelected="" pmSelected="" compositeType="" formName=""/>
+    <@htmlTemplate.renderDateTimeField name="${fieldName}" event="${event!}" action="${action!}" className="${fieldClass!''}" alert="" title="Format: ${dateTimeFormat}" value="${fieldValue!''}" size="25" maxlength="30" id="${fieldName}1" dateType="date" shortDateInput=false timeDropdownParamName="" defaultDateTimeString="" localizedIconTitle="" timeDropdown="" timeHourName="" classString="" hour1="" hour2="" timeMinutesName="" minutes="" isTwelveHour="" ampmName="" amSelected="" pmSelected="" compositeType="" formName=""/>
   <#else>
       <input type="text" name="${fieldName}"<#if fieldValue?has_content> value="${fieldValue}"</#if><#if fieldClass?has_content> class="${fieldClass}"</#if> maxlength="25" size="25"/>
   </#if>

@@ -45,7 +45,7 @@ under the License.
           <#if layoutSettings.headerImageUrl?exists>
           <td width="1%"><img alt="${layoutSettings.companyName}" src="<@ofbizContentUrl>${layoutSettings.headerImageUrl}</@ofbizContentUrl>"/></td>
           </#if>
-          <td align="right" width="1%" nowrap="nowrap" <#if layoutSettings.headerRightBackgroundUrl?has_content>background="${layoutSettings.headerRightBackgroundUrl}"</#if>>
+          <td class="opposite-align-text" width="1%" nowrap="nowrap" <#if layoutSettings.headerRightBackgroundUrl?has_content>background="${layoutSettings.headerRightBackgroundUrl}"</#if>>
             <div class="insideHeaderText">
                 <#if userLogin?has_content>
                   Logged in as&nbsp;<a href="#" class="linktext">${userLogin.userLoginId}</a>&nbsp;|&nbsp;<a href="<@ofbizUrl>/logoff</@ofbizUrl>" class="linktext">Logout</a>&nbsp;|&nbsp;<a href="#" class="linktext">Help Center</a>

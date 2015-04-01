@@ -25,13 +25,14 @@ import java.text.ParseException;
 import java.util.Date;
 import java.util.Locale;
 import java.util.TimeZone;
+import java.util.Map;
 
+import org.ofbiz.base.util.Calendar;
 import org.ofbiz.base.util.ObjectType;
 import org.ofbiz.base.util.TimeDuration;
 import org.ofbiz.base.util.UtilDateTime;
 import org.ofbiz.base.util.UtilValidate;
 
-import com.ibm.icu.util.Calendar;
 
 /** Date/time Converter classes. */
 public class DateTimeConverters implements ConverterLoader {
@@ -66,10 +67,7 @@ public class DateTimeConverters implements ConverterLoader {
         }
 
         public String convert(Calendar obj) throws ConversionException {
-            Locale locale = obj.getLocale(com.ibm.icu.util.ULocale.VALID_LOCALE).toLocale();
-            TimeZone timeZone = UtilDateTime.toTimeZone(obj.getTimeZone().getID());
-            DateFormat df = UtilDateTime.toDateTimeFormat(timeZone, locale);
-            return df.format(obj);
+            return obj.getDisplay();
         }
     }
 
@@ -247,6 +245,15 @@ public class DateTimeConverters implements ConverterLoader {
 
         public T convert(S obj, Locale locale, TimeZone timeZone) throws ConversionException {
             return convert(obj, locale, timeZone, null);
+        }
+
+        public T convert(S obj, Map<String, ? extends Object> context) throws ConversionException {
+            Locale locale = (Locale) context.get("locale");
+            TimeZone timeZone = (TimeZone) context.get("timeZone");
+            if (locale == null) locale = Locale.getDefault();
+            if (timeZone == null) timeZone = TimeZone.getDefault();
+
+            return convert(obj, locale, timeZone, UtilDateTime.getDateTimeFormat(locale));
         }
     }
 
@@ -624,41 +631,39 @@ public class DateTimeConverters implements ConverterLoader {
             }
             DateFormat df = null;
             if (UtilValidate.isEmpty(formatString)) {
-                // These hacks are a bad idea, but they are included
-                // for backward compatibility.
-                if (str.length() > 0 && !str.contains(":")) {
-                    df = UtilDateTime.toDateFormat(timeZone, locale);
-                } else {
-                    df = UtilDateTime.toDateTimeFormat(timeZone, locale);
-                }
-                /*
-                // hack to mimic Timestamp.valueOf() method
-                if (str.length() > 0 && !str.contains(".")) {
-                    str = str + ".0";
-                } else {
-                    // DateFormat has a funny way of parsing milliseconds:
-                    // 00:00:00.2 parses to 00:00:00.002
-                    // so we'll add zeros to the end to get 00:00:00.200
-                    String[] timeSplit = str.split("[.]");
-                    if (timeSplit.length > 1 && timeSplit[1].length() < 3) {
-                        str = str + "000".substring(timeSplit[1].length());
-                    }
-                }*/
-            } else {
-                df = UtilDateTime.toDateTimeFormat(formatString, timeZone, locale);
-            }
-            try {
-                return new java.sql.Timestamp(df.parse(str).getTime());
-            } catch (ParseException e) {
-                // before throwing an exception, try a generic format first
-                df = DateFormat.getDateTimeInstance();
-                if (timeZone != null) {
-                    df.setTimeZone(timeZone);
-                }
+                df = UtilDateTime.toDateTimeFormat(timeZone, locale);
                 try {
                     return new java.sql.Timestamp(df.parse(str).getTime());
-                } catch (ParseException e2) {
-                    throw new ConversionException(e);
+                } catch (ParseException e) {
+                    // before throwing an exception, try dateFormat
+                    df = UtilDateTime.toDateFormat(timeZone, locale);
+                    try {
+                        return new java.sql.Timestamp(df.parse(str).getTime());
+                    } catch (ParseException e2) {
+                        // before throwing an exception, try default locale
+                        if (Locale.getDefault().equals(locale)) {
+                            throw new ConversionException(e);
+                        } else {
+                            return convert(obj, Locale.getDefault(), timeZone);
+                        }
+                    }
+                }
+            } else {
+                df = UtilDateTime.toDateTimeFormat(formatString, timeZone, locale);
+                try {
+                    return new java.sql.Timestamp(df.parse(str).getTime());
+                } catch (ParseException e) {
+                    // before throwing an exception, try a generic format first
+                    df = DateFormat.getDateTimeInstance();
+                    if (timeZone != null) {
+                        df.setTimeZone(timeZone);
+                    }
+                    try {
+                        return new java.sql.Timestamp(df.parse(str).getTime());
+                    } catch (ParseException e2) {
+                        // before throwing an exception, try this without any format
+                        return convert(obj, locale, timeZone, null);
+                    }
                 }
             }
         }

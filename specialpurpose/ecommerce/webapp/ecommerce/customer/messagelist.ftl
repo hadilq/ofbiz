@@ -33,7 +33,7 @@ under the License.
                 <td><div>${partyNameTo}</div></td>
                 <td><div>${communicationEvent.subject?default("")}</div></td>
                 <td><div>${communicationEvent.entryDate}</div></td>
-                <td align="right">
+                <td class="opposite-align-text">
                   <form method="post" action="<@ofbizUrl>readmessage</@ofbizUrl>" name="ecomm_read_mess${index}">
                     <input name="communicationEventId" value="${communicationEvent.communicationEventId}" type="hidden"/>
                   </form>

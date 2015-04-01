@@ -687,23 +687,6 @@ public class UtilMisc {
     }
 
     /**
-     * Remove underline in the end of some locales like fa_IR_IR_
-     * and remove '#' in the end of some locales like fa_IR_IR_#u-ca-jalali-nu-persian
-     * @param localeString The locale string (en_US)
-     * @return localeString without extra details
-     */
-    public static String normalizeLocaleString(String localeString) {
-        int pos = localeString.indexOf('#');
-        if (pos != -1){
-            localeString = localeString.substring(0, pos);
-        }
-        if(localeString.charAt(localeString.length() - 1) == '_') {
-            localeString = localeString.substring(0, localeString.length() - 1);
-        }
-        return localeString;
-    }
-
-    /**
      * Parse a locale string Locale object
      * @param localeString The locale string (en_US)
      * @return Locale The new Locale object or null if no valid locale can be interpreted
@@ -712,27 +695,7 @@ public class UtilMisc {
         if (UtilValidate.isEmpty(localeString)) {
             return null;
         }
-        localeString = normalizeLocaleString(localeString);
-
-        Locale locale = null;
-        if (localeString.length() == 2) {
-            // two letter language code
-            locale = new Locale(localeString);
-        } else if (localeString.length() == 5) {
-            // positions 0-1 language, 3-4 are country
-            String language = localeString.substring(0, 2);
-            String country = localeString.substring(3, 5);
-            locale = new Locale(language, country);
-        } else if (localeString.length() > 6) {
-            // positions 0-1 language, 3-4 are country, 6 and on are special extensions
-            String language = localeString.substring(0, 2);
-            String country = localeString.substring(3, 5);
-            String extension = localeString.substring(6);
-            locale = new Locale(language, country, extension);
-        } else {
-            Debug.logWarning("Do not know what to do with the localeString [" + localeString + "], should be length 2, 5, or greater than 6, returning null", module);
-        }
-
+        Locale locale = Locale.forLanguageTag(localeString.replace('_', '-'));
         return locale;
     }
 
@@ -766,13 +729,13 @@ public class UtilMisc {
                                 end = localesString.length();
                             }
                             Locale curLocale = UtilMisc.ensureLocale(localesString.substring(start, end));
-                            localeMap.put(curLocale.getDisplayName(), curLocale);
+                            localeMap.put(curLocale.toLanguageTag(), curLocale);
                             start = end + 1;
                         }
                     } else {
                         Locale[] locales = Locale.getAvailableLocales();
                         for (int i = 0; i < locales.length && locales[i] != null; i++) {
-                            localeMap.put(locales[i].getDisplayName(), locales[i]);
+                            localeMap.put(locales[i].toLanguageTag(), locales[i]);
                         }
                     }
                     availableLocaleList = new LinkedList<Locale>(localeMap.values());
@@ -782,30 +745,30 @@ public class UtilMisc {
         return availableLocaleList;
     }
 
-    public static List<Locale> RightToLeftLocaleList = null;
+    public static String rightToLeftLocaleList = null;
     /** Returns a List of RightToLeft locales sorted by display name */
-    public static List<Locale> RightToLeftLocales() {
-        if (RightToLeftLocaleList == null) {
+    public static String rightToLeftLocales() {
+        if (rightToLeftLocaleList == null) {
             synchronized(UtilMisc.class) {
-                if (RightToLeftLocaleList == null) {
-                    TreeMap<String, Locale> localeMap = new TreeMap<String, Locale>();
-                    String localesString = UtilProperties.getPropertyValue("general", "locales.rightToLeft");
-                    int end = -1;
-                    int start = 0;
-                    for (int i=0; start < localesString.length(); i++) {
-                        end = localesString.indexOf(",", start);
-                        if (end == -1) {
-                            end = localesString.length();
-                        }
-                        Locale curLocale = UtilMisc.ensureLocale(localesString.substring(start, end));
-                        localeMap.put(curLocale.getDisplayName(), curLocale);
-                        start = end + 1;
-                    }
-                    RightToLeftLocaleList = new LinkedList<Locale>(localeMap.values());
+                if (rightToLeftLocaleList == null) {
+                    rightToLeftLocaleList = UtilProperties.getPropertyValue("general", "locales.rightToLeft");
                 }
             }
         }
-        return RightToLeftLocaleList;
+        return rightToLeftLocaleList;
+    }
+
+    public static String hideIgnoreCaseLocaleString = null;
+    /** Returns a List of hideIgnoreCase locales sorted by display name */
+    public static String hideIgnoreCaseLocales() {
+        if (hideIgnoreCaseLocaleString == null) {
+            synchronized(UtilMisc.class) {
+                if (hideIgnoreCaseLocaleString == null) {
+                    hideIgnoreCaseLocaleString = UtilProperties.getPropertyValue("general", "locales.hideIgnoreCase");
+                }
+            }
+        }
+        return hideIgnoreCaseLocaleString;
     }
 
     /** @deprecated use Thread.sleep() */

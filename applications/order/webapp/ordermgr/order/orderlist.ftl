@@ -43,7 +43,7 @@ under the License.
             <a href="<@ofbizUrl>orderlist?viewIndex=${state.getViewIndex() - 1}&amp;viewSize=${state.getViewSize()}&amp;filterDate=${filterDate?if_exists}</@ofbizUrl>" class="buttontext">${uiLabelMap.CommonPrevious}</a>
           </#if>
         </td>
-        <td align="right">
+        <td class="opposite-align-text">
           <#if state.hasNext()>
             <a href="<@ofbizUrl>orderlist?viewIndex=${state.getViewIndex() + 1}&amp;viewSize=${state.getViewSize()}&amp;filterDate=${filterDate?if_exists}</@ofbizUrl>" class="buttontext">${uiLabelMap.CommonNext}</a>
           </#if>
@@ -65,7 +65,7 @@ under the License.
         <input type="hidden" name="changeStatusAndTypeState" value="Y" />
         <table class="basic-table" cellspacing='0'>
           <tr>
-            <td align="right" class="label">${uiLabelMap.CommonStatus}</td>
+            <td class="opposite-align-text" class="label">${uiLabelMap.CommonStatus}</td>
             <td>&nbsp;&nbsp;</td>
             <td nowrap="nowrap">
                 <div>
@@ -82,7 +82,7 @@ under the License.
             </td>
           </tr>
           <tr>
-            <td align="right" class="label">${uiLabelMap.CommonType}</td>
+            <td class="opposite-align-text" class="label">${uiLabelMap.CommonType}</td>
             <td>&nbsp;&nbsp;</td>
             <td nowrap="nowrap">
                 <div>
@@ -94,7 +94,7 @@ under the License.
             </td>
           </tr>
           <tr>
-            <td align="right" class="label">${uiLabelMap.CommonFilter}</td>
+            <td class="opposite-align-text" class="label">${uiLabelMap.CommonFilter}</td>
             <td>&nbsp;&nbsp;</td>
             <td nowrap="nowrap">
                 <div>
@@ -108,7 +108,7 @@ under the License.
             </td>
           </tr>
           <tr>
-            <td align="right" class="label">${uiLabelMap.CommonFilter} (${uiLabelMap.OrderFilterPOs})</td>
+            <td class="opposite-align-text" class="label">${uiLabelMap.CommonFilter} (${uiLabelMap.OrderFilterPOs})</td>
             <td>&nbsp;&nbsp;</td>
             <td nowrap="nowrap">
                 <div>

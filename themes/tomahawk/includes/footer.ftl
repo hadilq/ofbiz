@@ -22,7 +22,7 @@ under the License.
 <div id="footer">
   <ul>
     <li>
-      ${uiLabelMap.CommonCopyright} (c) 2001-${nowTimestamp?string("yyyy")} The Apache Software Foundation - <a href="http://www.apache.org" target="_blank">www.apache.org</a><br/>
+      ${uiLabelMap.CommonCopyright} (c) 2001-${nowTimestamp.toString()?substring(0,4)} The Apache Software Foundation - <a href="http://www.apache.org" target="_blank">www.apache.org</a><br/>
       ${uiLabelMap.CommonPoweredBy} <a href="http://ofbiz.apache.org" target="_blank">Apache OFBiz</a> <#include "ofbizhome://runtime/svninfo.ftl" />
     </li>
     <li class="opposed">${nowTimestamp?datetime?string.short} -

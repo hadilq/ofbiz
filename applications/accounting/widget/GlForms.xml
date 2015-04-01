@@ -18,7 +18,7 @@ specific language governing permissions and limitations
 under the License.
 -->
 
-<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://ofbiz.apache.org/dtds/widget-form.xsd">
 
     <form name="FindAcctgTrans" target="FindAcctgTrans" type="single" title="" default-map-name="journal"
@@ -105,7 +105,7 @@ under the License.
                 <parameter param-name="organizationPartyId"/>
             </hyperlink>
         </field>
-        <field name="transactionDate"><display/></field>
+        <field name="transactionDate"><display type="date"/></field>
         <field name="acctgTransTypeId" title="${uiLabelMap.FormFieldTitle_acctgTransType}"><display-entity entity-name="AcctgTransType"/></field>
         <field name="glFiscalTypeId" title="${uiLabelMap.FormFieldTitle_glFiscalType}"><display-entity entity-name="GlFiscalType"/></field>
         <field name="invoiceId" use-when="invoiceId!=null" widget-style="buttontext">
@@ -133,7 +133,7 @@ under the License.
         </field>
         <field name="shipmentId" use-when="shipmentId==null"><display/></field>
         <field name="isPosted"><display/></field>
-        <field name="postedDate"><display/></field>
+        <field name="postedDate"><display type="date"/></field>
         <field name="postAcctgTrans" title=" " use-when="&quot;N&quot;.equals(isPosted)" widget-style="buttontext">
             <hyperlink target="postAcctgTrans" description="${uiLabelMap.AccountingPostTransaction}">
                 <parameter param-name="acctgTransId"/>
@@ -155,7 +155,7 @@ under the License.
                 <parameter param-name="organizationPartyId"/>
             </hyperlink>
         </field>
-        <field name="transactionDate"><display/></field>
+        <field name="transactionDate"><display type="date"/></field>
         <field name="acctgTransTypeId" title="${uiLabelMap.FormFieldTitle_acctgTransType}"><display-entity entity-name="AcctgTransType"/></field>
         <field name="glFiscalTypeId" title="${uiLabelMap.FormFieldTitle_glFiscalType}"><display-entity entity-name="GlFiscalType"/></field>
         <field name="invoiceId" use-when="invoiceId!=null" widget-style="buttontext">
@@ -292,7 +292,7 @@ under the License.
             </hyperlink>
         </field>
         <field name="acctgTransEntrySeqId" widget-style="buttontext" position="2"><display/></field>
-        <field name="transactionDate" position="2"><display/></field>
+        <field name="transactionDate" position="2"><display type="date"/></field>
         <field name="acctgTransTypeId" title="${uiLabelMap.FormFieldTitle_acctgTransType}" position="2"><display-entity entity-name="AcctgTransType"/></field>
         <field name="glFiscalTypeId" title="${uiLabelMap.FormFieldTitle_glFiscalType}" position="2"><display-entity entity-name="GlFiscalType"/></field>
         <field name="invoiceId" position="2" use-when="invoiceId!=null" widget-style="buttontext">
@@ -332,7 +332,7 @@ under the License.
         </field>
         <field name="productId" position="2" use-when="productId==null"><display/></field>
         <field name="isPosted" position="2"><display/></field>
-        <field name="postedDate" position="2"><display/></field>
+        <field name="postedDate" position="2"><display type="date"/></field>
         <field name="debitCreditFlag" position="2"><display/></field>
         <field name="amount" position="2"><display type="currency" currency="${currencyUomId}"/></field>
     </form>
@@ -361,7 +361,7 @@ under the License.
             </entity-condition>
         </actions>
 
-        <field name="transactionDate"><display/></field>
+        <field name="transactionDate"><display type="date"/></field>
         <field name="acctgTransId" widget-style="buttontext">
             <hyperlink also-hidden="false" description="${acctgTransId}" target="EditAcctgTrans">
                 <parameter param-name="acctgTransId"/>
@@ -415,7 +415,7 @@ under the License.
         </field>
         <field name="productId" use-when="productId==null"><display/></field>
         <field name="isPosted"><display/></field>
-        <field name="postedDate"><display/></field>
+        <field name="postedDate"><display type="date"/></field>
         <field name="debitCreditFlag"><display/></field>
         <field name="amount"><display type="currency" currency="${currencyUomId}"/></field>
     </form>
@@ -756,7 +756,7 @@ under the License.
         <field name="description"><textarea/></field>
         <field name="createButton" widget-style="smallSubmit"><submit button-type="button"/></field>
         <sort-order>
-            <sort-field name="organizationPartyId"/>        
+            <sort-field name="organizationPartyId"/>
             <sort-field name="acctgTransTypeId"/>
             <sort-field name="glFiscalTypeId"/>
             <sort-field name="glJournalId"/>
@@ -1052,7 +1052,7 @@ under the License.
         </actions>
         <field name="acctgTransId"><display/></field>
         <field name="acctgTransEntrySeqId"><display description="${acctgTransEntrySeqId}"/></field>
-        <field name="transactionDate"><display/></field>
+        <field name="transactionDate"><display type="date"/></field>
         <field name="acctgTransTypeId" title="${uiLabelMap.AccountingTransactionType}"><display-entity entity-name="AcctgTransType"/></field>
         <field name="glFiscalTypeId" title="${uiLabelMap.FormFieldTitle_glFiscalType}"><display-entity entity-name="GlFiscalType"/></field>
         <field name="glAccountId"><display/></field>
@@ -1065,7 +1065,7 @@ under the License.
         <field name="partyId"><display/></field>
         <field name="productId"><display/></field>
         <field name="isPosted"><display/></field>
-        <field name="postedDate"><display/></field>
+        <field name="postedDate"><display type="date"/></field>
         <field name="debitCreditFlag"><display/></field>
         <field name="amount"><display/></field>
     </form>
@@ -1102,7 +1102,7 @@ under the License.
             </entity-condition>
         </actions>
         <field name="acctgTransId"><display/></field>
-        <field name="transactionDate"><display/></field>
+        <field name="transactionDate"><display type="date"/></field>
         <field name="acctgTransTypeId" title="${uiLabelMap.AccountingTransactionType}"><display-entity entity-name="AcctgTransType"/></field>
         <field name="glFiscalTypeId" title="${uiLabelMap.FormFieldTitle_glFiscalType}"><display-entity entity-name="GlFiscalType"/></field>
         <field name="invoiceId"><display/></field>
@@ -1110,7 +1110,7 @@ under the License.
         <field name="workEffortId"><display/></field>
         <field name="shipmentId"><display/></field>
         <field name="isPosted"><display/></field>
-        <field name="postedDate"><display/></field>
+        <field name="postedDate"><display type="date"/></field>
     </form>
 
     <form name="AcctgTransDetailReportPdf" type="single" default-map-name="acctgTrans">
@@ -1119,16 +1119,16 @@ under the License.
             <display-entity entity-name="AcctgTransType" key-field-name="acctgTransTypeId"/>
         </field>
         <field name="description" use-when="${acctgTrans.description!=null}"><display/></field>
-        <field name="transactionDate" use-when="${acctgTrans.transactionDate!=null}"><display/></field>
+        <field name="transactionDate" use-when="${acctgTrans.transactionDate!=null}"><display type="date"/></field>
         <field name="isPosted" use-when="${acctgTrans.isPosted!=null}"><display/></field>
-        <field name="postedDate" use-when="${acctgTrans.postedDate!=null}"><display/></field>
-        <field name="scheduledPostingDate" use-when="${acctgTrans.scheduledPostingDate!=null}"><display/></field>
+        <field name="postedDate" use-when="${acctgTrans.postedDate!=null}"><display type="date"/></field>
+        <field name="scheduledPostingDate" use-when="${acctgTrans.scheduledPostingDate!=null}"><display type="date"/></field>
         <field name="glJournalId" use-when="${acctgTrans.glJournalId!=null}"><display/></field>
         <field name="glFiscalTypeId" use-when="${acctgTrans.glFiscalTypeId!=null}">
             <display-entity entity-name="GlFiscalType" key-field-name="glFiscalTypeId"/>
         </field>
         <field name="voucherRef"  use-when="${acctgTrans.voucherRef!=null}"><display/></field>
-        <field name="voucherDate" use-when="${acctgTrans.voucherDate!=null}"><display/></field>
+        <field name="voucherDate" use-when="${acctgTrans.voucherDate!=null}"><display type="date"/></field>
         <field name="groupStatusId" use-when="${acctgTrans.groupStatusId!=null}"><display/></field>
         <field name="fixedAssetId" use-when="${acctgTrans.fixedAssetId!=null}"><display/></field>
         <field name="inventoryItemId" use-when="${acctgTrans.inventoryItemId!=null}"><display/></field>

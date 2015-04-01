@@ -55,18 +55,20 @@ under the License.
     <entity-resource type="data" reader-name="demo" loader="main" location="data/DemoProductAdditionalViewData.xml"/>
     <entity-resource type="data" reader-name="demo" loader="main" location="data/DemoPopularCategoriesData.xml"/>
     <entity-resource type="data" reader-name="demo" loader="main" location="data/DemoContentAltUrl.xml"/>
-    
+
     <webapp name="ecommerce"
         title="eCommerce"
         server="default-server"
         location="webapp/ecommerce"
         mount-point="/ecommerce"
+        base-permission="OFBTOOLS"
         app-bar-display="false"/>
     <webapp name="ecomclone"
         title="eCommerce Clone"
         server="default-server"
         location="webapp/ecomclone"
         mount-point="/ecomclone"
+        base-permission="OFBTOOLS"
         app-bar-display="false"/>
 </ofbiz-component>
 

@@ -39,8 +39,8 @@
             </hyperlink>
         </field>
         <field name="isSale" title="${uiLabelMap.ProductSaleRule}?"><display/></field>
-        <field name="fromDate" title="${uiLabelMap.CommonFromDate}"><display/></field>
-        <field name="thruDate" title="${uiLabelMap.CommonThruDate}"><display/></field>
+        <field name="fromDate" title="${uiLabelMap.CommonFromDate}"><display type="date"/></field>
+        <field name="thruDate" title="${uiLabelMap.CommonThruDate}"><display type="date"/></field>
         <field name="editLink" title=" " widget-style="buttontext">
             <hyperlink target="EditProductPriceRules" description="${uiLabelMap.CommonEdit}">
                 <parameter param-name="productPriceRuleId"/>

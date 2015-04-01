@@ -175,7 +175,22 @@ float: left;
 }
 
 .align-text {
+text-align: right;
+}
+
+.opposite-align-text{
 text-align: left;
+}
+
+.formatFieldRowTitleCellOpen {
+text-align:"left";
+padding:"3pt";
+}
+
+.formatFieldRowWidgetCellOpen {
+text-align:"right";
+padding:"2pt";
+padding-right:"5pt";
 }
 
 /* ==================================== */
@@ -184,6 +199,11 @@ text-align: left;
 
 #masthead ul li {
 float: right;
+}
+
+#control-area,
+#preferences-menu li{
+float: left;
 }
 
 #masthead ul .opposed,
@@ -259,10 +279,12 @@ border-right: none;
 float: right;
 }
 
-/* login screenlet decorator */
-.login-screenlet {
-margin-left: 0;
-margin-right: 38%;
+.remove-button {
+float:right;
+}
+
+.remove-pair {
+padding-right: 5px;
 }
 
 /* ======================================================= */
@@ -277,6 +299,10 @@ padding-right: 1em;
 /* ======================================== */
 /* ===== Button Bar Navigation Styles ===== */
 /* ======================================== */
+
+.button-bar ul {
+direction: rtl;
+}
 
 .button-bar ul li,
 .tabContainer ul li {
@@ -322,8 +348,18 @@ padding: 2em 0 0 1.5em;
 }
 
 .basic-table tr th,
-.basic-table .header-row {
+.basic-table .header-row,
+.basic-table .header-row-2 th,
+.basic-table .header-row-2 td,
+.basic-table .header-row-2 th a,
+.basic-table .header-row-2 td a {
 text-align: right;
+}
+
+.basic-table .header-row-2 th .sort-order,
+.basic-table .header-row-2 td .sort-order {
+padding-left: 20px;
+padding-right: 0px;
 }
 
 .basic-table tr .button-col a {
@@ -354,6 +390,7 @@ padding-left: 1em;
 /* ======================== */
 /* ===== Form Styles ===== */
 /* ======================== */
+.field{float: right;}
 
 .basic-form table tr .label,
 .basic-form table tr .group-label {
@@ -376,6 +413,43 @@ text-align: right;
 .nav-pager ul li {
 float: right;
 }
+
+.nav-pager ul .nav-first a:hover {
+background: url(../images/navigation-rtl.png) no-repeat 0px -46px;
+}
+.nav-pager ul .nav-previous a:hover {
+background: url(../images/navigation-rtl.png) no-repeat -23px -46px;
+}
+.nav-pager ul .nav-next a:hover {
+background: url(../images/navigation-rtl.png) no-repeat -46px -46px;
+}
+.nav-pager ul .nav-last a:hover {
+background: url(../images/navigation-rtl.png) no-repeat -69px -46px;
+}
+
+.nav-pager ul .nav-first a {
+background: url(../images/navigation-rtl.png) no-repeat 0px -23px;
+}
+.nav-pager ul .nav-previous a {
+background: url(../images/navigation-rtl.png) no-repeat -23px -23px;
+}
+.nav-pager ul .nav-next a {
+background: url(../images/navigation-rtl.png) no-repeat -46px -23px;
+}
+.nav-pager ul .nav-last a {
+background: url(../images/navigation-rtl.png) no-repeat -69px -23px;
+}
+.nav-pager ul .nav-first-disabled {
+background: url(../images/navigation-rtl.png) no-repeat 0px 0px;
+}
+.nav-pager ul .nav-previous-disabled {
+background: url(../images/navigation-rtl.png) no-repeat -23px 0px;
+}
+.nav-pager ul .nav-next-disabled {
+background: url(../images/navigation-rtl.png) no-repeat -46px 0px;
+}
+.nav-pager ul .nav-last-disabled {
+background: url(../images/navigation-rtl.png) no-repeat -69px 0px;
 
 /* From http://jqueryui.com/demos/autocomplete/maxheight.html */
 /* When displaying a long list of options, you can simply set the max-height for the autocomplete menu to prevent the menu from growing too large */

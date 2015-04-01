@@ -46,7 +46,7 @@ under the License.
             </hyperlink>
         </field>
         <field name="invoiceTypeId"><display-entity entity-name="InvoiceType"/></field>
-        <field name="invoiceDate"><display/></field>
+        <field name="invoiceDate"><display type="date"/></field>
         <field name="statusId" title="${uiLabelMap.CommonStatus}"><display-entity entity-name="StatusItem"/></field>
         <field name="description"><display/></field>
         <field name="partyIdFrom">
@@ -59,8 +59,8 @@ under the License.
                 <parameter param-name="partyId" from-field="partyId"/>
             </hyperlink>
         </field>
-        <field name="invoiceDate"><display/></field>
-        <field name="dueDate"><display/></field>
+        <field name="invoiceDate"><display type="date"/></field>
+        <field name="dueDate"><display type="date"/></field>
         <field name="total" widget-area-style="align-text"><display type="currency" currency="${currencyUomId}"/></field>
         <field name="amountToApply" widget-area-style="align-text"><display type="currency" currency="${currencyUomId}"/></field>
    </form>

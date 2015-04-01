@@ -16,6 +16,7 @@ KIND, either express or implied.  See the License for the
 specific language governing permissions and limitations
 under the License.
 -->
+<#assign dateTimeFormat = Static["org.ofbiz.base.util.UtilDateTime"].getDateTimeFormatByContext(context)>
 <script type="text/javascript">
 jQuery(document).ready(function() {
   window.setInterval(function(){clock()}, 1000);
@@ -28,12 +29,12 @@ jQuery(document).ready(function() {
       serverTimeZone = getServiceResult("getServerTimeZone")['serverTimeZone'];;
       initTimeZone();
       date = new timezoneJS.Date(serverTimestamp, serverTimeZone);
-      waitSpinnerHide();      
+      waitSpinnerHide();
     } else {
       date.setSeconds(date.getSeconds() + 1);
     }
     // dateFormat does not respect the timezone :/ Fortunately toString is what we want :)
-    //jQuery("#${clockField}").text("${uiLabelMap.CommonServerHour}: "  + dateFormat(date, "yyyy-mm-dd HH:MM:ss"));
+    //jQuery("#${clockField}").text("${uiLabelMap.CommonServerHour}: "  + dateFormat(date, "${dateTimeFormat}"));
     jQuery("#${clockField}").text("${uiLabelMap.CommonServerHour}: "  + date.toString());
   }
 })

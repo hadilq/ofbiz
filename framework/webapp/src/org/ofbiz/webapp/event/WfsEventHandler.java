@@ -43,6 +43,7 @@ import org.ofbiz.base.util.UtilProperties;
 import org.ofbiz.base.util.UtilValidate;
 import org.ofbiz.base.util.UtilXml;
 import org.ofbiz.base.util.template.FreeMarkerWorker;
+import org.ofbiz.base.util.UtilDateTime;
 import org.ofbiz.entity.GenericValue;
 import org.ofbiz.minilang.MiniLangException;
 import org.ofbiz.minilang.SimpleMethod;
@@ -154,7 +155,7 @@ public class WfsEventHandler implements EventHandler {
             throw new EventHandlerException(e.getMessage(), e);
         }
     }
-   
+
     public static String processWfsEntity(String entityName, Node domNode, String templatePath) throws TemplateException, FileNotFoundException, IOException, URISyntaxException {
         String result = null;
         NodeModel nodeModel = NodeModel.wrap(domNode);
@@ -184,7 +185,7 @@ public class WfsEventHandler implements EventHandler {
     public static Configuration makeDefaultOfbizConfig() throws TemplateException, IOException {
         Configuration config = new Configuration();
         config.setObjectWrapper(FreeMarkerWorker.getDefaultOfbizWrapper());
-        config.setSetting("datetime_format", "yyyy-MM-dd HH:mm:ss.SSS");
+        config.setSetting("datetime_format", UtilDateTime.DATE_TIME_FORMAT);
         Configuration defaultOfbizConfig = config;
         return defaultOfbizConfig;
     }

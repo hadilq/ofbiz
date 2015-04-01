@@ -16,6 +16,7 @@ KIND, either express or implied.  See the License for the
 specific language governing permissions and limitations
 under the License.
 -->
+<#assign dateTimeFormat = Static["org.ofbiz.base.util.UtilDateTime"].getDateTimeFormatByContext(context)>
 
 
 <#if orderHeader?has_content>
@@ -120,7 +121,7 @@ under the License.
                                   <#assign orderItemStatuses = orderReadHelper.getOrderItemStatuses(orderItem)>
                                   <#list orderItemStatuses as orderItemStatus>
                                   <#assign loopStatusItem = orderItemStatus.getRelatedOne("StatusItem", false)>
-                                  <#if orderItemStatus.statusDatetime?has_content>${orderItemStatus.statusDatetime.toString()}</#if>
+                                  <#if orderItemStatus.statusDatetime?has_content>${Static["org.ofbiz.base.util.UtilDateTime"].toDateTimeStringByContext(orderItemStatus.statusDatetime, context)}</#if>
                                   &nbsp;${loopStatusItem.get("description",locale)?default(orderItemStatus.statusId)}<br />
                                   </#list>
                                   <#assign returns = orderItem.getRelated("ReturnItem", null, null, false)?if_exists>
@@ -196,9 +197,9 @@ under the License.
                             <input type="text" name="icm_${orderItem.orderItemSeqId}" value="${orderItem.comments!}" size="30" maxlength="60"/>
                             <#if (orderHeader.orderTypeId == 'PURCHASE_ORDER')>
                               <span class="label">${uiLabelMap.OrderEstimatedShipDate}</span>
-                              <@htmlTemplate.renderDateTimeField name="isdm_${orderItem.orderItemSeqId}" value="${orderItem.estimatedShipDate?if_exists}" event="" action="" className="" alert="" title="Format: yyyy-MM-dd HH:mm:ss.SSS" size="25" maxlength="30" id="isdm_${orderItem.orderItemSeqId}" dateType="date" shortDateInput=false timeDropdownParamName="" defaultDateTimeString="" localizedIconTitle="" timeDropdown="" timeHourName="" classString="" hour1="" hour2="" timeMinutesName="" minutes="" isTwelveHour="" ampmName="" amSelected="" pmSelected="" compositeType="" formName=""/>
+                              <@htmlTemplate.renderDateTimeField name="isdm_${orderItem.orderItemSeqId}" value="${orderItem.estimatedShipDate?if_exists}" event="" action="" className="" alert="" title="Format: ${dateTimeFormat}" size="25" maxlength="30" id="isdm_${orderItem.orderItemSeqId}" dateType="date" shortDateInput=false timeDropdownParamName="" defaultDateTimeString="" localizedIconTitle="" timeDropdown="" timeHourName="" classString="" hour1="" hour2="" timeMinutesName="" minutes="" isTwelveHour="" ampmName="" amSelected="" pmSelected="" compositeType="" formName=""/>
                               <span class="label">${uiLabelMap.OrderOrderQuoteEstimatedDeliveryDate}</span>
-                              <@htmlTemplate.renderDateTimeField name="iddm_${orderItem.orderItemSeqId}" value="${orderItem.estimatedDeliveryDate?if_exists}" event="" action="" className="" alert="" title="Format: yyyy-MM-dd HH:mm:ss.SSS" size="25" maxlength="30" id="iddm_${orderItem.orderItemSeqId}" dateType="date" shortDateInput=false timeDropdownParamName="" defaultDateTimeString="" localizedIconTitle="" timeDropdown="" timeHourName="" classString="" hour1="" hour2="" timeMinutesName="" minutes="" isTwelveHour="" ampmName="" amSelected="" pmSelected="" compositeType="" formName=""/>
+                              <@htmlTemplate.renderDateTimeField name="iddm_${orderItem.orderItemSeqId}" value="${orderItem.estimatedDeliveryDate?if_exists}" event="" action="" className="" alert="" title="Format: ${dateTimeFormat}" size="25" maxlength="30" id="iddm_${orderItem.orderItemSeqId}" dateType="date" shortDateInput=false timeDropdownParamName="" defaultDateTimeString="" localizedIconTitle="" timeDropdown="" timeHourName="" classString="" hour1="" hour2="" timeMinutesName="" minutes="" isTwelveHour="" ampmName="" amSelected="" pmSelected="" compositeType="" formName=""/>
                             </#if>
                             </td>
                         </tr>

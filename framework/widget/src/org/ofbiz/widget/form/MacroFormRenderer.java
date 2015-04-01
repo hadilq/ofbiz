@@ -24,14 +24,17 @@ import java.io.StringReader;
 import java.io.StringWriter;
 import java.rmi.server.UID;
 import java.sql.Timestamp;
+import java.text.DateFormat;
 import java.util.HashSet;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Locale;
+import java.util.TimeZone;
 import java.util.Map;
 import java.util.Set;
 import java.util.WeakHashMap;
 import java.util.Map.Entry;
+import java.util.Date;
 
 import javax.servlet.ServletContext;
 import javax.servlet.http.HttpServletRequest;
@@ -39,6 +42,10 @@ import javax.servlet.http.HttpServletResponse;
 
 import javolution.util.FastList;
 
+import org.ofbiz.base.conversion.ConversionException;
+import org.ofbiz.base.conversion.DateTimeConverters;
+import org.ofbiz.base.conversion.DateTimeConverters.StringToTimestamp;
+import org.ofbiz.base.util.Calendar;
 import org.ofbiz.base.util.Debug;
 import org.ofbiz.base.util.StringUtil;
 import org.ofbiz.base.util.UtilFormatOut;
@@ -49,6 +56,7 @@ import org.ofbiz.base.util.UtilProperties;
 import org.ofbiz.base.util.UtilValidate;
 import org.ofbiz.base.util.string.FlexibleStringExpander;
 import org.ofbiz.base.util.template.FreeMarkerWorker;
+import org.ofbiz.base.util.UtilDateTime;
 import org.ofbiz.entity.Delegator;
 import org.ofbiz.webapp.control.RequestHandler;
 import org.ofbiz.webapp.taglib.ContentUrlTag;
@@ -76,8 +84,6 @@ import org.ofbiz.widget.form.ModelFormField.TextField;
 import org.ofbiz.widget.form.ModelFormField.TextFindField;
 import org.ofbiz.widget.form.ModelFormField.TextareaField;
 import org.ofbiz.widget.screen.ModelScreenWidget;
-
-import com.ibm.icu.util.Calendar;
 
 import freemarker.core.Environment;
 import freemarker.template.Template;
@@ -538,23 +544,49 @@ public class MacroFormRenderer implements FormStringRenderer {
                 localizedInputTitle = uiLabelMap.get("CommonFormatDateTime");
             }
         }
-        String contextValue = null;
-        // If time-dropdown deactivate encodingOutput for found hour and minutes
-        boolean memEncodeOutput = modelFormField.getEncodeOutput();
-        if (useTimeDropDown)
-            // FIXME: This is not thread-safe! Never modify a model's state!
-            modelFormField.setEncodeOutput(false);
-        // FIXME: modelFormField.getEntry ignores shortDateInput when converting Date objects to Strings.
-        // Object type conversion should be done by the renderer, not by the model.
-        contextValue = modelFormField.getEntry(context, dateTimeField.getDefaultValue(context));
-        if (useTimeDropDown)
-            modelFormField.setEncodeOutput(memEncodeOutput);
-        String value = contextValue;
+
+        Object objVal = modelFormField.getObjectEntry(context);
+        Date date = null;
+        Timestamp defaultTimestamp = null;
+        String value = "";
+
+        if ( UtilValidate.isEmpty(objVal) ) {
+            objVal = dateTimeField.getDefaultValue(context);
+        }
+        if ( UtilValidate.isNotEmpty(objVal) ) {
+            if (objVal instanceof Timestamp) {
+                defaultTimestamp = (Timestamp) objVal;
+                date = new Date(defaultTimestamp.getTime());
+
+                value = UtilDateTime.toDateTimeStringByContext(date, context);
+            } else {
+                StringToTimestamp stringToTimestamp = new DateTimeConverters.StringToTimestamp();
+                try {
+                    defaultTimestamp = stringToTimestamp.convert((String) objVal, context);
+                    date = new Date(defaultTimestamp.getTime());
+
+                    value = UtilDateTime.toDateTimeStringByContext(date, context);
+                }
+                catch (ConversionException e) {
+                    try {
+                        // create default dateTime value from timestamp string
+                        value = ((String) objVal).substring(0,16);
+                    } catch (java.lang.StringIndexOutOfBoundsException e2) {
+                        String errMsg = "Error using substring(0, 16) for [" + ((String) objVal) + "]: " + e.toString();
+                        Debug.logError(e, errMsg, module);
+                        // create default date value from timestamp string
+                        value = ((String) objVal);
+                    }
+                }
+            }
+        }
+
         if (UtilValidate.isNotEmpty(value)) {
             if (value.length() > maxlength) {
                 value = value.substring(0, maxlength);
             }
         }
+
         String id = modelFormField.getCurrentContainerId(context);
         String formName = modelFormField.getModelForm().getCurrentFormName(context);
         String timeDropdown = dateTimeField.getInputMethod();
@@ -582,15 +614,24 @@ public class MacroFormRenderer implements FormStringRenderer {
         }
         // if we have an input method of time-dropdown, then render two
         // dropdowns
+        boolean righToLeft = false;
         if (useTimeDropDown) {
             className = modelFormField.getWidgetStyle();
             classString = (className != null ? className : "");
             isTwelveHour = "12".equals(dateTimeField.getClock());
             // set the Calendar to the default time of the form or now()
             Calendar cal = null;
+
+            Locale locale = (Locale) context.get("locale");
+            TimeZone timeZone = (TimeZone) context.get("timeZone");
+            if (locale == null) locale = Locale.getDefault();
+            if (timeZone == null) timeZone = TimeZone.getDefault();
+
             try {
-                Timestamp defaultTimestamp = Timestamp.valueOf(contextValue);
-                cal = Calendar.getInstance();
+                cal = Calendar.getInstance(timeZone, locale);
+                if (defaultTimestamp == null){
+                    defaultTimestamp = new Timestamp((new Date()).getTime());
+                }
                 cal.setTime(defaultTimestamp);
             } catch (IllegalArgumentException e) {
                 Debug.logWarning("Form widget field [" + paramName + "] with input-method=\"time-dropdown\" was not able to understand the default time [" + defaultDateTimeString + "]. The parsing error was: " + e.getMessage(), module);
@@ -616,6 +657,10 @@ public class MacroFormRenderer implements FormStringRenderer {
                 pmSelected = ((cal != null && cal.get(Calendar.AM_PM) == Calendar.PM) ? "selected" : "");
                 ampmName = UtilHttp.makeCompositeParam(paramName, "ampm");
             }
+
+            if (UtilMisc.rightToLeftLocales().contains(locale.toLanguageTag().substring(0, 2))) {
+                righToLeft = true;
+            }
         }
         //check for required field style on single forms
         if ("single".equals(modelFormField.getModelForm().getType()) && modelFormField.getRequiredField()) {
@@ -629,12 +674,15 @@ public class MacroFormRenderer implements FormStringRenderer {
         }
         String mask = dateTimeField.getMask();
         if ("Y".equals(mask)) {
+            Locale locale = (Locale) context.get("locale");
+            if (locale == null) locale = Locale.getDefault();
+
             if ("date".equals(dateTimeField.getType())) {
-                formattedMask = "9999-99-99";
+                formattedMask = UtilDateTime.getDateMask(locale); // "9999-99-99"
             } else if ("time".equals(dateTimeField.getType())) {
-                formattedMask = "99:99:99";
+                formattedMask = UtilDateTime.getTimeMask(locale); // "99:99:99"
             } else if ("timestamp".equals(dateTimeField.getType())) {
-                formattedMask = "9999-99-99 99:99:99";
+                formattedMask = UtilDateTime.getDateTimeMask(locale); // "9999-99-99 99:99:99"
             }
         }
         StringWriter sr = new StringWriter();
@@ -701,7 +749,9 @@ public class MacroFormRenderer implements FormStringRenderer {
         sr.append(formName);
         sr.append("\" mask=\"");
         sr.append(formattedMask);
-        sr.append("\" />");
+        sr.append("\" righToLeft=");
+        sr.append(Boolean.toString(righToLeft));
+        sr.append(" />");
         executeMacro(writer, sr.toString());
         this.addAsterisks(writer, context, modelFormField);
         this.appendTooltip(writer, context, modelFormField);
@@ -1676,7 +1726,6 @@ public class MacroFormRenderer implements FormStringRenderer {
 
     public void renderTextFindField(Appendable writer, Map<String, Object> context, TextFindField textFindField) throws IOException {
         ModelFormField modelFormField = textFindField.getModelFormField();
-        String defaultOption = textFindField.getDefaultOption();
         String className = "";
         String alert = "false";
         String opEquals = "";
@@ -1688,6 +1737,10 @@ public class MacroFormRenderer implements FormStringRenderer {
         String size = Integer.toString(textFindField.getSize());
         String maxlength = "";
         String autocomplete = "";
+        String defaultOption = modelFormField.getParameterNameWithSuffix(context, name + "_op");
+        if (UtilValidate.isEmpty(defaultOption)) {
+            defaultOption = textFindField.getDefaultOption();
+        }
         if (UtilValidate.isNotEmpty(modelFormField.getWidgetStyle())) {
             className = modelFormField.getWidgetStyle();
             if (modelFormField.shouldBeRed(context)) {
@@ -1717,8 +1770,18 @@ public class MacroFormRenderer implements FormStringRenderer {
             titleStyle = modelFormField.getTitleStyle();
         }
         String ignoreCase = UtilProperties.getMessage("conditional", "ignore_case", locale);
-        boolean ignCase = textFindField.getIgnoreCase();
-        boolean hideIgnoreCase = textFindField.getHideIgnoreCase();
+        boolean ignCase = true;
+        String ignCaseString = modelFormField.getParameterNameWithSuffix(context, name + "_ic");
+        if (UtilValidate.isEmpty(ignCaseString)) {
+            if (UtilValidate.isEmpty(value))
+                ignCase = textFindField.getIgnoreCase();
+            else
+                ignCase = false;
+        } else {
+            if ("Y".equals(ignCaseString) || "true".equals(ignCaseString) )
+                ignCase = true;
+        }
+        boolean hideIgnoreCase = textFindField.getHideIgnoreCase(context);
         StringWriter sr = new StringWriter();
         sr.append("<@renderTextFindField ");
         sr.append(" name=\"");

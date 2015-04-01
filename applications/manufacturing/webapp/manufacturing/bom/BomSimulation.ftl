@@ -46,8 +46,8 @@ under the License.
           <td width="20%">${uiLabelMap.ProductProductId}</td>
           <td width="10%">${uiLabelMap.ManufacturingProductVirtual}</td>
           <td width="40%">${uiLabelMap.ProductProductName}</td>
-          <td width="10%" align="right">${uiLabelMap.CommonQuantity}</td>
-          <td width="10%" align="right">&nbsp;</td>
+          <td width="10%" class="opposite-align-text">${uiLabelMap.CommonQuantity}</td>
+          <td width="10%" class="opposite-align-text">&nbsp;</td>
         </tr>
         <#if tree?has_content>
           <#assign alt_row = false>
@@ -82,8 +82,8 @@ under the License.
                 ${(node.ruleApplied.ruleId)?if_exists}
               </td>
               <td>${node.product.internalName?default("&nbsp;")}</td>
-              <td align="right">${node.quantity}</td>
-              <td align="right"><a href="<@ofbizUrl>EditProductBom?productId=${(node.product.productId)?if_exists}&amp;productAssocTypeId=${(node.bomTypeId)?if_exists}</@ofbizUrl>" class="buttontext">${uiLabelMap.CommonEdit}</a></td>
+              <td class="opposite-align-text">${node.quantity}</td>
+              <td class="opposite-align-text"><a href="<@ofbizUrl>EditProductBom?productId=${(node.product.productId)?if_exists}&amp;productAssocTypeId=${(node.bomTypeId)?if_exists}</@ofbizUrl>" class="buttontext">${uiLabelMap.CommonEdit}</a></td>
             </tr>
             <#-- toggle the row color -->
             <#assign alt_row = !alt_row>
@@ -99,11 +99,11 @@ under the License.
         <tr class="header-row">
           <td width="20%">${uiLabelMap.ProductProductId}</td>
           <td width="50%">${uiLabelMap.ProductProductName}</td>
-          <td width="6%" align="right">${uiLabelMap.CommonQuantity}</td>
-          <td width="6%" align="right">${uiLabelMap.ProductQoh}</td>
-          <td width="6%" align="right">${uiLabelMap.ProductWeight}</td>
-          <td width="6%" align="right">${uiLabelMap.FormFieldTitle_cost}</td>
-          <td width="6%" align="right">${uiLabelMap.CommonTotalCost}</td>
+          <td width="6%" class="opposite-align-text">${uiLabelMap.CommonQuantity}</td>
+          <td width="6%" class="opposite-align-text">${uiLabelMap.ProductQoh}</td>
+          <td width="6%" class="opposite-align-text">${uiLabelMap.ProductWeight}</td>
+          <td width="6%" class="opposite-align-text">${uiLabelMap.FormFieldTitle_cost}</td>
+          <td width="6%" class="opposite-align-text">${uiLabelMap.CommonTotalCost}</td>
         </tr>
         <#if productsData?has_content>
           <#assign alt_row = false>
@@ -112,15 +112,15 @@ under the License.
             <tr valign="middle"<#if alt_row> class="alternate-row"</#if>>
               <td><a href="/catalog/control/EditProduct?productId=${node.product.productId}${StringUtil.wrapString(externalKeyParam)}" class="buttontext">${node.product.productId}</a></td>
               <td>${node.product.internalName?default("&nbsp;")}</td>
-              <td align="right">${node.quantity}</td>
-              <td align="right">${productData.qoh?if_exists}</td>
-              <td align="right">${node.product.productWeight?if_exists}</td>
+              <td class="opposite-align-text">${node.quantity}</td>
+              <td class="opposite-align-text">${productData.qoh?if_exists}</td>
+              <td class="opposite-align-text">${node.product.productWeight?if_exists}</td>
               <#if productData.unitCost?exists && (productData.unitCost > 0)>
-              <td align="right">${productData.unitCost?if_exists}</td>
+              <td class="opposite-align-text">${productData.unitCost?if_exists}</td>
               <#else>
-              <td align="right"><a href="/catalog/control/EditProductCosts?productId=${node.product.productId}${StringUtil.wrapString(externalKeyParam)}" class="buttontext">NA</a></td>
+              <td class="opposite-align-text"><a href="/catalog/control/EditProductCosts?productId=${node.product.productId}${StringUtil.wrapString(externalKeyParam)}" class="buttontext">NA</a></td>
               </#if>
-              <td align="right">${productData.totalCost?if_exists}</td>
+              <td class="opposite-align-text">${productData.totalCost?if_exists}</td>
             </tr>
             <#-- toggle the row color -->
             <#assign alt_row = !alt_row>
@@ -128,7 +128,7 @@ under the License.
           <#--
           <#if grandTotalCost?exists>
           <tr>
-            <td colspan="6" align="right">${grandTotalCost}</td>
+            <td colspan="6" class="opposite-align-text">${grandTotalCost}</td>
           </tr>
           </#if>
           -->

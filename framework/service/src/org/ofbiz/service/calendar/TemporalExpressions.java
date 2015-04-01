@@ -19,12 +19,12 @@
 package org.ofbiz.service.calendar;
 
 import java.io.Serializable;
-import com.ibm.icu.util.Calendar;
 import java.util.Collections;
 import java.util.Date;
 import java.util.Set;
 import java.util.TreeSet;
 
+import org.ofbiz.base.util.Calendar;
 import org.ofbiz.base.util.Debug;
 
 /** A collection of TemporalExpression classes.

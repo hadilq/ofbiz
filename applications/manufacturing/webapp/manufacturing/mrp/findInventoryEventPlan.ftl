@@ -16,6 +16,7 @@ KIND, either express or implied.  See the License for the
 specific language governing permissions and limitations
 under the License.
 -->
+<#assign dateTimeFormat = Static["org.ofbiz.base.util.UtilDateTime"].getDateTimeFormatByContext(context)>
 
 <script language="JavaScript" type="text/javascript">
 <!-- //
@@ -41,7 +42,7 @@ function lookupInventory() {
           <table class="basic-table" cellspacing="0">
             <tr>
               <td></td>
-              <td align='right'>
+              <td class="opposite-align-text">
                 <p>
                   <#if requestParameters.hideFields?default("N") == "Y">
                     <a href="<@ofbizUrl>FindInventoryEventPlan?hideFields=N${paramList}</@ofbizUrl>" class="smallSubmit">${uiLabelMap.CommonShowLookupFields}</a>
@@ -60,7 +61,7 @@ function lookupInventory() {
               <td align='center' width='100%'>
                  <table class="basic-table" cellspacing="0">
                   <tr>
-                    <td width='20%' align='right' class="label">${uiLabelMap.ManufacturingProductId}</td>
+                    <td width='20%' class="opposite-align-text" class="label">${uiLabelMap.ManufacturingProductId}</td>
                     <td width='5%'>&nbsp;</td>
                     <td>
                       <span>
@@ -69,10 +70,10 @@ function lookupInventory() {
                      </td>
                   </tr>
                   <tr>
-                    <td width='20%' align='right' class="label">${uiLabelMap.CommonFromDate}</td>
+                    <td width='20%' class="opposite-align-text" class="label">${uiLabelMap.CommonFromDate}</td>
                     <td width='5%'>&nbsp;</td>
                     <td>
-                      <@htmlTemplate.renderDateTimeField name="eventDate" event="" action="" className="" alert="" title="Format: yyyy-MM-dd HH:mm:ss.SSS" value="${requestParameters.eventDate?if_exists}" size="25" maxlength="30" id="fromDate_2" dateType="date" shortDateInput=false timeDropdownParamName="" defaultDateTimeString="" localizedIconTitle="" timeDropdown="" timeHourName="" classString="" hour1="" hour2="" timeMinutesName="" minutes="" isTwelveHour="" ampmName="" amSelected="" pmSelected="" compositeType="" formName=""/>
+                      <@htmlTemplate.renderDateTimeField name="eventDate" event="" action="" className="" alert="" title="Format: ${dateTimeFormat}" value="${requestParameters.eventDate?if_exists}" size="25" maxlength="30" id="fromDate_2" dateType="date" shortDateInput=false timeDropdownParamName="" defaultDateTimeString="" localizedIconTitle="" timeDropdown="" timeHourName="" classString="" hour1="" hour2="" timeMinutesName="" minutes="" isTwelveHour="" ampmName="" amSelected="" pmSelected="" compositeType="" formName=""/>
                     </td>
                   </tr>
                   <tr>
@@ -110,7 +111,7 @@ document.lookupinventory.productId.focus();
           <tr>
            <td width="50%" class="boxhead">${uiLabelMap.CommonElementsFound}</td>
             <td width="50%">
-             <div class="boxhead" align="right">
+             <div class="boxhead" class="opposite-align-text">
 
                 <#if 0 < viewIndex>
                   <a href="<@ofbizUrl>FindInventoryEventPlan?VIEW_SIZE=${viewSize}&amp;VIEW_INDEX=${viewIndex-1}&amp;hideFields=${requestParameters.hideFields?default("N")}${paramList}</@ofbizUrl>" class="submenutext">${uiLabelMap.CommonPrevious}</a>
@@ -139,8 +140,8 @@ document.lookupinventory.productId.focus();
           <td>${uiLabelMap.CommonDescription}</td>
           <td>${uiLabelMap.CommonDate}</td>
           <td align="center">&nbsp;</td>
-          <td align="right">${uiLabelMap.CommonQuantity}</td>
-          <td align="right">${uiLabelMap.ManufacturingTotalQuantity}</td>
+          <td class="opposite-align-text">${uiLabelMap.CommonQuantity}</td>
+          <td class="opposite-align-text">${uiLabelMap.ManufacturingTotalQuantity}</td>
         </tr>
         <tr>
           <td colspan="7"><hr /></td>
@@ -191,7 +192,7 @@ document.lookupinventory.productId.focus();
                       </div>
                       </#if>
                   </td>
-                  <td colspan="5" align="right">
+                  <td colspan="5" class="opposite-align-text">
                     <big><b>${quantityAvailableAtDate}</b></big>
                   </td>
                 </tr>
@@ -215,8 +216,8 @@ document.lookupinventory.productId.focus();
               <td>${inven.eventName?if_exists}</td>
               <td><font <#if inven.isLate?default("N") == "Y">color='red'</#if>>${inven.getString("eventDate")}</font></td>
               <td>&nbsp;</td>
-              <td align="right">${inven.getString("quantity")}</td>
-              <td align="right">${quantityAvailableAtDate?if_exists}</td>
+              <td class="opposite-align-text">${inven.getString("quantity")}</td>
+              <td class="opposite-align-text">${quantityAvailableAtDate?if_exists}</td>
             </tr>
             <#assign count=count+1>
            </#list>

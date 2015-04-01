@@ -176,7 +176,7 @@ function getConfigDetails() {
   <#-- Category next/previous -->
   <#if category?exists>
     <tr>
-      <td colspan="2" align="right">
+      <td colspan="2" class="opposite-align-text">
         <#if previousProductId?exists>
           <a href='<@ofbizUrl>product/~category_id=${categoryId?if_exists}/~product_id=${previousProductId?if_exists}</@ofbizUrl>' class="buttontext">${uiLabelMap.CommonPrevious}</a>&nbsp;|&nbsp;
         </#if>
@@ -199,10 +199,10 @@ function getConfigDetails() {
         <#assign productLargeImageUrl = firstLargeImage>
       </#if>
       <#if productLargeImageUrl?string?has_content>
-        <a href="javascript:popupDetail();"><img src='<@ofbizContentUrl>${contentPathPrefix?if_exists}${productLargeImageUrl?if_exists}</@ofbizContentUrl>' name='mainImage' vspace='5' hspace='5' class='cssImgLarge' align='left' alt="" /></a>
+        <a href="javascript:popupDetail();"><img src='<@ofbizContentUrl>${contentPathPrefix?if_exists}${productLargeImageUrl?if_exists}</@ofbizContentUrl>' name='mainImage' vspace='5' hspace='5' class='cssImgLarge' class="align-text" alt="" /></a>
       </#if>
     </td>
-    <td align="right" valign="top">
+    <td class="opposite-align-text" valign="top">
       <h2>${productContentWrapper.get("PRODUCT_NAME")?if_exists}</h2>
       <div>${productContentWrapper.get("DESCRIPTION")?if_exists}</div>
       <div><b>${product.productId?if_exists}</b></div>
@@ -318,7 +318,7 @@ function getConfigDetails() {
           </#if>
         </#if>
 
-        </td></tr><tr><td colspan="2" align="right">
+        </td></tr><tr><td colspan="2" class="opposite-align-text">
 
         <#-- check to see if introductionDate hasn't passed yet -->
         <#if product.introductionDate?exists && nowTimestamp.before(product.introductionDate)>
@@ -463,7 +463,7 @@ function getConfigDetails() {
                 </#if>
                 <#assign image = question.content.get("IMAGE_URL")?if_exists>
                 <#if image?has_content>
-                  <img src='<@ofbizContentUrl>${contentPathPrefix?if_exists}${image?if_exists}</@ofbizContentUrl>' vspace='5' hspace='5' class='cssImgSmall' align='left' alt="" />
+                  <img src='<@ofbizContentUrl>${contentPathPrefix?if_exists}${image?if_exists}</@ofbizContentUrl>' vspace='5' hspace='5' class='cssImgSmall' class="align-text" alt="" />
                 </#if>
               <#else>
                 <div><a href='#${question.getConfigItem().getString("configItemId")}' class="buttontext">Details</a></div>

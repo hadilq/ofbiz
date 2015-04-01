@@ -272,6 +272,8 @@ public class ModelParam implements Serializable {
             return "std-Long";
         } else if (ObjectType.instanceOf(java.sql.Timestamp.class, this.type)) {
             return "sql-Timestamp";
+        } else if (ObjectType.instanceOf(org.ofbiz.base.util.Calendar.class, this.type)) {
+            return "sql-Timestamp";
         } else if (ObjectType.instanceOf(org.ofbiz.entity.GenericValue.class, this.type)) {
             return "eeval-";
         } else if (ObjectType.instanceOf(org.ofbiz.entity.GenericPK.class, this.type)) {

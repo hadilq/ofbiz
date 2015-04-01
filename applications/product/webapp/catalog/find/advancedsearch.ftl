@@ -31,7 +31,7 @@ under the License.
       <table cellspacing="0" class="basic-table">
         <#if searchCategory?has_content>
             <tr>
-              <td class="label" align="right" valign="middle">
+              <td class="label" class="opposite-align-text" valign="middle">
                 ${uiLabelMap.ProductCategory}:
               </td>
               <td valign="middle">
@@ -44,7 +44,7 @@ under the License.
             </tr>
         <#else>
             <tr>
-               <td class="label" align="right" valign="top">
+               <td class="label" class="opposite-align-text" valign="top">
                  ${uiLabelMap.ProductCatalog}:
                </td>
                <td valign="middle">
@@ -63,7 +63,7 @@ under the License.
                </td>
             </tr>
             <tr>
-              <td class="label" align="right" valign="top">
+              <td class="label" class="opposite-align-text" valign="top">
                 ${uiLabelMap.ProductCategory}:
               </td>
               <td valign="middle">
@@ -80,7 +80,7 @@ under the License.
             </tr>
         </#if>
         <tr>
-          <td class="label" align="right" valign="top">
+          <td class="label" class="opposite-align-text" valign="top">
             ${uiLabelMap.ProductProductName}:
           </td>
           <td valign="middle">
@@ -90,7 +90,7 @@ under the License.
           </td>
         </tr>
         <tr>
-          <td class="label" align="right" valign="top">
+          <td class="label" class="opposite-align-text" valign="top">
             ${uiLabelMap.ProductInternalName}:
           </td>
           <td valign="middle">
@@ -100,7 +100,7 @@ under the License.
           </td>
         </tr>
         <tr>
-          <td class="label" align="right" valign="top">
+          <td class="label" class="opposite-align-text" valign="top">
             ${uiLabelMap.ProductKeywords}:
           </td>
           <td valign="middle">
@@ -112,7 +112,7 @@ under the License.
           </td>
         </tr>
         <tr>
-          <td class="label" align="right" valign="top">
+          <td class="label" class="opposite-align-text" valign="top">
             ${uiLabelMap.ProductFeatureCategory} ${uiLabelMap.CommonIds}:
           </td>
           <td valign="middle">
@@ -137,7 +137,7 @@ under the License.
           </td>
         </tr>
         <tr>
-          <td class="label" align="right" valign="top">
+          <td class="label" class="opposite-align-text" valign="top">
             ${uiLabelMap.ProductFeatureGroup} ${uiLabelMap.CommonIds}:
           </td>
           <td valign="middle">
@@ -163,7 +163,7 @@ under the License.
         </tr>
 
         <tr>
-          <td class="label" align="right" valign="top">
+          <td class="label" class="opposite-align-text" valign="top">
             ${uiLabelMap.ProductFeatures} ${uiLabelMap.CommonIds}:
           </td>
           <td valign="middle">
@@ -188,7 +188,7 @@ under the License.
           </td>
         </tr>
         <tr>
-          <td class="label" align="right" valign="top">
+          <td class="label" class="opposite-align-text" valign="top">
             ${uiLabelMap.ProductListPriceRange}:
           </td>
           <td valign="middle">
@@ -203,7 +203,7 @@ under the License.
           <#assign productFeatureType = delegator.findOne("ProductFeatureType", findPftMap, true)>
           <#assign productFeatures = productFeaturesByTypeMap[productFeatureTypeId]>
           <tr>
-            <td class="label" align="right" valign="middle">
+            <td class="label" class="opposite-align-text" valign="middle">
               ${(productFeatureType.get("description",locale))?if_exists}:
             </td>
             <td valign="middle">
@@ -219,7 +219,7 @@ under the License.
           </tr>
         </#list>
         <tr>
-          <td class="label" align="right" valign="middle">
+          <td class="label" class="opposite-align-text" valign="middle">
             ${uiLabelMap.ProductSupplier}:
           </td>
           <td valign="middle">
@@ -234,7 +234,7 @@ under the License.
           </td>
         </tr>
         <tr>
-          <td class="label" align="right" valign="middle">
+          <td class="label" class="opposite-align-text" valign="middle">
             ${uiLabelMap.CommonSortedBy}:
           </td>
           <td valign="middle">
@@ -258,7 +258,7 @@ under the License.
           </td>
         </tr>
         <tr>
-          <td class="label" align="right" valign="middle">
+          <td class="label" class="opposite-align-text" valign="middle">
             ${uiLabelMap.ProductPrioritizeProductsInCategory}:
           </td>
           <td valign="middle">
@@ -290,7 +290,7 @@ under the License.
         </tr>
         <#if searchConstraintStrings?has_content>
           <tr>
-            <td align="right" valign="top" class="label">
+            <td class="opposite-align-text" valign="top" class="label">
               ${uiLabelMap.ProductLastSearch}
             </td>
             <td valign="top">

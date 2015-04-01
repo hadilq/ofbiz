@@ -48,7 +48,7 @@ under the License.
             </#if>
             <table border="0" width="100%" cellpadding="2">
                 <tr>
-                <td align="right">
+                <td class="opposite-align-text">
                     <span class="label">
                     <b>
                     <#if (viewIndex > 0)>
@@ -81,7 +81,7 @@ under the License.
                 <td><b>${uiLabelMap.ProductIdSeqNum}</b></td>
                 <td><b>${uiLabelMap.ProductIdCode}</b></td>
                 <td><b>${uiLabelMap.ProductAbbrev}</b></td>
-                <td align="right"><b>${uiLabelMap.CommonAll}<input type="checkbox" name="selectAll" value="${uiLabelMap.CommonY}" onclick="javascript:toggleAll(this, 'selectAllForm');highlightAllRows(this, 'productFeatureId_tableRow_', 'selectAllForm');" /></b></td>
+                <td class="opposite-align-text"><b>${uiLabelMap.CommonAll}<input type="checkbox" name="selectAll" value="${uiLabelMap.CommonY}" onclick="javascript:toggleAll(this, 'selectAllForm');highlightAllRows(this, 'productFeatureId_tableRow_', 'selectAllForm');" /></b></td>
              </tr>
         <#if (listSize > 0)>
             <#assign rowCount = 0>
@@ -117,7 +117,7 @@ under the License.
               <td><input type="text" size='5' name="defaultSequenceNum_o_${rowCount}" value="${productFeature.defaultSequenceNum?if_exists}" /></td>
               <td><input type="text" size='5' name="idCode_o_${rowCount}" value="${productFeature.idCode?if_exists}" /></td>
               <td><input type="text" size='5' name="abbrev_o_${rowCount}" value="${productFeature.abbrev?if_exists}" /></td>
-              <td align="right"><input type="checkbox" name="_rowSubmit_o_${rowCount}" value="Y" onclick="javascript:checkToggle(this, 'selectAllForm');highlightRow(this,'productFeatureId_tableRow_${rowCount}');" /></td>
+              <td class="opposite-align-text"><input type="checkbox" name="_rowSubmit_o_${rowCount}" value="Y" onclick="javascript:checkToggle(this, 'selectAllForm');highlightRow(this,'productFeatureId_tableRow_${rowCount}');" /></td>
             </tr>
             <#assign rowCount = rowCount + 1>
             <#-- toggle the row color -->

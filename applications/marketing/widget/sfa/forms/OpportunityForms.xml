@@ -83,8 +83,8 @@ under the License.
         </field>
         <field name="nextStep"><display/></field>
         <field name="estimatedAmount" title="${uiLabelMap.SfaEstimatedAmount}"><display/></field>
-        <field name="nextStepDate" position="1" title="${uiLabelMap.SfaNextStepDate}" sort-field="true"><display/></field>
-        <field name="estimatedCloseDate" title="${uiLabelMap.SfaCloseDate}"><display/></field>
+        <field name="nextStepDate" position="1" title="${uiLabelMap.SfaNextStepDate}" sort-field="true"><display type="date"/></field>
+        <field name="estimatedCloseDate" title="${uiLabelMap.SfaCloseDate}"><display type="date"/></field>
         <field name="editButton" title="${uiLabelMap.CommonClose}" use-when="${groovy: estimatedCloseDate == null || isDateAfterNow == true || opportunityStageId != &quot;SOSTG_CLOSED&quot;}" widget-style="buttontext">
             <hyperlink target="closeSalesOpportunity" description="${uiLabelMap.CommonClose}">
                 <parameter param-name="salesOpportunityId"/>
@@ -167,8 +167,8 @@ under the License.
         <field name="leadPartyId" position="1" title="${uiLabelMap.SfaLead}" map-name="leadParty" field-name="partyId"><display-entity description="${firstName} ${lastName} ${groupName} [${partyId}]" entity-name="PartyNameView"/></field>
         <field name="estimatedAmount" position="1" title="${uiLabelMap.SfaEstimatedAmount} ${currencyUomId}"><display/></field>
         <field name="estimatedProbability" position="2" title="${uiLabelMap.SfaProbability}"><display/></field>
-        <field name="nextStepDate" position="1" title="${uiLabelMap.SfaNextStepDate}"><display/></field>
-        <field name="estimatedCloseDate" position="2" title="${uiLabelMap.SfaCloseDate}"><display/></field>
+        <field name="nextStepDate" position="1" title="${uiLabelMap.SfaNextStepDate}"><display type="date"/></field>
+        <field name="estimatedCloseDate" position="2" title="${uiLabelMap.SfaCloseDate}"><display type="date"/></field>
         <field name="opportunityStageId" position="1" title="${uiLabelMap.SfaInitialStage}">
             <display-entity entity-name="SalesOpportunityStage" description="${description}"/>
         </field>

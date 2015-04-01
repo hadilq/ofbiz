@@ -52,7 +52,7 @@ under the License.
 
 <#macro renderTextareaField name className alert cols rows id readonly value visualEditorEnable language buttons><@makeBlock className value /></#macro>
 
-<#macro renderDateTimeField name className alert title value size maxlength step timeValues id event action dateType shortDateInput timeDropdownParamName defaultDateTimeString localizedIconTitle timeDropdown timeHourName classString hour1 hour2 timeMinutesName minutes isTwelveHour ampmName amSelected pmSelected compositeType formName mask><@makeBlock className value /></#macro>
+<#macro renderDateTimeField name className alert title value size maxlength step timeValues id event action dateType shortDateInput timeDropdownParamName defaultDateTimeString localizedIconTitle timeDropdown timeHourName classString hour1 hour2 timeMinutesName minutes isTwelveHour ampmName amSelected pmSelected compositeType formName mask righToLeft=false><@makeBlock className value /></#macro>
 
 <#macro renderDropDownField name className alert id multiple formName otherFieldName event action size firstInList currentValue explicitDescription allowEmpty options fieldName otherFieldName otherValue otherFieldSize dDFCurrent ajaxEnabled noCurrentSelectedKey ajaxOptions frequency minChars choices autoSelect partialSearch partialChars ignoreCase fullSearch>
 <#if currentValue?has_content && firstInList?has_content>
@@ -75,11 +75,11 @@ under the License.
 
 <#macro renderFieldTitle style title id fieldHelpText="">${title?default("")?replace("&nbsp;", " ")}</#macro>
 <#macro renderSingleFormFieldTitle title>${title?default("")}</#macro>
-    
+
 <#macro renderFormOpen linkUrl formType targetWindow containerId containerStyle autocomplete name viewIndexField viewSizeField viewIndex viewSize useRowSubmit></#macro>
 <#macro renderFormClose focusFieldName formName containerId hasRequiredField></#macro>
 <#macro renderMultiFormClose></#macro>
-    
+
 <#macro renderFormatListWrapperOpen formName style columnStyles><fo:table border="solid black"><#list columnStyles as columnStyle><fo:table-column<#if columnStyle?has_content> <@getFoStyle columnStyle/></#if>/></#list></#macro>
 <#macro renderFormatListWrapperClose formName></fo:table-body></fo:table></#macro>
 
@@ -94,7 +94,7 @@ under the License.
 <#macro renderFormatHeaderRowFormCellOpen style><fo:table-cell></#macro>
 <#macro renderFormatHeaderRowFormCellClose></fo:table-cell></#macro>
 <#macro renderFormatHeaderRowFormCellTitleSeparator style isLast></#macro>
-    
+
 <#macro renderFormatItemRowOpen formName itemIndex altRowStyles evenRowStyle oddRowStyle><fo:table-row></#macro>
 <#macro renderFormatItemRowClose formName></fo:table-row></#macro>
 <#macro renderFormatItemRowCellOpen fieldName style positionSpan><fo:table-cell <#if positionSpan?has_content && positionSpan gt 1 >number-columns-spanned="${positionSpan}"</#if><#if style?has_content><@getFoStyle style/><#else><@getFoStyle "tabletext"/></#if>></#macro>

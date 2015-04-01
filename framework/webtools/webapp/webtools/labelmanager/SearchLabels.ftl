@@ -58,13 +58,13 @@ under the License.
         <td>
           <select name="labelLocaleName">
             <option value="">${uiLabelMap.WebtoolsLabelManagerAllLocales}</option>
+            <#assign rightToLeftLocales = Static["org.ofbiz.base.util.UtilMisc"].rightToLeftLocales()/>
             <#list localesFound as localeFound>
               <#assign locale = Static["org.ofbiz.base.util.UtilMisc"].parseLocale(localeFound)?if_exists/>
-              <#assign RightToLeftLocales = Static["org.ofbiz.base.util.UtilMisc"].RightToLeftLocales()/>
-              <#assign langAttr = localeFound.toString()?replace("_", "-")>
+              <#assign langAttr = locale.toLanguageTag()>
               <#assign langDir = "ltr">
               <#if 1 < langAttr?length>
-                <#if RightToLeftLocales?contains(langAttr?substring(0, 2))>
+                <#if rightToLeftLocales?contains(langAttr?substring(0, 2))>
                   <#assign langDir = "rtl">
                 </#if>
               </#if>

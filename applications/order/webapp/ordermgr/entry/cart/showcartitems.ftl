@@ -16,6 +16,7 @@ KIND, either express or implied.  See the License for the
 specific language governing permissions and limitations
 under the License.
 -->
+<#assign dateTimeFormat = Static["org.ofbiz.base.util.UtilDateTime"].getDateTimeFormatByContext(context)>
 
 <#-- Continuation of showcart.ftl:  List of order items and forms to modify them. -->
 <#macro showAssoc productAssoc>
@@ -27,7 +28,7 @@ under the License.
   </#if>
 </#macro>
 <div class="screenlet">
-    <div class="screenlet-title-bar">    
+    <div class="screenlet-title-bar">
         <div class='h3'>${uiLabelMap.OrderOrderItems}</div>
     </div>
     <div class="screenlet-body">
@@ -60,9 +61,9 @@ under the License.
             </div>
           </td>
           <td align="center"><div><b>${uiLabelMap.OrderQuantity}</b></div></td>
-          <td align="right"><div><b>${uiLabelMap.CommonUnitPrice}</b></div></td>
-          <td align="right"><div><b>${uiLabelMap.OrderAdjustments}</b></div></td>
-          <td align="right"><div><b>${uiLabelMap.OrderItemTotal}</b></div></td>
+          <td class="opposite-align-text"><div><b>${uiLabelMap.CommonUnitPrice}</b></div></td>
+          <td class="opposite-align-text"><div><b>${uiLabelMap.OrderAdjustments}</b></div></td>
+          <td class="opposite-align-text"><div><b>${uiLabelMap.OrderItemTotal}</b></div></td>
           <td align="center"><input type="checkbox" name="selectAll" value="0" onclick="javascript:toggleAll(this);" /></td>
         </tr>
 
@@ -196,13 +197,13 @@ under the License.
                <tr>
                 <td>
                   <div>${uiLabelMap.OrderShipAfterDate}
-                    <@htmlTemplate.renderDateTimeField name="shipAfterDate_${cartLineIndex}" value="${cartLine.getShipAfterDate()?default('')}" event="" action="" className="" alert="" title="Format: yyyy-MM-dd HH:mm:ss.SSS" size="25" maxlength="30" id="shipAfterDate_${cartLineIndex}" dateType="date" shortDateInput=false timeDropdownParamName="" defaultDateTimeString="" localizedIconTitle="" timeDropdown="" timeHourName="" classString="" hour1="" hour2="" timeMinutesName="" minutes="" isTwelveHour="" ampmName="" amSelected="" pmSelected="" compositeType="" formName=""/>
+                    <@htmlTemplate.renderDateTimeField name="shipAfterDate_${cartLineIndex}" value="${cartLine.getShipAfterDate()?default('')}" event="" action="" className="" alert="" title="Format: ${dateTimeFormat}" size="25" maxlength="30" id="shipAfterDate_${cartLineIndex}" dateType="date" shortDateInput=false timeDropdownParamName="" defaultDateTimeString="" localizedIconTitle="" timeDropdown="" timeHourName="" classString="" hour1="" hour2="" timeMinutesName="" minutes="" isTwelveHour="" ampmName="" amSelected="" pmSelected="" compositeType="" formName=""/>
                   </div>
                 </td>
                 <td>&nbsp;</td>
                 <td>
                   <div>${uiLabelMap.OrderShipBeforeDate}
-                    <@htmlTemplate.renderDateTimeField name="shipBeforeDate_${cartLineIndex}" value="${cartLine.getShipBeforeDate()?default('')}" event="" action="" className="" alert="" title="Format: yyyy-MM-dd HH:mm:ss.SSS" size="25" maxlength="30" id="shipBeforeDate_${cartLineIndex}" dateType="date" shortDateInput=false timeDropdownParamName="" defaultDateTimeString="" localizedIconTitle="" timeDropdown="" timeHourName="" classString="" hour1="" hour2="" timeMinutesName="" minutes="" isTwelveHour="" ampmName="" amSelected="" pmSelected="" compositeType="" formName=""/>
+                    <@htmlTemplate.renderDateTimeField name="shipBeforeDate_${cartLineIndex}" value="${cartLine.getShipBeforeDate()?default('')}" event="" action="" className="" alert="" title="Format: ${dateTimeFormat}" size="25" maxlength="30" id="shipBeforeDate_${cartLineIndex}" dateType="date" shortDateInput=false timeDropdownParamName="" defaultDateTimeString="" localizedIconTitle="" timeDropdown="" timeHourName="" classString="" hour1="" hour2="" timeMinutesName="" minutes="" isTwelveHour="" ampmName="" amSelected="" pmSelected="" compositeType="" formName=""/>
                   </div>
                 </td>
                </tr>
@@ -246,7 +247,7 @@ under the License.
 
             <#-- gift wrap option -->
             <#assign showNoGiftWrapOptions = false>
-            <td nowrap="nowrap" align="right">
+            <td nowrap="nowrap" class="opposite-align-text">
               <#assign giftWrapOption = lineOptionalFeatures.GIFT_WRAP?if_exists>
               <#assign selectedOption = cartLine.getAdditionalProductFeatureAndAppl("GIFT_WRAP")?if_exists>
               <#if giftWrapOption?has_content>
@@ -277,7 +278,7 @@ under the License.
                 </#if>
               </div>
             </td>
-            <td nowrap="nowrap" align="right">
+            <td nowrap="nowrap" class="opposite-align-text">
               <div>
                 <#if cartLine.getIsPromo() || (shoppingCart.getOrderType() == "SALES_ORDER" && !security.hasEntityPermission("ORDERMGR", "_SALES_PRICEMOD", session))>
                   <@ofbizCurrency amount=cartLine.getDisplayPrice() isoCode=currencyUomId/>
@@ -291,8 +292,8 @@ under the License.
                 </#if>
               </div>
             </td>
-            <td nowrap="nowrap" align="right"><div><@ofbizCurrency amount=cartLine.getOtherAdjustments() isoCode=currencyUomId/></div></td>
-            <td nowrap="nowrap" align="right"><div><@ofbizCurrency amount=cartLine.getDisplayItemSubTotal() isoCode=currencyUomId/></div></td>
+            <td nowrap="nowrap" class="opposite-align-text"><div><@ofbizCurrency amount=cartLine.getOtherAdjustments() isoCode=currencyUomId/></div></td>
+            <td nowrap="nowrap" class="opposite-align-text"><div><@ofbizCurrency amount=cartLine.getDisplayItemSubTotal() isoCode=currencyUomId/></div></td>
             <td nowrap="nowrap" align="center"><div><#if !cartLine.getIsPromo()><input type="checkbox" name="selectedItem" value="${cartLineIndex}" onclick="javascript:checkToggle(this);"/><#else>&nbsp;</#if></div></td>
           </tr>
         </#list>
@@ -300,30 +301,30 @@ under the License.
         <#if shoppingCart.getAdjustments()?has_content>
             <tr><td colspan="7"><hr /></td></tr>
               <tr>
-                <td colspan="4" nowrap="nowrap" align="right"><div>${uiLabelMap.OrderSubTotal}:</div></td>
-                <td nowrap="nowrap" align="right"><div><@ofbizCurrency amount=shoppingCart.getSubTotal() isoCode=currencyUomId/></div></td>
+                <td colspan="4" nowrap="nowrap" class="opposite-align-text"><div>${uiLabelMap.OrderSubTotal}:</div></td>
+                <td nowrap="nowrap" class="opposite-align-text"><div><@ofbizCurrency amount=shoppingCart.getSubTotal() isoCode=currencyUomId/></div></td>
                 <td>&nbsp;</td>
               </tr>
             <#list shoppingCart.getAdjustments() as cartAdjustment>
               <#assign adjustmentType = cartAdjustment.getRelatedOne("OrderAdjustmentType", true)>
               <tr>
-                <td colspan="4" nowrap="nowrap" align="right">
+                <td colspan="4" nowrap="nowrap" class="opposite-align-text">
                   <div>
                     <i>${uiLabelMap.OrderAdjustment}</i> - ${adjustmentType.get("description",locale)?if_exists}
                     <#if cartAdjustment.productPromoId?has_content><a href="<@ofbizUrl>showPromotionDetails?productPromoId=${cartAdjustment.productPromoId}</@ofbizUrl>" class="buttontext">${uiLabelMap.CommonDetails}</a></#if>:
                   </div>
                 </td>
-                <td nowrap="nowrap" align="right"><div><@ofbizCurrency amount=Static["org.ofbiz.order.order.OrderReadHelper"].calcOrderAdjustment(cartAdjustment, shoppingCart.getSubTotal()) isoCode=currencyUomId/></div></td>
+                <td nowrap="nowrap" class="opposite-align-text"><div><@ofbizCurrency amount=Static["org.ofbiz.order.order.OrderReadHelper"].calcOrderAdjustment(cartAdjustment, shoppingCart.getSubTotal()) isoCode=currencyUomId/></div></td>
                 <td>&nbsp;</td>
               </tr>
             </#list>
         </#if>
 
         <tr>
-          <td colspan="6" align="right" valign="bottom">
+          <td colspan="6" class="opposite-align-text" valign="bottom">
             <div><b>${uiLabelMap.OrderCartTotal}:</b></div>
           </td>
-          <td align="right" valign="bottom">
+          <td class="opposite-align-text" valign="bottom">
             <hr />
             <div><b><@ofbizCurrency amount=shoppingCart.getGrandTotal() isoCode=currencyUomId/></b></div>
           </td>

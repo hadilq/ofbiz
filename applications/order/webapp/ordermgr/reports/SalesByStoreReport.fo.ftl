@@ -16,9 +16,17 @@ KIND, either express or implied.  See the License for the
 specific language governing permissions and limitations
 under the License.
 -->
+<#assign docLangAttr = locale.toLanguageTag()>
+<#assign rightToLeftLocales = Static["org.ofbiz.base.util.UtilMisc"].rightToLeftLocales()/>
+<#assign writingMode = "lr">
+<#if rightToLeftLocales?contains(docLangAttr?substring(0, 2))>
+    <#assign writingMode = "rl">
+</#if>
+<#assign defaultFontFamily = Static["org.ofbiz.common.languageFontsMapping"].getFontFamily(locale)>
 
 <#escape x as x?xml>
-<fo:root xmlns:fo="http://www.w3.org/1999/XSL/Format">
+<fo:root xmlns:fo="http://www.w3.org/1999/XSL/Format"
+    writing-mode="${writingMode}">
 
 <#-- do not display columns associated with values specified in the request, ie constraint values -->
 <#assign showProductStore = !parameters.productStoreId?has_content>
@@ -36,7 +44,7 @@ under the License.
 
 <#if productReportList?has_content>
         <fo:page-sequence master-reference="main">
-        <fo:flow flow-name="xsl-region-body" font-family="Helvetica">
+        <fo:flow flow-name="xsl-region-body" font-family="${defaultFontFamily}">
             <fo:block font-size="14pt">${uiLabelMap.OrderReportSalesByStore}</fo:block>
             <#if !showProductStore><fo:block font-size="10pt">${uiLabelMap.CommonFor} ${uiLabelMap.ProductProductStore}: ${parameters.productStoreId} - ${productReportList.get(0).storeName?if_exists}</fo:block></#if>
             <#if !showToParty><fo:block font-size="10pt">${uiLabelMap.PartyParty}: ${Static["org.ofbiz.party.party.PartyHelper"].getPartyName(delegator, toPartyId, false)}</fo:block></#if>
@@ -98,7 +106,7 @@ under the License.
         </fo:page-sequence>
 <#else>
     <fo:page-sequence master-reference="main">
-    <fo:flow flow-name="xsl-region-body" font-family="Helvetica">
+    <fo:flow flow-name="xsl-region-body" font-family="${defaultFontFamily}">
         <fo:block font-size="14pt">
             ${uiLabelMap.OrderNoOrderFound}.
         </fo:block>

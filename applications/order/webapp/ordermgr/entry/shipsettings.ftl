@@ -290,7 +290,7 @@ under the License.
             <tr><td colspan="4">&nbsp;</td></tr>
             <tr>
               <td>&nbsp;</td>
-              <td align='right' valign='middle' nowrap="nowrap"><div class='tableheadtext'>${uiLabelMap.PartyPartyId}</div></td>
+              <td class="opposite-align-text" valign='middle' nowrap="nowrap"><div class='tableheadtext'>${uiLabelMap.PartyPartyId}</div></td>
               <td>&nbsp;</td>
               <td valign='middle'>
                 <div class='tabletext'>

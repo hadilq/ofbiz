@@ -26,7 +26,7 @@ under the License.
         <entity-one entity-name="PartyAcctgPreference" value-field="partyAcctgPreference" auto-field-map="false">
             <field-map field-name="partyId" from-field="parameters.partyId"/>
         </entity-one>
-        <log level="info" message="In getNextInvoiceId partyId is [${parameters.partyId}], partyAcctgPreference: ${partyAcctgPreference}"/>        
+        <log level="info" message="In getNextInvoiceId partyId is [${parameters.partyId}], partyAcctgPreference: ${partyAcctgPreference}"/>
 
         <if-not-empty field="partyAcctgPreference">
            <get-related-one relation-name="InvoiceCustomMethod" value-field="partyAcctgPreference" to-value-field="customMethod"/>
@@ -46,14 +46,14 @@ under the License.
                     <set field="customMethodName" value="invoiceSequenceRestart"/>
                 </if-compare>
             </else>
-        </if-not-empty>        
+        </if-not-empty>
 
         <if-not-empty field="customMethodName">
             <set-service-fields service-name="${customMethodName}" map="parameters" to-map="customMethodMap"/>
             <set field="customMethodMap.partyAcctgPreference" from-field="partyAcctgPreference"/>
             <call-service service-name="${customMethodName}" in-map-name="customMethodMap">
                <result-to-field result-name="invoiceId" field="invoiceIdTemp"/>
-            </call-service>            
+            </call-service>
             <else>
                 <log level="info" message="In createInvoice sequence enum Standard"/>
                 <!-- default to the default sequencing: INVSQ_STANDARD -->
@@ -173,7 +173,7 @@ under the License.
         <if-not-empty field="party.preferredCurrencyUomId">
             <set field="parameters.currencyUomId" from-field="party.preferredCurrencyUomId"/>
         </if-not-empty>
-        
+
         <set-nonpk-fields map="parameters" value-field="newEntity"/>
         <set-pk-fields map="parameters" value-field="newEntity"/>
         <create-value value-field="newEntity"/>
@@ -340,6 +340,7 @@ under the License.
         <field-to-result field="lookedUpValue.invoiceItemSeqId" result-name="invoiceItemSeqId"/>
         <field-to-result field="lookedUpValue.invoiceId" result-name="invoiceId"/>
     </simple-method>
+
     <simple-method method-name="removeInvoiceItem" short-description="Remove an existing Invoice Item">
         <call-simple-method method-name="InvoiceStatusInProgress"/>
         <set field="invoiceId" from-field="parameters.invoiceId"/>
@@ -454,11 +455,18 @@ under the License.
 
     <simple-method method-name="createInvoiceRole" short-description="Create a Invoice Role">
         <call-simple-method method-name="InvoiceStatusInProgress"/>
-        <make-value value-field="newEntity" entity-name="InvoiceRole"/>
-        <set-nonpk-fields map="parameters" value-field="newEntity"/>
-        <set-pk-fields map="parameters" value-field="newEntity"/>
-        <if-empty field="newEntity.datetimePerformed"><now-timestamp field="newEntity.datetimePerformed"/></if-empty>
-        <create-value value-field="newEntity"/>
+
+        <make-value value-field="newEntityPartyRole" entity-name="PartyRole"/>
+        <set-pk-fields map="parameters" value-field="newEntityPartyRole"/>
+        <create-value or-store="true" value-field="newEntityPartyRole"/>
+
+        <make-value value-field="newEntityInvoiceRole" entity-name="InvoiceRole"/>
+        <set-nonpk-fields map="parameters" value-field="newEntityInvoiceRole"/>
+        <set-pk-fields map="parameters" value-field="newEntityInvoiceRole"/>
+        <if-empty field="newEntityInvoiceRole.datetimePerformed">
+            <now-timestamp field="newEntityInvoiceRole.datetimePerformed"/>
+        </if-empty>
+        <create-value value-field="newEntityInvoiceRole"/>
     </simple-method>
 
     <simple-method method-name="removeInvoiceRole" short-description="Remove existing Invoice Role">
@@ -641,7 +649,7 @@ under the License.
            <call-service service-name="updateInvoice" in-map-name="updateInvoiceCtx"/>
        </iterate>
    </simple-method>
-    
+
     <simple-method method-name="cancelInvoice" short-description="Service to cancel the Invoices">
         <entity-one entity-name="Invoice" value-field="invoice"/>
         <if-empty field="invoice">
@@ -698,7 +706,7 @@ under the License.
         <set field="invoiceRunningTotal" value="${groovy:org.ofbiz.base.util.UtilFormatOut.formatCurrency(runningTotal, currencyUomId, parameters.locale)}"/>
         <field-to-result field="invoiceRunningTotal"/>
     </simple-method>
-    
+
     <simple-method method-name="getInvoicesFilterByAssocType" short-description="Filter invoices by invoiceItemAssocTypeId">
         <set field="invoiceList" from-field="parameters.invoiceList"/>
         <set field="invoiceItemAssocTypeId" from-field="parameters.invoiceItemAssocTypeId"/>
@@ -959,7 +967,7 @@ under the License.
             <field-to-result field="invoiceId" result-name="invoiceId"/>
         </if-compare>
     </simple-method>
-    
+
     <!-- InvoiceContent -->
     <simple-method method-name="createInvoiceContent" short-description="Create Content For Invoice">
         <make-value value-field="newEntity" entity-name="InvoiceContent"/>
@@ -996,7 +1004,7 @@ under the License.
         <find-by-primary-key map="lookupPKMap" value-field="lookedUpValue"/>
         <remove-value value-field="lookedUpValue"/>
     </simple-method>
-    
+
     <simple-method method-name="createSimpleTextContentForInvoice" short-description="Create Simple Text Content For Invoice">
         <set-service-fields service-name="createInvoiceContent" map="parameters" to-map="createInvoiceContentMap"/>
         <set-service-fields service-name="createSimpleTextContent" map="parameters" to-map="createSimpleTextMap"/>
@@ -1011,7 +1019,7 @@ under the License.
         <set-service-fields service-name="updateSimpleTextContent" map="parameters" to-map="updateSimpleText"/>
         <call-service service-name="updateSimpleTextContent" in-map-name="updateSimpleText"/>
     </simple-method>
-    
+
     <simple-method method-name="isInvoiceInForeignCurrency" short-description="check if a invoice is in a foreign currency related to the accounting company.">
         <entity-one value-field="invoice" entity-name="InvoiceAndType">
             <field-map field-name="invoiceId" from-field="parameters.invoiceId"/>
@@ -1022,10 +1030,10 @@ under the License.
         </if-empty>
         <if-compare field="invoice.parentTypeId" operator="equals" value="PURCHASE_INVOICE">
             <set field="pref.organizationPartyId" from-field="invoice.partyId"/>
-        </if-compare>          
+        </if-compare>
         <if-compare field="invoice.parentTypeId" operator="equals" value="SALES_INVOICE">
             <set field="pref.organizationPartyId" from-field="invoice.partyIdFrom"/>
-        </if-compare>          
+        </if-compare>
         <call-service service-name="getPartyAccountingPreferences" in-map-name="pref">
             <result-to-field result-name="partyAccountingPreference"/>
         </call-service>
@@ -1037,5 +1045,40 @@ under the License.
         </if-compare-field>
         <field-to-result field="isForeign"/>
     </simple-method>
-       
+
+    <simple-method method-name="createInvoicesPattern" short-description="Create a new Invoices Pattern">
+        <if>
+            <condition>
+                <and>
+                    <if-compare field="parameters.isPatternSubmitted" operator="equals" value="Y"></if-compare>
+                    <not><if-empty field="parameters.patternName"></if-empty></not>
+                </and>
+            </condition>
+            <then>
+                <make-value value-field="newEntity" entity-name="InvoicePattern"/>
+                <make-next-seq-id value-field="newEntity" seq-field-name="invoicePatternSeqId"/>
+
+                <set-nonpk-fields map="parameters" value-field="newEntity"/>
+                <create-value value-field="newEntity"/>
+            </then>
+        </if>
+
+    </simple-method>
+
+    <simple-method method-name="removeInvoicePattern" short-description="Remove an Invoices Pattern">
+        <if>
+            <condition>
+                <and>
+                    <if-compare field="parameters.isRemoveInvoicePattern" operator="equals" value="Y"></if-compare>
+                    <not><if-empty field="parameters.invoicePatternSeqId"></if-empty></not>
+                </and>
+            </condition>
+            <then>
+                <set field="invoicesPatternMap.invoicePatternSeqId" from-field="parameters.invoicePatternSeqId"/>
+                <remove-by-and entity-name="InvoicePattern" map="invoicesPatternMap"/>
+            </then>
+        </if>
+
+    </simple-method>
+
 </simple-methods>

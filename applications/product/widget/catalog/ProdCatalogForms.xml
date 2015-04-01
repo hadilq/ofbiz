@@ -114,7 +114,7 @@ under the License.
             </display-entity>
         </field>
         <field name="roleTypeId" title="${uiLabelMap.PartyRole}"><display-entity entity-name="RoleType"/></field>
-        <field name="fromDate" title="${uiLabelMap.CommonFromDateTime}"><display/></field>
+        <field name="fromDate" title="${uiLabelMap.CommonFromDateTime}"><display type="date-time"/></field>
         <field name="thruDate" title="${uiLabelMap.CommonThruDateTime}"></field>
         <field name="submitButton" title="${uiLabelMap.CommonUpdate}" widget-style="smallSubmit"><submit button-type="button"/></field>
         <field name="deleteLink" title=" " widget-style="buttontext">
@@ -150,7 +150,7 @@ under the License.
                 </sub-hyperlink>
             </display-entity>
         </field>
-        <field name="fromDate" title="${uiLabelMap.CommonFromDateTime}"><display/></field>
+        <field name="fromDate" title="${uiLabelMap.CommonFromDateTime}"><display type="date-time"/></field>
         <field name="thruDate" title="${uiLabelMap.CommonThruDateTime}"></field>
         <field name="submitButton" title="${uiLabelMap.CommonUpdate}" widget-style="smallSubmit"><submit button-type="button"/></field>
         <field name="deleteLink" title=" " widget-style="buttontext">
@@ -173,7 +173,7 @@ under the License.
             </display-entity>
         </field>
         <field name="prodCatalogCategoryTypeId" title="${uiLabelMap.ProductCatalogCategoryType}"><display-entity entity-name="ProdCatalogCategoryType" also-hidden="true" cache="true"/></field>
-        <field name="fromDate" title="${uiLabelMap.CommonFromDateTime}"><display/></field>
+        <field name="fromDate" title="${uiLabelMap.CommonFromDateTime}"><display type="date-time"/></field>
         <field name="thruDate" title="${uiLabelMap.CommonThruDateTime}"></field>
         <field name="sequenceNum" title="${uiLabelMap.CommonSequenceNum}"></field>
         <field name="deleteLink" title=" " widget-style="buttontext">

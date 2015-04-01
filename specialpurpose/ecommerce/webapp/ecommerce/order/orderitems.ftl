@@ -16,6 +16,7 @@ KIND, either express or implied.  See the License for the
 specific language governing permissions and limitations
 under the License.
 -->
+<#assign dateFormat = Static["org.ofbiz.base.util.UtilDateTime"].getDateFormatByContext(context)>
 
 <#-- NOTE: this template is used for the orderstatus screen in ecommerce AND for order notification emails through the OrderNoticeEmail.ftl file -->
 <#-- the "urlPrefix" value will be prepended to URLs by the ofbizUrl transform if/when there is no "request" object in the context -->
@@ -240,7 +241,7 @@ under the License.
       <#-- show info from workeffort if it was a rental item -->
       <#if orderItem.orderItemTypeId == "RENTAL_ORDER_ITEM">
         <#if workEffortSave?exists>
-          <tr><td></td><td colspan="${numColumns}">${uiLabelMap.CommonFrom}: ${workEffortSave.estimatedStartDate?string("yyyy-MM-dd")} ${uiLabelMap.CommonUntil} ${workEffortSave.estimatedCompletionDate?string("yyyy-MM-dd")} ${uiLabelMap.CommonFor} ${workEffortSave.reservPersons} ${uiLabelMap.CommonPerson}(s)</td></tr>
+          <tr><td></td><td colspan="${numColumns}">${uiLabelMap.CommonFrom}: ${workEffortSave.estimatedStartDate?string("${dateFormat}")} ${uiLabelMap.CommonUntil} ${workEffortSave.estimatedCompletionDate?string("${dateFormat}")} ${uiLabelMap.CommonFor} ${workEffortSave.reservPersons} ${uiLabelMap.CommonPerson}(s)</td></tr>
         </#if>
       </#if>
       <#-- now show adjustment details per line item -->

@@ -66,7 +66,7 @@ under the License.
     <#if orderHeader?has_content>
       <li>
         ${uiLabelMap.CommonDate}
-        ${orderHeader.orderDate.toString()}
+        ${Static["org.ofbiz.base.util.UtilDateTime"].toDateTimeStringByContext(orderHeader.orderDate, context)}
       </li>
     </#if>
     <#if distributorId?exists>

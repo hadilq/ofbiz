@@ -8,7 +8,6 @@
     to you under the Apache License, Version 2.0 (the
     "License"); you may not use this file except in compliance
     with the License.  You may obtain a copy of the License at
-
     http://www.apache.org/licenses/LICENSE-2.0
 
     Unless required by applicable law or agreed to in writing,
@@ -24,6 +23,7 @@
         <value xml:lang="de">ISO-8859-1</value>
         <value xml:lang="en">ISO-8859-1</value>
         <value xml:lang="es">ISO-8859-1 Inglés</value>
+        <value xml:lang="fa">ISO-8859-1</value>
         <value xml:lang="fr">ISO-8859-1</value>
         <value xml:lang="it">ISO-8859-1</value>
         <value xml:lang="ja">ISO-8859-1</value>
@@ -36,6 +36,7 @@
         <value xml:lang="de">ISO-8859-10</value>
         <value xml:lang="en">ISO-8859-10</value>
         <value xml:lang="es">ISO-8859-10 ?</value>
+        <value xml:lang="fa">ISO-8859-10</value>
         <value xml:lang="fr">ISO-8859-10</value>
         <value xml:lang="it">ISO-8859-10</value>
         <value xml:lang="ja">ISO-8859-10</value>
@@ -48,6 +49,7 @@
         <value xml:lang="de">ISO-8859-2</value>
         <value xml:lang="en">ISO-8859-2</value>
         <value xml:lang="es">ISO-8859-2 ?</value>
+        <value xml:lang="fa">ISO-8859-2</value>
         <value xml:lang="fr">ISO-8859-2</value>
         <value xml:lang="it">ISO-8859-2</value>
         <value xml:lang="ja">ISO-8859-2</value>
@@ -60,6 +62,7 @@
         <value xml:lang="de">ISO-8859-3</value>
         <value xml:lang="en">ISO-8859-3</value>
         <value xml:lang="es">ISO-8859-3 ?</value>
+        <value xml:lang="fa">ISO-8859-3</value>
         <value xml:lang="fr">ISO-8859-3</value>
         <value xml:lang="it">ISO-8859-3</value>
         <value xml:lang="ja">ISO-8859-3</value>
@@ -72,6 +75,7 @@
         <value xml:lang="de">ISO-8859-4</value>
         <value xml:lang="en">ISO-8859-4</value>
         <value xml:lang="es">ISO-8859-4 ?</value>
+        <value xml:lang="fa">ISO-8859-4</value>
         <value xml:lang="fr">ISO-8859-4</value>
         <value xml:lang="it">ISO-8859-4</value>
         <value xml:lang="ja">ISO-8859-4</value>
@@ -84,6 +88,7 @@
         <value xml:lang="de">ISO-8859-5</value>
         <value xml:lang="en">ISO-8859-5</value>
         <value xml:lang="es">ISO-8859-5 ?</value>
+        <value xml:lang="fa">ISO-8859-5</value>
         <value xml:lang="fr">ISO-8859-5</value>
         <value xml:lang="it">ISO-8859-5</value>
         <value xml:lang="ja">ISO-8859-5</value>
@@ -96,6 +101,7 @@
         <value xml:lang="de">ISO-8859-6</value>
         <value xml:lang="en">ISO-8859-6</value>
         <value xml:lang="es">ISO-8859-6 Latino/árabe</value>
+        <value xml:lang="fa">ISO-8859-6</value>
         <value xml:lang="fr">ISO-8859-6</value>
         <value xml:lang="it">ISO-8859-6</value>
         <value xml:lang="ja">ISO-8859-6</value>
@@ -108,6 +114,7 @@
         <value xml:lang="de">ISO-8859-7</value>
         <value xml:lang="en">ISO-8859-7</value>
         <value xml:lang="es">ISO-8859-7 ?</value>
+        <value xml:lang="fa">ISO-8859-7</value>
         <value xml:lang="fr">ISO-8859-7</value>
         <value xml:lang="it">ISO-8859-7</value>
         <value xml:lang="ja">ISO-8859-7</value>
@@ -120,6 +127,7 @@
         <value xml:lang="de">ISO-8859-8</value>
         <value xml:lang="en">ISO-8859-8</value>
         <value xml:lang="es">ISO-8859-8 Latino/Hebreo</value>
+        <value xml:lang="fa">ISO-8859-8</value>
         <value xml:lang="fr">ISO-8859-8</value>
         <value xml:lang="it">ISO-8859-8</value>
         <value xml:lang="ja">ISO-8859-8</value>
@@ -132,6 +140,7 @@
         <value xml:lang="de">ISO-8859-9</value>
         <value xml:lang="en">ISO-8859-9</value>
         <value xml:lang="es">ISO-8859-9 ?</value>
+        <value xml:lang="fa">ISO-8859-9</value>
         <value xml:lang="fr">ISO-8859-9</value>
         <value xml:lang="it">ISO-8859-9</value>
         <value xml:lang="ja">ISO-8859-9</value>
@@ -144,6 +153,7 @@
         <value xml:lang="de">US-ASCII</value>
         <value xml:lang="en">US-ASCII</value>
         <value xml:lang="es">US-ASCII</value>
+        <value xml:lang="fa">US-ASCII</value>
         <value xml:lang="fr">US-ASCII</value>
         <value xml:lang="it">US-ASCII</value>
         <value xml:lang="ja">US-ASCII</value>
@@ -156,6 +166,7 @@
         <value xml:lang="de">UTF-16</value>
         <value xml:lang="en">UTF-16</value>
         <value xml:lang="es">Unicode 16 bit</value>
+        <value xml:lang="fa">UTF-16</value>
         <value xml:lang="fr">UTF-16</value>
         <value xml:lang="it">UTF-16</value>
         <value xml:lang="ja">UTF-16</value>
@@ -168,6 +179,7 @@
         <value xml:lang="de">UTF-8</value>
         <value xml:lang="en">UTF-8</value>
         <value xml:lang="es">Unicode 8 bit</value>
+        <value xml:lang="fa">UTF-8</value>
         <value xml:lang="fr">UTF-8</value>
         <value xml:lang="it">UTF-8</value>
         <value xml:lang="ja">UTF-8</value>
@@ -180,6 +192,7 @@
         <value xml:lang="de">kategorisiert</value>
         <value xml:lang="en">categorizes</value>
         <value xml:lang="es">Clasifica</value>
+        <value xml:lang="fa">دسته‌بندی کردن</value>
         <value xml:lang="fr">Classifie</value>
         <value xml:lang="it">Categorie</value>
         <value xml:lang="ja">分類</value>
@@ -194,6 +207,7 @@
         <value xml:lang="de">definiert</value>
         <value xml:lang="en">defines</value>
         <value xml:lang="es">Define</value>
+        <value xml:lang="fa">تعریف‌کردن</value>
         <value xml:lang="fr">Définit</value>
         <value xml:lang="it">Definizione</value>
         <value xml:lang="ja">定義</value>
@@ -208,6 +222,7 @@
         <value xml:lang="de">erweitert</value>
         <value xml:lang="en">extends</value>
         <value xml:lang="es">amplía</value>
+        <value xml:lang="fa">تمدید‌کردن</value>
         <value xml:lang="fr">Etend</value>
         <value xml:lang="it">Estendi</value>
         <value xml:lang="ja">拡張</value>
@@ -222,6 +237,7 @@
         <value xml:lang="de">Mitglied von</value>
         <value xml:lang="en">member-of</value>
         <value xml:lang="es">es miembro de</value>
+        <value xml:lang="fa">عضوی از</value>
         <value xml:lang="fr">Est membre de</value>
         <value xml:lang="it">Mrembro-di</value>
         <value xml:lang="ja">メンバ所属元</value>
@@ -236,6 +252,7 @@
         <value xml:lang="de">referenziert</value>
         <value xml:lang="en">references</value>
         <value xml:lang="es">referencia</value>
+        <value xml:lang="fa">مرجع</value>
         <value xml:lang="fr">Référence</value>
         <value xml:lang="it">Riferimenti</value>
         <value xml:lang="ja">参照</value>
@@ -250,6 +267,7 @@
         <value xml:lang="de">in Beziehung mit</value>
         <value xml:lang="en">related-to</value>
         <value xml:lang="es">se relaciona con</value>
+        <value xml:lang="fa">مربوط-به</value>
         <value xml:lang="fr">Apparenté à</value>
         <value xml:lang="it">Relativo-a</value>
         <value xml:lang="ja">関連先</value>
@@ -264,6 +282,7 @@
         <value xml:lang="de">ist besser als</value>
         <value xml:lang="en">topifies</value>
         <value xml:lang="es">Archivos principales</value>
+        <value xml:lang="fa">به موضوع</value>
         <value xml:lang="fr">Transforme en sujet</value>
         <value xml:lang="it">File principale</value>
         <value xml:lang="ja">Topify</value>
@@ -278,6 +297,7 @@
         <value xml:lang="de">Sekundäres Locale</value>
         <value xml:lang="en">Alternate Locale</value>
         <value xml:lang="es">Ubicación secundaria</value>
+        <value xml:lang="fa">محل جایگزین</value>
         <value xml:lang="fr">Traduction alternative</value>
         <value xml:lang="it">Locale Alternativo</value>
         <value xml:lang="ja">代替地域</value>
@@ -293,6 +313,7 @@
         <value xml:lang="de">Attribut</value>
         <value xml:lang="en">Attribute</value>
         <value xml:lang="es">Atributo</value>
+        <value xml:lang="fa">خاصیت</value>
         <value xml:lang="fr">Attribut</value>
         <value xml:lang="it">Attributo</value>
         <value xml:lang="ja">属性</value>
@@ -308,6 +329,7 @@
         <value xml:lang="de">Autor</value>
         <value xml:lang="en">Author</value>
         <value xml:lang="es">Autor</value>
+        <value xml:lang="fa">نویسنده</value>
         <value xml:lang="fr">Auteur</value>
         <value xml:lang="it">Autore</value>
         <value xml:lang="ja">作者</value>
@@ -322,6 +344,7 @@
         <value xml:lang="da">Sammensat dokumentdel</value>
         <value xml:lang="de">Zusammengesetzter Dokumentteil</value>
         <value xml:lang="en">Composite Document Part</value>
+        <value xml:lang="fa">قسمت سند مرکب</value>
         <value xml:lang="fr">Partie du document composé</value>
         <value xml:lang="it">Parte Documento Composito</value>
         <value xml:lang="ja">複合文書の一部</value>
@@ -337,6 +360,7 @@
         <value xml:lang="de">Abteilung</value>
         <value xml:lang="en">Department</value>
         <value xml:lang="es">Departamento</value>
+        <value xml:lang="fa">بخش</value>
         <value xml:lang="fr">Département</value>
         <value xml:lang="it">Dipartimento</value>
         <value xml:lang="ja">部門</value>
@@ -352,6 +376,7 @@
         <value xml:lang="de">Beschreibung</value>
         <value xml:lang="en">Description</value>
         <value xml:lang="es">Descripción</value>
+        <value xml:lang="fa">شرح</value>
         <value xml:lang="fr">Description</value>
         <value xml:lang="it">Descrizione</value>
         <value xml:lang="ja">詳細</value>
@@ -367,6 +392,7 @@
         <value xml:lang="de">Grafik Link</value>
         <value xml:lang="en">Graph Link</value>
         <value xml:lang="es">Imagen de enlace</value>
+        <value xml:lang="fa">پیوند گراف</value>
         <value xml:lang="fr">Lien graphique</value>
         <value xml:lang="it">Grafico Link</value>
         <value xml:lang="ja">図形リンク</value>
@@ -381,6 +407,7 @@
         <value xml:lang="da">Instans af</value>
         <value xml:lang="de">Instanz von</value>
         <value xml:lang="en">Instance Of</value>
+        <value xml:lang="fa">نمونه‌ای از</value>
         <value xml:lang="fr">Exemple de</value>
         <value xml:lang="it">Instanza Di</value>
         <value xml:lang="ja">実体元</value>
@@ -396,6 +423,7 @@
         <value xml:lang="de">Listeneintrag</value>
         <value xml:lang="en">List Entry</value>
         <value xml:lang="es">Lista de ingreso</value>
+        <value xml:lang="fa">لیست‌کردن ورودی</value>
         <value xml:lang="fr">Entrée de liste</value>
         <value xml:lang="it">Lista Voce</value>
         <value xml:lang="ja">エントリ一覧</value>
@@ -411,6 +439,7 @@
         <value xml:lang="de">Link zur Veröffentlichung</value>
         <value xml:lang="en">Publish link</value>
         <value xml:lang="es">Publicar</value>
+        <value xml:lang="fa">انتشار پیوند</value>
         <value xml:lang="fr">Lien de publication</value>
         <value xml:lang="it">Pubblica link</value>
         <value xml:lang="ja">公開リンク</value>
@@ -426,6 +455,7 @@
         <value xml:lang="de">in Beziehung stehender Inhalt</value>
         <value xml:lang="en">Related content</value>
         <value xml:lang="es">Contenido asociado</value>
+        <value xml:lang="fa">محتوای مربوط</value>
         <value xml:lang="fr">Contenu relatif</value>
         <value xml:lang="it">Contenuto Relativo</value>
         <value xml:lang="ja">関連コンテンツ</value>
@@ -441,6 +471,7 @@
         <value xml:lang="de">Antwort</value>
         <value xml:lang="en">Response</value>
         <value xml:lang="es">Respuesta</value>
+        <value xml:lang="fa">پاسخ</value>
         <value xml:lang="fr">Réponse</value>
         <value xml:lang="it">Risposta</value>
         <value xml:lang="ja">回答</value>
@@ -456,6 +487,7 @@
         <value xml:lang="de">Dokumentstruktur Definition</value>
         <value xml:lang="en">Document Structure Definition</value>
         <value xml:lang="es">Definición de estructura de documento</value>
+        <value xml:lang="fa">تعریف ساختار سند</value>
         <value xml:lang="fr">Définition de la structure du document</value>
         <value xml:lang="it">Definizione Struttura Documento</value>
         <value xml:lang="ja">文書構造定義</value>
@@ -471,6 +503,7 @@
         <value xml:lang="de">Untergeordnete Seite</value>
         <value xml:lang="en">SubSite</value>
         <value xml:lang="es">Subsitio</value>
+        <value xml:lang="fa">زیرسایت</value>
         <value xml:lang="fr">Sous-site</value>
         <value xml:lang="it">Sotto Sito</value>
         <value xml:lang="ja">副サイト</value>
@@ -486,6 +519,7 @@
         <value xml:lang="de">Untergeordneter Abschnitt</value>
         <value xml:lang="en">Sub Section</value>
         <value xml:lang="es">Sub sección</value>
+        <value xml:lang="fa">زیر قسمت</value>
         <value xml:lang="fr">Sous-section</value>
         <value xml:lang="it">Sotto Sezione</value>
         <value xml:lang="ja">副セクション</value>
@@ -501,6 +535,7 @@
         <value xml:lang="de">Zusammenfassung</value>
         <value xml:lang="en">Summary</value>
         <value xml:lang="es">Resumen</value>
+        <value xml:lang="fa">خلاصه</value>
         <value xml:lang="fr">Résumé</value>
         <value xml:lang="it">Sommario</value>
         <value xml:lang="ja">サマリ</value>
@@ -515,6 +550,7 @@
         <value xml:lang="da">Skabelon medlem</value>
         <value xml:lang="de">Vorlage Mitglied</value>
         <value xml:lang="en">Template Member</value>
+        <value xml:lang="fa">عضو الگو</value>
         <value xml:lang="fr">Gabarit de membre</value>
         <value xml:lang="it">Membro Template</value>
         <value xml:lang="ja">テンプレートメンバ</value>
@@ -530,6 +566,7 @@
         <value xml:lang="de">Thema</value>
         <value xml:lang="en">Topic</value>
         <value xml:lang="es">Tema</value>
+        <value xml:lang="fa">موضوع</value>
         <value xml:lang="fr">Matière</value>
         <value xml:lang="it">Argomento</value>
         <value xml:lang="ja">トピック</value>
@@ -545,6 +582,7 @@
         <value xml:lang="de">Untergeordnetes Element</value>
         <value xml:lang="en">Tree Child</value>
         <value xml:lang="es">Mostrar hijos</value>
+        <value xml:lang="fa">بچه درخت</value>
         <value xml:lang="fr">Arborescence enfant</value>
         <value xml:lang="it">Albero Figlio</value>
         <value xml:lang="ja">ツリー下位(子)</value>
@@ -560,6 +598,7 @@
         <value xml:lang="de">Transformation Definition</value>
         <value xml:lang="en">Transformation Definition</value>
         <value xml:lang="es">Definición de transformación</value>
+        <value xml:lang="fa">تعریف دگرگونی</value>
         <value xml:lang="fr">Définition de transformation</value>
         <value xml:lang="it">Definizione Trasformazione</value>
         <value xml:lang="ja">変換定義</value>
@@ -575,6 +614,7 @@
         <value xml:lang="de">Untergeordnetes Element erstellen</value>
         <value xml:lang="en">Child Create</value>
         <value xml:lang="es">Crear hijo</value>
+        <value xml:lang="fa">ساخت بچه</value>
         <value xml:lang="fr">Création d'enfant</value>
         <value xml:lang="it">Creare Figlio</value>
         <value xml:lang="ja">下位(子)作成</value>
@@ -590,6 +630,7 @@
         <value xml:lang="de">Untergeordnetes Element löschen</value>
         <value xml:lang="en">Child Delete</value>
         <value xml:lang="es">Borrar hijo</value>
+        <value xml:lang="fa">پاک‌کردن بچه</value>
         <value xml:lang="fr">Suppression d'enfant</value>
         <value xml:lang="it">Cancellare Figlio</value>
         <value xml:lang="ja">下位(子)削除</value>
@@ -605,6 +646,7 @@
         <value xml:lang="de">Untergeordnetes Element bearbeiten</value>
         <value xml:lang="en">Child Update</value>
         <value xml:lang="es">Actualizar hijo</value>
+        <value xml:lang="fa">بروزرسانی بچه</value>
         <value xml:lang="fr">Mise à jour d'enfant </value>
         <value xml:lang="it">Aggiornare Figlio</value>
         <value xml:lang="ja">下位(子)更新</value>
@@ -620,6 +662,7 @@
         <value xml:lang="de">Untergeordnetes Element anzeigen</value>
         <value xml:lang="en">Child View</value>
         <value xml:lang="es">Ver hijo</value>
+        <value xml:lang="fa">نمای بچه</value>
         <value xml:lang="fr">Visualisation d'enfant</value>
         <value xml:lang="it">Mostra Figlio</value>
         <value xml:lang="ja">下位(子)表示</value>
@@ -635,6 +678,7 @@
         <value xml:lang="de">Inhalt Verwaltung</value>
         <value xml:lang="en">Content Admin</value>
         <value xml:lang="es">A</value>
+        <value xml:lang="fa">محتوای رئیس</value>
         <value xml:lang="fr">Administrateur de contenu</value>
         <value xml:lang="it">Amministra Contenuto</value>
         <value xml:lang="ja">コンテンツ管理</value>
@@ -650,6 +694,7 @@
         <value xml:lang="de">Inhalt erstellen</value>
         <value xml:lang="en">Content Create</value>
         <value xml:lang="es">Crear contenido</value>
+        <value xml:lang="fa">ساخت محتوا</value>
         <value xml:lang="fr">Création de Contenu</value>
         <value xml:lang="it">Creare Contenuto</value>
         <value xml:lang="ja">コンテンツ作成</value>
@@ -665,6 +710,7 @@
         <value xml:lang="de">Untergeordneten Inhalt erstellen</value>
         <value xml:lang="en">Create SubContent</value>
         <value xml:lang="es">Crear subcontenido</value>
+        <value xml:lang="fa">ساختن زیر محتوا</value>
         <value xml:lang="fr">Création de sous-contenu</value>
         <value xml:lang="it">Creare Sotto Contenuto</value>
         <value xml:lang="ja">副コンテンツ管理</value>
@@ -680,6 +726,7 @@
         <value xml:lang="de">Inhalt löschen</value>
         <value xml:lang="en">Content Delete</value>
         <value xml:lang="es">Borrar contenido</value>
+        <value xml:lang="fa">محتوای پاک‌کردن</value>
         <value xml:lang="fr">Effacer le contenu</value>
         <value xml:lang="it">Cancella Contenuto</value>
         <value xml:lang="ja">コンテンツ削除</value>
@@ -695,6 +742,7 @@
         <value xml:lang="de">Inhalt Link</value>
         <value xml:lang="en">Content Link</value>
         <value xml:lang="es">Enlace a contenido</value>
+        <value xml:lang="fa">پیوند محتوا</value>
         <value xml:lang="fr">Lien de contenu</value>
         <value xml:lang="it">Link Contenuto</value>
         <value xml:lang="ja">コンテンツリンク</value>
@@ -709,6 +757,7 @@
         <value xml:lang="da">Indholdslink fra</value>
         <value xml:lang="de">Inhalt Link von</value>
         <value xml:lang="en">Content Link From</value>
+        <value xml:lang="fa">پیوند محتوا از</value>
         <value xml:lang="fr">Lien de contenu depuis</value>
         <value xml:lang="it">Link Contenuto Da</value>
         <value xml:lang="ja">コンテンツリンク(元)</value>
@@ -723,6 +772,7 @@
         <value xml:lang="da">Indholdslink til</value>
         <value xml:lang="de">Inhalt Link zu</value>
         <value xml:lang="en">Content Link To</value>
+        <value xml:lang="fa">پیوند محتوا به</value>
         <value xml:lang="fr">Lien de contenu vers</value>
         <value xml:lang="it">Link Contenuto A</value>
         <value xml:lang="ja">コンテンツリンク(先)</value>
@@ -737,6 +787,7 @@
         <value xml:lang="da">Udgiv indhold</value>
         <value xml:lang="de">Inhalt veröffentlichen</value>
         <value xml:lang="en">Content Publish</value>
+        <value xml:lang="fa">انتشار محتوا</value>
         <value xml:lang="fr">Publication de Contenu</value>
         <value xml:lang="it">Pubblica Contenuto</value>
         <value xml:lang="ja">コンテンツ公開</value>
@@ -751,6 +802,7 @@
         <value xml:lang="da">Udgiv indhold</value>
         <value xml:lang="de">Inhalt veröffentlichen</value>
         <value xml:lang="en">Content Publish</value>
+        <value xml:lang="fa">انتشار محتوا</value>
         <value xml:lang="fr">Publication de contenu</value>
         <value xml:lang="it">Pubblica Contenuto</value>
         <value xml:lang="ja">コンテンツ公開</value>
@@ -765,6 +817,7 @@
         <value xml:lang="da">Svar på indhold</value>
         <value xml:lang="de">Inhalt beantworten</value>
         <value xml:lang="en">Content Respond</value>
+        <value xml:lang="fa">پاسخ محتوا</value>
         <value xml:lang="fr">Répondre au contenu</value>
         <value xml:lang="it">Risposta Contenuto</value>
         <value xml:lang="ja">コンテンツ回答</value>
@@ -779,6 +832,7 @@
         <value xml:lang="da">Opdater indhold</value>
         <value xml:lang="de">Inhalt aktualisieren</value>
         <value xml:lang="en">Content Update</value>
+        <value xml:lang="fa">بروزرسانی محتوا</value>
         <value xml:lang="fr">Mise à jour de contenu</value>
         <value xml:lang="it">Aggiorna Contenuto</value>
         <value xml:lang="ja">コンテンツ更新</value>
@@ -793,6 +847,7 @@
         <value xml:lang="da">Vis indhold</value>
         <value xml:lang="de">Inhalt anzeigen</value>
         <value xml:lang="en">Content View</value>
+        <value xml:lang="fa">نمای محتوا</value>
         <value xml:lang="fr">Visualisation de contenu</value>
         <value xml:lang="it">Mostra Contenuto</value>
         <value xml:lang="ja">コンテンツ表示</value>
@@ -807,6 +862,7 @@
         <value xml:lang="da">Vis kort beskrivelse</value>
         <value xml:lang="de">Kurzbeschreibung anzeigen</value>
         <value xml:lang="en">View Short Desc</value>
+        <value xml:lang="fa">نمای شرح کوتاه</value>
         <value xml:lang="fr">Visualisation de description courte</value>
         <value xml:lang="it">Mostra Descrizione Corta</value>
         <value xml:lang="ja">簡単な説明を表示</value>
@@ -821,6 +877,7 @@
         <value xml:lang="da">Har administrator rolle</value>
         <value xml:lang="de">Hat Rolle Administrator</value>
         <value xml:lang="en">Has Admin Role</value>
+        <value xml:lang="fa">آیا وظیفه رئیس را دارید</value>
         <value xml:lang="fr">A le rôle d'administrateur</value>
         <value xml:lang="it">Ha Ruolo Amministratore</value>
         <value xml:lang="ja">管理者ロールを保持</value>
@@ -835,6 +892,7 @@
         <value xml:lang="da">Har forfatter rolle</value>
         <value xml:lang="de">Hat Rolle Autor</value>
         <value xml:lang="en">Has Author Role</value>
+        <value xml:lang="fa">آیا وظیفه نویسنده دارید</value>
         <value xml:lang="fr">A le rôle d'auteur</value>
         <value xml:lang="it">Ha Ruolo Autore</value>
         <value xml:lang="ja">作者ロールを保持</value>
@@ -849,6 +907,7 @@
         <value xml:lang="da">Har redaktør rolle</value>
         <value xml:lang="de">Hat Rolle Redakteur</value>
         <value xml:lang="en">Has Editor Role</value>
+        <value xml:lang="fa">آیا وظیفه ویرایشگر دارید</value>
         <value xml:lang="fr">A le rôle de rédacteur</value>
         <value xml:lang="it">Ha Ruolo Editore</value>
         <value xml:lang="ja">編集者ロールを保持</value>
@@ -863,6 +922,7 @@
         <value xml:lang="da">Har ejer rolle</value>
         <value xml:lang="de">Hat Rolle Besitzer</value>
         <value xml:lang="en">Has Owner Role</value>
+        <value xml:lang="fa">آیا وظیفه مالک دارید</value>
         <value xml:lang="fr">A le rôle de propriétaire</value>
         <value xml:lang="it">Ha Ruolo Utente</value>
         <value xml:lang="ja">所有者ロールを保持</value>
@@ -877,6 +937,7 @@
         <value xml:lang="da">Har udgiver rolle</value>
         <value xml:lang="de">Hat Rolle Herausgeber</value>
         <value xml:lang="en">Has Publisher Role</value>
+        <value xml:lang="fa">آیا وظیفه انتشارگر دارید</value>
         <value xml:lang="fr">A le rôle d'éditeur</value>
         <value xml:lang="it">Ha Ruolo Pubblicatore</value>
         <value xml:lang="ja">公開者ロールを保持</value>
@@ -891,6 +952,7 @@
         <value xml:lang="da">Har bruger rolle</value>
         <value xml:lang="de">Hat Rolle Benutzer</value>
         <value xml:lang="en">Has User Role</value>
+        <value xml:lang="fa">آیا وظیفه کاربر دارید</value>
         <value xml:lang="fr">A le rôle d'utilisateur</value>
         <value xml:lang="it">Ha Ruolo Utente</value>
         <value xml:lang="ja">ユーザロールを保持</value>
@@ -906,6 +968,7 @@
         <value xml:lang="de">Nicht anwendbar</value>
         <value xml:lang="en">Not Applicable</value>
         <value xml:lang="es">No aplicable</value>
+        <value xml:lang="fa">غیر کاربردی</value>
         <value xml:lang="fr">Non applicable</value>
         <value xml:lang="it">Non Applicabile</value>
         <value xml:lang="ja">適用外</value>
@@ -920,6 +983,7 @@
         <value xml:lang="da">Annonce</value>
         <value xml:lang="de">Werbung</value>
         <value xml:lang="en">Advertisement</value>
+        <value xml:lang="fa">تبلیغ</value>
         <value xml:lang="fr">Publicité</value>
         <value xml:lang="it">Pubblicità</value>
         <value xml:lang="ja">広告</value>
@@ -935,6 +999,7 @@
         <value xml:lang="de">Artikel</value>
         <value xml:lang="en">Article</value>
         <value xml:lang="es">Artículo</value>
+        <value xml:lang="fa">مطلب</value>
         <value xml:lang="fr">Article</value>
         <value xml:lang="it">Articolo</value>
         <value xml:lang="ja">記事</value>
@@ -950,6 +1015,7 @@
         <value xml:lang="de">Kommentar</value>
         <value xml:lang="en">Comment</value>
         <value xml:lang="es">Comentario</value>
+        <value xml:lang="fa">نظر</value>
         <value xml:lang="fr">Commentaire</value>
         <value xml:lang="it">Commento</value>
         <value xml:lang="ja">コメント</value>
@@ -964,6 +1030,7 @@
         <value xml:lang="da">Firmainformation</value>
         <value xml:lang="de">Unternehmensinformationen</value>
         <value xml:lang="en">Company Info</value>
+        <value xml:lang="fa">اطلاعات شرکت</value>
         <value xml:lang="fr">Information sur l'entreprise</value>
         <value xml:lang="it">Informazione Azienda</value>
         <value xml:lang="ja">会社情報</value>
@@ -978,6 +1045,7 @@
         <value xml:lang="da">Beskrivelse</value>
         <value xml:lang="de">Beschreibung</value>
         <value xml:lang="en">Description</value>
+        <value xml:lang="fa">شرح</value>
         <value xml:lang="fr">Description</value>
         <value xml:lang="it">Descrizione</value>
         <value xml:lang="ja">詳細</value>
@@ -992,6 +1060,7 @@
         <value xml:lang="da">FAQ</value>
         <value xml:lang="de">Häufig gestellte Fragen (FAQ)</value>
         <value xml:lang="en">FAQ</value>
+        <value xml:lang="fa">سوالات رایج</value>
         <value xml:lang="fr">FAQ</value>
         <value xml:lang="it">Domande Frequenti</value>
         <value xml:lang="ja">よくある質問(FAQ)</value>
@@ -1006,6 +1075,7 @@
         <value xml:lang="da">Tilbagemelding</value>
         <value xml:lang="de">Rückmeldung</value>
         <value xml:lang="en">Feedback</value>
+        <value xml:lang="fa">بازخورد</value>
         <value xml:lang="fr">Remarques</value>
         <value xml:lang="it">Riscontro</value>
         <value xml:lang="ja">フィードバック</value>
@@ -1020,6 +1090,7 @@
         <value xml:lang="da">Generel information</value>
         <value xml:lang="de">Generelle Informationen</value>
         <value xml:lang="en">General Info</value>
+        <value xml:lang="fa">اطلاعات عمومی</value>
         <value xml:lang="fr">Informations générales</value>
         <value xml:lang="it">Informazione Generale</value>
         <value xml:lang="ja">一般情報</value>
@@ -1034,6 +1105,7 @@
         <value xml:lang="da">Hovedindhold</value>
         <value xml:lang="de">Hauptinhalt</value>
         <value xml:lang="en">Main Content</value>
+        <value xml:lang="fa">محتوای اصلی</value>
         <value xml:lang="fr">Contenu principal</value>
         <value xml:lang="it">Contenuto Principale</value>
         <value xml:lang="ja">主コンテンツ</value>
@@ -1048,6 +1120,7 @@
         <value xml:lang="da">Besked</value>
         <value xml:lang="de">Mitteilung</value>
         <value xml:lang="en">Message</value>
+        <value xml:lang="fa">پیام</value>
         <value xml:lang="fr">Message</value>
         <value xml:lang="it">Messaggio</value>
         <value xml:lang="ja">メッセージ</value>
@@ -1062,6 +1135,7 @@
         <value xml:lang="da">Ejer</value>
         <value xml:lang="de">Besitzer</value>
         <value xml:lang="en">Owner</value>
+        <value xml:lang="fa">مالک</value>
         <value xml:lang="fr">Propriétaire</value>
         <value xml:lang="it">Proprietario</value>
         <value xml:lang="ja">所有者</value>
@@ -1076,6 +1150,7 @@
         <value xml:lang="da">Produkt</value>
         <value xml:lang="de">Produktinformationen</value>
         <value xml:lang="en">Product Info</value>
+        <value xml:lang="fa">اطلاعات محصول</value>
         <value xml:lang="fr">information sur le produit</value>
         <value xml:lang="it">Informazione Prodotto</value>
         <value xml:lang="ja">製品情報</value>
@@ -1089,6 +1164,7 @@
     <property key="ContentPurposeType.description.PROJECT_INFO">
         <value xml:lang="da">Projektinformation</value>
         <value xml:lang="en">Project Info</value>
+        <value xml:lang="fa">اطلاعات پروژه</value>
         <value xml:lang="it">Informazione progetto</value>
         <value xml:lang="ja">プロジェクト情報</value>
         <value xml:lang="pt">Informações do projeto</value>
@@ -1100,6 +1176,7 @@
         <value xml:lang="da">Svar</value>
         <value xml:lang="de">Antwort</value>
         <value xml:lang="en">Response</value>
+        <value xml:lang="fa">پاسخ</value>
         <value xml:lang="fr">Réponse</value>
         <value xml:lang="it">Risposta</value>
         <value xml:lang="ja">回答</value>
@@ -1114,6 +1191,7 @@
         <value xml:lang="da">Sektion</value>
         <value xml:lang="de">Abschnitt</value>
         <value xml:lang="en">Section</value>
+        <value xml:lang="fa">قسمت</value>
         <value xml:lang="fr">Section</value>
         <value xml:lang="it">Sezione</value>
         <value xml:lang="ja">セクション</value>
@@ -1128,6 +1206,7 @@
         <value xml:lang="da">Generel kilde</value>
         <value xml:lang="de">Quelle</value>
         <value xml:lang="en">General Source</value>
+        <value xml:lang="fa">منبع عمومی</value>
         <value xml:lang="fr">Source générale</value>
         <value xml:lang="it">Sorgente Generale</value>
         <value xml:lang="ja">一般ソース</value>
@@ -1142,6 +1221,7 @@
         <value xml:lang="da">Subindhold</value>
         <value xml:lang="de">Untergeordneter Inhalt</value>
         <value xml:lang="en">Sub Content</value>
+        <value xml:lang="fa">زیر محتوا</value>
         <value xml:lang="fr">Sous-contenu</value>
         <value xml:lang="it">Sotto Contenuto</value>
         <value xml:lang="ja">副コンテンツ</value>
@@ -1156,6 +1236,7 @@
         <value xml:lang="da">Resumé</value>
         <value xml:lang="de">Zusammenfassung</value>
         <value xml:lang="en">Summary</value>
+        <value xml:lang="fa">خلاصه</value>
         <value xml:lang="fr">Résumé</value>
         <value xml:lang="it">Sommario</value>
         <value xml:lang="ja">サマリ</value>
@@ -1170,6 +1251,7 @@
         <value xml:lang="da">Tema</value>
         <value xml:lang="de">Thema</value>
         <value xml:lang="en">Topic</value>
+        <value xml:lang="fa">موضوع</value>
         <value xml:lang="fr">Sujet</value>
         <value xml:lang="it">Argomento</value>
         <value xml:lang="ja">トピック</value>
@@ -1184,6 +1266,7 @@
         <value xml:lang="da">Bruger</value>
         <value xml:lang="de">Benutzer</value>
         <value xml:lang="en">User</value>
+        <value xml:lang="fa">کاربر</value>
         <value xml:lang="fr">Utilisateur</value>
         <value xml:lang="it">Utente</value>
         <value xml:lang="ja">ユーザ</value>
@@ -1198,6 +1281,7 @@
         <value xml:lang="da">Ikke relevant</value>
         <value xml:lang="de">Nicht anwendbar</value>
         <value xml:lang="en">Not Applicable</value>
+        <value xml:lang="fa">غیر کاربردی</value>
         <value xml:lang="fr">Non applicable</value>
         <value xml:lang="it">Non Applicabile</value>
         <value xml:lang="ja">適用外</value>
@@ -1212,6 +1296,7 @@
         <value xml:lang="da">Note</value>
         <value xml:lang="de">Anmerkung</value>
         <value xml:lang="en">Annotation</value>
+        <value xml:lang="fa">حاشیه نویسی</value>
         <value xml:lang="fr">Annotation</value>
         <value xml:lang="it">Annotazione</value>
         <value xml:lang="ja">アノテーション</value>
@@ -1225,6 +1310,7 @@
     <property key="ContentType.description.BLOG_ROOT">
         <value xml:lang="da">Blog rod</value>
         <value xml:lang="en">Blog Root</value>
+        <value xml:lang="fa">ریشه بلاگ</value>
         <value xml:lang="it">Blog principal</value>
         <value xml:lang="ja">ブログルート</value>
         <value xml:lang="pt">Blog raiz</value>
@@ -1236,6 +1322,7 @@
         <value xml:lang="da">Sammensat dokumentinstans</value>
         <value xml:lang="de">Zusammengesetzte Dokumenteninstanz</value>
         <value xml:lang="en">Composite Document Instance</value>
+        <value xml:lang="fa">نمونه سند مرکب</value>
         <value xml:lang="fr">Exemple de document composé</value>
         <value xml:lang="it">Istanza Documento Composito</value>
         <value xml:lang="ja">複合文書インスタンス</value>
@@ -1250,6 +1337,7 @@
         <value xml:lang="da">Sammensat dokumentskabelon</value>
         <value xml:lang="de">Zusammengesetzte Dokumentenvorlage</value>
         <value xml:lang="en">Composite Document Template</value>
+        <value xml:lang="fa">الگوی سند مرکب</value>
         <value xml:lang="fr">Gabarit de document composé</value>
         <value xml:lang="it">Template Documento Composito</value>
         <value xml:lang="ja">複合文書テンプレート</value>
@@ -1264,6 +1352,7 @@
         <value xml:lang="da">Indholdsfortegnelse</value>
         <value xml:lang="de">Liste Inhalt</value>
         <value xml:lang="en">Content List</value>
+        <value xml:lang="fa">لیست محتوا</value>
         <value xml:lang="fr">Liste de contenu</value>
         <value xml:lang="it">Lista Contenuto</value>
         <value xml:lang="ja">コンテンツ一覧</value>
@@ -1277,6 +1366,7 @@
     <property key="ContentType.description.DECORATOR">
         <value xml:lang="da">Dekoratør</value>
         <value xml:lang="en">Decorator</value>
+        <value xml:lang="fa">آذینگر</value>
         <value xml:lang="it">Decoratore</value>
         <value xml:lang="ja">デコレータ</value>
         <value xml:lang="pt">Decorator</value>
@@ -1288,6 +1378,7 @@
         <value xml:lang="da">Afdeling</value>
         <value xml:lang="de">Abteilung</value>
         <value xml:lang="en">Department</value>
+        <value xml:lang="fa">بخش</value>
         <value xml:lang="fr">Département</value>
         <value xml:lang="it">Dipartimento</value>
         <value xml:lang="ja">部門</value>
@@ -1302,6 +1393,7 @@
         <value xml:lang="da">Dokument</value>
         <value xml:lang="de">Dokument</value>
         <value xml:lang="en">Document</value>
+        <value xml:lang="fa">سند</value>
         <value xml:lang="fr">Document</value>
         <value xml:lang="it">Documento</value>
         <value xml:lang="ja">文書</value>
@@ -1315,6 +1407,7 @@
     <property key="ContentType.description.FAQ_ROOT">
         <value xml:lang="da">FAQ rod</value>
         <value xml:lang="en">FAQ Root</value>
+        <value xml:lang="fa">ریشه سوالات رایج</value>
         <value xml:lang="it">FAQ principale</value>
         <value xml:lang="ja">よくある質問(FAQ)ルート</value>
         <value xml:lang="pt">FAQ raiz</value>
@@ -1326,6 +1419,7 @@
         <value xml:lang="da">Forum rod udgivelsespunkt</value>
         <value xml:lang="de">Forum Basis Veröffentlichungsort</value>
         <value xml:lang="en">Forum root publish point</value>
+        <value xml:lang="fa">نقطه انتشار ریشه انجمن</value>
         <value xml:lang="fr">Racine de publication du forum</value>
         <value xml:lang="it">Radice Forum punto pubblico</value>
         <value xml:lang="ja">フォーラムルート公開場所</value>
@@ -1340,6 +1434,7 @@
         <value xml:lang="da">Graf rod</value>
         <value xml:lang="de">Grafik Basis</value>
         <value xml:lang="en">Graph Root</value>
+        <value xml:lang="fa">ریشه گراف</value>
         <value xml:lang="fr">Racine du graphisme</value>
         <value xml:lang="it">Radice Grafico</value>
         <value xml:lang="ja">図形ルート</value>
@@ -1353,6 +1448,7 @@
     <property key="ContentType.description.MENU_CONTAINER">
         <value xml:lang="da">Menu container</value>
         <value xml:lang="en">Menu Container</value>
+        <value xml:lang="fa">منوی کانتینر</value>
         <value xml:lang="it">Contenitore menu</value>
         <value xml:lang="ja">メニューコンテナ</value>
         <value xml:lang="pt">Container de menu</value>
@@ -1364,6 +1460,7 @@
         <value xml:lang="da">Oversigt node</value>
         <value xml:lang="de">Überblick Knoten</value>
         <value xml:lang="en">Outline Node</value>
+        <value xml:lang="fa">گره طرح‌کلی</value>
         <value xml:lang="fr">Noeud d'ébauche</value>
         <value xml:lang="it">Nodo Contorno</value>
         <value xml:lang="ja">概要ノード</value>
@@ -1378,6 +1475,7 @@
         <value xml:lang="da">Side node</value>
         <value xml:lang="de">Seite Knoten</value>
         <value xml:lang="en">Page Node</value>
+        <value xml:lang="fa">گره صفحه</value>
         <value xml:lang="fr">Noeud de page</value>
         <value xml:lang="it">Nodo Pagina</value>
         <value xml:lang="ja">ページノード</value>
@@ -1392,6 +1490,7 @@
         <value xml:lang="da">Mennesker</value>
         <value xml:lang="de">Leute</value>
         <value xml:lang="en">People</value>
+        <value xml:lang="fa">مردم</value>
         <value xml:lang="fr">Personnes</value>
         <value xml:lang="it">Gente</value>
         <value xml:lang="ja">人々</value>
@@ -1406,6 +1505,7 @@
         <value xml:lang="da">Person</value>
         <value xml:lang="de">Person</value>
         <value xml:lang="en">Person</value>
+        <value xml:lang="fa">شخص</value>
         <value xml:lang="fr">Personne</value>
         <value xml:lang="it">Persona</value>
         <value xml:lang="ja">人</value>
@@ -1420,6 +1520,7 @@
         <value xml:lang="da">Pladsholder</value>
         <value xml:lang="de">Platzhalter</value>
         <value xml:lang="en">Place Holder</value>
+        <value xml:lang="fa">نگهدارنده مکان</value>
         <value xml:lang="fr">Paramètre fictif</value>
         <value xml:lang="it">Place Holder</value>
         <value xml:lang="ja">プレースホルダ</value>
@@ -1434,6 +1535,7 @@
         <value xml:lang="da">Strukturdefinition (som DTD)</value>
         <value xml:lang="de">Strukturdefinition (wie DTD)</value>
         <value xml:lang="en">Structure Definition (like DTD)</value>
+        <value xml:lang="fa">تعریف ساختار (مثل DTD)</value>
         <value xml:lang="fr">Définition de structure (comme DTD)</value>
         <value xml:lang="it">Definizione Struttura (come DTD)</value>
         <value xml:lang="ja">構造定義 (例 DTD)</value>
@@ -1448,6 +1550,7 @@
         <value xml:lang="da">Struktur element</value>
         <value xml:lang="de">Struktur Element</value>
         <value xml:lang="en">Structure Leaf</value>
+        <value xml:lang="fa">برگ ساختار</value>
         <value xml:lang="fr">Feuille de structure</value>
         <value xml:lang="it">Foglia Struttura</value>
         <value xml:lang="ja">構造リーフ</value>
@@ -1462,6 +1565,7 @@
         <value xml:lang="da">Struktur node</value>
         <value xml:lang="de">Struktur Knoten</value>
         <value xml:lang="en">Structure Node</value>
+        <value xml:lang="fa">گره ساختار</value>
         <value xml:lang="fr">Noeud de structure</value>
         <value xml:lang="it">Nodo Struttura</value>
         <value xml:lang="ja">構造ノード</value>
@@ -1476,6 +1580,7 @@
         <value xml:lang="da">Underside node</value>
         <value xml:lang="de">Untergeordnete Seite Knoten</value>
         <value xml:lang="en">Sub Page Node</value>
+        <value xml:lang="fa">گره زیر صفحه</value>
         <value xml:lang="fr">Noeud de sous-page</value>
         <value xml:lang="it">Nodo Sotto Pagina</value>
         <value xml:lang="ja">副ページノード</value>
@@ -1490,6 +1595,7 @@
         <value xml:lang="da">Skabelon eller formular</value>
         <value xml:lang="de">Vorlage oder Formular</value>
         <value xml:lang="en">Template or Form</value>
+        <value xml:lang="fa">الگو یا فرم</value>
         <value xml:lang="fr">Gabarit de forme</value>
         <value xml:lang="it">Template o Form</value>
         <value xml:lang="ja">テンプレートまたはフォーム</value>
@@ -1504,6 +1610,7 @@
         <value xml:lang="da">Afsnit</value>
         <value xml:lang="de">Inhalt</value>
         <value xml:lang="en">Topic</value>
+        <value xml:lang="fa">موضوع</value>
         <value xml:lang="fr">Sujet</value>
         <value xml:lang="it">Argomento</value>
         <value xml:lang="ja">トピック</value>
@@ -1518,6 +1625,7 @@
         <value xml:lang="da">Træ rod</value>
         <value xml:lang="de">Baum Wurzel</value>
         <value xml:lang="en">Tree Root</value>
+        <value xml:lang="fa">ریشه درخت</value>
         <value xml:lang="fr">Racine d'arborescence</value>
         <value xml:lang="it">Radice Albero</value>
         <value xml:lang="ja">ツリールート</value>
@@ -1532,6 +1640,7 @@
         <value xml:lang="da">Transformationsdefinition (som XSLT)</value>
         <value xml:lang="de">Transformationsdefinition (wie XSLT)</value>
         <value xml:lang="en">Transformation Definition (like XSLT)</value>
+        <value xml:lang="fa">تعریف دگرگونی (مثل XSLT)</value>
         <value xml:lang="fr">Définition de transformation (comme XSLT)</value>
         <value xml:lang="it">Definizione Trasformazione (come XSLT)</value>
         <value xml:lang="ja">変換定義 (例 XSLT)</value>
@@ -1546,6 +1655,7 @@
         <value xml:lang="da">Udgivelsespunkt</value>
         <value xml:lang="de">Veröffentlichungsort</value>
         <value xml:lang="en">Publish Point</value>
+        <value xml:lang="fa">نقطه انتشار</value>
         <value xml:lang="fr">Point de publication</value>
         <value xml:lang="it">Punto Pubblico</value>
         <value xml:lang="ja">公開場所</value>
@@ -1560,6 +1670,7 @@
         <value xml:lang="da">Forretning</value>
         <value xml:lang="de">Geschäft</value>
         <value xml:lang="en">Business</value>
+        <value xml:lang="fa">کسب‌وکار</value>
         <value xml:lang="fr">Affaires</value>
         <value xml:lang="it">Affari</value>
         <value xml:lang="ja">業務</value>
@@ -1574,6 +1685,7 @@
         <value xml:lang="da">Produktion</value>
         <value xml:lang="de">Produktion</value>
         <value xml:lang="en">Manufacturing</value>
+        <value xml:lang="fa">ساخت</value>
         <value xml:lang="fr">Fabrication</value>
         <value xml:lang="it">Produzione</value>
         <value xml:lang="ja">生産</value>
@@ -1588,6 +1700,7 @@
         <value xml:lang="da">Detail</value>
         <value xml:lang="de">Einzelhandel</value>
         <value xml:lang="en">Retail</value>
+        <value xml:lang="fa">خرده‌فروش</value>
         <value xml:lang="fr">Détail</value>
         <value xml:lang="it">Commercio Dettaglio</value>
         <value xml:lang="ja">小売</value>
@@ -1602,6 +1715,7 @@
         <value xml:lang="da">Service</value>
         <value xml:lang="de">Dienstleistung</value>
         <value xml:lang="en">Service</value>
+        <value xml:lang="fa">سرویس</value>
         <value xml:lang="fr">Service</value>
         <value xml:lang="it">Servizio</value>
         <value xml:lang="ja">サービス</value>
@@ -1616,6 +1730,7 @@
         <value xml:lang="da">Financiel</value>
         <value xml:lang="de">Finanziell</value>
         <value xml:lang="en">Financial</value>
+        <value xml:lang="fa">مالی</value>
         <value xml:lang="fr">Financier</value>
         <value xml:lang="it">Finanza</value>
         <value xml:lang="ja">金融</value>
@@ -1630,6 +1745,7 @@
         <value xml:lang="da">Juridisk</value>
         <value xml:lang="de">Rechtlich</value>
         <value xml:lang="en">Legal</value>
+        <value xml:lang="fa">قانونی</value>
         <value xml:lang="fr">Légal</value>
         <value xml:lang="it">Legale</value>
         <value xml:lang="ja">法律</value>
@@ -1644,6 +1760,7 @@
         <value xml:lang="da">Personlig</value>
         <value xml:lang="de">Persönlich</value>
         <value xml:lang="en">Personal</value>
+        <value xml:lang="fa">شخصی</value>
         <value xml:lang="fr">Personnel</value>
         <value xml:lang="it">Personale</value>
         <value xml:lang="ja">個人</value>
@@ -1658,6 +1775,7 @@
         <value xml:lang="da">Politisk</value>
         <value xml:lang="de">Politisch</value>
         <value xml:lang="en">Political</value>
+        <value xml:lang="fa">سیاسی</value>
         <value xml:lang="fr">Politique</value>
         <value xml:lang="it">Politica</value>
         <value xml:lang="ja">政治</value>
@@ -1672,6 +1790,7 @@
         <value xml:lang="da">Rod</value>
         <value xml:lang="de">Basis</value>
         <value xml:lang="en">ROOT</value>
+        <value xml:lang="fa">ریشه</value>
         <value xml:lang="fr">Racine</value>
         <value xml:lang="it">Radice</value>
         <value xml:lang="ja">ルート</value>
@@ -1685,6 +1804,7 @@
         <value xml:lang="da">Teknologi</value>
         <value xml:lang="de">Technologie</value>
         <value xml:lang="en">Technology</value>
+        <value xml:lang="fa">تکنولوژی</value>
         <value xml:lang="fr">Technologie</value>
         <value xml:lang="it">Tecnologia</value>
         <value xml:lang="ja">技術</value>
@@ -1699,6 +1819,7 @@
         <value xml:lang="da">Hardware</value>
         <value xml:lang="de">Hardware</value>
         <value xml:lang="en">Hardware</value>
+        <value xml:lang="fa">سخت‌افزار</value>
         <value xml:lang="fr">Matériel informatique</value>
         <value xml:lang="it">Hardware</value>
         <value xml:lang="ja">ハードウェア</value>
@@ -1713,6 +1834,7 @@
         <value xml:lang="da">Service</value>
         <value xml:lang="de">Technische Dienstleistung</value>
         <value xml:lang="en">Service</value>
+        <value xml:lang="fa">سرویس</value>
         <value xml:lang="fr">Service</value>
         <value xml:lang="it">Servizi</value>
         <value xml:lang="ja">サービス</value>
@@ -1727,6 +1849,7 @@
         <value xml:lang="da">Software</value>
         <value xml:lang="de">Software</value>
         <value xml:lang="en">Software</value>
+        <value xml:lang="fa">نرم‌افزار</value>
         <value xml:lang="fr">Logiciel</value>
         <value xml:lang="it">Software</value>
         <value xml:lang="ja">ソフトウェア</value>
@@ -1741,6 +1864,7 @@
         <value xml:lang="da">Java</value>
         <value xml:lang="de">Java</value>
         <value xml:lang="en">Java</value>
+        <value xml:lang="fa">Java</value>
         <value xml:lang="fr">Java</value>
         <value xml:lang="it">Java</value>
         <value xml:lang="ja">Java</value>
@@ -1755,6 +1879,7 @@
         <value xml:lang="da">Linux</value>
         <value xml:lang="de">Linux</value>
         <value xml:lang="en">Linux</value>
+        <value xml:lang="fa">Linux</value>
         <value xml:lang="fr">Linux</value>
         <value xml:lang="it">Linux</value>
         <value xml:lang="ja">Linux</value>
@@ -1782,6 +1907,7 @@
     <property key="DataCategory.categoryName.TEMPLATE">
         <value xml:lang="da">Skabelon</value>
         <value xml:lang="en">Template</value>
+        <value xml:lang="fa">الگو</value>
         <value xml:lang="it">Template</value>
         <value xml:lang="ja">テンプレート</value>
         <value xml:lang="pt">Modelo</value>
@@ -1792,6 +1918,7 @@
     <property key="DataResourceType.description.AUDIO_OBJECT">
         <value xml:lang="da">Audio</value>
         <value xml:lang="en">Audio</value>
+        <value xml:lang="fa">صوتی</value>
         <value xml:lang="it">Audio</value>
         <value xml:lang="ja">オーディオ</value>
         <value xml:lang="pt">Áudio</value>
@@ -1803,6 +1930,7 @@
         <value xml:lang="da">Fil (relativ til webapp rod)</value>
         <value xml:lang="de">Datei (relativ zu webapp Basisverzeichnis)</value>
         <value xml:lang="en">File (rel to webapp root)</value>
+        <value xml:lang="fa">فایل فایل (مرتبط با ریشه وب‌اپلیکیشن)</value>
         <value xml:lang="fr">Dossier (relative à la racine d'application web)</value>
         <value xml:lang="it">File (relativo alla radice dell'applicazione web)</value>
         <value xml:lang="ja">ファイル(webappルートからの相対パス)</value>
@@ -1817,6 +1945,7 @@
         <value xml:lang="da">Binær fil (relativ til webapp rod)</value>
         <value xml:lang="de">Binäre Datei (relativ zu webapp Basisverzeichnis)</value>
         <value xml:lang="en">Binary File (rel to webapp root)</value>
+        <value xml:lang="fa">فایل باینری (مرتبط با ریشه وب‌اپلیکیشن)</value>
         <value xml:lang="fr">Dossier binaire (relative à la racine d'application web)</value>
         <value xml:lang="it">File Binario (relativo alla radice dell'applicazione web)</value>
         <value xml:lang="ja">バイナリファイル(webappルートからの相対パス)</value>
@@ -1831,6 +1960,7 @@
         <value xml:lang="da">Lang tekst</value>
         <value xml:lang="de">Ausführlicher Text</value>
         <value xml:lang="en">Long Text</value>
+        <value xml:lang="fa">متن طولانی</value>
         <value xml:lang="fr">Texte long</value>
         <value xml:lang="it">Testo Lungo</value>
         <value xml:lang="ja">長いテキスト</value>
@@ -1845,6 +1975,7 @@
         <value xml:lang="da">Billede</value>
         <value xml:lang="de">Bild</value>
         <value xml:lang="en">Image</value>
+        <value xml:lang="fa">عکس</value>
         <value xml:lang="fr">Image</value>
         <value xml:lang="it">Immagine</value>
         <value xml:lang="ja">画像</value>
@@ -1859,6 +1990,7 @@
         <value xml:lang="da">Hyperlink</value>
         <value xml:lang="de">Hypertext-Link</value>
         <value xml:lang="en">HyperLink</value>
+        <value xml:lang="fa">پیوند</value>
         <value xml:lang="fr">Lien hypertexte</value>
         <value xml:lang="it">Link Ipertestuale</value>
         <value xml:lang="ja">ハイパーリンク</value>
@@ -1873,6 +2005,7 @@
         <value xml:lang="da">Locale fil</value>
         <value xml:lang="de">Lokale Datei</value>
         <value xml:lang="en">Local File</value>
+        <value xml:lang="fa">فایل محلی</value>
         <value xml:lang="fr">Dossier local</value>
         <value xml:lang="it">File Locale</value>
         <value xml:lang="ja">ローカルファイル</value>
@@ -1887,6 +2020,7 @@
         <value xml:lang="da">Locale binær fil</value>
         <value xml:lang="de">Lokale binäre Datei</value>
         <value xml:lang="en">Local Binary File</value>
+        <value xml:lang="fa">فایل باینری محلی</value>
         <value xml:lang="fr">Dossier binaire local</value>
         <value xml:lang="it">File Binario Locale</value>
         <value xml:lang="ja">ローカルバイナリファイル</value>
@@ -1929,6 +2063,7 @@
         <value xml:lang="da">Andre</value>
         <value xml:lang="de">Anderes</value>
         <value xml:lang="en">Other</value>
+        <value xml:lang="fa">دیگران</value>
         <value xml:lang="fr">Autre</value>
         <value xml:lang="it">Altro</value>
         <value xml:lang="ja">その他</value>
@@ -1943,6 +2078,7 @@
         <value xml:lang="da">Kort tekst</value>
         <value xml:lang="de">Kurzer Text</value>
         <value xml:lang="en">Short Text</value>
+        <value xml:lang="fa">متن کوتاه</value>
         <value xml:lang="fr">Texte court</value>
         <value xml:lang="it">Testo Corto</value>
         <value xml:lang="ja">短いテキスト</value>
@@ -1957,6 +2093,7 @@
         <value xml:lang="da">Rundspørge</value>
         <value xml:lang="de">Befragung</value>
         <value xml:lang="en">Survey</value>
+        <value xml:lang="fa">نظرسنجی</value>
         <value xml:lang="fr">Sondage</value>
         <value xml:lang="it">Sondaggio</value>
         <value xml:lang="ja">評価</value>
@@ -1971,6 +2108,7 @@
         <value xml:lang="da">Rundspørge svar</value>
         <value xml:lang="de">Befragung Antwort</value>
         <value xml:lang="en">Survey Response</value>
+        <value xml:lang="fa">پاسخ نظرسنجی</value>
         <value xml:lang="fr">Réponse de sondage</value>
         <value xml:lang="it">Risposta Sondaggio</value>
         <value xml:lang="ja">評価回答</value>
@@ -1985,6 +2123,7 @@
         <value xml:lang="da">URL Ressource</value>
         <value xml:lang="de">URL Ressource</value>
         <value xml:lang="en">URL Resource</value>
+        <value xml:lang="fa">URL منبع</value>
         <value xml:lang="fr">Ressource URL</value>
         <value xml:lang="it">Risorsa URL</value>
         <value xml:lang="ja">URLリソース</value>
@@ -1998,6 +2137,7 @@
     <property key="DataResourceType.description.VIDEO_OBJECT">
         <value xml:lang="da">Video</value>
         <value xml:lang="en">Video</value>
+        <value xml:lang="fa">تصویری</value>
         <value xml:lang="it">Video</value>
         <value xml:lang="ja">ビデオ</value>
         <value xml:lang="pt">Vídeo</value>
@@ -2009,6 +2149,7 @@
         <value xml:lang="da">FreeMarker</value>
         <value xml:lang="de">FreeMarker</value>
         <value xml:lang="en">FreeMarker</value>
+        <value xml:lang="fa">FreeMarker</value>
         <value xml:lang="fr">FreeMarker</value>
         <value xml:lang="it">FreeMarker</value>
         <value xml:lang="ja">FreeMarker</value>
@@ -2023,6 +2164,7 @@
         <value xml:lang="da">Ingen skabelon</value>
         <value xml:lang="de">Keine Vorlage</value>
         <value xml:lang="en">No Template</value>
+        <value xml:lang="fa">بدون الگو</value>
         <value xml:lang="fr">Aucun gabarit</value>
         <value xml:lang="it">Nessun Template</value>
         <value xml:lang="ja">テンプレートなし</value>
@@ -2037,6 +2179,7 @@
         <value xml:lang="da">Screen Widget</value>
         <value xml:lang="de">Screen Widget</value>
         <value xml:lang="en">Screen widget</value>
+        <value xml:lang="fa">Screen widget</value>
         <value xml:lang="fr">Screen widget</value>
         <value xml:lang="it">Screen widget</value>
         <value xml:lang="ja">画面ウィジット</value>
@@ -2051,6 +2194,7 @@
         <value xml:lang="da">Velocity</value>
         <value xml:lang="de">Velocity</value>
         <value xml:lang="en">Velocity</value>
+        <value xml:lang="fa">Velocity</value>
         <value xml:lang="fr">Velocity</value>
         <value xml:lang="it">Velocity</value>
         <value xml:lang="ja">Velocity</value>
@@ -2065,6 +2209,7 @@
         <value xml:lang="da">WebMAcro</value>
         <value xml:lang="de">WebMAcro</value>
         <value xml:lang="en">WebMacro</value>
+        <value xml:lang="fa">WebMacro</value>
         <value xml:lang="fr">WebMacro</value>
         <value xml:lang="it">WebMacro</value>
         <value xml:lang="ja">WebMacro</value>
@@ -2079,6 +2224,7 @@
         <value xml:lang="da">XSLT</value>
         <value xml:lang="de">XSLT</value>
         <value xml:lang="en">XSLT</value>
+        <value xml:lang="fa">XSLT</value>
         <value xml:lang="fr">XSLT</value>
         <value xml:lang="it">XSLT</value>
         <value xml:lang="ja">XSLT</value>
@@ -2094,6 +2240,7 @@
         <value xml:lang="de">Seefrachtbrief</value>
         <value xml:lang="en">BILL_OF_LADING</value>
         <value xml:lang="es">Cuenta de carga</value>
+        <value xml:lang="fa">صورت‌حساب‌کردن بارنامه</value>
         <value xml:lang="fr">Connaissement</value>
         <value xml:lang="it">Polizza di carico</value>
         <value xml:lang="ja">船荷証券(B/L)</value>
@@ -2108,6 +2255,7 @@
         <value xml:lang="de">Exportdokumentation</value>
         <value xml:lang="en">EXPORT_DOCUMENTATION</value>
         <value xml:lang="es">Documentación de exportación</value>
+        <value xml:lang="fa">صادرکردن سند</value>
         <value xml:lang="fr">Documentation d'export</value>
         <value xml:lang="it">Documentazione esportata</value>
         <value xml:lang="ja">輸出書類</value>
@@ -2122,6 +2270,7 @@
         <value xml:lang="de">Verzeichnis</value>
         <value xml:lang="en">MANIFEST</value>
         <value xml:lang="es">Manifiesto</value>
+        <value xml:lang="fa">بیانیه</value>
         <value xml:lang="fr">Manifeste</value>
         <value xml:lang="it">Manifesto</value>
         <value xml:lang="ja">マニフェスト</value>
@@ -2135,6 +2284,7 @@
         <value xml:lang="de">Anderes Versanddokument</value>
         <value xml:lang="en">OTHER_SHIP_DOCUMENT</value>
         <value xml:lang="es">Otros documentos de envíos</value>
+        <value xml:lang="fa">سند حمل‌کردن دیگر</value>
         <value xml:lang="fr">Autre document expédié</value>
         <value xml:lang="it">Altro documento di spedizione</value>
         <value xml:lang="ja">その他出荷書類</value>
@@ -2149,6 +2299,7 @@
         <value xml:lang="de">Lieferschein</value>
         <value xml:lang="en">PACKAGING_SLIP</value>
         <value xml:lang="es">Embalaje</value>
+        <value xml:lang="fa">لغزش بسته‌بندی</value>
         <value xml:lang="fr">Fiche de conditionnement</value>
         <value xml:lang="it">Lista di imballo</value>
         <value xml:lang="ja">梱包伝票</value>
@@ -2163,6 +2314,7 @@
         <value xml:lang="de">Hafengebühren Dokument</value>
         <value xml:lang="en">PORT_CHARGE_DOCUMENT</value>
         <value xml:lang="es">Carga en puerto</value>
+        <value xml:lang="fa">سند بارگذاری گمرک</value>
         <value xml:lang="fr">Document de chargement en port</value>
         <value xml:lang="it">Documento di carico</value>
         <value xml:lang="ja">港湾手数料書類</value>
@@ -2177,6 +2329,7 @@
         <value xml:lang="de">Versanddokument</value>
         <value xml:lang="en">SHIPPING_DOCUMENT</value>
         <value xml:lang="es">Envío</value>
+        <value xml:lang="fa">سند حمل</value>
         <value xml:lang="fr">Document d'expédition</value>
         <value xml:lang="it">Documento di spedizione</value>
         <value xml:lang="ja">出荷書類</value>
@@ -2191,6 +2344,7 @@
         <value xml:lang="de">E-Mail Adresse des Autors oder Erstellers des Themas.</value>
         <value xml:lang="en">eMail address of the author or creator of the subject.</value>
         <value xml:lang="es">E-mail del autor del tema</value>
+        <value xml:lang="fa">آدرس ایمیل نویسنده یا سازنده این موضوع</value>
         <value xml:lang="fr">Adresse courriel de l'auteur ou créateur du thème</value>
         <value xml:lang="it">Indirizzo eMail dell'autore o creatore del soggetto.</value>
         <value xml:lang="ja">主題の作者のEメールアドレス</value>
@@ -2206,6 +2360,7 @@
         <value xml:lang="de">Name des Autors oder Erstellers des Themas.</value>
         <value xml:lang="en">Name of the author or creator of the subject.</value>
         <value xml:lang="es">Nombre del autor</value>
+        <value xml:lang="fa">نام نویسنده یا سازنده این موضوع</value>
         <value xml:lang="fr">Nom de l'auteur ou créateur du thème</value>
         <value xml:lang="it">Nome dell'autore o creatore di questo soggetto.</value>
         <value xml:lang="ja">主題の作者の名前</value>
@@ -2221,6 +2376,7 @@
         <value xml:lang="de">Datum und Zeitpunk des Ereignisses zum Thema, vorzugsweise in absteigendem Standart-Format: [yyyy-MM-dd hh:mm:ss].</value>
         <value xml:lang="en">The date and time the subject event took place, preferably in the descending standard format: [yyyy-MM-dd hh:mm:ss].</value>
         <value xml:lang="es">Fecha en la cual el evento tomó lugar</value>
+        <value xml:lang="fa">تاریخ و زمان رویداد موضوع در جای خود قرار گرفته‌اند، به کمال به صورت نزولی با فورمت استاندارد: [yyyy-MM-dd hh:mm:ss].</value>
         <value xml:lang="fr">La date et l'heure de l'événement thème aura lieu, de préférence dans le format standard suivant : [aaaa-mm-jj hh:mm:ss]. </value>
         <value xml:lang="it">La data e ora dove il soggetto dell'evento è successo, preferibilmente nel formato standard discendente: [yyyy-MM-dd hh:mm:ss].</value>
         <value xml:lang="ja">主題のイベントが発生した日時、降順、標準書式: [yyyy-MM-dd hh:mm:ss]。</value>
@@ -2236,6 +2392,7 @@
         <value xml:lang="de">Der Ort wo das Ereignis zum Thema stattfand.</value>
         <value xml:lang="en">The location where subject event took place.</value>
         <value xml:lang="es">Ubicación donde el evento sucedió</value>
+        <value xml:lang="fa">مکان جایی که رویداد موضوع اتفاق افتاده است.</value>
         <value xml:lang="fr">Endroit où l'évènement de thème aura lieu</value>
         <value xml:lang="it">La locazione dove il soggetto dell'evento è successo</value>
         <value xml:lang="ja">主題のイベントが発生した場所。</value>
@@ -2251,6 +2408,7 @@
         <value xml:lang="de">Name der Person die im Ereignis zum Thema involviert war.</value>
         <value xml:lang="en">The name of a person involved in the subject event.</value>
         <value xml:lang="es">Nombre de la persona involucrada en el evento</value>
+        <value xml:lang="fa">نام شخصی که در رویداد موضوع حضور داشته است.</value>
         <value xml:lang="fr">Le nom de la personne impliqué dans l'évènement de thème</value>
         <value xml:lang="it">Il nome di una persona coinvolta nel soggetto evento.</value>
         <value xml:lang="ja">主題のイベントに関係した人の名前。</value>
@@ -2265,6 +2423,7 @@
         <value xml:lang="da">Microsoft Word</value>
         <value xml:lang="de">Microsoft Word</value>
         <value xml:lang="en">Microsoft Word</value>
+        <value xml:lang="fa">Microsoft Word</value>
         <value xml:lang="fr">Microsoft Word</value>
         <value xml:lang="it">Microsoft Word</value>
         <value xml:lang="ja">Microsoft Word</value>
@@ -2279,6 +2438,7 @@
         <value xml:lang="da">Vilkårlige binære data</value>
         <value xml:lang="de">Beliebige binäre Daten</value>
         <value xml:lang="en">Arbitrary Binary Data</value>
+        <value xml:lang="fa">داده باینری آزاد</value>
         <value xml:lang="fr">Donnée binaire arbitraire</value>
         <value xml:lang="it">Dati Binari Arbitrari</value>
         <value xml:lang="ja">任意のバイナリデータ</value>
@@ -2293,6 +2453,7 @@
         <value xml:lang="da">Adobe Portable Document Format (PDF)</value>
         <value xml:lang="de">Adobe Portable Document Format (PDF)</value>
         <value xml:lang="en">Adobe Portable Document Format (PDF)</value>
+        <value xml:lang="fa">Adobe Portable Document Format (PDF)</value>
         <value xml:lang="fr">Format de document portable Adobe (PDF)</value>
         <value xml:lang="it">Formato Adobe Portable Document (PDF)</value>
         <value xml:lang="ja">Adobe PDF</value>
@@ -2307,6 +2468,7 @@
         <value xml:lang="da">Post script Applikation/Script</value>
         <value xml:lang="de">Anwendung/Postscript</value>
         <value xml:lang="en">Post script Application/Script</value>
+        <value xml:lang="fa">ارسال‌کردن script Application/Script</value>
         <value xml:lang="fr">Application postscript/Script </value>
         <value xml:lang="it">Applicazione/Script Postsctipt</value>
         <value xml:lang="ja">Postscriptアプリケーション/スクリプト</value>
@@ -2321,6 +2483,7 @@
         <value xml:lang="da">Microsoft Excel</value>
         <value xml:lang="de">Microsoft Excel</value>
         <value xml:lang="en">Microsoft Excel</value>
+        <value xml:lang="fa">Microsoft Excel</value>
         <value xml:lang="fr">Microsoft Excel</value>
         <value xml:lang="it">Microsoft Excel</value>
         <value xml:lang="ja">Microsoft Excel</value>
@@ -2334,6 +2497,7 @@
         <value xml:lang="da">Microsoft PowerPoint</value>
         <value xml:lang="de">Microsoft PowerPoint</value>
         <value xml:lang="en">Microsoft PowerPoint</value>
+        <value xml:lang="fa">Microsoft PowerPoint</value>
         <value xml:lang="fr">Microsoft PowerPoint</value>
         <value xml:lang="it">Microsoft PowerPoint</value>
         <value xml:lang="ja">Microsoft PowerPoint</value>
@@ -2345,6 +2509,7 @@
     <property key="MimeType.description.application/vnd.oasis.opendocument.spreadsheet">
         <value xml:lang="da">OpenOffice OpenDocument regneark</value>
         <value xml:lang="en">OpenOffice OpenDocument Spreadsheet</value>
+        <value xml:lang="fa">OpenOffice OpenDocument Spreadsheet</value>
         <value xml:lang="it">Foglio di lavoro OpenOffice OpenDocument</value>
         <value xml:lang="ja">OpenOffice OpenDocument スプレッドシート</value>
         <value xml:lang="pt">Planilha do OpenDocument OpenOffice</value>
@@ -2355,6 +2520,7 @@
         <value xml:lang="da">OpenOffice OpenDocument Tekst</value>
         <value xml:lang="de">OpenOffice OpenDocument Text</value>
         <value xml:lang="en">OpenOffice OpenDocument Text</value>
+        <value xml:lang="fa">متن OpenOffice OpenDocument</value>
         <value xml:lang="fr">Texte OpenOffice OpenDocument</value>
         <value xml:lang="it">Documento di Testo OpenOffice Open</value>
         <value xml:lang="ja">OpenOffice OpenDocument テキスト</value>
@@ -2368,6 +2534,7 @@
         <value xml:lang="da">Rundspørge</value>
         <value xml:lang="de">Befragung</value>
         <value xml:lang="en">Survey</value>
+        <value xml:lang="fa">نظرسنجی</value>
         <value xml:lang="fr">Sondage</value>
         <value xml:lang="it">Sondaggio</value>
         <value xml:lang="ja">評価</value>
@@ -2382,6 +2549,7 @@
         <value xml:lang="da">Rundspørge svar</value>
         <value xml:lang="de">Befragung Antwort</value>
         <value xml:lang="en">Survey Response</value>
+        <value xml:lang="fa">پاسخ نظرسنجی</value>
         <value xml:lang="fr">Réponse de sondage</value>
         <value xml:lang="it">Risposta Sondaggio</value>
         <value xml:lang="ja">評価回答</value>
@@ -2395,6 +2563,7 @@
     <property key="MimeType.description.application/x-shockwave-flash">
         <value xml:lang="da">Shockwave Flash Movie</value>
         <value xml:lang="en">Shockwave Flash Movie</value>
+        <value xml:lang="fa">Shockwave Flash Movie</value>
         <value xml:lang="it">Filem Shockwave flash</value>
         <value xml:lang="ja">Shockwave Flash ムービー</value>
         <value xml:lang="pt">Shockwave Flash Movie</value>
@@ -2404,6 +2573,7 @@
     <property key="MimeType.description.application/x-tgz">
         <value xml:lang="da">Gzip'et Tar arkiv fil</value>
         <value xml:lang="en">Gzipped Tar archive file</value>
+        <value xml:lang="fa">فایل Gzipped Tar archive</value>
         <value xml:lang="it">File archivio Gzipped Tar</value>
         <value xml:lang="ja">Gzip Tar アーカイブファイル</value>
         <value xml:lang="pt">Arquivo tar.gz</value>
@@ -2414,6 +2584,7 @@
         <value xml:lang="da">ZIP komprimeret fil</value>
         <value xml:lang="de">ZIP-komprimierte Datei</value>
         <value xml:lang="en">ZIP compressed file</value>
+        <value xml:lang="fa">فایل فشرده‌شده ZIP</value>
         <value xml:lang="fr">Dossier compressé ZIP</value>
         <value xml:lang="it">File ZIP compresso</value>
         <value xml:lang="ja">ZIP 圧縮ファイル</value>
@@ -2426,6 +2597,7 @@
         <value xml:lang="da">ZIP Data</value>
         <value xml:lang="de">ZIP Daten</value>
         <value xml:lang="en">ZIP Data</value>
+        <value xml:lang="fa">داده ZIP</value>
         <value xml:lang="fr">Données ZIP</value>
         <value xml:lang="it">Dati ZIP</value>
         <value xml:lang="ja">ZIP データ</value>
@@ -2439,6 +2611,7 @@
         <value xml:lang="da">Basic Audio</value>
         <value xml:lang="de">Basic Audio</value>
         <value xml:lang="en">Basic Audio</value>
+        <value xml:lang="fa">صوتی پایه</value>
         <value xml:lang="fr">Audio basique</value>
         <value xml:lang="it">Audio Base</value>
         <value xml:lang="ja">基本オーディオ</value>
@@ -2453,6 +2626,7 @@
         <value xml:lang="da">MPEG Audio</value>
         <value xml:lang="de">MPEG Audio</value>
         <value xml:lang="en">MPEG Audio</value>
+        <value xml:lang="fa">صوتی MPEG</value>
         <value xml:lang="fr">Audio MPEG</value>
         <value xml:lang="it">Audio MPEG</value>
         <value xml:lang="ja">MPEG オーディオ</value>
@@ -2465,6 +2639,7 @@
     <property key="MimeType.description.audio/x-ms-wax">
         <value xml:lang="da">WAX Audio</value>
         <value xml:lang="en">WAX Audio</value>
+        <value xml:lang="fa">صوتی WAX</value>
         <value xml:lang="it">WAX Audio</value>
         <value xml:lang="ja">WAX オーディオ</value>
         <value xml:lang="pt">Áudio WAX</value>
@@ -2474,6 +2649,7 @@
     <property key="MimeType.description.audio/x-ms-wma">
         <value xml:lang="da">WMA Audio</value>
         <value xml:lang="en">WMA Audio</value>
+        <value xml:lang="fa">صوتی WMA</value>
         <value xml:lang="it">WMA Audio</value>
         <value xml:lang="ja">WMA オーディオ</value>
         <value xml:lang="pt">Áudio WMA</value>
@@ -2484,6 +2660,7 @@
         <value xml:lang="da">GIF billede</value>
         <value xml:lang="de">GIF Bild</value>
         <value xml:lang="en">GIF Image</value>
+        <value xml:lang="fa">عکس GIF</value>
         <value xml:lang="fr">Image GIF</value>
         <value xml:lang="it">Immagine GIF</value>
         <value xml:lang="ja">GIF 画像</value>
@@ -2498,6 +2675,7 @@
         <value xml:lang="da">JPEG/JPG billede</value>
         <value xml:lang="de">JPEG/JPG Bild</value>
         <value xml:lang="en">JPEG/JPG Image</value>
+        <value xml:lang="fa">عکس JPEG/JPG</value>
         <value xml:lang="fr">Image JPG/JPEG</value>
         <value xml:lang="it">Immagine JPEG/JPG</value>
         <value xml:lang="ja">JPEG/JPG 画像</value>
@@ -2512,6 +2690,7 @@
         <value xml:lang="da">Progressiv JPEG/JPG billede</value>
         <value xml:lang="de">Progressives JPEG/JPG Bild</value>
         <value xml:lang="en">Progressive JPEG/JPG Image</value>
+        <value xml:lang="fa">عکس مترقی JPEG/JPG</value>
         <value xml:lang="fr">Image progressive JPG/JPEG</value>
         <value xml:lang="it">Immagine progressiva JPEG/JPG</value>
         <value xml:lang="ja">プログレッシブ JPEG/JPG 画像</value>
@@ -2524,6 +2703,7 @@
         <value xml:lang="da">PNG billede</value>
         <value xml:lang="de">PNG Bild</value>
         <value xml:lang="en">PNG Image</value>
+        <value xml:lang="fa">عکس PNG</value>
         <value xml:lang="fr">Image PNG</value>
         <value xml:lang="it">Immagine PNG</value>
         <value xml:lang="ja">PNG 画像</value>
@@ -2538,6 +2718,7 @@
         <value xml:lang="da">TIFF billede</value>
         <value xml:lang="de">TIFF Bild</value>
         <value xml:lang="en">TIFF Image</value>
+        <value xml:lang="fa">عکس TIFF</value>
         <value xml:lang="fr">Image TIFF</value>
         <value xml:lang="it">Immagine TIFF</value>
         <value xml:lang="ja">TIFF 画像</value>
@@ -2551,6 +2732,7 @@
         <value xml:lang="da">Ekstern brødtekst besked</value>
         <value xml:lang="de">External Body Message</value>
         <value xml:lang="en">External Body Message</value>
+        <value xml:lang="fa">متن پیام مستقل</value>
         <value xml:lang="fr">Message de corps externe</value>
         <value xml:lang="it">Corpo Messagio Esterno</value>
         <value xml:lang="ja">外部本文メッセージ</value>
@@ -2565,6 +2747,7 @@
         <value xml:lang="da">HTTP besked</value>
         <value xml:lang="de">HTTP Message</value>
         <value xml:lang="en">HTTP Message</value>
+        <value xml:lang="fa">پیام HTTP</value>
         <value xml:lang="fr">Message HTTP</value>
         <value xml:lang="it">Messaggio HTTP</value>
         <value xml:lang="ja">HTTP メッセージ</value>
@@ -2579,6 +2762,7 @@
         <value xml:lang="da">Ny besked</value>
         <value xml:lang="de">News Mitteilung</value>
         <value xml:lang="en">News Message</value>
+        <value xml:lang="fa">پیام خبر</value>
         <value xml:lang="fr">Nouveaux messages</value>
         <value xml:lang="it">News Messaggio</value>
         <value xml:lang="ja">ニュースメッセージ</value>
@@ -2593,6 +2777,7 @@
         <value xml:lang="da">Delvis besked</value>
         <value xml:lang="de">Partial Message</value>
         <value xml:lang="en">Partial Message</value>
+        <value xml:lang="fa">پیام تکه‌شده</value>
         <value xml:lang="fr">Message partiel</value>
         <value xml:lang="it">Messaggio Parziale</value>
         <value xml:lang="ja">一部メッセージ</value>
@@ -2607,6 +2792,7 @@
         <value xml:lang="da">RFC 822 Headered besked</value>
         <value xml:lang="de">RFC 822 Headered Message</value>
         <value xml:lang="en">RFC 822 Headered Message</value>
+        <value xml:lang="fa">سربرگ پیام RFC 822</value>
         <value xml:lang="fr">Message en-tête RFC 822</value>
         <value xml:lang="it">RFC 822 Headered Message</value>
         <value xml:lang="ja">RFC 822 ヘッダメッセージ</value>
@@ -2620,6 +2806,7 @@
         <value xml:lang="da">HTTPS/S-HTTP besked</value>
         <value xml:lang="de">HTTPS/S-HTTP Message</value>
         <value xml:lang="en">HTTPS/S-HTTP Message</value>
+        <value xml:lang="fa">پیام HTTPS/S-HTTP</value>
         <value xml:lang="fr">Message HTTPS/S-HTTP</value>
         <value xml:lang="it">Messaggio HTTPS/S-HTTP</value>
         <value xml:lang="ja">HTTPS/S-HTTP メッセージ</value>
@@ -2634,6 +2821,7 @@
         <value xml:lang="da">MEsh model</value>
         <value xml:lang="de">MEsh Model</value>
         <value xml:lang="en">Mesh Model</value>
+        <value xml:lang="fa">مدل Mesh</value>
         <value xml:lang="fr">Modèle de grille</value>
         <value xml:lang="it">Mesh Model</value>
         <value xml:lang="ja">Mesh モデル</value>
@@ -2647,6 +2835,7 @@
         <value xml:lang="da">VRML model</value>
         <value xml:lang="de">VRML Model</value>
         <value xml:lang="en">VRML Model</value>
+        <value xml:lang="fa">مدل VRML</value>
         <value xml:lang="fr">Modèle VRML</value>
         <value xml:lang="it">VRML Model</value>
         <value xml:lang="ja">VRML モデル</value>
@@ -2660,6 +2849,7 @@
         <value xml:lang="da">Multiple Alternative Multipart</value>
         <value xml:lang="de">Multiple Alternative Multipart</value>
         <value xml:lang="en">Mutliple Alternative Multipart</value>
+        <value xml:lang="fa">چندبخشه جایگزین چندگانه</value>
         <value xml:lang="fr">Multiple alternative multipart</value>
         <value xml:lang="it">Mutliple Alternative Multipart</value>
         <value xml:lang="ja">マルチパートオールタナティブ</value>
@@ -2673,6 +2863,7 @@
         <value xml:lang="da">Digest of Messages Multipart</value>
         <value xml:lang="de">Digest of Messages Multipart</value>
         <value xml:lang="en">Digest of Messages Multipart</value>
+        <value xml:lang="fa">خلاصه‌ای از پیام‌های چندبخشی</value>
         <value xml:lang="fr">Sommaire de messages multipart</value>
         <value xml:lang="it">Digest of Messages Multipart</value>
         <value xml:lang="ja">マルチパートダイジェスト</value>
@@ -2686,6 +2877,7 @@
         <value xml:lang="da">Encrypted Multipart</value>
         <value xml:lang="de">Encrypted Multipart</value>
         <value xml:lang="en">Encrypted Multipart</value>
+        <value xml:lang="fa">چندبخشی رمزشده</value>
         <value xml:lang="fr">Multipart codé</value>
         <value xml:lang="it">Encrypted Multipart</value>
         <value xml:lang="ja">マルチパートエンクリプテッド</value>
@@ -2699,6 +2891,7 @@
         <value xml:lang="da">Form Data Multipart</value>
         <value xml:lang="de">Form Data Multipart</value>
         <value xml:lang="en">Form Data Multipart</value>
+        <value xml:lang="fa">از داده چندبخشی</value>
         <value xml:lang="fr">Donnée de forme multipart </value>
         <value xml:lang="it">Form Data Multipart</value>
         <value xml:lang="ja">マルチパートフォームデータ</value>
@@ -2712,6 +2905,7 @@
         <value xml:lang="da">Mixed Type Multipart</value>
         <value xml:lang="de">Mixed Type Multipart</value>
         <value xml:lang="en">Mixed Type Multipart</value>
+        <value xml:lang="fa">چندبخشی نوع ترکیب‌شده</value>
         <value xml:lang="fr">Type multipart varié</value>
         <value xml:lang="it">Mixed Type Multipart</value>
         <value xml:lang="ja">マルチパートミックスド</value>
@@ -2725,6 +2919,7 @@
         <value xml:lang="da">Related Multipart</value>
         <value xml:lang="de">Related Multipart</value>
         <value xml:lang="en">Related Multipart</value>
+        <value xml:lang="fa">چندبخشی مربوط</value>
         <value xml:lang="fr">Multipart apparenté</value>
         <value xml:lang="it">Related Multipart</value>
         <value xml:lang="ja">マルチパートリテーテッド</value>
@@ -2738,6 +2933,7 @@
         <value xml:lang="da">Signed Multipart</value>
         <value xml:lang="de">Signed Multipart</value>
         <value xml:lang="en">Signed Multipart</value>
+        <value xml:lang="fa">چندبخشی امضاشده</value>
         <value xml:lang="fr">Multipart signé</value>
         <value xml:lang="it">Signed Multipart</value>
         <value xml:lang="ja">マルチパートサインド</value>
@@ -2751,6 +2947,7 @@
         <value xml:lang="da">CSS Tekst</value>
         <value xml:lang="de">CSS Text</value>
         <value xml:lang="en">CSS Text</value>
+        <value xml:lang="fa">متن CSS</value>
         <value xml:lang="fr">Texte CSS</value>
         <value xml:lang="it">Testo CSS</value>
         <value xml:lang="ja">CSS テキスト</value>
@@ -2764,6 +2961,7 @@
         <value xml:lang="da">Kommasepareret tekstværdi</value>
         <value xml:lang="de">CSV - Comma Separated Value Text</value>
         <value xml:lang="en">Comma Separated Value Text </value>
+        <value xml:lang="fa">متن جداشده بوسیله ویرگول</value>
         <value xml:lang="fr">Valeur de texte séparée par une virgule (CSV)</value>
         <value xml:lang="it">Valore di testo separati da virgola</value>
         <value xml:lang="ja">CSV - カンマ区切りテキスト</value>
@@ -2777,6 +2975,7 @@
         <value xml:lang="da">Enriched Text</value>
         <value xml:lang="de">Enriched Text</value>
         <value xml:lang="en">Enriched Text</value>
+        <value xml:lang="fa">متن غنی‌شده</value>
         <value xml:lang="fr">Texte enrichi</value>
         <value xml:lang="it">Testo Arrichito</value>
         <value xml:lang="ja">エンリッチテキスト</value>
@@ -2791,6 +2990,7 @@
         <value xml:lang="da">HTML Text</value>
         <value xml:lang="de">HTML Text</value>
         <value xml:lang="en">HTML Text</value>
+        <value xml:lang="fa">متن HTML</value>
         <value xml:lang="fr">Texte HTML</value>
         <value xml:lang="it">Testo HTML</value>
         <value xml:lang="ja">HTML テキスト</value>
@@ -2805,6 +3005,7 @@
         <value xml:lang="da">Plain Text</value>
         <value xml:lang="de">Plain Text</value>
         <value xml:lang="en">Plain Text</value>
+        <value xml:lang="fa">متن ساده</value>
         <value xml:lang="fr">Texte simple</value>
         <value xml:lang="it">Testo Piatto</value>
         <value xml:lang="ja">プレーンテキスト</value>
@@ -2819,6 +3020,7 @@
         <value xml:lang="da">Rich Text</value>
         <value xml:lang="de">Rich Text</value>
         <value xml:lang="en">Rich Text</value>
+        <value xml:lang="fa">متن غنی</value>
         <value xml:lang="fr">Texte riche</value>
         <value xml:lang="it">Testo Ricco</value>
         <value xml:lang="ja">リッチテキスト</value>
@@ -2833,6 +3035,7 @@
         <value xml:lang="da">RTF Rich Text</value>
         <value xml:lang="de">RTF Rich Text</value>
         <value xml:lang="en">RTF Rich Text</value>
+        <value xml:lang="fa">متن غنی RTF</value>
         <value xml:lang="fr">Texte riche (RTF)</value>
         <value xml:lang="it">Testo RTF Ricco</value>
         <value xml:lang="ja">RTF リッチテキスト</value>
@@ -2847,6 +3050,7 @@
         <value xml:lang="da">SGML Text</value>
         <value xml:lang="de">SGML Text</value>
         <value xml:lang="en">SGML Text</value>
+        <value xml:lang="fa">متن SGML</value>
         <value xml:lang="fr">Texte SGML</value>
         <value xml:lang="it">Testo SGML</value>
         <value xml:lang="ja">SGML テキスト</value>
@@ -2860,6 +3064,7 @@
         <value xml:lang="da">Tab separeret værdi tekst</value>
         <value xml:lang="de">Tab Separated Value Text</value>
         <value xml:lang="en">Tab Separated Value Text</value>
+        <value xml:lang="fa">متن جداشده بوسیله تب</value>
         <value xml:lang="fr">Valeur de texte séparée par une tabulation</value>
         <value xml:lang="it">Tab Separato Valore Testo</value>
         <value xml:lang="ja">タブ区切りテキスト</value>
@@ -2873,6 +3078,7 @@
     <property key="MimeType.description.text/x-diff">
         <value xml:lang="da">diff til patchnings filer</value>
         <value xml:lang="en">diff for patching files</value>
+        <value xml:lang="fa">تفاوت برای فایل‌های الحاقی</value>
         <value xml:lang="it">diff per files di patch</value>
         <value xml:lang="ja">diff 差分ファイル</value>
         <value xml:lang="pt">diff para Patch de arquivos</value>
@@ -2883,6 +3089,7 @@
     <property key="MimeType.description.text/x-vcard">
         <value xml:lang="da">eletronisk visitkort</value>
         <value xml:lang="en">electronic business card</value>
+        <value xml:lang="fa">کارت کسب‌وکار الکترونیک</value>
         <value xml:lang="it">carta business elettronica</value>
         <value xml:lang="ja">vCard 電子名刺</value>
         <value xml:lang="pt">cartão de visita eletrônico</value>
@@ -2894,6 +3101,7 @@
         <value xml:lang="da">XML Tekst</value>
         <value xml:lang="de">XML Text</value>
         <value xml:lang="en">XML Text</value>
+        <value xml:lang="fa">متن XML</value>
         <value xml:lang="fr">Texte XML</value>
         <value xml:lang="it">Testo XML</value>
         <value xml:lang="ja">XML テキスト</value>
@@ -2916,6 +3124,7 @@
     <property key="MimeType.description.video/mp4">
         <value xml:lang="da">MPEG-4 (H.264) Video</value>
         <value xml:lang="en">MPEG-4 (H.264) Video</value>
+        <value xml:lang="fa">تصویری MPEG-4 (H.264)</value>
         <value xml:lang="it">Video MPEG-4 (H.264)</value>
         <value xml:lang="ja">MPEG-4 (H.264) ビデオ</value>
         <value xml:lang="pt">Vídeo MPEG-4 (H.264)</value>
@@ -2926,6 +3135,7 @@
         <value xml:lang="da">MPEG/MPG Video</value>
         <value xml:lang="de">MPEG/MPG Video</value>
         <value xml:lang="en">MPEG/MPG Video</value>
+        <value xml:lang="fa">تصویری MPEG/MPG</value>
         <value xml:lang="fr">Vidéo MPEG/MPG</value>
         <value xml:lang="it">Video MPEG/MPG</value>
         <value xml:lang="ja">MPEG/MPG ビデオ</value>
@@ -2939,6 +3149,7 @@
         <value xml:lang="da">Quicktime Video</value>
         <value xml:lang="de">Quicktime Video</value>
         <value xml:lang="en">Quicktime Video</value>
+        <value xml:lang="fa">تصویری Quicktime</value>
         <value xml:lang="fr">Vidéo Quicktime</value>
         <value xml:lang="it">Video Quicktime</value>
         <value xml:lang="ja">Quicktime ビデオ</value>
@@ -2951,6 +3162,7 @@
     <property key="MimeType.description.video/x-flv">
         <value xml:lang="da">Flash Streaming Video</value>
         <value xml:lang="en">Flash Streaming Video</value>
+        <value xml:lang="fa">تصویری Flash Streaming</value>
         <value xml:lang="it">Video flash in streaming</value>
         <value xml:lang="ja">Flash ストリーミングビデオ</value>
         <value xml:lang="pt">Streaming de vídeo Flash</value>
@@ -2961,6 +3173,7 @@
     <property key="MimeType.description.video/x-ms-asf">
         <value xml:lang="da">ASF Video</value>
         <value xml:lang="en">ASF Video</value>
+        <value xml:lang="fa">تصویری ASF</value>
         <value xml:lang="it">Video ASF</value>
         <value xml:lang="ja">ASF ビデオ</value>
         <value xml:lang="pt">Vídeo ASF</value>
@@ -2970,6 +3183,7 @@
     <property key="MimeType.description.video/x-ms-wm">
         <value xml:lang="da">WM Video</value>
         <value xml:lang="en">WM Video</value>
+        <value xml:lang="fa">تصویری WM</value>
         <value xml:lang="it">Video WM</value>
         <value xml:lang="ja">WM ビデオ</value>
         <value xml:lang="pt">Vídeo WM</value>
@@ -2979,6 +3193,7 @@
     <property key="MimeType.description.video/x-ms-wmv">
         <value xml:lang="da">WMV Video</value>
         <value xml:lang="en">WMV Video</value>
+        <value xml:lang="fa">تصویری WMV</value>
         <value xml:lang="it">Video WMV</value>
         <value xml:lang="ja">WMV ビデオ</value>
         <value xml:lang="pt">Vídeo WMV</value>
@@ -2988,6 +3203,7 @@
     <property key="MimeType.description.video/x-ms-wmx">
         <value xml:lang="da">WMX Video</value>
         <value xml:lang="en">WMX Video</value>
+        <value xml:lang="fa">تصویری WMX</value>
         <value xml:lang="it">Video WMX</value>
         <value xml:lang="ja">WMX ビデオ</value>
         <value xml:lang="pt">Vídeo WMX</value>
@@ -2997,6 +3213,7 @@
     <property key="MimeType.description.video/x-ms-wvx">
         <value xml:lang="da">WVX Video</value>
         <value xml:lang="en">WVX Video</value>
+        <value xml:lang="fa">تصویری WVX</value>
         <value xml:lang="it">Video WVX</value>
         <value xml:lang="ja">WVX ビデオ</value>
         <value xml:lang="pt">Vídeo WVX</value>
@@ -3008,6 +3225,7 @@
         <value xml:lang="de">Zum Warenkorb hinzufügen</value>
         <value xml:lang="en">Add-To Cart</value>
         <value xml:lang="es">Añadir al carro</value>
+        <value xml:lang="fa">اضافه‌کردن به سبد</value>
         <value xml:lang="fr">Ajouter au panier</value>
         <value xml:lang="it">Aggiungi Al Carrello</value>
         <value xml:lang="ja">買い物かごに追加</value>
@@ -3023,6 +3241,7 @@
         <value xml:lang="de">Zur Kasse gehen</value>
         <value xml:lang="en">Check-Out</value>
         <value xml:lang="es">Realizar compra</value>
+        <value xml:lang="fa">چک‌کردن</value>
         <value xml:lang="fr">Passer à la caisse</value>
         <value xml:lang="it">Check-Out</value>
         <value xml:lang="ja">チェックアウト</value>
@@ -3038,6 +3257,7 @@
         <value xml:lang="de">Kundenprofil</value>
         <value xml:lang="en">Customer Profile</value>
         <value xml:lang="es">Perfil del cliente</value>
+        <value xml:lang="fa">پروفایل مشتری</value>
         <value xml:lang="fr">Profil du client</value>
         <value xml:lang="it">Profilo Cliente</value>
         <value xml:lang="ja">顧客プロファイル</value>
@@ -3053,6 +3273,7 @@
         <value xml:lang="de">Allgemeine Umfrage</value>
         <value xml:lang="en">General Poll</value>
         <value xml:lang="es">Encuesta general</value>
+        <value xml:lang="fa">رای‌گیری عومی</value>
         <value xml:lang="fr">Sondage général</value>
         <value xml:lang="it">Sondaggio Generale</value>
         <value xml:lang="ja">一般抽出</value>
@@ -3068,6 +3289,7 @@
         <value xml:lang="de">Einkaufsauftrag erfassen</value>
         <value xml:lang="en">Purchase Order Placement</value>
         <value xml:lang="es">Colocación de orden de compras</value>
+        <value xml:lang="fa">جایگاه سفارش خرید</value>
         <value xml:lang="fr">Placement d'ordre d'achat</value>
         <value xml:lang="it">Collocare Ordine Acquisto</value>
         <value xml:lang="ja">購買注文選定</value>
@@ -3083,6 +3305,7 @@
         <value xml:lang="de">Einkaufsauftrag Position erfassen</value>
         <value xml:lang="en">Purchase Order Item Placement</value>
         <value xml:lang="es">Colocación de items de la orden de compras</value>
+        <value xml:lang="fa">جایگاه قلم سفارش خرید</value>
         <value xml:lang="fr">Placement d'une ligne de commande d'achat</value>
         <value xml:lang="it">Collocare Riga Ordine Acquisto</value>
         <value xml:lang="ja">購買注文アイテム選定</value>
@@ -3098,6 +3321,7 @@
         <value xml:lang="de">Zufällige Befragung</value>
         <value xml:lang="en">Random Poll</value>
         <value xml:lang="es">Encuesta al azar</value>
+        <value xml:lang="fa">رای‌گیری تصادفی</value>
         <value xml:lang="fr">Sondage aléatoire</value>
         <value xml:lang="it">Sondaggio Casuale</value>
         <value xml:lang="ja">無作為抽出</value>
@@ -3113,6 +3337,7 @@
         <value xml:lang="de">Verkaufsauftrag erfassen</value>
         <value xml:lang="en">Sales Order Placement</value>
         <value xml:lang="es">Colocación de orden de ventas</value>
+        <value xml:lang="fa">جایگاه سفارش فروش</value>
         <value xml:lang="fr">Placement d'une commande de vente</value>
         <value xml:lang="it">Collocare Ordine Vendita</value>
         <value xml:lang="ja">販売注文選定</value>
@@ -3128,6 +3353,7 @@
         <value xml:lang="de">Boolean (Ja/Nein)</value>
         <value xml:lang="en">Boolean (Yes/No)</value>
         <value xml:lang="es">(Yes/No)</value>
+        <value xml:lang="fa">(بله/خیر)</value>
         <value xml:lang="fr">(Oui/Non)</value>
         <value xml:lang="it">Booleano (Si/No)</value>
         <value xml:lang="ja">二者択一 (はい/いいえ)</value>
@@ -3143,6 +3369,7 @@
         <value xml:lang="de">Inhalt Datensatz</value>
         <value xml:lang="en">Content Record</value>
         <value xml:lang="es">Contenido</value>
+        <value xml:lang="fa">سابقه محتوا</value>
         <value xml:lang="fr">Enregistrement de contenu</value>
         <value xml:lang="it">Record Contenuto</value>
         <value xml:lang="ja">内容記録</value>
@@ -3156,6 +3383,7 @@
     <property key="SurveyQuestionType.description.COUNTRY">
         <value xml:lang="da">Land</value>
         <value xml:lang="en">Country</value>
+        <value xml:lang="fa">کشور</value>
         <value xml:lang="it">Paese</value>
         <value xml:lang="ja">国</value>
         <value xml:lang="pt">País</value>
@@ -3168,6 +3396,7 @@
         <value xml:lang="de">Kreditkartennummer</value>
         <value xml:lang="en">Credit Card Number</value>
         <value xml:lang="es">Nº tarjeta de crédito</value>
+        <value xml:lang="fa">شماره کارت اعتباری</value>
         <value xml:lang="fr">Numéro de la carte de crédit</value>
         <value xml:lang="it">Numero Carta Credito</value>
         <value xml:lang="ja">クレジットカード番号</value>
@@ -3183,6 +3412,7 @@
         <value xml:lang="de">Datum String (mm/dd/yyyy)</value>
         <value xml:lang="en">Date String (mm/dd/yyyy)</value>
         <value xml:lang="es">Fecha (mm/dd/yyyy)</value>
+        <value xml:lang="fa">رشته تاریخ (dd/mm/yyyy)</value>
         <value xml:lang="fr">Caractères de datation (mm/dd/yyyy)</value>
         <value xml:lang="it">Data Stringa (mm/dd/yyyy)</value>
         <value xml:lang="ja">日付文字列 (mm/dd/yyyy)</value>
@@ -3198,6 +3428,7 @@
         <value xml:lang="de">E-Mail Adresse</value>
         <value xml:lang="en">Email Address</value>
         <value xml:lang="es">E-mail</value>
+        <value xml:lang="fa">آدرس ایمیل</value>
         <value xml:lang="fr">Adresse courriel</value>
         <value xml:lang="it">Indirizzo Email</value>
         <value xml:lang="ja">Eメールアドレス</value>
@@ -3211,6 +3442,7 @@
     <property key="SurveyQuestionType.description.ENUMERATION">
         <value xml:lang="da">Nummerering</value>
         <value xml:lang="en">Enumeration</value>
+        <value xml:lang="fa">شمارشی</value>
         <value xml:lang="fr">Enumération</value>
         <value xml:lang="it">Enumerare</value>
         <value xml:lang="ja">列挙</value>
@@ -3222,6 +3454,7 @@
     <property key="SurveyQuestionType.description.GEO">
         <value xml:lang="da">Geo liste</value>
         <value xml:lang="en">Geo List</value>
+        <value xml:lang="fa">لیست جغرافیا</value>
         <value xml:lang="it">Lista geografia</value>
         <value xml:lang="ja">位置一覧</value>
         <value xml:lang="pt">Lista de geo</value>
@@ -3234,6 +3467,7 @@
         <value xml:lang="de">Geschenkgutschein Nummer</value>
         <value xml:lang="en">Gift Card Number</value>
         <value xml:lang="es">Certificado de regalo</value>
+        <value xml:lang="fa">شماره کارت هدیه</value>
         <value xml:lang="fr">Numéro de carte cadeau</value>
         <value xml:lang="it">Numero Carta Omaggio</value>
         <value xml:lang="ja">ギフトカード番号</value>
@@ -3249,6 +3483,7 @@
         <value xml:lang="de">Numerisch (Währung)</value>
         <value xml:lang="en">Numeric (Currency)</value>
         <value xml:lang="es">Numérico (moneda)</value>
+        <value xml:lang="fa">عددی (ارز)</value>
         <value xml:lang="fr">Numérique (devise)</value>
         <value xml:lang="it">Numerico (Valuta)</value>
         <value xml:lang="ja">数字(通貨)</value>
@@ -3264,6 +3499,7 @@
         <value xml:lang="de">Numerisch (Gleitkommazahl)</value>
         <value xml:lang="en">Numeric (Float)</value>
         <value xml:lang="es">Numérico (flotante)</value>
+        <value xml:lang="fa">عددی (اعشاری)</value>
         <value xml:lang="fr">Numérique (flottant)</value>
         <value xml:lang="it">Numerico (Float)</value>
         <value xml:lang="ja">数字(浮動小数)</value>
@@ -3279,6 +3515,7 @@
         <value xml:lang="de">Numerisch (Long)</value>
         <value xml:lang="en">Numeric (Long)</value>
         <value xml:lang="es">Numérico (largo)</value>
+        <value xml:lang="fa">عددی (صحیح)</value>
         <value xml:lang="fr">Numérique (long)</value>
         <value xml:lang="it">Numerico (Long)</value>
         <value xml:lang="ja">数字(長整数)</value>
@@ -3294,6 +3531,7 @@
         <value xml:lang="de">Ausgewählte Option</value>
         <value xml:lang="en">Selected Option</value>
         <value xml:lang="es">Opción selecccionada</value>
+        <value xml:lang="fa">گزینه انتخاب‌شده</value>
         <value xml:lang="fr">Option sélectionnée</value>
         <value xml:lang="it">Opzione Selezionata</value>
         <value xml:lang="ja">選択オプション</value>
@@ -3309,6 +3547,7 @@
         <value xml:lang="de">Passwort</value>
         <value xml:lang="en">Password</value>
         <value xml:lang="es">contraseña</value>
+        <value xml:lang="fa">گذرواژه</value>
         <value xml:lang="fr">Mot de passe</value>
         <value xml:lang="it">Password</value>
         <value xml:lang="ja">パスワード</value>
@@ -3324,6 +3563,7 @@
         <value xml:lang="de">Trennlinie</value>
         <value xml:lang="en">Seperator Line</value>
         <value xml:lang="es">Separador</value>
+        <value xml:lang="fa">صف جداکننده</value>
         <value xml:lang="fr">Ligne séparatrice</value>
         <value xml:lang="it">Separatore Riga</value>
         <value xml:lang="ja">区切り線</value>
@@ -3339,6 +3579,7 @@
         <value xml:lang="de">Trenntext</value>
         <value xml:lang="en">Seperator Text</value>
         <value xml:lang="es">Seperador</value>
+        <value xml:lang="fa">متن جداکننده</value>
         <value xml:lang="fr">Texte séparateur</value>
         <value xml:lang="it">Separatore Testo</value>
         <value xml:lang="ja">区切りテキスト</value>
@@ -3352,6 +3593,7 @@
     <property key="SurveyQuestionType.description.STATE_PROVINCE">
         <value xml:lang="da">Stat/provins</value>
         <value xml:lang="en">State/Province</value>
+        <value xml:lang="fa">استان/ایالت</value>
         <value xml:lang="it">Stato/Provincia    </value>
         <value xml:lang="ja">都道府県/州/地方</value>
         <value xml:lang="pt">Estado/província</value>
@@ -3364,6 +3606,7 @@
         <value xml:lang="de">Text (mehrere Zeilen)</value>
         <value xml:lang="en">Text (multi-line)</value>
         <value xml:lang="es">Texto (multi línea)</value>
+        <value xml:lang="fa">متن (چندخطی)</value>
         <value xml:lang="fr">Texte multi-lignes</value>
         <value xml:lang="it">Testo (riga-multipla)</value>
         <value xml:lang="ja">テキスト(複数行)</value>
@@ -3379,6 +3622,7 @@
         <value xml:lang="de">Ausführlicher Text (Eine Zeile)</value>
         <value xml:lang="en">Long Text (single-line)</value>
         <value xml:lang="es">Texto (largo)</value>
+        <value xml:lang="fa">متن طولانی (تک‌خطی)</value>
         <value xml:lang="fr">Texte long (ligne-simple)</value>
         <value xml:lang="it">Testo Lungo (singola-riga)</value>
         <value xml:lang="ja">長いテキスト(1行)</value>
@@ -3394,6 +3638,7 @@
         <value xml:lang="de">Kurzer Text (Eine Zeile)</value>
         <value xml:lang="en">Short Text (single-line)</value>
         <value xml:lang="es">Texto (corto)</value>
+        <value xml:lang="fa">متن کوتاه (تک‌خطی)</value>
         <value xml:lang="fr">Texte court (ligne-simple)</value>
         <value xml:lang="it">Testo Corto (singola-riga)</value>
         <value xml:lang="ja">短いテキスト(1行)</value>
@@ -3409,6 +3654,7 @@
         <value xml:lang="de">URL</value>
         <value xml:lang="en">URL</value>
         <value xml:lang="es">URL</value>
+        <value xml:lang="fa">URL</value>
         <value xml:lang="fr">URL</value>
         <value xml:lang="it">URL</value>
         <value xml:lang="ja">URL</value>
@@ -3421,6 +3667,7 @@
     </property>
     <property key="WebSiteContentType.description.BLOG_ROOT">
         <value xml:lang="en">Blog Root</value>
+        <value xml:lang="fa">ریشه بلاگ</value>
         <value xml:lang="fr">Racine du blog</value>
         <value xml:lang="ja">ブログルート</value>
         <value xml:lang="pt">Raiz do Blog</value>
@@ -3429,6 +3676,7 @@
     </property>
     <property key="WebSiteContentType.description.DEFAULT_PAGE">
         <value xml:lang="en">Default Page</value>
+        <value xml:lang="fa">صفحه پیش‌فرض</value>
         <value xml:lang="fr">Page par défaut</value>
         <value xml:lang="ja">デフォルトページ</value>
         <value xml:lang="pt">Página padrão</value>
@@ -3437,6 +3685,7 @@
     </property>
     <property key="WebSiteContentType.description.ERROR_ROOT">
         <value xml:lang="en">Error Root</value>
+        <value xml:lang="fa">خطا ریشه</value>
         <value xml:lang="fr">Erreur</value>
         <value xml:lang="ja">エラールート</value>
         <value xml:lang="pt">Raiz de erro</value>
@@ -3445,6 +3694,7 @@
     </property>
     <property key="WebSiteContentType.description.FORUM_ROOT">
         <value xml:lang="en">Forum Root</value>
+        <value xml:lang="fa">ریشه انجمن</value>
         <value xml:lang="fr">Racine du forum</value>
         <value xml:lang="ja">フォーラムルート</value>
         <value xml:lang="pt">Raiz do Fórum</value>
@@ -3453,6 +3703,7 @@
     </property>
     <property key="WebSiteContentType.description.MENU_ROOT">
         <value xml:lang="en">Menu Root</value>
+        <value xml:lang="fa">ریشه منو</value>
         <value xml:lang="fr">Racine du menu</value>
         <value xml:lang="ja">メニュールート</value>
         <value xml:lang="pt">Menu raiz</value>
@@ -3463,6 +3714,7 @@
         <value xml:lang="da">Udgivelsespunkt</value>
         <value xml:lang="de">Veröffentlichungsort</value>
         <value xml:lang="en">Publish Point</value>
+        <value xml:lang="fa">نقطه انتشار</value>
         <value xml:lang="fr">Point de publication</value>
         <value xml:lang="it">Punto Pubblico</value>
         <value xml:lang="ja">公開場所</value>

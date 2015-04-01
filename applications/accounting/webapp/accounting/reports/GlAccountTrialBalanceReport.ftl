@@ -30,22 +30,22 @@ under the License.
                 <div style="width: 1210px;">
                     <table border=2>
                         <tr>
-                            <td align="left"><b>${uiLabelMap.FormFieldTitle_transactionDate}</b></td>
-                            <td align="left"><b>${uiLabelMap.AccountingAccountTransactionId}</b></td>
-                            <td align="left"><b>${uiLabelMap.CommonDescription}</b></td>
-                            <td align="left"><b>${uiLabelMap.AccountingTypeOfTheCurrency}</b></td>
-                            <td align="left"><b>${uiLabelMap.AccountingOriginalCurrency}</b></td>
-                            <td align="right"><b>${uiLabelMap.AccountingDebitAmount}</b></td>
-                            <td align="right"><b>${uiLabelMap.AccountingCreditAmount}</b></td>
-                            <td align="right"><b>${uiLabelMap.AccountingDebitOrCreditOfBalance}</b></td>
-                            <td align="right"><b>${uiLabelMap.AccountingBalanceOfTheAccount}</b></td>
+                            <td class="align-text"><b>${uiLabelMap.FormFieldTitle_transactionDate}</b></td>
+                            <td class="align-text"><b>${uiLabelMap.AccountingAccountTransactionId}</b></td>
+                            <td class="align-text"><b>${uiLabelMap.CommonDescription}</b></td>
+                            <td class="align-text"><b>${uiLabelMap.AccountingTypeOfTheCurrency}</b></td>
+                            <td class="align-text"><b>${uiLabelMap.AccountingOriginalCurrency}</b></td>
+                            <td class="opposite-align-text"><b>${uiLabelMap.AccountingDebitAmount}</b></td>
+                            <td class="opposite-align-text"><b>${uiLabelMap.AccountingCreditAmount}</b></td>
+                            <td class="opposite-align-text"><b>${uiLabelMap.AccountingDebitOrCreditOfBalance}</b></td>
+                            <td class="opposite-align-text"><b>${uiLabelMap.AccountingBalanceOfTheAccount}</b></td>
                         </tr>
                         <tr class="header-row">
                             <td colspan=2></td>
                             <td colspan=3 align="center"><b>${uiLabelMap.AccountingTheBalanceOfLastYear}</b></td>
                             <td colspan=2></td>
-                            <td ALIGN="right"><b><#if (isDebitAccount)>${uiLabelMap.AccountingDebitFlag}<#else>${uiLabelMap.AccountingCreditFlag}</#if></b></td>
-                            <td ALIGN="right">${(openingBalance)!}</td>
+                            <td class="opposite-align-text"><b><#if (isDebitAccount)>${uiLabelMap.AccountingDebitFlag}<#else>${uiLabelMap.AccountingCreditFlag}</#if></b></td>
+                            <td class="opposite-align-text">${(openingBalance)!}</td>
                         </tr>
                         <#list glAcctgTrialBalanceList as glAcctgTrialBalance>
                         
@@ -53,32 +53,32 @@ under the License.
                             <#if acctgTransAndEntries?has_content>
                                 <#list acctgTransAndEntries as acctgTransAndEntry>
                                 <tr>
-                                    <td ALIGN="left">${(acctgTransAndEntry.transactionDate)!}</td>
-                                    <td ALIGN="left">${(acctgTransAndEntry.acctgTransId)!}</td>
-                                    <td ALIGN="left">${(acctgTransAndEntry.transDescription)!}</td>
-                                    <td ALIGN="left">${(acctgTransAndEntry.currencyUomId)!}</td>
-                                    <td ALIGN="left">${(acctgTransAndEntry.origCurrencyUomId)!}</td>
-                                    <td ALIGN="right"><#if (acctgTransAndEntry.debitCreditFlag)! == "D">${(acctgTransAndEntry.amount)!}<#else>0</#if></td>
-                                    <td ALIGN="right"><#if (acctgTransAndEntry.debitCreditFlag)! == "C">${(acctgTransAndEntry.amount)!}<#else>0</#if></td>
-                                    <td ALIGN="right"></td>
-                                    <td ALIGN="right"></td>
+                                    <td class="align-text">${(acctgTransAndEntry.transactionDate)!}</td>
+                                    <td class="align-text">${(acctgTransAndEntry.acctgTransId)!}</td>
+                                    <td class="align-text">${(acctgTransAndEntry.transDescription)!}</td>
+                                    <td class="align-text">${(acctgTransAndEntry.currencyUomId)!}</td>
+                                    <td class="align-text">${(acctgTransAndEntry.origCurrencyUomId)!}</td>
+                                    <td class="opposite-align-text"><#if (acctgTransAndEntry.debitCreditFlag)! == "D">${(acctgTransAndEntry.amount)!}<#else>0</#if></td>
+                                    <td class="opposite-align-text"><#if (acctgTransAndEntry.debitCreditFlag)! == "C">${(acctgTransAndEntry.amount)!}<#else>0</#if></td>
+                                    <td class="opposite-align-text"></td>
+                                    <td class="opposite-align-text"></td>
                                 </tr>
                                 </#list>
                                 <tr class="header-row">
                                     <td colspan=2></td>
                                     <td colspan=3 ALIGN="center"><b>${uiLabelMap.AccountingTotalOfTheCurrentMonth}</b></td>
-                                    <td ALIGN="right" colspan=1><b>${(glAcctgTrialBalance.debitTotal)!}</b></td>
-                                    <td ALIGN="right" colspan=1><b>${(glAcctgTrialBalance.creditTotal)!}</b></td>
-                                    <td ALIGN="right" colspan=1><b><#if (isDebitAccount)>${uiLabelMap.AccountingDebitFlag}<#else>${uiLabelMap.AccountingCreditFlag}</#if></b></td>
-                                    <td ALIGN="right" colspan=1><b>${(glAcctgTrialBalance.balance)!}</b></td>
+                                    <td class="opposite-align-text" colspan=1><b>${(glAcctgTrialBalance.debitTotal)!}</b></td>
+                                    <td class="opposite-align-text" colspan=1><b>${(glAcctgTrialBalance.creditTotal)!}</b></td>
+                                    <td class="opposite-align-text" colspan=1><b><#if (isDebitAccount)>${uiLabelMap.AccountingDebitFlag}<#else>${uiLabelMap.AccountingCreditFlag}</#if></b></td>
+                                    <td class="opposite-align-text" colspan=1><b>${(glAcctgTrialBalance.balance)!}</b></td>
                                 </tr>
                                 <tr class="header-row">
                                     <td colspan=2></td>
                                     <td ALIGN="center" colspan=3><b>${uiLabelMap.AccountingTotalOfYearToDate}</b></td>
-                                    <td ALIGN="right"><b>${glAcctgTrialBalance.totalOfYearToDateDebit}</b></td>
-                                    <td ALIGN="right"><b>${glAcctgTrialBalance.totalOfYearToDateCredit}</b></td>
-                                    <td ALIGN="right"><b><#if (isDebitAccount)>${uiLabelMap.AccountingDebitFlag}<#else>${uiLabelMap.AccountingCreditFlag}</#if></b></td>
-                                    <td ALIGN="right"><b>${(glAcctgTrialBalance.balanceOfTheAcctgForYear)!}</b></td>
+                                    <td class="opposite-align-text"><b>${glAcctgTrialBalance.totalOfYearToDateDebit}</b></td>
+                                    <td class="opposite-align-text"><b>${glAcctgTrialBalance.totalOfYearToDateCredit}</b></td>
+                                    <td class="opposite-align-text"><b><#if (isDebitAccount)>${uiLabelMap.AccountingDebitFlag}<#else>${uiLabelMap.AccountingCreditFlag}</#if></b></td>
+                                    <td class="opposite-align-text"><b>${(glAcctgTrialBalance.balanceOfTheAcctgForYear)!}</b></td>
                                 </tr>
                             </#if>
                         </#list>

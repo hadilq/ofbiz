@@ -31,7 +31,7 @@ under the License.
             <td><b>${uiLabelMap.ProductFeatureType}</b></td>
             <td><b>${uiLabelMap.ProductIdSeqNum}</b></td>
             <td><b>${uiLabelMap.ProductIdCode}</b></td>
-            <td align="right"><b>${uiLabelMap.CommonAll}<input type="checkbox" name="selectAll" value="Y" checked="checked" onclick="javascript:toggleAll(this, 'selectAllForm');highlightAllRows(this, 'productFeatureTypeId_tableRow_', 'selectAllForm');" /></td>
+            <td class="opposite-align-text"><b>${uiLabelMap.CommonAll}<input type="checkbox" name="selectAll" value="Y" checked="checked" onclick="javascript:toggleAll(this, 'selectAllForm');highlightAllRows(this, 'productFeatureTypeId_tableRow_', 'selectAllForm');" /></td>
           </tr>
         <#assign rowClass = "2">
         <#list 0..featureNum-1 as feature>
@@ -46,7 +46,7 @@ under the License.
               </td>
               <td><input type="text" size='5' name="defaultSequenceNum_o_${feature_index}"" /></td>
               <td><input type="text" size='5' name="idCode_o_${feature_index}" /></td>
-              <td align="right"><input type="checkbox" name="_rowSubmit_o_${feature_index}" value="Y" checked="checked" onclick="javascript:checkToggle(this, 'selectAllForm');highlightRow(this,'productFeatureTypeId_tableRow_${feature_index}');" /></td>
+              <td class="opposite-align-text"><input type="checkbox" name="_rowSubmit_o_${feature_index}" value="Y" checked="checked" onclick="javascript:checkToggle(this, 'selectAllForm');highlightRow(this,'productFeatureTypeId_tableRow_${feature_index}');" /></td>
           </tr>
           <#-- toggle the row color -->
           <#if rowClass == "2">

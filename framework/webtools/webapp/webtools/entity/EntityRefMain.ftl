@@ -16,10 +16,10 @@ KIND, either express or implied.  See the License for the
 specific language governing permissions and limitations
 under the License.
 -->
-<#assign docLangAttr = locale.toString()?replace("_", "-")>
-<#assign RightToLeftLocales = Static["org.ofbiz.base.util.UtilMisc"].RightToLeftLocales()/>
+<#assign docLangAttr = locale.toLanguageTag()>
+<#assign rightToLeftLocales = Static["org.ofbiz.base.util.UtilMisc"].rightToLeftLocales()/>
 <#assign langDir = "ltr">
-<#if RightToLeftLocales?contains(docLangAttr?substring(0, 2))>
+<#if rightToLeftLocales?contains(docLangAttr?substring(0, 2))>
     <#assign langDir = "rtl">
 </#if>
 <#assign forstatic = false/>

@@ -242,7 +242,7 @@ public class ScreenRenderer {
         TaglibFactory JspTaglibs = new TaglibFactory(servletContext);
         context.put("JspTaglibs", JspTaglibs);
         context.put("requestParameters",  UtilHttp.getParameterMap(request));
-        
+
         ServletContextHashModel ftlServletContext = (ServletContextHashModel) request.getAttribute("ftlServletContext");
         context.put("Application", ftlServletContext);
         context.put("Request", context.get("requestAttributes"));

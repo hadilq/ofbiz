@@ -54,7 +54,7 @@ under the License.
         <#if preContactMechTypeId?exists><input type="hidden" name="preContactMechTypeId" value="${preContactMechTypeId}" /></#if>
         <#if contactMechPurposeTypeId?exists><input type="hidden" name="contactMechPurposeTypeId" value="${contactMechPurposeTypeId?if_exists}" /></#if>
         <#if paymentMethodId?has_content><input type='hidden' name='paymentMethodId' value='${paymentMethodId}' /></#if>
-  <#else>  
+  <#else>
     <h1>${uiLabelMap.PartyEditContactInformation}</h1>
     <div id="mech-purpose-types">
       <table class="basic-table" cellspacing="0">
@@ -73,18 +73,18 @@ under the License.
                       <#else>
                         ${uiLabelMap.PartyPurposeTypeNotFound}: "${partyContactMechPurpose.contactMechPurposeTypeId}"
                       </#if>
-                      (${uiLabelMap.CommonSince}:${partyContactMechPurpose.fromDate.toString()})
-                      <#if partyContactMechPurpose.thruDate?has_content>(${uiLabelMap.CommonExpire}: ${partyContactMechPurpose.thruDate.toString()}</#if>
+                      (${uiLabelMap.CommonSince}:${Static["org.ofbiz.base.util.UtilDateTime"].toDateTimeStringByContext(partyContactMechPurpose.fromDate, context)})
+                      <#if partyContactMechPurpose.thruDate?has_content>(${uiLabelMap.CommonExpire}: ${Static["org.ofbiz.base.util.UtilDateTime"].toDateTimeStringByContext(partyContactMechPurpose.thruDate, context)}</#if>
                     </td>
                     <td class="button-col">
                       <form name="deletePartyContactMechPurpose_${partyContactMechPurpose.contactMechPurposeTypeId}" method="post" action="<@ofbizUrl>deletePartyContactMechPurpose</@ofbizUrl>" >
                          <input type="hidden" name="partyId" value="${partyId}" />
                          <input type="hidden" name="contactMechId" value="${contactMechId}" />
                          <input type="hidden" name="contactMechPurposeTypeId" value="${partyContactMechPurpose.contactMechPurposeTypeId}" />
-                         <input type="hidden" name="fromDate" value="${partyContactMechPurpose.fromDate.toString()}" />
+                         <input type="hidden" name="fromDate" value="${Static["org.ofbiz.base.util.UtilDateTime"].toDateTimeStringByContext(partyContactMechPurpose.fromDate, context)}" />
                          <input type="hidden" name="DONE_PAGE" value="${donePage?replace("=","%3d")}" />
                          <input type="hidden" name="useValues" value="true" />
-                         <a href="javascript:document.deletePartyContactMechPurpose_${partyContactMechPurpose.contactMechPurposeTypeId}.submit()" class="buttontext">${uiLabelMap.CommonDelete}</a> 
+                         <a href="javascript:document.deletePartyContactMechPurpose_${partyContactMechPurpose.contactMechPurposeTypeId}.submit()" class="buttontext">${uiLabelMap.CommonDelete}</a>
                        </form>
                     </td>
                   </tr>
@@ -160,12 +160,12 @@ under the License.
         <input type="text" size="30" maxlength="60" name="postalCode" value="${(mechMap.postalAddress.postalCode)?default(request.getParameter('postalCode')?if_exists)}" />
       </td>
     </tr>
-    <tr>   
+    <tr>
       <td class="label">${uiLabelMap.CommonCountry}</td>
-      
-      <td>     
+
+      <td>
         <select name="countryGeoId" id="editcontactmechform_countryGeoId">
-          ${screens.render("component://common/widget/CommonScreens.xml#countries")}        
+          ${screens.render("component://common/widget/CommonScreens.xml#countries")}
           <#if (mechMap.postalAddress?exists) && (mechMap.postalAddress.countryGeoId?exists)>
             <#assign defaultCountryGeoId = mechMap.postalAddress.countryGeoId>
           <#else>

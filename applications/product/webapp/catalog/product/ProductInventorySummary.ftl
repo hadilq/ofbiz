@@ -68,7 +68,7 @@ under the License.
                         <td>
                             <#if incomingShipmentAndItemList?has_content>
                                 <#list incomingShipmentAndItemList as incomingShipmentAndItem>
-                                    <div>${incomingShipmentAndItem.shipmentId}:${incomingShipmentAndItem.shipmentItemSeqId}-${(incomingShipmentAndItem.estimatedArrivalDate.toString())?if_exists}-<#if incomingShipmentAndItem.quantity?exists>${incomingShipmentAndItem.quantity?string.number}<#else>[${uiLabelMap.ProductQuantityNotSet}]</#if></div>
+                                    <div>${incomingShipmentAndItem.shipmentId}:${incomingShipmentAndItem.shipmentItemSeqId}-${(Static["org.ofbiz.base.util.UtilDateTime"].toDateTimeStringByContext(incomingShipmentAndItem.estimatedArrivalDate, context))?if_exists}-<#if incomingShipmentAndItem.quantity?exists>${incomingShipmentAndItem.quantity?string.number}<#else>[${uiLabelMap.ProductQuantityNotSet}]</#if></div>
                                 </#list>
                             <#else>
                                 <div>&nbsp;</div>
@@ -77,7 +77,7 @@ under the License.
                         <td>
                             <#if incomingProductionRunList?has_content>
                                 <#list incomingProductionRunList as incomingProductionRun>
-                                    <div>${incomingProductionRun.workEffortId}-${(incomingProductionRun.estimatedCompletionDate.toString())?if_exists}-<#if incomingProductionRun.estimatedQuantity?exists>${incomingProductionRun.estimatedQuantity?string.number}<#else>[${uiLabelMap.ProductQuantityNotSet}]</#if></div>
+                                    <div>${incomingProductionRun.workEffortId}-${(Static["org.ofbiz.base.util.UtilDateTime"].toDateTimeStringByContext(incomingProductionRun.estimatedCompletionDate, context))?if_exists}-<#if incomingProductionRun.estimatedQuantity?exists>${incomingProductionRun.estimatedQuantity?string.number}<#else>[${uiLabelMap.ProductQuantityNotSet}]</#if></div>
                                 </#list>
                                 <div><b>${uiLabelMap.CommonTotal}:&nbsp;${incomingQuantityTotal?if_exists}</b></div>
                             <#else>
@@ -87,7 +87,7 @@ under the License.
                         <td>
                             <#if outgoingProductionRunList?has_content>
                                 <#list outgoingProductionRunList as outgoingProductionRun>
-                                    <div>${outgoingProductionRun.workEffortParentId?default("")}:${outgoingProductionRun.workEffortId}-${(outgoingProductionRun.estimatedStartDate.toString())?if_exists}-<#if outgoingProductionRun.estimatedQuantity?exists>${outgoingProductionRun.estimatedQuantity?string.number}<#else>[${uiLabelMap.ProductQuantityNotSet}]</#if></div>
+                                    <div>${outgoingProductionRun.workEffortParentId?default("")}:${outgoingProductionRun.workEffortId}-${(Static["org.ofbiz.base.util.UtilDateTime"].toDateTimeStringByContext(outgoingProductionRun.estimatedStartDate, context))?if_exists}-<#if outgoingProductionRun.estimatedQuantity?exists>${outgoingProductionRun.estimatedQuantity?string.number}<#else>[${uiLabelMap.ProductQuantityNotSet}]</#if></div>
                                 </#list>
                                 <div><b>${uiLabelMap.CommonTotal}:&nbsp;${outgoingQuantityTotal?if_exists}</b></div>
                             <#else>

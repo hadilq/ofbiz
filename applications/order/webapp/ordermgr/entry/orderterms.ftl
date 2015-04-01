@@ -44,7 +44,7 @@ under the License.
                                         <td align="center">${orderTerm.termDays?if_exists}</td>
                                         <td nowrap="nowrap">${orderTerm.textValue?if_exists}</td>
                                         <td nowrap="nowrap">${orderTerm.description?if_exists}</td>
-                                        <td align="right">
+                                        <td class="opposite-align-text">
                                             <a href="<@ofbizUrl>setOrderTerm?termIndex=${orderTerm_index}&amp;createNew=Y</@ofbizUrl>" class="buttontext">${uiLabelMap.CommonUpdate}</a>
                                             <a href="<@ofbizUrl>removeCartOrderTerm?termIndex=${orderTerm_index}</@ofbizUrl>" class="buttontext">${uiLabelMap.CommonRemove}</a>
                                         </td>
@@ -61,7 +61,7 @@ under the License.
                                 <input type="hidden" name="termIndex" value="${termIndex?if_exists}" />
                                 <table class="basic-table">
                                     <tr>
-                                        <td width="26%" align="right" valign="top">
+                                        <td width="26%" class="opposite-align-text" valign="top">
                                             ${uiLabelMap.OrderOrderTermType}
                                         </td>
                                         <td width="5">&nbsp;</td>
@@ -77,7 +77,7 @@ under the License.
                                         </td>
                                     </tr>
                                     <tr>
-                                    <td width="26%" align="right" valign="top">
+                                    <td width="26%" class="opposite-align-text" valign="top">
                                         ${uiLabelMap.OrderOrderTermValue}
                                     </td>
                                     <td width="5">&nbsp;</td>
@@ -86,7 +86,7 @@ under the License.
                                     </td>
                                     </tr>
                                     <tr>
-                                        <td width="26%" align="right" valign="top">
+                                        <td width="26%" class="opposite-align-text" valign="top">
                                             ${uiLabelMap.OrderOrderTermDays}
                                         </td>
                                         <td width="5">&nbsp;</td>
@@ -95,7 +95,7 @@ under the License.
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td width="26%" align="right" valign="top">
+                                        <td width="26%" class="opposite-align-text" valign="top">
                                             ${uiLabelMap.OrderOrderTextValue}
                                         </td>
                                         <td width="5">&nbsp;</td>
@@ -104,7 +104,7 @@ under the License.
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td width="26%" align="right" valign="top">
+                                        <td width="26%" class="opposite-align-text" valign="top">
                                             ${uiLabelMap.CommonDescription}
                                         </td>
                                         <td width="5">&nbsp;</td>
@@ -113,7 +113,7 @@ under the License.
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td width="26%" align="right" valign="top">&nbsp;</td>
+                                        <td width="26%" class="opposite-align-text" valign="top">&nbsp;</td>
                                         <td width="5">&nbsp;</td>
                                         <td width="74%">
                                             <input type="submit" class="smallSubmit" value="${uiLabelMap.CommonAdd}" />

@@ -8,7 +8,6 @@
     to you under the Apache License, Version 2.0 (the
     "License"); you may not use this file except in compliance
     with the License.  You may obtain a copy of the License at
-
     http://www.apache.org/licenses/LICENSE-2.0
 
     Unless required by applicable law or agreed to in writing,
@@ -21,12 +20,14 @@
 <resource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://ofbiz.apache.org/dtds/ofbiz.properties.xsd">
     <property key="ConnectionPoolStatus">
         <value xml:lang="en">Connection Pool Status</value>
+        <value xml:lang="fa">وضعیت استخر اتصال</value>
         <value xml:lang="ja">接続プールステータス</value>
         <value xml:lang="vi">Trạng thái chia sẻ kết nối cơ sở dữ liệu</value>
         <value xml:lang="zh">连接池状态</value>
     </property>
     <property key="EntityImportDeletFile">
         <value xml:lang="en">Deleting ${fileName}</value>
+        <value xml:lang="fa">پاک‌کردن ${fileName}</value>
         <value xml:lang="it">Stò cancellando il file ${fileName}</value>
         <value xml:lang="ja">${fileName} を削除しています</value>
         <value xml:lang="vi">Đang xóa ${fileName}</value>
@@ -34,6 +35,7 @@
     </property>
     <property key="EntityImportErrorRetrievingEntityNames">
         <value xml:lang="en">Error retrieving entity names.</value>
+        <value xml:lang="fa">خطا در بازیابی نام‌های نهاد</value>
         <value xml:lang="it">Errore nell'ottenere i nome delle entità.</value>
         <value xml:lang="ja">エンティティ名取得中にエラー</value>
         <value xml:lang="vi">Lỗi khi lấy tên Thực thể.</value>
@@ -41,6 +43,7 @@
     </property>
     <property key="EntityImportFailedFile">
         <value xml:lang="en">Failed ${fileName} adding to retry list for next pass</value>
+        <value xml:lang="fa">شکست در اضافه‌کردن ${fileName} به لیست تلاش‌مجدد برای دادن دوباره</value>
         <value xml:lang="it">Fallita ${fileName} aggiunta alla lista di riprova al successivo passaggio</value>
         <value xml:lang="ja">${fileName} を次のパスのリトライリストに追加中に失敗</value>
         <value xml:lang="vi">Tập tin ${fileName} không thành công đã được thêm vào Danh sách để Xử lý tiếp sau</value>
@@ -48,6 +51,7 @@
     </property>
     <property key="EntityImportFailedFileList">
         <value xml:lang="en">Failed Files:</value>
+        <value xml:lang="fa">شکست فایل‌های:</value>
         <value xml:lang="it">Lista file che hanno avuto fallimento:</value>
         <value xml:lang="ja">失敗したファイル: </value>
         <value xml:lang="vi">Tập tin không thành công:</value>
@@ -55,6 +59,7 @@
     </property>
     <property key="EntityImportFailedNumberFile">
         <value xml:lang="en">Failed: ${failed} of ${total}</value>
+        <value xml:lang="fa">شکست: ${failed} از ${total}</value>
         <value xml:lang="it">Failed: ${failed} di ${total}</value>
         <value xml:lang="ja">失敗: ${failed} / ${total}</value>
         <value xml:lang="vi">Không thành công: ${failed} của tổng ${total}</value>
@@ -62,6 +67,7 @@
     </property>
     <property key="EntityImportNoDataSourceSpecified">
         <value xml:lang="en">Unable to locate the datasource helper for the group ${groupNameToUse}</value>
+        <value xml:lang="fa">نمی‌توان کمک‌کننده منبع‌داده را برای گروه ${groupNameToUse} مشخص‌نمود</value>
         <value xml:lang="it">Non è possibile localizzare la sorgente dati per il gruppo ${groupNameToUse}</value>
         <value xml:lang="ja">グループ ${groupNameToUse} に対するデータソースヘルパーの確立ができません</value>
         <value xml:lang="vi">Không thể tìm thấy 'datasource helper' cho nhóm ${groupNameToUse}</value>
@@ -69,6 +75,7 @@
     </property>
     <property key="EntityImportNoXmlFileOrTextSpecified">
         <value xml:lang="en">No entity xml file or text specified</value>
+        <value xml:lang="fa">هیچ فایل XML نهاد یا متنی مشخص‌نشده‌است</value>
         <value xml:lang="it">Nessun file xml entità o testo specificato</value>
         <value xml:lang="ja">エンティティXMLファイルまたはテキストが指定されていません</value>
         <value xml:lang="vi">Không XML hoặc Văn bản nào của Thực thể được xác định</value>
@@ -76,6 +83,7 @@
     </property>
     <property key="EntityImportNoXmlFileSpecified">
         <value xml:lang="en">No filename/URL or complete XML document specified, doing nothing.</value>
+        <value xml:lang="fa">هیچ نام‌فایل/URL یا سند XML کامل، مشخص‌نشده‌است. هیچ‌کاری انجام‌نشد.</value>
         <value xml:lang="it">Nessun nome file/URL o documento XML completo specificato, nientre verrà fatto.</value>
         <value xml:lang="ja">ファイル名/URLまたは完全なXML文書が指定されていません。処理を行いません。</value>
         <value xml:lang="vi">Không Tập tin/URL hoặc tài liệu XML hoàn chỉnh nào được xác định nên hệ thống sẽ không làm gì cả.</value>
@@ -83,6 +91,7 @@
     </property>
     <property key="EntityImportNumberOfEntityToBeProcessed">
         <value xml:lang="en">Got ${numberRead} entities from ${fileName}</value>
+        <value xml:lang="fa">نهادهای ${numberRead} از ${fileName} گرفته‌شده‌اند</value>
         <value xml:lang="it">Ottenute ${numberRead} entità da ${fileName}</value>
         <value xml:lang="ja">${fileName} から ${numberRead} エンティティ取得しました</value>
         <value xml:lang="vi">Nhận ${numberRead} Thực thể từ Tập tin ${fileName}</value>
@@ -90,6 +99,7 @@
     </property>
     <property key="EntityImportParsingError">
         <value xml:lang="en">ERROR parsing Entity Xml file: ${errorString}</value>
+        <value xml:lang="fa">خطا در تجزیه فایل XML نهاد: ${errorString}</value>
         <value xml:lang="it">ERRORE di parsing file entità XML: ${errorString}</value>
         <value xml:lang="ja">エンティティXMLファイルパース時にエラー: ${errorString}</value>
         <value xml:lang="vi">LỖI khi phân tích tập tin XML Thực thể: ${errorString}</value>
@@ -97,6 +107,7 @@
     </property>
     <property key="EntityImportPassedFile">
         <value xml:lang="en">Pass ${passes} complete</value>
+        <value xml:lang="fa">دادن ${passes} کامل‌شد</value>
         <value xml:lang="it">Passati ${passes} completati</value>
         <value xml:lang="ja">パス ${passes} 完了しました</value>
         <value xml:lang="vi">Xử lý ${passes} hoàn thành</value>
@@ -104,6 +115,7 @@
     </property>
     <property key="EntityImportPathNotFound">
         <value xml:lang="en">path not found or can't be read</value>
+        <value xml:lang="fa">مسیر پیدانشد یا خواندنی نیست</value>
         <value xml:lang="it">path non trovato o non può essere letto</value>
         <value xml:lang="ja">パスが見つからないか読み込みできません</value>
         <value xml:lang="vi">đường dẫn không tìm thấy hoặc không thể đọc nội dung</value>
@@ -111,6 +123,7 @@
     </property>
     <property key="EntityImportPathNotSpecified">
         <value xml:lang="en">No path specified, doing nothing.</value>
+        <value xml:lang="fa">هیچ مسیری مشخص‌نشده‌است، هیچ‌کاری انجام‌نشد.</value>
         <value xml:lang="it">Nessun path specificato, non verrà fatto niente.</value>
         <value xml:lang="ja">パスが指定されていません。処理を行いません。</value>
         <value xml:lang="vi">Không xác định Đường dẫn nên hệ thống không làm gì cả.</value>
@@ -118,6 +131,7 @@
     </property>
     <property key="EntityImportRowProcessed">
         <value xml:lang="en">Got ${numberRead} entities to write to the datasource.</value>
+        <value xml:lang="fa">نهادهای ${numberRead} برای نوشتن در منبع داده گرفته‌شده‌اند.</value>
         <value xml:lang="it">Ottenute ${numberRead} entità da scrivere sulla sorgente dati.</value>
         <value xml:lang="ja">エンティティデータソースに書き込むため ${numberRead} 取得しました</value>
         <value xml:lang="vi">Nhận ${numberRead} Thực thể để ghi đến Kết nối dữ liệu (datasource).</value>
@@ -125,6 +139,7 @@
     </property>
     <property key="EntityImportSucceededNumberFile">
         <value xml:lang="en">Succeeded: ${succeeded} of ${total}</value>
+        <value xml:lang="fa">با‌موفقیت: ${succeeded} از ${total}</value>
         <value xml:lang="it">Successo: ${succeeded} di ${total}</value>
         <value xml:lang="ja">成功: ${succeeded} / ${total}</value>
         <value xml:lang="vi">Thành công: ${succeeded} trên tổng số ${total}</value>
@@ -133,6 +148,7 @@
     <property key="FormFieldTitle_date1">
         <value xml:lang="de">Datum1</value>
         <value xml:lang="en">date1</value>
+        <value xml:lang="fa">تاریخ۱</value>
         <value xml:lang="it">data 1</value>
         <value xml:lang="ja">日付1</value>
         <value xml:lang="pt">data1</value>
@@ -143,6 +159,7 @@
     <property key="FormFieldTitle_date2">
         <value xml:lang="de">Datum2</value>
         <value xml:lang="en">date2</value>
+        <value xml:lang="fa">تاریخ۲</value>
         <value xml:lang="it">data 2</value>
         <value xml:lang="ja">日付2</value>
         <value xml:lang="pt">data2</value>
@@ -153,6 +170,7 @@
     <property key="FormFieldTitle_entityGroupId">
         <value xml:lang="de">Entität Gruppen ID</value>
         <value xml:lang="en">Entity Group Id</value>
+        <value xml:lang="fa">آی‌دی گروه نهاد</value>
         <value xml:lang="it">Gruppo entità</value>
         <value xml:lang="ja">エンティテイグループID</value>
         <value xml:lang="pt">ID do Grupo da Entity</value>
@@ -163,6 +181,7 @@
     <property key="FormFieldTitle_entitySyncId">
         <value xml:lang="de">Entität Synch. ID</value>
         <value xml:lang="en">Entity Sync Id</value>
+        <value xml:lang="fa">آی‌دی همزمان‌کننده نهاد</value>
         <value xml:lang="fr">Réf. de synchro. d'entités</value>
         <value xml:lang="it">Codice entità Sincr.</value>
         <value xml:lang="ja">エンティテイ同期ID</value>
@@ -176,6 +195,7 @@
     <property key="FormFieldTitle_eomodeldFullPath">
         <value xml:lang="de">EoModell abs. Pfad</value>
         <value xml:lang="en">EoModel Full Path</value>
+        <value xml:lang="fa">مسیر کامل «مدل EO»</value>
         <value xml:lang="it">Path completo EoModel</value>
         <value xml:lang="ja">EoModelフルパス</value>
         <value xml:lang="pt">Caminho completo EoModel</value>
@@ -186,6 +206,7 @@
     <property key="FormFieldTitle_exprAssocType">
         <value xml:lang="de">Ausdruck Verknüpfungstyp</value>
         <value xml:lang="en">Expr Assoc Type</value>
+        <value xml:lang="fa">نوع همبستگی گزاره</value>
         <value xml:lang="it">Tipo associazione espressione</value>
         <value xml:lang="ja">表現割当種類</value>
         <value xml:lang="pt">Tipo de associaÃ§Ã£o da expressÃ£o</value>
@@ -196,6 +217,7 @@
     <property key="FormFieldTitle_forPullOnly">
         <value xml:lang="de">Nur für Pull-Betrieb</value>
         <value xml:lang="en">For Pull Only</value>
+        <value xml:lang="fa">فقط برای گرفتن</value>
         <value xml:lang="fr">Pour le retrait seulement</value>
         <value xml:lang="it">Per Prelievo Solo</value>
         <value xml:lang="ja">出力のみ</value>
@@ -209,6 +231,7 @@
     <property key="FormFieldTitle_forPushOnly">
         <value xml:lang="de">Nur für Push-Betrieb</value>
         <value xml:lang="en">For Push Only</value>
+        <value xml:lang="fa">فقط برای هل‌دادن</value>
         <value xml:lang="fr">Pour l'ajout seulement</value>
         <value xml:lang="it">Per Caricamento Solo</value>
         <value xml:lang="ja">入力のみ</value>
@@ -222,6 +245,7 @@
     <property key="FormFieldTitle_integer1">
         <value xml:lang="de">Integer1</value>
         <value xml:lang="en">integer1</value>
+        <value xml:lang="fa">عددصحیح۱</value>
         <value xml:lang="it">intero 1</value>
         <value xml:lang="ja">整数1</value>
         <value xml:lang="pt">INTEIRO1</value>
@@ -232,6 +256,7 @@
     <property key="FormFieldTitle_integer2">
         <value xml:lang="de">Integer2</value>
         <value xml:lang="en">integer2</value>
+        <value xml:lang="fa">عددصحیح۲</value>
         <value xml:lang="it">intero 2</value>
         <value xml:lang="ja">整数2</value>
         <value xml:lang="vi">Số nguyên2</value>
@@ -241,6 +266,7 @@
     <property key="FormFieldTitle_keepRemoveInfoHours">
         <value xml:lang="de">Info-Stunden beibehalten/entfernen</value>
         <value xml:lang="en">Keep Remove Info Hours</value>
+        <value xml:lang="fa">ساعت‌های اطلاعات را تا آخر حذف‌کن</value>
         <value xml:lang="fr">Maintenir le retrait des heures d'information</value>
         <value xml:lang="it">Mantieni gli orari delle informazioni eliminate</value>
         <value xml:lang="ja">保持削除情報時間</value>
@@ -253,6 +279,7 @@
     <property key="FormFieldTitle_lastHistoryStartDate">
         <value xml:lang="de">Letztes Startdatum Historie</value>
         <value xml:lang="en">Last History Start Date</value>
+        <value xml:lang="fa">آخرین تاریخ شروع تاریخچه</value>
         <value xml:lang="fr">Dernier historique de date de départ</value>
         <value xml:lang="it">Ultima data inizio storia</value>
         <value xml:lang="ja">最終履歴起動日</value>
@@ -266,6 +293,7 @@
     <property key="FormFieldTitle_lastSuccessfulSynchTime">
         <value xml:lang="de">Letzte erfolgreiche Synchronisierung</value>
         <value xml:lang="en">Last Successful Synch Time</value>
+        <value xml:lang="fa">آخرین زمان همزمان‌کردن باموفقیت</value>
         <value xml:lang="fr">Dernière réussite de temps synchro.</value>
         <value xml:lang="it">Ultimo orario sincr. con successo</value>
         <value xml:lang="ja">最終成功同期時間</value>
@@ -279,6 +307,7 @@
     <property key="FormFieldTitle_maxRunningNoUpdateMillis">
         <value xml:lang="de">Maximale Zeit ohne Update</value>
         <value xml:lang="en">Max Running No Update Millis</value>
+        <value xml:lang="fa">بیشینه اجراء بدون بروزرسانی به میلی‌ثانیه</value>
         <value xml:lang="fr">Fonctionnement maximum sans mise à jour millis.</value>
         <value xml:lang="it">Massima esecuzione senza aggiornamento millis</value>
         <value xml:lang="ja">最大実行番号更新ミリ秒</value>
@@ -292,6 +321,7 @@
     <property key="FormFieldTitle_offlineSyncSplitMillis">
         <value xml:lang="de">Offline Synchronisationssplit [ms]</value>
         <value xml:lang="en">Offline Sync Split Millis</value>
+        <value xml:lang="fa">تقسیم‌کردن همزمانی آفلاین به میلی‌ثانیه</value>
         <value xml:lang="fr">Synch. divisée en différé millis.</value>
         <value xml:lang="it">Sincr. offline split millis</value>
         <value xml:lang="ja">オフライン同期分離ミリ秒</value>
@@ -304,6 +334,7 @@
     <property key="FormFieldTitle_preOfflineSynchTime">
         <value xml:lang="de">Synchzeit vor Offline</value>
         <value xml:lang="en">Pre Offline Synch Time</value>
+        <value xml:lang="fa">قبل از زمان همزمانی آفلاین</value>
         <value xml:lang="fr">Pré-différé de temps synchro.</value>
         <value xml:lang="it">Pre Offline Tempo Sincr.</value>
         <value xml:lang="ja">オフライン前同期時間</value>
@@ -317,6 +348,7 @@
     <property key="FormFieldTitle_runStatusId">
         <value xml:lang="de">Laufzeitstatus ID</value>
         <value xml:lang="en">Run Status Id</value>
+        <value xml:lang="fa">آی‌دی وضعیت اجراء</value>
         <value xml:lang="fr">Réf. de statut en cours</value>
         <value xml:lang="it">Stato Esecuzione</value>
         <value xml:lang="ja">実行ステータスID</value>
@@ -330,6 +362,7 @@
     <property key="FormFieldTitle_string1">
         <value xml:lang="de">String1</value>
         <value xml:lang="en">string1</value>
+        <value xml:lang="fa">رشته۱</value>
         <value xml:lang="it">stringa 1</value>
         <value xml:lang="ja">文字列1</value>
         <value xml:lang="pt">string1</value>
@@ -340,6 +373,7 @@
     <property key="FormFieldTitle_string2">
         <value xml:lang="de">String2</value>
         <value xml:lang="en">string2</value>
+        <value xml:lang="fa">رشته۲</value>
         <value xml:lang="it">stringa 2</value>
         <value xml:lang="ja">文字列2</value>
         <value xml:lang="pt">string2</value>
@@ -350,6 +384,7 @@
     <property key="FormFieldTitle_syncEndBufferMillis">
         <value xml:lang="de">Synch Endpuffer Millis.</value>
         <value xml:lang="en">Sync End Buffer Millis</value>
+        <value xml:lang="fa">بافر پایان همزمان‌کردن به میلی‌ثانیه</value>
         <value xml:lang="fr">Sync. fin de tampon millis.</value>
         <value xml:lang="it">Fine Sincr. End Buffer Millis</value>
         <value xml:lang="ja">同期終了バッファミリ秒</value>
@@ -362,6 +397,7 @@
     <property key="FormFieldTitle_syncSplitMillis">
         <value xml:lang="de">Synch Split Millis</value>
         <value xml:lang="en">Sync Split Millis</value>
+        <value xml:lang="fa">تقسیم‌کردن همزمان‌کننده به میلی‌ثانیه</value>
         <value xml:lang="fr">Sync. divisé millis.</value>
         <value xml:lang="it">Sincr. Split Millis</value>
         <value xml:lang="ja">同期分離ミリ秒</value>
@@ -374,6 +410,7 @@
     <property key="FormFieldTitle_targetDelegatorName">
         <value xml:lang="de">Name Ziel-Delegator</value>
         <value xml:lang="en">Target Delegator Name</value>
+        <value xml:lang="fa">نام نماینده هدف</value>
         <value xml:lang="fr">Nom du délégateur cible</value>
         <value xml:lang="it">Nome Delegator destinazione</value>
         <value xml:lang="ja">対象デリゲータ名称</value>
@@ -387,6 +424,7 @@
     <property key="FormFieldTitle_targetServiceName">
         <value xml:lang="de">Name Ziel-Service</value>
         <value xml:lang="en">Target Service Name</value>
+        <value xml:lang="fa">نام سرویس هدف</value>
         <value xml:lang="fr">Nom du service cible</value>
         <value xml:lang="it">Nome servizio destinazione</value>
         <value xml:lang="ja">対象サービス名</value>
@@ -400,6 +438,7 @@
     <property key="FormFieldTitle_xmlFileName">
         <value xml:lang="de">XML Dateiname</value>
         <value xml:lang="en">Xml File Name</value>
+        <value xml:lang="fa">نام فایل XML</value>
         <value xml:lang="fr">Nom du dossier XML</value>
         <value xml:lang="it">Nome file XML</value>
         <value xml:lang="ja">XMLファイル名</value>
@@ -414,6 +453,7 @@
         <value xml:lang="de">Web Tools Framework</value>
         <value xml:lang="en">Framework Web Tools</value>
         <value xml:lang="es">Framework Herramientas Web</value>
+        <value xml:lang="fa">ابزار وب چارچوب</value>
         <value xml:lang="fr">Outils web du Framework</value>
         <value xml:lang="it">Strumenti del Framework</value>
         <value xml:lang="ja">Webツール</value>
@@ -427,6 +467,7 @@
     <property key="PageTitleEditUtilCache">
         <value xml:lang="de">Util Cache bearbeiten</value>
         <value xml:lang="en">Edit Util Cache</value>
+        <value xml:lang="fa">ویرایش‌کردن مخزن مطلوبیت</value>
         <value xml:lang="fr">Modifier le cache</value>
         <value xml:lang="it">Aggiorna cache</value>
         <value xml:lang="ja">有効キャッシュを編集</value>
@@ -1122,6 +1163,7 @@
         <value xml:lang="ar">جزء من عائلة أوفبيز للتطبيقات الحرة للتسيير</value>
         <value xml:lang="de">Teil der Open For Business Familie von Open Source Software</value>
         <value xml:lang="en">Part of the Open For Business Family of Open Source Software</value>
+        <value xml:lang="fa">بخشی از خانواده آزاد برای کسب‌وکار از نرم‌افزارهای متن باز</value>
         <!--value xml:lang="es">Parte de la familia "Open for Bussiness" de Software Libre</value-->
         <value xml:lang="es">Parte de la familia de software Open For Business de código abierto</value>
         <value xml:lang="fr">Un module de la famille Open For Business, logiciel libre de gestion d'entreprise.</value>
@@ -1965,7 +2007,7 @@
         <value xml:lang="en">eomodel Full Path is not write-able: ${eomodeldFullPath}</value>
         <value xml:lang="it">eomodel path completo non è scrivibile: ${eomodeldFullPath}</value>
         <value xml:lang="ja">EOMODELのフルパスが書き込み可能ではありません: ${eomodeldFullPath}</value>
-        <value xml:lang="vi"></value>
+        <value xml:lang="vi"/>
         <value xml:lang="zh">eomodel完整路径不可写：${eomodeldFullPath}</value>
     </property>
     <property key="WebtoolsEomodelSavingFileError">
@@ -2583,7 +2625,7 @@
         <value xml:lang="fr">Nom d'index</value>
         <value xml:lang="it">Nome indice</value>
         <value xml:lang="ja">索引名称</value>
-        <value xml:lang="pt">Nome do Ã&#141;ndice</value>
+        <value xml:lang="pt">Nome do Ãndice</value>
         <value xml:lang="th">ชื่อตัววัด</value>
         <value xml:lang="vi">Tên chỉ mục</value>
         <value xml:lang="zh">索引名称</value>

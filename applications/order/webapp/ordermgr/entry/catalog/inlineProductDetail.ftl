@@ -257,17 +257,17 @@ ${virtualJavaScript?if_exists}
 <div id="inlineproductdetail${inlineCounter}">
 <table border="0" cellpadding="2" cellspacing="0" width="100%">
   <tr>
-    <td align="left" valign="top" width="0">
+    <td class="align-text" valign="top" width="0">
       <#assign productLargeImageUrl = productContentWrapper.get("LARGE_IMAGE_URL")?if_exists>
       <#if firstLargeImage?has_content>
         <#assign productLargeImageUrl = firstLargeImage>
       </#if>
       <#if productLargeImageUrl?string?has_content>
         <input type="hidden" name="detailImage${inlineCounter}" value="${firstDetailImage?default(mainDetailImageUrl?default("_NONE_"))}"/>
-        <a href="javascript:popupDetailInline('${inlineCounter}');"><img src='<@ofbizContentUrl>${contentPathPrefix?if_exists}${productLargeImageUrl?if_exists}</@ofbizContentUrl>' name='mainImage${inlineCounter}' vspace='5' hspace='5' class='cssImgLarge' align='left' alt="" /></a>
+        <a href="javascript:popupDetailInline('${inlineCounter}');"><img src='<@ofbizContentUrl>${contentPathPrefix?if_exists}${productLargeImageUrl?if_exists}</@ofbizContentUrl>' name='mainImage${inlineCounter}' vspace='5' hspace='5' class='cssImgLarge' class="align-text" alt="" /></a>
       </#if>
     </td>
-    <td align="right" valign="top" width="100%">
+    <td class="opposite-align-text" valign="top" width="100%">
     <#--    <h2>${productContentWrapper.get("PRODUCT_NAME")?if_exists}</h2>  -->
         <#assign inStock = true>
         <#if product.isVirtual?if_exists?upper_case == "Y">
@@ -324,7 +324,7 @@ ${virtualJavaScript?if_exists}
           </#if>
         </#if>
       </td></tr>
-      <tr><td COLSPAN="2" align="right">
+      <tr><td COLSPAN="2" class="opposite-align-text">
         <#-- check to see if introductionDate hasnt passed yet -->
         <#if product.introductionDate?exists && nowTimestamp.before(product.introductionDate)>
         <p>&nbsp;</p>
@@ -348,7 +348,7 @@ ${virtualJavaScript?if_exists}
         </#if>
       </td></tr>
 
-      <tr><td COLSPAN="2" align="right">
+      <tr><td COLSPAN="2" class="opposite-align-text">
       <#if variantTree?exists && 0 < variantTree.size()>
         <script language="JavaScript" type="text/javascript">eval("list"+ "${inlineCounter}" + "${featureOrderFirst}" + "()");</script>
       </#if>

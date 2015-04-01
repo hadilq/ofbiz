@@ -18,7 +18,7 @@ under the License.
 -->
 
 <#assign styleTd = "style='height: 8em; width: 10em; vertical-align: top; padding: 0.5em;'">
-  
+
 <#if periods?has_content>
   <#-- Allow containing screens to specify the URL for creating a new event -->
   <#if !newCalEventUrl?exists>
@@ -44,7 +44,7 @@ under the License.
     </#if>
     <td ${styleTd} <#if currentPeriod> class="current-period"<#else><#if (period.calendarEntries?size > 0)> class="active-period"</#if></#if>>
       <span class="h1"><a href='<@ofbizUrl>${parameters._LAST_VIEW_NAME_}?period=day&amp;start=${period.start.time?string("#")}${urlParam?if_exists}${addlParam?if_exists}</@ofbizUrl>'>${period.start?date?string("d")?cap_first}</a></span>
-      <a class="add-new" href='<@ofbizUrl>${newCalEventUrl}?period=month&amp;form=edit&amp;start=${parameters.start?if_exists}&amp;parentTypeId=${parentTypeId?if_exists}&amp;currentStatusId=CAL_TENTATIVE&amp;estimatedStartDate=${period.start?string("yyyy-MM-dd HH:mm:ss")}&amp;estimatedCompletionDate=${period.end?string("yyyy-MM-dd HH:mm:ss")}${urlParam?if_exists}${addlParam?if_exists}</@ofbizUrl>'>${uiLabelMap.CommonAddNew}</a>
+      <a class="add-new" href='<@ofbizUrl>${newCalEventUrl}?period=month&amp;form=edit&amp;start=${parameters.start?if_exists}&amp;parentTypeId=${parentTypeId?if_exists}&amp;currentStatusId=CAL_TENTATIVE&amp;estimatedStartDate=${Static["org.ofbiz.base.util.UtilDateTime"].toDateTimeStringByContext(period.start, context)}&amp;estimatedCompletionDate=${Static["org.ofbiz.base.util.UtilDateTime"].toDateTimeStringByContext(period.end, context)}${urlParam?if_exists}${addlParam?if_exists}</@ofbizUrl>'>${uiLabelMap.CommonAddNew}</a>
       <br class="clear"/>
 
       <#assign maxNumberOfPersons = 0/>
@@ -85,10 +85,10 @@ under the License.
 
         <#if !completionDate?has_content && calEntry.workEffort.actualMilliSeconds?has_content>
             <#assign completionDate =  calEntry.workEffort.actualStartDate + calEntry.workEffort.actualMilliSeconds>
-        </#if>    
+        </#if>
         <#if !completionDate?has_content && calEntry.workEffort.estimatedMilliSeconds?has_content>
             <#assign completionDate =  calEntry.workEffort.estimatedStartDate + calEntry.workEffort.estimatedMilliSeconds>
-        </#if>    
+        </#if>
         <hr />
         <#if (startDate.compareTo(period.start) <= 0 && completionDate?has_content && completionDate.compareTo(period.end) >= 0)>
           ${uiLabelMap.CommonAllDay}
@@ -115,7 +115,7 @@ under the License.
       <table width="100%" cellspacing="0" cellpadding="0" border="0">
         <tr>
           <td nowrap="nowrap" class="monthdaynumber"><a href='<@ofbizUrl>day?start=${period.start.time?string("#")}<#if eventsParam?has_content>&amp;${eventsParam}</#if>${addlParam?if_exists}</@ofbizUrl>' class="monthdaynumber">${period.start?date?string("d")?cap_first}</a></td>
-          <td align="right"><a href='<@ofbizUrl>EditWorkEffort?workEffortTypeId=EVENT&amp;currentStatusId=CAL_TENTATIVE&amp;estimatedStartDate=${period.start?string("yyyy-MM-dd HH:mm:ss")}&amp;estimatedCompletionDate=${period.end?string("yyyy-MM-dd HH:mm:ss")}${addlParam?if_exists}</@ofbizUrl>' class="add">${uiLabelMap.CommonAddNew}</a>&nbsp;&nbsp;</td>
+          <td class="opposite-align-text"><a href='<@ofbizUrl>EditWorkEffort?workEffortTypeId=EVENT&amp;currentStatusId=CAL_TENTATIVE&amp;estimatedStartDate=${Static["org.ofbiz.base.util.UtilDateTime"].toDateTimeStringByContext(period.start, context)}&amp;estimatedCompletionDate=${Static["org.ofbiz.base.util.UtilDateTime"].toDateTimeStringByContext(period.end, context)}${addlParam?if_exists}</@ofbizUrl>' class="add">${uiLabelMap.CommonAddNew}</a>&nbsp;&nbsp;</td>
         </tr>
       </table>
       <#list period.calendarEntries as calEntry>

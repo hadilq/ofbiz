@@ -24,7 +24,7 @@ under the License.
   </#list>
 </#if>
 <fo:root xmlns:fo="http://www.w3.org/1999/XSL/Format"
-    font-family="${(layoutSettings.defaultFontFamily)?default("Helvetica, sans-serif")}"
+    font-family="${Static["org.ofbiz.common.languageFontsMapping"].getFontFamily(locale)}"
     font-size="${(layoutSettings.defaultFontSize)?default("12pt")}">
   <fo:layout-master-set>
 <#if layoutSettings.pageMasters?has_content>
@@ -35,7 +35,7 @@ under the License.
 <#else>
   <#include "component://common/webcommon/includes/fo/pm-11x17.fo.ftl"/>
   <#include "component://common/webcommon/includes/fo/pm-iso216.fo.ftl"/>
-  <#include "component://common/webcommon/includes/fo/pm-legal.fo.ftl"/>  
+  <#include "component://common/webcommon/includes/fo/pm-legal.fo.ftl"/>
   <#include "component://common/webcommon/includes/fo/pm-letter.fo.ftl"/>
 </#if>
   </fo:layout-master-set>

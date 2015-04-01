@@ -194,7 +194,7 @@ function submitForm(form, mode, value) {
     <td>
       &nbsp;<a href="javascript:submitForm(document.checkoutInfoForm, 'CS', '');" class="buttontextbig">${uiLabelMap.OrderBacktoShoppingCart}</a>
     </td>
-    <td align="right">
+    <td class="opposite-align-text">
       <a href="javascript:submitForm(document.checkoutInfoForm, 'DN', '');" class="buttontextbig">${uiLabelMap.CommonNext}</a>
     </td>
   </tr>

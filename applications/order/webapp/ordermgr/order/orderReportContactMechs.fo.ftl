@@ -37,7 +37,7 @@ under the License.
                     <#assign countryGeo = (delegator.findOne("Geo", {"geoId", postalAddress.countryGeoId?if_exists}, false))?if_exists />
                     <#if countryGeo?has_content>${countryGeo.geoName?if_exists}</#if>
                 </fo:block>
-            </fo:block>                
+            </fo:block>
         </#if>
     <#else>
         <#-- here we just display the name of the vendor, since there is no address -->
@@ -99,7 +99,7 @@ under the License.
                 ${(shipGroup.getRelatedOne("ShipmentMethodType", false).get("description", locale))?default(shipGroup.shipmentMethodTypeId)}
             </#if>
             <#if (shipGroup.shipAfterDate)?exists || (shipGroup.shipByDate)?exists>
-                <#if (shipGroup.shipAfterDate)?exists> - ${uiLabelMap.OrderShipAfterDate}: ${Static["org.ofbiz.base.util.UtilDateTime"].toDateString(shipGroup.shipAfterDate)}</#if><#if (shipGroup.shipByDate)?exists> - ${uiLabelMap.OrderShipBeforeDate}: ${Static["org.ofbiz.base.util.UtilDateTime"].toDateString(shipGroup.shipByDate)}</#if>
+                <#if (shipGroup.shipAfterDate)?exists> - ${uiLabelMap.OrderShipAfterDate}: ${Static["org.ofbiz.base.util.UtilDateTime"].toDateStringByContext(shipGroup.shipAfterDate, context)}</#if><#if (shipGroup.shipByDate)?exists> - ${uiLabelMap.OrderShipBeforeDate}: ${Static["org.ofbiz.base.util.UtilDateTime"].toDateStringByContext(shipGroup.shipByDate, context)}</#if>
             </#if>
         </fo:block>
     </#list>

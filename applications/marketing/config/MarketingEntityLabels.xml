@@ -8,7 +8,6 @@
     to you under the Apache License, Version 2.0 (the
     "License"); you may not use this file except in compliance
     with the License.  You may obtain a copy of the License at
-
     http://www.apache.org/licenses/LICENSE-2.0
 
     Unless required by applicable law or agreed to in writing,
@@ -22,6 +21,7 @@
     <property key="ContactListType.description.ANNOUNCEMENT">
         <value xml:lang="en">Announcement</value>
         <value xml:lang="es">Anuncio</value>
+        <value xml:lang="fa">آگهی</value>
         <value xml:lang="fr">Annonce</value>
         <value xml:lang="it">Annunci</value>
         <value xml:lang="ja">告知</value>
@@ -36,6 +36,7 @@
     <property key="ContactListType.description.MARKETING">
         <value xml:lang="en">Marketing</value>
         <value xml:lang="es">Marketing</value>
+        <value xml:lang="fa">بازاریابی</value>
         <value xml:lang="fr">Marketing</value>
         <value xml:lang="it">Vendite</value>
         <value xml:lang="ja">マーケティング</value>
@@ -50,6 +51,7 @@
     <property key="ContactListType.description.NEWSLETTER">
         <value xml:lang="en">Newsletter</value>
         <value xml:lang="es">Carta de información</value>
+        <value xml:lang="fa">روزنامه</value>
         <value xml:lang="fr">Lettre d'information</value>
         <value xml:lang="it">Newsletter</value>
         <value xml:lang="ja">ニュースレター</value>
@@ -64,6 +66,7 @@
     <property key="SegmentGroupType.description.MARKET_SEGMENT">
         <value xml:lang="en">Market Segment</value>
         <value xml:lang="es">Segmento de marketing</value>
+        <value xml:lang="fa">بخش بازار</value>
         <value xml:lang="fr">Segment de marché</value>
         <value xml:lang="it">Segmento di Mercato</value>
         <value xml:lang="ja">市場セグメント</value>
@@ -78,6 +81,7 @@
     <property key="SegmentGroupType.description.SALES_SEGMENT">
         <value xml:lang="en">Sales Segment</value>
         <value xml:lang="es">Segmento de ventas</value>
+        <value xml:lang="fa">بخش فروش</value>
         <value xml:lang="fr">Segment de vente</value>
         <value xml:lang="it">Segmento di Vendita</value>
         <value xml:lang="ja">販売セグメント</value>
@@ -91,6 +95,7 @@
     </property>
     <property key="TrackingCodeType.description.ACCESS">
         <value xml:lang="en">Access Code</value>
+        <value xml:lang="fa">کد دسترسی</value>
         <value xml:lang="fr">Code d'accès</value>
         <value xml:lang="it">Codice di accesso</value>
         <value xml:lang="ja">アクセスコード</value>
@@ -102,6 +107,7 @@
     <property key="TrackingCodeType.description.EXTERNAL">
         <value xml:lang="en">External</value>
         <value xml:lang="es">Externo</value>
+        <value xml:lang="fa">مستقل</value>
         <value xml:lang="fr">Externe</value>
         <value xml:lang="it">Esterno</value>
         <value xml:lang="ja">外部</value>
@@ -116,6 +122,7 @@
     <property key="TrackingCodeType.description.INTERNAL">
         <value xml:lang="en">Internal</value>
         <value xml:lang="es">Interno</value>
+        <value xml:lang="fa">داخلی</value>
         <value xml:lang="fr">Interne</value>
         <value xml:lang="it">Interno</value>
         <value xml:lang="ja">内部</value>
@@ -130,6 +137,7 @@
     <property key="TrackingCodeType.description.PARTNER_MGD">
         <value xml:lang="en">Partner Managed</value>
         <value xml:lang="es">Partner</value>
+        <value xml:lang="fa">شریک مدیر‌شده</value>
         <value xml:lang="fr">Géré par un tiers</value>
         <value xml:lang="it">Gestito da un Partner</value>
         <value xml:lang="ja">パートナー</value>

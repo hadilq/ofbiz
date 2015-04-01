@@ -16,6 +16,7 @@ KIND, either express or implied.  See the License for the
 specific language governing permissions and limitations
 under the License.
 -->
+<#assign dateTimeFormat = Static["org.ofbiz.base.util.UtilDateTime"].getDateTimeFormatByContext(context)>
 
 <#if curProductFeatureCategory?exists>
 <a href="<@ofbizUrl>EditFeature?productFeatureCategoryId=${productFeatureCategoryId?if_exists}</@ofbizUrl>" class="buttontext">${uiLabelMap.ProductCreateNewFeature}</a>
@@ -35,7 +36,7 @@ under the License.
     </#if>
     <table cellspacing="0" class="basic-table">
         <tr>
-        <td align="right">
+        <td class="opposite-align-text">
             <span>
             <b>
             <#if (viewIndex > 0)>
@@ -85,14 +86,14 @@ under the License.
           </select>
         </td>
         <td>
-            <@htmlTemplate.renderDateTimeField name="fromDate_o_${rowCount}" event="" action="" className="" alert="" title="Format: yyyy-MM-dd HH:mm:ss.SSS" value="" size="25" maxlength="30" id="fromDate_o_${rowCount}" dateType="date" shortDateInput=false timeDropdownParamName="" defaultDateTimeString="" localizedIconTitle="" timeDropdown="" timeHourName="" classString="" hour1="" hour2="" timeMinutesName="" minutes="" isTwelveHour="" ampmName="" amSelected="" pmSelected="" compositeType="" formName=""/>
+            <@htmlTemplate.renderDateTimeField name="fromDate_o_${rowCount}" event="" action="" className="" alert="" title="Format: ${dateTimeFormat}" value="" size="25" maxlength="30" id="fromDate_o_${rowCount}" dateType="date" shortDateInput=false timeDropdownParamName="" defaultDateTimeString="" localizedIconTitle="" timeDropdown="" timeHourName="" classString="" hour1="" hour2="" timeMinutesName="" minutes="" isTwelveHour="" ampmName="" amSelected="" pmSelected="" compositeType="" formName=""/>
         </td>
         <td>
-           <@htmlTemplate.renderDateTimeField name="thruDate_o_${rowCount}" event="" action="" className="" alert="" title="Format: yyyy-MM-dd HH:mm:ss.SSS" value="" size="25" maxlength="30" id="thruDate_o_${rowCount}" dateType="date" shortDateInput=false timeDropdownParamName="" defaultDateTimeString="" localizedIconTitle="" timeDropdown="" timeHourName="" classString="" hour1="" hour2="" timeMinutesName="" minutes="" isTwelveHour="" ampmName="" amSelected="" pmSelected="" compositeType="" formName=""/>
+           <@htmlTemplate.renderDateTimeField name="thruDate_o_${rowCount}" event="" action="" className="" alert="" title="Format: ${dateTimeFormat}" value="" size="25" maxlength="30" id="thruDate_o_${rowCount}" dateType="date" shortDateInput=false timeDropdownParamName="" defaultDateTimeString="" localizedIconTitle="" timeDropdown="" timeHourName="" classString="" hour1="" hour2="" timeMinutesName="" minutes="" isTwelveHour="" ampmName="" amSelected="" pmSelected="" compositeType="" formName=""/>
         </td>
         <td><input type="text" size="6" name="amount_o_${rowCount}" value="${productFeature.defaultAmount?if_exists}" /></td>
         <td><input type="text" size="5" name="sequenceNum_o_${rowCount}" value="${productFeature.defaultSequenceNum?if_exists}" /></td>
-        <td align="right">
+        <td class="opposite-align-text">
             <input type="checkbox" name="_rowSubmit_o_${rowCount}" value="Y" onclick="javascript:checkToggle(this, 'selectAllForm');highlightRow(this,'productFeatureId_tableRow_${rowCount}');" />
         </td>
     </tr>

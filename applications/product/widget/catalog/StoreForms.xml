@@ -55,8 +55,8 @@ under the License.
             </display-entity>
         </field>
         <field name="roleTypeId" title="${uiLabelMap.PartyRoleTypeId}"><display-entity entity-name="RoleType"/></field>
-        <field name="fromDate"><display/></field>
-        <field name="thruDate"><display/></field>
+        <field name="fromDate"><display type="date"/></field>
+        <field name="thruDate"><display type="date"/></field>
         <field name="sequenceNum"><display/></field>
         <field name="editLink" widget-style="buttontext" title="${uiLabelMap.CommonEdit}">
            <hyperlink target="FindProductStoreRoles" description="${uiLabelMap.CommonEdit}">
@@ -89,7 +89,7 @@ under the License.
         </field>
         <field name="roleTypeId" use-when="productStoreRole!=null" title="${uiLabelMap.PartyRoleTypeId}"><display-entity entity-name="RoleType"/></field>
         <field name="fromDate" use-when="productStoreRole==null" title="${uiLabelMap.CommonFromDate}"><date-time/></field>
-        <field name="fromDate" use-when="productStoreRole!=null" title="${uiLabelMap.CommonFromDate}"><display/></field>
+        <field name="fromDate" use-when="productStoreRole!=null" title="${uiLabelMap.CommonFromDate}"><display type="date"/></field>
         <field name="thruDate"><date-time/></field>
         <field name="sequenceNum"><text/></field>
         <field name="submitButton" title="${uiLabelMap.CommonAdd}" use-when="productStoreRole==null" widget-style="smallSubmit">

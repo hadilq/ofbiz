@@ -16,6 +16,7 @@ KIND, either express or implied.  See the License for the
 specific language governing permissions and limitations
 under the License.
 -->
+<#assign dateTimeFormat = Static["org.ofbiz.base.util.UtilDateTime"].getDateTimeFormatByContext(context)>
 
 <script language="JavaScript" type="text/javascript">
     function showQohAtp() {
@@ -77,11 +78,11 @@ under the License.
             <form method="post" action="<@ofbizUrl>additem</@ofbizUrl>" name="quickaddform" style="margin: 0;">
               <table border="0">
                 <tr>
-                  <td align="right"><div>${uiLabelMap.ProductProductId} :</div></td>
+                  <td class="opposite-align-text"><div>${uiLabelMap.ProductProductId} :</div></td>
                   <td>
                     <span class='tabletext'>
-                      <#if orderType=="PURCHASE_ORDER">                        
-                        <#if partyId?has_content>                                               
+                      <#if orderType=="PURCHASE_ORDER">
+                        <#if partyId?has_content>
                           <#assign fieldFormName="LookupSupplierProduct?partyId=${partyId}">
                         <#else>
                           <#assign fieldFormName="LookupSupplierProduct">
@@ -99,41 +100,41 @@ under the License.
                   </td>
                 </tr>
                 <tr>
-                  <td align="right"><div>${uiLabelMap.OrderQuantity} :</div></td>
+                  <td class="opposite-align-text"><div>${uiLabelMap.OrderQuantity} :</div></td>
                   <td><input type="text" size="6" name="quantity" value=""/></td>
                 </tr>
                 <tr>
-                  <td align="right"><div>${uiLabelMap.OrderDesiredDeliveryDate} :</div></td>
+                  <td class="opposite-align-text"><div>${uiLabelMap.OrderDesiredDeliveryDate} :</div></td>
                   <td>
                     <div>
-                      <#if useAsDefaultDesiredDeliveryDate?exists> 
+                      <#if useAsDefaultDesiredDeliveryDate?exists>
                         <#assign value = defaultDesiredDeliveryDate>
                       </#if>
-                      <@htmlTemplate.renderDateTimeField name="itemDesiredDeliveryDate" value="${value!''}" className="" alert="" title="Format: yyyy-MM-dd HH:mm:ss.SSS" size="25" maxlength="30" id="item1" dateType="date" shortDateInput=false timeDropdownParamName="" defaultDateTimeString="" localizedIconTitle="" timeDropdown="" timeHourName="" classString="" hour1="" hour2="" timeMinutesName="" minutes="" isTwelveHour="" ampmName="" amSelected="" pmSelected="" compositeType="" formName=""/>
+                      <@htmlTemplate.renderDateTimeField name="itemDesiredDeliveryDate" value="${value!''}" className="" alert="" title="Format: ${dateTimeFormat}" size="25" maxlength="30" id="item1" dateType="date" shortDateInput=false timeDropdownParamName="" defaultDateTimeString="" localizedIconTitle="" timeDropdown="" timeHourName="" classString="" hour1="" hour2="" timeMinutesName="" minutes="" isTwelveHour="" ampmName="" amSelected="" pmSelected="" compositeType="" formName=""/>
                       <input type="checkbox" name="useAsDefaultDesiredDeliveryDate" value="true"<#if useAsDefaultDesiredDeliveryDate?exists> checked="checked"</#if>/>
                       ${uiLabelMap.OrderUseDefaultDesiredDeliveryDate}
                     </div>
                   </td>
                 </tr>
                 <tr>
-                  <td align="right"><div>${uiLabelMap.OrderShipAfterDate} :</div></td>
+                  <td class="opposite-align-text"><div>${uiLabelMap.OrderShipAfterDate} :</div></td>
                   <td>
                     <div>
-                      <@htmlTemplate.renderDateTimeField name="shipAfterDate" value="${shoppingCart.getDefaultShipAfterDate()!''}" className="" alert="" title="Format: yyyy-MM-dd HH:mm:ss.SSS" size="25" maxlength="30" id="item2" dateType="date" shortDateInput=false timeDropdownParamName="" defaultDateTimeString="" localizedIconTitle="" timeDropdown="" timeHourName="" classString="" hour1="" hour2="" timeMinutesName="" minutes="" isTwelveHour="" ampmName="" amSelected="" pmSelected="" compositeType="" formName=""/>
+                      <@htmlTemplate.renderDateTimeField name="shipAfterDate" value="${shoppingCart.getDefaultShipAfterDate()!''}" className="" alert="" title="Format: ${dateTimeFormat}" size="25" maxlength="30" id="item2" dateType="date" shortDateInput=false timeDropdownParamName="" defaultDateTimeString="" localizedIconTitle="" timeDropdown="" timeHourName="" classString="" hour1="" hour2="" timeMinutesName="" minutes="" isTwelveHour="" ampmName="" amSelected="" pmSelected="" compositeType="" formName=""/>
                     </div>
                   </td>
                 </tr>
                 <tr>
-                  <td align="right"><div>${uiLabelMap.OrderShipBeforeDate} :</div></td>
+                  <td class="opposite-align-text"><div>${uiLabelMap.OrderShipBeforeDate} :</div></td>
                   <td>
                     <div>
-                      <@htmlTemplate.renderDateTimeField name="shipBeforeDate" value="${shoppingCart.getDefaultShipBeforeDate()!''}" className="" alert="" title="Format: yyyy-MM-dd HH:mm:ss.SSS" size="25" maxlength="30" id="item3" dateType="date" shortDateInput=false timeDropdownParamName="" defaultDateTimeString="" localizedIconTitle="" timeDropdown="" timeHourName="" classString="" hour1="" hour2="" timeMinutesName="" minutes="" isTwelveHour="" ampmName="" amSelected="" pmSelected="" compositeType="" formName=""/>
+                      <@htmlTemplate.renderDateTimeField name="shipBeforeDate" value="${shoppingCart.getDefaultShipBeforeDate()!''}" className="" alert="" title="Format: ${dateTimeFormat}" size="25" maxlength="30" id="item3" dateType="date" shortDateInput=false timeDropdownParamName="" defaultDateTimeString="" localizedIconTitle="" timeDropdown="" timeHourName="" classString="" hour1="" hour2="" timeMinutesName="" minutes="" isTwelveHour="" ampmName="" amSelected="" pmSelected="" compositeType="" formName=""/>
                     </div>
                   </td>
                 </tr>
                 <#if shoppingCart.getOrderType() == "PURCHASE_ORDER">
                 <tr>
-                  <td align="right"><div>${uiLabelMap.OrderOrderItemType} :</div></td>
+                  <td class="opposite-align-text"><div>${uiLabelMap.OrderOrderItemType} :</div></td>
                   <td>
                     <div>
                       <select name="add_item_type">
@@ -147,7 +148,7 @@ under the License.
                 </tr>
                 </#if>
                 <tr>
-                  <td align="right"><div>${uiLabelMap.CommonComment} :</div></td>
+                  <td class="opposite-align-text"><div>${uiLabelMap.CommonComment} :</div></td>
                   <td>
                     <div>
                       <input type="text" size="25" name="itemComment" value="${defaultComment?if_exists}" />

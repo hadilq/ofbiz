@@ -16,6 +16,7 @@ KIND, either express or implied.  See the License for the
 specific language governing permissions and limitations
 under the License.
 -->
+<#assign dateTimeFormat = Static["org.ofbiz.base.util.UtilDateTime"].getDateTimeFormatByContext(context)>
 
 <#assign enableEdit = parameters.enableEdit?default("false")>
 <script language="JavaScript" type="text/javascript">
@@ -23,7 +24,7 @@ var numTabs=${(entity.getRelationsSize()+1)};
 function ShowTab(lname) {
   for(inc=1; inc <= numTabs; inc++) {
     // document.getElementById('area' + inc).className = (lname == 'tab' + inc) ? 'screenlet' : 'topcontainerhidden';
-    // style of topcontainerhidden 
+    // style of topcontainerhidden
     // .topcontainerhidden { POSITION: absolute; VISIBILITY: hidden; }
     var elem = document.getElementById('area' + inc);
     if (lname == 'tab' + inc){
@@ -137,9 +138,9 @@ function ShowTab(lname) {
                         <td class="label">${field.name}</td>
                         <td>
                           <#if field.fieldType == 'DateTime'>
-                            DateTime(YYYY-MM-DD HH:mm:SS.sss):<@htmlTemplate.renderDateTimeField name="${field.name}" event="" action="" className="" alert="" title="Format: yyyy-MM-dd HH:mm:ss.SSS" value="${field.value}" size="25" maxlength="30" id="${field.name}" dateType="date" shortDateInput=false timeDropdownParamName="" defaultDateTimeString="" localizedIconTitle="" timeDropdown="" timeHourName="" classString="" hour1="" hour2="" timeMinutesName="" minutes="" isTwelveHour="" ampmName="" amSelected="" pmSelected="" compositeType="" formName=""/>
+                            DateTime(YYYY-MM-DD HH:mm:SS.sss):<@htmlTemplate.renderDateTimeField name="${field.name}" event="" action="" className="" alert="" title="Format: ${dateTimeFormat}" value="${field.value}" size="25" maxlength="30" id="${field.name}" dateType="date" shortDateInput=false timeDropdownParamName="" defaultDateTimeString="" localizedIconTitle="" timeDropdown="" timeHourName="" classString="" hour1="" hour2="" timeMinutesName="" minutes="" isTwelveHour="" ampmName="" amSelected="" pmSelected="" compositeType="" formName=""/>
                           <#elseif field.fieldType == 'Date'>
-                            Date(YYYY-MM-DD):<@htmlTemplate.renderDateTimeField name="${field.name}" event="" action="" className="" alert="" title="Format: yyyy-MM-dd HH:mm:ss.SSS" value="${field.value}" size="25" maxlength="30" id="${field.name}" dateType="date" shortDateInput=true timeDropdownParamName="" defaultDateTimeString="" localizedIconTitle="" timeDropdown="" timeHourName="" classString="" hour1="" hour2="" timeMinutesName="" minutes="" isTwelveHour="" ampmName="" amSelected="" pmSelected="" compositeType="" formName=""/>
+                            Date(YYYY-MM-DD):<@htmlTemplate.renderDateTimeField name="${field.name}" event="" action="" className="" alert="" title="Format: ${dateTimeFormat}" value="${field.value}" size="25" maxlength="30" id="${field.name}" dateType="date" shortDateInput=true timeDropdownParamName="" defaultDateTimeString="" localizedIconTitle="" timeDropdown="" timeHourName="" classString="" hour1="" hour2="" timeMinutesName="" minutes="" isTwelveHour="" ampmName="" amSelected="" pmSelected="" compositeType="" formName=""/>
                           <#elseif field.fieldType == 'Time'>
                             Time(HH:mm:SS.sss):<input type="text" size="6" maxlength="10" name="${field.name}" value="${field.value}" />
                           <#elseif field.fieldType == 'Integer'>
@@ -177,9 +178,9 @@ function ShowTab(lname) {
                       <td class="label">${field.name}</td>
                       <td>
                         <#if field.fieldType == 'DateTime'>
-                          DateTime(YYYY-MM-DD HH:mm:SS.sss):<@htmlTemplate.renderDateTimeField name="${field.name}" event="" action="" className="" alert="" title="Format: yyyy-MM-dd HH:mm:ss.SSS" value="${field.value}" size="25" maxlength="30" id="${field.name}" dateType="date" shortDateInput=false timeDropdownParamName="" defaultDateTimeString="" localizedIconTitle="" timeDropdown="" timeHourName="" classString="" hour1="" hour2="" timeMinutesName="" minutes="" isTwelveHour="" ampmName="" amSelected="" pmSelected="" compositeType="" formName=""/>
+                          DateTime(${dateTimeFormat}):<@htmlTemplate.renderDateTimeField name="${field.name}" event="" action="" className="" alert="" title="Format: ${dateTimeFormat}" value="${field.value}" size="25" maxlength="30" id="${field.name}" dateType="date" shortDateInput=false timeDropdownParamName="" defaultDateTimeString="" localizedIconTitle="" timeDropdown="" timeHourName="" classString="" hour1="" hour2="" timeMinutesName="" minutes="" isTwelveHour="" ampmName="" amSelected="" pmSelected="" compositeType="" formName=""/>
                         <#elseif field.fieldType == 'Date'>
-                          Date(YYYY-MM-DD):<@htmlTemplate.renderDateTimeField name="${field.name}" event="" action="" className="" alert="" title="Format: yyyy-MM-dd HH:mm:ss.SSS" value="${field.value}" size="25" maxlength="30" id="${field.name}" dateType="date" shortDateInput=true timeDropdownParamName="" defaultDateTimeString="" localizedIconTitle="" timeDropdown="" timeHourName="" classString="" hour1="" hour2="" timeMinutesName="" minutes="" isTwelveHour="" ampmName="" amSelected="" pmSelected="" compositeType="" formName=""/>
+                          Date(${dateTimeFormat}):<@htmlTemplate.renderDateTimeField name="${field.name}" event="" action="" className="" alert="" title="Format: ${dateTimeFormat}" value="${field.value}" size="25" maxlength="30" id="${field.name}" dateType="date" shortDateInput=true timeDropdownParamName="" defaultDateTimeString="" localizedIconTitle="" timeDropdown="" timeHourName="" classString="" hour1="" hour2="" timeMinutesName="" minutes="" isTwelveHour="" ampmName="" amSelected="" pmSelected="" compositeType="" formName=""/>
                         <#elseif field.fieldType == 'Time'>
                           Time(HH:mm:SS.sss):<input type="text" size="6" maxlength="10" name="${field.name}" value="${field.value}" />
                         <#elseif field.fieldType == 'Integer'>

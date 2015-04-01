@@ -16,6 +16,7 @@ KIND, either express or implied.  See the License for the
 specific language governing permissions and limitations
 under the License.
 -->
+<#assign dateTimeFormat = Static["org.ofbiz.base.util.UtilDateTime"].getDateTimeFormatByContext(context)>
 <#assign externalKeyParam = "&amp;externalLoginKey=" + requestAttributes.externalLoginKey?if_exists>
 <#if product?has_content>
 <!-- First some general forms and scripts -->
@@ -135,7 +136,7 @@ function doPublish() {
                     <#assign checked = "checked='checked'"/>
                 </#if>
                 <td><input type="radio" ${checked} name="useImages" value="${assocProduct.productId}"/></td>
-                <#assign fromDate = Static["org.ofbiz.base.util.UtilFormatOut"].encodeQueryValue(productAssoc.getTimestamp("fromDate").toString())/>
+                <#assign fromDate = Static["org.ofbiz.base.util.UtilFormatOut"].encodeQueryValue(Static["org.ofbiz.base.util.UtilDateTime"].toDateTimeStringByContext(productAssoc.getTimestamp("fromDate"), context))/>
                 <td><a class="buttontext" href="javascript:removeAssoc('${productAssoc.productIdTo}','${fromDate}');">x</a></td>
             </tr>
             <#assign idx = idx + 1/>
@@ -156,9 +157,9 @@ function doPublish() {
                         </#list>
                     </table>
                 </td>
-                <td align="right">
+                <td class="opposite-align-text">
                     <table cellspacing="0" class="basic-table">
-                        <tr><td align="right"><input name="applyToAll" type="submit" value="${uiLabelMap.ProductAddSelectableFeature}"/></td></tr>
+                        <tr><td class="opposite-align-text"><input name="applyToAll" type="submit" value="${uiLabelMap.ProductAddSelectableFeature}"/></td></tr>
                     </table>
                 </td>
             </tr>
@@ -253,7 +254,7 @@ function doPublish() {
                 </#if>
             </#list>
                 <tr>
-                    <td colspan="10" align="right"><input name="applyToAll" type="submit" value="${uiLabelMap.ProductApplyToAll}"/>
+                    <td colspan="10" class="opposite-align-text"><input name="applyToAll" type="submit" value="${uiLabelMap.ProductApplyToAll}"/>
                     &nbsp;&nbsp;<input name="updateShipping" type="submit" value="${uiLabelMap.ProductUpdateShipping}"/></td>
                 </tr>
         <#else>
@@ -271,7 +272,7 @@ function doPublish() {
                     <td><a class="buttontext" href="<@ofbizUrl>EditProductAssoc?productId=${product.productId}</@ofbizUrl>">${StringUtil.wrapString(thrudate?if_exists)}</a></td>
                 </tr>
                 <tr>
-                    <td colspan="10" align="right"><input type="submit" value="${uiLabelMap.ProductUpdateShipping}" /></td>
+                    <td colspan="10" class="opposite-align-text"><input type="submit" value="${uiLabelMap.ProductUpdateShipping}" /></td>
                 </tr>
         </#if>
 
@@ -299,7 +300,7 @@ function doPublish() {
                 <#assign rowClass = "2">
                 <#list addedFeatureTypeIds as addedFeatureTypeId>
                     <tr valign="middle"<#if rowClass == "1"> class="alternate-row"</#if>>
-                        <td align="right">${addedFeatureTypes.get(addedFeatureTypeId).description}</td>
+                        <td class="opposite-align-text">${addedFeatureTypes.get(addedFeatureTypeId).description}</td>
                         <td>
                             <select name="productFeatureId">
                                 <option value="~~any~~">${uiLabelMap.ProductAnyFeatureType}</option>
@@ -316,7 +317,7 @@ function doPublish() {
                         <#assign rowClass = "2">
                     </#if>
                 </#list>
-                <tr><td colspan="2" align="right"><input type="submit" value="${uiLabelMap.ProductAddFeatures}"/></td></tr>
+                <tr><td colspan="2" class="opposite-align-text"><input type="submit" value="${uiLabelMap.ProductAddFeatures}"/></td></tr>
             </table>
             </form>
             </#if>
@@ -352,7 +353,7 @@ function doPublish() {
         <input type="hidden" name="productId" value="${product.productId?if_exists}"/>
         <table cellspacing="0" class="basic-table">
             <tr>
-                <td align="right">${uiLabelMap.ProductFeatureTypes}</td>
+                <td class="opposite-align-text">${uiLabelMap.ProductFeatureTypes}</td>
                 <td>
                     <select multiple="multiple" name="addFeatureTypeId">
                         <#list featureTypes as featureType>
@@ -442,7 +443,7 @@ function doPublish() {
         <table cellspacing="0" class="basic-table">
             <tr>
                 <td>
-                    <@htmlTemplate.renderDateTimeField name="fromDate" event="" action="" className="" alert="" title="Format: yyyy-MM-dd HH:mm:ss.SSS" value="" size="25" maxlength="30" id="fromDate1" dateType="date" shortDateInput=false timeDropdownParamName="" defaultDateTimeString="" localizedIconTitle="" timeDropdown="" timeHourName="" classString="" hour1="" hour2="" timeMinutesName="" minutes="" isTwelveHour="" ampmName="" amSelected="" pmSelected="" compositeType="" formName=""/>
+                    <@htmlTemplate.renderDateTimeField name="fromDate" event="" action="" className="" alert="" title="Format: ${dateTimeFormat}" value="" size="25" maxlength="30" id="fromDate1" dateType="date" shortDateInput=false timeDropdownParamName="" defaultDateTimeString="" localizedIconTitle="" timeDropdown="" timeHourName="" classString="" hour1="" hour2="" timeMinutesName="" minutes="" isTwelveHour="" ampmName="" amSelected="" pmSelected="" compositeType="" formName=""/>
                     <input type="button" value="${uiLabelMap.ProductPublishAndView}" onclick="doPublish();"/>
                 </td>
             </tr>
@@ -455,7 +456,7 @@ function doPublish() {
         <table cellspacing="0" class="basic-table">
             <tr>
                 <td>
-                    <@htmlTemplate.renderDateTimeField name="thruDate" event="" action="" className="" alert="" title="Format: yyyy-MM-dd HH:mm:ss.SSS" value="" size="25" maxlength="30" id="thruDate1" dateType="date" shortDateInput=false timeDropdownParamName="" defaultDateTimeString="" localizedIconTitle="" timeDropdown="" timeHourName="" classString="" hour1="" hour2="" timeMinutesName="" minutes="" isTwelveHour="" ampmName="" amSelected="" pmSelected="" compositeType="" formName=""/>
+                    <@htmlTemplate.renderDateTimeField name="thruDate" event="" action="" className="" alert="" title="Format: ${dateTimeFormat}" value="" size="25" maxlength="30" id="thruDate1" dateType="date" shortDateInput=false timeDropdownParamName="" defaultDateTimeString="" localizedIconTitle="" timeDropdown="" timeHourName="" classString="" hour1="" hour2="" timeMinutesName="" minutes="" isTwelveHour="" ampmName="" amSelected="" pmSelected="" compositeType="" formName=""/>
                     <input type="submit" value="${uiLabelMap.ProductRemoveFromSite}"/>
                 </td>
             </tr>

@@ -35,7 +35,7 @@ ${menuWrapper.renderMenuString()}
       <h1>${contentId?if_exists}
       </h1>
     </td>
-    <td align="right">
+    <td class="opposite-align-text">
     </td>
   </tr>
 </table>
@@ -177,7 +177,7 @@ ${menuWrapper.renderMenuString()}
           <td valign="middle">
             <div class="boxhead">&nbsp;Image Information</div>
           </td>
-          <td valign="middle" align="right">
+          <td valign="middle" class="opposite-align-text">
             <a href="<@ofbizUrl>EditAddImage?contentId=${imgContentId?if_exists}dataResourceId=${imgDataResourceId?if_exists}</@ofbizUrl>" class="submenutextright">Update</a>
           </td>
         </tr>
@@ -190,7 +190,7 @@ ${menuWrapper.renderMenuString()}
         <tr>
           <td>
   <table width="100%" border="0" cellpadding="0" cellspacing='0'>
-    <tr><td align="right" nowrap="nowrap"><div class='tabletext'><b>Image</b></div></td><td>&nbsp;</td><td><div class='tabletext'>
+    <tr><td class="opposite-align-text" nowrap="nowrap"><div class='tabletext'><b>Image</b></div></td><td>&nbsp;</td><td><div class='tabletext'>
         <img src="<@ofbizUrl>img?imgId=${imgDataResourceId?if_exists}</@ofbizUrl>" alt="" />
 <div></td></tr>
   </table>
@@ -238,7 +238,7 @@ ${menuWrapper.renderMenuString()}
           <td valign="middle">
             <div class="boxhead">&nbsp;</div>
           </td>
-          <td valign="middle" align="right">
+          <td valign="middle" class="opposite-align-text">
             <a href="<@ofbizUrl>EditAddContent?contentId=${content.contentId?if_exists}&amp;contentIdTo=${content.caContentIdTo?if_exists}&amp;contentAssocTypeId=${content.caContentAssocTypeId?if_exists}&amp;fromDate=${content.caFromDate?if_exists}&amp;mapKey=${content.caMapKey?if_exists}</@ofbizUrl>" class="submenutextright">Update</a>
           </td>
         </tr>
@@ -251,8 +251,8 @@ ${menuWrapper.renderMenuString()}
         <tr>
           <td>
   <table width="100%" border="0" cellpadding="0" cellspacing='0'>
-    <tr><td align="right" nowrap="nowrap"><div class='tabletext'><b>Content Name</b></div></td><td>&nbsp;</td><td><div class='tabletext'>${content.contentName?if_exists}</div></td></tr>
-    <tr><td align="right" nowrap="nowrap"><div class='tabletext'><b>Description</b></div></td><td>&nbsp;</td><td><div class='tabletext'>${content.description?if_exists}<div></td></tr>
+    <tr><td class="opposite-align-text" nowrap="nowrap"><div class='tabletext'><b>Content Name</b></div></td><td>&nbsp;</td><td><div class='tabletext'>${content.contentName?if_exists}</div></td></tr>
+    <tr><td class="opposite-align-text" nowrap="nowrap"><div class='tabletext'><b>Description</b></div></td><td>&nbsp;</td><td><div class='tabletext'>${content.description?if_exists}<div></td></tr>
   </table>
           </td>
         </tr>
@@ -265,7 +265,7 @@ ${menuWrapper.renderMenuString()}
         <tr>
           <td>
   <table width="100%" border="0" cellpadding="0" cellspacing='0'>
-    <tr><td align="right" nowrap="nowrap"><div class='tabletext'><b></b></div></td><td>&nbsp;</td><td><div class='tabletext'>
+    <tr><td class="opposite-align-text" nowrap="nowrap"><div class='tabletext'><b></b></div></td><td>&nbsp;</td><td><div class='tabletext'>
 <#-- ${textData?if_exists} -->
 <@renderContentAsText subContentId=content.contentId  editRequestName="/EditAddContent"/>
 <div></td></tr>

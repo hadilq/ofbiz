@@ -89,7 +89,7 @@ under the License.
         </field>
         <field name="enabled"><display/></field>
         <field name="hasLoggedOut"><display/></field>
-        <field name="disabledDateTime"><display/></field>
+        <field name="disabledDateTime"><display type="date-time"/></field>
     </form>
 
     <form name="LookupPortalPage" type="single" target="LookupPortalPage">

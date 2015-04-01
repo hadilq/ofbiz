@@ -26,10 +26,10 @@ under the License.
             <tr valign="bottom" class="header-row">
                 <td width="10%">${uiLabelMap.ProductItem}</td>
                 <td width="35%">${uiLabelMap.OrderProduct}</td>
-                <td width="10%" align="right">${uiLabelMap.ProductQuantity}</td>
-                <td width="10%" align="right">${uiLabelMap.OrderAmount}</td>
-                <td width="10%" align="right">${uiLabelMap.OrderRequestMaximumAmount}</td>
-                <td width="5%" align="right">&nbsp;</td>
+                <td width="10%" class="opposite-align-text">${uiLabelMap.ProductQuantity}</td>
+                <td width="10%" class="opposite-align-text">${uiLabelMap.OrderAmount}</td>
+                <td width="10%" class="opposite-align-text">${uiLabelMap.OrderRequestMaximumAmount}</td>
+                <td width="5%" class="opposite-align-text">&nbsp;</td>
             </tr>
             <#assign alt_row = false>
             <#list requestItems as requestItem>
@@ -56,9 +56,9 @@ under the License.
                             </#if>
                         </div>
                     </td>
-                    <td align="right" valign="top">${requestItem.quantity?if_exists}</td>
-                    <td align="right" valign="top">${requestItem.selectedAmount?if_exists}</td>
-                    <td align="right" valign="top"><@ofbizCurrency amount=requestItem.maximumAmount isoCode=request.maximumAmountUomId/></td>
+                    <td class="opposite-align-text" valign="top">${requestItem.quantity?if_exists}</td>
+                    <td class="opposite-align-text" valign="top">${requestItem.selectedAmount?if_exists}</td>
+                    <td class="opposite-align-text" valign="top"><@ofbizCurrency amount=requestItem.maximumAmount isoCode=request.maximumAmountUomId/></td>
                 </tr>
                 <#-- toggle the row color -->
                 <#assign alt_row = !alt_row>

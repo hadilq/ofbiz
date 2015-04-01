@@ -210,7 +210,7 @@ function submitForm(form, mode, value) {
                   </div>
 
                 </td>
-                <td align="right">
+                <td class="opposite-align-text">
                   <div class="tabletext">${cartLine.getQuantity()?string.number}&nbsp;&nbsp;&nbsp;</div>
                 </td>
                 <td>
@@ -256,7 +256,7 @@ function submitForm(form, mode, value) {
     <td>
       &nbsp;<a href="<@ofbizUrl>updateCheckoutOptions/showcart</@ofbizUrl>" class="buttontextbig">${uiLabelMap.OrderBacktoShoppingCart}</a>
     </td>
-    <td align="right">
+    <td class="opposite-align-text">
       <a href="<@ofbizUrl>setBilling</@ofbizUrl>" class="buttontextbig">${uiLabelMap.CommonContinue}</a>
     </td>
   </tr>
