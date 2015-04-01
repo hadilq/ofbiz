@@ -1247,8 +1247,7 @@ public class UtilHttp {
                 Timestamp timestamp = null;
                 StringToTimestamp stringToTimestamp = new DateTimeConverters.StringToTimestamp();
                 try {
-                    timestamp = stringToTimestamp.convert(date, locale
-                        , TimeZone.getDefault(), UtilDateTime.getDateFormat(locale));
+                    timestamp = stringToTimestamp.convert(date, locale, TimeZone.getDefault());
                 }
                 catch (ConversionException e) {
                     String errMsg = "Error formatting date/time using default instead [" + date + "]: " + e.toString();

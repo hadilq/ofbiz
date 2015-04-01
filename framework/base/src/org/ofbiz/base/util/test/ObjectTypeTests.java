@@ -31,6 +31,7 @@ import java.util.TimeZone;
 
 import org.ofbiz.base.lang.SourceMonitored;
 import org.ofbiz.base.test.GenericTestCaseBase;
+import org.ofbiz.base.util.Calendar;
 import org.ofbiz.base.util.GeneralException;
 import org.ofbiz.base.util.ObjectType;
 import org.ofbiz.base.util.TimeDuration;
@@ -38,8 +39,6 @@ import org.ofbiz.base.util.UtilDateTime;
 import org.ofbiz.base.util.UtilMisc;
 import org.ofbiz.base.util.UtilXml;
 import org.w3c.dom.Document;
-
-import com.ibm.icu.util.Calendar;
 
 @SourceMonitored
 public class ObjectTypeTests extends GenericTestCaseBase {
@@ -75,7 +74,7 @@ public class ObjectTypeTests extends GenericTestCaseBase {
         map.put("two", "2");
         map.put("three", "3");
         set = new LinkedHashSet<Object>(list);
-        Calendar cal = UtilDateTime.getCalendarInstance(localeData.goodTimeZone, localeData.goodLocale);
+        Calendar cal = Calendar.getInstance(localeData.goodTimeZone, localeData.goodLocale);
         cal.set(1969, Calendar.DECEMBER, 31, 0, 0, 0);
         cal.set(Calendar.MILLISECOND, 0);
         sqlDt = new java.sql.Date(cal.getTimeInMillis());

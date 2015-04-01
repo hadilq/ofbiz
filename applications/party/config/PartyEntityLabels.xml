@@ -893,7 +893,7 @@
         <value xml:lang="it">Indirizzo Primario Email</value>
         <value xml:lang="ja">主Eメールアドレス</value>
         <value xml:lang="nl">Primair emailadres</value>
-        <value xml:lang="pt_BR">E-mail principal</value>        
+        <value xml:lang="pt_BR">E-mail principal</value>
         <value xml:lang="ro">Adresa Primara Email</value>
         <value xml:lang="ru">Основной адрес эл.почты</value>
         <value xml:lang="th">ที่อยู่อีเมล์ที่สำคัญ</value>
@@ -2045,6 +2045,10 @@
         <value xml:lang="zh">账户</value>
         <value xml:lang="zh_TW">賬戶</value>
     </property>
+    <property key="RoleType.description.MAIN_ROLE">
+        <value xml:lang="en">Main Role</value>
+        <value xml:lang="fa">وظیفه اصلی</value>
+    </property>
     <property key="RoleType.description.ACCOUNT_LEAD">
         <value xml:lang="en">Account Lead</value>
         <value xml:lang="es">Cuenta lead</value>
@@ -3083,6 +3087,10 @@
         <value xml:lang="zh">制造商</value>
         <value xml:lang="zh_TW">制造商</value>
     </property>
+    <property key="RoleType.description.IMAGEAPPROVER">
+        <value xml:lang="en">Image Approver</value>
+        <value xml:lang="fa">تصویب‌گر عکس</value>
+    </property>
     <property key="RoleType.description.ORDER_CLERK">
         <value xml:lang="de">Einkäufer</value>
         <value xml:lang="en">Order Clerk</value>
@@ -3490,6 +3498,10 @@
         <value xml:lang="zh">管理机构</value>
         <value xml:lang="zh_TW">管理機構</value>
     </property>
+    <property key="RoleType.description.REQUEST_ROLE">
+        <value xml:lang="en">Request Role</value>
+        <value xml:lang="fa">وظیفه درخواست</value>
+    </property>
     <property key="RoleType.description.REQ_MANAGER">
         <value xml:lang="de">Anfragemanager</value>
         <value xml:lang="en">Request Manager</value>
@@ -3540,6 +3552,14 @@
         <value xml:lang="vi">Người lấy yêu cầu</value>
         <value xml:lang="zh">请求接受者</value>
         <value xml:lang="zh_TW">要求接受者</value>
+    </property>
+    <property key="RoleType.description.REQ_RESPOND">
+        <value xml:lang="en">Request Respondent</value>
+        <value xml:lang="fa">پاسخگوی درخواست</value>
+    </property>
+    <property key="RoleType.description.SFA_ROLE">
+        <value xml:lang="en">Sales Force Autm.</value>
+        <value xml:lang="fa">مدیریت نیروی فروش (SFA)</value>
     </property>
     <property key="RoleType.description.REVIEWER">
         <value xml:lang="de">Prüfer</value>
@@ -3887,6 +3907,10 @@
         <value xml:lang="vi">Quy trình</value>
         <value xml:lang="zh">工作流</value>
         <value xml:lang="zh_TW">工作流</value>
+    </property>
+    <property key="RoleType.description.ACCOUNTANT">
+        <value xml:lang="en">Accountant</value>
+        <value xml:lang="fa">حسابدار</value>
     </property>
     <property key="RoleType.description._NA_">
         <value xml:lang="de">Nicht anwendbar</value>

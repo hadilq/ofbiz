@@ -568,10 +568,15 @@ public class MacroFormRenderer implements FormStringRenderer {
                     value = UtilDateTime.toDateTimeStringByContext(date, context);
                 }
                 catch (ConversionException e) {
-                    String errMsg = "Error formatting date/time using default instead [" + ((String) objVal) + "]: " + e.toString();
-                    Debug.logError(e, errMsg, module);
-                    // create default date value from timestamp string
-                    value = ((String) objVal).substring(0,16);
+                    try {
+                        // create default dateTime value from timestamp string
+                        value = ((String) objVal).substring(0,16);
+                    } catch (java.lang.StringIndexOutOfBoundsException e2) {
+                        String errMsg = "Error using substring(0, 16) for [" + ((String) objVal) + "]: " + e.toString();
+                        Debug.logError(e, errMsg, module);
+                        // create default date value from timestamp string
+                        value = ((String) objVal);
+                    }
                 }
             }
         }
