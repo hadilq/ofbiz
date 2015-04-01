@@ -18,7 +18,7 @@ specific language governing permissions and limitations
 under the License.
 -->
 
-<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:noNamespaceSchemaLocation="http://ofbiz.apache.org/dtds/widget-form.xsd">
     <form name="ListSkillTypes" type="multi" title="" target="updateSkillType"
         odd-row-style="alternate-row" header-row-style="header-row-2" default-table-style="basic-table hover-bar">
@@ -135,7 +135,7 @@ under the License.
     <form name="ListEmplPositionTypeRates" type="list" title="" target="deleteEmplPositionTypeRate"
         odd-row-style="alternate-row" header-row-style="header-row-2" default-table-style="basic-table hover-bar">
         <actions>
-            <set field="nowDate" value="${bsh:org.ofbiz.base.util.UtilDateTime.nowDateString(&quot;yyyy-MM-dd HH:mm:ss.S&quot;)}" type="String"/>
+            <set field="nowDate" value="${groovy: org.ofbiz.base.util.UtilDateTime.nowDateTimeStringByContext(context)}" type="String"/>
             <entity-condition entity-name="EmplPositionTypeRateAndAmount" filter-by-date="true">
                 <condition-list combine="and">
                     <condition-expr field-name="emplPositionTypeId" from-field="parameters.emplPositionTypeId" operator="equals"/>
@@ -226,8 +226,8 @@ under the License.
         <field name="jobInterviewTypeId"><display/></field>
         <field name="description" title="${uiLabelMap.CommonDescription}"><text/></field>
         <field name="deleteLink" title="${uiLabelMap.CommonDelete}" widget-style="buttontext">
-            <hyperlink also-hidden="false" description="${uiLabelMap.CommonDelete}" target="deleteJobInterviewType"> 
-                <parameter param-name="jobInterviewTypeId"/> 
+            <hyperlink also-hidden="false" description="${uiLabelMap.CommonDelete}" target="deleteJobInterviewType">
+                <parameter param-name="jobInterviewTypeId"/>
             </hyperlink>
         </field>
         <field name="_rowSubmit" title="${uiLabelMap.CommonSelect}"><hidden value="Y"/></field>
@@ -238,7 +238,7 @@ under the License.
         <field name="description" title="${uiLabelMap.CommonDescription}" tooltip="${uiLabelMap.CommonRequired}" widget-style="required"><text/></field>
         <field name="submitButton" title="${uiLabelMap.CommonCreate}" widget-style="buttontext"><submit button-type="text-link"/></field>
     </form>
-    <form name="ListTrainingTypes" type="multi" title="" target="updateTrainingTypes" odd-row-style="alternate-row" header-row-style="header-row-2" 
+    <form name="ListTrainingTypes" type="multi" title="" target="updateTrainingTypes" odd-row-style="alternate-row" header-row-style="header-row-2"
         default-table-style="basic-table hover-bar">
         <actions>
             <entity-condition entity-name="TrainingClassType"><order-by field-name="trainingClassTypeId"/></entity-condition>
@@ -247,13 +247,13 @@ under the License.
         <field name="parentTypeId" title="${uiLabelMap.HumanResPreRequisiteSkill}" widget-style="buttontext"><text/></field>
         <field name="description" title="${uiLabelMap.CommonDescription}"><text/></field>
         <field name="deleteLink" title="${uiLabelMap.CommonDelete}" widget-style="buttontext">
-           <hyperlink also-hidden="false" description="${uiLabelMap.CommonDelete}" target="deleteTrainingTypes"> 
-                <parameter param-name="trainingClassTypeId"/> 
+           <hyperlink also-hidden="false" description="${uiLabelMap.CommonDelete}" target="deleteTrainingTypes">
+                <parameter param-name="trainingClassTypeId"/>
             </hyperlink>
         </field>
         <field name="_rowSubmit" title="${uiLabelMap.CommonSelect}"><hidden value="Y"/></field>
         <field name="submitButton" title="${uiLabelMap.CommonSubmit}" widget-style="smallSubmit"><submit/></field>
-    </form>            
+    </form>
     <form name="AddTrainingTypes" type="single" target="createTrainingTypes" header-row-style="header-row" default-table-style="basic-table">
         <field name="trainingClassTypeId" title="${uiLabelMap.HumanResTrainingClassType}" tooltip="${uiLabelMap.CommonRequired}" widget-style="required"><text/></field>
         <field name="parentTypeId" title="${uiLabelMap.HumanResPreRequisiteSkill}"><lookup target-form-name="LookupTraining"/></field>

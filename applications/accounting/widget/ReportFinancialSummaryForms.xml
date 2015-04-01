@@ -473,7 +473,7 @@ under the License.
                 </entity-options>
             </drop-down>
         </field>
-        <field name="timePeriod">
+        <field name="timePeriod"  title="${uiLabelMap.AccountingTimePeriod}">
             <drop-down>
                 <list-options list-name="customTimePeriods" key-name="customTimePeriodId" description="${fromDate} - ${thruDate}"/>
             </drop-down>

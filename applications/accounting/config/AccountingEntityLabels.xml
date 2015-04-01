@@ -374,6 +374,10 @@
         <value xml:lang="zh">购货发票</value>
         <value xml:lang="zh_TW">購貨發票</value>
     </property>
+    <property key="AcctgTransType.description.CUST_RTN_INVOICE">
+        <value xml:lang="en">Customer Return</value>
+        <value xml:lang="fa">بازگشته مشتری</value>
+    </property>
     <property key="AcctgTransType.description.RECEIPT">
         <value xml:lang="de">Beleg</value>
         <value xml:lang="en">Receipt</value>
@@ -1935,6 +1939,14 @@
         <value xml:lang="vi">Khả trả từ chuyển nhượng kho VÀO</value>
         <value xml:lang="zh">调入库存应付</value>
         <value xml:lang="zh_TW">調入庫存應付</value>
+    </property>
+    <property key="GlAccountType.description.ACCPAYABLE_UNAPPLIED">
+        <value xml:lang="en">Accounts Payable - Unapplied Payments</value>
+        <value xml:lang="fa">پرداختنی حساب‌ها - پرداخت‌های واریزنشده</value>
+    </property>
+    <property key="GlAccountType.description.ACCREC_UNAPPLIED">
+        <value xml:lang="en">Accounts Receivable - Unapplied Payments</value>
+        <value xml:lang="fa">دریافتنی حساب‌ها - پرداخت‌های واریزنشده</value>
     </property>
     <property key="GlAccountType.description.INVENTORY_XFER_OUT">
         <value xml:lang="de">Forderungen aus Umlagerungensausgängen</value>
@@ -5265,6 +5277,22 @@
         <value xml:lang="ja">標準レート</value>
         <value xml:lang="vi">Tỷ lệ chuẩn</value>
         <value xml:lang="zh">标准费率</value>
+    </property>
+    <property key="PeriodType.description.RATE_HOUR">
+        <value xml:lang="en">Rate amount per Hour</value>
+        <value xml:lang="fa">مقدار نرخ بر ساعت</value>
+    </property>
+    <property key="PeriodType.description.RATE_WEEK">
+        <value xml:lang="en">Rate amount per Week</value>
+        <value xml:lang="fa">مقدار نرخ بر هفته</value>
+    </property>
+    <property key="PeriodType.description.RATE_MONTH">
+        <value xml:lang="en">Rate amount per month</value>
+        <value xml:lang="fa">مقدار نرخ بر ماه</value>
+    </property>
+    <property key="PeriodType.description.RATE_QUARTER">
+        <value xml:lang="en">Rate amount per Quarter</value>
+        <value xml:lang="fa">مقدار نرخ بر فصل</value>
     </property>
     <property key="TaxAuthorityAssocType.description.COLLECT_AGENT">
         <value xml:lang="de">Inkassobevollmächtigter</value>

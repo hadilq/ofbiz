@@ -163,6 +163,16 @@ public class Calendar {
         return cal;
     }
 
+    public static Calendar getInstance(com.ibm.icu.util.TimeZone zone) {
+        Calendar cal = new Calendar();
+        if (isICU) {
+            cal.icuCalendar = com.ibm.icu.util.Calendar.getInstance(zone);
+        } else {
+            cal.locale = Locale.getDefault();
+            cal.javaCalendar = java.util.Calendar.getInstance(fromICUTimeZone(zone));
+        }
+        return cal;
+    }
 
     public static Calendar getInstance(Locale aLocale) {
         Calendar cal = new Calendar();
@@ -172,7 +182,7 @@ public class Calendar {
             if (aLocale == null) {
                 cal.locale = Locale.getDefault();
             } else {
-                cal.locale = (Locale) aLocale.clone();
+                cal.locale = aLocale;
             }
             cal.javaCalendar = java.util.Calendar.getInstance(aLocale);
         }
@@ -191,7 +201,7 @@ public class Calendar {
             if (aLocale == null) {
                 cal.locale = Locale.getDefault();
             } else {
-                cal.locale = (Locale) aLocale.clone();
+                cal.locale = aLocale;
             }
             cal.javaCalendar = java.util.Calendar.getInstance(zone, aLocale);
         }
@@ -309,16 +319,16 @@ public class Calendar {
 
     public boolean before(Object when) {
         if (isICU) {
-            return icuCalendar.before(when);
+            return icuCalendar.before(((Calendar) when).icuCalendar);
         }
-        return javaCalendar.before(when);
+        return javaCalendar.before(((Calendar) when).javaCalendar);
     }
 
     public boolean after(Object when) {
         if (isICU) {
-            return icuCalendar.after(when);
+            return icuCalendar.after(((Calendar) when).icuCalendar);
         }
-        return javaCalendar.after(when);
+        return javaCalendar.after(((Calendar) when).javaCalendar);
     }
 
     public int compareTo(Calendar anotherCalendar) {
@@ -446,10 +456,14 @@ public class Calendar {
     }
 
     public Object clone() {
+        Calendar cal = new Calendar();
         if (isICU) {
-            return icuCalendar.clone();
+            cal.icuCalendar = (com.ibm.icu.util.Calendar) icuCalendar.clone();
+        } else {
+            cal.locale = (Locale) locale.clone();
+            cal.javaCalendar = (java.util.Calendar) javaCalendar.clone();
         }
-        return javaCalendar.clone();
+        return cal;
     }
 
     public String toString() {

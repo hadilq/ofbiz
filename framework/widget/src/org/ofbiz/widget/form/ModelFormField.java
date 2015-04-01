@@ -2208,21 +2208,27 @@ public class ModelFormField {
                 if (ObjRetVal instanceof Timestamp){
                     date = new Date(((Timestamp) ObjRetVal).getTime());
                     retVal = UtilDateTime.toDateStringByContext(date, context);
-                } else {
+                } else {// FIXME: There shouldn't be any string date here! but they are!
                     StringToTimestamp stringToTimestamp = new DateTimeConverters.StringToTimestamp();
 
-                    try { // FIXME: There shouldn't be any string date here! but they are!
-                        Timestamp timestamp = null;
+                    Timestamp timestamp = null;
+                    try {
                         timestamp = stringToTimestamp.convert((String) ObjRetVal, context);
                         date = new Date(timestamp.getTime());
 
                         retVal = UtilDateTime.toDateStringByContext(date, context);
                     }
                     catch (ConversionException e) {
-                        String errMsg = "Error formatting date using default instead [" + retVal + "]: " + e.toString();
-                        Debug.logError(e, errMsg, module);
-                        // create default date value from timestamp string
-                        retVal = ((String) ObjRetVal).substring(0,10);
+                        try {
+                            // create default dateTime value from timestamp string
+                            retVal = ((String) ObjRetVal).substring(0,10);
+                        } catch (java.lang.StringIndexOutOfBoundsException e2) {
+                            String errMsg = "Error formatting date using default instead [" + retVal + "]: " + e.toString();
+                            Debug.logError(e, errMsg, module);
+                            // create default date value from timestamp string
+                            retVal = ((String) ObjRetVal);
+                        }
+
                     }
                 }
 
@@ -2245,10 +2251,15 @@ public class ModelFormField {
                         retVal  = UtilDateTime.toDateTimeStringByContext(date, context);
                     }
                     catch (ConversionException e) {
-                        String errMsg = "Error formatting date/time using default instead [" + retVal + "]: " + e.toString();
-                        Debug.logError(e, errMsg, module);
-                        // create default date/time value from timestamp string
-                        retVal = ((String) ObjRetVal).substring(0,16);
+                        try {
+                            // create default dateTime value from timestamp string
+                            retVal = ((String) ObjRetVal).substring(0,16);
+                        } catch (java.lang.StringIndexOutOfBoundsException e2) {
+                            String errMsg = "Error formatting date using default instead [" + retVal + "]: " + e.toString();
+                            Debug.logError(e, errMsg, module);
+                            // create default date value from timestamp string
+                            retVal = ((String) ObjRetVal);
+                        }
                     }
                 }
 

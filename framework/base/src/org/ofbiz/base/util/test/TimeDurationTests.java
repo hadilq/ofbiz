@@ -18,12 +18,10 @@
  *******************************************************************************/
 package org.ofbiz.base.util.test;
 
-//import com.ibm.icu.util.Calendar;
-//import com.ibm.icu.util.TimeZone;
-import com.ibm.icu.util.Calendar;
 import com.ibm.icu.util.TimeZone;
 
 import org.ofbiz.base.lang.SourceMonitored;
+import org.ofbiz.base.util.Calendar;
 import org.ofbiz.base.util.TimeDuration;
 import org.ofbiz.base.test.GenericTestCaseBase;
 
@@ -161,7 +159,8 @@ public class TimeDurationTests extends GenericTestCaseBase {
         assertDuration("day",  0, 0, 1, 0, 0, 0, 0);
         assertDuration("month", 0, 1, 0, 0, 0, 0, 0);
         assertDuration("year", 1, 0, 0, 0, 0, 0, 0);
-        Calendar start = new com.ibm.icu.util.GregorianCalendar(1967, 1, 1, 0, 0, 0);
+        Calendar start = Calendar.getInstance();
+        start.set(1967, 1, 1, 0, 0, 0);
         start.set(Calendar.MILLISECOND, 0);
         Calendar end = (Calendar) start.clone();
         end.add(Calendar.MILLISECOND, 1);
