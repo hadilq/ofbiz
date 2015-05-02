@@ -98,6 +98,9 @@ the location of this file.
         <font kerning="yes" embed-url="/usr/share/fonts/truetype/tahoma.ttf">
             <font-triplet name="Tahoma" style="normal" weight="normal"/>
         </font>
+        <font kerning="yes" embed-url="/usr/share/fonts/truetype/Tahoma-Bold.ttf">
+            <font-triplet name="Tahoma" style="normal" weight="bold"/>
+        </font>
       </fonts>
 
       <!-- This option lets you specify additional options on an XML handler -->
